@@ -24,6 +24,26 @@
     "coinGeckoId": ""
   },
   {
+    "denom": "ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>cosmos",
+    "channel": "channel-141",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-0",
+        "port": "transfer",
+        "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  },
+  {
     "denom": "poolE71FE13681A283B7015E4E4C4852B0EDA72CC97A5CDE2ECA2A6C8C06C86AC775",
     "type": "pool",
     "origin_chain": "cosmos",
@@ -177,25 +197,6 @@
     "decimal": 6,
     "description": "pool/15",
     "image": "cosmos/pool.png"
-  },
-  {
-    "denom": "ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC",
-    "type": "ibc",
-    "origin_denom": "uosmo",
-    "origin_type": "staking",
-    "symbol": "OSMO",
-    "origin_chain": "osmosis",
-    "decimal": 6,
-    "path": "osmosis>cosmos",
-    "channel": "channel-141",
-    "port": "transfer",
-    "counter_party": {
-        "channel": "channel-0",
-        "port": "transfer",
-        "denom": "uosmo"
-    },
-    "image": "common/osmo.png",
-    "coinGeckoId": "osmosis"
   },
   {
     "denom": "ibc/5BB694D466CCF099EF73F165F88472AF51D9C4991EAA42BD1168C5304712CC0D",

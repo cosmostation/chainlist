@@ -1,12 +1,21 @@
 [
   {
-    "id": -1,
-    "chain": "juno",
-    "contract_address": "juno1pqht3pkhr5fpyre2tw3ltrzc0kvxknnsgt04thym9l7n2rmxgw0sgefues",
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1pqht3pkhr5fpyre2tw3ltrzc0kvxknnsgt04thym9l7n2rmxgw0sgefues",
     "symbol": "DAO",
+    "description": "Dao on Juno",
     "decimal": 6,
-    "image": "juno/dao.png"
+    "image": "juno/dao.png",
+    "default": false,
+    "coinGeckoId": "evmos"
   },
+
+
+
+
+
+
   {
     "chain": "juno",
     "contract_address": "juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
