@@ -1,0 +1,54 @@
+[
+  {
+    "denom": "uband",
+    "type": "staking",
+    "origin_chain": "band",
+    "origin_denom": "uband",
+    "origin_type": "staking",
+    "symbol": "BAND",
+    "decimal": 6,
+    "description": "BAND Staking Coin",
+    "image": "band/asset/band.png",
+    "coinGeckoId": "band-protocol"
+  },
+  {
+    "denom": "ibc/1005CD468908E4EB83A7E3D4A68E90128D073E3A85611B8B424320F306C508E1",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uion",
+    "origin_type": "native",
+    "symbol": "ION",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>band",
+    "channel": "channel-83",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-148",
+        "port": "transfer",
+        "denom": "uion"
+    },
+    "image": "osmosis/asset/ion.png",
+    "coinGeckoId": "ion"
+  },
+  {
+    "denom": "ibc/6B8531505147C9FF2AC90BC096AEC5D8E77EE3582874640FA5FE4E4FB382D2AC",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>band",
+    "channel": "channel-83",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-148",
+        "port": "transfer",
+        "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  }
+]
