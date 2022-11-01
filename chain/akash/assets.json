@@ -1,0 +1,194 @@
+[
+  {
+    "denom": "uakt",
+    "type": "staking",
+    "origin_chain": "akash",
+    "origin_denom": "uakt",
+    "origin_type": "staking",
+    "symbol": "AKT",
+    "decimal": 6,
+    "description": "Akash Staking Coin",
+    "image": "akash/asset/akt.png",
+    "coinGeckoId": "akash-network"
+  },
+  {
+    "denom": "ibc/2E5D0AC026AC1AFA65A23023BA4F24BB8DDF94F118EDC0BAD6F625BFC557CDED",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimal": 6,
+    "enable": true,
+    "path": "cosmos>akash",
+    "channel": "channel-17",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-184",
+        "port": "transfer",
+        "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/1849A429022CBAAB619074CA4412D0016F262218BE6DD828BA8A3DD97D6B52BB",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "ujuno",
+    "origin_type": "staking",
+    "symbol": "JUNO",
+    "decimal": 6,
+    "enable": true,
+    "path": "juno>akash",
+    "channel": "channel-35",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-29",
+        "port": "transfer",
+        "denom": "ujuno"
+    },
+    "image": "juno/asset/juno.png",
+    "coinGeckoId": "juno-network"
+  },
+  {
+    "denom": "ibc/B567D2C79ED9D9D78B5761E8E4D261C7013E349518FD499D42B2BD1B81266DD6",
+    "type": "ibc",
+    "origin_chain": "kava",
+    "origin_denom": "ukava",
+    "origin_type": "staking",
+    "symbol": "KAVA",
+    "decimal": 6,
+    "enable": true,
+    "path": "kava>akash",
+    "channel": "channel-37",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-5",
+        "port": "transfer",
+        "denom": "ukava"
+    },
+    "image": "kava/asset/kava.png",
+    "coinGeckoId": "kava"
+  },
+  {
+    "denom": "ibc/3A67DDC3D4035596F1E4D5B563F434ED3FB0CD06169AE4779FB224CE5EF757A7",
+    "type": "ibc",
+    "origin_chain": "kava",
+    "origin_denom": "swp",
+    "origin_type": "native",
+    "symbol": "SWP",
+    "decimal": 6,
+    "enable": true,
+    "path": "kava>akash",
+    "channel": "channel-37",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-5",
+        "port": "transfer",
+        "denom": "swp"
+    },
+    "image": "kava/asset/swp.png",
+    "coinGeckoId": "kava-swap"
+  },
+  {
+    "denom": "ibc/9554B3A33B18F2FA7492E2EBB4D128FD98D812BB182B12CC6BCB5E94161E2C10",
+    "type": "ibc",
+    "origin_chain": "kava",
+    "origin_denom": "hard",
+    "origin_type": "native",
+    "symbol": "HARD",
+    "decimal": 6,
+    "enable": true,
+    "path": "kava>akash",
+    "channel": "channel-37",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-5",
+        "port": "transfer",
+        "denom": "hard"
+    },
+    "image": "kava/asset/hard.png",
+    "coinGeckoId": "kava-lend"
+  },
+  {
+    "denom": "ibc/F5CCE0AC7102584371EBA8A2C7B1094EAE554994B91B0511581BD2AB0237ED62",
+    "type": "ibc",
+    "origin_chain": "kava",
+    "origin_denom": "usdx",
+    "origin_type": "native",
+    "symbol": "USDX",
+    "decimal": 6,
+    "enable": true,
+    "path": "kava>akash",
+    "channel": "channel-37",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-5",
+        "port": "transfer",
+        "denom": "usdx"
+    },
+    "image": "kava/asset/usdx.png",
+    "coinGeckoId": "usdx"
+  },
+  {
+    "denom": "ibc/AAFAD8AC1A29CDA9985742B9DE3C32C1163798919C0B3A4C339A70D5F49D1E15",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uion",
+    "origin_type": "native",
+    "symbol": "ION",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>akash",
+    "channel": "channel-9",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-1",
+        "port": "transfer",
+        "denom": "uion"
+    },
+    "image": "osmosis/asset/ion.png",
+    "coinGeckoId": "ion"
+  },
+  {
+    "denom": "ibc/B4F8297D4C270E82BDF11D51FD51A9FD23B0958B98B1E08346477452119E7D70",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>akash",
+    "channel": "channel-9",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-1",
+        "port": "transfer",
+        "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  },
+  {
+    "denom": "ibc/8DF58513AF8A608CD13929F5300EBCBD034FAFBA284691E8FC414A193F57529C",
+    "type": "ibc",
+    "origin_chain": "sifchain",
+    "origin_denom": "rowan",
+    "origin_type": "staking",
+    "symbol": "ROWAN",
+    "decimal": 18,
+    "enable": true,
+    "path": "sifchain>akash",
+    "channel": "channel-24",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-2",
+        "port": "transfer",
+        "denom": "rowan"
+    },
+    "image": "sifchain/asset/rowan.png",
+    "coinGeckoId": "sifchain"
+  }
+]
