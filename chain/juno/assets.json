@@ -8,7 +8,7 @@
     "symbol": "JUNO",
     "decimal": 6,
     "description": "JUNO Staking Coin",
-    "image": "/asset/juno.png",
+    "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
   },
   {
@@ -28,7 +28,7 @@
         "port": "transfer",
         "denom": "uosmo"
     },
-    "image": "/asset/osmo.png",
+    "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
   },
   {
@@ -48,7 +48,7 @@
         "port": "transfer",
         "denom": "uion"
     },
-    "image": "osmosis/ion.png",
+    "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
   },
   {
@@ -68,7 +68,7 @@
         "port": "transfer",
         "denom": "ubtsg"
     },
-    "image": "/asset/btsg.png",
+    "image": "bitsong/asset/btsg.png",
     "coinGeckoId": "bitsong"
   },
   {
@@ -88,7 +88,7 @@
         "port": "transfer",
         "denom": "uatolo"
     },
-    "image": "/asset/atolo.png",
+    "image": "rizon/asset/atolo.png",
     "coinGeckoId": "rizon"
   },
   {
@@ -108,7 +108,7 @@
         "port": "transfer",
         "denom": "ustars"
     },
-    "image": "/asset/stars.png",
+    "image": "stargaze/asset/stars.png",
     "coinGeckoId": "stargaze"
   },
   {
@@ -128,7 +128,7 @@
         "port": "transfer",
         "denom": "uhuahua"
     },
-    "image": "/asset/huahua.png",
+    "image": "chihuahua/asset/huahua.png",
     "coinGeckoId": "chihuahua-token"
   },
   {
@@ -148,7 +148,7 @@
         "port": "transfer",
         "denom": "udig"
     },
-    "image": "/asset/dig.png",
+    "image": "digchain/asset/dig.png",
     "coinGeckoId": "dig-chain"
   },
   {
@@ -168,7 +168,7 @@
         "port": "transfer",
         "denom": "uxprt"
     },
-    "image": "/asset/xprt.png",
+    "image": "persistence/asset/xprt.png",
     "coinGeckoId": "persistence"
   },
   {
@@ -188,7 +188,7 @@
         "port": "transfer",
         "denom": "ucmdx"
     },
-    "image": "/asset/cmdx.png",
+    "image": "comdex/asset/cmdx.png",
     "coinGeckoId": "comdex"
   },
   {
@@ -208,7 +208,7 @@
         "port": "transfer",
         "denom": "uakt"
     },
-    "image": "/asset/akt.png",
+    "image": "akash/asset/akt.png",
     "coinGeckoId": "akash-network"
   },
   {
@@ -228,7 +228,7 @@
         "port": "transfer",
         "denom": "uatom"
     },
-    "image": "/asset/atom.png",
+    "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
   },
   {
@@ -248,7 +248,7 @@
         "port": "transfer",
         "denom": "rowan"
     },
-    "image": "/asset/rowan.png",
+    "image": "sifchain/asset/rowan.png",
     "coinGeckoId": "sifchain"
   },
   {
@@ -268,7 +268,7 @@
         "port": "transfer",
         "denom": "uscrt"
     },
-    "image": "/asset/scrt.png",
+    "image": "secret/asset/scrt.png",
     "coinGeckoId": "secret"
   },
   {
@@ -288,7 +288,7 @@
         "port": "transfer",
         "denom": "ubcna"
     },
-    "image": "/asset/bcna.png",
+    "image": "bitcanna/asset/bcna.png",
     "coinGeckoId": "bitcanna"
   },
   {
@@ -308,7 +308,7 @@
         "port": "transfer",
         "denom": "ungm"
     },
-    "image": "/asset/ngm.png",
+    "image": "emoney/asset/ngm.png",
     "coinGeckoId": "e-money"
   },
   {
@@ -328,7 +328,7 @@
         "port": "transfer",
         "denom": "eeur"
     },
-    "image": "emoney/eeur.png",
+    "image": "emoney/asset/eeur.png",
     "coinGeckoId": "e-money-eur"
   },
   {
@@ -348,7 +348,7 @@
         "port": "transfer",
         "denom": "uusdc"
     },
-    "image": "ethereum/usdc.png",
+    "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   }
