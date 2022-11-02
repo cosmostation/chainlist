@@ -1,0 +1,54 @@
+[
+  {
+    "denom": "udarc",
+    "type": "staking",
+    "origin_chain": "konstellation",
+    "origin_denom": "udarc",
+    "origin_type": "staking",
+    "symbol": "DARC",
+    "decimal": 6,
+    "description": "Konstellation Staking Coin",
+    "image": "konstellation/asset/darc.png",
+    "coinGeckoId": "darcmatter-coin"
+  },
+  {
+    "denom": "ibc/F7E92EE59B5428793F3EF5C1A4CB2494F61A9D0C9A69469D02390714A1372E16",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uion",
+    "origin_type": "native",
+    "symbol": "ION",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>konstellation",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-171",
+        "port": "transfer",
+        "denom": "uion"
+    },
+    "image": "osmosis/asset/ion.png",
+    "coinGeckoId": "ion"
+  },
+  {
+    "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>konstellation",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-171",
+        "port": "transfer",
+        "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  }
+]
