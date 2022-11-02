@@ -44,9 +44,9 @@
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-xxxxx",
+        "channel": "channel-229",
         "port": "transfer",
-        "denom": "xxxxx"
+        "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
