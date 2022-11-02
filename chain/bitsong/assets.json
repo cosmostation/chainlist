@@ -68,7 +68,7 @@
         "port": "transfer",
         "denom": "uosmo"
     },
-    "image": "/asset/osmo.png",
+    "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
   },
   {
@@ -88,7 +88,7 @@
         "port": "transfer",
         "denom": "uion"
     },
-    "image": "osmosis/ion.png",
+    "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
   }
 ]
