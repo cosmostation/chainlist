@@ -1,0 +1,71 @@
+[
+  {
+    "denom": "ucmdx",
+    "type": "staking",
+    "origin_chain": "comdex",
+    "origin_denom": "ucmdx",
+    "origin_type": "staking",
+    "symbol": "CMDX",
+    "decimal": 6,
+    "description": "Comdex Staking Coin",
+    "image": "comdex/asset/cmdx.png",
+    "coinGeckoId": "comdex"
+  },
+  {
+    "denom": "ibc/167E3D88D71B7D2F6308D3EF93FC3DD51932B2D9672D72B71418F61CBC5F5717",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "ujuno",
+    "origin_type": "staking",
+    "symbol": "JUNO",
+    "decimal": 6,
+    "enable": true,
+    "path": "juno>comdex",
+    "channel": "channel-18",
+    "counter_party": {
+        "channel": "channel-36",
+        "port": "transfer",
+        "denom": "ujuno"
+    },
+    "image": "juno/asset/juno.png",
+    "coinGeckoId": "juno-network"
+  },
+  {
+    "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>comdex",
+    "channel": "channel-1",
+    "counter_party": {
+        "channel": "channel-87",
+        "port": "transfer",
+        "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  },
+  {
+    "denom": "ibc/EA7DF7F779C7F14E07172E5713E07356B55F01496CA649DDE46CF8FBF1A8466D",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uion",
+    "origin_type": "native",
+    "symbol": "ION",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>comdex",
+    "channel": "channel-1",
+    "counter_party": {
+        "channel": "channel-87",
+        "port": "transfer",
+        "denom": "uion"
+    },
+    "image": "osmosis/asset/ion.png",
+    "coinGeckoId": "ion"
+  }
+]
