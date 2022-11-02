@@ -1,0 +1,202 @@
+[
+  {
+    "denom": "ukava",
+    "type": "staking",
+    "origin_chain": "kava",
+    "origin_denom": "ukava",
+    "origin_type": "staking",
+    "symbol": "KAVA",
+    "decimal": 6,
+    "description": "Kava Staking Coin",
+    "image": "kava/asset/kava.png",
+    "coinGeckoId": "kava"
+  },
+  {
+    "denom": "swp",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "swp",
+    "origin_type": "native",
+    "symbol": "SWP",
+    "decimal": 6,
+    "description": "Kava Swap Coin",
+    "image": "kava/asset/swp.png",
+    "coinGeckoId": "kava-swap"
+  },
+  {
+    "denom": "usdx",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "usdx",
+    "origin_type": "native",
+    "symbol": "USDX",
+    "decimal": 6,
+    "description": "USD Stable Asset",
+    "image": "kava/asset/usdx.png",
+    "coinGeckoId": "usdx"
+  },
+  {
+    "denom": "hard",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "hard",
+    "origin_type": "native",
+    "symbol": "HARD",
+    "decimal": 6,
+    "description": "HardPool Gov. Coin",
+    "image": "kava/asset/hard.png",
+    "coinGeckoId": "kava-lend"
+  },
+  {
+    "denom": "debt",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "debt",
+    "origin_type": "native",
+    "symbol": "DEBT",
+    "decimal": 6,
+    "description": "System Total Debt",
+    "image": "kava/asset/debt.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "hbtc",
+    "type": "bridge",
+    "origin_chain": "huobi",
+    "origin_denom": "hbtc",
+    "origin_type": "bridge",
+    "symbol": "HBTC",
+    "decimal": 8,
+    "description": "HBTC on Kava Chain",
+    "image": "kava/asset/hbtc.png",
+    "coinGeckoId": "huobi-btc"
+  },
+  {
+    "denom": "bnb",
+    "type": "bridge",
+    "origin_chain": "bnb-beacon-chain",
+    "origin_denom": "bnb",
+    "origin_type": "bep2",
+    "symbol": "BNB",
+    "decimal": 8,
+    "path": "bnb-beacon-chain>kava",
+    "image": "bnb-beacon-chain/asset/bnb.png",
+    "coinGeckoId": "binancecoin"
+  },
+  {
+    "denom": "btcb",
+    "type": "bridge",
+    "origin_chain": "bnb-beacon-chain",
+    "origin_denom": "btcb",
+    "origin_type": "bep2",
+    "symbol": "BTCB",
+    "decimal": 8,
+    "path": "bnb-beacon-chain>kava",
+    "image": "bnb-beacon-chain/asset/btcb.png",
+    "coinGeckoId": "bitcoin-bep2"
+  },
+  {
+    "denom": "busd",
+    "type": "bridge",
+    "origin_chain": "bnb-beacon-chain",
+    "origin_denom": "busd",
+    "origin_type": "bep2",
+    "symbol": "BUSD",
+    "decimal": 8,
+    "path": "bnb-beacon-chain>kava",
+    "image": "bnb-beacon-chain/asset/busd.png",
+    "coinGeckoId": "binance-usd"
+  },
+  {
+    "denom": "xrpb",
+    "type": "bridge",
+    "origin_chain": "bnb-beacon-chain",
+    "origin_denom": "xrpb",
+    "origin_type": "bep2",
+    "symbol": "XRPB",
+    "decimal": 8,
+    "path": "bnb-beacon-chain>kava",
+    "image": "bnb-beacon-chain/asset/xrpb.png",
+    "coinGeckoId": "ripple"
+  },
+  {
+    "denom": "ibc/EA7DF7F779C7F14E07172E5713E07356B55F01496CA649DDE46CF8FBF1A8466D",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uion",
+    "origin_type": "native",
+    "symbol": "ION",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>kava",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-143",
+        "port": "transfer",
+        "denom": "uion"
+    },
+    "image": "osmosis/asset/ion.png",
+    "coinGeckoId": "ion"
+  },
+  {
+    "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>kava",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-143",
+        "port": "transfer",
+        "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  },
+  {
+    "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimal": 6,
+    "enable": true,
+    "path": "cosmos>kava",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-277",
+        "port": "transfer",
+        "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/799FDD409719A1122586A629AE8FCA17380351A51C1F47A80A1B8E7F2A491098",
+    "type": "ibc",
+    "origin_chain": "akash",
+    "origin_denom": "uakt",
+    "origin_type": "staking",
+    "symbol": "AKT",
+    "decimal": 6,
+    "enable": true,
+    "path": "akash>kava",
+    "channel": "channel-5",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-37",
+        "port": "transfer",
+        "denom": "uakt"
+    },
+    "image": "akash/asset/akt.png",
+    "coinGeckoId": "akash-network"
+  }
+]
