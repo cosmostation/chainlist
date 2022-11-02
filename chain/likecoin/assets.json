@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "nanolike",
+    "type": "staking",
+    "origin_chain": "likecoin",
+    "origin_denom": "nanolike",
+    "origin_type": "staking",
+    "symbol": "LIKE",
+    "decimal": 9,
+    "description": "LikeCoin Staking Coin",
+    "image": "likecoin/asset/like.png",
+    "coinGeckoId": "likecoin"
+  }
+]
