@@ -1,0 +1,54 @@
+[
+  {
+    "denom": "umed",
+    "type": "staking",
+    "origin_chain": "medibloc",
+    "origin_denom": "umed",
+    "origin_type": "staking",
+    "symbol": "MED",
+    "decimal": 6,
+    "description": "Medibloc Staking Coin",
+    "image": "medibloc/asset/med.png",
+    "coinGeckoId": "medibloc"
+  },
+  {
+    "denom": "ibc/EA7DF7F779C7F14E07172E5713E07356B55F01496CA649DDE46CF8FBF1A8466D",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uion",
+    "origin_type": "native",
+    "symbol": "ION",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>medibloc",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-82",
+        "port": "transfer",
+        "denom": "uion"
+    },
+    "image": "osmosis/asset/ion.png",
+    "coinGeckoId": "ion"
+  },
+  {
+    "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimal": 6,
+    "enable": true,
+    "path": "osmosis>medibloc",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-82",
+        "port": "transfer",
+        "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  }
+]
