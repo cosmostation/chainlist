@@ -8,7 +8,8 @@
     "symbol": "STRD",
     "decimal": 6,
     "description": "Stride Staking Coin",
-    "image": "stride/asset/strd.png"
+    "image": "stride/asset/strd.png",
+    "coinGeckoId": "stride"
   },
   {
     "denom": "stuatom",
