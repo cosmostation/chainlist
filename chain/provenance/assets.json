@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "nhash",
+    "type": "staking",
+    "origin_chain": "provenance",
+    "origin_denom": "nhash",
+    "origin_type": "staking",
+    "symbol": "HASH",
+    "decimal": 9,
+    "description": "Provenance Staking Coin",
+    "image": "provenance/asset/hash.png",
+    "coinGeckoId": "provenance-blockchain"
+  }
+]
