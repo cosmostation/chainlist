@@ -1,0 +1,121 @@
+[
+  {
+    "denom": "ustrd",
+    "type": "staking",
+    "origin_chain": "stride",
+    "origin_denom": "ustrd",
+    "origin_type": "staking",
+    "symbol": "STRD",
+    "decimal": 6,
+    "description": "Stride Staking Coin",
+    "image": "stride/asset/strd.png"
+  },
+  {
+    "denom": "stuatom",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stuatom",
+    "origin_type": "native",
+    "symbol": "stATOM",
+    "decimal": 6,
+    "description": "Stride Staked Atom",
+    "image": "stride/asset/statom.png",
+    "coinGeckoId": "stride-staked-atom"
+  },
+  {
+    "denom": "stustars",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stustars",
+    "origin_type": "native",
+    "symbol": "stSTARS",
+    "decimal": 6,
+    "description": "Stride Staked Stars",
+    "image": "stride/asset/ststars.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "stujuno",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stujuno",
+    "origin_type": "native",
+    "symbol": "stJUNO",
+    "decimal": 6,
+    "description": "Stride Staked Juno",
+    "image": "stride/asset/stjuno.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "stuosmo",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stuosmo",
+    "origin_type": "native",
+    "symbol": "stOSMO",
+    "decimal": 6,
+    "description": "Stride Staked Osmo",
+    "image": "stride/asset/stosmo.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimal": 6,
+    "enable": true,
+    "path": "cosmos>stride",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-391",
+        "port": "transfer",
+        "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/7EAE5BEF3A26B64AFBD89828AFDDB1DC7024A0276D22745201632C40E6E634D0",
+    "type": "ibc",
+    "origin_chain": "stargaze",
+    "origin_denom": "ustars",
+    "origin_type": "staking",
+    "symbol": "STARS",
+    "decimal": 6,
+    "enable": true,
+    "path": "stargaze>stride",
+    "channel": "channel-19",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-106",
+        "port": "transfer",
+        "denom": "ustars"
+    },
+    "image": "stargaze/asset/stars.png",
+    "coinGeckoId": "stargaze"
+  },
+  {
+    "denom": "ibc/DA356E369C3E5CF6A9F1DCD99CE8ED55FBD595E676A5CF033CE784C060492D5A",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "ujuno",
+    "origin_type": "staking",
+    "symbol": "JUNO",
+    "decimal": 6,
+    "enable": true,
+    "path": "juno>stride",
+    "channel": "channel-24",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-139",
+        "port": "transfer",
+        "denom": "ujuno"
+    },
+    "image": "juno/asset/juno.png",
+    "coinGeckoId": "juno-network"
+  }
+]
