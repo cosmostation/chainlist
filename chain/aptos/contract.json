@@ -6,7 +6,7 @@
     "symbol": "APT",
     "description": "Aptos Coin",
     "decimals": 8,
-    "image": "aptos/aptos.png",
+    "image": "aptos/asset/aptos.png",
     "default": false,
     "coinGeckoId": "aptos"
   },
@@ -18,7 +18,7 @@
     "description": "USD Coin (Wormhole)",
     "symbol": "USDC",
     "decimals": 6,
-    "image": "ethereum/usdc.png",
+    "image": "ethereum/asset/usdc.png",
     "default": false,
     "coinGeckoId": "usd-coin"
   },
@@ -30,7 +30,7 @@
     "description": "USD Coin (Wormhole Solana)",
     "symbol": "USDCso",
     "decimals": 6,
-    "image": "ethereum/usdc.png",
+    "image": "ethereum/asset/usdc.png",
     "default": false,
     "coinGeckoId": "usd-coin"    
   },
@@ -42,7 +42,7 @@
     "description": "USD Coin (LayerZero)",
     "symbol": "zUSDC",
     "decimals": 6,
-    "image": "ethereum/usdc.png",
+    "image": "ethereum/asset/usdc.png",
     "default": false,
     "coinGeckoId": "usd-coin"    
   }
