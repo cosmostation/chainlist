@@ -22,6 +22,7 @@
     "enable": true,
     "path": "juno>comdex",
     "channel": "channel-18",
+    "port": "transfer",
     "counter_party": {
         "channel": "channel-36",
         "port": "transfer",
@@ -41,6 +42,7 @@
     "enable": true,
     "path": "osmosis>comdex",
     "channel": "channel-1",
+    "port": "transfer",
     "counter_party": {
         "channel": "channel-87",
         "port": "transfer",
@@ -60,6 +62,7 @@
     "enable": true,
     "path": "osmosis>comdex",
     "channel": "channel-1",
+    "port": "transfer",
     "counter_party": {
         "channel": "channel-87",
         "port": "transfer",
