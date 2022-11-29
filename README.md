@@ -1,7 +1,5 @@
 ## Chain Information By Cosmostation
 
-This repo collect wtih
-
 - Validator's moniker image
 - Asset's symbol, image, denom, decimal
 - Dapp link and description
