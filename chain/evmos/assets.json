@@ -32,26 +32,6 @@
     "coinGeckoId": "cosmos"
   },
   {
-    "denom": "ibc/F7E92EE59B5428793F3EF5C1A4CB2494F61A9D0C9A69469D02390714A1372E16",
-    "type": "ibc",
-    "origin_chain": "osmosis",
-    "origin_denom": "uion",
-    "origin_type": "native",
-    "symbol": "ION",
-    "decimal": 6,
-    "enable": true,
-    "path": "osmosis>evmos",
-    "channel": "channel-0",
-    "port": "transfer",
-    "counter_party": {
-        "channel": "channel-204",
-        "port": "transfer",
-        "denom": "uion"
-    },
-    "image": "osmosis/asset/ion.png",
-    "coinGeckoId": "ion"
-  },
-  {
     "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
     "type": "ibc",
     "origin_chain": "osmosis",
@@ -72,44 +52,24 @@
     "coinGeckoId": "osmosis"
   },
   {
-    "denom": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
+    "denom": "ibc/F7E92EE59B5428793F3EF5C1A4CB2494F61A9D0C9A69469D02390714A1372E16",
     "type": "ibc",
-    "origin_chain": "tgrade",
-    "origin_denom": "utgd",
-    "origin_type": "staking",
-    "symbol": "TGD",
+    "origin_chain": "osmosis",
+    "origin_denom": "uion",
+    "origin_type": "native",
+    "symbol": "ION",
     "decimal": 6,
     "enable": true,
-    "path": "tgrade>evmos",
-    "channel": "channel-34",
+    "path": "osmosis>evmos",
+    "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-9",
+        "channel": "channel-204",
         "port": "transfer",
-        "denom": "utgd"
+        "denom": "uion"
     },
-    "image": "tgrade/asset/tgd.png",
-    "coinGeckoId": "tgrade"
-  },
-  {
-    "denom": "ibc/1FA2E811AA853A2AE028D82D490B1E967312DB871C9A40B19684FACB1DDD7881",
-    "type": "ibc",
-    "origin_chain": "crypto-org",
-    "origin_denom": "basecro",
-    "origin_type": "staking",
-    "symbol": "CRO",
-    "decimal": 8,
-    "enable": true,
-    "path": "crypto-org>evmos",
-    "channel": "channel-31",
-    "port": "transfer",
-    "counter_party": {
-        "channel": "channel-57",
-        "port": "transfer",
-        "denom": "basecro"
-    },
-    "image": "crypto-org/asset/cro.png",
-    "coinGeckoId": "crypto-com-chain"
+    "image": "osmosis/asset/ion.png",
+    "coinGeckoId": "ion"
   },
   {
     "denom": "ibc/ADF401C952ADD9EE232D52C8303B8BE17FE7953C8D420F20769AF77240BD0C58",
@@ -130,6 +90,26 @@
     },
     "image": "injective/asset/inj.png",
     "coinGeckoId": "injective-protocol"
+  },
+  {
+    "denom": "ibc/1FA2E811AA853A2AE028D82D490B1E967312DB871C9A40B19684FACB1DDD7881",
+    "type": "ibc",
+    "origin_chain": "crypto-org",
+    "origin_denom": "basecro",
+    "origin_type": "staking",
+    "symbol": "CRO",
+    "decimal": 8,
+    "enable": true,
+    "path": "crypto-org>evmos",
+    "channel": "channel-31",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-57",
+        "port": "transfer",
+        "denom": "basecro"
+    },
+    "image": "crypto-org/asset/cro.png",
+    "coinGeckoId": "crypto-com-chain"
   },
   {
     "denom": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
@@ -251,6 +231,110 @@
         "channel": "channel-65",
         "port": "transfer",
         "denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    },
+    "image": "ethereum/asset/dai.png",
+    "coinGeckoId": "dai",
+    "contract": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+  },
+  {
+    "denom": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
+    "type": "ibc",
+    "origin_chain": "tgrade",
+    "origin_denom": "utgd",
+    "origin_type": "staking",
+    "symbol": "TGD",
+    "decimal": 6,
+    "enable": true,
+    "path": "tgrade>evmos",
+    "channel": "channel-34",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-9",
+        "port": "transfer",
+        "denom": "utgd"
+    },
+    "image": "tgrade/asset/tgd.png",
+    "coinGeckoId": "tgrade"
+  },
+  {
+    "denom": "ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimal": 6,
+    "enable": true,
+    "path": "ethereum>axelar>evmos",
+    "channel": "channel-21",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-22",
+        "port": "transfer",
+        "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  {
+    "denom": "ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "wbtc",
+    "origin_type": "erc20",
+    "symbol": "axlWBTC",
+    "decimal": 8,
+    "enable": true,
+    "path": "ethereum>axelar>evmos",
+    "channel": "channel-21",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-22",
+        "port": "transfer",
+        "denom": "wbtc-satoshi"
+    },
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "wrapped-bitcoin",
+    "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+  },
+  {
+    "denom": "ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "weth",
+    "origin_type": "erc20",
+    "symbol": "axlWETH",
+    "decimal": 18,
+    "enable": true,
+    "path": "ethereum>axelar>evmos",
+    "channel": "channel-21",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-22",
+        "port": "transfer",
+        "denom": "weth-wei"
+    },
+    "image": "ethereum/asset/weth.png",
+    "coinGeckoId": "weth",
+    "contract": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+  },
+  {
+    "denom": "ibc/CBA4784581AD4BEF308C536A3CD44D4A940A520E61B0D1E4FB115C539F61DEE5",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "dai",
+    "origin_type": "erc20",
+    "symbol": "axlDAI",
+    "decimal": 18,
+    "enable": true,
+    "path": "ethereum>axelar>evmos",
+    "channel": "channel-21",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-22",
+        "port": "transfer",
+        "denom": "dai-wei"
     },
     "image": "ethereum/asset/dai.png",
     "coinGeckoId": "dai",
