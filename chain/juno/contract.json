@@ -19,7 +19,7 @@
     "decimal": 6,
     "image": "juno/asset/neta.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "neta"
   },
   {
     "chainId": -1,
@@ -96,7 +96,7 @@
     "decimal": 3,
     "image": "juno/asset/marble.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "marble"
   },
   {
     "chainId": -1,
@@ -118,7 +118,7 @@
     "decimal": 6,
     "image": "juno/asset/hope.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "hope-galaxy"
   },
   {
     "chainId": -1,
@@ -129,7 +129,7 @@
     "decimal": 6,
     "image": "juno/asset/raw.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "junoswap-raw-dao"
   },
   {
     "chainId": -1,
@@ -140,7 +140,7 @@
     "decimal": 6,
     "image": "juno/asset/fury.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "fanfury"
   },
   {
     "chainId": -1,
@@ -162,7 +162,7 @@
     "decimal": 6,
     "image": "juno/asset/phmn.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "posthuman"
   },
   {
     "chainId": -1,
@@ -184,40 +184,40 @@
     "decimal": 6,
     "image": "juno/asset/sgnl.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "signal"
   },
   {
     "chainId": -1,
     "chainName": "juno",
     "address": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv",
     "symbol": "seJUNO",
-    "description": "seJUNO",
+    "description": "StakeEasy Juno Derivative",
     "decimal": 6,
     "image": "juno/asset/sejuno.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "stakeeasy-juno-derivative"
   },
   {
     "chainId": -1,
     "chainName": "juno",
     "address": "juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3",
     "symbol": "bJUNO",
-    "description": "bJUNO",
+    "description": "StakeEasy bJuno",
     "decimal": 6,
     "image": "juno/asset/bjuno.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "stakeeasy-bjuno"
   },
   {
     "chainId": -1,
     "chainName": "juno",
     "address": "juno1qsrercqegvs4ye0yqg93knv73ye5dc3prqwd6jcdcuj8ggp6w0us66deup",
     "symbol": "LOOP",
-    "description": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "description": "LOOP",
     "decimal": 6,
     "image": "juno/asset/loop.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "loop"
   },
   {
     "chainId": -1,
@@ -239,7 +239,7 @@
     "decimal": 6,
     "image": "juno/asset/seasy.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "seasy"
   },
   {
     "chainId": -1,
@@ -272,6 +272,6 @@
     "decimal": 6,
     "image": "juno/asset/punk.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "juno-punk"
   }
 ]
