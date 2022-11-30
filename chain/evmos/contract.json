@@ -5,21 +5,10 @@
     "address": "0xD4949664cD82660AaE99bEdc034a0deA8A0bd517",
     "symbol": "WEVMOS",
     "description": "Wrapped Evmos",
-    "decimal": 18,
+    "decimals": 18,
     "image": "evmos/asset/wevmos.png",
-    "default": false,
+    "default": true,
     "coinGeckoId": "evmos"
-  },
-  {
-    "chainId": 9001,
-    "chainName": "evmos",
-    "address": "0x3f75ceabCDfed1aCa03257Dc6Bdc0408E2b4b026",
-    "symbol": "DIFF",
-    "description": "Diffusion",
-    "decimal": 18,
-    "image": "evmos/asset/diff.png",
-    "default": false,
-    "coinGeckoId": "diffusion"
   },
   {
     "chainId": 9001,
@@ -27,8 +16,85 @@
     "address": "0x75aeE82a16BD1fB98b11879af93AB7CE055f66Da",
     "symbol": "xDIFF",
     "description": "xDiffusion",
-    "decimal": 18,
+    "decimals": 18,
     "image": "evmos/asset/xdiff.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": 9001,
+    "chainName": "evmos",
+    "address": "0x3f75ceabCDfed1aCa03257Dc6Bdc0408E2b4b026",
+    "symbol": "DIFF",
+    "description": "Diffusion",
+    "decimals": 18,
+    "image": "evmos/asset/diff.png",
+    "default": false,
+    "coinGeckoId": "diffusion"
+  },
+  {
+    "chainId": 9001,
+    "chainName": "evmos",
+    "address": "0x47685B6AC7bB4de761A57828877A7B8254c8B145",
+    "symbol": "EVD",
+    "description": "Evmos Domains",
+    "decimals": 18,
+    "image": "evmos/asset/evd.png",
+    "default": false,
+    "coinGeckoId": "evmos-domains"
+  },
+  {
+    "chainId": 9001,
+    "chainName": "evmos",
+    "address": "0x181C262b973B22C307C646a67f64B76410D19b6B",
+    "symbol": "EMO",
+    "description": "EvmoSwap Token",
+    "decimals": 18,
+    "image": "evmos/asset/emo.png",
+    "default": false,
+    "coinGeckoId": "evmoswap"
+  },
+  {
+    "chainId": 9001,
+    "chainName": "evmos",
+    "address": "0xBbD37BF85f7474b5bDe689695674faB1888565Ad",
+    "symbol": "OAV",
+    "description": "OAV",
+    "decimals": 18,
+    "image": "evmos/asset/oav.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": 9001,
+    "chainName": "evmos",
+    "address": "0xe46910336479F254723710D57e7b683F3315b22B",
+    "symbol": "ceUSDC",
+    "description": "USD Coin (Celer)",
+    "decimals": 6,
+    "image": "ethereum/asset/usdc.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": 9001,
+    "chainName": "evmos",
+    "address": "0xb72A7567847abA28A2819B855D7fE679D4f59846",
+    "symbol": "ceUSDT",
+    "description": "Tether USD (Celer)",
+    "decimals": 6,
+    "image": "ethereum/asset/usdt.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": 9001,
+    "chainName": "evmos",
+    "address": "0x940dAAbA3F713abFabD79CdD991466fe698CBe54",
+    "symbol": "ceDAI",
+    "description": "Dai Stablecoin (Celer)",
+    "decimals": 18,
+    "image": "ethereum/asset/dai.png",
     "default": false,
     "coinGeckoId": ""
   }
