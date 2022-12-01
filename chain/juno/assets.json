@@ -134,13 +134,13 @@
   {
     "denom": "ibc/6842C591DC4588411A565C9FF650FB15A17DFE3F0A43201E8141E4D14B8D171A",
     "type": "ibc",
-    "origin_chain": "digchain",
+    "origin_chain": "dig-chain",
     "origin_denom": "udig",
     "origin_type": "staking",
     "symbol": "DIG",
     "decimal": 6,
     "enable": true,
-    "path": "digchain>juno",
+    "path": "dig-chain>juno",
     "channel": "channel-37",
     "port": "transfer",
     "counter_party": {
@@ -148,7 +148,7 @@
         "port": "transfer",
         "denom": "udig"
     },
-    "image": "digchain/asset/dig.png",
+    "image": "dig-chain/asset/dig.png",
     "coinGeckoId": "dig-chain"
   },
   {
