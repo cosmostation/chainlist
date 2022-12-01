@@ -6,7 +6,7 @@
     "origin_denom": "uregen",
     "origin_type": "staking",
     "symbol": "REGEN",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Regen Staking Coin",
     "image": "regen/asset/regen.png",
     "coinGeckoId": "regen"
@@ -18,15 +18,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>regen",
     "channel": "channel-11",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-185",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-185",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -38,15 +38,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>regen",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-8",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-8",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -58,15 +58,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>regen",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-8",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-8",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"

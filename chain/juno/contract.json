@@ -5,7 +5,7 @@
     "address": "juno1pqht3pkhr5fpyre2tw3ltrzc0kvxknnsgt04thym9l7n2rmxgw0sgefues",
     "symbol": "DAO",
     "description": "DAO DAO",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/dao.png",
     "default": false,
     "coinGeckoId": ""
@@ -16,7 +16,7 @@
     "address": "juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
     "symbol": "NETA",
     "description": "NETA",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/neta.png",
     "default": false,
     "coinGeckoId": "neta"
@@ -27,7 +27,7 @@
     "address": "juno1pshrvuw5ng2q4nwcsuceypjkp48d95gmcgjdxlus2ytm4k5kvz2s7t9ldx",
     "symbol": "HULC",
     "description": "HULCAT Token",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/hulc.png",
     "default": false,
     "coinGeckoId": ""
@@ -38,7 +38,7 @@
     "address": "juno1xmpenz0ykxfy8rxr3yc3d4dtqq4dpas4zz3xl6sh873us3vajlpshzp69d",
     "symbol": "FOT",
     "description": "Fortis Oeconomia Token",
-    "decimal": 10,
+    "decimals": 10,
     "image": "juno/asset/fot.png",
     "default": false,
     "coinGeckoId": ""
@@ -49,7 +49,7 @@
     "address": "juno1dgg3qkqr2e7r2w6ka7l60zfmls6ezxjv6vjrwfvvlajr4graa99srldyss",
     "symbol": "BFOT",
     "description": "Burned Fortis Oeconomia Token",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/bfot.png",
     "default": false,
     "coinGeckoId": ""
@@ -60,7 +60,7 @@
     "address": "juno19azgt8q09r3hksgg3j293j3s82eupgrqsrnwxvaa4j35u955r69q39zmv5",
     "symbol": "KING",
     "description": "Kingnodes DAO",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/king.png",
     "default": false,
     "coinGeckoId": ""
@@ -71,7 +71,7 @@
     "address": "juno1wurfx334prlceydmda3aecldn2xh4axhqtly05n8gptgl69ee7msrewg6y",
     "symbol": "TUCK",
     "description": "Tuckermint",
-    "decimal": 3,
+    "decimals": 3,
     "image": "juno/asset/tuck.png",
     "default": false,
     "coinGeckoId": ""
@@ -82,7 +82,7 @@
     "address": "juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa",
     "symbol": "RAC",
     "description": "RACOON",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/rac.png",
     "default": false,
     "coinGeckoId": ""
@@ -93,7 +93,7 @@
     "address": "juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl",
     "symbol": "MARBLE",
     "description": "MARBLE",
-    "decimal": 3,
+    "decimals": 3,
     "image": "juno/asset/marble.png",
     "default": false,
     "coinGeckoId": "marble"
@@ -104,7 +104,7 @@
     "address": "juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq",
     "symbol": "BLOCK",
     "description": "BLOCK",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/block.png",
     "default": false,
     "coinGeckoId": ""
@@ -115,7 +115,7 @@
     "address": "juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z",
     "symbol": "HOPE",
     "description": "HOPE",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/hope.png",
     "default": false,
     "coinGeckoId": "hope-galaxy"
@@ -126,7 +126,7 @@
     "address": "juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g",
     "symbol": "RAW",
     "description": "RAW DAO",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/raw.png",
     "default": false,
     "coinGeckoId": "junoswap-raw-dao"
@@ -137,7 +137,7 @@
     "address": "juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz",
     "symbol": "FURY",
     "description": "Fanfury",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/fury.png",
     "default": false,
     "coinGeckoId": "fanfury"
@@ -148,7 +148,7 @@
     "address": "juno1sfwye65qxcfsc837gu5qcprcz7w49gkv3wnat04764ld76hy3arqs779tr",
     "symbol": "DLA",
     "description": "DLA DAO",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/dla.png",
     "default": false,
     "coinGeckoId": ""
@@ -159,7 +159,7 @@
     "address": "juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
     "symbol": "PHMN",
     "description": "POSTHUMAN",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/phmn.png",
     "default": false,
     "coinGeckoId": "posthuman"
@@ -170,7 +170,7 @@
     "address": "juno1lnqhfvgr9x2u40z4d4u5ezep6cxk2kq7agd33evmjl5lfuwr52kszp0y57",
     "symbol": "HNC",
     "description": "HOT & COLD FINANCE",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/hnc.png",
     "default": false,
     "coinGeckoId": ""
@@ -181,7 +181,7 @@
     "address": "juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k",
     "symbol": "SGNL",
     "description": "Signal",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/sgnl.png",
     "default": false,
     "coinGeckoId": "signal"
@@ -192,7 +192,7 @@
     "address": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv",
     "symbol": "seJUNO",
     "description": "StakeEasy Juno Derivative",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/sejuno.png",
     "default": false,
     "coinGeckoId": "stakeeasy-juno-derivative"
@@ -203,7 +203,7 @@
     "address": "juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3",
     "symbol": "bJUNO",
     "description": "StakeEasy bJuno",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/bjuno.png",
     "default": false,
     "coinGeckoId": "stakeeasy-bjuno"
@@ -214,7 +214,7 @@
     "address": "juno1qsrercqegvs4ye0yqg93knv73ye5dc3prqwd6jcdcuj8ggp6w0us66deup",
     "symbol": "LOOP",
     "description": "LOOP",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/loop.png",
     "default": false,
     "coinGeckoId": "loop"
@@ -225,7 +225,7 @@
     "address": "juno147t4fd3tny6hws6rha9xs5gah9qa6g7hrjv9tuvv6ce6m25sy39sq6yv52",
     "symbol": "DRGN",
     "description": "Stake Dragons",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/drgn.png",
     "default": false,
     "coinGeckoId": ""
@@ -236,7 +236,7 @@
     "address": "juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf",
     "symbol": "SEASY",
     "description": "StakeEasy governance token",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/seasy.png",
     "default": false,
     "coinGeckoId": "seasy"
@@ -247,7 +247,7 @@
     "address": "juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9",
     "symbol": "WYND",
     "description": "WYND Gov Token",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/wynd.png",
     "default": false,
     "coinGeckoId": ""
@@ -258,7 +258,7 @@
     "address": "juno18gxsdfrhxdyy4699a3gqdgd8cl5fsku2rsdj6az0w3f7ltue2pxs77vs4u",
     "symbol": "LENO",
     "description": "Leno Network",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/leno.png",
     "default": false,
     "coinGeckoId": ""
@@ -269,7 +269,7 @@
     "address": "juno13926947pmrjly5p9hf5juey65c6rget0gqrnx3us3r6pvnpf4hwqm8mchy",
     "symbol": "PUNK",
     "description": "PUNK JUNO TOKEN",
-    "decimal": 6,
+    "decimals": 6,
     "image": "juno/asset/punk.png",
     "default": false,
     "coinGeckoId": "juno-punk"

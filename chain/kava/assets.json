@@ -6,7 +6,7 @@
     "origin_denom": "ukava",
     "origin_type": "staking",
     "symbol": "KAVA",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Kava Staking Coin",
     "image": "kava/asset/kava.png",
     "coinGeckoId": "kava"
@@ -18,7 +18,7 @@
     "origin_denom": "swp",
     "origin_type": "native",
     "symbol": "SWP",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Kava Swap Coin",
     "image": "kava/asset/swp.png",
     "coinGeckoId": "kava-swap"
@@ -30,7 +30,7 @@
     "origin_denom": "usdx",
     "origin_type": "native",
     "symbol": "USDX",
-    "decimal": 6,
+    "decimals": 6,
     "description": "USD Stable Asset",
     "image": "kava/asset/usdx.png",
     "coinGeckoId": "usdx"
@@ -42,7 +42,7 @@
     "origin_denom": "hard",
     "origin_type": "native",
     "symbol": "HARD",
-    "decimal": 6,
+    "decimals": 6,
     "description": "HardPool Gov. Coin",
     "image": "kava/asset/hard.png",
     "coinGeckoId": "kava-lend"
@@ -54,7 +54,7 @@
     "origin_denom": "debt",
     "origin_type": "native",
     "symbol": "DEBT",
-    "decimal": 6,
+    "decimals": 6,
     "description": "System Total Debt",
     "image": "kava/asset/debt.png",
     "coinGeckoId": ""
@@ -66,7 +66,7 @@
     "origin_denom": "hbtc",
     "origin_type": "bridge",
     "symbol": "HBTC",
-    "decimal": 8,
+    "decimals": 8,
     "description": "HBTC on Kava Chain",
     "image": "kava/asset/hbtc.png",
     "coinGeckoId": "huobi-btc"
@@ -78,7 +78,7 @@
     "origin_denom": "bnb",
     "origin_type": "bep2",
     "symbol": "BNB",
-    "decimal": 8,
+    "decimals": 8,
     "path": "bnb-beacon-chain>kava",
     "image": "bnb-beacon-chain/asset/bnb.png",
     "coinGeckoId": "binancecoin"
@@ -90,7 +90,7 @@
     "origin_denom": "btcb",
     "origin_type": "bep2",
     "symbol": "BTCB",
-    "decimal": 8,
+    "decimals": 8,
     "path": "bnb-beacon-chain>kava",
     "image": "bnb-beacon-chain/asset/btcb.png",
     "coinGeckoId": "bitcoin-bep2"
@@ -102,7 +102,7 @@
     "origin_denom": "busd",
     "origin_type": "bep2",
     "symbol": "BUSD",
-    "decimal": 8,
+    "decimals": 8,
     "path": "bnb-beacon-chain>kava",
     "image": "bnb-beacon-chain/asset/busd.png",
     "coinGeckoId": "binance-usd"
@@ -114,7 +114,7 @@
     "origin_denom": "xrpb",
     "origin_type": "bep2",
     "symbol": "XRPB",
-    "decimal": 8,
+    "decimals": 8,
     "path": "bnb-beacon-chain>kava",
     "image": "bnb-beacon-chain/asset/xrpb.png",
     "coinGeckoId": "ripple"
@@ -126,15 +126,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>kava",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-143",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-143",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -146,15 +146,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>kava",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-143",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-143",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -166,15 +166,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>kava",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-277",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-277",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -186,15 +186,15 @@
     "origin_denom": "uakt",
     "origin_type": "staking",
     "symbol": "AKT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "akash>kava",
     "channel": "channel-5",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-37",
-        "port": "transfer",
-        "denom": "uakt"
+      "channel": "channel-37",
+      "port": "transfer",
+      "denom": "uakt"
     },
     "image": "akash/asset/akt.png",
     "coinGeckoId": "akash-network"

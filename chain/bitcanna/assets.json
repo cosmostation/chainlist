@@ -6,7 +6,7 @@
     "origin_denom": "ubcna",
     "origin_type": "staking",
     "symbol": "BCNA",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Bitcanna Staking Coin",
     "image": "bitcanna/asset/bcna.png",
     "coinGeckoId": "bitcanna"
@@ -18,15 +18,15 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>bitcanna",
     "channel": "channel-10",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-50",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-50",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
@@ -38,15 +38,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>bitcanna",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-51",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-51",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -58,15 +58,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>bitcanna",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-51",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-51",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -78,15 +78,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>bitcanna",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-232",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-232",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"

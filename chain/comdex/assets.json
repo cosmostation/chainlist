@@ -6,7 +6,7 @@
     "origin_denom": "ucmdx",
     "origin_type": "staking",
     "symbol": "CMDX",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Comdex Staking Coin",
     "image": "comdex/asset/cmdx.png",
     "coinGeckoId": "comdex"
@@ -18,7 +18,7 @@
     "origin_denom": "uharbor",
     "origin_type": "native",
     "symbol": "HARBOR",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Harbor Protocol Governance Token",
     "image": "comdex/asset/harbor.png",
     "coinGeckoId": ""
@@ -30,7 +30,7 @@
     "origin_denom": "ucmst",
     "origin_type": "native",
     "symbol": "CMST",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Harbor Protocol Stablecoin",
     "image": "comdex/asset/cmst.png",
     "coinGeckoId": ""
@@ -42,15 +42,15 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>comdex",
     "channel": "channel-18",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-36",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
@@ -62,15 +62,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>comdex",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-87",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-87",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -82,15 +82,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>comdex",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-87",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-87",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -102,15 +102,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>comdex",
     "channel": "channel-37",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-400",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-400",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"

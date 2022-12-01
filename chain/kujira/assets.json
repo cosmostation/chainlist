@@ -6,7 +6,7 @@
     "origin_denom": "ukuji",
     "origin_type": "staking",
     "symbol": "KUJI",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Kujira Staking Coin",
     "image": "kujira/asset/kuji.png",
     "coinGeckoId": "kujira"
@@ -18,7 +18,7 @@
     "origin_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
     "origin_type": "native",
     "symbol": "USK",
-    "decimal": 6,
+    "decimals": 6,
     "description": "USK Stable Asset",
     "image": "kujira/asset/usk.png",
     "coinGeckoId": "usk"
@@ -30,15 +30,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>kujira",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-343",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-343",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -50,15 +50,15 @@
     "origin_denom": "basecro",
     "origin_type": "staking",
     "symbol": "CRO",
-    "decimal": 8,
+    "decimals": 8,
     "enable": true,
     "path": "crypto-org>kujira",
     "channel": "channel-6",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-56",
-        "port": "transfer",
-        "denom": "basecro"
+      "channel": "channel-56",
+      "port": "transfer",
+      "denom": "basecro"
     },
     "image": "crypto-org/asset/cro.png",
     "coinGeckoId": "crypto-com-chain"
@@ -70,15 +70,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>kujira",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-259",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-259",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -90,15 +90,15 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>kujira",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-87",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-87",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
@@ -110,15 +110,15 @@
     "origin_denom": "ustars",
     "origin_type": "staking",
     "symbol": "STARS",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "stargaze>kujira",
     "channel": "channel-7",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-49",
-        "port": "transfer",
-        "denom": "ustars"
+      "channel": "channel-49",
+      "port": "transfer",
+      "denom": "ustars"
     },
     "image": "stargaze/asset/stars.png",
     "coinGeckoId": "stargaze"
@@ -130,15 +130,15 @@
     "origin_denom": "ugraviton",
     "origin_type": "staking",
     "symbol": "GRAV",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "gravity-bridge>kujira",
     "channel": "channel-11",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-83",
-        "port": "transfer",
-        "denom": "ugraviton"
+      "channel": "channel-83",
+      "port": "transfer",
+      "denom": "ugraviton"
     },
     "image": "gravity-bridge/asset/grav.png",
     "coinGeckoId": "graviton"
@@ -150,15 +150,15 @@
     "origin_denom": "ucmdx",
     "origin_type": "staking",
     "symbol": "CMDX",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "comdex>kujira",
     "channel": "channel-18",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-31",
-        "port": "transfer",
-        "denom": "ucmdx"
+      "channel": "channel-31",
+      "port": "transfer",
+      "denom": "ucmdx"
     },
     "image": "comdex/asset/cmdx.png",
     "coinGeckoId": "comdex"
@@ -170,15 +170,15 @@
     "origin_denom": "uscrt",
     "origin_type": "staking",
     "symbol": "SCRT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "secret>kujira",
     "channel": "channel-10",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-22",
-        "port": "transfer",
-        "denom": "uscrt"
+      "channel": "channel-22",
+      "port": "transfer",
+      "denom": "uscrt"
     },
     "image": "secret/asset/scrt.png",
     "coinGeckoId": "secret"
@@ -190,15 +190,15 @@
     "origin_denom": "aevmos",
     "origin_type": "staking",
     "symbol": "EVMOS",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "evmos>kujira",
     "channel": "channel-23",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-18",
-        "port": "transfer",
-        "denom": "aevmos"
+      "channel": "channel-18",
+      "port": "transfer",
+      "denom": "aevmos"
     },
     "image": "evmos/asset/evmos.png",
     "coinGeckoId": "evmos"
@@ -210,15 +210,15 @@
     "origin_denom": "uaxl",
     "origin_type": "staking",
     "symbol": "AXL",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "axelar>kujira",
     "channel": "channel-9",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-14",
-        "port": "transfer",
-        "denom": "uaxl"
+      "channel": "channel-14",
+      "port": "transfer",
+      "denom": "uaxl"
     },
     "image": "axelar/asset/axl.png",
     "coinGeckoId": "axelar"
@@ -230,15 +230,15 @@
     "origin_denom": "usdt",
     "origin_type": "erc20",
     "symbol": "axlUSDT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "ethereum>axelar>kujira",
     "channel": "channel-9",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-14",
-        "port": "transfer",
-        "denom": "uusdt"
+      "channel": "channel-14",
+      "port": "transfer",
+      "denom": "uusdt"
     },
     "image": "ethereum/asset/usdt.png",
     "coinGeckoId": "tether",
@@ -251,15 +251,15 @@
     "origin_denom": "usdc",
     "origin_type": "erc20",
     "symbol": "axlUSDC",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "ethereum>axelar>kujira",
     "channel": "channel-9",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-14",
-        "port": "transfer",
-        "denom": "uusdc"
+      "channel": "channel-14",
+      "port": "transfer",
+      "denom": "uusdc"
     },
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",
@@ -272,15 +272,15 @@
     "origin_denom": "wavax",
     "origin_type": "erc20",
     "symbol": "axlWAVAX",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "avalanche>axelar>kujira",
     "channel": "channel-9",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-14",
-        "port": "transfer",
-        "denom": "wavax-wei"
+      "channel": "channel-14",
+      "port": "transfer",
+      "denom": "wavax-wei"
     },
     "image": "avalanche/asset/wavax.png",
     "coinGeckoId": "wrapped-avax",
@@ -293,15 +293,15 @@
     "origin_denom": "weth",
     "origin_type": "erc20",
     "symbol": "axlWETH",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "ethereum>axelar>kujira",
     "channel": "channel-9",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-14",
-        "port": "transfer",
-        "denom": "weth-wei"
+      "channel": "channel-14",
+      "port": "transfer",
+      "denom": "weth-wei"
     },
     "image": "ethereum/asset/weth.png",
     "coinGeckoId": "weth",
@@ -314,15 +314,15 @@
     "origin_denom": "dai",
     "origin_type": "erc20",
     "symbol": "axlDAI",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "ethereum>axelar>kujira",
     "channel": "channel-9",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-14",
-        "port": "transfer",
-        "denom": "dai-wei"
+      "channel": "channel-14",
+      "port": "transfer",
+      "denom": "dai-wei"
     },
     "image": "ethereum/asset/dai.png",
     "coinGeckoId": "dai",

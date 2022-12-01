@@ -6,7 +6,7 @@
     "origin_denom": "uhuahua",
     "origin_type": "staking",
     "symbol": "HUAHUA",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Chihuahua Staking Coin",
     "image": "chihuahua/asset/huahua.png",
     "coinGeckoId": "chihuahua-token"
@@ -18,15 +18,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>chihuahua",
     "channel": "channel-7",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-113",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-113",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -38,15 +38,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>chihuahua",
     "channel": "channel-7",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-113",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-113",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -58,15 +58,15 @@
     "origin_denom": "inj",
     "origin_type": "staking",
     "symbol": "INJ",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "injective>chihuahua",
     "channel": "channel-12",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-76",
-        "port": "transfer",
-        "denom": "inj"
+      "channel": "channel-76",
+      "port": "transfer",
+      "denom": "inj"
     },
     "image": "injective/asset/inj.png",
     "coinGeckoId": "injective-protocol"
@@ -78,15 +78,15 @@
     "origin_denom": "uscrt",
     "origin_type": "staking",
     "symbol": "SCRT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "secret>chihuahua",
     "channel": "channel-16",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-11",
-        "port": "transfer",
-        "denom": "uscrt"
+      "channel": "channel-11",
+      "port": "transfer",
+      "denom": "uscrt"
     },
     "image": "secret/asset/scrt.png",
     "coinGeckoId": "secret"
@@ -98,15 +98,15 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>chihuahua",
     "channel": "channel-11",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-28",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-28",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"

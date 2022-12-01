@@ -6,7 +6,7 @@
     "origin_denom": "udarc",
     "origin_type": "staking",
     "symbol": "DARC",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Konstellation Staking Coin",
     "image": "konstellation/asset/darc.png",
     "coinGeckoId": "darcmatter-coin"
@@ -18,15 +18,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>konstellation",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-171",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-171",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -38,15 +38,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>konstellation",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-171",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-171",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"

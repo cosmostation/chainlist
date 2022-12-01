@@ -6,7 +6,7 @@
     "origin_denom": "ustars",
     "origin_type": "staking",
     "symbol": "STARS",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Stargaze Staking Coin",
     "image": "stargaze/asset/stars.png",
     "coinGeckoId": "stargaze"
@@ -18,15 +18,15 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>stargaze",
     "channel": "channel-5",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-20",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-20",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
@@ -38,15 +38,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>stargaze",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-75",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-75",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -58,15 +58,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>stargaze",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-75",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-75",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -78,15 +78,15 @@
     "origin_denom": "ugraviton",
     "origin_type": "staking",
     "symbol": "GRAV",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "gravity-bridge>stargaze",
     "channel": "channel-6",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-7",
-        "port": "transfer",
-        "denom": "ugraviton"
+      "channel": "channel-7",
+      "port": "transfer",
+      "denom": "ugraviton"
     },
     "image": "gravity-bridge/asset/grav.png",
     "coinGeckoId": "graviton"

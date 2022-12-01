@@ -6,7 +6,7 @@
     "origin_denom": "udvpn",
     "origin_type": "staking",
     "symbol": "DVPN",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Sentinel Staking Coin",
     "image": "sentinel/asset/dvpn.png",
     "coinGeckoId": "sentinel"
@@ -18,15 +18,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>sentinel",
     "channel": "channel-12",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-186",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-186",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -38,15 +38,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>sentinel",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-2",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -58,15 +58,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>sentinel",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-2",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -78,15 +78,15 @@
     "origin_denom": "uscrt",
     "origin_type": "staking",
     "symbol": "SCRT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "secret>sentinel",
     "channel": "channel-50",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-3",
-        "port": "transfer",
-        "denom": "uscrt"
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "uscrt"
     },
     "image": "secret/asset/scrt.png",
     "coinGeckoId": "secret"
@@ -98,15 +98,15 @@
     "origin_denom": "udec",
     "origin_type": "staking",
     "symbol": "DEC",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "decentr>sentinel",
     "channel": "channel-55",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-4",
-        "port": "transfer",
-        "denom": "udec"
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "udec"
     },
     "image": "decentr/asset/dec.png",
     "coinGeckoId": "decentr"

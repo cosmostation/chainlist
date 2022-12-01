@@ -6,7 +6,7 @@
     "origin_denom": "basecro",
     "origin_type": "staking",
     "symbol": "CRO",
-    "decimal": 8,
+    "decimals": 8,
     "description": "Cronos",
     "image": "crypto-org/asset/cro.png",
     "coinGeckoId": "crypto-com-chain"
@@ -18,15 +18,15 @@
     "origin_denom": "rowan",
     "origin_type": "staking",
     "symbol": "ROWAN",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "sifchain>crypto-org",
     "channel": "channel-33",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-9",
-        "port": "transfer",
-        "denom": "rowan"
+      "channel": "channel-9",
+      "port": "transfer",
+      "denom": "rowan"
     },
     "image": "sifchain/asset/rowan.png",
     "coinGeckoId": "sifchain"
@@ -38,15 +38,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>crypto-org",
     "channel": "channel-27",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-187",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-187",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -58,15 +58,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>crypto-org",
     "channel": "channel-10",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-5",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -78,15 +78,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>crypto-org",
     "channel": "channel-10",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-5",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -98,15 +98,15 @@
     "origin_denom": "aevmos",
     "origin_type": "staking",
     "symbol": "EVMOS",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "evmos>crypto-org",
     "channel": "channel-57",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-31",
-        "port": "transfer",
-        "denom": "aevmos"
+      "channel": "channel-31",
+      "port": "transfer",
+      "denom": "aevmos"
     },
     "image": "evmos/asset/evmos.png",
     "coinGeckoId": "evmos"

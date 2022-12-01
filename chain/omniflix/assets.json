@@ -6,7 +6,7 @@
     "origin_denom": "uflix",
     "origin_type": "staking",
     "symbol": "FLIX",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Omniflix Staking Coin",
     "image": "omniflix/asset/flix.png"
   },
@@ -17,15 +17,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>omniflix",
     "channel": "channel-12",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-306",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-306",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -37,15 +37,15 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>omniflix",
     "channel": "channel-20",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-78",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-78",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
@@ -57,15 +57,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>omniflix",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-199",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-199",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -77,15 +77,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>omniflix",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-199",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-199",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -97,15 +97,15 @@
     "origin_denom": "uhuahua",
     "origin_type": "staking",
     "symbol": "HUAHUA",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "chihuahua>omniflix",
     "channel": "channel-5",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-17",
-        "port": "transfer",
-        "denom": "uhuahua"
+      "channel": "channel-17",
+      "port": "transfer",
+      "denom": "uhuahua"
     },
     "image": "chihuahua/asset/huahua.png",
     "coinGeckoId": "chihuahua-token"

@@ -6,7 +6,7 @@
     "origin_denom": "uiris",
     "origin_type": "staking",
     "symbol": "IRIS",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Iris Staking Coin",
     "image": "iris/asset/iris.png",
     "coinGeckoId": "iris-network"
@@ -18,7 +18,7 @@
     "origin_denom": "uwdt",
     "origin_type": "native",
     "symbol": "WDT",
-    "decimal": 9,
+    "decimals": 9,
     "description": "Winner RDC",
     "image": "iris/asset/wdt.png"
   },
@@ -29,7 +29,7 @@
     "origin_denom": "bnb",
     "origin_type": "bep2",
     "symbol": "BNB",
-    "decimal": 8,
+    "decimals": 8,
     "path": "bnb-beacon-chain>iris",
     "image": "bnb-beacon-chain/asset/bnb.png",
     "coinGeckoId": "binancecoin"
@@ -41,7 +41,7 @@
     "origin_denom": "busd",
     "origin_type": "bep2",
     "symbol": "BUSD",
-    "decimal": 8,
+    "decimals": 8,
     "path": "bnb-beacon-chain>iris",
     "image": "bnb-beacon-chain/asset/busd.png",
     "coinGeckoId": "binance-usd"
@@ -53,15 +53,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>iris",
     "channel": "channel-12",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-182",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-182",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -73,15 +73,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>iris",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-6",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-6",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -93,15 +93,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>iris",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-6",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-6",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -113,15 +113,15 @@
     "origin_denom": "usdc",
     "origin_type": "erc20",
     "symbol": "USDC",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "ethereum>gravity-bridge>iris",
     "channel": "channel-29",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-47",
-        "port": "transfer",
-        "denom": "gravity0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      "channel": "channel-47",
+      "port": "transfer",
+      "denom": "gravity0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     },
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",
@@ -134,15 +134,15 @@
     "origin_denom": "dai",
     "origin_type": "erc20",
     "symbol": "DAI",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "ethereum>gravity-bridge>iris",
     "channel": "channel-29",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-47",
-        "port": "transfer",
-        "denom": "gravity0x6b175474e89094c44da98b954eedeac495271d0f"
+      "channel": "channel-47",
+      "port": "transfer",
+      "denom": "gravity0x6b175474e89094c44da98b954eedeac495271d0f"
     },
     "image": "ethereum/asset/dai.png",
     "coinGeckoId": "dai",
@@ -155,15 +155,15 @@
     "origin_type": "erc20",
     "symbol": "WETH",
     "origin_chain": "ethereum",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "ethereum>gravity-bridge>iris",
     "channel": "channel-29",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-47",
-        "port": "transfer",
-        "denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+      "channel": "channel-47",
+      "port": "transfer",
+      "denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
     },
     "image": "ethereum/asset/weth.png",
     "coinGeckoId": "weth",

@@ -6,7 +6,7 @@
     "origin_denom": "utgd",
     "origin_type": "staking",
     "symbol": "TGD",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Tgrade Staking Coin",
     "image": "tgrade/asset/tgd.png",
     "coinGeckoId": "tgrade"
@@ -18,15 +18,15 @@
     "origin_denom": "aevmos",
     "origin_type": "staking",
     "symbol": "EVMOS",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "evmos>tgrade",
     "channel": "channel-9",
     "port": "transfer",
     "counter_party": {
-    	"channel": "channel-34",
-    	"port": "transfer",
-    	"denom": "aevmos"
+      "channel": "channel-34",
+      "port": "transfer",
+      "denom": "aevmos"
     },
     "image": "evmos/asset/evmos.png",
     "coinGeckoId": "evmos"

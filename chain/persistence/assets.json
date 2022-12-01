@@ -6,7 +6,7 @@
     "origin_denom": "uxprt",
     "origin_type": "staking",
     "symbol": "XPRT",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Persistence Staking Coin",
     "image": "persistence/asset/xprt.png",
     "coinGeckoId": "persistence"
@@ -18,15 +18,15 @@
     "origin_denom": "pstake",
     "origin_type": "erc20",
     "symbol": "PSTAKE",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "ethereum>gravity-bridge>persistence",
     "channel": "channel-38",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-24",
-        "port": "transfer",
-        "denom": "gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
+      "channel": "channel-24",
+      "port": "transfer",
+      "denom": "gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
     },
     "image": "ethereum/asset/pstake.png",
     "coinGeckoId": "pstake-finance",
@@ -39,14 +39,14 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>persistence",
     "channel": "channel-6",
     "counter_party": {
-        "channel": "channel-4",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -58,14 +58,14 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>persistence",
     "channel": "channel-6",
     "counter_party": {
-        "channel": "channel-4",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -77,14 +77,14 @@
     "origin_denom": "rowan",
     "origin_type": "staking",
     "symbol": "ROWAN",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "sifchain>persistence",
     "channel": "channel-26",
     "counter_party": {
-        "channel": "channel-7",
-        "port": "transfer",
-        "denom": "rowan"
+      "channel": "channel-7",
+      "port": "transfer",
+      "denom": "rowan"
     },
     "image": "sifchain/asset/rowan.png",
     "coinGeckoId": "sifchain"
@@ -96,14 +96,14 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>persistence",
     "channel": "channel-37",
     "counter_party": {
-        "channel": "channel-33",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-33",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
@@ -115,14 +115,14 @@
     "origin_denom": "ugraviton",
     "origin_type": "staking",
     "symbol": "GRAV",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "gravity-bridge>persistence",
     "channel": "channel-38",
     "counter_party": {
-        "channel": "channel-24",
-        "port": "transfer",
-        "denom": "ugraviton"
+      "channel": "channel-24",
+      "port": "transfer",
+      "denom": "ugraviton"
     },
     "image": "gravity-bridge/asset/grav.png",
     "coinGeckoId": "graviton"

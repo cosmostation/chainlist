@@ -6,7 +6,7 @@
     "origin_denom": "uumee",
     "origin_type": "staking",
     "symbol": "UMEE",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Umee Staking Coin",
     "image": "umee/asset/umee.png",
     "coinGeckoId": "umee"
@@ -18,15 +18,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>umee",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-184",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-184",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -38,15 +38,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>umee",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-184",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-184",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -58,15 +58,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>umee",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-288",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-288",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"

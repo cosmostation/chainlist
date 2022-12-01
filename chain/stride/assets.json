@@ -6,7 +6,7 @@
     "origin_denom": "ustrd",
     "origin_type": "staking",
     "symbol": "STRD",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Stride Staking Coin",
     "image": "stride/asset/strd.png",
     "coinGeckoId": "stride"
@@ -18,7 +18,7 @@
     "origin_denom": "stuatom",
     "origin_type": "native",
     "symbol": "stATOM",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Stride Staked Atom",
     "image": "stride/asset/statom.png",
     "coinGeckoId": "stride-staked-atom"
@@ -30,7 +30,7 @@
     "origin_denom": "stustars",
     "origin_type": "native",
     "symbol": "stSTARS",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Stride Staked Stars",
     "image": "stride/asset/ststars.png",
     "coinGeckoId": ""
@@ -42,7 +42,7 @@
     "origin_denom": "stujuno",
     "origin_type": "native",
     "symbol": "stJUNO",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Stride Staked Juno",
     "image": "stride/asset/stjuno.png",
     "coinGeckoId": ""
@@ -54,7 +54,7 @@
     "origin_denom": "stuosmo",
     "origin_type": "native",
     "symbol": "stOSMO",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Stride Staked Osmo",
     "image": "stride/asset/stosmo.png",
     "coinGeckoId": ""
@@ -66,15 +66,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>stride",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-391",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-391",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -86,15 +86,15 @@
     "origin_denom": "ustars",
     "origin_type": "staking",
     "symbol": "STARS",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "stargaze>stride",
     "channel": "channel-19",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-106",
-        "port": "transfer",
-        "denom": "ustars"
+      "channel": "channel-106",
+      "port": "transfer",
+      "denom": "ustars"
     },
     "image": "stargaze/asset/stars.png",
     "coinGeckoId": "stargaze"
@@ -106,15 +106,15 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>stride",
     "channel": "channel-24",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-139",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-139",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"

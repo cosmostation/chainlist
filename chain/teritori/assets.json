@@ -6,7 +6,7 @@
     "origin_denom": "utori",
     "origin_type": "staking",
     "symbol": "TORI",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Teritori Staking Coin",
     "image": "teritori/asset/tori.png",
     "coinGeckoId": "teritori"
@@ -18,15 +18,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>teritori",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-362",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-362",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"

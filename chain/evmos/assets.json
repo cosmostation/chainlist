@@ -6,7 +6,7 @@
     "origin_denom": "aevmos",
     "origin_type": "staking",
     "symbol": "EVMOS",
-    "decimal": 18,
+    "decimals": 18,
     "description": "Evmos Staking Coin",
     "image": "evmos/asset/evmos.png",
     "coinGeckoId": "evmos"
@@ -18,15 +18,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>evmos",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-292",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-292",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -38,15 +38,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>evmos",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-204",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-204",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -58,15 +58,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>evmos",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-204",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-204",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -78,15 +78,15 @@
     "origin_denom": "inj",
     "origin_type": "staking",
     "symbol": "INJ",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "injective>evmos",
     "channel": "channel-10",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-83",
-        "port": "transfer",
-        "denom": "inj"
+      "channel": "channel-83",
+      "port": "transfer",
+      "denom": "inj"
     },
     "image": "injective/asset/inj.png",
     "coinGeckoId": "injective-protocol"
@@ -98,15 +98,15 @@
     "origin_denom": "basecro",
     "origin_type": "staking",
     "symbol": "CRO",
-    "decimal": 8,
+    "decimals": 8,
     "enable": true,
     "path": "crypto-org>evmos",
     "channel": "channel-31",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-57",
-        "port": "transfer",
-        "denom": "basecro"
+      "channel": "channel-57",
+      "port": "transfer",
+      "denom": "basecro"
     },
     "image": "crypto-org/asset/cro.png",
     "coinGeckoId": "crypto-com-chain"
@@ -118,15 +118,15 @@
     "origin_denom": "ugraviton",
     "origin_type": "staking",
     "symbol": "GRAV",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "gravity-bridge>evmos",
     "channel": "channel-8",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-65",
-        "port": "transfer",
-        "denom": "ugraviton"
+      "channel": "channel-65",
+      "port": "transfer",
+      "denom": "ugraviton"
     },
     "image": "gravity-bridge/asset/grav.png",
     "coinGeckoId": "graviton"
@@ -138,15 +138,15 @@
     "origin_denom": "usdc",
     "origin_type": "erc20",
     "symbol": "gUSDC",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "ethereum>gravity-bridge>evmos",
     "channel": "channel-8",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-65",
-        "port": "transfer",
-        "denom": "gravity0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      "channel": "channel-65",
+      "port": "transfer",
+      "denom": "gravity0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     },
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",
@@ -159,15 +159,15 @@
     "origin_denom": "usdt",
     "origin_type": "erc20",
     "symbol": "gUSDT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "ethereum>gravity-bridge>evmos",
     "channel": "channel-8",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-65",
-        "port": "transfer",
-        "denom": "gravity0x6c9E3E437b0F06C5366fAE4ea4e6cd6fB1803BdF"
+      "channel": "channel-65",
+      "port": "transfer",
+      "denom": "gravity0x6c9E3E437b0F06C5366fAE4ea4e6cd6fB1803BdF"
     },
     "image": "ethereum/asset/usdt.png",
     "coinGeckoId": "tether",
@@ -180,15 +180,15 @@
     "origin_denom": "wbtc",
     "origin_type": "erc20",
     "symbol": "gWBTC",
-    "decimal": 8,
+    "decimals": 8,
     "enable": true,
     "path": "ethereum>gravity-bridge>evmos",
     "channel": "channel-8",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-65",
-        "port": "transfer",
-        "denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+      "channel": "channel-65",
+      "port": "transfer",
+      "denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
     },
     "image": "ethereum/asset/wbtc.png",
     "coinGeckoId": "wrapped-bitcoin",
@@ -201,15 +201,15 @@
     "origin_denom": "weth",
     "origin_type": "erc20",
     "symbol": "gWETH",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "ethereum>gravity-bridge>evmos",
     "channel": "channel-8",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-65",
-        "port": "transfer",
-        "denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+      "channel": "channel-65",
+      "port": "transfer",
+      "denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
     },
     "image": "ethereum/asset/weth.png",
     "coinGeckoId": "weth",
@@ -222,15 +222,15 @@
     "origin_denom": "dai",
     "origin_type": "erc20",
     "symbol": "gDAI",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "ethereum>gravity-bridge>evmos",
     "channel": "channel-8",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-65",
-        "port": "transfer",
-        "denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F"
+      "channel": "channel-65",
+      "port": "transfer",
+      "denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F"
     },
     "image": "ethereum/asset/dai.png",
     "coinGeckoId": "dai",
@@ -243,15 +243,15 @@
     "origin_denom": "utgd",
     "origin_type": "staking",
     "symbol": "TGD",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "tgrade>evmos",
     "channel": "channel-34",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-9",
-        "port": "transfer",
-        "denom": "utgd"
+      "channel": "channel-9",
+      "port": "transfer",
+      "denom": "utgd"
     },
     "image": "tgrade/asset/tgd.png",
     "coinGeckoId": "tgrade"
@@ -263,15 +263,15 @@
     "origin_denom": "usdc",
     "origin_type": "erc20",
     "symbol": "axlUSDC",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "ethereum>axelar>evmos",
     "channel": "channel-21",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-22",
-        "port": "transfer",
-        "denom": "uusdc"
+      "channel": "channel-22",
+      "port": "transfer",
+      "denom": "uusdc"
     },
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",
@@ -284,15 +284,15 @@
     "origin_denom": "wbtc",
     "origin_type": "erc20",
     "symbol": "axlWBTC",
-    "decimal": 8,
+    "decimals": 8,
     "enable": true,
     "path": "ethereum>axelar>evmos",
     "channel": "channel-21",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-22",
-        "port": "transfer",
-        "denom": "wbtc-satoshi"
+      "channel": "channel-22",
+      "port": "transfer",
+      "denom": "wbtc-satoshi"
     },
     "image": "ethereum/asset/wbtc.png",
     "coinGeckoId": "wrapped-bitcoin",
@@ -305,15 +305,15 @@
     "origin_denom": "weth",
     "origin_type": "erc20",
     "symbol": "axlWETH",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "ethereum>axelar>evmos",
     "channel": "channel-21",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-22",
-        "port": "transfer",
-        "denom": "weth-wei"
+      "channel": "channel-22",
+      "port": "transfer",
+      "denom": "weth-wei"
     },
     "image": "ethereum/asset/weth.png",
     "coinGeckoId": "weth",
@@ -326,15 +326,15 @@
     "origin_denom": "dai",
     "origin_type": "erc20",
     "symbol": "axlDAI",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "ethereum>axelar>evmos",
     "channel": "channel-21",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-22",
-        "port": "transfer",
-        "denom": "dai-wei"
+      "channel": "channel-22",
+      "port": "transfer",
+      "denom": "dai-wei"
     },
     "image": "ethereum/asset/dai.png",
     "coinGeckoId": "dai",

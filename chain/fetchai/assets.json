@@ -6,7 +6,7 @@
     "origin_denom": "afet",
     "origin_type": "staking",
     "symbol": "FET",
-    "decimal": 18,
+    "decimals": 18,
     "description": "Fetch.ai Staking Coin",
     "image": "fetchai/asset/fet.png",
     "coinGeckoId": "fetch-ai"
@@ -18,7 +18,7 @@
     "origin_denom": "nanomobx",
     "origin_type": "native",
     "symbol": "MOBX",
-    "decimal": 9,
+    "decimals": 9,
     "description": "Native Coin",
     "image": "fetchai/asset/mobx.png",
     "coinGeckoId": ""

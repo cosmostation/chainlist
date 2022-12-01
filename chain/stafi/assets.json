@@ -6,7 +6,7 @@
     "origin_denom": "ufis",
     "origin_type": "staking",
     "symbol": "FIS",
-    "decimal": 6,
+    "decimals": 6,
     "description": "StaFi Staking Coin",
     "image": "stafi/asset/fis.png"
   },
@@ -17,7 +17,7 @@
     "origin_denom": "uatom",
     "origin_type": "native",
     "symbol": "rATOM",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Stafi Staked Atom",
     "image": "stafi/asset/ratom.png",
     "coinGeckoId": "stafi-ratom"
@@ -29,7 +29,7 @@
     "origin_denom": "uiris",
     "origin_type": "native",
     "symbol": "rIRIS",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Stafi Staked Iris",
     "image": "stafi/asset/riris.png",
     "coinGeckoId": ""
@@ -41,7 +41,7 @@
     "origin_denom": "uhuahua",
     "origin_type": "native",
     "symbol": "rHUAHUA",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Stafi Staked Huahua",
     "image": "stafi/asset/rhuahua.png",
     "coinGeckoId": ""
@@ -53,15 +53,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>stafi",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-369",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-369",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -73,15 +73,15 @@
     "origin_denom": "uiris",
     "origin_type": "staking",
     "symbol": "IRIS",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "iris>stafi",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-33",
-        "port": "transfer",
-        "denom": "uiris"
+      "channel": "channel-33",
+      "port": "transfer",
+      "denom": "uiris"
     },
     "image": "iris/asset/iris.png",
     "coinGeckoId": "iris-network"
@@ -93,15 +93,15 @@
     "origin_denom": "uhuahua",
     "origin_type": "staking",
     "symbol": "HUAHUA",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "chihuahua>stafi",
     "channel": "channel-4",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-25",
-        "port": "transfer",
-        "denom": "uhuahua"
+      "channel": "channel-25",
+      "port": "transfer",
+      "denom": "uhuahua"
     },
     "image": "chihuahua/asset/huahua.png",
     "coinGeckoId": "chihuahua-token"

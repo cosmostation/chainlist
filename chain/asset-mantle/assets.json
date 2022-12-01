@@ -6,7 +6,7 @@
     "origin_denom": "umntl",
     "origin_type": "staking",
     "symbol": "MNTL",
-    "decimal": 6,
+    "decimals": 6,
     "description": "AssetMantle Staking Coin",
     "image": "sset-mantle/asset/mntl.png",
     "coinGeckoId": "assetmantle"
@@ -18,15 +18,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>asset-mantle",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-232",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-232",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -38,15 +38,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>asset-mantle",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-232",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-232",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -58,15 +58,15 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>asset-mantle",
     "channel": "channel-2",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-83",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-83",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"

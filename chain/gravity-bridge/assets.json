@@ -6,7 +6,7 @@
     "origin_denom": "ugraviton",
     "origin_type": "staking",
     "symbol": "GRAVITON",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Gravity-bridge Staking Coin",
     "image": "gravity-bridge/asset/grav.png",
     "coinGeckoId": "graviton"
@@ -18,15 +18,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>gravity-bridge",
     "channel": "channel-10",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-144",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-144",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -38,15 +38,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>gravity-bridge",
     "channel": "channel-10",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-144",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-144",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -58,15 +58,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>gravity-bridge",
     "channel": "channel-17",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-281",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-281",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -78,15 +78,15 @@
     "origin_denom": "unym",
     "origin_type": "native",
     "symbol": "NYM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "nyx>gravity-bridge",
     "channel": "channel-18",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-0",
-        "port": "transfer",
-        "denom": "unym"
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "unym"
     },
     "image": "nyx/asset/nym.png",
     "coinGeckoId": ""
@@ -98,15 +98,15 @@
     "origin_denom": "uxprt",
     "origin_type": "staking",
     "symbol": "XPRT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "persistence>gravity-bridge",
     "channel": "channel-24",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-38",
-        "port": "transfer",
-        "denom": "uxprt"
+      "channel": "channel-38",
+      "port": "transfer",
+      "denom": "uxprt"
     },
     "image": "persistence/asset/xprt.png",
     "coinGeckoId": "persistence"
@@ -118,15 +118,15 @@
     "origin_denom": "uhuahua",
     "origin_type": "staking",
     "symbol": "HUAHUA",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "chihuahua>gravity-bridge",
     "channel": "channel-34",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-15",
-        "port": "transfer",
-        "denom": "uhuahua"
+      "channel": "channel-15",
+      "port": "transfer",
+      "denom": "uhuahua"
     },
     "image": "chihuahua/asset/huahua.png",
     "coinGeckoId": "chihuahua-token"
@@ -138,15 +138,15 @@
     "origin_denom": "ncheq",
     "origin_type": "staking",
     "symbol": "CHEQ",
-    "decimal": 8,
+    "decimals": 8,
     "enable": true,
     "path": "cheqd>gravity-bridge",
     "channel": "channel-43",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-2",
-        "port": "transfer",
-        "denom": "ncheq"
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "ncheq"
     },
     "image": "cheqd/asset/cheq.png",
     "coinGeckoId": "cheqd-network"
@@ -158,15 +158,15 @@
     "origin_denom": "uiris",
     "origin_type": "staking",
     "symbol": "IRIS",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "iris>gravity-bridge",
     "channel": "channel-47",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-29",
-        "port": "transfer",
-        "denom": "uiris"
+      "channel": "channel-29",
+      "port": "transfer",
+      "denom": "uiris"
     },
     "image": "iris/asset/iris.png",
     "coinGeckoId": "iris-network"
@@ -178,15 +178,15 @@
     "origin_denom": "ustars",
     "origin_type": "staking",
     "symbol": "STARS",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "stargaze>gravity-bridge",
     "channel": "channel-7",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-6",
-        "port": "transfer",
-        "denom": "ustars"
+      "channel": "channel-6",
+      "port": "transfer",
+      "denom": "ustars"
     },
     "image": "stargaze/asset/stars.png",
     "coinGeckoId": "stargaze"
@@ -198,15 +198,15 @@
     "origin_denom": "uscrt",
     "origin_type": "staking",
     "symbol": "SCRT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "secret>gravity-bridge",
     "channel": "channel-79",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-17",
-        "port": "transfer",
-        "denom": "uscrt"
+      "channel": "channel-17",
+      "port": "transfer",
+      "denom": "uscrt"
     },
     "image": "secret/asset/scrt.png",
     "coinGeckoId": "secret"
@@ -218,15 +218,15 @@
     "origin_denom": "ucre",
     "origin_type": "staking",
     "symbol": "CRE",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "crescent>gravity-bridge",
     "channel": "channel-62",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-2",
-        "port": "transfer",
-        "denom": "ucre"
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "ucre"
     },
     "image": "crescent/asset/cre.png",
     "coinGeckoId": "crescent-network"
@@ -238,15 +238,15 @@
     "origin_denom": "ubcre",
     "origin_type": "native",
     "symbol": "bCRE",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "crescent>gravity-bridge",
     "channel": "channel-62",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-2",
-        "port": "transfer",
-        "denom": "ubcre"
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "ubcre"
     },
     "image": "crescent/asset/bcre.png",
     "coinGeckoId": "liquid-staking-crescent"
@@ -258,7 +258,7 @@
     "origin_denom": "wbtc",
     "origin_type": "erc20",
     "symbol": "WBTC",
-    "decimal": 8,
+    "decimals": 8,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/wbtc.png",
     "coinGeckoId": "wrapped-bitcoin",
@@ -271,7 +271,7 @@
     "origin_denom": "weth",
     "origin_type": "erc20",
     "symbol": "WETH",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/weth.png",
     "coinGeckoId": "weth",
@@ -284,7 +284,7 @@
     "origin_denom": "usdc",
     "origin_type": "erc20",
     "symbol": "USDC",
-    "decimal": 6,
+    "decimals": 6,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",
@@ -297,7 +297,7 @@
     "origin_denom": "dai",
     "origin_type": "erc20",
     "symbol": "DAI",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/dai.png",
     "coinGeckoId": "dai",
@@ -310,7 +310,7 @@
     "origin_denom": "uni",
     "origin_type": "erc20",
     "symbol": "UNI",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/uni.png",
     "coinGeckoId": "uniswap",
@@ -323,7 +323,7 @@
     "origin_denom": "paxg",
     "origin_type": "erc20",
     "symbol": "PAXG",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/paxg.png",
     "coinGeckoId": "pax-gold",
@@ -336,7 +336,7 @@
     "origin_denom": "storj",
     "origin_type": "erc20",
     "symbol": "STORJ",
-    "decimal": 8,
+    "decimals": 8,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/storj.png",
     "coinGeckoId": "storj",
@@ -349,7 +349,7 @@
     "origin_denom": "steth",
     "origin_type": "erc20",
     "symbol": "STETH",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/steth.png",
     "coinGeckoId": "staked-ether",
@@ -362,7 +362,7 @@
     "origin_denom": "pstake",
     "origin_type": "erc20",
     "symbol": "PSTAKE",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/pstake.png",
     "coinGeckoId": "pstake-finance",
@@ -375,7 +375,7 @@
     "origin_denom": "usdt",
     "origin_type": "erc20",
     "symbol": "USDT",
-    "decimal": 6,
+    "decimals": 6,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/usdt.png",
     "coinGeckoId": "tether",
@@ -388,7 +388,7 @@
     "origin_denom": "stketh",
     "origin_type": "erc20",
     "symbol": "stkETH",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/stketh.png",
     "coinGeckoId": "pstake-staked-eth",
@@ -401,7 +401,7 @@
     "origin_denom": "sd",
     "origin_type": "erc20",
     "symbol": "SD",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/sd.png",
     "coinGeckoId": "stader",
@@ -414,7 +414,7 @@
     "origin_denom": "page",
     "origin_type": "erc20",
     "symbol": "PAGE",
-    "decimal": 8,
+    "decimals": 8,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/page.png",
     "coinGeckoId": "page",
@@ -427,7 +427,7 @@
     "origin_denom": "frax",
     "origin_type": "erc20",
     "symbol": "FRAX",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>gravity-bridge",
     "image": "ethereum/asset/frax.png",
     "coinGeckoId": "frax",

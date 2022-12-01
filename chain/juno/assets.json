@@ -6,7 +6,7 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "description": "JUNO Staking Coin",
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
@@ -18,15 +18,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>juno",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-42",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-42",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -38,15 +38,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>juno",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-42",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-42",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -58,15 +58,15 @@
     "origin_denom": "ubtsg",
     "origin_type": "staking",
     "symbol": "BTSG",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "bitsong>juno",
     "channel": "channel-17",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-5",
-        "port": "transfer",
-        "denom": "ubtsg"
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "ubtsg"
     },
     "image": "bitsong/asset/btsg.png",
     "coinGeckoId": "bitsong"
@@ -78,15 +78,15 @@
     "origin_denom": "uatolo",
     "origin_type": "staking",
     "symbol": "ATOLO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "rizon>juno",
     "channel": "channel-76",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-3",
-        "port": "transfer",
-        "denom": "uatolo"
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "uatolo"
     },
     "image": "rizon/asset/atolo.png",
     "coinGeckoId": "rizon"
@@ -98,15 +98,15 @@
     "origin_denom": "ustars",
     "origin_type": "staking",
     "symbol": "STARS",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "stargaze>juno",
     "channel": "channel-20",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-5",
-        "port": "transfer",
-        "denom": "ustars"
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "ustars"
     },
     "image": "stargaze/asset/stars.png",
     "coinGeckoId": "stargaze"
@@ -118,15 +118,15 @@
     "origin_denom": "uhuahua",
     "origin_type": "staking",
     "symbol": "HUAHUA",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "chihuahua>juno",
     "channel": "channel-28",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-11",
-        "port": "transfer",
-        "denom": "uhuahua"
+      "channel": "channel-11",
+      "port": "transfer",
+      "denom": "uhuahua"
     },
     "image": "chihuahua/asset/huahua.png",
     "coinGeckoId": "chihuahua-token"
@@ -138,15 +138,15 @@
     "origin_denom": "udig",
     "origin_type": "staking",
     "symbol": "DIG",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "dig-chain>juno",
     "channel": "channel-37",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-2",
-        "port": "transfer",
-        "denom": "udig"
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "udig"
     },
     "image": "dig-chain/asset/dig.png",
     "coinGeckoId": "dig-chain"
@@ -158,15 +158,15 @@
     "origin_denom": "uxprt",
     "origin_type": "staking",
     "symbol": "XPRT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "persistence>juno",
     "channel": "channel-33",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-37",
-        "port": "transfer",
-        "denom": "uxprt"
+      "channel": "channel-37",
+      "port": "transfer",
+      "denom": "uxprt"
     },
     "image": "persistence/asset/xprt.png",
     "coinGeckoId": "persistence"
@@ -178,15 +178,15 @@
     "origin_denom": "ucmdx",
     "origin_type": "staking",
     "symbol": "CMDX",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "comdex>juno",
     "channel": "channel-36",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-18",
-        "port": "transfer",
-        "denom": "ucmdx"
+      "channel": "channel-18",
+      "port": "transfer",
+      "denom": "ucmdx"
     },
     "image": "comdex/asset/cmdx.png",
     "coinGeckoId": "comdex"
@@ -198,15 +198,15 @@
     "origin_denom": "uakt",
     "origin_type": "staking",
     "symbol": "AKT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "akash>juno",
     "channel": "channel-29",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-35",
-        "port": "transfer",
-        "denom": "uakt"
+      "channel": "channel-35",
+      "port": "transfer",
+      "denom": "uakt"
     },
     "image": "akash/asset/akt.png",
     "coinGeckoId": "akash-network"
@@ -218,15 +218,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>juno",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-207",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-207",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -238,15 +238,15 @@
     "origin_denom": "rowan",
     "origin_type": "staking",
     "symbol": "ROWAN",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "sifchain>juno",
     "channel": "channel-5",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-14",
-        "port": "transfer",
-        "denom": "rowan"
+      "channel": "channel-14",
+      "port": "transfer",
+      "denom": "rowan"
     },
     "image": "sifchain/asset/rowan.png",
     "coinGeckoId": "sifchain"
@@ -258,35 +258,35 @@
     "origin_denom": "uscrt",
     "origin_type": "staking",
     "symbol": "SCRT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "secret>juno",
     "channel": "channel-48",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-8",
-        "port": "transfer",
-        "denom": "uscrt"
+      "channel": "channel-8",
+      "port": "transfer",
+      "denom": "uscrt"
     },
     "image": "secret/asset/scrt.png",
     "coinGeckoId": "secret"
   },
   {
     "denom": "ibc/0CB5D60E57FD521FA39D11E3E410144389010AC5EF5F292BC9BDD832FA2FDBF9",
-    "type": "ibc",    
+    "type": "ibc",
     "origin_chain": "bitcanna",
     "origin_denom": "ubcna",
     "origin_type": "staking",
     "symbol": "BCNA",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "bitcanna>juno",
     "channel": "channel-50",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-10",
-        "port": "transfer",
-        "denom": "ubcna"
+      "channel": "channel-10",
+      "port": "transfer",
+      "denom": "ubcna"
     },
     "image": "bitcanna/asset/bcna.png",
     "coinGeckoId": "bitcanna"
@@ -298,15 +298,15 @@
     "origin_denom": "ungm",
     "origin_type": "staking",
     "symbol": "NGM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "emoney>juno",
     "channel": "channel-9",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-15",
-        "port": "transfer",
-        "denom": "ungm"
+      "channel": "channel-15",
+      "port": "transfer",
+      "denom": "ungm"
     },
     "image": "emoney/asset/ngm.png",
     "coinGeckoId": "e-money"
@@ -318,15 +318,15 @@
     "origin_denom": "eeur",
     "origin_type": "native",
     "symbol": "EEUR",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "emoney>juno",
     "channel": "channel-9",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-15",
-        "port": "transfer",
-        "denom": "eeur"
+      "channel": "channel-15",
+      "port": "transfer",
+      "denom": "eeur"
     },
     "image": "emoney/asset/eeur.png",
     "coinGeckoId": "e-money-eur"
@@ -338,15 +338,15 @@
     "origin_denom": "usdc",
     "origin_type": "erc20",
     "symbol": "axlUSDC",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "ethereum>axelar>juno",
     "channel": "channel-71",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-4",
-        "port": "transfer",
-        "denom": "uusdc"
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "uusdc"
     },
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",

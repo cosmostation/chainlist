@@ -6,7 +6,7 @@
     "origin_denom": "ungm",
     "origin_type": "staking",
     "symbol": "NGM",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Emoney Staking Coin",
     "image": "emoney/asset/ngm.png",
     "coinGeckoId": "e-money"
@@ -18,7 +18,7 @@
     "origin_denom": "eeur",
     "origin_type": "native",
     "symbol": "EEUR",
-    "decimal": 6,
+    "decimals": 6,
     "description": "EUR on E-Money Network",
     "image": "emoney/asset/eeur.png",
     "coinGeckoId": "e-money-eur"
@@ -30,7 +30,7 @@
     "origin_denom": "echf",
     "origin_type": "native",
     "symbol": "ECHF",
-    "decimal": 6,
+    "decimals": 6,
     "description": "CHF on E-Money Network",
     "image": "emoney/asset/echf.png"
   },
@@ -41,7 +41,7 @@
     "origin_denom": "enok",
     "origin_type": "native",
     "symbol": "ENOK",
-    "decimal": 6,
+    "decimals": 6,
     "description": "NOK on E-Money Network",
     "image": "emoney/asset/enok.png"
   },
@@ -52,7 +52,7 @@
     "origin_denom": "edkk",
     "origin_type": "native",
     "symbol": "EDKK",
-    "decimal": 6,
+    "decimals": 6,
     "description": "DKK on E-Money Network",
     "image": "emoney/asset/edkk.png"
   },
@@ -63,7 +63,7 @@
     "origin_denom": "esek",
     "origin_type": "native",
     "symbol": "ESEK",
-    "decimal": 6,
+    "decimals": 6,
     "description": "SEK on E-Money Network",
     "image": "emoney/asset/esek.png"
   },
@@ -74,15 +74,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>emoney",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-37",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-37",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -94,15 +94,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>emoney",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-37",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-37",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -114,15 +114,15 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>emoney",
     "channel": "channel-15",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-9",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-9",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
@@ -134,15 +134,15 @@
     "origin_denom": "rowan",
     "origin_type": "staking",
     "symbol": "ROWAN",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "sifchain>emoney",
     "channel": "channel-14",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-19",
-        "port": "transfer",
-        "denom": "rowan"
+      "channel": "channel-19",
+      "port": "transfer",
+      "denom": "rowan"
     },
     "image": "sifchain/asset/rowan.png",
     "coinGeckoId": "sifchain"
@@ -154,15 +154,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>emoney",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-202",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-202",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -174,15 +174,15 @@
     "origin_denom": "uaxl",
     "origin_type": "staking",
     "symbol": "AXL",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "axelar>emoney",
     "channel": "channel-26",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-6",
-        "port": "transfer",
-        "denom": "uaxl"
+      "channel": "channel-6",
+      "port": "transfer",
+      "denom": "uaxl"
     },
     "image": "axelar/asset/axl.png"
   }

@@ -6,7 +6,7 @@
     "origin_denom": "umed",
     "origin_type": "staking",
     "symbol": "MED",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Medibloc Staking Coin",
     "image": "medibloc/asset/med.png",
     "coinGeckoId": "medibloc"
@@ -18,15 +18,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>medibloc",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-82",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-82",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -38,15 +38,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>medibloc",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-82",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-82",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"

@@ -6,7 +6,7 @@
     "origin_denom": "uband",
     "origin_type": "staking",
     "symbol": "BAND",
-    "decimal": 6,
+    "decimals": 6,
     "description": "BAND Staking Coin",
     "image": "band/asset/band.png",
     "coinGeckoId": "band-protocol"
@@ -18,15 +18,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>band",
     "channel": "channel-83",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-148",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-148",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -38,15 +38,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>band",
     "channel": "channel-83",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-148",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-148",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"

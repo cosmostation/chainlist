@@ -6,7 +6,7 @@
     "origin_denom": "ulum",
     "origin_type": "staking",
     "symbol": "LUM",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Lum Staking Coin",
     "image": "lum/asset/lum.png",
     "coinGeckoId": "lum-network"
@@ -18,15 +18,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>lum",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-115",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-115",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -38,15 +38,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>lum",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-115",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-115",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"

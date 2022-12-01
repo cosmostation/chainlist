@@ -6,7 +6,7 @@
     "origin_denom": "uaxl",
     "origin_type": "staking",
     "symbol": "AXL",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Axelar Staking Coin",
     "image": "axelar/asset/axl.png",
     "coinGeckoId": "axelar"
@@ -18,15 +18,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>axelar",
     "channel": "channel-2",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-293",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-293",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
@@ -38,15 +38,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>axelar",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-208",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-208",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -58,15 +58,15 @@
     "origin_denom": "uion",
     "origin_type": "native",
     "symbol": "ION",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>axelar",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-208",
-        "port": "transfer",
-        "denom": "uion"
+      "channel": "channel-208",
+      "port": "transfer",
+      "denom": "uion"
     },
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
@@ -78,15 +78,15 @@
     "origin_denom": "ujuno",
     "origin_type": "staking",
     "symbol": "JUNO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "juno>axelar",
     "channel": "channel-4",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-71",
-        "port": "transfer",
-        "denom": "ujuno"
+      "channel": "channel-71",
+      "port": "transfer",
+      "denom": "ujuno"
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
@@ -98,15 +98,15 @@
     "origin_denom": "ucre",
     "origin_type": "staking",
     "symbol": "CRE",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "crescent>axelar",
     "channel": "channel-7",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-4",
-        "port": "transfer",
-        "denom": "ucre"
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "ucre"
     },
     "image": "crescent/asset/cre.png",
     "coinGeckoId": "crescent-network"
@@ -118,15 +118,15 @@
     "origin_denom": "ubcre",
     "origin_type": "staking",
     "symbol": "bCRE",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "crescent>axelar",
     "channel": "channel-7",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-4",
-        "port": "transfer",
-        "denom": "ubcre"
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "ubcre"
     },
     "image": "crescent/asset/bcre.png",
     "coinGeckoId": "liquid-staking-crescent"
@@ -138,15 +138,15 @@
     "origin_denom": "inj",
     "origin_type": "staking",
     "symbol": "INJ",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "injective>axelar",
     "channel": "channel-10",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-84",
-        "port": "transfer",
-        "denom": "inj"
+      "channel": "channel-84",
+      "port": "transfer",
+      "denom": "inj"
     },
     "image": "injective/asset/inj.png",
     "coinGeckoId": "injective-protocol"
@@ -158,15 +158,15 @@
     "origin_denom": "uscrt",
     "origin_type": "staking",
     "symbol": "SCRT",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "secret>axelar",
     "channel": "channel-12",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-20",
-        "port": "transfer",
-        "denom": "uscrt"
+      "channel": "channel-20",
+      "port": "transfer",
+      "denom": "uscrt"
     },
     "image": "secret/asset/scrt.png",
     "coinGeckoId": "secret"
@@ -178,15 +178,15 @@
     "origin_denom": "ukuji",
     "origin_type": "staking",
     "symbol": "KUJI",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "kujira>axelar",
     "channel": "channel-14",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-9",
-        "port": "transfer",
-        "denom": "ukuji"
+      "channel": "channel-9",
+      "port": "transfer",
+      "denom": "ukuji"
     },
     "image": "kujira/asset/kuji.png",
     "coinGeckoId": "kujira"
@@ -198,15 +198,15 @@
     "origin_denom": "ustars",
     "origin_type": "staking",
     "symbol": "STARS",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "stargaze>axelar",
     "channel": "channel-18",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-50",
-        "port": "transfer",
-        "denom": "ustars"
+      "channel": "channel-50",
+      "port": "transfer",
+      "denom": "ustars"
     },
     "image": "stargaze/asset/stars.png",
     "coinGeckoId": "stargaze"
@@ -218,15 +218,15 @@
     "origin_denom": "umntl",
     "origin_type": "staking",
     "symbol": "MNTL",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "asset-mantle>axelar",
     "channel": "channel-23",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-10",
-        "port": "transfer",
-        "denom": "umntl"
+      "channel": "channel-10",
+      "port": "transfer",
+      "denom": "umntl"
     },
     "image": "asset-mantle/asset/mntl.png",
     "coinGeckoId": "assetmantle"
@@ -238,15 +238,15 @@
     "origin_denom": "afet",
     "origin_type": "staking",
     "symbol": "FET",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "fetchai>axelar",
     "channel": "channel-21",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-14",
-        "port": "transfer",
-        "denom": "afet"
+      "channel": "channel-14",
+      "port": "transfer",
+      "denom": "afet"
     },
     "image": "fetchai/asset/fet.png",
     "coinGeckoId": "fetch-ai"
@@ -258,15 +258,15 @@
     "origin_denom": "uxki",
     "origin_type": "staking",
     "symbol": "XKI",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "ki-chain>axelar",
     "channel": "channel-17",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-19",
-        "port": "transfer",
-        "denom": "uxki"
+      "channel": "channel-19",
+      "port": "transfer",
+      "denom": "uxki"
     },
     "image": "ki-chain/asset/xki.png",
     "coinGeckoId": "ki"
@@ -278,15 +278,15 @@
     "origin_denom": "aevmos",
     "origin_type": "staking",
     "symbol": "EVMOS",
-    "decimal": 18,
+    "decimals": 18,
     "enable": true,
     "path": "evmos>axelar",
     "channel": "channel-22",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-21",
-        "port": "transfer",
-        "denom": "aevmos"
+      "channel": "channel-21",
+      "port": "transfer",
+      "denom": "aevmos"
     },
     "image": "evmos/asset/evmos.png",
     "coinGeckoId": "evmos"
@@ -298,15 +298,15 @@
     "origin_denom": "uregen",
     "origin_type": "staking",
     "symbol": "REGEN",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "regen>axelar",
     "channel": "channel-29",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-48",
-        "port": "transfer",
-        "denom": "uregen"
+      "channel": "channel-48",
+      "port": "transfer",
+      "denom": "uregen"
     },
     "image": "regen/asset/regen.png",
     "coinGeckoId": "regen"
@@ -318,15 +318,15 @@
     "origin_denom": "ungm",
     "origin_type": "staking",
     "symbol": "NGM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "emoney>axelar",
     "channel": "channel-6",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-26",
-        "port": "transfer",
-        "denom": "ungm"
+      "channel": "channel-26",
+      "port": "transfer",
+      "denom": "ungm"
     },
     "image": "emoney/asset/ngm.png",
     "coinGeckoId": "e-money"
@@ -338,15 +338,15 @@
     "origin_denom": "eeur",
     "origin_type": "native",
     "symbol": "EEUR",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "emoney>axelar",
     "channel": "channel-6",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-26",
-        "port": "transfer",
-        "denom": "eeur"
+      "channel": "channel-26",
+      "port": "transfer",
+      "denom": "eeur"
     },
     "image": "emoney/asset/eeur.png",
     "coinGeckoId": "e-money-eur"
@@ -358,15 +358,15 @@
     "origin_denom": "enok",
     "origin_type": "native",
     "symbol": "ENOK",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "emoney>axelar",
     "channel": "channel-6",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-26",
-        "port": "transfer",
-        "denom": "enok"
+      "channel": "channel-26",
+      "port": "transfer",
+      "denom": "enok"
     },
     "image": "emoney/asset/enok.png"
   },
@@ -377,15 +377,15 @@
     "origin_denom": "esek",
     "origin_type": "native",
     "symbol": "ESEK",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "emoney>axelar",
     "channel": "channel-6",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-26",
-        "port": "transfer",
-        "denom": "esek"
+      "channel": "channel-26",
+      "port": "transfer",
+      "denom": "esek"
     },
     "image": "emoney/asset/esek.png"
   },
@@ -396,15 +396,15 @@
     "origin_denom": "echf",
     "origin_type": "native",
     "symbol": "ECHF",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "emoney>axelar",
     "channel": "channel-6",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-26",
-        "port": "transfer",
-        "denom": "echf"
+      "channel": "channel-26",
+      "port": "transfer",
+      "denom": "echf"
     },
     "image": "emoney/asset/echf.png"
   },
@@ -415,15 +415,15 @@
     "origin_denom": "edkk",
     "origin_type": "native",
     "symbol": "EDKK",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "emoney>axelar",
     "channel": "channel-6",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-26",
-        "port": "transfer",
-        "denom": "edkk"
+      "channel": "channel-26",
+      "port": "transfer",
+      "denom": "edkk"
     },
     "image": "emoney/asset/edkk.png"
   },
@@ -434,7 +434,7 @@
     "origin_denom": "usdc",
     "origin_type": "erc20",
     "symbol": "axlUSDC",
-    "decimal": 6,
+    "decimals": 6,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",
@@ -447,7 +447,7 @@
     "origin_denom": "usdt",
     "origin_type": "erc20",
     "symbol": "axlUSDT",
-    "decimal": 6,
+    "decimals": 6,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/usdt.png",
     "coinGeckoId": "tether",
@@ -460,7 +460,7 @@
     "origin_denom": "wbtc",
     "origin_type": "erc20",
     "symbol": "axlWBTC",
-    "decimal": 8,
+    "decimals": 8,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/wbtc.png",
     "coinGeckoId": "wrapped-bitcoin",
@@ -473,7 +473,7 @@
     "origin_denom": "ape",
     "origin_type": "erc20",
     "symbol": "axlAPE",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/ape.png",
     "coinGeckoId": "apecoin",
@@ -486,7 +486,7 @@
     "origin_denom": "aave",
     "origin_type": "erc20",
     "symbol": "axlAAVE",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/aave.png",
     "coinGeckoId": "aave",
@@ -499,7 +499,7 @@
     "origin_denom": "dai",
     "origin_type": "erc20",
     "symbol": "axlDAI",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/dai.png",
     "coinGeckoId": "dai",
@@ -512,7 +512,7 @@
     "origin_denom": "frax",
     "origin_type": "erc20",
     "symbol": "axlFRAX",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/frax.png",
     "coinGeckoId": "frax",
@@ -525,7 +525,7 @@
     "origin_denom": "weth",
     "origin_type": "erc20",
     "symbol": "axlWETH",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/weth.png",
     "coinGeckoId": "weth",
@@ -538,7 +538,7 @@
     "origin_denom": "link",
     "origin_type": "erc20",
     "symbol": "axlLINK",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/link.png",
     "coinGeckoId": "chainlink",
@@ -551,7 +551,7 @@
     "origin_denom": "mkr",
     "origin_type": "erc20",
     "symbol": "axlMKR",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/mkr.png",
     "coinGeckoId": "maker",
@@ -564,7 +564,7 @@
     "origin_denom": "rai",
     "origin_type": "erc20",
     "symbol": "axlRAI",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/rai.png",
     "coinGeckoId": "rai",
@@ -577,7 +577,7 @@
     "origin_denom": "shib",
     "origin_type": "erc20",
     "symbol": "axlSHIB",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/shib.png",
     "coinGeckoId": "shiba-inu",
@@ -590,7 +590,7 @@
     "origin_denom": "steth",
     "origin_type": "erc20",
     "symbol": "axlstETH",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/steth.png",
     "coinGeckoId": "staked-ether",
@@ -603,7 +603,7 @@
     "origin_denom": "uni",
     "origin_type": "erc20",
     "symbol": "axlUNI",
-    "decimal": 18,
+    "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/uni.png",
     "coinGeckoId": "uniswap",
@@ -616,7 +616,7 @@
     "origin_denom": "wmatic",
     "origin_type": "erc20",
     "symbol": "axlWMATIC",
-    "decimal": 18,
+    "decimals": 18,
     "path": "polygon>axelar",
     "image": "polygon/asset/wmatic.png",
     "coinGeckoId": "wmatic",
@@ -629,7 +629,7 @@
     "origin_denom": "wglmr",
     "origin_type": "erc20",
     "symbol": "axlWGLMR",
-    "decimal": 18,
+    "decimals": 18,
     "path": "moonbeam>axelar",
     "image": "moonbeam/asset/wglmr.png",
     "coinGeckoId": "wrapped-moonbeam",
@@ -642,7 +642,7 @@
     "origin_denom": "dot",
     "origin_type": "erc20",
     "symbol": "xcDOT",
-    "decimal": 10,
+    "decimals": 10,
     "path": "moonbeam>axelar",
     "image": "moonbeam/asset/xcdot.png",
     "coinGeckoId": "xcdot",
@@ -655,7 +655,7 @@
     "origin_denom": "wftm",
     "origin_type": "erc20",
     "symbol": "axlWFTM",
-    "decimal": 18,
+    "decimals": 18,
     "path": "fantom>axelar",
     "image": "fantom/asset/wftm.png",
     "coinGeckoId": "wrapped-fantom",
@@ -668,7 +668,7 @@
     "origin_denom": "wavax",
     "origin_type": "erc20",
     "symbol": "axlWAVAX",
-    "decimal": 18,
+    "decimals": 18,
     "path": "avalanche>axelar",
     "image": "avalanche/asset/wavax.png",
     "coinGeckoId": "wrapped-avax",
@@ -681,7 +681,7 @@
     "origin_denom": "wbnb",
     "origin_type": "erc20",
     "symbol": "axlWBNB",
-    "decimal": 18,
+    "decimals": 18,
     "path": "bnb-smart-chain>axelar",
     "image": "bnb-smart-chain/asset/wbnb.png",
     "coinGeckoId": "wbnb",

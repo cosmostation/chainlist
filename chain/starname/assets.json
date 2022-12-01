@@ -6,7 +6,7 @@
     "origin_denom": "uiov",
     "origin_type": "staking",
     "symbol": "IOV",
-    "decimal": 6,
+    "decimals": 6,
     "description": "Starname Staking Coin",
     "image": "starname/asset/iov.png",
     "coinGeckoId": "starname"
@@ -18,15 +18,15 @@
     "origin_denom": "uosmo",
     "origin_type": "staking",
     "symbol": "OSMO",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "osmosis>starname",
     "channel": "channel-2",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-15",
-        "port": "transfer",
-        "denom": "uosmo"
+      "channel": "channel-15",
+      "port": "transfer",
+      "denom": "uosmo"
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
@@ -38,15 +38,15 @@
     "origin_denom": "uatom",
     "origin_type": "staking",
     "symbol": "ATOM",
-    "decimal": 6,
+    "decimals": 6,
     "enable": true,
     "path": "cosmos>starname",
     "channel": "channel-0",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-158",
-        "port": "transfer",
-        "denom": "uatom"
+      "channel": "channel-158",
+      "port": "transfer",
+      "denom": "uatom"
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
