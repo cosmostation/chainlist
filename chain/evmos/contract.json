@@ -74,7 +74,7 @@
     "decimals": 6,
     "image": "ethereum/asset/usdc.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "usd-coin"
   },
   {
     "chainId": 9001,
@@ -85,7 +85,7 @@
     "decimals": 6,
     "image": "ethereum/asset/usdt.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "tether"
   },
   {
     "chainId": 9001,
@@ -96,6 +96,6 @@
     "decimals": 18,
     "image": "ethereum/asset/dai.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "dai"
   }
 ]
