@@ -7,7 +7,7 @@
     "description": "DAO DAO",
     "decimals": 6,
     "image": "juno/asset/dao.png",
-    "default": false,
+    "default": true,
     "coinGeckoId": ""
   },
   {
@@ -18,7 +18,7 @@
     "description": "NETA",
     "decimals": 6,
     "image": "juno/asset/neta.png",
-    "default": false,
+    "default": true,
     "coinGeckoId": "neta"
   },
   {
