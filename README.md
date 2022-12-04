@@ -9,6 +9,7 @@
 - Chain base fee
 
 
+
 ## Productions using with
 
 - [Mintscan Explorer](https://mintscan.io)
@@ -17,19 +18,26 @@
 - [iOS Wallet](https://apple.co/2IAM3Xm)
 
 
+
 ## How to add your validator image
 
- description
+ - Add your image to targetchain/moniker folder
+ - Image with png format and validator address name
+ - [Example](https://github.com/cosmostation/chainlist/tree/main/chain/cosmos/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos 
+ 
  
  
 ## How to add dApp Link for mobile wallet
 
- description
+ - Add your dApp information with [this](https://github.com/cosmostation/chainlist/blob/main/dapp/dapps.json) file
+ - Please don't forget link image for display
 
 
-## How to add your new chain 
 
- description
+## How to add your new token(Erc20, Cw20) 
+
+ - [Evmos Erc20](https://github.com/cosmostation/chainlist/blob/main/chain/evmos/contract.json) list supporting
+ - [Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/contract.json) list supporting
 
 
 ## Contact and Community
@@ -38,6 +46,7 @@
 - [E-mail](support@cosmostation.io)
 - [Telegram - International](https://t.me/cosmostation)
 - [Kakao - Korean](https://open.kakao.com/o/g6KKSe5)
+
 
 
 ## License
