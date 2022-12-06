@@ -148,5 +148,45 @@
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",
     "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+  },
+  {
+    "denom": "ibc/11F940BCDFD7CFBFD7EDA13F25DA95D308286D441209D780C9863FD4271514EB",
+    "type": "ibc",
+    "origin_chain": "agoric",
+    "origin_denom": "ubld",
+    "origin_type": "staking",
+    "symbol": "BLD",
+    "decimals": 6,
+    "enable": true,
+    "path": "agoric>crescent",
+    "channel": "channel-11",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "ubld"
+    },
+    "image": "agoric/asset/bld.png",
+    "coinGeckoId": "agoric"
+  },
+  {
+    "denom": "ibc/CA1261224952DF089EFD363D8DBB30A8AB6D8CD181E60EE9E68E432F8DE14FE3",
+    "type": "ibc",
+    "origin_chain": "agoric",
+    "origin_denom": "uist",
+    "origin_type": "staking",
+    "symbol": "IST",
+    "decimals": 6,
+    "enable": true,
+    "path": "agoric>crescent",
+    "channel": "channel-11",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uist"
+    },
+    "image": "agoric/asset/ist.png",
+    "coinGeckoId": "inter-stable-token"
   }
 ]
