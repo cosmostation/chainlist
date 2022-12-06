@@ -188,5 +188,25 @@
     },
     "image": "agoric/asset/ist.png",
     "coinGeckoId": "inter-stable-token"
+  },
+  {
+    "denom": "ibc/5A76568E079A31FA12165E4559BA9F1E9D4C97F9C2060B538C84DCD503815E30",
+    "type": "ibc",
+    "origin_chain": "injective",
+    "origin_denom": "inj",
+    "origin_type": "staking",
+    "symbol": "INJ",
+    "decimals": 18,
+    "enable": true,
+    "path": "injective>crescent",
+    "channel": "channel-23",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-90",
+      "port": "transfer",
+      "denom": "inj"
+    },
+    "image": "injective/asset/inj.png",
+    "coinGeckoId": "injective-protocol"
   }
 ]
