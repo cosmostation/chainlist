@@ -174,7 +174,7 @@
     "type": "ibc",
     "origin_chain": "agoric",
     "origin_denom": "uist",
-    "origin_type": "staking",
+    "origin_type": "native",
     "symbol": "IST",
     "decimals": 6,
     "enable": true,
