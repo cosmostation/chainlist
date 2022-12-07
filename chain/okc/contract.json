@@ -1,0 +1,102 @@
+[
+  
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0xdF54B6c6195EA4d948D03bfD818D365cf175cFC2",
+    "symbol": "OKB",
+    "description": "OKB (KIP20)",
+    "decimals": 18,
+    "image": "okc/asset/okb.png",
+    "default": true,
+    "coinGeckoId":"okb"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0xdCAC52E001f5bd413aa6ea83956438F29098166b",
+    "symbol": "USDK",
+    "description": "USDK (KIP20)",
+    "decimals": 18,
+    "image": "okc/asset/usdk.png",
+    "default": true,
+    "coinGeckoId":"usdk"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15",
+    "symbol": "WOKT",
+    "description": "Wrapped OKT (KIP20)",
+    "decimals": 18,
+    "image": "ethereum/asset/wokt.png",
+    "default": false,
+    "coinGeckoId":"wrapped-okt"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0x332730a4F6E03D9C55829435f10360E13cfA41Ff",
+    "symbol": "BUSD",
+    "description": "Binance-Peg BUSD Token (KIP20)",
+    "decimals": 18,
+    "image": "bnb-smart-chain/asset/busd.png",
+    "default": false,
+    "coinGeckoId":"binance-usd"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0x382bB369d343125BfB2117af9c149795C6C65C50",
+    "symbol": "USDT",
+    "description": "Tether (KIP20)",
+    "decimals": 18,
+    "image": "ethereum/asset/usdt.png",
+    "default": false,
+    "coinGeckoId":"tether"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0xc946DAf81b08146B1C7A8Da2A851Ddf2B3EAaf85",
+    "symbol": "USDC",
+    "description": "USD Coin (KIP20)",
+    "decimals": 18,
+    "image": "ethereum/asset/usdc.png",
+    "default": false,
+    "coinGeckoId":"usd-coin"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0x12BB890508c125661E03b09EC06E404bc9289040",
+    "symbol": "RACA",
+    "description": "Radio Caca V2 (KIP20)",
+    "decimals": 18,
+    "image": "ethereum/asset/raca.png",
+    "default": false,
+    "coinGeckoId":"radio-caca"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0x2c9a1d0E1226939EdB7BBb68C43a080c28743C5C",
+    "symbol": "VEMP",
+    "description": "vEmpire Gamer Token (KIP20)",
+    "decimals": 18,
+    "image": "ethereum/asset/vemp.png",
+    "default": false,
+    "coinGeckoId":"vempire-ddao"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0x7A47ab305b8a2A3F4020d13FA9EF73cDdCc0e7D4",
+    "symbol": "WING",
+    "description": "Wing Token (KIP20)",
+    "decimals": 18,
+    "image": "ontology/asset/wing.png",
+    "default": false,
+    "coinGeckoId":"wing-finance"
+  }
+]
