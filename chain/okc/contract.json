@@ -13,17 +13,6 @@
   {
     "chainId": 66,
     "chainName": "okc",
-    "address": "0xdCAC52E001f5bd413aa6ea83956438F29098166b",
-    "symbol": "USDK",
-    "description": "USDK (KIP20)",
-    "decimals": 18,
-    "image": "okc/asset/usdk.png",
-    "default": true,
-    "coinGeckoId":"usdk"
-  },
-  {
-    "chainId": 66,
-    "chainName": "okc",
     "address": "0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15",
     "symbol": "WOKT",
     "description": "Wrapped OKT (KIP20)",
@@ -31,17 +20,6 @@
     "image": "ethereum/asset/wokt.png",
     "default": false,
     "coinGeckoId":"wrapped-okt"
-  },
-  {
-    "chainId": 66,
-    "chainName": "okc",
-    "address": "0x332730a4F6E03D9C55829435f10360E13cfA41Ff",
-    "symbol": "BUSD",
-    "description": "Binance-Peg BUSD Token (KIP20)",
-    "decimals": 18,
-    "image": "bnb-smart-chain/asset/busd.png",
-    "default": false,
-    "coinGeckoId":"binance-usd"
   },
   {
     "chainId": 66,
@@ -68,34 +46,34 @@
   {
     "chainId": 66,
     "chainName": "okc",
-    "address": "0x12BB890508c125661E03b09EC06E404bc9289040",
-    "symbol": "RACA",
-    "description": "Radio Caca V2 (KIP20)",
+    "address": "0x54e4622DC504176b3BB432dCCAf504569699a7fF",
+    "symbol": "BTCK",
+    "description": "OEC BTC (KIP20)",
     "decimals": 18,
-    "image": "ethereum/asset/raca.png",
+    "image": "okc/asset/btck.png",
     "default": false,
-    "coinGeckoId":"radio-caca"
+    "coinGeckoId":"oec-btc"
   },
   {
     "chainId": 66,
     "chainName": "okc",
-    "address": "0x2c9a1d0E1226939EdB7BBb68C43a080c28743C5C",
-    "symbol": "VEMP",
-    "description": "vEmpire Gamer Token (KIP20)",
+    "address": "0xEF71CA2EE68F45B9Ad6F72fbdb33d707b872315C",
+    "symbol": "ETHK",
+    "description": "ETHK (KIP20)",
     "decimals": 18,
-    "image": "ethereum/asset/vemp.png",
+    "image": "okc/asset/ethk.png",
     "default": false,
-    "coinGeckoId":"vempire-ddao"
+    "coinGeckoId":"oec-eth"
   },
   {
     "chainId": 66,
     "chainName": "okc",
-    "address": "0x7A47ab305b8a2A3F4020d13FA9EF73cDdCc0e7D4",
-    "symbol": "WING",
-    "description": "Wing Token (KIP20)",
+    "address": "0x21cDE7E32a6CAF4742d00d44B07279e7596d26B9",
+    "symbol": "DAIK",
+    "description": "DAIK (KIP20)",
     "decimals": 18,
-    "image": "ontology/asset/wing.png",
+    "image": "okc/asset/daik.png",
     "default": false,
-    "coinGeckoId":"wing-finance"
+    "coinGeckoId":"oec-dai"
   }
 ]
