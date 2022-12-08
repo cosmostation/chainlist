@@ -64,6 +64,24 @@
     "coinGeckoId": "stride-staked-atom"
   },
   {
+    "denom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
+    "type": "ibc",
+    "base_denom": "stuosmo",
+    "base_type": "native",
+    "dp_denom": "stOSMO",
+    "origin_chain": "stride",
+    "decimal": 6,
+    "path": "stride>osmosis",
+    "channel": "channel-326",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-5",
+        "port": "transfer",
+        "denom": "stuosmo"
+    },
+    "image": "stride/asset/stosmo.png"   
+  },
+  {
     "denom": "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525",
     "type": "ibc",
     "origin_chain": "likecoin",
