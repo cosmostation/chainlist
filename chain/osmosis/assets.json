@@ -1477,5 +1477,25 @@
     },
     "image": "teritori/asset/tori.png",
     "coinGeckoId": "teritori"
+  },
+  {
+    "denom": "ibc/2DA9C149E9AD2BD27FEFA635458FB37093C256C1A940392634A16BEA45262604",
+    "type": "ibc",
+    "origin_chain": "agoric",
+    "origin_denom": "ubld",
+    "origin_type": "staking",
+    "symbol": "BLD",
+    "decimals": 6,
+    "enable": true,
+    "path": "agoric>osmosis",
+    "channel": "channel-320",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "ubld"
+    },
+    "image": "agoric/asset/bld.png",
+    "coinGeckoId": "agoric"
   }
 ]
