@@ -1,5 +1,5 @@
 ## Chain Information By Cosmostation
-
+- Migrated from [Token Resource](https://github.com/cosmostation/cosmostation_token_resource)
 - Chain images
 - Validator's moniker image
 - Asset's symbol, image, denom, decimal
