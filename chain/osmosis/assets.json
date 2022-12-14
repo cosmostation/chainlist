@@ -1519,5 +1519,25 @@
     },
     "image": "acrechain/asset/acre.png",
     "coinGeckoId": "arable-protocol"
+  },
+  {
+    "denom": "ibc/01e94a5ff29b8ddefc86f412cc3927f7330e9b523cc63a6194b1108f5276025c",
+    "type": "ibc",
+    "origin_chain": "medasdigital",
+    "origin_denom": "umedas",
+    "origin_type": "staking",
+    "symbol": "MEDAS",
+    "decimals": 6,
+    "enable": true,
+    "path": "medasdigital>osmosis",
+    "channel": "channel-519",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "umedas"
+    },
+    "image": "medasdigital/asset/medas.png",
+    "coinGeckoId": "medasdigital"
   }
 ]
