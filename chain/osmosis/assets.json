@@ -1255,6 +1255,26 @@
     "contract": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
   },
   {
+    "denom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
+    "type": "ibc",
+    "origin_chain": "bnb-smart-chain",
+    "origin_denom": "wbnb",
+    "origin_type": "staking",
+    "symbol": "axlWBNB",
+    "decimals": 18,
+    "enable": true,
+    "path": "bnb-smart-chain>axelar>osmosis",
+    "channel": "channel-208",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "wbnb-wei"
+    },
+    "image": "bnb-smart-chain/asset/wbnb.png",
+    "coinGeckoId": "binancecoin"
+  },
+  {
     "denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
     "type": "ibc",
     "origin_chain": "juno",
