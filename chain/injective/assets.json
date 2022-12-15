@@ -226,6 +226,7 @@
     "decimals": 18,
     "path": "ethereum>injective",
     "image": "ethereum/asset/defi5.png",
+    "coinGeckoId": "",
     "contract": "0xfa6de2697d59e88ed7fc4dfe5a33dac43565ea41"
   },
   {
@@ -277,6 +278,7 @@
     "decimals": 18,
     "path": "ethereum>injective",
     "image": "ethereum/asset/stt.png",
+    "coinGeckoId": "",
     "contract": "0xac9bb427953ac7fddc562adca86cf42d988047fd"
   },
   {
@@ -510,6 +512,7 @@
     "decimals": 8,
     "path": "ethereum>injective",
     "image": "ethereum/asset/evai.png",
+    "coinGeckoId": "",
     "contract": "0x50f09629d0afdf40398a3f317cc676ca9132055c"
   },
   {
@@ -587,7 +590,7 @@
     "decimals": 18,
     "path": "ethereum>injective",
     "image": "ethereum/asset/rune.png",
-    "coinGeckoId": "thorchain",
+    "coinGeckoId": "thorchain-erc20",
     "contract": "0x3155ba85d5f96b2d030a4966af206230e46849cb"
   },
   {
@@ -717,6 +720,7 @@
     "decimals": 18,
     "path": "ethereum>injective",
     "image": "ethereum/asset/xbx.png",
+    "coinGeckoId": "",
     "contract": "0x080b12e80c9b45e97c23b6ad10a16b3e2a123949"
   },
   {
