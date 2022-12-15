@@ -252,6 +252,26 @@
     "coinGeckoId": "liquid-staking-crescent"
   },
   {
+    "denom": "ibc/D157AD8A50DAB0FC4EB95BBE1D9407A590FA2CDEE04C90A76C005089BF76E519",
+    "type": "ibc",
+    "origin_chain": "unification",
+    "origin_denom": "nund",
+    "origin_type": "staking",
+    "symbol": "FUND",
+    "decimals": 9,
+    "enable": true,
+    "path": "unification>gravity-bridge",
+    "channel": "channel-98",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "nund"
+    },
+    "image": "unification/asset/unification.png",
+    "coinGeckoId": "unification"
+  },
+  {
     "denom": "gravity0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
     "type": "bridge",
     "origin_chain": "ethereum",
