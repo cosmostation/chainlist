@@ -21,6 +21,8 @@
 
 <details open>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your validator image</h2></summary>
+
+
  - Add your image to `${targetchain}/moniker` folder
  - Image with png format and validator address name
  - [Example](https://github.com/cosmostation/chainlist/tree/main/chain/cosmos/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos
@@ -40,15 +42,6 @@
    </details>
 
 
----
-
-<details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add your new token(Erc20, Cw20)</h2></summary>
-  <ul>
-    <li><a href='https://github.com/cosmostation/chainlist/blob/main/chain/evmos/contract.json' target='_blank'>Evmos Erc20</a> list supporting</li>
-    <li><a href='https://github.com/cosmostation/chainlist/blob/main/chain/juno/contract.json' target='_blank'>Juno Cw20</a> list supporting</li>
-  </ul>
-</details>
 
 
 ---
@@ -304,9 +297,9 @@
 
 
 
-- [Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/contract.json) list supporting
+[Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/contract.json) list supporting
 
-  1. Fork this repo to your own github account
+1. Fork this repo to your own github account
 
 2. Clone fork and create new branch
 
@@ -402,6 +395,7 @@
   <summary><h2 style='display: inline; font-size: 24px'>How to add your ERC20 token info</h2></summary>
 
 
+[Evmos Erc20](https://github.com/cosmostation/chainlist/blob/main/chain/evmos/contract.json) list supporting
 
 
 1. Fork this repo to your own github account
