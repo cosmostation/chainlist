@@ -20,8 +20,8 @@
 
 
 
-<details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add your validator image</h2></summary>
+<details open>
+  <summary><b style='display: inline; font-size: 24px'>How to add your validator image</b></summary>
   <ul>
     <li>Add your image to targetchain/moniker folder</li>
     <li>Image with png format and validator address name</li>
@@ -32,7 +32,7 @@
 ---
 
 <details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add dApp Link for mobile wallet</h2></summary>
+  <summary><b style='display: inline; font-size: 24px'>How to add dApp Link for mobile wallet</b></summary>
   <ul>
     <li>Add your dApp information with <a href='https://github.com/cosmostation/chainlist/blob/main/dapp/dapps.json' target='_blank'>this</a> file</li>
     <li>Please don't forget link image for display</li>
@@ -42,7 +42,7 @@
 ---
 
 <details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add your new token(Erc20, Cw20)</h2></summary>
+  <summary><b style='display: inline; font-size: 24px'>How to add your new token(Erc20, Cw20)</b></summary>
   <ul>
     <li><a href='https://github.com/cosmostation/chainlist/blob/main/chain/evmos/contract.json' target='_blank'>Evmos Erc20</a> list supporting</li>
     <li><a href='https://github.com/cosmostation/chainlist/blob/main/chain/juno/contract.json' target='_blank'>Juno Cw20</a> list supporting</li>
@@ -52,7 +52,7 @@
 ---
 
 <details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add your token info</h2></summary>
+  <summary><b style='display: inline; font-size: 24px'>How to add your token info</b></summary>
 
 ‼️ Please be noted that tokens of Testnets and unverified networks may not be merged to master.
 
