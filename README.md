@@ -21,11 +21,11 @@
 
 <details open>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your validator image</h2></summary>
-  <ul>
-    <li>Add your image to targetchain/moniker folder</li>
-    <li>Image with png format and validator address name</li>
-    <li><a href='https://github.com/cosmostation/chainlist/blob/main/chain/cosmos/moniker/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png' target='_blank'>Example</a> will display cosmostation validator moniker logo for cosmos</li>
-  </ul>
+ - Add your image to `${targetchain}/moniker` folder
+ - Image with png format and validator address name
+ - [Example](https://github.com/cosmostation/chainlist/tree/main/chain/cosmos/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos
+
+
 </details>
 
 
@@ -33,11 +33,11 @@
 
 <details>
   <summary><h2 style='display: inline; font-size: 24px'>How to add dApp Link for mobile wallet</h2></summary>
-  <ul>
-    <li>Add your dApp information with <a href='https://github.com/cosmostation/chainlist/blob/main/dapp/dapps.json' target='_blank'>this</a> file</li>
-    <li>Please don't forget link image for display</li>
-  </ul>
-</details>
+
+
+   - Add your dApp information with [this](https://github.com/cosmostation/chainlist/blob/main/dapp/dapps.json) file
+ - Please don't forget link image for display
+   </details>
 
 
 ---
@@ -304,6 +304,8 @@
 
 
 
+- [Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/contract.json) list supporting
+
   1. Fork this repo to your own github account
 
 2. Clone fork and create new branch
@@ -349,7 +351,7 @@
      - Empty string if none
 
 
-   ---
+---
 
 - Cw20 Token
 
@@ -398,7 +400,11 @@
 
 <details>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your ERC20 token info</h2></summary>
-  1. Fork this repo to your own github account
+
+
+
+
+1. Fork this repo to your own github account
 
 
 2. Clone fork and create new branch
