@@ -436,12 +436,15 @@
 
   [Osmosis dApps Img](https://github.com/cosmostation/chainlist/blob/main/chain/osmosis/dappImg) list supporting
   - `${targetChain}/dappImg` Put image file in path and make pull request (PR)
+  - Make sure to upload a `png`file
   - Leave PR in json format like below
 
   ```json
-  link: 'https://app.osmosis.zone',
-  naming: 'Osmosis.zone',
-  imgName: 'app',
+  {
+    "link": "https://app.osmosis.zone",
+    "naming": "Osmosis.zone",
+    "imgName": "app", // img name same
+  }
   ```
 
 </details>
