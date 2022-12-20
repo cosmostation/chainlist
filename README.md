@@ -6,7 +6,6 @@
 - [Add Erc20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-erc20-token-info)
 - [Add Cw20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-cw20-token-info)
 - [dApp link and description on Mobile Wallet](https://github.com/cosmostation/chainlist/tree/main/dapp)
-- [dApp link and description on Mintscan](https://github.com/cosmostation/chainlist/tree/main#how-to-add-dapp-link-for-mintscan)
 - [Chain base fee](https://github.com/cosmostation/chainlist/tree/main#how-to-edit-chain-fee)
 
 
@@ -427,26 +426,6 @@
    ```
 
   5. From your repository, make pull request (PR)
-</details>
-
----
-
-<details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add dApp Link for mobile wallet</h2></summary>
-
-  [Osmosis dApps Img](https://github.com/cosmostation/chainlist/blob/main/chain/osmosis/dappImg) list supporting
-  - `${targetChain}/dappImg` Put image file in path and make pull request (PR)
-  - Make sure to upload a `png`file
-  - Leave PR in json format like below
-
-  ```json
-  {
-    "link": "https://app.osmosis.zone",
-    "naming": "Osmosis.zone",
-    "imgName": "app", // img name same
-  }
-  ```
-
 </details>
 
 ---
