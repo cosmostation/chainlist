@@ -3,11 +3,11 @@
 - Migrated from [Token Resource](https://github.com/cosmostation/cosmostation_token_resource)
 - [Validator's moniker image](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-validator-image)
 - [Add Asset's Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-token-info)
-- [Add Erc20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-ERC20-token-info)
-- [Add Cw20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-CW20-token-info)
-- [dApp link and description](https://github.com/cosmostation/chainlist/tree/main/dapp)
-- Chain base fee
-
+- [Add Erc20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-erc20-token-info)
+- [Add Cw20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-cw20-token-info)
+- [dApp link and description on Mobile Wallet](https://github.com/cosmostation/chainlist/tree/main/dapp)
+- [dApp link and description on Mintscan](https://github.com/cosmostation/chainlist/tree/main#how-to-add-dapp-link-for-mintscan)
+- [Chain base fee](https://github.com/cosmostation/chainlist/tree/main#how-to-edit-chain-fee)
 
 
 ## Productions using with
@@ -18,41 +18,21 @@
 - [iOS Wallet](https://apple.co/2IAM3Xm)
 
 
-
 <details open>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your validator image</h2></summary>
-
 
  - Add your image to `${targetchain}/moniker` folder
  - Image with png format and validator address name
  - [Example](https://github.com/cosmostation/chainlist/tree/main/chain/cosmos/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos
-
-
 </details>
-
-
----
-
-<details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add dApp Link for mobile wallet</h2></summary>
-
-
-   - Add your dApp information with [this](https://github.com/cosmostation/chainlist/blob/main/dapp/dapps.json) file
- - Please don't forget link image for display
-   </details>
-
-
-
 
 ---
 
 <details>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your token info</h2></summary>
+
 ‼️ Please be noted that tokens of Testnets and unverified networks may not be merged to master.
-
-
 1. Fork this repo to your own github account
-
 2. Clone fork and create new branch
 
    ```shell
@@ -63,9 +43,7 @@
    ```
 
 3. Add the info of your token in the chain that your token needs to be displayed
-
    - Common info to fill
-
      - `denom`
        - token's denom
      - `type`
@@ -94,47 +72,38 @@
        - Coin gecko site's API ID <ex) https://www.coingecko.com/en/coins/cosmos-hub -> API ID: cosmos>
        - Empty string if none
    - If the type is staking, provide the info below:
-
      - `description`
        - A brief summary of the token
-
 - If the type is ibc, provide the info below:
   - `enable` (optional)
     - `true` if ibc transmission is possible
   - `channel` (optional)
   - `port` (optional)
     - Add the token's channel and port
-
     - `counter_party` (optional)
     - `channel`
       - `port`
         - Add counter party's channel and port
-
       - `denom`
       - Token's denom before ibc transfer
-
-
    - `path` (optional)
-     - If the token was transferred via ibc, bridge or other path, provide full details of where it was transferred from.
-
-   - If the type is bridge, provide the info below:
-
-     - `path` (optional)
-       - If the token was transferred via ibc, bridge or other path, provide full details of where it was transferred from.
-     - `contract` (optional)
-       - If the token was transferred via contract, provide the contract address.
+    - If the token was transferred via ibc, bridge or other path, provide full details of where it was transferred from.
+    - If the type is bridge, provide the info below:
+    - `path` (optional)
+      - If the token was transferred via ibc, bridge or other path, provide full details of where it was transferred from.
+    - `contract` (optional)
+      - If the token was transferred via contract, provide the contract address.
 
 ---
 
 - Native Token
-
   `/assets/v2/${chain}/assets.json`
 
   ```json
   // example OSMOSIS
   [
     {
-  		"denom": "uosmo",
+      "denom": "uosmo",
       "type": "staking",
       "origin_chain": "osmosis",
       "origin_denom": "uosmo",
@@ -146,7 +115,7 @@
       "coinGeckoId": "osmosis"
     },
     {
-  		"denom": "uion",
+      "denom": "uion",
       "type": "native",
       "origin_chain": "osmosis",
       "origin_denom": "uion",
@@ -286,8 +255,7 @@
    git push origin <branch_name>
    ```
 
-5. From your repository, make pull requesrt (PR)
-
+5. From your repository, make pull request (PR)
 </details>
 
 ---
@@ -295,13 +263,9 @@
 <details>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your CW20 token info</h2></summary>
 
-
-
-[Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/contract.json) list supporting
-
-1. Fork this repo to your own github account
-
-2. Clone fork and create new branch
+  [Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/contract.json) list supporting
+  1. Fork this repo to your own github account\
+  2. Clone fork and create new branch
 
    ```shell
    git clone git@github.com:YOUR_ACCOUNT/chainlist.git
@@ -310,17 +274,12 @@
    git checkout <branch_name>
    ```
 
-3. Add the info of your token in the chain that your token needs to be displayed
-
+   3. Add the info of your token in the chain that your token needs to be displayed
    If there is no chain in the list, create a folder for the chain and add info in the folder
-
    Then add the name of the folder in: supports.json
-
    Changes will be updated within 24 hours after merged to master
-
    - `chainId`
      - -1
-
    - `chainName`
      - Chain with the token
    - `address`
@@ -329,7 +288,6 @@
      - Name of token's symbol
    - `description`
      - A brief summary of the token
-
    - `decimals`
      - Decimal of the token
    - `image`
@@ -337,17 +295,14 @@
      - `/${targetChain}/asset` add image in the folder
      - Make sure to upload a `png` file
    - `default`
-     - `true` or `false`
-
+     - default value is `false`
    - `coinGeckoId`
      - Coin gecko site's API ID <ex) https://www.coingecko.com/en/coins/cosmos-hub -> API ID: cosmos>
      - Empty string if none
 
-
 ---
 
 - Cw20 Token
-
   `/${targetChain}/contract.json`
 
   ```json
@@ -378,30 +333,26 @@
   ]
   ```
 
-4. Commit and push to your fork
+  4. Commit and push to your fork
 
-   ```shell
-   git add -A
-   git commit -m “Add <YOUR TOKEN NAME>”
-   git push origin <branch_name>
-   ```
+  ```shell
+    git add -A
+    git commit -m “Add <YOUR TOKEN NAME>”
+    git push origin <branch_name>
+  ```
 
-5. From your repository, make pull requesrt (PR)
-   </details>
+  5. From your repository, make pull request (PR)
+  </details>
 
 ---
 
 <details>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your ERC20 token info</h2></summary>
 
+  [Evmos Erc20](https://github.com/cosmostation/chainlist/blob/main/chain/evmos/contract.json) list supporting
 
-[Evmos Erc20](https://github.com/cosmostation/chainlist/blob/main/chain/evmos/contract.json) list supporting
-
-
-1. Fork this repo to your own github account
-
-
-2. Clone fork and create new branch
+  1. Fork this repo to your own github account
+  2. Clone fork and create new branch
 
    ```shell
    git clone git@github.com:YOUR_ACCOUNT/chainlist.git
@@ -410,14 +361,10 @@
    git checkout <branch_name>
    ```
 
-3. Add the info of your token in the chain that your token needs to be displayed
-
+   3. Add the info of your token in the chain that your token needs to be displayed
    If there is no chain in the list, create a folder for the chain and add info in the folder
-
    Then add the name of the folder in: supports.json
-
    Changes will be updated within 24 hours after merged to master
-
    - `chainId`
      - ChainId of the chain
    - `address`
@@ -433,7 +380,7 @@
      - `/${targetChain}/asset` add image in the folder
      - Make sure to upload a `png`file
    - `default`
-     - `true` or `false`
+     - default value is `false`
    - `coinGeckoId` (optional)
      - Coin gecko site's API ID <ex) https://www.coingecko.com/en/coins/cosmos-hub -> API ID: cosmos>
      - Empty string if none
@@ -441,7 +388,6 @@
    ---
 
 - ERC20 Token
-
   `/${targetChain}/contract.json`
 
   ```json
@@ -472,7 +418,7 @@
   ]
   ```
 
-4. Commit and push to your fork
+  4. Commit and push to your fork
 
    ```shell
    git add -A
@@ -480,22 +426,54 @@
    git push origin <branch_name>
    ```
 
-5. From your repository, make pull requesrt (PR)
+  5. From your repository, make pull request (PR)
+</details>
+
+---
+
+<details>
+  <summary><h2 style='display: inline; font-size: 24px'>How to add dApp Link for mobile wallet</h2></summary>
+
+  [Osmosis dApps Img](https://github.com/cosmostation/chainlist/blob/main/chain/osmosis/dappImg) list supporting
+  - `${targetChain}/dappImg` Put image file in path and make pull request (PR)
+  - Leave PR in json format like below
+
+  ```json
+  link: 'https://app.osmosis.zone',
+  naming: 'Osmosis.zone',
+  imgName: 'app',
+  ```
 
 </details>
 
+---
 
+<details>
+  <summary><h2 style='display: inline; font-size: 24px'>How to edit chain fee</h2></summary>
+
+  [Cosmos fee](https://github.com/cosmostation/chainlist/blob/main/chain/cosmos/fee.json) list supporting
+  - `${targetChain}/fee.json` Edit rate and make pull request (PR)
+
+  ```json
+  {
+    "base" : "1",
+    "rate" : [
+      "0.00025uatom",
+      "0.0025uatom",
+      "0.025uatom"
+    ]
+  }
+  ```
+</details>
+
+---
 
 ## Contact and Community
-
 - [Official Website](https://www.cosmostation.io)
 - [E-mail](support@cosmostation.io)
 - [Telegram - International](https://t.me/cosmostation)
 - [Kakao - Korean](https://open.kakao.com/o/g6KKSe5)
 
-
-
 ## License
-
 Copyright © Cosmostation, Inc. All rights reserved.
 Licensed under the [MIT](LICENSE).
