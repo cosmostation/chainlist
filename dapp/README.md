@@ -1,6 +1,6 @@
-## Dapp Information By Cosmostation**
+## Dapp Information By Cosmostation
 
-<details>
+<details open>
   <summary><h2 style='display: inline; font-size: 24px'>How to add dApp Link for mobile wallet</h2></summary>
 
   - Add your dApp information with [this](https://github.com/cosmostation/chainlist/blob/main/dapp/dapps.json) file
