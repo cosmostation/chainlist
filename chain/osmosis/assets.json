@@ -1542,6 +1542,26 @@
     "coinGeckoId": "agoric"
   },
   {
+    "denom": "ibc/92BE0717F4678905E53F4E45B2DED18BC0CB97BF1F8B6A25AFEDF3D5A879B4D5",
+    "type": "ibc",
+    "origin_chain": "agoric",
+    "origin_denom": "uist",
+    "origin_type": "native",
+    "symbol": "IST",
+    "decimals": 6,
+    "enable": true,
+    "path": "agoric>osmosis",
+    "channel": "channel-320",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uist"
+    },
+    "image": "agoric/asset/ist.png",
+    "coinGeckoId": "inter-stable-token"
+  },
+  {
     "denom": "ibc/BB936517F7E5D77A63E0ADB05217A6608B0C4CF8FBA7EA2F4BAE4107A7238F06",
     "type": "ibc",
     "origin_chain": "acrechain",
