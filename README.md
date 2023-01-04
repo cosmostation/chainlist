@@ -56,17 +56,17 @@
      - `origin_chain`
        - The origin chain where this token was issued.
      - `origin_denom`
-       - Original denom of the token
+       - Original denom of the token.
      - `origin_type`
        - Original type of the token. [ staking, native, pool, ibc, bridge, cw20, erc20 ]
      - `symbol`
        - The displayed name of the token in the list.
      - `decimals`
-       - Token's decimals
+       - Token's decimals.
      - `image` (optional)
-       - Image route of the token
-       - Add image in `${targetchain}/asset` folder
-         - Make sure to upload a `png` file
+       - Image route of the token.
+       - Add image in `${targetchain}/asset` folder.
+         - Make sure to upload a `png` file.
      - `coinGeckoId`
        - Coin gecko site's API ID <ex) https://www.coingecko.com/en/coins/cosmos-hub -> API ID: cosmos>
        - Empty string if none
