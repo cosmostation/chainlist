@@ -284,5 +284,16 @@
     "image": "juno/asset/canlabs.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n",
+    "symbol": "HOPERS",
+    "description": "HOPERS",
+    "decimals": 6,
+    "image": "juno/asset/hopers.png",
+    "default": false,
+    "coinGeckoId": "hopers-io"
   }
 ]
