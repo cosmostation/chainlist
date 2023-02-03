@@ -156,6 +156,21 @@
         }
     },
     {
+        "title": "TFM",
+        "description": "DEX/NFT Aggregator & Analytics.",
+        "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/tfm.png",
+        "url": "https://tfm.com/juno",
+        "chain": "juno",
+        "badge": "Defi",
+        "links": {
+            "webSite": "https://tfm.com",
+            "telegram": "https://t.me/tfmofficialchat",
+            "twitter": "https://twitter.com/tfm_com",
+            "medium": "https://medium.com/@tfm.com",
+            "discord": "https://discord.gg/tfm_agg"
+        }
+    },
+    {
         "title": "DAODAO",
         "description": "Simple, capable, and free DAO tooling.",
         "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/daodao.png",
@@ -315,6 +330,35 @@
             "github": "https://github.com/racoon-supply-rac",
             "twitter": "https://twitter.com/RacoonSupply",
             "medium": "https://medium.com/@racoon-supply"
+        }
+    },
+     {
+        "title": "WyndDAO",
+        "description": "The cross chain native DeFi and ReFi experience",
+        "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/wynddao.png",
+        "url": "https://dex.wynddao.com/",
+        "chain": "juno",
+        "badge": "DeFi",
+        "links": {
+            "webSite": "https://www.wynddao.com/",
+            "github": "https://github.com/cosmorama/wynddao",
+            "twitter": "https://twitter.com/wynddao",
+            "medium": "https://medium.com/wynddao"
+        }
+    },
+    {
+        "title": "TFM",
+        "description": "DEX/NFT Aggregator & Analytics.",
+        "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/tfm.png",
+        "url": "https://tfm.com/osmosis",
+        "chain": "osmosis",
+        "badge": "Defi",
+        "links": {
+            "webSite": "https://tfm.com",
+            "telegram": "https://t.me/tfmofficialchat",
+            "twitter": "https://twitter.com/tfm_com",
+            "medium": "https://medium.com/@tfm.com",
+            "discord": "https://discord.gg/tfm_agg"
         }
     }
 ]

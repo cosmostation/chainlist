@@ -10,5 +10,17 @@
     "description": "Quicksilver Staking Coin",
     "image": "quicksilver/asset/qck.png",
     "coinGeckoId": "quicksilver"
+  },
+  {
+    "denom": "uqstars",
+    "type": "native",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqstars",
+    "origin_type": "native",
+    "symbol": "qSTARS",
+    "decimals": 6,
+    "description": "Quicksilver Staked Stars",
+    "image": "quicksilver/asset/qstars.png",
+    "coinGeckoId": ""
   }
 ]

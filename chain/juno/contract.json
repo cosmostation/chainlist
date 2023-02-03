@@ -273,5 +273,27 @@
     "image": "juno/asset/wynd.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1vn38rzq0wc7zczp4dhy0h5y5kxh2jjzeahwe30c9cc6dw3lkyk5qn5rmfa",
+    "symbol": "CANLAB",
+    "description": "CANLAB",
+    "decimals": 3,
+    "image": "juno/asset/canlabs.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n",
+    "symbol": "HOPERS",
+    "description": "HOPERS",
+    "decimals": 6,
+    "image": "juno/asset/hopers.png",
+    "default": false,
+    "coinGeckoId": "hopers-io"
   }
 ]
