@@ -339,5 +339,25 @@
     "image": "ethereum/asset/dai.png",
     "coinGeckoId": "dai",
     "contract": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+  },
+  {
+    "denom": "ibc/7A043B7AAABF55E77C66A815F7E64B1450BAF0704FDFB16A7BD8CF4AF585687E",
+    "type": "ibc",
+    "origin_chain": "acrechain",
+    "origin_denom": "aacre",
+    "origin_type": "staking",
+    "symbol": "ACRE",
+    "decimals": 18,
+    "enable": true,
+    "path": "acrechain>evmos",
+    "channel": "channel-14",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-40",
+      "port": "transfer",
+      "denom": "aacre"
+    },
+    "image": "achrechain/asset/acre.png",
+    "coinGeckoId": "arable-protocol"
   }
 ]
