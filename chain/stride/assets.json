@@ -178,5 +178,25 @@
     },
     "image": "acrechain/asset/acre.png",
     "coinGeckoId": "arable-protocol"
+  },
+  {
+    "denom": "ibc/DFAE6C8B4F9BC2FE094442BF3BD7F94551BE9C337EFA6A24B0DD6CF54AEED093",
+    "type": "ibc",
+    "origin_chain": "acrechain",
+    "origin_denom": "cnto",
+    "origin_type": "erc20",
+    "symbol": "CNTO",
+    "decimals": 18,
+    "enable": true,
+    "path": "acrechain>stride",
+    "channel": "channel-57",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-13",
+      "port": "transfer",
+      "denom": "cnto"
+    },
+    "image": "acrechain/asset/cnto.png",
+    "contract": "0xAE6D3334989a22A65228732446731438672418F2"
   }
 ]
