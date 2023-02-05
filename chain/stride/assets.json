@@ -158,5 +158,25 @@
     },
     "image": "crypto-org/asset/cro.png",
     "coinGeckoId": "crypto-com-chain"
+  },
+  {
+    "denom": "ibc/DFAE6C8B4F9BC2FE094442BF3BD7F94551BE9C337EFA6A24B0DD6CF54AEED093",
+    "type": "ibc",
+    "origin_chain": "acrechain",
+    "origin_denom": "aacre",
+    "origin_type": "staking",
+    "symbol": "ACRE",
+    "decimals": 18,
+    "enable": true,
+    "path": "acrechain>stride",
+    "channel": "channel-57",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-13",
+      "port": "transfer",
+      "denom": "aacre"
+    },
+    "image": "acrechain/asset/acre.png",
+    "coinGeckoId": "arable-protocol"
   }
 ]
