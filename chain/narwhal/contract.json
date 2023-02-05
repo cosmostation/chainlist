@@ -1,0 +1,35 @@
+[
+  {
+    "chainId": -1,
+    "chainName": "narwhal",
+    "address": "migaloo1j08452mqwadp8xu25kn9rleyl2gufgfjnv0sn8dvynynakkjukcq5u780c",
+    "symbol": "willyz",
+    "description": "willyz",
+    "decimals": 6,
+    "image": "narwhal/asset/willyz.png",
+    "default": true,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "narwhal",
+    "address": "migaloo1sthrn5ep8ls5vzz8f9gp89khhmedahhdqd244dh9uqzk3hx2pzrs227l7u",
+    "symbol": "willye",
+    "description": "willye",
+    "decimals": 6,
+    "image": "narwhal/asset/willye.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "narwhal",
+    "address": "migaloo12pwnhtv7yat2s30xuf4gdk9qm85v4j3e6p44let47pdffpklcxlq592rdm",
+    "symbol": "WILLYb",
+    "description": "Willyb",
+    "decimals": 6,
+    "image": "narwhal/asset/willyb.png",
+    "default": false,
+    "coinGeckoId": ""
+  }
+]
