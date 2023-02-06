@@ -331,7 +331,7 @@
             "twitter": "https://twitter.com/RacoonSupply",
             "medium": "https://medium.com/@racoon-supply"
         }
-    },
+     },
      {
         "title": "WyndDAO",
         "description": "The cross chain native DeFi and ReFi experience",
@@ -359,20 +359,6 @@
             "twitter": "https://twitter.com/tfm_com",
             "medium": "https://medium.com/@tfm.com",
             "discord": "https://discord.gg/tfm_agg"
-        },
-        {
-        "title": "CAC OTC-swap",
-        "description": "Easily and safely create sell orders with a specified price that can either be public and filled by anyone, or private and only fillable by the specified wallet address",
-        "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/CACSwap.png",
-        "url": "https://cac-group.io/otc/",
-        "chain": "juno",
-        "badge": "Community",
-        "links": {
-            "webSite": "https://cac-group.io",
-            "github": "https://github.com/orgs/cac-group",
-            "twitter": "https://twitter.com/cac_project",
-            "telegram": "https://t.me/CosmosAirdrops"
-        }
-    }
+        }          
     }
 ]
