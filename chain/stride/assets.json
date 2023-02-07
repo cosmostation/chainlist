@@ -59,6 +59,18 @@
     "image": "stride/asset/stosmo.png",
     "coinGeckoId": "stride-staked-osmo"
   },
+    {
+    "denom": "stuluna",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stuluna",
+    "origin_type": "native",
+    "symbol": "stLUNA",
+    "decimals": 6,
+    "description": "Stride Staked Luna",
+    "image": "stride/asset/stluna.png",
+    "coinGeckoId": ""
+  },
   {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
     "type": "ibc",
