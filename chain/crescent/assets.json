@@ -208,5 +208,46 @@
     },
     "image": "injective/asset/inj.png",
     "coinGeckoId": "injective-protocol"
+  },
+  {
+    "denom": "ibc/4627AD2524E3E0523047E35BB76CC90E37D9D57ACF14F0FCBCEB2480705F3CB8",
+    "type": "ibc",
+    "origin_chain": "terra-classic",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNC",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra-classic>crescent",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-49",
+      "port": "transfer",
+      "denom": "uluna"
+    },
+    "image": "crescent/asset/lunc.png",
+    "coinGeckoId": "terra-luna-classic"
+  },
+  {
+    "denom": "ibc/8F865D9760B482FF6254EDFEC1FF2F1273B9AB6873A7DE484F89639795D73D75",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNA",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>crescent",
+    "channel": "channel-27",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-37",
+      "port": "transfer",
+      "denom": "uluna"
+    },
+    "image": "crescent/asset/luna.png",
+    "coinGeckoId": "terra"
   }
+  
 ]
