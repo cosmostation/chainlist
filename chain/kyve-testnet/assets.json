@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "denom": "tkyve",
+    "type": "staking",
+    "origin_chain": "kyve",
+    "origin_denom": "tkyve",
+    "origin_type": "staking",
+    "symbol": "KYVE",
+    "decimals": 6,
+    "description": "Kyve Staking Coin",
+    "image": "akash/asset/kyve.png",
+    "coinGeckoId": "kyve"
+  }
+]
