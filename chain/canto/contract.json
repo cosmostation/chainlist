@@ -6,7 +6,7 @@
     "symbol": "WCANTO",
     "description": "Wrapped Canto",
     "decimals": 18,
-    "image": "evmos/asset/wcanto.png",
+    "image": "canto/asset/wcanto.png",
     "default": true,
     "coinGeckoId": "canto"
   },
@@ -20,6 +20,17 @@
     "image": "ethereum/asset/weth.png",
     "default": true,
     "coinGeckoId": "weth"
+  },
+  {
+    "chainId": 7700,
+    "chainName": "canto",
+    "address": "0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503",
+    "symbol": "NOTE",
+    "description": "NOTE",
+    "decimals": 18,
+    "image": "canto/asset/note.png",
+    "default": true,
+    "coinGeckoId": "note"
   },
   {
     "chainId": 7700,
@@ -42,17 +53,6 @@
     "image": "ethereum/asset/usdt.png",
     "default": true,
     "coinGeckoId": "tether"
-  },
-  {
-    "chainId": 7700,
-    "chainName": "canto",
-    "address": "0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503",
-    "symbol": "NOTE",
-    "description": "NOTE",
-    "decimals": 18,
-    "image": "canto/asset/note.png",
-    "default": true,
-    "coinGeckoId": "note"
   },
   {
     "chainId": 7700,
