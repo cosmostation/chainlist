@@ -29,7 +29,7 @@
     "description": "NOTE",
     "decimals": 18,
     "image": "canto/asset/note.png",
-    "default": true,
+    "default": false,
     "coinGeckoId": "note"
   },
   {
@@ -62,7 +62,7 @@
     "description": "ATOM(erc20)",
     "decimals": 6,
     "image": "cosmos/asset/atom.png",
-    "default": true,
+    "default": false,
     "coinGeckoId": "cosmos"
   }
 ]
