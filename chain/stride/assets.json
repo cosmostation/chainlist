@@ -72,6 +72,18 @@
     "coinGeckoId": ""
   },
   {
+    "denom": "staevmos",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "staevmos",
+    "origin_type": "native",
+    "symbol": "stEVMOS",
+    "decimals": 18,
+    "description": "Stride Staked Evmos",
+    "image": "stride/asset/stevmos.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
     "type": "ibc",
     "origin_chain": "cosmos",
