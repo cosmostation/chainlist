@@ -45,7 +45,7 @@
     "decimals": 6,
     "description": "Stride Staked Juno",
     "image": "stride/asset/stjuno.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "stride-staked-juno"
   },
   {
     "denom": "stuosmo",
@@ -57,6 +57,18 @@
     "decimals": 6,
     "description": "Stride Staked Osmo",
     "image": "stride/asset/stosmo.png",
+    "coinGeckoId": "stride-staked-osmo"
+  },
+    {
+    "denom": "stuluna",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stuluna",
+    "origin_type": "native",
+    "symbol": "stLUNA",
+    "decimals": 6,
+    "description": "Stride Staked Luna",
+    "image": "stride/asset/stluna.png",
     "coinGeckoId": ""
   },
   {
@@ -158,5 +170,45 @@
     },
     "image": "crypto-org/asset/cro.png",
     "coinGeckoId": "crypto-com-chain"
+  },
+  {
+    "denom": "ibc/D54D8A7843F08148FEEFA1DDCC7C9EAF94A4FC4F7E42EE90BBB18E157A31FDF1",
+    "type": "ibc",
+    "origin_chain": "acrechain",
+    "origin_denom": "aacre",
+    "origin_type": "staking",
+    "symbol": "ACRE",
+    "decimals": 18,
+    "enable": true,
+    "path": "acrechain>stride",
+    "channel": "channel-57",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-13",
+      "port": "transfer",
+      "denom": "aacre"
+    },
+    "image": "acrechain/asset/acre.png",
+    "coinGeckoId": "arable-protocol"
+  },
+  {
+    "denom": "ibc/DFAE6C8B4F9BC2FE094442BF3BD7F94551BE9C337EFA6A24B0DD6CF54AEED093",
+    "type": "ibc",
+    "origin_chain": "acrechain",
+    "origin_denom": "cnto",
+    "origin_type": "erc20",
+    "symbol": "CNTO",
+    "decimals": 18,
+    "enable": true,
+    "path": "acrechain>stride",
+    "channel": "channel-57",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-13",
+      "port": "transfer",
+      "denom": "cnto"
+    },
+    "image": "acrechain/asset/cnto.png",
+    "contract": "0xAE6D3334989a22A65228732446731438672418F2"
   }
 ]

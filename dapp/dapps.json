@@ -69,19 +69,6 @@
         }
     },
     {
-        "title": "Cosmon",
-        "description": "Build a team of leaders, collect cards, fight to earn! The first NFT Play to Earn on Cosmos",
-        "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/cosmon.png",
-        "url": "https://cosmon.ki",
-        "chain": "kichain",
-        "badge": "PLAY-AND-EARN",
-        "links": {
-            "webSite": "https://cosmon.ki",
-            "twitter": "https://twitter.com/PlayCosmon",
-            "medium": "https://medium.com/@malek_97480"
-        }
-    },
-    {
         "title": "Kava",
         "description": "Swap, mint, lend and earn on Kava, a lightning-fast Layer-1 blockchain that combines Cosmos & Ethereum.",
         "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/kava.png",
@@ -156,6 +143,21 @@
         }
     },
     {
+        "title": "TFM",
+        "description": "DEX/NFT Aggregator & Analytics.",
+        "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/tfm.png",
+        "url": "https://tfm.com/juno",
+        "chain": "juno",
+        "badge": "Defi",
+        "links": {
+            "webSite": "https://tfm.com",
+            "telegram": "https://t.me/tfmofficialchat",
+            "twitter": "https://twitter.com/tfm_com",
+            "medium": "https://medium.com/@tfm.com",
+            "discord": "https://discord.gg/tfm_agg"
+        }
+    },
+    {
         "title": "DAODAO",
         "description": "Simple, capable, and free DAO tooling.",
         "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/daodao.png",
@@ -215,20 +217,6 @@
         "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/dropstation.png",
         "url": "https://dapps.cosmostation.io/airdrop",
         "chain": "cosmos",
-        "badge": "AGG",
-        "links": {
-            "webSite": "https://cosmostation.io",
-            "github": "https://github.com/cosmostation",
-            "twitter": "https://twitter.com/cosmostationvd",
-            "medium": "https://medium.com/cosmostation"
-        }
-    },
-    {
-        "title": "DropStation",
-        "description": "Airdrop aggregator for CØSMONAUTS.",
-        "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/dropstation.png",
-        "url": "https://dapps.cosmostation.io/airdrop",
-        "chain": "evmos",
         "badge": "AGG",
         "links": {
             "webSite": "https://cosmostation.io",
@@ -316,5 +304,34 @@
             "twitter": "https://twitter.com/RacoonSupply",
             "medium": "https://medium.com/@racoon-supply"
         }
+     },
+     {
+        "title": "WyndDAO",
+        "description": "The cross chain native DeFi and ReFi experience",
+        "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/wynddao.png",
+        "url": "https://dex.wynddao.com/",
+        "chain": "juno",
+        "badge": "DeFi",
+        "links": {
+            "webSite": "https://www.wynddao.com/",
+            "github": "https://github.com/cosmorama/wynddao",
+            "twitter": "https://twitter.com/wynddao",
+            "medium": "https://medium.com/wynddao"
+        }
+    },
+    {
+        "title": "TFM",
+        "description": "DEX/NFT Aggregator & Analytics.",
+        "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/tfm.png",
+        "url": "https://tfm.com/osmosis",
+        "chain": "osmosis",
+        "badge": "Defi",
+        "links": {
+            "webSite": "https://tfm.com",
+            "telegram": "https://t.me/tfmofficialchat",
+            "twitter": "https://twitter.com/tfm_com",
+            "medium": "https://medium.com/@tfm.com",
+            "discord": "https://discord.gg/tfm_agg"
+        }          
     }
 ]

@@ -944,6 +944,26 @@
     "coinGeckoId": "persistence"
   },
   {
+    "denom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
+    "type": "ibc",
+    "origin_chain": "persistence",
+    "origin_denom": "stk/uatom",
+    "origin_type": "native",
+    "symbol": "stkATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "persistence>osmosis",
+    "channel": "channel-4",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-6",
+      "port": "transfer",
+      "denom": "stk/uatom"
+    },
+    "image": "persistence/asset/stkatom.png",
+    "coinGeckoId": "stkatom"
+  },
+  {
     "denom": "ibc/8061A06D3BD4D52C4A28FFECF7150D370393AF0BA661C3776C54FF32836C3961",
     "type": "ibc",
     "origin_chain": "ethereum",
@@ -1600,5 +1620,25 @@
     },
     "image": "medasdigital/asset/medas.png",
     "coinGeckoId": "medasdigital"
+  },
+  {
+    "denom": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
+    "type": "ibc",
+    "origin_chain": "mars-protocol",
+    "origin_denom": "umars",
+    "origin_type": "staking",
+    "symbol": "MARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "mars-protocol>osmosis",
+    "channel": "channel-557",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "umars"
+    },
+    "image": "mars-protocol/asset/mars.png",
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
   }
 ]

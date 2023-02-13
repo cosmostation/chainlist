@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "umars",
+    "type": "staking",
+    "origin_chain": "mars-protocol",
+    "origin_denom": "umars",
+    "origin_type": "staking",
+    "symbol": "MARS",
+    "decimals": 6,
+    "description": "Mars Staking Coin",
+    "image": "mars-protocol/asset/mars.png",
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+  }
+]
