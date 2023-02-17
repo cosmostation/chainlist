@@ -328,5 +328,25 @@
     },
     "image": "juno/asset/juno.png",
     "coinGeckoId": "juno-network"
+  },
+  {
+    "denom": "ibc/10A0DD366A472B098DFD93FBAE62E65DA387F314872C4AD3AE43185154738D8D",
+    "type": "ibc",
+    "origin_chain": "mars-protocol",
+    "origin_denom": "umars",
+    "origin_type": "staking",
+    "symbol": "MARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "mars-protocol>crescent",
+    "channel": "channel-35",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "umars"
+    },
+    "image": "mars-protocol/asset/mars.png",
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
   }  
 ]
