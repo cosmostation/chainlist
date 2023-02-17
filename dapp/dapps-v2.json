@@ -7,7 +7,10 @@
       "chain":[
          "crescent"
       ],
-      "category":"Defi"
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ],
    },
    {
       "title":"Cosmon",
@@ -17,7 +20,10 @@
       "chain":[
          "ki-chain"
       ],
-      "category":"PLAY-AND-EARN"
+      "category":"Game",
+      "tag":[
+         "P2E"
+      ],
    },
    {
       "title":"Kava",
@@ -27,7 +33,10 @@
       "chain":[
          "kava"
       ],
-      "category":"Defi"
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ],
    },
    {
       "title":"Diffusion",
@@ -37,7 +46,10 @@
       "chain":[
          "evmos"
       ],
-      "category":"Defi"
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ],
    },
    {
       "title":"Spacefi",
@@ -47,7 +59,10 @@
       "chain":[
          "evmos"
       ],
-      "category":"Defi"
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ],
    },
    {
       "title":"Osmosis",
@@ -57,7 +72,10 @@
       "chain":[
          "osmosis"
       ],
-      "category":"Defi"
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ],
    },
    {
       "title":"Osmosis Frontier",
@@ -67,7 +85,10 @@
       "chain":[
          "osmosis"
       ],
-      "category":"Defi"
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ],
    },
    {
       "title":"DAODAO",
@@ -77,7 +98,10 @@
       "chain":[
          "juno"
       ],
-      "category":"DAO"
+      "category":"Social",
+      "tag":[
+         "DAO"
+      ],
    },
    {
       "title":"Coinhall",
@@ -87,7 +111,10 @@
       "chain":[
          "juno"
       ],
-      "category":"Defi"
+      "category":"Defi",
+      "tag":[
+         "Dex",
+      ],
    },
    {
       "title":"Liker.Land: Writing NFT",
@@ -97,7 +124,10 @@
       "chain":[
          "likecoin"
       ],
-      "category":"NFT"
+      "category":"NFT",
+      "tag":[
+         "AGG"
+      ],
    },
    {
       "title":"Racoon.bet",
@@ -107,7 +137,10 @@
       "chain":[
          "juno"
       ],
-      "category":"Gaming"
+      "category":"Game",
+      "tag":[
+         "Gamble"
+      ],
    },
    {
       "title":"DropStation",
@@ -117,7 +150,10 @@
       "chain":[
          "cosmos"
       ],
-      "category":"AGG"
+      "category":"Others",
+      "tag":[
+         "AGG"
+      ],
    },
    {
       "title":"Hopers.io",
@@ -127,7 +163,10 @@
       "chain":[
          "juno"
       ],
-      "category":"DEX + NFT Marketplace"
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ],
    },
    {
       "title":"depub.space",
@@ -137,7 +176,10 @@
       "chain":[
          "likecoin"
       ],
-      "category":"NFT"
+      "category":"Social",
+      "tag":[
+         "SNS"
+      ],
    },
    {
       "title":"OmniFlix Market",
@@ -147,7 +189,10 @@
       "chain":[
          "omniflix"
       ],
-      "category":"NFT Market"
+      "category":"NFT",
+      "tag":[
+         "MarketPlace"
+      ],
    },
    {
       "title":"Frontier OmniFlix Market",
@@ -157,7 +202,10 @@
       "chain":[
          "omniflix"
       ],
-      "category":"NFT Market"
+      "category":"NFT",
+      "tag":[
+         "MarketPlace"
+      ],
    },
    {
       "title":"Umee",
@@ -167,7 +215,10 @@
       "chain":[
          "umee"
       ],
-      "category":"Defi"
+      "category":"Defi",
+      "tag":[
+         "Lending"
+      ],
    },
    {
       "title":"Racoon.bet",
@@ -177,7 +228,10 @@
       "chain":[
          "chihuahua"
       ],
-      "category":"Gaming"
+      "category":"Game",
+      "tag":[
+         "Gamble"
+      ],
    },
    {
       "title":"WyndDAO",
@@ -187,7 +241,10 @@
       "chain":[
          "juno"
       ],
-      "category":"DeFi"
+      "category":"DeFi",
+      "tag":[
+         "Dex"
+      ],
    },
    {
       "title":"TFM",
@@ -198,7 +255,10 @@
          "osmosis",
          "juno"
       ],
-      "category":"Defi"
+      "category":"Defi",
+      "tag":[
+         "AGG"
+      ],
    },
    {
       "title":"Squid",
@@ -209,10 +269,9 @@
          "cosmos",
          "osmosis",
          "umee",
-         "assetmantle",
+         "asset-mantle",
          "comdex",
-         "binance",
-         "bnb",
+         "bnb-beacon-chain",
          "stargaze",
          "crescent",
          "juno",
@@ -225,6 +284,9 @@
          "omniflix",
          "kujira"
       ],
-      "category":"Defi"
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ],
    }
 ]
