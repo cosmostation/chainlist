@@ -1,392 +1,464 @@
 [
-	{
-		"id" : "1",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "2",
-		"adenom" : "uion",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "3",
-		"adenom" : "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "4",
-		"adenom" : "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
-		"bdenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
-	},
-	{
-		"id" : "5",
-		"adenom" : "ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "6",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84"
-	},
-	{
-		"id" : "7",
-		"adenom" : "ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "8",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0"
-	},
-	{
-		"id" : "9",
-		"adenom" : "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "10",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1"
-	},
-	{
-		"id" : "13",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293"
-	},
-	{
-		"id" : "15",
-		"adenom" : "ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "22",
-		"adenom" : "ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076",
-		"bdenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
-	},
-	{
-		"id" : "42",
-		"adenom" : "ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "463",
-		"adenom" : "ibc/1DC495FCEFDA068A3820F903EDBD78B942FBD204D7E93D3BA2B432E9669D1A59",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "481",
-		"adenom" : "ibc/5973C068568365FFF40DEDCF1A1CB7582B6116B731CD31A12231AE25E20B871F",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "482",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/5973C068568365FFF40DEDCF1A1CB7582B6116B731CD31A12231AE25E20B871F"
-	},
-	{
-		"id" : "497",
-		"adenom" : "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "498",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED"
-	},
-	{
-		"id" : "553",
-		"adenom" : "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "555",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525"
-	},
-	{
-		"id" : "571",
-		"adenom" : "ibc/D805F1DA50D31B96E4282C1D4181EDDFB1A44A598BFF5666F4B43E4B8BEA95A5",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "572",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/D805F1DA50D31B96E4282C1D4181EDDFB1A44A598BFF5666F4B43E4B8BEA95A5"
-	},
-	{
-		"id" : "573",
-		"adenom" : "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "574",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452"
-	},
-	{
-		"id" : "577",
-		"adenom" : "ibc/B547DC9B897E7C3AA5B824696110B8E3D2C31E3ED3F02FF363DCBAD82457E07E",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "584",
-		"adenom" : "ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "585",
-		"adenom" : "ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A",
-		"bdenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
-	},
-	{
-		"id" : "586",
-		"adenom" : "ibc/3BCCC93AD5DF58D11A6F8A05FA8BC801CBA0BA61A981F57E91B8B598BF8061CB",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "587",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/3BCCC93AD5DF58D11A6F8A05FA8BC801CBA0BA61A981F57E91B8B598BF8061CB"
-	},
-	{
-		"id" : "600",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0"
-	},
-	{
-		"id" : "601",
-		"adenom" : "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "602",
-		"adenom" : "ibc/7A08C6F11EF0F59EB841B9F788A87EC9F2361C7D9703157EC13D940DC53031FA",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "604",
-		"adenom" : "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "605",
-		"adenom" : "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "606",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228"
-	},
-	{
-		"id" : "608",
-		"adenom" : "ibc/8A34AF0C1943FD0DFCDE9ADBF0B2C9959C45E87E6088EA2FC6ADACD59261B8A2",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "611",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4"
-	},
-	{
-		"id" : "613",
-		"adenom" : "ibc/E7B35499CFBEB0FF5778127ABA4FB2C4B79A6B8D3D831D4379C4048C238796BD",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "616",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/8A34AF0C1943FD0DFCDE9ADBF0B2C9959C45E87E6088EA2FC6ADACD59261B8A2"
-	},
-	{
-		"id" : "617",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/7A08C6F11EF0F59EB841B9F788A87EC9F2361C7D9703157EC13D940DC53031FA"
-	},
-	{
-		"id" : "618",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/EA4C0A9F72E2CEDF10D0E7A9A6A22954DB3444910DB5BE980DF59B05A46DAD1C"
-	},
-	{
-		"id" : "619",
-		"adenom" : "ibc/EA4C0A9F72E2CEDF10D0E7A9A6A22954DB3444910DB5BE980DF59B05A46DAD1C",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "621",
-		"adenom" : "ibc/307E5C96C8F60D1CBEE269A9A86C0834E1DB06F2B3788AE4F716EDB97A48B97D",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "625",
-		"adenom" : "ibc/E97634A40119F1898989C2A23224ED83FDD0A57EA46B3A094E287288D1672B44",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "626",
-		"adenom" : "ibc/F867AE2112EFE646EC71A25CD2DFABB8927126AC1E19F1BBF0FF693A4ECA05DE",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "627",
-		"adenom" : "ibc/9BBA9A1C257E971E38C1422780CE6F0B0686F0A3085E2D61118D904BFE0F5F5E",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "641",
-		"adenom" : "ibc/67795E528DF67C5606FC20F824EA39A6EF55BA133F4DC79C90A8C47A0901E17C",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "643",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/67795E528DF67C5606FC20F824EA39A6EF55BA133F4DC79C90A8C47A0901E17C"
-	},
-	{
-		"id" : "644",
-		"adenom" : "ibc/9BCB27203424535B6230D594553F1659C77EC173E36D9CF4759E7186EE747E84",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "645",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/9BCB27203424535B6230D594553F1659C77EC173E36D9CF4759E7186EE747E84"
-	},
-	{
-		"id" : "648",
-		"adenom" : "ibc/8061A06D3BD4D52C4A28FFECF7150D370393AF0BA661C3776C54FF32836C3961",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "651",
-		"adenom" : "ibc/8FEFAE6AECF6E2A255585617F781F35A8D5709A545A804482A261C0C9548A9D3",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "674",
-		"adenom" : "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "678",
-		"adenom" : "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "681",
-		"adenom" : "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "686",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/CBA34207E969623D95D057D9B11B0C8B32B89A71F170577D982FDDE623813FFC"
-	},
-	{
-		"id" : "690",
-		"adenom" : "ibc/CBA34207E969623D95D057D9B11B0C8B32B89A71F170577D982FDDE623813FFC",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "704",
-		"adenom" : "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "712",
-		"adenom" : "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "722",
-		"adenom" : "ibc/6AE98883D4D5D5FF9E50D7130F1305DA2FFA0C652D1DD9C123657C6B4EB2DF8A",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "725",
-		"adenom" : "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "730",
-		"adenom" : "ibc/57AA1A70A4BC9769C525EBF6386F7A21536E04A79D62E1981EFCEF9428EBB205",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "731",
-		"adenom" : "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "733",
-		"adenom" : "ibc/D27DDDF34BB47E5D5A570742CC667DE53277867116CCCA341F27785E899A70F3",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "738",
-		"adenom" : "ibc/CBA34207E969623D95D057D9B11B0C8B32B89A71F170577D982FDDE623813FFC",
-		"bdenom" : "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
-	},
-	{
-		"id" : "744",
-		"adenom" : "ibc/BB6BCDB515050BAE97516111873CCD7BCF1FD0CCB723CC12F3C4F704D6C646CE",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "769",
-		"adenom" : "ibc/1E09CB0F506ACF12FDE4683FB6B34DA62FB4BE122641E0D93AAF98A87675676C",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "773",
-		"adenom" : "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id": "789",
-		"adenom": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
-		"bdenom": "uosmo"
-	},
-	{
-		"id" : "795",
-		"adenom" : "ibc/2DA9C149E9AD2BD27FEFA635458FB37093C256C1A940392634A16BEA45262604",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "803",
-		"adenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-		"bdenom" : "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
-	},
-	{
-		"id" : "806",
-		"adenom" : "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "812",
-		"adenom" : "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "833",
-		"adenom" : "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "837",
-		"adenom" : "ibc/92BE0717F4678905E53F4E45B2DED18BC0CB97BF1F8B6A25AFEDF3D5A879B4D5",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "840",
-		"adenom" : "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
-		"bdenom" : "uosmo"
-	},
-	{
-		"id" : "886",
-		"adenom" : "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
-		"bdenom" : "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
-	}
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "1",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "2",
+    "adenom": "uion",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "3",
+    "adenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "4",
+    "adenom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
+    "bdenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "5",
+    "adenom": "ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "6",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "7",
+    "adenom": "ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "8",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "9",
+    "adenom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "10",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "13",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "15",
+    "adenom": "ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "22",
+    "adenom": "ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076",
+    "bdenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "42",
+    "adenom": "ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "463",
+    "adenom": "ibc/1DC495FCEFDA068A3820F903EDBD78B942FBD204D7E93D3BA2B432E9669D1A59",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "481",
+    "adenom": "ibc/5973C068568365FFF40DEDCF1A1CB7582B6116B731CD31A12231AE25E20B871F",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "482",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/5973C068568365FFF40DEDCF1A1CB7582B6116B731CD31A12231AE25E20B871F"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "497",
+    "adenom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "498",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "553",
+    "adenom": "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "555",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "571",
+    "adenom": "ibc/D805F1DA50D31B96E4282C1D4181EDDFB1A44A598BFF5666F4B43E4B8BEA95A5",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "572",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/D805F1DA50D31B96E4282C1D4181EDDFB1A44A598BFF5666F4B43E4B8BEA95A5"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "573",
+    "adenom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "574",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "577",
+    "adenom": "ibc/B547DC9B897E7C3AA5B824696110B8E3D2C31E3ED3F02FF363DCBAD82457E07E",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "584",
+    "adenom": "ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "585",
+    "adenom": "ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A",
+    "bdenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "586",
+    "adenom": "ibc/3BCCC93AD5DF58D11A6F8A05FA8BC801CBA0BA61A981F57E91B8B598BF8061CB",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "587",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/3BCCC93AD5DF58D11A6F8A05FA8BC801CBA0BA61A981F57E91B8B598BF8061CB"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "600",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "601",
+    "adenom": "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "602",
+    "adenom": "ibc/7A08C6F11EF0F59EB841B9F788A87EC9F2361C7D9703157EC13D940DC53031FA",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "604",
+    "adenom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "605",
+    "adenom": "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "606",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "608",
+    "adenom": "ibc/8A34AF0C1943FD0DFCDE9ADBF0B2C9959C45E87E6088EA2FC6ADACD59261B8A2",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "611",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "613",
+    "adenom": "ibc/E7B35499CFBEB0FF5778127ABA4FB2C4B79A6B8D3D831D4379C4048C238796BD",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "616",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/8A34AF0C1943FD0DFCDE9ADBF0B2C9959C45E87E6088EA2FC6ADACD59261B8A2"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "617",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/7A08C6F11EF0F59EB841B9F788A87EC9F2361C7D9703157EC13D940DC53031FA"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "618",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/EA4C0A9F72E2CEDF10D0E7A9A6A22954DB3444910DB5BE980DF59B05A46DAD1C"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "619",
+    "adenom": "ibc/EA4C0A9F72E2CEDF10D0E7A9A6A22954DB3444910DB5BE980DF59B05A46DAD1C",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "621",
+    "adenom": "ibc/307E5C96C8F60D1CBEE269A9A86C0834E1DB06F2B3788AE4F716EDB97A48B97D",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "625",
+    "adenom": "ibc/E97634A40119F1898989C2A23224ED83FDD0A57EA46B3A094E287288D1672B44",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "626",
+    "adenom": "ibc/F867AE2112EFE646EC71A25CD2DFABB8927126AC1E19F1BBF0FF693A4ECA05DE",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "627",
+    "adenom": "ibc/9BBA9A1C257E971E38C1422780CE6F0B0686F0A3085E2D61118D904BFE0F5F5E",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "641",
+    "adenom": "ibc/67795E528DF67C5606FC20F824EA39A6EF55BA133F4DC79C90A8C47A0901E17C",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "643",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/67795E528DF67C5606FC20F824EA39A6EF55BA133F4DC79C90A8C47A0901E17C"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "644",
+    "adenom": "ibc/9BCB27203424535B6230D594553F1659C77EC173E36D9CF4759E7186EE747E84",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "645",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/9BCB27203424535B6230D594553F1659C77EC173E36D9CF4759E7186EE747E84"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "648",
+    "adenom": "ibc/8061A06D3BD4D52C4A28FFECF7150D370393AF0BA661C3776C54FF32836C3961",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "651",
+    "adenom": "ibc/8FEFAE6AECF6E2A255585617F781F35A8D5709A545A804482A261C0C9548A9D3",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "674",
+    "adenom": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "678",
+    "adenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "681",
+    "adenom": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "686",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/CBA34207E969623D95D057D9B11B0C8B32B89A71F170577D982FDDE623813FFC"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "690",
+    "adenom": "ibc/CBA34207E969623D95D057D9B11B0C8B32B89A71F170577D982FDDE623813FFC",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "704",
+    "adenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "712",
+    "adenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "722",
+    "adenom": "ibc/6AE98883D4D5D5FF9E50D7130F1305DA2FFA0C652D1DD9C123657C6B4EB2DF8A",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "725",
+    "adenom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "730",
+    "adenom": "ibc/57AA1A70A4BC9769C525EBF6386F7A21536E04A79D62E1981EFCEF9428EBB205",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "731",
+    "adenom": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "733",
+    "adenom": "ibc/D27DDDF34BB47E5D5A570742CC667DE53277867116CCCA341F27785E899A70F3",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "738",
+    "adenom": "ibc/CBA34207E969623D95D057D9B11B0C8B32B89A71F170577D982FDDE623813FFC",
+    "bdenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "744",
+    "adenom": "ibc/BB6BCDB515050BAE97516111873CCD7BCF1FD0CCB723CC12F3C4F704D6C646CE",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "769",
+    "adenom": "ibc/1E09CB0F506ACF12FDE4683FB6B34DA62FB4BE122641E0D93AAF98A87675676C",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "773",
+    "adenom": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "789",
+    "adenom": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "795",
+    "adenom": "ibc/2DA9C149E9AD2BD27FEFA635458FB37093C256C1A940392634A16BEA45262604",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "803",
+    "adenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "bdenom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "806",
+    "adenom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "812",
+    "adenom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "833",
+    "adenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "837",
+    "adenom": "ibc/92BE0717F4678905E53F4E45B2DED18BC0CB97BF1F8B6A25AFEDF3D5A879B4D5",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "840",
+    "adenom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
+    "bdenom": "uosmo"
+  }
 ]
