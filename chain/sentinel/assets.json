@@ -110,5 +110,25 @@
     },
     "image": "decentr/asset/dec.png",
     "coinGeckoId": "decentr"
+  },
+  {
+    "denom": "ibc/a85aca68d4ebb931256f86a5360f93caa4b9102f39fed10cc3a7c57328d4ad34",
+    "type": "ibc",
+    "origin_chain": "medasdigital",
+    "origin_denom": "umedas",
+    "origin_type": "staking",
+    "symbol": "MEDAS",
+    "decimals": 6,
+    "enable": true,
+    "path": "medasdigital>sentinel",
+    "channel": "channel-60",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "udec"
+    },
+    "image": "medasdigital/asset/medas.png",
+    "coinGeckoId": "medasdigital"
   }
 ]
