@@ -93,6 +93,26 @@
     "coinGeckoId": "juno-network"
   },
   {
+    "denom": "ibc/90F27756D300141BDF07B83E65401BDC58C05269B9BAE3ECB0B20FAB166BCF8F",
+    "type": "ibc",
+    "origin_chain": "kujira",
+    "origin_denom": "ukuji",
+    "origin_type": "staking",
+    "symbol": "KUJI",
+    "decimals": 6,
+    "enable": true,
+    "path": "kujira>mars-protocol",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-55",
+      "port": "transfer",
+      "denom": "ukuji"
+    },
+    "image": "kujira/asset/kuji.png",
+    "coinGeckoId": "kujira"
+  },
+  {
     "denom": "ibc/D70B0FBF97AEB04491E9ABF4467A7F66CD6250F4382CE5192D856114B83738D2",
     "type": "ibc",
     "origin_chain": "terra",
