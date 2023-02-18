@@ -30,5 +30,45 @@
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
-  } 
+  },
+  {
+    "denom": "ibc/B7489F796F582168A256F44B1B2AB93DD2E868487DA91F28FD2BA967E97F5712",
+    "type": "ibc",
+    "origin_chain": "sentinel",
+    "origin_denom": "udvpn",
+    "origin_type": "staking",
+    "symbol": "DVPN",
+    "decimal": 6,
+    "enable": true,
+    "path": "sentinel>medasdigital",
+    "channel": "channel-4",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-60",
+        "port": "transfer",
+        "denom": "udvpn"
+    },
+    "image": "sentinel/asset/dvpn.png",
+    "coinGeckoId": "sentinel"
+  },
+  {
+    "denom": "ibc/4F7199F3ECB5FA109E71EB9ED2FA3DE6A98F3C87E7E60285BFEDDAA2DF1EB0B4",
+    "type": "ibc",
+    "origin_chain": "sifchain",
+    "origin_denom": "rowan",
+    "origin_type": "staking",
+    "symbol": "ROWAN",
+    "decimals": 18,
+    "enable": true,
+    "path": "sifchain>medasdigital",
+    "channel": "channel-5",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-89",
+      "port": "transfer",
+      "denom": "rowan"
+    },
+    "image": "sifchain/asset/rowan.png",
+    "coinGeckoId": "sifchain"
+  }
 ]
