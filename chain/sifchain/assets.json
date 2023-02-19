@@ -1377,10 +1377,10 @@
     "decimals": 6,
     "enable": true,
     "path": "medasdigital>sifchain",
-    "channel": "channel-5",
+    "channel": "channel-89",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-89",
+      "channel": "channel-5",
       "port": "transfer",
       "denom": "umedas"
     },
