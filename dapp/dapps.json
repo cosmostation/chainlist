@@ -247,5 +247,24 @@
       "tag":[
          "AGG"
       ]
+   },
+   {
+      "title":"Mars Protocol",
+      "description":"Lend, borrow and earn on the galaxy's most powerful credit protocol or enter the Fields of Mars for advanced DeFi strategies.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/mars.png",
+      "url":"https://osmosis.marsprotocol.io",
+      "chain":[
+         "osmosis"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Money Market",
+         "Farming"
+      ],
+     "links": {
+       "webSite": "https://marsprotocol.io",
+       "github": "https://github.com/mars-protocol",
+       "twitter": "https://twitter.marsprotocol.io"
+     }
    }
 ]
