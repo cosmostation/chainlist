@@ -210,7 +210,7 @@
    {
       "title":"Racoon.bet",
       "description":"Gaming platform offering fully integrated on-chain games within the Cosmos Ecosystem.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/racoon-bet.png",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/racoon-bet-huahua.png",
       "url":"https://chihuahua.racoon.bet/",
       "chain":[
          "chihuahua"
@@ -245,35 +245,6 @@
       "category":"Defi",
       "tag":[
          "AGG"
-      ]
-   },
-   {
-      "title":"Squid",
-      "description":"Swap any token between chains.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/squid.png",
-      "url":"https://app.squidrouter.com",
-      "chain":[
-         "cosmos",
-         "osmosis",
-         "umee",
-         "asset-mantle",
-         "comdex",
-         "bnb-beacon-chain",
-         "stargaze",
-         "crescent",
-         "juno",
-         "evmos",
-         "fetchai",
-         "ki-chain",
-         "kava",
-         "secret",
-         "regen",
-         "omniflix",
-         "kujira"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Dex"
       ]
    }
 ]
