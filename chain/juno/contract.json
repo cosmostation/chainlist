@@ -295,5 +295,16 @@
     "image": "juno/asset/hopers.png",
     "default": false,
     "coinGeckoId": "hopers-io"
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz",
+    "symbol": "HOWL",
+    "description": "Howl social",
+    "decimals": 6,
+    "image": "juno/asset/howl.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]

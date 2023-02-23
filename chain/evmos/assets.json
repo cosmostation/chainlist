@@ -167,7 +167,7 @@
     "counter_party": {
       "channel": "channel-65",
       "port": "transfer",
-      "denom": "gravity0x6c9E3E437b0F06C5366fAE4ea4e6cd6fB1803BdF"
+      "denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7"
     },
     "image": "ethereum/asset/usdt.png",
     "coinGeckoId": "tether",
@@ -339,5 +339,45 @@
     "image": "ethereum/asset/dai.png",
     "coinGeckoId": "dai",
     "contract": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+  },
+  {
+    "denom": "ibc/7A043B7AAABF55E77C66A815F7E64B1450BAF0704FDFB16A7BD8CF4AF585687E",
+    "type": "ibc",
+    "origin_chain": "acrechain",
+    "origin_denom": "aacre",
+    "origin_type": "staking",
+    "symbol": "ACRE",
+    "decimals": 18,
+    "enable": true,
+    "path": "acrechain>evmos",
+    "channel": "channel-14",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-40",
+      "port": "transfer",
+      "denom": "aacre"
+    },
+    "image": "acrechain/asset/acre.png",
+    "coinGeckoId": "arable-protocol"
+  },
+  {
+    "denom": "ibc/F2EFEE7ABE073C133AF0541085B4AAD68C4A4BE43BEC501C342FF33FE0E3E0CE",
+    "type": "ibc",
+    "origin_chain": "acrechain",
+    "origin_denom": "cnto",
+    "origin_type": "erc20",
+    "symbol": "CNTO",
+    "decimals": 18,
+    "enable": true,
+    "path": "acrechain>evmos",
+    "channel": "channel-14",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-40",
+      "port": "transfer",
+      "denom": "cnto"
+    },
+    "image": "acrechain/asset/cnto.png",
+    "contract": "0xAE6D3334989a22A65228732446731438672418F2"
   }
 ]
