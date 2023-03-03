@@ -306,5 +306,16 @@
     "image": "juno/asset/howl.png",
     "default": false,
     "coinGeckoId": ""
+  },
+    {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno10gthz5ufgrpuk5cscve2f0hjp56wgp90psqxcrqlg4m9mcu9dh8q4864xy",
+    "symbol": "KLEO",
+    "description": "Kleomedes Gov Token",
+    "decimals": 6,
+    "image": "juno/asset/kleo.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
