@@ -462,6 +462,12 @@
     "bdenom": "uosmo"
   },
   {
+    "type": "/osmosis.gamm.poolmodels.stableswap.v1beta1.Pool",
+    "id": "886",
+    "adenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
+    "bdenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+  },
+  {
     "type": "/osmosis.gamm.v1beta1.Pool",
     "id": "907",
     "adenom": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
