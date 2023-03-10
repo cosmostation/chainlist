@@ -437,9 +437,9 @@
     "denom": "ibc/01BAE2E69D02670B22758FBA74E4114B6E88FC1878936C919DA345E6C6C92ABF",
     "type": "ibc",
     "origin_chain": "migaloo",
-    "origin_denom": "bonewhale",
+    "origin_denom": "bwhale",
     "origin_type": "native",
-    "symbol": "boneWHALE",
+    "symbol": "bWHALE",
     "decimals": 6,
     "enable": true,
     "path": "migaloo>juno",
@@ -448,9 +448,9 @@
     "counter_party": {
       "channel": "channel-1",
       "port": "transfer",
-      "denom": "bonewhale"
+      "denom": "bwhale"
     },
-    "image": "migaloo/asset/bonewhale.png",
+    "image": "migaloo/asset/bwhale.png",
     "coinGeckoId": ""
   }
 ]
