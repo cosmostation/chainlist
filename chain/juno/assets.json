@@ -393,4 +393,64 @@
     "coinGeckoId": "weth",
     "contract": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
   }
+  {
+    "denom": "ibc/3A6ADE78FB8169C034C29C4F2E1A61CE596EC8235366F22381D981A98F1F5A5C",
+    "type": "ibc",
+    "origin_chain": "migaloo",
+    "origin_denom": "uwhale",
+    "origin_type": "staking",
+    "symbol": "WHALE",
+    "decimals": 6,
+    "enable": true,
+    "path": "migaloo>juno",
+    "channel": "channel-210",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uwhale"
+    },
+    "image": "migaloo/asset/whitewhale.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/2F7C2A3D5D42553ED46F57D8B0DE3733B1B5FF571E2C6A051D34525904B4C0AF",
+    "type": "ibc",
+    "origin_chain": "migaloo",
+    "origin_denom": "ampwhale",
+    "origin_type": "native",
+    "symbol": "ampWHALE",
+    "decimals": 6,
+    "enable": true,
+    "path": "migaloo>juno",
+    "channel": "channel-210",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "ampwhale"
+    },
+    "image": "migaloo/asset/ampwhale.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/01BAE2E69D02670B22758FBA74E4114B6E88FC1878936C919DA345E6C6C92ABF",
+    "type": "ibc",
+    "origin_chain": "migaloo",
+    "origin_denom": "bwhale",
+    "origin_type": "native",
+    "symbol": "bWHALE",
+    "decimals": 6,
+    "enable": true,
+    "path": "migaloo>juno",
+    "channel": "channel-210",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "bwhale"
+    },
+    "image": "migaloo/asset/bwhale.png",
+    "coinGeckoId": ""
+  }
 ]
