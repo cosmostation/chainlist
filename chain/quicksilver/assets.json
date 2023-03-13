@@ -34,5 +34,17 @@
     "description": "Quicksilver Staked ATOM",
     "image": "quicksilver/asset/qatom.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "uqregen",
+    "type": "native",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqregen",
+    "origin_type": "native",
+    "symbol": "qREGEN",
+    "decimals": 6,
+    "description": "Quicksilver Staked REGEN",
+    "image": "quicksilver/asset/qregen.png",
+    "coinGeckoId": ""
   }
 ]
