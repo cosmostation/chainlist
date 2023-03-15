@@ -22,5 +22,29 @@
     "description": "Quicksilver Staked Stars",
     "image": "quicksilver/asset/qstars.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "uqatom",
+    "type": "native",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqatom",
+    "origin_type": "native",
+    "symbol": "qATOM",
+    "decimals": 6,
+    "description": "Quicksilver Staked ATOM",
+    "image": "quicksilver/asset/qatom.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "uqregen",
+    "type": "native",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqregen",
+    "origin_type": "native",
+    "symbol": "qREGEN",
+    "decimals": 6,
+    "description": "Quicksilver Staked REGEN",
+    "image": "quicksilver/asset/qregen.png",
+    "coinGeckoId": ""
   }
 ]

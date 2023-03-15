@@ -81,7 +81,7 @@
         "denom": "stuosmo"
     },
     "image": "stride/asset/stosmo.png",   
-    "coinGeckoId": ""
+    "coinGeckoId": "stride-staked-osmo"
   },
   {
     "denom": "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525",
@@ -1620,5 +1620,25 @@
     },
     "image": "medasdigital/asset/medas.png",
     "coinGeckoId": "medasdigital"
+  },
+  {
+    "denom": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
+    "type": "ibc",
+    "origin_chain": "mars-protocol",
+    "origin_denom": "umars",
+    "origin_type": "staking",
+    "symbol": "MARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "mars-protocol>osmosis",
+    "channel": "channel-557",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "umars"
+    },
+    "image": "mars-protocol/asset/mars.png",
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
   }
 ]

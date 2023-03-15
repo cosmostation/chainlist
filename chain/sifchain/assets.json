@@ -1366,5 +1366,25 @@
     "image": "ethereum/asset/zrx.png",
     "coinGeckoId": "0x",
     "contract": "0xe41d2489571d322189246dafa5ebde1f4699f498"
+  },
+  {
+    "denom": "ibc/4F7199F3ECB5FA109E71EB9ED2FA3DE6A98F3C87E7E60285BFEDDAA2DF1EB0B4",
+    "type": "ibc",
+    "origin_chain": "medasdigital",
+    "origin_denom": "umedas",
+    "origin_type": "staking",
+    "symbol": "MEDAS",
+    "decimals": 6,
+    "enable": true,
+    "path": "medasdigital>sifchain",
+    "channel": "channel-89",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "umedas"
+    },
+    "image": "medasdigital/asset/medas.png",
+    "coinGeckoId": "medasdigital"
   }
 ]

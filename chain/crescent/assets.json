@@ -208,5 +208,145 @@
     },
     "image": "injective/asset/inj.png",
     "coinGeckoId": "injective-protocol"
-  }
+  },
+  {
+    "denom": "ibc/4627AD2524E3E0523047E35BB76CC90E37D9D57ACF14F0FCBCEB2480705F3CB8",
+    "type": "ibc",
+    "origin_chain": "terra-classic",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNC",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra-classic>crescent",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-49",
+      "port": "transfer",
+      "denom": "uluna"
+    },
+    "image": "terra-classic/asset/lunc.png",
+    "coinGeckoId": "terra-luna-classic"
+  },
+  {
+    "denom": "ibc/8F865D9760B482FF6254EDFEC1FF2F1273B9AB6873A7DE484F89639795D73D75",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNA",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>crescent",
+    "channel": "channel-27",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-37",
+      "port": "transfer",
+      "denom": "uluna"
+    },
+    "image": "terra/asset/luna.png",
+    "coinGeckoId": "terra"
+  },
+  {
+    "denom": "ibc/0634D0993744740D675AD01E81156EAC945AEAAE17C074918DC7FF52F41B263E",
+    "type": "ibc",
+    "origin_chain": "axelar",
+    "origin_denom": "uaxl",
+    "origin_type": "staking",
+    "symbol": "AXL",
+    "decimals": 6,
+    "enable": true,
+    "path": "axelar>crescent",
+    "channel": "channel-4",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-7",
+      "port": "transfer",
+      "denom": "uaxl"
+    },
+    "image": "axelar/asset/axl.png",
+    "coinGeckoId": "axelar"
+  },
+  {
+    "denom": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+    "type": "ibc",
+    "origin_chain": "comdex",
+    "origin_denom": "ucmdx",
+    "origin_type": "staking",
+    "symbol": "CMDX",
+    "decimals": 6,
+    "enable": true,
+    "path": "comdex>crescent",
+    "channel": "channel-26",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-49",
+      "port": "transfer",
+      "denom": "ucmdx"
+    },
+    "image": "comdex/asset/cmdx.png",
+    "coinGeckoId": "comdex"
+  },
+  {
+    "denom": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+    "type": "ibc",
+    "origin_chain": "comdex",
+    "origin_denom": "ucmst",
+    "origin_type": "staking",
+    "symbol": "CMDX",
+    "decimals": 6,
+    "enable": true,
+    "path": "comdex>crescent",
+    "channel": "channel-26",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-49",
+      "port": "transfer",
+      "denom": "ucmst"
+    },
+    "image": "comdex/asset/cmst.png",
+    "coinGeckoId": "composite"
+  },
+  {
+    "denom": "ibc/C814F0B662234E24248AE3B2FE2C1B54BBAF12934B757F6E7BC5AEC119963895",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "ujuno",
+    "origin_type": "staking",
+    "symbol": "JUNO",
+    "decimals": 6,
+    "enable": true,
+    "path": "juno>crescent",
+    "channel": "channel-3",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-81",
+      "port": "transfer",
+      "denom": "ujuno"
+    },
+    "image": "juno/asset/juno.png",
+    "coinGeckoId": "juno-network"
+  },
+  {
+    "denom": "ibc/10A0DD366A472B098DFD93FBAE62E65DA387F314872C4AD3AE43185154738D8D",
+    "type": "ibc",
+    "origin_chain": "mars-protocol",
+    "origin_denom": "umars",
+    "origin_type": "staking",
+    "symbol": "MARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "mars-protocol>crescent",
+    "channel": "channel-35",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "umars"
+    },
+    "image": "mars-protocol/asset/mars.png",
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+  }  
 ]

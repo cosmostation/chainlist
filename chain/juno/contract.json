@@ -295,5 +295,27 @@
     "image": "juno/asset/hopers.png",
     "default": false,
     "coinGeckoId": "hopers-io"
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz",
+    "symbol": "HOWL",
+    "description": "Howl social",
+    "decimals": 6,
+    "image": "juno/asset/howl.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+    {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno10gthz5ufgrpuk5cscve2f0hjp56wgp90psqxcrqlg4m9mcu9dh8q4864xy",
+    "symbol": "KLEO",
+    "description": "Kleomedes Gov Token",
+    "decimals": 6,
+    "image": "juno/asset/kleo.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
