@@ -166,25 +166,6 @@
     },
     "image": "regen/asset/regen.png",
     "coinGeckoId": "regen"
-  },
-  {
-    "denom": "ibc/FACC1CE598366EA01D86CF1CBE05F1A6C7511F673E91DEFF04342ED8DEFE3A60",
-    "type": "ibc",
-    "origin_chain": "planq",
-    "origin_denom": "aplanq",
-    "origin_type": "staking",
-    "symbol": "PLANQ",
-    "decimals": 18,
-    "enable": true,
-    "path": "planq>quicksilver",
-    "channel": "channel-11",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-57",
-      "port": "transfer",
-      "denom": "aplanq"
-    },
-    "image": "",
-    "coinGeckoId": "planq"
   }
+  
 ]
