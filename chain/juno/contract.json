@@ -307,7 +307,7 @@
     "default": false,
     "coinGeckoId": ""
   },
-    {
+  {
     "chainId": -1,
     "chainName": "juno",
     "address": "juno10gthz5ufgrpuk5cscve2f0hjp56wgp90psqxcrqlg4m9mcu9dh8q4864xy",
@@ -315,6 +315,17 @@
     "description": "Kleomedes Gov Token",
     "decimals": 6,
     "image": "juno/asset/kleo.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1naunqzk6jseqeqhq43nm6kdneraws2rkmteprjzppw6j9xcrurxqx0ld9e",
+    "symbol": "wyJuno",
+    "description": "Juno Liquid staking derivative by Wynd dao",
+    "decimals": 6,
+    "image": "juno/asset/wyJuno.png",
     "default": false,
     "coinGeckoId": ""
   }
