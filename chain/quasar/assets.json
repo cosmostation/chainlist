@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "denom": "uqsr",
+    "type": "staking",
+    "origin_chain": "quasar",
+    "origin_denom": "uqsr",
+    "origin_type": "staking",
+    "symbol": "QSR",
+    "decimals": 6,
+    "description": "Quasar Staking Coin",
+    "image": "quasar/asset/qsr.png",
+    "coinGeckoId": ""
+  }
+]
