@@ -604,26 +604,6 @@
     "coinGeckoId": "assetmantle"
   },
   {
-    "denom": "ibc/F3FF7A84A73B62921538642F9797C423D2B4C4ACB3C7FCFFCE7F12AA69909C4B",
-    "type": "ibc",
-    "origin_chain": "ixo",
-    "origin_denom": "uixo",
-    "origin_type": "native",
-    "symbol": "IXO",
-    "decimals": 6,
-    "enable": true,
-    "path": "ixo>osmosis",
-    "channel": "channel-38",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-4",
-      "port": "transfer",
-      "denom": "uixo"
-    },
-    "image": "ixo/asset/ixo.png",
-    "coinGeckoId": "ixo"
-  },
-  {
     "denom": "ibc/655BCEF3CDEBE32863FF281DBBE3B06160339E9897DC9C9C9821932A5F8BA6F8",
     "type": "ibc",
     "origin_chain": "microtick",
