@@ -54,21 +54,22 @@
   {
     "denom": "ibc/FA7775734CC73176B7425910DE001A1D2AD9B6D9E93129A5D0750EAD13E4E63A",
     "type": "ibc",
-    "origin_chain": "axelar",
-    "origin_denom": "uaxl",
-    "origin_type": "staking",
-    "symbol": "AXL",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
     "decimals": 6,
     "enable": true,
-    "path": "axelar>osmosis>quasar",
+    "path": "ethereum>axelar>osmosis>quasar",
     "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
       "channel": "channel-688",
       "port": "transfer",
-      "denom": "uaxl"
+      "denom": "uusdc"
     },
-    "image": "axelar/asset/axl.png",
-    "coinGeckoId": "axelar"
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   }
 ]
