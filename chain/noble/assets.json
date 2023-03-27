@@ -1,13 +1,13 @@
 [
   {
-    "denom": "uusdc",
+    "denom": "ustake",
     "type": "staking",
     "origin_chain": "noble",
-    "origin_denom": "uusdc",
+    "origin_denom": "ustake",
     "origin_type": "staking",
-    "symbol": "USDC",
+    "symbol": "STAKE",
     "decimals": 6,
     "description": "Noble Staking Coin",
-    "image": "noble/asset/usdc.png"
+    "image": "noble/asset/stake.png"
   }
 ]
