@@ -415,7 +415,7 @@
     "type": "ibc",
     "origin_chain": "terra-classic",
     "origin_denom": "uusd",
-    "origin_type": "staking",
+    "origin_type": "native",
     "symbol": "USTC",
     "decimals": 6,
     "enable": true,
