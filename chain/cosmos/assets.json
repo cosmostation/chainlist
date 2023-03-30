@@ -432,26 +432,6 @@
     "coinGeckoId": "e-money"
   },
   {
-    "denom": "ibc/B2B5AEE174062FA7804AC95223D8169852F8F58962C51C66391C272C838258B7",
-    "type": "ibc",
-    "origin_chain": "ixo",
-    "origin_denom": "uixo",
-    "origin_type": "staking",
-    "symbol": "IXO",
-    "decimals": 6,
-    "enable": true,
-    "path": "ixo>cosmos",
-    "channel": "channel-204",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-1",
-      "port": "transfer",
-      "denom": "uixo"
-    },
-    "image": "ixo/asset/ixo.png",
-    "coinGeckoId": "ixo"
-  },
-  {
     "denom": "ibc/CDAB23DA5495290063363BD1C3499E26189036302DC689985A7E23F8DF8D8DB0",
     "type": "ibc",
     "origin_chain": "juno",

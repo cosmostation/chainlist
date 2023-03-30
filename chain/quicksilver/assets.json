@@ -166,6 +166,17 @@
     },
     "image": "regen/asset/regen.png",
     "coinGeckoId": "regen"
+  },
+  {
+    "denom": "uqosmo",
+    "type": "native",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqosmo",
+    "origin_type": "native",
+    "symbol": "qOSMO",
+    "decimals": 6,
+    "description": "Quicksilver Staked OSMO",
+    "image": "quicksilver/asset/qosmo.png",
+    "coinGeckoId": ""
   }
-  
 ]
