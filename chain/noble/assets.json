@@ -9,5 +9,17 @@
     "decimals": 6,
     "description": "Noble Staking Coin",
     "image": "noble/asset/stake.png"
-  }
+  },
+  {
+    "denom": "ufrienzies",
+    "type": "native",
+    "origin_chain": "noble",
+    "origin_denom": "ufrienzies",
+    "origin_type": "native",
+    "symbol": "FRNZ",
+    "decimals": 6,
+    "description": "Native Coin",
+    "image": "noble/asset/frnz.png",
+    "coinGeckoId": ""
+  },
 ]
