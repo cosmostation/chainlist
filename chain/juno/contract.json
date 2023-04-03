@@ -112,7 +112,7 @@
   {
     "chainId": -1,
     "chainName": "juno",
-    "address": "juno1lnqhfvgr9x2u40z4d4u5ezep6cxk2kq7agd33evmjl5lfuwr52kszp0y57",
+    "address": "juno14j34agq5s0rm5s5rj6vu4c84kun0zzdr2zc2kz09psq5q9fq85zqeuf5hz",
     "symbol": "HNC",
     "description": "HOT & COLD FINANCE",
     "decimals": 6,
@@ -272,7 +272,7 @@
     "decimals": 6,
     "image": "juno/asset/wynd.png",
     "default": false,
-    "coinGeckoId": ""
+    "coinGeckoId": "wynd"
   },
   {
     "chainId": -1,
@@ -307,7 +307,7 @@
     "default": false,
     "coinGeckoId": ""
   },
-    {
+  {
     "chainId": -1,
     "chainName": "juno",
     "address": "juno10gthz5ufgrpuk5cscve2f0hjp56wgp90psqxcrqlg4m9mcu9dh8q4864xy",
@@ -315,6 +315,28 @@
     "description": "Kleomedes Gov Token",
     "decimals": 6,
     "image": "juno/asset/kleo.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1naunqzk6jseqeqhq43nm6kdneraws2rkmteprjzppw6j9xcrurxqx0ld9e",
+    "symbol": "wyJuno",
+    "description": "Juno Liquid staking derivative by Wynd dao",
+    "decimals": 6,
+    "image": "juno/asset/wyJUNO.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x",
+    "symbol": "FOX",
+    "description": "Fox is Memecoin on Juno Network inspired by Bonk",
+    "decimals": 6,
+    "image": "juno/asset/fox.png",
     "default": false,
     "coinGeckoId": ""
   }
