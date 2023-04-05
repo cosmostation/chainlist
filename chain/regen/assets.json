@@ -12,6 +12,18 @@
     "coinGeckoId": "regen"
   },
   {
+    "denom": "NCT",
+    "type": "native",
+    "origin_chain": "regen",
+    "origin_denom": "eco.uC.NCT",
+    "origin_type": "native",
+    "symbol": "NCT",
+    "decimals": 6,
+    "description": "Nature Carbon Ton",
+    "image": "regen/asset/nct.png",
+    "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
+  },
+  {
     "denom": "ibc/5FEB332D2B121921C792F1A0DBF7C3163FF205337B4AFE6E14F69E8E49545F49",
     "type": "ibc",
     "origin_chain": "cosmos",
