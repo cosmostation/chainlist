@@ -70,5 +70,232 @@
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/04CE51E6E02243E565AE676DD60336E48D455F8AAD0611FA0299A22FDAC448D6",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "weth",
+    "origin_type": "erc20",
+    "symbol": "axlWETH",
+    "decimals": 18,
+    "enable": true,
+    "path": "ethereum>axelar>umee",
+    "channel": "channel-33",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "weth-wei"
+    },
+    "image": "ethereum/asset/weth.png",
+    "coinGeckoId": "weth",
+    "contract": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+  },
+ {
+    "denom": "ibc/153B97FE395140EAAA2D7CAC537AF1804AEC5F0595CBC5F1603094018D158C0C",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "wbtc",
+    "origin_type": "erc20",
+    "symbol": "axlWBTC",
+    "decimals": 8,
+    "enable": true,
+    "path": "ethereum>axelar>umee",
+    "channel": "channel-33",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "wbtc-satoshi"
+    },
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "wrapped-bitcoin",
+    "contract": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+  },
+  
+  {
+    "denom": "ibc/49788C29CD84E08D25CA7BE960BC1F61E88FEFC6333F58557D236D693398466A",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>umee",
+    "channel": "channel-33",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  {
+    "denom": "ibc/6B49A789937D4E50BF01F0F50DDEDF5C1103EDF01306B7021BDF23BDE65D99BA",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuosmo",
+    "origin_type": "native",
+    "symbol": "stOSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>umee",
+    "channel": "channel-34",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-29",
+        "port": "transfer",
+        "denom": "stuosmo"
+    },
+    "image": "stride/asset/stosmo.png",   
+    "coinGeckoId": "stride-staked-osmo"
+  },
+  {
+    "denom": "ibc/8184469200C5E667794375F5B0EC3B9ABB6FF79082941BF5D0F8FF59FEBA862E",
+    "type": "ibc",
+    "origin_chain": "bnb-smart-chain",
+    "origin_denom": "wbnb",
+    "origin_type": "staking",
+    "symbol": "axlWBNB",
+    "decimals": 18,
+    "enable": true,
+    "path": "bnb-smart-chain>axelar>umee",
+    "channel": "channel-33",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "wbnb-wei"
+    },
+    "image": "bnb-smart-chain/asset/wbnb.png",
+    "coinGeckoId": "binancecoin"
+  },
+  {
+    "denom": "ibc/AB2652E28C9961D13CFF2EC5F53C7E2965C8D0CF37A33CC97D8EEF6212F315C8",
+    "type": "ibc",
+    "origin_chain": "moonbeam",
+    "origin_denom": "xcdot",
+    "origin_type": "erc20",
+    "symbol": "axlDOT",
+    "decimals": 10,
+    "enable": true,
+    "path": "moonbeam>axelar>umee",
+    "channel": "channel-33",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "dot-planck"
+    },
+    "image": "moonbeam/asset/xcdot.png",
+    "coinGeckoId": "xcdot",
+    "contract": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
+  },
+  {
+    "denom": "ibc/BA460328D9ABA27E643A924071FDB3836E4CE8084C6D2380F25EFAB85CF8EB11",
+    "type": "ibc",
+    "origin_chain": "agoric",
+    "origin_denom": "uist",
+    "origin_type": "native",
+    "symbol": "IST",
+    "decimals": 6,
+    "enable": true,
+    "path": "agoric>umee",
+    "channel": "channel-42",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-11",
+      "port": "transfer",
+      "denom": "uist"
+    },
+    "image": "agoric/asset/ist.png",
+    "coinGeckoId": "inter-stable-token"
+  },
+  {
+    "denom": "ibc/C86651B4D30C1739BF8B061E36F4473A0C9D60380B52D01E56A6874037A5D060",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "dai",
+    "origin_type": "erc20",
+    "symbol": "axlDAI",
+    "decimals": 18,
+    "enable": true,
+    "path": "ethereum>axelar>umee",
+    "channel": "channel-33",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "dai-wei"
+    },
+    "image": "ethereum/asset/dai.png",
+    "coinGeckoId": "dai",
+    "contract": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+  },
+  {
+    "denom": "ibc/C8B3026C2844D204F3A49F91058DC947F01F2FC36AFF17850FFC8701504BDDEE",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuatom",
+    "origin_type": "native",
+    "symbol": "stATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>umee",
+    "channel": "channel-34",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-29",
+      "port": "transfer",
+      "denom": "stuatom"
+    },
+    "image": "stride/asset/statom.png",
+    "coinGeckoId": "stride-staked-atom"
+  },
+{
+    "denom": "ibc/D1CB2804AA5EB64D503F28E8DF3552F8A4D642802B66EFE50DE432B755F37AE1",
+    "type": "ibc",
+    "origin_chain": "axelar",
+    "origin_denom": "uaxl",
+    "origin_type": "staking",
+    "symbol": "AXL",
+    "decimals": 6,
+    "enable": true,
+    "path": "axelar>umee",
+    "channel": "channel-33",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "uaxl"
+    },
+    "image": "axelar/asset/axl.png",
+    "coinGeckoId": "axelar"
+  },
+ {
+    "denom": "ibc/FAEC929814E0D916C019EB4B8BE58360EC3B6AB6A2B3185CB1EA0B54832DEE68",
+    "type": "ibc",
+    "origin_chain": "polygon",
+    "origin_denom": "wmatic",
+    "origin_type": "erc20",
+    "symbol": "axlWMATIC",
+    "decimals": 18,
+    "enable": true,
+    "path": "polygon>axelar>umee",
+    "channel": "channel-33",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "wmatic-wei"
+    },
+    "image": "polygon/asset/wmatic.png",
+    "coinGeckoId": "wmatic",
+    "contract": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
   }
 ]
