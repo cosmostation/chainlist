@@ -277,6 +277,46 @@
     "image": "axelar/asset/axl.png",
     "coinGeckoId": "axelar"
   },
+  {
+    "denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "ujuno",
+    "origin_type": "staking",
+    "symbol": "JUNO",
+    "decimals": 6,
+    "enable": true,
+    "path": "juno>umee",
+    "channel": "channel-43",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-208",
+      "port": "transfer",
+      "denom": "ujuno"
+    },
+    "image": "juno/asset/juno.png",
+    "coinGeckoId": "juno-network"
+  },
+  {
+    "denom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
+    "type": "ibc",
+    "origin_chain": "akash",
+    "origin_denom": "uakt",
+    "origin_type": "staking",
+    "symbol": "AKT",
+    "decimals": 6,
+    "enable": true,
+    "path": "akash>umee",
+    "channel": "channel-48", 
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-60",
+      "port": "transfer",
+      "denom": "uakt"
+    },
+    "image": "akash/asset/akt.png",
+    "coinGeckoId": "akash-network"
+  },
  {
     "denom": "ibc/FAEC929814E0D916C019EB4B8BE58360EC3B6AB6A2B3185CB1EA0B54832DEE68",
     "type": "ibc",
@@ -297,5 +337,45 @@
     "image": "polygon/asset/wmatic.png",
     "coinGeckoId": "wmatic",
     "contract": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
-  }
+  },{
+    "denom": "ibc/223420B0E8CF9CC47BCAB816AB3A20AE162EED27C1177F4B2BC270C83E11AD8D",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "uusdt",
+    "origin_type": "erc20",
+    "symbol": "axlUSDT",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>umee",
+    "channel": "channel-33",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "uusdt"
+    },
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether",
+    "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+  },
+  {
+    "denom": "ibc/452372B8214E22C625E98958C5EDFB939C48E6590E40B711E9D30206EF8EDC9B",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNA",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>umee",
+    "channel": "channel-45", 
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-93",
+      "port": "transfer",
+      "denom": "uluna"
+    },
+    "image": "terra/asset/luna.png",
+    "coinGeckoId": "terra-luna-2"
+  },
 ]
