@@ -1640,5 +1640,85 @@
     },
     "image": "quicksilver/asset/qck.png",
     "coinGeckoId": "quicksilver"
+  },
+  {
+    "denom": "ibc/46C83BB054E12E189882B5284542DB605D94C99827E367C9192CF0579CD5BC83",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqstars",
+    "origin_type": "native",
+    "symbol": "qSTARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqstars"
+    },
+    "image": "quicksilver/asset/qstars.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/FA602364BEC305A696CBDF987058E99D8B479F0318E47314C49173E8838C5BAC",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqatom",
+    "origin_type": "native",
+    "symbol": "qATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqatom"
+    },
+    "image": "quicksilver/asset/qatom.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/79A676508A2ECA1021EDDC7BB9CF70CEEC9514C478DA526A5A8B3E78506C2206",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqregen",
+    "origin_type": "native",
+    "symbol": "qREGEN",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqregen"
+    },
+    "image": "quicksilver/asset/qregen.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/42D24879D4569CE6477B7E88206ADBFE47C222C6CAD51A54083E4A72594269FC",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqosmo",
+    "origin_type": "native",
+    "symbol": "qOSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqosmo"
+    },
+    "image": "quicksilver/asset/qosmo.png",
+    "coinGeckoId": ""
   }
 ]
