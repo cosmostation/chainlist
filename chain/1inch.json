@@ -1,0 +1,1324 @@
+{
+  "1": {
+    "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
+      "symbol": "YFI",
+      "name": "yearn.finance",
+      "decimals": 18,
+      "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+      "logoURI": "https://tokens.1inch.io/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e.png",
+      "tags": ["tokens"]
+    },
+    "0x0f5d2fb29fb7d3cfee444a200298f468908cc942": {
+      "symbol": "MANA",
+      "name": "Mana",
+      "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+      "decimals": 18,
+      "logoURI": "https://tokens.1inch.io/0x0f5d2fb29fb7d3cfee444a200298f468908cc942.png",
+      "tags": ["tokens"]
+    },
+    "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "decimals": 6,
+      "logoURI": "https://tokens.1inch.io/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png",
+      "eip2612": true,
+      "domainVersion": "2",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x6b175474e89094c44da98b954eedeac495271d0f": {
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "logoURI": "https://tokens.1inch.io/0x6b175474e89094c44da98b954eedeac495271d0f.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "decimals": 8,
+      "logoURI": "https://tokens.1inch.io/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599.png",
+      "tags": ["tokens", "PEG:BTC"]
+    },
+    "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "decimals": 6,
+      "logoURI": "https://tokens.1inch.io/0xdac17f958d2ee523a2206206994597c13d831ec7.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0": {
+      "symbol": "FXS",
+      "name": "Frax Share",
+      "decimals": 18,
+      "address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+      "logoURI": "https://tokens.1inch.io/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0.png",
+      "tags": ["tokens"]
+    },
+    "0x853d955acef822db058eb8505911ed77f175b99e": {
+      "symbol": "FRAX",
+      "name": "Frax",
+      "decimals": 18,
+      "address": "0x853d955acef822db058eb8505911ed77f175b99e",
+      "logoURI": "https://tokens.1inch.io/0x853d955acef822db058eb8505911ed77f175b99e.png",
+      "tags": ["tokens"]
+    },
+    "0xfe2e637202056d30016725477c5da089ab0a043a": {
+      "symbol": "sETH2",
+      "name": "StakeWise Staked ETH2",
+      "decimals": 18,
+      "address": "0xfe2e637202056d30016725477c5da089ab0a043a",
+      "logoURI": "https://tokens.1inch.io/0xfe2e637202056d30016725477c5da089ab0a043a.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": {
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "decimals": 18,
+      "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+      "logoURI": "https://tokens.1inch.io/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x5a98fcbea516cf06857215779fd812ca3bef1b32": {
+      "symbol": "LDO",
+      "name": "Lido DAO Token",
+      "decimals": 18,
+      "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "logoURI": "https://tokens.1inch.io/0x5a98fcbea516cf06857215779fd812ca3bef1b32.png",
+      "tags": ["tokens"]
+    },
+    "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+      "symbol": "MKR",
+      "name": "Maker",
+      "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+      "decimals": 18,
+      "logoURI": "https://tokens.1inch.io/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2.png",
+      "tags": ["tokens"]
+    },
+    "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0": {
+      "symbol": "MATIC",
+      "name": "Matic Token",
+      "decimals": 18,
+      "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+      "logoURI": "https://tokens.1inch.io/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0.png",
+      "tags": ["tokens"]
+    },
+    "0x514910771af9ca656af840dff83e8264ecf986ca": {
+      "symbol": "LINK",
+      "name": "Chain Link",
+      "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+      "decimals": 18,
+      "logoURI": "https://tokens.1inch.io/0x514910771af9ca656af840dff83e8264ecf986ca.png",
+      "tags": ["tokens"]
+    },
+    "0xc669928185dbce49d2230cc9b0979be6dc797957": {
+      "symbol": "BTT",
+      "name": "BitTorrent",
+      "decimals": 18,
+      "address": "0xc669928185dbce49d2230cc9b0979be6dc797957",
+      "logoURI": "https://tokens.1inch.io/0xc669928185dbce49d2230cc9b0979be6dc797957.png",
+      "tags": ["tokens"]
+    },
+    "0x111111111117dc0aa78b770fa6a738034120c302": {
+      "symbol": "1INCH",
+      "name": "1INCH Token",
+      "decimals": 18,
+      "address": "0x111111111117dc0aa78b770fa6a738034120c302",
+      "logoURI": "https://tokens.1inch.io/0x111111111117dc0aa78b770fa6a738034120c302.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x5283d291dbcf85356a21ba090e6db59121208b44": {
+      "symbol": "BLUR",
+      "name": "Blur",
+      "decimals": 18,
+      "address": "0x5283d291dbcf85356a21ba090e6db59121208b44",
+      "tags": ["tokens"]
+    },
+    "0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5": {
+      "symbol": "BIT",
+      "name": "BitDAO",
+      "decimals": 18,
+      "address": "0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5",
+      "logoURI": "https://tokens.1inch.io/0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5.png",
+      "tags": ["tokens"]
+    },
+    "0x4d224452801aced8b2f0aebe155379bb5d594381": {
+      "symbol": "APE",
+      "name": "ApeCoin",
+      "decimals": 18,
+      "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+      "logoURI": "https://tokens.1inch.io/0x4d224452801aced8b2f0aebe155379bb5d594381.png",
+      "tags": ["tokens"]
+    },
+    "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce": {
+      "symbol": "SHIB",
+      "name": "SHIBA INU",
+      "decimals": 18,
+      "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+      "logoURI": "https://tokens.1inch.io/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce.png",
+      "tags": ["tokens"]
+    },
+    "0xd33526068d116ce69f19a9ee46f0bd304f21a51f": {
+      "symbol": "RPL",
+      "name": "Rocket Pool Protocol",
+      "decimals": 18,
+      "address": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+      "logoURI": "https://tokens.1inch.io/0xd33526068d116ce69f19a9ee46f0bd304f21a51f.png",
+      "tags": ["tokens"]
+    },
+    "0x6810e776880c02933d47db1b9fc05908e5386b96": {
+      "symbol": "GNO",
+      "name": "Gnosis",
+      "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+      "decimals": 18,
+      "logoURI": "https://tokens.1inch.io/0x6810e776880c02933d47db1b9fc05908e5386b96.png",
+      "tags": ["tokens"]
+    },
+    "0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6": {
+      "symbol": "USDD",
+      "name": "Decentralized USD",
+      "decimals": 18,
+      "address": "0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6",
+      "logoURI": "https://tokens.1inch.io/0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0xd533a949740bb3306d119cc777fa900ba034cd52": {
+      "symbol": "CRV",
+      "name": "Curve DAO Token",
+      "decimals": 18,
+      "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+      "logoURI": "https://tokens.1inch.io/0xd533a949740bb3306d119cc777fa900ba034cd52.png",
+      "tags": ["tokens"]
+    },
+    "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72": {
+      "symbol": "ENS",
+      "name": "Ethereum Name Service",
+      "decimals": 18,
+      "eip2612": true,
+      "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+      "logoURI": "https://tokens.1inch.io/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72.png",
+      "tags": ["tokens"]
+    }
+  },
+  "56": {
+    "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "symbol": "BNB",
+      "name": "BNB",
+      "decimals": 18,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "logoURI": "https://tokens.1inch.io/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c_1.png",
+      "tags": ["native"]
+    },
+    "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c": {
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18,
+      "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "logoURI": "https://tokens.1inch.io/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c_1.png",
+      "wrappedNative": "true",
+      "tags": ["tokens", "PEG:BNB"]
+    },
+    "0x55d398326f99059ff775485246999027b3197955": {
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18,
+      "address": "0x55d398326f99059ff775485246999027b3197955",
+      "logoURI": "https://tokens.1inch.io/0xdac17f958d2ee523a2206206994597c13d831ec7.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82": {
+      "symbol": "CAKE",
+      "name": "PancakeSwap Token",
+      "decimals": 18,
+      "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "logoURI": "https://tokens.1inch.io/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png",
+      "tags": ["tokens"]
+    },
+    "0xe9e7cea3dedca5984780bafc599bd69add087d56": {
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18,
+      "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "logoURI": "https://tokens.1inch.io/0x4fabb145d64652a948d72533023f6e7a623c7c53.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x2170ed0880ac9a755fd29b2688956bd959f933f8": {
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "logoURI": "https://tokens.1inch.io/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png",
+      "tags": ["tokens", "PEG:ETH"]
+    },
+    "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c": {
+      "symbol": "BTCB",
+      "name": "BTCB Token",
+      "decimals": 18,
+      "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+      "logoURI": "https://tokens.1inch.io/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png",
+      "tags": ["tokens"]
+    },
+    "0x7083609fce4d1d8dc0c979aab8c869ea2c873402": {
+      "symbol": "DOT",
+      "name": "DOT",
+      "decimals": 18,
+      "address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
+      "logoURI": "https://tokens.1inch.io/0x7083609fce4d1d8dc0c979aab8c869ea2c873402.png",
+      "tags": ["tokens"]
+    },
+    "0xbf5140a22578168fd562dccf235e5d43a02ce9b1": {
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "decimals": 18,
+      "address": "0xbf5140a22578168fd562dccf235e5d43a02ce9b1",
+      "logoURI": "https://tokens.1inch.io/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png",
+      "tags": ["tokens"]
+    },
+    "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd": {
+      "symbol": "LINK",
+      "name": "ChainLink Token",
+      "decimals": 18,
+      "address": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
+      "logoURI": "https://tokens.1inch.io/0x514910771af9ca656af840dff83e8264ecf986ca.png",
+      "tags": ["tokens"]
+    },
+    "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d": {
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 18,
+      "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "logoURI": "https://tokens.1inch.io/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3": {
+      "symbol": "DAI",
+      "name": "Dai Token",
+      "decimals": 18,
+      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "logoURI": "https://tokens.1inch.io/0x6b175474e89094c44da98b954eedeac495271d0f.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18": {
+      "symbol": "BAND",
+      "name": "Band Protocol Token",
+      "decimals": 18,
+      "address": "0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18",
+      "logoURI": "https://tokens.1inch.io/0xba11d00c5f74255f56a5e366f4f77f5a186d7f55.png",
+      "tags": ["tokens"]
+    },
+    "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47": {
+      "symbol": "ADA",
+      "name": "Cardano Token",
+      "decimals": 18,
+      "address": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+      "logoURI": "https://tokens.1inch.io/0x3ee2200efb3400fabb9aacf31297cbdd1d435d47.png",
+      "tags": ["tokens"]
+    },
+    "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63": {
+      "symbol": "XVS",
+      "name": "Venus",
+      "decimals": 18,
+      "address": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+      "logoURI": "https://tokens.1inch.io/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63.png",
+      "tags": ["tokens"]
+    },
+    "0x4b0f1812e5df2a09796481ff14017e6005508003": {
+      "symbol": "TWT",
+      "name": "Trust Wallet",
+      "decimals": 18,
+      "address": "0x4b0f1812e5df2a09796481ff14017e6005508003",
+      "logoURI": "https://tokens.1inch.io/0x4b0f1812e5df2a09796481ff14017e6005508003.png",
+      "tags": ["tokens"]
+    },
+    "0x88f1a5ae2a3bf98aeaf342d26b30a79438c9142e": {
+      "symbol": "YFI",
+      "name": "yearn.finance",
+      "decimals": 18,
+      "address": "0x88f1a5ae2a3bf98aeaf342d26b30a79438c9142e",
+      "logoURI": "https://tokens.1inch.io/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e.png",
+      "tags": ["tokens"]
+    },
+    "0x47bead2563dcbf3bf2c9407fea4dc236faba485a": {
+      "symbol": "SXP",
+      "name": "Swipe",
+      "decimals": 18,
+      "address": "0x47bead2563dcbf3bf2c9407fea4dc236faba485a",
+      "logoURI": "https://tokens.1inch.io/0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9.png",
+      "tags": ["tokens"]
+    },
+    "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe": {
+      "symbol": "XRP",
+      "name": "XRP Token",
+      "decimals": 18,
+      "address": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+      "logoURI": "https://tokens.1inch.io/0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe.png",
+      "tags": ["tokens"]
+    },
+    "0x52ce071bd9b1c4b00a0b92d298c512478cad67e8": {
+      "symbol": "COMP",
+      "name": "Compound Coin",
+      "decimals": 18,
+      "address": "0x52ce071bd9b1c4b00a0b92d298c512478cad67e8",
+      "logoURI": "https://tokens.1inch.io/0xc00e94cb662c3520282e6f5717214004a7f26888.png",
+      "tags": ["tokens"]
+    },
+    "0xf21768ccbc73ea5b6fd3c687208a7c2def2d966e": {
+      "symbol": "REEF",
+      "name": "Reef.finance",
+      "decimals": 18,
+      "address": "0xf21768ccbc73ea5b6fd3c687208a7c2def2d966e",
+      "logoURI": "https://tokens.1inch.io/0xfe3e6a25e6b192a42a44ecddcd13796471735acf.png",
+      "tags": ["tokens"]
+    },
+    "0xa1faa113cbe53436df28ff0aee54275c13b40975": {
+      "symbol": "ALPHA",
+      "name": "AlphaToken",
+      "decimals": 18,
+      "address": "0xa1faa113cbe53436df28ff0aee54275c13b40975",
+      "logoURI": "https://tokens.1inch.io/0xa1faa113cbe53436df28ff0aee54275c13b40975_1.png",
+      "tags": ["tokens"]
+    },
+    "0xa2b726b1145a4773f68593cf171187d8ebe4d495": {
+      "symbol": "INJ",
+      "name": "Injective Protocol",
+      "decimals": 18,
+      "address": "0xa2b726b1145a4773f68593cf171187d8ebe4d495",
+      "logoURI": "https://tokens.1inch.io/0xe28b3b32b6c345a34ff64674606124dd5aceca30.png",
+      "tags": ["tokens"]
+    },
+    "0x56b6fb708fc5732dec1afc8d8556423a2edccbd6": {
+      "symbol": "EOS",
+      "name": "EOS Token",
+      "decimals": 18,
+      "address": "0x56b6fb708fc5732dec1afc8d8556423a2edccbd6",
+      "logoURI": "https://tokens.1inch.io/0x56b6fb708fc5732dec1afc8d8556423a2edccbd6.png",
+      "tags": ["tokens"]
+    },
+    "0xc9849e6fdb743d08faee3e34dd2d1bc69ea11a51": {
+      "symbol": "BUNNY",
+      "name": "Bunny Token",
+      "decimals": 18,
+      "address": "0xc9849e6fdb743d08faee3e34dd2d1bc69ea11a51",
+      "logoURI": "https://tokens.1inch.io/0xc9849e6fdb743d08faee3e34dd2d1bc69ea11a51.png",
+      "tags": ["tokens"]
+    },
+    "0x4338665cbb7b2485a8855a139b75d5e34ab0db94": {
+      "symbol": "LTC",
+      "name": "Litecoin Token",
+      "decimals": 18,
+      "address": "0x4338665cbb7b2485a8855a139b75d5e34ab0db94",
+      "logoURI": "https://tokens.1inch.io/0x4338665cbb7b2485a8855a139b75d5e34ab0db94.png",
+      "tags": ["tokens"]
+    },
+    "0x8ff795a6f4d97e7887c79bea79aba5cc76444adf": {
+      "symbol": "BCH",
+      "name": "Bitcoin Cash Token",
+      "decimals": 18,
+      "address": "0x8ff795a6f4d97e7887c79bea79aba5cc76444adf",
+      "logoURI": "https://tokens.1inch.io/0x8ff795a6f4d97e7887c79bea79aba5cc76444adf.png",
+      "tags": ["tokens"]
+    },
+    "0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153": {
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "decimals": 18,
+      "address": "0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
+      "logoURI": "https://tokens.1inch.io/0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153.png",
+      "tags": ["tokens"]
+    },
+    "0x0eb3a705fc54725037cc9e008bdede697f62f335": {
+      "symbol": "ATOM",
+      "name": "Cosmos Token",
+      "decimals": 18,
+      "address": "0x0eb3a705fc54725037cc9e008bdede697f62f335",
+      "logoURI": "https://tokens.1inch.io/0x0eb3a705fc54725037cc9e008bdede697f62f335.png",
+      "tags": ["tokens"]
+    },
+    "0x111111111117dc0aa78b770fa6a738034120c302": {
+      "symbol": "1INCH",
+      "name": "1INCH Token",
+      "decimals": 18,
+      "address": "0x111111111117dc0aa78b770fa6a738034120c302",
+      "logoURI": "https://tokens.1inch.io/0x111111111117dc0aa78b770fa6a738034120c302.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x250632378e573c6be1ac2f97fcdf00515d0aa91b": {
+      "symbol": "BETH",
+      "name": "Binance Beacon ETH",
+      "decimals": 18,
+      "address": "0x250632378e573c6be1ac2f97fcdf00515d0aa91b",
+      "logoURI": "https://tokens.1inch.io/0x250632378e573c6be1ac2f97fcdf00515d0aa91b.png",
+      "tags": ["tokens", "PEG:ETH"]
+    },
+    "0x1fa4a73a3f0133f0025378af00236f3abdee5d63": {
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "decimals": 18,
+      "address": "0x1fa4a73a3f0133f0025378af00236f3abdee5d63",
+      "logoURI": "https://tokens.1inch.io/0x1fa4a73a3f0133f0025378af00236f3abdee5d63.png",
+      "tags": ["tokens"]
+    },
+    "0x3d6545b08693dae087e957cb1180ee38b9e3c25e": {
+      "symbol": "ETC",
+      "name": "Ethereum Classic",
+      "decimals": 18,
+      "address": "0x3d6545b08693dae087e957cb1180ee38b9e3c25e",
+      "logoURI": "https://tokens.1inch.io/0x3d6545b08693dae087e957cb1180ee38b9e3c25e.png",
+      "tags": ["tokens"]
+    },
+    "0xf307910a4c7bbc79691fd374889b36d8531b08e3": {
+      "symbol": "ANKR",
+      "name": "Ankr",
+      "decimals": 18,
+      "address": "0xf307910a4c7bbc79691fd374889b36d8531b08e3",
+      "logoURI": "https://tokens.1inch.io/0x8290333cef9e6d528dd5618fb97a76f268f3edd4.png",
+      "tags": ["tokens"]
+    },
+    "0xba2ae424d960c26247dd6c32edc70b295c744c43": {
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "decimals": 8,
+      "address": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
+      "logoURI": "https://tokens.1inch.io/0xba2ae424d960c26247dd6c32edc70b295c744c43.png",
+      "tags": ["tokens"]
+    },
+    "0x14016e85a25aeb13065688cafb43044c2ef86784": {
+      "symbol": "TUSD",
+      "name": "TrueUSD",
+      "decimals": 18,
+      "address": "0x14016e85a25aeb13065688cafb43044c2ef86784",
+      "logoURI": "https://tokens.1inch.io/0x0000000000085d4780b73119b644ae5ecd22b376.png",
+      "tags": ["tokens", "PEG:USD"]
+    }
+  },
+  "137": {
+    "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "symbol": "MATIC",
+      "name": "MATIC",
+      "decimals": 18,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "logoURI": "https://tokens.1inch.io/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0.png",
+      "tags": ["native"]
+    },
+    "0xd6df932a45c0f255f85145f286ea0b292b21c90b": {
+      "symbol": "AAVE",
+      "name": "Aave",
+      "decimals": 18,
+      "address": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+      "logoURI": "https://tokens.1inch.io/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.png",
+      "tags": ["tokens"]
+    },
+    "0xb33eaad8d922b1083446dc23f610c2567fb5180f": {
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "decimals": 18,
+      "address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+      "logoURI": "https://tokens.1inch.io/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png",
+      "tags": ["tokens"]
+    },
+    "0xc2132d05d31c914a87c6611c10748aeb04b58e8f": {
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "logoURI": "https://tokens.1inch.io/0xdac17f958d2ee523a2206206994597c13d831ec7.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063": {
+      "symbol": "DAI",
+      "name": "(PoS) Dai Stablecoin",
+      "decimals": 18,
+      "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+      "logoURI": "https://tokens.1inch.io/0x6b175474e89094c44da98b954eedeac495271d0f.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6": {
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+      "logoURI": "https://tokens.1inch.io/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599.png",
+      "tags": ["tokens", "PEG:BTC"]
+    },
+    "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39": {
+      "symbol": "LINK",
+      "name": "ChainLink Token",
+      "decimals": 18,
+      "address": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+      "logoURI": "https://tokens.1inch.io/0x514910771af9ca656af840dff83e8264ecf986ca.png",
+      "tags": ["tokens"]
+    },
+    "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4": {
+      "symbol": "MANA",
+      "name": "Decentraland MANA",
+      "decimals": 18,
+      "address": "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4",
+      "logoURI": "https://tokens.1inch.io/0x0f5d2fb29fb7d3cfee444a200298f468908cc942.png",
+      "tags": ["tokens"]
+    },
+    "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270": {
+      "symbol": "WMATIC",
+      "name": "Wrapped Matic",
+      "decimals": 18,
+      "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "logoURI": "https://tokens.1inch.io/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0.png",
+      "wrappedNative": "true",
+      "tags": ["tokens"]
+    },
+    "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619": {
+      "symbol": "ETH",
+      "name": "Ether",
+      "decimals": 18,
+      "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "logoURI": "https://tokens.1inch.io/0x7ceb23fd6bc0add59e62ac25578270cff1b9f619.png",
+      "tags": ["tokens"]
+    },
+    "0xa3fa99a148fa48d14ed51d610c367c61876997f1": {
+      "symbol": "miMATIC",
+      "name": "miMATIC",
+      "decimals": 18,
+      "address": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
+      "logoURI": "https://tokens.1inch.io/0xa3fa99a148fa48d14ed51d610c367c61876997f1.png",
+      "tags": ["tokens"]
+    },
+    "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89": {
+      "symbol": "FRAX",
+      "name": "Frax",
+      "decimals": 18,
+      "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
+      "logoURI": "https://tokens.1inch.io/0x45c32fa6df82ead1e2ef74d17b76547eddfaff89.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0xdab35042e63e93cc8556c9bae482e5415b5ac4b1": {
+      "symbol": "IRIS",
+      "name": "Iris",
+      "decimals": 18,
+      "address": "0xdab35042e63e93cc8556c9bae482e5415b5ac4b1",
+      "logoURI": "https://tokens.1inch.io/0xdab35042e63e93cc8556c9bae482e5415b5ac4b1.png",
+      "tags": ["tokens"]
+    },
+    "0x2791bca1f2de4661ed88a30c99a7a9449aa84174": {
+      "symbol": "USDC",
+      "name": "USD Coin (PoS)",
+      "decimals": 6,
+      "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "logoURI": "https://tokens.1inch.io/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x8a0e8b4b0903929f47c3ea30973940d4a9702067": {
+      "symbol": "INSUR",
+      "name": "InsurAce (PoS)",
+      "decimals": 18,
+      "address": "0x8a0e8b4b0903929f47c3ea30973940d4a9702067",
+      "logoURI": "https://tokens.1inch.io/0x8a0e8b4b0903929f47c3ea30973940d4a9702067.png",
+      "tags": ["tokens"]
+    },
+    "0x2e1ad108ff1d8c782fcbbb89aad783ac49586756": {
+      "symbol": "TUSD",
+      "name": "TrueUSD (PoS)",
+      "decimals": 18,
+      "address": "0x2e1ad108ff1d8c782fcbbb89aad783ac49586756",
+      "logoURI": "https://tokens.1inch.io/0x2e1ad108ff1d8c782fcbbb89aad783ac49586756.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6": {
+      "symbol": "MaticX",
+      "name": "Liquid Staking Matic (PoS)",
+      "decimals": 18,
+      "address": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
+      "logoURI": "https://tokens.1inch.io/0xfa68fb4628dff1028cfec22b4162fccd0d45efb6.png",
+      "tags": ["tokens"]
+    },
+    "0xcc2a9051e904916047c26c90f41c000d4f273456": {
+      "symbol": "oXRP",
+      "name": "Orbit Bridge Polygon XRP Token",
+      "decimals": 6,
+      "address": "0xcc2a9051e904916047c26c90f41c000d4f273456",
+      "logoURI": "https://tokens.1inch.io/0xcc2a9051e904916047c26c90f41c000d4f273456.png",
+      "tags": ["tokens"]
+    },
+    "0x5bef2617ecca9a39924c09017c5f1e25efbb3ba8": {
+      "symbol": "oUSDC",
+      "name": "Orbit Bridge Polygon USD Coin",
+      "decimals": 6,
+      "address": "0x5bef2617ecca9a39924c09017c5f1e25efbb3ba8",
+      "logoURI": "https://tokens.1inch.io/0x5bef2617ecca9a39924c09017c5f1e25efbb3ba8.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x957da9ebbcdc97dc4a8c274dd762ec2ab665e15f": {
+      "symbol": "oUSDT",
+      "name": "Orbit Bridge Polygon Tether USD",
+      "decimals": 6,
+      "address": "0x957da9ebbcdc97dc4a8c274dd762ec2ab665e15f",
+      "logoURI": "https://tokens.1inch.io/0x957da9ebbcdc97dc4a8c274dd762ec2ab665e15f.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x8ece0a50a025a7e13398212a5bed2ded11959949": {
+      "symbol": "oDAI",
+      "name": "Orbit Bridge Polygon Dai",
+      "decimals": 18,
+      "address": "0x8ece0a50a025a7e13398212a5bed2ded11959949",
+      "logoURI": "https://tokens.1inch.io/0x8ece0a50a025a7e13398212a5bed2ded11959949.png",
+      "tags": ["tokens"]
+    },
+    "0x0a02d33031917d836bd7af02f9f7f6c74d67805f": {
+      "symbol": "oKLAY",
+      "name": "Orbit Bridge Polygon Klay",
+      "decimals": 18,
+      "address": "0x0a02d33031917d836bd7af02f9f7f6c74d67805f",
+      "logoURI": "https://tokens.1inch.io/0x0a02d33031917d836bd7af02f9f7f6c74d67805f.png",
+      "tags": ["tokens"]
+    },
+    "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4": {
+      "symbol": "stMATIC",
+      "name": "Staked MATIC (PoS)",
+      "decimals": 18,
+      "address": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
+      "logoURI": "https://tokens.1inch.io/0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4.png",
+      "tags": ["tokens", "PEG:MATIC"]
+    },
+    "0xc3c7d422809852031b44ab29eec9f1eff2a58756": {
+      "symbol": "LDO",
+      "name": "Lido DAO Token (PoS)",
+      "decimals": 18,
+      "address": "0xc3c7d422809852031b44ab29eec9f1eff2a58756",
+      "logoURI": "https://tokens.1inch.io/0xc3c7d422809852031b44ab29eec9f1eff2a58756.png",
+      "tags": ["tokens"]
+    },
+    "0xdab529f40e671a1d4bf91361c21bf9f0c9712ab7": {
+      "symbol": "BUSD",
+      "name": "(PoS) Binance USD",
+      "decimals": 18,
+      "address": "0xdab529f40e671a1d4bf91361c21bf9f0c9712ab7",
+      "logoURI": "https://tokens.1inch.io/0xdab529f40e671a1d4bf91361c21bf9f0c9712ab7.png",
+      "tags": ["tokens"]
+    },
+    "0x9c9e5fd8bbc25984b178fdce6117defa39d2db39": {
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18,
+      "address": "0x9c9e5fd8bbc25984b178fdce6117defa39d2db39",
+      "logoURI": "https://tokens.1inch.io/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    }
+  },
+  "10": {
+    "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "decimals": 18,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
+      "tags": ["native"]
+    },
+    "0x4200000000000000000000000000000000000006": {
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "address": "0x4200000000000000000000000000000000000006",
+      "decimals": 18,
+      "logoURI": "https://tokens.1inch.io/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png",
+      "wrappedNative": "true",
+      "tags": ["tokens", "PEG:ETH"]
+    },
+    "0x8700daec35af8ff88c16bdf0418774cb3d7599b4": {
+      "symbol": "SNX",
+      "name": "Synthetix",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/logos/SNX.svg",
+      "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+      "tags": ["tokens"]
+    },
+    "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1": {
+      "symbol": "DAI",
+      "name": "Dai stable coin",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg?v=010",
+      "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58": {
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "logoURI": "https://tokens.1inch.io/0x94b008aa00579c1307b0ef2c499ad98a8ce58e58.png",
+      "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x68f180fcce6836688e9084f035309e29bf0a2095": {
+      "symbol": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "decimals": 8,
+      "logoURI": "https://ethereum-optimism.github.io/logos/WBTC.svg",
+      "address": "0x68f180fcce6836688e9084f035309e29bf0a2095",
+      "tags": ["tokens", "PEG:BTC"]
+    },
+    "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6": {
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "decimals": 18,
+      "logoURI": "https://tokens.1inch.io/0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6.png",
+      "address": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
+      "tags": ["tokens"]
+    },
+    "0x7f5c764cbc14f9669b88837ca1490cca17c31607": {
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "logoURI": "https://tokens.1inch.io/0x7f5c764cbc14f9669b88837ca1490cca17c31607.png",
+      "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9": {
+      "symbol": "sUSD",
+      "name": "Synth sUSD",
+      "decimals": 18,
+      "logoURI": "https://tokens.1inch.io/0x57ab1ec28d129707052df4df418d58a2d46d5f51.png",
+      "address": "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49": {
+      "symbol": "sETH",
+      "name": "Synth sETH",
+      "decimals": 18,
+      "address": "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49",
+      "logoURI": "https://tokens.1inch.io/0xe405de8f52ba7559f9df3c368500b6e6ae6cee49.png",
+      "tags": ["tokens", "PEG:ETH"]
+    },
+    "0x9c9e5fd8bbc25984b178fdce6117defa39d2db39": {
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18,
+      "address": "0x9c9e5fd8bbc25984b178fdce6117defa39d2db39",
+      "logoURI": "https://tokens.1inch.io/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    }
+  },
+  "42161": {
+    "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "decimals": 18,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "logoURI": "https://tokens.1inch.io/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
+      "tags": ["native"]
+    },
+    "0x3a8b787f78d775aecfeea15706d4221b40f345ab": {
+      "symbol": "CELR",
+      "name": "CelerToken",
+      "decimals": 18,
+      "logoURI": "https://zapper.fi/images/CELR-icon.png",
+      "address": "0x3a8b787f78d775aecfeea15706d4221b40f345ab",
+      "tags": ["tokens"]
+    },
+    "0x354a6da3fcde098f8389cad84b0182725c6c91de": {
+      "symbol": "COMP",
+      "name": "Compound",
+      "decimals": 18,
+      "address": "0x354a6da3fcde098f8389cad84b0182725c6c91de",
+      "logoURI": "https://tokens.1inch.io/0xc00e94cb662c3520282e6f5717214004a7f26888.png",
+      "tags": ["tokens"]
+    },
+    "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978": {
+      "symbol": "CRV",
+      "name": "Curve DAO Token",
+      "decimals": 18,
+      "address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+      "logoURI": "https://tokens.1inch.io/0xd533a949740bb3306d119cc777fa900ba034cd52.png",
+      "tags": ["tokens"]
+    },
+    "0x3cd1833ce959e087d0ef0cb45ed06bffe60f23ba": {
+      "symbol": "LAND",
+      "name": "Land",
+      "decimals": 18,
+      "address": "0x3cd1833ce959e087d0ef0cb45ed06bffe60f23ba",
+      "logoURI": "https://tokens.1inch.io/0x9d986a3f147212327dd658f712d5264a73a1fdb0.png",
+      "tags": ["tokens"]
+    },
+    "0xf97f4df75117a78c1a5a0dbb814af92458539fb4": {
+      "symbol": "LINK",
+      "name": "ChainLink Token",
+      "decimals": 18,
+      "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+      "logoURI": "https://tokens.1inch.io/0x514910771af9ca656af840dff83e8264ecf986ca.png",
+      "tags": ["tokens"]
+    },
+    "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879": {
+      "symbol": "MKR",
+      "name": "Maker",
+      "decimals": 18,
+      "address": "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879",
+      "logoURI": "https://tokens.1inch.io/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2.png",
+      "tags": ["tokens"]
+    },
+    "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0": {
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "decimals": 18,
+      "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+      "logoURI": "https://tokens.1inch.io/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png",
+      "tags": ["tokens"]
+    },
+    "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9": {
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "logoURI": "https://tokens.1inch.io/0xdac17f958d2ee523a2206206994597c13d831ec7.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8": {
+      "symbol": "USDC",
+      "name": "USD Coin (Arb1)",
+      "decimals": 6,
+      "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+      "logoURI": "https://tokens.1inch.io/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f": {
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+      "logoURI": "https://tokens.1inch.io/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599.png",
+      "tags": ["tokens", "PEG:BTC"]
+    },
+    "0x82af49447d8a07e3bd95bd0d56f35241523fbab1": {
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "logoURI": "https://tokens.1inch.io/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png",
+      "wrappedNative": "true",
+      "tags": ["tokens", "PEG:ETH"]
+    },
+    "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1": {
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "logoURI": "https://tokens.1inch.io/0x6b175474e89094c44da98b954eedeac495271d0f.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x17fc002b466eec40dae837fc4be5c67993ddbd6f": {
+      "symbol": "FRAX",
+      "name": "Frax",
+      "decimals": 18,
+      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "logoURI": "https://tokens.1inch.io/0x17fc002b466eec40dae837fc4be5c67993ddbd6f.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x5979d7b546e38e414f7e9822514be443a4800529": {
+      "symbol": "wstETH",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "decimals": 18,
+      "address": "0x5979d7b546e38e414f7e9822514be443a4800529",
+      "logoURI": "https://tokens.1inch.io/0x5979d7b546e38e414f7e9822514be443a4800529.png",
+      "tags": ["tokens"]
+    },
+    "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60": {
+      "symbol": "LDO",
+      "name": "Lido DAO Token",
+      "decimals": 18,
+      "address": "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60",
+      "logoURI": "https://tokens.1inch.io/0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    }
+  },
+  "43114": {
+    "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "decimals": 18,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "logoURI": "https://tokens.1inch.io/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7.png",
+      "tags": ["native"]
+    },
+    "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab": {
+      "symbol": "WETH.e",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+      "logoURI": "https://tokens.1inch.io/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png",
+      "tags": ["tokens", "PEG:ETH"]
+    },
+    "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7": {
+      "symbol": "WAVAX",
+      "name": "Wrapped AVAX",
+      "decimals": 18,
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "logoURI": "https://tokens.1inch.io/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7.png",
+      "wrappedNative": "true",
+      "tags": ["tokens", "PEG:AVAX"]
+    },
+    "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664": {
+      "symbol": "USDC.e",
+      "name": "USD Coin",
+      "decimals": 6,
+      "address": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+      "logoURI": "https://tokens.1inch.io/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0xc7198437980c041c805a1edcba50c1ce5db95118": {
+      "symbol": "USDT.e",
+      "name": "Tether USD",
+      "decimals": 6,
+      "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+      "logoURI": "https://tokens.1inch.io/0xc7198437980c041c805a1edcba50c1ce5db95118.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x50b7545627a5162f82a992c33b87adc75187b218": {
+      "symbol": "WBTC.e",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
+      "logoURI": "https://tokens.1inch.io/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599.png",
+      "tags": ["tokens", "PEG:BTC"]
+    },
+    "0xd586e7f844cea2f87f50152665bcbc2c279d8d70": {
+      "symbol": "DAI.e",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "address": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
+      "logoURI": "https://tokens.1inch.io/0x6b175474e89094c44da98b954eedeac495271d0f.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x53f7c5869a859f0aec3d334ee8b4cf01e3492f21": {
+      "symbol": "avWETH",
+      "name": "Aave Avalanche Market WETH",
+      "decimals": 18,
+      "address": "0x53f7c5869a859f0aec3d334ee8b4cf01e3492f21",
+      "logoURI": "https://tokens.1inch.io/0x030ba81f1c18d280636f32af80b9aad02cf0854e.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:ETH"]
+    },
+    "0x47afa96cdc9fab46904a55a6ad4bf6660b53c38a": {
+      "symbol": "avDAI",
+      "name": "Aave Avalanche Market DAI",
+      "decimals": 18,
+      "address": "0x47afa96cdc9fab46904a55a6ad4bf6660b53c38a",
+      "logoURI": "https://tokens.1inch.io/0x028171bca77440897b824ca71d1c56cac55b68a3.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x532e6537fea298397212f09a61e03311686f548e": {
+      "symbol": "avUSDT",
+      "name": "Aave Avalanche Market USDT",
+      "decimals": 6,
+      "address": "0x532e6537fea298397212f09a61e03311686f548e",
+      "logoURI": "https://tokens.1inch.io/0x3ed3b47dd13ec9a98b44e6204a523e766b225811.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x46a51127c3ce23fb7ab1de06226147f446e4a857": {
+      "symbol": "avUSDC",
+      "name": "Aave Avalanche Market USDC",
+      "decimals": 6,
+      "address": "0x46a51127c3ce23fb7ab1de06226147f446e4a857",
+      "logoURI": "https://tokens.1inch.io/0xbcca60bb61934080951369a648fb03df4f96263c.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x63a72806098bd3d9520cc43356dd78afe5d386d9": {
+      "symbol": "AAVE.e",
+      "name": "Aave Token",
+      "decimals": 18,
+      "address": "0x63a72806098bd3d9520cc43356dd78afe5d386d9",
+      "logoURI": "https://tokens.1inch.io/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.png",
+      "tags": ["tokens"]
+    },
+    "0xd45b7c061016102f9fa220502908f2c0f1add1d7": {
+      "symbol": "avAAVE",
+      "name": "Aave Avalanche Market AAVE",
+      "decimals": 18,
+      "address": "0xd45b7c061016102f9fa220502908f2c0f1add1d7",
+      "logoURI": "https://tokens.1inch.io/0xffc97d72e13e01096502cb8eb52dee56f74dad7b.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x686bef2417b6dc32c50a3cbfbcc3bb60e1e9a15d": {
+      "symbol": "avWBTC",
+      "name": "Aave Avalanche Market WBTC",
+      "decimals": 8,
+      "address": "0x686bef2417b6dc32c50a3cbfbcc3bb60e1e9a15d",
+      "logoURI": "https://tokens.1inch.io/0x9ff58f4ffb29fa2266ab25e75e2a8b3503311656.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:BTC"]
+    },
+    "0xdfe521292ece2a4f44242efbcd66bc594ca9714b": {
+      "symbol": "avWAVAX",
+      "name": "Aave Avalanche Market WAVAX",
+      "decimals": 18,
+      "address": "0xdfe521292ece2a4f44242efbcd66bc594ca9714b",
+      "logoURI": "https://tokens.1inch.io/0xdfe521292ece2a4f44242efbcd66bc594ca9714b.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x264c1383ea520f73dd837f915ef3a732e204a493": {
+      "symbol": "BNB",
+      "name": "Binance",
+      "decimals": 18,
+      "address": "0x264c1383ea520f73dd837f915ef3a732e204a493",
+      "logoURI": "https://tokens.1inch.io/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:BNB"]
+    },
+    "0x544c42fbb96b39b21df61cf322b5edc285ee7429": {
+      "symbol": "INSUR",
+      "name": "InsurAce",
+      "decimals": 18,
+      "address": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
+      "logoURI": "https://tokens.1inch.io/0x544c42fbb96b39b21df61cf322b5edc285ee7429.png",
+      "tags": ["tokens"]
+    },
+    "0x214db107654ff987ad859f34125307783fc8e387": {
+      "symbol": "FXS",
+      "name": "Frax Share",
+      "decimals": 18,
+      "address": "0x214db107654ff987ad859f34125307783fc8e387",
+      "logoURI": "https://tokens.1inch.io/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x19860ccb0a68fd4213ab9d8266f7bbf05a8dde98": {
+      "symbol": "BUSD.e",
+      "name": "Binance USD",
+      "decimals": 18,
+      "address": "0x19860ccb0a68fd4213ab9d8266f7bbf05a8dde98",
+      "logoURI": "https://tokens.1inch.io/0x4fabb145d64652a948d72533023f6e7a623c7c53.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x5947bb275c521040051d82396192181b413227a3": {
+      "symbol": "LINK.e",
+      "name": "Chainlink Token",
+      "decimals": 18,
+      "address": "0x5947bb275c521040051d82396192181b413227a3",
+      "logoURI": "https://tokens.1inch.io/0x697256caa3ccafd62bb6d3aa1c7c5671786a5fd9.png",
+      "tags": ["tokens"]
+    },
+    "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64": {
+      "symbol": "FRAX",
+      "name": "Frax",
+      "decimals": 18,
+      "address": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
+      "logoURI": "https://tokens.1inch.io/0x853d955acef822db058eb8505911ed77f175b99e.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e": {
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+      "logoURI": "https://tokens.1inch.io/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x1c20e891bab6b1727d14da358fae2984ed9b59eb": {
+      "symbol": "TUSD",
+      "name": "TrueUSD",
+      "decimals": 18,
+      "address": "0x1c20e891bab6b1727d14da358fae2984ed9b59eb",
+      "logoURI": "https://tokens.1inch.io/0x1c20e891bab6b1727d14da358fae2984ed9b59eb.png",
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7": {
+      "symbol": "USDt",
+      "name": "TetherToken",
+      "decimals": 6,
+      "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+      "logoURI": "https://tokens.1inch.io/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x152b9d0fdc40c096757f570a51e494bd4b943e50": {
+      "symbol": "BTC.b",
+      "name": "Bitcoin",
+      "decimals": 8,
+      "address": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
+      "logoURI": "https://tokens.1inch.io/0x152b9d0fdc40c096757f570a51e494bd4b943e50.png",
+      "tags": ["tokens", "PEG:BTC"]
+    },
+    "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590": {
+      "symbol": "STG",
+      "name": "StargateToken",
+      "decimals": 18,
+      "address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "logoURI": "https://tokens.1inch.io/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590.png",
+      "tags": ["tokens"]
+    }
+  },
+  "250": {
+    "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "symbol": "FTM",
+      "name": "Fantom Token",
+      "decimals": 18,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "logoURI": "https://tokens.1inch.io/0x4e15361fd6b4bb609fa63c81a2be19d873717870.png",
+      "tags": ["native"]
+    },
+    "0x6a07a792ab2965c72a5b8088d3a069a7ac3a993b": {
+      "symbol": "AAVE",
+      "name": "Aave",
+      "decimals": 18,
+      "address": "0x6a07a792ab2965c72a5b8088d3a069a7ac3a993b",
+      "logoURI": "https://tokens.1inch.io/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x1e4f97b9f9f913c46f1632781732927b9019c68b": {
+      "symbol": "CRV",
+      "name": "Curve DAO",
+      "decimals": 18,
+      "address": "0x1e4f97b9f9f913c46f1632781732927b9019c68b",
+      "logoURI": "https://tokens.1inch.io/0xd533a949740bb3306d119cc777fa900ba034cd52.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e": {
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+      "logoURI": "https://tokens.1inch.io/0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x049d68029688eabf473097a2fc38ef61633a3c7a": {
+      "symbol": "fUSDT",
+      "name": "Frapped USDT",
+      "decimals": 6,
+      "address": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+      "logoURI": "https://tokens.1inch.io/0x049d68029688eabf473097a2fc38ef61633a3c7a.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8": {
+      "symbol": "LINK",
+      "name": "ChainLink",
+      "decimals": 18,
+      "address": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8",
+      "logoURI": "https://tokens.1inch.io/0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x04068da6c83afcfa0e13ba15a6696662335d5b75": {
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+      "logoURI": "https://tokens.1inch.io/0xddafbb505ad214d7b80b1f830fccc89b60fb7a83.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x321162cd933e2be498cd2267a90534a804051b11": {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "decimals": 8,
+      "address": "0x321162cd933e2be498cd2267a90534a804051b11",
+      "logoURI": "https://tokens.1inch.io/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:BTC"]
+    },
+    "0x74b23882a30290451a17c44f4f05243b6b58c76d": {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "decimals": 18,
+      "address": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+      "logoURI": "https://tokens.1inch.io/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:ETH"]
+    },
+    "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83": {
+      "symbol": "WFTM",
+      "name": "Wrapped Fantom",
+      "decimals": 18,
+      "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+      "logoURI": "https://tokens.1inch.io/0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83.png",
+      "wrappedNative": "true",
+      "tags": ["tokens", "PEG:FTM"]
+    },
+    "0x29b0da86e484e1c0029b56e817912d778ac0ec69": {
+      "symbol": "YFI",
+      "name": "yearn.finance",
+      "decimals": 18,
+      "address": "0x29b0da86e484e1c0029b56e817912d778ac0ec69",
+      "logoURI": "https://tokens.1inch.io/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454": {
+      "symbol": "BNB",
+      "name": "BNB",
+      "decimals": 18,
+      "address": "0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454",
+      "logoURI": "https://tokens.1inch.io/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c_1.png",
+      "tags": ["tokens", "PEG:BNB"]
+    },
+    "0xddcb3ffd12750b45d32e084887fdf1aabab34239": {
+      "symbol": "ANY",
+      "name": "Anyswap",
+      "decimals": 18,
+      "address": "0xddcb3ffd12750b45d32e084887fdf1aabab34239",
+      "logoURI": "https://tokens.1inch.io/0xf99d58e463a2e07e5692127302c20a191861b4d6.png",
+      "tags": ["tokens"]
+    },
+    "0xfa1fbb8ef55a4855e5688c0ee13ac3f202486286": {
+      "symbol": "FHM",
+      "name": "Fantohm",
+      "decimals": 9,
+      "address": "0xfa1fbb8ef55a4855e5688c0ee13ac3f202486286",
+      "logoURI": "https://tokens.1inch.io/0xfa1fbb8ef55a4855e5688c0ee13ac3f202486286.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x9879abdea01a879644185341f7af7d8343556b7a": {
+      "symbol": "TUSD",
+      "name": "TrueUSD",
+      "decimals": 18,
+      "address": "0x9879abdea01a879644185341f7af7d8343556b7a",
+      "logoURI": "https://tokens.1inch.io/0x1c20e891bab6b1727d14da358fae2984ed9b59eb.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:USD"]
+    },
+    "0x511d35c52a3c244e7b8bd92c0c297755fbd89212": {
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "decimals": 18,
+      "address": "0x511d35c52a3c244e7b8bd92c0c297755fbd89212",
+      "logoURI": "https://tokens.1inch.io/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x9fb9a33956351cf4fa040f65a13b835a3c8764e3": {
+      "symbol": "MULTI",
+      "name": "Multichain",
+      "decimals": 18,
+      "address": "0x9fb9a33956351cf4fa040f65a13b835a3c8764e3",
+      "logoURI": "https://tokens.1inch.io/0x9fb9a33956351cf4fa040f65a13b835a3c8764e3.png",
+      "eip2612": true,
+      "tags": ["tokens"]
+    },
+    "0x40df1ae6074c35047bff66675488aa2f9f6384f3": {
+      "symbol": "MATIC",
+      "name": "MATIC",
+      "decimals": 18,
+      "address": "0x40df1ae6074c35047bff66675488aa2f9f6384f3",
+      "logoURI": "https://tokens.1inch.io/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0.png",
+      "eip2612": true,
+      "tags": ["tokens", "PEG:MATIC"]
+    }
+  }
+}

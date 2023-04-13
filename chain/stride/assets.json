@@ -72,6 +72,30 @@
     "coinGeckoId": ""
   },
   {
+    "denom": "staevmos",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "staevmos",
+    "origin_type": "native",
+    "symbol": "stEVMOS",
+    "decimals": 18,
+    "description": "Stride Staked Evmos",
+    "image": "stride/asset/stevmos.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "stinj",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stinj",
+    "origin_type": "native",
+    "symbol": "stINJ",
+    "decimals": 18,
+    "description": "Stride Staked Injective",
+    "image": "stride/asset/stinj.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
     "type": "ibc",
     "origin_chain": "cosmos",
@@ -210,5 +234,45 @@
     },
     "image": "acrechain/asset/cnto.png",
     "contract": "0xAE6D3334989a22A65228732446731438672418F2"
+  },
+  {
+    "denom": "ibc/4B322204B4F59D770680FE4D7A565DDC3F37BFF035474B717476C66A4F83DD72",
+    "type": "ibc",
+    "origin_chain": "evmos",
+    "origin_denom": "aevmos",
+    "origin_type": "staking",
+    "symbol": "EVMOS",
+    "decimals": 18,
+    "enable": true,
+    "path": "evmos>stride",
+    "channel": "channel-9",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-25",
+      "port": "transfer",
+      "denom": "aevmos"
+    },
+    "image": "evmos/asset/evmos.png",
+    "coinGeckoId": "evmos"
+  },
+  {
+    "denom": "ibc/E61BCB1126F42A2ED73B4CEA2221C9635BC2102F0417543C38071779F991942E",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNA",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>stride",
+    "channel": "channel-52",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-46",
+      "port": "transfer",
+      "denom": "uluna"
+    },
+    "image": "terra/asset/luna.png",
+    "coinGeckoId": "terra"
   }
 ]

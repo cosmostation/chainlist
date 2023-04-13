@@ -132,26 +132,6 @@
     "coinGeckoId": "osmosis"
   },
   {
-    "denom": "ibc/C5C8682EB9AA1313EF1B12C991ADCDA465B80C05733BFB2972E2005E01BCE459",
-    "type": "ibc",
-    "origin_chain": "ixo",
-    "origin_denom": "uixo",
-    "origin_type": "staking",
-    "symbol": "IXO",
-    "decimals": 6,
-    "enable": true,
-    "path": "ixo>sifchain",
-    "channel": "channel-15",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-11",
-      "port": "transfer",
-      "denom": "uixo"
-    },
-    "image": "ixo/asset/ixo.png",
-    "coinGeckoId": "ixo"
-  },
-  {
     "denom": "ibc/ACA7D0100794F39DF3FF0C5E31638B24737321C24F32C2C486A24C78DD8F2029",
     "type": "ibc",
     "origin_chain": "emoney",
@@ -1366,5 +1346,25 @@
     "image": "ethereum/asset/zrx.png",
     "coinGeckoId": "0x",
     "contract": "0xe41d2489571d322189246dafa5ebde1f4699f498"
+  },
+  {
+    "denom": "ibc/4F7199F3ECB5FA109E71EB9ED2FA3DE6A98F3C87E7E60285BFEDDAA2DF1EB0B4",
+    "type": "ibc",
+    "origin_chain": "medasdigital",
+    "origin_denom": "umedas",
+    "origin_type": "staking",
+    "symbol": "MEDAS",
+    "decimals": 6,
+    "enable": true,
+    "path": "medasdigital>sifchain",
+    "channel": "channel-89",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "umedas"
+    },
+    "image": "medasdigital/asset/medas.png",
+    "coinGeckoId": "medasdigital"
   }
 ]
