@@ -1720,5 +1720,25 @@
     },
     "image": "quicksilver/asset/qosmo.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/A76EB6ECF4E3E2D4A23C526FD1B48FDD42F171B206C9D2758EF778A7826ADD68",
+    "type": "ibc",
+    "origin_chain": "regen",
+    "origin_denom": "eco.uC.NCT",
+    "origin_type": "native",
+    "symbol": "NCT",
+    "decimals": 6,
+    "enable": true,
+    "path": "regen>osmosis",
+    "channel": "channel-8",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "eco.uC.NCT"
+    },
+    "image": "regen/asset/nct.png",
+    "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
   }
 ]
