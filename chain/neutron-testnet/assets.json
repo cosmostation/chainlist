@@ -1,0 +1,13 @@
+[
+    {
+      "denom": "untrn",
+      "type": "staking",
+      "origin_chain": "neutron-testnet",
+      "origin_denom": "untrn",
+      "origin_type": "staking",
+      "symbol": "NTRN",
+      "decimals": 6,
+      "description": "Neutron-testent Staking Coin",
+      "image": "neutron-testnet/asset/ntrn.png"
+    }
+]
