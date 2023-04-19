@@ -325,5 +325,18 @@
       "tag":[
          "Dex"
       ]
+   },
+   {
+      "title": "StreamSwap Protocol",
+      "description": "community-driven token launches using time-based swaps",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stream-swap.png",
+      "url": "https://app.streamswap.io",
+      "chain": [
+         "osmosis"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Interchain Launchpad"
+      ]
    }
 ]
