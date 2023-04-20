@@ -1,0 +1,143 @@
+{
+  "oneInch": {
+    "evm": {
+      "send": [
+        {
+          "chainId": "1"
+        },
+        {
+          "chainId": "56"
+        },
+        {
+          "chainId": "137"
+        },
+        {
+          "chainId": "10"
+        },
+        {
+          "chainId": "42161"
+        },
+        {
+          "chainId": "43114"
+        },
+        {
+          "chainId": "250"
+        }
+      ],
+      "receive": [
+        {
+          "chainId": "1"
+        },
+        {
+          "chainId": "56"
+        },
+        {
+          "chainId": "137"
+        },
+        {
+          "chainId": "10"
+        },
+        {
+          "chainId": "42161"
+        },
+        {
+          "chainId": "43114"
+        },
+        {
+          "chainId": "250"
+        }
+      ]
+    }
+  },
+  "squid": {
+    "cosmos": {
+      "send": [],
+      "receive": [
+        {
+          "chainId": "mantle-1"
+        },
+        {
+          "chainId": "comdex-1"
+        },
+        {
+          "chainId": "crescent-1"
+        },
+        {
+          "chainId": "evmos_9001-2"
+        },
+        {
+          "chainId": "fetchhub-4"
+        },
+        {
+          "chainId": "juno-1"
+        },
+        {
+          "chainId": "kaiyo-1"
+        },
+        {
+          "chainId": "osmosis-1"
+        },
+        {
+          "chainId": "regen-1"
+        },
+        {
+          "chainId": "secret-4"
+        },
+        {
+          "chainId": "stargaze-1"
+        },
+        {
+          "chainId": "umee-1"
+        }
+      ]
+    },
+    "evm": {
+      "send": [
+        {
+          "chainId": "1"
+        },
+        {
+          "chainId": "42161"
+        },
+        {
+          "chainId": "43114"
+        },
+        {
+          "chainId": "137"
+        },
+        {
+          "chainId": "56"
+        },
+        {
+          "chainId": "250"
+        },
+        {
+          "chainId": "2222"
+        }
+      ],
+      "receive": [
+        {
+          "chainId": "1"
+        },
+        {
+          "chainId": "42161"
+        },
+        {
+          "chainId": "43114"
+        },
+        {
+          "chainId": "137"
+        },
+        {
+          "chainId": "56"
+        },
+        {
+          "chainId": "250"
+        },
+        {
+          "chainId": "2222"
+        }
+      ]
+    }
+  }
+}

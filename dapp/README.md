@@ -6,20 +6,19 @@
   - Add your dApp information with [this](https://github.com/cosmostation/chainlist/blob/main/dapp/dapps.json) file
 
     ```json
-    {
-      "title": "Osmosis",
-      "description": "Swap, provide, and earn on the leading decentralized AMM.",
-      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/osmosis.png",
-      "url": "https://app.osmosis.zone",
-      "chain": "osmosis",
-      "badge": "Defi",
-      "links": {
-        "webSite": "https://osmosis.zone",
-        "github": "https://github.com/osmosis-labs",
-        "twitter": "https://twitter.com/osmosiszone",
-        "medium": "https://medium.com/osmosis"
-      }
-    }
+   {
+      "title":"Osmosis",
+      "description":"Swap, provide, and earn on the leading decentralized AMM.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/osmosis.png",
+      "url":"https://app.osmosis.zone",
+      "chain":[
+         "osmosis"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
+   }
     ```
 
     - `title`
@@ -33,9 +32,9 @@
     - `url`
       - dApp link
     - chain
-      - The chain you want to showcase your dApp on (only one main)
-    - `badge`
-      - dApp badge
-    - `links`
-      - dApp's linked links (`webSite, github, twitter, medium`)
+      - The chain you want to showcase your dApp on
+    - `tag`
+      - dApp tag
+    - `category`
+      - dApp category
     </details>
