@@ -509,5 +509,45 @@
     },
     "image": "persistence/asset/stkatom.png",
     "coinGeckoId": "stkatom"
+  },
+  {
+    "denom": "ibc/65CE3A1EC2EE4CAAC202494AE4E857D60704C46CE4770AD8BD80E41429618D58",
+    "type": "ibc",
+    "origin_chain": "iris",
+    "origin_denom": "uiris",
+    "origin_type": "staking",
+    "symbol": "IRIS",
+    "decimals": 6,
+    "enable": true,
+    "path": "iris>crescent",
+    "channel": "channel-37",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-37",
+      "port": "transfer",
+      "denom": "uiris"
+    },
+    "image": "iris/asset/iris.png",
+    "coinGeckoId": "iris-network"
+  },
+  {
+    "denom": "ibc/C8597ECBB1156C89A9CCEA8B3704F9E196926030371BE919BB9167FE3E6BAE29",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "ufrienzies",
+    "origin_type": "native",
+    "symbol": "FRNZ",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>crescent",
+    "channel": "channel-38",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "ufrienzies"
+    },
+    "image": "noble/asset/frnz.png",
+    "coinGeckoId": ""
   }
 ]
