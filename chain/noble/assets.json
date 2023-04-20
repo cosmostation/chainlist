@@ -1,0 +1,57 @@
+[
+  {
+    "denom": "ustake",
+    "type": "staking",
+    "origin_chain": "noble",
+    "origin_denom": "ustake",
+    "origin_type": "staking",
+    "symbol": "NOBLE",
+    "decimals": 6,
+    "description": "Noble Staking Coin",
+    "image": "noble/asset/stake.png"
+  },
+  {
+    "denom": "uusdc",
+    "type": "native",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "description": "",
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ufrienzies",
+    "type": "native",
+    "origin_chain": "noble",
+    "origin_denom": "ufrienzies",
+    "origin_type": "native",
+    "symbol": "FRNZ",
+    "decimals": 6,
+    "description": "Native Coin",
+    "image": "noble/asset/frnz.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "cosmos>noble",
+    "channel": "channel-4",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-536",
+      "port": "transfer",
+      "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  }
+]
