@@ -1740,5 +1740,25 @@
     },
     "image": "regen/asset/nct.png",
     "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
+  },
+  {
+    "denom": "ibc/CEE970BB3D26F4B907097B6B660489F13F3B0DA765B83CC7D9A0BC0CE220FA6F",
+    "type": "ibc",
+    "origin_chain": "omniflix",
+    "origin_denom": "uflix",
+    "origin_type": "staking",
+    "symbol": "FLIX",
+    "decimals": 6,
+    "enable": true,
+    "path": "omniflix>osmosis",
+    "channel": "channel-199",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uflix"
+    },
+    "image": "omniflix/asset/flix.png",
+    "coinGeckoId": ""
   }
 ]
