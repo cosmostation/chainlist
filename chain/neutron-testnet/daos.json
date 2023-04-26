@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Main Dao",
+    "description": "awesome neutron dao",
+    "address": "neutron1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshlt6zh",
+    "data": {
+      "threshold": {
+        "threshold_quorum": {
+          "threshold": {
+            "percent": "0.5"
+          },
+          "quorum": {
+            "percent": "0.05"
+          }
+        }
+      },
+      "max_voting_period": {
+        "time": 259200
+      },
+      "min_voting_period": null,
+      "allow_revoting": false,
+      "dao": "neutron1suhgf5svhu4usrurvxzlgn54ksxmn8gljarjtxqnapv8kjnp4nrstdxvff",
+      "close_proposal_on_execution_failure": true
+    }
+  }
+]

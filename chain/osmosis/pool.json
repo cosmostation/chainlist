@@ -444,7 +444,7 @@
     "bdenom": "uosmo"
   },
   {
-    "type": "/osmosis.gamm.v1beta1.Pool",
+    "type": "/osmosis.gamm.poolmodels.stableswap.v1beta1.Pool",
     "id": "833",
     "adenom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
     "bdenom": "uosmo"
@@ -459,6 +459,24 @@
     "type": "/osmosis.gamm.v1beta1.Pool",
     "id": "840",
     "adenom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.poolmodels.stableswap.v1beta1.Pool",
+    "id": "886",
+    "adenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
+    "bdenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "907",
+    "adenom": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
+    "bdenom": "uosmo"
+  },
+  {
+    "type": "/osmosis.gamm.v1beta1.Pool",
+    "id": "992",
+    "adenom": "ibc/CEE970BB3D26F4B907097B6B660489F13F3B0DA765B83CC7D9A0BC0CE220FA6F",
     "bdenom": "uosmo"
   }
 ]

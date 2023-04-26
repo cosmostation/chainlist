@@ -81,7 +81,7 @@
         "denom": "stuosmo"
     },
     "image": "stride/asset/stosmo.png",   
-    "coinGeckoId": ""
+    "coinGeckoId": "stride-staked-osmo"
   },
   {
     "denom": "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525",
@@ -602,26 +602,6 @@
     },
     "image": "asset-mantle/asset/mntl.png",
     "coinGeckoId": "assetmantle"
-  },
-  {
-    "denom": "ibc/F3FF7A84A73B62921538642F9797C423D2B4C4ACB3C7FCFFCE7F12AA69909C4B",
-    "type": "ibc",
-    "origin_chain": "ixo",
-    "origin_denom": "uixo",
-    "origin_type": "native",
-    "symbol": "IXO",
-    "decimals": 6,
-    "enable": true,
-    "path": "ixo>osmosis",
-    "channel": "channel-38",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-4",
-      "port": "transfer",
-      "denom": "uixo"
-    },
-    "image": "ixo/asset/ixo.png",
-    "coinGeckoId": "ixo"
   },
   {
     "denom": "ibc/655BCEF3CDEBE32863FF281DBBE3B06160339E9897DC9C9C9821932A5F8BA6F8",
@@ -1640,5 +1620,125 @@
     },
     "image": "mars-protocol/asset/mars.png",
     "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+  },
+  {
+    "denom": "ibc/635CB83EF1DFE598B10A3E90485306FD0D47D34217A4BE5FD9977FA010A5367D",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqck",
+    "origin_type": "staking",
+    "symbol": "QCK",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqck"
+    },
+    "image": "quicksilver/asset/qck.png",
+    "coinGeckoId": "quicksilver"
+  },
+  {
+    "denom": "ibc/46C83BB054E12E189882B5284542DB605D94C99827E367C9192CF0579CD5BC83",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqstars",
+    "origin_type": "native",
+    "symbol": "qSTARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqstars"
+    },
+    "image": "quicksilver/asset/qstars.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/FA602364BEC305A696CBDF987058E99D8B479F0318E47314C49173E8838C5BAC",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqatom",
+    "origin_type": "native",
+    "symbol": "qATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqatom"
+    },
+    "image": "quicksilver/asset/qatom.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/79A676508A2ECA1021EDDC7BB9CF70CEEC9514C478DA526A5A8B3E78506C2206",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqregen",
+    "origin_type": "native",
+    "symbol": "qREGEN",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqregen"
+    },
+    "image": "quicksilver/asset/qregen.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/42D24879D4569CE6477B7E88206ADBFE47C222C6CAD51A54083E4A72594269FC",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqosmo",
+    "origin_type": "native",
+    "symbol": "qOSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqosmo"
+    },
+    "image": "quicksilver/asset/qosmo.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/A76EB6ECF4E3E2D4A23C526FD1B48FDD42F171B206C9D2758EF778A7826ADD68",
+    "type": "ibc",
+    "origin_chain": "regen",
+    "origin_denom": "eco.uC.NCT",
+    "origin_type": "native",
+    "symbol": "NCT",
+    "decimals": 6,
+    "enable": true,
+    "path": "regen>osmosis",
+    "channel": "channel-8",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "eco.uC.NCT"
+    },
+    "image": "regen/asset/nct.png",
+    "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
   }
 ]

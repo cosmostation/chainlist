@@ -1,0 +1,25 @@
+[
+  {
+    "denom": "ustake",
+    "type": "staking",
+    "origin_chain": "noble-testnet",
+    "origin_denom": "ustake",
+    "origin_type": "staking",
+    "symbol": "NOBLE",
+    "decimals": 6,
+    "description": "Noble Staking Coin",
+    "image": "noble-testnet/asset/stake.png"
+  },
+  {
+    "denom": "uusdc",
+    "type": "native",
+    "origin_chain": "noble-testnet",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "description": "Native Coin",
+    "image": "noble-testnet/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
+  }
+]
