@@ -246,5 +246,17 @@
     },
     "image": "akash/asset/akt.png",
     "coinGeckoId": "akash-network"
+  },
+  {
+    "denom": "erc20/multichain/wbtc",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "wbtc",
+    "origin_type": "native",
+    "symbol": "Unknown",
+    "decimals": 9,
+    "description": "",
+    "image": "kava/asset/unknown.png",
+    "coinGeckoId": ""
   }
 ]

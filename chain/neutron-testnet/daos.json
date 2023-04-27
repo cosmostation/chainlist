@@ -2,25 +2,70 @@
   {
     "name": "Main Dao",
     "description": "awesome neutron dao",
-    "address": "neutron1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshlt6zh",
-    "data": {
-      "threshold": {
-        "threshold_quorum": {
-          "threshold": {
-            "percent": "0.5"
-          },
-          "quorum": {
-            "percent": "0.05"
-          }
-        }
+    "dao_uri": "",
+    "address": "neutron1suhgf5svhu4usrurvxzlgn54ksxmn8gljarjtxqnapv8kjnp4nrstdxvff",
+    "voting_module": "neutron1f6jlx7d9y408tlzue7r2qcf79plp549n30yzqjajjud8vm7m4vdspg933s",
+    "proposal_modules" : [
+      {
+        "name": "Single Module",
+        "description": "Main Dao Single Proposals",
+        "address": "neutron1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshlt6zh",
+        "prefix": "A",
+        "status": "Enabled"
       },
-      "max_voting_period": {
-        "time": 259200
+      {
+        "name": "Multiple Module",
+        "description": "Main Dao Multiple Proposals",
+        "address": "neutron1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsj3fj40",
+        "prefix": "B",
+        "status": "Enabled"
       },
-      "min_voting_period": null,
-      "allow_revoting": false,
-      "dao": "neutron1suhgf5svhu4usrurvxzlgn54ksxmn8gljarjtxqnapv8kjnp4nrstdxvff",
-      "close_proposal_on_execution_failure": true
-    }
+      {
+        "name": "Overrule Module",
+        "description": "Main Dao Overrule Proposals",
+        "address": "neutron12pwnhtv7yat2s30xuf4gdk9qm85v4j3e6p44let47pdffpklcxlq56v0te",
+        "prefix": "C",
+        "status": "Enabled"
+      },
+      {
+        "name": "Single Module With Revote",
+        "description": "Main Dao Single Proposals with Revotable",
+        "address": "neutron1vy4s2vkecdkv8las3qdvtg6n8ve9w07g0nmchaduyh62p2cx7u7s8yjzvy",
+        "prefix": "A",
+        "status": "Enabled"
+      }
+    ]
+  },
+  {
+    "name": "GRANTS",
+    "description": "neutron grants subdao",
+    "dao_uri": "subdao.neutron.org",
+    "address": "neutron1k95lcrdzamyeu882dtuclrzqmv6ay0axfa3wng8jla0ty52tzn4qsvxcpk",
+    "voting_module": "neutron14224lpaf6t2q3vhp5yndvx5rx2fqfzkn36f6r0n8ymjahfvuu2fqrnrywm",
+    "proposal_modules": [
+      {
+        "name": "Grants subdao",
+        "description": "Grants Subdao Single Proposals",
+        "address": "neutron1qyl0j7a24amk8k8gcmvv07y2zjx7nkcwpk73js24euh64hkja6esg9jar3",
+        "prefix": "A",
+        "status": "Enabled"
+      }
+    ]
+  },
+  {
+    "name": "SECURITY",
+    "description": "subdao that secures neutron",
+    "dao_uri": "security.subdao.org",
+    "address": "neutron1qyygux5t4s3a3l25k8psxjydhtudu5lnt0tk0szm8q4s27xa980s27p0kg",
+    "voting_module": "neutron1hyja4uyjktpeh0fxzuw2fmjudr85rk2qu98fa6nuh6d4qru9l0ssh3kgnu",
+    "proposal_modules": [
+      {
+        "name": "SECURITY Subdao",
+        "description": "Security Subdao Single Proposals",
+        "address": "neutron1ul4msjc3mmaxsscdgdtjds85rg50qrepvrczp0ldgma5mm9xv8yqrxv496",
+        "prefix": "A",
+        "status": "Enabled"
+      }
+    ]
   }
 ]
