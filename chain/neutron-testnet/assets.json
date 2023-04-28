@@ -11,24 +11,23 @@
       "image": "neutron-testnet/asset/ntrn.png"
     },
     {
-      "denom": "ibc/E8AC6B792CDE60AB208CA060CA010A3881F682A7307F624347AB71B6A0B0BF89",
+      "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
       "type": "ibc",
-      "origin_chain": "terra",
-      "origin_denom": "astro",
-      "origin_type": "cw20",
-      "symbol": "ASTRO",
+      "origin_chain": "cosmos",
+      "origin_denom": "uatom",
+      "origin_type": "staking",
+      "symbol": "ATOM",
       "decimals": 6,
       "enable": true,
-      "path": "terra>neutron-testnet",
-      "channel": "channel-13",
+      "path": "cosmos>neutron-testnet",
+      "channel": "channel-1",
       "port": "transfer",
       "counter_party": {
-        "channel": "channel-259",
-        "port": "",
-        "denom": "terra167dsqkh2alurx997wmycw9ydkyu54gyswe3ygmrs4lwume3vmwks8ruqnv"
+        "channel": "channel-16",
+        "port": "transfer",
+        "denom": "uatom"
       },
-      "image": "terra/asset/astro.png",
-      "coinGeckoId": "astroport-fi",
-      "contract": "terra167dsqkh2alurx997wmycw9ydkyu54gyswe3ygmrs4lwume3vmwks8ruqnv"
+      "image": "cosmos/asset/atom.png",
+      "coinGeckoId": "cosmos"
     }
 ]
