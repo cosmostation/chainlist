@@ -379,5 +379,17 @@
     },
     "image": "acrechain/asset/cnto.png",
     "contract": "0xAE6D3334989a22A65228732446731438672418F2"
+  },
+  {
+    "denom": "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9",
+    "type": "ibc",
+    "origin_chain": "evmos",
+    "origin_denom": "neok",
+    "origin_type": "erc20",
+    "symbol": "NEOK",
+    "decimals": 18,
+    "enable": true,
+    "image": "evmos/asset/neok.png",
+    "contract": "0x655ecB57432CC1370f65e5dc2309588b71b473A9"
   }
 ]
