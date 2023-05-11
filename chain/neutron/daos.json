@@ -28,5 +28,21 @@
         "status": "Enabled"
       }
     ]
+  },
+  {
+    "name": "Security SubDAO",
+    "description": "SubDAO with power to pause specific Neutron DAO modules",
+    "dao_uri": "",
+    "address": "neutron1fuyxwxlsgjkfjmxfthq8427dm2am3ya3cwcdr8gls29l7jadtazsuyzwcc",
+    "voting_module": "neutron1wastjc07zuuy46mzzl3egz4uzy6fs59752grxqvz8zlsqccpv2wqhjw0cl",
+    "proposal_modules": [
+      {
+        "name": "Single Module",
+        "description": "Security SubDAO Single Proposals",
+        "address": "neutron15m728qxvtat337jdu2f0uk6pu905kktrxclgy36c0wd822tpxcmqvnrurt",
+        "prefix": "A",
+        "status": "Enabled"
+      }
+    ]
   }
 ]
