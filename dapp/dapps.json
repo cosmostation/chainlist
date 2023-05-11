@@ -273,5 +273,70 @@
       "tag":[
          "Marketplace", "NFT"
       ]
+   },
+   {
+      "title":"Stargaze",
+      "description":"A Decentralized Community-owned NFT App Chain.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stargaze.png",
+      "url":"https://app.stargaze.zone",
+      "chain":[
+         "stargaze"
+      ],
+      "category":"NFT",
+      "tag":[
+         "Marketplace", "NFT"
+      ]
+   },
+   {
+      "title":"Stride",
+      "description":"Stride is a blockchain that provides liquidity for staked tokens.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stride.png",
+      "url":"https://app.stride.zone",
+      "chain":[
+         "stride"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Liquid Staking"
+      ]
+   },
+   {
+      "title":"pSTAKE",
+      "description":"Earn staking rewards on your Assets for securing PoS networks and participate in DeFi with stkAssets for additional yields.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/pstake.png",
+      "url":"https://cosmos.pstake.finance",
+      "chain":[
+         "persistence"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Liquid Staking"
+      ]
+   },
+   {
+      "title":"Junoswap",
+      "description":"JunoSwap is the first ever interchain decentralized exchange focussed on CW-20 (CosmWasm) asset adoption.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/junoswap.png",
+      "url":"https://junoswap.com",
+      "chain":[
+         "juno"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title": "StreamSwap Protocol",
+      "description": "launchpad for community-driven token launches using time-based swaps",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stream-swap.png",
+      "url": "https://app.streamswap.io",
+      "chain": [
+         "osmosis"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Interchain Launchpad"
+      ]
    }
 ]
