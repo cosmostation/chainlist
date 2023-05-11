@@ -549,5 +549,45 @@
     },
     "image": "noble/asset/frnz.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/BAEA8E5E532DD3442D8938DA6E3C456EEE52CFD2CCC1B3512B0A77E7BEDB2F45",
+    "type": "ibc",
+    "origin_chain": "comdex",
+    "origin_denom": "uharbor",
+    "origin_type": "native",
+    "symbol": "HARBOR",
+    "decimals": 6,
+    "enable": true,
+    "path": "comdex>crescent",
+    "channel": "channel-26",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-49",
+      "port": "transfer",
+      "denom": "uharbor"
+    },
+    "image": "comdex/asset/harbor.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/5EDC10227E40B52D893F5A26C107E2A338C4A643615C10B356DC62B5F4FE1DB1",
+    "type": "ibc",
+    "origin_chain": "crypto-org",
+    "origin_denom": "basecro",
+    "origin_type": "staking",
+    "symbol": "CRO",
+    "decimals": 8,
+    "enable": true,
+    "path": "crypto-org>crescent",
+    "channel": "channel-40",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-61",
+      "port": "transfer",
+      "denom": "basecro"
+    },
+    "image": "crypto-org/asset/cro.png",
+    "coinGeckoId": "crypto-com-chain"
   }
 ]
