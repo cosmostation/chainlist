@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "swth",
+    "type": "staking",
+    "origin_chain": "carbon",
+    "origin_denom": "swh",
+    "origin_type": "staking",
+    "symbol": "SWTH",
+    "decimals": 8,
+    "description": "Carbon Staking Coin",
+    "image": "carbon/asset/swth.png",
+    "coinGeckoId": "switcheo"
+  }
+]
