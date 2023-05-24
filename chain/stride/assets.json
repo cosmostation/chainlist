@@ -306,5 +306,25 @@
     },
     "image": "injective/asset/inj.png",
     "coinGeckoId": "injective-protocol"
+  },
+  {
+    "denom": "ibc/1A2271226209D309902AFF4F21BD21237CB514DD24EA2EE0423BF74C6135D8B8",
+    "type": "ibc",
+    "origin_chain": "umee",
+    "origin_denom": "uumee",
+    "origin_type": "staking",
+    "symbol": "UMEE",
+    "decimals": 6,
+    "enable": true,
+    "path": "umee>stride",
+    "channel": "channel-29",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-34",
+      "port": "transfer",
+      "denom": "uumee"
+    },
+    "image": "umee/asset/umee.png",
+    "coinGeckoId": "umee"
   }
 ]
