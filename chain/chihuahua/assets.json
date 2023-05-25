@@ -103,11 +103,11 @@
     "symbol": "CUB",
     "decimals": 6,
     "enable": true,
-    "path": "terra>kujira",
-    "channel": "channel-36",
+    "path": "terra>chihuahua",
+    "channel": "channel-42",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-28",
+      "channel": "channel-114",
       "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
       "denom": "cw20:terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
     },
