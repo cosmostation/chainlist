@@ -8,7 +8,8 @@
       "symbol": "NTRN",
       "decimals": 6,
       "description": "Neutron Staking Coin",
-      "image": "neutron/asset/ntrn.png"
+      "image": "neutron/asset/ntrn.png",
+      "coinGeckoId": "neutron"
   },
   {
     "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
@@ -29,5 +30,46 @@
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/C0E66D1C81D8AAF0E6896E05190FDFBC222367148F86AC3EA679C28327A763CD",
+    "type": "ibc",
+    "origin_chain": "axelar",
+    "origin_denom": "uaxl",
+    "origin_type": "staking",
+    "symbol": "AXL",
+    "decimals": 6,
+    "enable": true,
+    "path": "axelar>neutron",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-78",
+      "port": "transfer",
+      "denom": "uaxl"
+    },
+    "image": "axelar/asset/axl.png",
+    "coinGeckoId": "axelar"
+  },
+  {
+    "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>neutron",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-78",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   }
 ]

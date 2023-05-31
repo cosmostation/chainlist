@@ -710,5 +710,25 @@
     },
     "image": "crypto-org/asset/cro.png",
     "coinGeckoId": "crypto-com-chain"
+  },
+  {
+    "denom": "ibc/9DFC3B38276E617E802EC8E05C85368D36836368795CE16A2A37B9942E29573C",
+    "type": "ibc",
+    "origin_chain": "aioz",
+    "origin_denom": "attoaioz",
+    "origin_type": "staking",
+    "symbol": "AIOZ",
+    "decimals": 18,
+    "enable": true,
+    "path": "aioz>cosmos",
+    "channel": "channel-567",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "attoaioz"
+    },
+    "image": "aioz/asset/aioz.png",
+    "coinGeckoId": "aioz-network"
   }
 ]

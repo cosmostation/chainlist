@@ -76,11 +76,11 @@
     "channel": "channel-326",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-5",
-        "port": "transfer",
-        "denom": "stuosmo"
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "stuosmo"
     },
-    "image": "stride/asset/stosmo.png",   
+    "image": "stride/asset/stosmo.png",
     "coinGeckoId": "stride-staked-osmo"
   },
   {
@@ -1740,5 +1740,45 @@
     },
     "image": "regen/asset/nct.png",
     "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
+  },
+  {
+    "denom": "ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F",
+    "type": "ibc",
+    "origin_chain": "aioz",
+    "origin_denom": "attoaioz",
+    "origin_type": "staking",
+    "symbol": "AIOZ",
+    "decimals": 18,
+    "enable": true,
+    "path": "aioz>osmosis",
+    "channel": "channel-779",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "attoaioz"
+    },
+    "image": "aioz/asset/aioz.png",
+    "coinGeckoId": "aioz-network"
+  },
+  {
+    "denom": "ibc/C360EF34A86D334F625E4CBB7DA3223AEA97174B61F35BB3758081A8160F7D9B",
+    "type": "ibc",
+    "origin_chain": "odin",
+    "origin_denom": "loki",
+    "origin_type": "staking",
+    "symbol": "ODIN",
+    "decimals": 6,
+    "enable": true,
+    "path": "odin>osmosis",
+    "channel": "channel-258",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "loki"
+    },
+    "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
+    "coinGeckoId": "odin-protocol"
   }
 ]
