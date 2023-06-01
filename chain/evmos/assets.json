@@ -391,25 +391,5 @@
     "enable": true,
     "image": "evmos/asset/neok.png",
     "contract": "0x655ecB57432CC1370f65e5dc2309588b71b473A9"
-  },
-  {
-    "denom": "ibc/4DD3698C2FCEA87CDE843D3EA6228F2589A4DF6655A7C16D766010D9CA2E69FB",
-    "type": "ibc",
-    "origin_chain": "crescent",
-    "origin_denom": "neok",
-    "origin_type": "ibc",
-    "symbol": "NEOK",
-    "decimals": 18,
-    "enable": true,
-    "path": "crescent>evmos",
-    "channel": "channel-11",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-7",
-      "port": "transfer",
-      "denom": "neok"
-    },
-    "image": "evmos/asset/neok.png",
-    "contract": "0x655ecB57432CC1370f65e5dc2309588b71b473A9"
   }
 ]
