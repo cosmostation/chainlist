@@ -7,27 +7,28 @@
       "origin_type": "staking",
       "symbol": "NTRN",
       "decimals": 6,
-      "description": "Neutron-testent Staking Coin",
+      "description": "Neutron-testnet Staking Coin",
       "image": "neutron-testnet/asset/ntrn.png"
     },
     {
-      "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+      "denom": "ibc/EFB00E728F98F0C4BBE8CA362123ACAB466EDA2826DC6837E49F4C1902F21BBA",
       "type": "ibc",
-      "origin_chain": "cosmos",
-      "origin_denom": "uatom",
-      "origin_type": "staking",
-      "symbol": "ATOM",
+      "origin_chain": "terra",
+      "origin_denom": "astro",
+      "origin_type": "cw20",
+      "symbol": "ASTRO",
       "decimals": 6,
       "enable": true,
-      "path": "cosmos>neutron-testnet",
-      "channel": "channel-1",
+      "path": "terra>neutron-testnet",
+      "channel": "channel-3",
       "port": "transfer",
       "counter_party": {
-        "channel": "channel-16",
+        "channel": "channel-272",
         "port": "transfer",
-        "denom": "uatom"
+        "denom": "terra167dsqkh2alurx997wmycw9ydkyu54gyswe3ygmrs4lwume3vmwks8ruqnv"
       },
-      "image": "cosmos/asset/atom.png",
-      "coinGeckoId": ""
+      "image": "terra/asset/astro.png",
+      "coinGeckoId": "",
+      "contract": "neutron1vwrktvvxnevy7s5t7v44z72pdxncnq9gdsjwq9607cdd6vl2lfcs33fpah"
     }
 ]

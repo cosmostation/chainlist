@@ -96,6 +96,18 @@
     "coinGeckoId": ""
   },
   {
+    "denom": "stuumee",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stuumee",
+    "origin_type": "native",
+    "symbol": "stUMEE",
+    "decimals": 6,
+    "description": "Stride Staked Umee",
+    "image": "stride/asset/stumee.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
     "type": "ibc",
     "origin_chain": "cosmos",
@@ -294,5 +306,25 @@
     },
     "image": "injective/asset/inj.png",
     "coinGeckoId": "injective-protocol"
+  },
+  {
+    "denom": "ibc/1A2271226209D309902AFF4F21BD21237CB514DD24EA2EE0423BF74C6135D8B8",
+    "type": "ibc",
+    "origin_chain": "umee",
+    "origin_denom": "uumee",
+    "origin_type": "staking",
+    "symbol": "UMEE",
+    "decimals": 6,
+    "enable": true,
+    "path": "umee>stride",
+    "channel": "channel-29",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-34",
+      "port": "transfer",
+      "denom": "uumee"
+    },
+    "image": "umee/asset/umee.png",
+    "coinGeckoId": "umee"
   }
 ]
