@@ -71,5 +71,26 @@
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  {
+    "denom": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "astro",
+    "origin_type": "cw20",
+    "symbol": "ASTRO",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>neutron",
+    "channel": "channel-5",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-167",
+      "port": "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce",
+      "denom": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
+    },
+    "image": "terra/asset/astro.png",
+    "coinGeckoId": "astroport-fi",
+    "contract": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
   }
 ]
