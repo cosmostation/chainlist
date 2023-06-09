@@ -1,0 +1,34 @@
+[
+    {
+      "denom": "untrn",
+      "type": "staking",
+      "origin_chain": "neutron-testnet",
+      "origin_denom": "untrn",
+      "origin_type": "staking",
+      "symbol": "NTRN",
+      "decimals": 6,
+      "description": "Neutron-testnet Staking Coin",
+      "image": "neutron-testnet/asset/ntrn.png"
+    },
+    {
+      "denom": "ibc/EFB00E728F98F0C4BBE8CA362123ACAB466EDA2826DC6837E49F4C1902F21BBA",
+      "type": "ibc",
+      "origin_chain": "terra",
+      "origin_denom": "astro",
+      "origin_type": "cw20",
+      "symbol": "ASTRO",
+      "decimals": 6,
+      "enable": true,
+      "path": "terra>neutron-testnet",
+      "channel": "channel-3",
+      "port": "transfer",
+      "counter_party": {
+        "channel": "channel-272",
+        "port": "transfer",
+        "denom": "terra167dsqkh2alurx997wmycw9ydkyu54gyswe3ygmrs4lwume3vmwks8ruqnv"
+      },
+      "image": "terra/asset/astro.png",
+      "coinGeckoId": "",
+      "contract": "neutron1vwrktvvxnevy7s5t7v44z72pdxncnq9gdsjwq9607cdd6vl2lfcs33fpah"
+    }
+]

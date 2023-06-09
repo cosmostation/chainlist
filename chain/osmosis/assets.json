@@ -76,11 +76,11 @@
     "channel": "channel-326",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-5",
-        "port": "transfer",
-        "denom": "stuosmo"
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "stuosmo"
     },
-    "image": "stride/asset/stosmo.png",   
+    "image": "stride/asset/stosmo.png",
     "coinGeckoId": "stride-staked-osmo"
   },
   {
@@ -1640,5 +1640,145 @@
     },
     "image": "quicksilver/asset/qck.png",
     "coinGeckoId": "quicksilver"
+  },
+  {
+    "denom": "ibc/46C83BB054E12E189882B5284542DB605D94C99827E367C9192CF0579CD5BC83",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqstars",
+    "origin_type": "native",
+    "symbol": "qSTARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqstars"
+    },
+    "image": "quicksilver/asset/qstars.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/FA602364BEC305A696CBDF987058E99D8B479F0318E47314C49173E8838C5BAC",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqatom",
+    "origin_type": "native",
+    "symbol": "qATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqatom"
+    },
+    "image": "quicksilver/asset/qatom.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/79A676508A2ECA1021EDDC7BB9CF70CEEC9514C478DA526A5A8B3E78506C2206",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqregen",
+    "origin_type": "native",
+    "symbol": "qREGEN",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqregen"
+    },
+    "image": "quicksilver/asset/qregen.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/42D24879D4569CE6477B7E88206ADBFE47C222C6CAD51A54083E4A72594269FC",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqosmo",
+    "origin_type": "native",
+    "symbol": "qOSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqosmo"
+    },
+    "image": "quicksilver/asset/qosmo.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/A76EB6ECF4E3E2D4A23C526FD1B48FDD42F171B206C9D2758EF778A7826ADD68",
+    "type": "ibc",
+    "origin_chain": "regen",
+    "origin_denom": "eco.uC.NCT",
+    "origin_type": "native",
+    "symbol": "NCT",
+    "decimals": 6,
+    "enable": true,
+    "path": "regen>osmosis",
+    "channel": "channel-8",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "eco.uC.NCT"
+    },
+    "image": "regen/asset/nct.png",
+    "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
+  },
+  {
+    "denom": "ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F",
+    "type": "ibc",
+    "origin_chain": "aioz",
+    "origin_denom": "attoaioz",
+    "origin_type": "staking",
+    "symbol": "AIOZ",
+    "decimals": 18,
+    "enable": true,
+    "path": "aioz>osmosis",
+    "channel": "channel-779",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "attoaioz"
+    },
+    "image": "aioz/asset/aioz.png",
+    "coinGeckoId": "aioz-network"
+  },
+  {
+    "denom": "ibc/C360EF34A86D334F625E4CBB7DA3223AEA97174B61F35BB3758081A8160F7D9B",
+    "type": "ibc",
+    "origin_chain": "odin",
+    "origin_denom": "loki",
+    "origin_type": "staking",
+    "symbol": "ODIN",
+    "decimals": 6,
+    "enable": true,
+    "path": "odin>osmosis",
+    "channel": "channel-258",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "loki"
+    },
+    "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
+    "coinGeckoId": "odin-protocol"
   }
 ]

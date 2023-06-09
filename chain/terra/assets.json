@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "uluna",
+    "type": "staking",
+    "origin_chain": "terra",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNA",
+    "decimals": 6,
+    "description": "Terra Staking Coin",
+    "image": "terra/asset/luna.png",
+    "coinGeckoId": "terra-luna-2"
+  }
+]
