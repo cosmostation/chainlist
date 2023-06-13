@@ -108,6 +108,18 @@
     "coinGeckoId": ""
   },
   {
+    "denom": "stucmdx",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stucmdx",
+    "origin_type": "native",
+    "symbol": "stCMDX",
+    "decimals": 6,
+    "description": "Stride Staked CMDX",
+    "image": "stride/asset/stcmdx.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
     "type": "ibc",
     "origin_chain": "cosmos",
@@ -326,5 +338,25 @@
     },
     "image": "umee/asset/umee.png",
     "coinGeckoId": "umee"
+  },
+  {
+    "denom": "ibc/EB66980014602E6BD50A1CB9FFB8FA694DC3EC10A48D2C1C649D732954F88D4A",
+    "type": "ibc",
+    "origin_chain": "comdex",
+    "origin_denom": "ucmdx",
+    "origin_type": "staking",
+    "symbol": "CMDX",
+    "decimals": 6,
+    "enable": true,
+    "path": "comdex>stride",
+    "channel": "channel-49",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-45",
+      "port": "transfer",
+      "denom": "ucmdx"
+    },
+    "image": "injective/asset/cmdx.png",
+    "coinGeckoId": "comdex"
   }
 ]
