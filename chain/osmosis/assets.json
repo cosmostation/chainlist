@@ -2033,9 +2033,9 @@
     "denom": "ibc/5DD1F95ED336014D00CE2520977EC71566D282F9749170ADC83A392E0EA7426A",
     "type": "ibc",
     "origin_chain": "stride",
-    "origin_denom": "stuluna",
+    "origin_denom": "stustars",
     "origin_type": "native",
-    "symbol": "stLUNA",
+    "symbol": "stSTARS",
     "decimals": 6,
     "enable": true,
     "path": "stride>osmosis",
@@ -2044,10 +2044,10 @@
     "counter_party": {
       "channel": "channel-5",
       "port": "transfer",
-      "denom": "stuluna"
+      "denom": "stustars"
     },
-    "image": "stride/asset/stluna.png",
-    "coinGeckoId": "stride-staked-luna"
+    "image": "stride/asset/ststars.png",
+    "coinGeckoId": "stride-staked-stars"
   },
   {
     "denom": "ibc/84502A75BCA4A5F68D464C00B3F610CE2585847D59B52E5FFB7C3C9D2DDCD3FE",
