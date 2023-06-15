@@ -452,5 +452,24 @@
     },
     "image": "migaloo/asset/bwhale.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/1D9E14A1F00613ED39E4B8A8763A20C9BE5B5EA0198F2FE47EAE43CD91A0137B",
+    "type": "ibc",
+    "origin_chain": "nois",
+    "origin_denom": "unois",
+    "origin_type": "staking",
+    "symbol": "NOIS",
+    "decimals": 6,
+    "enable": true,
+    "path": "nois>juno",
+    "channel": "channel-225",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "unois"
+    },
+    "image": "nois/asset/nois.png"
   }
 ]
