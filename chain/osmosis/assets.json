@@ -2016,7 +2016,7 @@
     "origin_denom": "staevmos",
     "origin_type": "native",
     "symbol": "stEVMOS",
-    "decimals": 6,
+    "decimals": 18,
     "enable": true,
     "path": "stride>osmosis",
     "channel": "channel-326",
@@ -2066,7 +2066,7 @@
       "port": "transfer",
       "denom": "stujuno"
     },
-    "image": "stride/asset/stujuno.png",
+    "image": "stride/asset/stjuno.png",
     "coinGeckoId": "stride-staked-juno"
   }
 ]
