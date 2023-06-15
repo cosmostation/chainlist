@@ -113,6 +113,25 @@
     "contract": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
   },
   {
+    "denom": "ibc/DD9182E8E2B13C89D6B4707C7B43E8DB6193F9FF486AFA0E6CF86B427B0D231A",
+    "type": "ibc",
+    "origin_chain": "nois-1",
+    "origin_denom": "unois",
+    "origin_type": "staking",
+    "symbol": "NOIS",
+    "decimals": 6,
+    "enable": true,
+    "path": "nois-1>injective",
+    "channel": "channel-138",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-17",
+      "port": "transfer",
+      "denom": "unois"
+    },
+    "image": "nois/asset/nois.png"
+  },
+  {
     "denom": "peggy0x8d983cb9388eac77af0474fa441c4815500cb7bb",
     "type": "bridge",
     "origin_chain": "ethereum",
