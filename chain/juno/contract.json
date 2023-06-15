@@ -340,7 +340,7 @@
     "default": false,
     "coinGeckoId": ""
   },
-    {
+  {
     "chainId": -1,
     "chainName": "juno",
     "address": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
@@ -348,6 +348,17 @@
     "description": "NRide Token",
     "decimals": 6,
     "image": "juno/asset/nride.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno12mcwmd6wqhledkjsurlfqtc8j0pedvxlcxw3gs4kh2qf808ehehsen8nmw",
+    "symbol": "YFD",
+    "description": "Propose. Vote. Build.",
+    "decimals": 6,
+    "image": "juno/asset/yfd.png",
     "default": false,
     "coinGeckoId": ""
   }
