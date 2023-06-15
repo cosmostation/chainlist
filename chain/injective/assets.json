@@ -115,13 +115,13 @@
   {
     "denom": "ibc/DD9182E8E2B13C89D6B4707C7B43E8DB6193F9FF486AFA0E6CF86B427B0D231A",
     "type": "ibc",
-    "origin_chain": "nois-1",
+    "origin_chain": "nois",
     "origin_denom": "unois",
     "origin_type": "staking",
     "symbol": "NOIS",
     "decimals": 6,
     "enable": true,
-    "path": "nois-1>injective",
+    "path": "nois>injective",
     "channel": "channel-138",
     "port": "transfer",
     "counter_party": {
