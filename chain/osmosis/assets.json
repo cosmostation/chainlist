@@ -1545,12 +1545,9 @@
     "image": "juno/asset/sejuno.png",
     "coinGeckoId": "",
     "contract": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
-  },
-  
-  
-  
+  }, 
   {
-    "denom": "ibc/c6b6bfcb6ee49a7cab1a7e7b021de35b99d525ac660844952f0f6c78dcb2a57b",
+    "denom": "ibc/6F18EFEBF1688AA77F7EAC17065609494DC1BA12AFC78E9AEC832AF70A11BEF3",
     "type": "ibc",
     "origin_chain": "terra",
     "origin_denom": "cub",
@@ -1570,11 +1567,27 @@
     "coinGeckoId": "",
     "contract": "terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
   },
-  
-  
-  
-  
-  
+  {
+    "denom": "ibc/DA961FE314B009C38595FFE3AF41225D8894D663B8C3F6650DCB5B6F8435592E",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "blue",
+    "origin_type": "cw20",
+    "symbol": "BLUE",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>osmosis",
+    "channel": "channel-341",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-26",
+      "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+      "denom": "cw20:terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+    },
+    "image": "terra/asset/blue.png",
+    "coinGeckoId": "",
+    "contract": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+  }, 
   {
     "denom": "ibc/c2df5c3949ca835b221c575625991f09bab4e48fb9c11a4ee357194f736111e3",
     "type": "ibc",
