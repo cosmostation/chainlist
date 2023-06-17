@@ -1,0 +1,13 @@
+[
+  {
+    "denom": "loki",
+    "type": "staking",
+    "origin_chain": "odin",
+    "origin_denom": "loki",
+    "origin_type": "staking",
+    "symbol": "ODIN",
+    "decimals": 6,
+    "description": "ODIN Staking Coin",
+    "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png"
+  }
+]
