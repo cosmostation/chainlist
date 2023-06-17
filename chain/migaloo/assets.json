@@ -10,5 +10,47 @@
     "description": "WHALE Staking Coin",
     "image": "migaloo/asset/whitewhale.png",
     "coinGeckoId": ""
+  },
+{
+    "denom": "ibc/84B8C4F1FE15019DBD937B5670905B6280BB7C0D031E9F4D9F50E33386D3CAE6",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "cub",
+    "origin_type": "cw20",
+    "symbol": "CUB",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>migaloo",
+    "channel": "channel-32",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-153",
+      "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+      "denom": "cw20:terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
+    },
+    "image": "terra/asset/cub.png",
+    "coinGeckoId": "",
+    "contract": "terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
+  },
+  {
+    "denom": "ibc/E224A26BBDD3FBBB461CBFC40EDC74BAA9606C667371F428F147A8D6C98C28D6",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "blue",
+    "origin_type": "cw20",
+    "symbol": "BLUE",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>migaloo",
+    "channel": "channel-32",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-153",
+      "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+      "denom": "cw20:terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+    },
+    "image": "terra/asset/blue.png",
+    "coinGeckoId": "",
+    "contract": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
   }]
   
