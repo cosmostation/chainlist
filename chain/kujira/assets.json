@@ -350,27 +350,6 @@
     "contract": "terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
   },
   {
-    "denom": "",
-    "type": "ibc",
-    "origin_chain": "terra",
-    "origin_denom": "blue",
-    "origin_type": "cw20",
-    "symbol": "BLUE",
-    "decimals": 6,
-    "enable": true,
-    "path": "terra>kujira",
-    "channel": "channel-36",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-28",
-      "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
-      "denom": "cw20:terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
-    },
-    "image": "terra/asset/blue.png",
-    "coinGeckoId": "",
-    "contract": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
-  },
-  {
     "denom": "ibc/DBF6ABDB5F3D4267C039967515594453F4A31007FD838A566F563A01D2C2FB80",
     "type": "ibc",
     "origin_chain": "mars-protocol",
