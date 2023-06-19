@@ -1,0 +1,13 @@
+[
+  {
+    "chainId": 2222,
+    "chainName": "kava",
+    "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
+    "symbol": "WKAVA",
+    "description": "Wrapped Kava",
+    "decimals": 18,
+    "image": "kava/asset/wkava.png",
+    "default": true,
+    "coinGeckoId": "wrapped-kava"
+  }
+]
