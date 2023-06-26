@@ -27,7 +27,7 @@
     "denom": "erc20/multichain/usdc",
     "type": "native",
     "origin_chain": "kava",
-    "origin_denom": "erc20/multichain/usdc",
+    "origin_denom": "busdc",
     "origin_type": "native",
     "symbol": "bUSDC",
     "decimals": 6,
@@ -39,13 +39,25 @@
     "denom": "erc20/multichain/usdt",
     "type": "native",
     "origin_chain": "kava",
-    "origin_denom": "erc20/multichain/usdt",
+    "origin_denom": "busdt",
     "origin_type": "native",
     "symbol": "bUSDT",
     "decimals": 6,
     "description": "USDT Earned in Kava",
     "image": "kava/asset/busdt.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "erc20/axelar/usdc",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "path": "ethereum>axelar>kava",
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   },
   {
     "denom": "swp",
@@ -234,5 +246,17 @@
     },
     "image": "akash/asset/akt.png",
     "coinGeckoId": "akash-network"
+  },
+  {
+    "denom": "erc20/multichain/wbtc",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "wbtc",
+    "origin_type": "native",
+    "symbol": "Unknown",
+    "decimals": 8,
+    "description": "",
+    "image": "kava/asset/unknown.png",
+    "coinGeckoId": ""
   }
 ]
