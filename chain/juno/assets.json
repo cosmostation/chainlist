@@ -371,5 +371,147 @@
     },
     "image": "mars-protocol/asset/mars.png",
     "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+  },
+  {
+    "denom": "ibc/95A45A81521EAFDBEDAEEB6DA975C02E55B414C95AD3CE50709272366A90CA17",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "weth",
+    "origin_type": "erc20",
+    "symbol": "axlWETH",
+    "decimals": 18,
+    "enable": true,
+    "path": "ethereum>axelar>juno",
+    "channel": "channel-71",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "weth-wei"
+    },
+    "image": "ethereum/asset/weth.png",
+    "coinGeckoId": "weth",
+    "contract": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+  },
+  {
+    "denom": "ibc/3A6ADE78FB8169C034C29C4F2E1A61CE596EC8235366F22381D981A98F1F5A5C",
+    "type": "ibc",
+    "origin_chain": "migaloo",
+    "origin_denom": "uwhale",
+    "origin_type": "staking",
+    "symbol": "WHALE",
+    "decimals": 6,
+    "enable": true,
+    "path": "migaloo>juno",
+    "channel": "channel-210",
+    "port": "transfer",
+    "counter_party": {
+       "channel": "channel-1",
+       "port": "transfer",
+       "denom": "uwhale"
+    },
+    "image": "migaloo/asset/whitewhale.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/2F7C2A3D5D42553ED46F57D8B0DE3733B1B5FF571E2C6A051D34525904B4C0AF",
+    "type": "ibc",
+    "origin_chain": "migaloo",
+    "origin_denom": "ampwhale",
+    "origin_type": "native",
+    "symbol": "ampWHALE",
+    "decimals": 6,
+    "enable": true,
+    "path": "migaloo>juno",
+    "channel": "channel-210",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "ampwhale"
+    },
+    "image": "migaloo/asset/ampwhale.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/01BAE2E69D02670B22758FBA74E4114B6E88FC1878936C919DA345E6C6C92ABF",
+    "type": "ibc",
+    "origin_chain": "migaloo",
+    "origin_denom": "bwhale",
+    "origin_type": "native",
+    "symbol": "bWHALE",
+    "decimals": 6,
+    "enable": true,
+    "path": "migaloo>juno",
+    "channel": "channel-210",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "bwhale"
+    },
+    "image": "migaloo/asset/bwhale.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/AEC6690629B7EAF808D1A0B3EEF7C9B9229315F175FE8900AD5C4F7B6FD62E29",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "cub",
+    "origin_type": "cw20",
+    "symbol": "CUB",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>juno",
+    "channel": "channel-32",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-153",
+      "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+      "denom": "cw20:terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
+    },
+    "image": "terra/asset/cub.png",
+    "coinGeckoId": "",
+    "contract": "terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
+  },
+  {
+    "denom": "ibc/738D8F365F1CA9CA6B5851E77EEB878FC6FCC784EE687A10A933F0D1FAC960C0",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "blue",
+    "origin_type": "cw20",
+    "symbol": "BLUE",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>juno",
+    "channel": "channel-32",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-153",
+      "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+      "denom": "cw20:terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+    },
+    "image": "terra/asset/blue.png",
+    "coinGeckoId": "",
+    "contract": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+  },
+  {
+    "denom": "ibc/1D9E14A1F00613ED39E4B8A8763A20C9BE5B5EA0198F2FE47EAE43CD91A0137B",
+    "type": "ibc",
+    "origin_chain": "nois",
+    "origin_denom": "unois",
+    "origin_type": "staking",
+    "symbol": "NOIS",
+    "decimals": 6,
+    "enable": true,
+    "path": "nois>juno",
+    "channel": "channel-225",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "unois"
+    },
+    "image": "nois/asset/nois.png"
   }
 ]
