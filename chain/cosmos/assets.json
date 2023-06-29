@@ -710,5 +710,45 @@
     },
     "image": "crypto-org/asset/cro.png",
     "coinGeckoId": "crypto-com-chain"
+  },
+  {
+    "denom": "ibc/9DFC3B38276E617E802EC8E05C85368D36836368795CE16A2A37B9942E29573C",
+    "type": "ibc",
+    "origin_chain": "aioz",
+    "origin_denom": "attoaioz",
+    "origin_type": "staking",
+    "symbol": "AIOZ",
+    "decimals": 18,
+    "enable": true,
+    "path": "aioz>cosmos",
+    "channel": "channel-567",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "attoaioz"
+    },
+    "image": "aioz/asset/aioz.png",
+    "coinGeckoId": "aioz-network"
+  },
+  {
+    "denom": "ibc/0025F8A87464A471E66B234C4F93AEC5B4DA3D42D7986451A059273426290DD5",
+    "type": "ibc",
+    "origin_chain": "neutron",
+    "origin_denom": "untrn",
+    "origin_type": "staking",
+    "symbol": "NTRN",
+    "decimals": 6,
+    "enable": true,
+    "path": "neutron>cosmos",
+    "channel": "channel-569",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "untrn"
+    },
+    "image": "neutron/asset/ntrn.png",
+    "coinGeckoId": "neutron"
   }
 ]
