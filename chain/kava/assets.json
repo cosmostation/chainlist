@@ -27,7 +27,7 @@
     "denom": "erc20/multichain/usdc",
     "type": "native",
     "origin_chain": "kava",
-    "origin_denom": "erc20/multichain/usdc",
+    "origin_denom": "busdc",
     "origin_type": "native",
     "symbol": "bUSDC",
     "decimals": 6,
@@ -39,7 +39,7 @@
     "denom": "erc20/multichain/usdt",
     "type": "native",
     "origin_chain": "kava",
-    "origin_denom": "erc20/multichain/usdt",
+    "origin_denom": "busdt",
     "origin_type": "native",
     "symbol": "bUSDT",
     "decimals": 6,
@@ -246,5 +246,17 @@
     },
     "image": "akash/asset/akt.png",
     "coinGeckoId": "akash-network"
+  },
+  {
+    "denom": "erc20/multichain/wbtc",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "wbtc",
+    "origin_type": "native",
+    "symbol": "Unknown",
+    "decimals": 8,
+    "description": "",
+    "image": "kava/asset/unknown.png",
+    "coinGeckoId": ""
   }
 ]

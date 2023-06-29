@@ -145,7 +145,7 @@
    },
    {
       "title":"Hopers.io",
-      "description":"An avenue for the evolution of DeFi & NFTs on Juno. The fully-permissionless DEX living in the Cosmos.",
+      "description":"Hopers.io is a comprehensive platform that combines the power of DeFi and NFTs on the Cosmos blockchain on top of the L1 JUNO. It offers a fully-permissionless DEX and a marketplace for buying and selling unique NFTs.",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/hopers.png",
       "url":"https://hopers.io/",
       "chain":[
@@ -324,6 +324,19 @@
       "category":"Defi",
       "tag":[
          "Dex"
+      ]
+   },
+   {
+      "title": "StreamSwap Protocol",
+      "description": "launchpad for community-driven token launches using time-based swaps",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stream-swap.png",
+      "url": "https://app.streamswap.io",
+      "chain": [
+         "osmosis"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Interchain Launchpad"
       ]
    }
 ]
