@@ -1,18 +1,5 @@
 [
    {
-      "title":"Crescent",
-      "description":"Swap, earn, and stake on a capital-efficient AMM/orderbook hybrid DEX.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/crescent.png",
-      "url":"https://app.crescent.network",
-      "chain":[
-         "crescent"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Dex"
-      ]
-   },
-   {
       "title":"Cosmon",
       "description":"Build a team of leaders, collect cards, fight to earn! The first NFT Play to Earn on Cosmos",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/cosmon.png",
@@ -39,32 +26,6 @@
       ]
    },
    {
-      "title":"Diffusion",
-      "description":"Swap, earn, bridge, and stake on Diffusion, an AMM protocol and liquidity pool designed for efficient trading between crypto-assets.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/diffusion.png",
-      "url":"https://app.diffusion.fi",
-      "chain":[
-         "evmos"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Dex"
-      ]
-   },
-   {
-      "title":"Spacefi",
-      "description":"Swap on a cross-chain web3 DEX platform connecting Cosmos and Layer2.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/spacefi.png",
-      "url":"https://swap-evmos.spacefi.io",
-      "chain":[
-         "evmos"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Dex"
-      ]
-   },
-   {
       "title":"Osmosis",
       "description":"Swap, provide, and earn on the leading decentralized AMM.",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/osmosis.png",
@@ -84,6 +45,45 @@
       "url":"https://frontier.osmosis.zone",
       "chain":[
          "osmosis"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title":"Crescent",
+      "description":"Swap, earn, and stake on a capital-efficient AMM/orderbook hybrid DEX.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/crescent.png",
+      "url":"https://app.crescent.network",
+      "chain":[
+         "crescent"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title":"Diffusion",
+      "description":"Swap, earn, bridge, and stake on Diffusion, an AMM protocol and liquidity pool designed for efficient trading between crypto-assets.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/diffusion.png",
+      "url":"https://app.diffusion.fi",
+      "chain":[
+         "evmos"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title":"Spacefi",
+      "description":"Swap on a cross-chain web3 DEX platform connecting Cosmos and Layer2.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/spacefi.png",
+      "url":"https://swap-evmos.spacefi.io",
+      "chain":[
+         "evmos"
       ],
       "category":"Defi",
       "tag":[
@@ -145,7 +145,7 @@
    },
    {
       "title":"Hopers.io",
-      "description":"An avenue for the evolution of DeFi & NFTs on Juno. The fully-permissionless DEX living in the Cosmos.",
+      "description":"Hopers.io is a comprehensive platform that combines the power of DeFi and NFTs on the Cosmos blockchain on top of the L1 JUNO. It offers a fully-permissionless DEX and a marketplace for buying and selling unique NFTs.",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/hopers.png",
       "url":"https://hopers.io/",
       "chain":[
@@ -259,6 +259,84 @@
       "category":"Defi",
       "tag":[
          "Money Market", "Farming"
+      ]
+   },
+   {
+      "title":"Empawrium",
+      "description":"The official Chihuahua NFT Marketplace",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/empawrium.png",
+      "url":"https://mobile.empawrium.wtf/",
+      "chain":[
+         "chihuahua"
+      ],
+      "category":"NFT",
+      "tag":[
+         "Marketplace", "NFT"
+      ]
+   },
+   {
+      "title":"Stargaze",
+      "description":"A Decentralized Community-owned NFT App Chain.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stargaze.png",
+      "url":"https://app.stargaze.zone",
+      "chain":[
+         "stargaze"
+      ],
+      "category":"NFT",
+      "tag":[
+         "Marketplace", "NFT"
+      ]
+   },
+   {
+      "title":"Stride",
+      "description":"Stride is a blockchain that provides liquidity for staked tokens.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stride.png",
+      "url":"https://app.stride.zone",
+      "chain":[
+         "stride"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Liquid Staking"
+      ]
+   },
+   {
+      "title":"pSTAKE",
+      "description":"Earn staking rewards on your Assets for securing PoS networks and participate in DeFi with stkAssets for additional yields.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/pstake.png",
+      "url":"https://cosmos.pstake.finance",
+      "chain":[
+         "persistence"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Liquid Staking"
+      ]
+   },
+   {
+      "title":"Junoswap",
+      "description":"JunoSwap is the first ever interchain decentralized exchange focussed on CW-20 (CosmWasm) asset adoption.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/junoswap.png",
+      "url":"https://junoswap.com",
+      "chain":[
+         "juno"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title": "StreamSwap Protocol",
+      "description": "launchpad for community-driven token launches using time-based swaps",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stream-swap.png",
+      "url": "https://app.streamswap.io",
+      "chain": [
+         "osmosis"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Interchain Launchpad"
       ]
    }
 ]

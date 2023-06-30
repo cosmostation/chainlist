@@ -8,17 +8,18 @@
     "symbol": "FIS",
     "decimals": 6,
     "description": "StaFi Staking Coin",
-    "image": "stafi/asset/fis.png"
+    "image": "stafi/asset/fis.png",
+    "coinGeckoId": "stafi"
   },
   {
     "denom": "uratom",
     "type": "native",
     "origin_chain": "stafi",
-    "origin_denom": "uatom",
+    "origin_denom": "uratom",
     "origin_type": "native",
     "symbol": "rATOM",
     "decimals": 6,
-    "description": "Stafi Staked Atom",
+    "description": "StaFi Staked ATOM",
     "image": "stafi/asset/ratom.png",
     "coinGeckoId": "stafi-ratom"
   },
@@ -26,25 +27,37 @@
     "denom": "uriris",
     "type": "native",
     "origin_chain": "stafi",
-    "origin_denom": "uiris",
+    "origin_denom": "uriris",
     "origin_type": "native",
     "symbol": "rIRIS",
     "decimals": 6,
-    "description": "Stafi Staked Iris",
+    "description": "StaFi Staked IRIS",
     "image": "stafi/asset/riris.png",
-    "coinGeckoId": "iris-network"
+    "coinGeckoId": ""
   },
   {
     "denom": "urhuahua",
     "type": "native",
     "origin_chain": "stafi",
-    "origin_denom": "uhuahua",
+    "origin_denom": "urhuahua",
     "origin_type": "native",
     "symbol": "rHUAHUA",
     "decimals": 6,
-    "description": "Stafi Staked Huahua",
+    "description": "StaFi Staked HUAHUA",
     "image": "stafi/asset/rhuahua.png",
-    "coinGeckoId": "chihuahua-token"
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "urswth",
+    "type": "native",
+    "origin_chain": "stafi",
+    "origin_denom": "urswth",
+    "origin_type": "native",
+    "symbol": "rSWTH",
+    "decimals": 8,
+    "description": "StaFi Staked SWTH",
+    "image": "stafi/asset/rswth.png",
+    "coinGeckoId": ""
   },
   {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",

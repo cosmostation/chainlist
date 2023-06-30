@@ -1,0 +1,24 @@
+[
+  {
+    "chainId": -1,
+    "chainName": "neutron-testnet",
+    "address": "neutron1h6pztc3fn7h22jm60xx90tk7hln7xg8x0nazef58gqv0n4uw9vqq9khy43",
+    "symbol": "USDC",
+    "description": "USDC",
+    "decimals": 6,
+    "image": "ethereum/asset/usdc.png",
+    "default": true,
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "chainId": -1,
+    "chainName": "neutron-testnet",
+    "address": "neutron1vpsgrzedwd8fezpsu9fcfewvp6nmv4kzd7a6nutpmgeyjk3arlqsypnlhm",
+    "symbol": "USDT",
+    "description": "USDT",
+    "decimals": 6,
+    "image": "ethereum/asset/usdt.png",
+    "default": false,
+    "coinGeckoId": "tether"
+  }
+]

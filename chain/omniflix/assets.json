@@ -7,8 +7,9 @@
     "origin_type": "staking",
     "symbol": "FLIX",
     "decimals": 6,
-    "description": "Omniflix Staking Coin",
-    "image": "omniflix/asset/flix.png"
+    "description": "OmniFlix Staking Coin",
+    "image": "omniflix/asset/flix.png",
+    "coinGeckoId": "omniflix-network"
   },
   {
     "denom": "ibc/A8C2D23A1E6F95DA4E48BA349667E322BD7A6C996D8A4AAE8BA72E190F3D1477",
