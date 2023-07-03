@@ -1,0 +1,11 @@
+{
+  "supportChainNames": ["cosmos", "osmosis", "stride", "stargaze", "omniflix", "crescent"],
+  "supportChainIds": ["cosmoshub-4", "osmosis-1", "stride-1", "stargaze-1", "omniflixhub-1", "crescent-1"],
+  "customChains": [
+    {
+      "chainId": "constantine-3",
+      "denom": "aconst",
+      "prefix": "archway"
+    }
+  ]
+}
