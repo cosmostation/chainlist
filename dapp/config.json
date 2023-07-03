@@ -1,7 +1,9 @@
 [
-  {
+  "supportChainName": [],
+  "supportChainId": []
+  "customChains": [{
     "chainId": "constantine-3",
     "prefix": "archway",
     "type": "tendermint"
-  }
+  }]
 ]
