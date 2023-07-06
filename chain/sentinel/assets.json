@@ -112,7 +112,7 @@
     "coinGeckoId": "decentr"
   },
   {
-    "denom": "ibc/a85aca68d4ebb931256f86a5360f93caa4b9102f39fed10cc3a7c57328d4ad34",
+    "denom": "ibc/5676A4BF80ECED46E0E3B82D379B9FAE57EA19FDB2906720C42D7BEC980878E8",
     "type": "ibc",
     "origin_chain": "medasdigital",
     "origin_denom": "umedas",
@@ -121,10 +121,10 @@
     "decimals": 6,
     "enable": true,
     "path": "medasdigital>sentinel",
-    "channel": "channel-60",
+    "channel": "channel-84",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-4",
+      "channel": "channel-6",
       "port": "transfer",
       "denom": "umedas"
     },
