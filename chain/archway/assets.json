@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "aarch",
+    "type": "staking",
+    "origin_chain": "archway",
+    "origin_denom": "aarch",
+    "origin_type": "staking",
+    "symbol": "ARCH",
+    "decimals": 18,
+    "description": "Archway Staking Coin",
+    "image": "archway/asset/arch.png",
+    "coinGeckoId": "archway"
+  }
+]
