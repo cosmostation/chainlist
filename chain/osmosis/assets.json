@@ -2110,5 +2110,25 @@
     },
     "image": "stride/asset/stjuno.png",
     "coinGeckoId": "stride-staked-juno"
+  },
+  {
+    "denom": "ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477",
+    "type": "ibc",
+    "origin_chain": "quasar",
+    "origin_denom": "uqsr",
+    "origin_type": "staking",
+    "symbol": "QSR",
+    "decimals": 6,
+    "enable": true,
+    "path": "quasar>osmosis",
+    "channel": "channel-688",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uqsr"
+    },
+    "image": "quasar/asset/qsr.png",
+    "coinGeckoId": ""
   }
 ]
