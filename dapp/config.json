@@ -6,6 +6,10 @@
       "chainId": "constantine-3",
       "denom": "aconst",
       "prefix": "archway"
+    }, {
+      "chainId": "phoenix-1",
+      "denom": "uluna",
+      "prefix": "luna"
     }
   ]
 }
