@@ -2110,5 +2110,45 @@
     },
     "image": "stride/asset/stjuno.png",
     "coinGeckoId": "stride-staked-juno"
+  },
+  {
+    "denom": "ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477",
+    "type": "ibc",
+    "origin_chain": "quasar",
+    "origin_denom": "uqsr",
+    "origin_type": "staking",
+    "symbol": "QSR",
+    "decimals": 6,
+    "enable": true,
+    "path": "quasar>osmosis",
+    "channel": "channel-688",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uqsr"
+    },
+    "image": "quasar/asset/qsr.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/23AB778D694C1ECFC59B91D8C399C115CC53B0BD1C61020D8E19519F002BDD85",
+    "type": "ibc",
+    "origin_chain": "archway",
+    "origin_denom": "aarch",
+    "origin_type": "staking",
+    "symbol": "ARCH",
+    "decimals": 18,
+    "enable": true,
+    "path": "archway>osmosis",
+    "channel": "channel-1429",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "aarch"
+    },
+    "image": "archway/asset/arch.png",
+    "coinGeckoId": "archway"
   }
 ]

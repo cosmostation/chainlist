@@ -1,0 +1,54 @@
+[
+  {
+    "denom": "aarch",
+    "type": "staking",
+    "origin_chain": "archway",
+    "origin_denom": "aarch",
+    "origin_type": "staking",
+    "symbol": "ARCH",
+    "decimals": 18,
+    "description": "Archway Staking Coin",
+    "image": "archway/asset/arch.png",
+    "coinGeckoId": "archway"
+  },
+  {
+    "denom": "ibc/C0E66D1C81D8AAF0E6896E05190FDFBC222367148F86AC3EA679C28327A763CD",
+    "type": "ibc",
+    "origin_chain": "axelar",
+    "origin_denom": "uaxl",
+    "origin_type": "staking",
+    "symbol": "AXL",
+    "decimals": 6,
+    "enable": true,
+    "path": "axelar>archway",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-110",
+      "port": "transfer",
+      "denom": "uaxl"
+    },
+    "image": "axelar/asset/axl.png",
+    "coinGeckoId": "axelar"
+  },
+  {
+    "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "cosmos>archway",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-623",
+      "port": "transfer",
+      "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  }
+]
