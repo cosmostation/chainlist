@@ -132,6 +132,27 @@
     "image": "nois/asset/nois.png"
   },
   {
+    "denom": "ibc/EBD5A24C554198EBAF44979C5B4D2C2D312E6EBAB71962C92F735499C7575839",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "astro",
+    "origin_type": "cw20",
+    "symbol": "ASTRO",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>injective",
+    "channel": "channel-104",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-91",
+      "port": "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce",
+      "denom": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
+    },
+    "image": "terra/asset/astro.png",
+    "coinGeckoId": "astroport-fi",
+    "contract": "terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce"
+  },
+  {
     "denom": "peggy0x8d983cb9388eac77af0474fa441c4815500cb7bb",
     "type": "bridge",
     "origin_chain": "ethereum",
