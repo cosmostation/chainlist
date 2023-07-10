@@ -1967,7 +1967,7 @@
       "port": "transfer",
       "denom": "loki"
     },
-    "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
+    "image": "odin/asset/odin.png",
     "coinGeckoId": "odin-protocol"
   },
   {
@@ -2150,5 +2150,44 @@
     },
     "image": "archway/asset/arch.png",
     "coinGeckoId": "archway"
-  }
+  },
+   {
+    "denom": "ibc/9B6FBABA36BB4A3BF127AE5E96B572A5197FD9F3111D895D8919B07BC290764A",
+    "type": "ibc",
+    "origin_chain": "odin",
+    "origin_denom": "mgeo",
+    "origin_type": "native",
+    "symbol": "GEO",
+    "decimals": 6,
+    "enable": true,
+    "path": "odin>osmosis",
+    "channel": "channel-258",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "mgeo"
+    },
+    "image": "odin/asset/geo.png",
+    "coinGeckoId": "geodb"
+  },
+   {
+    "denom": "ibc/0CD46223FEABD2AEAAAF1F057D01E63BCA79B7D4BD6B68F1EB973A987344695D",
+    "type": "ibc",
+    "origin_chain": "odin",
+    "origin_denom": "mO9W",
+    "origin_type": "native",
+    "symbol": "O9W",
+    "decimals": 6,
+    "enable": true,
+    "path": "odin>osmosis",
+    "channel": "channel-258",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "mO9W"
+    },
+    "image": "odin/asset/o9w.png",
+      }
 ]
