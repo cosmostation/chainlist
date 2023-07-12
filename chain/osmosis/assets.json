@@ -1375,7 +1375,7 @@
       "port": "transfer",
       "denom": "sfrxeth-wei"
     },
-    "image": "ethereum/asset/XXXXXXX.png",
+    "image": "ethereum/asset/sfrxeth.png",
     "coinGeckoId": "staked-frax-ether",
     "contract": "0xac3E018457B222d93114458476f3E3416Abbe38F"
   },
@@ -1545,7 +1545,49 @@
     "image": "juno/asset/sejuno.png",
     "coinGeckoId": "",
     "contract": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
+  }, 
+  {
+    "denom": "ibc/6F18EFEBF1688AA77F7EAC17065609494DC1BA12AFC78E9AEC832AF70A11BEF3",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "cub",
+    "origin_type": "cw20",
+    "symbol": "CUB",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>osmosis",
+    "channel": "channel-341",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-26",
+      "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+      "denom": "cw20:terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
+    },
+    "image": "terra/asset/cub.png",
+    "coinGeckoId": "",
+    "contract": "terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
   },
+  {
+    "denom": "ibc/DA961FE314B009C38595FFE3AF41225D8894D663B8C3F6650DCB5B6F8435592E",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "blue",
+    "origin_type": "cw20",
+    "symbol": "BLUE",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>osmosis",
+    "channel": "channel-341",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-26",
+      "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+      "denom": "cw20:terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+    },
+    "image": "terra/asset/blue.png",
+    "coinGeckoId": "",
+    "contract": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+  }, 
   {
     "denom": "ibc/c2df5c3949ca835b221c575625991f09bab4e48fb9c11a4ee357194f736111e3",
     "type": "ibc",
@@ -1925,7 +1967,7 @@
       "port": "transfer",
       "denom": "loki"
     },
-    "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
+    "image": "odin/asset/odin.png",
     "coinGeckoId": "odin-protocol"
   },
   {
@@ -2068,5 +2110,84 @@
     },
     "image": "stride/asset/stjuno.png",
     "coinGeckoId": "stride-staked-juno"
-  }
+  },
+  {
+    "denom": "ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477",
+    "type": "ibc",
+    "origin_chain": "quasar",
+    "origin_denom": "uqsr",
+    "origin_type": "staking",
+    "symbol": "QSR",
+    "decimals": 6,
+    "enable": true,
+    "path": "quasar>osmosis",
+    "channel": "channel-688",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uqsr"
+    },
+    "image": "quasar/asset/qsr.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/23AB778D694C1ECFC59B91D8C399C115CC53B0BD1C61020D8E19519F002BDD85",
+    "type": "ibc",
+    "origin_chain": "archway",
+    "origin_denom": "aarch",
+    "origin_type": "staking",
+    "symbol": "ARCH",
+    "decimals": 18,
+    "enable": true,
+    "path": "archway>osmosis",
+    "channel": "channel-1429",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "aarch"
+    },
+    "image": "archway/asset/arch.png",
+    "coinGeckoId": "archway"
+  },
+   {
+    "denom": "ibc/9B6FBABA36BB4A3BF127AE5E96B572A5197FD9F3111D895D8919B07BC290764A",
+    "type": "ibc",
+    "origin_chain": "odin",
+    "origin_denom": "mgeo",
+    "origin_type": "native",
+    "symbol": "GEO",
+    "decimals": 6,
+    "enable": true,
+    "path": "odin>osmosis",
+    "channel": "channel-258",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "mgeo"
+    },
+    "image": "odin/asset/geo.png",
+    "coinGeckoId": "geodb"
+  },
+   {
+    "denom": "ibc/0CD46223FEABD2AEAAAF1F057D01E63BCA79B7D4BD6B68F1EB973A987344695D",
+    "type": "ibc",
+    "origin_chain": "odin",
+    "origin_denom": "mO9W",
+    "origin_type": "native",
+    "symbol": "O9W",
+    "decimals": 6,
+    "enable": true,
+    "path": "odin>osmosis",
+    "channel": "channel-258",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "mO9W"
+      },
+     "image": "odin/asset/o9w.png"
+   }
 ]
