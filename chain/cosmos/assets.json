@@ -768,7 +768,8 @@
       "port": "transfer",
       "denom": "stustrd"
     },
-    "image": "stride/asset/strd.png"
+    "image": "stride/asset/strd.png",
+    "coinGeckoId": "stride"
   },
   {
     "denom": "ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231",
@@ -787,6 +788,7 @@
       "port": "transfer",
       "denom": "stuatom"
     },
-    "image": "stride/asset/statom.png"
+    "image": "stride/asset/statom.png",
+    "coinGeckoId": "stride-staked-atom"
   }
 ]
