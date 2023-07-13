@@ -338,5 +338,18 @@
       "tag":[
          "Interchain Launchpad"
       ]
+   },
+   {
+      "title": "Astrovault",
+      "description": "DeFi, Sustainably.",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/astrovault.png",
+      "url": "https://astrovault.io",
+      "chain": [
+         "archway"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Dex"
+      ]
    }
 ]
