@@ -21,10 +21,10 @@
     "decimals": 6,
     "enable": true,
     "path": "axelar>archway",
-    "channel": "channel-2",
+    "channel": "channel-13",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-110",
+      "channel": "channel-111",
       "port": "transfer",
       "denom": "uaxl"
     },
@@ -70,5 +70,26 @@
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
+  },
+  {
+    "denom": "ibc/E21808AEBCB7E02F594897100186C126E3BC9A36B0974196AF116750A4573F06",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>archway",
+    "channel": "channel-13",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-111",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   }
 ]
