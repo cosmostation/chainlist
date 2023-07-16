@@ -784,6 +784,26 @@
     "coinGeckoId": "medibloc"
   },
   {
+    "denom": "ibc/D9AFCECDD361D38302AA66EB3BAC23B95234832C51D12489DC451FA2B7C72782",
+    "type": "ibc",
+    "origin_chain": "nolus",
+    "origin_denom": "unls",
+    "origin_type": "staking",
+    "symbol": "NLS",
+    "decimals": 6,
+    "enable": true,
+    "path": "nolus>osmosis",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-783",
+      "port": "transfer",
+      "denom": "unls"
+    },
+    "image": "nolus/asset/nolus.png",
+    "coinGeckoId": "nolus"
+  },
+  {
     "denom": "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0",
     "type": "ibc",
     "origin_chain": "comdex",
@@ -1967,7 +1987,7 @@
       "port": "transfer",
       "denom": "loki"
     },
-    "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
+    "image": "odin/asset/odin.png",
     "coinGeckoId": "odin-protocol"
   },
   {
@@ -2110,5 +2130,84 @@
     },
     "image": "stride/asset/stjuno.png",
     "coinGeckoId": "stride-staked-juno"
-  }
+  },
+  {
+    "denom": "ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477",
+    "type": "ibc",
+    "origin_chain": "quasar",
+    "origin_denom": "uqsr",
+    "origin_type": "staking",
+    "symbol": "QSR",
+    "decimals": 6,
+    "enable": true,
+    "path": "quasar>osmosis",
+    "channel": "channel-688",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uqsr"
+    },
+    "image": "quasar/asset/qsr.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/23AB778D694C1ECFC59B91D8C399C115CC53B0BD1C61020D8E19519F002BDD85",
+    "type": "ibc",
+    "origin_chain": "archway",
+    "origin_denom": "aarch",
+    "origin_type": "staking",
+    "symbol": "ARCH",
+    "decimals": 18,
+    "enable": true,
+    "path": "archway>osmosis",
+    "channel": "channel-1429",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "aarch"
+    },
+    "image": "archway/asset/arch.png",
+    "coinGeckoId": "archway"
+  },
+   {
+    "denom": "ibc/9B6FBABA36BB4A3BF127AE5E96B572A5197FD9F3111D895D8919B07BC290764A",
+    "type": "ibc",
+    "origin_chain": "odin",
+    "origin_denom": "mgeo",
+    "origin_type": "native",
+    "symbol": "GEO",
+    "decimals": 6,
+    "enable": true,
+    "path": "odin>osmosis",
+    "channel": "channel-258",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "mgeo"
+    },
+    "image": "odin/asset/geo.png",
+    "coinGeckoId": "geodb"
+  },
+   {
+    "denom": "ibc/0CD46223FEABD2AEAAAF1F057D01E63BCA79B7D4BD6B68F1EB973A987344695D",
+    "type": "ibc",
+    "origin_chain": "odin",
+    "origin_denom": "mO9W",
+    "origin_type": "native",
+    "symbol": "O9W",
+    "decimals": 6,
+    "enable": true,
+    "path": "odin>osmosis",
+    "channel": "channel-258",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "mO9W"
+      },
+     "image": "odin/asset/o9w.png"
+   }
 ]

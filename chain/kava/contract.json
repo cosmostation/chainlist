@@ -14,34 +14,34 @@
     "chainId": 2222,
     "chainName": "kava",
     "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
-    "symbol": "USDC",
-    "description": "USD Coin",
+    "symbol": "MultiUSDC",
+    "description": "Multichain USDC",
     "decimals": 6,
     "image": "ethereum/asset/usdc.png",
     "default": true,
-    "coinGeckoId":"usd-coin"
+    "coinGeckoId": "usd-coin"
   },
   {
     "chainId": 2222,
     "chainName": "kava",
     "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
-    "symbol": "USDT",
-    "description": "Tether USD",
+    "symbol": "MultiUSDT",
+    "description": "Multichain USDT",
     "decimals": 6,
     "image": "ethereum/asset/usdt.png",
     "default": true,
-    "coinGeckoId":"tether"
+    "coinGeckoId": "tether"
   },
   {
     "chainId": 2222,
     "chainName": "kava",
     "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
-    "symbol": "DAI",
-    "description": "Dai Stablecoin",
+    "symbol": "MultiDAI",
+    "description": "Multichain Dai Stablecoin",
     "decimals": 18,
     "image": "ethereum/asset/dai.png",
     "default": false,
-    "coinGeckoId":"dai"
+    "coinGeckoId": "dai"
   },
   {
     "chainId": 2222,
@@ -52,7 +52,7 @@
     "decimals": 18,
     "image": "ethereum/asset/elk.png",
     "default": false,
-    "coinGeckoId":"elk-finance"
+    "coinGeckoId": "elk-finance"
   },
   {
     "chainId": 2222,
@@ -63,17 +63,39 @@
     "decimals": 18,
     "image": "ethereum/asset/mare.png",
     "default": false,
-    "coinGeckoId":"mare-finance"
+    "coinGeckoId": "mare-finance"
   },
   {
     "chainId": 2222,
     "chainName": "kava",
     "address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
-    "symbol": "WBTC",
-    "description": "Wrapped BTC",
+    "symbol": "MultiWBTC",
+    "description": "Multichain Wrapped BTC",
     "decimals": 8,
     "image": "ethereum/asset/wbtc.png",
     "default": false,
-    "coinGeckoId":"wrapped-bitcoin"
+    "coinGeckoId": "wrapped-bitcoin"
+  },
+  {
+    "chainId": 2222,
+    "chainName": "kava",
+    "address": "0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3",
+    "symbol": "ATOM",
+    "description": "ATOM",
+    "decimals": 6,
+    "image": "cosmos/asset/atom.png",
+    "default": false,
+    "coinGeckoId": "cosmos-hub"
+  },
+  {
+    "chainId": 2222,
+    "chainName": "kava",
+    "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
+    "symbol": "USDt",
+    "description": "Tether USDt",
+    "decimals": 6,
+    "image": "ethereum/asset/usdt.png",
+    "default": false,
+    "coinGeckoId": "tether"
   }
 ]
