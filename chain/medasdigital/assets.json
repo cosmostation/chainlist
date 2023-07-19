@@ -32,7 +32,7 @@
     "coinGeckoId": "osmosis"
   },
   {
-    "denom": "ibc/B7489F796F582168A256F44B1B2AB93DD2E868487DA91F28FD2BA967E97F5712",
+    "denom": "ibc/B4C138B6F08A5BC826ABEFD56CAE828D2CF0A3B62A73B74AECC46D257371B125",
     "type": "ibc",
     "origin_chain": "sentinel",
     "origin_denom": "udvpn",
@@ -41,10 +41,10 @@
     "decimal": 6,
     "enable": true,
     "path": "sentinel>medasdigital",
-    "channel": "channel-4",
+    "channel": "channel-6",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-60",
+        "channel": "channel-84",
         "port": "transfer",
         "denom": "udvpn"
     },
