@@ -9,7 +9,7 @@
     "decimal": 6,
     "description": "Medas Digital Staking Coin",
     "image": "medasdigital/asset/medas.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "medasdigital"
   },
   {
     "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
@@ -30,5 +30,45 @@
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
-  } 
+  },
+  {
+    "denom": "ibc/B4C138B6F08A5BC826ABEFD56CAE828D2CF0A3B62A73B74AECC46D257371B125",
+    "type": "ibc",
+    "origin_chain": "sentinel",
+    "origin_denom": "udvpn",
+    "origin_type": "staking",
+    "symbol": "DVPN",
+    "decimal": 6,
+    "enable": true,
+    "path": "sentinel>medasdigital",
+    "channel": "channel-6",
+    "port": "transfer",
+    "counter_party": {
+        "channel": "channel-84",
+        "port": "transfer",
+        "denom": "udvpn"
+    },
+    "image": "sentinel/asset/dvpn.png",
+    "coinGeckoId": "sentinel"
+  },
+  {
+    "denom": "ibc/92E4AB82E3B2AF2D5181AC69C74F9F6D890442C7B7B02CC8634B9D3ED7CF936D",
+    "type": "ibc",
+    "origin_chain": "sifchain",
+    "origin_denom": "rowan",
+    "origin_type": "staking",
+    "symbol": "ROWAN",
+    "decimals": 18,
+    "enable": true,
+    "path": "sifchain>medasdigital",
+    "channel": "channel-5",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-89",
+      "port": "transfer",
+      "denom": "rowan"
+    },
+    "image": "sifchain/asset/rowan.png",
+    "coinGeckoId": "sifchain"
+  }
 ]

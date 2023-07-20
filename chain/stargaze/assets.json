@@ -90,5 +90,44 @@
     },
     "image": "gravity-bridge/asset/grav.png",
     "coinGeckoId": "graviton"
+  },
+  {
+    "denom": "ibc/71D1A2823DC0563C5D70CCB64264C0AB5E33F10887FAE3D5889FB31718B2C933",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "gamm/pool/604",
+    "origin_type": "pool",
+    "symbol": "gamm/pool/604",
+    "decimals": 18,
+    "enable": false,
+    "path": "osmosis>stargaze",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-75",
+      "port": "transfer",
+      "denom": "gamm/pool/604"
+    },
+    "image": "osmosis/asset/pool.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/0F181D9F5BB18A8496153C1666E934169515592C135E8E9FCCC355889858EAF9",
+    "type": "ibc",
+    "origin_chain": "nois",
+    "origin_denom": "unois",
+    "origin_type": "staking",
+    "symbol": "NOIS",
+    "decimals": 6,
+    "enable": true,
+    "path": "nois>stargaze",
+    "channel": "channel-137",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "unois"
+    },
+    "image": "nois/asset/nois.png"
   }
 ]
