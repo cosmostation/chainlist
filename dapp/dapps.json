@@ -13,19 +13,6 @@
       ]
    },
    {
-      "title":"Kava",
-      "description":"Swap, mint, lend and earn on Kava, a lightning-fast Layer-1 blockchain that combines Cosmos & Ethereum.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/kava.png",
-      "url":"https://app.kava.io",
-      "chain":[
-         "kava"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Dex"
-      ]
-   },
-   {
       "title":"Osmosis",
       "description":"Swap, provide, and earn on the leading decentralized AMM.",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/osmosis.png",
@@ -58,32 +45,6 @@
       "url":"https://app.crescent.network",
       "chain":[
          "crescent"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Dex"
-      ]
-   },
-   {
-      "title":"Diffusion",
-      "description":"Swap, earn, bridge, and stake on Diffusion, an AMM protocol and liquidity pool designed for efficient trading between crypto-assets.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/diffusion.png",
-      "url":"https://app.diffusion.fi",
-      "chain":[
-         "evmos"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Dex"
-      ]
-   },
-   {
-      "title":"Spacefi",
-      "description":"Swap on a cross-chain web3 DEX platform connecting Cosmos and Layer2.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/spacefi.png",
-      "url":"https://swap-evmos.spacefi.io",
-      "chain":[
-         "evmos"
       ],
       "category":"Defi",
       "tag":[
@@ -128,19 +89,6 @@
       "category":"NFT",
       "tag":[
          "SNS"
-      ]
-   },
-   {
-      "title":"Racoon.bet",
-      "description":"Gaming platform offering fully integrated on-chain games within the Cosmos Ecosystem.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/racoon-bet.png",
-      "url":"https://www.racoon.bet",
-      "chain":[
-         "juno"
-      ],
-      "category":"Game",
-      "tag":[
-         "Gamble"
       ]
    },
    {
@@ -311,19 +259,6 @@
       "category":"Defi",
       "tag":[
          "Liquid Staking"
-      ]
-   },
-   {
-      "title":"Junoswap",
-      "description":"JunoSwap is the first ever interchain decentralized exchange focussed on CW-20 (CosmWasm) asset adoption.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/junoswap.png",
-      "url":"https://junoswap.com",
-      "chain":[
-         "juno"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Dex"
       ]
    },
    {
