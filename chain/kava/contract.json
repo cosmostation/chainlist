@@ -13,6 +13,28 @@
   {
     "chainId": 2222,
     "chainName": "kava",
+    "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
+    "symbol": "USDt",
+    "description": "Tether USDt",
+    "decimals": 6,
+    "image": "ethereum/asset/usdt.png",
+    "default": false,
+    "coinGeckoId": "tether"
+  },
+  {
+    "chainId": 2222,
+    "chainName": "kava",
+    "address": "0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3",
+    "symbol": "ATOM",
+    "description": "ATOM",
+    "decimals": 6,
+    "image": "cosmos/asset/atom.png",
+    "default": false,
+    "coinGeckoId": "cosmos-hub"
+  },
+  {
+    "chainId": 2222,
+    "chainName": "kava",
     "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
     "symbol": "MultiUSDC",
     "description": "Multichain USDC",
@@ -75,27 +97,5 @@
     "image": "ethereum/asset/wbtc.png",
     "default": false,
     "coinGeckoId": "wrapped-bitcoin"
-  },
-  {
-    "chainId": 2222,
-    "chainName": "kava",
-    "address": "0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3",
-    "symbol": "ATOM",
-    "description": "ATOM",
-    "decimals": 6,
-    "image": "cosmos/asset/atom.png",
-    "default": false,
-    "coinGeckoId": "cosmos-hub"
-  },
-  {
-    "chainId": 2222,
-    "chainName": "kava",
-    "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
-    "symbol": "USDt",
-    "description": "Tether USDt",
-    "decimals": 6,
-    "image": "ethereum/asset/usdt.png",
-    "default": false,
-    "coinGeckoId": "tether"
   }
 ]
