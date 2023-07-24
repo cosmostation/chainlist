@@ -1,1 +1,290 @@
-[]
+[
+   {
+      "title":"Cosmon",
+      "description":"Build a team of leaders, collect cards, fight to earn! The first NFT Play to Earn on Cosmos",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/cosmon.png",
+      "url":"https://cosmon.ki",
+      "chain":[
+         "ki-chain"
+      ],
+      "category":"Game",
+      "tag":[
+         "P2E"
+      ]
+   },
+   {
+      "title":"Osmosis",
+      "description":"Swap, provide, and earn on the leading decentralized AMM.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/osmosis.png",
+      "url":"https://app.osmosis.zone",
+      "chain":[
+         "osmosis"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title":"Osmosis Frontier",
+      "description":"Swap, provide, and earn on the permissionless decentralized AMM.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/osmosis-frontier.png",
+      "url":"https://frontier.osmosis.zone",
+      "chain":[
+         "osmosis"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title":"Crescent",
+      "description":"Swap, earn, and stake on a capital-efficient AMM/orderbook hybrid DEX.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/crescent.png",
+      "url":"https://app.crescent.network",
+      "chain":[
+         "crescent"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title":"DAODAO",
+      "description":"Simple, capable, and free DAO tooling.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/daodao.png",
+      "url":"https://daodao.zone/home",
+      "chain":[
+         "juno"
+      ],
+      "category":"Social",
+      "tag":[
+         "DAO"
+      ]
+   },
+   {
+      "title":"Coinhall",
+      "description":"Realtime Charts, DEX Aggregator & Analytics.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/coinhall.png",
+      "url":"https://coinhall.org",
+      "chain":[
+         "juno",
+         "osmosis"
+      ],
+      "category":"Defi",
+      "tag":[
+         "AGG"
+      ]
+   },
+   {
+      "title":"Liker.Land: Writing NFT",
+      "description":"Publish as you write. Collect as you read.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/likerland.png",
+      "url":"https://liker.land",
+      "chain":[
+         "likecoin"
+      ],
+      "category":"NFT",
+      "tag":[
+         "SNS"
+      ]
+   },
+   {
+      "title":"Hopers.io",
+      "description":"Hopers.io is a comprehensive platform that combines the power of DeFi and NFTs on the Cosmos blockchain on top of the L1 JUNO. It offers a fully-permissionless DEX and a marketplace for buying and selling unique NFTs.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/hopers.png",
+      "url":"https://hopers.io/",
+      "chain":[
+         "juno"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title":"depub.space",
+      "description":"An Web3 decentralized Twitter on Likecoin.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/depubspace.png",
+      "url":"https://depub.space",
+      "chain":[
+         "likecoin"
+      ],
+      "category":"Social",
+      "tag":[
+         "SNS"
+      ]
+   },
+   {
+      "title":"OmniFlix Market",
+      "description":"OmniFlix Market is the destination for NFT creators, communities & curators to list & collect NFTs in Fixed Price Listings or Timed Auctions in various IBC tokens.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/omniflix.png",
+      "url":"https://omniflix.market",
+      "chain":[
+         "omniflix"
+      ],
+      "category":"NFT",
+      "tag":[
+         "MarketPlace"
+      ]
+   },
+   {
+      "title":"Frontier OmniFlix Market",
+      "description":"Frontier is a Market UI on OmniFlix to bring you the latest features that might be tagged as features in testing and development.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/omniflix.png",
+      "url":"https://frontier.omniflix.market",
+      "chain":[
+         "omniflix"
+      ],
+      "category":"NFT",
+      "tag":[
+         "MarketPlace"
+      ]
+   },
+   {
+      "title":"Umee",
+      "description":"Borrow and lend today.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/umeemarkets.png",
+      "url":"https://app.umee.cc",
+      "chain":[
+         "umee"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Lending"
+      ]
+   },
+   {
+      "title":"Racoon.bet",
+      "description":"Gaming platform offering fully integrated on-chain games within the Cosmos Ecosystem.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/racoon-bet-huahua.png",
+      "url":"https://chihuahua.racoon.bet/",
+      "chain":[
+         "chihuahua"
+      ],
+      "category":"Game",
+      "tag":[
+         "Gamble"
+      ]
+   },
+   {
+      "title":"WyndDAO",
+      "description":"The cross chain native DeFi and ReFi experience",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/wynddao.png",
+      "url":"https://dex.wynddao.com/",
+      "chain":[
+         "juno"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title":"TFM",
+      "description":"DEX/NFT Aggregator & Analytics.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/tfm.png",
+      "url":"https://tfm.com/osmosis",
+      "chain":[
+         "osmosis",
+         "juno"
+      ],
+      "category":"Defi",
+      "tag":[
+         "AGG"
+      ]
+   },
+   {
+      "title":"Mars Protocol",
+      "description":"Lend, borrow and earn on the galaxy's most powerful credit protocol or enter the Fields of Mars for advanced DeFi strategies.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/mars.png",
+      "url":"https://osmosis.marsprotocol.io",
+      "chain":[
+         "osmosis"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Money Market", "Farming"
+      ]
+   },
+   {
+      "title":"Empawrium",
+      "description":"The official Chihuahua NFT Marketplace",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/empawrium.png",
+      "url":"https://mobile.empawrium.wtf/",
+      "chain":[
+         "chihuahua"
+      ],
+      "category":"NFT",
+      "tag":[
+         "Marketplace", "NFT"
+      ]
+   },
+   {
+      "title":"Stargaze",
+      "description":"A Decentralized Community-owned NFT App Chain.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stargaze.png",
+      "url":"https://app.stargaze.zone",
+      "chain":[
+         "stargaze"
+      ],
+      "category":"NFT",
+      "tag":[
+         "Marketplace", "NFT"
+      ]
+   },
+   {
+      "title":"Stride",
+      "description":"Stride is a blockchain that provides liquidity for staked tokens.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stride.png",
+      "url":"https://app.stride.zone",
+      "chain":[
+         "stride"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Liquid Staking"
+      ]
+   },
+   {
+      "title":"pSTAKE",
+      "description":"Earn staking rewards on your Assets for securing PoS networks and participate in DeFi with stkAssets for additional yields.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/pstake.png",
+      "url":"https://cosmos.pstake.finance",
+      "chain":[
+         "persistence"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Liquid Staking"
+      ]
+   },
+   {
+      "title": "StreamSwap Protocol",
+      "description": "launchpad for community-driven token launches using time-based swaps",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stream-swap.png",
+      "url": "https://app.streamswap.io",
+      "chain": [
+         "osmosis"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Interchain Launchpad"
+      ]
+   },
+   {
+      "title": "Astrovault",
+      "description": "DeFi, Sustainably.",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/astrovault.png",
+      "url": "https://astrovault.io",
+      "chain": [
+         "archway"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Dex"
+      ]
+   }
+]
