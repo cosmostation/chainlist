@@ -12,6 +12,18 @@
     "coinGeckoId": "kava"
   },
   {
+    "denom": "erc20/tether/usdt",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "erc20/tether/usdt",
+    "origin_type": "native",
+    "symbol": "USDt",
+    "decimals": 6,
+    "description": "Tether USDt",
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether"
+  },
+  {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
     "type": "ibc",
     "origin_chain": "cosmos",
@@ -163,9 +175,23 @@
     "origin_type": "erc20",
     "symbol": "axlUSDC",
     "decimals": 6,
+    "description": "Axelar Wrapped USDC",
     "path": "ethereum>axelar>kava",
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "erc20/axelar/wbtc",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "wbtc",
+    "origin_type": "erc20",
+    "symbol": "axlWBTC",
+    "decimals": 8,
+    "description": "Axelar Wrapped WBTC",
+    "path": "ethereum>axelar>kava",
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "wrapped-bitcoin"
   },
   {
     "denom": "hbtc",
@@ -253,10 +279,10 @@
     "origin_chain": "kava",
     "origin_denom": "wbtc",
     "origin_type": "native",
-    "symbol": "Unknown",
+    "symbol": "MultiWBTC",
     "decimals": 8,
-    "description": "",
-    "image": "kava/asset/unknown.png",
-    "coinGeckoId": ""
+    "description": "Multichain Wrapped BTC",
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "wrapped-bitcoin"
   }
 ]
