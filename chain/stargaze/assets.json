@@ -129,5 +129,17 @@
       "denom": "unois"
     },
     "image": "nois/asset/nois.png"
+  },
+  {
+    "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
+    "type": "native",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
+    "origin_type": "native",
+    "symbol": "STRDST",
+    "decimals": 6,
+    "description": "The native token of ohhNFT.",
+    "image": "stargaze/asset/dust.png",
+    "coinGeckoId": ""
   }
 ]
