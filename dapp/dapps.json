@@ -351,5 +351,31 @@
       "tag":[
          "Dex"
       ]
+   },
+   {
+      "title": "Dezswap",
+      "description": "Sassy Dez brought the no.1 DEX to the XPLA Chain. Dezswap helps your painless DeFi life!",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/dezswap.png",
+      "url": "https://app.dezswap.io",
+      "chain": [
+         "xpla"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Dex"
+      ]
+   },
+   {
+      "title": "STARFLEIT",
+      "description": "Powerful DEX with next-gen technologies on Fetch.ai",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/starfleit.png",
+      "url": "https://app.starfleit.io",
+      "chain": [
+         "fetchai"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Dex"
+      ]
    }
 ]
