@@ -784,6 +784,26 @@
     "coinGeckoId": "medibloc"
   },
   {
+    "denom": "ibc/D9AFCECDD361D38302AA66EB3BAC23B95234832C51D12489DC451FA2B7C72782",
+    "type": "ibc",
+    "origin_chain": "nolus",
+    "origin_denom": "unls",
+    "origin_type": "staking",
+    "symbol": "NLS",
+    "decimals": 6,
+    "enable": true,
+    "path": "nolus>osmosis",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-783",
+      "port": "transfer",
+      "denom": "unls"
+    },
+    "image": "nolus/asset/nolus.png",
+    "coinGeckoId": "nolus"
+  },
+  {
     "denom": "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0",
     "type": "ibc",
     "origin_chain": "comdex",
@@ -2129,7 +2149,7 @@
       "denom": "uqsr"
     },
     "image": "quasar/asset/qsr.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "quasar-2"
   },
   {
     "denom": "ibc/23AB778D694C1ECFC59B91D8C399C115CC53B0BD1C61020D8E19519F002BDD85",
