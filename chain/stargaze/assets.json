@@ -141,5 +141,17 @@
     "description": "The native token of ohhNFT.",
     "image": "stargaze/asset/dust.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/mGAZE",
+    "type": "native",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/mGAZE",
+    "origin_type": "native",
+    "symbol": "GAZE",
+    "decimals": 6,
+    "description": "The native meme token of stargaze.",
+    "image": "stargaze/asset/gaze.png",
+    "coinGeckoId": ""
   }
 ]
