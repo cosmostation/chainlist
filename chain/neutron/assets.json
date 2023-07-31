@@ -1,0 +1,116 @@
+[
+  {
+      "denom": "untrn",
+      "type": "staking",
+      "origin_chain": "neutron",
+      "origin_denom": "untrn",
+      "origin_type": "staking",
+      "symbol": "NTRN",
+      "decimals": 6,
+      "description": "Neutron DAO Token",
+      "image": "neutron/asset/ntrn.png",
+      "coinGeckoId": "neutron-3"
+  },
+  {
+    "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "cosmos>neutron",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-569",
+      "port": "transfer",
+      "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/C0E66D1C81D8AAF0E6896E05190FDFBC222367148F86AC3EA679C28327A763CD",
+    "type": "ibc",
+    "origin_chain": "axelar",
+    "origin_denom": "uaxl",
+    "origin_type": "staking",
+    "symbol": "AXL",
+    "decimals": 6,
+    "enable": true,
+    "path": "axelar>neutron",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-78",
+      "port": "transfer",
+      "denom": "uaxl"
+    },
+    "image": "axelar/asset/axl.png",
+    "coinGeckoId": "axelar"
+  },
+  {
+    "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>neutron",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-78",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  {
+    "denom": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "astro",
+    "origin_type": "cw20",
+    "symbol": "ASTRO",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>neutron",
+    "channel": "channel-5",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-167",
+      "port": "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce",
+      "denom": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
+    },
+    "image": "terra/asset/astro.png",
+    "coinGeckoId": "astroport-fi",
+    "contract": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
+  },
+  {
+    "denom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuatom",
+    "origin_type": "native",
+    "symbol": "stATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>neutron",
+    "channel": "channel-8",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-123",
+      "port": "transfer",
+      "denom": "stuatom"
+    },
+    "image": "stride/asset/statom.png",
+    "coinGeckoId": "stride-staked-atom"
+  }
+]
