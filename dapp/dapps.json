@@ -338,5 +338,19 @@
       "tag":[
          "Wallet"
       ]
+   },
+   {
+      "title": "Astroport",
+      "description": "Astroport Defi",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/astroport.png",
+      "url": "https://app.astroport.fi",
+      "chain": [
+          "injective",
+          "neutron"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Dex"
+      ]
    }
 ]
