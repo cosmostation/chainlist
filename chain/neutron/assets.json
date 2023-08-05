@@ -112,5 +112,25 @@
     },
     "image": "stride/asset/statom.png",
     "coinGeckoId": "stride-staked-atom"
+  },
+  {
+    "denom": "ibc/9598CDEB7C6DB7FC21E746C8E0250B30CD5154F39CA111A9D4948A4362F638BD",
+    "type": "ibc",
+    "origin_chain": "mars-protocol",
+    "origin_denom": "umars",
+    "origin_type": "staking",
+    "symbol": "MARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "mars-protocol>neutron",
+    "channel": "channel-37",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-16",
+      "port": "transfer",
+      "denom": "umars"
+    },
+    "image": "mars-protocol/asset/mars.png",
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
   }
 ]
