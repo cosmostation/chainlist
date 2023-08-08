@@ -88,6 +88,12 @@
         },
         {
           "chainId": "umee-1"
+        },
+        {
+          "chainId": "neutron-1"
+        },
+        {
+          "chainId": "dimension_37-1"
         }
       ]
     },
@@ -113,6 +119,9 @@
         },
         {
           "chainId": "2222"
+        },
+        {
+          "chainId": "10"
         }
       ],
       "receive": [
@@ -136,6 +145,9 @@
         },
         {
           "chainId": "2222"
+        },
+        {
+          "chainId": "10"
         }
       ]
     }

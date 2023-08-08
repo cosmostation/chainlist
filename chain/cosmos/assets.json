@@ -730,5 +730,65 @@
     },
     "image": "aioz/asset/aioz.png",
     "coinGeckoId": "aioz-network"
+  },
+  {
+    "denom": "ibc/0025F8A87464A471E66B234C4F93AEC5B4DA3D42D7986451A059273426290DD5",
+    "type": "ibc",
+    "origin_chain": "neutron",
+    "origin_denom": "untrn",
+    "origin_type": "staking",
+    "symbol": "NTRN",
+    "decimals": 6,
+    "enable": true,
+    "path": "neutron>cosmos",
+    "channel": "channel-569",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "untrn"
+    },
+    "image": "neutron/asset/ntrn.png",
+    "coinGeckoId": "neutron-3"
+  },
+  {
+    "denom": "ibc/6B8A3F5C2AD51CD6171FA41A7E8C35AD594AB69226438DB94450436EA57B3A89",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "ustrd",
+    "origin_type": "staking",
+    "symbol": "STRD",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stustrd"
+    },
+    "image": "stride/asset/strd.png",
+    "coinGeckoId": "stride"
+  },
+  {
+    "denom": "ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuatom",
+    "origin_type": "native",
+    "symbol": "stATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stuatom"
+    },
+    "image": "stride/asset/statom.png",
+    "coinGeckoId": "stride-staked-atom"
   }
 ]
