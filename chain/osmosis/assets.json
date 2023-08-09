@@ -2209,5 +2209,25 @@
       "denom": "mO9W"
       },
      "image": "odin/asset/o9w.png"
-   }
+   },
+    {
+    "denom": "ibc/927661F31AA9C5801D58104292A35053097B393CFFA0D9B6CB450A3D66D747FA",
+    "type": "ibc",
+    "origin_chain": "coreum",
+    "origin_denom": "ucore",
+    "origin_type": "staking",
+    "symbol": "CORE",
+    "decimals": 6,
+    "enable": true,
+    "path": "coreum>osmosis",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2169",
+      "port": "transfer",
+      "denom": "ucore"
+    },
+    "image": "coreum/asset/coreum.png",
+    "coinGeckoId": "coreum"
+  }
 ]
