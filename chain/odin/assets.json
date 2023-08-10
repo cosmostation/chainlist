@@ -8,6 +8,30 @@
     "symbol": "ODIN",
     "decimals": 6,
     "description": "ODIN Staking Coin",
-    "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png"
-  }
+    "image": "odin/asset/odin.png",
+    "coinGeckoId": "odin-protocol"
+  },
+  {
+    "denom": "mgeo",
+    "type": "native",
+    "origin_chain": "odin",
+    "origin_denom": "mgeo",
+    "origin_type": "native",
+    "symbol": "GEO",
+    "decimals": 6,
+    "description": "Native Coin",
+    "image": "odin/asset/geo.png",
+    "coinGeckoId": "geodb"
+  },
+  {
+    "denom": "mO9W",
+    "type": "native",
+    "origin_chain": "odin",
+    "origin_denom": "mO9W",
+    "origin_type": "native",
+    "symbol": "O9W",
+    "decimals": 6,
+    "description": "Native Coin",
+    "image": "odin/asset/o9w.png",
+      }
 ]
