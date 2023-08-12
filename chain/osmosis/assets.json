@@ -2211,7 +2211,7 @@
      "image": "odin/asset/o9w.png"
    },
     {
-    "denom": "ibc/927661F31AA9C5801D58104292A35053097B393CFFA0D9B6CB450A3D66D747FA",
+    "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
     "type": "ibc",
     "origin_chain": "coreum",
     "origin_denom": "ucore",
@@ -2220,14 +2220,14 @@
     "decimals": 6,
     "enable": true,
     "path": "coreum>osmosis",
-    "channel": "channel-0",
+    "channel": "channel-2",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-2169",
+      "channel": "channel-2188",
       "port": "transfer",
       "denom": "ucore"
     },
-    "image": "coreum/asset/coreum.png",
+    "image": "coreum/asset/core.png",
     "coinGeckoId": "coreum"
   }
 ]
