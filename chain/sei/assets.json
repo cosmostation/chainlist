@@ -30,5 +30,25 @@
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
+  },
+  {
+    "denom": "ibc/6CDD4663F2F09CD62285E2D45891FC149A3568E316CE3EBBE201A71A78A69388",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "cosmos>osmosis>sei",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-782",
+      "port": "transfer",
+      "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
   }
 ]
