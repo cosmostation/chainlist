@@ -2220,10 +2220,10 @@
     "decimals": 6,
     "enable": true,
     "path": "coreum>osmosis",
-    "channel": "channel-2",
+    "channel": "channel-2188",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-2188",
+      "channel": "channel-2",
       "port": "transfer",
       "denom": "ucore"
     },
