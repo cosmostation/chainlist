@@ -816,5 +816,25 @@
     "image": "arbitrum/asset/arb.png",
     "coinGeckoId": "arbitrum",
     "contract": "0x912ce59144191c1204e64559fe8253a0e49e6548"
+  },
+  {
+    "denom": "ibc/6896F977DF5B427359BA77B5AF1052E5512D460F3CE59C8F6A7CB51408351F3C",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNA",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>axelar",
+    "channel": "channel-11",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-6",
+      "port": "transfer",
+      "denom": "uluna"
+    },
+    "image": "terra/asset/luna.png",
+    "coinGeckoId": "terra-luna-2"
   }
 ]
