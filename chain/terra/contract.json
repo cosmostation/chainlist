@@ -7,7 +7,7 @@
     "description": "Astroport Token",
     "decimals": 6,
     "image": "terra/asset/astro.png",
-    "default": false,
+    "default": true,
     "coinGeckoId": "astroport-fi"
   },
   {
