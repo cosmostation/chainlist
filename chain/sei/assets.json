@@ -95,5 +95,33 @@
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "axlusdc",
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  {
+    "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdt",
+    "origin_type": "erc20",
+    "symbol": "USDTet",
+    "decimals": 6,
+    "description": "Wrapped Tether USD from Ethereum (Wormhole)",
+    "path": "ethereum>sei",
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether-usd-wormhole-from-ethereum",
+    "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+  },
+  {
+    "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/871jbn9unTavWsAe83f2Ma9GJWSv6BKsyWYLiQ6z3Pva",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdt",
+    "origin_type": "erc20",
+    "symbol": "USDTbs",
+    "decimals": 8,
+    "description": "Binance-Peg BSC-USD from BSC (Wormhole)",
+    "path": "ethereum>sei",
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether",
+    "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
   }
 ]
