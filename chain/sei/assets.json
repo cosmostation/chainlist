@@ -19,6 +19,7 @@
     "origin_type": "staking",
     "symbol": "OSMO",
     "decimals": 6,
+    "description": "The native token of Osmosis",
     "enable": true,
     "path": "osmosis>sei",
     "channel": "channel-0",
@@ -37,8 +38,9 @@
     "origin_chain": "cosmos",
     "origin_denom": "uatom",
     "origin_type": "staking",
-    "symbol": "ATOM",
+    "symbol": "ATOM (Osmosis)",
     "decimals": 6,
+    "description": "The native staking and governance token of the Cosmos Hub",
     "enable": true,
     "path": "cosmos>osmosis>sei",
     "channel": "channel-0",
@@ -50,5 +52,48 @@
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "description": "The native staking and governance token of the Cosmos Hub",
+    "enable": true,
+    "path": "cosmos>sei",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-584",
+      "port": "transfer",
+      "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "description": "Circle's stablecoin on Axelar",
+    "enable": true,
+    "path": "ethereum>axelar>sei",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-103",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "axlusdc",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   }
 ]
