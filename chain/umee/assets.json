@@ -89,7 +89,7 @@
       "denom": "weth-wei"
     },
     "image": "ethereum/asset/weth.png",
-    "coinGeckoId": "weth",
+    "coinGeckoId": "axlweth",
     "contract": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
   },
  {
@@ -110,7 +110,7 @@
       "denom": "wbtc-satoshi"
     },
     "image": "ethereum/asset/wbtc.png",
-    "coinGeckoId": "wrapped-bitcoin",
+    "coinGeckoId": "axlwbtc",
     "contract": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
   },
   
@@ -132,7 +132,7 @@
       "denom": "uusdc"
     },
     "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin",
+    "coinGeckoId": "axlusdc",
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   },
   {
@@ -356,7 +356,7 @@
       "denom": "uusdt"
     },
     "image": "ethereum/asset/usdt.png",
-    "coinGeckoId": "tether",
+    "coinGeckoId": "axelar-usdt",
     "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
   },
   {
