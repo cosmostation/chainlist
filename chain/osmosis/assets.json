@@ -2229,5 +2229,25 @@
     },
     "image": "coreum/asset/core.png",
     "coinGeckoId": "coreum"
+  },
+  {
+    "denom": "ibc/EAF76AD1EEF7B16D167D87711FB26ABE881AC7D9F7E6D0CF313D5FA530417208",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqsomm",
+    "origin_type": "native",
+    "symbol": "qSOMM",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqsomm"
+    },
+    "image": "quicksilver/asset/qsomm.png",
+    "coinGeckoId": ""
   }
 ]
