@@ -2249,5 +2249,25 @@
     },
     "image": "quicksilver/asset/qsomm.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/71F11BC0AF8E526B80E44172EBA9D3F0A8E03950BB882325435691EBC9450B1D",
+    "type": "ibc",
+    "origin_chain": "sei",
+    "origin_denom": "usei",
+    "origin_type": "staking",
+    "symbol": "SEI",
+    "decimals": 6,
+    "enable": true,
+    "path": "sei>osmosis",
+    "channel": "channel-782",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "usei"
+    },
+    "image": "sei/asset/sei.png",
+    "coinGeckoId": "sei-network"
   }
 ]
