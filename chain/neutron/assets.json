@@ -9,7 +9,7 @@
       "decimals": 6,
       "description": "Neutron DAO Token",
       "image": "neutron/asset/ntrn.png",
-      "coinGeckoId": "neutron"
+      "coinGeckoId": "neutron-3"
   },
   {
     "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
@@ -69,7 +69,7 @@
       "denom": "uusdc"
     },
     "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin",
+    "coinGeckoId": "axlusdc",
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   },
   {
@@ -112,5 +112,25 @@
     },
     "image": "stride/asset/statom.png",
     "coinGeckoId": "stride-staked-atom"
+  },
+  {
+    "denom": "ibc/9598CDEB7C6DB7FC21E746C8E0250B30CD5154F39CA111A9D4948A4362F638BD",
+    "type": "ibc",
+    "origin_chain": "mars-protocol",
+    "origin_denom": "umars",
+    "origin_type": "staking",
+    "symbol": "MARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "mars-protocol>neutron",
+    "channel": "channel-37",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-16",
+      "port": "transfer",
+      "denom": "umars"
+    },
+    "image": "mars-protocol/asset/mars.png",
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
   }
 ]

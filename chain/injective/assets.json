@@ -72,6 +72,26 @@
     "coinGeckoId": "evmos"
   },
   {
+    "denom": "ibc/F6CC233E5C0EA36B1F74AB1AF98471A2D6A80E2542856639703E908B4D93E7C4",
+    "type": "ibc",
+    "origin_chain": "evmos",
+    "origin_denom": "neok",
+    "origin_type": "erc20",
+    "symbol": "NEOK",
+    "decimals": 18,
+    "enable": true,
+    "path": "evmos>injective",
+    "channel": "channel-83",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-10",
+      "port": "transfer",
+      "denom": "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9"
+    },
+    "image": "evmos/asset/neok.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "ibc/B786E7CBBF026F6F15A8DA248E0F18C62A0F7A70CB2DABD9239398C8B5150ABB",
     "type": "ibc",
     "origin_chain": "persistence",
@@ -130,6 +150,27 @@
       "denom": "unois"
     },
     "image": "nois/asset/nois.png"
+  },
+  {
+    "denom": "ibc/EBD5A24C554198EBAF44979C5B4D2C2D312E6EBAB71962C92F735499C7575839",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "astro",
+    "origin_type": "cw20",
+    "symbol": "ASTRO",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>injective",
+    "channel": "channel-104",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-91",
+      "port": "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce",
+      "denom": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
+    },
+    "image": "terra/asset/astro.png",
+    "coinGeckoId": "astroport-fi",
+    "contract": "terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce"
   },
   {
     "denom": "peggy0x8d983cb9388eac77af0474fa441c4815500cb7bb",
