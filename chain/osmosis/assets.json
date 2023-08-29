@@ -524,6 +524,26 @@
     "coinGeckoId": "evmos"
   },
   {
+    "denom": "ibc/DEE262653B9DE39BCEF0493D47E0DFC4FE62F7F046CF38B9FDEFEBE98D149A71",
+    "type": "ibc",
+    "origin_chain": "evmos",
+    "origin_denom": "neok",
+    "origin_type": "erc20",
+    "symbol": "NEOK",
+    "decimals": 18,
+    "enable": true,
+    "path": "evmos>osmosis",
+    "channel": "channel-204",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9"
+    },
+    "image": "evmos/asset/neok.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7",
     "type": "ibc",
     "origin_chain": "cerberus",
