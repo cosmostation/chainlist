@@ -2308,5 +2308,26 @@
       "denom": "stusomm"
     },
     "image": "stride/asset/stsomm.png"
+  },
+  {
+    "denom": "ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNA",
+    "decimals": 6,
+    "description": "Terra Staking Coin",
+    "enable": true,
+    "path": "terra>osmosis",
+    "channel": "channel-251",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uluna"
+    },
+    "image": "terra/asset/luna.png",
+    "coinGeckoId": "terra-luna-2"
   }
 ]
