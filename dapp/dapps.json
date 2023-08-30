@@ -352,5 +352,18 @@
       "tag":[
          "Dex"
       ]
+   },
+   {
+      "title": "Liquid Finance",
+      "description": "Non-custodial liquid staking protocol focused on unlocking liquidity within the archwayHQ ecosystem.",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/liquid-finance.png",
+      "url": "https://liquidfinance.xyz",
+      "chain": [
+         "archway"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Liquid Staking"
+      ]
    }
 ]
