@@ -2581,5 +2581,25 @@
     "image": "aptos/asset/aptos.png",
     "coinGeckoId": "aptos",
     "contract": "0x1::aptos_coin::AptosCoin"
+  },
+  {
+    "denom": "ibc/208B2F137CDE510B44C41947C045CFDC27F996A9D990EA64460BDD5B3DBEB2ED",
+    "type": "ibc",
+    "origin_chain": "passage",
+    "origin_denom": "upasg",
+    "origin_type": "native",
+    "symbol": "PASG",
+    "decimals": 6,
+    "enable": true,
+    "path": "passage>osmosis",
+    "channel": "channel-2494",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "upasg"
+    },
+    "image": "passage/asset/pasg.png",
+    "coinGeckoId": "passage"
   }
 ]
