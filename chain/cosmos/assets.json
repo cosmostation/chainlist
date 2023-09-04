@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Cosmos Staking Coin",
     "image": "cosmos/asset/atom.png",
-    "coinGeckoId": "cosmos"
+    "coinGeckoId": "cosmos",
+    "color": "#9C6CFF"
   },
   {
     "denom": "poolDFB8434D5A80B4EAFA94B6878BD5B85265AC6C5D37204AB899B1C3C52543DA7E",
@@ -749,6 +750,206 @@
       "denom": "untrn"
     },
     "image": "neutron/asset/ntrn.png",
-    "coinGeckoId": "neutron"
+    "coinGeckoId": "neutron-3"
+  },
+  {
+    "denom": "ibc/6B8A3F5C2AD51CD6171FA41A7E8C35AD594AB69226438DB94450436EA57B3A89",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "ustrd",
+    "origin_type": "staking",
+    "symbol": "STRD",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stustrd"
+    },
+    "image": "stride/asset/strd.png",
+    "coinGeckoId": "stride"
+  },
+  {
+    "denom": "ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuatom",
+    "origin_type": "native",
+    "symbol": "stATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stuatom"
+    },
+    "image": "stride/asset/statom.png",
+    "coinGeckoId": "stride-staked-atom"
+  },
+  {
+    "denom": "ibc/054892D6BB43AF8B93AAC28AA5FD7019D2C59A15DAFD6F45C1FA2BF9BDA22454",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuosmo",
+    "origin_type": "native",
+    "symbol": "stOSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stuosmo"
+    },
+    "image": "stride/asset/stosmo.png",
+    "coinGeckoId": "stride-staked-osmo"
+  },
+  {
+    "denom": "ibc/715BD634CF4D914C3EE93B0F8A9D2514B743F6FE36BC80263D1BC5EE4B3C5D40",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stustars",
+    "origin_type": "native",
+    "symbol": "stSTARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stustars"
+    },
+    "image": "stride/asset/ststars.png",
+    "coinGeckoId": "stride-staked-stars"
+  },
+  {
+    "denom": "ibc/88DCAA43A9CD099E1F9BBB80B9A90F64782EBA115A84B2CD8398757ADA4F4B40",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stujuno",
+    "origin_type": "native",
+    "symbol": "stJUNO",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stujuno"
+    },
+    "image": "stride/asset/stjuno.png",
+    "coinGeckoId": "stride-staked-juno"
+  },
+  {
+    "denom": "ibc/B38AAA0F7A3EC4D7C8E12DFA33FF93205FE7A42738A4B0590E2FF15BC60A612B",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "staevmos",
+    "origin_type": "native",
+    "symbol": "stEVMOS",
+    "decimals": 18,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "staevmos"
+    },
+    "image": "stride/asset/stevmos.png",
+    "coinGeckoId": "stride-staked-evmos"
+  },
+  {
+    "denom": "ibc/B011C1A0AD5E717F674BA59FD8E05B2F946E4FD41C9CB3311C95F7ED4B815620",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stinj",
+    "origin_type": "native",
+    "symbol": "stINJ",
+    "decimals": 18,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stinj"
+    },
+    "image": "stride/asset/stinj.png",
+    "coinGeckoId": "stride-staked-injective"
+  },
+  {
+    "denom": "ibc/D41ECC8FEF1B7E9C4BCC58B1362588420853A9D0B898EDD513D9B79AFFA195C8",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuumee",
+    "origin_type": "native",
+    "symbol": "stUMEE",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stuumee"
+    },
+    "image": "stride/asset/stumee.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/E92E07E68705FAD13305EE9C73684B30A7B66A52F54C9890327E0A4C0F1D22E3",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stucmdx",
+    "origin_type": "native",
+    "symbol": "stCMDX",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stucmdx"
+    },
+    "image": "stride/asset/stcmdx.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/5CAE744C89BC70AE7B38019A1EDF83199B7E10F00F160E7F4F12BCA7A32A7EE5",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuluna",
+    "origin_type": "native",
+    "symbol": "stLUNA",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stuluna"
+    },
+    "image": "stride/asset/stluna.png",
+    "coinGeckoId": "stride-staked-luna"
   }
 ]

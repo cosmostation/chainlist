@@ -437,7 +437,7 @@
     "decimals": 6,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin",
+    "coinGeckoId": "axlusdc",
     "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
   },
   {
@@ -450,7 +450,7 @@
     "decimals": 6,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/usdt.png",
-    "coinGeckoId": "tether",
+    "coinGeckoId": "axelar-usdt",
     "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
   },
   {
@@ -463,7 +463,7 @@
     "decimals": 8,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/wbtc.png",
-    "coinGeckoId": "wrapped-bitcoin",
+    "coinGeckoId": "axlwbtc",
     "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
   },
   {
@@ -528,7 +528,7 @@
     "decimals": 18,
     "path": "ethereum>axelar",
     "image": "ethereum/asset/weth.png",
-    "coinGeckoId": "weth",
+    "coinGeckoId": "axlweth",
     "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
   },
   {
@@ -816,5 +816,25 @@
     "image": "arbitrum/asset/arb.png",
     "coinGeckoId": "arbitrum",
     "contract": "0x912ce59144191c1204e64559fe8253a0e49e6548"
+  },
+  {
+    "denom": "ibc/6896F977DF5B427359BA77B5AF1052E5512D460F3CE59C8F6A7CB51408351F3C",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNA",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>axelar",
+    "channel": "channel-11",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-6",
+      "port": "transfer",
+      "denom": "uluna"
+    },
+    "image": "terra/asset/luna.png",
+    "coinGeckoId": "terra-luna-2"
   }
 ]
