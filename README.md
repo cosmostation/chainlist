@@ -23,6 +23,9 @@
  - Add your image to `${targetchain}/moniker` folder
  - Image with png format and validator address name
  - [Example](https://github.com/cosmostation/chainlist/tree/main/chain/cosmos/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos
+
+Automation:
+- One can make use of [this python automation tool](https://github.com/LavenderFive/chainlist-editor) by [Lavender.Five nodes](https://lavenderfive.com) to edit the chainlist for multiple networks at once. 
 </details>
 
 ---
