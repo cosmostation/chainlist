@@ -52,6 +52,17 @@
     "image": "terra/asset/blue.png",
     "coinGeckoId": "",
     "contract": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+  },
+    {
+    "denom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac",
+    "type": "native",
+    "origin_chain": "migaloo",
+    "origin_denom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac",
+    "origin_type": "native",
+    "symbol": "RAC",
+    "decimals": 6,
+    "description": "RAC",
+    "image": "migaloo/asset/rac.png",
+    "coinGeckoId": ""
   }
 ]
-  
