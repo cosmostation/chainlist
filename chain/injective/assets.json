@@ -867,5 +867,25 @@
     },
     "image": "evmos/asset/neok.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/59EEDFEAA77455A64667D96A83D94CC413AFCFC6A9827B8B3DF96A294FB03A2D",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>injective",
+    "channel": "channel-146",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-10",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]
