@@ -70,5 +70,26 @@
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/E1E3674A0E4E1EF9C69646F9AF8D9497173821826074622D831BAB73CCB99A2D",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>ki-chain",
+    "channel": "channel-19",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-17",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "axlusdc",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   }
 ]
