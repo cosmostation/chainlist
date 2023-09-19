@@ -1,0 +1,86 @@
+[
+  {
+    "id": "neutron-airdrop",
+    "name": "neutron (airdrop)",
+    "dappType": "System",
+    "description": "Participate in the Lockdrop, Airdrop, and check available $NTRN rewards to withdraw after the end of the Lockdrop event.",
+    "link": "https://launch.neutron.org/"
+  },
+  {
+    "id": "astroport",
+    "name": "astroport",
+    "dappType": "Dex",
+    "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
+    "link": "https://neutron.astroport.fi/swap",
+    "social": {
+      "webSite": "https://astroport.fi/en",
+      "twitter": "https://twitter.com/astroport_fi",
+      "medium": "https://astroport.medium.com/",
+      "github": "https://github.com/astroport-fi/",
+      "docs": "https://docs.astroport.fi/"
+    },
+    "contractAddress": "neutron1eeyntmsq448c68ez06jsy6h2mtjke5tpuplnwtjfwcdznqmw72kswnlmm0"
+  },
+  {
+    "id": "neutron-proposal",
+    "name": "neutron (governance)",
+    "dappType": "System",
+    "description": "Neutron Governance Platform. Cast your vote and contribute to shaping Neutron's future.",
+    "link": "https://governance.neutron.org/proposals"
+  },
+  {
+    "id": "lido",
+    "name": "lido",
+    "dappType": "Liquid Staking",
+    "description": "With Lido`s liquid staking protocol, users can receive liquid stTokens on top of daily staking rewards.",
+    "link": "https://lido.fi/#networks",
+    "social": {
+      "webSite": "https://lido.fi/",
+      "twitter": "https://twitter.com/LidoFinance",
+      "medium": "https://blog.lido.fi/?pk_vid=4d4f0994aabb4b9a168309637525164f",
+      "github": "https://github.com/lidofinance",
+      "docs": "https://docs.lido.fi/?pk_vid=4d4f0994aabb4b9a168309639925164f"
+    },
+    "comingSoon": true
+  },
+  {
+    "id": "red-bank",
+    "name": "red bank",
+    "dappType": "Lending",
+    "description": "Lend, borrow and earn on Red Bank lending platform designed by Mars Protocol team.",
+    "link": "https://neutron.marsprotocol.io/redbank",
+    "social": {
+      "webSite": "https://marsprotocol.io/",
+      "twitter": "https://twitter.com/mars_protocol",
+      "medium": "https://mars-protocol.medium.com/",
+      "github": "https://github.com/mars-protocol",
+      "docs": "https://docs.marsprotocol.io/"
+    }
+  },
+  {
+    "id": "apollo",
+    "name": "apollo dao",
+    "dappType": "Vaults",
+    "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
+    "link": "",
+    "social": {
+      "webSite": "https://apollo.farm/",
+      "twitter": "https://twitter.com/ApolloDAO",
+      "medium": "",
+      "github": "https://github.com/apollodao",
+      "docs": ""
+    },
+    "comingSoon": true
+  },
+  {
+    "id": "craft-network",
+    "name": "craft network",
+    "dappType": "NFT",
+    "description": "Craft Network is an NFT Marketplace bringing cross-chain NFT liquidity for the interchain.",
+    "link": "https://craft.network/",
+    "social": {
+      "webSite": "https://craft.network/",
+      "twitter": "https://twitter.com/craftdotnetwork"
+    }
+  }
+]
