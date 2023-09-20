@@ -1,0 +1,90 @@
+[
+  {
+    "id": "astroport",
+    "name": "astroport",
+    "dappType": "Defi",
+    "description": "An automated, decentralized exchange protocol.",
+    "link": "https://app.astroport.fi/swap",
+    "social": {
+      "webSite": "https://astroport.fi/en",
+      "twitter": "https://twitter.com/astroport_fi",
+      "medium": "https://astroport.medium.com/",
+      "github": "https://github.com/astroport-fi/",
+      "docs": "https://docs.astroport.fi/"
+    }
+  },
+  {
+    "id": "capapult",
+    "name": "capapult",
+    "dappType": "Defi",
+    "description": "Decentralised CDP ($SOLID) on Terra, governed through $CAPA holders.",
+    "link": "https://app.capapult.finance/dashboard",
+    "social": {
+      "webSite": "https://www.capapult.finance/",
+      "twitter": "https://twitter.com/capapult?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "medium": "https://medium.com/@capapult",
+      "github": "https://github.com/capapult-finance"
+    }
+  },
+  {
+    "id": "enterprise-protocol",
+    "name": "enterprise protocol",
+    "dappType": "DAO",
+    "description": "A no-code tool for organizing, creating, and maintaining DAOs.",
+    "link": "https://enterprise.money/dashboard",
+    "social": {
+      "webSite": "https://enterprise.money/",
+      "twitter": "https://twitter.com/enterprise_dao",
+      "medium": "https://medium.com/@enterprise_dao",
+      "github": "https://github.com/terra-money/enterprise-docs",
+      "docs": "https://docs.enterprise.money/"
+    }
+  },
+  {
+    "id": "Feather",
+    "name": "Feather",
+    "dappType": "Others",
+    "description": "A solution for spinning up a new Cosmos SDK-based blockchain.",
+    "link": "",
+    "comingSoon": true
+  },
+  {
+    "id": "Gravedigger",
+    "name": "Gravedigger",
+    "dappType": "Defi",
+    "description": "A multi-chain Defi/Collateral/NFT Hub.",
+    "link": "https://terra.gravedigger.zone/",
+    "social": {
+      "webSite": "https://terra.gravedigger.zone/",
+      "twitter": "https://twitter.com/BackBone_Labs",
+      "medium": "https://backbonelabs.medium.com/"
+    }
+  },
+  {
+    "id": "TFM",
+    "name": "TFM",
+    "dappType": "Defi",
+    "description": "Trading platform built for Terra and Cosmos.",
+    "link": "https://tfm.com/ibc",
+    "social": {
+      "webSite": "https://tfm.com/ibc",
+      "twitter": "https://twitter.com/tfm_com",
+      "medium": "https://medium.com/@tfm.com",
+      "github": "https://github.com/tfm-com",
+      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
+    }
+  },
+  {
+    "id": "Warp Protocol",
+    "name": "Warp Protocol",
+    "dappType": "Defi",
+    "description": "Smart contract-based transaction automator.",
+    "link": "https://app.warp.money/",
+    "social": {
+      "webSite": "https://warp.money/",
+      "twitter": "https://twitter.com/warp_protocol",
+      "github": "https://github.com/terra-money/warp-docs",
+      "docs": "https://docs.warp.money/"
+    }
+  }
+]
