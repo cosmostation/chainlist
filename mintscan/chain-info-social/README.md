@@ -6,10 +6,10 @@ The chain's name, description, and links such as website, docs, and github can b
 
 - displayName : Name of Chain
 - description : Description of Chain
-- links.webSite : Chain's official website
 
 [optional]
 
+- links.webSite : Chain's official website
 - links.docs: Chain's documentation
 - links.github : github organization
 - links.medium : Chain's medium (blog)
