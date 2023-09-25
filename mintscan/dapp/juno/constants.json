@@ -1,19 +1,5 @@
 [
   {
-    "id": "daodao",
-    "name": "DAODAO",
-    "dappType": "DAO",
-    "description": "A DAO that builds DAO tooling.",
-    "link": "https://daodao.zone"
-  },
-  {
-    "id": "junoswap",
-    "name": "Junoswap",
-    "dappType": "Defi",
-    "description": "Inter-chain AMM built on Juno.",
-    "link": "https://junoswap.com"
-  },
-  {
     "id": "tfm",
     "name": "TFM",
     "dappType": "Defi",
@@ -21,49 +7,7 @@
     "link": "https://tfm.com/juno/trade/swap?dashboard=false&from=ujuno&to=ibc%2FEAC38D55372F38F1AFD68DF7FE9EF762DCF69F26520643CF3F9D292A738D8034&market=Junoswap"
   },
   {
-    "id": "coinhall",
-    "name": "Coinhall",
-    "dappType": "Defi",
-    "description": "Real-time Price Charts, Analytics, DEX Aggregator & Validator Platform.",
-    "link": "https://coinhall.org"
-  },
-  {
-    "id": "loop",
-    "name": "Loop",
-    "dappType": "Defi&NFT",
-    "description": "NFT marketplace on Juno",
-    "link": "https://www.loop.markets"
-  },
-  {
-    "id": "talis",
-    "name": "Talis",
-    "dappType": "NFT",
-    "description": "Discover and trade new NFT collection on Talis.",
-    "link": "https://talis.art"
-  },
-  {
-    "id": "dens",
-    "name": "(de)NS",
-    "dappType": "Social",
-    "description": "The Decentralized Name Service.",
-    "link": "https://dens.sh"
-  },
-  {
-    "id": "racoon",
-    "name": "Racoon Supply",
-    "dappType": "Gamble",
-    "description": "Decentralized Interchain gambling platform",
-    "link": "https://www.racoon.supply"
-  },
-  {
-    "id": "gelotto",
-    "name": "Gelotto",
-    "dappType": "Gamble",
-    "description": "An IBC Luck-Based Game Platform Built on Juno.",
-    "link": "https://gelotto.io"
-  },
-  {
-    "id": "whitewale",
+    "id": "whitewhale",
     "name": "WhiteWhale",
     "dappType": "Defi",
     "description": "Stabilizing Prices Across the IBC.",
@@ -77,41 +21,6 @@
     "link": "https://www.hopers.io"
   },
   {
-    "id": "selina",
-    "name": "Selina",
-    "dappType": "Others",
-    "description": "Social Engineered Linguistic Analysis",
-    "link": "https://selina.ai"
-  },
-  {
-    "id": "stakeeasy",
-    "name": "StakeEasy Finance",
-    "dappType": "Defi",
-    "description": "IBC enabled liquid staking protocol for the Cosmos ecosystem.",
-    "link": "https://juno.stakeeasy.finance/"
-  },
-  {
-    "id": "junomint",
-    "name": "JunoMint",
-    "dappType": "Others",
-    "description": "Platform for custom digital asset issuance on the Juno Network.",
-    "link": "https://junomint.com"
-  },
-  {
-    "id": "junotools",
-    "name": "JunoTools",
-    "dappType": "Others",
-    "description": "A multi-purpose dApp for interacting with various smart contracts.",
-    "link": "https://juno.tools"
-  },
-  {
-    "id": "marble",
-    "name": "Marble",
-    "dappType": "Defi&NFT",
-    "description": "Where real-world art meets digital commmunity.",
-    "link": "https://juno-nft.marbledao.finance"
-  },
-  {
     "id": "sparkibc",
     "name": "Spark IBC",
     "dappType": "Defi",
@@ -119,24 +28,10 @@
     "link": "https://sparkibc.zone"
   },
   {
-    "id": "aquaswap",
-    "name": "Aqua DAO",
-    "dappType": "DAO",
-    "description": "A DAO dedicated to ending the world water crisis.",
-    "link": "https://aquaswap.live"
-  },
-  {
     "id": "abstract",
     "name": "Abstract",
     "dappType": "Others",
     "description": "Build scalable dapps using modules.",
     "link": "https://abstract.money"
-  },
-  {
-    "id": "komple",
-    "name": "Komple",
-    "dappType": "NFT",
-    "description": "Komple builds open-source frameworks and tools for NFT-based applications in Cosmos.",
-    "link": "https://komple.io"
   }
 ]
