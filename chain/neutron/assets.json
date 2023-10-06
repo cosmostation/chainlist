@@ -124,10 +124,10 @@
     "decimals": 6,
     "enable": true,
     "path": "mars-protocol>neutron",
-    "channel": "channel-37",
+    "channel": "channel-16",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-16",
+      "channel": "channel-37",
       "port": "transfer",
       "denom": "umars"
     },
