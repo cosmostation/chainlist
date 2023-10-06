@@ -1,0 +1,15 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0uxprt",
+            "0.025uxprt"
+        ]
+    },
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "revision_height" : 1000,
+    "endpoint_url" : [
+        "grpc-persistence.cosmostation.io:443"
+    ]
+}

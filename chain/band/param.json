@@ -1,0 +1,15 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0025uband",
+            "0.025uband"
+        ]
+    },
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "revision_height" : 1000,
+    "endpoint_url" : [
+        "grpc-band.cosmostation.io:443"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "1500000000000acanto"
+        ]
+    },
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "revision_height" : 1000,
+    "endpoint_url" : [
+        "grpc-canto.cosmostation.io:443"
+    ]
+}

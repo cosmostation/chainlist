@@ -1,0 +1,15 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.007uaxl",
+            "0.05uaxl"
+        ]
+    },
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "revision_height" : 1000,
+    "endpoint_url" : [
+        "grpc-axelar.cosmostation.io:443"
+    ]
+}
