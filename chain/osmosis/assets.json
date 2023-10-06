@@ -2622,5 +2622,25 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ibc/672406ADE4EDFD8C5EA7A0D0DD0C37E431DA7BD8393A15CD2CFDE3364917EB2A",
+    "type": "ibc",
+    "origin_chain": "doravota",
+    "origin_denom": "peaka",
+    "origin_type": "staking",
+    "symbol": "DORA",
+    "decimals": 6,
+    "enable": true,
+    "path": "doravota>osmosis",
+    "channel": "channel-2694",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "peaka"
+    },
+    "image": "doravota/asset/dora.png",
+    "coinGeckoId": "dora-factory-2"
   }
 ]
