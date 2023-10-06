@@ -1,6 +1,7 @@
 {
 	"base" : "0",
 	"rate" : [
-		"0.0umntl"
+		"0.0025umntl",
+        "0.01umntl"
 	]
 }
