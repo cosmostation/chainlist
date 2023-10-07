@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Osmosis Staking Coin",
     "image": "osmosis/asset/osmo.png",
-    "coinGeckoId": "osmosis"
+    "coinGeckoId": "osmosis",
+    "color": "#9248DB"
   },
   {
     "denom": "uion",
@@ -1989,7 +1990,7 @@
       "denom": "eco.uC.NCT"
     },
     "image": "regen/asset/nct.png",
-    "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
+    "coinGeckoId": ""
   },
   {
     "denom": "ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F",
@@ -2601,5 +2602,25 @@
     },
     "image": "passage/asset/pasg.png",
     "coinGeckoId": "passage"
+  },
+  {
+    "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>osmosis",
+    "channel": "channel-750",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

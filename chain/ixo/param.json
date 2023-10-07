@@ -1,0 +1,14 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.025uixo"
+        ]
+    },
+    "simul_gas_multiply" : "3",
+    "fee_threshold" : "",
+    "revision_height" : 1000,
+    "endpoint_url" : [
+        "grpc-ixo.cosmostation.io:443"
+    ]
+}

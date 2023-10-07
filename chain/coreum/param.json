@@ -1,0 +1,15 @@
+{
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.05ucore",
+            "0.5ucore"
+        ]
+    },
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "revision_height" : 1000,
+    "endpoint_url" : [
+        "grpc-coreum.cosmostation.io:443"
+    ]
+}
