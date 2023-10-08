@@ -5,9 +5,9 @@
             "0.0umntl"
         ]
     },
+    "isSimulable" : false,
     "simul_gas_multiply" : "1.5",
     "fee_threshold" : "",
-    "revision_height" : 90000,
     "endpoint_url" : [
         "grpc-asset-mantle.cosmostation.io:443"
     ]

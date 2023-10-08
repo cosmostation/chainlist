@@ -7,9 +7,9 @@
             "1ungm"
         ]
     },
+    "isSimulable" : true,
     "simul_gas_multiply" : "1.5",
     "fee_threshold" : "",
-    "revision_height" : 1000,
     "endpoint_url" : [
         "grpc-emoney.cosmostation.io:443"
     ]

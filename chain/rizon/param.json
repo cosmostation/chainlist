@@ -1,14 +1,16 @@
 {
     "fee" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
-            "0.0anom"
+            "0.00025uatolo",
+            "0.0025uatolo",
+            "0.025uatolo"
         ]
     },
     "isSimulable" : true,
     "simul_gas_multiply" : "1.5",
     "fee_threshold" : "",
     "endpoint_url" : [
-        "grpc-onomy-protocol.cosmostation.io:443"
+        "grpc-rizon.cosmostation.io:443"
     ]
 }

@@ -7,9 +7,9 @@
             "0.05ucre,0.05ubcre"
         ]
     },
+    "isSimulable" : true,
     "simul_gas_multiply" : "1.5",
     "fee_threshold" : "",
-    "revision_height" : 1000,
     "endpoint_url" : [
         "grpc-crescent.cosmostation.io:443"
     ]

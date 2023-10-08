@@ -6,9 +6,9 @@
             "0.025uatom"
         ]
     },
+    "isSimulable" : true,
     "simul_gas_multiply" : "1.5",
     "fee_threshold" : "",
-    "revision_height" : 1000,
     "endpoint_url" : [
         "grpc-cosmos.cosmostation.io:443"
     ]

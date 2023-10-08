@@ -5,9 +5,9 @@
             "2000nhash"
         ]
     },
+    "isSimulable" : true,
     "simul_gas_multiply" : "1.5",
     "fee_threshold" : "",
-    "revision_height" : 1000,
     "endpoint_url" : [
         "grpc-provenance.cosmostation.io:443"
     ]
