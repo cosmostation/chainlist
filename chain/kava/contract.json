@@ -30,7 +30,7 @@
     "decimals": 6,
     "image": "cosmos/asset/atom.png",
     "default": false,
-    "coinGeckoId": "cosmos-hub"
+    "coinGeckoId": "cosmos"
   },
   {
     "chainId": 2222,
@@ -93,6 +93,28 @@
     "address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
     "symbol": "MultiWBTC",
     "description": "Multichain Wrapped BTC",
+    "decimals": 8,
+    "image": "ethereum/asset/wbtc.png",
+    "default": false,
+    "coinGeckoId": "wrapped-bitcoin"
+  },
+  {
+    "chainId": 2222,
+    "chainName": "kava",
+    "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+    "symbol": "axlUSDC",
+    "description": "Axelar Wrapped USDC",
+    "decimals": 6,
+    "image": "ethereum/asset/usdc.png",
+    "default": false,
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "chainId": 2222,
+    "chainName": "kava",
+    "address": "0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad",
+    "symbol": "axlWBTC",
+    "description": "Axelar Wrapped WBTC",
     "decimals": 8,
     "image": "ethereum/asset/wbtc.png",
     "default": false,

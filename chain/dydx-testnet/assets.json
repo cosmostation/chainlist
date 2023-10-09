@@ -10,5 +10,25 @@
     "description": "DYDX-testnet Staking Coin",
     "image": "dydx-testnet/asset/dydx.png",
     "coinGeckoId": ""
-   }
+  },
+  {
+    "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+    "type": "ibc",
+    "origin_chain": "noble-testnet",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble-testnet>dydx-testnet",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-20",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "dydx-testnet/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
+  }
 ]

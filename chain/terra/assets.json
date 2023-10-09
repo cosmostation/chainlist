@@ -9,6 +9,69 @@
     "decimals": 6,
     "description": "Terra Staking Coin",
     "image": "terra/asset/luna.png",
-    "coinGeckoId": "terra-luna-2"
+    "coinGeckoId": "terra-luna-2",
+    "color": "#1E75EE"
+  },
+  {
+    "denom": "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>terra",
+    "channel": "channel-6",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-11",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  {
+    "denom": "ibc/CBF67A2BCF6CAE343FDF251E510C8E18C361FC02B23430C121116E0811835DEF",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdt",
+    "origin_type": "erc20",
+    "symbol": "axlUSDT",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>terra",
+    "channel": "channel-6",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-11",
+      "port": "transfer",
+      "denom": "uusdt"
+    },
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether",
+    "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+  },
+  {
+    "denom": "ibc/8198819CC2F25B16991D6391826B6BFA50F03AB6B5688C3399BB6A7BD5CCA53C",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>terra",
+    "channel": "channel-151",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-9",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

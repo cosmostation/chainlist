@@ -1,0 +1,14 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0umntl"
+        ]
+    },
+    "isSimulable" : false,
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "endpoint_url" : [
+        "grpc-asset-mantle.cosmostation.io:443"
+    ]
+}
