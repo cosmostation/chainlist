@@ -8,7 +8,8 @@
       "symbol": "NTRN",
       "decimals": 6,
       "description": "Neutron-testnet DAO Token",
-      "image": "neutron-testnet/asset/ntrn.png"
+      "image": "neutron-testnet/asset/ntrn.png",
+      "coinGeckoId": ""
     },
     {
       "denom": "ibc/EFB00E728F98F0C4BBE8CA362123ACAB466EDA2826DC6837E49F4C1902F21BBA",
@@ -49,7 +50,7 @@
       "denom": "eth-wei"
     },
     "image": "ethereum/asset/weth.png",
-    "coinGeckoId": "axlweth",
+    "coinGeckoId": "",
     "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
   },
   {
@@ -62,7 +63,7 @@
     "decimals": 18,
     "path": "ethereum>neutron",
     "image": "ethereum/asset/wsteth.png",
-    "coinGeckoId": "wrapped-steth",
+    "coinGeckoId": "",
     "contract": "0x6320cd32aa674d2898a68ec82e869385fc5f7e2f"
   }
 ]
