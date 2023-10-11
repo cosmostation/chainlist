@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "uosmo",
+    "type": "staking",
+    "origin_chain": "osmosis-testnet",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimals": 6,
+    "description": "Osmosis-testnet Staking Coin",
+    "image": "osmosis-testnet/asset/osmo.png",
+    "coinGeckoId": ""
+  }
+]
