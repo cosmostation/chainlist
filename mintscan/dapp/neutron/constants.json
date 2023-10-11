@@ -18,11 +18,10 @@
       "medium": "https://astroport.medium.com/",
       "github": "https://github.com/astroport-fi/",
       "docs": "https://docs.astroport.fi/"
-    },
-    "contractAddress": "neutron1eeyntmsq448c68ez06jsy6h2mtjke5tpuplnwtjfwcdznqmw72kswnlmm0"
+    }
   },
   {
-    "id": "neutron-proposal",
+    "id": "neutron-governance",
     "name": "neutron (governance)",
     "dappType": "System",
     "description": "Neutron Governance Platform. Cast your vote and contribute to shaping Neutron's future.",

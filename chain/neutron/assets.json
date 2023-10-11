@@ -1,15 +1,16 @@
 [
   {
-      "denom": "untrn",
-      "type": "staking",
-      "origin_chain": "neutron",
-      "origin_denom": "untrn",
-      "origin_type": "staking",
-      "symbol": "NTRN",
-      "decimals": 6,
-      "description": "Neutron DAO Token",
-      "image": "neutron/asset/ntrn.png",
-      "coinGeckoId": "neutron-3"
+    "denom": "untrn",
+    "type": "staking",
+    "origin_chain": "neutron",
+    "origin_denom": "untrn",
+    "origin_type": "staking",
+    "symbol": "NTRN",
+    "decimals": 6,
+    "description": "Neutron DAO Token",
+    "image": "neutron/asset/ntrn.png",
+    "coinGeckoId": "neutron-3",
+    "color": "#465DF3"
   },
   {
     "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
@@ -123,10 +124,10 @@
     "decimals": 6,
     "enable": true,
     "path": "mars-protocol>neutron",
-    "channel": "channel-37",
+    "channel": "channel-16",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-16",
+      "channel": "channel-37",
       "port": "transfer",
       "denom": "umars"
     },

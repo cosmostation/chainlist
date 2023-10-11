@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Osmosis Staking Coin",
     "image": "osmosis/asset/osmo.png",
-    "coinGeckoId": "osmosis"
+    "coinGeckoId": "osmosis",
+    "color": "#9248DB"
   },
   {
     "denom": "uion",
@@ -1502,7 +1503,7 @@
     "image": "ethereum/asset/pepe.png",
     "coinGeckoId": "pepe",
     "contract": "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
-  },  
+  },
   {
     "denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
     "type": "ibc",
@@ -1606,7 +1607,7 @@
     "image": "juno/asset/sejuno.png",
     "coinGeckoId": "",
     "contract": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
-  }, 
+  },
   {
     "denom": "ibc/6F18EFEBF1688AA77F7EAC17065609494DC1BA12AFC78E9AEC832AF70A11BEF3",
     "type": "ibc",
@@ -1648,7 +1649,7 @@
     "image": "terra/asset/blue.png",
     "coinGeckoId": "",
     "contract": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
-  }, 
+  },
   {
     "denom": "ibc/c2df5c3949ca835b221c575625991f09bab4e48fb9c11a4ee357194f736111e3",
     "type": "ibc",
@@ -1989,7 +1990,7 @@
       "denom": "eco.uC.NCT"
     },
     "image": "regen/asset/nct.png",
-    "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
+    "coinGeckoId": ""
   },
   {
     "denom": "ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F",
@@ -2212,7 +2213,7 @@
     "image": "archway/asset/arch.png",
     "coinGeckoId": "archway"
   },
-   {
+  {
     "denom": "ibc/9B6FBABA36BB4A3BF127AE5E96B572A5197FD9F3111D895D8919B07BC290764A",
     "type": "ibc",
     "origin_chain": "odin",
@@ -2232,7 +2233,7 @@
     "image": "odin/asset/geo.png",
     "coinGeckoId": "geodb"
   },
-   {
+  {
     "denom": "ibc/0CD46223FEABD2AEAAAF1F057D01E63BCA79B7D4BD6B68F1EB973A987344695D",
     "type": "ibc",
     "origin_chain": "odin",
@@ -2248,8 +2249,28 @@
       "channel": "channel-3",
       "port": "transfer",
       "denom": "mO9W"
-      },
-     "image": "odin/asset/o9w.png"
+    },
+    "image": "odin/asset/o9w.png"
+  },
+  {
+    "denom": "ibc/CFF40564FDA3E958D9904B8B479124987901168494655D9CC6B7C0EC0416020B",
+    "type": "ibc",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
+    "origin_type": "native",
+    "symbol": "STRDST",
+    "decimals": 6,
+    "enable": true,
+    "path": "stargaze>osmosis",
+    "channel": "channel-75",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "ustars"
+    },
+    "image": "stargaze/asset/dust.png",
+    "coinGeckoId": ""
    },
     {
     "denom": "ibc/F3166F4D31D6BA1EC6C9F5536F5DDDD4CC93DBA430F7419E7CDC41C497944A65",

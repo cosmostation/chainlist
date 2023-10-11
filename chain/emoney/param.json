@@ -1,0 +1,16 @@
+{
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.1ungm",
+            "0.3ungm",
+            "1ungm"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "endpoint_url" : [
+        "grpc-emoney.cosmostation.io:443"
+    ]
+}
