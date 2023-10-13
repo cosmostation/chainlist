@@ -1,0 +1,15 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "1ustars",
+            "1.5ustars"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "endpoint_url" : [
+        "grpc-stargaze.cosmostation.io:443"
+    ]
+}

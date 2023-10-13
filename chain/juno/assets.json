@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "JUNO Staking Coin",
     "image": "juno/asset/juno.png",
-    "coinGeckoId": "juno-network"
+    "coinGeckoId": "juno-network",
+    "color": "#F0827D"
   },
   {
     "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
@@ -513,5 +514,25 @@
       "denom": "unois"
     },
     "image": "nois/asset/nois.png"
+  },
+  {
+    "denom": "ibc/4A482FA914A4B9B05801ED81C33713899F322B24F76A06F4B8FE872485EA22FF",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>juno",
+    "channel": "channel-224",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

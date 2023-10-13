@@ -13,6 +13,17 @@
   {
     "chainId": 1,
     "chainName": "ethereum",
+    "address": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
+    "symbol": "DYDX",
+    "description": "DYDX Token",
+    "decimals": 18,
+    "image": "dydx/asset/dydx.png",
+    "default": true,
+    "coinGeckoId":"dydx"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
     "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
     "symbol": "USDT",
     "description": "Tether",

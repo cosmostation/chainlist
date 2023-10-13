@@ -1,0 +1,28 @@
+[
+  {
+    "denom": "ucre",
+    "type": "staking",
+    "origin_chain": "crescent-testnet",
+    "origin_denom": "ucre",
+    "origin_type": "staking",
+    "symbol": "CRE",
+    "decimals": 6,
+    "enable": true,
+    "description": "Crescent-testnet Staking Coin",
+    "image": "crescent-testnet/asset/cre.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ubcre",
+    "type": "native",
+    "origin_chain": "crescent-testnet",
+    "origin_denom": "ubcre",
+    "origin_type": "native",
+    "symbol": "bCRE",
+    "decimals": 6,
+    "enable": true,
+    "description": "Crescent-testnet Liquidated CRE",
+    "image": "crescent-testnet/asset/bcre.png",
+    "coinGeckoId": ""
+  }
+]

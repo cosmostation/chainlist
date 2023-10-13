@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Ki-chain Staking Coin",
     "image": "ki-chain/asset/xki.png",
-    "coinGeckoId": "ki"
+    "coinGeckoId": "ki",
+    "color": "#3756FC"
   },
   {
     "denom": "ibc/F7E92EE59B5428793F3EF5C1A4CB2494F61A9D0C9A69469D02390714A1372E16",
@@ -70,5 +71,26 @@
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/E1E3674A0E4E1EF9C69646F9AF8D9497173821826074622D831BAB73CCB99A2D",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>ki-chain",
+    "channel": "channel-19",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-17",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "axlusdc",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   }
 ]

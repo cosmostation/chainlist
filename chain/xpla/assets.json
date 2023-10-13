@@ -9,7 +9,8 @@
     "decimals": 18,
     "description": "XPLA Staking Coin",
     "image": "xpla/asset/xpla.png",
-    "coinGeckoId": "xpla"
+    "coinGeckoId": "xpla",
+    "color": "#00B1FF"
   },
   {
     "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
@@ -29,7 +30,7 @@
       "denom": "uusdc"
     },
     "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin",
+    "coinGeckoId": "axlusdc",
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   }
 ]

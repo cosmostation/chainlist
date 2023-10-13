@@ -9,7 +9,20 @@
     "decimals": 6,
     "description": "Kava Staking Coin",
     "image": "kava/asset/kava.png",
-    "coinGeckoId": "kava"
+    "coinGeckoId": "kava",
+    "color": "#FF564F"
+  },
+  {
+    "denom": "erc20/tether/usdt",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "usdt",
+    "origin_type": "native",
+    "symbol": "USDt",
+    "decimals": 6,
+    "description": "Tether USDt",
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether"
   },
   {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
@@ -129,7 +142,7 @@
     "decimals": 18,
     "description": "DAI Earned in Kava",
     "image": "kava/asset/bdai.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "dai"
   },
   {
     "denom": "erc20/multichain/usdc",
@@ -141,7 +154,7 @@
     "decimals": 6,
     "description": "USDC Earned in Kava",
     "image": "kava/asset/busdc.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "usd-coin"
   },
   {
     "denom": "erc20/multichain/usdt",
@@ -153,7 +166,7 @@
     "decimals": 6,
     "description": "USDT Earned in Kava",
     "image": "kava/asset/busdt.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "tether"
   },
   {
     "denom": "erc20/axelar/usdc",
@@ -163,9 +176,23 @@
     "origin_type": "erc20",
     "symbol": "axlUSDC",
     "decimals": 6,
+    "description": "Axelar Wrapped USDC",
     "path": "ethereum>axelar>kava",
     "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin"
+    "coinGeckoId": "axlusdc"
+  },
+  {
+    "denom": "erc20/axelar/wbtc",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "wbtc",
+    "origin_type": "erc20",
+    "symbol": "axlWBTC",
+    "decimals": 8,
+    "description": "Axelar Wrapped WBTC",
+    "path": "ethereum>axelar>kava",
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "axlwbtc"
   },
   {
     "denom": "hbtc",
@@ -253,10 +280,10 @@
     "origin_chain": "kava",
     "origin_denom": "wbtc",
     "origin_type": "native",
-    "symbol": "Unknown",
+    "symbol": "MultiWBTC",
     "decimals": 8,
-    "description": "",
-    "image": "kava/asset/unknown.png",
-    "coinGeckoId": ""
+    "description": "Multichain Wrapped BTC",
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "wrapped-bitcoin"
   }
 ]
