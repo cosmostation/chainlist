@@ -2271,6 +2271,26 @@
     },
     "image": "stargaze/asset/dust.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/71DAA4CAFA4FE2F9803ABA0696BA5FC0EFC14305A2EA8B4E01880DB851B1EC02",
+    "type": "ibc",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uBRNCH",
+    "origin_type": "native",
+    "symbol": "BRNCH",
+    "decimals": 6,
+    "enable": true,
+    "path": "stargaze>osmosis",
+    "channel": "channel-75",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "ustars"
+    },
+    "image": "stargaze/asset/brnch.png",
+    "coinGeckoId": ""
    },
     {
     "denom": "ibc/F3166F4D31D6BA1EC6C9F5536F5DDDD4CC93DBA430F7419E7CDC41C497944A65",
