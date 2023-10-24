@@ -1,0 +1,14 @@
+[
+    {
+      "denom": "ncheq",
+      "type": "staking",
+      "origin_chain": "cheqd",
+      "origin_denom": "ncheq",
+      "origin_type": "staking",
+      "symbol": "CHEQ",
+      "decimals": 9,
+      "description": "cheqd Network Token",
+      "image": "osmosis/asset/cheqd.png",
+      "coinGeckoId": "cheqd-network"
+    }
+  ]
