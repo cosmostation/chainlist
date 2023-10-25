@@ -1,0 +1,14 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "500uhuahua"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "500uhuahua",
+    "endpoint_url" : [
+        "grpc-chihuahua.cosmostation.io:443"
+    ]
+}
