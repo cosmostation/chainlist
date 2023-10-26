@@ -1,0 +1,17 @@
+{
+  "name": "injective",
+  "version": "1.0.0",
+  "main": "script.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node ./script.js"
+  },
+  "dependencies": {
+    "@injectivelabs/networks": "^1.14.0-beta.1",
+    "@injectivelabs/sdk-ts": "^1.14.0-beta.1",
+    "@injectivelabs/sdk-ui-ts": "^1.14.0-beta.1",
+    "@injectivelabs/token-metadata": "^1.14.0-beta.1",
+    "@injectivelabs/ts-types": "^1.14.0-beta.1"
+  }
+}
