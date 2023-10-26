@@ -95,26 +95,6 @@
     "contract": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
   },
   {
-    "denom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
-    "type": "ibc",
-    "origin_chain": "stride",
-    "origin_denom": "stuatom",
-    "origin_type": "native",
-    "symbol": "stATOM",
-    "decimals": 6,
-    "enable": true,
-    "path": "stride>neutron",
-    "channel": "channel-8",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-123",
-      "port": "transfer",
-      "denom": "stuatom"
-    },
-    "image": "stride/asset/statom.png",
-    "coinGeckoId": "stride-staked-atom"
-  },
-  {
     "denom": "ibc/9598CDEB7C6DB7FC21E746C8E0250B30CD5154F39CA111A9D4948A4362F638BD",
     "type": "ibc",
     "origin_chain": "mars-protocol",
