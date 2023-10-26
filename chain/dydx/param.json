@@ -1,0 +1,17 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "12500000000adydx"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "endpoint" : [
+        {
+            "provider": "cosmostation",
+            "url": "grpc-dydx.cosmostation.io:443"
+        }
+    ]
+}
