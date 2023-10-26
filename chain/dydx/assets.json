@@ -1,0 +1,15 @@
+[
+  {
+    "denom": "adydx",
+    "type": "staking",
+    "origin_chain": "dydx",
+    "origin_denom": "adydx",
+    "origin_type": "staking",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "description": "dYdX Staking Coin",
+    "image": "dydx/asset/dydx.png",
+    "coinGeckoId": "dydx",
+    "color": "#6966FF"
+  }
+]
