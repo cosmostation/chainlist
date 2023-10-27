@@ -2,7 +2,7 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.0ugraviton"
+            "20000000aheart"
         ],
         "isSimulable" : true,
         "simul_gas_multiply" : "1.2",
@@ -11,35 +11,35 @@
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "grpc-gravity-bridge.cosmostation.io:443"
+            "url": "grpc-humans.cosmostation.io:443"
         },
         {
-            "provider": "amhost",
-            "url": "gravity-bridge-1-08.nodes.amhost.net:9090"
+            "provider": "NodeStake",
+            "url": "grpc.humans.nodestake.top:443"
         },
         {
-            "provider": "Notional",
-            "url": "grpc-gravitybridge-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "gravitybridge-grpc.lavenderfive.com:443"
+            "provider": "itrocket",
+            "url": "humans-mainnet-grpc.itrocket.net:17090"
         },
         {
             "provider": "Staketab",
-            "url": "services.staketab.com:9017"
+            "url": "humans-rpc.stakeangle.com:41490"
+        },
+        {
+            "provider": "StakePool",
+            "url": "grpc-humans.cosmos-spaces.cloud:1190"
         }
     ],
     "about" : {
-        "website" : "https://www.gravitybridge.net/",
-        "blog" : "https://www.gravitybridge.net/blog",
-        "github" : "https://github.com/Gravity-Bridge",
-        "twitter" : "https://twitter.com/gravity_bridge",
-        "coingecko" : "https://www.coingecko.com/en/coins/graviton"
+        "website" : "https://humans.ai/",
+        "blog" : "https://medium.com/humansdotai",
+        "github" : "https://github.com/humansdotai",
+        "twitter" : "https://twitter.com/humansdotai",
+        "coingecko" : "https://www.coingecko.com/en/coins/humans-ai"
     },
     "description" : {
-        "ko" : "코스모스와 이더리움 생태계의 브릿지 연결을 위해 설계된 Tendermint 기반 블록체인.",
-        "en" : "A neutral peg zone designed primarily for bridge operation between Cosmos and Ethereum ecosystems.",
-        "ja" : "コスモスとイーサリアムエコシステム間のブリッジ連結のため設計されたTendermintベースブロックチェーン。"
+        "ko" : "Humans.ai는 AI 알고리즘과 AI 모델 생성을 독려하기 위해 설계된 분산형 AI 생태계입니다.",
+        "en" : "Humans.ai  is a decentralized AI ecosystem designed to incentivize the creation of AI algorithms and models.",
+        "ja" : "Humans.ai はAIアルゴリズムとAIモデルの生成を促すために設計された分散型AI生態系です。"
     }
 }
