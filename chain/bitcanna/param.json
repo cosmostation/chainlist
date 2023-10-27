@@ -3,12 +3,43 @@
         "base" : "0",
         "rate" : [
             "0.025ubcna"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : "",
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-bitcanna.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-bitcanna.cosmostation.io:443"
+        },
+        {
+            "provider": "bitcanna",
+            "url": "grpc.bitcanna.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "bitcanna-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "MMS",
+            "url": "grpc-bitcanna.mms.team:443"
+        },
+        {
+            "provider": "Panthea EU",
+            "url": "bitcanna-grpc.panthea.eu:16710"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.bitcanna.io/",
+        "blog" : "https://medium.com/@BitCannaGlobal",
+        "github" : "https://github.com/BitCannaGlobal",
+        "twitter" : "https://twitter.com/BitcannaGlobal",
+        "coingecko" : "https://www.coingecko.com/en/coins/bitcanna"
+    },
+    "description" : {
+        "ko" : "네덜란드를 중심으로 유렵 내 카나비스의 공급망과 거래용 화폐($BCNA)를 제공하는 Cosmos SDK 기반 탈중앙화 네트워크.",
+        "en" : "A Cosmos SDK-based decentralized payment network and supply chain for legal cannabis industry.",
+        "ja" : "オランダを中心にヨーロッパ内カナビスのサプライチェーンと取引用コイン($BCNA)を提供するCosmos SDKベースの分散型ネットワーク。"
+    }
 }
