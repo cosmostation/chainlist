@@ -3,13 +3,45 @@
         "base" : "1",
         "rate" : [
             "0.05ucore",
+            "0.0625ucore",
             "0.5ucore"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-coreum.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-coreum.cosmostation.io:443"
+        },
+        {
+            "provider": "Coreum Foundation",
+            "url": "full-node.mainnet-1.coreum.dev:9090"
+        },
+        {
+            "provider": "Coreum Foundation",
+            "url": "full-node-californium.mainnet-1.coreum.dev:9090"
+        },
+        {
+            "provider": "Coreum Foundation",
+            "url": "full-node-curium.mainnet-1.coreum.dev:9090"
+        },
+        {
+            "provider": "NodeX Validator",
+            "url": "https://grpc.coreum.nodexcapital.com:444"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.coreum.com/",
+        "blog" : "https://www.coreum.com/community#press-&-media",
+        "github" : "https://github.com/CoreumFoundation",
+        "twitter" : "https://twitter.com/CoreumOfficial",
+        "coingecko" : "https://www.coingecko.com/en/coins/coreum"
+    },
+    "description" : {
+        "ko" : "Coreum은 ISO20022 기준에 부합하는 기관급 레이어-1 블록체인으로, 미래의 탈중앙화 어플리케이션들을 위한 핵심 인프라를 제공합니다.",
+        "en" : "Coreum is an enterprise-grade L1 blockchain to serve as a core infrastructure of future decentralized applications.",
+        "ja" : "Coreumは、将来の分散アプリケーションのコアインフラストラクチャとして機能するエンタープライズクラスのL1ブロックチェーンです。"
+    }
 }

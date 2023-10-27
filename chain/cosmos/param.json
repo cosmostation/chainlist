@@ -2,8 +2,7 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.0025uatom",
-            "0.025uatom"
+            "20000000aheart"
         ],
         "isSimulable" : true,
         "simul_gas_multiply" : "1.2",
@@ -12,35 +11,35 @@
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "grpc-cosmos.cosmostation.io:443"
+            "url": "grpc-humans.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "cosmos-grpc.polkachu.com:14990"
+            "provider": "NodeStake",
+            "url": "grpc.humans.nodestake.top:443"
         },
         {
-            "provider": "Notional",
-            "url": "grpc-cosmoshub-ia.cosmosia.notional.ventures:443"
+            "provider": "itrocket",
+            "url": "humans-mainnet-grpc.itrocket.net:17090"
         },
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "cosmoshub-grpc.lavenderfive.com:443"
+            "provider": "Staketab",
+            "url": "humans-rpc.stakeangle.com:41490"
         },
         {
-            "provider": "DragonStake",
-            "url": "grpc.cosmos.dragonstake.io:443"
+            "provider": "StakePool",
+            "url": "grpc-humans.cosmos-spaces.cloud:1190"
         }
     ],
     "about" : {
-        "website" : "https://cosmos.network",
-        "blog" : "https://blog.cosmos.network",
-        "github" : "https://github.com/cosmos",
-        "twitter" : "https://twitter.com/cosmos",
-        "coingecko" : "https://www.coingecko.com/en/coins/cosmos-hub"
+        "website" : "https://humans.ai/",
+        "blog" : "https://medium.com/humansdotai",
+        "github" : "https://github.com/humansdotai",
+        "twitter" : "https://twitter.com/humansdotai",
+        "coingecko" : "https://www.coingecko.com/en/coins/humans-ai"
     },
     "description" : {
-        "ko" : "Tendermint BFT와 ABCI 기반의 분산형 블록체인 네트워크.",
-        "en" : "Decentralized network of blockchains powered by Tendermint BFT and ABCI.",
-        "ja" : "Tendermint BFTとABCIベースの分散型ブロックチェーンネットワーク。"
+        "ko" : "Humans.ai는 AI 알고리즘과 AI 모델 생성을 독려하기 위해 설계된 분산형 AI 생태계입니다.",
+        "en" : "Humans.ai  is a decentralized AI ecosystem designed to incentivize the creation of AI algorithms and models.",
+        "ja" : "Humans.ai はAIアルゴリズムとAIモデルの生成を促すために設計された分散型AI生態系です。"
     }
 }
