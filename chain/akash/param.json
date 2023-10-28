@@ -5,11 +5,11 @@
             "0.00025uakt",
             "0.0025uakt",
             "0.025uakt"
-        ],
-        "isSimulable" : true,
-        "simul_gas_multiply" : "1.2",
-        "fee_threshold" : ""
+        ]
     },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",

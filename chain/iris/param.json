@@ -5,11 +5,11 @@
             "0.002uiris",
             "0.02uiris",
             "0.2uiris"
-        ],
-        "isSimulable" : true,
-        "simul_gas_multiply" : "1.2",
-        "fee_threshold" : ""
+        ]
     },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",

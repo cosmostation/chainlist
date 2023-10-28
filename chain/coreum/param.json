@@ -5,11 +5,11 @@
             "0.05ucore",
             "0.0625ucore",
             "0.5ucore"
-        ],
-        "isSimulable" : true,
-        "simul_gas_multiply" : "1.2",
-        "fee_threshold" : ""
+        ]
     },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
