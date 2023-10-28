@@ -5,11 +5,11 @@
             "0.025basecro",
             "0.05basecro",
             "0.075basecro"
-        ],
-        "isSimulable" : true,
-        "simul_gas_multiply" : "1.2",
-        "fee_threshold" : ""
+        ]
     },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",

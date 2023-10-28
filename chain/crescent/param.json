@@ -5,11 +5,11 @@
             "0.01ucre,0.01ubcre",
             "0.02ucre,0.02ubcre",
             "0.05ucre,0.05ubcre"
-        ],
-        "isSimulable" : true,
-        "simul_gas_multiply" : "1.2",
-        "fee_threshold" : ""
+        ]
     },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",

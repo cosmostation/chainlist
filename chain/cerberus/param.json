@@ -3,11 +3,11 @@
         "base" : "0",
         "rate" : [
             "0.0ucrbrus"
-        ],
-        "isSimulable" : true,
-        "simul_gas_multiply" : "1.2",
-        "fee_threshold" : ""
+        ]
     },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "address": "grpc-cerberus-ia.cosmosia.notional.ventures:443",
