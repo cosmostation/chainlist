@@ -27,8 +27,12 @@
             "url": "osmosis-grpc.stake-town.com:443"
         },
         {
-            "provider": "kjnodes",
-            "url": "osmosis.grpc.kjnodes.com:11290"
+            "provider": "MMS",
+            "url": "grpc-osmosis.mms.team:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-osmosis.cosmos-spaces.cloud:1130"
         }
     ],
     "about" : {
