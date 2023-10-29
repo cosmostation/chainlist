@@ -2,7 +2,9 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.0umntl"
+            "0.0umntl",
+            "0.01umntl",
+            "0.025umntl"
         ]
     },
     "isSimulable" : false,
