@@ -1,32 +1,30 @@
 [
   {
+    "id": "liker-land",
     "name": "liker.land",
     "dappType": "Social",
     "description": "Decentralized NFT publishing platform.",
     "link": "https://liker.land/en/writing-nft"
   },
   {
+    "id": "depub-space",
     "name": "depub.space",
     "dappType": "Social",
     "description": "A Web3 decentralized Twitter.",
     "link": "https://depub.space/all"
   },
   {
+    "id": "iscn-app",
     "name": "ISCN App",
     "dappType": "Social",
     "description": "Search, browse and edit ISCN on LikeCoin chain.",
     "link": "https://app.like.co/nft/url"
   },
   {
+    "id": "dao",
     "name": "dao.like.co",
     "dappType": "Dashboard",
     "description": "A dashboard that helps you to manage, stake and vote with LIKE.",
     "link": "https://dao.like.co/welcome/"
-  },
-  {
-    "name": "Matters",
-    "dappType": "Social",
-    "description": "Decentralized content publishing platform.",
-    "link": "https://matters.news/"
   }
 ]

@@ -1,0 +1,45 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "2000nhash"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-provenance.cosmostation.io:443"
+        },
+        {
+            "provider": "TAKESHI",
+            "url": "grpc-provenance.takeshi.team:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "provenance-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-provenance-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Panthea EU",
+            "url": "provenance-grpc.panthea.eu:16780"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.provenance.io/",
+        "blog" : "https://medium.com/provenanceblockchain",
+        "github" : "https://github.com/provenance-io",
+        "twitter" : "https://twitter.com/provenancefdn",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "금융 서비스 산업의 블록체인 기술 도입을 위해 설계된 텐더민트 기반 블록체인입니다.",
+        "en" : "Provenance is a Tendermint-based blockchain network utilized by $HASH, designed to support financial service industry.",
+        "ja" : "金融サービス業界のブロックチェーン技術導入のため設計された、テンダーミントベースのブロックチェーンです。"
+    }
+}

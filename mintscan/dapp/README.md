@@ -18,7 +18,6 @@ You can add dApp information in the mintscan/dapp/{chain}/constants.json, and up
 - social.medium : dapp's medium (blog)
 - social.github : dapp's github
 - social.docs : dapp's documentation
-- contractAddress : If your dapp has a contract address, please enter it.
 - comingSoon : Please enter true if it is a dapp that has not yet been released, otherwise enter false. On the screen, the dapp is displayed as coming soon.
 
 ```json
@@ -37,7 +36,6 @@ You can add dApp information in the mintscan/dapp/{chain}/constants.json, and up
       "github": "https://github.com/astroport-fi/",
       "docs": "https://docs.astroport.fi/"
     },
-    "contractAddress": "neutron1eeyntmsq448c68ez06jsy6h2mtjke5tpuplnwtjfwcdznqmw72kswnlmm0",
     "comingSoon": false
   }
 ]

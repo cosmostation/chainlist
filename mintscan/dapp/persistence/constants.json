@@ -1,5 +1,6 @@
 [
   {
+    "id": "pstake-finance",
     "name": "pSTAKE Finance",
     "dappType": "Defi",
     "description": "A multi-chain liquid staking protocol that unlocks liquidity for your staked assets.",
@@ -12,12 +13,7 @@
     }
   },
   {
-    "name": "Persistence Bridge",
-    "dappType": "Bridge",
-    "description": "Persistence Bridge powered by Gravity Bridge",
-    "link": "https://bridge.persistence.one/"
-  },
-  {
+    "id": "dexter",
     "name": "Dexter",
     "dappType": "Defi",
     "description": "Dexter is an AMM for yield-generating assets like liquid-staked assets and interest-bearing tokens in DeFi, built on Persistence Core-1",

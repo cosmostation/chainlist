@@ -1,0 +1,46 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.1uumee",
+            "0.2uumee"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-umee.cosmostation.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "umee-grpc.polkachu.com:13690"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-umee-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "umee-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "QuantNode gRPC",
+            "url": "umee-grpc.quantnode.tech:9090"
+        }
+    ],
+    "about" : {
+        "website" : "https://umee.cc/",
+        "blog" : "https://medium.com/umeeblog",
+        "github" : "https://github.com/umee-network",
+        "twitter" : "https://twitter.com/Umee_CrossChain",
+        "coingecko" : "https://www.coingecko.com/en/coins/umee"
+    },
+    "description" : {
+        "ko" : "멀티체인 대출 및 차용, 스테이킹, 레버리지를 가능하게 하는 크로스체인 DeFi 플랫폼.",
+        "en" : "A cross-chain DeFi platform that enables multi-chain lending & borrowing, staking, and leverage.",
+        "ja" : "マルチチェーンの貸出及び借用、ステーキング、レバレッジを可能にするクロスチェーンDeFi プラットフォーム。"
+    }
+}

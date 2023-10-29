@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Kava Staking Coin",
     "image": "kava/asset/kava.png",
-    "coinGeckoId": "kava"
+    "coinGeckoId": "kava",
+    "color": "#FF564F"
   },
   {
     "denom": "erc20/tether/usdt",
