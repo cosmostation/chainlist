@@ -1,15 +1,16 @@
 [
   {
-      "denom": "untrn",
-      "type": "staking",
-      "origin_chain": "neutron",
-      "origin_denom": "untrn",
-      "origin_type": "staking",
-      "symbol": "NTRN",
-      "decimals": 6,
-      "description": "Neutron DAO Token",
-      "image": "neutron/asset/ntrn.png",
-      "coinGeckoId": "neutron-3"
+    "denom": "untrn",
+    "type": "staking",
+    "origin_chain": "neutron",
+    "origin_denom": "untrn",
+    "origin_type": "staking",
+    "symbol": "NTRN",
+    "decimals": 6,
+    "description": "Neutron DAO Token",
+    "image": "neutron/asset/ntrn.png",
+    "coinGeckoId": "neutron-3",
+    "color": "#465DF3"
   },
   {
     "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
@@ -69,7 +70,7 @@
       "denom": "uusdc"
     },
     "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin",
+    "coinGeckoId": "axlusdc",
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   },
   {
@@ -94,23 +95,57 @@
     "contract": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
   },
   {
-    "denom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+    "denom": "ibc/9598CDEB7C6DB7FC21E746C8E0250B30CD5154F39CA111A9D4948A4362F638BD",
     "type": "ibc",
-    "origin_chain": "stride",
-    "origin_denom": "stuatom",
-    "origin_type": "native",
-    "symbol": "stATOM",
+    "origin_chain": "mars-protocol",
+    "origin_denom": "umars",
+    "origin_type": "staking",
+    "symbol": "MARS",
     "decimals": 6,
     "enable": true,
-    "path": "stride>neutron",
-    "channel": "channel-8",
+    "path": "mars-protocol>neutron",
+    "channel": "channel-16",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-123",
+      "channel": "channel-37",
       "port": "transfer",
-      "denom": "stuatom"
+      "denom": "umars"
     },
-    "image": "stride/asset/statom.png",
-    "coinGeckoId": "stride-staked-atom"
+    "image": "mars-protocol/asset/mars.png",
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+  },
+  {
+    "denom": "ibc/A585C2D15DCD3B010849B453A2CFCB5E213208A5AB665691792684C26274304D",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "weth",
+    "origin_type": "erc20",
+    "symbol": "axlWETH",
+    "decimals": 18,
+    "enable": true,
+    "path": "ethereum>axelar>neutron",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-78",
+      "port": "transfer",
+      "denom": "eth-wei"
+    },
+    "image": "ethereum/asset/weth.png",
+    "coinGeckoId": "axlweth",
+    "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+  },
+  {
+    "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "wsteth",
+    "origin_type": "erc20",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "path": "ethereum>neutron",
+    "image": "ethereum/asset/wsteth.png",
+    "coinGeckoId": "wrapped-steth",
+    "contract": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
   }
 ]

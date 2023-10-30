@@ -1,0 +1,45 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0umars"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-mars-protocol.cosmostation.io:443"
+        },
+        {
+            "provider": "Delphi Labs",
+            "url": "grpc.marsprotocol.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "mars-grpc.polkachu.com:18590"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "mars-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "genznodes",
+            "url": "mars-grpc.genznodes.dev:9090"
+        }
+    ],
+    "about" : {
+        "website" : "https://marsprotocol.io/",
+        "blog" : "https://mars-protocol.medium.com/",
+        "github" : "https://github.com/mars-protocol",
+        "twitter" : "https://twitter.com/mars_protocol",
+        "coingecko" : "https://www.coingecko.com/en/coins/mars-protocol"
+    },
+    "description" : {
+        "ko" : "Mars Hub는 Interchain 생태계 전반에 걸쳐 배포될 Mars Protocol의 다양한 디파이 앱들의 관리 및 운영을 위해 설계된 블록체인입니다.",
+        "en" : "Mars Hub is the governing app-chain that administers Mars Protocol’s various DeFi outposts across the Interchain ecosystem.",
+        "ja" : "Mars HubはInterchain生態系全般にわたって配布されるMars Protocolの多様なDeFiアプリの管理および運営のために設計されたブロックチェーンです。"
+    }
+}

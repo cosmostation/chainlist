@@ -10,7 +10,8 @@
     "enable": true,
     "description": "Crescent Staking Coin",
     "image": "crescent/asset/cre.png",
-    "coinGeckoId": "crescent-network"
+    "coinGeckoId": "crescent-network",
+    "color": "#16B87B"
   },
   {
     "denom": "ubcre",
@@ -122,7 +123,7 @@
     "counter_party": {
       "channel": "channel-7",
       "port": "transfer",
-      "denom": "weth-wei"
+      "denom": "axlweth"
     },
     "image": "ethereum/asset/weth.png",
     "coinGeckoId": "weth",
@@ -146,7 +147,7 @@
       "denom": "uusdc"
     },
     "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin",
+    "coinGeckoId": "axlusdc",
     "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
   },
   {
@@ -609,5 +610,25 @@
     },
     "image": "evmos/asset/neok.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/F47D6F6C38DC1B5B72FFB71CC4D8A12FC4C57A5A79BAFA65286723D56B85197D",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>crescent",
+    "channel": "channel-38",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

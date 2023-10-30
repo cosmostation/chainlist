@@ -1,0 +1,33 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "12500000000adydx,0.025ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-dydx.cosmostation.io:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "dydx-mainnet-grpc.autostake.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://dydx.exchange/",
+        "blog" : "https://dydx.exchange/blog#",
+        "github" : "https://github.com/dydxprotocol/",
+        "twitter" : "https://twitter.com/dydx",
+        "coingecko" : "https://www.coingecko.com/en/coins/dydx"
+    },
+    "description" : {
+        "ko" : "dYdX는 수수료 없는 무기한 거래를 지원하는 탈중앙화 거래소를 위해 설계된 Cosmos SDK 기반 앱체인입니다.",
+        "en" : "dYdX is a standalone Cosmos appchain designed for a decentralized exchange that supports zero-fee perpetual trading.",
+        "ja" : "dYdXは手数料なしで無期限取引を支援する脱中央化取引所のために設計されたCosmosSDKベースのアプリチェーンです。"
+    }
+}

@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Stride Staking Coin",
     "image": "stride/asset/strd.png",
-    "coinGeckoId": "stride"
+    "coinGeckoId": "stride",
+    "color": "#E91179"
   },
   {
     "denom": "stuatom",
@@ -117,6 +118,18 @@
     "decimals": 6,
     "description": "Stride Staked CMDX",
     "image": "stride/asset/stcmdx.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "stusomm",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stusomm",
+    "origin_type": "native",
+    "symbol": "stSOMM",
+    "decimals": 6,
+    "description": "Stride Staked SOMM",
+    "image": "stride/asset/stsomm.png",
     "coinGeckoId": ""
   },
   {
@@ -358,5 +371,25 @@
     },
     "image": "comdex/asset/cmdx.png",
     "coinGeckoId": "comdex"
+  },
+  {
+    "denom": "ibc/B86EFF6D227E3E33D7E3B5E65D0C1BB5BD79CCB56D35A9D824F0DD5D52CA43BA",
+    "type": "ibc",
+    "origin_chain": "sommelier",
+    "origin_denom": "usomm",
+    "origin_type": "staking",
+    "symbol": "SOMM",
+    "decimals": 6,
+    "enable": true,
+    "path": "sommelier>stride",
+    "channel": "channel-150",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-71",
+      "port": "transfer",
+      "denom": "usomm"
+    },
+    "image": "sommelier/asset/somm.png",
+    "coinGeckoId": "sommelier"
   }
 ]

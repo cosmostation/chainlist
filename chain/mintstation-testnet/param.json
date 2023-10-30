@@ -1,0 +1,19 @@
+{
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.00025umint",
+            "0.0025umint",
+            "0.025umint"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "endpoint" : [
+        {
+            "provider": "cosmostation",
+            "url": "grpc-office-mintstation.cosmostation.io:443"
+        }
+    ]
+}

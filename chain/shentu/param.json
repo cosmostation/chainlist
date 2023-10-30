@@ -1,0 +1,46 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.025uctk",
+            "0.05uctk"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-shentu.cosmostation.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "certik-grpc.polkachu.com:14990"
+        },
+        {
+            "provider": "ramuchi.tech",
+            "url": "shentu-grpc.ramuchi.tech:12090"
+        },
+        {
+            "provider": "Stakeflow",
+            "url": "grpc-shentu-01.stakeflow.io:2402"
+        },
+        {
+            "provider": "TienThuatToan",
+            "url": "shentu-grpc.tienthuattoan.ventures:9490"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.shentu.technology/",
+        "blog" : "https://medium.com/shentu-foundation",
+        "github" : "https://github.com/shentufoundation",
+        "twitter" : "https://twitter.com/ShentuChain",
+        "coingecko" : "https://www.coingecko.com/en/coins/shentu"
+    },
+    "description" : {
+        "ko" : "Certik Foundation의 고유한 공식 검증 보안 시스템을 기반으로하는 공용 플랫폼입니다. shentu체인은 보안 중심 체인에서 스마트 계약 실행 및 상호 작용을 허용합니다.",
+        "en" : "A public platform based on the Certik Foundation's unique Formal Verification security system.",
+        "ja" : "Shentu Foundationの固有な公式検証保安システムをベースにする共用プラットフォームです。Shentuは保安中心チェーンでスマート契約実行及び相互作用を許容します。"
+    }
+}

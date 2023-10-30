@@ -9,7 +9,8 @@
     "decimals": 18,
     "description": "Evmos Staking Coin",
     "image": "evmos/asset/evmos.png",
-    "coinGeckoId": "evmos"
+    "coinGeckoId": "evmos",
+    "color": "#ED4E33"
   },
   {
     "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
@@ -274,7 +275,7 @@
       "denom": "uusdc"
     },
     "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin",
+    "coinGeckoId": "axlusdc",
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   },
   {
@@ -378,7 +379,8 @@
       "denom": "cnto"
     },
     "image": "acrechain/asset/cnto.png",
-    "contract": "0xAE6D3334989a22A65228732446731438672418F2"
+    "contract": "0xAE6D3334989a22A65228732446731438672418F2",
+    "coinGeckoId": ""
   },
   {
     "denom": "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9",
@@ -387,9 +389,11 @@
     "origin_denom": "neok",
     "origin_type": "erc20",
     "symbol": "NEOK",
+    "description": "NEOKingdom DAO",
     "decimals": 18,
     "enable": true,
     "image": "evmos/asset/neok.png",
-    "contract": "0x655ecB57432CC1370f65e5dc2309588b71b473A9"
+    "contract": "0x655ecB57432CC1370f65e5dc2309588b71b473A9",
+    "coinGeckoId": ""
   }
 ]
