@@ -1,0 +1,47 @@
+{
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.00025uregen",
+            "0.0025uregen",
+            "0.025uregen"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-regen.cosmostation.io:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "regen-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-regen-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "w3coins",
+            "url": "regen-grpc.w3coins.io:22790"
+        },
+        {
+            "provider": "Allnodes.com ⚡️ Nodes & Staking",
+            "url": "regen-grpc.publicnode.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.regen.network/",
+        "blog" : "https://medium.com/regen-network",
+        "github" : "https://github.com/regen-network",
+        "twitter" : "https://twitter.com/regen_network",
+        "coingecko" : "https://www.coingecko.com/en/coins/regen"
+    },
+    "description" : {
+        "ko" : "Regen은 친환경 데이터와 환경보호 활동를 위해 설계된 코스모스 기반 지분증명 블록체인입니다.",
+        "en" : "A Cosmos SDK based PoS blockchain designed to utilize ecological data and climate markets.",
+        "ja" : "Regenはエコデーターと環境保護活動のため設計された、コスモスベース時分証明ブロックチェーンです。"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.00025uakt",
+            "0.0025uakt",
+            "0.025uakt"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-akash.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-akash-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "akash-grpc.polkachu.com:12890"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "akash-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "w3coins",
+            "url": "akash-grpc.w3coins.io:12890"
+        }
+    ],
+    "about" : {
+        "website" : "https://akash.network/",
+        "blog" : "https://akash.network/blog/",
+        "github" : "https://github.com/akash-network",
+        "twitter" : "https://twitter.com/akashnet_",
+        "coingecko" : "https://www.coingecko.com/en/coins/akash-network"
+    },
+    "description" : {
+        "ko" : "DeFi 용 DeCloud와 세계 최초의 분산 형 클라우드 컴퓨팅 마켓입니다.",
+        "en" : "The DeCloud for DeFi, and the world\'s first decentralized cloud computing marketplace.",
+        "ja" : "DeFi 用DeCloudと世界初の分散型クラウド コンピューティングマーケットです。"
+    }
+}

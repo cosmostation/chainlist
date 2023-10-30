@@ -1,0 +1,46 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0025uatom",
+            "0.025uatom"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-cosmos.cosmostation.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "cosmos-grpc.polkachu.com:14990"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-cosmoshub-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "cosmoshub-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "DragonStake",
+            "url": "grpc.cosmos.dragonstake.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://cosmos.network",
+        "blog" : "https://blog.cosmos.network",
+        "github" : "https://github.com/cosmos",
+        "twitter" : "https://twitter.com/cosmos",
+        "coingecko" : "https://www.coingecko.com/en/coins/cosmos-hub"
+    },
+    "description" : {
+        "ko" : "Tendermint BFT와 ABCI 기반의 분산형 블록체인 네트워크.",
+        "en" : "Decentralized network of blockchains powered by Tendermint BFT and ABCI.",
+        "ja" : "Tendermint BFTとABCIベースの分散型ブロックチェーンネットワーク。"
+    }
+}

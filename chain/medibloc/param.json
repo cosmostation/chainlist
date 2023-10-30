@@ -1,0 +1,33 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "5umed"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-medibloc.cosmostation.io:443"
+        },
+        {
+            "provider": "Staketab",
+            "url": "services.staketab.com:9400"
+        }
+    ],
+    "about" : {
+        "website" : "https://medibloc.co.kr/",
+        "blog" : "https://medibloc.medium.com/",
+        "github" : "https://github.com/Medibloc",
+        "twitter" : "https://twitter.com/_MediBloc",
+        "coingecko" : "https://www.coingecko.com/en/coins/medibloc"
+    },
+    "description" : {
+        "ko" : "의료 데이터의 효율적인 배포를위한 플랫폼을 제공하는 환자 중심 의료 데이터 솔루션입니다.",
+        "en" : "Patient-centric healthcare data solution providing a platform for efficient distribution of healthcare data.",
+        "ja" : "医療データを効率的に配信するためのプラットフォームを提供する、患者中心の医療データソリューションです。"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "20000000aheart"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-humans.cosmostation.io:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.humans.nodestake.top:443"
+        },
+        {
+            "provider": "itrocket",
+            "url": "humans-mainnet-grpc.itrocket.net:17090"
+        },
+        {
+            "provider": "Staketab",
+            "url": "humans-rpc.stakeangle.com:41490"
+        },
+        {
+            "provider": "StakePool",
+            "url": "grpc-humans.cosmos-spaces.cloud:1190"
+        }
+    ],
+    "about" : {
+        "website" : "https://humans.ai/",
+        "blog" : "https://medium.com/humansdotai",
+        "github" : "https://github.com/humansdotai",
+        "twitter" : "https://twitter.com/humansdotai",
+        "coingecko" : "https://www.coingecko.com/en/coins/humans-ai"
+    },
+    "description" : {
+        "ko" : "Humans.ai는 AI 알고리즘과 AI 모델 생성을 독려하기 위해 설계된 분산형 AI 생태계입니다.",
+        "en" : "Humans.ai  is a decentralized AI ecosystem designed to incentivize the creation of AI algorithms and models.",
+        "ja" : "Humans.ai はAIアルゴリズムとAIモデルの生成を促すために設計された分散型AI生態系です。"
+    }
+}
