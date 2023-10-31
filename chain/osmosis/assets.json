@@ -2662,5 +2662,25 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+    "type": "ibc",
+    "origin_chain": "celestia",
+    "origin_denom": "utia",
+    "origin_type": "staking",
+    "symbol": "TIA",
+    "decimals": 6,
+    "enable": true,
+    "path": "celestia>osmosis",
+    "channel": "channel-6994",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "utia"
+    },
+    "image": "celestia/asset/tia.png",
+    "coinGeckoId": "celestia"
   }
 ]
