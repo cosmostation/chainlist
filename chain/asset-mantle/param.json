@@ -13,7 +13,7 @@
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "grpc-archway.cosmostation.io:443"
+            "url": "grpc-asset-mantle.cosmostation.io:443"
         },
         {
             "provider": "NodeStake",
