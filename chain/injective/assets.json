@@ -928,19 +928,6 @@
     "contract": "0x080b12e80c9b45e97c23b6ad10a16b3e2a123949"
   },
   {
-    "denom": "peggy0xde4c5a791913838027a2185709e98c5c6027ea63",
-    "type": "bridge",
-    "origin_chain": "ethereum",
-    "origin_denom": "xac",
-    "origin_type": "erc20",
-    "symbol": "XAC",
-    "decimals": 8,
-    "path": "ethereum>injective",
-    "image": "ethereum/asset/xac.png",
-    "coinGeckoId": "general-attention-currency",
-    "contract": "0xde4c5a791913838027a2185709e98c5c6027ea63"
-  },
-  {
     "denom": "peggy0x92D6C1e31e14520e676a687F0a93788B716BEff5",
     "type": "bridge",
     "origin_chain": "ethereum",
