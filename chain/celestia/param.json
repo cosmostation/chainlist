@@ -1,0 +1,29 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.1utia"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.2",
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-celestia.cosmostation.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://celestia.org/",
+        "blog" : "https://blog.celestia.org/",
+        "github" : "https://github.com/celestiaorg",
+        "twitter" : "https://twitter.com/CelestiaOrg",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "손쉬운 탈중앙화 어플리케이션 및 블록체인 배포를 가능하게 하는 모듈형 블록체인 네트워크.",
+        "en" : "A modular consensus and data network that enables seamless, scalable Web3 application deployment.",
+        "ja" : "簡単な脱中央化アプリケーションおよびブロックチェーンの配布を可能にするモジュール型ブロックチェーンネットワークです。"
+    }
+}
