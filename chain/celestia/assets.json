@@ -1,0 +1,15 @@
+[
+  {
+    "denom": "utia",
+    "type": "staking",
+    "origin_chain": "celestia",
+    "origin_denom": "utia",
+    "origin_type": "staking",
+    "symbol": "TIA",
+    "decimals": 6,
+    "description": "Celestia Staking Coin",
+    "image": "celestia/asset/tia.png",
+    "coinGeckoId": "",
+    "color": "#D554F8"
+  }
+]
