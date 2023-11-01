@@ -5,11 +5,11 @@
             "0.025afet",
             "0.2afet",
             "2afet"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.2",
-    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",

@@ -4,11 +4,11 @@
         "rate" : [
             "1500000000000acanto",
             "2000000000000acanto"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.2",
-    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",

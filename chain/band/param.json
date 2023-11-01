@@ -4,11 +4,11 @@
         "rate" : [
             "0.0025uband",
             "0.025uband"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.2",
-    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",

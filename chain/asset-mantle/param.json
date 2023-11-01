@@ -5,11 +5,11 @@
             "0.0umntl",
             "0.01umntl",
             "0.025umntl"
-        ]
+        ],
+        "isSimulable" : false,
+        "simul_gas_multiply" : "1.5",
+        "fee_threshold" : ""
     },
-    "isSimulable" : false,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
