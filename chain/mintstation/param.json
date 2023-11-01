@@ -5,15 +5,27 @@
             "0.00025umint",
             "0.0025umint",
             "0.025umint"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint" : [
+    "grpc_endpoint" : [
         {
-            "provider": "cosmostation",
+            "provider": "Cosmostation",
             "url": "grpc-office-mintstation.cosmostation.io:443"
         }
-    ]
+    ],
+    "about" : {
+        "website" : "https://www.stamper.network/",
+        "blog" : "",
+        "github" : "",
+        "twitter" : "",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Cosmos SDK 개발자들을 위한 무허가형 테스트넷 플레이그라운드 입니다.",
+        "en" : "This is a permissionless testnet playground for Cosmos SDK developers.",
+        "ja" : "Cosmos SDK 開発者のための無許可のテストネット プレーグラウンドです。"
+    }
 }

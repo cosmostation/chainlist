@@ -5,12 +5,43 @@
             "0.01ucre,0.01ubcre",
             "0.02ucre,0.02ubcre",
             "0.05ucre,0.05ubcre"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-crescent.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-crescent.cosmostation.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "crescent-grpc.polkachu.com:14990"
+        },
+        {
+            "provider": "Stakin",
+            "url": "crescent.grpc.stakin-nodes.com:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "crescent-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-crescent.cosmos-spaces.cloud:2270"
+        }
+    ],
+    "about" : {
+        "website" : "https://crescent.network/",
+        "blog" : "https://crescentnetwork.medium.com/",
+        "github" : "https://github.com/crescent-network",
+        "twitter" : "https://twitter.com/CrescentHub",
+        "coingecko" : "https://www.coingecko.com/en/coins/crescent-network"
+    },
+    "description" : {
+        "ko" : "$CRE 토큰과 인터-블록체인 통신기술을 활용한 텐더민트 기반 디파이 허브.",
+        "en" : "Crescent is a Tendermint-based DeFi hub powered by $CRE tokens & Inter-Blockchain Communication protocol.",
+        "ja" : "$CREトークンとインター-ブロックチェーン通信技術を活用した、テンダーミントベースの ディファイブ・ハブ。"
+    }
 }

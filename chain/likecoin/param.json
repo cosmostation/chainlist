@@ -3,12 +3,31 @@
         "base" : "0",
         "rate" : [
             "1nanolike"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-likecoin.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-likecoin.cosmostation.io:443"
+        },
+        {
+            "provider": "PikaSer",
+            "url": "grpc-likecoin-mainnet.pikaser.net:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://about.like.co/",
+        "blog" : "https://blog.like.co/en/",
+        "github" : "https://github.com/likecoin",
+        "twitter" : "https://twitter.com/likecoin",
+        "coingecko" : "https://www.coingecko.com/en/coins/likecoin"
+    },
+    "description" : {
+        "ko" : "소셜 미디어와 온라인 게시물을 위한 탈중앙화 플랫폼 및 인프라를 제공하는 Cosmos SDK 기반 블록체인 네트워크.",
+        "en" : "A Cosmos SDK-based blockchain for decentralized publishing infrastructure and social media.",
+        "ja" : "ソーシャル メディアやオンライン掲示物のための分散型プラットフォーム及びインフラを提供するCosmos SDK ベースのブロックチェーンネットワーク。"
+    }
 }

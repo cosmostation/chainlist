@@ -3,12 +3,43 @@
         "base" : "0",
         "rate" : [
             "0.1usei"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-sei.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-sei.cosmostation.io:443"
+        },
+        {
+            "provider": "polkachu.com",
+            "url": "sei-grpc.polkachu.com:11990"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "sei-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "sei-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "grpc-sei.whispernode.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.seinetwork.io/",
+        "blog" : "https://blog.sei.io/",
+        "github" : "https://github.com/sei-protocol/sei-chain",
+        "twitter" : "https://twitter.com/SeiNetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/sei-network"
+    },
+    "description" : {
+        "ko" : "Sei는 속도, 보안 및 확장성을 위해 설계된 Cosmos SDK 기반 레이어 1 블록체인 네트워크입니다.",
+        "en" : "Sei is a Cosmos SDK-based layer 1 blockchain network designed for speed, security and scalability.",
+        "ja" : "Seiは速度、セキュリティ、および拡張性のために設計されたCosmosSDKベースのレイヤー1ブロックチェーンネットワークです。"
+    }
 }

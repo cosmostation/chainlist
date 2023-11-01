@@ -5,12 +5,35 @@
             "0.00025uatolo",
             "0.0025uatolo",
             "0.025uatolo"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-rizon.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-rizon.cosmostation.io:443"
+        },
+        {
+            "provider": "MMS",
+            "url": "grpc-rizon.mms.team:443"
+        },
+        {
+            "provider": "Allnodes.com ⚡️ Nodes & Staking",
+            "url": "rizon-grpc.publicnode.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://rizon.world/",
+        "blog" : "https://medium.com/hdac",
+        "github" : "https://github.com/rizon-world/rizon",
+        "twitter" : "https://twitter.com/hdac_rizon",
+        "coingecko" : "https://www.coingecko.com/en/coins/rizon"
+    },
+    "description" : {
+        "ko" : "기존 비즈니스를 디지털 통화로 연결하는 Cosmos SDK 기반 오픈 소스 블록 체인.",
+        "en" : "Cosmos SDK based public network bridging traditional businesses with digital currencies.",
+        "ja" : "従来のビジネスをデジタル通貨につなげるCosmos SDKベースのオープンソースブロックチェーン。"
+    }
 }

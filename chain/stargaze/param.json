@@ -3,13 +3,44 @@
         "base" : "0",
         "rate" : [
             "1ustars",
-            "1.5ustars"
-        ]
+            "1.2ustars"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-stargaze.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-stargaze.cosmostation.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "stargaze-grpc.polkachu.com:14990"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-stargaze-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "stargaze-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-stargaze.cosmos-spaces.cloud:1150"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.stargaze.zone/",
+        "blog" : "https://medium.com/stargaze-protocol",
+        "github" : "https://github.com/public-awesome",
+        "twitter" : "https://twitter.com/stargazezone",
+        "coingecko" : "https://www.coingecko.com/en/coins/stargaze"
+    },
+    "description" : {
+        "ko" : "소셜 콘텐츠의 NFT화를 통해 탈중앙화를 실현하는 Cosmos SDK 기반 NFT 마켓플레이스 및 소셜 네트워크.",
+        "en" : "A Cosmos SDK-based decentralized interchain NFT marketplace and social network.",
+        "ja" : "ソーシャルコンテンツNFT化を通じて分散型を実現するCosmos SDKベースのNFTマーケットプレース及びソーシャルネットワーク。"
+    }
 }

@@ -3,12 +3,43 @@
         "base" : "0",
         "rate" : [
             "0.0001uqck"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-quicksilver.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-quicksilver.cosmostation.io:443"
+        },
+        {
+            "provider": "TAKESHI",
+            "url": "grpc-quicksilver.takeshi.team:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-quicksilver-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "quicksilver-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-quicksilver.cosmos-spaces.cloud:3300"
+        }
+    ],
+    "about" : {
+        "website" : "https://quicksilver.zone/",
+        "blog" : "https://medium.com/quicksilverzone",
+        "github" : "https://github.com/quicksilver-zone/quicksilver",
+        "twitter" : "https://twitter.com/quicksilverzone",
+        "coingecko" : "https://www.coingecko.com/en/coins/quicksilver"
+    },
+    "description" : {
+        "ko" : "Cosmos Interchain 생태계 체인들을 위한 리퀴드 스테이킹 프로토콜.",
+        "en" : "Quicksilver Protocol is an liquid staking protocol for the Cosmos Interchain ecosystem.",
+        "ja" : "Cosmos Interchainエコシステムチェーンのためのリキッドステーキング プロトコル。"
+    }
 }

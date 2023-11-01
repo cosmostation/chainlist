@@ -5,12 +5,43 @@
             "0.025basecro",
             "0.05basecro",
             "0.075basecro"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-crypto-org.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-crypto-org.cosmostation.io:443"
+        },
+        {
+            "provider": "crypto.org",
+            "url": "grpc.mainnet.crypto.org:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-cryptoorgchain-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "cryptocom-grpc.polkachu.com:20290"
+        },
+        {
+            "provider": "w3coins",
+            "url": "cryptocom-grpc.w3coins.io:20290"
+        }
+    ],
+    "about" : {
+        "website" : "https://cronos-pos.org/",
+        "blog" : "https://medium.com/crypto-org-chain",
+        "github" : "https://github.com/crypto-org-chain",
+        "twitter" : "https://twitter.com/cryptocom",
+        "coingecko" : "https://www.coingecko.com/en/coins/cronos"
+    },
+    "description" : {
+        "ko" : "결제, DeFi 및 NFT를위한 Cosmos SDK 기반 퍼블릭 블록 체인 네트워크.",
+        "en" : "Cosmos SDK based public blockchain network for payments, DeFi, and NFTs.",
+        "ja" : "支払い、DeFi、および NFTのための Cosmos SDKベースのパブリックブロックチェーンネットワーク。"
+    }
 }

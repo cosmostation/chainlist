@@ -3,12 +3,43 @@
         "base" : "0",
         "rate" : [
             "1000000000000aarch"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-archway.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-archway.cosmostation.io:443"
+        },
+        {
+            "provider": "Archway Foundation",
+            "url": "grpc.mainnet.archway.io:443"
+        },
+        {
+            "provider": "Nodes.Guru",
+            "url": "grpc-1.archway.nodes.guru:10690"
+        },
+        {
+            "provider": "openbitlab",
+            "url": "archway-grpc.openbitlab.com:443"
+        },
+        {
+            "provider": "Luganodes",
+            "url": "grpc.archway.lgns.net:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://archway.io/",
+        "blog" : "https://blog.archway.io/",
+        "github" : "https://github.com/archway-network",
+        "twitter" : "https://twitter.com/archwayhq",
+        "coingecko" : "https://www.coingecko.com/en/coins/archway"
+    },
+    "description" : {
+        "ko" : "Archway는 dApp들의 기여도에 따라 리워드가 개발자들에게 분배되도록 설계된 스마트 컨트랙트 블록체인입니다.",
+        "en" : "Archway is a persmissionless smart contract blockchain designed to incentivize the deployments of dApps.",
+        "ja" : "Archwayは、dAppの貢献度に応じてリワードが開発者に分配されるように設計されたスマートコントラクトブロックチェーンです。"
+    }
 }

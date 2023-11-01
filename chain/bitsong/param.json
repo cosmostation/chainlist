@@ -3,12 +3,39 @@
         "base" : "0",
         "rate" : [
             "0.025ubtsg"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-bitsong.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-bitsong.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-bitsong-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "bitsong-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Panthea EU",
+            "url": "bitsong-grpc.panthea.eu:16750"
+        }
+    ],
+    "about" : {
+        "website" : "http://bitsong.io/",
+        "blog" : "https://bitsongofficial.medium.com/",
+        "github" : "https://github.com/BitSongOfficial",
+        "twitter" : "https://twitter.com/BitSongOfficial",
+        "coingecko" : "https://www.coingecko.com/en/coins/bitsong"
+    },
+    "description" : {
+        "ko" : "Cosmos SDK 기반 블록체인으로서 음악산업 내 아티스트와 팬, 음원 공급사를 연결해주는 탈중앙화 플랫폼입니다.",
+        "en" : "CA decentralized blockchain hub that provides a trustless marketplace for the music industry.",
+        "ja" : "Cosmos SDKベースブロックチエーンとして音楽産業内のアーティストとファン、音源サプライヤーをつなげる分散型プラットフォーム。"
+    }
 }

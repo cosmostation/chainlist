@@ -1,14 +1,46 @@
 {
     "fee" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
+            "0.025ucmdx",
             "0.25ucmdx"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-comdex.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-comdex.cosmostation.io:443"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "comdex.grpcui.chaintools.host:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-comdex-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-comdex.cosmos-spaces.cloud:2300"
+        },
+        {
+            "provider": "StakerHouse",
+            "url": "comdex-grpc.stakerhouse.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://comdex.one/",
+        "blog" : "https://blog.comdex.one/",
+        "github" : "https://github.com/comdex-official",
+        "twitter" : "https://twitter.com/ComdexOfficial",
+        "coingecko" : "https://www.coingecko.com/en/coins/comdex"
+    },
+    "description" : {
+        "ko" : "토큰화된 합성자산의 거래와 파생상품 활용을 위한 탈중앙화 플랫폼.",
+        "en" : "A decentralized platform for minting & exchanging of synthetic assets.",
+        "ja" : "トークン化された合成資産の取引とデリバティブ活用のための分散型プラットフォーム。"
+    }
 }
