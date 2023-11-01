@@ -147,5 +147,25 @@
     "image": "ethereum/asset/wsteth.png",
     "coinGeckoId": "wrapped-steth",
     "contract": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+  },
+  {
+    "denom": "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7",
+    "type": "ibc",
+    "origin_chain": "celestia",
+    "origin_denom": "utia",
+    "origin_type": "staking",
+    "symbol": "TIA",
+    "decimals": 6,
+    "enable": true,
+    "path": "celestia>neutron",
+    "channel": "channel-35",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-8",
+      "port": "transfer",
+      "denom": "utia"
+    },
+    "image": "celestia/asset/tia.png",
+    "coinGeckoId": "celestia"
   }
 ]
