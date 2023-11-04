@@ -9,67 +9,40 @@
     "decimals": 6,
     "description": "Kava Staking Coin",
     "image": "kava/asset/kava.png",
-    "coinGeckoId": "kava"
+    "coinGeckoId": "kava",
+    "color": "#FF564F"
   },
   {
-    "denom": "erc20/multichain/dai",
+    "denom": "erc20/tether/usdt",
     "type": "native",
     "origin_chain": "kava",
-    "origin_denom": "erc20/multichain/dai",
+    "origin_denom": "usdt",
     "origin_type": "native",
-    "symbol": "bDAI",
-    "decimals": 18,
-    "description": "DAI Earned in Kava",
-    "image": "kava/asset/bdai.png",
-    "coinGeckoId": ""
+    "symbol": "USDt",
+    "decimals": 6,
+    "description": "Tether USDt",
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether"
   },
   {
-    "denom": "erc20/multichain/usdc",
-    "type": "native",
-    "origin_chain": "kava",
-    "origin_denom": "erc20/multichain/usdc",
-    "origin_type": "native",
-    "symbol": "bUSDC",
+    "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
     "decimals": 6,
-    "description": "USDC Earned in Kava",
-    "image": "kava/asset/busdc.png",
-    "coinGeckoId": ""
-  },
-  {
-    "denom": "erc20/multichain/usdt",
-    "type": "native",
-    "origin_chain": "kava",
-    "origin_denom": "erc20/multichain/usdt",
-    "origin_type": "native",
-    "symbol": "bUSDT",
-    "decimals": 6,
-    "description": "USDT Earned in Kava",
-    "image": "kava/asset/busdt.png",
-    "coinGeckoId": ""
-  },
-  {
-    "denom": "erc20/axelar/usdc",
-    "type": "bridge",
-    "origin_chain": "ethereum",
-    "origin_denom": "usdc",
-    "origin_type": "erc20",
-    "symbol": "axlUSDC",
-    "decimals": 6,
-    "path": "ethereum>axelar>kava",
-    "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin"
-  },
-  {
-    "denom": "swp",
-    "type": "native",
-    "origin_chain": "kava",
-    "origin_denom": "swp",
-    "origin_type": "native",
-    "symbol": "SWP",
-    "decimals": 6,
-    "description": "Kava Swap Coin",
-    "image": "kava/asset/swp.png",
-    "coinGeckoId": "kava-swap"
+    "enable": true,
+    "path": "cosmos>kava",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-277",
+      "port": "transfer",
+      "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
   },
   {
     "denom": "usdx",
@@ -82,6 +55,58 @@
     "description": "USD Stable Asset",
     "image": "kava/asset/usdx.png",
     "coinGeckoId": "usdx"
+  },
+  {
+    "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>kava",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-143",
+      "port": "transfer",
+      "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  },
+  {
+    "denom": "ibc/EA7DF7F779C7F14E07172E5713E07356B55F01496CA649DDE46CF8FBF1A8466D",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uion",
+    "origin_type": "native",
+    "symbol": "ION",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>kava",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-143",
+      "port": "transfer",
+      "denom": "uion"
+    },
+    "image": "osmosis/asset/ion.png",
+    "coinGeckoId": "ion"
+  },
+  {
+    "denom": "swp",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "swp",
+    "origin_type": "native",
+    "symbol": "SWP",
+    "decimals": 6,
+    "description": "Kava Swap Coin",
+    "image": "kava/asset/swp.png",
+    "coinGeckoId": "kava-swap"
   },
   {
     "denom": "hard",
@@ -106,6 +131,68 @@
     "description": "System Total Debt",
     "image": "kava/asset/debt.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "erc20/multichain/dai",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "erc20/multichain/dai",
+    "origin_type": "native",
+    "symbol": "bDAI",
+    "decimals": 18,
+    "description": "DAI Earned in Kava",
+    "image": "kava/asset/bdai.png",
+    "coinGeckoId": "dai"
+  },
+  {
+    "denom": "erc20/multichain/usdc",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "busdc",
+    "origin_type": "native",
+    "symbol": "bUSDC",
+    "decimals": 6,
+    "description": "USDC Earned in Kava",
+    "image": "kava/asset/busdc.png",
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "erc20/multichain/usdt",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "busdt",
+    "origin_type": "native",
+    "symbol": "bUSDT",
+    "decimals": 6,
+    "description": "USDT Earned in Kava",
+    "image": "kava/asset/busdt.png",
+    "coinGeckoId": "tether"
+  },
+  {
+    "denom": "erc20/axelar/usdc",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "description": "Axelar Wrapped USDC",
+    "path": "ethereum>axelar>kava",
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "axlusdc"
+  },
+  {
+    "denom": "erc20/axelar/wbtc",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "wbtc",
+    "origin_type": "erc20",
+    "symbol": "axlWBTC",
+    "decimals": 8,
+    "description": "Axelar Wrapped WBTC",
+    "path": "ethereum>axelar>kava",
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "axlwbtc"
   },
   {
     "denom": "hbtc",
@@ -168,66 +255,6 @@
     "coinGeckoId": "ripple"
   },
   {
-    "denom": "ibc/EA7DF7F779C7F14E07172E5713E07356B55F01496CA649DDE46CF8FBF1A8466D",
-    "type": "ibc",
-    "origin_chain": "osmosis",
-    "origin_denom": "uion",
-    "origin_type": "native",
-    "symbol": "ION",
-    "decimals": 6,
-    "enable": true,
-    "path": "osmosis>kava",
-    "channel": "channel-1",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-143",
-      "port": "transfer",
-      "denom": "uion"
-    },
-    "image": "osmosis/asset/ion.png",
-    "coinGeckoId": "ion"
-  },
-  {
-    "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
-    "type": "ibc",
-    "origin_chain": "osmosis",
-    "origin_denom": "uosmo",
-    "origin_type": "staking",
-    "symbol": "OSMO",
-    "decimals": 6,
-    "enable": true,
-    "path": "osmosis>kava",
-    "channel": "channel-1",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-143",
-      "port": "transfer",
-      "denom": "uosmo"
-    },
-    "image": "osmosis/asset/osmo.png",
-    "coinGeckoId": "osmosis"
-  },
-  {
-    "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-    "type": "ibc",
-    "origin_chain": "cosmos",
-    "origin_denom": "uatom",
-    "origin_type": "staking",
-    "symbol": "ATOM",
-    "decimals": 6,
-    "enable": true,
-    "path": "cosmos>kava",
-    "channel": "channel-0",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-277",
-      "port": "transfer",
-      "denom": "uatom"
-    },
-    "image": "cosmos/asset/atom.png",
-    "coinGeckoId": "cosmos"
-  },
-  {
     "denom": "ibc/799FDD409719A1122586A629AE8FCA17380351A51C1F47A80A1B8E7F2A491098",
     "type": "ibc",
     "origin_chain": "akash",
@@ -246,5 +273,17 @@
     },
     "image": "akash/asset/akt.png",
     "coinGeckoId": "akash-network"
+  },
+  {
+    "denom": "erc20/multichain/wbtc",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "wbtc",
+    "origin_type": "native",
+    "symbol": "MultiWBTC",
+    "decimals": 8,
+    "description": "Multichain Wrapped BTC",
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "wrapped-bitcoin"
   }
 ]

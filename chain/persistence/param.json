@@ -1,0 +1,46 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0uxprt",
+            "0.025uxprt"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-persistence.cosmostation.io:443"
+        },
+        {
+            "provider": "Persistence",
+            "url": "grpc.core.persistence.one:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-persistent-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "persistence-grpc.polkachu.com:15490"
+        },
+        {
+            "provider": "POSTHUMAN∞DVS",
+            "url": "grpc.persistence.posthuman.digital:80"
+        }
+    ],
+    "about" : {
+        "website" : "https://persistence.one/",
+        "blog" : "https://blog.persistence.one/",
+        "github" : "https://github.com/persistenceOne",
+        "twitter" : "https://twitter.com/PersistenceOne",
+        "coingecko" : "https://www.coingecko.com/en/coins/persistence"
+    },
+    "description" : {
+        "ko" : "유동성 스테이킹, NFT, 합성 자산 등 다수의 자산 클래스를 다루는 블록체인 프로토콜.",
+        "en" : "A protocol enabling exposure to multiple asset classes such as Liquid Staking, NFTs and Synthetics.",
+        "ja" : "流動性ステーキング、NFT、合成資産など、複数の資産クラスを扱うブロックチェーンプロトコル。"
+    }
+}

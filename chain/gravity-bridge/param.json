@@ -1,0 +1,45 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0ugraviton"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-gravity-bridge.cosmostation.io:443"
+        },
+        {
+            "provider": "amhost",
+            "url": "gravity-bridge-1-08.nodes.amhost.net:9090"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-gravitybridge-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "gravitybridge-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Staketab",
+            "url": "services.staketab.com:9017"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.gravitybridge.net/",
+        "blog" : "https://www.gravitybridge.net/blog",
+        "github" : "https://github.com/Gravity-Bridge",
+        "twitter" : "https://twitter.com/gravity_bridge",
+        "coingecko" : "https://www.coingecko.com/en/coins/graviton"
+    },
+    "description" : {
+        "ko" : "코스모스와 이더리움 생태계의 브릿지 연결을 위해 설계된 Tendermint 기반 블록체인.",
+        "en" : "A neutral peg zone designed primarily for bridge operation between Cosmos and Ethereum ecosystems.",
+        "ja" : "コスモスとイーサリアムエコシステム間のブリッジ連結のため設計されたTendermintベースブロックチェーン。"
+    }
+}

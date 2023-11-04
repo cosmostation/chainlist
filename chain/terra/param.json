@@ -1,0 +1,46 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.015uluna",
+            "0.04uluna"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-terra.cosmostation.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "terra-grpc.polkachu.com:11790"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "terra-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "terra2-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Stakeflow",
+            "url": "grpc-terra-01.stakeflow.io:1102"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.terra.money/",
+        "blog" : "https://medium.com/terra-money",
+        "github" : "https://github.com/terra-money/core",
+        "twitter" : "https://twitter.com/terra_money",
+        "coingecko" : "https://www.coingecko.com/en/coins/terra-luna-2"
+    },
+    "description" : {
+        "ko" : "Terra 네트워크는 Terra Classic 에서 하드포크된 Cosmos SDK 기반 비허가형 블록체인 네트워크입니다.",
+        "en" : "Terra is a Cosmos SDK-based permissionless blockchain network hard forked from Terra Classic network.",
+        "ja" : "Terraネットワークは、Terra ClassicでハードフォークされたCosmos SDKベースの非許可型ブロックチェーンネットワークです。"
+    }
+}

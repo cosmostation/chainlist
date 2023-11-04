@@ -317,5 +317,16 @@
     "image": "ethereum/asset/dai.png",
     "default": false,
     "coinGeckoId": "dai"
+  },
+  {
+    "chainId": 9001,
+    "chainName": "evmos",
+    "address": "0x655ecB57432CC1370f65e5dc2309588b71b473A9",
+    "symbol": "NEOK",
+    "description": "NEOKingdom DAO",
+    "decimals": 18,
+    "image": "evmos/asset/neok.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
