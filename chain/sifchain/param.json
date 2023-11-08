@@ -1,0 +1,13 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0rowan"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.5",
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.001ulum"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-lum.cosmostation.io:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "lum-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "StakerHouse",
+            "url": "lum-grpc.stakerhouse.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "lumnetwork-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Panthea EU",
+            "url": "lum-grpc.panthea.eu:16770"
+        }
+    ],
+    "about" : {
+        "website" : "https://lum.network/",
+        "blog" : "https://medium.com/lum-network",
+        "github" : "https://github.com/lum-network",
+        "twitter" : "https://twitter.com/lum_network",
+        "coingecko" : "https://www.coingecko.com/en/coins/lum-network"
+    },
+    "description" : {
+        "ko" : "상품평 및 리뷰를 체인에 저장하고, 토큰으로 보상을 지급하는 Cosmos SDK 기반 블록체인.",
+        "en" : "A Cosmos SDK-based blockchain designed for on-chain user reviews and rewards.",
+        "ja" : "商品評価及びビューをチェーンに保存し、トークンで補償を支給するCosmos SDKベースのブロックチェーン。"
+    }
+}

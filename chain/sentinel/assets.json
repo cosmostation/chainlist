@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Sentinel Staking Coin",
     "image": "sentinel/asset/dvpn.png",
-    "coinGeckoId": "sentinel"
+    "coinGeckoId": "sentinel",
+    "color": "#5B8ED7"
   },
   {
     "denom": "ibc/A8C2D23A1E6F95DA4E48BA349667E322BD7A6C996D8A4AAE8BA72E190F3D1477",
@@ -112,7 +113,7 @@
     "coinGeckoId": "decentr"
   },
   {
-    "denom": "ibc/a85aca68d4ebb931256f86a5360f93caa4b9102f39fed10cc3a7c57328d4ad34",
+    "denom": "ibc/A85ACA68D4EBB931256F86A5360F93CAA4B9102F39FED10CC3A7C57328D4AD34",
     "type": "ibc",
     "origin_chain": "medasdigital",
     "origin_denom": "umedas",

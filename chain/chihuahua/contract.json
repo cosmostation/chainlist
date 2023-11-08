@@ -1,0 +1,23 @@
+[
+  {
+    "chainId": -1,
+    "chainName": "chihuahua",
+    "address": "chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
+    "symbol": "PUPPY",
+    "description": "The 21m Bitcoins of Chihuahua",
+    "decimals": 6,
+    "image": "chihuahua/asset/puppy.png",
+    "default": true,
+    "coinGeckoId": "puppy"
+  },
+  {
+    "chainId": -1,
+    "chainName": "chihuahua",
+    "address": "chihuahua1jz5n4aynhpxx7clf2m8hrv9dp5nz83k67fgaxhy4p9dfwl6zssrq3ymr6w",
+    "symbol": "bHUAHUA",
+    "description": "",
+    "decimals": 6,
+    "image": "chihuahua/asset/bhuahua.png",
+    "default": true
+  }
+]
