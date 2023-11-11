@@ -25,6 +25,26 @@
     "coinGeckoId": "ion"
   },
   {
+    "denom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+    "type": "ibc",
+    "origin_chain": "dydx",
+    "origin_denom": "adydx",
+    "origin_type": "staking",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "enable": true,
+    "path": "dydx>osmosis",
+    "channel": "channel-6787",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "adydx"
+    },
+    "image": "dydx/asset/dydx.png",
+    "coinGeckoId": "dydx-chain"
+  },
+  {
     "denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
     "type": "ibc",
     "origin_chain": "stride",
