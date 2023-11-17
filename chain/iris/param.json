@@ -7,7 +7,7 @@
             "0.2uiris"
         ],
         "isSimulable" : true,
-        "simul_gas_multiply" : "1.2",
+        "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [

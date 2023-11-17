@@ -25,6 +25,26 @@
     "coinGeckoId": "ion"
   },
   {
+    "denom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+    "type": "ibc",
+    "origin_chain": "dydx",
+    "origin_denom": "adydx",
+    "origin_type": "staking",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "enable": true,
+    "path": "dydx>osmosis",
+    "channel": "channel-6787",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "adydx"
+    },
+    "image": "dydx/asset/dydx.png",
+    "coinGeckoId": "dydx-chain"
+  },
+  {
     "denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
     "type": "ibc",
     "origin_chain": "stride",
@@ -1588,7 +1608,7 @@
     "contract": "juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl"
   },
   {
-    "denom": "ibc/c6b6bfcb6ee49a7cab1a7e7b021de35b99d525ac660844952f0f6c78dcb2a57b",
+    "denom": "ibc/C6B6BFCB6EE49A7CAB1A7E7B021DE35B99D525AC660844952F0F6C78DCB2A57B",
     "type": "ibc",
     "origin_chain": "juno",
     "origin_denom": "sejuno",
@@ -1651,7 +1671,7 @@
     "contract": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
   },
   {
-    "denom": "ibc/c2df5c3949ca835b221c575625991f09bab4e48fb9c11a4ee357194f736111e3",
+    "denom": "ibc/C2DF5C3949CA835B221C575625991F09BAB4E48FB9C11A4EE357194F736111E3",
     "type": "ibc",
     "origin_chain": "juno",
     "origin_denom": "bjuno",

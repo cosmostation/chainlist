@@ -164,5 +164,46 @@
     },
     "image": "gravity-bridge/asset/grav.png",
     "coinGeckoId": "graviton"
+  },
+  {
+    "denom": "ibc/C559977F5797BDC1D74C0836A10C379C991D664166CB60D776A83029852431B4",
+    "type": "ibc",
+    "origin_chain": "kava",
+    "origin_denom": "erc20/tether/usdt",
+    "origin_type": "native",
+    "symbol": "USDt",
+    "decimals": 6,
+    "description": "Tether USDt",
+    "enable": true,
+    "path": "kava>persistence",
+    "channel": "channel-129",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-134",
+      "port": "transfer",
+      "denom": "erc20/tether/usdt"
+    },
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether"
+  },
+  {
+    "denom": "ibc/B3792E4A62DF4A934EF2DF5968556DB56F5776ED25BDE11188A4F58A7DD406F0",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>persistence",
+    "channel": "channel-132",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]
