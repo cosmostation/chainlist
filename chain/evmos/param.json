@@ -7,7 +7,7 @@
             "80000000000aevmos"
         ],
         "isSimulable" : true,
-        "simul_gas_multiply" : "1.2",
+        "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
