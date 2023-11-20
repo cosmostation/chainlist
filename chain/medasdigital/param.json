@@ -8,7 +8,7 @@
         ]
     },
     "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
+    "simul_gas_multiply" : 1.5,
     "fee_threshold" : "",
     "endpoint_url" : [
         "grpc.medas-digital.io:9090"

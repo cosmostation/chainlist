@@ -5,7 +5,7 @@
             "0.0rowan"
         ],
         "isSimulable" : true,
-        "simul_gas_multiply" : "1.5",
+        "simul_gas_multiply" : 1.5,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [

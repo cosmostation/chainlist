@@ -2,10 +2,10 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "500000000inj"
+            "160000000inj"
         ],
         "isSimulable" : true,
-        "simul_gas_multiply" : "1.2",
+        "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
