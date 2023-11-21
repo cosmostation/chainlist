@@ -2702,5 +2702,26 @@
     },
     "image": "celestia/asset/tia.png",
     "coinGeckoId": "celestia"
+  },
+  {
+    "denom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "wbtc",
+    "origin_type": "erc20",
+    "symbol": "yieldeth-wei",
+    "decimals": 18,
+    "enable": true,
+    "path": "ethereum>axelar>osmosis",
+    "channel": "channel-208",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "yieldeth-wei"
+    },
+    "image": "ethereum/asset/yieldeth.png",
+    "coinGeckoId": "yieldeth-sommelier",
+    "contract": "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec"
   }
 ]
