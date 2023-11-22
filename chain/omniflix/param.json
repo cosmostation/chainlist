@@ -1,0 +1,45 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.001uflix"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-omniflix.cosmostation.io:443"
+        },
+        {
+            "provider": "kingnodes",
+            "url": "grpc-omniflix.kingnodes.com:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-omniflixhub-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "omniflixhub-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Architect Nodes",
+            "url": "grpc-omniflix.architectnodes.com:1443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.omniflix.network/",
+        "blog" : "https://blog.omniflix.network/",
+        "github" : "https://github.com/OmniFlix",
+        "twitter" : "https://twitter.com/OmniFlixNetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/omniflix-network"
+    },
+    "description" : {
+        "ko" : "NFT 창작자들과 커뮤니티에게 탈중앙화된 미디어 플랫폼을 제공하는 블록체인 프로젝트.",
+        "en" : "OmniFlix Network is a blockchain specifically designed for creators and communities, powered by NFTs.",
+        "ja" : "NFTクリエイターやコミュニティに脱中央化されたミディアプラットフォームを提供するブロックチェーンプロジェクト。"
+    }
+}

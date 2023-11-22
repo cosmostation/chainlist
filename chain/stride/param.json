@@ -1,0 +1,45 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0005ustrd,0.001stuosmo,0.0001stuatom,0.001ibc/D24B4564BCD51D3D02D9987D92571EAC5915676A9BD6D9B0C1D0254CB8A5EA34,0.0001ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-stride.cosmostation.io:443"
+        },
+        {
+            "provider": "BccNodes",
+            "url": "stride.grpc.bccnodes.com:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "stride-grpc.polkachu.com:12290"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "stride-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-stride.cosmos-spaces.cloud:1140"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.stride.zone/",
+        "blog" : "https://stride.zone/blog",
+        "github" : "https://github.com/Stride-Labs/stride",
+        "twitter" : "https://twitter.com/stride_zone",
+        "coingecko" : "https://www.coingecko.com/en/coins/stride"
+    },
+    "description" : {
+        "ko" : "Stride 는 stToken의 발행을 통해 스테이킹된 자산을 유동화시키는 유동성 스테이킹 프로토콜입니다.",
+        "en" : "Stride is a liquid staking protocol that unlocks the liquidity for staked assets in the IBC ecosystem.",
+        "ja" : "StrideはstTokenの発行を通じてステーキングされた資産を流動化させる流動性ステーキングプロトコルです。"
+    }
+}

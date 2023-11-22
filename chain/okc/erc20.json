@@ -1,0 +1,79 @@
+[
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0xdF54B6c6195EA4d948D03bfD818D365cf175cFC2",
+    "symbol": "OKB",
+    "description": "OKB (KIP20)",
+    "decimals": 18,
+    "image": "okc/asset/okb.png",
+    "default": true,
+    "coinGeckoId":"okb"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15",
+    "symbol": "WOKT",
+    "description": "Wrapped OKT (KIP20)",
+    "decimals": 18,
+    "image": "okc/asset/wokt.png",
+    "default": false,
+    "coinGeckoId":"wrapped-okt"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0x382bB369d343125BfB2117af9c149795C6C65C50",
+    "symbol": "USDT",
+    "description": "Tether (KIP20)",
+    "decimals": 18,
+    "image": "ethereum/asset/usdt.png",
+    "default": false,
+    "coinGeckoId":"tether"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0xc946DAf81b08146B1C7A8Da2A851Ddf2B3EAaf85",
+    "symbol": "USDC",
+    "description": "USD Coin (KIP20)",
+    "decimals": 18,
+    "image": "ethereum/asset/usdc.png",
+    "default": false,
+    "coinGeckoId":"usd-coin"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0x54e4622DC504176b3BB432dCCAf504569699a7fF",
+    "symbol": "BTCK",
+    "description": "OEC BTC (KIP20)",
+    "decimals": 18,
+    "image": "okc/asset/btck.png",
+    "default": false,
+    "coinGeckoId":"oec-btc"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0xEF71CA2EE68F45B9Ad6F72fbdb33d707b872315C",
+    "symbol": "ETHK",
+    "description": "ETHK (KIP20)",
+    "decimals": 18,
+    "image": "okc/asset/ethk.png",
+    "default": false,
+    "coinGeckoId":"oec-eth"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okc",
+    "address": "0x21cDE7E32a6CAF4742d00d44B07279e7596d26B9",
+    "symbol": "DAIK",
+    "description": "DAIK (KIP20)",
+    "decimals": 18,
+    "image": "okc/asset/daik.png",
+    "default": false,
+    "coinGeckoId":"oec-dai"
+  }
+]
