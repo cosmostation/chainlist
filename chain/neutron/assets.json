@@ -116,27 +116,6 @@
     "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
   },
   {
-    "denom": "ibc/27F48DA7E6C8C1203C9EB2BB225C876F3A600C6C3C1DD94CE283D5D027BD91E4",
-    "type": "ibc",
-    "origin_chain": "moonbeam",
-    "origin_denom": "xcdot",
-    "origin_type": "erc20",
-    "symbol": "axlDOT",
-    "decimals": 10,
-    "enable": true,
-    "path": "moonbeam>axelar>neutron",
-    "channel": "channel-2",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-78",
-      "port": "transfer",
-      "denom": "xcdot"
-    },
-    "image": "moonbeam/asset/xcdot.png",
-    "coinGeckoId": "xcdot",
-    "contract": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
-  },
-  {
     "denom": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
     "type": "ibc",
     "origin_chain": "terra",
