@@ -1,18 +1,5 @@
 [
    {
-      "title":"Cosmon",
-      "description":"Build a team of leaders, collect cards, fight to earn! The first NFT Play to Earn on Cosmos",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/cosmon.png",
-      "url":"https://cosmon.ki",
-      "chain":[
-         "ki-chain"
-      ],
-      "category":"Game",
-      "tag":[
-         "P2E"
-      ]
-   },
-   {
       "title":"Kava",
       "description":"Swap, mint, lend and earn on Kava, a lightning-fast Layer-1 blockchain that combines Cosmos & Ethereum.",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/kava.png",
@@ -30,19 +17,6 @@
       "description":"Swap, provide, and earn on the leading decentralized AMM.",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/osmosis.png",
       "url":"https://app.osmosis.zone",
-      "chain":[
-         "osmosis"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Dex"
-      ]
-   },
-   {
-      "title":"Osmosis Frontier",
-      "description":"Swap, provide, and earn on the permissionless decentralized AMM.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/osmosis-frontier.png",
-      "url":"https://frontier.osmosis.zone",
       "chain":[
          "osmosis"
       ],
@@ -105,19 +79,6 @@
       ]
    },
    {
-      "title":"Hopers.io",
-      "description":"Hopers.io is a comprehensive platform that combines the power of DeFi and NFTs on the Cosmos blockchain on top of the L1 JUNO. It offers a fully-permissionless DEX and a marketplace for buying and selling unique NFTs.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/hopers.png",
-      "url":"https://hopers.io/",
-      "chain":[
-         "juno"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Dex"
-      ]
-   },
-   {
       "title":"depub.space",
       "description":"An Web3 decentralized Twitter on Likecoin.",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/depubspace.png",
@@ -157,82 +118,16 @@
       ]
    },
    {
-      "title":"Umee",
-      "description":"Borrow and lend today.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/umeemarkets.png",
-      "url":"https://app.umee.cc",
-      "chain":[
-         "umee"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Lending"
-      ]
-   },
-   {
-      "title":"Racoon.bet",
-      "description":"Gaming platform offering fully integrated on-chain games within the Cosmos Ecosystem.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/racoon-bet-huahua.png",
-      "url":"https://chihuahua.racoon.bet/",
-      "chain":[
-         "chihuahua"
-      ],
-      "category":"Game",
-      "tag":[
-         "Gamble"
-      ]
-   },
-   {
-      "title":"WyndDAO",
-      "description":"The cross chain native DeFi and ReFi experience",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/wynddao.png",
-      "url":"https://dex.wynddao.com/",
-      "chain":[
-         "juno"
-      ],
-      "category":"DeFi",
-      "tag":[
-         "Dex"
-      ]
-   },
-   {
-      "title":"TFM",
-      "description":"DEX/NFT Aggregator & Analytics.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/tfm.png",
-      "url":"https://tfm.com/osmosis",
-      "chain":[
-         "osmosis",
-         "juno"
-      ],
-      "category":"Defi",
-      "tag":[
-         "AGG"
-      ]
-   },
-   {
       "title":"Mars Protocol",
       "description":"Lend, borrow and earn on the galaxy's most powerful credit protocol or enter the Fields of Mars for advanced DeFi strategies.",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/mars.png",
-      "url":"https://osmosis.marsprotocol.io",
+      "url":"https://v1.marsprotocol.io",
       "chain":[
          "osmosis"
       ],
       "category":"Defi",
       "tag":[
          "Money Market", "Farming"
-      ]
-   },
-   {
-      "title":"Empawrium",
-      "description":"The official Chihuahua NFT Marketplace",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/empawrium.png",
-      "url":"https://mobile.empawrium.wtf/",
-      "chain":[
-         "chihuahua"
-      ],
-      "category":"NFT",
-      "tag":[
-         "Marketplace", "NFT"
       ]
    },
    {
@@ -327,19 +222,6 @@
       ]
    },
    {
-      "title": "Evmos",
-      "description": "Evmos Wallet Dapp",
-      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/evmos.png",
-      "url": "https://app.evmos.org",
-      "chain": [
-         "evmos"
-      ],
-      "category":"Wallet",
-      "tag":[
-         "Wallet"
-      ]
-   },
-   {
       "title": "Astroport",
       "description": "Astroport Defi",
       "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/astroport.png",
@@ -351,6 +233,19 @@
       "category":"Defi",
       "tag":[
          "Dex"
+      ]
+   },
+   {
+      "title": "Liquid Finance",
+      "description": "Non-custodial liquid staking protocol focused on unlocking liquidity within the archwayHQ ecosystem.",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/liquid-finance.png",
+      "url": "https://liquidfinance.xyz",
+      "chain": [
+         "archway"
+      ],
+      "category":"DeFi",
+      "tag":[
+         "Liquid Staking"
       ]
    }
 ]

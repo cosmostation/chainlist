@@ -9,7 +9,8 @@
     "decimals": 18,
     "description": "Canto Staking Coin",
     "image": "canto/asset/canto.png",
-    "coinGeckoId": "canto"
+    "coinGeckoId": "canto",
+    "color": "#00DC80"
   },
   {
     "denom": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E",
@@ -93,5 +94,25 @@
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin",
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  {
+    "denom": "ibc/CD7B6B7D85FDF5F72A78E806BCFB8060B561EEF27677B111E0A610626056451E",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>canto",
+    "channel": "channel-20",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-8",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

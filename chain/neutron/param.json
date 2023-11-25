@@ -1,0 +1,109 @@
+{
+  "fee": {
+    "base": "0",
+    "rate": [
+      "0.01untrn,0.005ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9,0.05ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+      "0.5untrn,0.022ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9,0.25ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349"
+    ],
+    "isSimulable": true,
+    "simul_gas_multiply": 1.2,
+    "fee_threshold": ""
+  },
+  "grpc_endpoint": [
+    {
+      "provider": "Cosmostation",
+      "url": "grpc-neutron.cosmostation.io:443"
+    },
+    {
+      "provider": "Neutron",
+      "url": "grpc-kralum.neutron-1.neutron.org:80"
+    },
+    {
+      "provider": "WhisperNode🤐",
+      "url": "grpc-neutron.whispernode.com:443"
+    },
+    {
+      "provider": "Lavender.Five Nodes 🐝",
+      "url": "neutron-grpc.lavenderfive.com:443"
+    },
+    {
+      "provider": "NodeStake",
+      "url": "grpc.neutron.nodestake.top:9090"
+    }
+  ],
+  "about": {
+    "website": "https://neutron.org/",
+    "blog": "https://blog.neutron.org/",
+    "github": "https://github.com/neutron-org",
+    "twitter": "https://twitter.com/Neutron_org",
+    "coingecko": "https://www.coingecko.com/en/coins/neutron"
+  },
+  "description": {
+    "ko": "Neutron은 Cosmos 허브의 Interchain Security를 사용하는 비허가형 CosmWasm 플랫폼입니다.",
+    "en": "Neutron is a permissionless CosmWasm platform secured by Cosmos Hub’s Interchain Security.",
+    "ja": "Neutronは、CosmosハブのInterchain Securityを使用する非許可型CosmWasmプラットフォームです。"
+  },
+  "daos": [
+    {
+      "name": "Neutron DAO",
+      "description": "Neutron DAO is the DAO DAO-based governance of Neutron chain",
+      "dao_uri": "",
+      "address": "neutron1suhgf5svhu4usrurvxzlgn54ksxmn8gljarjtxqnapv8kjnp4nrstdxvff",
+      "voting_module": "neutron1f6jlx7d9y408tlzue7r2qcf79plp549n30yzqjajjud8vm7m4vdspg933s",
+      "proposal_modules": [
+        {
+          "name": "Single Module",
+          "description": "Main Dao Single Proposals",
+          "allow_revoting": true,
+          "address": "neutron1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshlt6zh",
+          "prefix": "A",
+          "status": "Enabled"
+        },
+        {
+          "name": "Multiple Module",
+          "description": "Main Dao Multiple Proposals",
+          "allow_revoting": true,
+          "address": "neutron1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsj3fj40",
+          "prefix": "B",
+          "status": "Enabled"
+        },
+        {
+          "name": "Overrule Module",
+          "description": "Main Dao Overrule Proposals",
+          "allow_revoting": false,
+          "address": "neutron12pwnhtv7yat2s30xuf4gdk9qm85v4j3e6p44let47pdffpklcxlq56v0te",
+          "prefix": "C",
+          "status": "Enabled"
+        }
+      ]
+    },
+    {
+      "name": "Security SubDAO",
+      "description": "SubDAO with power to pause specific Neutron DAO modules",
+      "dao_uri": "",
+      "address": "neutron1fuyxwxlsgjkfjmxfthq8427dm2am3ya3cwcdr8gls29l7jadtazsuyzwcc",
+      "voting_module": "neutron1wastjc07zuuy46mzzl3egz4uzy6fs59752grxqvz8zlsqccpv2wqhjw0cl",
+      "group_contract_address": "neutron1hyja4uyjktpeh0fxzuw2fmjudr85rk2qu98fa6nuh6d4qru9l0ssh3kgnu",
+      "proposal_modules": [
+        {
+          "name": "Single Module",
+          "description": "Security SubDAO Single Proposals",
+          "allow_revoting": false,
+          "address": "neutron15m728qxvtat337jdu2f0uk6pu905kktrxclgy36c0wd822tpxcmqvnrurt",
+          "prefix": "A",
+          "status": "Enabled"
+        }
+      ]
+    }
+  ],
+  "vaults": [
+    {
+      "name": "Neutron Vault",
+      "description": "Vault to put NTRN tokens to get voting power",
+      "address": "neutron1qeyjez6a9dwlghf9d6cy44fxmsajztw257586akk6xn6k88x0gus5djz4e",
+      "owner": "neutron1suhgf5svhu4usrurvxzlgn54ksxmn8gljarjtxqnapv8kjnp4nrstdxvff",
+      "manager": null,
+      "denom": "untrn"
+    }
+  ]
+}

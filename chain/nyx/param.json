@@ -1,0 +1,33 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.025unym,0.025unyx"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-nyx.cosmostation.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "nym-grpc.polkachu.com:15390"
+        }
+    ],
+    "about" : {
+        "website" : "https://nymtech.net/",
+        "blog" : "https://nymtech.medium.com/",
+        "github" : "https://github.com/nymtech",
+        "twitter" : "https://twitter.com/nymproject",
+        "coingecko" : "https://www.coingecko.com/en/coins/nym"
+    },
+    "description" : {
+        "ko" : "차세대 개인 정보 보호 인프라를 제공하는 분산형 및 인센티브 인프라 네트워크.",
+        "en" : "Nyx is a decentralized and incentivized infrastructure providing next generation privacy infrastructure.",
+        "ja" : "NYX は次世代のプライバシー インフラストラクチャを提供する分散型のインセンティブ インフラネットワークです。"
+    }
+}
