@@ -1,0 +1,46 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "1500000000000acanto",
+            "2000000000000acanto"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-canto.cosmostation.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "canto-grpc.polkachu.com:14990"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.canto.nodestake.top:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-canto.cosmos-spaces.cloud:2280"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "canto-mainnet-grpc.autostake.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://canto.io/",
+        "blog" : "https://canto.mirror.xyz/",
+        "github" : "https://github.com/Canto-Network",
+        "twitter" : "https://twitter.com/CantoPublic",
+        "coingecko" : "https://www.coingecko.com/en/coins/canto"
+    },
+    "description" : {
+        "ko" : "Canto는 이더리움 가상머신을(EVM) 실행할 수 있도록 만들어진 Cosmos SDK 기반 레이어 1 블록체인입니다.",
+        "en" : "Canto is a Cosmos SDK based Layer-1 blockchain that runs Ethereum Virtual Machine.",
+        "ja" : "Cantoは、イーサリアム仮想マシン（EVM）を実行できるように設計されたCosmos SDKベースのレイヤ1ブロックチェーンです。"
+    }
+}

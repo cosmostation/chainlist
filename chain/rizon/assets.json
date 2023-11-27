@@ -9,7 +9,20 @@
     "decimals": 6,
     "description": "Rizon Staking Coin",
     "image": "rizon/asset/atolo.png",
-    "coinGeckoId": "rizon"
+    "coinGeckoId": "rizon",
+    "color": "#8C8AF2"
+  },
+  {
+    "denom": "urchf",
+    "type": "native",
+    "origin_chain": "rizon",
+    "origin_denom": "urchf",
+    "origin_type": "native",
+    "symbol": "RCHF",
+    "decimals": 6,
+    "description": "RIZON stable coin of Switzerland CHF",
+    "image": "rizon/asset/rchf.png",
+    "coinGeckoId": ""
   },
   {
     "denom": "ibc/5FEB332D2B121921C792F1A0DBF7C3163FF205337B4AFE6E14F69E8E49545F49",

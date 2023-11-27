@@ -1,0 +1,41 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.02ukyve"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-kyve.cosmostation.io:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-kyve.cosmos-spaces.cloud:2590"
+        },
+        {
+            "provider": "MMS",
+            "url": "grpc-kyve.mms.team:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "kyve-grpc.lavenderfive.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.kyve.network/",
+        "blog" : "https://blog.kyve.network/",
+        "github" : "https://github.com/KYVENetwork",
+        "twitter" : "https://twitter.com/KYVENetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/kyve-network"
+    },
+    "description" : {
+        "ko" : "KYVE 네트워크는 탈중앙화된 데이터 레이크 솔루션을 제공하는 Cosmos SDK 기반 블록체인입니다.",
+        "en" : "KYVE is a Cosmos SDK-based network that provides a decentralized data lake solution.",
+        "ja" : "KYVEネットワークは、脱中央化されたデータレイクソリューションを提供するCosmos SDKベースのブロックチェーンです。"
+    }
+}

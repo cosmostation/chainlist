@@ -9,7 +9,20 @@
     "decimals": 6,
     "description": "Persistence Staking Coin",
     "image": "persistence/asset/xprt.png",
-    "coinGeckoId": "persistence"
+    "coinGeckoId": "persistence",
+    "color": "#E50A13"
+  },
+  {
+    "denom": "stk/uatom",
+    "type": "native",
+    "origin_chain": "persistence",
+    "origin_denom": "stk/uatom",
+    "origin_type": "native",
+    "symbol": "stkATOM",
+    "decimals": 6,
+    "description": "PSTAKE Liquid-Staked ATOM",
+    "image": "persistence/asset/stkatom.png",
+    "coinGeckoId": "stkatom"
   },
   {
     "denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
@@ -33,6 +46,26 @@
     "contract": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
   },
   {
+    "denom": "ibc/C8A74ABBE2AF892E15680D916A7C22130585CE5704F9B17A10F184A90D53BECA",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "cosmos>persistence",
+    "channel": "channel-24",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-190",
+      "port": "transfer",
+      "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  },
+  {
     "denom": "ibc/69B4810E989B56FC6CA41F395228236FA7E7F59B9A3B7AF3FB0A344361C38389",
     "type": "ibc",
     "origin_chain": "osmosis",
@@ -43,6 +76,7 @@
     "enable": true,
     "path": "osmosis>persistence",
     "channel": "channel-6",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-4",
       "port": "transfer",
@@ -62,6 +96,7 @@
     "enable": true,
     "path": "osmosis>persistence",
     "channel": "channel-6",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-4",
       "port": "transfer",
@@ -81,6 +116,7 @@
     "enable": true,
     "path": "sifchain>persistence",
     "channel": "channel-26",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-7",
       "port": "transfer",
@@ -100,6 +136,7 @@
     "enable": true,
     "path": "juno>persistence",
     "channel": "channel-37",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-33",
       "port": "transfer",
@@ -119,6 +156,7 @@
     "enable": true,
     "path": "gravity-bridge>persistence",
     "channel": "channel-38",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-24",
       "port": "transfer",
@@ -126,5 +164,46 @@
     },
     "image": "gravity-bridge/asset/grav.png",
     "coinGeckoId": "graviton"
+  },
+  {
+    "denom": "ibc/C559977F5797BDC1D74C0836A10C379C991D664166CB60D776A83029852431B4",
+    "type": "ibc",
+    "origin_chain": "kava",
+    "origin_denom": "erc20/tether/usdt",
+    "origin_type": "native",
+    "symbol": "USDt",
+    "decimals": 6,
+    "description": "Tether USDt",
+    "enable": true,
+    "path": "kava>persistence",
+    "channel": "channel-129",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-134",
+      "port": "transfer",
+      "denom": "erc20/tether/usdt"
+    },
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether"
+  },
+  {
+    "denom": "ibc/B3792E4A62DF4A934EF2DF5968556DB56F5776ED25BDE11188A4F58A7DD406F0",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>persistence",
+    "channel": "channel-132",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

@@ -1,0 +1,156 @@
+[
+  {
+    "denom": "umars",
+    "type": "staking",
+    "origin_chain": "mars-protocol",
+    "origin_denom": "umars",
+    "origin_type": "staking",
+    "symbol": "MARS",
+    "decimals": 6,
+    "description": "Mars Staking Coin",
+    "image": "mars-protocol/asset/mars.png",
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
+    "color": "#DA3A14"
+  },
+  {
+    "denom": "ibc/FA0006F056DB6719B8C16C551FC392B62F5729978FC0B125AC9A432DBB2AA1A5",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "cosmos>osmosis>mars-protocol",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-557",
+      "port": "transfer",
+      "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/FA7775734CC73176B7425910DE001A1D2AD9B6D9E93129A5D0750EAD13E4E63A",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>osmosis>mars-protocol",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-557",
+      "port": "transfer",
+      "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  {
+    "denom": "ibc/923A25D77C573CC5B74BF8ECE7EDB1D27EE9B77F84892BBBF8CA51BD6FFFA397",
+    "type": "ibc",
+    "origin_chain": "crescent",
+    "origin_denom": "ucre",
+    "origin_type": "staking",
+    "symbol": "CRE",
+    "decimals": 6,
+    "enable": true,
+    "path": "crescent>mars-protocol",
+    "channel": "channel-5",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-35",
+      "port": "transfer",
+      "denom": "ucre"
+    },
+    "image": "crescent/asset/cre.png",
+    "coinGeckoId": "crescent-network"
+  },
+  {
+    "denom": "ibc/C814F0B662234E24248AE3B2FE2C1B54BBAF12934B757F6E7BC5AEC119963895",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "ujuno",
+    "origin_type": "staking",
+    "symbol": "JUNO",
+    "decimals": 6,
+    "enable": true,
+    "path": "juno>mars-protocol",
+    "channel": "channel-3",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-209",
+      "port": "transfer",
+      "denom": "ujuno"
+    },
+    "image": "juno/asset/juno.png",
+    "coinGeckoId": "juno-network"
+  },
+  {
+    "denom": "ibc/90F27756D300141BDF07B83E65401BDC58C05269B9BAE3ECB0B20FAB166BCF8F",
+    "type": "ibc",
+    "origin_chain": "kujira",
+    "origin_denom": "ukuji",
+    "origin_type": "staking",
+    "symbol": "KUJI",
+    "decimals": 6,
+    "enable": true,
+    "path": "kujira>mars-protocol",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-55",
+      "port": "transfer",
+      "denom": "ukuji"
+    },
+    "image": "kujira/asset/kuji.png",
+    "coinGeckoId": "kujira"
+  },
+  {
+    "denom": "ibc/D70B0FBF97AEB04491E9ABF4467A7F66CD6250F4382CE5192D856114B83738D2",
+    "type": "ibc",
+    "origin_chain": "terra",
+    "origin_denom": "uluna",
+    "origin_type": "staking",
+    "symbol": "LUNA",
+    "decimals": 6,
+    "enable": true,
+    "path": "terra>mars-protocol",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-78",
+      "port": "transfer",
+      "denom": "uluna"
+    },
+    "image": "terra/asset/luna.png",
+    "coinGeckoId": "terra"
+  },
+  {
+    "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>mars-protocol",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-557",
+      "port": "transfer",
+      "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  }
+]

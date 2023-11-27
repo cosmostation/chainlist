@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Comdex Staking Coin",
     "image": "comdex/asset/cmdx.png",
-    "coinGeckoId": "comdex"
+    "coinGeckoId": "comdex",
+    "color": "#FE4350"
   },
   {
     "denom": "uharbor",
@@ -33,7 +34,7 @@
     "decimals": 6,
     "description": "Harbor Protocol Stablecoin",
     "image": "comdex/asset/cmst.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "composite"
   },
   {
     "denom": "ibc/167E3D88D71B7D2F6308D3EF93FC3DD51932B2D9672D72B71418F61CBC5F5717",
