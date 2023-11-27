@@ -245,6 +245,26 @@
     "coinGeckoId": "akash-network"
   },
   {
+    "denom": "ibc/B9606D347599F0F2FDF82BA3EE339000673B7D274EA50F59494DC51EFCD42163",
+    "type": "ibc",
+    "origin_chain": "onomy-protocol",
+    "origin_denom": "anom",
+    "origin_type": "staking",
+    "symbol": "NOM",
+    "decimals": 18,
+    "enable": true,
+    "path": "onomy-protocol>osmosis",
+    "channel": "channel-525",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "anom"
+    },
+    "image": "onomy-protocol/asset/nom.png",
+    "coinGeckoId": "onomy-protocol"
+  },
+  {
     "denom": "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228",
     "type": "ibc",
     "origin_chain": "chihuahua",
