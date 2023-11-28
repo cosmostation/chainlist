@@ -95,26 +95,6 @@
     "coinGeckoId": "tether"
   },
   {
-    "denom": "ibc/E7807A46C0B7B44B350DA58F51F278881B863EC4DCA94635DAB39E52C30766CB",
-    "type": "ibc",
-    "origin_chain": "chihuahua",
-    "origin_denom": "uhuahua",
-    "origin_type": "staking",
-    "symbol": "HUAHUA",
-    "decimals": 6,
-    "enable": true,
-    "path": "chihuahua>injective",
-    "channel": "channel-76",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-12",
-      "port": "transfer",
-      "denom": "uhuahua"
-    },
-    "image": "chihuahua/asset/huahua.png",
-    "coinGeckoId": "chihuahua-token"
-  },
-  {
     "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
     "type": "ibc",
     "origin_chain": "cosmos",
