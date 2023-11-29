@@ -1177,5 +1177,16 @@
     "description": "Arbitrum",
     "image": "arbitrum/asset/arb.png",
     "coinGeckoId": "arbitrum"
+  },
+  {
+    "denom": "factory/inj1maeyvxfamtn8lfyxpjca8kuvauuf2qeu6gtxm3/Talis",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1maeyvxfamtn8lfyxpjca8kuvauuf2qeu6gtxm3/Talis",
+    "origin_type": "native",
+    "symbol": "TALIS",
+    "decimals": 6,
+    "description": "Talis governance token",
+    "image": "injectivte/asset/talis.png"
   }
 ]
