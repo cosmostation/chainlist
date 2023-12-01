@@ -2743,5 +2743,16 @@
     "image": "ethereum/asset/yieldeth.png",
     "coinGeckoId": "yieldeth-sommelier",
     "contract": "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec"
+  },
+  {
+    "denom": "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "ulvn",
+    "origin_type": "native",
+    "symbol": "LVN",
+    "decimals": 6,
+    "description": "Levana Governance Token",
+    "image": "osmosis/asset/levana.png"
   }
 ]
