@@ -2,13 +2,45 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "500uhuahua"
-        ]
+            "500uhuahua",
+            "1250uhuahua"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.5,
+        "fee_threshold" : ""
     },
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "500uhuahua",
-    "revision_height" : 1000,
-    "endpoint_url" : [
-        "grpc-chihuahua.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-chihuahua.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-chihuahua-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "chihuahua-grpc.polkachu.com:12990"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "chihuahua-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Allnodes.com ⚡️ Nodes & Staking",
+            "url": "chihuahua-grpc.publicnode.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://chi.huahua.wtf/",
+        "blog" : "https://chihuahuachain.medium.com/",
+        "github" : "https://github.com/chihuahuachain",
+        "twitter" : "https://twitter.com/ChihuahuaChain",
+        "coingecko" : "https://www.coingecko.com/en/coins/chihuahua-chain"
+    },
+    "description" : {
+        "ko" : "Tendermint BFT와 ABCI 기반의 분산형 블록체인 네트워크.",
+        "en" : "Decentralized network of blockchains powered by Tendermint BFT and ABCI.",
+        "ja" : "Tendermint BFTとABCIベースの分散型ブロックチェーンネットワーク。"
+    }
 }

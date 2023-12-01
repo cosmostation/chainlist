@@ -12,7 +12,7 @@
 ## Productions using with
 
 - [Mintscan Explorer](https://mintscan.io)
-- [Extention Wallet](https://bit.ly/3VhVJIF)
+- [Extension Wallet](https://bit.ly/3VhVJIF)
 - [Android Wallet](https://bit.ly/2BWex9D)
 - [iOS Wallet](https://apple.co/2IAM3Xm)
 

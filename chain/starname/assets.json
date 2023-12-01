@@ -11,45 +11,5 @@
     "image": "starname/asset/iov.png",
     "coinGeckoId": "starname",
     "color": "#6E7CDE"
-  },
-  {
-    "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
-    "type": "ibc",
-    "origin_chain": "osmosis",
-    "origin_denom": "uosmo",
-    "origin_type": "staking",
-    "symbol": "OSMO",
-    "decimals": 6,
-    "enable": true,
-    "path": "osmosis>starname",
-    "channel": "channel-2",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-15",
-      "port": "transfer",
-      "denom": "uosmo"
-    },
-    "image": "osmosis/asset/osmo.png",
-    "coinGeckoId": "osmosis"
-  },
-  {
-    "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-    "type": "ibc",
-    "origin_chain": "cosmos",
-    "origin_denom": "uatom",
-    "origin_type": "staking",
-    "symbol": "ATOM",
-    "decimals": 6,
-    "enable": true,
-    "path": "cosmos>starname",
-    "channel": "channel-0",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-158",
-      "port": "transfer",
-      "denom": "uatom"
-    },
-    "image": "cosmos/asset/atom.png",
-    "coinGeckoId": "cosmos"
   }
 ]

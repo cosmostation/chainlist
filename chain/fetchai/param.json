@@ -1,14 +1,47 @@
 {
     "fee" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
+            "0.025afet",
+            "0.2afet",
             "2afet"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "revision_height" : 1000,
-    "endpoint_url" : [
-        "grpc-fetchai.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-fetchai.cosmostation.io:443"
+        },
+        {
+            "provider": "fetch.ai",
+            "url": "grpc-fetchhub.fetch.ai:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-fetchhub-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "fetch-grpc.polkachu.com:15290"
+        },
+        {
+            "provider": "cosmosrescue",
+            "url": "fetch-grpc.cosmosrescue.com:9090"
+        }
+    ],
+    "about" : {
+        "website" : "https://fetch.ai/",
+        "blog" : "https://medium.com/fetch-ai",
+        "github" : "https://github.com/fetchai",
+        "twitter" : "https://twitter.com/Fetch_ai",
+        "coingecko" : "https://www.coingecko.com/en/coins/fetch-ai"
+    },
+    "description" : {
+        "ko" : "코스모스 SDK 기반, 개방형 및 분산형 머신 러닝 네트워크.",
+        "en" : "Open access, decentralized machine learning network built with the Cosmos SDK.",
+        "ja" : "コスモスSDK ベース、オープン型及び分散型マシンラーニングネットワーク。"
+    }
 }

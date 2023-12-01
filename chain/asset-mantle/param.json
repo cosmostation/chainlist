@@ -2,13 +2,46 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.0umntl"
-        ]
+            "0.0umntl",
+            "0.01umntl",
+            "0.025umntl"
+        ],
+        "isSimulable" : false,
+        "simul_gas_multiply" : 1.5,
+        "fee_threshold" : ""
     },
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "revision_height" : 90000,
-    "endpoint_url" : [
-        "grpc-asset-mantle.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-asset-mantle.cosmostation.io:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.assetmantle.nodestake.top:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-assetmantle-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "StakerHouse",
+            "url": "assetmantle-grpc.stakerhouse.com:443"
+        },
+        {
+            "provider": "Allnodes.com ⚡️ Nodes & Staking",
+            "url": "assetmantle-grpc.publicnode.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://assetmantle.one/",
+        "blog" : "https://blog.assetmantle.one/",
+        "github" : "https://github.com/AssetMantle",
+        "twitter" : "https://twitter.com/AssetMantle",
+        "coingecko" : "https://www.coingecko.com/en/coins/assetmantle"
+    },
+    "description" : {
+        "ko" : "AssetMantle은 Persistence 생태계 내 NFT 창작자와 수집가 모두를 위해 구축된 NFT 마켓플레이스 및 플랫폼입니다.",
+        "en" : "AssetMantle is a community focused one-for-all NFT platform for creators and collectors, powered by $MNTL token.",
+        "ja" : "AssetMantleは Persistence生態系内のNFT創作者と収集家の両方のために構築されたNFTマーケットプレイス及びプラットフォームです。"
+    }
 }

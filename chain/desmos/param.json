@@ -5,12 +5,39 @@
             "0.001udsm",
             "0.01udsm",
             "0.025udsm"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "revision_height" : 1000,
-    "endpoint_url" : [
-        "grpc-desmos.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-desmos.cosmostation.io:443"
+        },
+        {
+            "provider": "Panthea EU",
+            "url": "desmos-grpc.panthea.eu:16730"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "desmos-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Staketab",
+            "url": "services.staketab.com:9043"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.desmos.network/",
+        "blog" : "https://medium.com/desmosnetwork",
+        "github" : "https://github.com/desmos-labs",
+        "twitter" : "https://twitter.com/DesmosNetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/desmos"
+    },
+    "description" : {
+        "ko" : "Desmos 프로필을 통해 탈중앙화를 실현하는 Forbole사의 소셜 네트워크 블록체인.",
+        "en" : "A blockchain for decentralized social networks powered by Forbole.",
+        "ja" : "Desmosプロフィールを通じて分散型を実現するForbole社のソーシャル ネットワークブロックチェーン。"
+    }
 }

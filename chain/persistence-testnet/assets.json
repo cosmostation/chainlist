@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "uxprt",
+    "type": "staking",
+    "origin_chain": "persistence-testnet",
+    "origin_denom": "uxprt",
+    "origin_type": "staking",
+    "symbol": "XPRT",
+    "decimals": 6,
+    "description": "Persistence-testnet Staking Coin",
+    "image": "persistence-testnet/asset/xprt.png",
+    "coinGeckoId": ""
+  }
+]
