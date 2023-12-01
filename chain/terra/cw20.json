@@ -24,6 +24,39 @@
   {
     "chainId": -1,
     "chainName": "terra",
+    "address": "terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t",
+    "symbol": "CUB",
+    "description": "Lion CUB DAO",
+    "decimals": 6,
+    "image": "terra/asset/cub.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+   {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584",
+    "symbol": "BLUE",
+    "description": "BLUE CUB DAO",
+    "decimals": 6,
+    "image": "terra/asset/blue.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1ynvsz80w9xmhdxucv96gkwpxlwvjgsq75xh2f3pf825c4wfmkfxskq6pqv",
+    "symbol": "GEM",
+    "description": "GEM DAO",
+    "decimals": 6,
+    "image": "terra/asset/gem.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
     "address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
     "symbol": "ampLUNA",
     "description": "Eris Amplified LUNA",
