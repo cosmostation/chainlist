@@ -1,0 +1,46 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0025uband",
+            "0.025uband"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-band.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-bandchain-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-band.cosmos-spaces.cloud:2240"
+        },
+        {
+            "provider": "Stakeflow",
+            "url": "grpc-band-01.stakeflow.io:2502"
+        },
+        {
+            "provider": "StakeTown",
+            "url": "band-grpc.stake-town.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://bandprotocol.com/",
+        "blog" : "https://medium.com/bandprotocol",
+        "github" : "https://github.com/bandprotocol",
+        "twitter" : "https://twitter.com/BandProtocol",
+        "coingecko" : "https://www.coingecko.com/en/coins/band-protocol"
+    },
+    "description" : {
+        "ko" : "Tendermint를 기반으로 하는 크로스 체인 오라클 플랫폼입니다. 밴드 프로토콜은 실제 데이터와 API를 스마트 계약으로 통합하여 제공합니다.",
+        "en" : "Cross-chain oracle platform based on Tendermint. Aggregates and connects real-world data and APIs to smart contracts.",
+        "ja" : "Tendermint を基盤とするクロスチェーンオラクルプラットフォームです。 Band Protocol は、実際データと API をスマート コントラクトに統合して提供します。"
+    }
+}

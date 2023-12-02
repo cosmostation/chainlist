@@ -1,0 +1,167 @@
+[
+  {
+    "denom": "boot",
+    "type": "staking",
+    "origin_chain": "bostrom",
+    "origin_denom": "boot",
+    "origin_type": "staking",
+    "symbol": "BOOT",
+    "decimals": 0,
+    "description": "Bostrom Staking Coin",
+    "image": "bostrom/asset/boot.png",
+    "coinGeckoId": "bostrom"
+  },
+  {
+    "denom": "hydrogen",
+    "type": "liquid staking",
+    "origin_chain": "bostrom",
+    "origin_denom": "hydrogen",
+    "origin_type": "liquid staking",
+    "symbol": "HYDROGEN",
+    "decimals": 0,
+    "description": "Bostrom liquid staking Coin",
+    "image": "bostrom/asset/hydrogen.svg"
+  },
+  {
+    "denom": "ampere",
+    "type": "resource token",
+    "origin_chain": "bostrom",
+    "origin_denom": "milliampere",
+    "origin_type": "resource token",
+    "symbol": "AMPERE",
+    "decimals": 3,
+    "description": "Bostrom resource token",
+    "image": "bostrom/asset/ampere.png"
+  },
+  {
+    "denom": "volt",
+    "type": "resource token",
+    "origin_chain": "bostrom",
+    "origin_denom": "millivolt",
+    "origin_type": "resource token",
+    "symbol": "VOLT",
+    "decimals": 3,
+    "description": "Bostrom resource token",
+    "image": "bostrom/asset/volt.png"
+  },
+  {
+    "denom": "ibc/8D9262E35CAE362FA74AE05E430550757CF8D842EC1B241F645D3CB7179AFD10",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "ujuno",
+    "origin_type": "staking",
+    "symbol": "JUNO",
+    "decimals": 6,
+    "enable": true,
+    "path": "juno>bostrom",
+    "channel": "channel-10",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-93",
+      "port": "transfer",
+      "denom": "ujuno"
+    },
+    "image": "juno/asset/juno.png",
+    "coinGeckoId": "juno-network"
+  },
+  {
+    "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>bostrom",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-95",
+      "port": "transfer",
+      "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  },
+  {
+    "denom": "ibc/C23D820C5B6009E544AFC8AF5A2FEC288108AEDBFAEFDBBDD6BE54CC23069559",
+    "type": "ibc",
+    "origin_chain": "gravity-bridge",
+    "origin_denom": "ugraviton",
+    "origin_type": "staking",
+    "symbol": "GRAV",
+    "decimals": 6,
+    "enable": true,
+    "path": "gravity-bridge>bostrom",
+    "channel": "channel-12",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-103",
+      "port": "transfer",
+      "denom": "ugraviton"
+    },
+    "image": "gravity-bridge/asset/grav.png",
+    "coinGeckoId": "graviton"
+  },
+  {
+    "denom": "ibc/15E9C5CF5969080539DB395FA7D9C0868265217EFC528433671AAF9B1912D159",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "cosmos>bostrom",
+    "channel": "channel-8",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-341",
+      "port": "transfer",
+      "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/CA5E8F31288514D728AFD1F0533A7F6902AA1192C88C9540F814893C3EAFE244",
+    "type": "ibc",
+    "origin_chain": "desmos",
+    "origin_denom": "udsm",
+    "origin_type": "staking",
+    "symbol": "EVMOS",
+    "decimals": 18,
+    "enable": true,
+    "path": "evmos>bostrom",
+    "channel": "channel-13",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-6",
+      "port": "transfer",
+      "denom": "udsm"
+    },
+    "image": "desmos/asset/dsm.png",
+    "coinGeckoId": "desmos"
+  },
+  {
+    "denom": "ibc/4B322204B4F59D770680FE4D7A565DDC3F37BFF035474B717476C66A4F83DD72",
+    "type": "ibc",
+    "origin_chain": "evmos",
+    "origin_denom": "aevmos",
+    "origin_type": "staking",
+    "symbol": "DSM",
+    "decimals": 6,
+    "enable": true,
+    "path": "desmos>bostrom",
+    "channel": "channel-9",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-19",
+      "port": "transfer",
+      "denom": "aevmos"
+    },
+    "image": "evmos/asset/dsm.png",
+    "coinGeckoId": "evmos"
+  }
+]

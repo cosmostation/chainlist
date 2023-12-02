@@ -1,0 +1,37 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.025unibi",
+            "0.05unibi",
+            "0.1unibi"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "KjNodes",
+            "url": "nibiru.grpc.kjnodes.com:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "nibiru-grpc.polkachu.com:19890"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://grpc.nibiru.nodestake.top:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://nibiru.fi/",
+        "blog" : "https://nibiru.fi/blog/",
+        "github" : "https://github.com/NibiruChain",
+        "twitter" : "https://twitter.com/NibiruChain",
+        "coingecko" : ""
+    },
+    "description" : {
+        "en" : "A DeFi hub ushering in the next era of money"
+    }
+}

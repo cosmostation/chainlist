@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "atevmos",
+    "type": "staking",
+    "origin_chain": "evmos-testnet",
+    "origin_denom": "atevmos",
+    "origin_type": "staking",
+    "symbol": "TEVMOS",
+    "decimals": 18,
+    "description": "Evmos-testnet Staking Coin",
+    "image": "evmos-testnet/asset/tevmos.png",
+    "coinGeckoId": ""
+  }
+]
