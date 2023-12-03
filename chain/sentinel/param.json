@@ -1,0 +1,46 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.01udvpn",
+            "0.1udvpn"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-sentinel.cosmostation.io:443"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "sentinel.grpcui.chaintools.host:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-sentinel-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "sentinel-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Allnodes.com ⚡️ Nodes & Staking",
+            "url": "sentinel-rpc.publicnode.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://sentinel.co/",
+        "blog" : "https://medium.com/sentinel",
+        "github" : "https://github.com/sentinel-official",
+        "twitter" : "https://twitter.com/Sentinel_co",
+        "coingecko" : "https://www.coingecko.com/en/coins/sentinel"
+    },
+    "description" : {
+        "ko" : "탈중앙화 오픈소스 VPN 서비스를 호스팅하여 유저들에게 프라이버시와 보안을 제공하는 Cosmos SDK 기반의 PoS 네트워크.",
+        "en" : "Cosmos SDK based PoS network hosting open-source distributed and decentralized VPN service, providing users ensured privacy and security.",
+        "ja" : "分散型オープンソースVPNサービスをホスティングしてユーザーたちにプライバシーと保安を提供するCosmos SDKベースのPoSネットワーク。"
+    }
+}

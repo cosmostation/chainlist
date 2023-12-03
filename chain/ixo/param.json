@@ -1,0 +1,29 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.025uixo"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-ixo.cosmostation.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.ixo.world/",
+        "blog" : "https://medium.com/ixo-blog",
+        "github" : "https://github.com/ixofoundation",
+        "twitter" : "https://twitter.com/ixoworld",
+        "coingecko" : "https://www.coingecko.com/en/coins/ixo"
+    },
+    "description" : {
+        "ko" : "Ixo 프로토콜은 재생 금융 및 지구 상태 변화 검증을 위한 탄소 중립 블록체인 네트워크를 구축하는 것을 목표로 합니다.",
+        "en" : "Ixo protocol aims to build a carbon-negative blockchain network for regenerative finance and verifying earth state change.",
+        "ja" : "脱炭素ブロックチェーンを通じて再生金融活性化及び気候変化を追跡するCosmos SDKベースのプロトコル。"
+    }
+}

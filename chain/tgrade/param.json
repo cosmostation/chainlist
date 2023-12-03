@@ -1,0 +1,29 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.05utgd"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : 1.2,
+    "fee_threshold" : "",
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-tgrade.cosmostation.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://tgrade.finance/",
+        "blog" : "",
+        "github" : "https://github.com/confio/tgrade",
+        "twitter" : "https://twitter.com/TgradeFinance",
+        "coingecko" : "https://www.coingecko.com/en/coins/tgrade"
+    },
+    "description" : {
+        "ko" : "전통 금융기관에게 규제화된 디파이 플랫폼을 제공하는 Cosmos-SDK 기반 퍼블릭 블록체인.",
+        "en" : "Tgrade offers institutions a regulated DeFi platform with various self-sovereign governance frameworks.",
+        "ja" : "Tgrade は、さまざまな自己主権ガバナンス フレームワークを備えた規制された DeFi プラットフォームを機関に提供します。"
+    }
+}

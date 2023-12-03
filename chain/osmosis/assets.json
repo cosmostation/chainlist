@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Osmosis Staking Coin",
     "image": "osmosis/asset/osmo.png",
-    "coinGeckoId": "osmosis"
+    "coinGeckoId": "osmosis",
+    "color": "#9248DB"
   },
   {
     "denom": "uion",
@@ -22,6 +23,26 @@
     "description": "Native Coin",
     "image": "osmosis/asset/ion.png",
     "coinGeckoId": "ion"
+  },
+  {
+    "denom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+    "type": "ibc",
+    "origin_chain": "dydx",
+    "origin_denom": "adydx",
+    "origin_type": "staking",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "enable": true,
+    "path": "dydx>osmosis",
+    "channel": "channel-6787",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "adydx"
+    },
+    "image": "dydx/asset/dydx.png",
+    "coinGeckoId": "dydx-chain"
   },
   {
     "denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
@@ -222,6 +243,26 @@
     },
     "image": "akash/asset/akt.png",
     "coinGeckoId": "akash-network"
+  },
+  {
+    "denom": "ibc/B9606D347599F0F2FDF82BA3EE339000673B7D274EA50F59494DC51EFCD42163",
+    "type": "ibc",
+    "origin_chain": "onomy-protocol",
+    "origin_denom": "anom",
+    "origin_type": "staking",
+    "symbol": "NOM",
+    "decimals": 18,
+    "enable": true,
+    "path": "onomy-protocol>osmosis",
+    "channel": "channel-525",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "anom"
+    },
+    "image": "onomy-protocol/asset/nom.png",
+    "coinGeckoId": "onomy-protocol"
   },
   {
     "denom": "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228",
@@ -1502,7 +1543,7 @@
     "image": "ethereum/asset/pepe.png",
     "coinGeckoId": "pepe",
     "contract": "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
-  },  
+  },
   {
     "denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
     "type": "ibc",
@@ -1587,7 +1628,7 @@
     "contract": "juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl"
   },
   {
-    "denom": "ibc/c6b6bfcb6ee49a7cab1a7e7b021de35b99d525ac660844952f0f6c78dcb2a57b",
+    "denom": "ibc/C6B6BFCB6EE49A7CAB1A7E7B021DE35B99D525AC660844952F0F6C78DCB2A57B",
     "type": "ibc",
     "origin_chain": "juno",
     "origin_denom": "sejuno",
@@ -1606,7 +1647,7 @@
     "image": "juno/asset/sejuno.png",
     "coinGeckoId": "",
     "contract": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
-  }, 
+  },
   {
     "denom": "ibc/6F18EFEBF1688AA77F7EAC17065609494DC1BA12AFC78E9AEC832AF70A11BEF3",
     "type": "ibc",
@@ -1648,9 +1689,9 @@
     "image": "terra/asset/blue.png",
     "coinGeckoId": "",
     "contract": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
-  }, 
+  },
   {
-    "denom": "ibc/c2df5c3949ca835b221c575625991f09bab4e48fb9c11a4ee357194f736111e3",
+    "denom": "ibc/C2DF5C3949CA835B221C575625991F09BAB4E48FB9C11A4EE357194F736111E3",
     "type": "ibc",
     "origin_chain": "juno",
     "origin_denom": "bjuno",
@@ -1832,7 +1873,7 @@
     "coinGeckoId": "arable-protocol"
   },
   {
-    "denom": "ibc/01e94a5ff29b8ddefc86f412cc3927f7330e9b523cc63a6194b1108f5276025c",
+    "denom": "ibc/01E94A5FF29B8DDEFC86F412CC3927F7330E9B523CC63A6194B1108F5276025C",
     "type": "ibc",
     "origin_chain": "medasdigital",
     "origin_denom": "umedas",
@@ -1989,7 +2030,7 @@
       "denom": "eco.uC.NCT"
     },
     "image": "regen/asset/nct.png",
-    "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
+    "coinGeckoId": ""
   },
   {
     "denom": "ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F",
@@ -2212,7 +2253,7 @@
     "image": "archway/asset/arch.png",
     "coinGeckoId": "archway"
   },
-   {
+  {
     "denom": "ibc/9B6FBABA36BB4A3BF127AE5E96B572A5197FD9F3111D895D8919B07BC290764A",
     "type": "ibc",
     "origin_chain": "odin",
@@ -2232,7 +2273,7 @@
     "image": "odin/asset/geo.png",
     "coinGeckoId": "geodb"
   },
-   {
+  {
     "denom": "ibc/0CD46223FEABD2AEAAAF1F057D01E63BCA79B7D4BD6B68F1EB973A987344695D",
     "type": "ibc",
     "origin_chain": "odin",
@@ -2248,8 +2289,48 @@
       "channel": "channel-3",
       "port": "transfer",
       "denom": "mO9W"
-      },
-     "image": "odin/asset/o9w.png"
+    },
+    "image": "odin/asset/o9w.png"
+  },
+  {
+    "denom": "ibc/CFF40564FDA3E958D9904B8B479124987901168494655D9CC6B7C0EC0416020B",
+    "type": "ibc",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
+    "origin_type": "native",
+    "symbol": "STRDST",
+    "decimals": 6,
+    "enable": true,
+    "path": "stargaze>osmosis",
+    "channel": "channel-75",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "ustars"
+    },
+    "image": "stargaze/asset/dust.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/71DAA4CAFA4FE2F9803ABA0696BA5FC0EFC14305A2EA8B4E01880DB851B1EC02",
+    "type": "ibc",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uBRNCH",
+    "origin_type": "native",
+    "symbol": "BRNCH",
+    "decimals": 6,
+    "enable": true,
+    "path": "stargaze>osmosis",
+    "channel": "channel-75",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "ustars"
+    },
+    "image": "stargaze/asset/brnch.png",
+    "coinGeckoId": ""
    },
     {
     "denom": "ibc/F3166F4D31D6BA1EC6C9F5536F5DDDD4CC93DBA430F7419E7CDC41C497944A65",
@@ -2621,5 +2702,57 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+    "type": "ibc",
+    "origin_chain": "celestia",
+    "origin_denom": "utia",
+    "origin_type": "staking",
+    "symbol": "TIA",
+    "decimals": 6,
+    "enable": true,
+    "path": "celestia>osmosis",
+    "channel": "channel-6994",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "utia"
+    },
+    "image": "celestia/asset/tia.png",
+    "coinGeckoId": "celestia"
+  },
+  {
+    "denom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "wbtc",
+    "origin_type": "erc20",
+    "symbol": "yieldeth-wei",
+    "decimals": 18,
+    "enable": true,
+    "path": "ethereum>axelar>osmosis",
+    "channel": "channel-208",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "yieldeth-wei"
+    },
+    "image": "ethereum/asset/yieldeth.png",
+    "coinGeckoId": "yieldeth-sommelier",
+    "contract": "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec"
+  },
+  {
+    "denom": "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "ulvn",
+    "origin_type": "native",
+    "symbol": "LVN",
+    "decimals": 6,
+    "description": "Levana Governance Token",
+    "image": "osmosis/asset/levana.png"
   }
 ]
