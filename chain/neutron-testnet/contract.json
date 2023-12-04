@@ -20,5 +20,16 @@
     "image": "ethereum/asset/usdt.png",
     "default": false,
     "coinGeckoId": "tether"
+  },
+  {
+    "chainId": -1,
+    "chainName": "neutron-testnet",
+    "address": "neutron1a4qz5qahyth8kl6g3gf0gmvf83w8jetj9mrvcqu870y0h7f3d6jqy4q8yx",
+    "symbol": "CFT",
+    "description": "Craft Token",
+    "decimals": 6,
+    "image": "neutron-testnet/asset/craft.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]

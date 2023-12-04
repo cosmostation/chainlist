@@ -5,7 +5,7 @@
 
   - Add your dApp information with [this](https://github.com/cosmostation/chainlist/blob/main/dapp/dapps.json) file
 
-    ```json
+```json
    {
       "title":"Osmosis",
       "description":"Swap, provide, and earn on the leading decentralized AMM.",
@@ -19,7 +19,7 @@
          "Dex"
       ]
    }
-    ```
+```
 
     - `title`
       - dApp's title

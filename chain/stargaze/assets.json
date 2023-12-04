@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Stargaze Staking Coin",
     "image": "stargaze/asset/stars.png",
-    "coinGeckoId": "stargaze"
+    "coinGeckoId": "stargaze",
+    "color": "#E38CD4"
   },
   {
     "denom": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
@@ -129,5 +130,49 @@
       "denom": "unois"
     },
     "image": "nois/asset/nois.png"
+  },
+  {
+    "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
+    "type": "native",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
+    "origin_type": "native",
+    "symbol": "STRDST",
+    "decimals": 6,
+    "description": "The native token of ohhNFT.",
+    "image": "stargaze/asset/dust.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uBRNCH",
+    "type": "native",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uBRNCH",
+    "origin_type": "native",
+    "symbol": "BRNCH",
+    "decimals": 6,
+    "description": "ohhNFT LP token.",
+    "image": "stargaze/asset/brnch.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/4A1C18CA7F50544760CF306189B810CE4C1CB156C7FC870143D401FE7280E591",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>stargaze",
+    "channel": "channel-204",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-11",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

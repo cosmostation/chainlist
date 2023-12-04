@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Mars Staking Coin",
     "image": "mars-protocol/asset/mars.png",
-    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
+    "color": "#DA3A14"
   },
   {
     "denom": "ibc/FA0006F056DB6719B8C16C551FC392B62F5729978FC0B125AC9A432DBB2AA1A5",
@@ -121,7 +122,7 @@
     "symbol": "LUNA",
     "decimals": 6,
     "enable": true,
-    "path": "terra>mars-procol",
+    "path": "terra>mars-protocol",
     "channel": "channel-2",
     "port": "transfer",
     "counter_party": {
