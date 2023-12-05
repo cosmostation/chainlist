@@ -28,6 +28,20 @@
     "link": "https://governance.neutron.org/proposals"
   },
   {
+    "id": "apollo",
+    "name": "apollo dao",
+    "dappType": "Vaults",
+    "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
+    "link": "https://apollo.farm/",
+    "social": {
+      "webSite": "https://apollo.farm/",
+      "twitter": "https://twitter.com/ApolloDAO",
+      "medium": "",
+      "github": "https://github.com/apollodao",
+      "docs": ""
+    }
+  },
+  {
     "id": "lido",
     "name": "lido",
     "dappType": "Liquid Staking",
@@ -55,22 +69,7 @@
       "github": "https://github.com/mars-protocol",
       "docs": "https://docs.marsprotocol.io/"
     }
-  },
-  {
-    "id": "apollo",
-    "name": "apollo dao",
-    "dappType": "Vaults",
-    "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
-    "link": "",
-    "social": {
-      "webSite": "https://apollo.farm/",
-      "twitter": "https://twitter.com/ApolloDAO",
-      "medium": "",
-      "github": "https://github.com/apollodao",
-      "docs": ""
-    },
-    "comingSoon": true
-  },
+  },  
   {
     "id": "craft-network",
     "name": "craft network",
