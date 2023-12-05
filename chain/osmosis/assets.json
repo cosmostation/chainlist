@@ -2754,5 +2754,25 @@
     "decimals": 6,
     "description": "Levana Governance Token",
     "image": "osmosis/asset/levana.png"
+  },
+  {
+    "denom": "ibc/613BF0BF2F2146AE9941E923725745E931676B2C14E9768CD609FA0849B2AE13",
+    "type": "ibc",
+    "origin_chain": "kyve",
+    "origin_denom": "ukyve",
+    "origin_type": "staking",
+    "symbol": "KYVE",
+    "decimals": 6,
+    "enable": true,
+    "path": "kyve>osmosis",
+    "channel": "channel-767",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "ukyve"
+    },
+    "image": "kyve/asset/kyve.png",
+    "coinGeckoId": "kyve-network"
   }
 ]
