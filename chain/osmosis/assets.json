@@ -1046,6 +1046,26 @@
     "coinGeckoId": "stkatom"
   },
   {
+    "denom": "ibc/ECBE78BF7677320A93E7BA1761D144BCBF0CBC247C290C049655E106FE5DC68E",
+    "type": "ibc",
+    "origin_chain": "persistence",
+    "origin_denom": "stk/uosmo",
+    "origin_type": "native",
+    "symbol": "stkOSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "persistence>osmosis",
+    "channel": "channel-4",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-6",
+      "port": "transfer",
+      "denom": "stk/uosmo"
+    },
+    "image": "persistence/asset/stkosmo.png",
+    "coinGeckoId": "stkosmo"
+  },
+  {
     "denom": "ibc/8061A06D3BD4D52C4A28FFECF7150D370393AF0BA661C3776C54FF32836C3961",
     "type": "ibc",
     "origin_chain": "ethereum",
