@@ -123,45 +123,5 @@
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
-  },
-  {
-    "denom": "ibc/CA5E8F31288514D728AFD1F0533A7F6902AA1192C88C9540F814893C3EAFE244",
-    "type": "ibc",
-    "origin_chain": "desmos",
-    "origin_denom": "udsm",
-    "origin_type": "staking",
-    "symbol": "EVMOS",
-    "decimals": 18,
-    "enable": true,
-    "path": "evmos>bostrom",
-    "channel": "channel-13",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-6",
-      "port": "transfer",
-      "denom": "udsm"
-    },
-    "image": "desmos/asset/dsm.png",
-    "coinGeckoId": "desmos"
-  },
-  {
-    "denom": "ibc/4B322204B4F59D770680FE4D7A565DDC3F37BFF035474B717476C66A4F83DD72",
-    "type": "ibc",
-    "origin_chain": "evmos",
-    "origin_denom": "aevmos",
-    "origin_type": "staking",
-    "symbol": "DSM",
-    "decimals": 6,
-    "enable": true,
-    "path": "desmos>bostrom",
-    "channel": "channel-9",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-19",
-      "port": "transfer",
-      "denom": "aevmos"
-    },
-    "image": "evmos/asset/dsm.png",
-    "coinGeckoId": "evmos"
   }
 ]
