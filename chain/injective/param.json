@@ -2,13 +2,44 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "500000000inj"
-        ]
+            "160000000inj"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-injective.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-injective.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-injective-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Injective Foundation",
+            "url": "sentry.chain.grpc.injective.network:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "injective-grpc.polkachu.com:14390"
+        },
+        {
+            "provider": "POSTHUMAN ꝏ DVS",
+            "url": "grpc.injective.posthuman.digital:80"
+        }
+    ],
+    "about" : {
+        "website" : "https://injective.com/",
+        "blog" : "https://medium.com/injective-labs",
+        "github" : "https://github.com/InjectiveLabs",
+        "twitter" : "https://twitter.com/Injective_",
+        "coingecko" : "https://www.coingecko.com/en/coins/injective-protocol"
+    },
+    "description" : {
+        "ko" : "다양한 금융서비스를 제공하는 Cosmos SDK 기반의 탈중앙화 크로스체인 금융 플랫폼입니다.",
+        "en" : "A Cosmos SDK based fully decentralized financial network for cross-chain trading and derivatives.",
+        "ja" : "様々な金融サービスを提供するCosmos SDKベースの分散型クロスチェーン金融プラットフォームです。"
+    }
 }

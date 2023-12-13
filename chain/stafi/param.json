@@ -2,13 +2,45 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.01ufis"
-        ]
+            "0.01ufis",
+            "0.025ufis"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-stafi.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-stafi.cosmostation.io:443"
+        },
+        {
+            "provider": "StaFiHub",
+            "url": "public-grpc-rpc1.stafihub.io:443"
+        },
+        {
+            "provider": "StaFiHub",
+            "url": "public-grpc-rpc2.stafihub.io:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.stafihub.nodestake.top:443"
+        },
+        {
+            "provider": "NODEJUMPER",
+            "url": "stafihub.nodejumper.io:9090"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.stafihub.io/",
+        "blog" : "https://stafi-protocol.medium.com/",
+        "github" : "https://github.com/stafihub/stafihub",
+        "twitter" : "https://twitter.com/StaFiHub_",
+        "coingecko" : "https://www.coingecko.com/en/coins/stafi"
+    },
+    "description" : {
+        "ko" : "StaFi Hub 는 크로스체인 리퀴드 스테이킹을 위해 설계된 Cosmos SDK 기반 블록체인 네트워크입니다.",
+        "en" : "StaFi Hub is a sovereign Cosmos SDK based blockchain designed for cross-chain liquid staking.",
+        "ja" : "StaFi Hubはクロスチェーンリキッドステーキングのために設計されたCosmos SDKベースのブロックチェーンネットワークです。"
+    }
 }

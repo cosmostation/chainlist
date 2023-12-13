@@ -2,13 +2,33 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.0uusdc"
-        ]
+            "0.1uusdc",
+            "0.01ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-noble.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-noble.cosmostation.io:443"
+        },
+        {
+            "provider": "polkachu",
+            "url": "noble-grpc.polkachu.com:21590"
+        }
+    ],
+    "about" : {
+        "website" : "https://nobleassets.xyz/",
+        "blog" : "https://mirror.xyz/nobleassets.eth",
+        "github" : "https://github.com/strangelove-ventures/noble",
+        "twitter" : "https://twitter.com/noble_xyz",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Noble은 IBC 생태계 상 네이티브 토큰 발행을 위해 설계된 Cosmos SDK 기반 블록체인입니다.",
+        "en" : "Noble is a Cosmos chain bringing native asset issuance to the IBC ecosystem.",
+        "ja" : "NobleはIBC生態系上、ネイティブトークン発行のために設計されたCosmosSDKベースのブロックチェーンです。"
+    }
 }

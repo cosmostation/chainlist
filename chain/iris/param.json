@@ -5,12 +5,43 @@
             "0.002uiris",
             "0.02uiris",
             "0.2uiris"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-iris.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-iris.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-irisnet-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Stakeflow",
+            "url": "grpc-irisnet-01.stakeflow.io:1902"
+        },
+        {
+            "provider": "w3coins",
+            "url": "irisnet-grpc.w3coins.io:22690"
+        },
+        {
+            "provider": "Allnodes.com ⚡️ Nodes & Staking",
+            "url": "iris-grpc.publicnode.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.irisnet.org/en/",
+        "blog" : "https://medium.com/irisnet-blog",
+        "github" : "https://github.com/irisnet",
+        "twitter" : "https://twitter.com/irisnetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/irisnet"
+    },
+    "description" : {
+        "ko" : "분산형 비즈니스 생태계를 위한 인터체인 서비스 인프라 & 프로토콜.",
+        "en" : "Interchain service infrastructure for a distributed business ecosystem",
+        "ja" : "分散型ビジネス エコシステムのためのインターチェーンサービス インフラ＆プロトコル。"
+    }
 }

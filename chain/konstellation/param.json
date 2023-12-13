@@ -5,11 +5,11 @@
             "0.0001udarc",
             "0.001udarc",
             "0.01udarc"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.5,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
+    "grpc_endpoint" : [
     ]
 }

@@ -2,13 +2,29 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "850000000000axpla"
-        ]
+            "850000000000axpla",
+            "1147500000000axpla"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-xpla.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-xpla.cosmostation.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://xpla.io/",
+        "blog" : "https://medium.com/@XPLA_Official",
+        "github" : "https://github.com/xpladev",
+        "twitter" : "https://twitter.com/XPLA_Official",
+        "coingecko" : "https://www.coingecko.com/en/coins/xpla"
+    },
+    "description" : {
+        "ko" : "Com2uS(컴투스)에서 자체 전개하는 Cosmos SDK 블록체인 기반 게임 미디어 콘텐츠 플랫폼입니다.",
+        "en" : "XPLA is a gaming media content-focused Cosmos SDK network built by Com2uS Corporation.",
+        "ja" : "Com2uS（コンツス）で独自展開するCosmos SDKブロックチェーンベースのゲームメディアコンテンツプラットフォーム。"
+    }
 }

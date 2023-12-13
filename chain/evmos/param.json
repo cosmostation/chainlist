@@ -1,14 +1,47 @@
 {
     "fee" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
+            "25000000000aevmos",
+            "40000000000aevmos",
             "80000000000aevmos"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-evmos.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-evmos.cosmostation.io:443"
+        },
+        {
+            "provider": "evmos.org",
+            "url": "grpc.bd.evmos.org:9090"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-evmos-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "evmos-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "evmos.grpcui.chaintools.host:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://evmos.org/",
+        "blog" : "https://evmos.blog/",
+        "github" : "https://github.com/evmos",
+        "twitter" : "https://twitter.com/EvmosOrg",
+        "coingecko" : "https://www.coingecko.com/en/coins/evmos"
+    },
+    "description" : {
+        "ko" : "EVM(이더리움 가상 머신) 호환이 가능한 Cosmos SDK 기반 블록체인.",
+        "en" : "A Cosmos SDK based IBC & EVM-compatible(Ethereum Virtual Machine) blockchain.",
+        "ja" : "EVM(イーサリアム仮想マシン)互換可能な (イーサリアム仮想マシン) Cosmos SDKベースのブロックチェーン。"
+    }
 }

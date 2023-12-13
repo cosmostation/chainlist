@@ -74,6 +74,48 @@
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   },
   {
+    "denom": "ibc/57503D7852EF4E1899FE6D71C5E81D7C839F76580F86F21E39348FC2BC9D7CE2",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdt",
+    "origin_type": "erc20",
+    "symbol": "axlUSDT",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>neutron",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-78",
+      "port": "transfer",
+      "denom": "uusdt"
+    },
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "axelar-usdt",
+    "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+  },
+  {
+    "denom": "ibc/A585C2D15DCD3B010849B453A2CFCB5E213208A5AB665691792684C26274304D",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "weth",
+    "origin_type": "erc20",
+    "symbol": "axlWETH",
+    "decimals": 18,
+    "enable": true,
+    "path": "ethereum>axelar>neutron",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-78",
+      "port": "transfer",
+      "denom": "eth-wei"
+    },
+    "image": "ethereum/asset/weth.png",
+    "coinGeckoId": "axlweth",
+    "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+  },
+  {
     "denom": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
     "type": "ibc",
     "origin_chain": "terra",
@@ -115,27 +157,6 @@
     "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
   },
   {
-    "denom": "ibc/A585C2D15DCD3B010849B453A2CFCB5E213208A5AB665691792684C26274304D",
-    "type": "ibc",
-    "origin_chain": "ethereum",
-    "origin_denom": "weth",
-    "origin_type": "erc20",
-    "symbol": "axlWETH",
-    "decimals": 18,
-    "enable": true,
-    "path": "ethereum>axelar>neutron",
-    "channel": "channel-2",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-78",
-      "port": "transfer",
-      "denom": "eth-wei"
-    },
-    "image": "ethereum/asset/weth.png",
-    "coinGeckoId": "axlweth",
-    "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
-  },
-  {
     "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
     "type": "bridge",
     "origin_chain": "ethereum",
@@ -147,5 +168,65 @@
     "image": "ethereum/asset/wsteth.png",
     "coinGeckoId": "wrapped-steth",
     "contract": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+  },
+  {
+    "denom": "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7",
+    "type": "ibc",
+    "origin_chain": "celestia",
+    "origin_denom": "utia",
+    "origin_type": "staking",
+    "symbol": "TIA",
+    "decimals": 6,
+    "enable": true,
+    "path": "celestia>neutron",
+    "channel": "channel-35",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-8",
+      "port": "transfer",
+      "denom": "utia"
+    },
+    "image": "celestia/asset/tia.png",
+    "coinGeckoId": "celestia"
+  },
+  {
+    "denom": "ibc/376222D6D9DAE23092E29740E56B758580935A6D77C24C2ABD57A6A78A1F3955",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>neutron",
+    "channel": "channel-10",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-874",
+      "port": "transfer",
+      "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  },
+  {
+    "denom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuatom",
+    "origin_type": "staking",
+    "symbol": "stATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>neutron",
+    "channel": "channel-8",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-123",
+      "port": "transfer",
+      "denom": "stuatom"
+    },
+    "image": "stride/asset/statom.png",
+    "coinGeckoId": "stride-staked-atom"
   }
 ]

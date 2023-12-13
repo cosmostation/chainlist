@@ -3,12 +3,43 @@
         "base" : "0",
         "rate" : [
             "0.0utori"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-teritori.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-teritori.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "teritori-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.teritori.nodestake.top:443"
+        },
+        {
+            "provider": "Brochain",
+            "url": "teritori-grpc.brocha.in:443"
+        },
+        {
+            "provider": "Silk Nodes",
+            "url": "teritori.grpc.silknodes.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://teritori.com/",
+        "blog" : "https://medium.com/teritori",
+        "github" : "https://github.com/teritori",
+        "twitter" : "https://twitter.com/teritorinetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/teritori"
+    },
+    "description" : {
+        "ko" : "Teritori는 웹3 커뮤니티들에게 플랫폼을 제공하기 위해 설계된 탈중앙화 멀티체인 생태계입니다.",
+        "en" : "Teritori is a decentralized multichain hub designed to provide an all-in-one experience for Web3 communities.",
+        "ja" : "Teritori はWeb3コミュニティにプラットフォームを提供するため設計された分散型マルチチェーンエコシステムです。"
+    }
 }

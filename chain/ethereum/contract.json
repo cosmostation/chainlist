@@ -3067,5 +3067,16 @@
     "image": "ethereum/asset/stg.png",
     "default": false,
     "coinGeckoId":"stargate-finance"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec",
+    "symbol": "YieldETH",
+    "description": "Real Yield ETH",
+    "decimals": 18,
+    "image": "ethereum/asset/yieldeth.png",
+    "default": false,
+    "coinGeckoId":"yieldeth-sommelier"
   }
 ]

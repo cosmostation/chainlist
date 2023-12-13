@@ -4,12 +4,31 @@
         "rate" : [
             "0.1uiov",
             "1.0uiov"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-starname.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-starname.cosmostation.io:443"
+        },
+        {
+            "provider": "starname",
+            "url": "grpc-starname-ia.cosmosia.notional.ventures:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.starname.me/",
+        "blog" : "https://medium.com/iov-internet-of-values",
+        "github" : "https://github.com/iov-one",
+        "twitter" : "https://twitter.com/starname_me",
+        "coingecko" : "https://www.coingecko.com/en/coins/starname"
+    },
+    "description" : {
+        "ko" : "Tendermint를 기반으로하는 Starname은 빠르고 안전하며 분산 된 범용 네이밍 서비스를 구축합니다.",
+        "en" : "Built on Tendermint, Starname builds a fast, secure and decentralized universal name service.",
+        "ja" : "TendermintをベースにするStarnameは高速で安全な分散型汎用ネーミングサービスを構築します。"
+    }
 }

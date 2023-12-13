@@ -3,12 +3,43 @@
         "base" : "0",
         "rate" : [
             "0.0usomm"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-sommelier.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-sommelier.cosmostation.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "sommelier-grpc.polkachu.com:14990"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "sommelier-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "sommelier-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-sommelier.cosmos-spaces.cloud:2310"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.sommelier.finance/",
+        "blog" : "https://medium.com/@sommelierfinance",
+        "github" : "https://github.com/PeggyJV",
+        "twitter" : "https://twitter.com/sommfinance",
+        "coingecko" : "https://www.coingecko.com/en/coins/sommelier"
+    },
+    "description" : {
+        "ko" : "Somelier Finance는 위험이 최소화된 멀티체인 디파이 전략을 제공하는 Cosmos SDK 기반 블록체인 네트워크입니다.",
+        "en" : "Sommelier Finance is a Cosmos SDK-based blockchain that provides risk-managed multichain DeFi strategies.",
+        "ja" : "Sommelier Finance はリスクが最小化されたマルチチェーンDeFi 戦略を提供する Cosmos SDK ベースのブロックチェーンネットワークです。"
+    }
 }
