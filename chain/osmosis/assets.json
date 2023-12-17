@@ -2794,5 +2794,25 @@
     },
     "image": "kyve/asset/kyve.png",
     "coinGeckoId": "kyve-network"
+  },
+{
+    "denom": "ibc/B1E0166EA0D759FDF4B207D1F5F12210D8BFE36F2345CEFC76948CE2B36DFBAF",
+    "type": "ibc",
+    "origin_chain": "Planq",
+    "origin_denom": "aplanq",
+    "origin_type": "staking",
+    "symbol": "PLANQ",
+    "decimals": 18,
+    "enable": true,
+    "path": "planq>osmosis",
+    "channel": "channel-492",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "aplanq"
+    },
+    "image": "Planq/aseet/planq.png",
+    "coinGeckoId": "planq"
   }
 ]
