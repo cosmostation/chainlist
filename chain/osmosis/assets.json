@@ -2795,7 +2795,7 @@
     "image": "kyve/asset/kyve.png",
     "coinGeckoId": "kyve-network"
   },
-{
+  {
     "denom": "ibc/B1E0166EA0D759FDF4B207D1F5F12210D8BFE36F2345CEFC76948CE2B36DFBAF",
     "type": "ibc",
     "origin_chain": "Planq",
@@ -2812,7 +2812,19 @@
       "port": "transfer",
       "denom": "aplanq"
     },
-    "image": "planq/asset/planq.png",
+    "image": "Planq/asset/planq.png",
     "coinGeckoId": "planq"
+  },
+  {
+    "denom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
+    "origin_type": "native",
+    "symbol": "milkTIA",
+    "decimals": 6,
+    "description": "MilkyWay's liquid staked TIA",
+    "image": "osmosis/asset/milktia.png",
+    "coinGeckoId": ""
   }
 ]
