@@ -55,35 +55,35 @@
     "link": "https://app.teritori.com/orgs"
   },
   {
-    "id": "music",
+    "id": "teritori-music-player",
     "name": "Teritori OS: Music",
     "dappType": "Social",
     "description": "Upload and find new fans for your music, powered by the Teritori OS.",
     "link": "https://app.teritori.com/feed/music"
   },
   {
-    "id": "video-player",
+    "id": "teritori-video-player",
     "name": "Teritori OS: Video Player",
     "dappType": "Social",
     "description": "Experience the first on-chain video player.",
     "link": "https://app.teritori.com/feed/videos"
   },
   {
-    "id": "toripunks",
+    "id": "teritori-toripunks",
     "name": "Toripunks NFTs: Open Bar, play, gamble, and earn",
     "dappType": "Gamble",
     "description": "Toripunks and ChadPunks NFTs are native to Teritori. Join this unique community and earn rewards.",
     "link": "https://app.teritori.com/dapp/tori-punks/welcome"
   },
   {
-    "id": "teritori-staking",
+    "id": "teritori-tori-staking",
     "name": "teritori (staking)",
     "dappType": "Defi",
     "description": "Stake your TORI tokens and earn rewards.",
     "link": "https://app.teritori.com/staking/"
   },
   {
-    "id": "osmosis-dex",
+    "id": "teritori-osmosis-swap",
     "name": "Swap on Osmosis",
     "dappType": "Dex",
     "description": "Find How to Buy Tori, swap without moving away from Teritori OS",
@@ -98,15 +98,15 @@
     "comingSoon": true
   },
   {
-    "id": "teritori-bridge",
-    "name": "teritori (bridge) Axelar",
+    "id": "default",
+    "name": "Teritori <> Axelar",
     "dappType": "System",
     "description": "Bridge your $TORI tokens from Ethereum to teritori.",
     "link": "https://satellite.money/?source=teritori&destination=ethereum&asset_denom=utori&destination_address=",
     "comingSoon": true
   },
   {
-    "id": "teritori-pathwar",
+    "id": "teritori-pathwar-elearning",
     "name": "Pathwar: Learn to Earn",
     "dappType": "Others",
     "description": "Cybersec Learning Platform.",
@@ -115,14 +115,14 @@
   },
   {
     "id": "project-manager",
-    "name": "On-Chian Project Manager",
+    "name": "On-Chain Project Manager",
     "dappType": "System",
     "description": "Manage your project on-chain. Create tasks, grants, assign them to team members, and track progress.",
     "link": "https://app.teritori.com/project-manager",
     "comingSoon": true
   },
   {
-    "id": "teritori-governance",
+    "id": "teritori-teritori-governance",
     "name": "Governance",
     "dappType": "System",
     "description": "teritori Governance Platform. Cast your vote and contribute to shaping teritori's future.",
@@ -160,7 +160,7 @@
     "id": "tfm",
     "name": "TFM",
     "dappType": "Defi",
-    "description": "Pro-Trading Terminal of teritori aggregating all DEX and NFT",
+    "description": "Pro-Trading Terminal of Teritori aggregating all DEX and NFT",
     "link": "https://tfm.com/osmosis/trade/protrade?from=ibc%2FEB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC&to=ibc%2FD189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858&market=Osmosis",
     "social": {
       "twitter": "https://twitter.com/tfm_com",
