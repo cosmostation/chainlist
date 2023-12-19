@@ -96,7 +96,7 @@
 ---
 
 - Native Token
-  `/assets/v2/${chain}/assets.json`
+  `chain/${chain}/assets.json`
 
   ```json
   // example OSMOSIS
