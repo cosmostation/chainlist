@@ -7,7 +7,7 @@
     "link": "https://app.teritori.com/marketplace"
   },
   {
-    "id": "teritori-tns",
+    "id": "teritori-name-service",
     "name": "Name Service",
     "dappType": "NFT",
     "description": "Get your unique Teritori Name Service (TNS) name. TNS names are NFTs that can be used to receive payments and more. Get you name.tori NOW!",
@@ -24,21 +24,21 @@
     }
   },
   {
-    "id": "social-network",
+    "id": "teritori-social-feed",
     "name": "Cosmos First On-chain Social Network",
     "dappType": "Social",
     "description": "Post, like, and comment on the first on-chain social network. Powered by the Cosmos SDK.",
     "link": "https://app.teritori.com/feed"
   },
   {
-    "id": "multisig-tools",
-    "name": "Multisig Tools, supports ALL Cosmos SDK chains",
+    "id": "teritori-multisig-wallets",
+    "name": "Multisig Tools",
     "dappType": "DAO",
     "description": "Create and manage your multisig wallet. Supports all Cosmos SDK chains.",
     "link": "https://app.teritori.com/multisig"
   },
   {
-    "id": "dapp-store",
+    "id": "teritori-dapp-store",
     "name": "Teritori Dapp Store",
     "dappType": "System",
     "description": "Teritori OS Dapp Store. Find all the dapps you need in one place.",
@@ -48,57 +48,65 @@
     }
   },
   {
-    "id": "communities",
-    "name": "Create and manage your Web3 community, including voting and governance",
+    "id": "teritori-org-deployer",
+    "name": "Create your Organization",
     "dappType": "DAO",
     "description": "Build your OWN DAO. Manage treasury, voting, and governance.",
     "link": "https://app.teritori.com/orgs"
   },
   {
-    "id": "music",
+    "id": "teritori-music-player",
     "name": "Teritori OS: Music",
     "dappType": "Social",
     "description": "Upload and find new fans for your music, powered by the Teritori OS.",
     "link": "https://app.teritori.com/feed/music"
   },
   {
-    "id": "video-player",
+    "id": "teritori-video-player",
     "name": "Teritori OS: Video Player",
     "dappType": "Social",
     "description": "Experience the first on-chain video player.",
     "link": "https://app.teritori.com/feed/videos"
   },
   {
-    "id": "toripunks",
-    "name": "Toripunks NFTs: Open Bar, play, gamble, and earn",
+    "id": "teritori-toripunks",
+    "name": "ToriPunks Games",
     "dappType": "Gamble",
     "description": "Toripunks and ChadPunks NFTs are native to Teritori. Join this unique community and earn rewards.",
     "link": "https://app.teritori.com/dapp/tori-punks/welcome"
   },
   {
-    "id": "teritori-staking",
+    "id": "teritori-tori-staking",
     "name": "teritori (staking)",
     "dappType": "Defi",
-    "description": "Stake your $NTRN tokens and earn rewards.",
-    "link": "https://staking.teritori.org/"
+    "description": "Stake your TORI tokens and earn rewards.",
+    "link": "https://app.teritori.com/staking/"
   },
   {
-    "id": "osmosis-dex",
+    "id": "teritori-osmosis-swap",
     "name": "Swap on Osmosis",
     "dappType": "Dex",
     "description": "Find How to Buy Tori, swap without moving away from Teritori OS",
     "link": "https://app.teritori.com/swap"
   },
   {
-    "id": "teritori-bridge",
-    "name": "teritori (bridge) Axelar",
+    "id": "teritori-ibcfun-bridge",
+    "name": "IBC.fun",
+    "dappType": "Defi",
+    "description": "IBC.fun is a cross-chain bridge that allows you to transfer assets between different blockchains.",
+    "link": "https://ibc.fun/",
+    "comingSoon": true
+  },
+  {
+    "id": "default",
+    "name": "Teritori <> Axelar",
     "dappType": "System",
     "description": "Bridge your $TORI tokens from Ethereum to teritori.",
     "link": "https://satellite.money/?source=teritori&destination=ethereum&asset_denom=utori&destination_address=",
     "comingSoon": true
   },
   {
-    "id": "teritori-pathwar",
+    "id": "teritori-pathwar-elearning",
     "name": "Pathwar: Learn to Earn",
     "dappType": "Others",
     "description": "Cybersec Learning Platform.",
@@ -107,14 +115,14 @@
   },
   {
     "id": "project-manager",
-    "name": "On-Chian Project Manager",
+    "name": "On-Chain Project Manager",
     "dappType": "System",
     "description": "Manage your project on-chain. Create tasks, grants, assign them to team members, and track progress.",
     "link": "https://app.teritori.com/project-manager",
     "comingSoon": true
   },
   {
-    "id": "teritori-governance",
+    "id": "teritori-teritori-governance",
     "name": "Governance",
     "dappType": "System",
     "description": "teritori Governance Platform. Cast your vote and contribute to shaping teritori's future.",
@@ -142,6 +150,13 @@
     "link": "https://restake.app/teritori"
   },
   {
+    "id": "default",
+    "name": "Slashboard",
+    "dappType": "Defi",
+    "description": "The Validator Slashboard is a dedicated tool designed to showcase the historical data of validator slashing incidents.",
+    "link": "https://services.kjnodes.com/mainnet/teritori/slashboard/"
+  },
+  {
     "id": "yieldmos",
     "name": "Yieldmos",
     "dappType": "Defi",
@@ -152,7 +167,7 @@
     "id": "tfm",
     "name": "TFM",
     "dappType": "Defi",
-    "description": "Pro-Trading Terminal of teritori aggregating all DEX and NFT",
+    "description": "Pro-Trading Terminal of Teritori aggregating all DEX and NFT",
     "link": "https://tfm.com/osmosis/trade/protrade?from=ibc%2FEB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC&to=ibc%2FD189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858&market=Osmosis",
     "social": {
       "twitter": "https://twitter.com/tfm_com",
