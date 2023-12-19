@@ -31,14 +31,14 @@
     "link": "https://app.teritori.com/feed"
   },
   {
-    "id": "multisig-tools",
+    "id": "teritori-multisig-wallets",
     "name": "Multisig Tools, supports ALL Cosmos SDK chains",
     "dappType": "DAO",
     "description": "Create and manage your multisig wallet. Supports all Cosmos SDK chains.",
     "link": "https://app.teritori.com/multisig"
   },
   {
-    "id": "dapp-store",
+    "id": "teritori-dapp-store",
     "name": "Teritori Dapp Store",
     "dappType": "System",
     "description": "Teritori OS Dapp Store. Find all the dapps you need in one place.",
@@ -48,8 +48,8 @@
     }
   },
   {
-    "id": "communities",
-    "name": "Create and manage your Web3 community, including voting and governance",
+    "id": "teritori-org-deployer",
+    "name": "Create and manage your Web3 Organization, including voting and governance",
     "dappType": "DAO",
     "description": "Build your OWN DAO. Manage treasury, voting, and governance.",
     "link": "https://app.teritori.com/orgs"
