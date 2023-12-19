@@ -32,7 +32,7 @@
   },
   {
     "id": "teritori-multisig-wallets",
-    "name": "Multisig Tools, supports ALL Cosmos SDK chains",
+    "name": "Multisig Tools",
     "dappType": "DAO",
     "description": "Create and manage your multisig wallet. Supports all Cosmos SDK chains.",
     "link": "https://app.teritori.com/multisig"
@@ -49,7 +49,7 @@
   },
   {
     "id": "teritori-org-deployer",
-    "name": "Create and manage your Web3 Organization, including voting and governance",
+    "name": "Create your Organization",
     "dappType": "DAO",
     "description": "Build your OWN DAO. Manage treasury, voting, and governance.",
     "link": "https://app.teritori.com/orgs"
@@ -70,7 +70,7 @@
   },
   {
     "id": "teritori-toripunks",
-    "name": "Toripunks NFTs: Open Bar, play, gamble, and earn",
+    "name": "ToriPunks Games",
     "dappType": "Gamble",
     "description": "Toripunks and ChadPunks NFTs are native to Teritori. Join this unique community and earn rewards.",
     "link": "https://app.teritori.com/dapp/tori-punks/welcome"
@@ -148,6 +148,13 @@
     "dappType": "Defi",
     "description": "Auto-compound your staking rewards and setup your own custom Authz grants for any chain in the Cosmos ecosystem.",
     "link": "https://restake.app/teritori"
+  },
+  {
+    "id": "default",
+    "name": "Slashboard",
+    "dappType": "Defi",
+    "description": "The Validator Slashboard is a dedicated tool designed to showcase the historical data of validator slashing incidents.",
+    "link": "https://services.kjnodes.com/mainnet/teritori/slashboard/"
   },
   {
     "id": "yieldmos",
