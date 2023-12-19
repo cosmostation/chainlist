@@ -90,6 +90,14 @@
     "link": "https://app.teritori.com/swap"
   },
   {
+    "id": "teritori-ibcfun-bridge",
+    "name": "IBC.fun",
+    "dappType": "Defi",
+    "description": "IBC.fun is a cross-chain bridge that allows you to transfer assets between different blockchains.",
+    "link": "https://ibc.fun/",
+    "comingSoon": true
+  },
+  {
     "id": "teritori-bridge",
     "name": "teritori (bridge) Axelar",
     "dappType": "System",
