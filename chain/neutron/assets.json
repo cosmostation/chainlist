@@ -248,5 +248,18 @@
     },
     "image": "dydx/asset/dydx.png",
     "coinGeckoId": "dydx-chain"
+  },
+  {
+    "denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+    "origin_type": "native",
+    "symbol": "NEWT",
+    "decimals": 6,
+    "enable": true,
+    "description": "",
+    "image": "neutron/asset/newt.png",
+    "coinGeckoId": "newt"
   }
 ]
