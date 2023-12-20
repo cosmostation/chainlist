@@ -434,7 +434,7 @@
   <summary><h2 style='display: inline; font-size: 24px'>How to edit chain fee</h2></summary>
 
   [Cosmos fee](https://github.com/cosmostation/chainlist/blob/main/chain/cosmos/fee.json) list supporting
-  - `${targetChain}/fee.json` Edit rate and make pull request (PR)
+  - `chain/${targetChain}/fee.json` Edit rate and make pull request (PR)
 
   ```json
   {
