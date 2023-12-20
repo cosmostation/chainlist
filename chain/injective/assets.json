@@ -1188,5 +1188,25 @@
     "decimals": 6,
     "description": "Talis governance token",
     "image": "injectivte/asset/talis.png"
+  },
+  {
+    "denom": "ibc/F8D4A8A44D8EF57F83D49624C4C89EECB1472D6D2D1242818CDABA6BC2479DA9",
+    "type": "ibc",
+    "origin_chain": "cerberus",
+    "origin_denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7",
+    "origin_type": “ibc”,
+    "symbol": "CRBRUS",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>injective",
+    "channel": "channel-8",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-122",
+      "port": "transfer",
+      "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+    },
+    "image": "cerberus/asset/crbrus.png",
+    "coinGeckoId": "cerberus-2"
   }
 ]
