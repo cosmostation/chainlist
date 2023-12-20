@@ -302,7 +302,7 @@
 ---
 
 - Cw20 Token
-  `/${targetChain}/contract.json`
+  `chain/${targetChain}/contract.json`
 
   ```json
   // example JUNO
@@ -387,7 +387,7 @@
    ---
 
 - ERC20 Token
-  `/${targetChain}/contract.json`
+  `chain/${targetChain}/contract.json`
 
   ```json
   // example EVMOS
