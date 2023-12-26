@@ -11,5 +11,17 @@
     "image": "chihuahua/asset/huahua.png",
     "coinGeckoId": "chihuahua-token",
     "color": "#F4B330"
+  },
+  {
+    "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
+    "type": "native",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
+    "origin_type": "native",
+    "symbol": "WOOF",
+    "decimals": 6,
+    "description": "The first tokenfactory on chihuahua chain",
+    "image": "chihuahua/asset/woof.png",
+    "coinGeckoId": ""
   }
 ]
