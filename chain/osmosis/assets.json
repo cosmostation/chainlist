@@ -2826,5 +2826,25 @@
     "description": "MilkyWay's liquid staked TIA",
     "image": "osmosis/asset/milktia.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/9B8EC667B6DF55387DC0F3ACC4F187DA6921B0806ED35DE6B04DE96F5AB81F53",
+    "type": "ibc",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
+    "origin_type": "native",
+    "symbol": "WOOF",
+    "decimals": 6,
+    "enable": true,
+    "path": "chihuahua>osmosis",
+    "channel": "channel-113",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-7",
+      "port": "transfer",
+      "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof"
+    },
+    "image": "chihuahua/asset/woof.png",
+    "coinGeckoId": ""
   }
 ]
