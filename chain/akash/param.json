@@ -5,11 +5,11 @@
             "0.00025uakt",
             "0.0025uakt",
             "0.025uakt"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.2",
-    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
@@ -40,8 +40,8 @@
         "coingecko" : "https://www.coingecko.com/en/coins/akash-network"
     },
     "description" : {
-        "ko" : "DeFi 용 DeCloud와 세계 최초의 분산 형 클라우드 컴퓨팅 마켓입니다.",
-        "en" : "The DeCloud for DeFi, and the world\'s first decentralized cloud computing marketplace.",
-        "ja" : "DeFi 用DeCloudと世界初の分散型クラウド コンピューティングマーケットです。"
+        "ko" : "Akash Network는 사용자가 컴퓨팅 리소스를 안전하고 효율적으로 사고 팔 수 있도록 해주는 오픈 소스 슈퍼 클라우드입니다.",
+        "en" : "Akash Network is an open-source Supercloud that allows users to securely and efficiently buy and sell computing resources.",
+        "ja" : "Akash Networkは、ユーザーがコンピューティングリソースを安全かつ効率的に売買できるようにするオープンソーススーパークラウドです。"
     }
 }

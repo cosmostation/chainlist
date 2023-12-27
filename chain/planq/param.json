@@ -1,0 +1,49 @@
+{
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "30000000000aplanq",
+            "35000000000aplanq",
+            "40000000000aplanq"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Planq Network",
+            "url": "grpc.planq.network:443"
+        },
+        {
+            "provider": "BccNodes",
+            "url": "planq.grpc.bccnodes.com:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.planq.nodestake.top:443"
+        },
+        {
+            "provider": "NodineId",
+            "url": "https://grpc-planq.nodine.id"
+        },
+        {
+            "provider": "SafeBlock",
+            "url": "grpc.planq.safeblock.space:9090"
+        }
+        {
+            "provider": "Nodex Validator",
+            "url": "https://grpc.planq.nodexcapital.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://planq.network/",
+        "blog" : "hhttps://medium.com/@planq",
+        "github" : "https://github.com/planq-network/",
+        "twitter" : "https://twitter.com/PlanqFoundation",
+        "coingecko" : "https://www.coingecko.com/en/coins/planq"
+    },
+    "description" : {
+        "en" : "The blockchain cosmos on your phone"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.002ujkl",
+            "0.002ujkl",
+            "0.02ujkl"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Jackal Labs",
+            "url": "rpc.jackalprotocol.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://jackalprotocol.com/",
+        "blog" : "https://www.jackalprotocol.com/blog",
+        "github" : "https://github.com/JackalLabs",
+        "twitter" : "https://twitter.com/Jackal_Protocol",
+        "coingecko" : "https://www.coingecko.com/en/coins/jackal-protocol"
+    },
+    "description" : {
+        "en" : "The Jackal Protocol provides a decentralized infrastructure for secure and scalable cloud-data storage."
+    }
+}

@@ -1,14 +1,14 @@
 {
     "fee" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
             "0.0uxprt",
             "0.025uxprt"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.2",
-    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",

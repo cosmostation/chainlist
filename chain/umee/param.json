@@ -4,11 +4,11 @@
         "rate" : [
             "0.1uumee",
             "0.2uumee"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.2",
-    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
@@ -32,7 +32,7 @@
         }
     ],
     "about" : {
-        "website" : "https://umee.cc/",
+        "website" : "https://www.ux.xyz/",
         "blog" : "https://medium.com/umeeblog",
         "github" : "https://github.com/umee-network",
         "twitter" : "https://twitter.com/Umee_CrossChain",

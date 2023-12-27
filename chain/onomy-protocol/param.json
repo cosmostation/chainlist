@@ -3,15 +3,15 @@
         "base" : "0",
         "rate" : [
             "0.0anom"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.2",
-    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "grpc-onomy.cosmostation.io:443"
+            "url": "grpc-onomy-protocol.cosmostation.io:443"
         }
     ],
     "about" : {
