@@ -287,11 +287,11 @@
   {
     "address": "core1ll9gdh5ur6gyv6swgshcm4zkkw4ttakt4ukjma",
     "operatorAddress": "corevaloper1ll9gdh5ur6gyv6swgshcm4zkkw4ttakt0zghmr",
-    "signType": "amino"
+    "signType": "protobuf"
   },
   {
     "address": "kyve17xuyhz7s5hkwglmkf3qsrlyr3wk9qvqzxg4mja",
     "operatorAddress": "kyvevaloper17xuyhz7s5hkwglmkf3qsrlyr3wk9qvqz5c4mul",
-    "signType": "amino"
+    "signType": "protobuf"
   }
 ]
