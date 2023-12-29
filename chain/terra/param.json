@@ -2,8 +2,8 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.015uluna",
-            "0.04uluna"
+            "0.15uluna",
+            "0.4uluna"
         ],
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
