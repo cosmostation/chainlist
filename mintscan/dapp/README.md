@@ -1,6 +1,6 @@
 ## How to add dApp's Information to Mintscan Explorer.
 
-You can add dApp information in the mintscan/dapp/{chain}/constants.json, and upload image file in mintscan/dapp/{chain}/image/{dapp-id}.png to display Mintscan's ecosystem page.
+You can add dApp information in the mintscan/dapp/{chain}/constants.json, and upload image file in mintscan/dapp/{chain}/image/{id}.png to display Mintscan's ecosystem page.
 
 [mandatory]
 
@@ -9,7 +9,7 @@ You can add dApp information in the mintscan/dapp/{chain}/constants.json, and up
 - dappType : Please select one of the following dapp types. (DAO, Defi, Defi&NFT, NFT, Social, Gamble, Others, Dashboard, Data, Defi&Social, Bridge, Vaults, Lending, System, Dex, Liquid Staking)
 - description : a description of dapp.
 - link : dapp's link
-- image : Please upload a 1125x600px png file to the path "mintscan/dapp/{chain}/image/{dapp-id}.png".
+- image (file) : Please upload a 1125x600px png file to the path "mintscan/dapp/{chain}/image/{id}.png". {id} corresponds to the top id, and it is a unique name for the dapp in kebab-case format.
 
 [optional]
 

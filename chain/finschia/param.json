@@ -1,0 +1,29 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.015cony"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-finschia.cosmostation.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.finschia.network/",
+        "blog" : "https://finschia.medium.com/",
+        "github" : "https://github.com/Finschia/",
+        "twitter" : "https://twitter.com/finschia",
+        "coingecko" : "https://www.coingecko.com/en/coins/fnsa"
+    },
+    "description" : {
+        "ko" : "Finschia는 스마트 계약을 원활하게 통합하여 LINE 블록체인의 글로벌 확장을 계속하고 있는 IBC Consoritum 블록체인입니다.",
+        "en" : "Finschia is an IBC Consortium blockchain that seamlessly incorporates smart contracts, continuing the global expansion of the LINE blockchain.",
+        "ja" : "Finschiaはスマート契約を円滑に統合し、LINEブロックチェーンのグローバル拡張を続けているIBC Consoritumブロックチェーンです。"
+    }
+}

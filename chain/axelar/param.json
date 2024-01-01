@@ -4,11 +4,11 @@
         "rate" : [
             "0.007uaxl",
             "0.05uaxl"
-        ]
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.3,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.3",
-    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",

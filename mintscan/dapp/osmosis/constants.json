@@ -1,16 +1,155 @@
 [
   {
-    "id": "zone",
-    "name": "Osmosis.zone",
+    "id": "osmosiszone",
+    "name": "Osmosis Zone",
     "dappType": "Defi",
     "description": "Interchain Liquidity Lab - Swap, earn and build on the leading decentralized Cosmos exchange.",
     "link": "https://app.osmosis.zone"
   },
   {
+    "id": "membrane",
+    "name": "Membrane",
+    "dappType": "Defi",
+    "description": "Mint the global medium of exchange in the form of an over-collateralized stablecoin: $CDT",
+    "link": "https://membrane-ui-mainnet.vercel.app/"
+  },
+  {
     "id": "streamswap",
     "name": "StreamSwap",
     "dappType": "Defi",
-    "description": "Community-driven token launch platform.",
-    "link": "https://app.streamswap.io"
+    "description": "A launchpad for initial token sales. The next generation of LBPs",
+    "link": "https://app.streamswap.io/"
+  },
+  {
+    "id": "nolusprotocol",
+    "name": "Nolus Protocol",
+    "dappType": "Defi",
+    "description": "0% Interest on All DeFi Leases!",
+    "link": "https://app.nolus.io/"
+  },
+  {
+    "id": "pulsarfinance",
+    "name": "Pulsar Finance",
+    "dappType": "Defi",
+    "description": "Track your portfolio performance across 70+ blockchains in a single place, from Tokens to DeFi & NFTs.",
+    "link": "https://pulsar.finance/"
+  },
+  {
+    "id": "quasarfinance",
+    "name": "Quasar Finance",
+    "dappType": "Defi",
+    "description": "Quasar is the first decentralized asset management platform supercharged with IBC.",
+    "link": "https://app.quasar.fi/"
+  },
+  {
+    "id": "stride",
+    "name": "Stride",
+    "dappType": "Defi",
+    "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
+    "link": "https://app.stride.zone/?chain=OSMO",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
+    }
+  },
+  {
+    "id": "levanaperps",
+    "name": "Levana Perps",
+    "dappType": "Defi",
+    "description": "Fully-collateralized, low cost perpetual swaps",
+    "link": "https://trade.levana.finance/"
+  },
+  {
+    "id": "marsredbank",
+    "name": "Mars Red Bank",
+    "dappType": "Defi",
+    "description": "Lend and borrow money with the Osmosis Blockchain.",
+    "link": "https://app.marsprotocol.io/"
+  },
+  {
+    "id": "ibcx",
+    "name": "IBCX",
+    "dappType": "Defi",
+    "description": "$IBCX is a Cosmos index token designed to benchmark the leading Cosmos tokens’ performance.",
+    "link": "https://index.ion.wtf/"
+  },
+  {
+    "id": "calculatedfinance",
+    "name": "Calculated Finance",
+    "dappType": "Defi",
+    "description": "Create DCA (Dollar Cost Averaging) strategies. Experience the smartest way to enter and exit your crypto positions.",
+    "link": "https://app.calculated.fi/?chain=osmosis-1"
+  },
+  {
+    "id": "tfmprotrading",
+    "name": "TFM Pro Trading",
+    "dappType": "Defi",
+    "description": "The Pro-Trading Terminal of Cosmos. Proprietary IBC & DEX & NFT Aggregator! Transfer via IBC across all Cosmos app-chains.",
+    "link": "https://tfm.com/osmosis/trade/protrade/"
+  },
+  {
+    "id": "marsfarm",
+    "name": "Mars Farm",
+    "dappType": "Defi",
+    "description": "Farm the fields of Mars. Leveraged yield farming on top of Apollo auto compounding vaults!",
+    "link": "https://app.marsprotocol.io/"
+  },
+  {
+    "id": "kado",
+    "name": "Kado",
+    "dappType": "Defi",
+    "description": "Instantly Buy & Sell Crypto. Onboard to Osmosis in less than 5 minutes.",
+    "link": "https://app.kado.money/"
+  },
+  {
+    "id": "sinfonia",
+    "name": "Sinfonia",
+    "dappType": "Defi",
+    "description": "Your Web3Music dApp powered by BitSong.",
+    "link": "https://app.sinfonia.zone/"
+  },
+  {
+    "id": "restake",
+    "name": "REStake",
+    "dappType": "Defi",
+    "description": "Auto-compound your staking rewards and setup your own custom Authz grants for any chain in the Cosmos ecosystem.",
+    "link": "https://restake.app/osmosis"
+  },
+  {
+    "id": "icns",
+    "name": "ICNS",
+    "dappType": "Defi",
+    "description": "InterChain Name Service. Your name for the interchain.",
+    "link": "https://www.icns.xyz/"
+  },
+  {
+    "id": "yieldmos",
+    "name": "Yieldmos",
+    "dappType": "Defi",
+    "description": "Boost yields by auto compounding your staking and LP rewards with validators of your choice.",
+    "link": "https://www.yieldmos.com/chain/osmosis"
+  },
+  {
+    "id": "iondao",
+    "name": "ION DAO",
+    "dappType": "Defi",
+    "description": "Decentralized autonomous organization for community governance",
+    "link": "https://ion.wtf"
+  },
+  {
+    "id": "apollosafe",
+    "name": "Apollo Safe",
+    "dappType": "Defi",
+    "description": "Apollo Safe is the easiest way to secure, manage and govern a wallet with multiple members",
+    "link": "https://safe.apollo.farm/osmosis-1/overview"
+  },
+  {
+    "id": "marginedprotocol",
+    "name": "Margined Protocol",
+    "dappType": "Defi",
+    "description": "Go long on leveraged assets using power perpetuals without risk of liquidation!",
+    "link": "https://trade.margined.io"
   }
 ]

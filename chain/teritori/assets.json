@@ -13,23 +13,23 @@
     "color": "#16BBFF"
   },
   {
-    "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+    "denom": "ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E",
     "type": "ibc",
-    "origin_chain": "osmosis",
-    "origin_denom": "uosmo",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
     "origin_type": "staking",
-    "symbol": "OSMO",
+    "symbol": "ATOM",
     "decimals": 6,
     "enable": true,
-    "path": "osmosis>teritori",
-    "channel": "channel-0",
+    "path": "cosmos>teritori",
+    "channel": "channel-10",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-362",
+      "channel": "channel-431",
       "port": "transfer",
-      "denom": "uosmo"
+      "denom": "uatom"
     },
-    "image": "osmosis/asset/osmo.png",
-    "coinGeckoId": "osmosis"
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
   }
 ]

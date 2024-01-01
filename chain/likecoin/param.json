@@ -2,12 +2,13 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "1nanolike"
-        ]
+            "10000nanolike",
+            "1000000nanolike"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.2",
-    "fee_threshold" : "",
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
