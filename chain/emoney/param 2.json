@@ -1,0 +1,39 @@
+{
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.1ungm",
+            "0.3ungm",
+            "1ungm"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-emoney.cosmostation.io:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "emoney-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-emoney-ia.cosmosia.notional.ventures:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://e-money.com/",
+        "blog" : "https://medium.com/e-money-com",
+        "github" : "https://github.com/e-money",
+        "twitter" : "https://twitter.com/emoney_com",
+        "coingecko" : "https://www.coingecko.com/en/coins/e-money"
+    },
+    "description" : {
+        "ko" : "인터넷 화폐를 위한 차세대 법정화폐 기반 스테이블 코인 구현을 지향하는 네트워크입니다.",
+        "en" : "A network for the next generation fiat-backed stablecoins for the Internet of Money.",
+        "ja" : "e-Moneyは次世代コインとしてのステーブルコインNGMを発行する分散型ネットワークです。"
+    }
+}

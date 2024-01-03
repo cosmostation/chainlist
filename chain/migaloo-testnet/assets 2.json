@@ -1,0 +1,50 @@
+[
+  {
+    "denom": "uwhale",
+    "type": "staking",
+    "origin_chain": "narwhal",
+    "origin_denom": "uwhale",
+    "origin_type": "staking",
+    "symbol": "WHALE",
+    "decimals": 6,
+    "description": "WHALE Staking Coin",
+    "image": "narwhal/asset/whitewhale.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "migaloo1j08452mqwadp8xu25kn9rleyl2gufgfjnv0sn8dvynynakkjukcq5u780c",
+    "type": "cw20",
+    "origin_chain": "narwhal",
+    "origin_denom": "migaloo1j08452mqwadp8xu25kn9rleyl2gufgfjnv0sn8dvynynakkjukcq5u780c",
+    "origin_type": "staking",
+    "symbol": "WILLYz",
+    "decimals": 6,
+    "enable": true,
+    "image": "narwhal/asset/whitewhale.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "migaloo1sthrn5ep8ls5vzz8f9gp89khhmedahhdqd244dh9uqzk3hx2pzrs227l7u",
+    "type": "cw20",
+    "origin_chain": "narwhal",
+    "origin_denom": "migaloo1sthrn5ep8ls5vzz8f9gp89khhmedahhdqd244dh9uqzk3hx2pzrs227l7u",
+    "origin_type": "staking",
+    "symbol": "WILLYe",
+    "decimals": 6,
+    "enable": true,
+    "image": "narwhal/asset/whitewhale.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "migaloo12pwnhtv7yat2s30xuf4gdk9qm85v4j3e6p44let47pdffpklcxlq592rdm",
+    "type": "cw20",
+    "origin_chain": "narwhal",
+    "origin_denom": "migaloo12pwnhtv7yat2s30xuf4gdk9qm85v4j3e6p44let47pdffpklcxlq592rdm",
+    "origin_type": "staking",
+    "symbol": "WILLYb",
+    "decimals": 6,
+    "enable": true,
+    "image": "narwhal/asset/whitewhale.png",
+    "coinGeckoId": ""
+  }]
+  

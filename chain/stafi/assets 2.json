@@ -1,0 +1,123 @@
+[
+  {
+    "denom": "ufis",
+    "type": "staking",
+    "origin_chain": "stafi",
+    "origin_denom": "ufis",
+    "origin_type": "staking",
+    "symbol": "FIS",
+    "decimals": 6,
+    "description": "StaFi Staking Coin",
+    "image": "stafi/asset/fis.png",
+    "coinGeckoId": "stafi",
+    "color": "#6758FF"
+  },
+  {
+    "denom": "uratom",
+    "type": "native",
+    "origin_chain": "stafi",
+    "origin_denom": "uratom",
+    "origin_type": "native",
+    "symbol": "rATOM",
+    "decimals": 6,
+    "description": "StaFi Staked ATOM",
+    "image": "stafi/asset/ratom.png",
+    "coinGeckoId": "stafi-staked-atom"
+  },
+  {
+    "denom": "uriris",
+    "type": "native",
+    "origin_chain": "stafi",
+    "origin_denom": "uriris",
+    "origin_type": "native",
+    "symbol": "rIRIS",
+    "decimals": 6,
+    "description": "StaFi Staked IRIS",
+    "image": "stafi/asset/riris.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "urhuahua",
+    "type": "native",
+    "origin_chain": "stafi",
+    "origin_denom": "urhuahua",
+    "origin_type": "native",
+    "symbol": "rHUAHUA",
+    "decimals": 6,
+    "description": "StaFi Staked HUAHUA",
+    "image": "stafi/asset/rhuahua.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "urswth",
+    "type": "native",
+    "origin_chain": "stafi",
+    "origin_denom": "urswth",
+    "origin_type": "native",
+    "symbol": "rSWTH",
+    "decimals": 8,
+    "description": "StaFi Staked SWTH",
+    "image": "stafi/asset/rswth.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "cosmos>stafi",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-369",
+      "port": "transfer",
+      "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/89B8CC5467F9D02C505E598C4191F1B086DD83F3EBE9A67620A02BB409B9734C",
+    "type": "ibc",
+    "origin_chain": "iris",
+    "origin_denom": "uiris",
+    "origin_type": "staking",
+    "symbol": "IRIS",
+    "decimals": 6,
+    "enable": true,
+    "path": "iris>stafi",
+    "channel": "channel-3",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-33",
+      "port": "transfer",
+      "denom": "uiris"
+    },
+    "image": "iris/asset/iris.png",
+    "coinGeckoId": "iris-network"
+  },
+  {
+    "denom": "ibc/B5C5ADF9955FF42C1AD0C2B8924256DDBC91BD57E4AD232803419266661D3BDC",
+    "type": "ibc",
+    "origin_chain": "chihuahua",
+    "origin_denom": "uhuahua",
+    "origin_type": "staking",
+    "symbol": "HUAHUA",
+    "decimals": 6,
+    "enable": true,
+    "path": "chihuahua>stafi",
+    "channel": "channel-4",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-25",
+      "port": "transfer",
+      "denom": "uhuahua"
+    },
+    "image": "chihuahua/asset/huahua.png",
+    "coinGeckoId": "chihuahua-token"
+  }
+]

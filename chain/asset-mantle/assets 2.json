@@ -1,0 +1,15 @@
+[
+  {
+    "denom": "umntl",
+    "type": "staking",
+    "origin_chain": "asset-mantle",
+    "origin_denom": "umntl",
+    "origin_type": "staking",
+    "symbol": "MNTL",
+    "decimals": 6,
+    "description": "AssetMantle Staking Coin",
+    "image": "asset-mantle/asset/mntl.png",
+    "coinGeckoId": "assetmantle",
+    "color": "#F3B519"
+  }
+]

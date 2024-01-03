@@ -1,0 +1,34 @@
+[
+  {
+    "denom": "umeme",
+    "type": "staking",
+    "origin_chain": "meme",
+    "origin_denom": "umeme",
+    "origin_type": "staking",
+    "symbol": "MEME",
+    "decimals": 6,
+    "description": "Meme Staking Coin",
+    "image": "meme/asset/meme.png",
+    "coinGeckoId": "meme-network"
+  },
+  {
+    "denom": "ibc/67C89B8B0A70C08F093C909A4DD996DD10E0494C87E28FD9A551697BF173D4CA",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>meme",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-238",
+      "port": "transfer",
+      "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  }
+]  

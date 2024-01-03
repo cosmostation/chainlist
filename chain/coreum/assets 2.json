@@ -1,0 +1,15 @@
+[
+  {
+    "denom": "ucore",
+    "type": "staking",
+    "origin_chain": "coreum",
+    "origin_denom": "ucore",
+    "origin_type": "staking",
+    "symbol": "CORE",
+    "decimals": 6,
+    "description": "Coreum Staking Coin",
+    "image": "coreum/asset/core.png",
+    "coinGeckoId": "coreum",
+    "color": "#16B87B"
+  }
+]
