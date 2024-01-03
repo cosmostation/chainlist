@@ -1,0 +1,15 @@
+[
+  {
+    "denom": "acudos",
+    "type": "staking",
+    "origin_chain": "cudos",
+    "origin_denom": "acudos",
+    "origin_type": "staking",
+    "symbol": "CUDOS",
+    "decimals": 18,
+    "description": "Cudos Staking Coin",
+    "image": "cudos/asset/cudos.png",
+    "coinGeckoId": "cudos",
+    "color": "#10AECC"
+  }
+]

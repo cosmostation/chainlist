@@ -1,0 +1,47 @@
+{
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.00025uakt",
+            "0.0025uakt",
+            "0.025uakt"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-akash.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-akash-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "akash-grpc.polkachu.com:12890"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "akash-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "w3coins",
+            "url": "akash-grpc.w3coins.io:12890"
+        }
+    ],
+    "about" : {
+        "website" : "https://akash.network/",
+        "blog" : "https://akash.network/blog/",
+        "github" : "https://github.com/akash-network",
+        "twitter" : "https://twitter.com/akashnet_",
+        "coingecko" : "https://www.coingecko.com/en/coins/akash-network"
+    },
+    "description" : {
+        "ko" : "Akash Network는 사용자가 컴퓨팅 리소스를 안전하고 효율적으로 사고 팔 수 있도록 해주는 오픈 소스 슈퍼 클라우드입니다.",
+        "en" : "Akash Network is an open-source Supercloud that allows users to securely and efficiently buy and sell computing resources.",
+        "ja" : "Akash Networkは、ユーザーがコンピューティングリソースを安全かつ効率的に売買できるようにするオープンソーススーパークラウドです。"
+    }
+}

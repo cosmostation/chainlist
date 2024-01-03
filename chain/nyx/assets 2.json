@@ -1,0 +1,46 @@
+[
+  {
+    "denom": "unyx",
+    "type": "staking",
+    "origin_chain": "nyx",
+    "origin_denom": "unyx",
+    "origin_type": "staking",
+    "symbol": "NYX",
+    "decimals": 6,
+    "description": "Nyx Staking Coin",
+    "image": "nyx/asset/nyx.png",
+    "color": "#FF6C5A"
+  },
+  {
+    "denom": "unym",
+    "type": "native",
+    "origin_chain": "nyx",
+    "origin_denom": "unym",
+    "origin_type": "native",
+    "symbol": "NYM",
+    "decimals": 6,
+    "description": "Native Coin",
+    "image": "nyx/asset/nym.png",
+    "coinGeckoId": "nym"
+  },
+  {
+    "denom": "ibc/FC9D92EC12BC974E8B6179D411351524CD5C2EBC3CE29D5BA856414FEFA47093",
+    "type": "ibc",
+    "origin_chain": "gravity-bridge",
+    "origin_denom": "ugraviton",
+    "origin_type": "staking",
+    "symbol": "GRAV",
+    "decimals": 6,
+    "enable": true,
+    "path": "gravity-bridge>nyx",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-18",
+      "port": "transfer",
+      "denom": "ugraviton"
+    },
+    "image": "gravity-bridge/asset/grav.png",
+    "coinGeckoId": "graviton"
+  }
+]

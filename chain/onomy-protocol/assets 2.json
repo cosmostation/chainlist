@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "anom",
+    "type": "staking",
+    "origin_chain": "onomy-protocol",
+    "origin_denom": "anom",
+    "origin_type": "staking",
+    "symbol": "NOM",
+    "decimals": 18,
+    "description": "Onomy Staking Coin",
+    "image": "onomy-protocol/asset/nom.png",
+    "coinGeckoId": "onomy-protocol"
+  }
+]
