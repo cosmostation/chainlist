@@ -1,0 +1,16 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "50ncheq",
+		    "75ncheq",
+            "100ncheq"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : "1.5",
+    "fee_threshold" : "",
+    "endpoint" : [
+        "grpc.cheqd.net:443"
+    ]
+}

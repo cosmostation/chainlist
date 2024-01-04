@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Umee Staking Coin",
     "image": "umee/asset/umee.png",
-    "coinGeckoId": "umee"
+    "coinGeckoId": "umee",
+    "color": "#BB90F8"
   },
   {
     "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
@@ -358,25 +359,5 @@
     "image": "ethereum/asset/usdt.png",
     "coinGeckoId": "axelar-usdt",
     "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
-  },
-  {
-    "denom": "ibc/452372B8214E22C625E98958C5EDFB939C48E6590E40B711E9D30206EF8EDC9B",
-    "type": "ibc",
-    "origin_chain": "terra",
-    "origin_denom": "uluna",
-    "origin_type": "staking",
-    "symbol": "LUNA",
-    "decimals": 6,
-    "enable": true,
-    "path": "terra>umee",
-    "channel": "channel-45", 
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-93",
-      "port": "transfer",
-      "denom": "uluna"
-    },
-    "image": "terra/asset/luna.png",
-    "coinGeckoId": "terra-luna-2"
   }
 ]
