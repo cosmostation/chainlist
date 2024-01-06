@@ -2846,5 +2846,26 @@
     },
     "image": "chihuahua/asset/woof.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/95C9B5870F95E21A242E6AF9ADCB1F212EE4A8855087226C36FBE43FC41A77B8",
+    "type": "ibc",
+    "origin_chain": "xpla",
+    "origin_denom": "axpla",
+    "origin_type": "staking",
+    "symbol": "XPLA",
+    "decimals": 18,
+    "description": "XPLA Staking Coin",
+    "enable": true,
+    "path": "xpla>osmosis",
+    "channel": "channel-1634",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-9",
+      "port": "transfer",
+      "denom": "axpla"
+    },
+    "image": "xpla/asset/xpla.png",
+    "coinGeckoId": "xpla"
   }
 ]
