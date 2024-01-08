@@ -31,5 +31,26 @@
     },
     "image": "cosmos/asset/atom.png",
     "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>teritori",
+    "channel": "channel-62",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-54",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "color": "#2B91FF"
   }
 ]
