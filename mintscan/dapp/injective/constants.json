@@ -1,0 +1,56 @@
+[
+  {
+    "id": "helix",
+    "name": "Helix",
+    "dappType": "Defi",
+    "description": "A Decentralized Crypto Exchange on Injective.",
+    "link": "https://helixapp.com/"
+  },
+  {
+    "id": "stride",
+    "name": "Stride",
+    "dappType": "Defi",
+    "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
+    "link": "https://app.stride.zone/?chain=INJ",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
+    }
+  },
+  {
+    "id": "wavely",
+    "name": "Wavely",
+    "dappType": "Defi",
+    "description": "Decentralized Crypto & Derivatives Exchange Powered by Injective.",
+    "link": "https://www.wavely.app"
+  },
+  {
+    "id": "astroport",
+    "name": "Astroport",
+    "dappType": "Defi",
+    "description": "Decentralized, permissionless and open-source marketplace.",
+    "link": "https://app.astroport.fi"
+  },
+  {
+    "id": "whitewhale",
+    "name": "White Whale",
+    "dappType": "Defi",
+    "description": "Stabilizing Prices Across the IBC.",
+    "link": "https://app.whitewhale.money/injective/swap"
+  },
+  {
+    "id": "talis",
+    "name": "Talis",
+    "dappType": "NFT",
+    "description": "The NFT marketplace that empowers artists and bridges physical & digital art.",
+    "link": "https://injective.talis.art",
+    "social": {
+      "webSite": "https://injective.talis.art",
+      "twitter": "https://twitter.com/ProtocolTalis",
+      "github": "https://github.com/Talis-Art",
+      "medium": "https://blog.talis.art"
+    }
+  }
+]

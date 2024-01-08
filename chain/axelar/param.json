@@ -1,0 +1,46 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.007uaxl",
+            "0.05uaxl"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.3,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-axelar.cosmostation.io:443"
+        },
+        {
+            "provider": "Qubelabs",
+            "url": "axelar-grpc.qubelabs.io:9092"
+        },
+        {
+            "provider": "Stakin",
+            "url": "axelar.grpc.stakin-nodes.com:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-axelar-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "carbonZERO🌲",
+            "url": "grpc-axelar.carbonzero.zone:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://axelar.network/",
+        "blog" : "https://axelar.network/blog",
+        "github" : "https://github.com/axelarnetwork",
+        "twitter" : "https://twitter.com/axelarnetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/axelar"
+    },
+    "description" : {
+        "ko" : "Axelar는 간단한 페깅 메커니즘으로 크로스 체인 통신을 가능하게 하는 분산형 멀티체인 네트워크입니다.",
+        "en" : "Axelar is a decentralized multi-chain network that enables cross chain communication with a simple pegging mechanism.",
+        "ja" : "Axelar は様々なネットワークのシンプルなチェーン間接続をサポートする、分散型マルチチェーンネットワークです。"
+    }
+}

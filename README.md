@@ -12,7 +12,7 @@
 ## Productions using with
 
 - [Mintscan Explorer](https://mintscan.io)
-- [Extention Wallet](https://bit.ly/3VhVJIF)
+- [Extension Wallet](https://bit.ly/3VhVJIF)
 - [Android Wallet](https://bit.ly/2BWex9D)
 - [iOS Wallet](https://apple.co/2IAM3Xm)
 
@@ -96,7 +96,7 @@
 ---
 
 - Native Token
-  `/assets/v2/${chain}/assets.json`
+  `chain/${chain}/assets.json`
 
   ```json
   // example OSMOSIS
@@ -302,7 +302,7 @@
 ---
 
 - Cw20 Token
-  `/${targetChain}/contract.json`
+  `chain/${targetChain}/contract.json`
 
   ```json
   // example JUNO
@@ -387,7 +387,7 @@
    ---
 
 - ERC20 Token
-  `/${targetChain}/contract.json`
+  `chain/${targetChain}/contract.json`
 
   ```json
   // example EVMOS
@@ -434,7 +434,7 @@
   <summary><h2 style='display: inline; font-size: 24px'>How to edit chain fee</h2></summary>
 
   [Cosmos fee](https://github.com/cosmostation/chainlist/blob/main/chain/cosmos/fee.json) list supporting
-  - `${targetChain}/fee.json` Edit rate and make pull request (PR)
+  - `chain/${targetChain}/fee.json` Edit rate and make pull request (PR)
 
   ```json
   {
