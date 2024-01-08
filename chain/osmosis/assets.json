@@ -2829,6 +2829,25 @@
     "coinGeckoId": ""
   },
   {
+    "denom": "ibc/6928AFA9EA721938FED13B051F9DBF1272B16393D20C49EA5E4901BB76D94A90",
+    "type": "ibc",
+    "origin_chain": "nois",
+    "origin_denom": "unois",
+    "origin_type": "staking",
+    "symbol": "NOIS",
+    "decimals": 6,
+    "enable": true,
+    "path": "nois>osmosis",
+    "channel": "channel-8277",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-37",
+      "port": "transfer",
+      "denom": "unois"
+    },
+    "image": "nois/asset/nois.png"
+  },
+  {
     "denom": "ibc/9B8EC667B6DF55387DC0F3ACC4F187DA6921B0806ED35DE6B04DE96F5AB81F53",
     "type": "ibc",
     "origin_chain": "chihuahua",
