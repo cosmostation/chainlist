@@ -292,5 +292,25 @@
     },
     "image": "persistence/asset/stkatom.png",
     "coinGeckoId": "stkatom"
+  },
+  {
+    "denom": "ibc/58923AAE6E879D7CB5FB0F2F05550FD4F696099AB0F5CDF0A05CC0309DD8BC78",
+    "type": "ibc",
+    "origin_chain": "cerberus",
+    "origin_denom": "ucrbrus",
+    "origin_type": "staking",
+    "symbol": "CRBRUS",
+    "decimals": 6,
+    "enable": true,
+    "path": "cerberus>osmosis>neutron",
+    "channel": "channel-10",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-874",
+      "port": "transfer",
+      "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+    },
+    "image": "cerberus/asset/crbrus.png",
+    "coinGeckoId": "cerberus-2"
   }
 ]
