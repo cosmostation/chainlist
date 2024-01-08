@@ -75,19 +75,19 @@
     "coinGeckoId": "usd-coin"
   },
   {
-    "denom": “ibc/7A6428206CBDE7B47F78A7A8CF4587CDCFD2B3BF06DD0352CEF678E88F1A501D”,
+    "denom": "ibc/7A6428206CBDE7B47F78A7A8CF4587CDCFD2B3BF06DD0352CEF678E88F1A501D",
     "type": "ibc",
     "origin_chain": "cerberus",
     "origin_denom": "ucrbrus",
-    "origin_type": “staking”,
+    "origin_type": "staking",
     "symbol": "CRBRUS",
     "decimals": 6,
     "enable": true,
-    "path": “cerberus>osmosis>terra”,
-    "channel": "channel-1”,
+    "path": "cerberus>osmosis>terra",
+    "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-251”,
+      "channel": "channel-251",
       "port": "transfer",
       "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
     },
