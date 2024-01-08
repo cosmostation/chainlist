@@ -414,13 +414,13 @@
   {
     "denom": "ibc/D5F668AA43F9DE1F5E8A443EC5F9DD2D71AB3F3DC42CCD374F8751615A13B70B",
     "type": "ibc",
-    "origin_chain": "osmosis",
-    "origin_denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7",
-    "origin_type": “ibc”,
+    "origin_chain": "cerberus",
+    "origin_denom": "ucrbrus",
+    "origin_type": "staking",
     "symbol": "CRBRUS",
     "decimals": 6,
     "enable": true,
-    "path": “osmosis>kujira”,
+    "path": "cerberus>osmosis>kujira",
     "channel": "channel-3",
     "port": "transfer",
     "counter_party": {
