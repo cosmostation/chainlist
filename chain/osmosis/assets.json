@@ -2887,5 +2887,24 @@
     },
     "image": "xpla/asset/xpla.png",
     "coinGeckoId": "xpla"
+  },
+  {
+    "denom": "ibc/37CB3078432510EE57B9AFA8DBE028B33AE3280A144826FEAC5F2334CF2C5539",
+    "type": "ibc",
+    "origin_chain": "nyx",
+    "origin_denom": "unym",
+    "origin_type": "native",
+    "symbol": "NYM",
+    "decimals": 6,
+    "enable": true,
+    "path": "nyx>osmosis",
+    "channel": "channel-15464",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-8",
+      "port": "transfer",
+      "denom": "unym"
+    },
+    "image": "nyx/asset/nym.png"
   }
 ]
