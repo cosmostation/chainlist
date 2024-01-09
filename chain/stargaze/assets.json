@@ -174,5 +174,17 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+    "type": "native",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+    "origin_type": "native",
+    "symbol": "SNEAKY",
+    "decimals": 6,
+    "description": "The native coin of Sneaky Productions",
+    "image": "stargaze/asset/usneaky.png",
+    "coinGeckoId": ""
   }
 ]
