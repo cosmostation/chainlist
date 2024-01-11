@@ -11,5 +11,41 @@
     "image": "chihuahua/asset/huahua.png",
     "coinGeckoId": "chihuahua-token",
     "color": "#F4B330"
+  },
+  {
+    "denom": "factory/chihuahua1mjq48r6435aewerpruwc8up3tz3rzan20vneqh/MASTER",
+    "type": "native",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua1mjq48r6435aewerpruwc8up3tz3rzan20vneqh/MASTER",
+    "origin_type": "native",
+    "symbol": "MASTER",
+    "decimals": 6,
+    "description": "Master your doggos.",
+    "image": "chihuahua/asset/master.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
+    "type": "native",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
+    "origin_type": "native",
+    "symbol": "WOOF",
+    "decimals": 6,
+    "description": "The first tokenfactory token on chihuahua chain",
+    "image": "chihuahua/asset/woof.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/chihuahua1x4q2vkrz4dfgd9hcw0p5m2f2nuv2uqmt9xr8k2/achihuahuawifhat",
+    "type": "native",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua1x4q2vkrz4dfgd9hcw0p5m2f2nuv2uqmt9xr8k2/achihuahuawifhat",
+    "origin_type": "native",
+    "symbol": "BADDOG",
+    "decimals": 6,
+    "description": "has a hat",
+    "image": "chihuahua/asset/baddog.png",
+    "coinGeckoId": ""
   }
 ]

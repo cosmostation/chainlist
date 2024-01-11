@@ -264,5 +264,25 @@
     "image": "ethereum/asset/usdt.png",
     "coinGeckoId": "tether",
     "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+  },
+  {
+    "denom": "ibc/71CEEB5CC09F75A3ACDC417108C14514351B6B2A540ACE9B37A80BF930845134",
+    "type": "ibc",
+    "origin_chain": "cerberus",
+    "origin_denom": "ucrbrus",
+    "origin_type": "staking",
+    "symbol": "CRBRUS",
+    "decimals": 6,
+    "enable": true,
+    "path": "cerberus>osmosis>sei",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-782",
+      "port": "transfer",
+      "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+    },
+    "image": "cerberus/asset/crbrus.png",
+    "coinGeckoId": "cerberus-2"
   }
 ]
