@@ -2926,5 +2926,16 @@
       "denom": "unym"
     },
     "image": "nyx/asset/nym.png"
+  },
+  {
+    "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
+    "type": "native",
+    "origin_chain": "ethereum",
+    "origin_denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
+    "origin_type": "native",
+    "symbol": "wbtc",
+    "decimals": 8,
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "wrapped-bitcoin"
   }
 ]
