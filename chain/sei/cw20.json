@@ -8,4 +8,15 @@
     "image": "sei/asset/cook.png",
     "default": false,
     "coinGeckoId": ""
+},
+{
+    "chainId": "pacific-1",
+    "chainName": "sei",
+    "address": "sei1j536dz2apen5hfn3jxh394nnf3haphfuwu5c4suufxl2y2mmy5mse09tfr",
+    "symbol": "SEIDOW",
+    "description": "SEIDOW",
+    "decimals": 6,
+    "image": "sei/asset/seidow.png",
+    "default": false,
+    "coinGeckoId": ""
 }
