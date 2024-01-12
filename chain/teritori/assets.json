@@ -51,5 +51,25 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ibc/F3F6BDEE1A79664B169D742651107BF4E03FA67E931452E27380B75F5917B7E9",
+    "type": "ibc",
+    "origin_chain": "secret",
+    "origin_denom": "uscrt",
+    "origin_type": "staking",
+    "symbol": "SCRT",
+    "decimals": 6,
+    "enable": true,
+    "path": "secret>teritori",
+    "channel": "channel-63",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-111",
+      "port": "transfer",
+      "denom": "uscrt"
+    },
+    "image": "secret/asset/scrt.png",
+    "coinGeckoId": "secret"
   }
 ]
