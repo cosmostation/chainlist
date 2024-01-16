@@ -2958,5 +2958,25 @@
     },
     "image": "stargaze/asset/sneaky.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/8E697BDABE97ACE8773C6DF7402B2D1D5104DD1EEABE12608E3469B7F64C15BA",
+    "type": "ibc",
+    "origin_chain": "jackal",
+    "origin_denom": "ujkl",
+    "origin_type": "native",
+    "symbol": "JKL",
+    "decimals": 6,
+    "enable": true,
+    "path": "jackal>osmosis",
+    "channel": "channel-412",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "ujkl"
+    },
+    "image": "jackal/asset/jkl.png",
+    "coinGeckoId": "jackal-protocol"
   }
 ]
