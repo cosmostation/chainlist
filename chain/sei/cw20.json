@@ -19,4 +19,15 @@
     "image": "sei/asset/seidow.png",
     "default": false,
     "coinGeckoId": ""
-}
+},
+{
+    "chainId": "pacific-1",
+    "chainName": "sei",
+    "address": "sei1yn37w6jka58cg6d62nr30gc0umgryq9plly0l4697ap4s5nvna2qzlcchn",
+    "symbol": "SABER",
+    "description": "SABER",
+    "decimals": 6,
+    "image": "sei/asset/saber.png",
+    "default": false,
+    "coinGeckoId": ""
+},
