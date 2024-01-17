@@ -1187,6 +1187,83 @@
     "symbol": "TALIS",
     "decimals": 6,
     "description": "Talis governance token",
-    "image": "injectivte/asset/talis.png"
+    "image": "injective/asset/talis.png",
+    "coinGeckoId": "talis-protocol"
+  },
+  {
+    "denom": "ibc/F8D4A8A44D8EF57F83D49624C4C89EECB1472D6D2D1242818CDABA6BC2479DA9",
+    "type": "ibc",
+    "origin_chain": "cerberus",
+    "origin_denom": "ucrbrus",
+    "origin_type": "staking",
+    "symbol": "CRBRUS",
+    "decimals": 6,
+    "enable": true,
+    "path": "cerberus>osmosis>injective",
+    "channel": "channel-8",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-122",
+      "port": "transfer",
+      "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+    },
+    "image": "cerberus/asset/crbrus.png",
+    "coinGeckoId": "cerberus-2"
+  },
+  {
+    "denom": "ibc/9A115B56E769B92621FFF90567E2D60EFD146E86E867491DB69EEDA9ADC36204",
+    "type": "ibc",
+    "origin_chain": "kujira",
+    "origin_denom": "ukuji",
+    "origin_type": "staking",
+    "symbol": "KUJI",
+    "decimals": 6,
+    "enable": true,
+    "path": "kujira>injective",
+    "channel": "channel-98",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-54",
+      "port": "transfer",
+      "denom": "ukuji"
+    },
+    "image": "kujira/asset/kuji.png",
+    "coinGeckoId": "kujira"
+  },
+  {
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1tjcf9497fwmrnk22jfu5hsdq82qshga54ajvzy",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1tjcf9497fwmrnk22jfu5hsdq82qshga54ajvzy",
+    "origin_type": "native",
+    "symbol": "PYTH",
+    "decimals": 6,
+    "description": "pyth-network",
+    "image": "solana/asset/pyth.png",
+    "coinGeckoId": "pyth-network"
+  },
+  {
+    "denom": "factory/inj172ccd0gddgz203e4pf86ype7zjx573tn8g0df9/GINGER",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj172ccd0gddgz203e4pf86ype7zjx573tn8g0df9/GINGER",
+    "origin_type": "native",
+    "symbol": "GINGER",
+    "decimals": 6,
+    "description": "GINGER",
+    "image": "injective/asset/ginger.png",
+    "coinGeckoId": "ginger"
+  },
+  {
+    "denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+    "origin_type": "native",
+    "symbol": "AUTISM",
+    "decimals": 6,
+    "description": "AUTISM",
+    "image": "injective/asset/autism.png",
+    "coinGeckoId": "autism"
   }
 ]

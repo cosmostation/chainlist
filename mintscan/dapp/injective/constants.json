@@ -27,13 +27,6 @@
     "link": "https://www.wavely.app"
   },
   {
-    "id": "frontrunner",
-    "name": "Frontrunner",
-    "dappType": "Gamble",
-    "description": "Frontrunner is the first zero gas fee, decentralized sports prediction market built on Injective",
-    "link": "https://app.getfrontrunner.com"
-  },
-  {
     "id": "astroport",
     "name": "Astroport",
     "dappType": "Defi",
@@ -46,5 +39,42 @@
     "dappType": "Defi",
     "description": "Stabilizing Prices Across the IBC.",
     "link": "https://app.whitewhale.money/injective/swap"
+  },
+  {
+    "id": "talis",
+    "name": "Talis",
+    "dappType": "NFT",
+    "description": "The NFT marketplace that empowers artists and bridges physical & digital art.",
+    "link": "https://injective.talis.art",
+    "social": {
+      "webSite": "https://injective.talis.art",
+      "twitter": "https://twitter.com/ProtocolTalis",
+      "github": "https://github.com/Talis-Art",
+      "medium": "https://blog.talis.art"
+    }
+  },
+  {
+    "id": "blackpanther",
+    "name": "Black Panther",
+    "dappType": "Defi",
+    "description": "The asset management protocol that helps you achieve superior returns.",
+    "link": "https://blackpanther.fi/",
+    "social": {
+      "webSite": "https://blackpanther.fi/",
+      "twitter": "https://twitter.com/BlackPanther_Fi",
+      "medium": "https://medium.com/@blackpantherfi"
+    }
+  },
+  {
+    "id": "gryphon",
+    "name": "Gryphon",
+    "dappType": "Defi",
+    "description": "Gryphon is an innovative protocol integrating LSD and a stablecoin (CDP) component into its framework. Think Jito + DAI integrated together.",
+    "link": "https://app.gryphon.finance/home",
+    "social": {
+      "webSite": "https://gryphon.finance/",
+      "twitter": "https://twitter.com/Gryphon_fi",
+      "docs": "https://docs.gryphon.finance/"
+    }
   }
 ]
