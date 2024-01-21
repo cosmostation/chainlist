@@ -2,7 +2,7 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.025ucoss"
+            "0.025ucgas"
         ],
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
@@ -10,11 +10,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
+            "provider": "CelestialPhoenix",
             "url": "coss-grpc.cias.network:19090"
         },
         {
-            "provider": "Polkachu",
+            "provider": "StellarGuardian",
             "url": "coss-grpc.coss.ink:19090"
         }
     ],
@@ -29,6 +29,5 @@
         "ko" : "자산을 주조하고 교환하기 위한 탈중앙화 플랫폼입니다.",
         "en" : "A decentralized platform for minting & exchanging of inscription assets.",
         "ja" : "銘文資産の鋳造と交換のための分散型プラットフォーム。"
-
     }
 }
