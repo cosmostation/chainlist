@@ -271,7 +271,8 @@
     "symbol": "ECLIP",
     "decimals": 6,
     "image": "neutron/asset/eclipse.png",
-    "coinGeckoId": "eclipse-fi"
+    "coinGeckoId": "eclipse-fi",
+    "circ_supply_api": "https://eclipsepad-api.herokuapp.com/current-circulating-supply",
   },
   {
     "denom": "ibc/3649CE0C8A2C79048D8C6F31FF18FA69C9BC7EB193512E0BD03B733011290445",
