@@ -2978,5 +2978,17 @@
     },
     "image": "jackal/asset/jkl.png",
     "coinGeckoId": "jackal-protocol"
+  },
+  {
+    "denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+    "origin_type": "native",
+    "symbol": "WOSMO",
+    "decimals": 6,
+    "description": "The first native memecoin on Osmosis. Crafted by the deftest of hands in the lab of lunacy. It's scientifically anarchic, professionally foolish, and your ticket to the madhouse.",
+    "image": "osmosis/asset/wosmo.png",
+    "coinGeckoId": ""
   }
 ]

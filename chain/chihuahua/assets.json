@@ -32,7 +32,7 @@
     "origin_type": "native",
     "symbol": "WOOF",
     "decimals": 6,
-    "description": "The first tokenfactory token on chihuahua chain",
+    "description": "The first tokenfactory",
     "image": "chihuahua/asset/woof.png",
     "coinGeckoId": ""
   },
@@ -47,5 +47,53 @@
     "description": "has a hat",
     "image": "chihuahua/asset/baddog.png",
     "coinGeckoId": ""
-  }
+  },
+  {
+    "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/utacos",
+    "type": "native",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/utacos",
+    "origin_type": "native",
+    "symbol": "TACOS",
+    "decimals": 6,
+    "description": "Want a tacos?",
+    "image": "chihuahua/asset/tacos.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uweed",
+    "type": "native",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uweed",
+    "origin_type": "native",
+    "symbol": "WEED",
+    "decimals": 6,
+    "description": "420 token",
+    "image": "chihuahua/asset/weed.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ubdog",
+    "type": "native",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ubdog",
+    "origin_type": "native",
+    "symbol": "BDOG",
+    "decimals": 6,
+    "description": "The Bulldog token",
+    "image": "chihuahua/asset/bdog.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ucorso",
+    "type": "native",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ucorso",
+    "origin_type": "native",
+    "symbol": "CORSO",
+    "decimals": 6,
+    "description": "The can corso token",
+    "image": "chihuahua/asset/corso.png",
+    "coinGeckoId": ""
+  } 
 ]
