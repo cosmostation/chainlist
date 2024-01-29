@@ -145,6 +145,30 @@
     "coinGeckoId": "stride-staked-dydx"
   },
   {
+    "denom": "stadydx",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stadydx",
+    "origin_type": "native",
+    "symbol": "stDYDX",
+    "decimals": 18,
+    "description": "Stride Staked DYDX",
+    "image": "stride/asset/stadydx.png",
+    "coinGeckoId": "stride-staked-dydx"
+  },
+  {
+    "denom": "stutia",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stutia",
+    "origin_type": "native",
+    "symbol": "stTIA",
+    "decimals": 6,
+    "description": "Stride Staked TIA",
+    "image": "stride/asset/stutia.png",
+    "coinGeckoId": "stride-staked-tia"
+  },
+  {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
     "type": "ibc",
     "origin_chain": "cosmos",
