@@ -1,8 +1,10 @@
 {
     "fee" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
-            "0.0upasg"
+            "0.0upasg",
+            "0.001upasg",
+            "0.0025upasg"
         ],
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,

@@ -28,6 +28,20 @@
     "link": "https://governance.neutron.org/proposals"
   },
   {
+    "id": "apollo",
+    "name": "apollo dao",
+    "dappType": "Vaults",
+    "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
+    "link": "https://app.apollo.farm/",
+    "social": {
+      "webSite": "https://apollo.farm/",
+      "twitter": "https://twitter.com/ApolloDAO",
+      "medium": "",
+      "github": "https://github.com/apollodao",
+      "docs": ""
+    }
+  },
+  {
     "id": "lido",
     "name": "lido",
     "dappType": "Liquid Staking",
@@ -57,19 +71,18 @@
     }
   },
   {
-    "id": "apollo",
-    "name": "apollo dao",
-    "dappType": "Vaults",
-    "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
-    "link": "",
+    "id": "nolusprotocol",
+    "name": "Nolus Protocol",
+    "dappType": "DeFi",
+    "description": "Reshaping Money Markets with the first DeFi Lease",
+    "link": "https://app.nolus.io/",
     "social": {
-      "webSite": "https://apollo.farm/",
-      "twitter": "https://twitter.com/ApolloDAO",
-      "medium": "",
-      "github": "https://github.com/apollodao",
-      "docs": ""
-    },
-    "comingSoon": true
+      "webSite": "https://nolus.io/",
+      "twitter": "https://twitter.com/NolusProtocol",
+      "medium": "https://medium.com/nolusprotocol",
+      "github": "https://github.com/nolus-protocol",
+      "docs": "https://hub.nolus.io/en_US/technical-documentation"
+    }
   },
   {
     "id": "craft-network",
@@ -94,5 +107,20 @@
       "github": "https://github.com/tfm-com",
       "docs": "https://docs.tfm.com"
     }
+  },
+  {
+    "id": "eclipse-fi",
+    "name": "Eclipse Fi",
+    "dappType": "Defi",
+    "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
+    "link": "https://eclipsefi.io",
+    "social": {
+      "webSite": "https://eclipsefi.io",
+      "twitter": "https://twitter.com/Eclipsefi",
+      "medium": "https://medium.com/@Eclipsefi",
+      "github": "https://docs.eclipsefi.io/",
+      "docs": "https://docs.eclipsefi.io/"
+    },
+    "comingSoon": false
   }
 ]

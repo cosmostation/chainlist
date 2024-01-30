@@ -7,10 +7,14 @@
             "0.1unibi"
         ],
         "isSimulable" : true,
-        "simul_gas_multiply" : "1.2",
+        "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-nibiru.cosmostation.io:443"
+        },
         {
             "provider": "KjNodes",
             "url": "nibiru.grpc.kjnodes.com:443"
@@ -32,6 +36,8 @@
         "coingecko" : ""
     },
     "description" : {
-        "en" : "A DeFi hub ushering in the next era of money"
+        "ko" : "차세대 화폐 시대를 여는 DeFi 허브입니다.",
+        "en" : "A DeFi hub ushering in the next era of money.",
+        "ja" : "お金の次の時代を導く DeFi ハブ。"
     }
 }

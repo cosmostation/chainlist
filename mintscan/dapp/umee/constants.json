@@ -5,5 +5,18 @@
     "dappType": "Defi",
     "description": "Safety-first cross-chain lending platform.",
     "link": "https://app.umee.cc/#/markets"
+  },
+  {
+    "id": "stride",
+    "name": "Stride",
+    "dappType": "Defi",
+    "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
+    "link": "https://app.stride.zone/?chain=UMEE",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
+    }
   }
 ]

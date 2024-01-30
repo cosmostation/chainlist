@@ -1,0 +1,15 @@
+[
+  {
+    "denom": "cony",
+    "type": "staking",
+    "origin_chain": "finschia",
+    "origin_denom": "cony",
+    "origin_type": "staking",
+    "symbol": "FNSA",
+    "decimals": 6,
+    "description": "FINSCHIA Staking Coin",
+    "image": "finschia/asset/fnsa.png",
+    "coinGeckoId": "link",
+    "color": "#61676E"
+  }
+]
