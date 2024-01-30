@@ -773,6 +773,26 @@
     "coinGeckoId": "stride-staked-luna"
   },
   {
+    "denom": "ibc/A4D99E716D91A579AC3A9684AAB7B5CB0A0861DD3DD942901D970EDB6787860E",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stusomm",
+    "origin_type": "native",
+    "symbol": "stSOMM",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>cosmos",
+    "channel": "channel-391",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "stusomm"
+    },
+    "image": "stride/asset/stsomm.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013",
     "type": "ibc",
     "origin_chain": "noble",
