@@ -141,18 +141,6 @@
     "symbol": "stDYDX",
     "decimals": 18,
     "description": "Stride Staked DYDX",
-    "image": "stride/asset/stadyex.png",
-    "coinGeckoId": "stride-staked-dydx"
-  },
-  {
-    "denom": "stadydx",
-    "type": "native",
-    "origin_chain": "stride",
-    "origin_denom": "stadydx",
-    "origin_type": "native",
-    "symbol": "stDYDX",
-    "decimals": 18,
-    "description": "Stride Staked DYDX",
     "image": "stride/asset/stadydx.png",
     "coinGeckoId": "stride-staked-dydx"
   },
