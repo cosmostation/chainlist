@@ -312,5 +312,17 @@
     },
     "image": "cerberus/asset/crbrus.png",
     "coinGeckoId": "cerberus-2"
+  },
+  {
+    "denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
+    "origin_type": "native",
+    "symbol": "GDD",
+    "decimals": 6,
+    "enable": true,
+    "description": "GODDARD",
+    "image": "neutron/asset/goddard.png"
   }
 ]
