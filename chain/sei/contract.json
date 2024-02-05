@@ -1,0 +1,35 @@
+[
+    {
+        "chainId": "pacific-1",
+        "chainName": "sei",
+        "address": "sei1pvz89hltquwe6qdhnqwmxxvasayzn4dctkwehes2zt888c7syffszt3j56",
+        "symbol": "COOK",
+        "description": "COOK",
+        "decimals": 6,
+        "image": "sei/asset/cook.png",
+        "default": false,
+        "coinGeckoId": ""
+    },
+    {
+        "chainId": "pacific-1",
+        "chainName": "sei",
+        "address": "sei1j536dz2apen5hfn3jxh394nnf3haphfuwu5c4suufxl2y2mmy5mse09tfr",
+        "symbol": "SEIDOW",
+        "description": "SEIDOW",
+        "decimals": 6,
+        "image": "sei/asset/seidow.png",
+        "default": false,
+        "coinGeckoId": ""
+    },
+    {
+        "chainId": "pacific-1",
+        "chainName": "sei",
+        "address": "sei1yn37w6jka58cg6d62nr30gc0umgryq9plly0l4697ap4s5nvna2qzlcchn",
+        "symbol": "SABER",
+        "description": "SABER",
+        "decimals": 6,
+        "image": "sei/asset/saber.png",
+        "default": false,
+        "coinGeckoId": ""
+    }
+]

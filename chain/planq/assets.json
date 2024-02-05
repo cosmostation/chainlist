@@ -10,5 +10,25 @@
     "description": "Planq Staking Coin",
     "image": "planq/asset/planq.png",
     "coinGeckoId": "planq"
+  },
+  {
+    "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>planq",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-492",
+      "port": "transfer",
+      "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
   }
 ]
