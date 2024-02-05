@@ -274,6 +274,18 @@
     "coinGeckoId": "eclipse-fi"
   },
   {
+    "denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
+    "origin_type": "native",
+    "symbol": "GODRD",
+    "decimals": 6,
+    "enable": true,
+    "description": "Goddard",
+    "image": "neutron/asset/goddardntrn.png"
+  },
+  {
     "denom": "ibc/3649CE0C8A2C79048D8C6F31FF18FA69C9BC7EB193512E0BD03B733011290445",
     "type": "ibc",
     "origin_chain": "persistence",
@@ -312,5 +324,17 @@
     },
     "image": "cerberus/asset/crbrus.png",
     "coinGeckoId": "cerberus-2"
+  },
+  {
+    "denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
+    "origin_type": "native",
+    "symbol": "GDD",
+    "decimals": 6,
+    "enable": true,
+    "description": "GODDARD",
+    "image": "neutron/asset/goddard.png"
   }
 ]

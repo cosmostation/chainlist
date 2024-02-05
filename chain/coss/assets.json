@@ -23,5 +23,17 @@
     "description": "COSS Inscription Token",
     "image": "coss/asset/coss.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ucias",
+    "type": "native",
+    "origin_chain": "cias",
+    "origin_denom": "ucias",
+    "origin_type": "native",
+    "symbol": "CIAS",
+    "decimals": 6,
+    "description": "CIAS Inscription Token",
+    "image": "coss/asset/cias.png",
+    "coinGeckoId": ""
   }
 ]
