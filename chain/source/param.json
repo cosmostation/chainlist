@@ -23,6 +23,10 @@
             "provider": "Nodeist",
             "url": "grpc-source.nodeist.net:443"
         },
+		{
+            "provider": "NodesHub",
+            "url": "source.grpc.nodeshub.online:443"
+        },
         {
             "provider": "KjNodes",
             "url": "source.grpc.kjnodes.com:443"
