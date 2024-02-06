@@ -7,6 +7,20 @@
     "link": "https://app.osmosis.zone"
   },
   {
+    "id": "milkyway",
+    "name": "MilkyWay",
+    "dappType": "Liquid Staking",
+    "description": "Liquid staking protocol tailor-made for Celestia's modular ecosystem.",
+    "link": "https://www.milkyway.zone/",
+    "social": {
+      "webSite": "https://www.milkyway.zone/",
+      "twitter": "https://twitter.com/milky_way_zone",
+      "medium": "https://medium.com/milkyway-zone",
+      "github": "https://github.com/milkyway-labs/",
+      "docs": "https://docs.milkyway.zone/"
+    }
+  },
+  {
     "id": "membrane",
     "name": "Membrane",
     "dappType": "Defi",
@@ -44,9 +58,15 @@
   {
     "id": "stride",
     "name": "Stride",
-    "dappType": "Defi",
+    "dappType": "Liquid Staking",
     "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
-    "link": "https://app.stride.zone/?chain=OSMO"
+    "link": "https://app.stride.zone/?chain=OSMO",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
+    }
   },
   {
     "id": "levanaperps",
@@ -58,7 +78,7 @@
   {
     "id": "marsredbank",
     "name": "Mars Red Bank",
-    "dappType": "Defi",
+    "dappType": "Lending",
     "description": "Lend and borrow money with the Osmosis Blockchain.",
     "link": "https://app.marsprotocol.io/"
   },
@@ -114,7 +134,7 @@
   {
     "id": "icns",
     "name": "ICNS",
-    "dappType": "Defi",
+    "dappType": "Social",
     "description": "InterChain Name Service. Your name for the interchain.",
     "link": "https://www.icns.xyz/"
   },

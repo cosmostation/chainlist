@@ -228,5 +228,113 @@
     },
     "image": "stride/asset/statom.png",
     "coinGeckoId": "stride-staked-atom"
+  },
+  {
+    "denom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
+    "type": "ibc",
+    "origin_chain": "dydx",
+    "origin_denom": "adydx",
+    "origin_type": "staking",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "enable": true,
+    "path": "dydx>neutron",
+    "channel": "channel-48",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-11",
+      "port": "transfer",
+      "denom": "adydx"
+    },
+    "image": "dydx/asset/dydx.png",
+    "coinGeckoId": "dydx-chain"
+  },
+  {
+    "denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+    "origin_type": "native",
+    "symbol": "NEWT",
+    "decimals": 6,
+    "enable": true,
+    "description": "NEWTRON",
+    "image": "neutron/asset/newt.png",
+    "coinGeckoId": "newt"
+  },
+  {
+    "denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
+    "type": "cw20",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
+    "origin_type": "cw20",
+    "symbol": "ECLIP",
+    "decimals": 6,
+    "image": "neutron/asset/eclipse.png",
+    "coinGeckoId": "eclipse-fi"
+  },
+  {
+    "denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
+    "origin_type": "native",
+    "symbol": "GODRD",
+    "decimals": 6,
+    "enable": true,
+    "description": "Goddard",
+    "image": "neutron/asset/goddardntrn.png"
+  },
+  {
+    "denom": "ibc/3649CE0C8A2C79048D8C6F31FF18FA69C9BC7EB193512E0BD03B733011290445",
+    "type": "ibc",
+    "origin_chain": "persistence",
+    "origin_denom": "stk/uatom",
+    "origin_type": "native",
+    "symbol": "stkATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "persistence>neutron",
+    "channel": "channel-49",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-136",
+      "port": "transfer",
+      "denom": "stk/uatom"
+    },
+    "image": "persistence/asset/stkatom.png",
+    "coinGeckoId": "stkatom"
+  },
+  {
+    "denom": "ibc/58923AAE6E879D7CB5FB0F2F05550FD4F696099AB0F5CDF0A05CC0309DD8BC78",
+    "type": "ibc",
+    "origin_chain": "cerberus",
+    "origin_denom": "ucrbrus",
+    "origin_type": "staking",
+    "symbol": "CRBRUS",
+    "decimals": 6,
+    "enable": true,
+    "path": "cerberus>osmosis>neutron",
+    "channel": "channel-10",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-874",
+      "port": "transfer",
+      "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+    },
+    "image": "cerberus/asset/crbrus.png",
+    "coinGeckoId": "cerberus-2"
+  },
+  {
+    "denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
+    "origin_type": "native",
+    "symbol": "GDD",
+    "decimals": 6,
+    "enable": true,
+    "description": "GODDARD",
+    "image": "neutron/asset/goddard.png"
   }
 ]

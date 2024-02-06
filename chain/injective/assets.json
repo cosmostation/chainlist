@@ -934,6 +934,47 @@
     "contract": "0x6b7f87279982d919Bbf85182DDeAB179B366D8f2"
   },
   {
+    "denom": "peggy0xa670d7237398238DE01267472C6f13e5B8010FD1",
+    "type": "bridge",
+    "origin_chain": "sommelier",
+    "origin_denom": "usomm",
+    "origin_type": "staking",
+    "symbol": "SOMM",
+    "decimals": 6,
+    "path": "sommelier>ethereum>injective",
+    "image": "sommelier/asset/somm.png",
+    "coinGeckoId": "sommelier",
+    "contract": "0xa670d7237398238de01267472c6f13e5b8010fd1"
+  },
+  {
+    "denom": "peggy0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "peggy0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439",
+    "origin_type": "erc20",
+    "symbol": "APP",
+    "decimals": 18,
+    "path": "ethereum>injective",
+    "description": "Moon App",
+    "image": "ethereum/asset/app.png",
+    "coinGeckoId": "moon-app",
+    "contract": "0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439"
+  },
+  {
+    "denom": "peggy0xb2617246d0c6c0087f18703d576831899ca94f01",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "origin_type": "erc20",
+    "symbol": "ZIG",
+    "decimals": 18,
+    "path": "ethereum>injective",
+    "description": "ZigCoin",
+    "image": "ethereum/asset/zig.png",
+    "coinGeckoId": "zignaly",
+    "contract": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+  },
+  {
     "denom": "ibc/F6CC233E5C0EA36B1F74AB1AF98471A2D6A80E2542856639703E908B4D93E7C4",
     "type": "ibc",
     "origin_chain": "evmos",
@@ -1054,19 +1095,6 @@
     "coinGeckoId": "crescent-network"
   },
   {
-    "denom": "peggy0xa670d7237398238DE01267472C6f13e5B8010FD1",
-    "type": "bridge",
-    "origin_chain": "sommelier",
-    "origin_denom": "usomm",
-    "origin_type": "staking",
-    "symbol": "SOMM",
-    "decimals": 6,
-    "path": "sommelier>ethereum>injective",
-    "image": "sommelier/asset/somm.png",
-    "coinGeckoId": "sommelier",
-    "contract": "0xa670d7237398238de01267472c6f13e5b8010fd1"
-  },
-  {
     "denom": "ibc/D91A2C4EE7CD86BBAFCE0FA44A60DDD9AFBB7EEB5B2D46C0984DEBCC6FEDFAE8",
     "type": "ibc",
     "origin_chain": "canto",
@@ -1105,6 +1133,46 @@
     },
     "image": "celestia/asset/tia.png",
     "coinGeckoId": "celestia"
+  },
+  {
+    "denom": "ibc/F8D4A8A44D8EF57F83D49624C4C89EECB1472D6D2D1242818CDABA6BC2479DA9",
+    "type": "ibc",
+    "origin_chain": "cerberus",
+    "origin_denom": "ucrbrus",
+    "origin_type": "staking",
+    "symbol": "CRBRUS",
+    "decimals": 6,
+    "enable": true,
+    "path": "cerberus>osmosis>injective",
+    "channel": "channel-8",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-122",
+      "port": "transfer",
+      "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+    },
+    "image": "cerberus/asset/crbrus.png",
+    "coinGeckoId": "cerberus-2"
+  },
+  {
+    "denom": "ibc/9A115B56E769B92621FFF90567E2D60EFD146E86E867491DB69EEDA9ADC36204",
+    "type": "ibc",
+    "origin_chain": "kujira",
+    "origin_denom": "ukuji",
+    "origin_type": "staking",
+    "symbol": "KUJI",
+    "decimals": 6,
+    "enable": true,
+    "path": "kujira>injective",
+    "channel": "channel-98",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-54",
+      "port": "transfer",
+      "denom": "ukuji"
+    },
+    "image": "kujira/asset/kuji.png",
+    "coinGeckoId": "kujira"
   },
   {
     "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1q6zlut7gtkzknkk773jecujwsdkgq882akqksk",
@@ -1187,6 +1255,79 @@
     "symbol": "TALIS",
     "decimals": 6,
     "description": "Talis governance token",
-    "image": "injectivte/asset/talis.png"
+    "image": "injective/asset/talis.png",
+    "coinGeckoId": "talis-protocol"
+  },
+  {
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1tjcf9497fwmrnk22jfu5hsdq82qshga54ajvzy",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1tjcf9497fwmrnk22jfu5hsdq82qshga54ajvzy",
+    "origin_type": "native",
+    "symbol": "PYTH",
+    "decimals": 6,
+    "description": "pyth-network",
+    "image": "solana/asset/pyth.png",
+    "coinGeckoId": "pyth-network"
+  },
+  {
+    "denom": "factory/inj172ccd0gddgz203e4pf86ype7zjx573tn8g0df9/GINGER",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj172ccd0gddgz203e4pf86ype7zjx573tn8g0df9/GINGER",
+    "origin_type": "native",
+    "symbol": "GINGER",
+    "decimals": 6,
+    "description": "GINGER",
+    "image": "injective/asset/ginger.png",
+    "coinGeckoId": "ginger"
+  },
+  {
+    "denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+    "origin_type": "native",
+    "symbol": "AUTISM",
+    "decimals": 6,
+    "description": "AUTISM",
+    "image": "injective/asset/autism.png",
+    "coinGeckoId": "autism"
+  },
+  {
+    "denom": "factory/inj1xy3kvlr4q4wdd6lrelsrw2fk2ged0any44hhwq/KIRA",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1xy3kvlr4q4wdd6lrelsrw2fk2ged0any44hhwq/KIRA",
+    "origin_type": "native",
+    "symbol": "KIRA",
+    "decimals": 6,
+    "description": "KIRA",
+    "image": "injective/asset/kira.png",
+    "coinGeckoId": "kira-the-injective-cat"
+  },
+  {
+    "denom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
+    "origin_type": "native",
+    "symbol": "NINJA",
+    "decimals": 6,
+    "description": "Dog Wif Nunchucks",
+    "image": "injective/asset/ninja.png",
+    "coinGeckoId": "dog-wif-nuchucks"
+  },
+  {
+    "denom": "factory/inj1vwn4x08hlactxj3y3kuqddafs2hhqzapruwt87/katana",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1vwn4x08hlactxj3y3kuqddafs2hhqzapruwt87/katana",
+    "origin_type": "native",
+    "symbol": "KATANA",
+    "decimals": 6,
+    "description": "Dog Wif Katana",
+    "image": "injective/asset/katana.png",
+    "coinGeckoId": "dogwifkatana"
   }
 ]
