@@ -1,8 +1,8 @@
 ## Gas Data for Mintscan Wallet.
 
-[optional]
+#### [optional properties]
 
-- default
+- default _(If no specific type of value exists, use the default)_
 - send
 - ibcSend
 - swap
@@ -11,11 +11,21 @@
 - reward
 - squidContractSwap
 
+---
+
+#### Default Value
+
+- If the chain does not have a specific type of value or default value, use the values below
+
 ```json
-// example mintscan/fee/{chain}.json
 {
-  "deault": "10000",
-  "send": "20000",
-  "ibcSend": "30000"
+  "default": "100000",
+  "send": "100000",
+  "swap": "250000",
+  "ibcSend": "150000",
+  "transfer": "200000",
+  "ibcTransfer": "250000",
+  "reward": "300000",
+  "squidContractSwap": "350000"
 }
 ```
