@@ -1,15 +1,14 @@
 [
   {
     "denom": "cif",
-    "type": "staking",
+    "type": "native",
     "origin_chain": "cifer",
     "origin_denom": "cif",
     "origin_type": "staking",
-    "symbol": "cif",
+    "symbol": "CIF",
     "decimals": 6,
-    "description": "cifer Staking Coin",
+    "description": "Cifer Native Coin",
     "image": "cifer/asset/cif.png",
-    "coinGeckoId": "cifer",
-    "color": "#D554F8"
+    "coinGeckoId": ""
   }
 ]
