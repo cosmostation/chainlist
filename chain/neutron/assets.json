@@ -336,5 +336,17 @@
     "enable": true,
     "description": "GODDARD",
     "image": "neutron/asset/goddard.png"
+  },
+  {
+    "denom": "factory/neutron1guar6dc2scpxtmmq8reh0q5cv2l37vs0uyfdru/dinosaur",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1guar6dc2scpxtmmq8reh0q5cv2l37vs0uyfdru/dinosaur",
+    "origin_type": "native",
+    "symbol": "DSR",
+    "decimals": 6,
+    "enable": true,
+    "description": "DINOSAUR",
+    "image": "neutron/asset/dsrlol.png"
   }
 ]
