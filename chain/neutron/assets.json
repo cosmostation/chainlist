@@ -348,5 +348,17 @@
     "enable": true,
     "description": "DINOSAUR",
     "image": "neutron/asset/dsrlol.png"
+  },
+  {
+    "denom": "factory/neutron1ume2n42r5j0660gegrr28fzdze7aqf7r5cd9y6/newtroll",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1ume2n42r5j0660gegrr28fzdze7aqf7r5cd9y6/newtroll",
+    "origin_type": "native",
+    "symbol": "NTRL",
+    "decimals": 6,
+    "enable": true,
+    "description": "NEWTROLL",
+    "image": "neutron/asset/ntrl.png"
   }
 ]
