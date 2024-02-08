@@ -1,0 +1,50 @@
+[
+  {
+    "denom": "uxprt",
+    "type": "staking",
+    "origin_chain": "persistence-testnet",
+    "origin_denom": "uxprt",
+    "origin_type": "staking",
+    "symbol": "XPRT",
+    "decimals": 6,
+    "description": "Persistence-testnet Staking Coin",
+    "image": "persistence-testnet/asset/xprt.png",
+    "coinGeckoId": "persistence"
+  },
+  {
+    "denom": "stk/uatom",
+    "type": "native",
+    "origin_chain": "persistence-testnet",
+    "origin_denom": "stk/uatom",
+    "origin_type": "native",
+    "symbol": "stkATOM",
+    "decimals": 6,
+    "description": "PSTAKE-testnet Liquid-Staked ATOM",
+    "image": "persistence-testnet/asset/stkatom.png",
+    "coinGeckoId": "stkatom"
+  },
+  {
+    "denom": "stk/uosmo",
+    "type": "native",
+    "origin_chain": "persistence-testnet",
+    "origin_denom": "stk/uosmo",
+    "origin_type": "native",
+    "symbol": "stkOSMO",
+    "decimals": 6,
+    "description": "PSTAKE-testnet Liquid-Staked OSMO",
+    "image": "persistence-testnet/asset/stkosmo.png",
+    "coinGeckoId": "stkosmo"
+  },
+  {
+    "denom": "stk/adv4tnt",
+    "type": "native",
+    "origin_chain": "persistence-testnet",
+    "origin_denom": "stk/adv4tnt",
+    "origin_type": "native",
+    "symbol": "stkDV4TNT",
+    "decimals": 18,
+    "description": "PSTAKE-testnet Liquid-Staked DV4TNT",
+    "image": "persistence-testnet/asset/stkdv4tnt.png",
+    "coinGeckoId": ""
+  }
+]

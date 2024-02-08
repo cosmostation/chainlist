@@ -8,7 +8,8 @@
       "symbol": "NTRN",
       "decimals": 6,
       "description": "Neutron-testnet DAO Token",
-      "image": "neutron-testnet/asset/ntrn.png"
+      "image": "neutron-testnet/asset/ntrn.png",
+      "coinGeckoId": ""
     },
     {
       "denom": "ibc/EFB00E728F98F0C4BBE8CA362123ACAB466EDA2826DC6837E49F4C1902F21BBA",
@@ -30,5 +31,39 @@
       "image": "terra/asset/astro.png",
       "coinGeckoId": "",
       "contract": "neutron1vwrktvvxnevy7s5t7v44z72pdxncnq9gdsjwq9607cdd6vl2lfcs33fpah"
-    }
+    },
+  {
+    "denom": "ibc/CC8B40E3F3536D003C6ED7C65421067215453AECE1517A6F0935470C634A036B",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "weth",
+    "origin_type": "erc20",
+    "symbol": "axlWETH",
+    "decimals": 18,
+    "enable": true,
+    "path": "ethereum>axelar>neutron",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-8",
+      "port": "transfer",
+      "denom": "eth-wei"
+    },
+    "image": "ethereum/asset/weth.png",
+    "coinGeckoId": "",
+    "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+  },
+  {
+    "denom": "factory/neutron1xdtwh5jr4zjx8g3zh29jud75c666wua7tsmum3ajm6ylf782etfs60dj2h/wstETH",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "wsteth",
+    "origin_type": "erc20",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "path": "ethereum>neutron",
+    "image": "ethereum/asset/wsteth.png",
+    "coinGeckoId": "",
+    "contract": "0x6320cd32aa674d2898a68ec82e869385fc5f7e2f"
+  }
 ]

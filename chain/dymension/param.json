@@ -1,0 +1,37 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "20000000adym"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-dydx.cosmostation.io:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "dymension-mainnet-grpc.autostake.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "dymension-grpc.lavenderfive.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://dymension.xyz/",
+        "blog" : "https://medium.com/@dymension",
+        "github" : "https://github.com/dymensionxyz",
+        "twitter" : "https://twitter.com/dymension",
+        "coingecko" : "https://www.coingecko.com/en/coins/dymension"
+    },
+    "description" : {
+        "ko" : "Dymension은 $DYM으로 보호되는 탈중앙화된 L1 블록체인으로, 롤앱 인터넷의 구축을 지향합니다.",
+        "en" : "Dymension is a decentralized L1 blockchain that fuels the Internet of RollApps, secured by $DYM.",
+        "ja" : "Dymensionは$DYMで保護される脱中央化されたL1ブロックチェーンで、ロールアプリインターネットの構築を目指します。"
+    }
+}

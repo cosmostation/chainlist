@@ -1,0 +1,15 @@
+[
+  {
+    "denom": "umint",
+    "type": "staking",
+    "origin_chain": "mintstation",
+    "origin_denom": "umint",
+    "origin_type": "staking",
+    "symbol": "MINT",
+    "decimals": 6,
+    "description": "MintStation Staking Coin",
+    "image": "mintstation/asset/mint.png",
+    "coinGeckoId": "",
+    "color": "#376FFF"
+  }
+]

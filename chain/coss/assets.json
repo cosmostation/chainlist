@@ -1,0 +1,39 @@
+[
+  {
+    "denom": "ucgas",
+    "type": "staking",
+    "origin_chain": "coss",
+    "origin_denom": "ucgas",
+    "origin_type": "staking",
+    "symbol": "CGAS",
+    "decimals": 6,
+    "description": "COSS Staking Coin",
+    "image": "coss/asset/coss.png",
+    "coinGeckoId": "",
+    "color": "#906B1A"
+  },
+  {
+    "denom": "ucoss",
+    "type": "native",
+    "origin_chain": "coss",
+    "origin_denom": "ucoss",
+    "origin_type": "native",
+    "symbol": "COSS",
+    "decimals": 6,
+    "description": "COSS Inscription Token",
+    "image": "coss/asset/coss.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ucias",
+    "type": "native",
+    "origin_chain": "cias",
+    "origin_denom": "ucias",
+    "origin_type": "native",
+    "symbol": "CIAS",
+    "decimals": 6,
+    "description": "CIAS Inscription Token",
+    "image": "coss/asset/cias.png",
+    "coinGeckoId": ""
+  }
+]

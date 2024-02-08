@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Kujira Staking Coin",
     "image": "kujira/asset/kuji.png",
-    "coinGeckoId": "kujira"
+    "coinGeckoId": "kujira",
+    "color": "#E53935"
   },
   {
     "denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
@@ -389,5 +390,65 @@
     },
     "image": "mars-protocol/asset/mars.png",
     "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+  },
+  {
+    "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>kujira",
+    "channel": "channel-62",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ibc/D5F668AA43F9DE1F5E8A443EC5F9DD2D71AB3F3DC42CCD374F8751615A13B70B",
+    "type": "ibc",
+    "origin_chain": "cerberus",
+    "origin_denom": "ucrbrus",
+    "origin_type": "staking",
+    "symbol": "CRBRUS",
+    "decimals": 6,
+    "enable": true,
+    "path": "cerberus>osmosis>kujira",
+    "channel": "channel-3",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-259",
+      "port": "transfer",
+      "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+    },
+    "image": "cerberus/asset/crbrus.png",
+    "coinGeckoId": "cerberus-2"
+  },
+  {
+    "denom": "ibc/086C1B2E9E611F23D3C9159C858D3F4C6A911D348DFB916A11AE306A865A77A8",
+    "type": "ibc",
+    "origin_chain": "persistence",
+    "origin_denom": "stk/uatom",
+    "origin_type": "native",
+    "symbol": "stkATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "persistence>kujira",
+    "channel": "channel-158",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-152",
+      "port": "transfer",
+      "denom": "stk/uatom"
+    },
+    "image": "persistence/asset/stkatom.png",
+    "coinGeckoId": "stkatom"
   }
 ]

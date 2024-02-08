@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "uprov",
+    "type": "staking",
+    "origin_chain": "ics-testnet-provider",
+    "origin_denom": "uprov",
+    "origin_type": "staking",
+    "symbol": "PROV",
+    "decimals": 6,
+    "description": "provider-testnet Staking Coin",
+    "image": "ics-testnet-provider/asset/prov.png",
+    "coinGeckoId": ""
+  }
+]
