@@ -1,0 +1,360 @@
+[
+  {
+    "id": "evmos",
+    "name": "Evmos.org",
+    "dappType": "Dashboard",
+    "description": "The official Evmos dApp to manage your EVMOS tokens and explore the ecosystem.",
+    "link": "https://app.evmos.org/",
+    "social": {
+      "webSite": "https://www.evmos.org/",
+      "twitter": "https://twitter.com/evmosorg",
+      "github": "https://github.com/evmos",
+      "docs": "https://docs.evmos.org/"
+    }
+  },
+  {
+    "id": "stride",
+    "name": "Stride",
+    "dappType": "Defi",
+    "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
+    "link": "https://app.stride.zone/?chain=EVMOS",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
+    }
+  },
+  {
+    "id": "tashi",
+    "name": "Tashi",
+    "dappType": "Lending",
+    "description": "An algorithmic, non-custodial borrow and lend protocol built on Evmos.",
+    "link": "https://app.tashi.finance/dashboard/",
+    "social": {
+      "webSite": "https://tashi.finance/",
+      "twitter": "https://twitter.com/COSM0Smarkets/",
+      "github": "https://github.com/tashi-finance",
+      "docs": "https://docs.tashi.finance/"
+    }
+  },
+  {
+    "id": "forge",
+    "name": "Forge DEX",
+    "dappType": "Defi",
+    "description": "IBC’s first Univ3 deployment, powered by Evmos",
+    "link": "https://app.forge.trade/",
+    "social": {
+      "webSite": "https://forge.trade/",
+      "twitter": "https://twitter.com/ForgeDEX/",
+      "github": "https://github.com/forge-Trade/",
+      "docs": "https://docs.forge.trade/"
+    }
+  },
+  {
+    "id": "perps",
+    "name": "Forge Perps",
+    "dappType": "Defi",
+    "description": "Leveraged perpetuals trading in 40+ markets. Covering crypto, forex, metals, & indices.",
+    "link": "https://perps.forge.trade/",
+    "social": {
+      "webSite": "https://catalyst.forge.trade/",
+      "twitter": "https://twitter.com/ForgeDEX/",
+      "github": "https://github.com/UniDex-Finance",
+      "docs": "https://docs.forge.trade/"
+    }
+  },
+  {
+    "id": "myso",
+    "name": "MYSO",
+    "dappType": "Lending",
+    "description": "MYSO is a trust-minimized, permissionless P2P lending protocol that enables Zero-Liquidation Loans.",
+    "link": "https://app.myso.finance/",
+    "social": {
+      "webSite": "https://www.myso.finance/",
+      "twitter": "https://twitter.com/MYSOfinance/",
+      "docs": "https://myso-finance.gitbook.io/myso-v2-docs/"
+    }
+  },
+  {
+    "id": "orbit",
+    "name": "Orbit Market",
+    "dappType": "NFT",
+    "description": "The largest NFT Marketplace in Evmos. Built by the community, for the community.",
+    "link": "https://www.orbitmarket.io/collections/",
+    "social": {
+      "webSite": "https://www.orbitmarket.io/",
+      "twitter": "https://twitter.com/OrbitalApes/",
+      "docs": "https://docs.orbitalapes.com/orbit-marketplace/about"
+    }
+  },
+  {
+    "id": "evmosdomains",
+    "name": "Evmos Domains",
+    "dappType": "NFT",
+    "description": "The decentralized name service for linking the Evmos community.",
+    "link": "https://app.evmos.domains/",
+    "social": {
+      "webSite": "https://www.evmos.domains/",
+      "twitter": "https://twitter.com/EvmosDomains/",
+      "docs": "https://docs.evmos.domains/"
+    }
+  },
+  {
+    "id": "nfts2me",
+    "name": "NFTs2Me",
+    "dappType": "NFT&Social",
+    "description": "Create, deploy and manage your NFT collection and minting page with custom subdomain for free. No-code Art Generator, Token Gating & much much more.",
+    "link": "https://nfts2me.com/app//",
+    "social": {
+      "webSite": "https://nfts2me.com/",
+      "twitter": "https://twitter.com/nfts2me/",
+      "docs": "https://docs.nfts2me.com/"
+    }
+  },
+  {
+    "id": "unidex",
+    "name": "UniDex",
+    "dappType": "Defi",
+    "description": "The aggregator of everything.",
+    "link": "https://unidex.exchange/",
+    "social": {
+      "webSite": "https://unidex.exchange/",
+      "twitter": "https://twitter.com/UniDexFinance/",
+      "github": "https://github.com/UniDex-Finance",
+      "docs": "https://docs.unidex.exchange/"
+    }
+  },
+  {
+    "id": "stayking",
+    "name": "Stayking",
+    "dappType": "Defi",
+    "description": "Stayking’s Cross-Zone leverage staking platform is designed to maximize your staking reward and amplify your investment.",
+    "link": "https://app.stayking.zone/leverage?protocol=evmos&ratio=2.5",
+    "social": {
+      "webSite": "https://www.stayking.zone/",
+      "twitter": "https://twitter.com/staykingg/",
+      "docs": "https://docs.stayking.zone/"
+    }
+  },
+  {
+    "id": "steer",
+    "name": "Steer Protocol",
+    "dappType": "Defi",
+    "description": "Automated liquidity management. Automate tasks and build strategies with easy to use off-chain data.",
+    "link": "https://app.steer.finance/",
+    "social": {
+      "webSite": "https://steer.finance/",
+      "twitter": "https://twitter.com/SteerProtocol/",
+      "github": "https://github.com/SteerProtocol",
+      "docs": "https://docs.steer.finance/"
+    }
+  },
+  {
+    "id": "revert",
+    "name": "Revert",
+    "dappType": "Defi",
+    "description": "Powerful analytics, automation, and management tools for liquidity providers.",
+    "link": "https://revert.finance/#/incentives/evmos",
+    "social": {
+      "webSite": "https://revert.finance/",
+      "twitter": "https://twitter.com/revertfinance",
+      "github": "https://github.com/revert-finance",
+      "docs": "https://docs.revert.finance/revert/"
+    }
+  },
+  {
+    "id": "hedgey",
+    "name": "Hedgey",
+    "dappType": "Defi",
+    "description": "Token infrastructure for on-chain teams. Token vesting, lockups, grants and distributions for your team, investors and community.",
+    "link": "https://app.hedgey.finance/",
+    "social": {
+      "webSite": "https://hedgey.finance/",
+      "twitter": "https://twitter.com/HedgeyFinance/",
+      "docs": "https://hedgey.gitbook.io/hedgey-community-docs/"
+    }
+  },
+  {
+    "id": "snapshot",
+    "name": "snapshot",
+    "dappType": "DAO",
+    "description": "Where decisions get made. Snapshot is a voting platform that allows DAOs, DeFi protocols, or NFT communities to vote easily and without gas fees.",
+    "link": "https://snapshot.org",
+    "social": {
+      "webSite": "https://snapshot.org/",
+      "twitter": "https://twitter.com/SnapshotLabs",
+      "github": "https://github.com/snapshot-labs",
+      "docs": "https://docs.snapshot.org/"
+    }
+  },
+  {
+    "id": "cointool",
+    "name": "CoinTool",
+    "dappType": "Defi",
+    "description": "Your online crypto toolbox.",
+    "link": "https://cointool.app/chain-tools/evmos",
+    "social": {
+      "webSite": "https://cointool.app/dashboard/",
+      "twitter": "https://twitter.com/cointool",
+      "github": "https://github.com/CoinTool-App",
+      "docs": "https://cointool.app/doc/index"
+    }
+  },
+  {
+    "id": "tfm",
+    "name": "TFM Pro Trading",
+    "dappType": "Defi",
+    "description": "The all-in-one Cosmos terminal. Transfer via IBC across all Cosmos app-chains.",
+    "link": "https://tfm.com",
+    "social": {
+      "webSite": "https://tfm.com/",
+      "twitter": "https://twitter.com/tfm_com",
+      "docs": "https://medium.com/@tfm.com"
+    }
+  },
+  {
+    "id": "yieldmos",
+    "name": "Yieldmos",
+    "dappType": "Defi",
+    "description": "Boost yields by auto compounding your staking rewards with validators of your choice.",
+    "link": "https://www.yieldmos.com/chain/evmos/",
+    "social": {
+      "webSite": "https://yieldmos.com/",
+      "twitter": "https://twitter.com/yieldmos",
+      "docs": "https://docs.yieldmos.com/"
+    }
+  },
+  {
+    "id": "restake",
+    "name": "REStake",
+    "dappType": "Defi",
+    "description": "Auto-compound your staking rewards.",
+    "link": "https://restake.app/evmos",
+    "social": {
+      "webSite": "https://restake.app/",
+      "twitter": "https://twitter.com/REStakeApp",
+      "github": "https://github.com/eco-stake/restake"
+    }
+  },
+  {
+    "id": "nolus",
+    "name": "Nolus Protocol",
+    "dappType": "Lending",
+    "description": "The cross-chain lease protocol.",
+    "link": "https://app.nolus.io/lease",
+    "social": {
+      "webSite": "https://nolus.io/",
+      "twitter": "https://twitter.com/NolusProtocoll",
+      "github": "https://github.com/nolus-protocol",
+      "docs": "https://hub.nolus.io"
+    }
+  },
+  {
+    "id": "reddit",
+    "name": "r/Evmos",
+    "dappType": "Social",
+    "description": "Join the Evmos conversation on Reddit!",
+    "link": "https://reddit.com/r/evmos/",
+    "social": {
+      "webSite": "https://reddit.com/r/evmos/",
+      "twitter": "https://twitter.com/r_evmos/",
+      "docs": "https://www.reddit.com/r/EVMOS/wiki/index/"
+    }
+  },
+  {
+    "id": "diplomat",
+    "name": "The Diplomat Summary",
+    "dappType": "DAO",
+    "description": "Keep up with the latest Governance and Ecosystem News with The Evmos Diplomat Summary",
+    "link": "https://thediplomat.blog/",
+    "social": {
+      "webSite": "https://thediplomat.blog/",
+      "twitter": "https://twitter.com/thediplomatnews/"
+    }
+  },
+  {
+    "id": "cypher",
+    "name": "Cypher Wallet",
+    "dappType": "Defi",
+    "description": "Buy, sell, manage, bridge or stake crypto across 17+ EVM & Cosmos chains.",
+    "link": "https://www.cypherwallet.io/",
+    "social": {
+      "webSite": "https://www.cypherwallet.io/",
+      "twitter": "https://twitter.com/cypherwalletio/",
+      "docs": "https://developer.cypherwallet.io/"
+    }
+  },
+  {
+    "id": "c14",
+    "name": "C14",
+    "dappType": "Defi",
+    "description": "Pay the way that suits you best in 50+ countries worldwide.",
+    "link": "https://www.c14.money/",
+    "social": {
+      "webSite": "https://www.c14.money/",
+      "twitter": "https://twitter.com/c14_team/",
+      "docs": "https://medium.com/c14-money"
+    }
+  },
+  {
+    "id": "transak",
+    "name": "Transak",
+    "dappType": "Defi",
+    "description": "Buy or sell crypto across 170 cryptocurrencies on 75+ blockchains via cards, bank transfers and other payment methods in 188 countries.",
+    "link": "https://global.transak.com/",
+    "social": {
+      "webSite": "https://www.transak.com/",
+      "twitter": "https://twitter.com/transak/",
+      "docs": "https://docs.transak.com/"
+    }
+  },
+  {
+    "id": "squid",
+    "name": "Squid Router",
+    "dappType": "Defi",
+    "description": "Make anything cross-chain. Squid allows any token to be swapped between blockchains, and unlocks access to apps across chains in a single click.",
+    "link": "https://app.squidrouter.com/",
+    "social": {
+      "webSite": "https://www.squidrouter.com/",
+      "twitter": "https://twitter.com/squidrouter",
+      "docs": "https://docs.squidrouter.com/"
+    }
+  },
+  {
+    "id": "layerswap",
+    "name": "Layerswap",
+    "dappType": "Defi",
+    "description": "Layerswap enables transferring crypto assets across Centralized Exchanges, blockchains and banks in a matter of minutes. Enjoy frictionless transfers of crypto between 18 exchanges and 24 blockchains, as well as cross-chain transfers and fiat on-ramps.",
+    "link": "https://www.layerswap.io/app",
+    "social": {
+      "webSite": "https://www.layerswap.io/",
+      "twitter": "https://twitter.com/layerswap/",
+      "docs": "https://docs.layerswap.io/user-docs/"
+    }
+  },
+  {
+    "id": "spacefi",
+    "name": "SpaceFi",
+    "dappType": "Defi",
+    "description": "AMM DEX.",
+    "link": "https://swap-evmos.spacefi.io/#/swap",
+    "social": {
+      "webSite": "https://spacefi.io",
+      "twitter": "https://twitter.com/spacefi_io",
+      "docs": "https://docs.spacefi.io/"
+    }
+  },
+  {
+    "id": "diffusion",
+    "name": "Diffusion",
+    "dappType": "Defi",
+    "description": "AMM DEX.",
+    "link": "https://app.diffusion.fi/#/swap",
+    "social": {
+      "webSite": "https://diffusion.fi/",
+      "twitter": "https://twitter.com/diffusion_fi/",
+      "docs": "https://docs.diffusion.fi"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+{
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.05usource",
+            "0.075usource",
+            "0.1usource"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : "1.2",
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Polkachu",
+            "url": "source-grpc.polkachu.com:15890"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.source.nodestake.top:443"
+        },
+        {
+            "provider": "Nodeist",
+            "url": "grpc-source.nodeist.net:443"
+        },
+		{
+            "provider": "NodesHub",
+            "url": "source.grpc.nodeshub.online:443"
+        },
+        {
+            "provider": "KjNodes",
+            "url": "source.grpc.kjnodes.com:443"
+        },
+        {
+            "provider": "STAVR",
+            "url": "source.grpc.m.stavr.tech:9590"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.sourceprotocol.io/",
+        "blog" : "https://sourceprotocol.medium.com/",
+        "github" : "https://github.com/Source-Protocol-Cosmos/source",
+        "twitter" : "https://twitter.com/sourceprotocol_",
+        "coingecko" : "https://www.coingecko.com/en/coins/source"
+    },
+    "description" : {
+        "ko" : "Cosmos SDK 기반의 상호 운용 가능한 스마트 컨트랙트 네트워크. 확장성, 속도, 보안, 그리고 유저 친화적인 개발환경을 제공합니다.",
+        "en" : "Interoperable smart contract network built with the Cosmos SDK. Highly scalable, robust, secure and easy to deploy.",
+        "ja" : "Cosmos SDKベースの相互運用可能なスマートコントラクトネットワーク。拡張性、速度、保安、そしてユーザー親和的な開発環境を提供します。"
+    }
+}

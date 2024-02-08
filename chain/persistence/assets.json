@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Persistence Staking Coin",
     "image": "persistence/asset/xprt.png",
-    "coinGeckoId": "persistence"
+    "coinGeckoId": "persistence",
+    "color": "#E50A13"
   },
   {
     "denom": "stk/uatom",
@@ -22,6 +23,30 @@
     "description": "PSTAKE Liquid-Staked ATOM",
     "image": "persistence/asset/stkatom.png",
     "coinGeckoId": "stkatom"
+  },
+  {
+    "denom": "stk/uosmo",
+    "type": "native",
+    "origin_chain": "persistence",
+    "origin_denom": "stk/uosmo",
+    "origin_type": "native",
+    "symbol": "stkOSMO",
+    "decimals": 6,
+    "description": "PSTAKE Liquid-Staked OSMO",
+    "image": "persistence/asset/stkosmo.png",
+    "coinGeckoId": "stkosmo"
+  },
+  {
+    "denom": "stk/adydx",
+    "type": "native",
+    "origin_chain": "persistence",
+    "origin_denom": "stk/adydx",
+    "origin_type": "native",
+    "symbol": "stkDYDX",
+    "decimals": 18,
+    "description": "PSTAKE Liquid-Staked DYDX",
+    "image": "persistence/asset/stkdydx.png",
+    "coinGeckoId": "stkdydx"
   },
   {
     "denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
@@ -55,6 +80,7 @@
     "enable": true,
     "path": "cosmos>persistence",
     "channel": "channel-24",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-190",
       "port": "transfer",
@@ -74,6 +100,7 @@
     "enable": true,
     "path": "osmosis>persistence",
     "channel": "channel-6",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-4",
       "port": "transfer",
@@ -93,6 +120,7 @@
     "enable": true,
     "path": "osmosis>persistence",
     "channel": "channel-6",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-4",
       "port": "transfer",
@@ -112,6 +140,7 @@
     "enable": true,
     "path": "sifchain>persistence",
     "channel": "channel-26",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-7",
       "port": "transfer",
@@ -131,6 +160,7 @@
     "enable": true,
     "path": "juno>persistence",
     "channel": "channel-37",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-33",
       "port": "transfer",
@@ -150,6 +180,7 @@
     "enable": true,
     "path": "gravity-bridge>persistence",
     "channel": "channel-38",
+    "port": "transfer",
     "counter_party": {
       "channel": "channel-24",
       "port": "transfer",
@@ -157,5 +188,66 @@
     },
     "image": "gravity-bridge/asset/grav.png",
     "coinGeckoId": "graviton"
+  },
+  {
+    "denom": "ibc/C559977F5797BDC1D74C0836A10C379C991D664166CB60D776A83029852431B4",
+    "type": "ibc",
+    "origin_chain": "kava",
+    "origin_denom": "erc20/tether/usdt",
+    "origin_type": "native",
+    "symbol": "USDt",
+    "decimals": 6,
+    "description": "Tether USDt",
+    "enable": true,
+    "path": "kava>persistence",
+    "channel": "channel-129",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-134",
+      "port": "transfer",
+      "denom": "erc20/tether/usdt"
+    },
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether"
+  },
+  {
+    "denom": "ibc/B3792E4A62DF4A934EF2DF5968556DB56F5776ED25BDE11188A4F58A7DD406F0",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>persistence",
+    "channel": "channel-132",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ibc/23DC3FF0E4CBB53A1915E4C62507CB7796956E84C68CA49707787CB8BDE90A1E",
+    "type": "ibc",
+    "origin_chain": "dydx",
+    "origin_denom": "adydx",
+    "origin_type": "staking",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "enable": true,
+    "path": "dydx>persistence",
+    "channel": "channel-131",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "adydx"
+    },
+    "image": "dydx/asset/dydx.png",
+    "coinGeckoId": "dydx-chain"
   }
 ]
