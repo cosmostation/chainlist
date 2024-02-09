@@ -361,5 +361,16 @@
     "image": "juno/asset/yfd.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno13epyeat7ef0k7q6kllmyvc8zpfd9xm7cqjrgtk0qkgrk7n5mjfmq8979jw",
+    "symbol": "POIL",
+    "description": "POIL Coin - Igniting the Cosmos Joy",
+    "decimals": 6,
+    "image": "juno/asset/poil.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
