@@ -95,5 +95,17 @@
     "description": "The can corso token",
     "image": "chihuahua/asset/corso.png",
     "coinGeckoId": ""
-  } 
+  }, 
+  {
+    "denom": "factory/chihuahua17dgp6rf7wlhyaxth0j20h33zdv6nqat8xfezvy/Spitz",
+    "type": "native",
+    "origin_chain": "chihuahua",
+    "origin_denom": "chihuahua17dgp6rf7wlhyaxth0j20h33zdv6nqat8xfezvy",
+    "origin_type": "native",
+    "symbol": "SPITZ",
+    "decimals": 6,
+    "description": "The Spitz token",
+    "image": "chihuahua/asset/spitz.png",
+    "coinGeckoId": ""
+  }
 ]

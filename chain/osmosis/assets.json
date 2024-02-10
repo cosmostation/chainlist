@@ -2990,5 +2990,25 @@
     "description": "The first native memecoin on Osmosis. Crafted by the deftest of hands in the lab of lunacy. It's scientifically anarchic, professionally foolish, and your ticket to the madhouse.",
     "image": "osmosis/asset/wosmo.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110",
+    "type": "ibc",
+    "origin_chain": "dymension",
+    "origin_denom": "adym",
+    "origin_type": "staking",
+    "symbol": "DYM",
+    "decimals": 18,
+    "enable": true,
+    "path": "dymension>osmosis",
+    "channel": "channel-19774",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "adym"
+    },
+    "image": "dymension/asset/dym.png",
+    "coinGeckoId": "dymension"
   }
 ]
