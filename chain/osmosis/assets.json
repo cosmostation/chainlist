@@ -2788,7 +2788,7 @@
     "denom": "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn",
     "type": "native",
     "origin_chain": "osmosis",
-    "origin_denom": "ulvn",
+    "origin_denom": "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn",
     "origin_type": "native",
     "symbol": "LVN",
     "decimals": 6,
@@ -2938,5 +2938,77 @@
     "description": "Native Coin",
     "image": "ethereum/asset/wbtc.png",
     "coinGeckoId": "wrapped-bitcoin"
+  },
+  {
+    "denom": "ibc/94ED1F172BC633DFC56D7E26551D8B101ADCCC69052AC44FED89F97FF658138F",
+    "type": "ibc",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+    "origin_type": "native",
+    "symbol": "SNEAKY",
+    "decimals": 6,
+    "enable": true,
+    "path": "stargaze>osmosis",
+    "channel": "channel-75",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky"
+    },
+    "image": "stargaze/asset/sneaky.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/8E697BDABE97ACE8773C6DF7402B2D1D5104DD1EEABE12608E3469B7F64C15BA",
+    "type": "ibc",
+    "origin_chain": "jackal",
+    "origin_denom": "ujkl",
+    "origin_type": "native",
+    "symbol": "JKL",
+    "decimals": 6,
+    "enable": true,
+    "path": "jackal>osmosis",
+    "channel": "channel-412",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "ujkl"
+    },
+    "image": "jackal/asset/jkl.png",
+    "coinGeckoId": "jackal-protocol"
+  },
+  {
+    "denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+    "origin_type": "native",
+    "symbol": "WOSMO",
+    "decimals": 6,
+    "description": "The first native memecoin on Osmosis. Crafted by the deftest of hands in the lab of lunacy. It's scientifically anarchic, professionally foolish, and your ticket to the madhouse.",
+    "image": "osmosis/asset/wosmo.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110",
+    "type": "ibc",
+    "origin_chain": "dymension",
+    "origin_denom": "adym",
+    "origin_type": "staking",
+    "symbol": "DYM",
+    "decimals": 18,
+    "enable": true,
+    "path": "dymension>osmosis",
+    "channel": "channel-19774",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "adym"
+    },
+    "image": "dymension/asset/dym.png",
+    "coinGeckoId": "dymension"
   }
 ]
