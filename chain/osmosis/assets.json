@@ -3010,5 +3010,17 @@
     },
     "image": "dymension/asset/dym.png",
     "coinGeckoId": "dymension"
+  },
+  {
+    "denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+    "origin_type": "native",
+    "symbol": "BADKID",
+    "decimals": 6,
+    "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
+    "image": "osmosis/asset/badkid.png",
+    "coinGeckoId": ""
   }
 ]
