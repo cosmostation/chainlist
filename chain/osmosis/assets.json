@@ -1669,23 +1669,23 @@
     "contract": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
   },
   {
-    "denom": "ibc/BB23594A71B0A7AFF92599C1706CC10592D8AC01C88091346018C4570751E55B",
+    "denom": "ibc/884EBC228DFCE8F1304D917A712AA9611427A6C1ECC3179B2E91D7468FB091A2",
     "type": "ibc",
-    "origin_chain": "juno",
-    "origin_denom": "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava",
     "origin_type": "native",
     "symbol": "HAVA",
     "decimals": 6,
     "enable": true,
-    "path": "juno>osmosis",
-    "channel": "channel-42",
+    "path": "injective>osmosis",
+    "channel": "channel-122",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-0",
+      "channel": "channel-8",
       "port": "transfer",
-      "denom": "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava"
+      "denom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava"
     },
-    "image": "juno/asset/hava.png",
+    "image": "injective/asset/hava.png",
     "coinGeckoId": ""
   },
   {
