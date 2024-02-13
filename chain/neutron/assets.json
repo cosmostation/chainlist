@@ -360,17 +360,5 @@
     "enable": true,
     "description": "NEWTROLL",
     "image": "neutron/asset/ntrl.png"
-  },
-  {
-    "denom": "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv",
-    "origin_type": "native",
-    "symbol": "BOY",
-    "decimals": 6,
-    "enable": true,
-    "description": "Astro BOY",
-    "image": "neutron/asset/boy.png"
   }
 ]
