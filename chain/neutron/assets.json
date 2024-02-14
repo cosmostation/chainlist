@@ -264,7 +264,7 @@
   },
   {
     "denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
-    "type": "cw20",
+    "type": "native",
     "origin_chain": "neutron",
     "origin_denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
     "origin_type": "cw20",
@@ -360,5 +360,16 @@
     "enable": true,
     "description": "NEWTROLL",
     "image": "neutron/asset/ntrl.png"
+  },
+  {
+    "denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
+    "origin_type": "native",
+    "symbol": "JIMMY",
+    "decimals": 6,
+    "image": "neutron/asset/jimmy.png",
+    "coinGeckoId": ""
   }
 ]
