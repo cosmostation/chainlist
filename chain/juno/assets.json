@@ -454,17 +454,5 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
-  },
-  {
-    "denom": "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava",
-    "type": "native",
-    "origin_chain": "juno",
-    "origin_denom": "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava",
-    "origin_type": "native",
-    "symbol": "HAVA",
-    "decimals": 6,
-    "description": "Hava Coin is the lifeblood of the Cosmos & Juno networks, rewarding builders and welcoming supporters. https://havacoin.xyz/",
-    "image": "juno/asset/hava.png",
-    "coinGeckoId": ""
   }
 ]
