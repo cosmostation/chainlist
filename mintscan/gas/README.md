@@ -1,15 +1,13 @@
 ## Gas Data for Mintscan Wallet.
 
+- This gas data is used within Mintscan to infer the gas before simulation and calculate the amount. Gas data does not affect actual gas.
+
 #### [optional properties]
 
 - default _(If no specific type of value exists, use the default)_
 - send
 - ibcSend
-- swap
-- transfer
-- ibcTransfer
-- reward
-- squidContractSwap
+- reward (For claim, claim all, compound)
 
 ---
 
@@ -21,11 +19,7 @@
 {
   "default": "100000",
   "send": "100000",
-  "swap": "250000",
   "ibcSend": "150000",
-  "transfer": "200000",
-  "ibcTransfer": "250000",
-  "reward": "300000",
-  "squidContractSwap": "350000"
+  "reward": "300000"
 }
 ```
