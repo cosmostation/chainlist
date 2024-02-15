@@ -122,5 +122,18 @@
       "docs": "https://docs.eclipsefi.io/"
     },
     "comingSoon": false
+  },
+  {
+    "id": "pstake-finance",
+    "name": "pSTAKE Finance",
+    "dappType": "Liquid Staking",
+    "description": "pSTAKE is a Cosmos-focused liquid staking (LST issuance) protocol built on Persistence One. pSTAKE empowers users to earn staking rewards and participate in DeFi while maintaining liquidity with stkTokens.",
+    "link": "https://app.pstake.finance/",
+    "social": {
+      "webSite": "https://app.pstake.finance/",
+      "twitter": "https://twitter.com/pStakeFinance",
+      "docs": "https://docs.pstake.finance/stkATOM_Introduction/",
+      "medium": "https://blog.pstake.finance/"
+    }
   }
 ]

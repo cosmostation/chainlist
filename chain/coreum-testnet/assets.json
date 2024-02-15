@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "utestcore",
+    "type": "staking",
+    "origin_chain": "coreum-testnet",
+    "origin_denom": "utestcore",
+    "origin_type": "staking",
+    "symbol": "CORE",
+    "decimals": 6,
+    "description": "Coreum-testnet Staking Coin",
+    "image": "coreum-testnet/asset/core.png",
+    "coinGeckoId": ""
+  }
+]
