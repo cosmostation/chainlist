@@ -3010,5 +3010,17 @@
     },
     "image": "dymension/asset/dym.png",
     "coinGeckoId": "dymension"
+  },
+  {
+    "denom": "factory/osmo1fhd6udguyzl08tmr935vyge0a9wnc7pc4rucj3/omso",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1fhd6udguyzl08tmr935vyge0a9wnc7pc4rucj3/omso",
+    "origin_type": "native",
+    "symbol": "OMSO",
+    "decimals": 6,
+    "description": "Created as a culmination of all the memeable events on osmosis.",
+    "image": "osmosis/asset/omso.png",
+    "coinGeckoId": ""
   }
 ]
