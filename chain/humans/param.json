@@ -26,6 +26,10 @@
             "url": "humans-rpc.stakeangle.com:41490"
         },
         {
+            "provider": "NodesHub",
+            "url": "https://humans.grpc.nodeshub.online:443"
+        },
+        {
             "provider": "StakePool",
             "url": "grpc-humans.cosmos-spaces.cloud:1190"
         }

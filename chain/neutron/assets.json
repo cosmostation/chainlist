@@ -264,7 +264,7 @@
   },
   {
     "denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
-    "type": "cw20",
+    "type": "native",
     "origin_chain": "neutron",
     "origin_denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
     "origin_type": "cw20",
@@ -362,15 +362,14 @@
     "image": "neutron/asset/ntrl.png"
   },
   {
-    "denom": "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv",
+    "denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
     "type": "native",
     "origin_chain": "neutron",
-    "origin_denom": "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv",
+    "origin_denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
     "origin_type": "native",
-    "symbol": "BOY",
+    "symbol": "JIMMY",
     "decimals": 6,
-    "enable": true,
-    "description": "Astro BOY",
-    "image": "neutron/asset/boy.png"
+    "image": "neutron/asset/jimmy.png",
+    "coinGeckoId": ""
   }
 ]
