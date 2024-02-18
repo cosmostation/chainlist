@@ -31,5 +31,16 @@
         "image": "sei/asset/saber.png",
         "default": false,
         "coinGeckoId": ""
+    },
+    {
+        "chainId": "pacific-1",
+        "chainName": "sei",
+        "address": "sei1vrz7ndadkf6gwanf6ccy2d2v706yzrx2957fjd",
+        "symbol": "GNR",
+        "description": "GoldenRules",
+        "decimals": 6,
+        "image": "sei/asset/goldenruleslol.png",
+        "default": false,
+        "coinGeckoId": ""
     }
 ]
