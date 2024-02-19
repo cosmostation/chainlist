@@ -585,6 +585,26 @@
     "coinGeckoId": ""
   },
   {
+    "denom": "ibc/2BF9656CAB0384A31167DB9B0254F0FB1CB4346A229BD7E5CBDCBB911C3740F7",
+    "type": "ibc",
+    "origin_chain": "evmos",
+    "origin_denom": "berlin",
+    "origin_type": "erc20",
+    "symbol": "BERLIN",
+    "decimals": 18,
+    "enable": true,
+    "path": "evmos>osmosis",
+    "channel": "channel-204",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "erc20/0x1cFc8f1FE8D5668BAFF2724547EcDbd6f013a280"
+    },
+    "image": "evmos/asset/berlin.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7",
     "type": "ibc",
     "origin_chain": "cerberus",
