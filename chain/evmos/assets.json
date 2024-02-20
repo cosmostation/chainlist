@@ -395,5 +395,19 @@
     "image": "evmos/asset/neok.png",
     "contract": "0x655ecB57432CC1370f65e5dc2309588b71b473A9",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "erc20/0x1cFc8f1FE8D5668BAFF2724547EcDbd6f013a280",
+    "type": "native",
+    "origin_chain": "evmos",
+    "origin_denom": "neok",
+    "origin_type": "erc20",
+    "symbol": "BERLIN",
+    "description": "Teledisko DAO",
+    "decimals": 18,
+    "enable": true,
+    "image": "evmos/asset/berlin.png",
+    "contract": "0x1cFc8f1FE8D5668BAFF2724547EcDbd6f013a280",
+    "coinGeckoId": ""
   }
 ]
