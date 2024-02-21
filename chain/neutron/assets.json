@@ -371,5 +371,16 @@
     "decimals": 6,
     "image": "neutron/asset/jimmy.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
+    "origin_type": "native",
+    "symbol": "CARTEL",
+    "decimals": 6,
+    "image": "neutron/asset/cartel.png",
+    "coinGeckoId": ""
   }
 ]
