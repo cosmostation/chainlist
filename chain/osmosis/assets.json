@@ -3042,5 +3042,25 @@
     "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
     "image": "osmosis/asset/badkid.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/126DA09104B71B164883842B769C0E9EC1486C0887D27A9999E395C2C8FB5682",
+    "type": "ibc",
+    "origin_chain": "neutron",
+    "origin_denom": "untrn",
+    "origin_type": "staking",
+    "symbol": "NTRN",
+    "decimals": 6,
+    "enable": true,
+    "path": "neutron>osmosis",
+    "channel": "channel-874",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-10",
+      "port": "transfer",
+      "denom": "untrn"
+    },
+    "image": "neutron/asset/ntrn.png",
+    "coinGeckoId": "neutron-3"
   }
 ]
