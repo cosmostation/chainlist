@@ -193,66 +193,6 @@
     "coinGeckoId": "persistence"
   },
   {
-    "denom": "ibc/F5ED5F3DC6F0EF73FA455337C027FE91ABCB375116BF51A228E44C493E020A09",
-    "type": "ibc",
-    "origin_chain": "sifchain",
-    "origin_denom": "rowan",
-    "origin_type": "staking",
-    "symbol": "ROWAN",
-    "decimals": 18,
-    "enable": true,
-    "path": "sifchain>cosmos",
-    "channel": "channel-192",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-0",
-      "port": "transfer",
-      "denom": "rowan"
-    },
-    "image": "sifchain/asset/rowan.png",
-    "coinGeckoId": "sifchain"
-  },
-  {
-    "denom": "ibc/B93F321238F7BB15AB5B882660AAE72286C8E9035DE34E2B30F60E54C623C63C",
-    "type": "ibc",
-    "origin_chain": "emoney",
-    "origin_denom": "eeur",
-    "origin_type": "native",
-    "symbol": "EEUR",
-    "decimals": 6,
-    "enable": true,
-    "path": "emoney>cosmos",
-    "channel": "channel-202",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-1",
-      "port": "transfer",
-      "denom": "eeur"
-    },
-    "image": "emoney/asset/eeur.png",
-    "coinGeckoId": "e-money-eur"
-  },
-  {
-    "denom": "ibc/E070CE91CC4BD15AEC9B5788C0826755AAD35052A3037E9AC62BE70B4C9A7DBB",
-    "type": "ibc",
-    "origin_chain": "emoney",
-    "origin_denom": "ungm",
-    "origin_type": "staking",
-    "symbol": "NGM",
-    "decimals": 6,
-    "enable": true,
-    "path": "emoney>cosmos",
-    "channel": "channel-202",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-1",
-      "port": "transfer",
-      "denom": "ungm"
-    },
-    "image": "emoney/asset/ngm.png",
-    "coinGeckoId": "e-money"
-  },
-  {
     "denom": "ibc/CDAB23DA5495290063363BD1C3499E26189036302DC689985A7E23F8DF8D8DB0",
     "type": "ibc",
     "origin_chain": "juno",
@@ -393,66 +333,6 @@
     "coinGeckoId": "kava"
   },
   {
-    "denom": "ibc/20A7DC8E24709E6F1EE0F4E832C2ED345ADD77425890482A349AE3C43CAC6B2C",
-    "type": "ibc",
-    "origin_chain": "rizon",
-    "origin_denom": "uatolo",
-    "origin_type": "staking",
-    "symbol": "ATOLO",
-    "decimals": 6,
-    "enable": true,
-    "path": "rizon>cosmos",
-    "channel": "channel-313",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-0",
-      "port": "transfer",
-      "denom": "uatolo"
-    },
-    "image": "rizon/asset/atolo.png",
-    "coinGeckoId": "rizon"
-  },
-  {
-    "denom": "ibc/3F18D520CE791A40357D061FAD657CED6B21D023F229EAF131D7FE7CE6F488BD",
-    "type": "ibc",
-    "origin_chain": "crescent",
-    "origin_denom": "ucre",
-    "origin_type": "staking",
-    "symbol": "CRE",
-    "decimals": 6,
-    "enable": true,
-    "path": "crescent>cosmos",
-    "channel": "channel-326",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-1",
-      "port": "transfer",
-      "denom": "ucre"
-    },
-    "image": "crescent/asset/cre.png",
-    "coinGeckoId": "crescent-network"
-  },
-  {
-    "denom": "ibc/835EE9D00C35D72128F195B50F8A89EB83E5011C43EA0AA00D16348E2208FEBB",
-    "type": "ibc",
-    "origin_chain": "crescent",
-    "origin_denom": "ubcre",
-    "origin_type": "native",
-    "symbol": "bCRE",
-    "decimals": 6,
-    "enable": true,
-    "path": "crescent>cosmos",
-    "channel": "channel-326",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-1",
-      "port": "transfer",
-      "denom": "ubcre"
-    },
-    "image": "crescent/asset/bcre.png",
-    "coinGeckoId": "liquid-staking-crescent"
-  },
-  {
     "denom": "ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3",
     "type": "ibc",
     "origin_chain": "umee",
@@ -511,26 +391,6 @@
     },
     "image": "evmos/asset/evmos.png",
     "coinGeckoId": "evmos"
-  },
-  {
-    "denom": "ibc/DB9AAADFBE21E014373EF97141D451F453B9B9A2C8B65F5CF8E7CE57531B6850",
-    "type": "ibc",
-    "origin_chain": "crypto-org",
-    "origin_denom": "basecro",
-    "origin_type": "staking",
-    "symbol": "CRO",
-    "decimals": 8,
-    "enable": true,
-    "path": "crypto-org>evmos>cosmos",
-    "channel": "channel-292",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-3",
-      "port": "transfer",
-      "denom": "ibc/1FA2E811AA853A2AE028D82D490B1E967312DB871C9A40B19684FACB1DDD7881"
-    },
-    "image": "crypto-org/asset/cro.png",
-    "coinGeckoId": "crypto-com-chain"
   },
   {
     "denom": "ibc/9DFC3B38276E617E802EC8E05C85368D36836368795CE16A2A37B9942E29573C",
