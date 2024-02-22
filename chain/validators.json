@@ -132,7 +132,7 @@
   {
     "address": "lum1kjjpdtn5ts3qmj70sfgfm67t24y8yhrzudqasa",
     "operatorAddress": "lumvaloper1kjjpdtn5ts3qmj70sfgfm67t24y8yhrzr6fwte",
-    "signType": "amino"
+    "signType": "protobuf"
   },
   {
     "address": "stars1ulvgmlttxhrnmegu57sj0n2qc7xvtrn9ptqxsy",
@@ -292,6 +292,11 @@
   {
     "address": "kyve17xuyhz7s5hkwglmkf3qsrlyr3wk9qvqzxg4mja",
     "operatorAddress": "kyvevaloper17xuyhz7s5hkwglmkf3qsrlyr3wk9qvqz5c4mul",
+    "signType": "protobuf"
+  },
+  {
+    "address": "archway1lq9la9sh5kjla8x7pg74p7djy2f74u6g6t6ags",
+    "operatorAddress": "archwayvaloper1lq9la9sh5kjla8x7pg74p7djy2f74u6g60nl9e",
     "signType": "protobuf"
   }
 ]
