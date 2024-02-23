@@ -3062,5 +3062,25 @@
     },
     "image": "neutron/asset/ntrn.png",
     "coinGeckoId": "neutron-3"
+  },
+  {
+    "denom": "ibc/35CECC330D11DD00FACB555D07687631E0BC7D226260CC5F015F6D7980819533",
+    "type": "ibc",
+    "origin_chain": "humans",
+    "origin_denom": "aheart",
+    "origin_type": "staking",
+    "symbol": "HEART",
+    "decimals": 18,
+    "enable": true,
+    "path": "humans>osmosis",
+    "channel": "channel-20082",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "aheart"
+    },
+    "image": "humans/asset/humans.png",
+    "coinGeckoId": "humans-ai"
   }
 ]
