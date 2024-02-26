@@ -193,26 +193,6 @@
     "coinGeckoId": "cosmos"
   },
   {
-    "denom": "ibc/92E4AB82E3B2AF2D5181AC69C74F9F6D890442C7B7B02CC8634B9D3ED7CF936D",
-    "type": "ibc",
-    "origin_chain": "sifchain",
-    "origin_denom": "rowan",
-    "origin_type": "staking",
-    "symbol": "ROWAN",
-    "decimals": 18,
-    "enable": true,
-    "path": "sifchain>juno",
-    "channel": "channel-5",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-14",
-      "port": "transfer",
-      "denom": "rowan"
-    },
-    "image": "sifchain/asset/rowan.png",
-    "coinGeckoId": "sifchain"
-  },
-  {
     "denom": "ibc/B55B08EF3667B0C6F029C2CC9CAA6B00788CF639EBB84B34818C85CBABA33ABD",
     "type": "ibc",
     "origin_chain": "secret",
@@ -231,26 +211,6 @@
     },
     "image": "secret/asset/scrt.png",
     "coinGeckoId": "secret"
-  },
-  {
-    "denom": "ibc/B9F7C1E4CE9219B5AF06C47B18661DBD49CCD7A6C18FF789E2FB62BB365CFF9C",
-    "type": "ibc",
-    "origin_chain": "emoney",
-    "origin_denom": "eeur",
-    "origin_type": "native",
-    "symbol": "EEUR",
-    "decimals": 6,
-    "enable": true,
-    "path": "emoney>juno",
-    "channel": "channel-9",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-15",
-      "port": "transfer",
-      "denom": "eeur"
-    },
-    "image": "emoney/asset/eeur.png",
-    "coinGeckoId": "e-money-eur"
   },
   {
     "denom": "ibc/EAC38D55372F38F1AFD68DF7FE9EF762DCF69F26520643CF3F9D292A738D8034",
@@ -454,17 +414,5 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
-  },
-  {
-    "denom": "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava",
-    "type": "native",
-    "origin_chain": "juno",
-    "origin_denom": "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava",
-    "origin_type": "native",
-    "symbol": "HAVA",
-    "decimals": 6,
-    "description": "Hava Coin is the lifeblood of the Cosmos & Juno networks, rewarding builders and welcoming supporters. https://havacoin.xyz/",
-    "image": "juno/asset/hava.png",
-    "coinGeckoId": ""
   }
 ]

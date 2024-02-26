@@ -1329,5 +1329,17 @@
     "description": "Dog Wif Katana",
     "image": "injective/asset/katana.png",
     "coinGeckoId": "dogwifkatana"
+  },
+  {
+    "denom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava",
+    "origin_type": "native",
+    "symbol": "HAVA",
+    "decimals": 6,
+    "description": "Hava Coin is the lifeblood of the Cosmos & Injective networks, rewarding builders and welcoming supporters. https://havacoin.xyz/",
+    "image": "injective/asset/hava.png",
+    "coinGeckoId": ""
   }
 ]

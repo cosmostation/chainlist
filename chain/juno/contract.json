@@ -361,5 +361,16 @@
     "image": "juno/asset/yfd.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1lsfym25w35ylhuq4m48fmycwe6nhntzh2ag2pttqtfe8cew9s25s2ym9t8",
+    "symbol": "MRVA",
+    "description": "Minerva was one of the main goddesses worshiped by the Roman Pagans and is a goddess from Roman Mythology.",
+    "decimals": 6,
+    "image": "juno/asset/minerva.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
