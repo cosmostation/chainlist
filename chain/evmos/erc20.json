@@ -328,5 +328,16 @@
     "image": "evmos/asset/neok.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": 9001,
+    "chainName": "evmos",
+    "address": "0x1cFc8f1FE8D5668BAFF2724547EcDbd6f013a280",
+    "symbol": "BERLIN",
+    "description": "Teledisko DAO",
+    "decimals": 18,
+    "image": "evmos/asset/berlin.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
