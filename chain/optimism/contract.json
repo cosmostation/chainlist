@@ -2,6 +2,17 @@
   {
     "chainId": 10,
     "chainName": "optimism",
+    "address": "0x4200000000000000000000000000000000000042",
+    "symbol": "OP",
+    "description": "Optimism",
+    "decimals": 18,
+    "image": "optimism/asset/op.png",
+    "default": true,
+    "coinGeckoId":"optimism"
+  },
+  {
+    "chainId": 10,
+    "chainName": "optimism",
     "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
     "symbol": "USDT",
     "description": "Tether USD",
