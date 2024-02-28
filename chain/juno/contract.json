@@ -394,5 +394,16 @@
     "image": "juno/asset/aten.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1dtd45vxvv080v9x7hffysnmvrqm6ysecjdnvafqul28646hm04xs9gheh0",
+    "symbol": "HERA",
+    "description": "HERA is the goddess of marriage in Greek mythology.",
+    "decimals": 6,
+    "image": "juno/asset/hera.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
