@@ -383,5 +383,16 @@
     "image": "juno/asset/luno.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1elpg96tju8a32vzn25u6asvscajjm4000589z0zthhvks28ajypqzurl7r",
+    "symbol": "ATEN",
+    "description": "ATEN is NETA.",
+    "decimals": 6,
+    "image": "juno/asset/aten.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
