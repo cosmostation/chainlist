@@ -405,5 +405,16 @@
     "image": "juno/asset/hera.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1gwstg5ycwzxkecqat46kw3s0hwt6c9afsuvllu7cec0xh7nquhqszgf82c",
+    "symbol": "TAKUMI",
+    "description": "Prop #16, Prop #20.",
+    "decimals": 6,
+    "image": "juno/asset/takumi.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
