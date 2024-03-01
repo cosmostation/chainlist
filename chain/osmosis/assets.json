@@ -3082,5 +3082,17 @@
     },
     "image": "humans/asset/humans.png",
     "coinGeckoId": "humans-ai"
+  },
+  {
+    "denom": "factory/osmo1nr8zfakf6jauye3uqa9lrmr5xumee5n42lv92z/toro",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1nr8zfakf6jauye3uqa9lrmr5xumee5n42lv92z/toro",
+    "origin_type": "native",
+    "symbol": "TORO",
+    "decimals": 6,
+    "description": "Toro Token",
+    "image": "osmosis/asset/toro.png",
+    "coinGeckoId": ""
   }
 ]
