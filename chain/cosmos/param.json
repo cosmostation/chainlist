@@ -1,4 +1,5 @@
 {
+    "displayName": "Cosmos",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -33,14 +34,20 @@
     ],
     "about" : {
         "website" : "https://cosmos.network",
+        "docs": "https://docs.cosmos.network",
         "blog" : "https://blog.cosmos.network",
         "github" : "https://github.com/cosmos",
+        "medium": "https://blog.cosmos.network",
         "twitter" : "https://twitter.com/cosmos",
         "coingecko" : "https://www.coingecko.com/en/coins/cosmos-hub"
     },
+    "forum": {
+      "main": "https://forum.cosmos.network",
+      "governance": "https://forum.cosmos.network/c/hub-proposals"
+    },
     "description" : {
-        "ko" : "Tendermint BFT와 ABCI 기반의 분산형 블록체인 네트워크.",
-        "en" : "Decentralized network of blockchains powered by Tendermint BFT and ABCI.",
-        "ja" : "Tendermint BFTとABCIベースの分散型ブロックチェーンネットワーク。"
+        "ko" : "코스모스 허브는 다양한 블록체인 네트워크의 상호 운용성을 가능하게 해주는 Internet of Blockchain 입니다.",
+        "en" : "The Cosmos Hub is an Internet of Blockchains, a network of blockchains able to communicate with each other in a decentralized way.",
+        "ja" : "Cosmos Hub は、さまざまなブロックチェーンネットワークの相互運用性を可能にするInternet of Blockchainです。"
     }
 }
