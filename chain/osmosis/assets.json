@@ -3094,5 +3094,17 @@
     "description": "Toro Token",
     "image": "osmosis/asset/toro.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos",
+    "origin_type": "native",
+    "symbol": "YMOS",
+    "decimals": 6,
+    "description": "The governance and utility token of Yieldmos, the Interchain Automation Protocol",
+    "image": "osmosis/asset/ymos.png",
+    "coinGeckoId": ""
   }
 ]
