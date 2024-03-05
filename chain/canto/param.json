@@ -1,4 +1,5 @@
 {
+    "displayName": "Canto",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -33,8 +34,10 @@
     ],
     "about" : {
         "website" : "https://canto.io/",
-        "blog" : "https://canto.mirror.xyz/",
+        "docs": "https://docs.canto.io/",
         "github" : "https://github.com/Canto-Network",
+        "blog" : "https://canto.mirror.xyz/",
+        "medium": "https://canto.mirror.xyz/",
         "twitter" : "https://twitter.com/CantoPublic",
         "coingecko" : "https://www.coingecko.com/en/coins/canto"
     },
