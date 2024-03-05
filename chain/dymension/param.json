@@ -1,4 +1,5 @@
 {
+    "displayName": "Dymension",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -24,10 +25,15 @@
     ],
     "about" : {
         "website" : "https://dymension.xyz/",
-        "blog" : "https://medium.com/@dymension",
+        "docs": "https://docs.dymension.xyz/",
         "github" : "https://github.com/dymensionxyz",
+        "blog" : "https://medium.com/@dymension",
+        "medium": "https://medium.com/@dymension",
         "twitter" : "https://twitter.com/dymension",
         "coingecko" : "https://www.coingecko.com/en/coins/dymension"
+    },
+    "forum": {
+      "main": "https://forum.dymension.xyz/"
     },
     "description" : {
         "ko" : "Dymension은 $DYM으로 보호되는 탈중앙화된 L1 블록체인으로, 롤앱 인터넷의 구축을 지향합니다.",
