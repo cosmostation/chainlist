@@ -1,4 +1,5 @@
 {
+    "displayName": "EMoney",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -26,8 +27,9 @@
     ],
     "about" : {
         "website" : "https://e-money.com/",
-        "blog" : "https://medium.com/e-money-com",
         "github" : "https://github.com/e-money",
+        "blog" : "https://medium.com/e-money-com",
+        "medium": "https://medium.com/e-money-com",
         "twitter" : "https://twitter.com/emoney_com",
         "coingecko" : "https://www.coingecko.com/en/coins/e-money"
     },
