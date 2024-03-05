@@ -3078,5 +3078,16 @@
     "image": "ethereum/asset/yieldeth.png",
     "default": false,
     "coinGeckoId":"yieldeth-sommelier"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+    "symbol": "PSTAKE",
+    "description": "pSTAKE Finance",
+    "decimals": 18,
+    "image": "ethereum/asset/pstake.png",
+    "default": false,
+    "coinGeckoId":"pstake-finance"
   }
 ]
