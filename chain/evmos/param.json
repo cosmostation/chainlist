@@ -1,4 +1,5 @@
 {
+    "displayName": "Evmos",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -34,10 +35,16 @@
     ],
     "about" : {
         "website" : "https://evmos.org/",
-        "blog" : "https://evmos.blog/",
+        "docs": "https://evmos.dev",
         "github" : "https://github.com/evmos",
+        "blog" : "https://evmos.blog/",
+        "medium": "https://medium.com/evmos",
         "twitter" : "https://twitter.com/EvmosOrg",
         "coingecko" : "https://www.coingecko.com/en/coins/evmos"
+    },
+    "forum": {
+      "main": "https://commonwealth.im/evmos",
+      "governance": "https://commonwealth.im/evmos"
     },
     "description" : {
         "ko" : "EVM(이더리움 가상 머신) 호환이 가능한 Cosmos SDK 기반 블록체인.",
