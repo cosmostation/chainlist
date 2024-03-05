@@ -1,4 +1,5 @@
 {
+    "displayName": "Archway",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -33,7 +34,9 @@
     "about" : {
         "website" : "https://archway.io/",
         "blog" : "https://blog.archway.io/",
+        "docs": "https://docs.archway.io/",
         "github" : "https://github.com/archway-network",
+        "medium": "https://blog.archway.io/",
         "twitter" : "https://twitter.com/archwayhq",
         "coingecko" : "https://www.coingecko.com/en/coins/archway"
     },
