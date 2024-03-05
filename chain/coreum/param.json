@@ -1,4 +1,5 @@
 {
+    "displayName": "Coreum",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -34,8 +35,9 @@
     ],
     "about" : {
         "website" : "https://www.coreum.com/",
-        "blog" : "https://www.coreum.com/community#press-&-media",
+        "docs": "https://docs.coreum.dev/",
         "github" : "https://github.com/CoreumFoundation",
+        "blog" : "https://www.coreum.com/community#press-&-media",
         "twitter" : "https://twitter.com/CoreumOfficial",
         "coingecko" : "https://www.coingecko.com/en/coins/coreum"
     },
