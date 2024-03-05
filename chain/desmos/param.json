@@ -1,4 +1,5 @@
 {
+    "displayName": "Desmos",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -30,14 +31,19 @@
     ],
     "about" : {
         "website" : "https://www.desmos.network/",
-        "blog" : "https://medium.com/desmosnetwork",
+        "docs": "https://docs.desmos.network",
         "github" : "https://github.com/desmos-labs",
+        "blog" : "https://medium.com/desmosnetwork",
+        "medium": "https://medium.com/desmosnetwork",
         "twitter" : "https://twitter.com/DesmosNetwork",
         "coingecko" : "https://www.coingecko.com/en/coins/desmos"
     },
+    "forum": {
+      "main": "https://www.reddit.com/r/DesmosNetwork"
+    },
     "description" : {
-        "ko" : "Desmos 프로필을 통해 탈중앙화를 실현하는 Forbole사의 소셜 네트워크 블록체인.",
-        "en" : "A blockchain for decentralized social networks powered by Forbole.",
-        "ja" : "Desmosプロフィールを通じて分散型を実現するForbole社のソーシャル ネットワークブロックチェーン。"
+        "ko" : "Desmos는 분산형 소셜 네트워크 솔루션입니다. Desmos는 개발자에게 소셜 지원 애플리케이션을 쉽게 만들 수 있는 다양한 모듈을 제공합니다.",
+        "en" : "Desmos is a decentralized social network solution. Desmos provides developers with a multitude of modules that make it easy to create any socially-enabled application.",
+        "ja" : "Desmosは分散型ソーシャルネットワークソリューションです。 Desmosは、開発者にソーシャルサポートアプリケーションを簡単に作成できるさまざまなモジュールを提供します。"
     }
 }
