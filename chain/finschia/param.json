@@ -1,4 +1,5 @@
 {
+    "displayName": "Finschia",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -16,8 +17,10 @@
     ],
     "about" : {
         "website" : "https://www.finschia.network/",
-        "blog" : "https://finschia.medium.com/",
+        "docs": "https://docs.finschia.network/",
         "github" : "https://github.com/Finschia/",
+        "blog" : "https://www.finschia.network/disclosure/",
+        "medium": "https://finschia.medium.com/",
         "twitter" : "https://twitter.com/finschia",
         "coingecko" : "https://www.coingecko.com/en/coins/fnsa"
     },
