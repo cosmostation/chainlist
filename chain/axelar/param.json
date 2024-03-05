@@ -1,4 +1,5 @@
 {
+    "displayName": "Axelar",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -33,10 +34,15 @@
     ],
     "about" : {
         "website" : "https://axelar.network/",
-        "blog" : "https://axelar.network/blog",
+        "docs": "https://docs.axelar.dev",
         "github" : "https://github.com/axelarnetwork",
+        "blog" : "https://axelar.network/blog",
+        "medium": "https://axelar.network/blog",
         "twitter" : "https://twitter.com/axelarnetwork",
         "coingecko" : "https://www.coingecko.com/en/coins/axelar"
+    },
+     "forum": {
+      "main": "https://community.axelar.network"
     },
     "description" : {
         "ko" : "Axelar는 간단한 페깅 메커니즘으로 크로스 체인 통신을 가능하게 하는 분산형 멀티체인 네트워크입니다.",
