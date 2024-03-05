@@ -1,4 +1,5 @@
 {
+    "displayName": "dYdX",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -20,14 +21,20 @@
     ],
     "about" : {
         "website" : "https://dydx.exchange/",
-        "blog" : "https://dydx.exchange/blog#",
+        "docs" : "https://docs.dydx.exchange/",
         "github" : "https://github.com/dydxprotocol/",
+        "blog" : "https://dydx.exchange/blog#",
+        "medium": "https://dydx.exchange/blog",
         "twitter" : "https://twitter.com/dydx",
+        "discord": "https://discord.com/invite/Tuze6tY",
         "coingecko" : "https://www.coingecko.com/en/coins/dydx"
     },
+    "forum": {
+      "main": "https://dydx.forum/"
+    },
     "description" : {
-        "ko" : "dYdX는 수수료 없는 무기한 거래를 지원하는 탈중앙화 거래소를 위해 설계된 Cosmos SDK 기반 앱체인입니다.",
-        "en" : "dYdX is a standalone Cosmos appchain designed for a decentralized exchange that supports zero-fee perpetual trading.",
-        "ja" : "dYdXは手数料なしで無期限取引を支援する脱中央化取引所のために設計されたCosmosSDKベースのアプリチェーンです。"
+        "ko" : "dYdX 체인은 분산형 무기한 교환을 강화할 수 있는 오픈 소스 애플리케이션 전용 블록체인 소프트웨어입니다.",
+        "en" : "dYdX chain is an open-source application specific blockchain software that can power a decentralized perpetuals exchange.",
+        "ja" : "dYdX チェーンは、分散型永久交換を強化できるオープンソースのアプリケーション固有のブロックチェーン ソフトウェアです。"
     }
 }
