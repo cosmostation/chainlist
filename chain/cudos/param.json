@@ -1,4 +1,5 @@
 {
+    "displayName": "Cudos",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -29,14 +30,19 @@
     ],
     "about" : {
         "website" : "https://www.cudos.org/",
-        "blog" : "https://medium.com/cudos",
+        "docs": "https://docs.cudos.org/",
         "github" : "https://github.com/CudoVentures",
+        "blog" : "https://www.cudos.org/blog/",
+        "medium": "https://medium.com/cudos",
         "twitter" : "https://twitter.com/cudos",
         "coingecko" : "https://www.coingecko.com/en/coins/cudos"
     },
+    "forum": {
+      "main": "https://www.reddit.com/r/CUDOS"
+    },
     "description" : {
-        "ko" : "Cudos는 탈중앙화된 고효율 클라우드 컴퓨팅 네트워크를 위해 설계된 텐더민트 기반 블록체인입니다.",
-        "en" : "Cudos aims to build a high-performance, sustainable and decentralized cloud computing network.",
-        "ja" : "Cudos は分散された高効率クラウドコンピューティング ネットワークのため設計された、テンダーミントベースのブロックチェーンです。"
+        "ko" : "Cudos는 블록체인과 클라우드 컴퓨팅 기술을 결합하여 Web3를 위한 분산형 플랫폼을 만듭니다.",
+        "en" : "Cudos is a combining blockchain and cloud computing technologies to create a decentralized platform for Web3.",
+        "ja" : "Cudos は、ブロックチェーンとクラウド コンピューティング テクノロジーを組み合わせて、Web3 用の分散プラットフォームを作成します。"
     }
 }
