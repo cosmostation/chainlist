@@ -3,7 +3,7 @@
     "fee" : {
         "base" : "1",
         "rate" : [
-            "0.0ugovgen",
+            "0.001ugovgen",
             "0.005ugovgen"
         ],
         "isSimulable" : true,
