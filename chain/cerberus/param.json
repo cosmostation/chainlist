@@ -1,4 +1,5 @@
 {
+    "displayName": "Cerberus",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -19,6 +20,11 @@
         }
     ],
     "about" : {
+        "webSite": "https://www.cerberus.zone",
+        "docs": "https://docs.cerberus.zone/running-a-validator.html",
+        "github": "https://github.com/cerberus-zone?tab=repositories",
+        "medium": "https://medium.com/cerberus-zone/cerberus-crbrus-airdrop-coming-to-the-cosmos-network-9911c780dcdd",
+        "twitter": "https://twitter.com/CerberusZone",
         "coingecko" : "https://www.coingecko.com/en/coins/cerberus"
     },
     "description" : {
