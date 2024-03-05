@@ -1,4 +1,5 @@
 {
+    "displayName": "Comdex",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -33,14 +34,20 @@
     ],
     "about" : {
         "website" : "https://comdex.one/",
-        "blog" : "https://blog.comdex.one/",
+        "docs": "https://docs.comdex.one",
         "github" : "https://github.com/comdex-official",
+        "blog" : "https://blog.comdex.one/",
+        "medium": "https://blog.comdex.one",
         "twitter" : "https://twitter.com/ComdexOfficial",
         "coingecko" : "https://www.coingecko.com/en/coins/comdex"
     },
+    "forum": {
+      "main": "https://forum.comdex.one",
+      "governance": "https://forum.comdex.one/c/comdex-discussion"
+    },
     "description" : {
-        "ko" : "토큰화된 합성자산의 거래와 파생상품 활용을 위한 탈중앙화 플랫폼.",
-        "en" : "A decentralized platform for minting & exchanging of synthetic assets.",
-        "ja" : "トークン化された合成資産の取引とデリバティブ活用のための分散型プラットフォーム。"
+        "ko" : "Comdex는 인터체인 DeFi를 위한 인프라 레이어입니다.",
+        "en" : "Comdex is an interchain DeFi infrastructure layer housing a suite of composable solutions on-chain.",
+        "ja" : "ComdexはインターチェーンDeFiのためのインフラストラクチャレイヤです。"
     }
 }
