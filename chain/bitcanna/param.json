@@ -1,4 +1,5 @@
 {
+    "displayName": "Bitcanna",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -32,10 +33,15 @@
     ],
     "about" : {
         "website" : "https://www.bitcanna.io/",
-        "blog" : "https://medium.com/@BitCannaGlobal",
+        "docs": "https://docs.bitcanna.io",
         "github" : "https://github.com/BitCannaGlobal",
+        "blog" : "https://medium.com/@BitCannaGlobal",
+        "medium": "https://medium.com/@BitCannaGlobal",
         "twitter" : "https://twitter.com/BitcannaGlobal",
         "coingecko" : "https://www.coingecko.com/en/coins/bitcanna"
+    },
+     "forum": {
+      "main": "https://www.reddit.com/r/BitCanna"
     },
     "description" : {
         "ko" : "네덜란드를 중심으로 유렵 내 카나비스의 공급망과 거래용 화폐($BCNA)를 제공하는 Cosmos SDK 기반 탈중앙화 네트워크.",
