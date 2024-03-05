@@ -1,4 +1,5 @@
 {
+    "displayName": "Bitsong",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -28,10 +29,15 @@
     ],
     "about" : {
         "website" : "http://bitsong.io/",
-        "blog" : "https://bitsongofficial.medium.com/",
+        "docs": "https://docs.bitsong.io",
         "github" : "https://github.com/BitSongOfficial",
+        "blog" : "https://bitsongofficial.medium.com/",
+        "medium": "https://bitsongofficial.medium.com",
         "twitter" : "https://twitter.com/BitSongOfficial",
         "coingecko" : "https://www.coingecko.com/en/coins/bitsong"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/bitsong"
     },
     "description" : {
         "ko" : "Cosmos SDK 기반 블록체인으로서 음악산업 내 아티스트와 팬, 음원 공급사를 연결해주는 탈중앙화 플랫폼입니다.",
