@@ -1,4 +1,5 @@
 {
+    "displayName": "Injective",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -32,14 +33,20 @@
     ],
     "about" : {
         "website" : "https://injective.com/",
-        "blog" : "https://medium.com/injective-labs",
+        "docs": "https://docs.injective.network",
         "github" : "https://github.com/InjectiveLabs",
+        "blog" : "https://blog.injective.com/",
+        "medium": "https://medium.com/injective-labs",
         "twitter" : "https://twitter.com/Injective_",
         "coingecko" : "https://www.coingecko.com/en/coins/injective-protocol"
     },
+    "forum": {
+      "main": "https://gov.injective.network",
+      "governance": "https://gov.injective.network/discussions/Governance/"
+    },
     "description" : {
-        "ko" : "다양한 금융서비스를 제공하는 Cosmos SDK 기반의 탈중앙화 크로스체인 금융 플랫폼입니다.",
-        "en" : "A Cosmos SDK based fully decentralized financial network for cross-chain trading and derivatives.",
-        "ja" : "様々な金融サービスを提供するCosmos SDKベースの分散型クロスチェーン金融プラットフォームです。"
+        "ko" : "Injective는 DeFi 애플리케이션을 구축하기 위한 개방적이고 상호 운용 가능한 레이어 1 블록체인입니다.",
+        "en" : "Injective is an open, interoperable layer-one blockchain for building DeFi applications.",
+        "ja" : "Injective は、DeFi アプリケーションを構築するためのオープンで相互運用可能なレイヤー 1 ブロックチェーンです。"
     }
 }
