@@ -1,0 +1,21 @@
+{
+    "displayName": "Juno Testnet",
+    "about" : {
+        "website" : "https://junonetwork.io/",
+        "docs": "https://docs.junonetwork.io/juno/readme",
+        "github" : "https://github.com/CosmosContracts",
+        "blog" : "https://medium.com/@JunoNetwork",
+        "medium": "https://medium.com/@JunoNetwork",
+        "twitter" : "https://twitter.com/JunoNetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/juno-network"
+    },
+    "forum": {
+      "main": "https://commonwealth.im/juno",
+      "governance": "https://commonwealth.im/juno/discussions/Draft%20Proposals"
+    },
+    "description" : {
+        "ko" : "Cosmos SDK 기반의 상호 운용 가능한 스마트 컨트랙트 네트워크. 확장성, 속도, 보안, 그리고 유저 친화적인 개발환경을 제공합니다.",
+        "en" : "Interoperable smart contract network built with the Cosmos SDK. Highly scalable, robust, secure and easy to deploy.",
+        "ja" : "Cosmos SDKベースの相互運用可能なスマートコントラクトネットワーク。拡張性、速度、保安、そしてユーザー親和的な開発環境を提供します。"
+    }
+}
