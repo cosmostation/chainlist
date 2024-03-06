@@ -1,4 +1,5 @@
 {
+    "displayName": "Kyve",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -28,8 +29,10 @@
     ],
     "about" : {
         "website" : "https://www.kyve.network/",
-        "blog" : "https://blog.kyve.network/",
+        "docs": "https://docs.kyve.network",
         "github" : "https://github.com/KYVENetwork",
+        "blog" : "https://blog.kyve.network",
+        "medium": "https://blog.kyve.network",
         "twitter" : "https://twitter.com/KYVENetwork",
         "coingecko" : "https://www.coingecko.com/en/coins/kyve-network"
     },
