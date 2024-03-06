@@ -1,32 +1,5 @@
 {
-    "displayName": "Kyve",
-    "fee" : {
-        "base" : "0",
-        "rate" : [
-            "0.02ukyve"
-        ],
-        "isSimulable" : true,
-        "simul_gas_multiply" : 1.2,
-        "fee_threshold" : ""
-    },
-    "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-kyve.cosmostation.io:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-kyve.cosmos-spaces.cloud:2590"
-        },
-        {
-            "provider": "MMS",
-            "url": "grpc-kyve.mms.team:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "kyve-grpc.lavenderfive.com:443"
-        }
-    ],
+    "displayName": "Kyve Testnet",
     "about" : {
         "website" : "https://www.kyve.network/",
         "docs": "https://docs.kyve.network",

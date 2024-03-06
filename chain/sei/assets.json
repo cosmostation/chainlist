@@ -284,5 +284,26 @@
     },
     "image": "cerberus/asset/crbrus.png",
     "coinGeckoId": "cerberus-2"
+  },
+  {
+    "denom": "ibc/6C00E4AA0CC7618370F81F7378638AE6C48EFF8C9203CE1C2357012B440EBDB7",
+    "type": "ibc",
+    "origin_chain": "kava",
+    "origin_denom": "erc20/tether/usdt",
+    "origin_type": "native",
+    "symbol": "USDt",
+    "decimals": 6,
+    "description": "Tether USDt",
+    "enable": true,
+    "path": "kava>sei",
+    "channel": "channel-18",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-132",
+      "port": "transfer",
+      "denom": "erc20/tether/usdt"
+    },
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether"
   }
 ]

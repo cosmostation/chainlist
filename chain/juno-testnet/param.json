@@ -1,38 +1,5 @@
 {
-    "displayName": "Juno",
-    "fee" : {
-        "base" : "1",
-        "rate" : [
-            "0.075ujuno,0.003ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
-            "0.1ujuno,0.004ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
-            "0.125ujuno,0.005ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9"
-        ],
-        "isSimulable" : true,
-        "simul_gas_multiply" : 1.2,
-        "fee_threshold" : ""
-    },
-    "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-juno.cosmostation.io:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "juno-grpc.polkachu.com:12690"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-juno-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Stakin",
-            "url": "juno.grpc.stakin-nodes.com:443"
-        },
-        {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "juno-grpc.publicnode.com:443"
-        }
-    ],
+    "displayName": "Juno Testnet",
     "about" : {
         "website" : "https://junonetwork.io/",
         "docs": "https://docs.junonetwork.io/juno/readme",

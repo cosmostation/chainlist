@@ -1,37 +1,5 @@
 {
-    "displayName": "Kava",
-    "fee" : {
-        "base" : "0",
-        "rate" : [
-            "0.01ukava",
-            "0.05ukava"
-        ],
-        "isSimulable" : true,
-        "simul_gas_multiply" : 1.2,
-        "fee_threshold" : ""
-    },
-    "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-kava.cosmostation.io:443"
-        },
-        {
-            "provider": "kava",
-            "url": "grpc.data.kava.io:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-kava-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "kava-grpc.polkachu.com:13990"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "grpc-kava-01.stakeflow.io:1202"
-        }
-    ],
+    "displayName": "Kava Testnet",
     "about" : {
         "website" : "https://www.kava.io/",
         "docs": "https://docs.kava.io/docs/intro",

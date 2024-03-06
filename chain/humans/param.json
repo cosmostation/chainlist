@@ -1,4 +1,5 @@
 {
+    "displayName": "Humans.ai",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -36,14 +37,19 @@
     ],
     "about" : {
         "website" : "https://humans.ai/",
-        "blog" : "https://medium.com/humansdotai",
+        "docs": "https://docs.humans.ai",
         "github" : "https://github.com/humansdotai",
+        "blog" : "https://medium.com/humansdotai",
+        "medium": "https://medium.com/humansdotai",
         "twitter" : "https://twitter.com/humansdotai",
         "coingecko" : "https://www.coingecko.com/en/coins/humans-ai"
     },
+    "forum": {
+      "main": "https://commonwealth.im/humans"
+    },
     "description" : {
-        "ko" : "Humans.ai는 AI 알고리즘과 AI 모델 생성을 독려하기 위해 설계된 분산형 AI 생태계입니다.",
-        "en" : "Humans.ai  is a decentralized AI ecosystem designed to incentivize the creation of AI algorithms and models.",
-        "ja" : "Humans.ai はAIアルゴリズムとAIモデルの生成を促すために設計された分散型AI生態系です。"
+        "ko" : "Humans.ai는 AI 기반 창작과 블록체인 거버넌스를 위한 올인원 플랫폼을 만들고 있습니다.",
+        "en" : "Humans.ai is creating an all-in-one platform for AI-based creation and blockchain governance.",
+        "ja" : "Humans.ai は、AI ベースの作成とブロックチェーン ガバナンスのためのオールインワン プラットフォームを作成しています。"
     }
 }

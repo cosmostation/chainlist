@@ -1,4 +1,5 @@
 {
+    "displayName": "Ki Chain",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -32,14 +33,16 @@
     ],
     "about" : {
         "website" : "https://www.foundation.ki/",
-        "blog" : "https://medium.com/ki-foundation",
+        "docs": "https://foundation.ki",
         "github" : "https://github.com/KiFoundation",
+        "blog" : "https://medium.com/ki-foundation",
+        "medium": "https://medium.com/ki-foundation",
         "twitter" : "https://twitter.com/Ki_Foundation",
         "coingecko" : "https://www.coingecko.com/en/coins/ki"
     },
     "description" : {
-        "ko" : "Cosmos SDK로 구축된 오픈 소스 블록 체인  분산 응용 프로그램 플랫폼.",
-        "en" : "Open-source blockchain platform for decentralized applications.",
-        "ja" : "分散型アプリケーション向けのオープンソース ブロックチェーン プラットフォーム。"
+        "ko" : "Ki 체인은 Cosmos SDK로 구축된 분산형 금융을 지원하도록 설계된 오픈 소스 퍼블릭 블록체인입니다.",
+        "en" : "Ki chain is an open source, public blockchain designed to enable decentralized finance, built with the Cosmos SDK.",
+        "ja" : "Ki チェーンは、分散型金融を可能にするために設計されたオープンソースのパブリック ブロックチェーンで、Cosmos SDK で構築されています。"
     }
 }

@@ -1,4 +1,5 @@
 {
+    "displayName": "Iris",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -34,14 +35,20 @@
     ],
     "about" : {
         "website" : "https://www.irisnet.org/en/",
-        "blog" : "https://medium.com/irisnet-blog",
+        "docs": "https://www.irisnet.org/docs",
         "github" : "https://github.com/irisnet",
+        "blog" : "https://medium.com/irisnet-blog",
+        "medium": "https://medium.com/irisnet-blog",
         "twitter" : "https://twitter.com/irisnetwork",
         "coingecko" : "https://www.coingecko.com/en/coins/irisnet"
     },
+    "forum": {
+      "main": "https://forum.irisnet.org",
+      "governance": "https://forum.irisnet.org/c/governance"
+    },
     "description" : {
-        "ko" : "분산형 비즈니스 생태계를 위한 인터체인 서비스 인프라 & 프로토콜.",
-        "en" : "Interchain service infrastructure for a distributed business ecosystem",
-        "ja" : "分散型ビジネス エコシステムのためのインターチェーンサービス インフラ＆プロトコル。"
+        "ko" : "IRIS Network(a.k.a. IRISnet)는 차세대 분산 애플리케이션 구축을 촉진하기 위한 기술 기반 구축을 목표로 합니다.",
+        "en" : "IRIS Network (a.k.a. IRISnet) aims to establish a technology foundation to facilitate construction of next-generation distributed applications.",
+        "ja" : "IRIS Network (別名 IRISnet) は、次世代の分散アプリケーションの構築を促進するための技術基盤を確立することを目的としています。"
     }
 }
