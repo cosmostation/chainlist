@@ -1,4 +1,5 @@
 {
+    "displayName": "Ixo",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -16,8 +17,10 @@
     ],
     "about" : {
         "website" : "https://www.ixo.world/",
-        "blog" : "https://medium.com/ixo-blog",
+        "docs": "https://docs.ixo.foundation/ixo",
         "github" : "https://github.com/ixofoundation",
+        "blog" : "https://medium.com/ixo-blog",
+        "medium": "https://medium.com/ixo-blog",
         "twitter" : "https://twitter.com/ixoworld",
         "coingecko" : "https://www.coingecko.com/en/coins/ixo"
     },
