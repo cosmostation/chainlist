@@ -1,4 +1,5 @@
 {
+    "displayName": "UX",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -33,10 +34,16 @@
     ],
     "about" : {
         "website" : "https://www.ux.xyz/",
-        "blog" : "https://medium.com/umeeblog",
+        "docs": "https://docs.umee.cc/umee",
         "github" : "https://github.com/umee-network",
+        "blog" : "https://www.ux.xyz/blog",
+        "medium": "https://medium.com/umeeblog",
         "twitter" : "https://twitter.com/Umee_CrossChain",
         "coingecko" : "https://www.coingecko.com/en/coins/umee"
+    },
+    "forum": {
+      "main": "https://commonwealth.im/umee",
+      "governance": "https://commonwealth.im/umee/discussions/Proposal%20Discussion"
     },
     "description" : {
         "ko" : "멀티체인 대출 및 차용, 스테이킹, 레버리지를 가능하게 하는 크로스체인 DeFi 플랫폼.",
