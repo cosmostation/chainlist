@@ -1,4 +1,5 @@
 {
+    "displayName": "Terra",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -33,10 +34,15 @@
     ],
     "about" : {
         "website" : "https://www.terra.money/",
-        "blog" : "https://medium.com/terra-money",
+        "docs": "https://docs.terra.money/",
         "github" : "https://github.com/terra-money/core",
+        "blog" : "https://medium.com/terra-money",
+        "medium": "https://medium.com/terra-money",
         "twitter" : "https://twitter.com/terra_money",
         "coingecko" : "https://www.coingecko.com/en/coins/terra-luna-2"
+    },
+    "forum": {
+      "main": "https://agora.terra.money/overview"
     },
     "description" : {
         "ko" : "Terra 네트워크는 Terra Classic 에서 하드포크된 Cosmos SDK 기반 비허가형 블록체인 네트워크입니다.",
