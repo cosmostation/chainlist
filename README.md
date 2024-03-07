@@ -22,7 +22,7 @@
 
  - Add your image to `${targetchain}/moniker` folder
  - Image with png format and validator address name
- - [Example](https://github.com/cosmostation/chainlist/tree/main/chain/cosmos/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos
+ - [Example](https://github.com/cosmostation/chainlist/blob/main/chain/cosmos/moniker/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos
 </details>
 
 ---
