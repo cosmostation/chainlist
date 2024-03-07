@@ -1,4 +1,5 @@
 {
+    "displayName": "Provenance",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -32,8 +33,9 @@
     ],
     "about" : {
         "website" : "https://www.provenance.io/",
-        "blog" : "https://medium.com/provenanceblockchain",
+        "docs": "https://docs.provenance.io",
         "github" : "https://github.com/provenance-io",
+        "medium": "https://medium.com/provenanceblockchain",
         "twitter" : "https://twitter.com/provenancefdn",
         "coingecko" : ""
     },
