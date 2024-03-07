@@ -305,5 +305,25 @@
     },
     "image": "ethereum/asset/usdt.png",
     "coinGeckoId": "tether"
+  },
+  {
+    "denom": "ibc/CA6FBFAF399474A06263E10D0CE5AEBBE15189D6D4B2DD9ADE61007E68EB9DB0",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>sei",
+    "channel": "channel-45",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-39",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]
