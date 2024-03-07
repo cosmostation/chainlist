@@ -262,7 +262,7 @@
 <details>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your CW20 token info</h2></summary>
 
-  [Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/contract.json) list supporting
+  [Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/cw20.json) list supporting
   1. Fork this repo to your own github account\
   2. Clone fork and create new branch
 
@@ -302,7 +302,7 @@
 ---
 
 - Cw20 Token
-  `chain/${targetChain}/contract.json`
+  `chain/${targetChain}/cw20.json`
 
   ```json
   // example JUNO
@@ -348,7 +348,7 @@
 <details>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your ERC20 token info</h2></summary>
 
-  [Evmos Erc20](https://github.com/cosmostation/chainlist/blob/main/chain/evmos/contract.json) list supporting
+  [Evmos Erc20](https://github.com/cosmostation/chainlist/blob/main/chain/evmos/erc20.json) list supporting
 
   1. Fork this repo to your own github account
   2. Clone fork and create new branch
@@ -387,7 +387,7 @@
    ---
 
 - ERC20 Token
-  `chain/${targetChain}/contract.json`
+  `chain/${targetChain}/erc20.json`
 
   ```json
   // example EVMOS
