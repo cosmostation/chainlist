@@ -1,4 +1,5 @@
 {
+    "displayName": "Mars Protocol",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -32,10 +33,16 @@
     ],
     "about" : {
         "website" : "https://marsprotocol.io/",
-        "blog" : "https://mars-protocol.medium.com/",
+        "docs": "https://docs.marsprotocol.io/mars-protocol/",
         "github" : "https://github.com/mars-protocol",
+        "blog" : "https://blog.marsprotocol.io/",
+        "medium": "https://mars-protocol.medium.com/",
         "twitter" : "https://twitter.com/mars_protocol",
         "coingecko" : "https://www.coingecko.com/en/coins/mars-protocol"
+    },
+    "forum": {
+      "main": "https://forum.marsprotocol.io/",
+      "governance": "https://forum.marsprotocol.io/c/proposals/5"
     },
     "description" : {
         "ko" : "Mars Hub는 Interchain 생태계 전반에 걸쳐 배포될 Mars Protocol의 다양한 디파이 앱들의 관리 및 운영을 위해 설계된 블록체인입니다.",
