@@ -1,4 +1,5 @@
 {
+    "displayName": "Regen",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -34,10 +35,15 @@
     ],
     "about" : {
         "website" : "https://www.regen.network/",
-        "blog" : "https://medium.com/regen-network",
+        "docs": "https://docs.regen.network",
         "github" : "https://github.com/regen-network",
+        "medium": "https://medium.com/regen-network",
         "twitter" : "https://twitter.com/regen_network",
         "coingecko" : "https://www.coingecko.com/en/coins/regen"
+    },
+    "forum": {
+      "main": "https://forum.regen.network",
+      "governance": "https://forum.regen.network/discussions/Governance/"
     },
     "description" : {
         "ko" : "Regen은 친환경 데이터와 환경보호 활동를 위해 설계된 코스모스 기반 지분증명 블록체인입니다.",
