@@ -1,4 +1,5 @@
 {
+    "displayName": "Sentinel",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -32,10 +33,15 @@
     ],
     "about" : {
         "website" : "https://sentinel.co/",
-        "blog" : "https://medium.com/sentinel",
+        "docs": "https://docs.sentinel.co",
         "github" : "https://github.com/sentinel-official",
+        "medium": "https://medium.com/sentinel",
         "twitter" : "https://twitter.com/Sentinel_co",
         "coingecko" : "https://www.coingecko.com/en/coins/sentinel"
+    },
+    "forum": {
+      "main": "https://commonwealth.im/sentinel",
+      "governance": "https://commonwealth.im/sentinel/discussions/1%20-%20Proposal%20discussion"
     },
     "description" : {
         "ko" : "탈중앙화 오픈소스 VPN 서비스를 호스팅하여 유저들에게 프라이버시와 보안을 제공하는 Cosmos SDK 기반의 PoS 네트워크.",
