@@ -1,0 +1,20 @@
+{
+  "displayName": "Neutron Testnet",
+  "about": {
+    "website": "https://neutron.org/",
+    "docs": "https://docs.neutron.org/",
+    "github": "https://github.com/neutron-org",
+    "medium": "https://blog.neutron.org/",
+    "twitter": "https://twitter.com/Neutron_org",
+    "discord": "https://discord.com/invite/zRT2ZkQsxA",
+    "coingecko": "https://www.coingecko.com/en/coins/neutron"
+  },
+  "forum": {
+      "main": "https://reddit.com/r/MediBloc"
+  },
+  "description": {
+    "ko": "Neutron은 Cosmos 허브의 Interchain Security를 사용하는 비허가형 CosmWasm 플랫폼입니다.",
+    "en": "Neutron is a blockchain network that brings Smart Contracts into the Cosmos-family blockchains using CosmWasm.",
+    "ja": "Neutronは、CosmosハブのInterchain Securityを使用する非許可型CosmWasmプラットフォームです。"
+  }
+}
