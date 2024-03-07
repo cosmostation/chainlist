@@ -1,0 +1,36 @@
+{
+    "displayName": "Althea",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "20000000000000000aalthea"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.4,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-althea.cosmostation.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.althea.net/",
+        "docs": "https://evmos.dev",
+        "github" : "https://github.com/althea-net",
+        "blog" : "https://medium.com/althea-mesh",
+        "medium": "https://medium.com/althea-mesh",
+        "twitter" : "https://twitter.com/AltheaNetwork",
+        "discord" : "https://discord.com/invite/hHx7HxcycF",
+        "coingecko" : "https://www.coingecko.com/en/coins/althea"
+    },
+    "forum": {
+      "main": "https://forum.altheamesh.com/"
+    },
+    "description" : {
+        "ko" : "Althea Network는  ISP 서비스와 인프라를 위한 분산형 플랫폼이며, 블록체인 기술을 통해 효율적인 인프라 지원 및 결제 처리를 지원합니다.",
+        "en" : "Althea Network is a decentralized platform for ISP service and infrastructure, leveraging blockchain technology to facilitate efficient metering, delivery, infrastructure deployment and payment processing.",
+        "ja" : "Althea Network は、ISP サービスとインフラストラクチャのための分散型プラットフォームであり、ブロックチェーン技術を活用して効率的な計測、配信、インフラストラクチャの導入、支払い処理を促進します。"
+    }
+}
