@@ -1,4 +1,5 @@
 {
+    "displayName": "Xpla",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -17,8 +18,9 @@
     ],
     "about" : {
         "website" : "https://xpla.io/",
-        "blog" : "https://medium.com/@XPLA_Official",
+        "docs": "https://docs.xpla.io/",
         "github" : "https://github.com/xpladev",
+        "medium": "https://medium.com/@XPLA_Official",
         "twitter" : "https://twitter.com/XPLA_Official",
         "coingecko" : "https://www.coingecko.com/en/coins/xpla"
     },
