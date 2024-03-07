@@ -1,4 +1,5 @@
 {
+    "displayName": "Persistence",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -33,14 +34,21 @@
     ],
     "about" : {
         "website" : "https://persistence.one/",
-        "blog" : "https://blog.persistence.one/",
+        "docs": "https://docs.persistence.one/",
         "github" : "https://github.com/persistenceOne",
+        "blog" : "https://blog.persistence.one/",
+        "medium": "https://medium.com/@persistenceone",
         "twitter" : "https://twitter.com/PersistenceOne",
+        "discord" : "https://discord.com/invite/vyvp3scWnH",
         "coingecko" : "https://www.coingecko.com/en/coins/persistence"
     },
+    "forum": {
+      "main": "https://forum.persistence.one/",
+      "governance": "https://forum.persistence.one/c/governance/"
+    },
     "description" : {
-        "ko" : "유동성 스테이킹, NFT, 합성 자산 등 다수의 자산 클래스를 다루는 블록체인 프로토콜.",
-        "en" : "A protocol enabling exposure to multiple asset classes such as Liquid Staking, NFTs and Synthetics.",
-        "ja" : "流動性ステーキング、NFT、合成資産など、複数の資産クラスを扱うブロックチェーンプロトコル。"
+        "ko" : "Persistence One은 Liquid Stake 및 Restake를 위해 구축된 레이어 1 체인 입니다.",
+        "en" : "Persistence One is a purpose built Layer 1 on a mission to maximize yield and security through Liquid Staking and Restaking.",
+        "ja" : "Persistence Oneは、Liquid StakeとRestake用に構築されたレイヤ1チェーンです。"
     }
 }
