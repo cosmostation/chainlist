@@ -1,4 +1,5 @@
 {
+    "displayName": "Stafi",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -33,10 +34,15 @@
     ],
     "about" : {
         "website" : "https://www.stafihub.io/",
-        "blog" : "https://stafi-protocol.medium.com/",
+        "docs": "https://docs.stafi.io/",
         "github" : "https://github.com/stafihub/stafihub",
+        "medium": "https://stafi-protocol.medium.com/",
         "twitter" : "https://twitter.com/StaFiHub_",
         "coingecko" : "https://www.coingecko.com/en/coins/stafi"
+    },
+    "forum": {
+      "main": "https://commonwealth.im/stafi",
+      "governance": "https://commonwealth.im/stafi/discussions"
     },
     "description" : {
         "ko" : "StaFi Hub 는 크로스체인 리퀴드 스테이킹을 위해 설계된 Cosmos SDK 기반 블록체인 네트워크입니다.",
