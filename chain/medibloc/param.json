@@ -1,4 +1,5 @@
 {
+    "displayName": "Medibloc",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -20,14 +21,19 @@
     ],
     "about" : {
         "website" : "https://medibloc.co.kr/",
-        "blog" : "https://medibloc.medium.com/",
+        "docs": "https://docs.gopanacea.org/",
         "github" : "https://github.com/Medibloc",
+        "blog" : "https://blog.medibloc.org/",
+        "medium": "https://medibloc.medium.com",
         "twitter" : "https://twitter.com/_MediBloc",
         "coingecko" : "https://www.coingecko.com/en/coins/medibloc"
     },
+    "forum": {
+      "main": "https://reddit.com/r/MediBloc"
+    },
     "description" : {
-        "ko" : "의료 데이터의 효율적인 배포를위한 플랫폼을 제공하는 환자 중심 의료 데이터 솔루션입니다.",
-        "en" : "Patient-centric healthcare data solution providing a platform for efficient distribution of healthcare data.",
-        "ja" : "医療データを効率的に配信するためのプラットフォームを提供する、患者中心の医療データソリューションです。"
+        "ko" : "메디블록은 환자 중심의 의료 정보 플랫폼 구축을 통해 모든 사람이 건강한 삶을 살 수 있는 세상을 만들고자 하는 블록체인 기반의 디지털 헬스케어 기업입니다.",
+        "en" : "MediBloc is a blockchain-based digital healthcare company with the lofty goals of building a patient-centric healthcare data platform and ultimately helping people lead healthier lives.",
+        "ja" : "MediBloc は、患者中心のヘルスケア データ プラットフォームを構築し、最終的に人々がより健康的な生活を送れるよう支援するという高い目標を掲げる、ブロックチェーン ベースのデジタル ヘルスケア企業です。"
     }
 }
