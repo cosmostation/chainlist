@@ -1,4 +1,5 @@
 {
+    "displayName": "Stride",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -32,10 +33,14 @@
     ],
     "about" : {
         "website" : "https://www.stride.zone/",
-        "blog" : "https://stride.zone/blog",
+        "docs": "https://docs.stride.zone",
         "github" : "https://github.com/Stride-Labs/stride",
+        "blog" : "https://stride.zone/blog",
         "twitter" : "https://twitter.com/stride_zone",
         "coingecko" : "https://www.coingecko.com/en/coins/stride"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/Stride_Zone"
     },
     "description" : {
         "ko" : "Stride 는 stToken의 발행을 통해 스테이킹된 자산을 유동화시키는 유동성 스테이킹 프로토콜입니다.",
