@@ -1,4 +1,5 @@
 {
+    "displayName": "Likecoin",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -21,10 +22,16 @@
     ],
     "about" : {
         "website" : "https://about.like.co/",
-        "blog" : "https://blog.like.co/en/",
+        "docs": "https://docs.like.co/developer/introduction",
         "github" : "https://github.com/likecoin",
+        "blog" : "https://blog.like.co/en/",
+        "medium": "https://blog.like.co/en/",
         "twitter" : "https://twitter.com/likecoin",
+        "discord" : "https://discord.com/invite/W4DQ6peZZZ",
         "coingecko" : "https://www.coingecko.com/en/coins/likecoin"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/LikeCoin"
     },
     "description" : {
         "ko" : "소셜 미디어와 온라인 게시물을 위한 탈중앙화 플랫폼 및 인프라를 제공하는 Cosmos SDK 기반 블록체인 네트워크.",
