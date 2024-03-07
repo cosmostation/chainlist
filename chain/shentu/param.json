@@ -1,4 +1,5 @@
 {
+    "displayName": "Shentu",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -33,10 +34,14 @@
     ],
     "about" : {
         "website" : "https://www.shentu.technology/",
-        "blog" : "https://medium.com/shentu-foundation",
         "github" : "https://github.com/shentufoundation",
+        "blog" : "https://medium.com/shentu-foundation",
+        "medium": "https://medium.com/shentu-foundation",
         "twitter" : "https://twitter.com/ShentuChain",
         "coingecko" : "https://www.coingecko.com/en/coins/shentu"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/ShentuChain"
     },
     "description" : {
         "ko" : "Certik Foundation의 고유한 공식 검증 보안 시스템을 기반으로하는 공용 플랫폼입니다. shentu체인은 보안 중심 체인에서 스마트 계약 실행 및 상호 작용을 허용합니다.",
