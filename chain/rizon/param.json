@@ -1,4 +1,5 @@
 {
+    "displayName": "Rizon",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -26,8 +27,9 @@
     ],
     "about" : {
         "website" : "https://rizon.world/",
-        "blog" : "https://medium.com/hdac",
+        "docs": "https://docs.rizon.world",
         "github" : "https://github.com/rizon-world/rizon",
+        "blog" : "https://medium.com/hdac",
         "twitter" : "https://twitter.com/hdac_rizon",
         "coingecko" : "https://www.coingecko.com/en/coins/rizon"
     },
