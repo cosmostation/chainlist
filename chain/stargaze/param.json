@@ -1,4 +1,5 @@
 {
+    "displayName": "Stargaze",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -33,10 +34,17 @@
     ],
     "about" : {
         "website" : "https://www.stargaze.zone/",
-        "blog" : "https://medium.com/stargaze-protocol",
+        "docs": "https://docs.stargaze.zone/",
         "github" : "https://github.com/public-awesome",
+        "blog" : "https://mirror.xyz/stargazezone.eth",
+        "medium": "https://medium.com/stargaze-protocol",
         "twitter" : "https://twitter.com/stargazezone",
+        "discord" : "https://discord.com/invite/stargaze",
         "coingecko" : "https://www.coingecko.com/en/coins/stargaze"
+    },
+    "forum": {
+      "main": "https://gov.stargaze.zone",
+      "governance": "https://gov.stargaze.zone/discussions/General/"
     },
     "description" : {
         "ko" : "소셜 콘텐츠의 NFT화를 통해 탈중앙화를 실현하는 Cosmos SDK 기반 NFT 마켓플레이스 및 소셜 네트워크.",
