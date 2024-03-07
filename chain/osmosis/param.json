@@ -1,4 +1,5 @@
 {
+    "displayName": "Osmosis",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -37,10 +38,15 @@
     ],
     "about" : {
         "website" : "https://osmosis.zone/",
-        "blog" : "https://medium.com/@Osmosis",
+        "docs": "https://docs.osmosis.zone",
         "github" : "https://github.com/osmosis-labs",
+        "medium": "https://medium.com/@Osmosis",
         "twitter" : "https://twitter.com/osmosiszone",
         "coingecko" : "https://www.coingecko.com/en/coins/osmosis"
+    },
+    "forum": {
+      "main": "https://gov.osmosis.zone",
+      "governance": "https://gov.osmosis.zone/proposals"
     },
     "description" : {
         "ko" : "Cosmos SDK와 코스모스 인터블록체인 커뮤니케이션(IBC) 프로토콜을 이용하여 다수의 다른 블록체인 네트워크 유저들에게 유동성을 제공해주는 인터체인 AMM.",
