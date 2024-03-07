@@ -1,4 +1,5 @@
 {
+    "displayName": "Noble",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -20,8 +21,9 @@
     ],
     "about" : {
         "website" : "https://nobleassets.xyz/",
-        "blog" : "https://mirror.xyz/nobleassets.eth",
+        "docs": "https://docs.nobleassets.xyz/",
         "github" : "https://github.com/strangelove-ventures/noble",
+        "blog" : "https://mirror.xyz/nobleassets.eth",
         "twitter" : "https://twitter.com/noble_xyz",
         "coingecko" : ""
     },
