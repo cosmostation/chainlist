@@ -874,10 +874,10 @@
     "decimals": 6,
     "enable": true,
     "path": "nolus>osmosis",
-    "channel": "channel-0",
+    "channel": "channel-783",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-783",
+      "channel": "channel-0",
       "port": "transfer",
       "denom": "unls"
     },
