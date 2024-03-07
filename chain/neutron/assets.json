@@ -402,5 +402,25 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ibc/D9AFCECDD361D38302AA66EB3BAC23B95234832C51D12489DC451FA2B7C72782",
+    "type": "ibc",
+    "origin_chain": "nolus",
+    "origin_denom": "unls",
+    "origin_type": "staking",
+    "symbol": "NLS",
+    "decimals": 6,
+    "enable": true,
+    "path": "nolus>neutron",
+    "channel": "channel-44",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3839",
+      "port": "transfer",
+      "denom": "unls"
+    },
+    "image": "nolus/asset/nolus.png",
+    "coinGeckoId": "nolus"
   }
 ]
