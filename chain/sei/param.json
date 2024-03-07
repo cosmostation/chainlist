@@ -1,4 +1,5 @@
 {
+    "displayName": "Sei",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -31,9 +32,10 @@
         }
     ],
     "about" : {
-        "website" : "https://www.seinetwork.io/",
-        "blog" : "https://blog.sei.io/",
+        "website" : "https://www.sei.io/",
+        "docs": "https://docs.sei.io/",
         "github" : "https://github.com/sei-protocol/sei-chain",
+        "blog" : "https://blog.sei.io/",
         "twitter" : "https://twitter.com/SeiNetwork",
         "coingecko" : "https://www.coingecko.com/en/coins/sei-network"
     },
