@@ -395,6 +395,18 @@
     },
     "image": "nois/asset/nois.png"
   },
+    {
+    "denom": "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind",
+    "type": "native",
+    "origin_chain": "juno",
+    "origin_denom": "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind",
+    "origin_type": "native",
+    "symbol": "wind",
+    "decimals": 6,
+    "description": "",
+    "image": "juno/asset/wind.png",
+    "coinGeckoId": ""
+  },
   {
     "denom": "ibc/4A482FA914A4B9B05801ED81C33713899F322B24F76A06F4B8FE872485EA22FF",
     "type": "ibc",
