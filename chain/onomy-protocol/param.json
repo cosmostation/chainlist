@@ -1,4 +1,5 @@
 {
+    "displayName": "Onomy",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -16,8 +17,9 @@
     ],
     "about" : {
         "website" : "https://onomy.io/",
-        "blog" : "https://medium.com/onomy-protocol",
+        "docs": "https://docs.onomy.io/",
         "github" : "https://github.com/onomyprotocol/",
+        "medium": "https://medium.com/onomy-protocol",
         "twitter" : "https://twitter.com/onomyprotocol",
         "coingecko" : "https://www.coingecko.com/en/coins/onomy-protocol"
     },
