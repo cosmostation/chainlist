@@ -9,5 +9,16 @@
     "image": "archway/asset/sarch.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": "archway-1",
+    "chainName": "archway",
+    "address": "archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n",
+    "symbol": "AXV",
+    "description": "Astrovault AXV",
+    "decimals": 6,
+    "image": "archway/asset/axv.png",
+    "default": true,
+    "coinGeckoId": "Astrovault"
   }
 ]
