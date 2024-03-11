@@ -4,27 +4,13 @@
     "name": "Astrovault",
     "dappType": "Dex",
     "description": "DeFi, Sustainably.",
-    "comingSoon": false
+    "comingSoon": false,
     "link": "https://astrovault.io/dashboard-msaw",
     "social": {
       "webSite": "https://astrovault.io/dashboard-msaw",
       "docs": "https://astrovault.io/help-msaw",
       "twitter": "https://astrovault.io/twitter-msaw",
       "medium": "https://astrovault.io/medium-msaw/"
-    }
-  },
-  {
-    "id": "astrovault-trade",
-    "name": "Trade on Astrovault",
-    "dappType": "Defi",
-    "description": "Use the blue button to connect wallet and trade",
-    "comingSoon": false
-    "link": "https://astrovault.io/trade-msaw",
-    "social": {
-      "webSite": "https://astrovault.io/dashboard-msaw",
-      "docs": "https://astrovault.io/help-msaw",
-      "twitter": "https://astrovault.io/twitter-msaw",
-      "medium": "https://astrovault.io/medium-msaw"
     }
   }
 ]
