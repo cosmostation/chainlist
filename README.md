@@ -7,7 +7,7 @@
 - [Add Cw20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-cw20-token-info)
 - [dApp link and description on Mobile Wallet](https://github.com/cosmostation/chainlist/tree/main/dapp)
 - [Chain base fee](https://github.com/cosmostation/chainlist/tree/main#how-to-edit-chain-fee)
-- [Add gRPC/EVM Endpoint](https://github.com/cosmostation/chainlist/tree/main#how-add-endpoint)
+- [Add gRPC/EVM Endpoint](https://github.com/cosmostation/chainlist/tree/main#how-to-add-endpoint)
 
 
 ## Productions using with
