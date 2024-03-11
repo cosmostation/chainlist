@@ -13,6 +13,22 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-celestia.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "celestia-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-celestia.cosmos-spaces.cloud:443"
+        },
+        {
+            "provider": "ValiDAO",
+            "url": "celestia.grpc.interchain.validao.xyz:443"
+        },
+        {
+            "provider": "Stakin",
+            "url": "celestia.grpc.stakin-nodes.com:443"
         }
     ],
     "about" : {

@@ -15,8 +15,16 @@
             "url": "grpc-dydx.cosmostation.io:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "dydx-mainnet-grpc.autostake.com:443"
+            "provider": "Bware Labs",
+            "url": "dydx-mainnet-full-grpc.public.blastapi.io:443"
+        },
+        {
+            "provider": "Kingnodes",
+            "url": "dydx-grpc.kingnodes.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "dydx-grpc.lavenderfive.com:443"
         }
     ],
     "about" : {
