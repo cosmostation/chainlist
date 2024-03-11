@@ -28,11 +28,37 @@
         },
         {
             "provider": "NodesHub",
-            "url": "https://humans.grpc.nodeshub.online:443"
+            "url": "humans.grpc.nodeshub.online:443"
         },
         {
             "provider": "StakePool",
             "url": "grpc-humans.cosmos-spaces.cloud:1190"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-humans-evm.cosmostation.io"
+        },
+        {
+            "provider": "Posthuman",
+            "url": "https://evm.humans.posthuman.digital"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://jsonrpc.humans.nodestake.top"
+        },
+        {
+            "provider": "itrocket",
+            "url": "https://humans-mainnet-evm.itrocket.net"
+        },
+        {
+            "provider": "Stakepool",
+            "url": "https://evm.humans.stakepool.dev.br"
+        },
+        {
+            "provider": "KonsorTech",
+            "url": "https://mainnet-humans-evm.konsortech.xyz"
         }
     ],
     "about" : {
