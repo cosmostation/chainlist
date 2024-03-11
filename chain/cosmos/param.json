@@ -16,8 +16,8 @@
             "url": "grpc-cosmos.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "cosmos-grpc.polkachu.com:14990"
+            "provider": "Stakin",
+            "url": "cosmoshub.grpc.stakin-nodes.com:443"
         },
         {
             "provider": "Notional",
@@ -28,8 +28,12 @@
             "url": "cosmoshub-grpc.lavenderfive.com:443"
         },
         {
-            "provider": "DragonStake",
-            "url": "grpc.cosmos.dragonstake.io:443"
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "cosmos-grpc.publicnode.com:443"
+        },
+        {
+            "provider": "MMS",
+            "url": "grpc-cosmoshub.mms.team:443"
         }
     ],
     "about" : {
