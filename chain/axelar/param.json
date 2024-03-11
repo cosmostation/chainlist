@@ -16,8 +16,8 @@
             "url": "grpc-axelar.cosmostation.io:443"
         },
         {
-            "provider": "Qubelabs",
-            "url": "axelar-grpc.qubelabs.io:9092"
+            "provider": "Notional",
+            "url": "grpc-axelar-ia.cosmosia.notional.ventures:443"
         },
         {
             "provider": "Stakin",
@@ -26,10 +26,6 @@
         {
             "provider": "Notional",
             "url": "grpc-axelar-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "carbonZERO🌲",
-            "url": "grpc-axelar.carbonzero.zone:443"
         }
     ],
     "about" : {

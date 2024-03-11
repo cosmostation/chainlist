@@ -16,18 +16,6 @@
             "url": "grpc-band.cosmostation.io:443"
         },
         {
-            "provider": "Notional",
-            "url": "grpc-bandchain-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-band.cosmos-spaces.cloud:2240"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "grpc-band-01.stakeflow.io:2502"
-        },
-        {
             "provider": "StakeTown",
             "url": "band-grpc.stake-town.com:443"
         }
