@@ -17,22 +17,6 @@
         {
             "provider": "NodeStake",
             "url": "grpc.humans.nodestake.top:443"
-        },
-        {
-            "provider": "itrocket",
-            "url": "humans-mainnet-grpc.itrocket.net:17090"
-        },
-        {
-            "provider": "Staketab",
-            "url": "humans-rpc.stakeangle.com:41490"
-        },
-        {
-            "provider": "NodesHub",
-            "url": "humans.grpc.nodeshub.online:443"
-        },
-        {
-            "provider": "StakePool",
-            "url": "grpc-humans.cosmos-spaces.cloud:1190"
         }
     ],
     "evm_rpc_endpoint" : [
