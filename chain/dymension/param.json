@@ -27,16 +27,8 @@
             "url": "dymension.grpc.kjnodes.com:443"
         },
         {
-            "provider": "Allnodes ⚡️ Nodes & Staking",
-            "url": "dymension-grpc.publicnode.com:443"
-        },
-        {
             "provider": "silent",
             "url": "grpc.dymension.silentvalidator.com:443"
-        },
-        {
-            "provider": "Cumulo",
-            "url": "dym.grpc.cumulo.com.es:443"
         }
     ],
     "evm_rpc_endpoint" : [
@@ -59,10 +51,6 @@
         {
             "provider": "Wave",
             "url": "https://dymension.0xwave.com:2087"
-        },
-        {
-            "provider": "Cumulo",
-            "url": "https://dym.json-rpc.cumulo.com.es:443"
         }
     ],
     "about" : {

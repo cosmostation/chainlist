@@ -22,10 +22,6 @@
         {
             "provider": "Notional",
             "url": "grpc-kava-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Allnodes ⚡️ Nodes & Staking",
-            "url": "kava-grpc.publicnode.com:443"
         }
     ],
     "evm_rpc_endpoint" : [
