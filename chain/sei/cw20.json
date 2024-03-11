@@ -42,5 +42,16 @@
         "image": "sei/asset/goldenruleslol.png",
         "default": false,
         "coinGeckoId": ""
+    },
+    {
+        "chainId": -1,
+        "chainName": "sei",
+        "address": "sei1wlf9j5uv50rcg0u5j6xk00px5tflptzprj39keck27eg8g7qd7hqq6kvda",
+        "symbol": "OOZARU",
+        "description": "OOZARU MONSTER",
+        "decimals": 6,
+        "image": "sei/asset/oozaru.png",
+        "default": false,
+        "coinGeckoId": ""
     }
 ]
