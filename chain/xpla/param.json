@@ -16,6 +16,16 @@
             "url": "grpc-xpla.cosmostation.io:443"
         }
     ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-xpla-evm.cosmostation.io"
+        },
+        {
+            "provider": "Holdings",
+            "url": "https://dimension-evm-rpc.xpla.dev"
+        }
+    ],
     "about" : {
         "website" : "https://xpla.io/",
         "docs": "https://docs.xpla.io/",

@@ -15,12 +15,54 @@
             "url": "grpc-dymension.cosmostation.io:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "dymension-mainnet-grpc.autostake.com:443"
+            "provider": "NodeStake",
+            "url": "grpc.dymension.nodestake.org:443"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "dymension-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "kjnodes.com 🦄",
+            "url": "dymension.grpc.kjnodes.com:443"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "dymension-grpc.publicnode.com:443"
+        },
+        {
+            "provider": "silent",
+            "url": "grpc.dymension.silentvalidator.com:443"
+        },
+        {
+            "provider": "Cumulo",
+            "url": "dym.grpc.cumulo.com.es:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-dymension-evm.cosmostation.io"
+        },
+        {
+            "provider": "Posthuman",
+            "url": "https://evm-rpc.dymension.posthuman.digital"
+        },
+        {
+            "provider": "AgoraNodes",
+            "url": "https://dym-m-json.agoranodes.com"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://dymension-jsonrpc.ibs.team"
+        },
+        {
+            "provider": "Wave",
+            "url": "https://dymension.0xwave.com:2087"
+        },
+        {
+            "provider": "Cumulo",
+            "url": "https://dym.json-rpc.cumulo.com.es:443"
         }
     ],
     "about" : {

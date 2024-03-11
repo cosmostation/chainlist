@@ -17,8 +17,8 @@
             "url": "grpc-evmos.cosmostation.io:443"
         },
         {
-            "provider": "evmos.org",
-            "url": "grpc.bd.evmos.org:9090"
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "evmos-grpc.publicnode.com:443"
         },
         {
             "provider": "Notional",
@@ -29,8 +29,34 @@
             "url": "evmos-grpc.lavenderfive.com:443"
         },
         {
-            "provider": "ChainTools",
-            "url": "evmos.grpcui.chaintools.host:443"
+            "provider": "StakeTown",
+            "url": "evmos-grpc.stake-town.com:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-evmos-evm.cosmostation.io"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://evmos-evm.publicnode.com"
+        },
+        {
+            "provider": "Stakely",
+            "url": "https://evmos-json-rpc.stakely.io"
+        },
+        {
+            "provider": "BlockHunters",
+            "url": "https://json-rpc.evmos.bh.rocks"
+        },
+        {
+            "provider": "silent",
+            "url": "https://evm-rpc.evmos.silentvalidator.com"
+        },
+        {
+            "provider": "Validatus",
+            "url": "https://json-rpc.evmos.validatus.com"
         }
     ],
     "about" : {

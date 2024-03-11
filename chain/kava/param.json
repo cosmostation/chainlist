@@ -24,12 +24,34 @@
             "url": "grpc-kava-ia.cosmosia.notional.ventures:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "kava-grpc.polkachu.com:13990"
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "kava-grpc.publicnode.com:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-kava-evm.cosmostation.io"
         },
         {
-            "provider": "Stakeflow",
-            "url": "grpc-kava-01.stakeflow.io:1202"
+            "provider": "kava",
+            "url": "https://evm.kava.io"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://kava-evm.publicnode.com"
+        },
+        {
+            "provider": "OnFinality",
+            "url": "https://kava.api.onfinality.io/public"
+        },
+        {
+            "provider": "Pokt",
+            "url": "https://kava-pokt.nodies.app"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/kava_evm"
         }
     ],
     "about" : {

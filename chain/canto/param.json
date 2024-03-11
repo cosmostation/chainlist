@@ -14,22 +14,28 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-canto.cosmostation.io:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-canto-evm.cosmostation.io"
         },
         {
-            "provider": "Polkachu",
-            "url": "canto-grpc.polkachu.com:14990"
+            "provider": "althea",
+            "url": "https://canto.gravitychain.io"
         },
         {
-            "provider": "NodeStake",
-            "url": "grpc.canto.nodestake.top:443"
+            "provider": "silent",
+            "url": "https://evm-rpc.canto.silentvalidator.com"
         },
         {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-canto.cosmos-spaces.cloud:2280"
+            "provider": "Slingshot",
+            "url": "https://canto.slingshot.finance"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "canto-mainnet-grpc.autostake.com:443"
+            "provider": "plexnode",
+            "url": "https://mainnode.plexnode.org:8545"
         }
     ],
     "about" : {
