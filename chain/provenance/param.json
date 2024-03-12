@@ -13,22 +13,6 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-provenance.cosmostation.io:443"
-        },
-        {
-            "provider": "TAKESHI",
-            "url": "grpc-provenance.takeshi.team:443"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "provenance-mainnet-grpc.autostake.com:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-provenance-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Panthea EU",
-            "url": "provenance-grpc.panthea.eu:16780"
         }
     ],
     "about" : {

@@ -15,14 +15,6 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-rizon.cosmostation.io:443"
-        },
-        {
-            "provider": "MMS",
-            "url": "grpc-rizon.mms.team:443"
-        },
-        {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "rizon-grpc.publicnode.com:443"
         }
     ],
     "about" : {

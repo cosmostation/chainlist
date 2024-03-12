@@ -27,8 +27,16 @@
             "url": "quicksilver-grpc.lavenderfive.com:443"
         },
         {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-quicksilver.cosmos-spaces.cloud:3300"
+            "provider": "MMS",
+            "url": "grpc-quicksilver.mms.team:443"
+        },
+        {
+            "provider": "StakeTown",
+            "url": "quicksilver-grpc.stake-town.com:443"
+        },
+        {
+            "provider": "TdrSys",
+            "url": "quicksilver.tdrsys.com:2083"
         }
     ],
     "about" : {

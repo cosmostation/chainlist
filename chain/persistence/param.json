@@ -18,18 +18,6 @@
         {
             "provider": "Persistence",
             "url": "grpc.core.persistence.one:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-persistent-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "persistence-grpc.polkachu.com:15490"
-        },
-        {
-            "provider": "POSTHUMAN∞DVS",
-            "url": "grpc.persistence.posthuman.digital:80"
         }
     ],
     "about" : {
