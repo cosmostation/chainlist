@@ -17,20 +17,24 @@
             "url": "grpc-juno.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "juno-grpc.polkachu.com:12690"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "juno-grpc.lavenderfive.com:443"
         },
         {
             "provider": "Notional",
             "url": "grpc-juno-ia.cosmosia.notional.ventures:443"
         },
         {
-            "provider": "Stakin",
-            "url": "juno.grpc.stakin-nodes.com:443"
+            "provider": "kingnodes 👑",
+            "url": "grpc-juno.kingnodes.com:443"
         },
         {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "juno-grpc.publicnode.com:443"
+            "provider": "StakeTown",
+            "url": "juno-grpc.stake-town.com:443"
+        },
+        {
+            "provider": "Cogwheel",
+            "url": "juno-grpc.cogwheel.zone:443"
         }
     ],
     "about" : {

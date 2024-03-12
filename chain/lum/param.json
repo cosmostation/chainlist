@@ -15,20 +15,12 @@
             "url": "grpc-lum.cosmostation.io:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "lum-mainnet-grpc.autostake.com:443"
-        },
-        {
             "provider": "StakerHouse",
             "url": "lum-grpc.stakerhouse.com:443"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "lumnetwork-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Panthea EU",
-            "url": "lum-grpc.panthea.eu:16770"
         }
     ],
     "about" : {

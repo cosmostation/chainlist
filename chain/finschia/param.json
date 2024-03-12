@@ -13,6 +13,10 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-finschia.cosmostation.io:443"
+        },
+        {
+            "provider": "Finschia",
+            "url": "finschia-grpc.finschia.io:443"
         }
     ],
     "about" : {

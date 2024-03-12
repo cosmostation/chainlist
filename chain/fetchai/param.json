@@ -23,14 +23,6 @@
         {
             "provider": "Notional",
             "url": "grpc-fetchhub-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "fetch-grpc.polkachu.com:15290"
-        },
-        {
-            "provider": "cosmosrescue",
-            "url": "fetch-grpc.cosmosrescue.com:9090"
         }
     ],
     "about" : {

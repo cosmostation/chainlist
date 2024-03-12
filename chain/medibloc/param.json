@@ -13,10 +13,6 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-medibloc.cosmostation.io:443"
-        },
-        {
-            "provider": "Staketab",
-            "url": "services.staketab.com:9400"
         }
     ],
     "about" : {

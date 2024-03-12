@@ -19,18 +19,6 @@
         {
             "provider": "Notional",
             "url": "grpc-irisnet-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "grpc-irisnet-01.stakeflow.io:1902"
-        },
-        {
-            "provider": "w3coins",
-            "url": "irisnet-grpc.w3coins.io:22690"
-        },
-        {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "iris-grpc.publicnode.com:443"
         }
     ],
     "about" : {

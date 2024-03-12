@@ -15,20 +15,8 @@
       "url": "grpc-neutron.cosmostation.io:443"
     },
     {
-      "provider": "Neutron",
-      "url": "grpc-kralum.neutron-1.neutron.org:80"
-    },
-    {
       "provider": "WhisperNode🤐",
       "url": "grpc-neutron.whispernode.com:443"
-    },
-    {
-      "provider": "Lavender.Five Nodes 🐝",
-      "url": "neutron-grpc.lavenderfive.com:443"
-    },
-    {
-      "provider": "NodeStake",
-      "url": "grpc.neutron.nodestake.top:9090"
     }
   ],
   "about": {

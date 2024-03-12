@@ -15,20 +15,12 @@
             "url": "grpc-gravity-bridge.cosmostation.io:443"
         },
         {
-            "provider": "amhost",
-            "url": "gravity-bridge-1-08.nodes.amhost.net:9090"
-        },
-        {
             "provider": "Notional",
             "url": "grpc-gravitybridge-ia.cosmosia.notional.ventures:443"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "gravitybridge-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Staketab",
-            "url": "services.staketab.com:9017"
         }
     ],
     "about" : {

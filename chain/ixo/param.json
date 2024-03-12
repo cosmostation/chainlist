@@ -13,6 +13,14 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-ixo.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-ixo-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "impacthub-grpc.lavenderfive.com:443"
         }
     ],
     "about" : {
