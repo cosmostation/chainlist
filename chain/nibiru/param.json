@@ -16,16 +16,20 @@
             "url": "grpc-nibiru.cosmostation.io:443"
         },
         {
-            "provider": "KjNodes",
+            "provider": "Nibiru Foundation",
+            "url": "grpc.nibiru.fi:443"
+        },
+        {
+            "provider": "kjnodes.com 🦄",
             "url": "nibiru.grpc.kjnodes.com:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "nibiru-grpc.polkachu.com:19890"
+            "provider": "NodeStake",
+            "url": "grpc.nibiru.nodestake.org:443"
         },
         {
-            "provider": "NodeStake",
-            "url": "https://grpc.nibiru.nodestake.top:443"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "nibiru-grpc.lavenderfive.com:443"
         }
     ],
     "about" : {
