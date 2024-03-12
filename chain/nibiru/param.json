@@ -30,14 +30,16 @@
     ],
     "about" : {
         "website" : "https://nibiru.fi/",
-        "blog" : "https://nibiru.fi/blog/",
+        "docs": "https://nibiru.fi/docs",
         "github" : "https://github.com/NibiruChain",
+        "blog" : "https://nibiru.fi/blog/",
         "twitter" : "https://twitter.com/NibiruChain",
-        "coingecko" : ""
+        "discord" : "https://discord.com/invite/nibirufi",
+        "coingecko" : "nibiru"
     },
     "description" : {
-        "ko" : "차세대 화폐 시대를 여는 DeFi 허브입니다.",
-        "en" : "A DeFi hub ushering in the next era of money.",
-        "ja" : "お金の次の時代を導く DeFi ハブ。"
+        "ko" : "nibiru는 차세대 화폐 시대를 여는 Web3 허브입니다.",
+        "en" : "The Web3 hub ushering in the next era of money",
+        "ja" : "nibiruは次世代マネー時代を開くWeb3ハブです。"
     }
 }
