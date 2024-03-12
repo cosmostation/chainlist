@@ -16,20 +16,12 @@
             "url": "grpc-stargaze.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "stargaze-grpc.polkachu.com:14990"
+            "provider": "StakerHouse",
+            "url": "stargaze-grpc.stakerhouse.com:443"
         },
         {
             "provider": "Notional",
             "url": "grpc-stargaze-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "stargaze-mainnet-grpc.autostake.com:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-stargaze.cosmos-spaces.cloud:1150"
         }
     ],
     "about" : {

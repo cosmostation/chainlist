@@ -15,20 +15,8 @@
             "url": "grpc-stride.cosmostation.io:443"
         },
         {
-            "provider": "BccNodes",
-            "url": "stride.grpc.bccnodes.com:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "stride-grpc.polkachu.com:12290"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "stride-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-stride.cosmos-spaces.cloud:1140"
         }
     ],
     "about" : {

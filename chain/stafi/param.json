@@ -26,10 +26,6 @@
         {
             "provider": "NodeStake",
             "url": "grpc.stafihub.nodestake.top:443"
-        },
-        {
-            "provider": "NODEJUMPER",
-            "url": "stafihub.nodejumper.io:9090"
         }
     ],
     "about" : {

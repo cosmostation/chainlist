@@ -15,20 +15,12 @@
             "url": "grpc-sentinel.cosmostation.io:443"
         },
         {
-            "provider": "ChainTools",
-            "url": "sentinel.grpcui.chaintools.host:443"
+            "provider": "RoomIT",
+            "url": "grpc.dvpn.roomit.xyz:8443"
         },
         {
             "provider": "Notional",
             "url": "grpc-sentinel-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "sentinel-mainnet-grpc.autostake.com:443"
-        },
-        {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "sentinel-rpc.publicnode.com:443"
         }
     ],
     "about" : {

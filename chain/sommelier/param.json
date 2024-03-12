@@ -15,20 +15,8 @@
             "url": "grpc-sommelier.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "sommelier-grpc.polkachu.com:14990"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "sommelier-mainnet-grpc.autostake.com:443"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "sommelier-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-sommelier.cosmos-spaces.cloud:2310"
         }
     ],
     "about" : {

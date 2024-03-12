@@ -16,20 +16,20 @@
             "url": "grpc-umee.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "umee-grpc.polkachu.com:13690"
+            "provider": "MMS",
+            "url": "grpc-umee.mms.team:443"
         },
         {
             "provider": "Notional",
             "url": "grpc-umee-ia.cosmosia.notional.ventures:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "umee-mainnet-grpc.autostake.com:443"
+            "provider": "MZONDER",
+            "url": "grpc-umee.mzonder.com:443"
         },
         {
-            "provider": "QuantNode gRPC",
-            "url": "umee-grpc.quantnode.tech:9090"
+            "provider": "StakeTown",
+            "url": "umee-grpc.stake-town.com:443"
         }
     ],
     "about" : {

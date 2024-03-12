@@ -16,20 +16,12 @@
             "url": "grpc-terra.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "terra-grpc.polkachu.com:11790"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "terra-mainnet-grpc.autostake.com:443"
+            "provider": "TdrSys",
+            "url": "terra2.tdrsys.com:2083"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "terra2-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "grpc-terra-01.stakeflow.io:1102"
         }
     ],
     "about" : {
