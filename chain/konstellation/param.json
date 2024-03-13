@@ -6,6 +6,7 @@
             "0.001udarc",
             "0.01udarc"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.5,
         "fee_threshold" : ""

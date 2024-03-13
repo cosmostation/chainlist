@@ -5,6 +5,7 @@
         "rate" : [
             "0.02usei"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.3,
         "fee_threshold" : ""

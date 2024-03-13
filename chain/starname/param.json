@@ -5,6 +5,7 @@
             "0.1uiov",
             "1.0uiov"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""

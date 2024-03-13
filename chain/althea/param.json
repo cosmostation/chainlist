@@ -5,6 +5,7 @@
         "rate" : [
             "20000000000000000aalthea"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.4,
         "fee_threshold" : ""

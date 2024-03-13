@@ -5,6 +5,7 @@
         "rate" : [
             "20000000000aheart"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""

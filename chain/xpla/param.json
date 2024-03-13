@@ -6,6 +6,7 @@
             "850000000000axpla",
             "1147500000000axpla"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""

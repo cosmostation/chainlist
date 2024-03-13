@@ -6,6 +6,7 @@
             "0.0025uosmo",
             "0.025uosmo"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.5,
         "fee_threshold" : ""

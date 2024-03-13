@@ -6,6 +6,7 @@
             "0.007uaxl",
             "0.05uaxl"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.3,
         "fee_threshold" : ""
