@@ -1,4 +1,5 @@
 {
+    "chain_name": "kujira",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -9,5 +10,17 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-    ]
+    ],
+    "about" : {
+        "website" : "",
+        "blog" : "",
+        "github" : "",
+        "twitter" : "",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
 }
