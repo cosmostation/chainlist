@@ -11,6 +11,7 @@
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
+    "voting_threshold" : 1000000,
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
