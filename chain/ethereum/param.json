@@ -1,13 +1,16 @@
 {
-    "displayName": "Ethereum",
-    "chainId" : "1",
+    "chain_id" : "1",
+    "chain_name": "Ethereum",
+    "chain_image": "ethereum/resource/chain_ethereum.png",
+    "symbol" : "ETH",
+    "symbol_image" : "ethereum/asset/eth.png",
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",
             "url": "https://rpc-ethereum-evm.cosmostation.io/rpc"
         },
         {
-            "provider": "Llamarpc",
+            "provider": "Llamarpc", 
             "url": "https://eth.llamarpc.com"
         },
         {

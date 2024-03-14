@@ -1,6 +1,9 @@
 {
-    "displayName": "Polygon",
     "chainId" : "137",
+    "chain_name": "Polygon",
+    "chain_image": "polygon/resource/chain_polygon.png",
+    "symbol" : "MATIC",
+    "symbol_image" : "polygon/asset/matic.png",
     "evm_rpc_endpoint" : [
         {
             "provider": "Polygon",

@@ -1,6 +1,9 @@
 {
-    "displayName": "Optimism",
     "chainId" : "10",
+    "chain_name": "Optimism",
+    "chain_image": "optimism/resource/chain_optimism.png",
+    "symbol" : "ETH",
+    "symbol_image" : "optimism/asset/eth_op.png",
     "evm_rpc_endpoint" : [
         {
             "provider": "Optimism",
