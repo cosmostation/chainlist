@@ -10,12 +10,8 @@
             "url": "https://rpc-ethereum-evm.cosmostation.io/rpc"
         },
         {
-            "provider": "Llamarpc", 
-            "url": "https://eth.llamarpc.com"
-        },
-        {
             "provider": "Ankr",
-            "url": "https://rpc.ankr.com/"
+            "url": "https://rpc.ankr.com/eth"
         },
         {
             "provider": "Flashbots",
