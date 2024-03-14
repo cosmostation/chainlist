@@ -1,0 +1,39 @@
+{
+    "displayName": "Polygon",
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Polygon",
+            "url": "https://polygon-rpc.com"
+        },
+        {
+            "provider": "Llamarpc",
+            "url": "https://polygon.llamarpc.com"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/polygon"
+        },
+        {
+            "provider": "OnFinality",
+            "url": "https://polygon.api.onfinality.io/public"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://polygon.drpc.org"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://polygon-bor-rpc.publicnode.com"
+        },
+        {
+            "provider": "Quiknode",
+            "url": "https://rpc-mainnet.matic.quiknode.pro"
+        }
+    ],
+    "explorer" : {
+        "name": "Polygonscan",
+        "url": "https://polygonscan.com/",
+        "account": "https://polygonscan.com/address/${address}",
+        "tx": "https://polygonscan.com/tx/${hash}"
+    }
+}
