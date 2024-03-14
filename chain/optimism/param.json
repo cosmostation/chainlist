@@ -1,5 +1,6 @@
 {
     "displayName": "Optimism",
+    "chainId" : "10",
     "evm_rpc_endpoint" : [
         {
             "provider": "Optimism",
