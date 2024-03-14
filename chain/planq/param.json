@@ -1,4 +1,5 @@
 {
+    "chain_name": "Planq",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -30,7 +31,7 @@
         {
             "provider": "SafeBlock",
             "url": "grpc.planq.safeblock.space:9090"
-        }
+        },
         {
             "provider": "Nodex Validator",
             "url": "https://grpc.planq.nodexcapital.com:443"
@@ -44,6 +45,8 @@
         "coingecko" : "https://www.coingecko.com/en/coins/planq"
     },
     "description" : {
-        "en" : "The blockchain cosmos on your phone"
+        "ko" : "The blockchain cosmos on your phone",
+        "en" : "The blockchain cosmos on your phone",
+        "ja" : "The blockchain cosmos on your phone"
     }
 }
