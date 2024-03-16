@@ -1,5 +1,5 @@
 {
-    "displayName": "Crescent",
+    "chain_name": "Crescent",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -7,6 +7,7 @@
             "0.02ucre,0.02ubcre",
             "0.05ucre,0.05ubcre"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -17,20 +18,8 @@
             "url": "grpc-crescent.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "crescent-grpc.polkachu.com:14990"
-        },
-        {
             "provider": "Stakin",
             "url": "crescent.grpc.stakin-nodes.com:443"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "crescent-mainnet-grpc.autostake.com:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-crescent.cosmos-spaces.cloud:2270"
         }
     ],
     "about" : {

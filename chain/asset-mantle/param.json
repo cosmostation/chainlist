@@ -1,5 +1,5 @@
 {
-    "displayName": "AssetMantle",
+    "chain_name": "AssetMantle",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -7,6 +7,7 @@
             "0.01umntl",
             "0.025umntl"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : false,
         "simul_gas_multiply" : 1.5,
         "fee_threshold" : ""
@@ -27,10 +28,6 @@
         {
             "provider": "StakerHouse",
             "url": "assetmantle-grpc.stakerhouse.com:443"
-        },
-        {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "assetmantle-grpc.publicnode.com:443"
         }
     ],
     "about" : {

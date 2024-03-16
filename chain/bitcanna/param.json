@@ -1,10 +1,11 @@
 {
-    "displayName": "Bitcanna",
+    "chain_name": "Bitcanna",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.025ubcna"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -27,8 +28,8 @@
             "url": "grpc-bitcanna.mms.team:443"
         },
         {
-            "provider": "Panthea EU",
-            "url": "bitcanna-grpc.panthea.eu:16710"
+            "provider": "AlxVoy ⚡ ANODE.TEAM",
+            "url": "bitcanna.grpc.m.anode.team:443"
         }
     ],
     "about" : {

@@ -1,11 +1,12 @@
 {
-    "displayName": "Persistence",
+    "chain_name": "Persistence",
     "fee" : {
         "base" : "1",
         "rate" : [
             "0.0uxprt",
             "0.025uxprt"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -18,18 +19,6 @@
         {
             "provider": "Persistence",
             "url": "grpc.core.persistence.one:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-persistent-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "persistence-grpc.polkachu.com:15490"
-        },
-        {
-            "provider": "POSTHUMAN∞DVS",
-            "url": "grpc.persistence.posthuman.digital:80"
         }
     ],
     "about" : {

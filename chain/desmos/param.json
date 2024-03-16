@@ -1,5 +1,5 @@
 {
-    "displayName": "Desmos",
+    "chain_name": "Desmos",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -7,6 +7,7 @@
             "0.01udsm",
             "0.025udsm"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -17,16 +18,8 @@
             "url": "grpc-desmos.cosmostation.io:443"
         },
         {
-            "provider": "Panthea EU",
-            "url": "desmos-grpc.panthea.eu:16730"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "desmos-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Staketab",
-            "url": "services.staketab.com:9043"
         }
     ],
     "about" : {

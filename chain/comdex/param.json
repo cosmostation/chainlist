@@ -1,11 +1,12 @@
 {
-    "displayName": "Comdex",
+    "chain_name": "Comdex",
     "fee" : {
         "base" : "1",
         "rate" : [
             "0.025ucmdx",
             "0.25ucmdx"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -16,16 +17,8 @@
             "url": "grpc-comdex.cosmostation.io:443"
         },
         {
-            "provider": "ChainTools",
-            "url": "comdex.grpcui.chaintools.host:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-comdex-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-comdex.cosmos-spaces.cloud:2300"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "comdex-grpc.lavenderfive.com:443"
         },
         {
             "provider": "StakerHouse",

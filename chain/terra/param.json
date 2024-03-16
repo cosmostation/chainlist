@@ -1,11 +1,12 @@
 {
-    "displayName": "Terra",
+    "chain_name": "Terra",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.015uluna,0.018ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB,0.018ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
             "0.04uluna,0.05ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB,0.05ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -16,20 +17,12 @@
             "url": "grpc-terra.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "terra-grpc.polkachu.com:11790"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "terra-mainnet-grpc.autostake.com:443"
+            "provider": "TdrSys",
+            "url": "terra2.tdrsys.com:2083"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "terra2-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "grpc-terra-01.stakeflow.io:1102"
         }
     ],
     "about" : {

@@ -1,10 +1,11 @@
 {
-    "displayName": "Bitsong",
+    "chain_name": "Bitsong",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.025ubtsg"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -21,10 +22,6 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "bitsong-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Panthea EU",
-            "url": "bitsong-grpc.panthea.eu:16750"
         }
     ],
     "about" : {

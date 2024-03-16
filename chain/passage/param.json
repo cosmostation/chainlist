@@ -1,5 +1,5 @@
 {
-    "displayName": "Passage",
+    "chain_name": "Passage",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -7,6 +7,7 @@
             "0.001upasg",
             "0.0025upasg"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -17,20 +18,16 @@
             "url": "grpc-passage.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "passage-grpc.polkachu.com:15690"
+            "provider": "StakerHouse",
+            "url": "passage-grpc.stakerhouse.com:443"
         },
         {
-            "provider": "Notional",
-            "url": "grpc-passage-ia.cosmosia.notional.ventures:443"
+            "provider": "silent",
+            "url": "grpc.passage.silentvalidator.com:443"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "passage-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "grpc.passage.nodestake.top:443"
         }
     ],
     "about" : {

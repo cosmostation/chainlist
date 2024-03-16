@@ -1,5 +1,5 @@
 {
-    "displayName": "Fetch.Ai",
+    "chain_name": "Fetch.Ai",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -7,6 +7,7 @@
             "0.2afet",
             "2afet"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -23,14 +24,6 @@
         {
             "provider": "Notional",
             "url": "grpc-fetchhub-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "fetch-grpc.polkachu.com:15290"
-        },
-        {
-            "provider": "cosmosrescue",
-            "url": "fetch-grpc.cosmosrescue.com:9090"
         }
     ],
     "about" : {

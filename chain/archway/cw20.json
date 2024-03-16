@@ -2,17 +2,6 @@
   {
     "chainId": -1,
     "chainName": "archway",
-    "address": "archway1t2llqsvwwunf98v692nqd5juudcmmlu3zk55utx7xtfvznel030saclvq6",
-    "symbol": "sARCH",
-    "description": "Liquid Finance Staked ARCH",
-    "decimals": 18,
-    "image": "archway/asset/sarch.png",
-    "default": false,
-    "coinGeckoId": ""
-  },
-  {
-    "chainId": -1,
-    "chainName": "archway",
     "address": "archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n",
     "symbol": "AXV",
     "description": "Astrovault AXV",
@@ -20,5 +9,60 @@
     "image": "archway/asset/axv.png",
     "default": true,
     "coinGeckoId": "astrovault"
+  },
+  {
+    "chainId": -1,
+    "chainName": "archway",
+    "address": "archway1t2llqsvwwunf98v692nqd5juudcmmlu3zk55utx7xtfvznel030saclvq6",
+    "symbol": "sARCH",
+    "description": "Liquid Finance Staked ARCH",
+    "decimals": 18,
+    "image": "archway/asset/sarch.png",
+    "default": false,
+    "coinGeckoId": "liquid-finance-arch"
+  },
+  {
+    "chainId": -1,
+    "chainName": "archway",
+    "address": "archway1m273xq2fjmn993jm4kft5c49w2c70yfv5zypt3d92cqp4n5faefqqkuf0l",
+    "symbol": "xATOM",
+    "description": "Astrovault xATOM",
+    "decimals": 6,
+    "image": "archway/asset/xatom.png",
+    "default": false,
+    "coinGeckoId": "astrovault-xatom"
+  },
+  {
+    "chainId": -1,
+    "chainName": "archway",
+    "address": "archway1veyq07az0d7mlp49sa9f9ef56w0dd240vjsy76yv0m4pl5a2x2uq698cs7",
+    "symbol": "xDEC",
+    "description": "Astrovault xDEC",
+    "decimals": 6,
+    "image": "archway/asset/xdec.png",
+    "default": false,
+    "coinGeckoId": "axdec-astrovault"
+  },
+  {
+    "chainId": -1,
+    "chainName": "archway",
+    "address": "archway1yjdgfut7jkq5xwzyp6p5hs7hdkmszn34zkhun6mglu3falq3yh8sdkaj7j",
+    "symbol": "xJKL",
+    "description": "Astrovault xJKL",
+    "decimals": 6,
+    "image": "archway/asset/xjkl.png",
+    "default": false,
+    "coinGeckoId": "astrovault-xjkl"
+  },
+  {
+    "chainId": -1,
+    "chainName": "archway",
+    "address": "archway1h7vfp6hjjluw8n6m2v4tkfdw3getkwqldu59xghltdskt3rh6shqczumjc",
+    "symbol": "xPLQ",
+    "description": "Astrovault xPLQ",
+    "decimals": 6,
+    "image": "archway/asset/xplq.png",
+    "default": false,
+    "coinGeckoId": "xplq_astrovault"
   }
 ]

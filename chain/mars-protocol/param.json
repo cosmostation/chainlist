@@ -1,10 +1,11 @@
 {
-    "displayName": "Mars Protocol",
+    "chain_name": "Mars Protocol",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.0umars"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -19,16 +20,8 @@
             "url": "grpc.marsprotocol.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "mars-grpc.polkachu.com:18590"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "mars-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "genznodes",
-            "url": "mars-grpc.genznodes.dev:9090"
         }
     ],
     "about" : {

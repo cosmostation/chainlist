@@ -1,11 +1,12 @@
 {
-    "displayName": "UX",
+    "chain_name": "UX",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.1uumee",
             "0.2uumee"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -16,20 +17,20 @@
             "url": "grpc-umee.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "umee-grpc.polkachu.com:13690"
+            "provider": "MMS",
+            "url": "grpc-umee.mms.team:443"
         },
         {
             "provider": "Notional",
             "url": "grpc-umee-ia.cosmosia.notional.ventures:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "umee-mainnet-grpc.autostake.com:443"
+            "provider": "MZONDER",
+            "url": "grpc-umee.mzonder.com:443"
         },
         {
-            "provider": "QuantNode gRPC",
-            "url": "umee-grpc.quantnode.tech:9090"
+            "provider": "StakeTown",
+            "url": "umee-grpc.stake-town.com:443"
         }
     ],
     "about" : {

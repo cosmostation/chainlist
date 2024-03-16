@@ -1,10 +1,11 @@
 {
-    "displayName": "Nyx",
+    "chain_name": "Nyx",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.025unym,0.025unyx"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -15,8 +16,8 @@
             "url": "grpc-nyx.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "nym-grpc.polkachu.com:15390"
+            "provider": "Nym",
+            "url": "grpc.nymtech.net:443"
         }
     ],
     "about" : {

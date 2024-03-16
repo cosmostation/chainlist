@@ -1,5 +1,5 @@
 {
-    "displayName": "GOVGEN",
+    "chain_name": "GOVGEN",
     "isBankLocked" : true,
     "fee" : {
         "base" : "1",
@@ -7,6 +7,7 @@
             "0.001ugovgen",
             "0.005ugovgen"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -15,14 +16,6 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-govgen.cosmostation.io:443"
-        },
-        {
-            "provider": "Allnodes ⚡️ Nodes & Staking",
-            "url": "govgen-grpc.publicnode.com:443"
-        },
-        {
-            "provider": "Nodes Hub",
-            "url": "govgen.grpc.nodeshub.online:443"
         },
         {
             "provider": "posthuman",

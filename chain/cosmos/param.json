@@ -1,23 +1,25 @@
 {
-    "displayName": "Cosmos",
+    "chain_name": "Cosmos",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.005uatom",
             "0.025uatom"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
+    "voting_threshold" : 1000000,
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
             "url": "grpc-cosmos.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "cosmos-grpc.polkachu.com:14990"
+            "provider": "Stakin",
+            "url": "cosmoshub.grpc.stakin-nodes.com:443"
         },
         {
             "provider": "Notional",
@@ -28,8 +30,8 @@
             "url": "cosmoshub-grpc.lavenderfive.com:443"
         },
         {
-            "provider": "DragonStake",
-            "url": "grpc.cosmos.dragonstake.io:443"
+            "provider": "MMS",
+            "url": "grpc-cosmoshub.mms.team:443"
         }
     ],
     "about" : {

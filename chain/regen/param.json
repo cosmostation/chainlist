@@ -1,5 +1,5 @@
 {
-    "displayName": "Regen",
+    "chain_name": "Regen",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -7,6 +7,7 @@
             "0.0025uregen",
             "0.025uregen"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -17,20 +18,8 @@
             "url": "grpc-regen.cosmostation.io:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "regen-mainnet-grpc.autostake.com:443"
-        },
-        {
             "provider": "Notional",
             "url": "grpc-regen-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "w3coins",
-            "url": "regen-grpc.w3coins.io:22790"
-        },
-        {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "regen-grpc.publicnode.com:443"
         }
     ],
     "about" : {

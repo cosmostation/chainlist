@@ -7,6 +7,7 @@
 - [Add Cw20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-cw20-token-info)
 - [dApp link and description on Mobile Wallet](https://github.com/cosmostation/chainlist/tree/main/dapp)
 - [Chain base fee](https://github.com/cosmostation/chainlist/tree/main#how-to-edit-chain-fee)
+- [Add gRPC/EVM Endpoint](https://github.com/cosmostation/chainlist/tree/main#how-to-add-endpoint)
 
 
 ## Productions using with
@@ -446,6 +447,74 @@
     ]
   }
   ```
+</details>
+
+---
+
+<details>
+  <summary><h2 style='display: inline; font-size: 24px'>How to add endpoint</h2></summary>
+
+To add endpoints managed by chainlist,
+You must add an endpoint to `https://github.com/cosmostation/chainlist/blob/main/chain/{chain}/param.json`
+
+```
+{
+   ...,
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-humans.cosmostation.io:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.humans.nodestake.top:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-humans-evm.cosmostation.io"
+        },
+        {
+            "provider": "Posthuman",
+            "url": "https://evm.humans.posthuman.digital"
+        }
+    ],
+   ...
+}
+```
+
+Before requesting addition, please check whether the endpoint is operating properly using the method below.
+
+- Check gRPC Endpoint
+
+```sh
+GRPC_URL=<GPRC_ENDPOINT_URL>
+
+#check has grpc endpoints
+grpcurl $GRPC_URL list
+#check has grpc nodeinfo
+grpcurl $GRPC_URL cosmos.base.tendermint.v1beta1.Service.GetNodeInfo
+```
+
+- Check EVM Endpoint
+
+```sh
+EVM_URL=<EVM_ENDPOINT_URL>
+
+curl --location '$EVM_URL' \
+--header 'Content-Type: application/json' \
+--data '{
+    "jsonrpc": "2.0",
+    "method": "eth_getBlockByNumber",
+    "params": [
+        "latest",
+        false
+    ],
+    "id": 1
+}'
+```
+
 </details>
 
 ---

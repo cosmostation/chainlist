@@ -1,10 +1,11 @@
 {
-    "displayName": "dYdX",
+    "chain_name": "dYdX",
     "fee" : {
         "base" : "0",
         "rate" : [
             "12500000000adydx,0.025ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -15,8 +16,16 @@
             "url": "grpc-dydx.cosmostation.io:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "dydx-mainnet-grpc.autostake.com:443"
+            "provider": "Bware Labs",
+            "url": "dydx-mainnet-full-grpc.public.blastapi.io:443"
+        },
+        {
+            "provider": "Kingnodes",
+            "url": "dydx-grpc.kingnodes.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "dydx-grpc.lavenderfive.com:443"
         }
     ],
     "about" : {

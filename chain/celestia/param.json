@@ -1,10 +1,11 @@
 {
-    "displayName": "Celestia",
+    "chain_name": "Celestia",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.002utia"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -13,6 +14,22 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-celestia.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "celestia-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-celestia.cosmos-spaces.cloud:443"
+        },
+        {
+            "provider": "ValiDAO",
+            "url": "celestia.grpc.interchain.validao.xyz:443"
+        },
+        {
+            "provider": "Stakin",
+            "url": "celestia.grpc.stakin-nodes.com:443"
         }
     ],
     "about" : {

@@ -1,10 +1,11 @@
 {
-    "displayName": "Injective",
+    "chain_name": "Injective",
     "fee" : {
         "base" : "0",
         "rate" : [
             "160000000inj"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -23,12 +24,8 @@
             "url": "sentry.chain.grpc.injective.network:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "injective-grpc.polkachu.com:14390"
-        },
-        {
-            "provider": "POSTHUMAN ꝏ DVS",
-            "url": "grpc.injective.posthuman.digital:80"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "injective-grpc.lavenderfive.com:443"
         }
     ],
     "about" : {

@@ -1,10 +1,11 @@
 {
-    "displayName": "Medibloc",
+    "chain_name": "Medibloc",
     "fee" : {
         "base" : "0",
         "rate" : [
             "5umed"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -13,10 +14,6 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-medibloc.cosmostation.io:443"
-        },
-        {
-            "provider": "Staketab",
-            "url": "services.staketab.com:9400"
         }
     ],
     "about" : {

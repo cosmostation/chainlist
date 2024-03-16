@@ -1,5 +1,5 @@
 {
-    "displayName": "Akash",
+    "chain_name": "Akash",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -7,6 +7,7 @@
             "0.0025uakt",
             "0.025uakt"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -21,16 +22,8 @@
             "url": "grpc-akash-ia.cosmosia.notional.ventures:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "akash-grpc.polkachu.com:12890"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "akash-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "w3coins",
-            "url": "akash-grpc.w3coins.io:12890"
         }
     ],
     "about" : {

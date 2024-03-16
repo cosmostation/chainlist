@@ -1,5 +1,5 @@
 {
-    "name": "Cronos Pos",
+    "chain_name": "Cronos Pos",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -7,6 +7,7 @@
             "0.05basecro",
             "0.075basecro"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -19,18 +20,6 @@
         {
             "provider": "crypto.org",
             "url": "grpc.mainnet.crypto.org:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-cryptoorgchain-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "cryptocom-grpc.polkachu.com:20290"
-        },
-        {
-            "provider": "w3coins",
-            "url": "cryptocom-grpc.w3coins.io:20290"
         }
     ],
     "about" : {

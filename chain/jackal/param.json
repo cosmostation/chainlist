@@ -1,4 +1,5 @@
 {
+    "chain_name": "Jackal",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -24,6 +25,8 @@
         "coingecko" : "https://www.coingecko.com/en/coins/jackal-protocol"
     },
     "description" : {
-        "en" : "The Jackal Protocol provides a decentralized infrastructure for secure and scalable cloud-data storage."
+        "ko" : "Jackal 프로토콜은 안전하고 확장 가능한 클라우드 데이터 스토리지를 위한 분산형 인프라를 제공합니다.",
+        "en" : "The Jackal Protocol provides a decentralized infrastructure for secure and scalable cloud-data storage.",
+        "ja" : "Jackal プロトコルは、安全でスケーラブルなクラウド データ ストレージのための分散型インフラストラクチャを提供します。"
     }
 }

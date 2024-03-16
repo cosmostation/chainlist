@@ -1,11 +1,12 @@
 {
-    "displayName": "Xpla",
+    "chain_name": "Xpla",
     "fee" : {
         "base" : "0",
         "rate" : [
             "850000000000axpla",
             "1147500000000axpla"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -14,6 +15,16 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-xpla.cosmostation.io:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-xpla-evm.cosmostation.io"
+        },
+        {
+            "provider": "Holdings",
+            "url": "https://dimension-evm-rpc.xpla.dev"
         }
     ],
     "about" : {

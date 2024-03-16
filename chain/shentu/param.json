@@ -1,11 +1,12 @@
 {
-    "displayName": "Shentu",
+    "chain_name": "Shentu",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.025uctk",
             "0.05uctk"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -14,22 +15,6 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-shentu.cosmostation.io:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "certik-grpc.polkachu.com:14990"
-        },
-        {
-            "provider": "ramuchi.tech",
-            "url": "shentu-grpc.ramuchi.tech:12090"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "grpc-shentu-01.stakeflow.io:2402"
-        },
-        {
-            "provider": "TienThuatToan",
-            "url": "shentu-grpc.tienthuattoan.ventures:9490"
         }
     ],
     "about" : {

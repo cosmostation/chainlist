@@ -1,0 +1,35 @@
+{
+    "chain_id" : "10",
+    "chain_name": "Optimism",
+    "chain_image": "optimism/resource/chain_optimism.png",
+    "symbol" : "ETH",
+    "symbol_image" : "optimism/asset/eth_op.png",
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Optimism",
+            "url": "https://mainnet.optimism.io"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/optimism"
+        },
+        {
+            "provider": "OnFinality",
+            "url": "https://optimism.api.onfinality.io/public"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://optimism.drpc.org"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://optimism-rpc.publicnode.com"
+        }
+    ],
+    "explorer" : {
+        "name": "Etherscan",
+        "url": "https://optimistic.etherscan.io/",
+        "account": "https://optimistic.etherscan.io/address/${address}",
+        "tx": "https://optimistic.etherscan.io/tx/${hash}"
+    }
+}

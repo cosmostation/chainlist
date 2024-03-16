@@ -1,10 +1,11 @@
 {
-    "displayName": "Quicksilver",
+    "chain_name": "Quicksilver",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.0001uqck"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -27,8 +28,16 @@
             "url": "quicksilver-grpc.lavenderfive.com:443"
         },
         {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-quicksilver.cosmos-spaces.cloud:3300"
+            "provider": "MMS",
+            "url": "grpc-quicksilver.mms.team:443"
+        },
+        {
+            "provider": "StakeTown",
+            "url": "quicksilver-grpc.stake-town.com:443"
+        },
+        {
+            "provider": "TdrSys",
+            "url": "quicksilver.tdrsys.com:2083"
         }
     ],
     "about" : {

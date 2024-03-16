@@ -3106,5 +3106,25 @@
     "description": "The governance and utility token of Yieldmos, the Interchain Automation Protocol",
     "image": "osmosis/asset/ymos.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/C12C353A83CD1005FC38943410B894DBEC5F2ABC97FC12908F0FB03B970E8E1B",
+    "type": "ibc",
+    "origin_chain": "odin",
+    "origin_denom": "udoki",
+    "origin_type": "native",
+    "symbol": "DOKI",
+    "decimals": 6,
+    "enable": true,
+    "path": "odin>osmosis",
+    "channel": "channel-258",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "udoki"
+    },
+    "image": "odin/asset/doki.png",
+    "coinGeckoId": "doki"
   }
 ]

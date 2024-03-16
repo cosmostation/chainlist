@@ -1,10 +1,11 @@
 {
-    "displayName": "Noble",
+    "chain_name": "Noble",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.1uusdc,0.01ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -15,8 +16,8 @@
             "url": "grpc-noble.cosmostation.io:443"
         },
         {
-            "provider": "polkachu",
-            "url": "noble-grpc.polkachu.com:21590"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "noble-grpc.lavenderfive.com:443"
         }
     ],
     "about" : {

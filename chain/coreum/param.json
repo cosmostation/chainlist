@@ -1,5 +1,5 @@
 {
-    "displayName": "Coreum",
+    "chain_name": "Coreum",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -7,6 +7,7 @@
             "0.0625ucore",
             "0.5ucore"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -29,8 +30,8 @@
             "url": "full-node-curium.mainnet-1.coreum.dev:9090"
         },
         {
-            "provider": "NodeX Validator",
-            "url": "https://grpc.coreum.nodexcapital.com:444"
+            "provider": "Coreum Foundation",
+            "url": "full-node-uranium.mainnet-1.coreum.dev:9090"
         }
     ],
     "about" : {

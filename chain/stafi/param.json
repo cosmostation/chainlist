@@ -1,11 +1,12 @@
 {
-    "displayName": "Stafi",
+    "chain_name": "Stafi",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.01ufis",
             "0.025ufis"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -26,10 +27,6 @@
         {
             "provider": "NodeStake",
             "url": "grpc.stafihub.nodestake.top:443"
-        },
-        {
-            "provider": "NODEJUMPER",
-            "url": "stafihub.nodejumper.io:9090"
         }
     ],
     "about" : {

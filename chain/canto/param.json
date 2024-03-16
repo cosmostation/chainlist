@@ -1,11 +1,12 @@
 {
-    "displayName": "Canto",
+    "chain_name": "Canto",
     "fee" : {
         "base" : "0",
         "rate" : [
             "1500000000000acanto",
             "2000000000000acanto"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -14,22 +15,28 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-canto.cosmostation.io:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-canto-evm.cosmostation.io"
         },
         {
-            "provider": "Polkachu",
-            "url": "canto-grpc.polkachu.com:14990"
+            "provider": "althea",
+            "url": "https://canto.gravitychain.io"
         },
         {
-            "provider": "NodeStake",
-            "url": "grpc.canto.nodestake.top:443"
+            "provider": "silent",
+            "url": "https://evm-rpc.canto.silentvalidator.com"
         },
         {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-canto.cosmos-spaces.cloud:2280"
+            "provider": "Slingshot",
+            "url": "https://canto.slingshot.finance"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "canto-mainnet-grpc.autostake.com:443"
+            "provider": "plexnode",
+            "url": "https://mainnode.plexnode.org:8545"
         }
     ],
     "about" : {

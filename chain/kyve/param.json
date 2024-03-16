@@ -1,10 +1,11 @@
 {
-    "displayName": "Kyve",
+    "chain_name": "Kyve",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.02ukyve"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -15,16 +16,12 @@
             "url": "grpc-kyve.cosmostation.io:443"
         },
         {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-kyve.cosmos-spaces.cloud:2590"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "kyve-grpc.lavenderfive.com:443"
         },
         {
             "provider": "MMS",
             "url": "grpc-kyve.mms.team:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "kyve-grpc.lavenderfive.com:443"
         }
     ],
     "about" : {

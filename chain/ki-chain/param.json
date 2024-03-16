@@ -1,10 +1,11 @@
 {
-    "displayName": "Ki Chain",
+    "chain_name": "Ki Chain",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.025uxki"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -15,20 +16,12 @@
             "url": "grpc-ki-chain.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "kichain-grpc.polkachu.com:13590"
-        },
-        {
             "provider": "Notional",
             "url": "grpc-kichain-ia.cosmosia.notional.ventures:443"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "kichain-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Panthea EU",
-            "url": "kichain-grpc.panthea.eu:16720"
         }
     ],
     "about" : {

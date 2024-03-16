@@ -1,10 +1,11 @@
 {
-    "displayName": "Archway",
+    "chain_name": "Archway",
     "fee" : {
         "base" : "0",
         "rate" : [
             "140000000000aarch"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -19,8 +20,8 @@
             "url": "grpc.mainnet.archway.io:443"
         },
         {
-            "provider": "Nodes.Guru",
-            "url": "grpc-1.archway.nodes.guru:10690"
+            "provider": "StakeUp",
+            "url": "grpc.archway.stakeup.tech:443"
         },
         {
             "provider": "openbitlab",

@@ -1,11 +1,12 @@
 {
-    "displayName": "Cudos",
+    "chain_name": "Cudos",
     "fee" : {
         "base" : "0",
         "rate" : [
             "5000000000000acudos",
             "10000000000000acudos"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -14,14 +15,6 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-cudos.cosmostation.io:443"
-        },
-        {
-            "provider": "cudo",
-            "url": "mainnet-full-node-01.hosts.cudos.org:9090"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "cudos-mainnet-grpc.autostake.com:443"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",

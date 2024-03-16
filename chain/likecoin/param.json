@@ -1,11 +1,12 @@
 {
-    "displayName": "Likecoin",
+    "chain_name": "Likecoin",
     "fee" : {
         "base" : "0",
         "rate" : [
             "10000nanolike",
             "1000000nanolike"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""

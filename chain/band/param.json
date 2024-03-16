@@ -1,11 +1,12 @@
 {
-    "displayName": "Band",
+    "chain_name": "Band",
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.0025uband",
             "0.025uband"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -14,18 +15,6 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-band.cosmostation.io:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-bandchain-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-band.cosmos-spaces.cloud:2240"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "grpc-band-01.stakeflow.io:2502"
         },
         {
             "provider": "StakeTown",

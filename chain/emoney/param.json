@@ -1,5 +1,5 @@
 {
-    "displayName": "EMoney",
+    "chain_name": "EMoney",
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -7,6 +7,7 @@
             "0.3ungm",
             "1ungm"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -15,10 +16,6 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-emoney.cosmostation.io:443"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "emoney-mainnet-grpc.autostake.com:443"
         },
         {
             "provider": "Notional",
