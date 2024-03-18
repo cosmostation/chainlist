@@ -2,13 +2,24 @@
   {
     "chainId": 1,
     "chainName": "ethereum",
-    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "symbol": "WETH",
-    "description": "WETH",
-    "decimals": 18,
-    "image": "ethereum/asset/weth.png",
+    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "symbol": "USDT",
+    "description": "Tether",
+    "decimals": 6,
+    "image": "ethereum/asset/usdt.png",
     "default": true,
-    "coinGeckoId":"weth"
+    "coinGeckoId":"tether"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "symbol": "USDC",
+    "description": "USD Coin",
+    "decimals": 6,
+    "image": "ethereum/asset/usdc.png",
+    "default": true,
+    "coinGeckoId":"usd-coin"
   },
   {
     "chainId": 1,
@@ -46,6 +57,17 @@
   {
     "chainId": 1,
     "chainName": "ethereum",
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "symbol": "WETH",
+    "description": "WETH",
+    "decimals": 18,
+    "image": "ethereum/asset/weth.png",
+    "default": true,
+    "coinGeckoId":"weth"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
     "address": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
     "symbol": "DYDX",
     "description": "DYDX Token",
@@ -53,28 +75,6 @@
     "image": "dydx/asset/dydx.png",
     "default": true,
     "coinGeckoId":"dydx"
-  },
-  {
-    "chainId": 1,
-    "chainName": "ethereum",
-    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    "symbol": "USDT",
-    "description": "Tether",
-    "decimals": 6,
-    "image": "ethereum/asset/usdt.png",
-    "default": true,
-    "coinGeckoId":"tether"
-  },
-  {
-    "chainId": 1,
-    "chainName": "ethereum",
-    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "symbol": "USDC",
-    "description": "USD Coin",
-    "decimals": 6,
-    "image": "ethereum/asset/usdc.png",
-    "default": true,
-    "coinGeckoId":"usd-coin"
   },
   {
     "chainId": 1,
