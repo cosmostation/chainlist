@@ -31,5 +31,20 @@
         "url": "https://etherscan.io/",
         "account": "https://etherscan.io/address/${address}",
         "tx": "https://etherscan.io/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://ethereum.org/",
+        "docs": "https://ethereum.org/developers/docs/",
+        "github" : "https://github.com/ethereum/ethereum-org-website",
+        "blog" : "https://blog.ethereum.org/",
+        "medium": "",
+        "twitter" : "https://twitter.com/ethdotorg",
+        "discord" : "https://discord.com/invite/ethereum-org",
+        "coingecko" : "ethereum"
+    },
+    "description" : {
+        "ko" : "이더리움은 암호화폐 이더리움(ETH)과 수천 개의 분산형 애플리케이션을 지원하는 L1 체인입니다.",
+        "en" : "Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.",
+        "ja" : "Ethereumは、暗号通貨Ethereum（ETH）と数千の分散型アプリケーションをサポートするL1チェーンです。"
     }
 }
