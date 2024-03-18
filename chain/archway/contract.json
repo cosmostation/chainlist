@@ -1,6 +1,6 @@
 [
   {
-    "chainId": "-1",
+    "chainId": -1,
     "chainName": "archway",
     "address": "archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n",
     "symbol": "AXV",
@@ -41,7 +41,7 @@
     "decimals": 6,
     "image": "archway/asset/xdec.png",
     "default": false,
-    "coinGeckoId": "axdec-astrovault"
+    "coinGeckoId": "xdec-astrovault"
   },
   {
     "chainId": -1,
