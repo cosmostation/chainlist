@@ -13,6 +13,39 @@
   {
     "chainId": 1,
     "chainName": "ethereum",
+    "address": "0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB",
+    "symbol": "ETHFI",
+    "description": "Ether.fi governance token",
+    "decimals": 18,
+    "image": "ethereum/asset/ethfi.png",
+    "default": true,
+    "coinGeckoId":"ether-fi"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+    "symbol": "eETH",
+    "description": "ether fi Staked ETH",
+    "decimals": 18,
+    "image": "ethereum/asset/eeth.png",
+    "default": true,
+    "coinGeckoId":"eeth"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+    "symbol": "weETH",
+    "description": "Wrapped eETH",
+    "decimals": 18,
+    "image": "ethereum/asset/weeth.png",
+    "default": true,
+    "coinGeckoId":"wrapped-eeth"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
     "address": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
     "symbol": "DYDX",
     "description": "DYDX Token",
@@ -51,7 +84,7 @@
     "description": "Binance USD",
     "decimals": 18,
     "image": "ethereum/asset/busd.png",
-    "default": true,
+    "default": false,
     "coinGeckoId":"binance-usd"
   },
   {
