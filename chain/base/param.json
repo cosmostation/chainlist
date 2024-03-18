@@ -27,5 +27,19 @@
         "url": "https://basescan.org/",
         "account": "https://basescan.org/address/${address}",
         "tx": "https://basescan.org/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://www.base.org/",
+        "docs": "https://docs.base.org/",
+        "github" : "https://github.com/base-org",
+        "blog" : "https://base.mirror.xyz/",
+        "medium": "",
+        "twitter" : "https://twitter.com/base",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Base는 Coinbase에서 인큐베이팅하고 오픈 소스 OP 스택을 기반으로 구축된 Ethereum L2입니다.",
+        "en" : "An Ethereum L2, incubated by Coinbase and built on the open-source OP Stack.",
+        "ja" : "BaseはCoinbaseでインキュベートし、オープンソースのOPスタックに基づいて構築されたEthereum L2です。"
     }
 }
