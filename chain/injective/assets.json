@@ -1341,5 +1341,83 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "peggy0x96F6eF951840721AdBF46Ac996b59E0235CB985C",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdy",
+    "origin_type": "erc20",
+    "symbol": "USDY",
+    "decimals": 18,
+    "description": "Ondo US Dollar Yield",
+    "path": "ethereum>injective",
+    "image": "ethereum/asset/usdy.png",
+    "coinGeckoId": "ondo-us-dollar-yield",
+    "contract": "0x96f6ef951840721adbf46ac996b59e0235cb985c"
+  },
+  {
+    "denom": "peggy0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "usde",
+    "origin_type": "erc20",
+    "symbol": "USDe",
+    "decimals": 18,
+    "description": "Ethena USDe",
+    "path": "ethereum>injective",
+    "image": "ethereum/asset/usde.png",
+    "coinGeckoId": "ethena-usde",
+    "contract": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
+  },
+  {
+    "denom": "peggy0xC08512927D12348F6620a698105e1BAac6EcD911",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "usde",
+    "origin_type": "erc20",
+    "symbol": "GYEN",
+    "decimals": 6,
+    "description": "GMO JPY",
+    "path": "ethereum>injective",
+    "image": "ethereum/asset/gyen.png",
+    "coinGeckoId": "gyen",
+    "contract": "0xc08512927d12348f6620a698105e1baac6ecd911"
+  },
+  {
+    "denom": "factory/inj127l5a2wmkyvucxdlupqyac3y0v6wqfhq03ka64/qunt",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj127l5a2wmkyvucxdlupqyac3y0v6wqfhq03ka64/qunt",
+    "origin_type": "native",
+    "symbol": "QUNT",
+    "decimals": 6,
+    "description": "QUNT",
+    "image": "injective/asset/qunt.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/hdro",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/hdro",
+    "origin_type": "native",
+    "symbol": "HDRO",
+    "decimals": 6,
+    "description": "Hydro Protocol",
+    "image": "injective/asset/hdro.png",
+    "coinGeckoId": "hydro-protocol-2"
+  },
+  {
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1zdj9kqnknztl2xclm5ssv25yre09f8908d4923",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1zdj9kqnknztl2xclm5ssv25yre09f8908d4923",
+    "origin_type": "native",
+    "symbol": "DOJO",
+    "decimals": 18,
+    "description": "DOJO",
+    "image": "injective/asset/dojo.png",
+    "coinGeckoId": "dojo-token"
   }
 ]
