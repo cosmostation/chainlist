@@ -1,11 +1,11 @@
 [
    {
-      "title":"Kava",
-      "description":"Swap, mint, lend and earn on Kava, a lightning-fast Layer-1 blockchain that combines Cosmos & Ethereum.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/kava.png",
-      "url":"https://app.kava.io",
+      "title":"Osmosis",
+      "description":"Swap, provide, and earn on the leading decentralized AMM.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/osmosis.png",
+      "url":"https://app.osmosis.zone",
       "chain":[
-         "kava"
+         "osmosis"
       ],
       "category":"Defi",
       "tag":[
@@ -13,12 +13,13 @@
       ]
    },
    {
-      "title":"Osmosis",
-      "description":"Swap, provide, and earn on the leading decentralized AMM.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/osmosis.png",
-      "url":"https://app.osmosis.zone",
-      "chain":[
-         "osmosis"
+      "title": "Astroport",
+      "description": "Astroport Defi",
+      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/astroport.png",
+      "url": "https://app.astroport.fi",
+      "chain": [
+          "injective",
+          "neutron"
       ],
       "category":"Defi",
       "tag":[
@@ -39,16 +40,52 @@
       ]
    },
    {
-      "title":"Crescent",
-      "description":"Swap, earn, and stake on a capital-efficient AMM/orderbook hybrid DEX.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/crescent.png",
-      "url":"https://app.crescent.network",
+      "title":"Kava",
+      "description":"Swap, mint, lend and earn on Kava, a lightning-fast Layer-1 blockchain that combines Cosmos & Ethereum.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/kava.png",
+      "url":"https://app.kava.io",
       "chain":[
-         "crescent"
+         "kava"
       ],
       "category":"Defi",
       "tag":[
          "Dex"
+      ]
+   },
+   {
+      "title":"Stargaze",
+      "description":"A Decentralized Community-owned NFT App Chain.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stargaze.png",
+      "url":"https://app.stargaze.zone",
+      "chain":[
+         "stargaze"
+      ],
+      "category":"NFT",
+      "tag":[
+         "Marketplace", "NFT"
+      ]
+   },
+   {
+      "title":"Stride",
+      "description":"Stride is a blockchain that provides liquidity for staked tokens.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stride.png",
+      "url":"https://app.stride.zone",
+      "chain":[
+         "stride",
+         "cosmos",
+         "juno",
+         "osmosis",
+         "injective",
+         "comdex",
+         "stargaze",
+         "evmos",
+         "sommelier",
+         "terra",
+         "umee"
+      ],
+      "category":"Defi",
+      "tag":[
+         "Liquid Staking"
       ]
    },
    {
@@ -144,42 +181,6 @@
       ]
    },
    {
-      "title":"Stargaze",
-      "description":"A Decentralized Community-owned NFT App Chain.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stargaze.png",
-      "url":"https://app.stargaze.zone",
-      "chain":[
-         "stargaze"
-      ],
-      "category":"NFT",
-      "tag":[
-         "Marketplace", "NFT"
-      ]
-   },
-   {
-      "title":"Stride",
-      "description":"Stride is a blockchain that provides liquidity for staked tokens.",
-      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/stride.png",
-      "url":"https://app.stride.zone",
-      "chain":[
-         "stride",
-         "cosmos",
-         "juno",
-         "osmosis",
-         "injective",
-         "comdex",
-         "stargaze",
-         "evmos",
-         "sommelier",
-         "terra",
-         "umee"
-      ],
-      "category":"Defi",
-      "tag":[
-         "Liquid Staking"
-      ]
-   },
-   {
       "title":"pSTAKE",
       "description":"Earn staking rewards on your Assets for securing PoS networks and participate in DeFi with stkAssets for additional yields.",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/pstake.png",
@@ -240,20 +241,6 @@
          "fetchai"
       ],
       "category":"DeFi",
-      "tag":[
-         "Dex"
-      ]
-   },
-   {
-      "title": "Astroport",
-      "description": "Astroport Defi",
-      "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/astroport.png",
-      "url": "https://app.astroport.fi",
-      "chain": [
-          "injective",
-          "neutron"
-      ],
-      "category":"Defi",
       "tag":[
          "Dex"
       ]
