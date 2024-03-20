@@ -1,0 +1,40 @@
+{
+    "chain_name": "Nyx",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.025unym,0.025unyx"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-nyx.cosmostation.io:443"
+        },
+        {
+            "provider": "Nym",
+            "url": "grpc.nymtech.net:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://nymtech.net/",
+        "docs": "https://nymtech.net/docs",
+        "github" : "https://github.com/nymtech",
+        "medium": "https://nymtech.medium.com",
+        "twitter" : "https://twitter.com/nymproject",
+        "discord" : "https://discord.com/invite/nym",
+        "coingecko" : "https://www.coingecko.com/en/coins/nym"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/nym"
+    },
+    "description" : {
+        "ko" : "Nym은 개인 정보 보호 플랫폼으로 강력한 네트워크 수준의 개인정보 보호와 블라인드, 재무작위화, 분산 자격 증명을 사용한 익명 액세스 제어를 제공합니다.",
+        "en" : "Nym is a privacy platform. It provides strong network-level privacy against sophisticated end-to-end attackers, and anonymous access control using blinded, re-randomizable, decentralized credentials. ",
+        "ja" : "Nymはプライバシープラットフォームで、強力なネットワークレベルのプライバシーとブラインド、再ランダム化、分散認証情報を使用した匿名アクセス制御を提供します。"
+    }
+}

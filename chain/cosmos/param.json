@@ -1,0 +1,55 @@
+{
+    "chain_name": "Cosmos",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.005uatom",
+            "0.025uatom"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "voting_threshold" : 1000000,
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-cosmos.cosmostation.io:443"
+        },
+        {
+            "provider": "Stakin",
+            "url": "cosmoshub.grpc.stakin-nodes.com:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-cosmoshub-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "cosmoshub-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "MMS",
+            "url": "grpc-cosmoshub.mms.team:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://cosmos.network",
+        "docs": "https://docs.cosmos.network",
+        "github" : "https://github.com/cosmos",
+        "blog" : "https://blog.cosmos.network",
+        "medium": "https://blog.cosmos.network",
+        "twitter" : "https://twitter.com/cosmos",
+        "coingecko" : "https://www.coingecko.com/en/coins/cosmos-hub"
+    },
+    "forum": {
+      "main": "https://forum.cosmos.network",
+      "governance": "https://forum.cosmos.network/c/hub-proposals"
+    },
+    "description" : {
+        "ko" : "코스모스 허브는 다양한 블록체인 네트워크의 상호 운용성을 가능하게 해주는 Internet of Blockchain 입니다.",
+        "en" : "The Cosmos Hub is an Internet of Blockchains, a network of blockchains able to communicate with each other in a decentralized way.",
+        "ja" : "Cosmos Hub は、さまざまなブロックチェーンネットワークの相互運用性を可能にするInternet of Blockchainです。"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "chain_name": "Dymension",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "5000000000adym"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-dymension.cosmostation.io:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.dymension.nodestake.org:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "dymension-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "kjnodes.com 🦄",
+            "url": "dymension.grpc.kjnodes.com:443"
+        },
+        {
+            "provider": "silent",
+            "url": "grpc.dymension.silentvalidator.com:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-dymension-evm.cosmostation.io"
+        },
+        {
+            "provider": "Posthuman",
+            "url": "https://evm-rpc.dymension.posthuman.digital"
+        },
+        {
+            "provider": "AgoraNodes",
+            "url": "https://dym-m-json.agoranodes.com"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://dymension-jsonrpc.ibs.team"
+        },
+        {
+            "provider": "Wave",
+            "url": "https://dymension.0xwave.com:2087"
+        }
+    ],
+    "about" : {
+        "website" : "https://dymension.xyz/",
+        "docs": "https://docs.dymension.xyz/",
+        "github" : "https://github.com/dymensionxyz",
+        "blog" : "https://medium.com/@dymension",
+        "medium": "https://medium.com/@dymension",
+        "twitter" : "https://twitter.com/dymension",
+        "coingecko" : "https://www.coingecko.com/en/coins/dymension"
+    },
+    "forum": {
+      "main": "https://forum.dymension.xyz/"
+    },
+    "description" : {
+        "ko" : "Dymension은 $DYM으로 보호되는 탈중앙화된 L1 블록체인으로, 롤앱 인터넷의 구축을 지향합니다.",
+        "en" : "Dymension is a decentralized L1 blockchain that fuels the Internet of RollApps, secured by $DYM.",
+        "ja" : "Dymensionは$DYMで保護される脱中央化されたL1ブロックチェーンで、ロールアプリインターネットの構築を目指します。"
+    }
+}

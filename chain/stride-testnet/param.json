@@ -1,0 +1,19 @@
+{
+    "chain_name": "Stride Testnet",
+    "about" : {
+        "website" : "https://www.stride.zone/",
+        "docs": "https://docs.stride.zone",
+        "github" : "https://github.com/Stride-Labs/stride",
+        "blog" : "https://stride.zone/blog",
+        "twitter" : "https://twitter.com/stride_zone",
+        "coingecko" : ""
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/Stride_Zone"
+    },
+    "description" : {
+        "ko" : "Stride 는 stToken의 발행을 통해 스테이킹된 자산을 유동화시키는 유동성 스테이킹 프로토콜입니다.",
+        "en" : "Stride is a liquid staking protocol that unlocks the liquidity for staked assets in the IBC ecosystem.",
+        "ja" : "StrideはstTokenの発行を通じてステーキングされた資産を流動化させる流動性ステーキングプロトコルです。"
+    }
+}

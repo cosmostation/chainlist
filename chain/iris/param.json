@@ -1,0 +1,43 @@
+{
+    "chain_name": "Iris",
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.002uiris",
+            "0.02uiris",
+            "0.2uiris"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-iris.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-irisnet-ia.cosmosia.notional.ventures:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.irisnet.org/en/",
+        "docs": "https://www.irisnet.org/docs",
+        "github" : "https://github.com/irisnet",
+        "blog" : "https://medium.com/irisnet-blog",
+        "medium": "https://medium.com/irisnet-blog",
+        "twitter" : "https://twitter.com/irisnetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/irisnet"
+    },
+    "forum": {
+      "main": "https://forum.irisnet.org",
+      "governance": "https://forum.irisnet.org/c/governance"
+    },
+    "description" : {
+        "ko" : "IRIS Network(a.k.a. IRISnet)는 차세대 분산 애플리케이션 구축을 촉진하기 위한 기술 기반 구축을 목표로 합니다.",
+        "en" : "IRIS Network (a.k.a. IRISnet) aims to establish a technology foundation to facilitate construction of next-generation distributed applications.",
+        "ja" : "IRIS Network (別名 IRISnet) は、次世代の分散アプリケーションの構築を促進するための技術基盤を確立することを目的としています。"
+    }
+}

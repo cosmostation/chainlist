@@ -1,0 +1,29 @@
+{
+    "chain_name": "medasdigital",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.1umedas",
+            "0.25umedas",
+            "0.4umedas"
+        ]
+    },
+    "isSimulable" : true,
+    "simul_gas_multiply" : 1.5,
+    "fee_threshold" : "",
+    "endpoint_url" : [
+        "grpc.medas-digital.io:9090"
+    ],
+    "about" : {
+        "website" : "https://medas-digital.io/",
+        "blog" : "",
+        "github" : "",
+        "twitter" : "https://twitter.com/medasdigital",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

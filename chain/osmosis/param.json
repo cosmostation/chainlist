@@ -1,0 +1,53 @@
+{
+    "chain_name": "Osmosis",
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.0025uosmo",
+            "0.025uosmo"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-osmosis.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-osmosis-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Stakin",
+            "url": "osmosis.grpc.stakin-nodes.com:443"
+        },
+        {
+            "provider": "StakeTown",
+            "url": "osmosis-grpc.stake-town.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "osmosis-grpc.lavenderfive.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://osmosis.zone/",
+        "docs": "https://docs.osmosis.zone",
+        "github" : "https://github.com/osmosis-labs",
+        "medium": "https://medium.com/@Osmosis",
+        "twitter" : "https://twitter.com/osmosiszone",
+        "coingecko" : "https://www.coingecko.com/en/coins/osmosis"
+    },
+    "forum": {
+      "main": "https://gov.osmosis.zone",
+      "governance": "https://gov.osmosis.zone/proposals"
+    },
+    "description" : {
+        "ko" : "Cosmos SDK와 코스모스 인터블록체인 커뮤니케이션(IBC) 프로토콜을 이용하여 다수의 다른 블록체인 네트워크 유저들에게 유동성을 제공해주는 인터체인 AMM.",
+        "en" : "The interchain AMM powered by the Cosmos Inter-Blockchain Communication protocol, enabling sovereign blockchain networks to access a vast pool of liquidity.",
+        "ja" : "CosmosSDKとコスモスインターブロックチェーンコミュニケーション(IBC)プロトコルを利用して、多数の違うブロックチェーンネットワークユーザーたちに流動性を提供するインターチェーンAMM。"
+    }
+}

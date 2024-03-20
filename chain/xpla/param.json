@@ -1,0 +1,43 @@
+{
+    "chain_name": "Xpla",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "850000000000axpla",
+            "1147500000000axpla"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-xpla.cosmostation.io:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-xpla-evm.cosmostation.io"
+        },
+        {
+            "provider": "Holdings",
+            "url": "https://dimension-evm-rpc.xpla.dev"
+        }
+    ],
+    "about" : {
+        "website" : "https://xpla.io/",
+        "docs": "https://docs.xpla.io/",
+        "github" : "https://github.com/xpladev",
+        "medium": "https://medium.com/@XPLA_Official",
+        "twitter" : "https://twitter.com/XPLA_Official",
+        "coingecko" : "https://www.coingecko.com/en/coins/xpla"
+    },
+    "description" : {
+        "ko" : "XPLA는 코스모스 SDK를 통해 구축되고 EVM 호환가능한 게임 미디어 콘텐츠 중심의 L1입니다.",
+        "en" : "XPLA is a Tendermint-based Layer 1 blockchain that serves as a hub for digital media content for all.",
+        "ja" : "XPLAはコスモスSDKを活用したEVM互換性のあるゲームメディアコンテンツ中心のネットワークである。"
+    }
+}

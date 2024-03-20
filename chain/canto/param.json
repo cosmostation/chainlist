@@ -1,0 +1,56 @@
+{
+    "chain_name": "Canto",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "1500000000000acanto",
+            "2000000000000acanto"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-canto.cosmostation.io:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-canto-evm.cosmostation.io"
+        },
+        {
+            "provider": "althea",
+            "url": "https://canto.gravitychain.io"
+        },
+        {
+            "provider": "silent",
+            "url": "https://evm-rpc.canto.silentvalidator.com"
+        },
+        {
+            "provider": "Slingshot",
+            "url": "https://canto.slingshot.finance"
+        },
+        {
+            "provider": "plexnode",
+            "url": "https://mainnode.plexnode.org:8545"
+        }
+    ],
+    "about" : {
+        "website" : "https://canto.io/",
+        "docs": "https://docs.canto.io/",
+        "github" : "https://github.com/Canto-Network",
+        "blog" : "https://canto.mirror.xyz/",
+        "medium": "https://canto.mirror.xyz/",
+        "twitter" : "https://twitter.com/CantoPublic",
+        "coingecko" : "https://www.coingecko.com/en/coins/canto"
+    },
+    "description" : {
+        "ko" : "Canto는 이더리움 가상머신을(EVM) 실행할 수 있도록 만들어진 Cosmos SDK 기반 레이어 1 블록체인입니다.",
+        "en" : "Canto is a Cosmos SDK based Layer-1 blockchain that runs Ethereum Virtual Machine.",
+        "ja" : "Cantoは、イーサリアム仮想マシン（EVM）を実行できるように設計されたCosmos SDKベースのレイヤ1ブロックチェーンです。"
+    }
+}

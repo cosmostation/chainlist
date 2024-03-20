@@ -1,0 +1,68 @@
+[
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+    "symbol": "ASTRO",
+    "description": "Astroport Token",
+    "decimals": 6,
+    "image": "terra/asset/astro.png",
+    "default": true,
+    "coinGeckoId": "astroport-fi"
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra14xsm2wzvu7xaf567r693vgfkhmvfs08l68h4tjj5wjgyn5ky8e2qvzyanh",
+    "symbol": "LUNAX",
+    "description": "Stader LunaX Token",
+    "decimals": 6,
+    "image": "terra/asset/lunax.png",
+    "default": false,
+    "coinGeckoId": "lunax"
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t",
+    "symbol": "CUB",
+    "description": "Lion CUB DAO",
+    "decimals": 6,
+    "image": "terra/asset/cub.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+   {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584",
+    "symbol": "BLUE",
+    "description": "BLUE CUB DAO",
+    "decimals": 6,
+    "image": "terra/asset/blue.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1ynvsz80w9xmhdxucv96gkwpxlwvjgsq75xh2f3pf825c4wfmkfxskq6pqv",
+    "symbol": "GEM",
+    "description": "GEM DAO",
+    "decimals": 6,
+    "image": "terra/asset/gem.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+    "symbol": "ampLUNA",
+    "description": "Eris Amplified LUNA",
+    "decimals": 6,
+    "image": "terra/asset/ampluna.png",
+    "default": false,
+    "coinGeckoId": "eris-amplified-luna"
+  }
+]

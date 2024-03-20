@@ -1,0 +1,41 @@
+{
+    "chain_name": "Cudos",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "5000000000000acudos",
+            "10000000000000acudos"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-cudos.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "cudos-grpc.lavenderfive.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.cudos.org/",
+        "docs": "https://docs.cudos.org/",
+        "github" : "https://github.com/CudoVentures",
+        "blog" : "https://www.cudos.org/blog/",
+        "medium": "https://medium.com/cudos",
+        "twitter" : "https://twitter.com/cudos",
+        "coingecko" : "https://www.coingecko.com/en/coins/cudos"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/CUDOS"
+    },
+    "description" : {
+        "ko" : "Cudos는 블록체인과 클라우드 컴퓨팅 기술을 결합하여 Web3를 위한 분산형 플랫폼을 만듭니다.",
+        "en" : "Cudos is a combining blockchain and cloud computing technologies to create a decentralized platform for Web3.",
+        "ja" : "Cudos は、ブロックチェーンとクラウド コンピューティング テクノロジーを組み合わせて、Web3 用の分散プラットフォームを作成します。"
+    }
+}

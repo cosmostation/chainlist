@@ -7,12 +7,13 @@
 - [Add Cw20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-cw20-token-info)
 - [dApp link and description on Mobile Wallet](https://github.com/cosmostation/chainlist/tree/main/dapp)
 - [Chain base fee](https://github.com/cosmostation/chainlist/tree/main#how-to-edit-chain-fee)
+- [Add gRPC/EVM Endpoint](https://github.com/cosmostation/chainlist/tree/main#how-to-add-endpoint)
 
 
 ## Productions using with
 
 - [Mintscan Explorer](https://mintscan.io)
-- [Extention Wallet](https://bit.ly/3VhVJIF)
+- [Extension Wallet](https://bit.ly/3VhVJIF)
 - [Android Wallet](https://bit.ly/2BWex9D)
 - [iOS Wallet](https://apple.co/2IAM3Xm)
 
@@ -22,7 +23,7 @@
 
  - Add your image to `${targetchain}/moniker` folder
  - Image with png format and validator address name
- - [Example](https://github.com/cosmostation/chainlist/tree/main/chain/cosmos/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos
+ - [Example](https://github.com/cosmostation/chainlist/blob/main/chain/cosmos/moniker/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos
 </details>
 
 ---
@@ -96,7 +97,7 @@
 ---
 
 - Native Token
-  `/assets/v2/${chain}/assets.json`
+  `chain/${chain}/assets.json`
 
   ```json
   // example OSMOSIS
@@ -262,7 +263,7 @@
 <details>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your CW20 token info</h2></summary>
 
-  [Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/contract.json) list supporting
+  [Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/cw20.json) list supporting
   1. Fork this repo to your own github account\
   2. Clone fork and create new branch
 
@@ -302,7 +303,7 @@
 ---
 
 - Cw20 Token
-  `/${targetChain}/contract.json`
+  `chain/${targetChain}/cw20.json`
 
   ```json
   // example JUNO
@@ -348,7 +349,7 @@
 <details>
   <summary><h2 style='display: inline; font-size: 24px'>How to add your ERC20 token info</h2></summary>
 
-  [Evmos Erc20](https://github.com/cosmostation/chainlist/blob/main/chain/evmos/contract.json) list supporting
+  [Evmos Erc20](https://github.com/cosmostation/chainlist/blob/main/chain/evmos/erc20.json) list supporting
 
   1. Fork this repo to your own github account
   2. Clone fork and create new branch
@@ -387,7 +388,7 @@
    ---
 
 - ERC20 Token
-  `/${targetChain}/contract.json`
+  `chain/${targetChain}/erc20.json`
 
   ```json
   // example EVMOS
@@ -434,7 +435,7 @@
   <summary><h2 style='display: inline; font-size: 24px'>How to edit chain fee</h2></summary>
 
   [Cosmos fee](https://github.com/cosmostation/chainlist/blob/main/chain/cosmos/fee.json) list supporting
-  - `${targetChain}/fee.json` Edit rate and make pull request (PR)
+  - `chain/${targetChain}/fee.json` Edit rate and make pull request (PR)
 
   ```json
   {
@@ -446,6 +447,74 @@
     ]
   }
   ```
+</details>
+
+---
+
+<details>
+  <summary><h2 style='display: inline; font-size: 24px'>How to add endpoint</h2></summary>
+
+To add endpoints managed by chainlist,
+You must add an endpoint to `https://github.com/cosmostation/chainlist/blob/main/chain/{chain}/param.json`
+
+```
+{
+   ...,
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-humans.cosmostation.io:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.humans.nodestake.top:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-humans-evm.cosmostation.io"
+        },
+        {
+            "provider": "Posthuman",
+            "url": "https://evm.humans.posthuman.digital"
+        }
+    ],
+   ...
+}
+```
+
+Before requesting addition, please check whether the endpoint is operating properly using the method below.
+
+- Check gRPC Endpoint
+
+```sh
+GRPC_URL=<GPRC_ENDPOINT_URL>
+
+#check has grpc endpoints
+grpcurl $GRPC_URL list
+#check has grpc nodeinfo
+grpcurl $GRPC_URL cosmos.base.tendermint.v1beta1.Service.GetNodeInfo
+```
+
+- Check EVM Endpoint
+
+```sh
+EVM_URL=<EVM_ENDPOINT_URL>
+
+curl --location '$EVM_URL' \
+--header 'Content-Type: application/json' \
+--data '{
+    "jsonrpc": "2.0",
+    "method": "eth_getBlockByNumber",
+    "params": [
+        "latest",
+        false
+    ],
+    "id": 1
+}'
+```
+
 </details>
 
 ---
