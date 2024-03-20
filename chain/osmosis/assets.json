@@ -3146,5 +3146,17 @@
     },
     "image": "osmosis/asset/xrp.core.png",
     "coinGeckoId": "ripple"
+  },
+  {
+    "denom": "factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo",
+    "origin_type": "native",
+    "symbol": "bOSMO",
+    "decimals": 6,
+    "description": "BackBone Labs Liquid Staked OSMO",
+    "image": "osmosis/asset/bOSMO.png",
+    "coinGeckoId": ""
   }
 ]
