@@ -2156,13 +2156,13 @@
   {
     "denom": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D",
     "type": "ibc",
-    "origin_chain": "whitewhale",
-    "origin_denom": "uwhite",
-    "origin_type": "erc20",
+    "origin_chain": "migaloo",
+    "origin_denom": "uwhale",
+    "origin_type": "staking",
     "symbol": "WHALE",
     "decimals": 6,
     "enable": true,
-    "path": "whitewhale>osmosis",
+    "path": "migaloo>osmosis",
     "channel": "channel-642",
     "port": "transfer",
     "counter_party": {
@@ -2170,7 +2170,7 @@
       "port": "transfer",
       "denom": "uwhite"
     },
-    "image": "whitewhale/asset/whale.png",
+    "image": "migaloo/asset/whitewhale.png",
     "coinGeckoId": "white-whale"
   },
   {

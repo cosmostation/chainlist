@@ -1,12 +1,13 @@
 {
   "chain_name": "Titan-testnet",
   "fee": {
-    "base": "100000000000",
+    "base": "1",
     "rate": [
       "100000000000atkx",
       "110000000000atkx",
       "200000000000atkx"
     ],
+    "init_gas_limit" : 300000,
     "isSimulable": true,
     "simul_gas_multiply": 1.2,
     "fee_threshold": ""
@@ -16,6 +17,8 @@
       "provider": "Titanlab.io",
       "url": "titan-testnet-grpc.tokenize-dev.com:443"
     }
+  ],
+  "evm_rpc_endpoint" : [
   ],
   "about": {
     "website": "https://tokenize.exchange",
