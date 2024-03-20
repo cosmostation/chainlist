@@ -12,7 +12,10 @@
     "simul_gas_multiply" : 1.5,
     "fee_threshold" : "",
     "endpoint_url" : [
-        "grpc.medas-digital.io:9090"
+        {
+            "provider": "Neptun Validator",
+            "url": "grpc.medas-digital.io:9090"
+        }
     ],
     "about" : {
         "website" : "https://medas-digital.io/",
