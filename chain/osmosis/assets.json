@@ -3146,5 +3146,25 @@
     },
     "image": "osmosis/asset/xrp.core.png",
     "coinGeckoId": "ripple"
+  },
+  {
+    "denom": "ibc/E7905742CE2EA4EA5D592527DC89220C59B617DE803939FE7293805A64B484D7",
+    "type": "ibc",
+    "origin_chain": "source",
+    "origin_denom": "usource",
+    "origin_type": "staking",
+    "symbol": "SOURCE",
+    "decimals": 6,
+    "enable": true,
+    "path": "source>osmosis",
+    "channel": "channel-8945",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "usource"
+    },
+    "image": "source/asset/source.png",
+    "coinGeckoId": "source"
   }
 ]
