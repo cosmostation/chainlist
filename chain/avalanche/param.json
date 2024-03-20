@@ -1,9 +1,9 @@
 {
     "chain_id" : "43114",
     "chain_name": "avalanche",
-    "chain_image": "",
-    "symbol" : "",
-    "symbol_image" : "",
+    "chain_image": "avalanche/resource/chain_avalanche.png",
+    "symbol" : "AVAX",
+    "symbol_image" : "avalanche/asset/avax.png",
     "evm_rpc_endpoint" : [
         {
         }

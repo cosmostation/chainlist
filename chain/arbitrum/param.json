@@ -1,9 +1,9 @@
 {
     "chain_id" : "42161",
     "chain_name": "Arbitrum",
-    "chain_image": "",
-    "symbol" : "",
-    "symbol_image" : "",
+    "chain_image": "arbitrum/resource/chain_arbitrum.png",
+    "symbol" : "ETH",
+    "symbol_image" : "arbitrum/asset/eth_arb.png",
     "evm_rpc_endpoint" : [
         {
         }
