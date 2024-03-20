@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "injective-1",
     "chain_name": "Injective",
+    "chain_image": "injective/resource/chain_injective.png",
+    "symbol" : "INJ",
+    "symbol_image" : "injective/asset/inj.png",
+    "bechAccountPrefix" : "inj",
+    "bechValidatorPrefix" : "injvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey": "keccak256",
+            "pubkeyType": "/injective.crypto.v1beta1.ethsecp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

@@ -1,5 +1,19 @@
 {
+    "chain_id_cosmos" : "evmos_9001-2",
+    "chain_id_evm" : "9001",
     "chain_name": "Evmos",
+    "chain_image": "evmos/resource/chain_evmos.png",
+    "symbol" : "EVMOS",
+    "symbol_image" : "evmos/asset/evmos.png",
+    "bechAccountPrefix" : "evmos",
+    "bechValidatorPrefix" : "evmosvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey": "keccak256",
+            "pubkeyType": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

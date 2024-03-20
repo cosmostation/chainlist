@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "cosmoshub-4",
     "chain_name": "Cosmos",
+    "chain_image": "cosmos/resource/chain_cosmos.png",
+    "symbol" : "ATOM",
+    "symbol_image" : "cosmos/asset/atom.png",
+    "bechAccountPrefix" : "cosmos",
+    "bechValidatorPrefix" : "cosmosvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey": "secp256k1",
+            "pubkeyType": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
