@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Umee Staking Coin",
     "image": "umee/asset/umee.png",
-    "coinGeckoId": "umee"
+    "coinGeckoId": "umee",
+    "color": "#BB90F8"
   },
   {
     "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
@@ -89,7 +90,7 @@
       "denom": "weth-wei"
     },
     "image": "ethereum/asset/weth.png",
-    "coinGeckoId": "weth",
+    "coinGeckoId": "axlweth",
     "contract": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
   },
  {
@@ -110,7 +111,7 @@
       "denom": "wbtc-satoshi"
     },
     "image": "ethereum/asset/wbtc.png",
-    "coinGeckoId": "wrapped-bitcoin",
+    "coinGeckoId": "axlwbtc",
     "contract": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
   },
   
@@ -132,7 +133,7 @@
       "denom": "uusdc"
     },
     "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin",
+    "coinGeckoId": "axlusdc",
     "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   },
   {
@@ -277,7 +278,47 @@
     "image": "axelar/asset/axl.png",
     "coinGeckoId": "axelar"
   },
- {
+  {
+    "denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "ujuno",
+    "origin_type": "staking",
+    "symbol": "JUNO",
+    "decimals": 6,
+    "enable": true,
+    "path": "juno>umee",
+    "channel": "channel-43",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-208",
+      "port": "transfer",
+      "denom": "ujuno"
+    },
+    "image": "juno/asset/juno.png",
+    "coinGeckoId": "juno-network"
+  },
+  {
+    "denom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
+    "type": "ibc",
+    "origin_chain": "akash",
+    "origin_denom": "uakt",
+    "origin_type": "staking",
+    "symbol": "AKT",
+    "decimals": 6,
+    "enable": true,
+    "path": "akash>umee",
+    "channel": "channel-48", 
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-60",
+      "port": "transfer",
+      "denom": "uakt"
+    },
+    "image": "akash/asset/akt.png",
+    "coinGeckoId": "akash-network"
+  },
+  {
     "denom": "ibc/FAEC929814E0D916C019EB4B8BE58360EC3B6AB6A2B3185CB1EA0B54832DEE68",
     "type": "ibc",
     "origin_chain": "polygon",
@@ -297,5 +338,46 @@
     "image": "polygon/asset/wmatic.png",
     "coinGeckoId": "wmatic",
     "contract": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+  },
+  {
+    "denom": "ibc/223420B0E8CF9CC47BCAB816AB3A20AE162EED27C1177F4B2BC270C83E11AD8D",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "uusdt",
+    "origin_type": "erc20",
+    "symbol": "axlUSDT",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>umee",
+    "channel": "channel-33",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-36",
+      "port": "transfer",
+      "denom": "uusdt"
+    },
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "axelar-usdt",
+    "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+  },
+  {
+    "denom": "ibc/92BC8E5C50E6664B4DA748B62C1FFBE321967E1F8868EE03B005977F9AA7C0B8",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>umee",
+    "channel": "channel-120",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-51",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

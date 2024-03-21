@@ -1,0 +1,35 @@
+{
+    "chain_name": "Unification",
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+		    "25.0nund",
+		    "50.0nund",
+		    "100.0nund"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Unification",
+            "url": "grpc.unification.io:443"
+        },
+        {
+            "provider": "Chainmasters",
+            "url": "grpc.unification.chainmasters.info:443"
+        }
+    ],
+    "about" : {
+		"website" : "https://unification.com/"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

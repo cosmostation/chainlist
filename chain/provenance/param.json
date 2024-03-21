@@ -1,0 +1,45 @@
+{
+    "chain_id_cosmos" : "pio-mainnet-1",
+    "chain_name": "Provenance",
+    "chain_image": "provenance/resource/chain_provenance.png",
+    "symbol" : "HASH",
+    "symbol_image" : "provenance/asset/hash.png",
+    "bechAccountPrefix" : "pb",
+    "bechValidatorPrefix" : "pbvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/505'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "2000nhash"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-provenance.cosmostation.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.provenance.io/",
+        "docs": "https://docs.provenance.io",
+        "github" : "https://github.com/provenance-io",
+        "medium": "https://medium.com/provenanceblockchain",
+        "twitter" : "https://twitter.com/provenancefdn",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "금융 서비스 산업의 블록체인 기술 도입을 위해 설계된 텐더민트 기반 블록체인입니다.",
+        "en" : "Provenance is a Tendermint-based blockchain network utilized by $HASH, designed to support financial service industry.",
+        "ja" : "金融サービス業界のブロックチェーン技術導入のため設計された、テンダーミントベースのブロックチェーンです。"
+    }
+}

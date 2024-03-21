@@ -1,0 +1,50 @@
+[
+  {
+    "id": "stride",
+    "name": "Stride",
+    "dappType": "Defi",
+    "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
+    "link": "https://app.stride.zone/?chain=JUNO",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
+    }
+  },
+  {
+    "id": "tfm",
+    "name": "TFM",
+    "dappType": "Defi",
+    "description": "IBC & DEX & NFT Aggregator",
+    "link": "https://tfm.com/juno/trade/swap?dashboard=false&from=ujuno&to=ibc%2FEAC38D55372F38F1AFD68DF7FE9EF762DCF69F26520643CF3F9D292A738D8034&market=Junoswap"
+  },
+  {
+    "id": "whitewhale",
+    "name": "WhiteWhale",
+    "dappType": "Defi",
+    "description": "Stabilizing Prices Across the IBC.",
+    "link": "https://whitewhale.money"
+  },
+  {
+    "id": "hopers",
+    "name": "Hopers",
+    "dappType": "Defi&NFT",
+    "description": "IBC-enabled decentralized exchange & NFT protocol on Juno.",
+    "link": "https://www.hopers.io"
+  },
+  {
+    "id": "sparkibc",
+    "name": "Spark IBC",
+    "dappType": "Defi",
+    "description": "The community funding platform for the Interchain.",
+    "link": "https://sparkibc.zone"
+  },
+  {
+    "id": "abstract",
+    "name": "Abstract",
+    "dappType": "Others",
+    "description": "Build scalable dapps using modules.",
+    "link": "https://abstract.money"
+  }
+]

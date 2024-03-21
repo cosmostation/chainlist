@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "uagg",
+    "type": "staking",
+    "origin_chain": "agg",
+    "origin_denom": "uagg",
+    "origin_type": "staking",
+    "symbol": "AGG",
+    "decimals": 6,
+    "description": "AGG Staking Coin",
+    "image": "agg/asset/agg.png",
+    "coinGeckoId": "agg"
+  }
+]

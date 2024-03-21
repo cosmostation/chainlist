@@ -1,0 +1,65 @@
+{
+    "chain_id_cosmos" : "bitcanna-1",
+    "chain_name": "Bitcanna",
+    "chain_image": "bitcanna/resource/chain_bitcanna.png",
+    "symbol" : "BCNA",
+    "symbol_image" : "bitcanna/asset/bcna.png",
+    "bechAccountPrefix" : "bcna",
+    "bechValidatorPrefix" : "bcnavaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.025ubcna"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-bitcanna.cosmostation.io:443"
+        },
+        {
+            "provider": "bitcanna",
+            "url": "grpc.bitcanna.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "bitcanna-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "MMS",
+            "url": "grpc-bitcanna.mms.team:443"
+        },
+        {
+            "provider": "AlxVoy ⚡ ANODE.TEAM",
+            "url": "bitcanna.grpc.m.anode.team:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.bitcanna.io/",
+        "docs": "https://docs.bitcanna.io",
+        "github" : "https://github.com/BitCannaGlobal",
+        "blog" : "https://medium.com/@BitCannaGlobal",
+        "medium": "https://medium.com/@BitCannaGlobal",
+        "twitter" : "https://twitter.com/BitcannaGlobal",
+        "coingecko" : "https://www.coingecko.com/en/coins/bitcanna"
+    },
+     "forum": {
+      "main": "https://www.reddit.com/r/BitCanna"
+    },
+    "description" : {
+        "ko" : "네덜란드를 중심으로 유렵 내 카나비스의 공급망과 거래용 화폐($BCNA)를 제공하는 Cosmos SDK 기반 탈중앙화 네트워크.",
+        "en" : "A Cosmos SDK-based decentralized payment network and supply chain for legal cannabis industry.",
+        "ja" : "オランダを中心にヨーロッパ内カナビスのサプライチェーンと取引用コイン($BCNA)を提供するCosmos SDKベースの分散型ネットワーク。"
+    }
+}
