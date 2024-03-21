@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "panacea-3",
     "chain_name": "Medibloc",
+    "chain_image": "medibloc/resource/chain_medibloc.png",
+    "symbol" : "MED",
+    "symbol_image" : "medibloc/asset/med.png",
+    "bechAccountPrefix" : "panacea",
+    "bechValidatorPrefix" : "panaceavaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/371'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

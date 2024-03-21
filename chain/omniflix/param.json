@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "omniflixhub-1",
     "chain_name": "Omniflix",
+    "chain_image": "omniflix/resource/chain_omniflix.png",
+    "symbol" : "FLIX",
+    "symbol_image" : "omniflix/asset/flix.png",
+    "bechAccountPrefix" : "omniflix",
+    "bechValidatorPrefix" : "omniflixvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "regen-1",
     "chain_name": "Regen",
+    "chain_image": "regen/resource/chain_regen.png",
+    "symbol" : "REGEN",
+    "symbol_image" : "regen/asset/regen.png",
+    "bechAccountPrefix" : "regen",
+    "bechValidatorPrefix" : "regenvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

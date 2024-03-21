@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "passage-2",
     "chain_name": "Passage",
+    "chain_image": "passage/resource/chain_passage.png",
+    "symbol" : "PASG",
+    "symbol_image" : "passage/asset/pasg.png",
+    "bechAccountPrefix" : "pasg",
+    "bechValidatorPrefix" : "pasgvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

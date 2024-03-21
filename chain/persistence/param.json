@@ -1,5 +1,24 @@
 {
+    "chain_id_cosmos" : "core-1",
     "chain_name": "Persistence",
+    "chain_image": "persistence/resource/chain_persistence.png",
+    "symbol" : "XPRT",
+    "symbol_image" : "persistence/asset/xprt.png",
+    "bechAccountPrefix" : "persistence",
+    "bechValidatorPrefix" : "persistencevaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/750'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

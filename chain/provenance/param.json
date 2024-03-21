@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "pio-mainnet-1",
     "chain_name": "Provenance",
+    "chain_image": "provenance/resource/chain_provenance.png",
+    "symbol" : "HASH",
+    "symbol_image" : "provenance/asset/hash.png",
+    "bechAccountPrefix" : "pb",
+    "bechValidatorPrefix" : "pbvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/505'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

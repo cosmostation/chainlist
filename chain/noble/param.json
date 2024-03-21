@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "noble-1",
     "chain_name": "Noble",
+    "chain_image": "noble/resource/chain_noble.png",
+    "symbol" : "NOBLE",
+    "symbol_image" : "noble/asset/stake.png",
+    "bechAccountPrefix" : "noble",
+    "bechValidatorPrefix" : "noblevaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

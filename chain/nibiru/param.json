@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "cataclysm-1",
     "chain_name": "Nibiru",
+    "chain_image": "nibiru/resource/chain_nibiru.png",
+    "symbol" : "NIBI",
+    "symbol_image" : "nibiru/asset/nibi.png",
+    "bechAccountPrefix" : "nibi",
+    "bechValidatorPrefix" : "nibivaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

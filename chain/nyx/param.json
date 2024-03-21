@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "nyx",
     "chain_name": "Nyx",
+    "chain_image": "nyx/resource/chain_nyx.png",
+    "symbol" : "NYX",
+    "symbol_image" : "nyx/asset/nyx.png",
+    "bechAccountPrefix" : "n",
+    "bechValidatorPrefix" : "nvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "mars-1",
     "chain_name": "Mars Protocol",
+    "chain_image": "mars-protocol/resource/chain_mars.png",
+    "symbol" : "MARS",
+    "symbol_image" : "mars-protocol/asset/mars.png",
+    "bechAccountPrefix" : "mars",
+    "bechValidatorPrefix" : "marsvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
