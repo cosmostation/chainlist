@@ -64,5 +64,16 @@
     "image": "terra/asset/ampluna.png",
     "default": false,
     "coinGeckoId": "eris-amplified-luna"
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+    "symbol": "boneLUNA",
+    "description": "BackBoneLabs Liquid Staked LUNA",
+    "decimals": 6,
+    "image": "terra/asset/bLUNA.png",
+    "default": false,
+    "coinGeckoId": "backbone-labs-staked-luna"
   }
 ]

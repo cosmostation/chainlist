@@ -427,5 +427,16 @@
     "image": "juno/asset/takumi.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m",
+    "symbol": "bJUNO",
+    "description": "BackBone Labs Liquid Staked JUNO",
+    "decimals": 6,
+    "image": "juno/asset/bJUNO.png",
+    "default": false,
+    "coinGeckoId": "backbone-labs-staked-juno"
   }
 ]
