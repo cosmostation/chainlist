@@ -6,7 +6,6 @@
 - [Add Erc20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-erc20-token-info)
 - [Add Cw20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-cw20-token-info)
 - [dApp link and description on Mobile Wallet](https://github.com/cosmostation/chainlist/tree/main/dapp)
-- [Chain base fee](https://github.com/cosmostation/chainlist/tree/main#how-to-edit-chain-fee)
 - [Add gRPC/EVM Endpoint](https://github.com/cosmostation/chainlist/tree/main#how-to-add-endpoint)
 
 
@@ -427,26 +426,6 @@
    ```
 
   5. From your repository, make pull request (PR)
-</details>
-
----
-
-<details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to edit chain fee</h2></summary>
-
-  [Cosmos fee](https://github.com/cosmostation/chainlist/blob/main/chain/cosmos/fee.json) list supporting
-  - `chain/${targetChain}/fee.json` Edit rate and make pull request (PR)
-
-  ```json
-  {
-    "base" : "1",
-    "rate" : [
-      "0.00025uatom",
-      "0.0025uatom",
-      "0.025uatom"
-    ]
-  }
-  ```
 </details>
 
 ---
