@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "pacific-1",
     "chain_name": "Sei",
+    "chain_image": "sei/resource/chain_sei.png",
+    "symbol" : "SEI",
+    "symbol_image" : "sei/asset/sei.png",
+    "bechAccountPrefix" : "sei",
+    "bechValidatorPrefix" : "seivaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

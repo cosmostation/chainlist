@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "phoenix-1",
     "chain_name": "Terra",
+    "chain_image": "terra/resource/chain_terra.png",
+    "symbol" : "LUNA",
+    "symbol_image" : "terra/asset/luna.png",
+    "bechAccountPrefix" : "terra",
+    "bechValidatorPrefix" : "terravaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/330'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

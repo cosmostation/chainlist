@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "stride-1",
     "chain_name": "Stride",
+    "chain_image": "stride/resource/chain_stride.png",
+    "symbol" : "STRD",
+    "symbol_image" : "stride/asset/strd.png",
+    "bechAccountPrefix" : "stride",
+    "bechValidatorPrefix" : "stridevaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

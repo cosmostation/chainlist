@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "teritori-1",
     "chain_name": "Teritori",
+    "chain_image": "teritori/resource/chain_teritori.png",
+    "symbol" : "TORI",
+    "symbol_image" : "teritori/asset/tori.png",
+    "bechAccountPrefix" : "tori",
+    "bechValidatorPrefix" : "torivaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
