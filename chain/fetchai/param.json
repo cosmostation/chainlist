@@ -1,5 +1,30 @@
 {
+    "chain_id_cosmos" : "fetchhub-4",
     "chain_name": "Fetch.Ai",
+    "chain_image": "fetchai/resource/chain_fetchai.png",
+    "symbol" : "FET",
+    "symbol_image" : "fetchai/asset/fet.png",
+    "bechAccountPrefix" : "fetch",
+    "bechValidatorPrefix" : "fetchvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/60'/0'/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

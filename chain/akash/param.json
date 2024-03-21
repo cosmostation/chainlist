@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "akashnet-2",
     "chain_name": "Akash",
+    "chain_image": "akash/resource/chain_akash.png",
+    "symbol" : "AKT",
+    "symbol_image" : "akash/asset/akt.png",
+    "bechAccountPrefix" : "akash",
+    "bechValidatorPrefix" : "akashvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

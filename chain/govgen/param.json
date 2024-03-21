@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "govgen-1",
     "chain_name": "GOVGEN",
+    "chain_image": "govgen/resource/chain_govgen.png",
+    "symbol" : "GOVGEN",
+    "symbol_image" : "govgen/asset/govgen.png",
+    "bechAccountPrefix" : "govgen",
+    "bechValidatorPrefix" : "govgenvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "isBankLocked" : true,
     "fee" : {
         "base" : "1",

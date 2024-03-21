@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "coreum-mainnet-1",
     "chain_name": "Coreum",
+    "chain_image": "coreum/resource/chain_coreum.png",
+    "symbol" : "CORE",
+    "symbol_image" : "coreum/asset/core.png",
+    "bechAccountPrefix" : "core",
+    "bechValidatorPrefix" : "corevaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/990'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

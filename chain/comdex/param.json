@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "comdex-1",
     "chain_name": "Comdex",
+    "chain_image": "comdex/resource/chain_comdexs.png",
+    "symbol" : "CMDX",
+    "symbol_image" : "comdex/asset/cmdx.png",
+    "bechAccountPrefix" : "comdex",
+    "bechValidatorPrefix" : "comdexvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

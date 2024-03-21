@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "emoney-3",
     "chain_name": "EMoney",
+    "chain_image": "emoney/resource/chain_emoney.png",
+    "symbol" : "NGM",
+    "symbol_image" : "emoney/asset/ngm.png",
+    "bechAccountPrefix" : "emoney",
+    "bechValidatorPrefix" : "emoneyvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

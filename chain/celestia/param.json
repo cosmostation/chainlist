@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "celestia",
     "chain_name": "Celestia",
+    "chain_image": "celestia/resource/chain_celestia.png",
+    "symbol" : "TIA",
+    "symbol_image" : "celestia/asset/tia.png",
+    "bechAccountPrefix" : "celestia",
+    "bechValidatorPrefix" : "celestiavaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

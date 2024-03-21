@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "crypto-org-chain-mainnet-1",
     "chain_name": "Cronos Pos",
+    "chain_image": "crypto-org/resource/chain_cronos_pos.png",
+    "symbol" : "CRO",
+    "symbol_image" : "crypto-org/asset/cro.png",
+    "bechAccountPrefix" : "cro",
+    "bechValidatorPrefix" : "crocncl",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/394'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

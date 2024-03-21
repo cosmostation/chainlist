@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "mantle-1",
     "chain_name": "AssetMantle",
+    "chain_image": "asset-mantle/resource/chain_assetmantle.png",
+    "symbol" : "MNTL",
+    "symbol_image" : "asset-mantle/asset/mntl.png",
+    "bechAccountPrefix" : "mantle",
+    "bechValidatorPrefix" : "mantlevaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

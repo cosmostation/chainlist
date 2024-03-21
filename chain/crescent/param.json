@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "crescent-1",
     "chain_name": "Crescent",
+    "chain_image": "crescent/resource/chain_crescent.png",
+    "symbol" : "CRE",
+    "symbol_image" : "crescent/asset/cre.png",
+    "bechAccountPrefix" : "cre",
+    "bechValidatorPrefix" : "crevaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [

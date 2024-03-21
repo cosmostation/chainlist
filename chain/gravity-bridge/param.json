@@ -1,5 +1,11 @@
 {
+    "chain_id_cosmos" : "gravity-bridge-3",
     "chain_name": "GravityBridge",
+    "chain_image": "gravity-bridge/resource/chain_gravitybridge.png",
+    "symbol" : "GRAV",
+    "symbol_image" : "gravity-bridge/asset/grav.png",
+    "bechAccountPrefix" : "gravity",
+    "bechValidatorPrefix" : "gravityvaloper",
     "fee" : {
         "base" : "0",
         "rate" : [

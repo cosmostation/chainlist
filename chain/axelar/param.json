@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "axelar-dojo-1",
     "chain_name": "Axelar",
+    "chain_image": "axelar/resource/chain_axelar.png",
+    "symbol" : "AXL",
+    "symbol_image" : "axelar/asset/axl.png",
+    "bechAccountPrefix" : "axelar",
+    "bechValidatorPrefix" : "axelarvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
