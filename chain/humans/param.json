@@ -1,5 +1,19 @@
 {
+    "chain_id_cosmos" : "humans_1089-1",
+    "chain_id_evm" : "0x441",
     "chain_name": "Humans.ai",
+    "chain_image": "humans/resource/chain_humans.png",
+    "symbol" : "EVMOS",
+    "symbol_image" : "humans/asset/humans.png",
+    "bechAccountPrefix" : "human",
+    "bechValidatorPrefix" : "humanvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

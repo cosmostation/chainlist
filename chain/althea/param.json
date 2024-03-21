@@ -1,5 +1,25 @@
 {
+    "chain_id_cosmos" : "",
+    "chain_id_evm" : "",
     "chain_name": "Althea",
+    "chain_image": "althea/resource/chain_althea.png",
+    "symbol" : "ALTG",
+    "symbol_image" : "althea/asset/altg.png",
+    "bechAccountPrefix" : "althea",
+    "bechValidatorPrefix" : "altheavaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

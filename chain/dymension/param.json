@@ -1,5 +1,19 @@
 {
+    "chain_id_cosmos" : "dymension_1100-1",
+    "chain_id_evm" : "0x44c",
     "chain_name": "Dymension",
+    "chain_image": "dymension/resource/chain_dymension.png",
+    "symbol" : "DYM",
+    "symbol_image" : "dymension/asset/dym.png",
+    "bechAccountPrefix" : "dym",
+    "bechValidatorPrefix" : "dymvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
