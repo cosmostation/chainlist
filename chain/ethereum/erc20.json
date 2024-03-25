@@ -3122,5 +3122,60 @@
     "image": "ethereum/asset/pstake.png",
     "default": false,
     "coinGeckoId":"pstake-finance"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0x8fac8031e079f409135766c7d5de29cf22ef897c",
+    "symbol": "HEART",
+    "description": "Humans.ai",
+    "decimals": 18,
+    "image": "humans/asset/humans.png",
+    "default": false,
+    "coinGeckoId":"humans-ai"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "symbol": "stETH",
+    "description": "Lido Staked Ether",
+    "decimals": 18,
+    "image": "ethereum/asset/steth.png",
+    "default": false,
+    "coinGeckoId":"staked-ether"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "symbol": "wstETH",
+    "description": "Wrapped stETH",
+    "decimals": 18,
+    "image": "ethereum/asset/wsteth.png",
+    "default": false,
+    "coinGeckoId":"wrapped-steth"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+    "symbol": "LDO",
+    "description": "Lido DAO",
+    "decimals": 18,
+    "image": "ethereum/asset/ldo.png",
+    "default": false,
+    "coinGeckoId":"lido-dao"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+    "symbol": "rETH",
+    "description": "Rocket Pool ETH",
+    "decimals": 18,
+    "image": "ethereum/asset/reth.png",
+    "default": false,
+    "coinGeckoId":"rocket-pool-eth"
   }
 ]
