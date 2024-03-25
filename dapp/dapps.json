@@ -9,15 +9,6 @@
     "tag": ["Dex"]
   },
   {
-    "title": "PulsaraDAX",
-    "description": "Provide liquidity, swap and participate on governance on the first Decentralized Autonomous Exchange",
-    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/pulsara.png",
-    "url": "https://dax.pulsara.io",
-    "chain": ["coreum"],
-    "category": "Defi",
-    "tag": ["DAX"]
-  },
-  {
     "title": "Astrovault",
     "description": "DeFi, Sustainably.",
     "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/astrovault.png",
@@ -84,6 +75,24 @@
     "tag": ["Liquid Staking"]
   },
   {
+    "title": "PulsaraDAX",
+    "description": "Provide liquidity, swap and participate on governance on the first Decentralized Autonomous Exchange",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/pulsara.png",
+    "url": "https://dax.pulsara.io",
+    "chain": ["coreum"],
+    "category": "Defi",
+    "tag": ["DAX"]
+  },
+  {
+    "title": "pSTAKE",
+    "description": "Earn staking rewards on your Assets for securing PoS networks and participate in DeFi with stkAssets for additional yields.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/pstake.png",
+    "url": "https://cosmos.pstake.finance",
+    "chain": ["persistence"],
+    "category": "Defi",
+    "tag": ["Liquid Staking"]
+  },
+  {
     "title": "DAODAO",
     "description": "Simple, capable, and free DAO tooling.",
     "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/daodao.png",
@@ -145,15 +154,6 @@
     "chain": ["osmosis"],
     "category": "Defi",
     "tag": ["Money Market", "Farming"]
-  },
-  {
-    "title": "pSTAKE",
-    "description": "Earn staking rewards on your Assets for securing PoS networks and participate in DeFi with stkAssets for additional yields.",
-    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/dapp/image/pstake.png",
-    "url": "https://cosmos.pstake.finance",
-    "chain": ["persistence"],
-    "category": "Defi",
-    "tag": ["Liquid Staking"]
   },
   {
     "title": "StreamSwap Protocol",
