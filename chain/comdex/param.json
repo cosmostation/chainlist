@@ -1,14 +1,59 @@
 {
+    "chain_id_cosmos" : "comdex-1",
+    "chain_name": "Comdex",
+    "chain_image": "comdex/resource/chain_comdexs.png",
+    "symbol" : "CMDX",
+    "symbol_image" : "comdex/asset/cmdx.png",
+    "bechAccountPrefix" : "comdex",
+    "bechValidatorPrefix" : "comdexvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
+            "0.025ucmdx",
             "0.25ucmdx"
-        ]
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-comdex.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-comdex.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "comdex-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "StakerHouse",
+            "url": "comdex-grpc.stakerhouse.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://comdex.one/",
+        "docs": "https://docs.comdex.one",
+        "github" : "https://github.com/comdex-official",
+        "blog" : "https://blog.comdex.one/",
+        "medium": "https://blog.comdex.one",
+        "twitter" : "https://twitter.com/ComdexOfficial",
+        "coingecko" : "https://www.coingecko.com/en/coins/comdex"
+    },
+    "forum": {
+      "main": "https://forum.comdex.one",
+      "governance": "https://forum.comdex.one/c/comdex-discussion"
+    },
+    "description" : {
+        "ko" : "Comdex는 인터체인 DeFi를 위한 인프라 레이어입니다.",
+        "en" : "Comdex is an interchain DeFi infrastructure layer housing a suite of composable solutions on-chain.",
+        "ja" : "ComdexはインターチェーンDeFiのためのインフラストラクチャレイヤです。"
+    }
 }

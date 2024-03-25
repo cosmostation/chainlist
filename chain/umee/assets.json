@@ -361,23 +361,23 @@
     "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
   },
   {
-    "denom": "ibc/452372B8214E22C625E98958C5EDFB939C48E6590E40B711E9D30206EF8EDC9B",
+    "denom": "ibc/92BC8E5C50E6664B4DA748B62C1FFBE321967E1F8868EE03B005977F9AA7C0B8",
     "type": "ibc",
-    "origin_chain": "terra",
-    "origin_denom": "uluna",
-    "origin_type": "staking",
-    "symbol": "LUNA",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
     "decimals": 6,
     "enable": true,
-    "path": "terra>umee",
-    "channel": "channel-45", 
+    "path": "noble>umee",
+    "channel": "channel-120",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-93",
+      "channel": "channel-51",
       "port": "transfer",
-      "denom": "uluna"
+      "denom": "uusdc"
     },
-    "image": "terra/asset/luna.png",
-    "coinGeckoId": "terra-luna-2"
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

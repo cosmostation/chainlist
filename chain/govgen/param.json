@@ -1,0 +1,50 @@
+{
+    "chain_id_cosmos" : "govgen-1",
+    "chain_name": "GOVGEN",
+    "chain_image": "govgen/resource/chain_govgen.png",
+    "symbol" : "GOVGEN",
+    "symbol_image" : "govgen/asset/govgen.png",
+    "bechAccountPrefix" : "govgen",
+    "bechValidatorPrefix" : "govgenvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "isBankLocked" : true,
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.001ugovgen",
+            "0.005ugovgen"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-govgen.cosmostation.io:443"
+        },
+        {
+            "provider": "posthuman",
+            "url": "grpc.govgen.posthuman.digital:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://govgen.io/",
+        "github" : "https://github.com/atomone-hub",
+        "blog" : "https://govgen.io/blog",
+        "twitter" : "https://twitter.com/_govgen",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "GovGen은 거버넌스 전용 체인으로 AtomOne 허브 체인과 구별되며 AtomOne이 출시되기 전에 AtomOne 구성을 정의하기 위해 운영되는 블록체인입니다.",
+        "en" : "GovGen governance-only chain is distinct from the AtomOne hub chain and aims to help define and finalize the constitution of AtomOne before AtomOne itself launches.",
+        "ja" : "異なるガバナンス専用チェーンであり、AtomOne が起動される前に AtomOne 構成を定義するために動作するブロックチェーンです。"
+    }
+}

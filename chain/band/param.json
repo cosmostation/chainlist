@@ -1,15 +1,54 @@
 {
+    "chain_id_cosmos" : "laozi-mainnet",
+    "chain_name": "Band",
+    "chain_image": "band/resource/chain_band.png",
+    "symbol" : "BAND",
+    "symbol_image" : "band/asset/band.png",
+    "bechAccountPrefix" : "band",
+    "bechValidatorPrefix" : "bandvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.0025uband",
             "0.025uband"
-        ]
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-band.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-band.cosmostation.io:443"
+        },
+        {
+            "provider": "StakeTown",
+            "url": "band-grpc.stake-town.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://bandprotocol.com/",
+        "docs": "https://docs.bandchain.org",
+        "github" : "https://github.com/bandprotocol",
+        "blog" : "https://medium.com/bandprotocol",
+        "medium": "https://medium.com/bandprotocol",
+        "twitter" : "https://twitter.com/BandProtocol",
+        "coingecko" : "https://www.coingecko.com/en/coins/band-protocol"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/bandprotocol"
+    },
+    "description" : {
+        "ko" : "Tendermint를 기반으로 하는 크로스 체인 오라클 플랫폼입니다. 밴드 프로토콜은 실제 데이터와 API를 스마트 계약으로 통합하여 제공합니다.",
+        "en" : "Cross-chain oracle platform based on Tendermint. Aggregates and connects real-world data and APIs to smart contracts.",
+        "ja" : "Tendermint を基盤とするクロスチェーンオラクルプラットフォームです。 Band Protocol は、実際データと API をスマート コントラクトに統合して提供します。"
+    }
 }

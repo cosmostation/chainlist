@@ -1,14 +1,97 @@
 {
+    "chain_id_cosmos" : "kava_2222-10",
+    "chain_id_evm" : "0x8ae",
+    "chain_name": "Kava",
+    "chain_image": "kava/resource/chain_kava.png",
+    "symbol" : "KAVA",
+    "symbol_image" : "kava/asset/kava.png",
+    "bechAccountPrefix" : "kava",
+    "bechValidatorPrefix" : "kavavaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/459'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.01ukava"
-        ]
+            "0.01ukava",
+            "0.05ukava"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-kava.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-kava.cosmostation.io:443"
+        },
+        {
+            "provider": "kava",
+            "url": "grpc.data.kava.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-kava-ia.cosmosia.notional.ventures:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-kava-evm.cosmostation.io"
+        },
+        {
+            "provider": "kava",
+            "url": "https://evm.kava.io"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://kava-evm.publicnode.com"
+        },
+        {
+            "provider": "OnFinality",
+            "url": "https://kava.api.onfinality.io/public"
+        },
+        {
+            "provider": "Pokt",
+            "url": "https://kava-pokt.nodies.app"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/kava_evm"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.kava.io/",
+        "docs": "https://docs.kava.io/docs/intro",
+        "github" : "https://github.com/kava-labs",
+        "blog" : "https://www.kava.io/news",
+        "medium": "https://medium.com/kava-labs",
+        "twitter" : "https://twitter.com/kava_platform",
+        "coingecko" : "https://www.coingecko.com/en/coins/kava"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/kava_platform"
+    },
+    "description" : {
+        "ko" : "Kava는 코스모스의 속도와 상호 운용성과 이더리움의 개발자 능력을 결합한 분산형 블록체인입니다.",
+        "en" : "Kava is a decentralized blockchain that combines the speed and interoperability of Cosmos with the developer power of Ethereum.",
+        "ja" : "Kava は、Cosmos の速度と相互運用性とイーサリアムの開発力を組み合わせた分散型ブロックチェーンです。"
+    }
 }

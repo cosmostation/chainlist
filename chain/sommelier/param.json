@@ -1,14 +1,54 @@
 {
+    "chain_id_cosmos" : "sommelier-3",
+    "chain_name": "Sommelier",
+    "chain_image": "sommelier/resource/chain_sommelier.png",
+    "symbol" : "SOMM",
+    "symbol_image" : "sommelier/asset/somm.png",
+    "bechAccountPrefix" : "somm",
+    "bechValidatorPrefix" : "sommvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.0usomm"
-        ]
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-sommelier.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-sommelier.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "sommelier-grpc.lavenderfive.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.sommelier.finance/",
+        "docs": "https://sommelier-finance.gitbook.io/",
+        "github" : "https://github.com/PeggyJV",
+        "blog" : "https://www.sommelier.finance/blog",
+        "medium": "https://medium.com/@sommelierfinance",
+        "twitter" : "https://twitter.com/sommfinance",
+        "coingecko" : "https://www.coingecko.com/en/coins/sommelier"
+    },
+    "forum": {
+      "main": "https://community.sommelier.finance/",
+      "governance": "https://community.sommelier.finance/c/governance"
+    },
+    "description" : {
+        "ko" : "Somelier Finance는 위험이 최소화된 멀티체인 디파이 전략을 제공하는 Cosmos SDK 기반 블록체인 네트워크입니다.",
+        "en" : "Sommelier Finance is a Cosmos SDK-based blockchain that provides risk-managed multichain DeFi strategies.",
+        "ja" : "Sommelier Finance はリスクが最小化されたマルチチェーンDeFi 戦略を提供する Cosmos SDK ベースのブロックチェーンネットワークです。"
+    }
 }

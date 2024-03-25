@@ -11,5 +11,50 @@
     "image": "coreum/asset/core.png",
     "coinGeckoId": "coreum",
     "color": "#16B87B"
+  },
+  {
+    "denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+    "type": "native",
+    "origin_chain": "coreum",
+    "origin_denom": "usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z",
+    "origin_type": "native",
+    "symbol": "XRP",
+    "decimals": 6,
+    "description": "Bridged XRP",
+    "image": "coreum/asset/xrp.png",
+    "coinGeckoId": "ripple"
+  },
+  {
+    "denom": "usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z",
+    "type": "native",
+    "origin_chain": "coreum",
+    "origin_denom": "usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z",
+    "origin_type": "native",
+    "symbol": "SARA",
+    "decimals": 6,
+    "description": "Pulsara Ecosystem Token",
+    "image": "coreum/asset/sara.png",
+    "coinGeckoId": "",
+    "color": "#1739ff"
+  },
+  {
+    "denom": "ibc/E1E3674A0E4E1EF9C69646F9AF8D9497173821826074622D831BAB73CCB99A2D",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>coreum",
+    "channel": "channel-19",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-49",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

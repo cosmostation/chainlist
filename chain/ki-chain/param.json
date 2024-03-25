@@ -1,14 +1,54 @@
 {
+    "chain_id_cosmos" : "kichain-2",
+    "chain_name": "Ki Chain",
+    "chain_image": "ki-chain/resource/chain_ki.png",
+    "symbol" : "XKI",
+    "symbol_image" : "ki-chain/asset/xki.png",
+    "bechAccountPrefix" : "ki",
+    "bechValidatorPrefix" : "kivaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.025uxki"
-        ]
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
     },
-    "isSimulable" : true,
-    "simul_gas_multiply" : "1.5",
-    "fee_threshold" : "",
-    "endpoint_url" : [
-        "grpc-ki-chain.cosmostation.io:443"
-    ]
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-ki-chain.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-kichain-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "kichain-grpc.lavenderfive.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.foundation.ki/",
+        "docs": "https://foundation.ki",
+        "github" : "https://github.com/KiFoundation",
+        "blog" : "https://medium.com/ki-foundation",
+        "medium": "https://medium.com/ki-foundation",
+        "twitter" : "https://twitter.com/Ki_Foundation",
+        "coingecko" : "https://www.coingecko.com/en/coins/ki"
+    },
+    "description" : {
+        "ko" : "Ki 체인은 Cosmos SDK로 구축된 분산형 금융을 지원하도록 설계된 오픈 소스 퍼블릭 블록체인입니다.",
+        "en" : "Ki chain is an open source, public blockchain designed to enable decentralized finance, built with the Cosmos SDK.",
+        "ja" : "Ki チェーンは、分散型金融を可能にするために設計されたオープンソースのパブリック ブロックチェーンで、Cosmos SDK で構築されています。"
+    }
 }

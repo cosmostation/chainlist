@@ -77,26 +77,6 @@
     "coinGeckoId": "osmosis"
   },
   {
-    "denom": "ibc/EA7DF7F779C7F14E07172E5713E07356B55F01496CA649DDE46CF8FBF1A8466D",
-    "type": "ibc",
-    "origin_chain": "osmosis",
-    "origin_denom": "uion",
-    "origin_type": "native",
-    "symbol": "ION",
-    "decimals": 6,
-    "enable": true,
-    "path": "osmosis>comdex",
-    "channel": "channel-1",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-87",
-      "port": "transfer",
-      "denom": "uion"
-    },
-    "image": "osmosis/asset/ion.png",
-    "coinGeckoId": "ion"
-  },
-  {
     "denom": "ibc/961FA3E54F5DCCA639F37A7C45F7BBE41815579EF1513B5AFBEFCFEB8F256352",
     "type": "ibc",
     "origin_chain": "cosmos",
