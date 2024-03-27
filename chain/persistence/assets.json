@@ -61,6 +61,18 @@
     "coinGeckoId": "stkstars"
   },
   {
+    "denom": "stk/uhuahua",
+    "type": "native",
+    "origin_chain": "persistence",
+    "origin_denom": "stk/uhuahua",
+    "origin_type": "native",
+    "symbol": "stkHUAHUA",
+    "decimals": 6,
+    "description": "PSTAKE Liquid-Staked HUAHUA",
+    "image": "persistence/asset/stkhuahua.png",
+    "coinGeckoId": "stkhuahua"
+  },
+  {
     "denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
     "type": "ibc",
     "origin_chain": "ethereum",
@@ -301,5 +313,25 @@
     },
     "image": "secret/asset/shd.png",
     "coinGeckoId": "shade-protocol"
+  },
+  {
+    "denom": "ibc/B597D779FCDD9021263C98A48F1AFA9D2BCCCE980F397CDE5681CCEDE7DEE1A4",
+    "type": "ibc",
+    "origin_chain": "chihuahua",
+    "origin_denom": "uhuahua",
+    "origin_type": "staking",
+    "symbol": "HUAHUA",
+    "decimals": 6,
+    "enable": true,
+    "path": "chihuahua>persistence",
+    "channel": "channel-203",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-94",
+      "port": "transfer",
+      "denom": "uhuahua"
+    },
+    "image": "chihuahua/asset/huahua.png",
+    "coinGeckoId": "chihuahua-token"
   }
 ]
