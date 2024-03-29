@@ -3178,5 +3178,17 @@
     "description": "BackBone Labs Liquid Staked OSMO",
     "image": "osmosis/asset/bosmo.png",
     "coinGeckoId": ""
-  }
+  },
+  {
+    "denom": "factory/osmo1kqdw6pvn0xww6tyfv2sqvkkencdz0qw406x54r/IBC",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1kqdw6pvn0xww6tyfv2sqvkkencdz0qw406x54r/IBC",
+    "origin_type": "native",
+    "symbol": "IBC",
+    "decimals": 6,
+    "description": "OnE mEmEcOiN tO cOnNeCt oL ImBeCiles - aNd in Da Cosmos BiNd DeM",
+    "image": "osmosis/asset/ibc.png",
+    "coinGeckoId": ""
+  },
 ]
