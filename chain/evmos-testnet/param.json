@@ -1,0 +1,21 @@
+{
+    "chain_name": "Evmos Testnet",
+    "about" : {
+        "website" : "https://evmos.org/",
+        "docs": "https://evmos.dev",
+        "github" : "https://github.com/evmos",
+        "blog" : "https://evmos.blog/",
+        "medium": "https://medium.com/evmos",
+        "twitter" : "https://twitter.com/EvmosOrg",
+        "coingecko" : ""
+    },
+    "forum": {
+      "main": "https://commonwealth.im/evmos",
+      "governance": "https://commonwealth.im/evmos"
+    },
+    "description" : {
+        "ko" : "EVM(이더리움 가상 머신) 호환이 가능한 Cosmos SDK 기반 블록체인.",
+        "en" : "A Cosmos SDK based IBC & EVM-compatible(Ethereum Virtual Machine) blockchain.",
+        "ja" : "EVM(イーサリアム仮想マシン)互換可能な (イーサリアム仮想マシン) Cosmos SDKベースのブロックチェーン。"
+    }
+}

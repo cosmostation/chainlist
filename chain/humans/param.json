@@ -1,9 +1,25 @@
 {
+    "chain_id_cosmos" : "humans_1089-1",
+    "chain_id_evm" : "0x441",
+    "chain_name": "Humans.ai",
+    "chain_image": "humans/resource/chain_humans.png",
+    "symbol" : "EVMOS",
+    "symbol_image" : "humans/asset/humans.png",
+    "bechAccountPrefix" : "human",
+    "bechValidatorPrefix" : "humanvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "20000000000aheart"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -16,34 +32,49 @@
         {
             "provider": "NodeStake",
             "url": "grpc.humans.nodestake.top:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-humans-evm.cosmostation.io"
+        },
+        {
+            "provider": "Posthuman",
+            "url": "https://evm.humans.posthuman.digital"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://jsonrpc.humans.nodestake.top"
         },
         {
             "provider": "itrocket",
-            "url": "humans-mainnet-grpc.itrocket.net:17090"
+            "url": "https://humans-mainnet-evm.itrocket.net"
         },
         {
-            "provider": "Staketab",
-            "url": "humans-rpc.stakeangle.com:41490"
+            "provider": "Stakepool",
+            "url": "https://evm.humans.stakepool.dev.br"
         },
         {
-            "provider": "NodesHub",
-            "url": "https://humans.grpc.nodeshub.online:443"
-        },
-        {
-            "provider": "StakePool",
-            "url": "grpc-humans.cosmos-spaces.cloud:1190"
+            "provider": "KonsorTech",
+            "url": "https://mainnet-humans-evm.konsortech.xyz"
         }
     ],
     "about" : {
         "website" : "https://humans.ai/",
-        "blog" : "https://medium.com/humansdotai",
+        "docs": "https://docs.humans.ai",
         "github" : "https://github.com/humansdotai",
+        "blog" : "https://medium.com/humansdotai",
+        "medium": "https://medium.com/humansdotai",
         "twitter" : "https://twitter.com/humansdotai",
         "coingecko" : "https://www.coingecko.com/en/coins/humans-ai"
     },
+    "forum": {
+      "main": "https://commonwealth.im/humans"
+    },
     "description" : {
-        "ko" : "Humans.ai는 AI 알고리즘과 AI 모델 생성을 독려하기 위해 설계된 분산형 AI 생태계입니다.",
-        "en" : "Humans.ai  is a decentralized AI ecosystem designed to incentivize the creation of AI algorithms and models.",
-        "ja" : "Humans.ai はAIアルゴリズムとAIモデルの生成を促すために設計された分散型AI生態系です。"
+        "ko" : "Humans.ai는 AI 기반 창작과 블록체인 거버넌스를 위한 올인원 플랫폼을 만들고 있습니다.",
+        "en" : "Humans.ai is creating an all-in-one platform for AI-based creation and blockchain governance.",
+        "ja" : "Humans.ai は、AI ベースの作成とブロックチェーン ガバナンスのためのオールインワン プラットフォームを作成しています。"
     }
 }

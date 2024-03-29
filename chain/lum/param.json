@@ -1,9 +1,30 @@
 {
+    "chain_id_cosmos" : "lum-network-1",
+    "chain_name": "Lum",
+    "chain_image": "lum/resource/chain_lum.png",
+    "symbol" : "LUM",
+    "symbol_image" : "lum/asset/lum.png",
+    "bechAccountPrefix" : "lum",
+    "bechValidatorPrefix" : "lumvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/880'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.001ulum"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -14,28 +35,24 @@
             "url": "grpc-lum.cosmostation.io:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "lum-mainnet-grpc.autostake.com:443"
-        },
-        {
             "provider": "StakerHouse",
             "url": "lum-grpc.stakerhouse.com:443"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "lumnetwork-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Panthea EU",
-            "url": "lum-grpc.panthea.eu:16770"
         }
     ],
     "about" : {
         "website" : "https://lum.network/",
-        "blog" : "https://medium.com/lum-network",
+        "docs": "https://docs.lum.network",
         "github" : "https://github.com/lum-network",
+        "medium": "https://medium.com/lum-network",
         "twitter" : "https://twitter.com/lum_network",
         "coingecko" : "https://www.coingecko.com/en/coins/lum-network"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/LumNetwork"
     },
     "description" : {
         "ko" : "상품평 및 리뷰를 체인에 저장하고, 토큰으로 보상을 지급하는 Cosmos SDK 기반 블록체인.",

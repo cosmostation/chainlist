@@ -1,4 +1,30 @@
 {
+    "chain_id_cosmos" : "fetchhub-4",
+    "chain_name": "Fetch.Ai",
+    "chain_image": "fetchai/resource/chain_fetchai.png",
+    "symbol" : "FET",
+    "symbol_image" : "fetchai/asset/fet.png",
+    "bechAccountPrefix" : "fetch",
+    "bechValidatorPrefix" : "fetchvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/60'/0'/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -6,6 +32,7 @@
             "0.2afet",
             "2afet"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -22,26 +49,20 @@
         {
             "provider": "Notional",
             "url": "grpc-fetchhub-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "fetch-grpc.polkachu.com:15290"
-        },
-        {
-            "provider": "cosmosrescue",
-            "url": "fetch-grpc.cosmosrescue.com:9090"
         }
     ],
     "about" : {
         "website" : "https://fetch.ai/",
-        "blog" : "https://medium.com/fetch-ai",
+        "docs": "https://docs.fetch.ai",
         "github" : "https://github.com/fetchai",
+        "blog" : "https://fetch.ai/blog",
+        "medium": "https://medium.com/fetch-ai",
         "twitter" : "https://twitter.com/Fetch_ai",
         "coingecko" : "https://www.coingecko.com/en/coins/fetch-ai"
     },
     "description" : {
-        "ko" : "코스모스 SDK 기반, 개방형 및 분산형 머신 러닝 네트워크.",
-        "en" : "Open access, decentralized machine learning network built with the Cosmos SDK.",
-        "ja" : "コスモスSDK ベース、オープン型及び分散型マシンラーニングネットワーク。"
+        "ko" : "분산형 디지털 경제를 중심으로 구축된 스마트 인프라를 활성화하기 위한 개방형 및 분산형 머신 러닝 네트워크입니다.",
+        "en" : "An open access, tokenized, decentralized machine learning network to enable smart infrastructure built around a decentralized digital economy.",
+        "ja" : "分散型デジタル経済を中心に構築されたスマートインフラストラクチャを活性化するためのオープンおよび分散型機械学習ネットワーク。"
     }
 }

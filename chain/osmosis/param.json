@@ -1,10 +1,25 @@
 {
+    "chain_id_cosmos" : "osmosis-1",
+    "chain_name": "Osmosis",
+    "chain_image": "osmosis/resource/chain_osmosis.png",
+    "symbol" : "OSMO",
+    "symbol_image" : "osmosis/asset/osmo.png",
+    "bechAccountPrefix" : "osmo",
+    "bechValidatorPrefix" : "osmovaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
             "0.0025uosmo",
             "0.025uosmo"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.5,
         "fee_threshold" : ""
@@ -19,28 +34,29 @@
             "url": "grpc-osmosis-ia.cosmosia.notional.ventures:443"
         },
         {
-            "provider": "ivaldilabs",
-            "url": "osmosis.grpc.interchain.ivaldilabs.xyz:433"
+            "provider": "Stakin",
+            "url": "osmosis.grpc.stakin-nodes.com:443"
         },
         {
             "provider": "StakeTown",
             "url": "osmosis-grpc.stake-town.com:443"
         },
         {
-            "provider": "MMS",
-            "url": "grpc-osmosis.mms.team:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-osmosis.cosmos-spaces.cloud:1130"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "osmosis-grpc.lavenderfive.com:443"
         }
     ],
     "about" : {
         "website" : "https://osmosis.zone/",
-        "blog" : "https://medium.com/@Osmosis",
+        "docs": "https://docs.osmosis.zone",
         "github" : "https://github.com/osmosis-labs",
+        "medium": "https://medium.com/@Osmosis",
         "twitter" : "https://twitter.com/osmosiszone",
         "coingecko" : "https://www.coingecko.com/en/coins/osmosis"
+    },
+    "forum": {
+      "main": "https://gov.osmosis.zone",
+      "governance": "https://gov.osmosis.zone/proposals"
     },
     "description" : {
         "ko" : "Cosmos SDK와 코스모스 인터블록체인 커뮤니케이션(IBC) 프로토콜을 이용하여 다수의 다른 블록체인 네트워크 유저들에게 유동성을 제공해주는 인터체인 AMM.",

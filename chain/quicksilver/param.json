@@ -1,9 +1,24 @@
 {
+    "chain_id_cosmos" : "quicksilver-2",
+    "chain_name": "Quicksilver",
+    "chain_image": "quicksilver/resource/chain_quicksilver.png",
+    "symbol" : "QCK",
+    "symbol_image" : "quicksilver/asset/qck.png",
+    "bechAccountPrefix" : "quick",
+    "bechValidatorPrefix" : "quickvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.0001uqck"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -26,14 +41,23 @@
             "url": "quicksilver-grpc.lavenderfive.com:443"
         },
         {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-quicksilver.cosmos-spaces.cloud:3300"
+            "provider": "MMS",
+            "url": "grpc-quicksilver.mms.team:443"
+        },
+        {
+            "provider": "StakeTown",
+            "url": "quicksilver-grpc.stake-town.com:443"
+        },
+        {
+            "provider": "TdrSys",
+            "url": "quicksilver.tdrsys.com:2083"
         }
     ],
     "about" : {
         "website" : "https://quicksilver.zone/",
-        "blog" : "https://medium.com/quicksilverzone",
+        "docs": "https://docs.quicksilver.zone/",
         "github" : "https://github.com/quicksilver-zone/quicksilver",
+        "medium": "https://medium.com/quicksilverzone",
         "twitter" : "https://twitter.com/quicksilverzone",
         "coingecko" : "https://www.coingecko.com/en/coins/quicksilver"
     },

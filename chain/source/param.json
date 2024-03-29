@@ -1,4 +1,18 @@
 {
+    "chain_id_cosmos" : "source-1",
+    "chain_name": "Source",
+    "chain_image": "source/resource/chain_source.png",
+    "symbol" : "SOURCE",
+    "symbol_image" : "source/asset/source.png",
+    "bechAccountPrefix" : "source",
+    "bechValidatorPrefix" : "sourcevaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -36,16 +50,28 @@
             "url": "source.grpc.m.stavr.tech:9590"
         }
     ],
+    "explorer" : {
+        "name": "🔥STAVR🔥",
+        "url": "https://explorer.stavr.tech/Source-Mainnet/",
+        "account": "https://explorer.stavr.tech/Source-Mainnet/accounts/${address}",
+        "tx": "https://explorer.stavr.tech/Source-Mainnet/tx/${hash}",
+        "proposal": "https://explorer.stavr.tech/Source-Mainnet/gov/${id}"
+    },
     "about" : {
         "website" : "https://www.sourceprotocol.io/",
-        "blog" : "https://sourceprotocol.medium.com/",
+        "docs": "https://docs.sourceprotocol.io/",
         "github" : "https://github.com/Source-Protocol-Cosmos/source",
+        "medium" : "https://sourceprotocol.medium.com/",
         "twitter" : "https://twitter.com/sourceprotocol_",
         "coingecko" : "https://www.coingecko.com/en/coins/source"
     },
+    "forum": {
+      "main": "https://www.sourceprotocol.io/blog",
+      "governance": "https://commonwealth.im/source/"
+    },
     "description" : {
-        "ko" : "Cosmos SDK 기반의 상호 운용 가능한 스마트 컨트랙트 네트워크. 확장성, 속도, 보안, 그리고 유저 친화적인 개발환경을 제공합니다.",
-        "en" : "Interoperable smart contract network built with the Cosmos SDK. Highly scalable, robust, secure and easy to deploy.",
-        "ja" : "Cosmos SDKベースの相互運用可能なスマートコントラクトネットワーク。拡張性、速度、保安、そしてユーザー親和的な開発環境を提供します。"
+        "ko" : "안전하고 지속 가능한 글로벌 네트워크에서 무제한의 엔터프라이즈 애플리케이션을 구축할 수 있습니다.",
+        "en" : "Building limitless enterprise applications on a secure and sustainable global network.",
+        "ja" : "安全で持続可能なグローバル ネットワーク上に無制限のエンタープライズ アプリケーションを構築します。"
     }
 }

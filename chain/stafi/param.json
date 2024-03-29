@@ -1,10 +1,25 @@
 {
+    "chain_id_cosmos" : "stafihub-1",
+    "chain_name": "Stafi",
+    "chain_image": "stafi/resource/chain_stafi.png",
+    "symbol" : "FIS",
+    "symbol_image" : "stafi/asset/fis.png",
+    "bechAccountPrefix" : "stafi",
+    "bechValidatorPrefix" : "stafivaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.01ufis",
             "0.025ufis"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -25,18 +40,19 @@
         {
             "provider": "NodeStake",
             "url": "grpc.stafihub.nodestake.top:443"
-        },
-        {
-            "provider": "NODEJUMPER",
-            "url": "stafihub.nodejumper.io:9090"
         }
     ],
     "about" : {
         "website" : "https://www.stafihub.io/",
-        "blog" : "https://stafi-protocol.medium.com/",
+        "docs": "https://docs.stafi.io/",
         "github" : "https://github.com/stafihub/stafihub",
+        "medium": "https://stafi-protocol.medium.com/",
         "twitter" : "https://twitter.com/StaFiHub_",
         "coingecko" : "https://www.coingecko.com/en/coins/stafi"
+    },
+    "forum": {
+      "main": "https://commonwealth.im/stafi",
+      "governance": "https://commonwealth.im/stafi/discussions"
     },
     "description" : {
         "ko" : "StaFi Hub 는 크로스체인 리퀴드 스테이킹을 위해 설계된 Cosmos SDK 기반 블록체인 네트워크입니다.",

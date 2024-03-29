@@ -1,4 +1,18 @@
 {
+    "chain_id_cosmos" : "titan-1",
+    "chain_name": "Rizon",
+    "chain_image": "rizon/resource/chain_rizon.png",
+    "symbol" : "ATOLO",
+    "symbol_image" : "rizon/asset/atolo.png",
+    "bechAccountPrefix" : "rizon",
+    "bechValidatorPrefix" : "rizonvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -6,6 +20,7 @@
             "0.0025uatolo",
             "0.025uatolo"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -14,20 +29,13 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-rizon.cosmostation.io:443"
-        },
-        {
-            "provider": "MMS",
-            "url": "grpc-rizon.mms.team:443"
-        },
-        {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "rizon-grpc.publicnode.com:443"
         }
     ],
     "about" : {
         "website" : "https://rizon.world/",
-        "blog" : "https://medium.com/hdac",
+        "docs": "https://docs.rizon.world",
         "github" : "https://github.com/rizon-world/rizon",
+        "blog" : "https://medium.com/hdac",
         "twitter" : "https://twitter.com/hdac_rizon",
         "coingecko" : "https://www.coingecko.com/en/coins/rizon"
     },

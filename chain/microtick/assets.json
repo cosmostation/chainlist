@@ -1,0 +1,13 @@
+[
+	{
+	    "denom": "utick",
+	    "type": "staking",
+	    "origin_chain": "microtick",
+	    "origin_denom": "utick",
+	    "origin_type": "staking",
+	    "symbol": "TICK",
+	    "decimals": 6,
+	    "description": "Microtick Staking Coin",
+	    "image": "microtick/asset/tick.png"
+	}
+]

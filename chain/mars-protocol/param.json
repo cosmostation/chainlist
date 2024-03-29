@@ -1,9 +1,24 @@
 {
+    "chain_id_cosmos" : "mars-1",
+    "chain_name": "Mars Protocol",
+    "chain_image": "mars-protocol/resource/chain_mars.png",
+    "symbol" : "MARS",
+    "symbol_image" : "mars-protocol/asset/mars.png",
+    "bechAccountPrefix" : "mars",
+    "bechValidatorPrefix" : "marsvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.0umars"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -18,24 +33,22 @@
             "url": "grpc.marsprotocol.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "mars-grpc.polkachu.com:18590"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "mars-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "genznodes",
-            "url": "mars-grpc.genznodes.dev:9090"
         }
     ],
     "about" : {
         "website" : "https://marsprotocol.io/",
-        "blog" : "https://mars-protocol.medium.com/",
+        "docs": "https://docs.marsprotocol.io/mars-protocol/",
         "github" : "https://github.com/mars-protocol",
+        "blog" : "https://blog.marsprotocol.io/",
+        "medium": "https://mars-protocol.medium.com/",
         "twitter" : "https://twitter.com/mars_protocol",
         "coingecko" : "https://www.coingecko.com/en/coins/mars-protocol"
+    },
+    "forum": {
+      "main": "https://forum.marsprotocol.io/",
+      "governance": "https://forum.marsprotocol.io/c/proposals/5"
     },
     "description" : {
         "ko" : "Mars Hub는 Interchain 생태계 전반에 걸쳐 배포될 Mars Protocol의 다양한 디파이 앱들의 관리 및 운영을 위해 설계된 블록체인입니다.",

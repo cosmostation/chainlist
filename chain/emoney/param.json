@@ -1,4 +1,18 @@
 {
+    "chain_id_cosmos" : "emoney-3",
+    "chain_name": "EMoney",
+    "chain_image": "emoney/resource/chain_emoney.png",
+    "symbol" : "NGM",
+    "symbol_image" : "emoney/asset/ngm.png",
+    "bechAccountPrefix" : "emoney",
+    "bechValidatorPrefix" : "emoneyvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -6,6 +20,7 @@
             "0.3ungm",
             "1ungm"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -16,18 +31,15 @@
             "url": "grpc-emoney.cosmostation.io:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "emoney-mainnet-grpc.autostake.com:443"
-        },
-        {
             "provider": "Notional",
             "url": "grpc-emoney-ia.cosmosia.notional.ventures:443"
         }
     ],
     "about" : {
         "website" : "https://e-money.com/",
-        "blog" : "https://medium.com/e-money-com",
         "github" : "https://github.com/e-money",
+        "blog" : "https://medium.com/e-money-com",
+        "medium": "https://medium.com/e-money-com",
         "twitter" : "https://twitter.com/emoney_com",
         "coingecko" : "https://www.coingecko.com/en/coins/e-money"
     },

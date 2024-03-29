@@ -1,9 +1,24 @@
 {
+    "chain_id_cosmos" : "archway-1",
+    "chain_name": "Archway",
+    "chain_image": "archway/resource/chain_archway.png",
+    "symbol" : "ARCH",
+    "symbol_image" : "archway/asset/arch.png",
+    "bechAccountPrefix" : "archway",
+    "bechValidatorPrefix" : "archwayvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "140000000000aarch"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -18,8 +33,8 @@
             "url": "grpc.mainnet.archway.io:443"
         },
         {
-            "provider": "Nodes.Guru",
-            "url": "grpc-1.archway.nodes.guru:10690"
+            "provider": "StakeUp",
+            "url": "grpc.archway.stakeup.tech:443"
         },
         {
             "provider": "openbitlab",
@@ -32,8 +47,10 @@
     ],
     "about" : {
         "website" : "https://archway.io/",
-        "blog" : "https://blog.archway.io/",
+        "docs": "https://docs.archway.io/",
         "github" : "https://github.com/archway-network",
+        "blog" : "https://blog.archway.io/",
+        "medium": "https://blog.archway.io/",
         "twitter" : "https://twitter.com/archwayhq",
         "coingecko" : "https://www.coingecko.com/en/coins/archway"
     },
