@@ -1,7 +1,7 @@
 [
   {
     "name": "Helix",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "A Decentralized Crypto Exchange on Injective.",
     "status": "open",
     "thumnail" : "helix",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Stride",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
     "status": "open",
     "thumnail" : "stride",
@@ -23,7 +23,7 @@
   },
   {
     "name": "Wavely",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Decentralized Crypto & Derivatives Exchange Powered by Injective.",
     "status": "open",
     "thumnail" : "wavely",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Astroport",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Decentralized, permissionless and open-source marketplace.",
     "status": "open",
     "thumnail" : "astroport",
@@ -39,7 +39,7 @@
   },
   {
     "name": "White Whale",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Stabilizing Prices Across the IBC.",
     "status": "open",
     "thumnail" : "whitewhale",
@@ -47,7 +47,7 @@
   },
   {
     "name": "Talis",
-    "dappType": "NFT",
+    "type": "NFT",
     "description": "The NFT marketplace that empowers artists and bridges physical & digital art.",
     "status": "open",
     "thumnail" : "talis",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Black Panther",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "The asset management protocol that helps you achieve superior returns.",
     "status": "open",
     "thumnail" : "blackpanther",
@@ -74,7 +74,7 @@
   },
   {
     "name": "Gryphon",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Gryphon is an innovative protocol integrating LSD and a stablecoin (CDP) component into its framework. Think Jito + DAI integrated together.",
     "status": "open",
     "thumnail" : "gryphon",
@@ -87,7 +87,7 @@
   },
   {
     "name": "Neptune Finance",
-    "dappType": "Lending",
+    "type": "Lending",
     "description": "Lend, borrow, and build with better rates.",
     "status": "open",
     "thumnail" : "neptune-finance",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Aeroscraper Protocol",
-    "dappType": "Lending-Borrowing and Stable Coin",
+    "type": "Lending-Borrowing and Stable Coin",
     "description": "Aeroscraper is the first truly decentralized lending protocol built on Injective and Sei Network. Its operations are immutable, non-custodial, and governance-free.",
     "status": "open",
     "thumnail" : "aeroscraper",

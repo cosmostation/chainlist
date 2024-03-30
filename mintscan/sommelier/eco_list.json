@@ -2,7 +2,7 @@
   {
     "id": "finance",
     "name": "Sommelier Finance",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Vaults that predict and adapt to market conditions, 24/7 and fully on-chain.",
     "thumnail" : "finance",
     "link": "https://app.sommelier.finance/"
@@ -10,7 +10,7 @@
   {
     "id": "stride",
     "name": "Stride",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
     "thumnail" : "stride",
     "link": "https://app.stride.zone/?chain=SOMM",

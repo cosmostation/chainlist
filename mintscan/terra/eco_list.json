@@ -1,7 +1,7 @@
 [
   {
     "name": "astroport",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "An automated, decentralized exchange protocol.",
     "status": "open",
     "thumnail" : "astroport",
@@ -16,7 +16,7 @@
   },
   {
     "name": "Stride",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
     "status": "open",
     "thumnail" : "stride",
@@ -30,7 +30,7 @@
   },
   {
     "name": "capapult",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Decentralised CDP ($SOLID) on Terra, governed through $CAPA holders.",
     "status": "open",
     "thumnail" : "capapult",
@@ -44,7 +44,7 @@
   },
   {
     "name": "enterprise protocol",
-    "dappType": "DAO",
+    "type": "DAO",
     "description": "A no-code tool for organizing, creating, and maintaining DAOs.",
     "status": "open",
     "thumnail" : "enterprise-protocol",
@@ -59,7 +59,7 @@
   },
   {
     "name": "Feather",
-    "dappType": "Others",
+    "type": "Others",
     "description": "A solution for spinning up a new Cosmos SDK-based blockchain.",
     "status": "prepare",
     "thumnail" : "feather",
@@ -67,7 +67,7 @@
   },
   {
     "name": "LUNA Gravedigger",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "A multi-chain Defi/Collateral/NFT Hub.",
     "status": "open",
     "thumnail" : "gravedigger",
@@ -80,7 +80,7 @@
   },
   {
     "name": "Necropolis",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "A multi-chain NFT Marketplace and Launchpad",
     "status": "open",
     "thumnail" : "necropolis",
@@ -93,7 +93,7 @@
   },
   {
     "name": "TFM",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Trading platform built for Terra and Cosmos.",
     "status": "open",
     "thumnail" : "tfm",
@@ -108,7 +108,7 @@
   },
   {
     "name": "Warp Protocol",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Smart contract-based transaction automator.",
     "status": "open",
     "thumnail" : "warp-protocol",

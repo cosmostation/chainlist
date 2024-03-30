@@ -2,7 +2,7 @@
   {
     "id": "teritori-nft-marketplace",
     "name": "NFT Marketplace",
-    "dappType": "NFT",
+    "type": "NFT",
     "description": "Teritori NFT Marketplace. Buy, sell, and trade NFTs.",
     "status": "open",
     "thumnail" : "stride",
@@ -10,7 +10,7 @@
   },
   {
     "name": "Name Service",
-    "dappType": "NFT",
+    "type": "NFT",
     "description": "Get your unique Teritori Name Service (TNS) name. TNS names are NFTs that can be used to receive payments and more. Get you name.tori NOW!",
     "status": "open",
     "thumnail" : "teritori-name-service",
@@ -18,7 +18,7 @@
   },
   {
     "name": "The Riot: Original P2E Game",
-    "dappType": "Others",
+    "type": "Others",
     "description": "The Riot is the first P2E game on Teritori. Join the community and earn rewards.",
     "status": "open",
     "thumnail" : "the-riot",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Cosmos First On-chain Social Network",
-    "dappType": "Social",
+    "type": "Social",
     "description": "Post, like, and comment on the first on-chain social network. Powered by the Cosmos SDK.",
     "status": "open",
     "thumnail" : "teritori-social-feed",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Multisig Tools",
-    "dappType": "DAO",
+    "type": "DAO",
     "description": "Create and manage your multisig wallet. Supports all Cosmos SDK chains.",
     "status": "open",
     "thumnail" : "teritori-multisig-wallets",
@@ -45,7 +45,7 @@
   },
   {
     "name": "Teritori Dapp Store",
-    "dappType": "System",
+    "type": "System",
     "description": "Teritori OS Dapp Store. Find all the dapps you need in one place.",
     "status": "open",
     "thumnail" : "teritori-dapp-store",
@@ -56,7 +56,7 @@
   },
   {
     "name": "Create your Organization",
-    "dappType": "DAO",
+    "type": "DAO",
     "description": "Build your OWN DAO. Manage treasury, voting, and governance.",
     "status": "open",
     "thumnail" : "teritori-org-deployer",
@@ -64,7 +64,7 @@
   },
   {
     "name": "Teritori OS: Music",
-    "dappType": "Social",
+    "type": "Social",
     "description": "Upload and find new fans for your music, powered by the Teritori OS.",
     "status": "open",
     "thumnail" : "teritori-music-player",
@@ -72,7 +72,7 @@
   },
   {
     "name": "Teritori OS: Video Player",
-    "dappType": "Social",
+    "type": "Social",
     "description": "Experience the first on-chain video player.",
     "status": "open",
     "thumnail" : "teritori-video-player",
@@ -80,7 +80,7 @@
   },
   {
     "name": "ToriPunks Games",
-    "dappType": "Gamble",
+    "type": "Gamble",
     "description": "Toripunks and ChadPunks NFTs are native to Teritori. Join this unique community and earn rewards.",
     "status": "open",
     "thumnail" : "teritori-toripunks",
@@ -88,7 +88,7 @@
   },
   {
     "name": "teritori (staking)",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Stake your TORI tokens and earn rewards.",
     "status": "open",
     "thumnail" : "teritori-tori-staking",
@@ -96,7 +96,7 @@
   },
   {
     "name": "Swap on Osmosis",
-    "dappType": "Dex",
+    "type": "Dex",
     "description": "Find How to Buy Tori, swap without moving away from Teritori OS",
     "status": "open",
     "thumnail" : "teritori-osmosis-swap",
@@ -104,7 +104,7 @@
   },
   {
     "name": "IBC.fun",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "IBC.fun is a cross-chain bridge that allows you to transfer assets between different blockchains.",
     "status": "prepare",
     "thumnail" : "teritori-ibcfun-bridge",
@@ -112,7 +112,7 @@
   },
   {
     "name": "Teritori <> Axelar",
-    "dappType": "System",
+    "type": "System",
     "description": "Bridge your $TORI tokens from Ethereum to teritori.",
     "status": "prepare",
     "thumnail" : "default",
@@ -120,7 +120,7 @@
   },
   {
     "name": "Pathwar: Learn to Earn",
-    "dappType": "Others",
+    "type": "Others",
     "description": "Cybersec Learning Platform.",
     "status": "prepare",
     "thumnail" : "teritori-pathwar-elearning",
@@ -128,7 +128,7 @@
   },
   {
     "name": "On-Chain Project Manager",
-    "dappType": "System",
+    "type": "System",
     "description": "Manage your project on-chain. Create tasks, grants, assign them to team members, and track progress.",
     "status": "prepare",
     "thumnail" : "project-manager",
@@ -136,7 +136,7 @@
   },
   {
     "name": "Governance",
-    "dappType": "System",
+    "type": "System",
     "description": "teritori Governance Platform. Cast your vote and contribute to shaping teritori's future.",
     "status": "open",
     "thumnail" : "teritori-teritori-governance",
@@ -144,7 +144,7 @@
   },
   {
     "name": "Pulsar Finance",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Track your portfolio performance across 70+ blockchains in a single place, from Tokens to DeFi & NFTs.",
     "status": "open",
     "thumnail" : "pulsarfinance",
@@ -152,7 +152,7 @@
   },
   {
     "name": "Kado",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Instantly Buy & Sell Crypto. Onboard to Osmosis in less than 5 minutes.",
     "status": "open",
     "thumnail" : "kado",
@@ -160,7 +160,7 @@
   },
   {
     "name": "REStake",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Auto-compound your staking rewards and setup your own custom Authz grants for any chain in the Cosmos ecosystem.",
     "status": "open",
     "thumnail" : "restake",
@@ -168,7 +168,7 @@
   },
   {
     "name": "Slashboard",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "The Validator Slashboard is a dedicated tool designed to showcase the historical data of validator slashing incidents.",
     "status": "open",
     "thumnail" : "default",
@@ -176,7 +176,7 @@
   },
   {
     "name": "Yieldmos",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Boost yields by auto compounding your staking and LP rewards with validators of your choice.",
     "status": "open",
     "thumnail" : "yieldmos",
@@ -184,7 +184,7 @@
   },
   {
     "name": "TFM",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Pro-Trading Terminal of Teritori aggregating all DEX and NFT",
     "link": "https://tfm.com/osmosis/trade/protrade?from=ibc%2FEB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC&to=ibc%2FD189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858&market=Osmosis",
     "status": "open",

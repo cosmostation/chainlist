@@ -1,15 +1,15 @@
 [
   {
-    "name": "neutron (airdrop)",
-    "dappType": "System",
+    "name": "Neutron (airdrop)",
+    "type": "System",
     "description": "Participate in the Lockdrop, Airdrop, and check available $NTRN rewards to withdraw after the end of the Lockdrop event.",
     "status": "open",
     "thumnail" : "neutron-airdrop",
     "link": "https://launch.neutron.org/"
   },
   {
-    "name": "astroport",
-    "dappType": "Dex",
+    "name": "Astroport",
+    "type": "Dex",
     "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
     "status": "open",
     "thumnail" : "astroport",
@@ -23,16 +23,16 @@
     }
   },
   {
-    "name": "neutron (governance)",
-    "dappType": "System",
+    "name": "Neutron (governance)",
+    "type": "System",
     "description": "Neutron Governance Platform. Cast your vote and contribute to shaping Neutron's future.",
     "status": "open",
     "thumnail" : "neutron-governance",
     "link": "https://governance.neutron.org/proposals"
   },
   {
-    "name": "apollo dao",
-    "dappType": "Vaults",
+    "name": "Apollo dao",
+    "type": "Vaults",
     "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
     "status": "open",
     "thumnail" : "apollo",
@@ -46,8 +46,8 @@
     }
   },
   {
-    "name": "lido",
-    "dappType": "Liquid Staking",
+    "name": "Lido",
+    "type": "Liquid Staking",
     "description": "With Lido`s liquid staking protocol, users can receive liquid stTokens on top of daily staking rewards.",
     "status": "prepare",
     "thumnail" : "lido",
@@ -61,8 +61,8 @@
     }
   },
   {
-    "name": "red bank",
-    "dappType": "Lending",
+    "name": "Red bank",
+    "type": "Lending",
     "description": "Lend, borrow and earn on Red Bank lending platform designed by Mars Protocol team.",
     "status": "open",
     "thumnail" : "red-bank",
@@ -77,7 +77,7 @@
   },
   {
     "name": "Nolus Protocol",
-    "dappType": "DeFi",
+    "type": "DeFi",
     "description": "Reshaping Money Markets with the first DeFi Lease",
     "status": "open",
     "thumnail" : "nolusprotocol",
@@ -91,8 +91,8 @@
     }
   },
   {
-    "name": "craft network",
-    "dappType": "NFT",
+    "name": "Craft network",
+    "type": "NFT",
     "description": "Craft Network is an NFT Marketplace bringing cross-chain NFT liquidity for the interchain.",
     "status": "open",
     "thumnail" : "craft-network",
@@ -104,7 +104,7 @@
   },
   {
     "name": "TFM",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Pro-Trading Terminal of Neutron aggregating all DEX and NFT",
     "status": "open",
     "thumnail" : "tfm",
@@ -118,7 +118,7 @@
   },
   {
     "name": "Eclipse Fi",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
     "status": "open",
     "thumnail" : "eclipse-fi",
@@ -132,7 +132,7 @@
   },
   {
     "name": "pSTAKE Finance",
-    "dappType": "Liquid Staking",
+    "type": "Liquid Staking",
     "description": "pSTAKE is a Cosmos-focused liquid staking (LST issuance) protocol built on Persistence One. pSTAKE empowers users to earn staking rewards and participate in DeFi while maintaining liquidity with stkTokens.",
     "status": "open",
     "thumnail" : "pstake-finance",

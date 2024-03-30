@@ -1,7 +1,7 @@
 [
   {
     "name": "Klub Staking",
-    "dappType": "Dashboard",
+    "type": "Dashboard",
     "description": "Private money equity with collective benefits.",
     "status": "open",
     "thumnail" : "klub-staking",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Cosmon",
-    "dappType": "NFT",
+    "type": "NFT",
     "description": "P2E in the Cosmos ecosystem combines video games, NFT and financial gain.",
     "status": "open",
     "thumnail" : "cosmon",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Atlas",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Bringing Real World Assets and Yield strategies to the Cosmos ecosystem.",
     "status": "open",
     "thumnail" : "atlas",

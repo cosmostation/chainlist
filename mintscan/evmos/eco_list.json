@@ -1,7 +1,7 @@
 [
   {
     "name": "Evmos.org",
-    "dappType": "Dashboard",
+    "type": "Dashboard",
     "description": "The official Evmos dApp to manage your EVMOS tokens and explore the ecosystem.",
     "status": "open",
     "thumnail" : "evmos",
@@ -15,7 +15,7 @@
   },
   {
     "name": "Stride",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
     "status": "open",
     "thumnail" : "stride",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Tashi",
-    "dappType": "Lending",
+    "type": "Lending",
     "description": "An algorithmic, non-custodial borrow and lend protocol built on Evmos.",
     "status": "open",
     "thumnail" : "tashi",
@@ -43,7 +43,7 @@
   },
   {
     "name": "Forge DEX",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "IBC’s first Univ3 deployment, powered by Evmos",
     "status": "open",
     "thumnail" : "forge",
@@ -57,7 +57,7 @@
   },
   {
     "name": "Forge Perps",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Leveraged perpetuals trading in 40+ markets. Covering crypto, forex, metals, & indices.",
     "status": "open",
     "thumnail" : "perps",
@@ -71,7 +71,7 @@
   },
   {
     "name": "MYSO",
-    "dappType": "Lending",
+    "type": "Lending",
     "description": "MYSO is a trust-minimized, permissionless P2P lending protocol that enables Zero-Liquidation Loans.",
     "status": "open",
     "thumnail" : "myso",
@@ -84,7 +84,7 @@
   },
   {
     "name": "Orbit Market",
-    "dappType": "NFT",
+    "type": "NFT",
     "description": "The largest NFT Marketplace in Evmos. Built by the community, for the community.",
     "status": "open",
     "thumnail" : "orbit",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Evmos Domains",
-    "dappType": "NFT",
+    "type": "NFT",
     "description": "The decentralized name service for linking the Evmos community.",
     "status": "open",
     "thumnail" : "evmosdomains",
@@ -110,7 +110,7 @@
   },
   {
     "name": "NFTs2Me",
-    "dappType": "NFT&Social",
+    "type": "NFT&Social",
     "description": "Create, deploy and manage your NFT collection and minting page with custom subdomain for free. No-code Art Generator, Token Gating & much much more.",
     "status": "open",
     "thumnail" : "nfts2me",
@@ -123,7 +123,7 @@
   },
   {
     "name": "UniDex",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "The aggregator of everything.",
     "status": "open",
     "thumnail" : "unidex",
@@ -137,7 +137,7 @@
   },
   {
     "name": "Stayking",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Stayking’s Cross-Zone leverage staking platform is designed to maximize your staking reward and amplify your investment.",
     "link": "https://app.stayking.zone/leverage?protocol=evmos&ratio=2.5",
     "status": "open",
@@ -150,7 +150,7 @@
   },
   {
     "name": "Steer Protocol",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Automated liquidity management. Automate tasks and build strategies with easy to use off-chain data.",
     "status": "open",
     "thumnail" : "steer",
@@ -164,7 +164,7 @@
   },
   {
     "name": "Revert",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Powerful analytics, automation, and management tools for liquidity providers.",
     "status": "open",
     "thumnail" : "revert",
@@ -178,7 +178,7 @@
   },
   {
     "name": "Hedgey",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Token infrastructure for on-chain teams. Token vesting, lockups, grants and distributions for your team, investors and community.",
     "status": "open",
     "thumnail" : "hedgey",
@@ -191,7 +191,7 @@
   },
   {
     "name": "snapshot",
-    "dappType": "DAO",
+    "type": "DAO",
     "description": "Where decisions get made. Snapshot is a voting platform that allows DAOs, DeFi protocols, or NFT communities to vote easily and without gas fees.",
     "status": "open",
     "thumnail" : "snapshot",
@@ -205,7 +205,7 @@
   },
   {
     "name": "CoinTool",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Your online crypto toolbox.",
     "link": "https://cointool.app/chain-tools/evmos",
     "status": "open",
@@ -219,7 +219,7 @@
   },
   {
     "name": "TFM Pro Trading",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "The all-in-one Cosmos terminal. Transfer via IBC across all Cosmos app-chains.",
     "status": "open",
     "thumnail" : "tfm",
@@ -232,7 +232,7 @@
   },
   {
     "name": "Yieldmos",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Boost yields by auto compounding your staking rewards with validators of your choice.",
     "status": "open",
     "thumnail" : "yieldmos",
@@ -245,7 +245,7 @@
   },
   {
     "name": "REStake",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Auto-compound your staking rewards.",
     "status": "open",
     "thumnail" : "restake",
@@ -258,7 +258,7 @@
   },
   {
     "name": "Nolus Protocol",
-    "dappType": "Lending",
+    "type": "Lending",
     "description": "The cross-chain lease protocol.",
     "status": "open",
     "thumnail" : "nolus",
@@ -272,7 +272,7 @@
   },
   {
     "name": "r/Evmos",
-    "dappType": "Social",
+    "type": "Social",
     "description": "Join the Evmos conversation on Reddit!",
     "status": "open",
     "thumnail" : "reddit",
@@ -285,7 +285,7 @@
   },
   {
     "name": "The Diplomat Summary",
-    "dappType": "DAO",
+    "type": "DAO",
     "description": "Keep up with the latest Governance and Ecosystem News with The Evmos Diplomat Summary",
     "status": "open",
     "thumnail" : "diplomat",
@@ -297,7 +297,7 @@
   },
   {
     "name": "Cypher Wallet",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Buy, sell, manage, bridge or stake crypto across 17+ EVM & Cosmos chains.",
     "status": "open",
     "thumnail" : "cypher",
@@ -310,7 +310,7 @@
   },
   {
     "name": "C14",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Pay the way that suits you best in 50+ countries worldwide.",
     "status": "open",
     "thumnail" : "c14",
@@ -323,7 +323,7 @@
   },
   {
     "name": "Transak",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Buy or sell crypto across 170 cryptocurrencies on 75+ blockchains via cards, bank transfers and other payment methods in 188 countries.",
     "status": "open",
     "thumnail" : "transak",
@@ -336,7 +336,7 @@
   },
   {
     "name": "Squid Router",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Make anything cross-chain. Squid allows any token to be swapped between blockchains, and unlocks access to apps across chains in a single click.",
     "status": "open",
     "thumnail" : "squid",
@@ -349,7 +349,7 @@
   },
   {
     "name": "Layerswap",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Layerswap enables transferring crypto assets across Centralized Exchanges, blockchains and banks in a matter of minutes. Enjoy frictionless transfers of crypto between 18 exchanges and 24 blockchains, as well as cross-chain transfers and fiat on-ramps.",
     "status": "open",
     "thumnail" : "layerswap",
@@ -362,7 +362,7 @@
   },
   {
     "name": "SpaceFi",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "AMM DEX.",
     "status": "open",
     "thumnail" : "spacefi",
@@ -375,7 +375,7 @@
   },
   {
     "name": "Diffusion",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "AMM DEX.",
     "status": "open",
     "thumnail" : "diffusion",

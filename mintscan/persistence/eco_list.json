@@ -1,7 +1,7 @@
  [
   {
     "name": "pSTAKE Finance",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "A multi-chain liquid staking protocol that unlocks liquidity for your staked assets.",
     "status": "open",
     "thumnail" : "pstake-finance",
@@ -15,7 +15,7 @@
   },
   {
     "name": "Dexter",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Dexter is an AMM for yield-generating assets like liquid-staked assets and interest-bearing tokens in DeFi, built on Persistence Core-1",
     "status": "open",
     "thumnail" : "dexter",

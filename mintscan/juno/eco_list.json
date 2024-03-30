@@ -1,7 +1,7 @@
 [
   {
     "name": "Stride",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
     "status": "open",
     "thumnail" : "helix",
@@ -15,7 +15,7 @@
   },
   {
     "name": "TFM",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "IBC & DEX & NFT Aggregator",
     "status": "open",
     "thumnail" : "tfm",
@@ -23,7 +23,7 @@
   },
   {
     "name": "WhiteWhale",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "Stabilizing Prices Across the IBC.",
     "status": "open",
     "thumnail" : "whitewhale",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Hopers",
-    "dappType": "Defi&NFT",
+    "type": "Defi&NFT",
     "description": "IBC-enabled decentralized exchange & NFT protocol on Juno.",
     "status": "open",
     "thumnail" : "hopers",
@@ -39,7 +39,7 @@
   },
   {
     "name": "Spark IBC",
-    "dappType": "Defi",
+    "type": "Defi",
     "description": "The community funding platform for the Interchain.",
     "status": "open",
     "thumnail" : "sparkibc",
@@ -47,7 +47,7 @@
   },
   {
     "name": "Abstract",
-    "dappType": "Others",
+    "type": "Others",
     "description": "Build scalable dapps using modules.",
     "status": "open",
     "thumnail" : "abstract",
