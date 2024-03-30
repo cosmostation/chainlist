@@ -2,7 +2,7 @@
   <h1> Mintscan </h1>
 </div>
 
-!! chain-info-social & gas & dapp folder will remove
+‼️ chain-info-social & gas & dapp folder will remove
 
 ## 1. How to add your Dapp in Ecosystem
 
@@ -90,10 +90,3 @@ Ecosystem
     },
   ]
   ```
-
-You can add dApp information in the mintscan/dapp/{chain}/constants.json, and upload image file in mintscan/dapp/{chain}/image/{dapp-id}.png to display Mintscan's ecosystem page.
-
-A more specific explanation is in [dapp/README.md](./dapp/README.md).
-
-
-
