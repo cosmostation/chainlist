@@ -3190,5 +3190,17 @@
     "description": "OnE mEmEcOiN tO cOnNeCt oL ImBeCiles - aNd in Da Cosmos BiNd DeM",
     "image": "osmosis/asset/ibc.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
+    "origin_type": "native",
+    "symbol": "LAB",
+    "decimals": 6,
+    "description": "LAB - Everything is an Experiment",
+    "image": "osmosis/asset/LAB.png",
+    "coinGeckoId": ""
   }
 ]
