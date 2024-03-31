@@ -75,5 +75,16 @@
     "image": "terra/asset/bluna.png",
     "default": false,
     "coinGeckoId": "backbone-labs-staked-luna"
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1eh8eq60cjy997w5dc3a6exfzanlaurupav8klx7m9u9ddfgh25mqjwl5vj",
+    "symbol": "LADS",
+    "description": "Steady Lads Token with $LADS ticker is a meme token originated from Terra blockchain the home of Do Kwon.",
+    "decimals": 6,
+    "image": "terra/asset/bluna.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
