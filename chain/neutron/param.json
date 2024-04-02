@@ -101,6 +101,24 @@
             "status": "Enabled"
           }
         ]
+      },
+      {
+        "name": "Neutron DAO Grants SubDAO (Core)",
+        "description": "Neutron DAO Grants SubDAO (Core)",
+        "dao_uri": "",
+        "address": "neutron1zjdv3u6svlazlydmje2qcp44yqkt0059chz8gmyl5yrklmgv6fzq9chelu",
+        "voting_module": "neutron1aj3xpcumkx3jr5kncr6gvtduuy4suu6m628ftadv8x8vx9vrfhxs8gkzk7",
+        "group_contract_address": "neutron1d8m6eue7877jxyym50uclvxs7uktw6z2jlwg2qmh22udam26494q4wne98",
+        "proposal_modules": [
+          {
+            "name": "Single Module",
+            "description": "Grants SubDAO Single Proposals",
+            "allow_revoting": false,
+            "address": "neutron14n7jt2qkngxtgr7dgdt50g4xn2a29llz79h9y25lrsqyxrwmngmsmt9kta",
+            "prefix": "A",
+            "status": "Enabled"
+          }
+        ]
       }
     ],
     "vaults": [
