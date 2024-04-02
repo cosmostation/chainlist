@@ -16,5 +16,15 @@
     "ko": "Neutron은 Cosmos 허브의 Interchain Security를 사용하는 비허가형 CosmWasm 플랫폼입니다.",
     "en": "Neutron is a blockchain network that brings Smart Contracts into the Cosmos-family blockchains using CosmWasm.",
     "ja": "Neutronは、CosmosハブのInterchain Securityを使用する非許可型CosmWasmプラットフォームです。"
-  }
+  },
+  "vaults": [
+    {
+      "name": "voting vault",
+      "description": "simple voting vault for testing purposes",
+      "address": "neutron1qeyjez6a9dwlghf9d6cy44fxmsajztw257586akk6xn6k88x0gus5djz4e",
+      "owner": "neutron19glux3jzdfyyz6ylmuksgxfj5phdaxfr2uhy86",
+      "manager": null,
+      "denom": "untrn"
+    }
+  ]
 }
