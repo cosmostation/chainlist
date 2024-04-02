@@ -23,7 +23,7 @@
       "description": "awesome neutron dao",
       "dao_uri": "",
       "address": "neutron1kvxlf27r0h7mzjqgdydqdf76dtlyvwz6u9q8tysfae53ajv8urtq4fdkvy",
-      "voting_module": "neutron1f6jlx7d9y408tlzue7r2qcf79plp549n30yzqjajjud8vm7m4vdspg933s",
+      "voting_module": "neutron1nusmqy8tmx5y2y5qrxprlm64fzwvjl9fhhn0qk5wy6mjkdrudsgqpmyywl",
       "proposal_modules" : [
         {
           "name": "Single Module",
@@ -56,8 +56,8 @@
       "description": "subdao that secures neutron",
       "dao_uri": "security.subdao.org",
       "address": "neutron1zv35zgj7d6khqxfl3tx95scjljz0rvmkxcsxmggqxrltkm8ystsqvt0qc7",
-      "voting_module": "neutron1hyja4uyjktpeh0fxzuw2fmjudr85rk2qu98fa6nuh6d4qru9l0ssh3kgnu",
-      "group_contract_address": "neutron1fxkx7wd4q7z5zgm8qh0vaxptx4gp0ppgjm0ke56jr55azpzecpcse66azt",
+      "voting_module": "neutron1ujdzgmjaks2s2uwnvm24tqdu0kmtlegr8gu87ngly2hdlumxtg7q3ca6lg",
+      "group_contract_address": "neutron1lcepwp9hc95v8yq4tetrc989sp2rshaejmqa487jjyq8zmg0luuqg4ke0f",
       "proposal_modules": [
         {
           "name": "SECURITY Subdao",
