@@ -1419,5 +1419,109 @@
     "description": "DOJO",
     "image": "injective/asset/dojo.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/F3330C1B8BD1886FE9509B94C7B5398B892EA41420D2BC0B7C6A53CB8ED761D6",
+    "type": "ibc",
+    "origin_chain": "solana",
+    "origin_denom": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+    "symbol": "PYTH",
+    "decimals": 6,
+    "enable": true,
+    "path": "solana>gateway>injective",
+    "channel": "channel-183",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-13",
+      "port": "transfer",
+      "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/B8ohBnfisop27exk2gtNABJyYjLwQA7ogrp5uNzvZCoy"
+    },
+    "description": "PYTH",
+    "image": "solana/asset/pyth.png",
+    "coinGeckoId": "pyth-network"
+  },
+  {
+    "denom": "ibc/61FA42C3F0B0F8768ED2CE380EDD3BE0E4CB7E67688F81F70DE9ECF5F8684E1E",
+    "type": "ibc",
+    "origin_chain": "andromeda",
+    "origin_denom": "uandr",
+    "origin_type": "staking",
+    "symbol": "ANDR",
+    "decimals": 6,
+    "enable": true,
+    "path": "andromeda>injective",
+    "channel": "channel-213",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-13",
+      "port": "transfer",
+      "denom": "uandr"
+    },
+    "description": "PYTH",
+    "image": "injective/asset/andr.png",
+    "coinGeckoId": "andromeda-2"
+  },
+  {
+    "denom": "ibc/A8B0B746B5AB736C2D8577259B510D56B8AF598008F68041E3D634BCDE72BE97",
+    "type": "ibc",
+    "origin_chain": "solana",
+    "origin_denom": "sol",
+    "origin_type": "native",
+    "symbol": "SOL",
+    "decimals": 8,
+    "enable": true,
+    "path": "solana>gateway>injective",
+    "channel": "channel-183",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-13",
+      "port": "transfer",
+      "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA"
+    },
+    "description": "Solana",
+    "image": "solana/asset/sol.png",
+    "coinGeckoId": "solana"
+  },
+  {
+    "denom": "ibc/8CF0E4184CA3105798EDB18CAA3981ADB16A9951FE9B05C6D830C746202747E1",
+    "type": "ibc",
+    "origin_chain": "arbitrum",
+    "origin_denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/4jq5m8FR6W6nJygDj8NMMbB48mqX4LQHc3j5uEb9syDe",
+    "origin_type": "native",
+    "symbol": "ARB",
+    "decimals": 8,
+    "enable": true,
+    "path": "arbitrum>gateway>injective",
+    "channel": "channel-183",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-13",
+      "port": "transfer",
+      "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/4jq5m8FR6W6nJygDj8NMMbB48mqX4LQHc3j5uEb9syDe"
+    },
+    "description": "Arbitrum",
+    "image": "arbitrum/asset/arb.png",
+    "coinGeckoId": "arbitrum"
+  },
+  {
+    "denom": "ibc/4DEFEB42BAAB2788723759D95B7550BCE460855563ED977036248F5B94C842FC",
+    "type": "ibc",
+    "origin_chain": "polygon",
+    "origin_denom": "wmatic",
+    "origin_type": "native",
+    "symbol": "WMATIC",
+    "decimals": 8,
+    "enable": true,
+    "path": "polygon>gateway>injective",
+    "channel": "channel-183",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-13",
+      "port": "transfer",
+      "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/4gn1J9pchUGh63ez1VwiuTmU4nfJ8Rr8o5HgBC5TMdMk"
+    },
+    "description": "Wrapped Matic",
+    "image": "polygon/asset/wmatic.png",
+    "coinGeckoId": "wmatic"
   }
 ]
