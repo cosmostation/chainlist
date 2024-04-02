@@ -47,6 +47,13 @@
             "url": "nibiru-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Nibiru",
+        "url": "https://explorer.nibiru.fi/cataclysm-1/",
+        "account": "https://explorer.nibiru.fi/cataclysm-1/accounts/${address}",
+        "tx": "https://explorer.nibiru.fi/cataclysm-1/tx/${hash}",
+        "proposal": "https://explorer.nibiru.fi/cataclysm-1/gov/${id}"
+    },
     "about" : {
         "website" : "https://nibiru.fi/",
         "docs": "https://nibiru.fi/docs",
