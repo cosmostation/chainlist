@@ -84,6 +84,12 @@
         "tx": "https://www.mintscan.io/kava/tx/${hash}",
         "proposal": "https://www.mintscan.io/kava/proposals/${id}"
     },
+    "evm_explorer" : {
+        "name": "Kavascan",
+        "url": "https://kavascan.io/",
+        "account": "https://kavascan.io/address/${address}",
+        "tx": "https://kavascan.io/tx/${hash}"
+    },
     "about" : {
         "website" : "https://www.kava.io/",
         "docs": "https://docs.kava.io/docs/intro",
