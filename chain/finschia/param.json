@@ -33,6 +33,13 @@
             "url": "finschia-grpc.finschia.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/finschia/",
+        "account": "https://www.mintscan.io/finschia/address/${address}",
+        "tx": "https://www.mintscan.io/finschia/tx/${hash}",
+        "proposal": "https://www.mintscan.io/finschia/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.finschia.network/",
         "docs": "https://docs.finschia.network/",

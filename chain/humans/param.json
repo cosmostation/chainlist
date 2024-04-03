@@ -60,6 +60,13 @@
             "url": "https://mainnet-humans-evm.konsortech.xyz"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/humans/",
+        "account": "https://www.mintscan.io/humans/address/${address}",
+        "tx": "https://www.mintscan.io/humans/tx/${hash}",
+        "proposal": "https://www.mintscan.io/humans/proposals/${id}"
+    },
     "about" : {
         "website" : "https://humans.ai/",
         "docs": "https://docs.humans.ai",

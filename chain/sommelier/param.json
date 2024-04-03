@@ -33,6 +33,13 @@
             "url": "sommelier-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/sommelier/",
+        "account": "https://www.mintscan.io/sommelier/address/${address}",
+        "tx": "https://www.mintscan.io/sommelier/tx/${hash}",
+        "proposal": "https://www.mintscan.io/sommelier/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.sommelier.finance/",
         "docs": "https://sommelier-finance.gitbook.io/",

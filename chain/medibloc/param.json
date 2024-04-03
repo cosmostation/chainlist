@@ -29,6 +29,13 @@
             "url": "grpc-medibloc.cosmostation.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/medibloc/",
+        "account": "https://www.mintscan.io/medibloc/address/${address}",
+        "tx": "https://www.mintscan.io/medibloc/tx/${hash}",
+        "proposal": "https://www.mintscan.io/medibloc/proposals/${id}"
+    },
     "about" : {
         "website" : "https://medibloc.com/",
         "docs": "https://docs.gopanacea.org/",

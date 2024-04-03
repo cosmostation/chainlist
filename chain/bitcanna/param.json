@@ -45,6 +45,13 @@
             "url": "bitcanna.grpc.m.anode.team:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/bitcanna/",
+        "account": "https://www.mintscan.io/bitcanna/address/${address}",
+        "tx": "https://www.mintscan.io/bitcanna/tx/${hash}",
+        "proposal": "https://www.mintscan.io/bitcanna/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.bitcanna.io/",
         "docs": "https://docs.bitcanna.io",

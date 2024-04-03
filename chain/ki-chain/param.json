@@ -37,6 +37,13 @@
             "url": "kichain-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/ki-chain/",
+        "account": "https://www.mintscan.io/ki-chain/address/${address}",
+        "tx": "https://www.mintscan.io/ki-chain/tx/${hash}",
+        "proposal": "https://www.mintscan.io/ki-chain/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.foundation.ki/",
         "docs": "https://foundation.ki",

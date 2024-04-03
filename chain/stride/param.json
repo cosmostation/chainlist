@@ -33,6 +33,13 @@
             "url": "stride-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/stride/",
+        "account": "https://www.mintscan.io/stride/address/${address}",
+        "tx": "https://www.mintscan.io/stride/tx/${hash}",
+        "proposal": "https://www.mintscan.io/stride/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.stride.zone/",
         "docs": "https://docs.stride.zone",

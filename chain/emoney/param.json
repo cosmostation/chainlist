@@ -35,6 +35,13 @@
             "url": "grpc-emoney-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/emoney/",
+        "account": "https://www.mintscan.io/emoney/address/${address}",
+        "tx": "https://www.mintscan.io/emoney/tx/${hash}",
+        "proposal": "https://www.mintscan.io/emoney/proposals/${id}"
+    },
     "about" : {
         "website" : "https://e-money.com/",
         "github" : "https://github.com/e-money",

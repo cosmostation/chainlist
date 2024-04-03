@@ -46,6 +46,13 @@
             "url": "osmosis-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/osmosis/",
+        "account": "https://www.mintscan.io/osmosis/address/${address}",
+        "tx": "https://www.mintscan.io/osmosis/tx/${hash}",
+        "proposal": "https://www.mintscan.io/osmosis/proposals/${id}"
+    },
     "about" : {
         "website" : "https://osmosis.zone/",
         "docs": "https://docs.osmosis.zone",

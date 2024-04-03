@@ -40,6 +40,13 @@
             "url": "grpc.core.persistence.one:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/persistence/",
+        "account": "https://www.mintscan.io/persistence/address/${address}",
+        "tx": "https://www.mintscan.io/persistence/tx/${hash}",
+        "proposal": "https://www.mintscan.io/persistence/proposals/${id}"
+    },
     "about" : {
         "website" : "https://persistence.one/",
         "docs": "https://docs.persistence.one/",

@@ -77,6 +77,13 @@
             "url": "https://rpc.ankr.com/kava_evm"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/kava/",
+        "account": "https://www.mintscan.io/kava/address/${address}",
+        "tx": "https://www.mintscan.io/kava/tx/${hash}",
+        "proposal": "https://www.mintscan.io/kava/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.kava.io/",
         "docs": "https://docs.kava.io/docs/intro",

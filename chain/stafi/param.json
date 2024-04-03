@@ -42,6 +42,13 @@
             "url": "grpc.stafihub.nodestake.top:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/stafi/",
+        "account": "https://www.mintscan.io/stafi/address/${address}",
+        "tx": "https://www.mintscan.io/stafi/tx/${hash}",
+        "proposal": "https://www.mintscan.io/stafi/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.stafihub.io/",
         "docs": "https://docs.stafi.io/",

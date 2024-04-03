@@ -14,7 +14,8 @@
             "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
         },
         {
-            "hd_path": "m/44'/118'/0'/0/X",
+            "is_default" : false,
+            "hd_path": "m/44'/60'/0'/0/X",
             "pubkey_style": "secp256k1",
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
@@ -46,6 +47,13 @@
             "url": "https://dimension-evm-rpc.xpla.dev"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/xpla/",
+        "account": "https://www.mintscan.io/xpla/address/${address}",
+        "tx": "https://www.mintscan.io/xpla/tx/${hash}",
+        "proposal": "https://www.mintscan.io/xpla/proposals/${id}"
+    },
     "about" : {
         "website" : "https://xpla.io/",
         "docs": "https://docs.xpla.io/",

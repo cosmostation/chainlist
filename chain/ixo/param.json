@@ -37,6 +37,13 @@
             "url": "impacthub-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/ixo/",
+        "account": "https://www.mintscan.io/ixo/address/${address}",
+        "tx": "https://www.mintscan.io/ixo/tx/${hash}",
+        "proposal": "https://www.mintscan.io/ixo/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.ixo.world/",
         "docs": "https://docs.ixo.foundation/ixo",

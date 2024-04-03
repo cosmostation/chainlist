@@ -34,6 +34,13 @@
             "url": "cudos-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/cudos/",
+        "account": "https://www.mintscan.io/cudos/address/${address}",
+        "tx": "https://www.mintscan.io/cudos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/cudos/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.cudos.org/",
         "docs": "https://docs.cudos.org/",

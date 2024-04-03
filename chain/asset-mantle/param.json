@@ -43,6 +43,13 @@
             "url": "assetmantle-grpc.stakerhouse.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/asset-mantle/",
+        "account": "https://www.mintscan.io/asset-mantle/address/${address}",
+        "tx": "https://www.mintscan.io/asset-mantle/tx/${hash}",
+        "proposal": "https://www.mintscan.io/asset-mantle/proposals/${id}"
+    },
     "about" : {
         "website" : "https://assetmantle.one/",
         "docs": "https://docs.assetmantle.one",

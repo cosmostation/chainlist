@@ -29,6 +29,13 @@
             "url": "grpc-onomy-protocol.cosmostation.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/onomy-protocol/",
+        "account": "https://www.mintscan.io/onomy-protocol/address/${address}",
+        "tx": "https://www.mintscan.io/onomy-protocol/tx/${hash}",
+        "proposal": "https://www.mintscan.io/onomy-protocol/proposals/${id}"
+    },
     "about" : {
         "website" : "https://onomy.io/",
         "docs": "https://docs.onomy.io/",

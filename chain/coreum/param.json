@@ -47,6 +47,13 @@
             "url": "full-node-uranium.mainnet-1.coreum.dev:9090"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/coreum/",
+        "account": "https://www.mintscan.io/coreum/address/${address}",
+        "tx": "https://www.mintscan.io/coreum/tx/${hash}",
+        "proposal": "https://www.mintscan.io/coreum/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.coreum.com/",
         "docs": "https://docs.coreum.dev/",

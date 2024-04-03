@@ -35,6 +35,13 @@
             "url": "grpc.mainnet.crypto.org:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/crypto-org/",
+        "account": "https://www.mintscan.io/crypto-org/address/${address}",
+        "tx": "https://www.mintscan.io/crypto-org/tx/${hash}",
+        "proposal": "https://www.mintscan.io/crypto-org/proposals/${id}"
+    },
     "about" : {
         "website" : "https://cronos-pos.org/",
         "docs": "https://docs.cronos-pos.org",

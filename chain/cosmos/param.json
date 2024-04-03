@@ -47,6 +47,13 @@
             "url": "grpc-cosmoshub.mms.team:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/cosmos/",
+        "account": "https://www.mintscan.io/cosmos/address/${address}",
+        "tx": "https://www.mintscan.io/cosmos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/cosmos/proposals/${id}"
+    },
     "about" : {
         "website" : "https://cosmos.network",
         "docs": "https://docs.cosmos.network",

@@ -7,6 +7,12 @@
     "symbol_image" : "okt/asset/okt.png",
     "bechAccountPrefix" : "ex",
     "bechValidatorPrefix" : "exvaloper",
+    "explorer" : {
+        "name": "Oklink",
+        "url": "https://www.oklink.com/oktc/",
+        "account": "https://www.oklink.com/oktc/address/${address}",
+        "tx": "https://www.oklink.com/oktc/tx/${hash}"
+    },
     "about" : {
         "website" : "https://www.okx.com/oktc",
         "docs": "https://www.okx.com/oktc/docs/",

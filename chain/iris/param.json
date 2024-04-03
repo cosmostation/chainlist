@@ -35,6 +35,13 @@
             "url": "grpc-irisnet-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/iris/",
+        "account": "https://www.mintscan.io/iris/address/${address}",
+        "tx": "https://www.mintscan.io/iris/tx/${hash}",
+        "proposal": "https://www.mintscan.io/iris/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.irisnet.org/en/",
         "docs": "https://www.irisnet.org/docs",

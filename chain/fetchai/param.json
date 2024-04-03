@@ -51,6 +51,13 @@
             "url": "grpc-fetchhub-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/fetchai/",
+        "account": "https://www.mintscan.io/fetchai/address/${address}",
+        "tx": "https://www.mintscan.io/fetchai/tx/${hash}",
+        "proposal": "https://www.mintscan.io/fetchai/proposals/${id}"
+    },
     "about" : {
         "website" : "https://fetch.ai/",
         "docs": "https://docs.fetch.ai",

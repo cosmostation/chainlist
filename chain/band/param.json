@@ -34,6 +34,13 @@
             "url": "band-grpc.stake-town.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/band/",
+        "account": "https://www.mintscan.io/band/address/${address}",
+        "tx": "https://www.mintscan.io/band/tx/${hash}",
+        "proposal": "https://www.mintscan.io/band/proposals/${id}"
+    },
     "about" : {
         "website" : "https://bandprotocol.com/",
         "docs": "https://docs.bandchain.org",

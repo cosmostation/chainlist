@@ -33,6 +33,13 @@
             "url": "grpc.nymtech.net:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/nyx/",
+        "account": "https://www.mintscan.io/nyx/address/${address}",
+        "tx": "https://www.mintscan.io/nyx/tx/${hash}",
+        "proposal": "https://www.mintscan.io/nyx/proposals/${id}"
+    },
     "about" : {
         "website" : "https://nymtech.net/",
         "docs": "https://nymtech.net/docs",

@@ -39,6 +39,13 @@
             "url": "akash-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/akash/",
+        "account": "https://www.mintscan.io/akash/address/${address}",
+        "tx": "https://www.mintscan.io/akash/tx/${hash}",
+        "proposal": "https://www.mintscan.io/akash/proposals/${id}"
+    },
     "about" : {
         "website" : "https://akash.network/",
         "docs": "https://docs.akash.network",

@@ -45,6 +45,13 @@
             "url": "grpc.archway.lgns.net:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/archway/",
+        "account": "https://www.mintscan.io/archway/address/${address}",
+        "tx": "https://www.mintscan.io/archway/tx/${hash}",
+        "proposal": "https://www.mintscan.io/archway/proposals/${id}"
+    },
     "about" : {
         "website" : "https://archway.io/",
         "docs": "https://docs.archway.io/",

@@ -29,6 +29,13 @@
             "url": "grpc-provenance.cosmostation.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/provenance/",
+        "account": "https://www.mintscan.io/provenance/address/${address}",
+        "tx": "https://www.mintscan.io/provenance/tx/${hash}",
+        "proposal": "https://www.mintscan.io/provenance/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.provenance.io/",
         "docs": "https://docs.provenance.io",

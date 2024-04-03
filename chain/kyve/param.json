@@ -37,6 +37,13 @@
             "url": "grpc-kyve.mms.team:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/kyve/",
+        "account": "https://www.mintscan.io/kyve/address/${address}",
+        "tx": "https://www.mintscan.io/kyve/tx/${hash}",
+        "proposal": "https://www.mintscan.io/kyve/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.kyve.network/",
         "docs": "https://docs.kyve.network",

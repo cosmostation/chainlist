@@ -53,6 +53,13 @@
             "url": "https://mainnode.plexnode.org:8545"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/canto/",
+        "account": "https://www.mintscan.io/canto/address/${address}",
+        "tx": "https://www.mintscan.io/canto/tx/${hash}",
+        "proposal": "https://www.mintscan.io/canto/proposals/${id}"
+    },
     "about" : {
         "website" : "https://canto.io/",
         "docs": "https://docs.canto.io/",

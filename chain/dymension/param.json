@@ -68,6 +68,13 @@
             "url": "https://dymension.0xwave.com:2087"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/dymension/",
+        "account": "https://www.mintscan.io/dymension/address/${address}",
+        "tx": "https://www.mintscan.io/dymension/tx/${hash}",
+        "proposal": "https://www.mintscan.io/dymension/proposals/${id}"
+    },
     "about" : {
         "website" : "https://dymension.xyz/",
         "docs": "https://docs.dymension.xyz/",

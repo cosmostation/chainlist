@@ -33,6 +33,12 @@
         "url": "grpc-neutron.whispernode.com:443"
       }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/neutron/",
+        "account": "https://www.mintscan.io/neutron/address/${address}",
+        "tx": "https://www.mintscan.io/neutron/tx/${hash}"
+    },
     "about": {
       "website": "https://neutron.org/",
       "docs": "https://docs.neutron.org/",

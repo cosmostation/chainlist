@@ -70,6 +70,13 @@
             "url": "https://json-rpc.evmos.validatus.com"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/evmos/",
+        "account": "https://www.mintscan.io/evmos/address/${address}",
+        "tx": "https://www.mintscan.io/evmos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/evmos/proposals/${id}"
+    },
     "about" : {
         "website" : "https://evmos.org/",
         "docs": "https://evmos.dev",

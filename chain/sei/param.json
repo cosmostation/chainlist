@@ -41,6 +41,13 @@
             "url": "grpc-sei.whispernode.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/sei/",
+        "account": "https://www.mintscan.io/sei/address/${address}",
+        "tx": "https://www.mintscan.io/sei/tx/${hash}",
+        "proposal": "https://www.mintscan.io/sei/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.sei.io/",
         "docs": "https://docs.sei.io/",

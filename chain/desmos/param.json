@@ -35,6 +35,13 @@
             "url": "desmos-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/desmos/",
+        "account": "https://www.mintscan.io/desmos/address/${address}",
+        "tx": "https://www.mintscan.io/desmos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/desmos/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.desmos.network/",
         "docs": "https://docs.desmos.network",

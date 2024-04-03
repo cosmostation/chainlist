@@ -51,6 +51,13 @@
             "url": "juno-grpc.cogwheel.zone:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/juno/",
+        "account": "https://www.mintscan.io/juno/address/${address}",
+        "tx": "https://www.mintscan.io/juno/tx/${hash}",
+        "proposal": "https://www.mintscan.io/juno/proposals/${id}"
+    },
     "about" : {
         "website" : "https://junonetwork.io/",
         "docs": "https://docs.junonetwork.io/juno/readme",

@@ -41,6 +41,13 @@
             "url": "dydx-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/dydx/",
+        "account": "https://www.mintscan.io/dydx/address/${address}",
+        "tx": "https://www.mintscan.io/dydx/tx/${hash}",
+        "proposal": "https://www.mintscan.io/dydx/proposals/${id}"
+    },
     "about" : {
         "website" : "https://dydx.exchange/",
         "docs" : "https://docs.dydx.exchange/",

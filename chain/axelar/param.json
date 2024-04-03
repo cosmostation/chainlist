@@ -42,6 +42,13 @@
             "url": "grpc-axelar-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/axelar/",
+        "account": "https://www.mintscan.io/axelar/address/${address}",
+        "tx": "https://www.mintscan.io/axelar/tx/${hash}",
+        "proposal": "https://www.mintscan.io/axelar/proposals/${id}"
+    },
     "about" : {
         "website" : "https://axelar.network/",
         "docs": "https://docs.axelar.dev",

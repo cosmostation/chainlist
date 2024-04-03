@@ -42,6 +42,13 @@
             "url": "grpc.chihuahua.validatus.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/chihuahua/",
+        "account": "https://www.mintscan.io/chihuahua/address/${address}",
+        "tx": "https://www.mintscan.io/chihuahua/tx/${hash}",
+        "proposal": "https://www.mintscan.io/chihuahua/proposals/${id}"
+    },
     "about" : {
         "website" : "https://chi.huahua.wtf/",
         "docs": "https://github.com/ChihuahuaChain/mainnet",

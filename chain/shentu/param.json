@@ -30,6 +30,13 @@
             "url": "grpc-shentu.cosmostation.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/shentu/",
+        "account": "https://www.mintscan.io/shentu/address/${address}",
+        "tx": "https://www.mintscan.io/shentu/tx/${hash}",
+        "proposal": "https://www.mintscan.io/shentu/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.shentu.technology/",
         "github" : "https://github.com/shentufoundation",

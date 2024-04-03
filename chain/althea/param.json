@@ -36,6 +36,13 @@
             "url": "grpc-althea.cosmostation.io:443"
         }
     ],
+    // "explorer" : {
+    //     "name": "Mintscan",
+    //     "url": "https://www.mintscan.io/althea/",
+    //     "account": "https://www.mintscan.io/althea/address/${address}",
+    //     "tx": "https://www.mintscan.io/althea/tx/${hash}",
+    //     "proposal": "https://www.mintscan.io/althea/proposals/${id}"
+    // },
     "about" : {
         "website" : "https://www.althea.net/",
         "docs": "https://docs.althea.net/",

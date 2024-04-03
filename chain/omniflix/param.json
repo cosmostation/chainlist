@@ -44,6 +44,13 @@
             "url": "grpc-omniflix.mzonder.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/omniflix/",
+        "account": "https://www.mintscan.io/omniflix/address/${address}",
+        "tx": "https://www.mintscan.io/omniflix/tx/${hash}",
+        "proposal": "https://www.mintscan.io/omniflix/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.omniflix.network/",
         "docs": "https://docs.omniflix.network",

@@ -37,6 +37,13 @@
             "url": "quasar-grpc.stake-town.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/quasar/",
+        "account": "https://www.mintscan.io/quasar/address/${address}",
+        "tx": "https://www.mintscan.io/quasar/tx/${hash}",
+        "proposal": "https://www.mintscan.io/quasar/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.quasar.fi/",
         "docs": "https://docs.quasar.fi",

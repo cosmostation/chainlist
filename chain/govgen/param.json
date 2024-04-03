@@ -35,6 +35,13 @@
             "url": "grpc.govgen.posthuman.digital:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/govgen/",
+        "account": "https://www.mintscan.io/govgen/address/${address}",
+        "tx": "https://www.mintscan.io/govgen/tx/${hash}",
+        "proposal": "https://www.mintscan.io/govgen/proposals/${id}"
+    },
     "about" : {
         "website" : "https://govgen.io/",
         "github" : "https://github.com/atomone-hub",

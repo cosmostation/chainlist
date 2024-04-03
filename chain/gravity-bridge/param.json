@@ -30,6 +30,13 @@
             "url": "gravitybridge-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/gravity-bridge/",
+        "account": "https://www.mintscan.io/gravity-bridge/address/${address}",
+        "tx": "https://www.mintscan.io/gravity-bridge/tx/${hash}",
+        "proposal": "https://www.mintscan.io/gravity-bridge/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.gravitybridge.net/",
         "github" : "https://github.com/Gravity-Bridge",

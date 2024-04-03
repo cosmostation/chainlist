@@ -37,6 +37,13 @@
             "url": "grpc-sentinel-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/sentinel/",
+        "account": "https://www.mintscan.io/sentinel/address/${address}",
+        "tx": "https://www.mintscan.io/sentinel/tx/${hash}",
+        "proposal": "https://www.mintscan.io/sentinel/proposals/${id}"
+    },
     "about" : {
         "website" : "https://sentinel.co/",
         "docs": "https://docs.sentinel.co",

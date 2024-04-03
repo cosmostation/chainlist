@@ -37,6 +37,13 @@
             "url": "mars-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/mars-protocol/",
+        "account": "https://www.mintscan.io/mars-protocol/address/${address}",
+        "tx": "https://www.mintscan.io/mars-protocol/tx/${hash}",
+        "proposal": "https://www.mintscan.io/mars-protocol/proposals/${id}"
+    },
     "about" : {
         "website" : "https://marsprotocol.io/",
         "docs": "https://docs.marsprotocol.io/mars-protocol/",

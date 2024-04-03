@@ -38,6 +38,13 @@
             "url": "grpc-stargaze-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/stargaze/",
+        "account": "https://www.mintscan.io/stargaze/address/${address}",
+        "tx": "https://www.mintscan.io/stargaze/tx/${hash}",
+        "proposal": "https://www.mintscan.io/stargaze/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.stargaze.zone/",
         "docs": "https://docs.stargaze.zone/",

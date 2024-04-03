@@ -38,6 +38,13 @@
             "url": "comdex-grpc.stakerhouse.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/comdex/",
+        "account": "https://www.mintscan.io/comdex/address/${address}",
+        "tx": "https://www.mintscan.io/comdex/tx/${hash}",
+        "proposal": "https://www.mintscan.io/comdex/proposals/${id}"
+    },
     "about" : {
         "website" : "https://comdex.one/",
         "docs": "https://docs.comdex.one",

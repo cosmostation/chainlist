@@ -31,6 +31,13 @@
             "url": "grpc-rizon.cosmostation.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/rizon/",
+        "account": "https://www.mintscan.io/rizon/address/${address}",
+        "tx": "https://www.mintscan.io/rizon/tx/${hash}",
+        "proposal": "https://www.mintscan.io/rizon/proposals/${id}"
+    },
     "about" : {
         "website" : "https://rizon.world/",
         "docs": "https://docs.rizon.world",
