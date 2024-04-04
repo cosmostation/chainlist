@@ -7,6 +7,8 @@
     "symbol_image" : "canto/asset/canto.png",
     "bechAccountPrefix" : "canto",
     "bechValidatorPrefix" : "cantovaloper",
+    "api_name" : "canto",
+    "origin_genesis_time" : "2022-07-26T17:27:56Z",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

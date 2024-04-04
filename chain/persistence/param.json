@@ -6,6 +6,8 @@
     "symbol_image" : "persistence/asset/xprt.png",
     "bechAccountPrefix" : "persistence",
     "bechValidatorPrefix" : "persistencevaloper",
+    "api_name" : "persistence",
+    "origin_genesis_time" : "2021-03-30T12:08:46Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

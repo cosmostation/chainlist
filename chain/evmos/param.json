@@ -7,6 +7,8 @@
     "symbol_image" : "evmos/asset/evmos.png",
     "bechAccountPrefix" : "evmos",
     "bechValidatorPrefix" : "evmosvaloper",
+    "api_name" : "evmos",
+    "origin_genesis_time" : "2022-03-02T19:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

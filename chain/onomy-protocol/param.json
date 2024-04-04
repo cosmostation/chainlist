@@ -6,6 +6,8 @@
     "symbol_image" : "onomy-protocol/asset/nom.png",
     "bechAccountPrefix" : "onomy",
     "bechValidatorPrefix" : "onomyvaloper",
+    "api_name" : "onomy-protocol",
+    "origin_genesis_time" : "2022-11-29T16:57:15Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

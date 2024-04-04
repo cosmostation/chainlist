@@ -6,6 +6,8 @@
     "symbol_image" : "bitcanna/asset/bcna.png",
     "bechAccountPrefix" : "bcna",
     "bechValidatorPrefix" : "bcnavaloper",
+    "api_name" : "bitcanna",
+    "origin_genesis_time" : "2021-09-30T12:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

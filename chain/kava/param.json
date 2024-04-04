@@ -7,6 +7,8 @@
     "symbol_image" : "kava/asset/kava.png",
     "bechAccountPrefix" : "kava",
     "bechValidatorPrefix" : "kavavaloper",
+    "api_name" : "kava",
+    "origin_genesis_time" : "2019-11-05T14:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

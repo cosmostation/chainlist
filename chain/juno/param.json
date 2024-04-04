@@ -6,6 +6,8 @@
     "symbol_image" : "juno/asset/juno.png",
     "bechAccountPrefix" : "juno",
     "bechValidatorPrefix" : "junovaloper",
+    "api_name" : "juno",
+    "origin_genesis_time" : "2021-10-01T15:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

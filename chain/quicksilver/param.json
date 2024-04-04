@@ -6,6 +6,8 @@
     "symbol_image" : "quicksilver/asset/qck.png",
     "bechAccountPrefix" : "quick",
     "bechValidatorPrefix" : "quickvaloper",
+    "api_name" : "quicksilver",
+    "origin_genesis_time" : "2022-12-16T13:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

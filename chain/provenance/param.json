@@ -6,6 +6,8 @@
     "symbol_image" : "provenance/asset/hash.png",
     "bechAccountPrefix" : "pb",
     "bechValidatorPrefix" : "pbvaloper",
+    "api_name" : "provenance",
+    "origin_genesis_time" : "2021-04-20T16:20:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/505'/0'/0/X",

@@ -6,6 +6,8 @@
     "symbol_image" : "comdex/asset/cmdx.png",
     "bechAccountPrefix" : "comdex",
     "bechValidatorPrefix" : "comdexvaloper",
+    "api_name" : "comdex",
+    "origin_genesis_time" : "2021-11-20T14:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

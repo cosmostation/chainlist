@@ -6,6 +6,8 @@
     "symbol_image" : "injective/asset/inj.png",
     "bechAccountPrefix" : "inj",
     "bechValidatorPrefix" : "injvaloper",
+    "api_name" : "injective",
+    "origin_genesis_time" : "2021-06-30T13:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

@@ -6,6 +6,8 @@
     "symbol_image" : "stride/asset/strd.png",
     "bechAccountPrefix" : "stride",
     "bechValidatorPrefix" : "stridevaloper",
+    "api_name" : "stride",
+    "origin_genesis_time" : "2022-09-04T19:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

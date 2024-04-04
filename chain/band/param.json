@@ -6,6 +6,8 @@
     "symbol_image" : "band/asset/band.png",
     "bechAccountPrefix" : "band",
     "bechValidatorPrefix" : "bandvaloper",
+    "api_name" : "band",
+    "origin_genesis_time" : "2020-05-28T14:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

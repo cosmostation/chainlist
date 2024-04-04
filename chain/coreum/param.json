@@ -6,6 +6,8 @@
     "symbol_image" : "coreum/asset/core.png",
     "bechAccountPrefix" : "core",
     "bechValidatorPrefix" : "corevaloper",
+    "api_name" : "coreum",
+    "origin_genesis_time" : "2023-03-12T00:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/990'/0'/0/X",

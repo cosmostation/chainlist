@@ -6,6 +6,8 @@
     "symbol_image" : "fetchai/asset/fet.png",
     "bechAccountPrefix" : "fetch",
     "bechValidatorPrefix" : "fetchvaloper",
+    "api_name" : "fetchai",
+    "origin_genesis_time" : "2021-03-31T14:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

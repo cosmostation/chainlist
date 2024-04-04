@@ -6,6 +6,8 @@
     "symbol_image" : "archway/asset/arch.png",
     "bechAccountPrefix" : "archway",
     "bechValidatorPrefix" : "archwayvaloper",
+    "api_name" : "archway",
+    "origin_genesis_time" : "2023-07-03T12:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

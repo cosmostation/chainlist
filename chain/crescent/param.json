@@ -6,6 +6,8 @@
     "symbol_image" : "crescent/asset/cre.png",
     "bechAccountPrefix" : "cre",
     "bechValidatorPrefix" : "crevaloper",
+    "api_name" : "crescent",
+    "origin_genesis_time" : "2022-04-13T00:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

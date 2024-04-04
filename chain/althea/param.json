@@ -7,6 +7,8 @@
     "symbol_image" : "althea/asset/altg.png",
     "bechAccountPrefix" : "althea",
     "bechValidatorPrefix" : "altheavaloper",
+    "api_name" : "althea",
+    "origin_genesis_time" : "",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

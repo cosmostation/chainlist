@@ -6,6 +6,8 @@
     "symbol_image" : "sentinel/asset/dvpn.png",
     "bechAccountPrefix" : "sent",
     "bechValidatorPrefix" : "sentvaloper",
+    "api_name" : "sentinel",
+    "origin_genesis_time" : "2021-03-27T12:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

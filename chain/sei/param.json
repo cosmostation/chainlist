@@ -6,6 +6,8 @@
     "symbol_image" : "sei/asset/sei.png",
     "bechAccountPrefix" : "sei",
     "bechValidatorPrefix" : "seivaloper",
+    "api_name" : "sei",
+    "origin_genesis_time" : "2023-05-22T15:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

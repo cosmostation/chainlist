@@ -6,6 +6,8 @@
     "symbol_image" : "neutron/asset/ntrn.png",
     "bechAccountPrefix" : "neutron",
     "bechValidatorPrefix" : "neutronvaloper",
+    "api_name" : "neutron",
+    "origin_genesis_time" : "2023-05-10T15:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

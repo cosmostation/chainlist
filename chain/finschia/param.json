@@ -6,6 +6,8 @@
     "symbol_image" : "finschia/asset/fnsa.png",
     "bechAccountPrefix" : "link",
     "bechValidatorPrefix" : "linkvaloper",
+    "api_name" : "finschia",
+    "origin_genesis_time" : "2023-05-25T03:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/438'/0'/0/X",

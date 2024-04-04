@@ -6,6 +6,8 @@
     "symbol_image" : "emoney/asset/ngm.png",
     "bechAccountPrefix" : "emoney",
     "bechValidatorPrefix" : "emoneyvaloper",
+    "api_name" : "emoney",
+    "origin_genesis_time" : "2020-03-25T12:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

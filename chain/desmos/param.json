@@ -6,6 +6,8 @@
     "symbol_image" : "desmos/asset/dsm.png",
     "bechAccountPrefix" : "desmos",
     "bechValidatorPrefix" : "desmosvaloper",
+    "api_name" : "desmos",
+    "origin_genesis_time" : "2021-08-31T16:15:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/852'/0'/0/X",

@@ -6,6 +6,8 @@
     "symbol_image" : "regen/asset/regen.png",
     "bechAccountPrefix" : "regen",
     "bechValidatorPrefix" : "regenvaloper",
+    "api_name" : "regen",
+    "origin_genesis_time" : "2021-04-15T15:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

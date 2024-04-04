@@ -6,6 +6,8 @@
     "symbol_image" : "crypto-org/asset/cro.png",
     "bechAccountPrefix" : "cro",
     "bechValidatorPrefix" : "crocncl",
+    "api_name" : "crypto-org",
+    "origin_genesis_time" : "2021-03-25T01:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/394'/0'/0/X",

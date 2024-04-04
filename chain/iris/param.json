@@ -6,6 +6,8 @@
     "symbol_image" : "iris/asset/iris.png",
     "bechAccountPrefix" : "iaa",
     "bechValidatorPrefix" : "iva",
+    "api_name" : "iris",
+    "origin_genesis_time" : "2019-03-01T06:54:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

@@ -6,6 +6,8 @@
     "symbol_image" : "nibiru/asset/nibi.png",
     "bechAccountPrefix" : "nibi",
     "bechValidatorPrefix" : "nibivaloper",
+    "api_name" : "nibiru",
+    "origin_genesis_time" : "2023-11-08T20:09:48Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

@@ -6,6 +6,8 @@
     "symbol_image" : "cosmos/asset/atom.png",
     "bechAccountPrefix" : "cosmos",
     "bechValidatorPrefix" : "cosmosvaloper",
+    "api_name" : "cosmos",
+    "origin_genesis_time" : "2019-03-13T23:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

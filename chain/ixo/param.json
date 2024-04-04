@@ -6,6 +6,8 @@
     "symbol_image" : "ixo/asset/ixo.png",
     "bechAccountPrefix" : "ixo",
     "bechValidatorPrefix" : "ixovaloper",
+    "api_name" : "ixo",
+    "origin_genesis_time" : "2021-08-19T12:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

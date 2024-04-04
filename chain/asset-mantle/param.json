@@ -6,6 +6,8 @@
     "symbol_image" : "asset-mantle/asset/mntl.png",
     "bechAccountPrefix" : "mantle",
     "bechValidatorPrefix" : "mantlevaloper",
+    "api_name" : "asset-mantle",
+    "origin_genesis_time" : "2022-04-18T12:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

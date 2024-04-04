@@ -7,6 +7,8 @@
     "symbol_image" : "humans/asset/humans.png",
     "bechAccountPrefix" : "human",
     "bechValidatorPrefix" : "humanvaloper",
+    "api_name" : "humans",
+    "origin_genesis_time" : "2023-05-29T18:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

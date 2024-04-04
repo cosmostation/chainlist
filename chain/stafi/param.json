@@ -6,6 +6,8 @@
     "symbol_image" : "stafi/asset/fis.png",
     "bechAccountPrefix" : "stafi",
     "bechValidatorPrefix" : "stafivaloper",
+    "api_name" : "stafi",
+    "origin_genesis_time" : "2022-08-17T13:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
