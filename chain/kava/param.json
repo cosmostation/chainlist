@@ -1,10 +1,40 @@
 {
+    "chain_id_cosmos" : "kava_2222-10",
+    "chain_id_evm" : "0x8ae",
+    "chain_name": "Kava",
+    "chain_image": "kava/resource/chain_kava.png",
+    "symbol" : "KAVA",
+    "symbol_image" : "kava/asset/kava.png",
+    "bechAccountPrefix" : "kava",
+    "bechValidatorPrefix" : "kavavaloper",
+    "api_name" : "kava",
+    "origin_genesis_time" : "2019-11-05T14:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/459'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.01ukava",
             "0.05ukava"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -21,26 +51,62 @@
         {
             "provider": "Notional",
             "url": "grpc-kava-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "kava-grpc.polkachu.com:13990"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "grpc-kava-01.stakeflow.io:1202"
         }
     ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-kava-evm.cosmostation.io"
+        },
+        {
+            "provider": "kava",
+            "url": "https://evm.kava.io"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://kava-evm.publicnode.com"
+        },
+        {
+            "provider": "OnFinality",
+            "url": "https://kava.api.onfinality.io/public"
+        },
+        {
+            "provider": "Pokt",
+            "url": "https://kava-pokt.nodies.app"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/kava_evm"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/kava/",
+        "account": "https://www.mintscan.io/kava/address/${address}",
+        "tx": "https://www.mintscan.io/kava/tx/${hash}",
+        "proposal": "https://www.mintscan.io/kava/proposals/${id}"
+    },
+    "evm_explorer" : {
+        "name": "Kavascan",
+        "url": "https://kavascan.io/",
+        "account": "https://kavascan.io/address/${address}",
+        "tx": "https://kavascan.io/tx/${hash}"
+    },
     "about" : {
         "website" : "https://www.kava.io/",
-        "blog" : "https://www.kava.io/news",
+        "docs": "https://docs.kava.io/docs/intro",
         "github" : "https://github.com/kava-labs",
+        "blog" : "https://www.kava.io/news",
+        "medium": "https://medium.com/kava-labs",
         "twitter" : "https://twitter.com/kava_platform",
         "coingecko" : "https://www.coingecko.com/en/coins/kava"
     },
+    "forum": {
+      "main": "https://www.reddit.com/r/kava_platform"
+    },
     "description" : {
-        "ko" : "Tendermint 기반의 레버리지, 헤지 및 CDP를 지원하는 최초의 인터 체인 DeFi 플랫폼.",
-        "en" : "First cross-chain DeFi platform based on Tendermint engine. Kava allows users to leverage assets with its cross-chain CDP.",
-        "ja" : "Tendermint ベースのレバレッジ、ヘッジ及びCDPをサポートする初のインターチェーンDeFiプラットフォーム。"
+        "ko" : "Kava는 코스모스의 속도와 상호 운용성과 이더리움의 개발자 능력을 결합한 분산형 블록체인입니다.",
+        "en" : "Kava is a decentralized blockchain that combines the speed and interoperability of Cosmos with the developer power of Ethereum.",
+        "ja" : "Kava は、Cosmos の速度と相互運用性とイーサリアムの開発力を組み合わせた分散型ブロックチェーンです。"
     }
 }

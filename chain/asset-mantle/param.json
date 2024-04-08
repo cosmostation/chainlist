@@ -1,4 +1,20 @@
 {
+    "chain_id_cosmos" : "mantle-1",
+    "chain_name": "AssetMantle",
+    "chain_image": "asset-mantle/resource/chain_assetmantle.png",
+    "symbol" : "MNTL",
+    "symbol_image" : "asset-mantle/asset/mntl.png",
+    "bechAccountPrefix" : "mantle",
+    "bechValidatorPrefix" : "mantlevaloper",
+    "api_name" : "asset-mantle",
+    "origin_genesis_time" : "2022-04-18T12:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -6,6 +22,7 @@
             "0.01umntl",
             "0.025umntl"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : false,
         "simul_gas_multiply" : 1.5,
         "fee_threshold" : ""
@@ -26,22 +43,30 @@
         {
             "provider": "StakerHouse",
             "url": "assetmantle-grpc.stakerhouse.com:443"
-        },
-        {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "assetmantle-grpc.publicnode.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/asset-mantle/",
+        "account": "https://www.mintscan.io/asset-mantle/address/${address}",
+        "tx": "https://www.mintscan.io/asset-mantle/tx/${hash}",
+        "proposal": "https://www.mintscan.io/asset-mantle/proposals/${id}"
+    },
     "about" : {
         "website" : "https://assetmantle.one/",
-        "blog" : "https://blog.assetmantle.one/",
+        "docs": "https://docs.assetmantle.one",
         "github" : "https://github.com/AssetMantle",
+        "blog" : "https://blog.assetmantle.one/",
+        "medium": "https://blog.assetmantle.one",
         "twitter" : "https://twitter.com/AssetMantle",
         "coingecko" : "https://www.coingecko.com/en/coins/assetmantle"
     },
+    "forum": {
+      "main": "https://www.reddit.com/r/AssetMantle"
+    },
     "description" : {
-        "ko" : "AssetMantle은 Persistence 생태계 내 NFT 창작자와 수집가 모두를 위해 구축된 NFT 마켓플레이스 및 플랫폼입니다.",
-        "en" : "AssetMantle is a community focused one-for-all NFT platform for creators and collectors, powered by $MNTL token.",
-        "ja" : "AssetMantleは Persistence生態系内のNFT創作者と収集家の両方のために構築されたNFTマーケットプレイス及びプラットフォームです。"
+        "ko" : "AssetMantle은 사용자가 자신만의 맞춤형 NFT 스토어를 구축할 수 있는 커뮤니티 중심의 NFT 플랫폼입니다.",
+        "en" : "AssetMantle is a community focused one-for-all NFT platform that allows users to build their own customized NFT stores.",
+        "ja" : "AssetMantleは、ユーザーが独自のカスタムNFTストアを構築できるコミュニティ中心のNFTプラットフォームです。"
     }
 }

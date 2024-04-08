@@ -1,4 +1,5 @@
 {
+    "chain_name": "kujira",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -9,5 +10,25 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-    ]
+        {
+            "provider": "ChainTools",
+            "url": "kujira.grpcui.chaintools.host:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "kujira-grpc.lavenderfive.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://kujira.app/",
+        "blog" : "",
+        "github" : "",
+        "twitter" : "",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
 }

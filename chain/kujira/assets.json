@@ -450,5 +450,17 @@
     },
     "image": "persistence/asset/stkatom.png",
     "coinGeckoId": "stkatom"
+  },
+  {
+    "denom": "factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/boneKuji",
+    "type": "native",
+    "origin_chain": "kujira",
+    "origin_denom": "factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/boneKuji",
+    "origin_type": "native",
+    "symbol": "bKUJI",
+    "decimals": 6,
+    "description": "BackBone Labs Liquid Staked KUJI",
+    "image": "kujira/asset/bkuji.png",
+    "coinGeckoId": ""
   }
 ]

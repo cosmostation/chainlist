@@ -1,9 +1,27 @@
 {
+    "chain_id_cosmos" : "dymension_1100-1",
+    "chain_id_evm" : "0x44c",
+    "chain_name": "Dymension",
+    "chain_image": "dymension/resource/chain_dymension.png",
+    "symbol" : "DYM",
+    "symbol_image" : "dymension/asset/dym.png",
+    "bechAccountPrefix" : "dym",
+    "bechValidatorPrefix" : "dymvaloper",
+    "api_name" : "dymension",
+    "origin_genesis_time" : "2024-02-06T12:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "5000000000adym"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -14,20 +32,62 @@
             "url": "grpc-dymension.cosmostation.io:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "dymension-mainnet-grpc.autostake.com:443"
+            "provider": "NodeStake",
+            "url": "grpc.dymension.nodestake.org:443"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "dymension-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "kjnodes.com 🦄",
+            "url": "dymension.grpc.kjnodes.com:443"
+        },
+        {
+            "provider": "silent",
+            "url": "grpc.dymension.silentvalidator.com:443"
         }
     ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-dymension-evm.cosmostation.io"
+        },
+        {
+            "provider": "Posthuman",
+            "url": "https://evm-rpc.dymension.posthuman.digital"
+        },
+        {
+            "provider": "AgoraNodes",
+            "url": "https://dym-m-json.agoranodes.com"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://dymension-jsonrpc.ibs.team"
+        },
+        {
+            "provider": "Wave",
+            "url": "https://dymension.0xwave.com:2087"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/dymension/",
+        "account": "https://www.mintscan.io/dymension/address/${address}",
+        "tx": "https://www.mintscan.io/dymension/tx/${hash}",
+        "proposal": "https://www.mintscan.io/dymension/proposals/${id}"
+    },
     "about" : {
         "website" : "https://dymension.xyz/",
-        "blog" : "https://medium.com/@dymension",
+        "docs": "https://docs.dymension.xyz/",
         "github" : "https://github.com/dymensionxyz",
+        "blog" : "https://medium.com/@dymension",
+        "medium": "https://medium.com/@dymension",
         "twitter" : "https://twitter.com/dymension",
         "coingecko" : "https://www.coingecko.com/en/coins/dymension"
+    },
+    "forum": {
+      "main": "https://forum.dymension.xyz/"
     },
     "description" : {
         "ko" : "Dymension은 $DYM으로 보호되는 탈중앙화된 L1 블록체인으로, 롤앱 인터넷의 구축을 지향합니다.",

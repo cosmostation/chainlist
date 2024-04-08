@@ -1,0 +1,31 @@
+{
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.025cif"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "CiferAi",
+            "url": "https://rpc.cosmos.directory/cifer"
+        },
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-cosmos.cosmostation.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://cifer.ai",
+        "blog" : "",
+        "github" : "https://github.com/cifer-ai/cifer",
+        "twitter" : "https://twitter.com/cifer_ai",
+        "coingecko" : ""
+    },
+    "description" : {
+        "en" : "Decentralized Federated Learning"
+    }
+}
