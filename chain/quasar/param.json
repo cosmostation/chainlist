@@ -1,0 +1,67 @@
+{
+    "chain_id_cosmos" : "quasar-1",
+    "chain_name": "Quasar",
+    "chain_image": "quasar/resource/chain_quasar.png",
+    "symbol" : "QSR",
+    "symbol_image" : "quasar/asset/qsr.png",
+    "bechAccountPrefix" : "quasar",
+    "bechValidatorPrefix" : "quasarvaloper",
+    "api_name" : "quasar",
+    "origin_genesis_time" : "2023-03-22T20:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.1uqsr,0.01ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B,0.01ibc/FA7775734CC73176B7425910DE001A1D2AD9B6D9E93129A5D0750EAD13E4E63A"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-quasar.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "quasar-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "StakeTown",
+            "url": "quasar-grpc.stake-town.com:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/quasar/",
+        "account": "https://www.mintscan.io/quasar/address/${address}",
+        "tx": "https://www.mintscan.io/quasar/tx/${hash}",
+        "proposal": "https://www.mintscan.io/quasar/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.quasar.fi/",
+        "docs": "https://docs.quasar.fi",
+        "github" : "https://github.com/quasar-finance",
+        "blog" : "https://quasar.fi/blog",
+        "medium": "https://medium.com/@quasar.fi",
+        "twitter" : "https://twitter.com/quasarfi",
+        "coingecko" : "https://www.coingecko.com/en/coins/quasar-fi"
+    },
+    "forum": {
+      "main": "https://gov.quasar.fi/",
+      "governance": "https://gov.quasar.fi/proposals"
+    },
+    "description" : {
+        "ko" : "Quasar는 볼트(Vaults)와 볼트 전략을 활용한 탈중앙화 자산 관리(Decentralized Asset Management) 서비스를 제공하는 코스모스 SDK 기반 앱체인입니다.",
+        "en" : "Quasar provides decentralized asset management (DAM) service utilizing vaults and vault strategies.",
+        "ja" : "Quasarはボルトとボルト戦略を活用した分散型資産管理(DAM)サービスを提供している。"
+    }
+}

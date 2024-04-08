@@ -1,0 +1,123 @@
+[
+  {
+    "name": "astroport",
+    "type": "Defi",
+    "description": "An automated, decentralized exchange protocol.",
+    "status": "open",
+    "thumnail" : "astroport",
+    "link": "https://app.astroport.fi/swap",
+    "social": {
+      "webSite": "https://astroport.fi/en",
+      "twitter": "https://twitter.com/astroport_fi",
+      "medium": "https://astroport.medium.com/",
+      "github": "https://github.com/astroport-fi/",
+      "docs": "https://docs.astroport.fi/"
+    }
+  },
+  {
+    "name": "Stride",
+    "type": "Defi",
+    "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
+    "status": "open",
+    "thumnail" : "stride",
+    "link": "https://app.stride.zone/?chain=LUNA",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
+    }
+  },
+  {
+    "name": "capapult",
+    "type": "Defi",
+    "description": "Decentralised CDP ($SOLID) on Terra, governed through $CAPA holders.",
+    "status": "open",
+    "thumnail" : "capapult",
+    "link": "https://app.capapult.finance/dashboard",
+    "social": {
+      "webSite": "https://www.capapult.finance/",
+      "twitter": "https://twitter.com/capapult?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "medium": "https://medium.com/@capapult",
+      "github": "https://github.com/capapult-finance"
+    }
+  },
+  {
+    "name": "enterprise protocol",
+    "type": "DAO",
+    "description": "A no-code tool for organizing, creating, and maintaining DAOs.",
+    "status": "open",
+    "thumnail" : "enterprise-protocol",
+    "link": "https://enterprise.money/dashboard",
+    "social": {
+      "webSite": "https://enterprise.money/",
+      "twitter": "https://twitter.com/enterprise_dao",
+      "medium": "https://medium.com/@enterprise_dao",
+      "github": "https://github.com/terra-money/enterprise-docs",
+      "docs": "https://docs.enterprise.money/"
+    }
+  },
+  {
+    "name": "Feather",
+    "type": "Others",
+    "description": "A solution for spinning up a new Cosmos SDK-based blockchain.",
+    "status": "prepare",
+    "thumnail" : "feather",
+    "link": ""
+  },
+  {
+    "name": "LUNA Gravedigger",
+    "type": "Defi",
+    "description": "A multi-chain Defi/Collateral/NFT Hub.",
+    "status": "open",
+    "thumnail" : "gravedigger",
+    "link": "https://app.backbonelabs.io/gravedigger/phoenix-1",
+    "social": {
+      "webSite": "https://app.backbonelabs.io/gravedigger/phoenix-1",
+      "twitter": "https://twitter.com/BackBone_Labs",
+      "medium": "https://backbonelabs.medium.com/"
+    }
+  },
+  {
+    "name": "Necropolis",
+    "type": "Defi",
+    "description": "A multi-chain NFT Marketplace and Launchpad",
+    "status": "open",
+    "thumnail" : "necropolis",
+    "link": "https://necropolisnft.io/collections",
+    "social": {
+      "webSite": "https://necropolisnft.io/collections",
+      "twitter": "https://twitter.com/BackBone_Labs",
+      "medium": "https://backbonelabs.medium.com/"
+    }
+  },
+  {
+    "name": "TFM",
+    "type": "Defi",
+    "description": "Trading platform built for Terra and Cosmos.",
+    "status": "open",
+    "thumnail" : "tfm",
+    "link": "https://tfm.com/ibc",
+    "social": {
+      "webSite": "https://tfm.com/ibc",
+      "twitter": "https://twitter.com/tfm_com",
+      "medium": "https://medium.com/@tfm.com",
+      "github": "https://github.com/tfm-com",
+      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
+    }
+  },
+  {
+    "name": "Warp Protocol",
+    "type": "Defi",
+    "description": "Smart contract-based transaction automator.",
+    "status": "open",
+    "thumnail" : "warp-protocol",
+    "link": "https://app.warp.money/",
+    "social": {
+      "webSite": "https://warp.money/",
+      "twitter": "https://twitter.com/warp_protocol",
+      "github": "https://github.com/terra-money/warp-docs",
+      "docs": "https://docs.warp.money/"
+    }
+  }
+]

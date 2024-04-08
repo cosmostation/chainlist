@@ -1,0 +1,70 @@
+{
+    "chain_id_cosmos" : "dydx-mainnet-1",
+    "chain_name": "dYdX",
+    "chain_image": "dydx/resource/chain_dydx.png",
+    "symbol" : "DYDX",
+    "symbol_image" : "dydx/asset/dydx.png",
+    "bechAccountPrefix" : "dydx",
+    "bechValidatorPrefix" : "dydxvaloper",
+    "api_name" : "dydx",
+    "origin_genesis_time" : "2023-10-26T17:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "12500000000adydx,0.025ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-dydx.cosmostation.io:443"
+        },
+        {
+            "provider": "Bware Labs",
+            "url": "dydx-mainnet-full-grpc.public.blastapi.io:443"
+        },
+        {
+            "provider": "Kingnodes",
+            "url": "dydx-grpc.kingnodes.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "dydx-grpc.lavenderfive.com:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/dydx/",
+        "account": "https://www.mintscan.io/dydx/address/${address}",
+        "tx": "https://www.mintscan.io/dydx/tx/${hash}",
+        "proposal": "https://www.mintscan.io/dydx/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://dydx.exchange/",
+        "docs" : "https://docs.dydx.exchange/",
+        "github" : "https://github.com/dydxprotocol/",
+        "blog" : "https://dydx.exchange/blog",
+        "twitter" : "https://twitter.com/dydx",
+        "discord": "https://discord.com/invite/Tuze6tY",
+        "coingecko" : "https://www.coingecko.com/en/coins/dydx"
+    },
+    "forum": {
+      "main": "https://dydx.forum/"
+    },
+    "description" : {
+        "ko" : "dYdX 체인은 분산형 무기한 교환을 강화할 수 있는 오픈 소스 애플리케이션 전용 블록체인 소프트웨어입니다.",
+        "en" : "dYdX chain is an open-source application specific blockchain software that can power a decentralized perpetuals exchange.",
+        "ja" : "dYdX チェーンは、分散型永久交換を強化できるオープンソースのアプリケーション固有のブロックチェーン ソフトウェアです。"
+    }
+}

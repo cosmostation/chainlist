@@ -1,0 +1,58 @@
+{
+    "chain_id_cosmos" : "shentu-2.2",
+    "chain_name": "Shentu",
+    "chain_image": "shentu/resource/chain_shentu.png",
+    "symbol" : "CTK",
+    "symbol_image" : "shentu/asset/ctk.png",
+    "bechAccountPrefix" : "shentu",
+    "bechValidatorPrefix" : "shentuvaloper",
+    "api_name" : "shentu",
+    "origin_genesis_time" : "2020-10-24T14:24:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.025uctk",
+            "0.05uctk"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-shentu.cosmostation.io:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/shentu/",
+        "account": "https://www.mintscan.io/shentu/address/${address}",
+        "tx": "https://www.mintscan.io/shentu/tx/${hash}",
+        "proposal": "https://www.mintscan.io/shentu/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.shentu.technology/",
+        "github" : "https://github.com/shentufoundation",
+        "blog" : "https://medium.com/shentu-foundation",
+        "medium": "https://medium.com/shentu-foundation",
+        "twitter" : "https://twitter.com/ShentuChain",
+        "coingecko" : "https://www.coingecko.com/en/coins/shentu"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/ShentuChain"
+    },
+    "description" : {
+        "ko" : "Certik Foundation의 고유한 공식 검증 보안 시스템을 기반으로하는 공용 플랫폼입니다. shentu체인은 보안 중심 체인에서 스마트 계약 실행 및 상호 작용을 허용합니다.",
+        "en" : "A public platform based on the Certik Foundation's unique Formal Verification security system.",
+        "ja" : "Shentu Foundationの固有な公式検証保安システムをベースにする共用プラットフォームです。Shentuは保安中心チェーンでスマート契約実行及び相互作用を許容します。"
+    }
+}

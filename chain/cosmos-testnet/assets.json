@@ -1,0 +1,14 @@
+[
+  {
+    "denom": "uatom",
+    "type": "staking",
+    "origin_chain": "cosmos-testnet",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "description": "Cosmos-testnet Staking Coin",
+    "image": "cosmos-testnet/asset/atom.png",
+    "coinGeckoId": ""
+  }
+]

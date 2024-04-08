@@ -1,0 +1,71 @@
+{
+    "chain_id_cosmos" : "celestia",
+    "chain_name": "Celestia",
+    "chain_image": "celestia/resource/chain_celestia.png",
+    "symbol" : "TIA",
+    "symbol_image" : "celestia/asset/tia.png",
+    "bechAccountPrefix" : "celestia",
+    "bechValidatorPrefix" : "celestiavaloper",
+    "api_name" : "celestia",
+    "origin_genesis_time" : "2023-10-31T14:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.002utia"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-celestia.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "celestia-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "grpc-celestia.cosmos-spaces.cloud:443"
+        },
+        {
+            "provider": "ValiDAO",
+            "url": "celestia.grpc.interchain.validao.xyz:443"
+        },
+        {
+            "provider": "Stakin",
+            "url": "celestia.grpc.stakin-nodes.com:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/celestia/",
+        "account": "https://www.mintscan.io/celestia/address/${address}",
+        "tx": "https://www.mintscan.io/celestia/tx/${hash}",
+        "proposal": "https://www.mintscan.io/celestia/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://celestia.org/",
+        "docs": "https://docs.celestia.org",
+        "github" : "https://github.com/celestiaorg",
+        "blog" : "https://blog.celestia.org/",
+        "medium": "https://blog.celestia.org",
+        "twitter" : "https://twitter.com/CelestiaOrg",
+        "coingecko" : "https://www.coingecko.com/en/coins/celestia"
+    },
+    "description" : {
+        "ko" : "Celestia 는 누구나 손쉽게 블록체인을 배포할 수 있는 모듈형 블록체인 네트워크입니다.",
+        "en" : "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
+        "ja" : "Celestiaは、誰もが簡単にブロックチェーンを展開できるモジュラーなブロックチェーンネットワークです。"
+    }
+}

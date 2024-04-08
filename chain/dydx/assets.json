@@ -1,0 +1,56 @@
+[
+  {
+    "denom": "adydx",
+    "type": "staking",
+    "origin_chain": "dydx",
+    "origin_denom": "adydx",
+    "origin_type": "staking",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "description": "dYdX Staking Coin",
+    "image": "dydx/asset/dydx.png",
+    "coinGeckoId": "dydx-chain",
+    "color": "#6966FF"
+  },
+  {
+    "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>dydx",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-33",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "color": "#2B91FF"
+  },
+  {
+    "denom": "ibc/15781DDDCD499274C978F31A0DBD6DA93D8EE0F7200891898549AFC7C5B5948A",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stadydx",
+    "origin_type": "native",
+    "symbol": "stDYDX",
+    "decimals": 18,
+    "enable": true,
+    "path": "stride>dydx",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-160",
+      "port": "transfer",
+      "denom": "stadydx"
+    },
+    "image": "stride/asset/stadydx.png",
+    "coinGeckoId": "stride-staked-dydx"
+  }
+]

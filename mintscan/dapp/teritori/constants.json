@@ -1,0 +1,179 @@
+[
+  {
+    "id": "teritori-nft-marketplace",
+    "name": "NFT Marketplace",
+    "dappType": "NFT",
+    "description": "Teritori NFT Marketplace. Buy, sell, and trade NFTs.",
+    "link": "https://app.teritori.com/marketplace"
+  },
+  {
+    "id": "teritori-name-service",
+    "name": "Name Service",
+    "dappType": "NFT",
+    "description": "Get your unique Teritori Name Service (TNS) name. TNS names are NFTs that can be used to receive payments and more. Get you name.tori NOW!",
+    "link": "https://app.teritori.com/tns"
+  },
+  {
+    "id": "the-riot",
+    "name": "The Riot: Original P2E Game",
+    "dappType": "Others",
+    "description": "The Riot is the first P2E game on Teritori. Join the community and earn rewards.",
+    "link": "https://app.teritori.com/riot-game",
+    "social": {
+      "twitter": "https://twitter.com/TheRiotNFT"
+    }
+  },
+  {
+    "id": "teritori-social-feed",
+    "name": "Cosmos First On-chain Social Network",
+    "dappType": "Social",
+    "description": "Post, like, and comment on the first on-chain social network. Powered by the Cosmos SDK.",
+    "link": "https://app.teritori.com/feed"
+  },
+  {
+    "id": "teritori-multisig-wallets",
+    "name": "Multisig Tools",
+    "dappType": "DAO",
+    "description": "Create and manage your multisig wallet. Supports all Cosmos SDK chains.",
+    "link": "https://app.teritori.com/multisig"
+  },
+  {
+    "id": "teritori-dapp-store",
+    "name": "Teritori Dapp Store",
+    "dappType": "System",
+    "description": "Teritori OS Dapp Store. Find all the dapps you need in one place.",
+    "link": "https://app.teritori.com/dapp-store",
+    "social": {
+      "github": "https://github.com/TERITORI/teritori-dapp/issues/564"
+    }
+  },
+  {
+    "id": "teritori-org-deployer",
+    "name": "Create your Organization",
+    "dappType": "DAO",
+    "description": "Build your OWN DAO. Manage treasury, voting, and governance.",
+    "link": "https://app.teritori.com/orgs"
+  },
+  {
+    "id": "teritori-music-player",
+    "name": "Teritori OS: Music",
+    "dappType": "Social",
+    "description": "Upload and find new fans for your music, powered by the Teritori OS.",
+    "link": "https://app.teritori.com/feed/music"
+  },
+  {
+    "id": "teritori-video-player",
+    "name": "Teritori OS: Video Player",
+    "dappType": "Social",
+    "description": "Experience the first on-chain video player.",
+    "link": "https://app.teritori.com/feed/videos"
+  },
+  {
+    "id": "teritori-toripunks",
+    "name": "ToriPunks Games",
+    "dappType": "Gamble",
+    "description": "Toripunks and ChadPunks NFTs are native to Teritori. Join this unique community and earn rewards.",
+    "link": "https://app.teritori.com/dapp/tori-punks/welcome"
+  },
+  {
+    "id": "teritori-tori-staking",
+    "name": "teritori (staking)",
+    "dappType": "Defi",
+    "description": "Stake your TORI tokens and earn rewards.",
+    "link": "https://app.teritori.com/staking/"
+  },
+  {
+    "id": "teritori-osmosis-swap",
+    "name": "Swap on Osmosis",
+    "dappType": "Dex",
+    "description": "Find How to Buy Tori, swap without moving away from Teritori OS",
+    "link": "https://app.teritori.com/swap"
+  },
+  {
+    "id": "teritori-ibcfun-bridge",
+    "name": "IBC.fun",
+    "dappType": "Defi",
+    "description": "IBC.fun is a cross-chain bridge that allows you to transfer assets between different blockchains.",
+    "link": "https://ibc.fun/",
+    "comingSoon": true
+  },
+  {
+    "id": "default",
+    "name": "Teritori <> Axelar",
+    "dappType": "System",
+    "description": "Bridge your $TORI tokens from Ethereum to teritori.",
+    "link": "https://satellite.money/?source=teritori&destination=ethereum&asset_denom=utori&destination_address=",
+    "comingSoon": true
+  },
+  {
+    "id": "teritori-pathwar-elearning",
+    "name": "Pathwar: Learn to Earn",
+    "dappType": "Others",
+    "description": "Cybersec Learning Platform.",
+    "link": "https://app.teritori.com/pathwar",
+    "comingSoon": true
+  },
+  {
+    "id": "project-manager",
+    "name": "On-Chain Project Manager",
+    "dappType": "System",
+    "description": "Manage your project on-chain. Create tasks, grants, assign them to team members, and track progress.",
+    "link": "https://app.teritori.com/project-manager",
+    "comingSoon": true
+  },
+  {
+    "id": "teritori-teritori-governance",
+    "name": "Governance",
+    "dappType": "System",
+    "description": "teritori Governance Platform. Cast your vote and contribute to shaping teritori's future.",
+    "link": "https://app.teritori.com/governance"
+  },
+  {
+    "id": "pulsarfinance",
+    "name": "Pulsar Finance",
+    "dappType": "Defi",
+    "description": "Track your portfolio performance across 70+ blockchains in a single place, from Tokens to DeFi & NFTs.",
+    "link": "https://pulsar.finance/"
+  },
+  {
+    "id": "kado",
+    "name": "Kado",
+    "dappType": "Defi",
+    "description": "Instantly Buy & Sell Crypto. Onboard to Osmosis in less than 5 minutes.",
+    "link": "https://app.kado.money/"
+  },
+  {
+    "id": "restake",
+    "name": "REStake",
+    "dappType": "Defi",
+    "description": "Auto-compound your staking rewards and setup your own custom Authz grants for any chain in the Cosmos ecosystem.",
+    "link": "https://restake.app/teritori"
+  },
+  {
+    "id": "default",
+    "name": "Slashboard",
+    "dappType": "Defi",
+    "description": "The Validator Slashboard is a dedicated tool designed to showcase the historical data of validator slashing incidents.",
+    "link": "https://services.kjnodes.com/mainnet/teritori/slashboard/"
+  },
+  {
+    "id": "yieldmos",
+    "name": "Yieldmos",
+    "dappType": "Defi",
+    "description": "Boost yields by auto compounding your staking and LP rewards with validators of your choice.",
+    "link": "https://www.yieldmos.com/chain/teritori"
+  },
+  {
+    "id": "tfm",
+    "name": "TFM",
+    "dappType": "Defi",
+    "description": "Pro-Trading Terminal of Teritori aggregating all DEX and NFT",
+    "link": "https://tfm.com/osmosis/trade/protrade?from=ibc%2FEB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC&to=ibc%2FD189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858&market=Osmosis",
+    "social": {
+      "twitter": "https://twitter.com/tfm_com",
+      "medium": "https://medium.com/@tfm.com",
+      "github": "https://github.com/tfm-com",
+      "docs": "https://docs.tfm.com"
+    }
+  }
+]

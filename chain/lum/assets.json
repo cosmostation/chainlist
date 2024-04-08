@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Lum Staking Coin",
     "image": "lum/asset/lum.png",
-    "coinGeckoId": "lum-network"
+    "coinGeckoId": "lum-network",
+    "color": "#3E68F9"
   },
   {
     "denom": "ibc/6CDA7F7E4DDB86FD275A986E78F13DF2FC500E3FEC2149E2215061FA51BB8C5D",
@@ -50,5 +51,25 @@
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
+  },
+  {
+    "denom": "ibc/A8C2D23A1E6F95DA4E48BA349667E322BD7A6C996D8A4AAE8BA72E190F3D1477",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "cosmos>lum",
+    "channel": "channel-12",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-566",
+      "port": "transfer",
+      "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
   }
 ]
