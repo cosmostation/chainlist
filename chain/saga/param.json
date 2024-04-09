@@ -1,13 +1,13 @@
 {
-    // "chain_id_cosmos" : "",
+    "chain_id_cosmos" : "ssc-1",
     "chain_name": "Saga",
     "chain_image": "saga/resource/chain_saga.png",
     "symbol" : "SAGA",
     "symbol_image" : "saga/asset/saga.png",
     "bechAccountPrefix" : "saga",
     "bechValidatorPrefix" : "sagavaloper",
-    // "api_name" : "saga",
-    // "origin_genesis_time" : "",
+    "api_name" : "saga",
+    "origin_genesis_time" : "2024-04-08T00:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -26,18 +26,18 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        // {
-        //     "provider": "Cosmostation",
-        //     "url": "grpc-saga.cosmostation.io:443"
-        // }
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-saga.cosmostation.io:443"
+        }
     ],
-    // "explorer" : {
-    //     "name": "Mintscan",
-    //     "url": "https://www.mintscan.io/saga/",
-    //     "account": "https://www.mintscan.io/saga/address/${address}",
-    //     "tx": "https://www.mintscan.io/saga/tx/${hash}",
-    //     "proposal": "https://www.mintscan.io/saga/proposals/${id}"
-    // },
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/saga/",
+        "account": "https://www.mintscan.io/saga/address/${address}",
+        "tx": "https://www.mintscan.io/saga/tx/${hash}",
+        "proposal": "https://www.mintscan.io/saga/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.saga.xyz/",
         "docs": "https://docs.saga.xyz/",
