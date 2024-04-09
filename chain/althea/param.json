@@ -1,0 +1,66 @@
+{
+    "chain_id_cosmos" : "",
+    "chain_id_evm" : "",
+    "chain_name": "Althea",
+    "chain_image": "althea/resource/chain_althea.png",
+    "symbol" : "ALTG",
+    "symbol_image" : "althea/asset/altg.png",
+    "bechAccountPrefix" : "althea",
+    "bechValidatorPrefix" : "altheavaloper",
+    "api_name" : "althea",
+    "origin_genesis_time" : "",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "20000000000000000aalthea"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.4,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-althea.cosmostation.io:443"
+        }
+    ],
+    // "explorer" : {
+    //     "name": "Mintscan",
+    //     "url": "https://www.mintscan.io/althea/",
+    //     "account": "https://www.mintscan.io/althea/address/${address}",
+    //     "tx": "https://www.mintscan.io/althea/tx/${hash}",
+    //     "proposal": "https://www.mintscan.io/althea/proposals/${id}"
+    // },
+    "about" : {
+        "website" : "https://www.althea.net/",
+        "docs": "https://docs.althea.net/",
+        "github" : "https://github.com/althea-net",
+        "blog" : "https://medium.com/althea-mesh",
+        "medium": "https://medium.com/althea-mesh",
+        "twitter" : "https://twitter.com/AltheaNetwork",
+        "discord" : "https://discord.com/invite/hHx7HxcycF",
+        "coingecko" : "https://www.coingecko.com/en/coins/althea"
+    },
+    "forum": {
+      "main": "https://forum.altheamesh.com/"
+    },
+    "description" : {
+        "ko" : "Althea Network는  ISP 서비스와 인프라를 위한 분산형 플랫폼이며, 블록체인 기술을 통해 효율적인 인프라 지원 및 결제 처리를 지원합니다.",
+        "en" : "Althea Network is a decentralized platform for ISP service and infrastructure, leveraging blockchain technology to facilitate efficient metering, delivery, infrastructure deployment and payment processing.",
+        "ja" : "Althea Network は、ISP サービスとインフラストラクチャのための分散型プラットフォームであり、ブロックチェーン技術を活用して効率的な計測、配信、インフラストラクチャの導入、支払い処理を促進します。"
+    }
+}

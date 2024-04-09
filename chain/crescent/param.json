@@ -1,4 +1,20 @@
 {
+    "chain_id_cosmos" : "crescent-1",
+    "chain_name": "Crescent",
+    "chain_image": "crescent/resource/chain_crescent.png",
+    "symbol" : "CRE",
+    "symbol_image" : "crescent/asset/cre.png",
+    "bechAccountPrefix" : "cre",
+    "bechValidatorPrefix" : "crevaloper",
+    "api_name" : "crescent",
+    "origin_genesis_time" : "2022-04-13T00:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -6,6 +22,7 @@
             "0.02ucre,0.02ubcre",
             "0.05ucre,0.05ubcre"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -16,28 +33,29 @@
             "url": "grpc-crescent.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "crescent-grpc.polkachu.com:14990"
-        },
-        {
             "provider": "Stakin",
             "url": "crescent.grpc.stakin-nodes.com:443"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "crescent-mainnet-grpc.autostake.com:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-crescent.cosmos-spaces.cloud:2270"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/crescent/",
+        "account": "https://www.mintscan.io/crescent/address/${address}",
+        "tx": "https://www.mintscan.io/crescent/tx/${hash}",
+        "proposal": "https://www.mintscan.io/crescent/proposals/${id}"
+    },
     "about" : {
         "website" : "https://crescent.network/",
-        "blog" : "https://crescentnetwork.medium.com/",
+        "docs": "https://docs.crescent.network/introduction/what-is-crescent",
         "github" : "https://github.com/crescent-network",
+        "blog" : "https://crescentnetwork.medium.com/",
+        "medium": "https://crescentnetwork.medium.com",
         "twitter" : "https://twitter.com/CrescentHub",
         "coingecko" : "https://www.coingecko.com/en/coins/crescent-network"
+    },
+    "forum": {
+        "main": "https://commonwealth.im/crescent-forum",
+        "governance": "https://commonwealth.im/crescent-forum/discussions/2.%20Proposal%20Discussion"
     },
     "description" : {
         "ko" : "$CRE 토큰과 인터-블록체인 통신기술을 활용한 텐더민트 기반 디파이 허브.",

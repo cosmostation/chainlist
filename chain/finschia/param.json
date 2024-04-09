@@ -1,9 +1,26 @@
 {
+    "chain_id_cosmos" : "finschia-2",
+    "chain_name": "Finschia",
+    "chain_image": "finschia/resource/chain_finschia.png",
+    "symbol" : "FNSA",
+    "symbol_image" : "finschia/asset/fnsa.png",
+    "bechAccountPrefix" : "link",
+    "bechValidatorPrefix" : "linkvaloper",
+    "api_name" : "finschia",
+    "origin_genesis_time" : "2023-05-25T03:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/438'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.015cony"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -12,12 +29,25 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-finschia.cosmostation.io:443"
+        },
+        {
+            "provider": "Finschia",
+            "url": "finschia-grpc.finschia.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/finschia/",
+        "account": "https://www.mintscan.io/finschia/address/${address}",
+        "tx": "https://www.mintscan.io/finschia/tx/${hash}",
+        "proposal": "https://www.mintscan.io/finschia/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.finschia.network/",
-        "blog" : "https://finschia.medium.com/",
+        "docs": "https://docs.finschia.network/",
         "github" : "https://github.com/Finschia/",
+        "blog" : "https://www.finschia.network/disclosure/",
+        "medium": "https://finschia.medium.com/",
         "twitter" : "https://twitter.com/finschia",
         "coingecko" : "https://www.coingecko.com/en/coins/fnsa"
     },

@@ -186,5 +186,25 @@
     "description": "The native coin of Sneaky Productions",
     "image": "stargaze/asset/sneaky.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/14D1406D84227FDF4B055EA5CB2298095BBCA3F3BC3EF583AE6DF36F0FB179C8",
+    "type": "ibc",
+    "origin_chain": "celestia",
+    "origin_denom": "utia",
+    "origin_type": "staking",
+    "symbol": "TIA",
+    "decimals": 6,
+    "enable": true,
+    "path": "celestia>stargaze",
+    "channel": "channel-291",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-33",
+      "port": "transfer",
+      "denom": "utia"
+    },
+    "image": "celestia/asset/tia.png",
+    "coinGeckoId": "celestia"
   }
 ]

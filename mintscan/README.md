@@ -1,15 +1,92 @@
-## How to add information on Mintscan Explorer.
+<div align="center">
+  <h1> Mintscan </h1>
+</div>
 
-This document introduces how to add information to Mintscan Explorer.
+‼️ chain-info-social & gas & dapp folder will remove
 
-### 1. How to add Chain's Information
+## 1. How to add your Dapp in Ecosystem
 
-If you want to add information such as the chain's name, description, website, docs, and links such as github, please edit mintscan/chain-info-social/{chain}.json.
+Nuetorn Ecosystem [Example](https://www.mintscan.io/neutron/ecosystem/)
 
-A more specific explanation is in [chain-info-social/README.md](./chain-info-social/README.md).
+![banner](https://github.com/cosmostation/chainlist/blob/main/ecosystem_demo.png?raw=true)
 
-### 2. How to add dApp's Information
 
-You can add dApp information in the mintscan/dapp/{chain}/constants.json, and upload image file in mintscan/dapp/{chain}/image/{dapp-id}.png to display Mintscan's ecosystem page.
 
-A more specific explanation is in [dapp/README.md](./dapp/README.md).
+
+Please add your service for correct chain folder. When you want create new cahin folder please follow [chainlist](https://github.com/cosmostation/chainlist/tree/main/chain) naming
+
+
+[mandatory]
+- name : Service name
+- type : Service type
+- description : Description of service
+- status : Description of service [open, prepare, close]
+- thumnail : To display image. ex) mintscan/{chain}/resource/{thumnail}.png
+
+[optional]
+- links : Your service website
+- social.webSite : Official website
+- social.twitter : twitter
+- social.docs: documentation
+- social.medium : medium (blog)
+- social.github : github link
+
+Ecosystem
+  `mintscan/${chain}/eco_list.json`
+
+  ```json
+  // example Neutron
+  [
+    {
+        "name": "Astroport",
+        "type": "Dex",
+        "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
+        "status": "open",
+        "thumnail" : "astroport",
+        "link": "https://neutron.astroport.fi/swap",
+        "social": {
+            "webSite": "https://astroport.fi/en",
+            "twitter": "https://twitter.com/astroport_fi",
+            "medium": "https://astroport.medium.com/",
+            "github": "https://github.com/astroport-fi/",
+            "docs": "https://docs.astroport.fi/"
+        }
+    },
+  ]
+  ```
+
+‼️ We daily update this information for display [Mintscan](https://www.mintscan.io/)
+
+
+
+## 2. How to display popular contract list
+
+Osmosis contract [Example](https://www.mintscan.io/osmosis/wasm/)
+
+![banner](https://github.com/cosmostation/chainlist/blob/main/popular_contract_demo.png?raw=true)
+
+[mandatory]
+- name : Contract name
+- contract_address : Contract address (coswasm or evm style Ok)
+- description : Human friendly readable description
+
+[optional]
+- link : Promotion link for this contract
+- thumnail : Promotion image. will display well with new UI. ex) mintscan/{chain}/resource/{thumnail}.png
+
+
+Ecosystem
+  `mintscan/${chain}/major_contract.json`
+
+  ```json
+  // example Kava
+  [
+    {
+        "name": "TetherUSDt",
+        "contract_address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
+        "description" : "USDT on the Kava Chain issued directly by the Tether Foundation",
+        "link" : "",
+        "thumnail": ""
+    },
+  ]
+  ```

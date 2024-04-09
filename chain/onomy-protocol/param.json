@@ -1,9 +1,26 @@
 {
+    "chain_id_cosmos" : "onomy-mainnet-1",
+    "chain_name": "Onomy",
+    "chain_image": "onomy-protocol/resource/chain_onomy.png",
+    "symbol" : "NOM",
+    "symbol_image" : "onomy-protocol/asset/nom.png",
+    "bechAccountPrefix" : "onomy",
+    "bechValidatorPrefix" : "onomyvaloper",
+    "api_name" : "onomy-protocol",
+    "origin_genesis_time" : "2022-11-29T16:57:15Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.0anom"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -14,10 +31,18 @@
             "url": "grpc-onomy-protocol.cosmostation.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/onomy-protocol/",
+        "account": "https://www.mintscan.io/onomy-protocol/address/${address}",
+        "tx": "https://www.mintscan.io/onomy-protocol/tx/${hash}",
+        "proposal": "https://www.mintscan.io/onomy-protocol/proposals/${id}"
+    },
     "about" : {
         "website" : "https://onomy.io/",
-        "blog" : "https://medium.com/onomy-protocol",
+        "docs": "https://docs.onomy.io/",
         "github" : "https://github.com/onomyprotocol/",
+        "medium": "https://medium.com/onomy-protocol",
         "twitter" : "https://twitter.com/onomyprotocol",
         "coingecko" : "https://www.coingecko.com/en/coins/onomy-protocol"
     },

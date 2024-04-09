@@ -1,9 +1,26 @@
 {
+    "chain_id_cosmos" : "bitcanna-1",
+    "chain_name": "Bitcanna",
+    "chain_image": "bitcanna/resource/chain_bitcanna.png",
+    "symbol" : "BCNA",
+    "symbol_image" : "bitcanna/asset/bcna.png",
+    "bechAccountPrefix" : "bcna",
+    "bechValidatorPrefix" : "bcnavaloper",
+    "api_name" : "bitcanna",
+    "origin_genesis_time" : "2021-09-30T12:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.025ubcna"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -26,16 +43,28 @@
             "url": "grpc-bitcanna.mms.team:443"
         },
         {
-            "provider": "Panthea EU",
-            "url": "bitcanna-grpc.panthea.eu:16710"
+            "provider": "AlxVoy ⚡ ANODE.TEAM",
+            "url": "bitcanna.grpc.m.anode.team:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/bitcanna/",
+        "account": "https://www.mintscan.io/bitcanna/address/${address}",
+        "tx": "https://www.mintscan.io/bitcanna/tx/${hash}",
+        "proposal": "https://www.mintscan.io/bitcanna/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.bitcanna.io/",
-        "blog" : "https://medium.com/@BitCannaGlobal",
+        "docs": "https://docs.bitcanna.io",
         "github" : "https://github.com/BitCannaGlobal",
+        "blog" : "https://medium.com/@BitCannaGlobal",
+        "medium": "https://medium.com/@BitCannaGlobal",
         "twitter" : "https://twitter.com/BitcannaGlobal",
         "coingecko" : "https://www.coingecko.com/en/coins/bitcanna"
+    },
+     "forum": {
+      "main": "https://www.reddit.com/r/BitCanna"
     },
     "description" : {
         "ko" : "네덜란드를 중심으로 유렵 내 카나비스의 공급망과 거래용 화폐($BCNA)를 제공하는 Cosmos SDK 기반 탈중앙화 네트워크.",
