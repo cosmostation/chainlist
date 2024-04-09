@@ -52,7 +52,7 @@
     "explorer" : {
         "name": "Nibiru",
         "url": "https://explorer.nibiru.fi/cataclysm-1/",
-        "account": "https://explorer.nibiru.fi/cataclysm-1/accounts/${address}",
+        "account": "https://explorer.nibiru.fi/cataclysm-1/account/${address}",
         "tx": "https://explorer.nibiru.fi/cataclysm-1/tx/${hash}",
         "proposal": "https://explorer.nibiru.fi/cataclysm-1/gov/${id}"
     },
