@@ -63,12 +63,24 @@
   },
   {
     "id": "gravedigger",
-    "name": "Gravedigger",
+    "name": "LUNA Gravedigger",
     "dappType": "Defi",
     "description": "A multi-chain Defi/Collateral/NFT Hub.",
-    "link": "https://terra.gravedigger.zone/",
+    "link": "https://app.backbonelabs.io/gravedigger/phoenix-1",
     "social": {
-      "webSite": "https://terra.gravedigger.zone/",
+      "webSite": "https://app.backbonelabs.io/gravedigger/phoenix-1",
+      "twitter": "https://twitter.com/BackBone_Labs",
+      "medium": "https://backbonelabs.medium.com/"
+    }
+  },
+  {
+    "id": "necropolis",
+    "name": "Necropolis",
+    "dappType": "Defi",
+    "description": "A multi-chain NFT Marketplace and Launchpad",
+    "link": "https://necropolisnft.io/collections",
+    "social": {
+      "webSite": "https://necropolisnft.io/collections",
       "twitter": "https://twitter.com/BackBone_Labs",
       "medium": "https://backbonelabs.medium.com/"
     }

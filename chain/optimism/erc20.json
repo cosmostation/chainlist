@@ -1,0 +1,112 @@
+[
+  {
+    "chainId": 10,
+    "chainName": "optimism",
+    "address": "0x4200000000000000000000000000000000000042",
+    "symbol": "OP",
+    "description": "Optimism",
+    "decimals": 18,
+    "image": "optimism/asset/op.png",
+    "default": true,
+    "coinGeckoId":"optimism"
+  },
+  {
+    "chainId": 10,
+    "chainName": "optimism",
+    "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "symbol": "USDT",
+    "description": "Tether USD",
+    "decimals": 6,
+    "image": "ethereum/asset/usdt.png",
+    "default": true,
+    "coinGeckoId":"tether"
+  },
+  {
+    "chainId": 10,
+    "chainName": "optimism",
+    "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+    "symbol": "USDC",
+    "description": "USD Coin",
+    "decimals": 6,
+    "image": "ethereum/asset/usdc.png",
+    "default": true,
+    "coinGeckoId":"usd-coin"
+  },
+  {
+    "chainId": 10,
+    "chainName": "optimism",
+    "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "symbol": "USDC.e",
+    "description": "USD Coin (Bridged from Ethereum)",
+    "decimals": 6,
+    "image": "ethereum/asset/usdc.png",
+    "default": true,
+    "coinGeckoId":"usd-coin"
+  },
+  {
+    "chainId": 10,
+    "chainName": "optimism",
+    "address": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+    "symbol": "LINK",
+    "description": "ChainLink Token",
+    "decimals": 18,
+    "image": "ethereum/asset/link.png",
+    "default": true,
+    "coinGeckoId":"chainlink"
+  },
+  {
+    "chainId": 10,
+    "chainName": "optimism",
+    "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+    "symbol": "WBTC",
+    "description": "Wrapped BTC",
+    "decimals": 8,
+    "image": "ethereum/asset/wbtc.png",
+    "default": true,
+    "coinGeckoId":"wrapped-bitcoin"
+  },
+  {
+    "chainId": 10,
+    "chainName": "optimism",
+    "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "symbol": "DAI",
+    "description": "Dai Stablecoin",
+    "decimals": 18,
+    "image": "ethereum/asset/dai.png",
+    "default": true,
+    "coinGeckoId":"dai"
+  },
+  {
+    "chainId": 10,
+    "chainName": "optimism",
+    "address": "0xFdb794692724153d1488CcdBE0C56c252596735F",
+    "symbol": "LDO",
+    "description": "Lido DAO Token",
+    "decimals": 18,
+    "image": "ethereum/asset/ldo.png",
+    "default": true,
+    "coinGeckoId":"lido-dao"
+  },
+  {
+    "chainId": 10,
+    "chainName": "optimism",
+    "address": "0x99C59ACeBFEF3BBFB7129DC90D1a11DB0E91187f",
+    "symbol": "PYTH",
+    "description": "Pyth Network",
+    "decimals": 6,
+    "image": "solana/asset/pyth.png",
+    "default": true,
+    "coinGeckoId":"pyth-network"
+  },
+  {
+    "chainId": 10,
+    "chainName": "optimism",
+    "address": "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1",
+    "symbol": "WLD",
+    "description": "Worldcoin",
+    "decimals": 18,
+    "image": "worldcoin/asset/wld.png",
+    "default": true,
+    "coinGeckoId":"worldcoin-wld"
+  }
+]

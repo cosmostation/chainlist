@@ -1,10 +1,27 @@
 {
+    "chain_id_cosmos" : "stargaze-1",
+    "chain_name": "Stargaze",
+    "chain_image": "stargaze/resource/chain_stargaze.png",
+    "symbol" : "STARS",
+    "symbol_image" : "stargaze/asset/stars.png",
+    "bechAccountPrefix" : "stars",
+    "bechValidatorPrefix" : "starsvaloper",
+    "api_name" : "stargaze",
+    "origin_genesis_time" : "2021-10-29T17:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "1ustars",
             "1.2ustars"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -15,28 +32,34 @@
             "url": "grpc-stargaze.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "stargaze-grpc.polkachu.com:14990"
+            "provider": "StakerHouse",
+            "url": "stargaze-grpc.stakerhouse.com:443"
         },
         {
             "provider": "Notional",
             "url": "grpc-stargaze-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "stargaze-mainnet-grpc.autostake.com:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-stargaze.cosmos-spaces.cloud:1150"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/stargaze/",
+        "account": "https://www.mintscan.io/stargaze/address/${address}",
+        "tx": "https://www.mintscan.io/stargaze/tx/${hash}",
+        "proposal": "https://www.mintscan.io/stargaze/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.stargaze.zone/",
-        "blog" : "https://medium.com/stargaze-protocol",
+        "docs": "https://docs.stargaze.zone/",
         "github" : "https://github.com/public-awesome",
+        "blog" : "https://mirror.xyz/stargazezone.eth",
+        "medium": "https://medium.com/stargaze-protocol",
         "twitter" : "https://twitter.com/stargazezone",
+        "discord" : "https://discord.com/invite/stargaze",
         "coingecko" : "https://www.coingecko.com/en/coins/stargaze"
+    },
+    "forum": {
+      "main": "https://gov.stargaze.zone",
+      "governance": "https://gov.stargaze.zone/discussions/General/"
     },
     "description" : {
         "ko" : "소셜 콘텐츠의 NFT화를 통해 탈중앙화를 실현하는 Cosmos SDK 기반 NFT 마켓플레이스 및 소셜 네트워크.",

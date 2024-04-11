@@ -1,9 +1,26 @@
 {
+    "chain_id_cosmos" : "ixo-5",
+    "chain_name": "Ixo",
+    "chain_image": "ixo/resource/chain_ixo.png",
+    "symbol" : "IXO",
+    "symbol_image" : "ixo/asset/ixo.png",
+    "bechAccountPrefix" : "ixo",
+    "bechValidatorPrefix" : "ixovaloper",
+    "api_name" : "ixo",
+    "origin_genesis_time" : "2021-08-19T12:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.025uixo"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -12,12 +29,29 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-ixo.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-ixo-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "impacthub-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/ixo/",
+        "account": "https://www.mintscan.io/ixo/address/${address}",
+        "tx": "https://www.mintscan.io/ixo/tx/${hash}",
+        "proposal": "https://www.mintscan.io/ixo/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.ixo.world/",
-        "blog" : "https://medium.com/ixo-blog",
+        "docs": "https://docs.ixo.foundation/ixo",
         "github" : "https://github.com/ixofoundation",
+        "blog" : "https://medium.com/ixo-blog",
+        "medium": "https://medium.com/ixo-blog",
         "twitter" : "https://twitter.com/ixoworld",
         "coingecko" : "https://www.coingecko.com/en/coins/ixo"
     },

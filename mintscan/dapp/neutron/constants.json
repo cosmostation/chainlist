@@ -69,7 +69,21 @@
       "github": "https://github.com/mars-protocol",
       "docs": "https://docs.marsprotocol.io/"
     }
-  },  
+  },
+  {
+    "id": "nolusprotocol",
+    "name": "Nolus Protocol",
+    "dappType": "DeFi",
+    "description": "Reshaping Money Markets with the first DeFi Lease",
+    "link": "https://app.nolus.io/",
+    "social": {
+      "webSite": "https://nolus.io/",
+      "twitter": "https://twitter.com/NolusProtocol",
+      "medium": "https://medium.com/nolusprotocol",
+      "github": "https://github.com/nolus-protocol",
+      "docs": "https://hub.nolus.io/en_US/technical-documentation"
+    }
+  },
   {
     "id": "craft-network",
     "name": "craft network",
@@ -92,6 +106,34 @@
       "medium": "https://medium.com/@tfm.com",
       "github": "https://github.com/tfm-com",
       "docs": "https://docs.tfm.com"
+    }
+  },
+  {
+    "id": "eclipse-fi",
+    "name": "Eclipse Fi",
+    "dappType": "Defi",
+    "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
+    "link": "https://eclipsefi.io",
+    "social": {
+      "webSite": "https://eclipsefi.io",
+      "twitter": "https://twitter.com/Eclipsefi",
+      "medium": "https://medium.com/@Eclipsefi",
+      "github": "https://docs.eclipsefi.io/",
+      "docs": "https://docs.eclipsefi.io/"
+    },
+    "comingSoon": false
+  },
+  {
+    "id": "pstake-finance",
+    "name": "pSTAKE Finance",
+    "dappType": "Liquid Staking",
+    "description": "pSTAKE is a Cosmos-focused liquid staking (LST issuance) protocol built on Persistence One. pSTAKE empowers users to earn staking rewards and participate in DeFi while maintaining liquidity with stkTokens.",
+    "link": "https://app.pstake.finance/",
+    "social": {
+      "webSite": "https://app.pstake.finance/",
+      "twitter": "https://twitter.com/pStakeFinance",
+      "docs": "https://docs.pstake.finance/stkATOM_Introduction/",
+      "medium": "https://blog.pstake.finance/"
     }
   }
 ]

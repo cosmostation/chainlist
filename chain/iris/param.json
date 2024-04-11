@@ -1,4 +1,20 @@
 {
+    "chain_id_cosmos" : "irishub-1",
+    "chain_name": "Iris",
+    "chain_image": "iris/resource/chain_iris.png",
+    "symbol" : "IRIS",
+    "symbol_image" : "iris/asset/iris.png",
+    "bechAccountPrefix" : "iaa",
+    "bechValidatorPrefix" : "iva",
+    "api_name" : "iris",
+    "origin_genesis_time" : "2019-03-01T06:54:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -6,6 +22,7 @@
             "0.02uiris",
             "0.2uiris"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -18,30 +35,31 @@
         {
             "provider": "Notional",
             "url": "grpc-irisnet-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "grpc-irisnet-01.stakeflow.io:1902"
-        },
-        {
-            "provider": "w3coins",
-            "url": "irisnet-grpc.w3coins.io:22690"
-        },
-        {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "iris-grpc.publicnode.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/iris/",
+        "account": "https://www.mintscan.io/iris/address/${address}",
+        "tx": "https://www.mintscan.io/iris/tx/${hash}",
+        "proposal": "https://www.mintscan.io/iris/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.irisnet.org/en/",
-        "blog" : "https://medium.com/irisnet-blog",
+        "docs": "https://www.irisnet.org/docs",
         "github" : "https://github.com/irisnet",
+        "blog" : "https://medium.com/irisnet-blog",
+        "medium": "https://medium.com/irisnet-blog",
         "twitter" : "https://twitter.com/irisnetwork",
         "coingecko" : "https://www.coingecko.com/en/coins/irisnet"
     },
+    "forum": {
+      "main": "https://forum.irisnet.org",
+      "governance": "https://forum.irisnet.org/c/governance"
+    },
     "description" : {
-        "ko" : "분산형 비즈니스 생태계를 위한 인터체인 서비스 인프라 & 프로토콜.",
-        "en" : "Interchain service infrastructure for a distributed business ecosystem",
-        "ja" : "分散型ビジネス エコシステムのためのインターチェーンサービス インフラ＆プロトコル。"
+        "ko" : "IRIS Network(a.k.a. IRISnet)는 차세대 분산 애플리케이션 구축을 촉진하기 위한 기술 기반 구축을 목표로 합니다.",
+        "en" : "IRIS Network (a.k.a. IRISnet) aims to establish a technology foundation to facilitate construction of next-generation distributed applications.",
+        "ja" : "IRIS Network (別名 IRISnet) は、次世代の分散アプリケーションの構築を促進するための技術基盤を確立することを目的としています。"
     }
 }

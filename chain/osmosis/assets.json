@@ -585,6 +585,26 @@
     "coinGeckoId": ""
   },
   {
+    "denom": "ibc/2BF9656CAB0384A31167DB9B0254F0FB1CB4346A229BD7E5CBDCBB911C3740F7",
+    "type": "ibc",
+    "origin_chain": "evmos",
+    "origin_denom": "berlin",
+    "origin_type": "erc20",
+    "symbol": "BERLIN",
+    "decimals": 18,
+    "enable": true,
+    "path": "evmos>osmosis",
+    "channel": "channel-204",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "erc20/0x1cFc8f1FE8D5668BAFF2724547EcDbd6f013a280"
+    },
+    "image": "evmos/asset/berlin.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7",
     "type": "ibc",
     "origin_chain": "cerberus",
@@ -854,10 +874,10 @@
     "decimals": 6,
     "enable": true,
     "path": "nolus>osmosis",
-    "channel": "channel-0",
+    "channel": "channel-783",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-783",
+      "channel": "channel-0",
       "port": "transfer",
       "denom": "unls"
     },
@@ -1539,7 +1559,7 @@
       "port": "transfer",
       "denom": "cbeth-wei"
     },
-    "image": "ethereum/asset/cbeth.png",
+    "image": "ethereum/asset/eth_base.png",
     "coinGeckoId": "coinbase-wrapped-staked-eth",
     "contract": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704"
   },
@@ -1667,6 +1687,26 @@
     "image": "juno/asset/sejuno.png",
     "coinGeckoId": "",
     "contract": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
+  },
+  {
+    "denom": "ibc/884EBC228DFCE8F1304D917A712AA9611427A6C1ECC3179B2E91D7468FB091A2",
+    "type": "ibc",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava",
+    "origin_type": "native",
+    "symbol": "HAVA",
+    "decimals": 6,
+    "enable": true,
+    "path": "injective>osmosis",
+    "channel": "channel-122",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-8",
+      "port": "transfer",
+      "denom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava"
+    },
+    "image": "injective/asset/hava.png",
+    "coinGeckoId": ""
   },
   {
     "denom": "ibc/6F18EFEBF1688AA77F7EAC17065609494DC1BA12AFC78E9AEC832AF70A11BEF3",
@@ -2116,13 +2156,13 @@
   {
     "denom": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D",
     "type": "ibc",
-    "origin_chain": "whitewhale",
-    "origin_denom": "uwhite",
-    "origin_type": "erc20",
+    "origin_chain": "migaloo",
+    "origin_denom": "uwhale",
+    "origin_type": "staking",
     "symbol": "WHALE",
     "decimals": 6,
     "enable": true,
-    "path": "whitewhale>osmosis",
+    "path": "migaloo>osmosis",
     "channel": "channel-642",
     "port": "transfer",
     "counter_party": {
@@ -2130,7 +2170,7 @@
       "port": "transfer",
       "denom": "uwhite"
     },
-    "image": "whitewhale/asset/whale.png",
+    "image": "migaloo/asset/whitewhale.png",
     "coinGeckoId": "white-whale"
   },
   {
@@ -2171,7 +2211,7 @@
       "denom": "stuumee"
     },
     "image": "stride/asset/stumee.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "stride-staked-umee"
   },
   {
     "denom": "ibc/C5579A9595790017C600DD726276D978B9BF314CF82406CE342720A9C7911A01",
@@ -2351,8 +2391,8 @@
     },
     "image": "stargaze/asset/brnch.png",
     "coinGeckoId": ""
-   },
-    {
+  },
+  {
     "denom": "ibc/F3166F4D31D6BA1EC6C9F5536F5DDDD4CC93DBA430F7419E7CDC41C497944A65",
     "type": "ibc",
     "origin_chain": "coreum",
@@ -2456,7 +2496,7 @@
     "denom": "ibc/1E43D59E565D41FB4E54CA639B838FFD5BCFC20003D330A56CB1396231AA1CBA",
     "type": "ibc",
     "origin_chain": "gateway",
-    "origin_denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA",
+    "origin_denom": "sol",
     "origin_type": "spl_token",
     "symbol": "SOL",
     "decimals": 8,
@@ -2768,12 +2808,13 @@
     "denom": "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn",
     "type": "native",
     "origin_chain": "osmosis",
-    "origin_denom": "ulvn",
+    "origin_denom": "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn",
     "origin_type": "native",
     "symbol": "LVN",
     "decimals": 6,
     "description": "Levana Governance Token",
-    "image": "osmosis/asset/levana.png"
+    "image": "osmosis/asset/levana.png",
+    "coinGeckoId": "levana-protocol"
   },
   {
     "denom": "ibc/613BF0BF2F2146AE9941E923725745E931676B2C14E9768CD609FA0849B2AE13",
@@ -2825,6 +2866,341 @@
     "decimals": 6,
     "description": "MilkyWay's liquid staked TIA",
     "image": "osmosis/asset/milktia.png",
+    "coinGeckoId": "milkyway-staked-tia"
+  },
+  {
+    "denom": "ibc/6928AFA9EA721938FED13B051F9DBF1272B16393D20C49EA5E4901BB76D94A90",
+    "type": "ibc",
+    "origin_chain": "nois",
+    "origin_denom": "unois",
+    "origin_type": "staking",
+    "symbol": "NOIS",
+    "decimals": 6,
+    "enable": true,
+    "path": "nois>osmosis",
+    "channel": "channel-8277",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-37",
+      "port": "transfer",
+      "denom": "unois"
+    },
+    "image": "nois/asset/nois.png"
+  },
+  {
+    "denom": "ibc/9B8EC667B6DF55387DC0F3ACC4F187DA6921B0806ED35DE6B04DE96F5AB81F53",
+    "type": "ibc",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
+    "origin_type": "native",
+    "symbol": "WOOF",
+    "decimals": 6,
+    "enable": true,
+    "path": "chihuahua>osmosis",
+    "channel": "channel-113",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-7",
+      "port": "transfer",
+      "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof"
+    },
+    "image": "chihuahua/asset/woof.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/95C9B5870F95E21A242E6AF9ADCB1F212EE4A8855087226C36FBE43FC41A77B8",
+    "type": "ibc",
+    "origin_chain": "xpla",
+    "origin_denom": "axpla",
+    "origin_type": "staking",
+    "symbol": "XPLA",
+    "decimals": 18,
+    "description": "XPLA Staking Coin",
+    "enable": true,
+    "path": "xpla>osmosis",
+    "channel": "channel-1634",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-9",
+      "port": "transfer",
+      "denom": "axpla"
+    },
+    "image": "xpla/asset/xpla.png",
+    "coinGeckoId": "xpla"
+  },
+  {
+    "denom": "ibc/37CB3078432510EE57B9AFA8DBE028B33AE3280A144826FEAC5F2334CF2C5539",
+    "type": "ibc",
+    "origin_chain": "nyx",
+    "origin_denom": "unym",
+    "origin_type": "native",
+    "symbol": "NYM",
+    "decimals": 6,
+    "enable": true,
+    "path": "nyx>osmosis",
+    "channel": "channel-15464",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-8",
+      "port": "transfer",
+      "denom": "unym"
+    },
+    "image": "nyx/asset/nym.png"
+  },
+  {
+    "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
+    "type": "native",
+    "origin_chain": "ethereum",
+    "origin_denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
+    "origin_type": "native",
+    "symbol": "wbtc",
+    "decimals": 8,
+    "description": "Native Coin",
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "wrapped-bitcoin"
+  },
+  {
+    "denom": "ibc/94ED1F172BC633DFC56D7E26551D8B101ADCCC69052AC44FED89F97FF658138F",
+    "type": "ibc",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+    "origin_type": "native",
+    "symbol": "SNEAKY",
+    "decimals": 6,
+    "enable": true,
+    "path": "stargaze>osmosis",
+    "channel": "channel-75",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky"
+    },
+    "image": "stargaze/asset/sneaky.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/8E697BDABE97ACE8773C6DF7402B2D1D5104DD1EEABE12608E3469B7F64C15BA",
+    "type": "ibc",
+    "origin_chain": "jackal",
+    "origin_denom": "ujkl",
+    "origin_type": "native",
+    "symbol": "JKL",
+    "decimals": 6,
+    "enable": true,
+    "path": "jackal>osmosis",
+    "channel": "channel-412",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "ujkl"
+    },
+    "image": "jackal/asset/jkl.png",
+    "coinGeckoId": "jackal-protocol"
+  },
+  {
+    "denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+    "origin_type": "native",
+    "symbol": "WOSMO",
+    "decimals": 6,
+    "description": "The first native memecoin on Osmosis. Crafted by the deftest of hands in the lab of lunacy. It's scientifically anarchic, professionally foolish, and your ticket to the madhouse.",
+    "image": "osmosis/asset/wosmo.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110",
+    "type": "ibc",
+    "origin_chain": "dymension",
+    "origin_denom": "adym",
+    "origin_type": "staking",
+    "symbol": "DYM",
+    "decimals": 18,
+    "enable": true,
+    "path": "dymension>osmosis",
+    "channel": "channel-19774",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "adym"
+    },
+    "image": "dymension/asset/dym.png",
+    "coinGeckoId": "dymension"
+  },
+  {
+    "denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+    "origin_type": "native",
+    "symbol": "BADKID",
+    "decimals": 6,
+    "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
+    "image": "osmosis/asset/badkid.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/126DA09104B71B164883842B769C0E9EC1486C0887D27A9999E395C2C8FB5682",
+    "type": "ibc",
+    "origin_chain": "neutron",
+    "origin_denom": "untrn",
+    "origin_type": "staking",
+    "symbol": "NTRN",
+    "decimals": 6,
+    "enable": true,
+    "path": "neutron>osmosis",
+    "channel": "channel-874",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-10",
+      "port": "transfer",
+      "denom": "untrn"
+    },
+    "image": "neutron/asset/ntrn.png",
+    "coinGeckoId": "neutron-3"
+  },
+  {
+    "denom": "ibc/35CECC330D11DD00FACB555D07687631E0BC7D226260CC5F015F6D7980819533",
+    "type": "ibc",
+    "origin_chain": "humans",
+    "origin_denom": "aheart",
+    "origin_type": "staking",
+    "symbol": "HEART",
+    "decimals": 18,
+    "enable": true,
+    "path": "humans>osmosis",
+    "channel": "channel-20082",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "aheart"
+    },
+    "image": "humans/asset/humans.png",
+    "coinGeckoId": "humans-ai"
+  },
+  {
+    "denom": "factory/osmo1nr8zfakf6jauye3uqa9lrmr5xumee5n42lv92z/toro",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1nr8zfakf6jauye3uqa9lrmr5xumee5n42lv92z/toro",
+    "origin_type": "native",
+    "symbol": "TORO",
+    "decimals": 6,
+    "description": "Toro Token",
+    "image": "osmosis/asset/toro.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos",
+    "origin_type": "native",
+    "symbol": "YMOS",
+    "decimals": 6,
+    "description": "The governance and utility token of Yieldmos, the Interchain Automation Protocol",
+    "image": "osmosis/asset/ymos.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/C12C353A83CD1005FC38943410B894DBEC5F2ABC97FC12908F0FB03B970E8E1B",
+    "type": "ibc",
+    "origin_chain": "odin",
+    "origin_denom": "udoki",
+    "origin_type": "native",
+    "symbol": "DOKI",
+    "decimals": 6,
+    "enable": true,
+    "path": "odin>osmosis",
+    "channel": "channel-258",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-3",
+      "port": "transfer",
+      "denom": "udoki"
+    },
+    "image": "odin/asset/doki.png",
+    "coinGeckoId": "doki"
+  },
+  {
+    "denom": "ibc/63A7CA0B6838AD8CAD6B5103998FF9B9B6A6F06FBB9638BFF51E63E0142339F3",
+    "type": "ibc",
+    "origin_chain": "coreum",
+    "origin_denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+    "origin_type": "native",
+    "symbol": "XRP.core",
+    "decimals": 6,
+    "enable": true,
+    "path": "coreum>osmosis",
+    "channel": "channel-2188",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz"
+    },
+    "image": "osmosis/asset/xrp.core.png",
+    "coinGeckoId": "ripple"
+  },
+  {
+    "denom": "ibc/E7905742CE2EA4EA5D592527DC89220C59B617DE803939FE7293805A64B484D7",
+    "type": "ibc",
+    "origin_chain": "source",
+    "origin_denom": "usource",
+    "origin_type": "staking",
+    "symbol": "SOURCE",
+    "decimals": 6,
+    "enable": true,
+    "path": "source>osmosis",
+    "channel": "channel-8945",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "usource"
+    },
+    "image": "source/asset/source.png",
+    "coinGeckoId": "source"
+  },
+  {
+    "denom": "factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo",
+    "origin_type": "native",
+    "symbol": "bOSMO",
+    "decimals": 6,
+    "description": "BackBone Labs Liquid Staked OSMO",
+    "image": "osmosis/asset/bosmo.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/osmo1kqdw6pvn0xww6tyfv2sqvkkencdz0qw406x54r/IBC",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1kqdw6pvn0xww6tyfv2sqvkkencdz0qw406x54r/IBC",
+    "origin_type": "native",
+    "symbol": "IBC",
+    "decimals": 6,
+    "description": "OnE mEmEcOiN tO cOnNeCt oL ImBeCiles - aNd in Da Cosmos BiNd DeM",
+    "image": "osmosis/asset/ibc.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
+    "origin_type": "native",
+    "symbol": "LAB",
+    "decimals": 6,
+    "description": "LAB - Everything is an Experiment",
+    "image": "osmosis/asset/LAB.png",
     "coinGeckoId": ""
   }
 ]

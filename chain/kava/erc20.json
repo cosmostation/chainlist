@@ -39,7 +39,7 @@
     "symbol": "MultiUSDC",
     "description": "Multichain USDC",
     "decimals": 6,
-    "image": "ethereum/asset/usdc.png",
+    "image": "kava/asset/multiusdc.png",
     "default": true,
     "coinGeckoId": "usd-coin"
   },
@@ -50,7 +50,7 @@
     "symbol": "MultiUSDT",
     "description": "Multichain USDT",
     "decimals": 6,
-    "image": "ethereum/asset/usdt.png",
+    "image": "kava/asset/multiusdt.png",
     "default": true,
     "coinGeckoId": "tether"
   },
@@ -61,7 +61,7 @@
     "symbol": "MultiDAI",
     "description": "Multichain Dai Stablecoin",
     "decimals": 18,
-    "image": "ethereum/asset/dai.png",
+    "image": "kava/asset/multidai.png",
     "default": false,
     "coinGeckoId": "dai"
   },
@@ -94,7 +94,7 @@
     "symbol": "MultiWBTC",
     "description": "Multichain Wrapped BTC",
     "decimals": 8,
-    "image": "ethereum/asset/wbtc.png",
+    "image": "kava/asset/multiwbtc.png",
     "default": false,
     "coinGeckoId": "wrapped-bitcoin"
   },

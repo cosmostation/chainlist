@@ -1,9 +1,26 @@
 {
+    "chain_id_cosmos" : "pacific-1",
+    "chain_name": "Sei",
+    "chain_image": "sei/resource/chain_sei.png",
+    "symbol" : "SEI",
+    "symbol_image" : "sei/asset/sei.png",
+    "bechAccountPrefix" : "sei",
+    "bechValidatorPrefix" : "seivaloper",
+    "api_name" : "sei",
+    "origin_genesis_time" : "2023-05-22T15:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.1usei"
+            "0.02usei"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.3,
         "fee_threshold" : ""
@@ -14,12 +31,8 @@
             "url": "grpc-sei.cosmostation.io:443"
         },
         {
-            "provider": "polkachu.com",
-            "url": "sei-grpc.polkachu.com:11990"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "sei-mainnet-grpc.autostake.com:443"
+            "provider": "kjnodes",
+            "url": "sei.grpc.kjnodes.com:443"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
@@ -30,10 +43,18 @@
             "url": "grpc-sei.whispernode.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/sei/",
+        "account": "https://www.mintscan.io/sei/address/${address}",
+        "tx": "https://www.mintscan.io/sei/tx/${hash}",
+        "proposal": "https://www.mintscan.io/sei/proposals/${id}"
+    },
     "about" : {
-        "website" : "https://www.seinetwork.io/",
-        "blog" : "https://blog.sei.io/",
+        "website" : "https://www.sei.io/",
+        "docs": "https://docs.sei.io/",
         "github" : "https://github.com/sei-protocol/sei-chain",
+        "blog" : "https://blog.sei.io/",
         "twitter" : "https://twitter.com/SeiNetwork",
         "coingecko" : "https://www.coingecko.com/en/coins/sei-network"
     },
