@@ -1,9 +1,26 @@
 {
+    "chain_id_cosmos" : "pio-mainnet-1",
+    "chain_name": "Provenance",
+    "chain_image": "provenance/resource/chain_provenance.png",
+    "symbol" : "HASH",
+    "symbol_image" : "provenance/asset/hash.png",
+    "bechAccountPrefix" : "pb",
+    "bechValidatorPrefix" : "pbvaloper",
+    "api_name" : "provenance",
+    "origin_genesis_time" : "2021-04-20T16:20:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/505'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "2000nhash"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.5,
         "fee_threshold" : ""
@@ -12,28 +29,20 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-provenance.cosmostation.io:443"
-        },
-        {
-            "provider": "TAKESHI",
-            "url": "grpc-provenance.takeshi.team:443"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "provenance-mainnet-grpc.autostake.com:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-provenance-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Panthea EU",
-            "url": "provenance-grpc.panthea.eu:16780"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/provenance/",
+        "account": "https://www.mintscan.io/provenance/address/${address}",
+        "tx": "https://www.mintscan.io/provenance/tx/${hash}",
+        "proposal": "https://www.mintscan.io/provenance/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.provenance.io/",
-        "blog" : "https://medium.com/provenanceblockchain",
+        "docs": "https://docs.provenance.io",
         "github" : "https://github.com/provenance-io",
+        "medium": "https://medium.com/provenanceblockchain",
         "twitter" : "https://twitter.com/provenancefdn",
         "coingecko" : ""
     },

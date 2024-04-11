@@ -1,0 +1,116 @@
+[
+  {
+    "denom": "adym",
+    "type": "staking",
+    "origin_chain": "dymension",
+    "origin_denom": "adym",
+    "origin_type": "staking",
+    "symbol": "DYM",
+    "decimals": 18,
+    "description": "Dymension Staking Coin",
+    "image": "dymension/asset/dym.png",
+    "coinGeckoId": "dymension",
+    "color": "#E9C3A4"
+  },
+  {
+    "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+    "type": "ibc",
+    "origin_chain": "cosmos",
+    "origin_denom": "uatom",
+    "origin_type": "staking",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "cosmos>dymension",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-794",
+      "port": "transfer",
+      "denom": "uatom"
+    },
+    "image": "cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos"
+  },
+  {
+    "denom": "ibc/B72B5B3F7AD44783584921DC33354BCE07C8EB0A7F0349247C3DAD38C3B6E6A5",
+    "type": "ibc",
+    "origin_chain": "kava",
+    "origin_denom": "erc20/tether/usdt",
+    "origin_type": "native",
+    "symbol": "USDt",
+    "decimals": 6,
+    "description": "Tether USDt",
+    "enable": true,
+    "path": "kava>dymension",
+    "channel": "channel-3",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-144",
+      "port": "transfer",
+      "denom": "erc20/tether/usdt"
+    },
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether"
+  },
+  {
+    "denom": "ibc/45D6B52CAD911A15BD9C2F5FFDA80E26AFCB05C7CD520070790ABC86D2B24229",
+    "type": "ibc",
+    "origin_chain": "celestia",
+    "origin_denom": "utia",
+    "origin_type": "staking",
+    "symbol": "TIA",
+    "decimals": 6,
+    "enable": true,
+    "path": "celestia>dymension",
+    "channel": "channel-4",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-27",
+      "port": "transfer",
+      "denom": "utia"
+    },
+    "image": "celestia/asset/tia.png",
+    "coinGeckoId": "celestia"
+  },
+  {
+    "denom": "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>dymension",
+    "channel": "channel-6",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-62",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ibc/2F2F132E47342479A8B7A8DB241F276609C53A1478CEB9A57411A910C9B061DB",
+    "type": "ibc",
+    "origin_chain": "neutron",
+    "origin_denom": "untrn",
+    "origin_type": "staking",
+    "symbol": "NTRN",
+    "decimals": 6,
+    "enable": true,
+    "path": "neutron>dymension",
+    "channel": "channel-9",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-675",
+      "port": "transfer",
+      "denom": "untrn"
+    },
+    "image": "neutron/asset/ntrn.png",
+    "coinGeckoId": "neutron-3"
+  }
+]

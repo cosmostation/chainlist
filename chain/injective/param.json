@@ -1,9 +1,26 @@
 {
+    "chain_id_cosmos" : "injective-1",
+    "chain_name": "Injective",
+    "chain_image": "injective/resource/chain_injective.png",
+    "symbol" : "INJ",
+    "symbol_image" : "injective/asset/inj.png",
+    "bechAccountPrefix" : "inj",
+    "bechValidatorPrefix" : "injvaloper",
+    "api_name" : "injective",
+    "origin_genesis_time" : "2021-06-30T13:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/injective.crypto.v1beta1.ethsecp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "160000000inj"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -22,24 +39,33 @@
             "url": "sentry.chain.grpc.injective.network:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "injective-grpc.polkachu.com:14390"
-        },
-        {
-            "provider": "POSTHUMAN ꝏ DVS",
-            "url": "grpc.injective.posthuman.digital:80"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "injective-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/injective/",
+        "account": "https://www.mintscan.io/injective/address/${address}",
+        "tx": "https://www.mintscan.io/injective/tx/${hash}",
+        "proposal": "https://www.mintscan.io/injective/proposals/${id}"
+    },
     "about" : {
         "website" : "https://injective.com/",
-        "blog" : "https://medium.com/injective-labs",
+        "docs": "https://docs.injective.network",
         "github" : "https://github.com/InjectiveLabs",
-        "twitter" : "https://twitter.com/Injective_",
+        "blog" : "https://blog.injective.com/",
+        "medium": "https://medium.com/injective-labs",
+        "twitter" : "https://twitter.com/injective",
         "coingecko" : "https://www.coingecko.com/en/coins/injective-protocol"
     },
+    "forum": {
+      "main": "https://gov.injective.network",
+      "governance": "https://gov.injective.network/discussions/Governance/"
+    },
     "description" : {
-        "ko" : "다양한 금융서비스를 제공하는 Cosmos SDK 기반의 탈중앙화 크로스체인 금융 플랫폼입니다.",
-        "en" : "A Cosmos SDK based fully decentralized financial network for cross-chain trading and derivatives.",
-        "ja" : "様々な金融サービスを提供するCosmos SDKベースの分散型クロスチェーン金融プラットフォームです。"
+        "ko" : "Injective는 DeFi 애플리케이션을 구축하기 위한 개방적이고 상호 운용 가능한 레이어 1 블록체인입니다.",
+        "en" : "Injective is an open, interoperable layer-one blockchain for building DeFi applications.",
+        "ja" : "Injective は、DeFi アプリケーションを構築するためのオープンで相互運用可能なレイヤー 1 ブロックチェーンです。"
     }
 }

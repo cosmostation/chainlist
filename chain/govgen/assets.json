@@ -1,0 +1,15 @@
+[
+  {
+    "denom": "ugovgen",
+    "type": "staking",
+    "origin_chain": "govgen",
+    "origin_denom": "ugovgen",
+    "origin_type": "staking",
+    "symbol": "GOVGEN",
+    "decimals": 6,
+    "description": "Govgen Governance Token",
+    "image": "govgen/asset/govgen.png",
+    "coinGeckoId": "",
+    "color": "#64E9CE"
+  }
+]
