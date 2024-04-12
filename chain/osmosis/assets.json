@@ -3202,5 +3202,25 @@
     "description": "LAB - Everything is an Experiment",
     "image": "osmosis/asset/LAB.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/5EC896BED3EBCB2CB6F1C167582E4EFA3F6FA3385F28BA5EA92D4A489DA010C5",
+    "type": "ibc",
+    "origin_chain": "evmos",
+    "origin_denom": "crowdp",
+    "origin_type": "erc20",
+    "symbol": "CROWDP",
+    "decimals": 18,
+    "enable": true,
+    "path": "evmos>osmosis",
+    "channel": "channel-204",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "erc20/0xfbf4318d24a93753f11d365a6dcf8b830e98ab0f"
+    },
+    "image": "evmos/asset/crowdp.png",
+    "coinGeckoId": ""
   }
 ]
