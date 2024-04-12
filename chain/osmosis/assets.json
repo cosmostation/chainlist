@@ -105,6 +105,46 @@
     "coinGeckoId": "stride-staked-osmo"
   },
   {
+    "denom": "ibc/094FB70C3006906F67F5D674073D2DAFAFB41537E7033098F5C752F211E7B6C2",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stusaga",
+    "origin_type": "native",
+    "symbol": "stSAGA",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>osmosis",
+    "channel": "channel-326",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "stusaga"
+    },
+    "image": "stride/asset/stsaga.png",
+    "coinGeckoId": "stride-staked-saga"
+  },
+  {
+    "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "type": "ibc",
+    "origin_chain": "saga",
+    "origin_denom": "usaga",
+    "origin_type": "staking",
+    "symbol": "SAGA",
+    "decimals": 6,
+    "enable": true,
+    "path": "saga>osmosis",
+    "channel": "channel-38946",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "usaga"
+    },
+    "image": "saga/asset/saga.png",
+    "coinGeckoId": "saga-2"
+  },
+  {
     "denom": "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525",
     "type": "ibc",
     "origin_chain": "likecoin",
