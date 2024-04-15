@@ -6,6 +6,10 @@
     "symbol_image" : "bnb-smart-chain/asset/bnb.png",
 	"evm_rpc_endpoint" : [
         {
+            "provider": "Binance",
+            "url": "https://bsc-dataseed.binance.org"
+        },
+        {
             "provider": "BSC",
             "url": "https://bsc-dataseed4.defibit.io"
         },
