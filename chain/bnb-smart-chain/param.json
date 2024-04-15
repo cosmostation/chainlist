@@ -37,18 +37,18 @@
         "tx": "https://bscscan.com/tx/${hash}"
     },
     "about" : {
-        "website" : "",
-        "docs": "",
-        "github" : "",
-        "blog" : "",
+        "website" : "https://www.bnbchain.org/en/bnb-smart-chain",
+        "docs": "https://docs.bnbchain.org/docs/learn/intro/",
+        "github" : "https://github.com/bnb-chain",
+        "blog" : "https://www.bnbchain.org/en/blog",
         "medium": "",
-        "twitter" : "",
-        "discord" : "",
-        "coingecko" : ""
+        "twitter" : "https://twitter.com/BNBCHAIN",
+        "discord" : "https://discord.com/invite/bnbchain",
+        "coingecko" : "https://www.coingecko.com/en/coins/bnb"
     },
     "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
+        "ko" : "BNB Smart Chain은 범용 스마트 계약 실행이 가능한 EVM(Ethereum Virtual Machine) 호환 블록체인 플랫폼입니다.",
+        "en" : "BNB Smart Chain is an Ethereum Virtual Machine (EVM) compatible blockchain platform capable of general purpose smart contract execution.",
+        "ja" : "BNB Smart Chainは、汎用スマート契約を実行できるEVM（Ethereum Virtual Machine）互換ブロックチェーンプラットフォームです。"
     }
 }
