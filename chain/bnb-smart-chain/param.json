@@ -1,2 +1,54 @@
 {
+    "chain_id_evm" : "0x38",
+    "chain_name": "BNB Smart Chain",
+    "chain_image": "bnb-smart-chain/resource/chain_bnb_smart.png",
+    "symbol" : "BNB",
+    "symbol_image" : "bnb-smart-chain/asset/bnb.png",
+	"evm_rpc_endpoint" : [
+        {
+            "provider": "BSC",
+            "url": "https://bsc-dataseed4.defibit.io"
+        },
+        {
+            "provider": "BSC",
+            "url": "https://bsc-dataseed1.bnbchain.org"
+        },
+        {
+            "provider": "BSC",
+            "url": "https://bsc-dataseed3.bnbchain.org"
+        },
+        {
+            "provider": "BSC",
+            "url": "https://bsc-dataseed1.ninicoin.io"
+        },
+        {
+            "provider": "Nodereal",
+            "url": "https://binance.nodereal.io"
+        },
+        {
+            "provider": "Pokt",
+            "url": "https://bsc-pokt.nodies.app"
+        }
+    ],
+    "explorer" : {
+        "name": "Bscscan",
+        "url": "https://bscscan.com/",
+        "account": "https://bscscan.com/address/${address}",
+        "tx": "https://bscscan.com/tx/${hash}"
+    },
+    "about" : {
+        "website" : "",
+        "docs": "",
+        "github" : "",
+        "blog" : "",
+        "medium": "",
+        "twitter" : "",
+        "discord" : "",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
 }
