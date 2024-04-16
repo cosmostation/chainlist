@@ -143,5 +143,23 @@
       "docs": "https://docs.pstake.finance/stkATOM_Introduction/",
       "medium": "https://blog.pstake.finance/"
     }
+  },
+  {
+    "name": "Pyth Network",
+    "type": "Oracle",
+    "description": "The Pyth Network is a first-party financial data oracle network that delivers low-latency price data for various assets to blockchains securely.",
+    "status": "open",
+    "thumnail" : "pyth-network",
+    "link": "https://pyth.network/",
+    "social": {
+      "webSite": "https://pyth.network/",
+      "blog" : "https://pyth.network/blog",
+      "twitter": "https://x.com/PythNetwork",
+      "telegram": "https://t.me/Pyth_Network",
+      "discord": "https://discord.gg/invite/PythNetwork",
+      "github": "https://github.com/pyth-network/",
+      "docs": "https://docs.pyth.network/",
+      "medium": "https://medium.com/@pythnetwork"
+    }
   }
 ]
