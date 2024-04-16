@@ -6,6 +6,8 @@
     "symbol_image" : "teritori/asset/tori.png",
     "bechAccountPrefix" : "tori",
     "bechValidatorPrefix" : "torivaloper",
+    "api_name" : "teritori",
+    "origin_genesis_time" : "2022-10-03T13:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -33,6 +35,13 @@
             "url": "teritori-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/teritori/",
+        "account": "https://www.mintscan.io/teritori/address/${address}",
+        "tx": "https://www.mintscan.io/teritori/tx/${hash}",
+        "proposal": "https://www.mintscan.io/teritori/proposals/${id}"
+    },
     "about" : {
         "website" : "https://teritori.com/",
         "docs": "https://teritori.gitbook.io/teritori-whitepaper/",

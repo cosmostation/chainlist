@@ -7,6 +7,8 @@
     "symbol_image" : "evmos/asset/evmos.png",
     "bechAccountPrefix" : "evmos",
     "bechValidatorPrefix" : "evmosvaloper",
+    "api_name" : "evmos",
+    "origin_genesis_time" : "2022-03-02T19:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -70,6 +72,13 @@
             "url": "https://json-rpc.evmos.validatus.com"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/evmos/",
+        "account": "https://www.mintscan.io/evmos/address/${address}",
+        "tx": "https://www.mintscan.io/evmos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/evmos/proposals/${id}"
+    },
     "about" : {
         "website" : "https://evmos.org/",
         "docs": "https://evmos.dev",

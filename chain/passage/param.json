@@ -6,6 +6,8 @@
     "symbol_image" : "passage/asset/pasg.png",
     "bechAccountPrefix" : "pasg",
     "bechValidatorPrefix" : "pasgvaloper",
+    "api_name" : "passage",
+    "origin_genesis_time" : "2022-08-17T15:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -43,6 +45,13 @@
             "url": "passage-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/passage/",
+        "account": "https://www.mintscan.io/passage/address/${address}",
+        "tx": "https://www.mintscan.io/passage/tx/${hash}",
+        "proposal": "https://www.mintscan.io/passage/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.passage.io/",
         "blog" : "https://www.passage.io/blog",
@@ -53,7 +62,7 @@
     },
     "description" : {
         "ko" : "언리얼엔진5, Akash 그리고 IBC 기술을 활용하여 가상현실 및 메타버스를 구현하는 Cosmos SDK 기반 블록체인 프로토콜.",
-        "en" : "Passage is building a virtual 3D world/metaverse that is mainly powered by Unreal Engine 5, Akash and IBC..",
+        "en" : "Passage is building a virtual 3D world/metaverse that is mainly powered by Unreal Engine 5, Akash and IBC.",
         "ja" : "アンリアルエンジン5、Akashそして、IBC技術を活用して仮想現実及びメタバースを具現するCosmosSDKベースブロックチェーンプロトコル。"
     }
 }

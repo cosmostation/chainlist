@@ -6,6 +6,8 @@
     "symbol_image" : "stafi/asset/fis.png",
     "bechAccountPrefix" : "stafi",
     "bechValidatorPrefix" : "stafivaloper",
+    "api_name" : "stafi",
+    "origin_genesis_time" : "2022-08-17T13:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -42,6 +44,13 @@
             "url": "grpc.stafihub.nodestake.top:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/stafi/",
+        "account": "https://www.mintscan.io/stafi/address/${address}",
+        "tx": "https://www.mintscan.io/stafi/tx/${hash}",
+        "proposal": "https://www.mintscan.io/stafi/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.stafihub.io/",
         "docs": "https://docs.stafi.io/",

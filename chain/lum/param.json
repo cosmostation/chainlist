@@ -6,6 +6,8 @@
     "symbol_image" : "lum/asset/lum.png",
     "bechAccountPrefix" : "lum",
     "bechValidatorPrefix" : "lumvaloper",
+    "api_name" : "lum",
+    "origin_genesis_time" : "2021-12-14T17:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/880'/0'/0/X",
@@ -43,6 +45,13 @@
             "url": "lumnetwork-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/lum/",
+        "account": "https://www.mintscan.io/lum/address/${address}",
+        "tx": "https://www.mintscan.io/lum/tx/${hash}",
+        "proposal": "https://www.mintscan.io/lum/proposals/${id}"
+    },
     "about" : {
         "website" : "https://lum.network/",
         "docs": "https://docs.lum.network",

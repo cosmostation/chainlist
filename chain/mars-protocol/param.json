@@ -6,6 +6,8 @@
     "symbol_image" : "mars-protocol/asset/mars.png",
     "bechAccountPrefix" : "mars",
     "bechValidatorPrefix" : "marsvaloper",
+    "api_name" : "mars-protocol",
+    "origin_genesis_time" : "2023-01-31T15:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -37,6 +39,13 @@
             "url": "mars-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/mars-protocol/",
+        "account": "https://www.mintscan.io/mars-protocol/address/${address}",
+        "tx": "https://www.mintscan.io/mars-protocol/tx/${hash}",
+        "proposal": "https://www.mintscan.io/mars-protocol/proposals/${id}"
+    },
     "about" : {
         "website" : "https://marsprotocol.io/",
         "docs": "https://docs.marsprotocol.io/mars-protocol/",

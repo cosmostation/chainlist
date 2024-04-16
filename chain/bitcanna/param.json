@@ -6,6 +6,8 @@
     "symbol_image" : "bitcanna/asset/bcna.png",
     "bechAccountPrefix" : "bcna",
     "bechValidatorPrefix" : "bcnavaloper",
+    "api_name" : "bitcanna",
+    "origin_genesis_time" : "2021-09-30T12:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -45,6 +47,13 @@
             "url": "bitcanna.grpc.m.anode.team:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/bitcanna/",
+        "account": "https://www.mintscan.io/bitcanna/address/${address}",
+        "tx": "https://www.mintscan.io/bitcanna/tx/${hash}",
+        "proposal": "https://www.mintscan.io/bitcanna/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.bitcanna.io/",
         "docs": "https://docs.bitcanna.io",

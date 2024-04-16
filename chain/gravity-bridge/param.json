@@ -6,6 +6,8 @@
     "symbol_image" : "gravity-bridge/asset/grav.png",
     "bechAccountPrefix" : "gravity",
     "bechValidatorPrefix" : "gravityvaloper",
+    "api_name" : "gravity-bridge",
+    "origin_genesis_time" : "2021-12-10T14:45:49Z",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -30,6 +32,13 @@
             "url": "gravitybridge-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/gravity-bridge/",
+        "account": "https://www.mintscan.io/gravity-bridge/address/${address}",
+        "tx": "https://www.mintscan.io/gravity-bridge/tx/${hash}",
+        "proposal": "https://www.mintscan.io/gravity-bridge/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.gravitybridge.net/",
         "github" : "https://github.com/Gravity-Bridge",

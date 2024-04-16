@@ -6,6 +6,8 @@
     "symbol_image" : "crescent/asset/cre.png",
     "bechAccountPrefix" : "cre",
     "bechValidatorPrefix" : "crevaloper",
+    "api_name" : "crescent",
+    "origin_genesis_time" : "2022-04-13T00:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -35,6 +37,13 @@
             "url": "crescent.grpc.stakin-nodes.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/crescent/",
+        "account": "https://www.mintscan.io/crescent/address/${address}",
+        "tx": "https://www.mintscan.io/crescent/tx/${hash}",
+        "proposal": "https://www.mintscan.io/crescent/proposals/${id}"
+    },
     "about" : {
         "website" : "https://crescent.network/",
         "docs": "https://docs.crescent.network/introduction/what-is-crescent",

@@ -6,6 +6,8 @@
     "symbol_image" : "omniflix/asset/flix.png",
     "bechAccountPrefix" : "omniflix",
     "bechValidatorPrefix" : "omniflixvaloper",
+    "api_name" : "omniflix",
+    "origin_genesis_time" : "2022-02-22T07:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -44,6 +46,13 @@
             "url": "grpc-omniflix.mzonder.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/omniflix/",
+        "account": "https://www.mintscan.io/omniflix/address/${address}",
+        "tx": "https://www.mintscan.io/omniflix/tx/${hash}",
+        "proposal": "https://www.mintscan.io/omniflix/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.omniflix.network/",
         "docs": "https://docs.omniflix.network",

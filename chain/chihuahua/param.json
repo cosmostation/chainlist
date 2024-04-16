@@ -6,6 +6,8 @@
     "symbol_image" : "chihuahua/asset/huahua.png",
     "bechAccountPrefix" : "chihuahua",
     "bechValidatorPrefix" : "chihuahuavaloper",
+    "api_name" : "chihuahua",
+    "origin_genesis_time" : "2021-12-14T12:14:12Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -42,6 +44,13 @@
             "url": "grpc.chihuahua.validatus.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/chihuahua/",
+        "account": "https://www.mintscan.io/chihuahua/address/${address}",
+        "tx": "https://www.mintscan.io/chihuahua/tx/${hash}",
+        "proposal": "https://www.mintscan.io/chihuahua/proposals/${id}"
+    },
     "about" : {
         "website" : "https://chi.huahua.wtf/",
         "docs": "https://github.com/ChihuahuaChain/mainnet",

@@ -6,6 +6,8 @@
     "symbol_image" : "coreum/asset/core.png",
     "bechAccountPrefix" : "core",
     "bechValidatorPrefix" : "corevaloper",
+    "api_name" : "coreum",
+    "origin_genesis_time" : "2023-03-12T00:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/990'/0'/0/X",
@@ -47,6 +49,13 @@
             "url": "full-node-uranium.mainnet-1.coreum.dev:9090"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/coreum/",
+        "account": "https://www.mintscan.io/coreum/address/${address}",
+        "tx": "https://www.mintscan.io/coreum/tx/${hash}",
+        "proposal": "https://www.mintscan.io/coreum/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.coreum.com/",
         "docs": "https://docs.coreum.dev/",

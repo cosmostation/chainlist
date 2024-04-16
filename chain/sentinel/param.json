@@ -6,6 +6,8 @@
     "symbol_image" : "sentinel/asset/dvpn.png",
     "bechAccountPrefix" : "sent",
     "bechValidatorPrefix" : "sentvaloper",
+    "api_name" : "sentinel",
+    "origin_genesis_time" : "2021-03-27T12:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -37,6 +39,13 @@
             "url": "grpc-sentinel-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/sentinel/",
+        "account": "https://www.mintscan.io/sentinel/address/${address}",
+        "tx": "https://www.mintscan.io/sentinel/tx/${hash}",
+        "proposal": "https://www.mintscan.io/sentinel/proposals/${id}"
+    },
     "about" : {
         "website" : "https://sentinel.co/",
         "docs": "https://docs.sentinel.co",

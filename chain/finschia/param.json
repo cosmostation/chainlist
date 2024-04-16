@@ -6,6 +6,8 @@
     "symbol_image" : "finschia/asset/fnsa.png",
     "bechAccountPrefix" : "link",
     "bechValidatorPrefix" : "linkvaloper",
+    "api_name" : "finschia",
+    "origin_genesis_time" : "2023-05-25T03:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/438'/0'/0/X",
@@ -33,11 +35,18 @@
             "url": "finschia-grpc.finschia.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/finschia/",
+        "account": "https://www.mintscan.io/finschia/address/${address}",
+        "tx": "https://www.mintscan.io/finschia/tx/${hash}",
+        "proposal": "https://www.mintscan.io/finschia/proposals/${id}"
+    },
     "about" : {
-        "website" : "https://www.finschia.network/",
-        "docs": "https://docs.finschia.network/",
+        "website" : "https://www.finschia.io/",
+        "docs": "https://docs.finschia.io/",
         "github" : "https://github.com/Finschia/",
-        "blog" : "https://www.finschia.network/disclosure/",
+        "blog" : "https://www.finschia.io/disclosure/",
         "medium": "https://finschia.medium.com/",
         "twitter" : "https://twitter.com/finschia",
         "coingecko" : "https://www.coingecko.com/en/coins/fnsa"

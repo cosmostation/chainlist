@@ -6,6 +6,8 @@
     "symbol_image" : "noble/asset/stake.png",
     "bechAccountPrefix" : "noble",
     "bechValidatorPrefix" : "noblevaloper",
+    "api_name" : "noble",
+    "origin_genesis_time" : "2023-03-27T16:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -33,6 +35,13 @@
             "url": "noble-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/noble/",
+        "account": "https://www.mintscan.io/noble/address/${address}",
+        "tx": "https://www.mintscan.io/noble/tx/${hash}",
+        "proposal": "https://www.mintscan.io/noble/proposals/${id}"
+    },
     "about" : {
         "website" : "https://nobleassets.xyz/",
         "docs": "https://docs.nobleassets.xyz/",

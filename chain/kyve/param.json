@@ -6,6 +6,8 @@
     "symbol_image" : "kyve/asset/kyve.png",
     "bechAccountPrefix" : "kyve",
     "bechValidatorPrefix" : "kyvevaloper",
+    "api_name" : "kyve",
+    "origin_genesis_time" : "2023-03-14T14:03:14Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -37,6 +39,13 @@
             "url": "grpc-kyve.mms.team:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/kyve/",
+        "account": "https://www.mintscan.io/kyve/address/${address}",
+        "tx": "https://www.mintscan.io/kyve/tx/${hash}",
+        "proposal": "https://www.mintscan.io/kyve/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.kyve.network/",
         "docs": "https://docs.kyve.network",

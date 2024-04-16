@@ -7,6 +7,8 @@
     "symbol_image" : "canto/asset/canto.png",
     "bechAccountPrefix" : "canto",
     "bechValidatorPrefix" : "cantovaloper",
+    "api_name" : "canto",
+    "origin_genesis_time" : "2022-07-26T17:27:56Z",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -53,6 +55,13 @@
             "url": "https://mainnode.plexnode.org:8545"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/canto/",
+        "account": "https://www.mintscan.io/canto/address/${address}",
+        "tx": "https://www.mintscan.io/canto/tx/${hash}",
+        "proposal": "https://www.mintscan.io/canto/proposals/${id}"
+    },
     "about" : {
         "website" : "https://canto.io/",
         "docs": "https://docs.canto.io/",

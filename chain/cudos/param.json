@@ -6,6 +6,8 @@
     "symbol_image" : "cudos/asset/cudos.png",
     "bechAccountPrefix" : "cudos",
     "bechValidatorPrefix" : "cudosvaloper",
+    "api_name" : "cudos",
+    "origin_genesis_time" : "2022-06-15T07:48:13Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -34,6 +36,13 @@
             "url": "cudos-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/cudos/",
+        "account": "https://www.mintscan.io/cudos/address/${address}",
+        "tx": "https://www.mintscan.io/cudos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/cudos/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.cudos.org/",
         "docs": "https://docs.cudos.org/",

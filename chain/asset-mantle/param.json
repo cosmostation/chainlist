@@ -6,6 +6,8 @@
     "symbol_image" : "asset-mantle/asset/mntl.png",
     "bechAccountPrefix" : "mantle",
     "bechValidatorPrefix" : "mantlevaloper",
+    "api_name" : "asset-mantle",
+    "origin_genesis_time" : "2022-04-18T12:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -43,6 +45,13 @@
             "url": "assetmantle-grpc.stakerhouse.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/asset-mantle/",
+        "account": "https://www.mintscan.io/asset-mantle/address/${address}",
+        "tx": "https://www.mintscan.io/asset-mantle/tx/${hash}",
+        "proposal": "https://www.mintscan.io/asset-mantle/proposals/${id}"
+    },
     "about" : {
         "website" : "https://assetmantle.one/",
         "docs": "https://docs.assetmantle.one",

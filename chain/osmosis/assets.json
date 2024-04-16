@@ -105,6 +105,46 @@
     "coinGeckoId": "stride-staked-osmo"
   },
   {
+    "denom": "ibc/2CD9F8161C3FC332E78EF0C25F6E684D09379FB2F56EF9267E7EC139642EC57B",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stusaga",
+    "origin_type": "native",
+    "symbol": "stSAGA",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>osmosis",
+    "channel": "channel-326",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-5",
+      "port": "transfer",
+      "denom": "stusaga"
+    },
+    "image": "stride/asset/stsaga.png",
+    "coinGeckoId": "stride-staked-saga"
+  },
+  {
+    "denom": "ibc/094FB70C3006906F67F5D674073D2DAFAFB41537E7033098F5C752F211E7B6C2",
+    "type": "ibc",
+    "origin_chain": "saga",
+    "origin_denom": "usaga",
+    "origin_type": "staking",
+    "symbol": "SAGA",
+    "decimals": 6,
+    "enable": true,
+    "path": "saga>osmosis",
+    "channel": "channel-38946",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "usaga"
+    },
+    "image": "saga/asset/saga.png",
+    "coinGeckoId": "saga-2"
+  },
+  {
     "denom": "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525",
     "type": "ibc",
     "origin_chain": "likecoin",
@@ -2496,7 +2536,7 @@
     "denom": "ibc/1E43D59E565D41FB4E54CA639B838FFD5BCFC20003D330A56CB1396231AA1CBA",
     "type": "ibc",
     "origin_chain": "gateway",
-    "origin_denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA",
+    "origin_denom": "sol",
     "origin_type": "spl_token",
     "symbol": "SOL",
     "decimals": 8,
@@ -3177,6 +3217,50 @@
     "decimals": 6,
     "description": "BackBone Labs Liquid Staked OSMO",
     "image": "osmosis/asset/bosmo.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/osmo1kqdw6pvn0xww6tyfv2sqvkkencdz0qw406x54r/IBC",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1kqdw6pvn0xww6tyfv2sqvkkencdz0qw406x54r/IBC",
+    "origin_type": "native",
+    "symbol": "IBC",
+    "decimals": 6,
+    "description": "OnE mEmEcOiN tO cOnNeCt oL ImBeCiles - aNd in Da Cosmos BiNd DeM",
+    "image": "osmosis/asset/ibc.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
+    "origin_type": "native",
+    "symbol": "LAB",
+    "decimals": 6,
+    "description": "LAB - Everything is an Experiment",
+    "image": "osmosis/asset/LAB.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/5EC896BED3EBCB2CB6F1C167582E4EFA3F6FA3385F28BA5EA92D4A489DA010C5",
+    "type": "ibc",
+    "origin_chain": "evmos",
+    "origin_denom": "crowdp",
+    "origin_type": "erc20",
+    "symbol": "CROWDP",
+    "decimals": 18,
+    "enable": true,
+    "path": "evmos>osmosis",
+    "channel": "channel-204",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "erc20/0xfbf4318d24a93753f11d365a6dcf8b830e98ab0f"
+    },
+    "image": "evmos/asset/crowdp.png",
     "coinGeckoId": ""
   }
 ]

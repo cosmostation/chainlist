@@ -6,6 +6,8 @@
     "symbol_image" : "neutron/asset/ntrn.png",
     "bechAccountPrefix" : "neutron",
     "bechValidatorPrefix" : "neutronvaloper",
+    "api_name" : "neutron",
+    "origin_genesis_time" : "2023-05-10T15:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -33,6 +35,12 @@
         "url": "grpc-neutron.whispernode.com:443"
       }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/neutron/",
+        "account": "https://www.mintscan.io/neutron/address/${address}",
+        "tx": "https://www.mintscan.io/neutron/tx/${hash}"
+    },
     "about": {
       "website": "https://neutron.org/",
       "docs": "https://docs.neutron.org/",
@@ -43,7 +51,7 @@
       "coingecko": "https://www.coingecko.com/en/coins/neutron"
     },
     "forum": {
-        "main": "https://reddit.com/r/MediBloc"
+        "main": "https://forum.neutron.org/"
       },
     "description": {
       "ko": "Neutron은 Cosmos 허브의 Interchain Security를 사용하는 비허가형 CosmWasm 플랫폼입니다.",
@@ -97,6 +105,24 @@
             "description": "Security SubDAO Single Proposals",
             "allow_revoting": false,
             "address": "neutron15m728qxvtat337jdu2f0uk6pu905kktrxclgy36c0wd822tpxcmqvnrurt",
+            "prefix": "A",
+            "status": "Enabled"
+          }
+        ]
+      },
+      {
+        "name": "Neutron DAO Grants SubDAO (Core)",
+        "description": "Neutron DAO Grants SubDAO (Core)",
+        "dao_uri": "",
+        "address": "neutron1zjdv3u6svlazlydmje2qcp44yqkt0059chz8gmyl5yrklmgv6fzq9chelu",
+        "voting_module": "neutron1aj3xpcumkx3jr5kncr6gvtduuy4suu6m628ftadv8x8vx9vrfhxs8gkzk7",
+        "group_contract_address": "neutron1d8m6eue7877jxyym50uclvxs7uktw6z2jlwg2qmh22udam26494q4wne98",
+        "proposal_modules": [
+          {
+            "name": "Single Module",
+            "description": "Grants SubDAO Single Proposals",
+            "allow_revoting": false,
+            "address": "neutron14n7jt2qkngxtgr7dgdt50g4xn2a29llz79h9y25lrsqyxrwmngmsmt9kta",
             "prefix": "A",
             "status": "Enabled"
           }

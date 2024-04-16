@@ -6,6 +6,8 @@
     "symbol_image" : "axelar/asset/axl.png",
     "bechAccountPrefix" : "axelar",
     "bechValidatorPrefix" : "axelarvaloper",
+    "api_name" : "axelar",
+    "origin_genesis_time" : "2021-12-22T16:25:37Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -42,6 +44,13 @@
             "url": "grpc-axelar-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/axelar/",
+        "account": "https://www.mintscan.io/axelar/address/${address}",
+        "tx": "https://www.mintscan.io/axelar/tx/${hash}",
+        "proposal": "https://www.mintscan.io/axelar/proposals/${id}"
+    },
     "about" : {
         "website" : "https://axelar.network/",
         "docs": "https://docs.axelar.dev",

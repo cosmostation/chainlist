@@ -6,6 +6,8 @@
     "symbol_image" : "injective/asset/inj.png",
     "bechAccountPrefix" : "inj",
     "bechValidatorPrefix" : "injvaloper",
+    "api_name" : "injective",
+    "origin_genesis_time" : "2021-06-30T13:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -41,13 +43,20 @@
             "url": "injective-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/injective/",
+        "account": "https://www.mintscan.io/injective/address/${address}",
+        "tx": "https://www.mintscan.io/injective/tx/${hash}",
+        "proposal": "https://www.mintscan.io/injective/proposals/${id}"
+    },
     "about" : {
         "website" : "https://injective.com/",
         "docs": "https://docs.injective.network",
         "github" : "https://github.com/InjectiveLabs",
         "blog" : "https://blog.injective.com/",
         "medium": "https://medium.com/injective-labs",
-        "twitter" : "https://twitter.com/Injective_",
+        "twitter" : "https://twitter.com/injective",
         "coingecko" : "https://www.coingecko.com/en/coins/injective-protocol"
     },
     "forum": {

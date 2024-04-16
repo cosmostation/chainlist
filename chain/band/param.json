@@ -6,6 +6,8 @@
     "symbol_image" : "band/asset/band.png",
     "bechAccountPrefix" : "band",
     "bechValidatorPrefix" : "bandvaloper",
+    "api_name" : "band",
+    "origin_genesis_time" : "2020-05-28T14:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -34,6 +36,13 @@
             "url": "band-grpc.stake-town.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/band/",
+        "account": "https://www.mintscan.io/band/address/${address}",
+        "tx": "https://www.mintscan.io/band/tx/${hash}",
+        "proposal": "https://www.mintscan.io/band/proposals/${id}"
+    },
     "about" : {
         "website" : "https://bandprotocol.com/",
         "docs": "https://docs.bandchain.org",

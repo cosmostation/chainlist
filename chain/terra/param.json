@@ -6,6 +6,8 @@
     "symbol_image" : "terra/asset/luna.png",
     "bechAccountPrefix" : "terra",
     "bechValidatorPrefix" : "terravaloper",
+    "api_name" : "terra",
+    "origin_genesis_time" : "2022-05-28T06:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/330'/0'/0/X",
@@ -38,6 +40,13 @@
             "url": "terra2-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/terra/",
+        "account": "https://www.mintscan.io/terra/address/${address}",
+        "tx": "https://www.mintscan.io/terra/tx/${hash}",
+        "proposal": "https://www.mintscan.io/terra/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.terra.money/",
         "docs": "https://docs.terra.money/",

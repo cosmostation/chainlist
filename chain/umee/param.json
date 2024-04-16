@@ -6,6 +6,8 @@
     "symbol_image" : "umee/asset/umee.png",
     "bechAccountPrefix" : "umee",
     "bechValidatorPrefix" : "umeevaloper",
+    "api_name" : "umee",
+    "origin_genesis_time" : "2022-02-15T17:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -46,6 +48,13 @@
             "url": "umee-grpc.stake-town.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/umee/",
+        "account": "https://www.mintscan.io/umee/address/${address}",
+        "tx": "https://www.mintscan.io/umee/tx/${hash}",
+        "proposal": "https://www.mintscan.io/umee/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.ux.xyz/",
         "docs": "https://docs.umee.cc/umee",

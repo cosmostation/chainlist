@@ -6,6 +6,8 @@
     "symbol_image" : "nyx/asset/nyx.png",
     "bechAccountPrefix" : "n",
     "bechValidatorPrefix" : "nvaloper",
+    "api_name" : "nyx",
+    "origin_genesis_time" : "2022-01-31T21:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -33,6 +35,13 @@
             "url": "grpc.nymtech.net:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/nyx/",
+        "account": "https://www.mintscan.io/nyx/address/${address}",
+        "tx": "https://www.mintscan.io/nyx/tx/${hash}",
+        "proposal": "https://www.mintscan.io/nyx/proposals/${id}"
+    },
     "about" : {
         "website" : "https://nymtech.net/",
         "docs": "https://nymtech.net/docs",

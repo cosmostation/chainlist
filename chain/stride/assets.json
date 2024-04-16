@@ -157,6 +157,18 @@
     "coinGeckoId": "stride-staked-tia"
   },
   {
+    "denom": "stusaga",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stusaga",
+    "origin_type": "native",
+    "symbol": "stSAGA",
+    "decimals": 6,
+    "description": "Stride Staked SAGA",
+    "image": "stride/asset/stsaga.png",
+    "coinGeckoId": "stride-staked-saga"
+  },
+  {
     "denom": "stadym",
     "type": "native",
     "origin_chain": "stride",

@@ -6,6 +6,8 @@
     "symbol_image" : "akash/asset/akt.png",
     "bechAccountPrefix" : "akash",
     "bechValidatorPrefix" : "akashvaloper",
+    "api_name" : "akash",
+    "origin_genesis_time" : "2020-09-25T14:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -39,6 +41,13 @@
             "url": "akash-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/akash/",
+        "account": "https://www.mintscan.io/akash/address/${address}",
+        "tx": "https://www.mintscan.io/akash/tx/${hash}",
+        "proposal": "https://www.mintscan.io/akash/proposals/${id}"
+    },
     "about" : {
         "website" : "https://akash.network/",
         "docs": "https://docs.akash.network",

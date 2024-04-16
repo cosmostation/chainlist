@@ -6,6 +6,8 @@
     "symbol_image" : "dydx/asset/dydx.png",
     "bechAccountPrefix" : "dydx",
     "bechValidatorPrefix" : "dydxvaloper",
+    "api_name" : "dydx",
+    "origin_genesis_time" : "2023-10-26T17:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -41,6 +43,13 @@
             "url": "dydx-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/dydx/",
+        "account": "https://www.mintscan.io/dydx/address/${address}",
+        "tx": "https://www.mintscan.io/dydx/tx/${hash}",
+        "proposal": "https://www.mintscan.io/dydx/proposals/${id}"
+    },
     "about" : {
         "website" : "https://dydx.exchange/",
         "docs" : "https://docs.dydx.exchange/",

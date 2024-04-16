@@ -6,6 +6,8 @@
     "symbol_image" : "comdex/asset/cmdx.png",
     "bechAccountPrefix" : "comdex",
     "bechValidatorPrefix" : "comdexvaloper",
+    "api_name" : "comdex",
+    "origin_genesis_time" : "2021-11-20T14:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -38,6 +40,13 @@
             "url": "comdex-grpc.stakerhouse.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/comdex/",
+        "account": "https://www.mintscan.io/comdex/address/${address}",
+        "tx": "https://www.mintscan.io/comdex/tx/${hash}",
+        "proposal": "https://www.mintscan.io/comdex/proposals/${id}"
+    },
     "about" : {
         "website" : "https://comdex.one/",
         "docs": "https://docs.comdex.one",

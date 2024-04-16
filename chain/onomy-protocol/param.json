@@ -6,6 +6,8 @@
     "symbol_image" : "onomy-protocol/asset/nom.png",
     "bechAccountPrefix" : "onomy",
     "bechValidatorPrefix" : "onomyvaloper",
+    "api_name" : "onomy-protocol",
+    "origin_genesis_time" : "2022-11-29T16:57:15Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -29,6 +31,13 @@
             "url": "grpc-onomy-protocol.cosmostation.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/onomy-protocol/",
+        "account": "https://www.mintscan.io/onomy-protocol/address/${address}",
+        "tx": "https://www.mintscan.io/onomy-protocol/tx/${hash}",
+        "proposal": "https://www.mintscan.io/onomy-protocol/proposals/${id}"
+    },
     "about" : {
         "website" : "https://onomy.io/",
         "docs": "https://docs.onomy.io/",

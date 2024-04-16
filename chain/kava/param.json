@@ -7,6 +7,8 @@
     "symbol_image" : "kava/asset/kava.png",
     "bechAccountPrefix" : "kava",
     "bechValidatorPrefix" : "kavavaloper",
+    "api_name" : "kava",
+    "origin_genesis_time" : "2019-11-05T14:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -77,13 +79,26 @@
             "url": "https://rpc.ankr.com/kava_evm"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/kava/",
+        "account": "https://www.mintscan.io/kava/address/${address}",
+        "tx": "https://www.mintscan.io/kava/tx/${hash}",
+        "proposal": "https://www.mintscan.io/kava/proposals/${id}"
+    },
+    "evm_explorer" : {
+        "name": "Kavascan",
+        "url": "https://kavascan.io/",
+        "account": "https://kavascan.io/address/${address}",
+        "tx": "https://kavascan.io/tx/${hash}"
+    },
     "about" : {
         "website" : "https://www.kava.io/",
-        "docs": "https://docs.kava.io/docs/intro",
+        "docs": "https://docs.kava.io/",
         "github" : "https://github.com/kava-labs",
         "blog" : "https://www.kava.io/news",
-        "medium": "https://medium.com/kava-labs",
-        "twitter" : "https://twitter.com/kava_platform",
+        "medium": "",
+        "twitter" : "https://twitter.com/KAVA_CHAIN",
         "coingecko" : "https://www.coingecko.com/en/coins/kava"
     },
     "forum": {

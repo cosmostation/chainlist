@@ -6,6 +6,8 @@
     "symbol_image" : "celestia/asset/tia.png",
     "bechAccountPrefix" : "celestia",
     "bechValidatorPrefix" : "celestiavaloper",
+    "api_name" : "celestia",
+    "origin_genesis_time" : "2023-10-31T14:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -45,6 +47,13 @@
             "url": "celestia.grpc.stakin-nodes.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/celestia/",
+        "account": "https://www.mintscan.io/celestia/address/${address}",
+        "tx": "https://www.mintscan.io/celestia/tx/${hash}",
+        "proposal": "https://www.mintscan.io/celestia/proposals/${id}"
+    },
     "about" : {
         "website" : "https://celestia.org/",
         "docs": "https://docs.celestia.org",

@@ -6,6 +6,8 @@
     "symbol_image" : "ki-chain/asset/xki.png",
     "bechAccountPrefix" : "ki",
     "bechValidatorPrefix" : "kivaloper",
+    "api_name" : "ki-chain",
+    "origin_genesis_time" : "2020-08-04T00:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -37,6 +39,13 @@
             "url": "kichain-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/ki-chain/",
+        "account": "https://www.mintscan.io/ki-chain/address/${address}",
+        "tx": "https://www.mintscan.io/ki-chain/tx/${hash}",
+        "proposal": "https://www.mintscan.io/ki-chain/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.foundation.ki/",
         "docs": "https://foundation.ki",

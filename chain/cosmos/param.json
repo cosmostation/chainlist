@@ -6,6 +6,8 @@
     "symbol_image" : "cosmos/asset/atom.png",
     "bechAccountPrefix" : "cosmos",
     "bechValidatorPrefix" : "cosmosvaloper",
+    "api_name" : "cosmos",
+    "origin_genesis_time" : "2019-03-13T23:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -47,6 +49,13 @@
             "url": "grpc-cosmoshub.mms.team:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/cosmos/",
+        "account": "https://www.mintscan.io/cosmos/address/${address}",
+        "tx": "https://www.mintscan.io/cosmos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/cosmos/proposals/${id}"
+    },
     "about" : {
         "website" : "https://cosmos.network",
         "docs": "https://docs.cosmos.network",

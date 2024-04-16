@@ -6,6 +6,8 @@
     "symbol_image" : "desmos/asset/dsm.png",
     "bechAccountPrefix" : "desmos",
     "bechValidatorPrefix" : "desmosvaloper",
+    "api_name" : "desmos",
+    "origin_genesis_time" : "2021-08-31T16:15:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/852'/0'/0/X",
@@ -35,6 +37,13 @@
             "url": "desmos-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/desmos/",
+        "account": "https://www.mintscan.io/desmos/address/${address}",
+        "tx": "https://www.mintscan.io/desmos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/desmos/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.desmos.network/",
         "docs": "https://docs.desmos.network",

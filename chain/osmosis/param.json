@@ -6,6 +6,8 @@
     "symbol_image" : "osmosis/asset/osmo.png",
     "bechAccountPrefix" : "osmo",
     "bechValidatorPrefix" : "osmovaloper",
+    "api_name" : "osmosis",
+    "origin_genesis_time" : "2021-06-18T17:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -46,6 +48,13 @@
             "url": "osmosis-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/osmosis/",
+        "account": "https://www.mintscan.io/osmosis/address/${address}",
+        "tx": "https://www.mintscan.io/osmosis/tx/${hash}",
+        "proposal": "https://www.mintscan.io/osmosis/proposals/${id}"
+    },
     "about" : {
         "website" : "https://osmosis.zone/",
         "docs": "https://docs.osmosis.zone",

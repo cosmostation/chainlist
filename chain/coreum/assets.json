@@ -56,5 +56,17 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "xrpl11278ecf9e-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+    "type": "native",
+    "origin_chain": "coreum",
+    "origin_denom": "xrpl11278ecf9e-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+    "origin_type": "native",
+    "symbol": "SOLO",
+    "decimals": 15,
+    "description": "Sologenic",
+    "image": "coreum/asset/solo.png",
+    "coinGeckoId": "solo-coin"
   }
 ]

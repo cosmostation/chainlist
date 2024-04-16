@@ -6,6 +6,8 @@
     "symbol_image" : "bitsong/asset/btsg.png",
     "bechAccountPrefix" : "bitsong",
     "bechValidatorPrefix" : "bitsongvaloper",
+    "api_name" : "bitsong",
+    "origin_genesis_time" : "2021-03-26T20:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -37,6 +39,13 @@
             "url": "bitsong-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/bitsong/",
+        "account": "https://www.mintscan.io/bitsong/address/${address}",
+        "tx": "https://www.mintscan.io/bitsong/tx/${hash}",
+        "proposal": "https://www.mintscan.io/bitsong/proposals/${id}"
+    },
     "about" : {
         "website" : "http://bitsong.io/",
         "docs": "https://docs.bitsong.io",

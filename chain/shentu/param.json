@@ -6,6 +6,8 @@
     "symbol_image" : "shentu/asset/ctk.png",
     "bechAccountPrefix" : "shentu",
     "bechValidatorPrefix" : "shentuvaloper",
+    "api_name" : "shentu",
+    "origin_genesis_time" : "2020-10-24T14:24:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -30,6 +32,13 @@
             "url": "grpc-shentu.cosmostation.io:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/shentu/",
+        "account": "https://www.mintscan.io/shentu/address/${address}",
+        "tx": "https://www.mintscan.io/shentu/tx/${hash}",
+        "proposal": "https://www.mintscan.io/shentu/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.shentu.technology/",
         "github" : "https://github.com/shentufoundation",

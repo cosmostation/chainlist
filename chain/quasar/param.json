@@ -6,6 +6,8 @@
     "symbol_image" : "quasar/asset/qsr.png",
     "bechAccountPrefix" : "quasar",
     "bechValidatorPrefix" : "quasarvaloper",
+    "api_name" : "quasar",
+    "origin_genesis_time" : "2023-03-22T20:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -37,6 +39,13 @@
             "url": "quasar-grpc.stake-town.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/quasar/",
+        "account": "https://www.mintscan.io/quasar/address/${address}",
+        "tx": "https://www.mintscan.io/quasar/tx/${hash}",
+        "proposal": "https://www.mintscan.io/quasar/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.quasar.fi/",
         "docs": "https://docs.quasar.fi",

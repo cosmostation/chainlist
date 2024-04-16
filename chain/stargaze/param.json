@@ -6,6 +6,8 @@
     "symbol_image" : "stargaze/asset/stars.png",
     "bechAccountPrefix" : "stars",
     "bechValidatorPrefix" : "starsvaloper",
+    "api_name" : "stargaze",
+    "origin_genesis_time" : "2021-10-29T17:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -38,6 +40,13 @@
             "url": "grpc-stargaze-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/stargaze/",
+        "account": "https://www.mintscan.io/stargaze/address/${address}",
+        "tx": "https://www.mintscan.io/stargaze/tx/${hash}",
+        "proposal": "https://www.mintscan.io/stargaze/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.stargaze.zone/",
         "docs": "https://docs.stargaze.zone/",

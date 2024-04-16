@@ -6,6 +6,8 @@
     "symbol_image" : "regen/asset/regen.png",
     "bechAccountPrefix" : "regen",
     "bechValidatorPrefix" : "regenvaloper",
+    "api_name" : "regen",
+    "origin_genesis_time" : "2021-04-15T15:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -35,6 +37,13 @@
             "url": "grpc-regen-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/regen/",
+        "account": "https://www.mintscan.io/regen/address/${address}",
+        "tx": "https://www.mintscan.io/regen/tx/${hash}",
+        "proposal": "https://www.mintscan.io/regen/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.regen.network/",
         "docs": "https://docs.regen.network",

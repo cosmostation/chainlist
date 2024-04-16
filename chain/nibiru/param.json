@@ -6,6 +6,8 @@
     "symbol_image" : "nibiru/asset/nibi.png",
     "bechAccountPrefix" : "nibi",
     "bechValidatorPrefix" : "nibivaloper",
+    "api_name" : "nibiru",
+    "origin_genesis_time" : "2023-11-08T20:09:48Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -47,6 +49,13 @@
             "url": "nibiru-grpc.lavenderfive.com:443"
         }
     ],
+    "explorer" : {
+        "name": "Nibiru",
+        "url": "https://explorer.nibiru.fi/cataclysm-1/",
+        "account": "https://explorer.nibiru.fi/cataclysm-1/account/${address}",
+        "tx": "https://explorer.nibiru.fi/cataclysm-1/tx/${hash}",
+        "proposal": "https://explorer.nibiru.fi/cataclysm-1/gov/${id}"
+    },
     "about" : {
         "website" : "https://nibiru.fi/",
         "docs": "https://nibiru.fi/docs",

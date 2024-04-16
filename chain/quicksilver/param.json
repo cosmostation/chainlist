@@ -6,6 +6,8 @@
     "symbol_image" : "quicksilver/asset/qck.png",
     "bechAccountPrefix" : "quick",
     "bechValidatorPrefix" : "quickvaloper",
+    "api_name" : "quicksilver",
+    "origin_genesis_time" : "2022-12-16T13:00:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -53,6 +55,13 @@
             "url": "quicksilver.tdrsys.com:2083"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/quicksilver/",
+        "account": "https://www.mintscan.io/quicksilver/address/${address}",
+        "tx": "https://www.mintscan.io/quicksilver/tx/${hash}",
+        "proposal": "https://www.mintscan.io/quicksilver/proposals/${id}"
+    },
     "about" : {
         "website" : "https://quicksilver.zone/",
         "docs": "https://docs.quicksilver.zone/",
