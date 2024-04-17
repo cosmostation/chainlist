@@ -5,7 +5,7 @@
     "type": "NFT",
     "description": "Teritori NFT Marketplace. Buy, sell, and trade NFTs.",
     "status": "open",
-    "thumnail" : "stride",
+    "thumbnail" : "stride",
     "link": "https://app.teritori.com/marketplace"
   },
   {
@@ -13,7 +13,7 @@
     "type": "NFT",
     "description": "Get your unique Teritori Name Service (TNS) name. TNS names are NFTs that can be used to receive payments and more. Get you name.tori NOW!",
     "status": "open",
-    "thumnail" : "teritori-name-service",
+    "thumbnail" : "teritori-name-service",
     "link": "https://app.teritori.com/tns"
   },
   {
@@ -21,7 +21,7 @@
     "type": "Others",
     "description": "The Riot is the first P2E game on Teritori. Join the community and earn rewards.",
     "status": "open",
-    "thumnail" : "the-riot",
+    "thumbnail" : "the-riot",
     "link": "https://app.teritori.com/riot-game",
     "social": {
       "twitter": "https://twitter.com/TheRiotNFT"
@@ -32,7 +32,7 @@
     "type": "Social",
     "description": "Post, like, and comment on the first on-chain social network. Powered by the Cosmos SDK.",
     "status": "open",
-    "thumnail" : "teritori-social-feed",
+    "thumbnail" : "teritori-social-feed",
     "link": "https://app.teritori.com/feed"
   },
   {
@@ -40,7 +40,7 @@
     "type": "DAO",
     "description": "Create and manage your multisig wallet. Supports all Cosmos SDK chains.",
     "status": "open",
-    "thumnail" : "teritori-multisig-wallets",
+    "thumbnail" : "teritori-multisig-wallets",
     "link": "https://app.teritori.com/multisig"
   },
   {
@@ -48,7 +48,7 @@
     "type": "System",
     "description": "Teritori OS Dapp Store. Find all the dapps you need in one place.",
     "status": "open",
-    "thumnail" : "teritori-dapp-store",
+    "thumbnail" : "teritori-dapp-store",
     "link": "https://app.teritori.com/dapp-store",
     "social": {
       "github": "https://github.com/TERITORI/teritori-dapp/issues/564"
@@ -59,7 +59,7 @@
     "type": "DAO",
     "description": "Build your OWN DAO. Manage treasury, voting, and governance.",
     "status": "open",
-    "thumnail" : "teritori-org-deployer",
+    "thumbnail" : "teritori-org-deployer",
     "link": "https://app.teritori.com/orgs"
   },
   {
@@ -67,7 +67,7 @@
     "type": "Social",
     "description": "Upload and find new fans for your music, powered by the Teritori OS.",
     "status": "open",
-    "thumnail" : "teritori-music-player",
+    "thumbnail" : "teritori-music-player",
     "link": "https://app.teritori.com/feed/music"
   },
   {
@@ -75,7 +75,7 @@
     "type": "Social",
     "description": "Experience the first on-chain video player.",
     "status": "open",
-    "thumnail" : "teritori-video-player",
+    "thumbnail" : "teritori-video-player",
     "link": "https://app.teritori.com/feed/videos"
   },
   {
@@ -83,7 +83,7 @@
     "type": "Gamble",
     "description": "Toripunks and ChadPunks NFTs are native to Teritori. Join this unique community and earn rewards.",
     "status": "open",
-    "thumnail" : "teritori-toripunks",
+    "thumbnail" : "teritori-toripunks",
     "link": "https://app.teritori.com/dapp/tori-punks/welcome"
   },
   {
@@ -91,7 +91,7 @@
     "type": "Defi",
     "description": "Stake your TORI tokens and earn rewards.",
     "status": "open",
-    "thumnail" : "teritori-tori-staking",
+    "thumbnail" : "teritori-tori-staking",
     "link": "https://app.teritori.com/staking/"
   },
   {
@@ -99,7 +99,7 @@
     "type": "Dex",
     "description": "Find How to Buy Tori, swap without moving away from Teritori OS",
     "status": "open",
-    "thumnail" : "teritori-osmosis-swap",
+    "thumbnail" : "teritori-osmosis-swap",
     "link": "https://app.teritori.com/swap"
   },
   {
@@ -107,7 +107,7 @@
     "type": "Defi",
     "description": "IBC.fun is a cross-chain bridge that allows you to transfer assets between different blockchains.",
     "status": "prepare",
-    "thumnail" : "teritori-ibcfun-bridge",
+    "thumbnail" : "teritori-ibcfun-bridge",
     "link": "https://ibc.fun/"
   },
   {
@@ -115,7 +115,7 @@
     "type": "System",
     "description": "Bridge your $TORI tokens from Ethereum to teritori.",
     "status": "prepare",
-    "thumnail" : "default",
+    "thumbnail" : "default",
     "link": "https://satellite.money/?source=teritori&destination=ethereum&asset_denom=utori&destination_address="
   },
   {
@@ -123,7 +123,7 @@
     "type": "Others",
     "description": "Cybersec Learning Platform.",
     "status": "prepare",
-    "thumnail" : "teritori-pathwar-elearning",
+    "thumbnail" : "teritori-pathwar-elearning",
     "link": "https://app.teritori.com/pathwar"
   },
   {
@@ -131,7 +131,7 @@
     "type": "System",
     "description": "Manage your project on-chain. Create tasks, grants, assign them to team members, and track progress.",
     "status": "prepare",
-    "thumnail" : "project-manager",
+    "thumbnail" : "project-manager",
     "link": "https://app.teritori.com/project-manager"
   },
   {
@@ -139,7 +139,7 @@
     "type": "System",
     "description": "teritori Governance Platform. Cast your vote and contribute to shaping teritori's future.",
     "status": "open",
-    "thumnail" : "teritori-teritori-governance",
+    "thumbnail" : "teritori-teritori-governance",
     "link": "https://app.teritori.com/governance"
   },
   {
@@ -147,7 +147,7 @@
     "type": "Defi",
     "description": "Track your portfolio performance across 70+ blockchains in a single place, from Tokens to DeFi & NFTs.",
     "status": "open",
-    "thumnail" : "pulsarfinance",
+    "thumbnail" : "pulsarfinance",
     "link": "https://pulsar.finance/"
   },
   {
@@ -155,7 +155,7 @@
     "type": "Defi",
     "description": "Instantly Buy & Sell Crypto. Onboard to Osmosis in less than 5 minutes.",
     "status": "open",
-    "thumnail" : "kado",
+    "thumbnail" : "kado",
     "link": "https://app.kado.money/"
   },
   {
@@ -163,7 +163,7 @@
     "type": "Defi",
     "description": "Auto-compound your staking rewards and setup your own custom Authz grants for any chain in the Cosmos ecosystem.",
     "status": "open",
-    "thumnail" : "restake",
+    "thumbnail" : "restake",
     "link": "https://restake.app/teritori"
   },
   {
@@ -171,7 +171,7 @@
     "type": "Defi",
     "description": "The Validator Slashboard is a dedicated tool designed to showcase the historical data of validator slashing incidents.",
     "status": "open",
-    "thumnail" : "default",
+    "thumbnail" : "default",
     "link": "https://services.kjnodes.com/mainnet/teritori/slashboard/"
   },
   {
@@ -179,7 +179,7 @@
     "type": "Defi",
     "description": "Boost yields by auto compounding your staking and LP rewards with validators of your choice.",
     "status": "open",
-    "thumnail" : "yieldmos",
+    "thumbnail" : "yieldmos",
     "link": "https://www.yieldmos.com/chain/teritori"
   },
   {
@@ -188,7 +188,7 @@
     "description": "Pro-Trading Terminal of Teritori aggregating all DEX and NFT",
     "link": "https://tfm.com/osmosis/trade/protrade?from=ibc%2FEB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC&to=ibc%2FD189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858&market=Osmosis",
     "status": "open",
-    "thumnail" : "tfm",
+    "thumbnail" : "tfm",
     "social": {
       "twitter": "https://twitter.com/tfm_com",
       "medium": "https://medium.com/@tfm.com",
