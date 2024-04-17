@@ -1,11 +1,25 @@
 {
-    "chain_id" : "43114",
+    "chain_id_evm" : "0xa86a",
     "chain_name": "avalanche",
     "chain_image": "avalanche/resource/chain_avalanche.png",
     "symbol" : "AVAX",
     "symbol_image" : "avalanche/asset/avax.png",
     "evm_rpc_endpoint" : [
         {
+            "provider": "Avalanche",
+            "url": "https://avalanche.public-rpc.com"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://avalanche.drpc.org"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/avalanche"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://avalanche-c-chain-rpc.publicnode.com"
         }
     ],
     "explorer" : {
