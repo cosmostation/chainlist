@@ -4,7 +4,7 @@
     "type": "System",
     "description": "Participate in the Lockdrop, Airdrop, and check available $NTRN rewards to withdraw after the end of the Lockdrop event.",
     "status": "open",
-    "thumnail" : "neutron-airdrop",
+    "thumbnail" : "neutron-airdrop",
     "link": "https://launch.neutron.org/"
   },
   {
@@ -12,7 +12,7 @@
     "type": "Dex",
     "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
     "status": "open",
-    "thumnail" : "astroport",
+    "thumbnail" : "astroport",
     "link": "https://neutron.astroport.fi/swap",
     "social": {
       "webSite": "https://astroport.fi/en",
@@ -27,7 +27,7 @@
     "type": "System",
     "description": "Neutron Governance Platform. Cast your vote and contribute to shaping Neutron's future.",
     "status": "open",
-    "thumnail" : "neutron-governance",
+    "thumbnail" : "neutron-governance",
     "link": "https://governance.neutron.org/proposals"
   },
   {
@@ -35,7 +35,7 @@
     "type": "Vaults",
     "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
     "status": "open",
-    "thumnail" : "apollo",
+    "thumbnail" : "apollo",
     "link": "https://app.apollo.farm/",
     "social": {
       "webSite": "https://apollo.farm/",
@@ -50,7 +50,7 @@
     "type": "Liquid Staking",
     "description": "With Lido`s liquid staking protocol, users can receive liquid stTokens on top of daily staking rewards.",
     "status": "prepare",
-    "thumnail" : "lido",
+    "thumbnail" : "lido",
     "link": "https://lido.fi/#networks",
     "social": {
       "webSite": "https://lido.fi/",
@@ -65,7 +65,7 @@
     "type": "Lending",
     "description": "Lend, borrow and earn on Red Bank lending platform designed by Mars Protocol team.",
     "status": "open",
-    "thumnail" : "red-bank",
+    "thumbnail" : "red-bank",
     "link": "https://neutron.marsprotocol.io/redbank",
     "social": {
       "webSite": "https://marsprotocol.io/",
@@ -80,7 +80,7 @@
     "type": "DeFi",
     "description": "Reshaping Money Markets with the first DeFi Lease",
     "status": "open",
-    "thumnail" : "nolusprotocol",
+    "thumbnail" : "nolusprotocol",
     "link": "https://app.nolus.io/",
     "social": {
       "webSite": "https://nolus.io/",
@@ -95,7 +95,7 @@
     "type": "NFT",
     "description": "Craft Network is an NFT Marketplace bringing cross-chain NFT liquidity for the interchain.",
     "status": "open",
-    "thumnail" : "craft-network",
+    "thumbnail" : "craft-network",
     "link": "https://craft.network/",
     "social": {
       "webSite": "https://craft.network/",
@@ -107,7 +107,7 @@
     "type": "Defi",
     "description": "Pro-Trading Terminal of Neutron aggregating all DEX and NFT",
     "status": "open",
-    "thumnail" : "tfm",
+    "thumbnail" : "tfm",
     "link": "https://neutron.tfm.com",
     "social": {
       "twitter": "https://twitter.com/tfm_com",
@@ -121,7 +121,7 @@
     "type": "Defi",
     "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
     "status": "open",
-    "thumnail" : "eclipse-fi",
+    "thumbnail" : "eclipse-fi",
     "social": {
       "webSite": "https://eclipsefi.io",
       "twitter": "https://twitter.com/Eclipsefi",
@@ -135,7 +135,7 @@
     "type": "Liquid Staking",
     "description": "pSTAKE is a Cosmos-focused liquid staking (LST issuance) protocol built on Persistence One. pSTAKE empowers users to earn staking rewards and participate in DeFi while maintaining liquidity with stkTokens.",
     "status": "open",
-    "thumnail" : "pstake-finance",
+    "thumbnail" : "pstake-finance",
     "link": "https://app.pstake.finance/",
     "social": {
       "webSite": "https://app.pstake.finance/",
@@ -149,7 +149,7 @@
     "type": "Oracle",
     "description": "The Pyth Network is a first-party financial data oracle network that delivers low-latency price data for various assets to blockchains securely.",
     "status": "open",
-    "thumnail" : "pyth-network",
+    "thumbnail" : "pyth-network",
     "link": "https://pyth.network/",
     "social": {
       "webSite": "https://pyth.network/",
