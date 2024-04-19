@@ -13,6 +13,19 @@
     "color": "#FF564F"
   },
   {
+    "denom": "akava",
+    "type": "staking",
+    "origin_chain": "kava",
+    "origin_denom": "ukava",
+    "origin_type": "staking",
+    "symbol": "KAVA",
+    "decimals": 18,
+    "description": "Kava Staking Coin",
+    "image": "kava/asset/kava.png",
+    "coinGeckoId": "kava",
+    "color": "#FF564F"
+  },
+  {
     "denom": "erc20/tether/usdt",
     "type": "native",
     "origin_chain": "kava",
