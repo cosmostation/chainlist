@@ -526,5 +526,16 @@
     },
     "image": "dymension/asset/dym.png",
     "coinGeckoId": "dymension"
+  },
+  {
+    "denom": "factory/neutron13lkh47msw28yynspc5rnmty3yktk43wc3dsv0l/ATOM1KLFG",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron13lkh47msw28yynspc5rnmty3yktk43wc3dsv0l/ATOM1KLFG",
+    "origin_type": "native",
+    "symbol": "ATOM1KLFG",
+    "decimals": 6,
+    "image": "neutron/asset/ATOM1KLFGc.png",
+    "coinGeckoId": ""
   }
 ]
