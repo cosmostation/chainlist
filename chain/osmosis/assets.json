@@ -3262,5 +3262,17 @@
     },
     "image": "evmos/asset/crowdp.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/osmo1s6ht8qrm8x0eg8xag5x3ckx9mse9g4se248yss/BERNESE",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1s6ht8qrm8x0eg8xag5x3ckx9mse9g4se248yss/BERNESE",
+    "origin_type": "native",
+    "symbol": "BERNESE",
+    "decimals": 6,
+    "description": "Bernese Mountain Dog. Thematic dog token to have fun and be friends with all other dog tokens. Fixed supply 132M.",
+    "image": "osmosis/asset/bernese.png",
+    "coinGeckoId": ""
   }
 ]
