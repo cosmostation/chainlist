@@ -38,6 +38,12 @@
             "url": "grpc-althea.cosmostation.io:443"
         }
     ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-althea-evm.cosmostation.io"
+        }
+    ],
     // "explorer" : {
     //     "name": "Mintscan",
     //     "url": "https://www.mintscan.io/althea/",
