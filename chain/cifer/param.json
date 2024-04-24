@@ -1,31 +1,46 @@
 {
+    "chain_id_cosmos" : "cifer-2",
+    "chain_name": "Cifer",
+    "chain_image": "cifer/resource/chain_cif.png",
+    "symbol" : "CIF",
+    "symbol_image" : "cifer/asset/cif.png",
+    "bechAccountPrefix" : "cife",
+    "bechValidatorPrefix" : "cifevaloper",
+    "api_name" : "cifer",
+    "origin_genesis_time" : "2024-04-10T03:05:25.355240367Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.025cif"
+            "0.0025ucif",
+            "0.025ucif",
+            "0.04ucif"
         ],
         "isSimulable" : true,
-        "simul_gas_multiply" : 1.2,
+        "simul_gas_multiply" : 1.5,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
         {
-            "provider": "CiferAi",
-            "url": "https://rpc.cosmos.directory/cifer"
-        },
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-cosmos.cosmostation.io:443"
+            "provider": "Cifer",
+            "url": "34.128.114.243:9090"
         }
     ],
     "about" : {
-        "website" : "https://cifer.ai",
-        "blog" : "",
-        "github" : "https://github.com/cifer-ai/cifer",
+        "website" : "https://cifer.ai/",
+        "github" : "https://github.com/CiferAI",
         "twitter" : "https://twitter.com/cifer_ai",
         "coingecko" : ""
     },
     "description" : {
-        "en" : "Decentralized Federated Learning"
+        "ko" : "사이퍼 블록체인 네트워크: 분산형 머신러닝",
+        "en" : "Cifer Blockchain Network Built for Decentralized Machine Learning",
+        "ja" : "サイファーブロックチェーンネットワーク: 分散型機械学習"
     }
 }

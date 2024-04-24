@@ -1,11 +1,21 @@
 {
-    "chain_id" : "25",
+    "chain_id_evm" : "0x19",
     "chain_name": "Cronos",
-    "chain_image": "",
+    "chain_image": "cronos/resource/chain_cronos.png",
     "symbol" : "CRO",
-    "symbol_image" : "",
+    "symbol_image" : "cronos/asset/cro.png",
     "evm_rpc_endpoint" : [
         {
+            "provider": "Cronos",
+            "url": "https://evm.cronos.org"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://cronos.drpc.org"
+        },
+        {
+            "provider": "vvs",
+            "url": "https://rpc.vvs.finance"
         }
     ],
     "explorer" : {

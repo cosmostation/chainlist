@@ -1,11 +1,21 @@
 {
-    "chain_id" : "42161",
+    "chain_id_evm" : "0xa4b1",
     "chain_name": "Arbitrum",
     "chain_image": "arbitrum/resource/chain_arbitrum.png",
     "symbol" : "ETH",
     "symbol_image" : "arbitrum/asset/eth_arb.png",
     "evm_rpc_endpoint" : [
         {
+            "provider": "Arbitrum",
+            "url": "https://arb1.arbitrum.io/rpc"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://arbitrum-one-rpc.publicnode.com"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://arbitrum.drpc.org"
         }
     ],
     "explorer" : {

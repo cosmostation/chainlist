@@ -73,6 +73,18 @@
     "coinGeckoId": "stkhuahua"
   },
   {
+    "denom": "stk/uxprt",
+    "type": "native",
+    "origin_chain": "persistence",
+    "origin_denom": "stk/uxprt",
+    "origin_type": "native",
+    "symbol": "stkXPRT",
+    "decimals": 6,
+    "description": "PSTAKE Liquid-Staked XPRT",
+    "image": "persistence/asset/stkxprt.png",
+    "coinGeckoId": "stkxprt"
+  },
+  {
     "denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
     "type": "ibc",
     "origin_chain": "ethereum",

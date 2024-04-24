@@ -8,7 +8,7 @@
 
 Nuetorn Ecosystem [Example](https://www.mintscan.io/neutron/ecosystem/)
 
-![banner](https://github.com/cosmostation/chainlist/blob/main/ecosystem_demo.png?raw=true)
+![banner](https://github.com/cosmostation/chainlist/blob/main/resource/static/ecosystem_demo.png?raw=true)
 
 
 
@@ -63,7 +63,7 @@ Ecosystem
 
 Osmosis contract [Example](https://www.mintscan.io/osmosis/wasm/)
 
-![banner](https://github.com/cosmostation/chainlist/blob/main/popular_contract_demo.png?raw=true)
+![banner](https://github.com/cosmostation/chainlist/blob/main/resource/static/popular_contract_demo.png?raw=true)
 
 [mandatory]
 - name : Contract name

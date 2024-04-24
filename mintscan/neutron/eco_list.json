@@ -1,18 +1,10 @@
 [
   {
-    "name": "Neutron (airdrop)",
-    "type": "System",
-    "description": "Participate in the Lockdrop, Airdrop, and check available $NTRN rewards to withdraw after the end of the Lockdrop event.",
-    "status": "open",
-    "thumnail" : "neutron-airdrop",
-    "link": "https://launch.neutron.org/"
-  },
-  {
     "name": "Astroport",
     "type": "Dex",
     "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
     "status": "open",
-    "thumnail" : "astroport",
+    "thumbnail" : "astroport",
     "link": "https://neutron.astroport.fi/swap",
     "social": {
       "webSite": "https://astroport.fi/en",
@@ -27,7 +19,7 @@
     "type": "System",
     "description": "Neutron Governance Platform. Cast your vote and contribute to shaping Neutron's future.",
     "status": "open",
-    "thumnail" : "neutron-governance",
+    "thumbnail" : "neutron-governance",
     "link": "https://governance.neutron.org/proposals"
   },
   {
@@ -35,7 +27,7 @@
     "type": "Vaults",
     "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
     "status": "open",
-    "thumnail" : "apollo",
+    "thumbnail" : "apollo",
     "link": "https://app.apollo.farm/",
     "social": {
       "webSite": "https://apollo.farm/",
@@ -50,7 +42,7 @@
     "type": "Liquid Staking",
     "description": "With Lido`s liquid staking protocol, users can receive liquid stTokens on top of daily staking rewards.",
     "status": "prepare",
-    "thumnail" : "lido",
+    "thumbnail" : "lido",
     "link": "https://lido.fi/#networks",
     "social": {
       "webSite": "https://lido.fi/",
@@ -61,11 +53,11 @@
     }
   },
   {
-    "name": "Red bank",
+    "name": "Mars Protocol",
     "type": "Lending",
     "description": "Lend, borrow and earn on Red Bank lending platform designed by Mars Protocol team.",
     "status": "open",
-    "thumnail" : "red-bank",
+    "thumbnail" : "red-bank",
     "link": "https://neutron.marsprotocol.io/redbank",
     "social": {
       "webSite": "https://marsprotocol.io/",
@@ -80,7 +72,7 @@
     "type": "DeFi",
     "description": "Reshaping Money Markets with the first DeFi Lease",
     "status": "open",
-    "thumnail" : "nolusprotocol",
+    "thumbnail" : "nolusprotocol",
     "link": "https://app.nolus.io/",
     "social": {
       "webSite": "https://nolus.io/",
@@ -91,23 +83,11 @@
     }
   },
   {
-    "name": "Craft network",
-    "type": "NFT",
-    "description": "Craft Network is an NFT Marketplace bringing cross-chain NFT liquidity for the interchain.",
-    "status": "open",
-    "thumnail" : "craft-network",
-    "link": "https://craft.network/",
-    "social": {
-      "webSite": "https://craft.network/",
-      "twitter": "https://twitter.com/craftdotnetwork"
-    }
-  },
-  {
     "name": "TFM",
     "type": "Defi",
     "description": "Pro-Trading Terminal of Neutron aggregating all DEX and NFT",
     "status": "open",
-    "thumnail" : "tfm",
+    "thumbnail" : "tfm",
     "link": "https://neutron.tfm.com",
     "social": {
       "twitter": "https://twitter.com/tfm_com",
@@ -121,7 +101,7 @@
     "type": "Defi",
     "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
     "status": "open",
-    "thumnail" : "eclipse-fi",
+    "thumbnail" : "eclipse-fi",
     "social": {
       "webSite": "https://eclipsefi.io",
       "twitter": "https://twitter.com/Eclipsefi",
@@ -135,13 +115,57 @@
     "type": "Liquid Staking",
     "description": "pSTAKE is a Cosmos-focused liquid staking (LST issuance) protocol built on Persistence One. pSTAKE empowers users to earn staking rewards and participate in DeFi while maintaining liquidity with stkTokens.",
     "status": "open",
-    "thumnail" : "pstake-finance",
+    "thumbnail" : "pstake-finance",
     "link": "https://app.pstake.finance/",
     "social": {
       "webSite": "https://app.pstake.finance/",
       "twitter": "https://twitter.com/pStakeFinance",
       "docs": "https://docs.pstake.finance/stkATOM_Introduction/",
       "medium": "https://blog.pstake.finance/"
+    }
+  },
+  {
+    "name": "Pyth Network",
+    "type": "Oracle",
+    "description": "The Pyth Network is a first-party financial data oracle network that delivers low-latency price data for various assets to blockchains securely.",
+    "status": "open",
+    "thumbnail" : "pyth-network",
+    "link": "https://pyth.network/",
+    "social": {
+      "webSite": "https://pyth.network/",
+      "blog" : "https://pyth.network/blog",
+      "twitter": "https://x.com/PythNetwork",
+      "telegram": "https://t.me/Pyth_Network",
+      "discord": "https://discord.gg/invite/PythNetwork",
+      "github": "https://github.com/pyth-network/",
+      "docs": "https://docs.pyth.network/",
+      "medium": "https://medium.com/@pythnetwork"
+    }
+  },
+  {
+    "name": "Isaac",
+    "type": "Wallet",
+    "description": "The Telegram Trading Assistant for the Cosmos. Buy any Cosmos token via a super fast and simple chat interface.",
+    "status": "open",
+    "thumbnail" : "issac",
+    "link": "https://www.isaac.finance/",
+    "social": {
+      "webSite": "https://www.isaac.finance/",
+      "twitter": "https://x.com/trade_isaac",
+      "telegram": "https://t.me/IsaacNewtronBot"
+    }
+  },
+  {
+    "name": "NFA Zone",
+    "type": "Trading",
+    "description": "The premier Cosmos Meme Coin Factory. Easily buy or create your own token and compete for liquidity to secure a listing on Astroport.",
+    "status": "open",
+    "thumbnail" : "nfa-zone",
+    "link": "https://nfa.zone/",
+    "social": {
+      "webSite": "https://nfa.zone/",
+      "twitter": "https://x.com/nfadotzone",
+      "telegram": "https://t.me/nfazone"
     }
   }
 ]

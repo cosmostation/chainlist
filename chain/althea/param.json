@@ -3,7 +3,7 @@
     "chain_id_evm" : "",
     "chain_name": "Althea",
     "chain_image": "althea/resource/chain_althea.png",
-    "symbol" : "ALTG",
+    "symbol" : "ALTHEA",
     "symbol_image" : "althea/asset/altg.png",
     "bechAccountPrefix" : "althea",
     "bechValidatorPrefix" : "altheavaloper",
@@ -38,6 +38,12 @@
             "url": "grpc-althea.cosmostation.io:443"
         }
     ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-althea-evm.cosmostation.io"
+        }
+    ],
     // "explorer" : {
     //     "name": "Mintscan",
     //     "url": "https://www.mintscan.io/althea/",
@@ -48,7 +54,7 @@
     "about" : {
         "website" : "https://www.althea.net/",
         "docs": "https://docs.althea.net/",
-        "github" : "https://github.com/althea-net",
+        "github" : "https://github.com/AltheaFoundation",
         "blog" : "https://medium.com/althea-mesh",
         "medium": "https://medium.com/althea-mesh",
         "twitter" : "https://twitter.com/AltheaNetwork",

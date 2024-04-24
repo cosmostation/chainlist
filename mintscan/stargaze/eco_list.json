@@ -4,7 +4,7 @@
     "type": "NFT",
     "description": "A community-driven marketplace for NFTs.",
     "status": "open",
-    "thumnail" : "marketplace",
+    "thumbnail" : "marketplace",
     "link": "https://www.stargaze.zone/marketplace"
   },
   {
@@ -12,7 +12,7 @@
     "type": "Defi",
     "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
     "status": "open",
-    "thumnail" : "stride",
+    "thumbnail" : "stride",
     "link": "https://app.stride.zone/?chain=STARS",
     "social": {
       "webSite": "https://www.stride.zone/",
@@ -21,5 +21,4 @@
       "docs": "https://docs.stride.zone/"
     }
   }
-  
 ]
