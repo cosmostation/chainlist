@@ -206,5 +206,26 @@
     },
     "image": "celestia/asset/tia.png",
     "coinGeckoId": "celestia"
+  },
+  {
+    "denom": "ibc/93B1AE0AD5E88242745B245064A2A51DDA1319C18176A966D5F8F9E02ED5373E",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
+    "origin_type": "native",
+    "symbol": "LAB",
+    "description": "LAB - Everything is an Experiment",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>stargaze",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-75",
+      "port": "transfer",
+      "denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB"
+    },
+    "image": "osmosis/asset/LAB.png",
+    "coinGeckoId": "mad-scientists"
   }
 ]
