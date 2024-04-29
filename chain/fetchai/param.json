@@ -28,10 +28,8 @@
         }
     ],
     "fee" : {
-        "base" : "1",
+        "base" : "0",
         "rate" : [
-            "0.025afet",
-            "0.2afet",
             "2afet"
         ],
         "init_gas_limit" : 300000,
