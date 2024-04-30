@@ -1,0 +1,22 @@
+{
+  "chain_id_cosmos" : "",
+  "chain_name": "",
+  "chain_image": "berachain-testnet/resource/chain_bera.png",
+  "symbol" : "",
+  "symbol_image" : "berachain-testnet/asset/bera.png",
+  "about" : {
+    "website" : "https://www.berachain.com/",
+    "docs": "https://docs.berachain.com/",
+    "github" : "https://github.com/berachain",
+    "blog" : "https://blog.berachain.com/",
+    "medium": "",
+    "twitter" : "",
+    "discord" : "https://discord.com/invite/berachain",
+    "coingecko" : ""
+  },
+  "description" : {
+    "ko" : "Berachain은 Proof-of-Liquidity 합의에 기반한 고성능, EVM 호환 블록체인입니다. 이 네트워크는 전통적인 스마트 컨트랙트 플랫폼을 새로운 코스모스 네이티브 구성으로 재구성합니다.",
+    "en" : "Berachain is a high-performance, EVM-compatible blockchain built on Proof-of-Liquidity consensus. The network rearchitects the traditional smart contract platform to a novel, Cosmos-native configuration.",
+    "ja" : "Berachainは、Proof-of-Liquidityコンセンサスに基づく高性能なEVM互換ブロックチェーンです。このネットワークは従来のスマートコントラクトプラットフォームを新しいコスモスネイティブの構成に再設計しています。"
+  }
+}
