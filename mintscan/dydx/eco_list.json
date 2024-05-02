@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Stride",
+    "type": "Liquid Staking",
+    "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
+    "status": "open",
+    "thumbnail" : "stride",
+    "link": "https://app.stride.zone/?chain=DYDX",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
+    }
+  },
+  {
+    "name": "pSTAKE Finance",
+    "type": "Liquid Staking",
+    "description": "pSTAKE is a Cosmos-focused liquid staking (LST issuance) protocol built on Persistence One. pSTAKE empowers users to earn staking rewards and participate in DeFi while maintaining liquidity with stkTokens.",
+    "status": "open",
+    "thumbnail" : "pstake-finance",
+    "link": "https://app.pstake.finance/cosmos/stake?token=DYDX&chain=Dydx",
+    "social": {
+      "webSite": "https://app.pstake.finance/",
+      "twitter": "https://twitter.com/pStakeFinance",
+      "docs": "https://docs.pstake.finance/stkATOM_Introduction/",
+      "medium": "https://blog.pstake.finance/"
+    }
+  },
+  {
+    "name": "Coinhall",
+    "type": "Dex",
+    "description": "The Interchain Trading and Rewards Hub",
+    "status": "open",
+    "thumbnail" : "coinhall",
+    "link": "https://coinhall.org/?chains=dydx&tab=tokens&watchlist=false&timeframe=24h&sort=mcap&dir=desc",
+    "social": {
+      "webSite": "https://coinhall.org/?chains=archway&verified=true&reliable=true&tab=all&timeframe=24h&sort=volume&dir=desc",
+      "twitter": "https://twitter.com/coinhall_org"
+    }
+  }
+]
