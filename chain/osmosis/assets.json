@@ -2050,7 +2050,7 @@
       "denom": "uqstars"
     },
     "image": "quicksilver/asset/qstars.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "qstars"
   },
   {
     "denom": "ibc/FA602364BEC305A696CBDF987058E99D8B479F0318E47314C49173E8838C5BAC",
@@ -2070,7 +2070,7 @@
       "denom": "uqatom"
     },
     "image": "quicksilver/asset/qatom.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "qatom"
   },
   {
     "denom": "ibc/79A676508A2ECA1021EDDC7BB9CF70CEEC9514C478DA526A5A8B3E78506C2206",
@@ -2090,7 +2090,7 @@
       "denom": "uqregen"
     },
     "image": "quicksilver/asset/qregen.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "qregen"
   },
   {
     "denom": "ibc/42D24879D4569CE6477B7E88206ADBFE47C222C6CAD51A54083E4A72594269FC",
@@ -2110,6 +2110,86 @@
       "denom": "uqosmo"
     },
     "image": "quicksilver/asset/qosmo.png",
+    "coinGeckoId": "qosmo"
+  },
+  {
+    "denom": "ibc/B4E18E61E1505C2F371B621E49B09E983F6A138F251A7B5286A6BDF739FD0D54",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqjuno",
+    "origin_type": "native",
+    "symbol": "qJUNO",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqjuno"
+    },
+    "image": "quicksilver/asset/qjuno.png",
+    "coinGeckoId": "qjuno"
+  },
+  {
+    "denom": "ibc/F2D400F2728E9DA06EAE2AFAB289931A69EDDA5A661578C66A3177EDFE3C0D13",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqsaga",
+    "origin_type": "native",
+    "symbol": "qSAGA",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqsaga"
+    },
+    "image": "quicksilver/asset/qsaga.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/C1C106D915C8E8C59E5DC69BF30FEF64729A6F788060B184C86A315DBB762EF7",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqbld",
+    "origin_type": "native",
+    "symbol": "qBLD",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqbld"
+    },
+    "image": "quicksilver/asset/qbld.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/273C593E51ACE56F1F2BDB3E03A5CB81BB208B894BCAA642676A32C3454E8C27",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "aqdydx",
+    "origin_type": "native",
+    "symbol": "qDYDX",
+    "decimals": 18,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "aqdydx"
+    },
+    "image": "quicksilver/asset/qdydx.png",
     "coinGeckoId": ""
   },
   {
