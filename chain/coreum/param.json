@@ -1,0 +1,73 @@
+{
+    "chain_id_cosmos" : "coreum-mainnet-1",
+    "chain_name": "Coreum",
+    "chain_image": "coreum/resource/chain_coreum.png",
+    "symbol" : "CORE",
+    "symbol_image" : "coreum/asset/core.png",
+    "bechAccountPrefix" : "core",
+    "bechValidatorPrefix" : "corevaloper",
+    "name_for_dapp" : "COREUM", 
+    "api_name" : "coreum",
+    "origin_genesis_time" : "2023-03-12T00:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/990'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.05ucore",
+            "0.0625ucore",
+            "0.5ucore"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-coreum.cosmostation.io:443"
+        },
+        {
+            "provider": "Coreum Foundation",
+            "url": "full-node.mainnet-1.coreum.dev:9090"
+        },
+        {
+            "provider": "Coreum Foundation",
+            "url": "full-node-californium.mainnet-1.coreum.dev:9090"
+        },
+        {
+            "provider": "Coreum Foundation",
+            "url": "full-node-curium.mainnet-1.coreum.dev:9090"
+        },
+        {
+            "provider": "Coreum Foundation",
+            "url": "full-node-uranium.mainnet-1.coreum.dev:9090"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/coreum/",
+        "account": "https://www.mintscan.io/coreum/address/${address}",
+        "tx": "https://www.mintscan.io/coreum/tx/${hash}",
+        "proposal": "https://www.mintscan.io/coreum/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.coreum.com/",
+        "docs": "https://docs.coreum.dev/",
+        "github" : "https://github.com/CoreumFoundation",
+        "blog" : "https://www.coreum.com/community#press-&-media",
+        "twitter" : "https://twitter.com/CoreumOfficial",
+        "coingecko" : "https://www.coingecko.com/en/coins/coreum"
+    },
+    "description" : {
+        "ko" : "Coreum은 ISO20022 기준에 부합하는 기관급 레이어-1 블록체인으로, 미래의 탈중앙화 어플리케이션들을 위한 핵심 인프라를 제공합니다.",
+        "en" : "Coreum is an enterprise-grade L1 blockchain to serve as a core infrastructure of future decentralized applications.",
+        "ja" : "Coreumは、将来の分散アプリケーションのコアインフラストラクチャとして機能するエンタープライズクラスのL1ブロックチェーンです。"
+    }
+}

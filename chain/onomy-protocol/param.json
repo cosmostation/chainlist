@@ -1,0 +1,55 @@
+{
+    "chain_id_cosmos" : "onomy-mainnet-1",
+    "chain_name": "Onomy",
+    "chain_image": "onomy-protocol/resource/chain_onomy.png",
+    "symbol" : "NOM",
+    "symbol_image" : "onomy-protocol/asset/nom.png",
+    "bechAccountPrefix" : "onomy",
+    "bechValidatorPrefix" : "onomyvaloper",
+    "name_for_dapp" : "ONOMY", 
+    "api_name" : "onomy-protocol",
+    "origin_genesis_time" : "2022-11-29T16:57:15Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0anom"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-onomy-protocol.cosmostation.io:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/onomy-protocol/",
+        "account": "https://www.mintscan.io/onomy-protocol/address/${address}",
+        "tx": "https://www.mintscan.io/onomy-protocol/tx/${hash}",
+        "proposal": "https://www.mintscan.io/onomy-protocol/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://onomy.io/",
+        "docs": "https://docs.onomy.io/",
+        "github" : "https://github.com/onomyprotocol/",
+        "medium": "https://medium.com/onomy-protocol",
+        "twitter" : "https://twitter.com/onomyprotocol",
+        "coingecko" : "https://www.coingecko.com/en/coins/onomy-protocol"
+    },
+    "description" : {
+        "ko" : "오더북과 AMM이 결합된 Onomy 덱스 거래소와 스테이블코인 발행을 위해 설계된 코스모스 SDK 기반 레이어 1 블록체인 프로토콜.",
+        "en" : "Onomy is a Cosmos SDK-based layer-1 protocol designed for Onomy Exchange and Onomy Reserve.",
+        "ja" : "オーダーブックとAMMが結合されたOnomyデックス取引所とステーブルコイン発行のため設計されたコスモスSDKベースレイヤー1ブロックチェーンプロトコル。"
+    }
+}

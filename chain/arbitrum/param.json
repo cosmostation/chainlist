@@ -1,0 +1,42 @@
+{
+    "chain_id_evm" : "0xa4b1",
+    "chain_name": "Arbitrum",
+    "chain_image": "arbitrum/resource/chain_arbitrum.png",
+    "symbol" : "ETH",
+    "symbol_image" : "arbitrum/asset/eth_arb.png",
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Arbitrum",
+            "url": "https://arb1.arbitrum.io/rpc"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://arbitrum-one-rpc.publicnode.com"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://arbitrum.drpc.org"
+        }
+    ],
+    "explorer" : {
+        "name": "Arbiscan",
+        "url": "https://arbiscan.io",
+        "account": "https://arbiscan.io/address/${address}",
+        "tx": "https://arbiscan.io/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://arbitrum.io/",
+        "docs": "https://docs.arbitrum.io/",
+        "github" : "https://github.com/OffchainLabs",
+        "blog" : "",
+        "medium": "https://medium.com/offchainlabs",
+        "twitter" : "https://twitter.com/arbitrum",
+        "discord" : "https://discord.com/invite/arbitrum",
+        "coingecko" : "https://www.coingecko.com/en/coins/arbitrum"
+    },
+    "description" : {
+        "ko" : "Arbitrum은 가장 큰 레이어 1 생태계인 이더리움을 탐색하고 구축할 수 있도록 지원하는 선도적인 레이어 2 기술입니다.",
+        "en" : "Arbitrum is the leading Layer 2 technology that empowers you to explore and build in the largest Layer 1 ecosystem, Ethereum.",
+        "ja" : "Arbitrum は、最大のレイヤー 1 エコシステムであるイーサリアムの探索と構築を可能にする、主要なレイヤー 2 テクノロジーです。"
+    }
+}

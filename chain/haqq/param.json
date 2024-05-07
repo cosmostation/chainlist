@@ -1,0 +1,33 @@
+{
+    "chain_name": "Haqq Network",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "25000000000aISLM"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "NodeStake",
+            "url": "grpc.haqq.nodestake.top:443"
+        },
+        {
+            "provider": "Palamar",
+            "url": "haqq-grpc.palamar.io:443"
+        }
+    ],
+    "about" : {
+		"website" : "https://haqq.network/"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "denom": "dys",
+    "type": "staking",
+    "origin_chain": "dyson-protocol",
+    "origin_denom": "dys",
+    "origin_type": "staking",
+    "symbol": "DYS",
+    "decimals": 0,
+    "description": "Dyson Protocol Staking Coin",
+    "image": "dyson-protocol/asset/dys.png",
+    "coinGeckoId": ""
+  },
+ {
+    "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>dyson-protocol",
+    "channel": "channel-2",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-526",
+      "port": "transfer",
+      "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  }
+]

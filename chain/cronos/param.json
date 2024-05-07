@@ -1,0 +1,42 @@
+{
+    "chain_id_evm" : "0x19",
+    "chain_name": "Cronos",
+    "chain_image": "cronos/resource/chain_cronos.png",
+    "symbol" : "CRO",
+    "symbol_image" : "cronos/asset/cro.png",
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cronos",
+            "url": "https://evm.cronos.org"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://cronos.drpc.org"
+        },
+        {
+            "provider": "vvs",
+            "url": "https://rpc.vvs.finance"
+        }
+    ],
+    "explorer" : {
+        "name": "cronos",
+        "url": "https://explorer.cronos.org",
+        "account": "https://explorer.cronos.org/address/${address}",
+        "tx": "https://explorer.cronos.org/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://cronos.org/",
+        "docs": "https://docs.cronos.org/",
+        "github" : "https://github.com/crypto-org-chain/cronos",
+        "blog" : "https://blog.cronos.org/",
+        "medium": "",
+        "twitter" : "https://twitter.com/cronos_chain",
+        "discord" : "https://discord.com/invite/pahqHz26q4",
+        "coingecko" : "https://www.coingecko.com/en/coins/cronos"
+    },
+    "description" : {
+        "ko" : "Cronos는 Cosmos SDK 기술을 기반으로 구축된 최초의 이더리움 호환 블록체인 네트워크입니다. Cronos는 빌더에게 낮은 거래 수수료, 높은 처리량 및 빠른 최종성의 이점을 누리면서 다른 체인의 앱과 암호화 자산을 즉시 포팅할 수 있는 기능을 제공함으로써 DeFi, GameFi 및 전체 Web3 사용자 커뮤니티를 대규모로 확장하는 것을 목표로 합니다.",
+        "en" : "Cronos is the first Ethereum-compatible blockchain network built on Cosmos SDK technology. Cronos aims to massively scale the DeFi, GameFi, and overall Web3 user community by providing builders with the ability to instantly port apps and crypto assets from other chains while benefiting from low transaction fees, high throughput, and fast finality.",
+        "ja" : "Cronosは、Cosmos SDK技術をベースに構築された最初のイーサリアム互換ブロックチェーンネットワークです。 Cronosは、ビルダーに、低取引手数料、高スループット、および迅速な最終性の利点を享受しながら、他のチェーンのアプリと暗号化資産を即座に移植する機能を提供することによって、DeFi、GameFi、およびWeb3ユーザーコミュニティ全体を大規模に拡張することを目指しています にします。"
+    }
+}

@@ -9,7 +9,20 @@
     "decimals": 6,
     "description": "Regen Staking Coin",
     "image": "regen/asset/regen.png",
-    "coinGeckoId": "regen"
+    "coinGeckoId": "regen",
+    "color": "#43AD6B"
+  },
+  {
+    "denom": "eco.uC.NCT",
+    "type": "native",
+    "origin_chain": "regen",
+    "origin_denom": "eco.uC.NCT",
+    "origin_type": "native",
+    "symbol": "NCT",
+    "decimals": 6,
+    "description": "Nature Carbon Ton",
+    "image": "regen/asset/nct.png",
+    "coinGeckoId": "toucan-protocol-nature-carbon-tonne"
   },
   {
     "denom": "ibc/5FEB332D2B121921C792F1A0DBF7C3163FF205337B4AFE6E14F69E8E49545F49",

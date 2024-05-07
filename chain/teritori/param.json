@@ -1,0 +1,64 @@
+{
+    "chain_id_cosmos" : "teritori-1",
+    "chain_name": "Teritori",
+    "chain_image": "teritori/resource/chain_teritori.png",
+    "symbol" : "TORI",
+    "symbol_image" : "teritori/asset/tori.png",
+    "bechAccountPrefix" : "tori",
+    "bechValidatorPrefix" : "torivaloper",
+    "name_for_dapp" : "TERITORI", 
+    "api_name" : "teritori",
+    "origin_genesis_time" : "2022-10-03T13:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0utori"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-teritori.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "teritori-grpc.lavenderfive.com:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/teritori/",
+        "account": "https://www.mintscan.io/teritori/address/${address}",
+        "tx": "https://www.mintscan.io/teritori/tx/${hash}",
+        "proposal": "https://www.mintscan.io/teritori/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://teritori.com/",
+        "docs": "https://teritori.gitbook.io/teritori-whitepaper/",
+        "github" : "https://github.com/teritori",
+        "blog" : "https://teritori.com/blog",
+        "medium": "https://medium.com/teritori",
+        "twitter" : "https://twitter.com/teritorinetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/teritori"
+    },
+    "forum": {
+      "main": "https://app.teritori.com/feed",
+      "governance": "https://app.teritori.com/governance"
+    },
+    "description" : {
+        "ko" : "Teritori는 웹3 커뮤니티들에게 플랫폼을 제공하기 위해 설계된 탈중앙화 멀티체인 생태계입니다.",
+        "en" : "Teritori is a decentralized multichain hub designed to provide an all-in-one experience for Web3 communities.",
+        "ja" : "Teritori はWeb3コミュニティにプラットフォームを提供するため設計された分散型マルチチェーンエコシステムです。"
+    }
+}

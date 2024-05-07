@@ -1,0 +1,65 @@
+{
+    "chain_id_cosmos" : "regen-1",
+    "chain_name": "Regen",
+    "chain_image": "regen/resource/chain_regen.png",
+    "symbol" : "REGEN",
+    "symbol_image" : "regen/asset/regen.png",
+    "bechAccountPrefix" : "regen",
+    "bechValidatorPrefix" : "regenvaloper",
+    "name_for_dapp" : "REGEN", 
+    "api_name" : "regen",
+    "origin_genesis_time" : "2021-04-15T15:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.00025uregen",
+            "0.0025uregen",
+            "0.025uregen"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-regen.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-regen-ia.cosmosia.notional.ventures:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/regen/",
+        "account": "https://www.mintscan.io/regen/address/${address}",
+        "tx": "https://www.mintscan.io/regen/tx/${hash}",
+        "proposal": "https://www.mintscan.io/regen/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.regen.network/",
+        "docs": "https://docs.regen.network",
+        "github" : "https://github.com/regen-network",
+        "medium": "https://medium.com/regen-network",
+        "twitter" : "https://twitter.com/regen_network",
+        "coingecko" : "https://www.coingecko.com/en/coins/regen"
+    },
+    "forum": {
+      "main": "https://forum.regen.network",
+      "governance": "https://forum.regen.network/discussions/Governance/"
+    },
+    "description" : {
+        "ko" : "Regen은 친환경 데이터와 환경보호 활동를 위해 설계된 코스모스 기반 지분증명 블록체인입니다.",
+        "en" : "A Cosmos SDK based PoS blockchain designed to utilize ecological data and climate markets.",
+        "ja" : "Regenはエコデーターと環境保護活動のため設計された、コスモスベース時分証明ブロックチェーンです。"
+    }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "chainId": 25,
+    "chainName": "Cronos",
+    "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+    "symbol": "WCRO",
+    "description": "Wrapped CRO",
+    "decimals": 18,
+    "image": "cronos/asset/wcro.png",
+    "default": true,
+    "coinGeckoId":"wrapped-cro"
+  },
+  {
+    "chainId": 25,
+    "chainName": "Cronos",
+    "address": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+    "symbol": "USDT",
+    "description": "Tether",
+    "decimals": 6,
+    "image": "ethereum/asset/usdt.png",
+    "default": true,
+    "coinGeckoId":"tether"
+  },
+  {
+    "chainId": 25,
+    "chainName": "Cronos",
+    "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+    "symbol": "USDC",
+    "description": "USD Coin",
+    "decimals": 6,
+    "image": "ethereum/asset/usdc.png",
+    "default": true,
+    "coinGeckoId":"usd-coin"
+  },
+  {
+    "chainId": 25,
+    "chainName": "Cronos",
+    "address": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
+    "symbol": "WBTC",
+    "description": "Wrapped Bitcoin",
+    "decimals": 8,
+    "image": "ethereum/asset/wbtc.png",
+    "default": false,
+    "coinGeckoId":"wrapped-bitcoin"
+  },
+  {
+    "chainId": 25,
+    "chainName": "Cronos",
+    "address": "0xB888d8Dd1733d72681b30c00ee76BDE93ae7aa93",
+    "symbol": "ATOM",
+    "description": "Cosmos Hub",
+    "decimals": 6,
+    "image": "cosmos/asset/atom.png",
+    "default": false,
+    "coinGeckoId":"cosmos"
+  },
+  {
+    "chainId": 25,
+    "chainName": "Cronos",
+    "address": "0x1a8E39ae59e5556B56b76fCBA98d22c9ae557396",
+    "symbol": "DOGE",
+    "description": "Dogecoin",
+    "decimals": 8,
+    "image": "ethereum/asset/doge.png",
+    "default": false,
+    "coinGeckoId":"dogecoin"
+  },
+  {
+    "chainId": 25,
+    "chainName": "Cronos",
+    "address": "0xbED48612BC69fA1CaB67052b42a95FB30C1bcFee",
+    "symbol": "SHIB",
+    "description": "SHIBA INU",
+    "decimals": 18,
+    "image": "ethereum/asset/shib.png",
+    "default": false,
+    "coinGeckoId":"shiba-inu"
+  }
+]

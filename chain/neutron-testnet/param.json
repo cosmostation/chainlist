@@ -1,0 +1,83 @@
+{
+  "chain_name": "Neutron Testnet",
+  "about": {
+    "website": "https://neutron.org/",
+    "docs": "https://docs.neutron.org/",
+    "github": "https://github.com/neutron-org",
+    "medium": "https://blog.neutron.org/",
+    "twitter": "https://twitter.com/Neutron_org",
+    "discord": "https://discord.com/invite/zRT2ZkQsxA",
+    "coingecko": "https://www.coingecko.com/en/coins/neutron"
+  },
+  "forum": {
+      "main": "https://reddit.com/r/MediBloc"
+  },
+  "description": {
+    "ko": "Neutron은 Cosmos 허브의 Interchain Security를 사용하는 비허가형 CosmWasm 플랫폼입니다.",
+    "en": "Neutron is a blockchain network that brings Smart Contracts into the Cosmos-family blockchains using CosmWasm.",
+    "ja": "Neutronは、CosmosハブのInterchain Securityを使用する非許可型CosmWasmプラットフォームです。"
+  },
+  "daos": [
+    {
+      "name": "Main Dao",
+      "description": "awesome neutron dao",
+      "dao_uri": "",
+      "address": "neutron1kvxlf27r0h7mzjqgdydqdf76dtlyvwz6u9q8tysfae53ajv8urtq4fdkvy",
+      "voting_module": "neutron1nusmqy8tmx5y2y5qrxprlm64fzwvjl9fhhn0qk5wy6mjkdrudsgqpmyywl",
+      "proposal_modules" : [
+        {
+          "name": "Single Module",
+          "description": "Main Dao Single Proposals",
+          "allow_revoting": true,
+          "address": "neutron19sf2y4dvgt02kczemvhktrwvt4aunrahw8qkjq6u3pehdujwssgqrs5e4h",
+          "prefix": "A",
+          "status": "Enabled"
+        },
+        {
+          "name": "Multiple Module",
+          "description": "Main Dao Multiple Proposals",
+          "allow_revoting": true,
+          "address": "neutron14yu369rhq9pz6clxrvpeyxcuj66ay9k98p2dfh3sc9tlwtcqaxcqpk8rky",
+          "prefix": "B",
+          "status": "Enabled"
+        },
+        {
+          "name": "Overrule Module",
+          "description": "Main Dao Overrule Proposals",
+          "allow_revoting": false,
+          "address": "neutron164w6crv7u0ya0aqqr74ghzt8k4ycwfjrzekxms00vzh07wekj4sq6lk8w7",
+          "prefix": "C",
+          "status": "Enabled"
+        }
+      ]
+    },
+    {
+      "name": "SECURITY",
+      "description": "subdao that secures neutron",
+      "dao_uri": "security.subdao.org",
+      "address": "neutron1zv35zgj7d6khqxfl3tx95scjljz0rvmkxcsxmggqxrltkm8ystsqvt0qc7",
+      "voting_module": "neutron1ujdzgmjaks2s2uwnvm24tqdu0kmtlegr8gu87ngly2hdlumxtg7q3ca6lg",
+      "group_contract_address": "neutron1lcepwp9hc95v8yq4tetrc989sp2rshaejmqa487jjyq8zmg0luuqg4ke0f",
+      "proposal_modules": [
+        {
+          "name": "SECURITY Subdao",
+          "description": "Security Subdao Single Proposals",
+          "allow_revoting": false,
+          "address": "neutron1wyvwhmnvc43reeptqllqmu3a55cz5lj4remvv7gwwt79kdxvchws7npv9u",
+          "prefix": "A",
+          "status": "Enabled"
+        }
+      ]
+    }
+  ],
+  "vaults": [
+    {
+      "name": "voting vault",
+      "description": "simple voting vault for testing purposes",
+      "address": "neutron1hjjqfvpwpkl5ssc6hk76es2lznd4tws75jcvkql9xncmgasemjuqhzyzvg",
+      "owner": "neutron19glux3jzdfyyz6ylmuksgxfj5phdaxfr2uhy86",
+      "manager": null,
+      "denom": "untrn"
+    }
+  ]
+}

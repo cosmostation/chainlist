@@ -1,0 +1,45 @@
+{
+    "chain_id_evm" : "0xa86a",
+    "chain_name": "avalanche",
+    "chain_image": "avalanche/resource/chain_avalanche.png",
+    "symbol" : "AVAX",
+    "symbol_image" : "avalanche/asset/avax.png",
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Avalanche",
+            "url": "https://avalanche.public-rpc.com"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://avalanche.drpc.org"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/avalanche"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://avalanche-c-chain-rpc.publicnode.com"
+        }
+    ],
+    "explorer" : {
+        "name": "Snowtrace",
+        "url": "https://snowtrace.io/",
+        "account": "https://snowtrace.io/address/${address}",
+        "tx": "https://snowtrace.io/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://www.avax.network/",
+        "docs": "https://docs.avax.network/",
+        "github" : "https://github.com/ava-labs",
+        "blog" : "https://www.avax.network/blog",
+        "medium": "",
+        "twitter" : "https://twitter.com/avax",
+        "coingecko" : "https://www.coingecko.com/en/coins/avalanche"
+    },
+    "description" : {
+        "ko" : "Avalanche는 확장 가능하도록 구축된 미래 지향적인 블록체인입니다.",
+        "en" : "Avalanche is the future-proof blockchain built to scale.",
+        "ja" : "Avalancheは、スケーラブルに構築された未来志向のブロックチェーンです。"
+    }
+}

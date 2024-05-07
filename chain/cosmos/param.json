@@ -1,0 +1,78 @@
+{
+    "chain_id_cosmos" : "cosmoshub-4",
+    "chain_name": "Cosmos",
+    "chain_image": "cosmos/resource/chain_cosmos.png",
+    "symbol" : "ATOM",
+    "symbol_image" : "cosmos/asset/atom.png",
+    "bechAccountPrefix" : "cosmos",
+    "bechValidatorPrefix" : "cosmosvaloper",
+    "name_for_dapp" : "COSMOS", 
+    "api_name" : "cosmos",
+    "origin_genesis_time" : "2019-03-13T23:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.005uatom",
+            "0.025uatom"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "voting_threshold" : 1000000,
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-cosmos.cosmostation.io:443"
+        },
+        {
+            "provider": "Stakin",
+            "url": "cosmoshub.grpc.stakin-nodes.com:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-cosmoshub-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "cosmoshub-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "MMS",
+            "url": "grpc-cosmoshub.mms.team:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/cosmos/",
+        "account": "https://www.mintscan.io/cosmos/address/${address}",
+        "tx": "https://www.mintscan.io/cosmos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/cosmos/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://cosmos.network",
+        "docs": "https://docs.cosmos.network",
+        "github" : "https://github.com/cosmos",
+        "blog" : "https://blog.cosmos.network",
+        "medium": "https://blog.cosmos.network",
+        "twitter" : "https://twitter.com/cosmos",
+        "coingecko" : "https://www.coingecko.com/en/coins/cosmos-hub"
+    },
+    "forum": {
+      "main": "https://forum.cosmos.network",
+      "governance": "https://forum.cosmos.network/c/hub-proposals"
+    },
+    "description" : {
+        "ko" : "코스모스 허브는 다양한 블록체인 네트워크의 상호 운용성을 가능하게 해주는 Internet of Blockchain 입니다.",
+        "en" : "The Cosmos Hub is an Internet of Blockchains, a network of blockchains able to communicate with each other in a decentralized way.",
+        "ja" : "Cosmos Hub は、さまざまなブロックチェーンネットワークの相互運用性を可能にするInternet of Blockchainです。"
+    }
+}
