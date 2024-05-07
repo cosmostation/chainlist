@@ -3357,12 +3357,13 @@
   },
   {
     "denom": "factory/osmo19hdqma2mj0vnmgcxag6ytswjnr8a3y07q7e70p/wLIBRA",
-    "type": "native",
+    "type": "bridge",
     "origin_chain": "0l",
     "origin_denom": "microlibra",
     "origin_type": "native",
     "symbol": "wLIBRA",
     "decimals": 6,
+    "path": "0l>LibraBridge",
     "description": "wLIBRA is a bridged version of Libra Coin from 0L Network via LibraBridge.",
     "image": "osmosis/asset/libra.png",
     "coinGeckoId": "libra-3"
