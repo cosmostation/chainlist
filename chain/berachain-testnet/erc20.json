@@ -39,7 +39,7 @@
     "symbol": "WBTC",
     "description": "Wrapped Bitcoin",
     "decimals": 8,
-    "image": "berachain-testnet/asset/wbtc.png",
+    "image": "ethereum/asset/wbtc.png",
     "default": true,
     "coinGeckoId":""
   },
@@ -50,7 +50,7 @@
     "symbol": "WETH",
     "description": "Wrapped Ether",
     "decimals": 18,
-    "image": "berachain-testnet/asset/weth.png",
+    "image": "ethereum/asset/weth.png",
     "default": true,
     "coinGeckoId":""
   }
