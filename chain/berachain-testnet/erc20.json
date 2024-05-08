@@ -13,17 +13,6 @@
   {
     "chainId": 80085,
     "chainName": "Berachain Artio Testnet",
-    "address": "0xAcD97aDBa1207dCf27d5C188455BEa8a32E80B8b",
-    "symbol": "BGT",
-    "description": "Bera Governance Token",
-    "decimals": 18,
-    "image": "berachain-testnet/asset/bgt.png",
-    "default": true,
-    "coinGeckoId":""
-  },
-  {
-    "chainId": 80085,
-    "chainName": "Berachain Artio Testnet",
     "address": "0x7EeCA4205fF31f947EdBd49195a7A88E6A91161B",
     "symbol": "HONEY",
     "description": "Honey",
