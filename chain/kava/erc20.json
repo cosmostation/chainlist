@@ -71,7 +71,7 @@
     "address": "0xb5c4423a65B953905949548276654C96fcaE6992",
     "symbol": "WBTC",
     "description": "Wrapped BTC",
-    "decimals": 18,
+    "decimals": 8,
     "image": "ethereum/asset/wbtc.png",
     "default": false,
     "coinGeckoId": "wrapped-bitcoin"
