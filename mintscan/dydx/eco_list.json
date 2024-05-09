@@ -83,13 +83,28 @@
   {
     "name": "Ravendao",
     "type": "DAO",
-    "description": "iquidity across multiple blockchains, DeFi protocols (exchanges, bridges, RFQ systems) and centralized exchanges, to make fair and efficient markets across many different crypto assets.",
+    "description": "Liquidity across multiple blockchains, DeFi protocols (exchanges, bridges, RFQ systems) and centralized exchanges, to make fair and efficient markets across many different crypto assets.",
     "status": "open",
     "thumbnail" : "ravendao",
     "link": "https://www.ravendao.net/",
     "social": {
       "webSite": "https://www.ravendao.net/",
       "twitter": "https://twitter.com/defi_raven"
+    }
+  },
+  {
+    "name": "chaoslabs",
+    "type": "analytics",
+    "description": "Community Analytics",
+    "status": "open",
+    "thumbnail" : "chaoslabs",
+    "link": "https://community.chaoslabs.xyz/dydx-v4/",
+    "social": {
+      "webSite": "https://chaoslabs.xyz/",
+      "twitter": "https://twitter.com/chaos_labs",
+      "blog": "https://chaoslabs.xyz/blog",
+      "youtube": "https://www.youtube.com/channel/UCMgSOd_ZsVpDxbpuoIBYYSw",
+      "github": "https://github.com/ChaosLabsInc"
     }
   },
   {

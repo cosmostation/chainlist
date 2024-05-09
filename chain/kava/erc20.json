@@ -68,6 +68,17 @@
   {
     "chainId": 2222,
     "chainName": "kava",
+    "address": "0xb5c4423a65B953905949548276654C96fcaE6992",
+    "symbol": "WBTC",
+    "description": "Wrapped BTC",
+    "decimals": 8,
+    "image": "ethereum/asset/wbtc.png",
+    "default": false,
+    "coinGeckoId": "wrapped-bitcoin"
+  },
+  {
+    "chainId": 2222,
+    "chainName": "kava",
     "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE",
     "symbol": "ELK",
     "description": "Elk Finance",
