@@ -3376,5 +3376,18 @@
     "description": "Bernese Mountain Dog. Thematic dog token to have fun and be friends with all other dog tokens. Fixed supply 132M.",
     "image": "osmosis/asset/bernese.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/osmo19hdqma2mj0vnmgcxag6ytswjnr8a3y07q7e70p/wLIBRA",
+    "type": "bridge",
+    "origin_chain": "0l",
+    "origin_denom": "microlibra",
+    "origin_type": "native",
+    "symbol": "wLIBRA",
+    "decimals": 6,
+    "path": "0l>LibraBridge>Osmosis",
+    "description": "wLIBRA is a bridged version of Libra Coin from 0L Network via LibraBridge.",
+    "image": "osmosis/asset/libra.png",
+    "coinGeckoId": "libra-3"
   }
 ]
