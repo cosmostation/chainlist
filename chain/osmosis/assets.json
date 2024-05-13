@@ -3379,8 +3379,8 @@
   },
   {
     "denom": "factory/osmo19hdqma2mj0vnmgcxag6ytswjnr8a3y07q7e70p/wLIBRA",
-    "type": "bridge",
-    "origin_chain": "0l",
+    "type": "native",
+    "origin_chain": "osmosis",
     "origin_denom": "microlibra",
     "origin_type": "native",
     "symbol": "wLIBRA",
