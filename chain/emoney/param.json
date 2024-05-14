@@ -39,11 +39,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/emoney/",
-        "account": "https://www.mintscan.io/emoney/address/${address}",
-        "tx": "https://www.mintscan.io/emoney/tx/${hash}",
-        "proposal": "https://www.mintscan.io/emoney/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/emoney",
+        "account": "https://atomscan.com/emoney/accounts/${address}",
+        "tx": "https://atomscan.com/emoney/transactions/${hash}",
+        "proposal": "https://atomscan.com/emoney/votes/${id}"
     },
     "about" : {
         "website" : "https://e-money.com/",
