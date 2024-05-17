@@ -1,0 +1,51 @@
+{
+    "chain_id_cosmos" : "artela_11822-1",
+    "chain_id_evm" : "0x2E2E",
+    "chain_name": "Artela Testnet",
+    "chain_image": "artela/resource/chain_artela.png",
+    "symbol" : "ART",
+    "symbol_image" : "artela/asset/art.png",
+    "bechAccountPrefix" : "art",
+    "bechValidatorPrefix" : "artvaloper",
+    "name_for_dapp" : "ARTELA", 
+    "api_name" : "artela-testnet",
+    "origin_genesis_time" : "22024-01-06T11:06:55Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "80000000000uart"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-office-artela.cosmostation.io:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-office-evm.cosmostation.io/artela-testnet/"
+        }
+    ],
+    "about" : {
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}
