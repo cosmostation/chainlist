@@ -4,6 +4,7 @@
     "chain_image": "ethereum/resource/chain_ethereum.png",
     "symbol" : "ETH",
     "symbol_image" : "ethereum/asset/eth.png",
+    "moblie_dapp" : true,
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",
