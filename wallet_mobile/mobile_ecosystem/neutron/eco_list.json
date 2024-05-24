@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Astroport",
+    "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/astroport.png",
+    "link": "https://neutron.astroport.fi/swap",
+    "type": "Dex"
+  },
+  {
+    "name": "Neutron (governance)",
+    "description": "Neutron Governance Platform. Cast your vote and contribute to shaping Neutron's future.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/neutron-governance.png",
+    "link": "https://governance.neutron.org/proposals",
+    "type": "System"
+  },
+  {
+    "name": "Apollo dao",
+    "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/apollo.png",
+    "link": "https://app.apollo.farm/",
+    "type": "Vaults"
+  },
+  {
+    "name": "NFA Zone",
+    "description": "The premier Cosmos Meme Coin Factory. Easily buy or create your own token and compete for liquidity to secure a listing on Astroport.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/nfa-zone.png",
+    "link": "https://nfa.zone/",
+    "type": "Trading"
+  }
+]
