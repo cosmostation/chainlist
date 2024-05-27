@@ -30,5 +30,26 @@
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
+  },
+    {
+    "denom": "ibc/152eed6fec6307c20e1bb18e44fb1cafaa6f04cb9a5cc8086c4c9de3e7706a69",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
+    "origin_type": "cw20",
+    "symbol": "NRIDE",
+    "decimals": 6,
+    "enable": true,
+    "path": "juno>planq",
+    "channel": "channel-43",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-204",
+      "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+      "denom": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
+    },
+    "image": "juno/asset/nride.png",
+    "coinGeckoId": "",
+    "contract": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
   }
 ]
