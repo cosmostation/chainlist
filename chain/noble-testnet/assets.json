@@ -21,5 +21,17 @@
     "description": "Native Coin",
     "image": "noble-testnet/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ausdy",
+    "type": "native",
+    "origin_chain": "noble-testnet",
+    "origin_denom": "ausdy",
+    "origin_type": "native",
+    "symbol": "USDY",
+    "decimals": 18,
+    "description": "Native Coin",
+    "image": "ethereum/asset/usdy.png",
+    "coinGeckoId": "ondo-us-dollar-yield"
   }
 ]
