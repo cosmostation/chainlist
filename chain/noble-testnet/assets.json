@@ -7,8 +7,9 @@
     "origin_type": "staking",
     "symbol": "NOBLE",
     "decimals": 6,
-    "description": "Noble Staking Coin",
-    "image": "noble-testnet/asset/stake.png"
+    "description": "Noble testnet Staking Coin",
+    "image": "noble-testnet/asset/stake.png",
+    "coinGeckoId": ""
   },
   {
     "denom": "uusdc",
@@ -18,9 +19,9 @@
     "origin_type": "native",
     "symbol": "USDC",
     "decimals": 6,
-    "description": "Native Coin",
+    "description": "Noble testnet Native Coin",
     "image": "noble-testnet/asset/usdc.png",
-    "coinGeckoId": "usd-coin"
+    "coinGeckoId": ""
   },
   {
     "denom": "ausdy",
@@ -30,8 +31,8 @@
     "origin_type": "native",
     "symbol": "USDY",
     "decimals": 18,
-    "description": "Native Coin",
+    "description": "Noble testnet Native Coin",
     "image": "ethereum/asset/usdy.png",
-    "coinGeckoId": "ondo-us-dollar-yield"
+    "coinGeckoId": ""
   }
 ]
