@@ -3389,5 +3389,26 @@
     "description": "wLIBRA is a bridged version of Libra Coin from 0L Network via LibraBridge.",
     "image": "osmosis/asset/libra.png",
     "coinGeckoId": "libra-3"
-  }
+  },
+  {
+    "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
+    "origin_type": "cw20",
+    "symbol": "NRIDE",
+    "decimals": 6,
+    "enable": true,
+    "path": "juno>osmosis",
+    "channel": "channel-169",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-47",
+      "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+      "denom": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
+    },
+    "image": "juno/asset/nride.png",
+    "coinGeckoId": "",
+    "contract": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
+   }
 ]
