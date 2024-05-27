@@ -19,5 +19,47 @@
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/nfa-zone.png",
     "link": "https://nfa.zone/",
     "type": "Trading"
+  },
+  {
+    "name": "Red Bank",
+    "description": "Lend, borrow and earn on Red Bank lending platform designed by Mars Protocol team.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/red-bank.png",
+    "link": "https://neutron.marsprotocol.io/redbank",
+    "type": "Lending"
+  },
+  {
+    "name": "DaoDao Zone",
+    "description": "Simple, capable, and free DAO toolings for Neutron",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/daodao-neutron.png",
+    "link": "https://daodao.zone/dao/neutron",
+    "type": "Dao"
+  },
+  {
+    "name": "Coinhall",
+    "description": "Providing real-time cryptocurrency market data, including prices, trading volumes, and market caps.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/coinhall-neutron.png",
+    "link": "https://coinhall.org",
+    "type": "Dex"
+  },
+  {
+    "name": "Eclipsefi",
+    "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/eclipsefi.png",
+    "link": "https://eclipsefi.io/projects",
+    "type": "Launch Pad"
+  },
+  {
+    "name": "Hyperlane Nexus",
+    "description": "Features the L1-L2-L3 architecture and Neutron for quantum resistance and advanced cryptography, aiming to create a secure, efficient decentralized network.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/usenexus.png",
+    "link": "https://www.usenexus.org",
+    "type": "Swap"
+  },
+  {
+    "name": "TFM",
+    "description": "TFM is a financial technology platform that offers a range of financial products and services.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/tfm-neutron.png",
+    "link": "https://tfm.com/neutron/trade/protrade",
+    "type": "Trading"
   }
 ]
