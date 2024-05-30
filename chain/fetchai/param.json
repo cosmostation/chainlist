@@ -6,6 +6,7 @@
     "symbol_image" : "fetchai/asset/fet.png",
     "bechAccountPrefix" : "fetch",
     "bechValidatorPrefix" : "fetchvaloper",
+    "name_for_dapp" : "FETCH.AI", 
     "api_name" : "fetchai",
     "origin_genesis_time" : "2021-03-31T14:00:00Z",
     "accountType" : [
@@ -28,10 +29,8 @@
         }
     ],
     "fee" : {
-        "base" : "1",
+        "base" : "0",
         "rate" : [
-            "0.025afet",
-            "0.2afet",
             "2afet"
         ],
         "init_gas_limit" : 300000,

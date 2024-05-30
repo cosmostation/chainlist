@@ -6,6 +6,7 @@
     "symbol_image" : "neutron/asset/ntrn.png",
     "bechAccountPrefix" : "neutron",
     "bechValidatorPrefix" : "neutronvaloper",
+    "name_for_dapp" : "NEUTRON", 
     "api_name" : "neutron",
     "origin_genesis_time" : "2023-05-10T15:00:00Z",
     "accountType" : [
@@ -35,6 +36,7 @@
         "url": "grpc-neutron.whispernode.com:443"
       }
     ],
+    "moblie_dapp" : true,
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/neutron/",
@@ -52,7 +54,7 @@
     },
     "forum": {
         "main": "https://forum.neutron.org/"
-      },
+    },
     "description": {
       "ko": "Neutron은 Cosmos 허브의 Interchain Security를 사용하는 비허가형 CosmWasm 플랫폼입니다.",
       "en": "Neutron is a blockchain network that brings Smart Contracts into the Cosmos-family blockchains using CosmWasm.",

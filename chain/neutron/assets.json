@@ -535,7 +535,48 @@
     "origin_type": "native",
     "symbol": "ATOM1KLFG",
     "decimals": 6,
+    "description": "Atom 1K LFG",
     "image": "neutron/asset/ATOM1KLFGc.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/A139C0E0B5E87CBA8EAEEB12B9BEE13AC7C814CFBBFA87BBCADD67E31003466C",
+    "type": "ibc",
+    "origin_chain": "stargaze",
+    "origin_denom": "ustars",
+    "origin_type": "staking",
+    "symbol": "STARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "stargaze>neutron",
+    "channel": "channel-18",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-191",
+      "port": "transfer",
+      "denom": "ustars"
+    },
+    "image": "stargaze/asset/stars.png",
+    "coinGeckoId": "stargaze"
+  },
+  {
+    "denom": "ibc/74B554DD3FF10F5D60E30175ADFB47E59F77F7C57024A8104A4F78CDC2EAD125",
+    "type": "ibc",
+    "origin_chain": "saga",
+    "origin_denom": "usaga",
+    "origin_type": "staking",
+    "symbol": "SAGA",
+    "decimals": 6,
+    "enable": true,
+    "path": "saga>neutron",
+    "channel": "channel-2060",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-10",
+      "port": "transfer",
+      "denom": "usaga"
+    },
+    "image": "saga/asset/saga.png",
+    "coinGeckoId": "saga-2"
   }
 ]

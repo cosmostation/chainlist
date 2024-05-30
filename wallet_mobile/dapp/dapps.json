@@ -87,7 +87,7 @@
     "title": "pSTAKE",
     "description": "Earn staking rewards on your Assets for securing PoS networks and participate in DeFi with stkAssets for additional yields.",
     "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/pstake.png",
-    "url": "https://cosmos.pstake.finance",
+    "url": "https://app.pstake.finance/cosmos",
     "chain": ["persistence"],
     "category": "Defi",
     "tag": ["Liquid Staking"]
@@ -190,5 +190,14 @@
     "chain": ["archway"],
     "category": "DeFi",
     "tag": ["Liquid Staking"]
+  },
+  {
+    "title": "Ninja Blaze",
+    "description": "Ninja Blaze is a platform with several games on a blockchain, which revolutionizes the market and brings full transparency and honesty to the players.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/ninja-blaze.png",
+    "url": "https://app.blaze.ninja",
+    "chain": ["injective"],
+    "category": "Gaming",
+    "tag": ["GameFi"]
   }
 ]

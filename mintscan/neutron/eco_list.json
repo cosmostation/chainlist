@@ -1,13 +1,5 @@
 [
   {
-    "name": "Neutron (airdrop)",
-    "type": "System",
-    "description": "Participate in the Lockdrop, Airdrop, and check available $NTRN rewards to withdraw after the end of the Lockdrop event.",
-    "status": "open",
-    "thumbnail" : "neutron-airdrop",
-    "link": "https://launch.neutron.org/"
-  },
-  {
     "name": "Astroport",
     "type": "Dex",
     "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
@@ -61,7 +53,15 @@
     }
   },
   {
-    "name": "Red bank",
+    "name": "Drop Money",
+    "type": "DeFi",
+    "description": "Drop is a DeFi platform focused on providing liquidity across multiple blockchain networks, enhancing interoperability and transaction efficiency.",
+    "status": "prepare",
+    "thumbnail" : "dropmoney",
+    "link": "https://www.drop.money/"
+  },
+  {
+    "name": "Mars Protocol",
     "type": "Lending",
     "description": "Lend, borrow and earn on Red Bank lending platform designed by Mars Protocol team.",
     "status": "open",
@@ -88,18 +88,6 @@
       "medium": "https://medium.com/nolusprotocol",
       "github": "https://github.com/nolus-protocol",
       "docs": "https://hub.nolus.io/en_US/technical-documentation"
-    }
-  },
-  {
-    "name": "Craft network",
-    "type": "NFT",
-    "description": "Craft Network is an NFT Marketplace bringing cross-chain NFT liquidity for the interchain.",
-    "status": "open",
-    "thumbnail" : "craft-network",
-    "link": "https://craft.network/",
-    "social": {
-      "webSite": "https://craft.network/",
-      "twitter": "https://twitter.com/craftdotnetwork"
     }
   },
   {
@@ -160,6 +148,32 @@
       "github": "https://github.com/pyth-network/",
       "docs": "https://docs.pyth.network/",
       "medium": "https://medium.com/@pythnetwork"
+    }
+  },
+  {
+    "name": "Isaac",
+    "type": "Wallet",
+    "description": "The Telegram Trading Assistant for the Cosmos. Buy any Cosmos token via a super fast and simple chat interface.",
+    "status": "open",
+    "thumbnail" : "issac",
+    "link": "https://www.isaac.finance/",
+    "social": {
+      "webSite": "https://www.isaac.finance/",
+      "twitter": "https://x.com/trade_isaac",
+      "telegram": "https://t.me/IsaacNewtronBot"
+    }
+  },
+  {
+    "name": "NFA Zone",
+    "type": "Trading",
+    "description": "The premier Cosmos Meme Coin Factory. Easily buy or create your own token and compete for liquidity to secure a listing on Astroport.",
+    "status": "open",
+    "thumbnail" : "nfa-zone",
+    "link": "https://nfa.zone/",
+    "social": {
+      "webSite": "https://nfa.zone/",
+      "twitter": "https://x.com/nfadotzone",
+      "telegram": "https://t.me/nfazone"
     }
   }
 ]

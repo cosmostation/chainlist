@@ -6,11 +6,12 @@
     "symbol_image" : "band/asset/band.png",
     "bechAccountPrefix" : "band",
     "bechValidatorPrefix" : "bandvaloper",
+    "name_for_dapp" : "BAND", 
     "api_name" : "band",
     "origin_genesis_time" : "2020-05-28T14:00:00Z",
     "accountType" : [
         {
-            "hd_path": "m/44'/118'/0'/0/X",
+            "hd_path": "m/44'/494'/0'/0/X",
             "pubkey_style": "secp256k1",
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
