@@ -3310,6 +3310,26 @@
     "coinGeckoId": "source"
   },
   {
+    "denom": "ibc/62118FB4D5FEDD5D2B18DC93648A745CD5E5B01D420E9B7A5FED5381CB13A7E8",
+    "type": "ibc",
+    "origin_chain": "chain4energy",
+    "origin_denom": "uc4e",
+    "origin_type": "native",
+    "symbol": "C4E",
+    "decimals": 6,
+    "enable": true,
+    "path": "chain4energy>osmosis",
+    "channel": "channel-22172",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uc4e"
+    },
+    "image": "chain4energy/asset/chain4energy.png",
+    "coinGeckoId": "chain4energy"
+  },
+  {
     "denom": "factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo",
     "type": "native",
     "origin_chain": "osmosis",
