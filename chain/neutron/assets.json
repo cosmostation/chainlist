@@ -578,5 +578,17 @@
     },
     "image": "saga/asset/saga.png",
     "coinGeckoId": "saga-2"
+  },
+  {
+    "denom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz",
+    "origin_type": "native",
+    "symbol": "NBZ",
+    "decimals": 6,
+    "description": "Ninja Blaze Token",
+    "image": "neutron/asset/nbz.png",
+    "coinGeckoId": ""
   }
 ]
