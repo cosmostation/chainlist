@@ -31,25 +31,24 @@
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
   },
-    {
-    "denom": "ibc/152eed6fec6307c20e1bb18e44fb1cafaa6f04cb9a5cc8086c4c9de3e7706a69",
+      {
+    "denom": "ibc/26B4B4BBF3C8D5DB1ADE993CCD865A7CC608B2BAEF20E0166F18B84E32184F63",
     "type": "ibc",
     "origin_chain": "juno",
-    "origin_denom": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
+    "origin_denom": "cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
     "origin_type": "cw20",
     "symbol": "NRIDE",
     "decimals": 6,
     "enable": true,
-    "path": "juno>planq",
-    "channel": "channel-43",
+    "path": "osmosis>planq",
+    "channel": "channel-1",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-204",
-      "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
-      "denom": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
+      "channel": "channel-492",
+      "port": "transfer",
+      "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C"
     },
     "image": "juno/asset/nride.png",
-    "coinGeckoId": "",
-    "contract": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
-  }
+    "coinGeckoId": ""
+  },
 ]
