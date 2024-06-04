@@ -1,0 +1,50 @@
+{
+  "chain_name": "Osmosis Testnet",
+  "chain_id_cosmos": "symphony-testnet-1",
+  "chain_image": "symphony-testnet/asset/coin.png",
+  "symbol": "MLD",
+  "symbol_image": "symphony-testnet/asset/coin.png",
+  "bechAccountPrefix": "symphony",
+  "bechValidatorPrefix": "symphonyvaloper",
+  "name_for_dapp": "Symphony",
+  "api_name": "symphony",
+  "origin_genesis_time": "",
+  "accountType": [
+    {
+      "hd_path": "m/44'/118'/0'/0/X",
+      "pubkey_style": "secp256k1",
+      "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+    }
+  ],
+  "fee": {
+    "base": "1",
+    "rate": ["0.0025note", "0.025note"],
+    "init_gas_limit": 300000,
+    "isSimulable": true,
+    "simul_gas_multiply": 1.5,
+    "fee_threshold": ""
+  },
+  "grpc_endpoint": [
+    {
+      "provider": "Orchestra Labs",
+      "url": "rpc.testnet.node2.symphonychain.org:26654"
+    }
+  ],
+  "about": {
+    "website": "https://orchestralabs.org/",
+    "docs": "https://orchestralabs.org/documentation",
+    "github": "https://github.com/Orchestra-Labs",
+    "medium": "https://medium.com/@orchestra_labs",
+    "twitter": "https://twitter.com/orchestra_labs",
+    "coingecko": ""
+  },
+  "forum": {
+    "main": "",
+    "governance": ""
+  },
+  "description": {
+    "ko": "Cosmos SDK와 코스모스 인터블록체인 커뮤니케이션(IBC) 프로토콜을 이용하여 다수의 다른 블록체인 네트워크 유저들에게 유동성을 제공해주는 인터체인 AMM.",
+    "en": "The interchain AMM powered by the Cosmos Inter-Blockchain Communication protocol, enabling sovereign blockchain networks to access a vast pool of liquidity.",
+    "ja": "CosmosSDKとコスモスインターブロックチェーンコミュニケーション(IBC)プロトコルを利用して、多数の違うブロックチェーンネットワークユーザーたちに流動性を提供するインターチェーンAMM。"
+  }
+}
