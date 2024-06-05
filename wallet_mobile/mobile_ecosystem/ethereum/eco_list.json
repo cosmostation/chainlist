@@ -4,6 +4,27 @@
     "description": "EigenLayer lets Ethereum users restake assets to support other protocols and earn extra rewards.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/eigenlayer.png",
     "link": "https://app.eigenlayer.xyz",
-    "type": "Restake"
+    "type": "Liquid staking"
+  },
+  {
+    "name": "Etherfi",
+    "description": "EtherFi is a liquid restaking on Ethereum. Stake ETH to get eETH to reward you more across DeFi.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/ether-fi.png",
+    "link": "https://app.ether.fi",
+    "type": "Liquid staking"
+  },
+  {
+    "name": "Uniswap",
+    "description": "Uniswap V3 is a noncustodial automated market maker implemented for the Ethereum Virtual Machine. It provides increased capital efficiency, fine-tuned control of liquidity provider, and improve accuracy and convenience of its price oracle.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/uniswap.png",
+    "link": "https://app.ether.fi",
+    "type": "DEX"
+  },
+  {
+    "name": "Aave",
+    "description": "Aave is a decentralized finance money market protocol that allows you to lend, borrow, and earn interest on cryptocurrencies. .",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/aave.png",
+    "link": "https://app.aave.com/",
+    "type": "Lending"
   }
 ]
