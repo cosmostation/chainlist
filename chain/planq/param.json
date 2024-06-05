@@ -1,5 +1,18 @@
 {
+    "chain_id_cosmos" : "planq_7070-2",
     "chain_name": "Planq",
+    "chain_image": "planq/resource/chain_planq.png",
+    "symbol" : "PLANQ",
+    "symbol_image" : "planq/asset/planq.png",
+    "bechAccountPrefix" : "plq",
+    "bechValidatorPrefix" : "plqvaloper",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
