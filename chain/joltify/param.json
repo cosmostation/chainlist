@@ -1,0 +1,63 @@
+{
+    "chain_id_cosmos" : "joltify_1729-1",
+    "chain_id_evm" : "0x6c1",
+    "chain_name": "Joltify",
+    "chain_image": "joltify/resource/chain_joltify.png",
+    "symbol" : "JOLT",
+    "symbol_image" : "joltify/asset/jolt.png",
+    "bechAccountPrefix" : "jolt",
+    "bechValidatorPrefix" : "joltvaloper",
+    "name_for_dapp" : "JOLTIFY", 
+    "api_name" : "joltify",
+    "origin_genesis_time" : "2024-05-20T00:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0ujolt"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "joltify",
+            "url": "grpc.joltify.io:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "joltify",
+            "url": "https://evm.joltify.io"
+        }
+    ],
+    "explorer" : {
+        "name": "Joltify Big Dipper",
+        "url": "https://explorer.joltify.io/joltify",
+        "account": "https://explorer.joltify.io/joltify/accounts/${address}",
+        "tx": "https://explorer.joltify.io/joltify/transactions/${hash}",
+        "proposal": "https://explorer.joltify.io/joltify/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.joltify.io/",
+        "docs": "https://docs.joltify.io/",
+        "github" : "https://github.com/joltify-finance",
+        "blog" : "https://joltify.io/blog/",
+        "medium": "https://joltify.medium.com/",
+        "twitter" : "https://twitter.com/joltify_finance",
+        "coingecko" : "https://www.coingecko.com/en/coins/joltify"
+    },
+    "description" : {
+        "ko" : "Joltify는 Cosmos SDK를 기반으로 한 현실 세계 자산(RWA) 및 그 이상의 EVM 호환 혁신적인 L1 퍼블릭 체인입니다",
+        "en" : "Joltify is the First EVM compatible game-changing L1 Public Chain built on the Cosmos SDK for Real-World Assets (RWA) and Beyond.",
+        "ja" : "Joltifyは、Cosmos SDKを基盤にした現実世界の資産(RWA)とそれ以上のための初のEVM互換の画期的なL1パブリックチェーンです."
+    }
+}
