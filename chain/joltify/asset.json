@@ -21,10 +21,10 @@
         "decimals": 6,
         "enable": true,
         "path": "cosmos>joltify",
-        "channel": "channel-0",
+        "channel": "channel-2",
         "port": "transfer",
         "counter_party": {
-          "channel": "channel-864",
+          "channel": "channel-866",
           "port": "transfer",
           "denom": "uatom"
         },
@@ -44,7 +44,7 @@
         "channel": "channel-1",
         "port": "transfer",
         "counter_party": {
-          "channel": "channel-80",
+          "channel": "channel-81",
           "port": "transfer",
           "denom": "uusdc"
         },
