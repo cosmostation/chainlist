@@ -4,6 +4,7 @@
     "chain_image": "polygon/resource/chain_polygon.png",
     "symbol" : "MATIC",
     "symbol_image" : "polygon/asset/matic.png",
+    "moblie_dapp" : true,
     "evm_rpc_endpoint" : [
         {
             "provider": "Polygon",
