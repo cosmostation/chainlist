@@ -8,7 +8,7 @@
   "bechValidatorPrefix": "symphonyvaloper",
   "name_for_dapp": "Symphony",
   "api_name": "symphony",
-  "origin_genesis_time": "",
+  "origin_genesis_time": "2024-06-07T14:57:42.831707703Z",
   "accountType": [
     {
       "hd_path": "m/44'/118'/0'/0/X",
@@ -27,7 +27,7 @@
   "grpc_endpoint": [
     {
       "provider": "Orchestra Labs",
-      "url": "rpc.testnet.node2.symphonychain.org:26654"
+      "url": "http://rpc.testnet.symphonychain.org"
     }
   ],
   "about": {
