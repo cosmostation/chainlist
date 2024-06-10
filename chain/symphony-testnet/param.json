@@ -1,5 +1,5 @@
 {
-  "chain_name": "Osmosis Testnet",
+  "chain_name": "Symphony Testnet",
   "chain_id_cosmos": "symphony-testnet-1",
   "chain_image": "symphony-testnet/asset/coin.png",
   "symbol": "MLD",
@@ -43,6 +43,6 @@
     "governance": ""
   },
   "description": {
-    "en": "The first and only self-balancing stablecoin chain."
+    "en": "The stablecoin chain."
   }
 }
