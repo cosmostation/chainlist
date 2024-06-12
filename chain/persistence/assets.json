@@ -345,5 +345,25 @@
     },
     "image": "chihuahua/asset/huahua.png",
     "coinGeckoId": "chihuahua-token"
+  },
+  {
+    "denom": "ibc/CCA9F9B22D39884C09975D45E1869B73A12B87080EE53CB44905CE2C422CA228",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
+    "origin_type": "native",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "enable": true,
+    "path": "osmosis>persistence",
+    "channel": "channel-6",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-4",
+      "port": "transfer",
+      "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+    },
+    "image": "ethereum/asset/wbtc.png",
+    "coinGeckoId": "wrapped-bitcoin"
   }
 ]
