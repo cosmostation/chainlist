@@ -227,5 +227,26 @@
     },
     "image": "osmosis/asset/LAB.png",
     "coinGeckoId": "mad-scientists"
+  },
+  {
+    "denom": "ibc/C9C8D88917374F27F03CBCEAF4F1B85F45A62F9F2316CBAADAAC5FDB3675DD3",
+    "type": "ibc",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
+    "origin_type": "native",
+    "symbol": "ASTRO",
+    "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+    "decimals": 6,
+    "enable": true,
+    "path": "neutron>stargaze",
+    "channel": "channel-191",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-18",
+      "port": "transfer",
+      "denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
+    },
+    "image": "neutron/asset/astro.png",
+    "coinGeckoId": "astroport-fi"
   }
 ]
