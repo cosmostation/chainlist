@@ -13,12 +13,20 @@
     "grpc_endpoint" : [
     ],
     "about" : {
+        "website" : "https://www.lavanet.xyz/",
+        "docs": "https://docs.lavanet.xyz/",
+        "github" : "https://github.com/lavanet/docs",
+        "blog" : "https://www.lavanet.xyz/blog",
+        "twitter" : "https://twitter.com/lavanetxyz",
+        "discord" : "https://discord.com/invite/Tbk5NxTCdA",
+        "coingecko" : "https://www.coingecko.com/en/coins/lava-network"
     },
     "forum": {
+        "main": "https://community.lavanet.xyz/"
     },
     "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
+        "ko" : "라바(Lava)는 롤업들이 고성능 인프라 제공자 네트워크를 구축하는 데 사용하는 모듈형 네트워크입니다. RPC 요청은 사용 가능한 최상의 제공자로 라우팅되어 개발자와 사용자에게 최적의 서비스를 제공합니다.",
+        "en" : "Lava is a modular network which rollups use to bootstrap a performant network of infrastructure providers. RPC requests are routed to the best available provider, giving developers and users optimal service.",
+        "ja" : "ラバ（Lava）は、ロールアップが高性能なインフラプロバイダーネットワークをブートストラップするために使用するモジュラー ネットワークです。RPCリクエストは、利用可能な最高のプロバイダーにルーティングされ、開発者とユーザーに最適なサービスを提供します。"
     }
 }

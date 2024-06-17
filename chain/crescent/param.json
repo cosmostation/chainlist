@@ -6,6 +6,7 @@
     "symbol_image" : "crescent/asset/cre.png",
     "bechAccountPrefix" : "cre",
     "bechValidatorPrefix" : "crevaloper",
+    "name_for_dapp" : "CRESCENT", 
     "api_name" : "crescent",
     "origin_genesis_time" : "2022-04-13T00:00:00Z",
     "accountType" : [
@@ -38,11 +39,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/crescent/",
-        "account": "https://www.mintscan.io/crescent/address/${address}",
-        "tx": "https://www.mintscan.io/crescent/tx/${hash}",
-        "proposal": "https://www.mintscan.io/crescent/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/crescent",
+        "account": "https://atomscan.com/crescent/accounts/${address}",
+        "tx": "https://atomscan.com/crescent/transactions/${hash}",
+        "proposal": "https://atomscan.com/crescent/votes/${id}"
     },
     "about" : {
         "website" : "https://crescent.network/",

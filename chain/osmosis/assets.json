@@ -1645,10 +1645,32 @@
     "coinGeckoId": "juno-network"
   },
   {
+    "denom": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
+    "origin_type": "cw20",
+    "symbol": "PHMN",
+    "description": "POSTHUMAN",
+    "decimals": 6,
+    "enable": true,
+    "path": "juno>osmosis",
+    "channel": "channel-169",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-47",
+      "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+      "denom": "juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
+    },
+    "image": "juno/asset/phmn.png",
+    "coinGeckoId": "posthuman",
+    "contract": "juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
+  },
+  {
     "denom": "ibc/C2A2E9CA95DDD4828B75124B5E27B8401C7D8493BC48353D418CBFC04565899B",
     "type": "ibc",
     "origin_chain": "juno",
-    "origin_denom": "hope",
+    "origin_denom": "juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z",
     "origin_type": "cw20",
     "symbol": "HOPE",
     "decimals": 6,
@@ -1669,7 +1691,7 @@
     "denom": "ibc/297C64CC42B5A8D8F82FE2EBE208A6FE8F94B86037FA28C4529A23701C228F7A",
     "type": "ibc",
     "origin_chain": "juno",
-    "origin_denom": "neta",
+    "origin_denom": "juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
     "origin_type": "cw20",
     "symbol": "NETA",
     "decimals": 6,
@@ -1690,7 +1712,7 @@
     "denom": "ibc/F6B691D5F7126579DDC87357B09D653B47FDCE0A3383FF33C8D8B544FE29A8A6",
     "type": "ibc",
     "origin_chain": "juno",
-    "origin_denom": "marble",
+    "origin_denom": "juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl",
     "origin_type": "cw20",
     "symbol": "MARBLE",
     "decimals": 3,
@@ -1711,7 +1733,7 @@
     "denom": "ibc/C6B6BFCB6EE49A7CAB1A7E7B021DE35B99D525AC660844952F0F6C78DCB2A57B",
     "type": "ibc",
     "origin_chain": "juno",
-    "origin_denom": "sejuno",
+    "origin_denom": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv",
     "origin_type": "cw20",
     "symbol": "seJUNO",
     "decimals": 6,
@@ -1794,7 +1816,7 @@
     "denom": "ibc/C2DF5C3949CA835B221C575625991F09BAB4E48FB9C11A4EE357194F736111E3",
     "type": "ibc",
     "origin_chain": "juno",
-    "origin_denom": "bjuno",
+    "origin_denom": "juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3",
     "origin_type": "cw20",
     "symbol": "bJUNO",
     "decimals": 6,
@@ -1815,7 +1837,7 @@
     "denom": "ibc/18A676A074F73B9B42DA4F9DFC8E5AEF334C9A6636DDEC8D34682F52F1DECDF6",
     "type": "ibc",
     "origin_chain": "juno",
-    "origin_denom": "seasy",
+    "origin_denom": "juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf",
     "origin_type": "cw20",
     "symbol": "SEASY",
     "decimals": 6,
@@ -2050,7 +2072,7 @@
       "denom": "uqstars"
     },
     "image": "quicksilver/asset/qstars.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "qstar-2"
   },
   {
     "denom": "ibc/FA602364BEC305A696CBDF987058E99D8B479F0318E47314C49173E8838C5BAC",
@@ -2070,7 +2092,7 @@
       "denom": "uqatom"
     },
     "image": "quicksilver/asset/qatom.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "qatom"
   },
   {
     "denom": "ibc/79A676508A2ECA1021EDDC7BB9CF70CEEC9514C478DA526A5A8B3E78506C2206",
@@ -2090,7 +2112,7 @@
       "denom": "uqregen"
     },
     "image": "quicksilver/asset/qregen.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "qregen"
   },
   {
     "denom": "ibc/42D24879D4569CE6477B7E88206ADBFE47C222C6CAD51A54083E4A72594269FC",
@@ -2110,6 +2132,86 @@
       "denom": "uqosmo"
     },
     "image": "quicksilver/asset/qosmo.png",
+    "coinGeckoId": "qosmo"
+  },
+  {
+    "denom": "ibc/B4E18E61E1505C2F371B621E49B09E983F6A138F251A7B5286A6BDF739FD0D54",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqjuno",
+    "origin_type": "native",
+    "symbol": "qJUNO",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqjuno"
+    },
+    "image": "quicksilver/asset/qjuno.png",
+    "coinGeckoId": "qjuno"
+  },
+  {
+    "denom": "ibc/F2D400F2728E9DA06EAE2AFAB289931A69EDDA5A661578C66A3177EDFE3C0D13",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqsaga",
+    "origin_type": "native",
+    "symbol": "qSAGA",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqsaga"
+    },
+    "image": "quicksilver/asset/qsaga.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/C1C106D915C8E8C59E5DC69BF30FEF64729A6F788060B184C86A315DBB762EF7",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqbld",
+    "origin_type": "native",
+    "symbol": "qBLD",
+    "decimals": 6,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "uqbld"
+    },
+    "image": "quicksilver/asset/qbld.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/273C593E51ACE56F1F2BDB3E03A5CB81BB208B894BCAA642676A32C3454E8C27",
+    "type": "ibc",
+    "origin_chain": "quicksilver",
+    "origin_denom": "aqdydx",
+    "origin_type": "native",
+    "symbol": "qDYDX",
+    "decimals": 18,
+    "enable": true,
+    "path": "quicksilver>osmosis",
+    "channel": "channel-522",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "aqdydx"
+    },
+    "image": "quicksilver/asset/qdydx.png",
     "coinGeckoId": ""
   },
   {
@@ -3208,6 +3310,26 @@
     "coinGeckoId": "source"
   },
   {
+    "denom": "ibc/62118FB4D5FEDD5D2B18DC93648A745CD5E5B01D420E9B7A5FED5381CB13A7E8",
+    "type": "ibc",
+    "origin_chain": "chain4energy",
+    "origin_denom": "uc4e",
+    "origin_type": "native",
+    "symbol": "C4E",
+    "decimals": 6,
+    "enable": true,
+    "path": "chain4energy>osmosis",
+    "channel": "channel-22172",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "uc4e"
+    },
+    "image": "chain4energy/asset/chain4energy.png",
+    "coinGeckoId": "chain4energy"
+  },
+  {
     "denom": "factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo",
     "type": "native",
     "origin_chain": "osmosis",
@@ -3241,7 +3363,7 @@
     "decimals": 6,
     "description": "LAB - Everything is an Experiment",
     "image": "osmosis/asset/LAB.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "mad-scientists"
   },
   {
     "denom": "ibc/5EC896BED3EBCB2CB6F1C167582E4EFA3F6FA3385F28BA5EA92D4A489DA010C5",
@@ -3274,5 +3396,39 @@
     "description": "Bernese Mountain Dog. Thematic dog token to have fun and be friends with all other dog tokens. Fixed supply 132M.",
     "image": "osmosis/asset/bernese.png",
     "coinGeckoId": ""
-  }
+  },
+  {
+    "denom": "factory/osmo19hdqma2mj0vnmgcxag6ytswjnr8a3y07q7e70p/wLIBRA",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "microlibra",
+    "origin_type": "native",
+    "symbol": "wLIBRA",
+    "decimals": 6,
+    "path": "0l>LibraBridge>Osmosis",
+    "description": "wLIBRA is a bridged version of Libra Coin from 0L Network via LibraBridge.",
+    "image": "osmosis/asset/libra.png",
+    "coinGeckoId": "libra-3"
+  },
+  {
+    "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
+    "origin_type": "cw20",
+    "symbol": "NRIDE",
+    "decimals": 6,
+    "enable": true,
+    "path": "juno>osmosis",
+    "channel": "channel-169",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-47",
+      "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+      "denom": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
+    },
+    "image": "juno/asset/nride.png",
+    "coinGeckoId": "",
+    "contract": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
+   }
 ]

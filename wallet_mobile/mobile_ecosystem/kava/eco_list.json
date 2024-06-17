@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Kava",
+    "description": "The Kava app offers protocols decentralized lending and borrowing, liquidity mining, earning rewards with BUSD, and liquid staking of KAVA.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/kava.png",
+    "link": "https://app.kava.io/",
+    "type": "Dashboard"
+  },
+  {
+    "name": "Curve",
+    "description": "Curve is DeFi’s leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve’s factory and incentivized by Curve’s DAO.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/curve.png",
+    "link": "https://curve.fi/#/kava/swap",
+    "type": "DEX"
+  },
+  {
+    "name": "Sushi",
+    "description": "A leading multi-chain DEX deployed across 25+ blockchains, cooking up a community-built, open-source ecosystem of all the DeFi tools you need.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/sushi.png",
+    "link": "https://www.sushi.com/swap?chainId=2222",
+    "type": "DEX"
+  },
+  {
+    "name": "Beefy Finance",
+    "description": "The Multichain Yield Optimizer that autocompounds your crypto on BSC, Polygon, Fantom, HECO and Avalanche.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/beefy.jpg",
+    "link": "https://app.beefy.com/",
+    "type": "DeFi"
+  },
+  {
+    "name": "DEX Screener",
+    "description": "Real time DEX analytics.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/dex_scanner.jpg",
+    "link": "https://dexscreener.com/kava",
+    "type": "DeFi"
+  },
+  {
+    "name": "Stargate Finance",
+    "description": "Stargate is a fully composable liquidity transfer protocol at the heart of full-chain DeFi",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/stargate.jpg",
+    "link": "https://stargate.finance/",
+    "type": "DeFi"
+  }
+]

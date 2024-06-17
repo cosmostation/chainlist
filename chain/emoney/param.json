@@ -6,6 +6,7 @@
     "symbol_image" : "emoney/asset/ngm.png",
     "bechAccountPrefix" : "emoney",
     "bechValidatorPrefix" : "emoneyvaloper",
+    "name_for_dapp" : "EMONEY", 
     "api_name" : "emoney",
     "origin_genesis_time" : "2020-03-25T12:00:00Z",
     "accountType" : [
@@ -38,11 +39,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/emoney/",
-        "account": "https://www.mintscan.io/emoney/address/${address}",
-        "tx": "https://www.mintscan.io/emoney/tx/${hash}",
-        "proposal": "https://www.mintscan.io/emoney/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/emoney",
+        "account": "https://atomscan.com/emoney/accounts/${address}",
+        "tx": "https://atomscan.com/emoney/transactions/${hash}",
+        "proposal": "https://atomscan.com/emoney/votes/${id}"
     },
     "about" : {
         "website" : "https://e-money.com/",

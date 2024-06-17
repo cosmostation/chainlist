@@ -6,8 +6,16 @@
     "symbol_image" : "gravity-bridge/asset/grav.png",
     "bechAccountPrefix" : "gravity",
     "bechValidatorPrefix" : "gravityvaloper",
+    "name_for_dapp" : "GRAVITY BRIDGE", 
     "api_name" : "gravity-bridge",
     "origin_genesis_time" : "2021-12-10T14:45:49Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [

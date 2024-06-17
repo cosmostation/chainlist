@@ -119,5 +119,17 @@
     "description": "Levana Governance Token",
     "image": "osmosis/asset/levana.png",
     "coinGeckoId": "levana-protocol"
+  },
+  {
+    "denom": "factory/chihuahua1hplyuj2hzxd75q8686g9vm3uzrrny9ggvt8aza2csupgdp98vg2sp0e3h0/uhuahua.ash",
+    "type": "native",
+    "origin_chain": "chihuahua",
+    "origin_denom": "factory/chihuahua1hplyuj2hzxd75q8686g9vm3uzrrny9ggvt8aza2csupgdp98vg2sp0e3h0/uhuahua.ash",
+    "origin_type": "native",
+    "symbol": "ashHUAHUA",
+    "decimals": 6,
+    "description": "HUAHUA burn derivative",
+    "image": "chihuahua/asset/ashHUAHUA.png",
+    "coinGeckoId": ""
   }
 ]

@@ -1,0 +1,48 @@
+{
+  "chain_name": "Symphony Testnet",
+  "chain_id_cosmos": "symphony-testnet-1",
+  "chain_image": "symphony-testnet/asset/chain.png",
+  "symbol": "MLD",
+  "symbol_image": "symphony-testnet/asset/coin.png",
+  "bechAccountPrefix": "symphony",
+  "bechValidatorPrefix": "symphonyvaloper",
+  "name_for_dapp": "Symphony Testnet",
+  "api_name": "symphony",
+  "origin_genesis_time": "2024-06-07T14:57:42.831707703Z",
+  "accountType": [
+    {
+      "hd_path": "m/44'/118'/0'/0/X",
+      "pubkey_style": "secp256k1",
+      "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+    }
+  ],
+  "fee": {
+    "base": "1",
+    "rate": ["0.0025note", "0.025note"],
+    "init_gas_limit": 300000,
+    "isSimulable": true,
+    "simul_gas_multiply": 1.5,
+    "fee_threshold": ""
+  },
+  "grpc_endpoint": [
+    {
+      "provider": "Orchestra Labs",
+      "url": "https://rpc.testnet.symphonychain.org"
+    }
+  ],
+  "about": {
+    "website": "https://orchestralabs.org/",
+    "docs": "https://orchestralabs.org/documentation",
+    "github": "https://github.com/Orchestra-Labs",
+    "medium": "https://medium.com/@orchestra_labs",
+    "twitter": "https://twitter.com/orchestra_labs",
+    "coingecko": ""
+  },
+  "forum": {
+    "main": "",
+    "governance": ""
+  },
+  "description": {
+    "en": "The stablecoin chain."
+  }
+}
