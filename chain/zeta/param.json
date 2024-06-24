@@ -1,2 +1,29 @@
 {
+  "explorer" : {
+        "name": "Zetascan",
+        "url": "https://www.mintscan.io/zeta/",
+        "account": "https://www.mintscan.io/zeta/address/${address}",
+        "tx": "https://www.mintscan.io/zeta/tx/${hash}",
+        "proposal": "https://www.mintscan.io/zeta/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.zetachain.com/",
+        "docs": "https://www.zetachain.com/docs/",
+        "github" : "https://github.com/zeta-chain",
+        "blog" : "https://www.zetachain.com/blog",
+        "reddit" : "https://www.reddit.com/r/zetablockchain/",
+        "youtube" : "https://www.youtube.com/@ZetaBlockchain",
+        "twitter" : "https://twitter.com/zetablockchain", 
+        "telegram" : "https://t.me/zetachainofficial",
+        "discord" : "https://discord.com/invite/zetachain",
+        "coingecko" : ""
+    },
+    "forum": {
+      "main": "https://governance.zetachain.com/"
+    },
+    "description" : {
+        "ko" : "ZetaChain은 다양한 블록체인 간의 스마트 계약과 메시징을 지원하는 공공 블록체인입니다. 크로스체인 및 멀티체인 문제를 해결하여 결제, DeFi, 게임 등 여러 블록체인의 혜택을 누릴 수 있게 합니다.",
+        "en" : "ZetaChain is the foundational, public blockchain that enables omnichain smart contracts and messaging between any blockchain. It solves the problems of “cross-chain” and “multi-chain” and aims to open the crypto and global financial ecosystem to anyone.",
+        "ja" : "ZetaChainは、異なるブロックチェーン間でのスマートコントラクトとメッセージングをサポートするパブリックブロックチェーンです。「クロスチェーン」および「マルチチェーン」の問題を解決し、決済やDeFi、ゲームなど、さまざまなブロックチェーンの利点を享受できます。"
+    }
 }
