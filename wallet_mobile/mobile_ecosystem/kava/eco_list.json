@@ -1,12 +1,5 @@
 [
   {
-    "name": "Kinetix",
-    "description": "Kinetix Finance's DEX is a decentralized exchange platform allowing users to trade cryptocurrencies seamlessly.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/kinetix.png",
-    "link": "https://dex.kinetix.finance/#/",
-    "type": "DEX"
-  },
-  {
     "name": "Curve",
     "description": "Curve is DeFi’s leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve’s factory and incentivized by Curve’s DAO.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/curve.png",
@@ -56,18 +49,25 @@
     "type": "DeFi"
   },
   {
-    "name": "Wagmi",
-    "description": "Wagmi's platform allows users to trade and swap cryptocurrencies through a decentralized interface.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/wagmi.png",
-    "link": "https://app.wagmi.com/trade/swap#/trade/swap",
-    "type": "DeFi"
-  },
-  {
     "name": "Squidrouter",
     "description": "Squid Router is a decentralized finance (DeFi) platform designed to facilitate cross-chain swaps. It allows users to seamlessly exchange assets across different blockchain networks, offering a user-friendly interface for secure and efficient transactions.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/squidrouter.jpg",
     "link": "https://app.squidrouter.com/?chains=kava_2222-10%2C1&tokens=erc20%2Ftether%2Fusdt%2C0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "type": "Bridge"
+  },
+  {
+    "name": "Kinetix",
+    "description": "Kinetix Finance's DEX is a decentralized exchange platform allowing users to trade cryptocurrencies seamlessly.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/kinetix.png",
+    "link": "https://dex.kinetix.finance/#/",
+    "type": "DEX"
+  },
+  {
+    "name": "Wagmi",
+    "description": "Wagmi's platform allows users to trade and swap cryptocurrencies through a decentralized interface.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/wagmi.png",
+    "link": "https://app.wagmi.com/trade/swap#/trade/swap",
+    "type": "DeFi"
   },
   {
     "name": "Kava",
