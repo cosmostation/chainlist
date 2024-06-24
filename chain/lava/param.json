@@ -1,5 +1,21 @@
 {
+    "chain_id_cosmos": "lava-mainnet-1",
     "chain_name": "Lava",
+    "chain_image": "lava/resource/chain_lava.png",
+    "symbol" : "LAVA",
+    "symbol_image" : "lava/asset/lava.png",
+    "bechAccountPrefix" : "lava@",
+    "bechValidatorPrefix" : "lava@valoper",
+    "name_for_dapp" : "LAVA", 
+    "api_name" : "lava",
+    "origin_genesis_time" : "2024-01-17T15:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -11,7 +27,22 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-lava.cosmostation.io:443"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "lava.grpc.m.stavr.tech:443"
+        }
     ],
+    "explorer" : {
+        "name": "W3coins",
+        "url": "https://lava-explorer.w3coins.io/Lava",
+        "account": "https://lava-explorer.w3coins.io/Lava/account/${address}",
+        "tx": "https://lava-explorer.w3coins.io/Lava/tx/${hash}",
+        "proposal": "https://lava-explorer.w3coins.io/Lava/gov/${id}"
+    },
     "about" : {
         "website" : "https://www.lavanet.xyz/",
         "docs": "https://docs.lavanet.xyz/",
