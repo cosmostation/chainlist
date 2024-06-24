@@ -60,7 +60,7 @@
     "image": "stride/asset/stosmo.png",
     "coinGeckoId": "stride-staked-osmo"
   },
-    {
+  {
     "denom": "stuluna",
     "type": "native",
     "origin_chain": "stride",
@@ -179,6 +179,38 @@
     "description": "Stride Staked DYM",
     "image": "stride/asset/stdym.png",
     "coinGeckoId": "stride-staked-dym"
+  },
+  {
+    "denom": "staISLM",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "staISLM",
+    "origin_type": "native",
+    "symbol": "stISLM",
+    "decimals": 18,
+    "description": "Stride Staked ISLM",
+    "image": "stride/asset/stislm.png",
+    "coinGeckoId": "stride-staked-islm"
+  },
+  {
+    "denom": "ibc/255BEB856BFBC1B75A3C349CF769E9FADEB595804F4FC688A72D651576B9180E",
+    "type": "ibc",
+    "origin_chain": "haqq",
+    "origin_denom": "aISLM",
+    "origin_type": "staking",
+    "symbol": "ISLM",
+    "decimals": 18,
+    "enable": true,
+    "path": "haqq>stride",
+    "channel": "channel-240",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-7",
+      "port": "transfer",
+      "denom": "aISLM"
+    },
+    "image": "haqq/asset/islm.png",
+    "coinGeckoId": "islamic-coin"
   },
   {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
