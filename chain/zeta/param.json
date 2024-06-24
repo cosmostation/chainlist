@@ -1,6 +1,6 @@
 {
   "explorer" : {
-        "name": "Zetascan",
+        "name": "Mintscan",
         "url": "https://www.mintscan.io/zeta/",
         "account": "https://www.mintscan.io/zeta/address/${address}",
         "tx": "https://www.mintscan.io/zeta/tx/${hash}",
@@ -16,7 +16,7 @@
         "twitter" : "https://twitter.com/zetablockchain", 
         "telegram" : "https://t.me/zetachainofficial",
         "discord" : "https://discord.com/invite/zetachain",
-        "coingecko" : ""
+        "coingecko" : "https://www.coingecko.com/en/coins/zetachain"
     },
     "forum": {
       "main": "https://governance.zetachain.com/"
