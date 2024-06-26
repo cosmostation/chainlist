@@ -9,6 +9,7 @@
     "name_for_dapp" : "INJECTIVE", 
     "api_name" : "injective",
     "origin_genesis_time" : "2021-06-30T13:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
