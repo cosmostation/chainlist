@@ -116,12 +116,23 @@
     "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
   },
   {
+    "denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
+    "origin_type": "native",
+    "symbol": "ASTRO",
+    "decimals": 6,
+    "image": "terra/asset/astro.png",
+    "coinGeckoId": "astroport-fi"
+  },
+  {
     "denom": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
     "type": "ibc",
     "origin_chain": "terra",
     "origin_denom": "astro",
     "origin_type": "cw20",
-    "symbol": "ASTRO",
+    "symbol": "ASTRO.cw20",
     "decimals": 6,
     "enable": true,
     "path": "terra>neutron",
@@ -452,6 +463,7 @@
     "origin_denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
     "origin_type": "native",
     "symbol": "JIMMY",
+    "description": "Jimmy Neutron Finance",
     "decimals": 6,
     "image": "neutron/asset/jimmy.png",
     "coinGeckoId": ""
@@ -590,5 +602,17 @@
     "description": "Ninja Blaze Token",
     "image": "neutron/asset/nbz.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron154gg0wtm2v4h9ur8xg32ep64e8ef0g5twlsgvfeajqwghdryvyqsqhgk8e/APOLLO",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron154gg0wtm2v4h9ur8xg32ep64e8ef0g5twlsgvfeajqwghdryvyqsqhgk8e/APOLLO",
+    "origin_type": "native",
+    "symbol": "APOLLO",
+    "description": "Apollo DAO",
+    "decimals": 6,
+    "image": "neutron/asset/apollo.png",
+    "coinGeckoId": "apollo-2"
   }
 ]
