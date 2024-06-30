@@ -4,6 +4,7 @@
     "chain_image": "optimism/resource/chain_optimism.png",
     "symbol" : "ETH",
     "symbol_image" : "optimism/asset/eth_op.png",
+    "origin_genesis_time" : "2021-11-11T09:16:39Z",
     "evm_rpc_endpoint" : [
         {
             "provider": "Optimism",
