@@ -4,6 +4,7 @@
     "chain_image": "cronos/resource/chain_cronos.png",
     "symbol" : "CRO",
     "symbol_image" : "cronos/asset/cro.png",
+    "origin_genesis_time" : "2021-11-08T10:00:00Z",
     "evm_rpc_endpoint" : [
         {
             "provider": "Cronos",
