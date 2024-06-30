@@ -4,6 +4,7 @@
     "chain_image": "base/resource/chain_base.png",
     "symbol" : "ETH",
     "symbol_image" : "base/asset/eth_base.png",
+    "origin_genesis_time" : "2023-01-15T12:35:49Z",
     "evm_rpc_endpoint" : [
         {
             "provider": "Foundation",
