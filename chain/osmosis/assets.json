@@ -1050,7 +1050,7 @@
     "origin_chain": "kava",
     "origin_denom": "erc20/tether/usdt",
     "origin_type": "native",
-    "symbol": "USDt",
+    "symbol": "USDT.kava",
     "decimals": 6,
     "description": "Tether USDt",
     "enable": true,
@@ -3430,5 +3430,18 @@
     "image": "juno/asset/nride.png",
     "coinGeckoId": "",
     "contract": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
-   }
+  },
+  {
+    "denom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
+    "origin_type": "native",
+    "symbol": "USDT",
+    "decimals": 6,
+    "description": "Tether USDt",
+    "image": "osmosis/asset/usdt.svg",
+    "coinGeckoId": "tether",
+    "color": "#009393"
+  }
 ]
