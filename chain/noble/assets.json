@@ -24,6 +24,18 @@
     "coinGeckoId": "usd-coin"
   },
   {
+    "denom": "ausdy",
+    "type": "native",
+    "origin_chain": "noble",
+    "origin_denom": "ausdy",
+    "origin_type": "native",
+    "symbol": "USDY",
+    "decimals": 18,
+    "description": "Native Coin",
+    "image": "ethereum/asset/usdy.png",
+    "coinGeckoId": "ondo-us-dollar-yield"
+  },
+  {
     "denom": "ufrienzies",
     "type": "native",
     "origin_chain": "noble",
