@@ -9,6 +9,7 @@
     "name_for_dapp" : "COSMOS", 
     "api_name" : "cosmos",
     "origin_genesis_time" : "2019-03-13T23:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
