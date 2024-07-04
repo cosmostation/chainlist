@@ -1524,5 +1524,25 @@
     },
     "image": "neutron/asset/nbz.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/93EAE5F9D6C14BFAC8DD1AFDBE95501055A7B22C5D8FA8C986C31D6EFADCA8A9",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "ausdy",
+    "origin_type": "native",
+    "symbol": "USDY",
+    "decimals": 18,
+    "enable": true,
+    "path": "noble>injective",
+    "channel": "channel-148",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-31",
+      "port": "transfer",
+      "denom": "ausdy"
+    },
+    "image": "noble/asset/usdy.png",
+    "coinGeckoId": "ondo-us-dollar-yield"
   }
 ]
