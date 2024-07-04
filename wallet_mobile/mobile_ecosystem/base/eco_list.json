@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Aerodrome",
+    "description": "Decentralized finance (DeFi) platform designed for liquidity provisioning and yield farming.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/aerodrome.png",
+    "link": "https://aerodrome.finance/",
+    "type": "DeFi AMM"
+  },
+  {
+    "name": "Uniswap",
+    "description": "Uniswap V3 is a noncustodial automated market maker implemented for the Ethereum Virtual Machine. It provides increased capital efficiency, fine-tuned control of liquidity provider, and improve accuracy and convenience of its price oracle.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/uniswap.png",
+    "link": "https://app.uniswap.org/swap?chain=base",
+    "type": "DeFi AMM"
+  },
+  {
+    "name": "Moonwell",
+    "description": "Moonwell is a decentralized finance (DeFi) platform that offers simple and secure lending services.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/moonwell.png",
+    "link": "https://moonwell.fi/discover",
+    "type": "DeFi Lending"
+  },
+  {
+    "name": "Beefy Finance",
+    "description": "The Multichain Yield Optimizer that autocompounds your crypto on BSC, Polygon, Fantom, HECO and Avalanche.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/beefy.jpg",
+    "link": "https://app.beefy.com/",
+    "type": "DeFi"
+  },
+  {
+    "name": "Aave",
+    "description": "Aave is a decentralized finance money market protocol that allows you to lend, borrow, and earn interest on cryptocurrencies.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/aave.png",
+    "link": "https://app.aave.com/",
+    "type": "DeFi Lending"
+  },
+  {
+    "name": "Compound",
+    "description": "Compound's V3 app is a decentralized finance (DeFi) platform that allows users to lend and borrow cryptocurrencies.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/compound.jpg",
+    "link": "https://v3-app.compound.finance/?market=usdc-basemainnet",
+    "type": "DeFi Lending"
+  },
+  {
+    "name": "Zora",
+    "description": "Zora is a decentralized platform that allows users to create, buy, and sell NFTs.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/zora.png",
+    "link": "https://zora.co/",
+    "type": "NFT"
+  },
+  {
+    "name": "Opensea",
+    "description": "OpenSea is a decentralized marketplace for buying, selling, and discovering non-fungible tokens.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/opensea.png",
+    "link": "https://opensea.io/",
+    "type": "NFT"
+  }
+]
