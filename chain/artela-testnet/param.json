@@ -39,6 +39,13 @@
             "url": "https://rpc-office-evm.cosmostation.io/artela-testnet/"
         }
     ],
+    "explorer" : {
+        "name": "Nodestake",
+        "url": "https://explorer.nodestake.org/artela-testnet",
+        "account": "https://explorer.nodestake.org/artela-testnet/account/${address}",
+        "tx": "https://explorer.nodestake.org/artela-testnet/tx/${hash}",
+        "proposal": "https://explorer.nodestake.org/artela-testnet/gov/${id}"
+    },
     "about" : {
         "website" : "https://artela.network/",
         "docs": "https://docs.artela.network/",
