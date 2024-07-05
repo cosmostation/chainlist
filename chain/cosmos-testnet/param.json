@@ -1,5 +1,63 @@
 {
-    "chain_name": "Cosmoshub Testnet",
+
+    "chain_id_cosmos" : "theta-testnet-001",
+    "chain_name": "Cosmos Testnet",
+    "chain_image": "cosmos-testnet/resource/chain_cosmos-testnet.png",
+    "symbol" : "ATOM",
+    "symbol_image" : "cosmos-testnet/asset/atom.png",
+    "bechAccountPrefix" : "cosmos",
+    "bechValidatorPrefix" : "cosmosvaloper",
+    "name_for_dapp" : "COSMOS TESTNET", 
+    "api_name" : "cosmos-testnet",
+    "origin_genesis_time" : "2024-01-29T16:37:53Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.005uatom",
+            "0.025uatom"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.8,
+        "fee_threshold" : ""
+    },
+    "voting_threshold" : 1000000,
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-office.cosmostation.io:443"
+        },
+        {
+            "provider": "Hypha sentry-01",
+            "url": "grpc.sentry-01.theta-testnet.polypore.xyz:443"
+        },
+        {
+            "provider": "Hypha sentry-02",
+            "url": "grpc.sentry-02.theta-testnet.polypore.xyz:443"
+        },
+        {
+            "provider": "Hypha sync-01",
+            "url": "grpc.state-sync-01.theta-testnet.polypore.xy:443"
+        },
+        {
+            "provider": "Hypha sync-02",
+            "url": "grpc.state-sync-02.theta-testnet.polypore.xyz:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/cosmos-testnet/",
+        "account": "https://www.mintscan.io/cosmos-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/cosmos-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/cosmos-testnet/proposals/${id}"
+    },
     "about" : {
         "website" : "https://cosmos.network",
         "docs": "https://docs.cosmos.network",
