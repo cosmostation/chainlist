@@ -1,12 +1,5 @@
 [
   {
-    "name": "Aerodrome",
-    "description": "Decentralized finance (DeFi) platform designed for liquidity provisioning and yield farming.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/aerodrome.png",
-    "link": "https://aerodrome.finance/",
-    "type": "DeFi AMM"
-  },
-  {
     "name": "Uniswap",
     "description": "Uniswap V3 is a noncustodial automated market maker implemented for the Ethereum Virtual Machine. It provides increased capital efficiency, fine-tuned control of liquidity provider, and improve accuracy and convenience of its price oracle.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/uniswap.png",
@@ -31,7 +24,7 @@
     "name": "Aave",
     "description": "Aave is a decentralized finance money market protocol that allows you to lend, borrow, and earn interest on cryptocurrencies.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/aave.png",
-    "link": "https://app.aave.com/",
+    "link": "https://app.aave.com/?marketName=proto_base_v3",
     "type": "DeFi Lending"
   },
   {
@@ -54,5 +47,12 @@
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/opensea.png",
     "link": "https://opensea.io/",
     "type": "NFT"
-  }
+  },
+  {
+    "name": "Aerodrome",
+    "description": "Decentralized finance (DeFi) platform designed for liquidity provisioning and yield farming.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/base/resource/aerodrome.png",
+    "link": "https://aerodrome.finance/",
+    "type": "DeFi AMM"
+  },
 ]
