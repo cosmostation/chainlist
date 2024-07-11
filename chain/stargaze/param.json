@@ -9,6 +9,7 @@
     "name_for_dapp" : "STARGAZE", 
     "api_name" : "stargaze",
     "origin_genesis_time" : "2021-10-29T17:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
