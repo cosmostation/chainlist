@@ -38,11 +38,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/likecoin/",
-        "account": "https://www.mintscan.io/likecoin/address/${address}",
-        "tx": "https://www.mintscan.io/likecoin/tx/${hash}",
-        "proposal": "https://www.mintscan.io/likecoin/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/likecoin",
+        "account": "https://atomscan.com/likecoin/accounts/${address}",
+        "tx": "https://atomscan.com/likecoin/transactions/${hash}",
+        "proposal": "https://atomscan.com/likecoin/votes/${id}"
     },
     "about" : {
         "website" : "https://about.like.co/",

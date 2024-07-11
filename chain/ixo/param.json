@@ -41,11 +41,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/ixo/",
-        "account": "https://www.mintscan.io/ixo/address/${address}",
-        "tx": "https://www.mintscan.io/ixo/tx/${hash}",
-        "proposal": "https://www.mintscan.io/ixo/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/ixo",
+        "account": "https://atomscan.com/ixo/accounts/${address}",
+        "tx": "https://atomscan.com/ixo/transactions/${hash}",
+        "proposal": "https://atomscan.com/ixo/votes/${id}"
     },
     "about" : {
         "website" : "https://www.ixo.world/",
