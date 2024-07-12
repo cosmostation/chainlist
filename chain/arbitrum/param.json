@@ -5,6 +5,7 @@
     "symbol" : "ETH",
     "symbol_image" : "arbitrum/asset/eth_arb.png",
     "origin_genesis_time" : "2021-05-28T10:13:20Z",
+    "moblie_dapp" : true,
     "evm_rpc_endpoint" : [
         {
             "provider": "Arbitrum",
