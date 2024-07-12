@@ -56,13 +56,6 @@
     "type": "Defi"
   },
   {
-    "name": "INJ Name Service",
-    "description": "The INJ Name Service on Space ID offers a decentralized domain name service for the Injective blockchain. Users can register, manage, and trade .inj domain names, enabling simplified and readable wallet addresses.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/injective/resource/injspace.png",
-    "link": "https://inj.space.id/",
-    "type": "Name service"
-  },
-  {
     "name": "Dojo",
     "description": "DojoSwap is a decentralized exchange (DEX) that facilitates secure and efficient trading of digital assets.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/injective/resource/dojo.jpg",
@@ -119,6 +112,14 @@
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/injective/resource/kagefinance.jpg",
     "link": "https://app.kage.finance/",
     "type": "Defi"
+  },
+  {
+    "name": "INJ Name Service",
+    "description": "The INJ Name Service on Space ID offers a decentralized domain name service for the Injective blockchain. Users can register, manage, and trade .inj domain names, enabling simplified and readable wallet addresses.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/injective/resource/injspace.png",
+    "link": "https://inj.space.id/",
+    "type": "Name service",
+    "support" : false
   }
 ]
 
