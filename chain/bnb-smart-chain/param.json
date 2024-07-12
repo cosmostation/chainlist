@@ -5,6 +5,7 @@
     "symbol" : "BNB",
     "symbol_image" : "bnb-smart-chain/asset/bnb.png",
     "origin_genesis_time" : "2020-08-29T03:24:08Z",
+    "moblie_dapp" : true,
 	"evm_rpc_endpoint" : [
         {
             "provider": "Binance",
