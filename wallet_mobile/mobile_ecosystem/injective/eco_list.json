@@ -64,13 +64,7 @@
   },
 
   
-  {
-    "name": "Neptune Finance",
-    "description": "Neptune Finance is a decentralized finance platform offering lending, borrowing, and swapping services on the Injective blockchain.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/injective/resource/neptune.jpg",
-    "link": "https://app.nept.finance/",
-    "type": "Lending"
-  },
+  
   {
     "name": "Injscribed",
     "description": "Multi-utility platform on the Injective blockchain offering NFT collections like Injscribed Bears and Punks, along with various games and raffles.",
@@ -112,6 +106,14 @@
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/injective/resource/kagefinance.jpg",
     "link": "https://app.kage.finance/",
     "type": "Defi"
+  },
+  {
+    "name": "Neptune Finance",
+    "description": "Neptune Finance is a decentralized finance platform offering lending, borrowing, and swapping services on the Injective blockchain.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/injective/resource/neptune.jpg",
+    "link": "https://app.nept.finance/",
+    "type": "Lending",
+    "support" : false
   },
   {
     "name": "INJ Name Service",
