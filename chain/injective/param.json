@@ -17,6 +17,7 @@
             "pubkey_type": "/injective.crypto.v1beta1.ethsecp256k1.PubKey"
         }
     ],
+    "tx_timeout_add" : 100, 
     "fee" : {
         "base" : "0",
         "rate" : [
