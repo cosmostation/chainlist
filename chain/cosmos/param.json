@@ -23,6 +23,7 @@
             "0.005uatom",
             "0.025uatom"
         ],
+        "feemarket": true,
         "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.8,
