@@ -32,6 +32,20 @@
             "url": "grpc-office-nillion.cosmostation.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office-nillion.cosmostation.io:443"
+        },
+        {
+            "provider": "polkachu",
+            "url": "https://nillion-testnet-api.polkachu.com"
+        },
+        {
+            "provider": "lavenderfive",
+            "url": "https://testnet-nillion-api.lavenderfive.com"
+        }
+    ],
     "explorer" : {
         "name": "Nodeguru",
         "url": "https://testnet.nillion.explorers.guru",

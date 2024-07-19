@@ -40,6 +40,28 @@
             "url": "mars-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-mars-protocol.cosmostation.io:443"
+        },
+        {
+            "provider": "Delphi Labs",
+            "url": "https://rest.marsprotocol.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://mars-api.lavenderfive.com:443"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://mars-mainnet-lcd.autostake.com:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://mars-api.polkachu.com"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/mars-protocol/",

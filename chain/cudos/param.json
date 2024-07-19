@@ -37,6 +37,28 @@
             "url": "cudos-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-cudos.cosmostation.io:443"
+        },
+        {
+            "provider": "cudo",
+            "url": "http://mainnet-full-node-01.hosts.cudos.org:1317"
+        },
+        {
+            "provider": "Kleomedes",
+            "url": "https://cudos-api.kleomedes.network"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://cudos-mainnet-lcd.autostake.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://cudos-api.lavenderfive.com"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/cudos/",

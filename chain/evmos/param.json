@@ -73,6 +73,12 @@
             "url": "https://json-rpc.evmos.validatus.com"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-evmos.cosmostation.io:443"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/evmos/",

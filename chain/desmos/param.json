@@ -38,6 +38,28 @@
             "url": "desmos-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-desmos.cosmostation.io:443"
+        },
+        {
+            "provider": "desmos",
+            "url": "https://api.mainnet.desmos.network"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://desmos-api.ibs.team"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://desmos-rest.staketab.org"
+        },
+        {
+            "provider": "TC Network",
+            "url": "https://rest.desmos.tcnetwork.io"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/desmos/",

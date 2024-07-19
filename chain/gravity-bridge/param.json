@@ -40,6 +40,28 @@
             "url": "gravitybridge-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-gravity-bridge.cosmostation.io:443"
+        },
+        {
+            "provider": "althea",
+            "url": "https://gravitychain.io:1317"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://gravity-api.polkachu.com"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://gravitybridge-api.lavenderfive.com"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://gravity-rest.staketab.org"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/gravity-bridge/",

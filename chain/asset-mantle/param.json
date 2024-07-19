@@ -46,6 +46,32 @@
             "url": "assetmantle-grpc.stakerhouse.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-asset-mantle.cosmostation.io:443"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-assetmantle.whispernode.com:443"
+        },
+        {
+            "provider": "paranorm",
+            "url": "https://api.mantle.paranorm.pro:443"
+        },
+        {
+            "provider": "StakerHouse",
+            "url": "https://assetmantle-rest.stakerhouse.com"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://assetmantle-api.polkachu.com"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-assetmantle.ecostake.com"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/asset-mantle/",

@@ -52,6 +52,32 @@
             "url": "grpc-cosmoshub.mms.team:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-cosmos.cosmostation.io:443"
+        },
+        {
+            "provider": "Chainlayer",
+            "url": "https://cosmos-lcd.quickapi.com:443"
+        },
+        {
+            "provider": "Golden Ratio Staking",
+            "url": "https://rest.cosmoshub.goldenratiostaking.net"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://cosmoshub-api.lavenderfive.com:443"
+        },
+        {
+            "provider": "PUPMØS",
+            "url": "https://api-cosmoshub.pupmos.network"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-cosmoshub.cosmos-spaces.cloud"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/cosmos/",
