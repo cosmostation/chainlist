@@ -45,6 +45,28 @@
             "url": "grpc-sei.whispernode.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-sei.cosmostation.io:443"
+        },
+        {
+            "provider": "polkachu.com",
+            "url": "https://sei-api.polkachu.com"
+        },
+        {
+            "provider": "StingRay",
+            "url": "https://api-sei.stingray.plus"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-sei.whispernode.com:443"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://sei.api.kjnodes.com"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/sei/",

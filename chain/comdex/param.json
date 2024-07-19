@@ -41,6 +41,28 @@
             "url": "comdex-grpc.stakerhouse.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-comdex.cosmostation.io:443"
+        },
+        {
+            "provider": "comdex",
+            "url": "https://rest.comdex.one"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://comdex-api.polkachu.com"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://comdex.api.m.stavr.tech"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://comdex-api.lavenderfive.com"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/comdex/",

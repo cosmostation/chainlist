@@ -40,6 +40,28 @@
             "url": "kichain-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-ki-chain.cosmostation.io:443"
+        },
+        {
+            "provider": "kifoundation",
+            "url": "https://api-mainnet.blockchain.ki"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://kichain.api.m.stavr.tech"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "https://api.kichain.chaintools.tech"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://kichain-mainnet-lcd.autostake.com:443"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/ki-chain/",

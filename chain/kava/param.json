@@ -81,6 +81,12 @@
             "url": "https://rpc.ankr.com/kava_evm"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-kava.cosmostation.io:443"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/kava/",

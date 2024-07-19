@@ -51,6 +51,28 @@
             "url": "full-node-uranium.mainnet-1.coreum.dev:9090"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-coreum.cosmostation.io:443"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-coreum.ecostake.com"
+        },
+        {
+            "provider": "Silk Nodes",
+            "url": "https://coreum.api.silknodes.io"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://coreum-api.ibs.team"
+        },
+        {
+            "provider": "Stakewolle",
+            "url": "https://public.stakewolle.com/cosmos/coreum/rest"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/coreum/",

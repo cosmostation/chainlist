@@ -37,6 +37,28 @@
             "url": "grpc-likecoin-mainnet.pikaser.net:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-likecoin.cosmostation.io:443"
+        },
+        {
+            "provider": "like.co",
+            "url": "https://mainnet-node.like.co"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://like.api.m.stavr.tech"
+        },
+        {
+            "provider": "Oldcat",
+            "url": "https://likecoin-node.oldcat.io:443/api"
+        },
+        {
+            "provider": "PikaSer",
+            "url": "https://rest-likecoin-mainnet.pikaser.net"
+        }
+    ],
     "explorer" : {
         "name": "Atomscan",
         "url": "https://atomscan.com/likecoin",

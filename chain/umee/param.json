@@ -49,6 +49,28 @@
             "url": "umee-grpc.stake-town.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-umee.cosmostation.io:443"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://umee.api.m.stavr.tech"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://umee-mainnet-lcd.autostake.com:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://umee-api.polkachu.com"
+        },
+        {
+            "provider": "QuantNode",
+            "url": "https://umee-lcd.quantnode.tech"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/umee/",

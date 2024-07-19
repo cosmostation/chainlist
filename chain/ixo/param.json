@@ -40,6 +40,28 @@
             "url": "impacthub-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-ixo.cosmostation.io:443"
+        },
+        {
+            "provider": "ixoworld",
+            "url": "https://impacthub.ixo.world/rest"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://ixo.api.m.stavr.tech"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://impacthub-api.lavenderfive.com"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://ixo-api.ibs.team"
+        }
+    ],
     "explorer" : {
         "name": "Atomscan",
         "url": "https://atomscan.com/ixo",

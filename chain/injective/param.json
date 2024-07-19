@@ -46,6 +46,20 @@
             "url": "injective-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-injective.cosmostation.io:443"
+        },
+        {
+            "provider": "NewMetric",
+            "url": "https://6d0ff611-9009-4bd1-a7a7-acec7c70d454.injective-1.mesa-rest.newmetric.xyz"
+        },
+        {
+            "provider": "High Stakes 🇨🇭",
+            "url": "https://injective-api.highstakes.ch"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/injective/",

@@ -38,6 +38,16 @@
             "url": "grpc.mainnet.crypto.org:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-crypto-org.cosmostation.io:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://cryptocom-api.polkachu.com"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/crypto-org/",
