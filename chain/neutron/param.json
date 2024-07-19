@@ -37,6 +37,28 @@
         "url": "grpc-neutron.whispernode.com:443"
       }
     ],
+    "lcd_endpoint": [
+      {
+        "provider": "Cosmostation",
+        "url": "https://lcd-neutron.cosmostation.io/"
+      },
+      {
+        "provider": "Lavenderfive",
+        "url": "https://neutron-api.lavenderfive.com/"
+      },
+      {
+        "provider": "WhisperNode🤐",
+        "url": "https://lcd-neutron.whispernode.com/"
+      },
+      {
+        "provider": "Cosmos Spaces",
+        "url": "https://api-neutron.cosmos-spaces.cloud/"
+      },
+      {
+        "provider": "🐹 Quokka Stake",
+        "url": "https://api.neutron.quokkastake.io/"
+      }
+    ],
     "moblie_dapp" : true,
     "explorer" : {
         "name": "Mintscan",
