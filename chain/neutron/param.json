@@ -37,27 +37,27 @@
         "url": "grpc-neutron.whispernode.com:443"
       }
     ],
-    "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-neutron.cosmostation.io:443"
-        },
-        {
-            "provider": "WhisperNode 🤐",
-            "url": "https://lcd-neutron.whispernode.com"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "https://api-neutron.cosmos-spaces.cloud"
-        },
-        {
-            "provider": "Bro_n_Bro",
-            "url": "https://lcd.neutron.bronbro.io:443"
-        },
-        {
-            "provider": "🐹 Quokka Stake",
-            "url": "https://api.neutron.quokkastake.io"
-        }
+    "lcd_endpoint": [
+      {
+        "provider": "Cosmostation",
+        "url": "https://lcd-neutron.cosmostation.io/"
+      },
+      {
+        "provider": "Lavenderfive",
+        "url": "https://neutron-api.lavenderfive.com/"
+      },
+      {
+        "provider": "WhisperNode🤐",
+        "url": "https://lcd-neutron.whispernode.com/"
+      },
+      {
+        "provider": "Cosmos Spaces",
+        "url": "https://api-neutron.cosmos-spaces.cloud/"
+      },
+      {
+        "provider": "🐹 Quokka Stake",
+        "url": "https://api.neutron.quokkastake.io/"
+      }
     ],
     "moblie_dapp" : true,
     "explorer" : {
