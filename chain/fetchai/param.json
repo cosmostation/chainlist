@@ -55,23 +55,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-fetchai.cosmostation.io:443"
+            "url": "https://lcd-fetchai.cosmostation.io/"
         },
         {
             "provider": "Polkachu",
-            "url": "https://fetch-api.polkachu.com"
+            "url": "https://fetch-api.polkachu.com/"
         },
         {
             "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://fetchhub-mainnet-lcd.autostake.com:443"
+            "url": "https://fetchhub-mainnet-lcd.autostake.com/"
         },
         {
             "provider": "w3coins",
-            "url": "https://fetch-api.w3coins.io"
+            "url": "https://fetch-api.w3coins.io/"
         },
         {
             "provider": "AVIAONE 🟢",
-            "url": "https://api.fetchhub-4.fetch.aviaone.com"
+            "url": "https://api.fetchhub-4.fetch.aviaone.com/"
         }
     ],
     "explorer" : {

@@ -43,23 +43,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-ixo.cosmostation.io:443"
+            "url": "https://lcd-ixo.cosmostation.io/"
         },
         {
             "provider": "ixoworld",
-            "url": "https://impacthub.ixo.world/rest"
+            "url": "https://impacthub.ixo.world/rest/"
         },
         {
             "provider": "🔥STAVR🔥",
-            "url": "https://ixo.api.m.stavr.tech"
+            "url": "https://ixo.api.m.stavr.tech/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://impacthub-api.lavenderfive.com"
+            "url": "https://impacthub-api.lavenderfive.com/"
         },
         {
             "provider": "Inter Blockchain Services",
-            "url": "https://ixo-api.ibs.team"
+            "url": "https://ixo-api.ibs.team/"
         }
     ],
     "explorer" : {

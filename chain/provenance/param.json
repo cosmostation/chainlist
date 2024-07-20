@@ -35,23 +35,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-provenance.cosmostation.io:443"
+            "url": "https://lcd-provenance.cosmostation.io/"
         },
         {
             "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://provenance-mainnet-lcd.autostake.com:443"
+            "url": "https://provenance-mainnet-lcd.autostake.com/"
         },
         {
             "provider": "🔥STAVR🔥",
-            "url": "https://provenance.api.m.stavr.tech"
+            "url": "https://provenance.api.m.stavr.tech/"
         },
         {
             "provider": "Inter Blockchain Services",
-            "url": "https://provenance-api.ibs.team"
+            "url": "https://provenance-api.ibs.team/"
         },
         {
             "provider": "High Stakes 🇨🇭",
-            "url": "https://provenance-api.highstakes.ch"
+            "url": "https://provenance-api.highstakes.ch/"
         }
     ],
     "explorer" : {

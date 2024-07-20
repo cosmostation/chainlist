@@ -35,15 +35,15 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-medibloc.cosmostation.io:443"
+            "url": "https://lcd-medibloc.cosmostation.io/"
         },
         {
             "provider": "medibloc",
-            "url": "https://api.gopanacea.org"
+            "url": "https://api.gopanacea.org/"
         },
         {
             "provider": "Staketab",
-            "url": "https://panacea-rest.staketab.org"
+            "url": "https://panacea-rest.staketab.org/"
         }
     ],
     "explorer" : {

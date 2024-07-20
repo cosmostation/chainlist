@@ -47,23 +47,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-dydx.cosmostation.io:443"
+            "url": "https://lcd-dydx.cosmostation.io/"
         },
         {
             "provider": "PRO Delegators",
-            "url": "https://community.nuxian-node.ch:6797/dydx/crpc"
+            "url": "https://community.nuxian-node.ch:6797/dydx/crpc/"
         },
         {
             "provider": "Polkachu",
-            "url": "https://dydx-dao-api.polkachu.com"
+            "url": "https://dydx-dao-api.polkachu.com/"
         },
         {
             "provider": "Bware Labs",
-            "url": "https://dydx-mainnet-full-lcd.public.blastapi.io"
+            "url": "https://dydx-mainnet-full-lcd.public.blastapi.io/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://dydx-api.lavenderfive.com:443"
+            "url": "https://dydx-api.lavenderfive.com/"
         }
     ],
     "explorer" : {

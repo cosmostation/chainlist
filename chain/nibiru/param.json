@@ -53,23 +53,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-nibiru.cosmostation.io:443"
+            "url": "https://lcd-nibiru.cosmostation.io/"
         },
         {
             "provider": "silent",
-            "url": "https://api.nibiru.silentvalidator.com"
+            "url": "https://api.nibiru.silentvalidator.com/"
         },
         {
             "provider": "LiveRaveN",
-            "url": "https://nibiru.api.liveraven.net"
+            "url": "https://nibiru.api.liveraven.net/"
         },
         {
             "provider": "Cogwheel ⚙️",
-            "url": "https://nibiru-api.cogwheel.zone"
+            "url": "https://nibiru-api.cogwheel.zone/"
         },
         {
             "provider": "🔥STAVR🔥",
-            "url": "https://nibiru.api.m.stavr.tech"
+            "url": "https://nibiru.api.m.stavr.tech/"
         }
     ],
     "explorer" : {

@@ -21,16 +21,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "starname",
-            "url": "grpc-starname-ia.cosmosia.notional.ventures:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-starname.cosmostation.io:443"
-        }
     ],
     "explorer" : {
         "name": "Atomscan",

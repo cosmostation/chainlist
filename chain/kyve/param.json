@@ -43,23 +43,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-kyve.cosmostation.io:443"
+            "url": "https://lcd-kyve.cosmostation.io/"
         },
         {
             "provider": "kyve",
-            "url": "https://api-eu-1.kyve.network"
+            "url": "https://api-eu-1.kyve.network/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://kyve-api.lavenderfive.com:443"
+            "url": "https://kyve-api.lavenderfive.com/"
         },
         {
             "provider": "ecostake",
-            "url": "https://rest-kyve.ecostake.com"
+            "url": "https://rest-kyve.ecostake.com/"
         },
         {
             "provider": "Imperator.co",
-            "url": "https://lcd-kyve.imperator.co"
+            "url": "https://lcd-kyve.imperator.co/"
         }
     ],
     "explorer" : {

@@ -39,15 +39,15 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-noble.cosmostation.io:443"
+            "url": "https://lcd-noble.cosmostation.io/"
         },
         {
             "provider": "polkachu",
-            "url": "https://noble-api.polkachu.com"
+            "url": "https://noble-api.polkachu.com/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://noble-api.lavenderfive.com:443"
+            "url": "https://noble-api.lavenderfive.com/"
         }
     ],
     "explorer" : {

@@ -35,15 +35,15 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-office-nillion.cosmostation.io:443"
+            "url": "https://lcd-office-nillion.cosmostation.io/"
         },
         {
             "provider": "polkachu",
-            "url": "https://nillion-testnet-api.polkachu.com"
+            "url": "https://nillion-testnet-api.polkachu.com/"
         },
         {
             "provider": "lavenderfive",
-            "url": "https://testnet-nillion-api.lavenderfive.com"
+            "url": "https://testnet-nillion-api.lavenderfive.com/"
         }
     ],
     "explorer" : {

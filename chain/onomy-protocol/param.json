@@ -35,15 +35,15 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-onomy-protocol.cosmostation.io:443"
+            "url": "https://lcd-onomy-protocol.cosmostation.io/"
         },
         {
             "provider": "onomy",
-            "url": "https://rest-mainnet.onomy.io"
+            "url": "https://rest-mainnet.onomy.io/"
         },
         {
             "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://onomy-mainnet-lcd.autostake.com:443"
+            "url": "https://onomy-mainnet-lcd.autostake.com/"
         }
     ],
     "explorer" : {

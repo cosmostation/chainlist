@@ -55,27 +55,27 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-cosmos.cosmostation.io:443"
+            "url": "https://lcd-cosmos.cosmostation.io/"
         },
         {
             "provider": "Chainlayer",
-            "url": "https://cosmos-lcd.quickapi.com:443"
+            "url": "https://cosmos-lcd.quickapi.com/"
         },
         {
             "provider": "Golden Ratio Staking",
-            "url": "https://rest.cosmoshub.goldenratiostaking.net"
+            "url": "https://rest.cosmoshub.goldenratiostaking.net/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://cosmoshub-api.lavenderfive.com:443"
+            "url": "https://cosmoshub-api.lavenderfive.com/"
         },
         {
             "provider": "PUPMØS",
-            "url": "https://api-cosmoshub.pupmos.network"
+            "url": "https://api-cosmoshub.pupmos.network/"
         },
         {
             "provider": "Cosmos Spaces",
-            "url": "https://api-cosmoshub.cosmos-spaces.cloud"
+            "url": "https://api-cosmoshub.cosmos-spaces.cloud/"
         }
     ],
     "explorer" : {

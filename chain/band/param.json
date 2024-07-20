@@ -40,23 +40,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-band.cosmostation.io:443"
+            "url": "https://lcd-band.cosmostation.io/"
         },
         {
             "provider": "Inter Blockchain Services",
-            "url": "https://band-api.ibs.team"
+            "url": "https://band-api.ibs.team/"
         },
         {
             "provider": "Cosmos Spaces",
-            "url": "https://api-band.cosmos-spaces.cloud"
+            "url": "https://api-band.cosmos-spaces.cloud/"
         },
         {
             "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://bandchain-mainnet-lcd.autostake.com:443"
+            "url": "https://bandchain-mainnet-lcd.autostake.com/"
         },
         {
             "provider": "w3coins",
-            "url": "https://band-api.w3coins.io"
+            "url": "https://band-api.w3coins.io/"
         }
     ],
     "explorer" : {

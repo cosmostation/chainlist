@@ -41,23 +41,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-desmos.cosmostation.io:443"
+            "url": "https://lcd-desmos.cosmostation.io/"
         },
         {
             "provider": "desmos",
-            "url": "https://api.mainnet.desmos.network"
+            "url": "https://api.mainnet.desmos.network/"
         },
         {
             "provider": "Inter Blockchain Services",
-            "url": "https://desmos-api.ibs.team"
+            "url": "https://desmos-api.ibs.team/"
         },
         {
             "provider": "Staketab",
-            "url": "https://desmos-rest.staketab.org"
+            "url": "https://desmos-rest.staketab.org/"
         },
         {
             "provider": "TC Network",
-            "url": "https://rest.desmos.tcnetwork.io"
+            "url": "https://rest.desmos.tcnetwork.io/"
         }
     ],
     "explorer" : {

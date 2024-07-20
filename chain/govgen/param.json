@@ -41,15 +41,15 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-govgen.cosmostation.io:443"
+            "url": "https://lcd-govgen.cosmostation.io/"
         },
         {
             "provider": "AllInBits",
-            "url": "https://api.govgen.io"
+            "url": "https://api.govgen.io/"
         },
         {
             "provider": "Nodes Hub",
-            "url": "https://govgen.api.nodeshub.online"
+            "url": "https://govgen.api.nodeshub.online/"
         }
     ],
     "explorer" : {

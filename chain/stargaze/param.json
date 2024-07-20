@@ -45,23 +45,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-stargaze.cosmostation.io:443"
+            "url": "https://lcd-stargaze.cosmostation.io/"
         },
         {
             "provider": "Stargaze Foundation",
-            "url": "https://rest.stargaze-apis.com"
+            "url": "https://rest.stargaze-apis.com/"
         },
         {
             "provider": "PUPMØS",
-            "url": "https://api-stargaze.pupmos.network"
+            "url": "https://api-stargaze.pupmos.network/"
         },
         {
             "provider": "D-stake",
-            "url": "https://api-stargaze.d-stake.xyz"
+            "url": "https://api-stargaze.d-stake.xyz/"
         },
         {
             "provider": "ramuchi.tech",
-            "url": "https://stargaze-api.ramuchi.tech"
+            "url": "https://stargaze-api.ramuchi.tech/"
         }
     ],
     "explorer" : {

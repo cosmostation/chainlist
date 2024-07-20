@@ -36,23 +36,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-shentu.cosmostation.io:443"
+            "url": "https://lcd-shentu.cosmostation.io/"
         },
         {
             "provider": "Shentu",
-            "url": "https://rest.noopsbycertik.com"
+            "url": "https://rest.noopsbycertik.com/"
         },
         {
             "provider": "Polkachu",
-            "url": "https://shentu-api.polkachu.com"
+            "url": "https://shentu-api.polkachu.com/"
         },
         {
             "provider": "🔥STAVR🔥",
-            "url": "https://shentu.api.m.stavr.tech"
+            "url": "https://shentu.api.m.stavr.tech/"
         },
         {
             "provider": "ramuchi.tech",
-            "url": "https://shentu-api.ramuchi.tech"
+            "url": "https://shentu-api.ramuchi.tech/"
         }
     ],
     "explorer" : {

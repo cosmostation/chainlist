@@ -39,7 +39,11 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-finschia.cosmostation.io:443"
+            "url": "https://lcd-finschia.cosmostation.io/"
+        },
+        {
+            "provider": "Finschia",
+            "url": "https://finschia-api.finschia.io/"
         }
     ],
     "explorer" : {

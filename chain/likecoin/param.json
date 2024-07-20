@@ -40,23 +40,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-likecoin.cosmostation.io:443"
+            "url": "https://lcd-likecoin.cosmostation.io/"
         },
         {
             "provider": "like.co",
-            "url": "https://mainnet-node.like.co"
+            "url": "https://mainnet-node.like.co/"
         },
         {
             "provider": "🔥STAVR🔥",
-            "url": "https://like.api.m.stavr.tech"
+            "url": "https://like.api.m.stavr.tech/"
         },
         {
             "provider": "Oldcat",
-            "url": "https://likecoin-node.oldcat.io:443/api"
+            "url": "https://likecoin-node.oldcat.io/api/"
         },
         {
             "provider": "PikaSer",
-            "url": "https://rest-likecoin-mainnet.pikaser.net"
+            "url": "https://rest-likecoin-mainnet.pikaser.net/"
         }
     ],
     "explorer" : {
