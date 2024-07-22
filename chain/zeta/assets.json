@@ -1,2 +1,16 @@
 [
+	{
+		"denom": "azeta",
+	    "type": "staking",
+	    "origin_chain": "zeta",
+	    "origin_denom": "azeta",
+	    "origin_type": "staking",
+	    "symbol": "ZETA",
+	    "decimals": 18,
+	    "description": "Zeta Staking Coin",
+	    "image": "zeta/asset/zeta.png",
+	    "coinGeckoId": "zetachain",
+	    "color": "#084731"
+
+	}
 ]
