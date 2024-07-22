@@ -34,10 +34,6 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office-nillion.cosmostation.io/"
-        },
-        {
             "provider": "polkachu",
             "url": "https://nillion-testnet-api.polkachu.com/"
         },
