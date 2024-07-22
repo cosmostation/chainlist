@@ -61,11 +61,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/desmos/",
-        "account": "https://www.mintscan.io/desmos/address/${address}",
-        "tx": "https://www.mintscan.io/desmos/tx/${hash}",
-        "proposal": "https://www.mintscan.io/desmos/proposals/${id}"
+        "name": "Bigdipper",
+        "url": "https://bigdipper.live/desmos/",
+        "account": "https://bigdipper.live/desmos/accounts/${address}",
+        "tx": "https://bigdipper.live/desmos/transactions/${hash}",
+        "proposal": "https://bigdipper.live/desmos/proposals/${id}"
     },
     "about" : {
         "website" : "https://www.desmos.network/",

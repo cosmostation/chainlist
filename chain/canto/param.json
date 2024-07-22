@@ -34,6 +34,20 @@
             "url": "grpc-canto.cosmostation.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-canto.cosmostation.io/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://canto-api.polkachu.com/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://canto-mainnet-lcd.autostake.com/"
+        }
+    ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",
