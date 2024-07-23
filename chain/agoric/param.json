@@ -1,2 +1,29 @@
 {
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/agoric/",
+        "account": "https://www.mintscan.io/agoric/address/${address}",
+        "tx": "https://www.mintscan.io/agoric/tx/${hash}",
+        "proposal": "https://www.mintscan.io/agoric/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://agoric.com/",
+        "docs": "https://docs.agoric.com/",
+        "github" : "https://github.com/agoric",
+        "blog" : "https://agoric.com/blog",
+        "medium": "",
+        "twitter" : "https://agoric.com/twitter/",
+        "discord" : "https://agoric.com/discord/",
+        "telegram" : "https://agoric.com/telegram/",
+        "youtube" : "https://www.youtube.com/agoric",
+        "coingecko" : ""
+    },
+    "forum": {
+      "main": "https://community.agoric.com/"
+    },
+    "description" : {
+        "ko" : "Agoric는 자바스크립트로 크로스체인 스마트 계약을 구축하기 위한 코스모스 기반 레이어 1 블록체인입니다.",
+        "en" : "Agoric is a Cosmos-based Layer 1 blockchain for building cross-chain smart contracts in JavaScript.",
+        "ja" : "AgoricはJavaScriptでクロスチェーンスマートコントラクトを構築するための、Cosmosベースのレイヤー1ブロックチェーンです。"
+    }
 }
