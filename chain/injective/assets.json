@@ -1568,5 +1568,17 @@
     "description": "Syndicate",
     "image": "injective/asset/syn.jpg",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash",
+    "origin_type": "native",
+    "symbol": "ashSYN",
+    "decimals": 6,
+    "description": "SYN burn derivative",
+    "image": "injective/asset/syn.ash.png",
+    "coinGeckoId": ""
   }
 ]
