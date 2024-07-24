@@ -37,6 +37,28 @@
             "url": "band-grpc.stake-town.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-band.cosmostation.io/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://band-api.ibs.team/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-band.cosmos-spaces.cloud/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://bandchain-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://band-api.w3coins.io/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/band/",

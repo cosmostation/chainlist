@@ -21,13 +21,6 @@
     "type": "DeFi"
   },
   {
-    "name": "Red Bank",
-    "description": "Lend, borrow and earn on Red Bank lending platform designed by Mars Protocol team.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/marsredbank.png",
-    "link": "https://neutron.marsprotocol.io",
-    "type": "Lending"
-  },
-  {
     "name": "DaoDao Zone",
     "description": "Simple, capable, and free DAO toolings for Neutron",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/daodao-neutron.png",
@@ -40,13 +33,6 @@
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/coinhall-cover.png",
     "link": "https://coinhall.org",
     "type": "Dex"
-  },
-  {
-    "name": "Eclipsefi",
-    "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/eclipse-fi.png",
-    "link": "https://eclipsefi.io/projects",
-    "type": "Launch Pad"
   },
   {
     "name": "Hyperlane Nexus",
@@ -63,10 +49,27 @@
     "type": "Trading"
   },
   {
+    "name": "Eclipsefi",
+    "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/eclipse-fi.png",
+    "link": "https://eclipsefi.io/projects",
+    "type": "Launch Pad",
+    "support" : false
+  },
+  {
+    "name": "Red Bank",
+    "description": "Lend, borrow and earn on Red Bank lending platform designed by Mars Protocol team.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/marsredbank.png",
+    "link": "https://neutron.marsprotocol.io",
+    "type": "Lending",
+    "support" : false
+  },
+  {
     "name": "TFM",
     "description": "TFM is a financial technology platform that offers a range of financial products and services.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/tfm.png",
     "link": "https://tfm.com/neutron/trade/protrade",
-    "type": "Trading"
+    "type": "Trading",
+    "support" : false
   }
 ]

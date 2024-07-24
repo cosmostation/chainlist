@@ -36,6 +36,28 @@
             "url": "lava.grpc.m.stavr.tech:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-lava.cosmostation.io/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://lava-api.w3coins.io/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://lava-api.ibs.team/"
+        },
+        {
+            "provider": "AVIAONE",
+            "url": "https://api.lava-mainnet-1.lava.aviaone.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://lava.api.m.stavr.tech/"
+        }
+    ],
     "explorer" : {
         "name": "W3coins",
         "url": "https://lava-explorer.w3coins.io/Lava",

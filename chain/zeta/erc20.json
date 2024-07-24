@@ -1,0 +1,90 @@
+[
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0x5F0b1a82749cb4E2278EC87F8BF6B618dC71a8bf",
+    "symbol": "WZETA",
+    "description": "Wrapped Zeta",
+    "decimals": 18,
+    "image": "zeta/asset/wzeta.png",
+    "default": true,
+    "coinGeckoId": "wrapped-zetachain"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0xd97B1de3619ed2c6BEb3860147E30cA8A7dC9891",
+    "symbol": "ETH.ETH",
+    "description": "ZetaChain Bridged ETH.ETH (ZRC20)",
+    "decimals": 18,
+    "image": "zeta/asset/eth-eth.png",
+    "default": true,
+    "coinGeckoId": "zetachain-eth-eth"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0x7c8dDa80bbBE1254a7aACf3219EBe1481c6E01d7",
+    "symbol": "USDT.ETH",
+    "description": "ZetaChain Bridged USDT.ETH (ZRC20)",
+    "decimals": 6,
+    "image": "zeta/asset/usdt.ETH.png",
+    "default": true,
+    "coinGeckoId": "zetachain-bridged-usdt-eth-zetachain"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a",
+    "symbol": "USDC.ETH",
+    "description": "ZetaChain Bridged USDC.ETH (ZRC20)",
+    "decimals": 6,
+    "image": "zeta/asset/usdc-eth.png",
+    "default": true,
+    "coinGeckoId": "zetachain-bridged-usdc-eth-zetachain"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb",
+    "symbol": "BNB.BSC",
+    "description": "ZetaChain Bridged BNB.BSC (ZRC20)",
+    "decimals": 18,
+    "image": "zeta/asset/bnb-bsc.png",
+    "default": true,
+    "coinGeckoId": "zetachain-bridged-bnb-bsc-zetachain"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0x91d4F0D54090Df2D81e834c3c8CE71C6c865e79F",
+    "symbol": "USDT.BSC",
+    "description": "ZetaChain Bridged USDT.BSC (ZRC20)",
+    "decimals": 18,
+    "image": "zeta/asset/usdt-bsc.png",
+    "default": true,
+    "coinGeckoId": "zetachain-bridged-usdt-bsc-zetachain"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0x05BA149A7bd6dC1F937fA9046A9e05C05f3b18b0",
+    "symbol": "USDC.BSC",
+    "description": "ZetaChain Bridged USDC.BSC (ZRC20)",
+    "decimals": 18,
+    "image": "zeta/asset/usdc-bsc.png",
+    "default": true,
+    "coinGeckoId": "zetachain-bridged-usdc-bsc-zetachain"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0x45334a5B0a01cE6C260f2B570EC941C680EA62c0",
+    "symbol": "stZETA",
+    "description": "ZetaEarn Staked ZETA (ZRC20)",
+    "decimals": 18,
+    "image": "zeta/asset/zetaearn-stzeta.png",
+    "default": false,
+    "coinGeckoId": "zetaearn-staked-zeta"
+  }
+]

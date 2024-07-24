@@ -36,6 +36,24 @@
             "url": "grpc.nymtech.net:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-nyx.cosmostation.io/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://nym-api.polkachu.com/"
+        },
+        {
+            "provider": "nodes guru",
+            "url": "https://api.nyx.nodes.guru/"
+        },
+        {
+            "provider": "Nym",
+            "url": "https://api.nymtech.net/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/nyx/",

@@ -34,6 +34,20 @@
             "url": "grpc-rizon.cosmostation.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-rizon.cosmostation.io/"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "https://api.rizon.chaintools.tech/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://rizon.api.m.stavr.tech/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/rizon/",

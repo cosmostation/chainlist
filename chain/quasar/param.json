@@ -40,6 +40,28 @@
             "url": "quasar-grpc.stake-town.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-quasar.cosmostation.io/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://quasar-api.lavenderfive.com/"
+        },
+        {
+            "provider": "polkachu",
+            "url": "https://quasar-api.polkachu.com/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-quasar.whispernode.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-quasar.cosmos-spaces.cloud/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/quasar/",

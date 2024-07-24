@@ -49,6 +49,32 @@
             "url": "grpc.archway.lgns.net:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-archway.cosmostation.io/"
+        },
+        {
+            "provider": "Silk Nodes",
+            "url": "https://archway.api.silknodes.io/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://archway-api.w3coins.io/"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://archway.api.kjnodes.com/"
+        },
+        {
+            "provider": "cryptech",
+            "url": "https://api-archway.cryptech.com.ua/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-archway.whispernode.com/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/archway/",

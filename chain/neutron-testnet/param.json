@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos" : "pion-1",
     "chain_name": "Neutron Testnet",
-    "chain_image": "neutron/resource/chain_neutron_test.png",
+    "chain_image": "neutron/resource/chain_neutron-testnet.png",
     "symbol" : "NTRN",
     "symbol_image" : "neutron/asset/ntrn.png",
     "bechAccountPrefix" : "neutron",
@@ -16,9 +16,9 @@
         }
     ],
     "fee": {
+      "feemarket": true,
       "init_gas_limit" : 500000,
-      "simul_gas_multiply": 1.3,
-      "feemarket": true
+      "simul_gas_multiply" : 1.3
     },
     "grpc_endpoint": [
       {
@@ -29,6 +29,12 @@
         "provider": "WhisperNode🤐",
         "url": "grpc-neutron.whispernode.com:443"
       }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Neutron",
+            "url": "https://rest-falcron.pion-1.ntrn.tech/"
+        }
     ],
     "explorer" : {
         "name": "Mintscan",

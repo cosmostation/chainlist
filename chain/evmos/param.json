@@ -47,6 +47,40 @@
             "url": "evmos-grpc.stake-town.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-evmos.cosmostation.io/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://evmos-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://evmos-api.polkachu.com/"
+        },
+        {
+            "provider": "Silent",
+            "url": "https://api.evmos.silentvalidator.com/"
+        },
+        {
+            "provider": "TC Network",
+            "url": "https://rest.evmos.tcnetwork.io/"
+        },
+        {
+            "provider": "Validatrium",
+            "url": "https://evmos-api.validatrium.club/"
+        },
+        {
+            "provider": "Stakeflow",
+            "url": "https://api-evmos-01.stakeflow.io/"
+        },
+        {
+            "provider": "W3coins",
+            "url": "https://evmos-api.w3coins.io/"
+        }
+    ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",

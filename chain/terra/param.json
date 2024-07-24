@@ -41,6 +41,28 @@
             "url": "terra2-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-terra.cosmostation.io/"
+        },
+        {
+            "provider": "🧙 WildSage Labs",
+            "url": "https://lcd-terra.wildsage.io/"
+        },
+        {
+            "provider": "Terraform Labs",
+            "url": "https://phoenix-lcd.terra.dev/"
+        },
+        {
+            "provider": "TdrSys",
+            "url": "https://terra2.tdrsys.com/"
+        },
+        {
+            "provider": "cosmosrescue",
+            "url": "https://terra-api.cosmosrescue.dev/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/terra/",

@@ -16,6 +16,7 @@
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
     ],
+    "tx_timeout_add" : 100, 
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -42,6 +43,28 @@
         {
             "provider": "WhisperNode 🤐",
             "url": "grpc-sei.whispernode.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-sei.cosmostation.io/"
+        },
+        {
+            "provider": "polkachu.com",
+            "url": "https://sei-api.polkachu.com/"
+        },
+        {
+            "provider": "StingRay",
+            "url": "https://api-sei.stingray.plus/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-sei.whispernode.com/"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://sei.api.kjnodes.com/"
         }
     ],
     "explorer" : {

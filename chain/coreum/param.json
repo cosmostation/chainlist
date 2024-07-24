@@ -9,6 +9,7 @@
     "name_for_dapp" : "COREUM", 
     "api_name" : "coreum",
     "origin_genesis_time" : "2023-03-12T00:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/990'/0'/0/X",
@@ -48,6 +49,28 @@
         {
             "provider": "Coreum Foundation",
             "url": "full-node-uranium.mainnet-1.coreum.dev:9090"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-coreum.cosmostation.io/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-coreum.ecostake.com/"
+        },
+        {
+            "provider": "Silk Nodes",
+            "url": "https://coreum.api.silknodes.io/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://coreum-api.ibs.team/"
+        },
+        {
+            "provider": "Stakewolle",
+            "url": "https://public.stakewolle.com/cosmos/coreum/rest"
         }
     ],
     "explorer" : {

@@ -9,6 +9,19 @@
     "decimals": 6,
     "description": "",
     "image": "agoric/asset/bld.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "agoric",
+    "color": "#bc2c44"
+  },
+  {
+    "denom": "uist",
+    "type": "native",
+    "origin_chain": "agoric",
+    "origin_denom": "uist",
+    "origin_type": "native",
+    "symbol": "IST",
+    "decimals": 6,
+    "description": "",
+    "image": "agoric/asset/ist.png",
+    "coinGeckoId": "inter-stable-token"
   }
 ]

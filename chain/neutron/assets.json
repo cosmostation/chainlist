@@ -10,7 +10,7 @@
     "description": "Neutron DAO Token",
     "image": "neutron/asset/ntrn.png",
     "coinGeckoId": "neutron-3",
-    "color": "#465DF3"
+    "color": "#2DCB92"
   },
   {
     "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
@@ -116,17 +116,6 @@
     "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
   },
   {
-    "denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
-    "origin_type": "native",
-    "symbol": "ASTRO",
-    "decimals": 6,
-    "image": "terra/asset/astro.png",
-    "coinGeckoId": "astroport-fi"
-  },
-  {
     "denom": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
     "type": "ibc",
     "origin_chain": "terra",
@@ -166,19 +155,6 @@
     },
     "image": "mars-protocol/asset/mars.png",
     "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
-  },
-  {
-    "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
-    "type": "bridge",
-    "origin_chain": "ethereum",
-    "origin_denom": "wsteth",
-    "origin_type": "erc20",
-    "symbol": "wstETH",
-    "decimals": 18,
-    "path": "ethereum>neutron",
-    "image": "ethereum/asset/wsteth.png",
-    "coinGeckoId": "wrapped-steth",
-    "contract": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
   },
   {
     "denom": "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7",
@@ -260,6 +236,27 @@
     },
     "image": "stride/asset/statom.png",
     "coinGeckoId": "stride-staked-atom"
+  },
+  {
+    "denom": "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuosmo",
+    "origin_type": "staking",
+    "symbol": "stOSMO",
+    "description": "Stride Staked ATOM",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>neutron",
+    "channel": "channel-8",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-123",
+      "port": "transfer",
+      "denom": "stuosmo"
+    },
+    "image": "stride/asset/stosmo.png",
+    "coinGeckoId": "stride-staked-osmo"
   },
   {
     "denom": "ibc/6569E05DEE32B339D9286A52BE33DFCEFC97267F23EF9CFDE0C055140967A9A5",
@@ -345,42 +342,6 @@
     "coinGeckoId": "dydx-chain"
   },
   {
-    "denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
-    "origin_type": "native",
-    "symbol": "NEWT",
-    "decimals": 6,
-    "enable": true,
-    "description": "NEWTRON",
-    "image": "neutron/asset/newt.png",
-    "coinGeckoId": "newt"
-  },
-  {
-    "denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
-    "origin_type": "native",
-    "symbol": "ECLIP",
-    "decimals": 6,
-    "image": "neutron/asset/eclipse.png",
-    "coinGeckoId": "eclipse-fi"
-  },
-  {
-    "denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
-    "origin_type": "native",
-    "symbol": "GODRD",
-    "decimals": 6,
-    "enable": true,
-    "description": "Goddard",
-    "image": "neutron/asset/goddardntrn.png"
-  },
-  {
     "denom": "ibc/3649CE0C8A2C79048D8C6F31FF18FA69C9BC7EB193512E0BD03B733011290445",
     "type": "ibc",
     "origin_chain": "persistence",
@@ -419,65 +380,6 @@
     },
     "image": "cerberus/asset/crbrus.png",
     "coinGeckoId": "cerberus-2"
-  },
-  {
-    "denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
-    "origin_type": "native",
-    "symbol": "GDD",
-    "decimals": 6,
-    "enable": true,
-    "description": "GODDARD",
-    "image": "neutron/asset/goddard.png"
-  },
-  {
-    "denom": "factory/neutron1guar6dc2scpxtmmq8reh0q5cv2l37vs0uyfdru/dinosaur",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "factory/neutron1guar6dc2scpxtmmq8reh0q5cv2l37vs0uyfdru/dinosaur",
-    "origin_type": "native",
-    "symbol": "DSR",
-    "decimals": 6,
-    "enable": true,
-    "description": "DINOSAUR",
-    "image": "neutron/asset/dsrlol.png"
-  },
-  {
-    "denom": "factory/neutron1ume2n42r5j0660gegrr28fzdze7aqf7r5cd9y6/newtroll",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "factory/neutron1ume2n42r5j0660gegrr28fzdze7aqf7r5cd9y6/newtroll",
-    "origin_type": "native",
-    "symbol": "NTRL",
-    "decimals": 6,
-    "enable": true,
-    "description": "NEWTROLL",
-    "image": "neutron/asset/ntrl.png"
-  },
-  {
-    "denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
-    "origin_type": "native",
-    "symbol": "JIMMY",
-    "description": "Jimmy Neutron Finance",
-    "decimals": 6,
-    "image": "neutron/asset/jimmy.png",
-    "coinGeckoId": ""
-  },
-  {
-    "denom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
-    "origin_type": "native",
-    "symbol": "CARTEL",
-    "decimals": 6,
-    "image": "neutron/asset/cartel.png",
-    "coinGeckoId": ""
   },
   {
     "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
@@ -540,18 +442,6 @@
     "coinGeckoId": "dymension"
   },
   {
-    "denom": "factory/neutron13lkh47msw28yynspc5rnmty3yktk43wc3dsv0l/ATOM1KLFG",
-    "type": "native",
-    "origin_chain": "neutron",
-    "origin_denom": "factory/neutron13lkh47msw28yynspc5rnmty3yktk43wc3dsv0l/ATOM1KLFG",
-    "origin_type": "native",
-    "symbol": "ATOM1KLFG",
-    "decimals": 6,
-    "description": "Atom 1K LFG",
-    "image": "neutron/asset/ATOM1KLFGc.png",
-    "coinGeckoId": ""
-  },
-  {
     "denom": "ibc/A139C0E0B5E87CBA8EAEEB12B9BEE13AC7C814CFBBFA87BBCADD67E31003466C",
     "type": "ibc",
     "origin_chain": "stargaze",
@@ -592,6 +482,178 @@
     "coinGeckoId": "saga-2"
   },
   {
+    "denom": "ibc/A0A081FFC6A13B8F502079F3A8420F5B4FC3007D9AA696E371B9A7B39B90EADF",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "ausdy",
+    "origin_type": "native",
+    "symbol": "USDY",
+    "decimals": 18,
+    "enable": true,
+    "path": "noble>neutron",
+    "channel": "channel-30",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-18",
+      "port": "transfer",
+      "denom": "ausdy"
+    },
+    "image": "ethereum/asset/usdy.png",
+    "coinGeckoId": "ondo-us-dollar-yield"
+  },
+  {
+    "denom": "ibc/BEF5C9D724E1EBB04FEE237CB5F602B22B0FFE8065F540FD8BC6F9E1A4B8573D",
+    "type": "ibc",
+    "origin_chain": "chihuahua",
+    "origin_denom": "uhuahua",
+    "origin_type": "staking",
+    "symbol": "HUAHUA",
+    "decimals": 6,
+    "enable": true,
+    "path": "chihuahua>neutron",
+    "channel": "channel-51",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-76",
+      "port": "transfer",
+      "denom": "uhuahua"
+    },
+    "image": "chihuahua/asset/huahua.png",
+    "coinGeckoId": "chihuahua-chain"
+  },
+  {
+    "denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
+    "origin_type": "native",
+    "symbol": "ASTRO",
+    "decimals": 6,
+    "image": "terra/asset/astro.png",
+    "coinGeckoId": "astroport-fi"
+  },
+  {
+    "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "wsteth",
+    "origin_type": "erc20",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "description": "wstETH on Neutron",
+    "path": "ethereum>neutron",
+    "image": "ethereum/asset/wsteth.png",
+    "coinGeckoId": "wrapped-steth",
+    "contract": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+  },
+  {
+    "denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+    "origin_type": "native",
+    "symbol": "NEWT",
+    "decimals": 6,
+    "enable": true,
+    "description": "The cutest NEWT token on Neutron chain.",
+    "image": "neutron/asset/newt.png",
+    "coinGeckoId": "newt"
+  },
+  {
+    "denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
+    "origin_type": "native",
+    "symbol": "ECLIP",
+    "decimals": 6,
+    "image": "neutron/asset/eclipse.png",
+    "coinGeckoId": "eclipse-fi"
+  },
+  {
+    "denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
+    "origin_type": "native",
+    "symbol": "GODRD",
+    "decimals": 6,
+    "enable": true,
+    "description": "Goddard",
+    "image": "neutron/asset/goddardntrn.png"
+  },
+  {
+    "denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
+    "origin_type": "native",
+    "symbol": "GODDARD",
+    "decimals": 6,
+    "enable": true,
+    "description": "GODDARD",
+    "image": "neutron/asset/goddard.png"
+  },
+  {
+    "denom": "factory/neutron1guar6dc2scpxtmmq8reh0q5cv2l37vs0uyfdru/dinosaur",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1guar6dc2scpxtmmq8reh0q5cv2l37vs0uyfdru/dinosaur",
+    "origin_type": "native",
+    "symbol": "DSR",
+    "decimals": 6,
+    "enable": true,
+    "description": "DINOSAUR",
+    "image": "neutron/asset/dsrlol.png"
+  },
+  {
+    "denom": "factory/neutron1ume2n42r5j0660gegrr28fzdze7aqf7r5cd9y6/newtroll",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1ume2n42r5j0660gegrr28fzdze7aqf7r5cd9y6/newtroll",
+    "origin_type": "native",
+    "symbol": "NTRL",
+    "decimals": 6,
+    "enable": true,
+    "description": "NEWTROLL",
+    "image": "neutron/asset/ntrl.png"
+  },
+  {
+    "denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
+    "origin_type": "native",
+    "symbol": "JIMMY",
+    "description": "Jimmy Neutron Finance",
+    "decimals": 6,
+    "image": "neutron/asset/jimmy.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
+    "origin_type": "native",
+    "symbol": "CARTEL",
+    "decimals": 6,
+    "image": "neutron/asset/cartel.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron13lkh47msw28yynspc5rnmty3yktk43wc3dsv0l/ATOM1KLFG",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron13lkh47msw28yynspc5rnmty3yktk43wc3dsv0l/ATOM1KLFG",
+    "origin_type": "native",
+    "symbol": "ATOM1KLFG",
+    "decimals": 6,
+    "description": "Atom 1K LFG",
+    "image": "neutron/asset/ATOM1KLFGc.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz",
     "type": "native",
     "origin_chain": "neutron",
@@ -614,5 +676,137 @@
     "decimals": 6,
     "image": "neutron/asset/apollo.png",
     "coinGeckoId": "apollo-2"
+  },
+  {
+    "denom": "factory/neutron1d59rkwmkt6f46aeyra6zfk6ghehlsqc2qevw96c6x4xfmyk4qxhsjh8ajn/ANGRY-BABY",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1d59rkwmkt6f46aeyra6zfk6ghehlsqc2qevw96c6x4xfmyk4qxhsjh8ajn/ANGRY-BABY",
+    "origin_type": "native",
+    "symbol": "ANGRY-BABY.cft20",
+    "description": "Angry Baby",
+    "decimals": 6,
+    "image": "neutron/asset/angry-babycft.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1d59rkwmkt6f46aeyra6zfk6ghehlsqc2qevw96c6x4xfmyk4qxhsjh8ajn/BABYROIDS",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1d59rkwmkt6f46aeyra6zfk6ghehlsqc2qevw96c6x4xfmyk4qxhsjh8ajn/BABYROIDS",
+    "origin_type": "native",
+    "symbol": "BABYROIDS.cft20",
+    "description": "BABY ROIDS",
+    "decimals": 6,
+    "image": "neutron/asset/babyroidscft.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1k3zuqrwkad0kpeh6p9fl7a2nnnevkv95t3cpdz/DANZA",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1k3zuqrwkad0kpeh6p9fl7a2nnnevkv95t3cpdz/DANZA",
+    "origin_type": "native",
+    "symbol": "DANZA",
+    "description": "Whos the Boss?",
+    "decimals": 6,
+    "image": "neutron/asset/danza.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1lg8nydf8nagrrp2f72y5mk9newv2gs6a3mm3cn/GAY",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1lg8nydf8nagrrp2f72y5mk9newv2gs6a3mm3cn/GAY",
+    "origin_type": "native",
+    "symbol": "GAY",
+    "description": "Gay Coin",
+    "decimals": 6,
+    "image": "neutron/asset/gay.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1pwjn3tsumm3j7v7clzqhjsaukv4tdjlclhdytawhet68fwlz84fqcrdyf5/NELSON",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1pwjn3tsumm3j7v7clzqhjsaukv4tdjlclhdytawhet68fwlz84fqcrdyf5/NELSON",
+    "origin_type": "native",
+    "symbol": "NELSON",
+    "description": "Nelson on Neutron",
+    "decimals": 6,
+    "image": "neutron/asset/nelson.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1pwjn3tsumm3j7v7clzqhjsaukv4tdjlclhdytawhet68fwlz84fqcrdyf5/WOOF",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1pwjn3tsumm3j7v7clzqhjsaukv4tdjlclhdytawhet68fwlz84fqcrdyf5/WOOF",
+    "origin_type": "native",
+    "symbol": "WOOF",
+    "description": "woof",
+    "decimals": 6,
+    "image": "neutron/asset/woof.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1qm224945hrkwc5qze40tau499n46ydmulpeagscmsuyxfrds02usf7mnpu/scrap",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1qm224945hrkwc5qze40tau499n46ydmulpeagscmsuyxfrds02usf7mnpu/scrap",
+    "origin_type": "native",
+    "symbol": "SCRAP",
+    "description": "SCRAP",
+    "decimals": 6,
+    "image": "neutron/asset/scrap.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1qzf6t478xuutq0ahkm07pl2y2tctreccrlafkrl38k4cafk3rgdq3lfky5/VaultToken/pcl/capped/stTIA/TIA",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1qzf6t478xuutq0ahkm07pl2y2tctreccrlafkrl38k4cafk3rgdq3lfky5/VaultToken/pcl/capped/stTIA/TIA",
+    "origin_type": "native",
+    "symbol": "(stTIA/TIA)VT",
+    "description": "Apollo DAO",
+    "decimals": 12,
+    "image": "neutron/asset/(sttia-tia)vt.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi",
+    "origin_type": "native",
+    "symbol": "CORGI",
+    "description": "CORGI",
+    "decimals": 6,
+    "image": "neutron/asset/babycorgi.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad",
+    "origin_type": "native",
+    "symbol": "BAD",
+    "description": "BAD",
+    "decimals": 6,
+    "image": "neutron/asset/bad.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe",
+    "origin_type": "native",
+    "symbol": "ASTROPEPE",
+    "description": "Astropepe meme coin",
+    "decimals": 6,
+    "image": "neutron/asset/astropepe.png",
+    "coinGeckoId": ""
   }
 ]

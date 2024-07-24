@@ -35,13 +35,6 @@
     "type": "DeFi"
   },
   {
-    "name": "Equilibre Finance",
-    "description": "Équilibre Finance is a financial platform that focuses on providing decentralized finance (DeFi) solutions.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/equilibrefinance.png",
-    "link": "https://equilibrefinance.com/",
-    "type": "DeFi"
-  },
-  {
     "name": "Hover",
     "description": "Hover Market is a decentralized finance (DeFi) platform that provides an overview of various DeFi services and products. ",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/havor.jpg",
@@ -56,18 +49,28 @@
     "type": "Bridge"
   },
   {
+    "name": "Equilibre Finance",
+    "description": "Équilibre Finance is a financial platform that focuses on providing decentralized finance (DeFi) solutions.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/equilibrefinance.png",
+    "link": "https://equilibrefinance.com/",
+    "type": "DeFi",
+    "support" : false
+  },
+  {
     "name": "Kinetix",
     "description": "Kinetix Finance's DEX is a decentralized exchange platform allowing users to trade cryptocurrencies seamlessly.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/kinetix.png",
     "link": "https://dex.kinetix.finance/#/",
-    "type": "DEX"
+    "type": "DEX",
+    "support" : false
   },
   {
     "name": "Wagmi",
     "description": "Wagmi's platform allows users to trade and swap cryptocurrencies through a decentralized interface.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/wagmi.png",
     "link": "https://app.wagmi.com/trade/swap#/trade/swap",
-    "type": "DeFi"
+    "type": "DeFi",
+    "support" : false
   },
   {
     "name": "Kava",

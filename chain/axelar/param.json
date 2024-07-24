@@ -45,6 +45,28 @@
             "url": "grpc-axelar-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-axelar.cosmostation.io/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://axelar-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://axelar-rest.staketab.org/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://axelar-api.w3coins.io/"
+        },
+        {
+            "provider": "Imperator.co",
+            "url": "https://lcd-axelar.imperator.co/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/axelar/",

@@ -49,6 +49,28 @@
             "url": "osmosis-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-osmosis.cosmostation.io/"
+        },
+        {
+            "provider": "Osmosis Foundation",
+            "url": "https://lcd.osmosis.zone/"
+        },
+        {
+            "provider": "Golden Ratio Staking",
+            "url": "https://rest.osmosis.goldenratiostaking.net/"
+        },
+        {
+            "provider": "Chainlayer",
+            "url": "https://osmosis-lcd.quickapi.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://osmosis-api.lavenderfive.com/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/osmosis/",

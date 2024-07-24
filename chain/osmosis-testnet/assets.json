@@ -30,5 +30,25 @@
     },
     "image": "finschia-testnet/asset/fnsa.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/1A0B3E71D4DECB10DBCD327EF8D8EF5E87580898A2A3D9D6ACB1DF2BFD127063",
+    "type": "ibc",
+    "origin_chain": "noble-testnet",
+    "origin_denom": "ausdy",
+    "origin_type": "native",
+    "symbol": "USDY",
+    "decimals": 18,
+    "enable": true,
+    "path": "noble-testnet>osmosis-testnet",
+    "channel": "channel-4280",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-22",
+      "port": "transfer",
+      "denom": "ausdy"
+    },
+    "image": "ethereum/asset/usdy.png",
+    "coinGeckoId": ""
   }
 ]

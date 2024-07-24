@@ -48,6 +48,28 @@
             "url": "bitcanna.grpc.m.anode.team:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-bitcanna.cosmostation.io/"
+        },
+        {
+            "provider": "bitcanna",
+            "url": "https://lcd.bitcanna.io/"
+        },
+        {
+            "provider": "Panthea EU",
+            "url": "https://bitcanna-api.panthea.eu/"
+        },
+        {
+            "provider": "SGTstake",
+            "url": "https://api.bitcanna.sgtstake.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://bitcanna.api.m.stavr.tech/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/bitcanna/",

@@ -44,6 +44,28 @@
             "url": "grpc.core.persistence.one:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-persistence.cosmostation.io/"
+        },
+        {
+            "provider": "Persistence",
+            "url": "https://rest.core.persistence.one/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://persistence.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://persistence-api.polkachu.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-persistence.cosmos-spaces.cloud/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/persistence/",

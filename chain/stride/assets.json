@@ -491,5 +491,65 @@
     },
     "image": "celestia/asset/tia.png",
     "coinGeckoId": "celestia"
+  },
+  {
+    "denom": "ibc/520D9C4509027DE66C737A1D6A6021915A3071E30DBA8F758B46532B060D7AA5",
+    "type": "ibc",
+    "origin_chain": "saga",
+    "origin_denom": "usaga",
+    "origin_type": "staking",
+    "symbol": "SAGA",
+    "decimals": 6,
+    "enable": true,
+    "path": "saga>stride",
+    "channel": "channel-213",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "usaga"
+    },
+    "image": "saga/asset/saga.png",
+    "coinGeckoId": "saga-2"
+  },
+  {
+    "denom": "ibc/E1C22332C083574F3418481359733BA8887D171E76C80AD9237422AEABB66018",
+    "type": "ibc",
+    "origin_chain": "dymension",
+    "origin_denom": "adym",
+    "origin_type": "staking",
+    "symbol": "DYM",
+    "decimals": 18,
+    "enable": true,
+    "path": "dymension>stride",
+    "channel": "channel-197",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "adym"
+    },
+    "image": "dymension/asset/dym.png",
+    "coinGeckoId": "dymension"
+  },
+  {
+    "denom": "ibc/561C70B20188A047BFDE6F9946BDDC5D8AC172B9BE04FF868DFABF819E5A9CCE",
+    "type": "ibc",
+    "origin_chain": "dydx",
+    "origin_denom": "adydx",
+    "origin_type": "staking",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "enable": true,
+    "path": "dydx>stride",
+    "channel": "channel-160",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "adydx"
+    },
+    "image": "dydx/asset/dydx.png",
+    "coinGeckoId": "dydx-chain"
   }
 ]

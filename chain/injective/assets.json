@@ -1524,5 +1524,61 @@
     },
     "image": "neutron/asset/nbz.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/93EAE5F9D6C14BFAC8DD1AFDBE95501055A7B22C5D8FA8C986C31D6EFADCA8A9",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "ausdy",
+    "origin_type": "native",
+    "symbol": "USDY",
+    "decimals": 18,
+    "enable": true,
+    "path": "noble>injective",
+    "channel": "channel-148",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-31",
+      "port": "transfer",
+      "denom": "ausdy"
+    },
+    "image": "ethereum/asset/usdy.png",
+    "coinGeckoId": "ondo-us-dollar-yield"
+  },
+  {
+    "denom": "factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ",
+    "origin_type": "native",
+    "symbol": "bINJ",
+    "decimals": 18,
+    "description": "BackBoneLabs Liquid Staked Injective",
+    "image": "injective/asset/bINJ.jpg",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN",
+    "origin_type": "native",
+    "symbol": "SYN",
+    "decimals": 6,
+    "description": "Syndicate",
+    "image": "injective/asset/syn.jpg",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash",
+    "origin_type": "native",
+    "symbol": "ashSYN",
+    "decimals": 6,
+    "description": "SYN burn derivative",
+    "image": "injective/asset/syn.ash.png",
+    "coinGeckoId": ""
   }
 ]

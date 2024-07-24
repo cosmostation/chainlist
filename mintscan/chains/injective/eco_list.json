@@ -1,18 +1,18 @@
 [
   {
     "name": "Helix",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "A Decentralized Crypto Exchange on Injective.",
     "status": "open",
-    "thumbnail" : "helix",
+    "thumbnail": "helix",
     "link": "https://helixapp.com/"
   },
   {
     "name": "Stride",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
     "status": "open",
-    "thumbnail" : "stride",
+    "thumbnail": "stride",
     "link": "https://app.stride.zone/?chain=INJ",
     "social": {
       "webSite": "https://www.stride.zone/",
@@ -22,27 +22,41 @@
     }
   },
   {
+    "name": "Bitoro Pro",
+    "type": "DeFi",
+    "description": "The ultimate hub for trading perps onchain. Optimized with the deepest liquidity in DeFi.",
+    "status": "open",
+    "thumbnail": "bitoro-pro",
+    "link": "https://inj.app.bitoro.network",
+    "social": {
+      "webSite": "https://bitoro.network/",
+      "twitter": "https://twitter.com/Bitoro_HQ",
+      "medium": "https://medium.com/bitoro-network",
+      "docs": "https://bitoro.gitbook.io/docs/"
+    }
+  },
+  {
     "name": "Wavely",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "Decentralized Crypto & Derivatives Exchange Powered by Injective.",
     "status": "open",
-    "thumbnail" : "wavely",
+    "thumbnail": "wavely",
     "link": "https://www.wavely.app"
   },
   {
     "name": "Astroport",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "Decentralized, permissionless and open-source marketplace.",
     "status": "open",
-    "thumbnail" : "astroport",
+    "thumbnail": "astroport",
     "link": "https://app.astroport.fi"
   },
   {
     "name": "White Whale",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "Stabilizing Prices Across the IBC.",
     "status": "open",
-    "thumbnail" : "whitewhale",
+    "thumbnail": "whitewhale",
     "link": "https://app.whitewhale.money/injective/swap"
   },
   {
@@ -50,7 +64,7 @@
     "type": "NFT",
     "description": "The NFT marketplace that empowers artists and bridges physical & digital art.",
     "status": "open",
-    "thumbnail" : "talis",
+    "thumbnail": "talis",
     "link": "https://injective.talis.art",
     "social": {
       "webSite": "https://injective.talis.art",
@@ -61,10 +75,10 @@
   },
   {
     "name": "Black Panther",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "The asset management protocol that helps you achieve superior returns.",
     "status": "open",
-    "thumbnail" : "blackpanther",
+    "thumbnail": "blackpanther",
     "link": "https://blackpanther.fi/",
     "social": {
       "webSite": "https://blackpanther.fi/",
@@ -74,10 +88,10 @@
   },
   {
     "name": "Gryphon",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "Gryphon is an innovative protocol integrating LSD and a stablecoin (CDP) component into its framework. Think Jito + DAI integrated together.",
     "status": "open",
-    "thumbnail" : "gryphon",
+    "thumbnail": "gryphon",
     "link": "https://app.gryphon.finance/home",
     "social": {
       "webSite": "https://gryphon.finance/",
@@ -90,7 +104,7 @@
     "type": "Lending",
     "description": "Lend, borrow, and build with better rates.",
     "status": "open",
-    "thumbnail" : "neptune-finance",
+    "thumbnail": "neptune-finance",
     "link": "https://app.nept.finance",
     "social": {
       "webSite": "https://nept.finance",
@@ -100,11 +114,11 @@
     }
   },
   {
-    "name": "Aeroscraper Protocol",
-    "type": "Lending-Borrowing and Stable Coin",
+    "name": "Aeroscraper",
+    "type": "DeFi",
     "description": "Aeroscraper is the first truly decentralized lending protocol built on Injective and Sei Network. Its operations are immutable, non-custodial, and governance-free.",
     "status": "open",
-    "thumbnail" : "aeroscraper",
+    "thumbnail": "aeroscraper",
     "link": "https://inj.aeroscraper.io/",
     "social": {
       "webSite": "https://inj.aeroscraper.io/",
@@ -118,7 +132,7 @@
     "type": "GameFi",
     "description": "Ninja Blaze is a platform with several games on a blockchain, which revolutionizes the market and brings full transparency and honesty to the players.",
     "status": "open",
-    "thumbnail" : "ninja-blaze",
+    "thumbnail": "ninja-blaze",
     "link": "https://app.blaze.ninja/",
     "social": {
       "webSite": "https://blaze.ninja/",

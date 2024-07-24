@@ -40,6 +40,32 @@
             "url": "grpc-sentinel-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-sentinel.cosmostation.io/"
+        },
+        {
+            "provider": "Busurnode",
+            "url": "https://api-sentinel.busurnode.com/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-sentinel.whispernode.com/"
+        },
+        {
+            "provider": "🐹 Quokka Stake",
+            "url": "https://api.sentinel.quokkastake.io/"
+        },
+        {
+            "provider": "MathNodes Romania",
+            "url": "https://api.ro.mathnodes.com/"
+        },
+        {
+            "provider": "MathNodes China",
+            "url": "https://api.dvpn.me/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/sentinel/",

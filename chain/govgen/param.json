@@ -38,6 +38,20 @@
             "url": "grpc.govgen.posthuman.digital:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-govgen.cosmostation.io/"
+        },
+        {
+            "provider": "AllInBits",
+            "url": "https://api.govgen.io/"
+        },
+        {
+            "provider": "Nodes Hub",
+            "url": "https://govgen.api.nodeshub.online/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/govgen/",

@@ -1,2 +1,14 @@
 [
+	{
+      "denom": "unil",
+      "type": "staking",
+      "origin_chain": "nillion",
+      "origin_denom": "unil",
+      "origin_type": "staking",
+      "symbol": "NIL",
+      "decimals": 6,
+      "description": "Nillion Staing Coin",
+      "image": "nillion/asset/nil.png",
+      "coinGeckoId": ""
+    }
 ]

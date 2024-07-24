@@ -40,6 +40,28 @@
             "url": "grpc-kyve.mms.team:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-kyve.cosmostation.io/"
+        },
+        {
+            "provider": "kyve",
+            "url": "https://api-eu-1.kyve.network/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://kyve-api.lavenderfive.com/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-kyve.ecostake.com/"
+        },
+        {
+            "provider": "Imperator.co",
+            "url": "https://lcd-kyve.imperator.co/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/kyve/",

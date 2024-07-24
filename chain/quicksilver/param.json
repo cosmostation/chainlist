@@ -56,6 +56,28 @@
             "url": "quicksilver.tdrsys.com:2083"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-quicksilver.cosmostation.io/"
+        },
+        {
+            "provider": "Notional",
+            "url": "https://api-quicksilver-ia.cosmosia.notional.ventures/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://quicksilver-api.lavenderfive.com/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://quicksilver-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
+            "url": "https://m-quicksilver.api.utsa.tech/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/quicksilver/",

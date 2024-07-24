@@ -9,6 +9,7 @@
     "name_for_dapp" : "STARGAZE", 
     "api_name" : "stargaze",
     "origin_genesis_time" : "2021-10-29T17:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -39,6 +40,28 @@
         {
             "provider": "Notional",
             "url": "grpc-stargaze-ia.cosmosia.notional.ventures:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-stargaze.cosmostation.io/"
+        },
+        {
+            "provider": "Stargaze Foundation",
+            "url": "https://rest.stargaze-apis.com/"
+        },
+        {
+            "provider": "PUPMØS",
+            "url": "https://api-stargaze.pupmos.network/"
+        },
+        {
+            "provider": "D-stake",
+            "url": "https://api-stargaze.d-stake.xyz/"
+        },
+        {
+            "provider": "ramuchi.tech",
+            "url": "https://stargaze-api.ramuchi.tech/"
         }
     ],
     "explorer" : {
