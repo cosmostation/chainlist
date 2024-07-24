@@ -1,0 +1,13 @@
+[
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0xd97B1de3619ed2c6BEb3860147E30cA8A7dC9891",
+    "symbol": "ETH.ETH",
+    "description": "ZetaChain Bridged ETH.ETH (ZRC20)",
+    "decimals": 18,
+    "image": "zeta/asset/eth-eth.png",
+    "default": true,
+    "coinGeckoId": "zetachain-eth-eth"
+  }
+]
