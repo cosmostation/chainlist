@@ -193,6 +193,38 @@
     "coinGeckoId": "stride-staked-islm"
   },
   {
+    "denom": "stuband",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stuband",
+    "origin_type": "native",
+    "symbol": "stBAND",
+    "decimals": 6,
+    "description": "Stride Staked BAND",
+    "image": "stride/asset/stband.png",
+    "coinGeckoId": "stride-staked-band"
+  },
+  {
+    "denom": "ibc/AC11D57A5FBC0DF322615027DB86FAA602283F1801ED71FDDAA26117C41256D7",
+    "type": "ibc",
+    "origin_chain": "band",
+    "origin_denom": "uband",
+    "origin_type": "staking",
+    "symbol": "BAND",
+    "decimals": 6,
+    "enable": true,
+    "path": "band>stride",
+    "channel": "channel-161",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-258",
+      "port": "transfer",
+      "denom": "uband"
+    },
+    "image": "band/asset/band.png",
+    "coinGeckoId": "band-protocol"
+  },
+  {
     "denom": "ibc/255BEB856BFBC1B75A3C349CF769E9FADEB595804F4FC688A72D651576B9180E",
     "type": "ibc",
     "origin_chain": "haqq",
