@@ -1,0 +1,50 @@
+[
+  {
+    "denom": "0x2::coin::Coin<0x2::sui::SUI>",
+    "type": "staking",
+    "origin_chain": "sui",
+    "origin_denom": "0x2::coin::Coin<0x2::sui::SUI>",
+    "origin_type": "staking",
+    "symbol": "SUI",
+    "decimals": 9,
+    "description": "Sui staking coin",
+    "image": "sui/asset/sui.png",
+    "coinGeckoId": "sui"
+  },
+  {
+    "denom": "0x5d4b302506645c37ff133b98c4b50a5ae14841659738d6d733d59d0d217a93bf::coin::COIN",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "",
+    "origin_type": "",
+    "symbol": "USDC",
+    "decimals": 6,
+    "description": "bridged coin by wormhole",
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "",
+    "origin_type": "",
+    "symbol": "USDT",
+    "decimals": 6,
+    "description": "bridged coin by wormhole",
+    "image": "ethereum/asset/usdt.png",
+    "coinGeckoId": "tether"
+  },
+  {
+    "denom": "0xbff8dc60d3f714f678cd4490ff08cabbea95d308c6de47a150c79cc875e0c7c6::sbox::SBOX",
+    "type": "native",
+    "origin_chain": "sui",
+    "origin_denom": "",
+    "origin_type": "",
+    "symbol": "SBOX",
+    "decimals": 1,
+    "description": "",
+    "image": "sui/asset/suiboxer.png",
+    "coinGeckoId": "suiboxer"
+  }
+]
