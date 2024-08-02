@@ -52,6 +52,12 @@
         "tx": "https://explorer.nodestake.org/artela-testnet/tx/${hash}",
         "proposal": "https://explorer.nodestake.org/artela-testnet/gov/${id}"
     },
+    "evm_explorer": {
+        "name": "Betanet",
+        "url": "https://betanet-scan.artela.network",
+        "account": "https://betanet-scan.artela.network/address/${address}",
+        "tx": "https://betanet-scan.artela.network/tx/${hash}"
+      },
     "about" : {
         "website" : "https://artela.network/",
         "docs": "https://docs.artela.network/",
