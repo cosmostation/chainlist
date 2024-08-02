@@ -170,14 +170,13 @@
   },
   {
     "denom": "erc20/axelar/usdc",
-    "type": "bridge",
+    "type": "native",
     "origin_chain": "ethereum",
     "origin_denom": "usdc",
-    "origin_type": "erc20",
+    "origin_type": "native",
     "symbol": "axlUSDC",
     "decimals": 6,
     "description": "Axelar Wrapped USDC",
-    "path": "ethereum>axelar>kava",
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "axlusdc"
   },
@@ -284,6 +283,18 @@
     "decimals": 8,
     "description": "Multichain Wrapped BTC",
     "image": "kava/asset/multiwbtc.png",
+    "coinGeckoId": "wrapped-bitcoin"
+  },
+  {
+    "denom": "erc20/bitgo/wbtc",
+    "type": "native",
+    "origin_chain": "kava",
+    "origin_denom": "erc20/bitgo/wbtc",
+    "origin_type": "native",
+    "symbol": "wBTC",
+    "decimals": 8,
+    "description": "Wrapped Bitcoin on Kava",
+    "image": "ethereum/asset/wbtc.png",
     "coinGeckoId": "wrapped-bitcoin"
   }
 ]
