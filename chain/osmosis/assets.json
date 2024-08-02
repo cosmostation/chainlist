@@ -3463,5 +3463,17 @@
     },
     "image": "ethereum/asset/usdy.png",
     "coinGeckoId": "ondo-us-dollar-yield"
+  },
+  {
+    "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/shitmos",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/shitmos",
+    "origin_type": "native",
+    "symbol": "SHITMOS",
+    "decimals": 6,
+    "description": "The Cosmos Network's premier self-hatred memecoin.",
+    "image": "osmosis/asset/shitmos.png",
+    "coinGeckoId": ""
   }
 ]
