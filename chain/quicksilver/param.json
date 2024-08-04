@@ -79,11 +79,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/quicksilver/",
-        "account": "https://www.mintscan.io/quicksilver/address/${address}",
-        "tx": "https://www.mintscan.io/quicksilver/tx/${hash}",
-        "proposal": "https://www.mintscan.io/quicksilver/proposals/${id}"
+        "name": "Guru",
+        "url": "https://quicksilver.explorers.guru/",
+        "account": "https://quicksilver.explorers.guru/account/${address}",
+        "tx": "https://quicksilver.explorers.guru/transaction/${hash}",
+        "proposal": "https://quicksilver.explorers.guru/proposal/${id}"
     },
     "about" : {
         "website" : "https://quicksilver.zone/",
