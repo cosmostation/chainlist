@@ -1,6 +1,6 @@
 [
   {
-    "denom": "0x2::coin::Coin<0x2::sui::SUI>",
+    "denom": "0x2::sui::SUI",
     "type": "staking",
     "origin_chain": "sui",
     "origin_denom": "0x2::coin::Coin<0x2::sui::SUI>",
