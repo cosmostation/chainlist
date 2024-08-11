@@ -808,5 +808,17 @@
     "decimals": 6,
     "image": "neutron/asset/astropepe.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
+    "type": "native",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
+    "origin_type": "native",
+    "symbol": "dATOM",
+    "description": "dATOM on Neutron",
+    "decimals": 6,
+    "image": "neutron/asset/datom.png",
+    "coinGeckoId": ""
   }
 ]
