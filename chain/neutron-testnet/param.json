@@ -30,6 +30,12 @@
         "url": "grpc-neutron.whispernode.com:443"
       }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Neutron",
+            "url": "https://rest-falcron.pion-1.ntrn.tech/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/neutron-testnet/",

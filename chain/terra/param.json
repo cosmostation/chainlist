@@ -44,23 +44,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-terra.cosmostation.io:443"
+            "url": "https://lcd-terra.cosmostation.io/"
         },
         {
             "provider": "🧙 WildSage Labs",
-            "url": "https://lcd-terra.wildsage.io"
+            "url": "https://lcd-terra.wildsage.io/"
         },
         {
             "provider": "Terraform Labs",
-            "url": "https://phoenix-lcd.terra.dev:443"
+            "url": "https://phoenix-lcd.terra.dev/"
         },
         {
             "provider": "TdrSys",
-            "url": "https://terra2.tdrsys.com"
+            "url": "https://terra2.tdrsys.com/"
         },
         {
             "provider": "cosmosrescue",
-            "url": "https://terra-api.cosmosrescue.dev:8443"
+            "url": "https://terra-api.cosmosrescue.dev/"
         }
     ],
     "explorer" : {

@@ -41,23 +41,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-regen.cosmostation.io:443"
+            "url": "https://lcd-regen.cosmostation.io/"
         },
         {
             "provider": "vitwit",
-            "url": "http://public-rpc.regen.vitwit.com:1317"
+            "url": "http://public-rpc.regen.vitwit.com/"
         },
         {
             "provider": "🔥STAVR🔥",
-            "url": "https://regen.api.m.stavr.tech"
+            "url": "https://regen.api.m.stavr.tech/"
         },
         {
             "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://regen-mainnet-lcd.autostake.com:443"
+            "url": "https://regen-mainnet-lcd.autostake.com/"
         },
         {
             "provider": "ecostake",
-            "url": "https://rest-regen.ecostake.com"
+            "url": "https://rest-regen.ecostake.com/"
         }
     ],
     "explorer" : {

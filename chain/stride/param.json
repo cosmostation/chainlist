@@ -39,23 +39,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-stride.cosmostation.io:443"
+            "url": "https://lcd-stride.cosmostation.io/"
         },
         {
             "provider": "Polkachu",
-            "url": "https://stride-api.polkachu.com"
+            "url": "https://stride-api.polkachu.com/"
         },
         {
             "provider": "Cosmos Spaces",
-            "url": "https://api-stride.cosmos-spaces.cloud"
+            "url": "https://api-stride.cosmos-spaces.cloud/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://stride-api.lavenderfive.com"
+            "url": "https://stride-api.lavenderfive.com/"
         },
         {
             "provider": "kjnodes",
-            "url": "https://stride.api.kjnodes.com"
+            "url": "https://stride.api.kjnodes.com/"
         }
     ],
     "explorer" : {

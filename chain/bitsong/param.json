@@ -43,23 +43,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-bitsong.cosmostation.io:443"
+            "url": "https://lcd-bitsong.cosmostation.io/"
         },
         {
             "provider": "stake.systems",
-            "url": "https://lcd.explorebitsong.com"
+            "url": "https://lcd.explorebitsong.com/"
         },
         {
             "provider": "Validatrium",
-            "url": "https://bitsong-api.validatrium.club"
+            "url": "https://bitsong-api.validatrium.club/"
         },
         {
             "provider": "🐹 Quokka Stake",
-            "url": "https://api.bitsong.quokkastake.io"
+            "url": "https://api.bitsong.quokkastake.io/"
         },
         {
             "provider": "Starsquid",
-            "url": "https://api-bitsong.starsquid.io"
+            "url": "https://api-bitsong.starsquid.io/"
         }
     ],
     "explorer" : {

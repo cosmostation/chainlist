@@ -47,23 +47,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-persistence.cosmostation.io:443"
+            "url": "https://lcd-persistence.cosmostation.io/"
         },
         {
             "provider": "Persistence",
-            "url": "https://rest.core.persistence.one"
+            "url": "https://rest.core.persistence.one/"
         },
         {
             "provider": "🔥STAVR🔥",
-            "url": "https://persistence.api.m.stavr.tech"
+            "url": "https://persistence.api.m.stavr.tech/"
         },
         {
             "provider": "Polkachu",
-            "url": "https://persistence-api.polkachu.com"
+            "url": "https://persistence-api.polkachu.com/"
         },
         {
             "provider": "Cosmos Spaces",
-            "url": "https://api-persistence.cosmos-spaces.cloud"
+            "url": "https://api-persistence.cosmos-spaces.cloud/"
         }
     ],
     "explorer" : {

@@ -48,23 +48,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-axelar.cosmostation.io:443"
+            "url": "https://lcd-axelar.cosmostation.io/"
         },
         {
             "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://axelar-mainnet-lcd.autostake.com:443"
+            "url": "https://axelar-mainnet-lcd.autostake.com/"
         },
         {
             "provider": "Staketab",
-            "url": "https://axelar-rest.staketab.org"
+            "url": "https://axelar-rest.staketab.org/"
         },
         {
             "provider": "w3coins",
-            "url": "https://axelar-api.w3coins.io"
+            "url": "https://axelar-api.w3coins.io/"
         },
         {
             "provider": "Imperator.co",
-            "url": "https://lcd-axelar.imperator.co:443"
+            "url": "https://lcd-axelar.imperator.co/"
         }
     ],
     "explorer" : {

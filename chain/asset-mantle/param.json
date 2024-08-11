@@ -49,27 +49,27 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-asset-mantle.cosmostation.io:443"
+            "url": "https://lcd-asset-mantle.cosmostation.io/"
         },
         {
             "provider": "WhisperNode 🤐",
-            "url": "https://lcd-assetmantle.whispernode.com:443"
+            "url": "https://lcd-assetmantle.whispernode.com/"
         },
         {
             "provider": "paranorm",
-            "url": "https://api.mantle.paranorm.pro:443"
+            "url": "https://api.mantle.paranorm.pro/"
         },
         {
             "provider": "StakerHouse",
-            "url": "https://assetmantle-rest.stakerhouse.com"
+            "url": "https://assetmantle-rest.stakerhouse.com/"
         },
         {
             "provider": "Polkachu",
-            "url": "https://assetmantle-api.polkachu.com"
+            "url": "https://assetmantle-api.polkachu.com/"
         },
         {
             "provider": "ecostake",
-            "url": "https://rest-assetmantle.ecostake.com"
+            "url": "https://rest-assetmantle.ecostake.com/"
         }
     ],
     "explorer" : {

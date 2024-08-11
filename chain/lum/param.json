@@ -49,23 +49,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-lum.cosmostation.io:443"
+            "url": "https://lcd-lum.cosmostation.io/"
         },
         {
             "provider": "Lum Foundation",
-            "url": "https://rest.node0.mainnet.lum.network"
+            "url": "https://rest.node0.mainnet.lum.network/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://lumnetwork-api.lavenderfive.com"
+            "url": "https://lumnetwork-api.lavenderfive.com/"
         },
         {
             "provider": "🔥STAVR🔥",
-            "url": "https://lum.api.m.stavr.tech"
+            "url": "https://lum.api.m.stavr.tech/"
         },
         {
             "provider": "Inter Blockchain Services",
-            "url": "https://lum-api.ibs.team"
+            "url": "https://lum-api.ibs.team/"
         }
     ],
     "explorer" : {

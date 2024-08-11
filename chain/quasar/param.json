@@ -43,23 +43,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-quasar.cosmostation.io:443"
+            "url": "https://lcd-quasar.cosmostation.io/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://quasar-api.lavenderfive.com:443"
+            "url": "https://quasar-api.lavenderfive.com/"
         },
         {
             "provider": "polkachu",
-            "url": "https://quasar-api.polkachu.com"
+            "url": "https://quasar-api.polkachu.com/"
         },
         {
             "provider": "WhisperNode 🤐",
-            "url": "https://lcd-quasar.whispernode.com:443"
+            "url": "https://lcd-quasar.whispernode.com/"
         },
         {
             "provider": "Cosmos Spaces",
-            "url": "https://api-quasar.cosmos-spaces.cloud"
+            "url": "https://api-quasar.cosmos-spaces.cloud/"
         }
     ],
     "explorer" : {

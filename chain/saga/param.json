@@ -35,23 +35,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-saga.cosmostation.io:443"
+            "url": "https://lcd-saga.cosmostation.io/"
         },
         {
             "provider": "Golden Ratio Staking",
-            "url": "https://rest.saga.goldenratiostaking.net"
+            "url": "https://rest.saga.goldenratiostaking.net/"
         },
         {
             "provider": "NodeStake",
-            "url": "https://api.saga.nodestake.org"
+            "url": "https://api.saga.nodestake.org/"
         },
         {
             "provider": "kjnodes",
-            "url": "https://saga.api.kjnodes.com"
+            "url": "https://saga.api.kjnodes.com/"
         },
         {
             "provider": "Bro_n_Bro",
-            "url": "https://lcd.saga.bronbro.io:443"
+            "url": "https://lcd.saga.bronbro.io/"
         }
     ],
     "explorer" : {

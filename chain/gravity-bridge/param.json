@@ -43,23 +43,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-gravity-bridge.cosmostation.io:443"
+            "url": "https://lcd-gravity-bridge.cosmostation.io/"
         },
         {
             "provider": "althea",
-            "url": "https://gravitychain.io:1317"
+            "url": "https://gravitychain.io:1317/"
         },
         {
             "provider": "Polkachu",
-            "url": "https://gravity-api.polkachu.com"
+            "url": "https://gravity-api.polkachu.com/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://gravitybridge-api.lavenderfive.com"
+            "url": "https://gravitybridge-api.lavenderfive.com/"
         },
         {
             "provider": "Staketab",
-            "url": "https://gravity-rest.staketab.org"
+            "url": "https://gravity-rest.staketab.org/"
         }
     ],
     "explorer" : {

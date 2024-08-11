@@ -54,19 +54,19 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-coreum.cosmostation.io:443"
+            "url": "https://lcd-coreum.cosmostation.io/"
         },
         {
             "provider": "ecostake",
-            "url": "https://rest-coreum.ecostake.com"
+            "url": "https://rest-coreum.ecostake.com/"
         },
         {
             "provider": "Silk Nodes",
-            "url": "https://coreum.api.silknodes.io"
+            "url": "https://coreum.api.silknodes.io/"
         },
         {
             "provider": "Inter Blockchain Services",
-            "url": "https://coreum-api.ibs.team"
+            "url": "https://coreum-api.ibs.team/"
         },
         {
             "provider": "Stakewolle",

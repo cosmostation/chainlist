@@ -43,7 +43,7 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-althea.cosmostation.io:443"
+            "url": "https://lcd-althea.cosmostation.io/"
         },
         {
             "provider": "Chandra Station",
@@ -51,35 +51,17 @@
         },
         {
             "provider": "🔥STAVR🔥",
-            "url": "https://althea.api.m.stavr.tech"
+            "url": "https://althea.api.m.stavr.tech/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://althea-api.lavenderfive.com:443"
+            "url": "https://althea-api.lavenderfive.com/"
         }
     ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",
             "url": "https://rpc-althea-evm.cosmostation.io"
-        }
-    ],
-    "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-cosmos.cosmostation.io:443"
-        },
-        {
-            "provider": "Chandra Station",
-            "url": "https://nodes.chandrastation.com/api/althea"
-        },
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://althea.api.m.stavr.tech"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://althea-api.lavenderfive.com:443"
         }
     ],
     "explorer" : {

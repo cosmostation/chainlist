@@ -44,27 +44,27 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-akash.cosmostation.io:443"
+            "url": "https://lcd-akash.cosmostation.io/"
         },
         {
             "provider": "forbole",
-            "url": "https://api.akash.forbole.com:443"
+            "url": "https://api.akash.forbole.com/"
         },
         {
             "provider": "ecostake",
-            "url": "https://rest-akash.ecostake.com"
+            "url": "https://rest-akash.ecostake.com/"
         },
         {
             "provider": "Lavender.Five Nodes",
-            "url": "https://akash-api.lavenderfive.com:443"
+            "url": "https://akash-api.lavenderfive.com/"
         },
         {
             "provider": "Polkachu",
-            "url": "https://akash-api.polkachu.com"
+            "url": "https://akash-api.polkachu.com/"
         },
         {
             "provider": "Cosmos Spaces",
-            "url": "https://api-akash.cosmos-spaces.cloud"
+            "url": "https://api-akash.cosmos-spaces.cloud/"
         }
     ],
     "explorer" : {

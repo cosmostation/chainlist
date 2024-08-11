@@ -49,23 +49,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-passage.cosmostation.io:443"
+            "url": "https://lcd-passage.cosmostation.io/"
         },
         {
             "provider": "Staketab",
-            "url": "https://passage-rest.staketab.org"
+            "url": "https://passage-rest.staketab.org/"
         },
         {
             "provider": "ecostake",
-            "url": "https://rest-passage.ecostake.com"
+            "url": "https://rest-passage.ecostake.com/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://passage-api.lavenderfive.com:443"
+            "url": "https://passage-api.lavenderfive.com/"
         },
         {
             "provider": "Cosmos Spaces",
-            "url": "https://api-passage.cosmos-spaces.cloud"
+            "url": "https://api-passage.cosmos-spaces.cloud/"
         }
     ],
     "explorer" : {

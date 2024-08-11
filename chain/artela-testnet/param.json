@@ -1,6 +1,6 @@
 {
     "chain_id_cosmos" : "artela_11822-1",
-    "chain_id_evm" : "0x2E2E",
+    "chain_id_evm" : "0x2e2e",
     "chain_name": "Artela Testnet",
     "chain_image": "artela-testnet/resource/chain_artela-testnet.png",
     "symbol" : "ART",
@@ -33,6 +33,12 @@
             "url": "grpc-office-artela.cosmostation.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/artela-testnet/"
+        }
+    ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",
@@ -46,6 +52,12 @@
         "tx": "https://explorer.nodestake.org/artela-testnet/tx/${hash}",
         "proposal": "https://explorer.nodestake.org/artela-testnet/gov/${id}"
     },
+    "evm_explorer": {
+        "name": "Betanet",
+        "url": "https://betanet-scan.artela.network",
+        "account": "https://betanet-scan.artela.network/address/${address}",
+        "tx": "https://betanet-scan.artela.network/tx/${hash}"
+      },
     "about" : {
         "website" : "https://artela.network/",
         "docs": "https://docs.artela.network/",

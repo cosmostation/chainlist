@@ -50,23 +50,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-omniflix.cosmostation.io:443"
+            "url": "https://lcd-omniflix.cosmostation.io/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://omniflixhub-api.lavenderfive.com"
+            "url": "https://omniflixhub-api.lavenderfive.com/"
         },
         {
             "provider": "Cosmos Spaces",
-            "url": "https://api-omniflixhub.cosmos-spaces.cloud"
+            "url": "https://api-omniflixhub.cosmos-spaces.cloud/"
         },
         {
             "provider": "silent",
-            "url": "https://api.omniflix.silentvalidator.com"
+            "url": "https://api.omniflix.silentvalidator.com/"
         },
         {
             "provider": "kingnodes 👑",
-            "url": "https://omniflix-rest.kingnodes.com"
+            "url": "https://omniflix-rest.kingnodes.com/"
         }
     ],
     "explorer" : {

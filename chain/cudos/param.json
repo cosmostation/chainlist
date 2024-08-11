@@ -40,23 +40,19 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-cudos.cosmostation.io:443"
-        },
-        {
-            "provider": "cudo",
-            "url": "http://mainnet-full-node-01.hosts.cudos.org:1317"
+            "url": "https://lcd-cudos.cosmostation.io/"
         },
         {
             "provider": "Kleomedes",
-            "url": "https://cudos-api.kleomedes.network"
+            "url": "https://cudos-api.kleomedes.network/"
         },
         {
             "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://cudos-mainnet-lcd.autostake.com:443"
+            "url": "https://cudos-mainnet-lcd.autostake.com/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://cudos-api.lavenderfive.com"
+            "url": "https://cudos-api.lavenderfive.com/"
         }
     ],
     "explorer" : {

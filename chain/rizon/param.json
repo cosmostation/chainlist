@@ -37,15 +37,15 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-rizon.cosmostation.io:443"
+            "url": "https://lcd-rizon.cosmostation.io/"
         },
         {
             "provider": "ChainTools",
-            "url": "https://api.rizon.chaintools.tech"
+            "url": "https://api.rizon.chaintools.tech/"
         },
         {
             "provider": "🔥STAVR🔥",
-            "url": "https://rizon.api.m.stavr.tech"
+            "url": "https://rizon.api.m.stavr.tech/"
         }
     ],
     "explorer" : {

@@ -74,23 +74,23 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-dymension.cosmostation.io:443"
+            "url": "https://lcd-dymension.cosmostation.io/"
         },
         {
             "provider": "NodeStake",
-            "url": "https://api.dymension.nodestake.org"
+            "url": "https://api.dymension.nodestake.org/"
         },
         {
             "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://dymension-mainnet-lcd.autostake.com:443"
+            "url": "https://dymension-mainnet-lcd.autostake.com/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://dymension-api.lavenderfive.com:443"
+            "url": "https://dymension-api.lavenderfive.com/"
         },
         {
             "provider": "lesnik | UTSA",
-            "url": "https://m-dymension.api.utsa.tech"
+            "url": "https://m-dymension.api.utsa.tech/"
         }
     ],
     "explorer" : {

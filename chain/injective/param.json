@@ -21,7 +21,7 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "160000000inj"
+            "710000000inj"
         ],
         "init_gas_limit" : 300000,
         "isSimulable" : true,
@@ -49,15 +49,27 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-injective.cosmostation.io:443"
+            "url": "https://lcd-injective.cosmostation.io/"
         },
         {
-            "provider": "NewMetric",
-            "url": "https://6d0ff611-9009-4bd1-a7a7-acec7c70d454.injective-1.mesa-rest.newmetric.xyz"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://injective-api.lavenderfive.com/"
         },
         {
             "provider": "High Stakes 🇨🇭",
-            "url": "https://injective-api.highstakes.ch"
+            "url": "https://injective-api.highstakes.ch/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-injective.whispernode.com/"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://injective-rest.publicnode.com/"
+        },
+        {
+            "provider": "Ecostake",
+            "url": "https://rest-injective.ecostake.com/"
         }
     ],
     "explorer" : {
