@@ -71,11 +71,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/bitcanna/",
-        "account": "https://www.mintscan.io/bitcanna/address/${address}",
-        "tx": "https://www.mintscan.io/bitcanna/tx/${hash}",
-        "proposal": "https://www.mintscan.io/bitcanna/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/bitcanna",
+        "account": "https://atomscan.com/bitcanna/accounts/${address}",
+        "tx": "https://atomscan.com/bitcanna/transactions/${hash}",
+        "proposal": "https://atomscan.com/bitcanna/votes/${id}"
     },
     "about" : {
         "website" : "https://www.bitcanna.io/",
