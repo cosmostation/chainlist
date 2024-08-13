@@ -2020,7 +2020,7 @@
     "origin_chain": "mars-protocol",
     "origin_denom": "umars",
     "origin_type": "staking",
-    "symbol": "MARS",
+    "symbol": "MARS.old",
     "decimals": 6,
     "enable": true,
     "path": "mars-protocol>osmosis",
@@ -2030,6 +2030,26 @@
       "channel": "channel-1",
       "port": "transfer",
       "denom": "umars"
+    },
+    "image": "mars-protocol/asset/mars-ibc.png",
+    "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+  },
+  {
+    "denom": "ibc/B67DF59507B3755EEDE0866C449445BD54B4DA82CCEBA89D775E53DC35664255",
+    "type": "ibc",
+    "origin_chain": "neutron-1",
+    "origin_denom": "factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS",
+    "origin_type": "native",
+    "symbol": "MARS",
+    "decimals": 6,
+    "enable": true,
+    "path": "neutron>osmosis",
+    "channel": "channel-874",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-10",
+      "port": "transfer",
+      "denom": "factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS"
     },
     "image": "mars-protocol/asset/mars.png",
     "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
