@@ -2043,11 +2043,11 @@
     "symbol": "MARS",
     "decimals": 6,
     "enable": true,
-    "path": "mars-protocol>osmosis",
-    "channel": "channel-557",
+    "path": "neutron>osmosis",
+    "channel": "channel-874",
     "port": "transfer",
     "counter_party": {
-      "channel": "channel-1",
+      "channel": "channel-10",
       "port": "transfer",
       "denom": "factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS"
     },
