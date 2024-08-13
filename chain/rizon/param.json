@@ -49,11 +49,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/rizon/",
-        "account": "https://www.mintscan.io/rizon/address/${address}",
-        "tx": "https://www.mintscan.io/rizon/tx/${hash}",
-        "proposal": "https://www.mintscan.io/rizon/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/rizon",
+        "account": "https://atomscan.com/rizon/accounts/${address}",
+        "tx": "https://atomscan.com/rizon/transactions/${hash}",
+        "proposal": "https://atomscan.com/rizon/votes/${id}"
     },
     "about" : {
         "website" : "https://rizon.world/",
