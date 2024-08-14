@@ -14,19 +14,19 @@
     "rpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://sui-mainnet-us-2.cosmostation.io/"
+            "url": "https://sui-mainnet-us-2.cosmostation.io"
         },
         {
             "provider": "Cosmostation",
-            "url": "https://sui-mainnet-ca-2.cosmostation.io/"
+            "url": "https://sui-mainnet-ca-2.cosmostation.io"
         },
         {
             "provider": "Cosmostation",
-            "url": "https://sui-mainnet-us-1.cosmostation.io/"
+            "url": "https://sui-mainnet-us-1.cosmostation.io"
         },
         {
             "provider": "Foundation",
-            "url": "https://fullnode.mainnet.sui.io:443/"
+            "url": "https://fullnode.mainnet.sui.io:443"
         }
     ],
     "explorer" : {
