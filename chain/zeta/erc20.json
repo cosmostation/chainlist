@@ -13,6 +13,28 @@
   {
     "chainId": 7000,
     "chainName": "zeta",
+    "address": "0x45334a5B0a01cE6C260f2B570EC941C680EA62c0",
+    "symbol": "stZETA",
+    "description": "ZetaEarn Staked ZETA (ZRC20)",
+    "decimals": 18,
+    "image": "zeta/asset/zetaearn-stzeta.png",
+    "default": false,
+    "coinGeckoId": "zetaearn-staked-zeta"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0x13A0c5930C028511Dc02665E7285134B6d11A5f4",
+    "symbol": "BTC.BTC",
+    "description": "ZetaChain Bridged BTC.BTC (ZRC20)",
+    "decimals": 18,
+    "image": "zeta/asset/btc-btc.png",
+    "default": true,
+    "coinGeckoId": "zetachain-bridged-btc-btc-zetachain"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
     "address": "0xd97B1de3619ed2c6BEb3860147E30cA8A7dC9891",
     "symbol": "ETH.ETH",
     "description": "ZetaChain Bridged ETH.ETH (ZRC20)",
@@ -42,6 +64,28 @@
     "image": "zeta/asset/usdc-eth.png",
     "default": true,
     "coinGeckoId": "zetachain-bridged-usdc-eth-zetachain"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0x236b0de675cc8f46ae186897fccefe3370c9eded",
+    "symbol": "PEPE.ETH",
+    "description": "ZetaChain Bridged PEPE.ETH (ZRC20)",
+    "decimals": 18,
+    "image": "zeta/asset/pepe-eth.png",
+    "default": true,
+    "coinGeckoId": "pepe"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0x777915D031d1e8144c90D025C594b3b8Bf07a08d",
+    "symbol": "SHIB.ETH",
+    "description": "ZetaChain Bridged SHIB.ETH (ZRC20)",
+    "decimals": 18,
+    "image": "zeta/asset/shib-eth.png",
+    "default": true,
+    "coinGeckoId": "shiba-inu"
   },
   {
     "chainId": 7000,
@@ -79,12 +123,34 @@
   {
     "chainId": 7000,
     "chainName": "zeta",
-    "address": "0x45334a5B0a01cE6C260f2B570EC941C680EA62c0",
-    "symbol": "stZETA",
-    "description": "ZetaEarn Staked ZETA (ZRC20)",
+    "address": "0xADF73ebA3Ebaa7254E859549A44c74eF7cff7501",
+    "symbol": "POL.POL",
+    "description": "ZetaChain Bridged POL.POLYGON (ZRC20)",
     "decimals": 18,
-    "image": "zeta/asset/zetaearn-stzeta.png",
+    "image": "zeta/asset/pol-pol.png",
     "default": false,
-    "coinGeckoId": "zetaearn-staked-zeta"
+    "coinGeckoId": "polygon-ecosystem-token"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0xfC9201f4116aE6b054722E10b98D904829b469c3",
+    "symbol": "USDC.POL",
+    "description": "ZetaChain Bridged USDC.POLYGON (ZRC20)",
+    "decimals": 6,
+    "image": "zeta/asset/usdc-pol.png",
+    "default": false,
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "chainId": 7000,
+    "chainName": "zeta",
+    "address": "0xdbfF6471a79E5374d771922F2194eccc42210B9F",
+    "symbol": "USDT.POL",
+    "description": "ZetaChain Bridged USDT.POLYGON (ZRC20)",
+    "decimals": 6,
+    "image": "zeta/asset/usdt-pol.png",
+    "default": false,
+    "coinGeckoId": "tether"
   }
 ]
