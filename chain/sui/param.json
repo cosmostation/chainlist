@@ -1,4 +1,34 @@
 {
+    "chain_id" : "35834a8a",
+    "chain_name": "Sui",
+    "chain_image": "sui/resource/chain_sui.png",
+    "symbol" : "SUI",
+    "symbol_image" : "sui/asset/sui.png",
+    "origin_genesis_time" : "2023-05-03T00:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/784'/0'/0'/X'",
+            "pubkey_style": "ed25519"
+        }
+    ],
+    "rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://sui-mainnet-us-2.cosmostation.io/"
+        },
+        {
+            "provider": "Cosmostation",
+            "url": "https://sui-mainnet-ca-2.cosmostation.io/"
+        },
+        {
+            "provider": "Cosmostation",
+            "url": "https://sui-mainnet-us-1.cosmostation.io/"
+        },
+        {
+            "provider": "Foundation",
+            "url": "https://fullnode.mainnet.sui.io:443/"
+        }
+    ],
     "explorer" : {
         "name": "Suiscan",
         "url": "https://suiscan.xyz/",
