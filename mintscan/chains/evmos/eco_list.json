@@ -136,16 +136,17 @@
     }
   },
   {
-    "name": "Stayking",
-    "type": "Defi",
-    "description": "Stayking’s Cross-Zone leverage staking platform is designed to maximize your staking reward and amplify your investment.",
-    "link": "https://app.stayking.zone/leverage?protocol=evmos&ratio=2.5",
+    "name": "JokeRace",
+    "type": "NFT&Social",
+    "description": "Create an on-chain contest in 5 minutes to engage and grow your community.",
+    "link": "https://www.jokerace.io",
     "status": "open",
-    "thumbnail" : "stayking",
+    "thumbnail" : "jokerace",
     "social": {
-      "webSite": "https://www.stayking.zone/",
-      "twitter": "https://twitter.com/staykingg/",
-      "docs": "https://docs.stayking.zone/"
+      "webSite": "https://www.jokerace.io/",
+      "twitter": "https://twitter.com/jokerace_io/",
+      "github": "https://github.com/jk-labs-inc/jokerace",
+      "docs": "https://docs.jokerace.io/"
     }
   },
   {
