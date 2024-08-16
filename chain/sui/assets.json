@@ -395,4 +395,17 @@
     "image": "sui/asset/blub.png",
     "coinGeckoId": "blub"
   },
+  {
+    "denom": "0x909cba62ce96d54de25bec9502de5ca7b4f28901747bbf96b76c2e63ec5f1cba::coin::COIN",
+    "type": "bridge",
+    "origin_chain": "ethereum",
+    "origin_denom": "",
+    "origin_type": "",
+    "symbol": "USDCbnb",
+    "decimals": 8,
+    "description": "",
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
+  }
+
 ]
