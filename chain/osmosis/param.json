@@ -39,10 +39,6 @@
         {
             "provider": "StakeTown",
             "url": "osmosis-grpc.stake-town.com:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "osmosis-grpc.lavenderfive.com:443"
         }
     ],
     "lcd_endpoint" : [
@@ -61,10 +57,6 @@
         {
             "provider": "Chainlayer",
             "url": "https://osmosis-lcd.quickapi.com/"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://osmosis-api.lavenderfive.com/"
         }
     ],
     "explorer" : {
