@@ -33,10 +33,6 @@
             "url": "grpc-osmosis.cosmostation.io:443"
         },
         {
-            "provider": "Notional",
-            "url": "grpc-osmosis-ia.cosmosia.notional.ventures:443"
-        },
-        {
             "provider": "Stakin",
             "url": "osmosis.grpc.stakin-nodes.com:443"
         },
