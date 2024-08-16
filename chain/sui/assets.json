@@ -44,7 +44,7 @@
     "symbol": "SBOX",
     "decimals": 1,
     "description": "",
-    "image": "sui/asset/suiboxer.png",
+    "image": "sui/asset/sbox.png",
     "coinGeckoId": "suiboxer"
   },
   {
@@ -56,7 +56,7 @@
     "symbol": "SSWP",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/suiswap.png",
+    "image": "sui/asset/sswp.png",
     "coinGeckoId": "suiswap"
   },
   {
@@ -68,7 +68,7 @@
     "symbol": "BUCK",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/bucket-protocol-buck-stablecoin.png",
+    "image": "sui/asset/buck.png",
     "coinGeckoId": "bucket-protocol-buck-stablecoin"
   },
   {
@@ -80,7 +80,7 @@
     "symbol": "SCA",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/scallop-2.png",
+    "image": "sui/asset/sca.png",
     "coinGeckoId": "scallop-2"
   },
   {
@@ -92,7 +92,7 @@
     "symbol": "CETUS",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/cetus-protocol.png",
+    "image": "sui/asset/cetus.png",
     "coinGeckoId": "cetus-protocol"
   },
   {
@@ -104,7 +104,7 @@
     "symbol": "TURBOS",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/turbos-finance.png",
+    "image": "sui/asset/turbos.png",
     "coinGeckoId": "turbos-finance"
   },
   {
@@ -116,7 +116,7 @@
     "symbol": "SPT",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/seapad.png",
+    "image": "sui/asset/spt.png",
     "coinGeckoId": "seapad"
   },
   {
@@ -128,7 +128,7 @@
     "symbol": "FUD",
     "decimals": 5,
     "description": "",
-    "image": "sui/asset/fud-the-pug.png",
+    "image": "sui/asset/fud.png",
     "coinGeckoId": "fud-the-pug"
   },
   {
@@ -140,7 +140,7 @@
     "symbol": "VSUI",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/volo-staked-sui.png",
+    "image": "sui/asset/vsui.png",
     "coinGeckoId": "volo-staked-sui"
   },
   {
@@ -152,7 +152,7 @@
     "symbol": "NAVX",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/navi.png",
+    "image": "sui/asset/navx.png",
     "coinGeckoId": "navi"
   },
   {
@@ -164,7 +164,7 @@
     "symbol": "REAP",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/releap.png",
+    "image": "sui/asset/reap.png",
     "coinGeckoId": "releap"
   },
   {
@@ -176,7 +176,7 @@
     "symbol": "SPEPE",
     "decimals": 6,
     "description": "",
-    "image": "sui/asset/sui-pepe.png",
+    "image": "sui/asset/spepe.png",
     "coinGeckoId": "sui-pepe"
   },
   {
@@ -188,7 +188,7 @@
     "symbol": "HASUI",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/haedal-staked-sui.png",
+    "image": "sui/asset/hasui.png",
     "coinGeckoId": "haedal-staked-sui"
   },
   {
@@ -200,7 +200,7 @@
     "symbol": "SCB",
     "decimals": 5,
     "description": "",
-    "image": "sui/asset/sacabam.png",
+    "image": "sui/asset/scb.png",
     "coinGeckoId": "sacabam"
   },
   {
@@ -212,7 +212,7 @@
     "symbol": "SUIP",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/suipad.png",
+    "image": "sui/asset/suip.png",
     "coinGeckoId": "suipad"
   },
   {
@@ -236,7 +236,7 @@
     "symbol": "HSUI",
     "decimals": 9,
     "description": "",
-    "image": "sui/asset/suicune-on-sui.png",
+    "image": "sui/asset/hsui.png",
     "coinGeckoId": "suicune-on-sui"
   },
   {
@@ -308,7 +308,7 @@
     "symbol": "APT",
     "decimals": 8,
     "description": "",
-    "image": "aptos/asset/aptos.png",
+    "image": "aptos/asset/apt.png",
     "coinGeckoId": "aptos"
   },
   {
@@ -320,7 +320,7 @@
     "symbol": "FLX",
     "decimals": 8,
     "description": "",
-    "image": "sui/asset/flowx-finance.png",
+    "image": "sui/asset/flx.png",
     "coinGeckoId": "flowx-finance"
   },
   {
@@ -344,7 +344,7 @@
     "symbol": "SUISHIB",
     "decimals": 6,
     "description": "",
-    "image": "sui/asset/suishiba.png",
+    "image": "sui/asset/suishib.png",
     "coinGeckoId": "suishiba"
   },
   {
@@ -382,5 +382,29 @@
     "description": "",
     "image": "bnb-smart-chain/asset/wbnb.png",
     "coinGeckoId": "wbnb"
-  }
+  },
+  {
+    "denom": "0xf325ce1300e8dac124071d3152c5c5ee6174914f8bc2161e88329cf579246efc::afsui::AFSUI",
+    "type": "native",
+    "origin_chain": "sui",
+    "origin_denom": "",
+    "origin_type": "",
+    "symbol": "AFSUI",
+    "decimals": 9,
+    "description": "",
+    "image": "sui/asset/afsui.png",
+    "coinGeckoId": "aftermath-staked-sui"
+  },
+  {
+    "denom": "0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB",
+    "type": "native",
+    "origin_chain": "sui",
+    "origin_denom": "",
+    "origin_type": "",
+    "symbol": "BLUB",
+    "decimals": 2,
+    "description": "",
+    "image": "sui/asset/blub.png",
+    "coinGeckoId": "blub"
+  },
 ]
