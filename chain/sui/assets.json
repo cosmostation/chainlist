@@ -240,18 +240,6 @@
     "coinGeckoId": "suicune-on-sui"
   },
   {
-    "denom": "0x909cba62ce96d54de25bec9502de5ca7b4f28901747bbf96b76c2e63ec5f1cba::coin::COIN",
-    "type": "bridge",
-    "origin_chain": "ethereum",
-    "origin_denom": "",
-    "origin_type": "",
-    "symbol": "USDC",
-    "decimals": 8,
-    "description": "",
-    "image": "ethereum/asset/usdc.png",
-    "coinGeckoId": "usd-coin"
-  },
-  {
     "denom": "0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN",
     "type": "bridge",
     "origin_chain": "ethereum",
