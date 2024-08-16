@@ -47,6 +47,40 @@
     "thumbnail" : "",
     "link": "https://app.suidex.io/",
     "type": "DeFi"
+  },
+  {
+    "name": "Scallop",
+    "description":"The Next Generation Money Market Based on Sui.",
+    "thumbnail" : "",
+    "link": "https://app.scallop.io/",
+    "type": "DeFi"
+  },
+  {
+    "name": "NAVI Protocol",
+    "description": "Navi is the first Native One-Stop Liquidity Protocol on Sui. It enables users to participate as liquidity providers or borrowers within the Sui Ecosystem.",
+    "thumbnail" : "",
+    "link": "https://app.naviprotocol.io/",
+    "type": "DeFi"
+  },
+  {
+    "name": "Stashed",
+    "description": "Sending assets has never been easier.",
+    "thumbnail" : "",
+    "link": "https://getstashed.com/auth",
+    "type": "Wallets"
+  },
+  {
+    "name": "Splash Dash",
+    "description": "Splash Dash is an intuitive SUI dashboard that offers SUI users an one-for-all platform for staking, investments, and asset management.",
+    "thumbnail" : "",
+    "link": "https://dash.splash.im/mainnet/dashboard",
+    "type": "Infra"
+  },
+  {
+    "name": "Kriya",
+    "description": "Kriya is building institutional grade infra for on-chain trading. The current suite includes - an in-app bridge, an AMM swap and a fully on-chain orderbook for 20x perp trading.",
+    "link": "https://www.app.kriya.finance/spot/swap",
+    "type": "DeFi"
   }
 
 ]
