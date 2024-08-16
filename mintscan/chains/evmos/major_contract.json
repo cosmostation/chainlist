@@ -1,8 +1,293 @@
 [
     {
-        "name": "WEVMOS9",
+        "name": "WEVMOS",
         "contract_address": "0xD4949664cD82660AaE99bEdc034a0deA8A0bd517"
     },
+  {
+    "name": "stEVMOS - Stride Staked EVMOS",
+    "contract_address": "0x2C68D1d6aB986Ff4640b51e1F14C716a076E44C4",
+    "description": "Stride's liquid staking token for Evmos on the Evmos chain"
+  },
+  {
+    "name": "ATOM - Cosmos Hub",
+    "contract_address": "0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6",
+    "description": "The native token of the Cosmos Hub blockchain"
+  },
+  {
+    "name": "stATOM - Stride Staked ATOM",
+    "contract_address": "0xB5124FA2b2cF92B2D469b249433BA1c96BDF536D",
+    "description": "Stride's liquid staking token for Cosmos Hub's ATOM on the Evmos chain"
+  },
+  {
+    "name": "USDC - Noble",
+    "contract_address": "0xf1fae9ec886c5f6e4ea13da2456087bd72f02cd1",
+    "description": "USD Coin stablecoin from Noble on the Evmos chain"
+  },
+  {
+    "name": "USDT - Kava",
+    "contract_address": "0xb8f812b5943ab3bf941d5d4f1de90a4b326c5d8f",
+    "description": "Tether USD stablecoin issued on the Kava blockchain"
+  },
+  {
+    "name": "Wrapped BTC - Wormhole",
+    "contract_address": "0xC732284e5deDb565ba403216d718a485038E55A6",
+    "description": "Wrapped Bitcoin token bridged via Wormhole to the Evmos chain"
+  },
+  {
+    "name": "Wrapped Ether - Wormhole",
+    "contract_address": "0x4D036A97e9ad9e805f0E7B163Ea681B3dE83B7BF",
+    "description": "Wrapped Ether token bridged via Wormhole to the Evmos chain"
+  },
+  {
+    "name": "USDC - Wormhole",
+    "contract_address": "0xC4CcDf91b810a61cCB48b35ccCc066C63bf94B4F",
+    "description": "USD Coin stablecoin bridged via Wormhole to the Evmos chain"
+  },
+  {
+    "name": "USDT - Wormhole",
+    "contract_address": "0xa9582420b222c85ee5b6e766415eea5673283a03",
+    "description": "Tether USD stablecoin bridged via Wormhole to the Evmos chain"
+  },
+  {
+    "name": "Wrapped Ether - Axelar",
+    "contract_address": "0x50dE24B3f0B3136C50FA8A3B8ebc8BD80a269ce5",
+    "description": "Wrapped Ether token bridged via Axelar to the Evmos chain"
+  },
+  {
+    "name": "Osmosis",
+    "contract_address": "0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864",
+    "description": "The native token of the Osmosis blockchain"
+  },
+  {
+    "name": "Juno",
+    "contract_address": "0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19",
+    "description": "The native token of the Juno blockchain"
+  },
+  {
+    "name": "Injective",
+    "contract_address": "0x3515F25AB7637adcF1b69F4D384ed5936B83431F",
+    "description": "The native token of the Injective blockchain"
+  },
+  {
+    "name": "Stargaze",
+    "contract_address": "0x5aD523d94Efb56C400941eb6F34393b84c75ba39",
+    "description": "The native token of the Stargaze blockchain"
+  },
+  {
+    "name": "Stride Staked OSMO",
+    "contract_address": "0xD32eB974468ed767338533842D2D4Cc90B9BAb46",
+    "description": "Stride's liquid staking token for Osmosis' OSMO on the Evmos chain"
+  },
+  {
+    "name": "Stride Staked JUNO",
+    "contract_address": "0xc71aAf8e486e3F33841BB56Ca3FD2aC3fa8D29a8",
+    "description": "Stride's liquid staking token for Juno's JUNO on the Evmos chain"
+  },
+  {
+    "name": "Stride",
+    "contract_address": "0x8FA78CEB7F04118Ec6d06AaC37Ca854691d8e963",
+    "description": "The native token of the Stride blockchain"
+  },
+  {
+    "name": "Stride Staked STARS",
+    "contract_address": "0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E",
+    "description": "Stride's liquid staking token for Stargaze's STARS on the Evmos chain"
+  },
+  {
+    "name": "cEVMOS (Tashi Lending)",
+    "contract_address": "0x1cd248d72248a0618932f77093dc4cec9757759d",
+    "description": "Tashi Lending's interest-bearing EVMOS token on the Evmos chain"
+  },
+  {
+    "name": "cATOM (Tashi Lending)",
+    "contract_address": "0xd7b451014c38216938ec02ea69769ba02e744044",
+    "description": "Tashi Lending's interest-bearing ATOM token on the Evmos chain"
+  },
+  {
+    "name": "cUSDT Kava (Tashi Lending)",
+    "contract_address": "0x5ac7404f17f64fe8cd812d45a6f5fc6ffc46f288",
+    "description": "Tashi Lending's interest-bearing USDT (Kava) token on the Evmos chain"
+  },
+  {
+    "name": "Tashi",
+    "contract_address": "0x98fAFD9F714CE0B4bB2870527076F2F314aAed82",
+    "description": "Tashi token on the Evmos chain"
+  },
+  {
+    "name": "USDC - Axelar",
+    "contract_address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
+    "description": "USD Coin stablecoin bridged via Axelar to the Evmos chain"
+  },
+  {
+    "name": "Rocket Pool staked ETH - Axelar",
+    "contract_address": "0xE60CE2dfa6D4Ad37Ade1dcB7aC4D6C3A093b3A7E",
+    "description": "Rocket Pool's ETH staking token bridged via Axelar to the Evmos chain"
+  },
+  {
+    "name": "Wrapped BTC - Axelar",
+    "contract_address": "0xF5b24c0093b65408ACE53df7ce86a02448d53b25",
+    "description": "Wrapped Bitcoin token bridged via Axelar to the Evmos chain"
+  },
+  {
+    "name": "GRAV - Gravity",
+    "contract_address": "0x80b5a32e4f032b2a058b4f29ec95eefeeb87adcd",
+    "description": "The native token of the Gravity Bridge blockchain"
+  },
+  {
+    "name": "Wrapped Ether - Gravity",
+    "contract_address": "0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E",
+    "description": "Wrapped Ether token bridged via Gravity Bridge to the Evmos chain"
+  },
+  {
+    "name": "Wrapped BTC - Gravity",
+    "contract_address": "0x1D54EcB8583Ca25895c512A8308389fFD581F9c9",
+    "description": "Wrapped Bitcoin token bridged via Gravity Bridge to the Evmos chain"
+  },
+  {
+    "name": "USDC - Gravity",
+    "contract_address": "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
+    "description": "USD Coin stablecoin bridged via Gravity Bridge to the Evmos chain"
+  },
+  {
+    "name": "Dai Stablecoin - Gravity",
+    "contract_address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
+    "description": "Dai stablecoin bridged via Gravity Bridge to the Evmos chain"
+  },
+  {
+    "name": "Tether USD - Gravity",
+    "contract_address": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
+    "description": "Tether USD stablecoin bridged via Gravity Bridge to the Evmos chain"
+  },
+  {
+    "name": "Frax",
+    "contract_address": "0xE03494D0033687543a80c9B1ca7D6237F2EA8BD8",
+    "description": "Frax stablecoin on the Evmos chain"
+  },
+  {
+    "name": "Frax Share",
+    "contract_address": "0xd8176865DD0D672c6Ab4A427572f80A72b4B4A9C",
+    "description": "Frax Share token on the Evmos chain"
+  },
+  {
+    "name": "Dai Stablecoin - Celer",
+    "contract_address": "0x940dAAbA3F713abFabD79CdD991466fe698CBe54",
+    "description": "Dai stablecoin bridged via Celer to the Evmos chain"
+  },
+  {
+    "name": "Wrapped Ether - Celer",
+    "contract_address": "0x153A59d48AcEAbedbDCf7a13F67Ae52b434B810B",
+    "description": "Wrapped Ether token bridged via Celer to the Evmos chain"
+  },
+  {
+    "name": "Wrapped BTC - Celer",
+    "contract_address": "0xb98e169C37ce30Dd47Fdad1f9726Fb832191e60b",
+    "description": "Wrapped Bitcoin token bridged via Celer to the Evmos chain"
+  },
+  {
+    "name": "USD Coin - Celer",
+    "contract_address": "0xe46910336479F254723710D57e7b683F3315b22B",
+    "description": "USD Coin stablecoin bridged via Celer to the Evmos chain"
+  },
+  {
+    "name": "Tether USD - Celer",
+    "contract_address": "0xb72A7567847abA28A2819B855D7fE679D4f59846",
+    "description": "Tether USD stablecoin bridged via Celer to the Evmos chain"
+  },
+  {
+    "name": "BUSD - Celer",
+    "contract_address": "0x516e6D96896Aea92cE5e78B0348FD997F13802ad",
+    "description": "Binance USD stablecoin bridged via Celer to the Evmos chain"
+  },
+  {
+    "name": "BNB - Celer",
+    "contract_address": "0x75364D4F779d0Bd0facD9a218c67f87dD9Aff3b4",
+    "description": "Binance Coin bridged via Celer to the Evmos chain"
+  },
+  {
+    "name": "AVAX - Celer",
+    "contract_address": "0x8006320739fC281da67Ee62eB9b4Ef8ADD5C903a",
+    "description": "Avalanche's native token bridged via Celer to the Evmos chain"
+  },
+  {
+    "name": "FTM - Celer",
+    "contract_address": "0x729416B1F442f204989f1C9f0d58321F878808eD",
+    "description": "Fantom's native token bridged via Celer to the Evmos chain"
+  },
+  {
+    "name": "Aurora - Celer",
+    "contract_address": "0x48421FF1c6B93988138130865C4B7Cce10358271",
+    "description": "Aurora's native token bridged via Celer to the Evmos chain"
+  },
+  {
+    "name": "CELR - Celer",
+    "contract_address": "0xFe6998C5c22936CCa749b14Fcf5F190398cfa8F8",
+    "description": "Celer Network's native token on the Evmos chain"
+  },
+  {
+    "name": "OAV - Orbital Apes",
+    "contract_address": "0xBbD37BF85f7474b5bDe689695674faB1888565Ad",
+    "description": "Orbital Apes token on the Evmos chain"
+  },
+  {
+    "name": "Evmos Domains",
+    "contract_address": "0x47685B6AC7bB4de761A57828877A7B8254c8B145",
+    "description": "Token for the Evmos Domains naming service on the Evmos chain"
+  },
+  {
+    "name": "OAT - Orbital Apes Token",
+    "contract_address": "0xeaa87fdf35a041963a1902dcc26bbaa2386a6800",
+    "description": "Token for the unofficial Orbital Apes fractionalized NFT project by Culinary Consensus"
+  },
+  {
+    "name": "xEVMOS - xSPACE SLP",
+    "contract_address": "0x45c5e270c6f01e48507098c6C8b580584EF3E559",
+    "description": "Liquidity pool token for xEVMOS and xSPACE on the Evmos chain"
+  },
+  {
+    "name": "SpaceFi",
+    "contract_address": "0x4e2d4f33d759976381d9dee04b197bf52f6bc1fc",
+    "description": "SpaceFi token on the Evmos chain"
+  },
+  {
+    "name": "Quicksilver Staked ATOM",
+    "contract_address": "0x4ad26064831ECE180B179a4C02Dc97940AA77B17",
+    "description": "Quicksilver's liquid staking token for Cosmos Hub's ATOM on the Evmos chain"
+  },
+  {
+    "name": "Quicksilver Staked OSMO",
+    "contract_address": "0x616E00909730f7dE9Afd97Dc71981f6d28e2B0ca",
+    "description": "Quicksilver's liquid staking token for Osmosis' OSMO on the Evmos chain"
+  },
+  {
+    "name": "Quicksilver",
+    "contract_address": "0xf55454383cEEFB1B5e889E59542352B1b928707d",
+    "description": "Quicksilver's native token on the Evmos chain"
+  },
+  {
+    "name": "XEN Crypto",
+    "contract_address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e",
+    "description": "XEN Crypto token on the Evmos chain"
+  },
+{
+    "name": "DBXen Token on Evmos",
+    "contract_address": "0xc418B123885d732ED042b16e12e259741863F723",
+    "description": "DBXen token on the Evmos chain"
+  },
+  {
+    "name": "Evmoon",
+    "contract_address": "0x524400756F3D288d90C04eaA0d130cB9c4ADC412",
+    "description": "Evmoon token on the Evmos chain"
+  },
+  {
+    "name": "Light",
+    "contract_address": "0xe7520B4b89F105c53D4DBA596ebaF1Bd6A44D544",
+    "description": "Light token on the Evmos chain"
+  },
+  {
+    "name": "Kava",
+    "contract_address": "0x6196aee47d983e9b20610a3e816935bffa8d17d1",
+    "description": "Kava token on the Evmos chain"
+  }
     {
         "name": "edoge",
         "contract_address": "0x93D8c966d8dD358fe5146ad3067a0414f25f7F5B"
