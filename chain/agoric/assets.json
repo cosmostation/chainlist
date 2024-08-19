@@ -7,7 +7,7 @@
     "origin_type": "staking",
     "symbol": "BLD",
     "decimals": 6,
-    "description": "",
+    "description": "Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.",
     "image": "agoric/asset/bld.png",
     "coinGeckoId": "agoric",
     "color": "#bc2c44"
@@ -20,8 +20,109 @@
     "origin_type": "native",
     "symbol": "IST",
     "decimals": 6,
-    "description": "",
+    "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
     "image": "agoric/asset/ist.png",
     "coinGeckoId": "inter-stable-token"
+  },
+  {
+    "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>agoric",
+    "channel": "channel-62",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-21",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ibc/299612A95693138225447366268ED58014100D965FCEDC43F27D47AB360F351F",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "ustrd",
+    "origin_type": "staking",
+    "symbol": "STRD",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>agoric",
+    "channel": "channel-59",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-148",
+      "port": "transfer",
+      "denom": "ustrd"
+    },
+    "image": "stride/asset/strd.png",
+    "coinGeckoId": "stride"
+  },
+  {
+    "denom": "ibc/DDAB71B9D194CBF3B87DD6924B3B4846F14061289FCBA8A3989B6F8230BC0F05",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stuosmo",
+    "origin_type": "native",
+    "symbol": "stOSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>agoric",
+    "channel": "channel-59",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-148",
+      "port": "transfer",
+      "denom": "stuosmo"
+    },
+    "image": "stride/asset/stosmo.png",
+    "coinGeckoId": "stride-staked-osmo"
+  },
+  {
+    "denom": "ibc/4BFBA0996893D2049913D24060BE5936EF8AAF2C89E08B91BCCCA2B8DE3BA241",
+    "type": "ibc",
+    "origin_chain": "stride",
+    "origin_denom": "stutia",
+    "origin_type": "native",
+    "symbol": "stTIA",
+    "decimals": 6,
+    "enable": true,
+    "path": "stride>agoric",
+    "channel": "channel-59",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-148",
+      "port": "transfer",
+      "denom": "stutia"
+    },
+    "image": "stride/asset/stutia.png",
+    "coinGeckoId": "stride-staked-tia"
+  },
+  {
+    "denom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>agoric",
+    "channel": "channel-9",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-41",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "axlusdc",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
   }
 ]
