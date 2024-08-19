@@ -7,7 +7,7 @@
     "origin_type": "staking",
     "symbol": "BLD",
     "decimals": 6,
-    "description": "Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.",
+    "description": "Agoric Staking Coin",
     "image": "agoric/asset/bld.png",
     "coinGeckoId": "agoric",
     "color": "#bc2c44"
@@ -20,7 +20,7 @@
     "origin_type": "native",
     "symbol": "IST",
     "decimals": 6,
-    "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
+    "description": "Agoric Stablecoin",
     "image": "agoric/asset/ist.png",
     "coinGeckoId": "inter-stable-token"
   },
