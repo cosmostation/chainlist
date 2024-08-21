@@ -1,0 +1,14 @@
+[
+    {
+        "denom": "uom",
+        "type": "staking",
+        "origin_chain": "mantra-testnet",
+        "origin_denom": "uom",
+        "origin_type": "staking",
+        "symbol": "OM",
+        "decimals": 6,
+        "description": "Mantra Testnet Staking Coin",
+        "image": "mantra-testnet/asset/om.png",
+        "color": "#FBA0C1"
+    }
+]
