@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Quicksilver Staking Coin",
     "image": "quicksilver/asset/qck.png",
-    "coinGeckoId": "quicksilver"
+    "coinGeckoId": "quicksilver",
+    "color": "#9B9B9B"
   },
   {
     "denom": "uqstars",
@@ -21,7 +22,7 @@
     "decimals": 6,
     "description": "Quicksilver Staked Stars",
     "image": "quicksilver/asset/qstars.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "qstar-2"
   },
   {
     "denom": "uqatom",
@@ -33,7 +34,7 @@
     "decimals": 6,
     "description": "Quicksilver Staked ATOM",
     "image": "quicksilver/asset/qatom.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "qatom"
   },
   {
     "denom": "uqregen",
@@ -45,7 +46,7 @@
     "decimals": 6,
     "description": "Quicksilver Staked REGEN",
     "image": "quicksilver/asset/qregen.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "qregen"
   },
   {
     "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
@@ -177,7 +178,7 @@
     "decimals": 6,
     "description": "Quicksilver Staked OSMO",
     "image": "quicksilver/asset/qosmo.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "qosmo"
   },
   {
     "denom": "ibc/BFF8BC09B94E2EA90B64961A181D2383280FFA7847109DE1AB4ECA366466462A",
@@ -197,7 +198,7 @@
       "denom": "usomm"
     },
     "image": "sommelier/asset/somm.png",
-    "coinGeckoId": "regen"
+    "coinGeckoId": "sommelier"
   },
   {
     "denom": "uqsomm",
@@ -209,6 +210,54 @@
     "decimals": 6,
     "description": "Quicksilver Staked SOMM",
     "image": "quicksilver/asset/qsomm.png",
+    "coinGeckoId": "qsomm"
+  },
+  {
+    "denom": "uqjuno",
+    "type": "native",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqjuno",
+    "origin_type": "native",
+    "symbol": "qJUNO",
+    "decimals": 6,
+    "description": "Quicksilver Staked JUNO",
+    "image": "quicksilver/asset/qjuno.png",
+    "coinGeckoId": "qjuno"
+  },
+  {
+    "denom": "uqsaga",
+    "type": "native",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqsaga",
+    "origin_type": "native",
+    "symbol": "qSAGA",
+    "decimals": 6,
+    "description": "Quicksilver Staked SAGA",
+    "image": "quicksilver/asset/qsaga.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "uqbld",
+    "type": "native",
+    "origin_chain": "quicksilver",
+    "origin_denom": "uqbld",
+    "origin_type": "native",
+    "symbol": "qBLD",
+    "decimals": 6,
+    "description": "Quicksilver Staked BLD",
+    "image": "quicksilver/asset/qbld.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "aqdydx",
+    "type": "native",
+    "origin_chain": "quicksilver",
+    "origin_denom": "aqdydx",
+    "origin_type": "native",
+    "symbol": "qDYDX",
+    "decimals": 18,
+    "description": "Quicksilver Staked DYDX",
+    "image": "quicksilver/asset/qdydx.png",
     "coinGeckoId": ""
   }
 ]

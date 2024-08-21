@@ -1,5 +1,17 @@
 [
   {
+    "denom": "boot",
+    "type": "staking",
+    "origin_chain": "bostrom",
+    "origin_denom": "boot",
+    "origin_type": "staking",
+    "symbol": "BOOT",
+    "decimals": 0,
+    "enable": true,
+    "description": "The staking token of Bostrom",
+    "image": "bostrom/asset/boot.png"
+  },
+  {
     "denom": "ucre",
     "type": "staking",
     "origin_chain": "crescent",
@@ -10,7 +22,8 @@
     "enable": true,
     "description": "Crescent Staking Coin",
     "image": "crescent/asset/cre.png",
-    "coinGeckoId": "crescent-network"
+    "coinGeckoId": "crescent-network",
+    "color": "#F4BC76"
   },
   {
     "denom": "ubcre",

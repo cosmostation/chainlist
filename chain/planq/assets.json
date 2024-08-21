@@ -10,5 +10,45 @@
     "description": "Planq Staking Coin",
     "image": "planq/asset/planq.png",
     "coinGeckoId": "planq"
-  }
+  },
+  {
+    "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "OSMO",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>planq",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-492",
+      "port": "transfer",
+      "denom": "uosmo"
+    },
+    "image": "osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis"
+  },
+      {
+    "denom": "ibc/26B4B4BBF3C8D5DB1ADE993CCD865A7CC608B2BAEF20E0166F18B84E32184F63",
+    "type": "ibc",
+    "origin_chain": "juno",
+    "origin_denom": "cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
+    "origin_type": "cw20",
+    "symbol": "NRIDE",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>planq",
+    "channel": "channel-1",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-492",
+      "port": "transfer",
+      "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C"
+    },
+    "image": "juno/asset/nride.png",
+    "coinGeckoId": ""
+  },
 ]

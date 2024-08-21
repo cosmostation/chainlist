@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Stargaze Staking Coin",
     "image": "stargaze/asset/stars.png",
-    "coinGeckoId": "stargaze"
+    "coinGeckoId": "stargaze",
+    "color": "#E38CD4"
   },
   {
     "denom": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
@@ -143,30 +144,6 @@
     "coinGeckoId": ""
   },
   {
-    "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/mGAZE",
-    "type": "native",
-    "origin_chain": "stargaze",
-    "origin_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/mGAZE",
-    "origin_type": "native",
-    "symbol": "GAZE",
-    "decimals": 6,
-    "description": "The native meme token of stargaze.",
-    "image": "stargaze/asset/gaze.png",
-    "coinGeckoId": ""
-  },
-  {
-    "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uOHH",
-    "type": "native",
-    "origin_chain": "stargaze",
-    "origin_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uOHH",
-    "origin_type": "native",
-    "symbol": "OHH",
-    "decimals": 6,
-    "description": "Social token for the ohhVAULT.",
-    "image": "stargaze/asset/ohh.png",
-    "coinGeckoId": ""
-  },
-  {
     "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uBRNCH",
     "type": "native",
     "origin_chain": "stargaze",
@@ -197,5 +174,79 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+    "type": "native",
+    "origin_chain": "stargaze",
+    "origin_denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+    "origin_type": "native",
+    "symbol": "SNEAKY",
+    "decimals": 6,
+    "description": "The native coin of Sneaky Productions",
+    "image": "stargaze/asset/sneaky.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/14D1406D84227FDF4B055EA5CB2298095BBCA3F3BC3EF583AE6DF36F0FB179C8",
+    "type": "ibc",
+    "origin_chain": "celestia",
+    "origin_denom": "utia",
+    "origin_type": "staking",
+    "symbol": "TIA",
+    "decimals": 6,
+    "enable": true,
+    "path": "celestia>stargaze",
+    "channel": "channel-291",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-33",
+      "port": "transfer",
+      "denom": "utia"
+    },
+    "image": "celestia/asset/tia.png",
+    "coinGeckoId": "celestia"
+  },
+  {
+    "denom": "ibc/93B1AE0AD5E88242745B245064A2A51DDA1319C18176A966D5F8F9E02ED5373E",
+    "type": "ibc",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
+    "origin_type": "native",
+    "symbol": "LAB",
+    "description": "LAB - Everything is an Experiment",
+    "decimals": 6,
+    "enable": true,
+    "path": "osmosis>stargaze",
+    "channel": "channel-0",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-75",
+      "port": "transfer",
+      "denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB"
+    },
+    "image": "osmosis/asset/LAB.png",
+    "coinGeckoId": "mad-scientists"
+  },
+  {
+    "denom": "ibc/C9C8D88917374F27F03CBCEAF4F1B85F45A62F9F2316CBAADAAC5FDB3675DD3F",
+    "type": "ibc",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
+    "origin_type": "native",
+    "symbol": "ASTRO",
+    "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+    "decimals": 6,
+    "enable": true,
+    "path": "neutron>stargaze",
+    "channel": "channel-191",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-18",
+      "port": "transfer",
+      "denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
+    },
+    "image": "neutron/asset/astro.png",
+    "coinGeckoId": "astroport-fi"
   }
 ]

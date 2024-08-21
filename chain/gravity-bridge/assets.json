@@ -9,7 +9,8 @@
     "decimals": 6,
     "description": "Gravity-bridge Staking Coin",
     "image": "gravity-bridge/asset/grav.png",
-    "coinGeckoId": "graviton"
+    "coinGeckoId": "graviton",
+    "color": "#0088C8"
   },
   {
     "denom": "ibc/376222D6D9DAE23092E29740E56B758580935A6D77C24C2ABD57A6A78A1F3955",
@@ -30,26 +31,6 @@
     },
     "image": "osmosis/asset/osmo.png",
     "coinGeckoId": "osmosis"
-  },
-  {
-    "denom": "ibc/0433997003A2CFE10E483B93743BEC37F2F13B89854FD69599482E6DB8E6CE22",
-    "type": "ibc",
-    "origin_chain": "osmosis",
-    "origin_denom": "uion",
-    "origin_type": "native",
-    "symbol": "ION",
-    "decimals": 6,
-    "enable": true,
-    "path": "osmosis>gravity-bridge",
-    "channel": "channel-10",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-144",
-      "port": "transfer",
-      "denom": "uion"
-    },
-    "image": "osmosis/asset/ion.png",
-    "coinGeckoId": "ion"
   },
   {
     "denom": "ibc/2E5D0AC026AC1AFA65A23023BA4F24BB8DDF94F118EDC0BAD6F625BFC557CDED",
@@ -92,26 +73,6 @@
     "coinGeckoId": "nym"
   },
   {
-    "denom": "ibc/74A48437840E981DD7789856D97EE5E3751DF474D22EDCD66DB046AF0B725A64",
-    "type": "ibc",
-    "origin_chain": "persistence",
-    "origin_denom": "uxprt",
-    "origin_type": "staking",
-    "symbol": "XPRT",
-    "decimals": 6,
-    "enable": true,
-    "path": "persistence>gravity-bridge",
-    "channel": "channel-24",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-38",
-      "port": "transfer",
-      "denom": "uxprt"
-    },
-    "image": "persistence/asset/xprt.png",
-    "coinGeckoId": "persistence"
-  },
-  {
     "denom": "ibc/048BE20AE2E6BFD4142C547E04F17E5F94363003A12B7B6C084E08101BFCF7D1",
     "type": "ibc",
     "origin_chain": "chihuahua",
@@ -150,26 +111,6 @@
     },
     "image": "cheqd/asset/cheq.png",
     "coinGeckoId": "cheqd-network"
-  },
-  {
-    "denom": "ibc/3D5109BC236E6BD75F90CC03A5B7AA360FF3CB3F535B662227CEE78E83477AD9",
-    "type": "ibc",
-    "origin_chain": "iris",
-    "origin_denom": "uiris",
-    "origin_type": "staking",
-    "symbol": "IRIS",
-    "decimals": 6,
-    "enable": true,
-    "path": "iris>gravity-bridge",
-    "channel": "channel-47",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-29",
-      "port": "transfer",
-      "denom": "uiris"
-    },
-    "image": "iris/asset/iris.png",
-    "coinGeckoId": "iris-network"
   },
   {
     "denom": "ibc/4F393C3FCA4190C0A6756CE7F6D897D5D1BE57D6CCB80D0BC87393566A7B6602",
@@ -212,46 +153,6 @@
     "coinGeckoId": "secret"
   },
   {
-    "denom": "ibc/4CD51DA94425EB1C8D1983832E46F410528DB2AAFBFC0C646845DAC2DB7D97AE",
-    "type": "ibc",
-    "origin_chain": "crescent",
-    "origin_denom": "ucre",
-    "origin_type": "staking",
-    "symbol": "CRE",
-    "decimals": 6,
-    "enable": true,
-    "path": "crescent>gravity-bridge",
-    "channel": "channel-62",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-2",
-      "port": "transfer",
-      "denom": "ucre"
-    },
-    "image": "crescent/asset/cre.png",
-    "coinGeckoId": "crescent-network"
-  },
-  {
-    "denom": "ibc/5AEBA89C7BEEF2C56EE23AC2138661C2EE7AB33C48CDE4C3C1E2E3218C4A2C41",
-    "type": "ibc",
-    "origin_chain": "crescent",
-    "origin_denom": "ubcre",
-    "origin_type": "native",
-    "symbol": "bCRE",
-    "decimals": 6,
-    "enable": true,
-    "path": "crescent>gravity-bridge",
-    "channel": "channel-62",
-    "port": "transfer",
-    "counter_party": {
-      "channel": "channel-2",
-      "port": "transfer",
-      "denom": "ubcre"
-    },
-    "image": "crescent/asset/bcre.png",
-    "coinGeckoId": "liquid-staking-crescent"
-  },
-  {
     "denom": "ibc/D157AD8A50DAB0FC4EB95BBE1D9407A590FA2CDEE04C90A76C005089BF76E519",
     "type": "ibc",
     "origin_chain": "unification",
@@ -272,7 +173,7 @@
     "coinGeckoId": "unification"
   },
   {
-    "denom": "gravity0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
     "type": "bridge",
     "origin_chain": "ethereum",
     "origin_denom": "wbtc",
@@ -324,7 +225,7 @@
     "contract": "0x6b175474e89094c44da98b954eedeac495271d0f"
   },
   {
-    "denom": "gravity0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "denom": "gravity0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
     "type": "bridge",
     "origin_chain": "ethereum",
     "origin_denom": "uni",
@@ -337,7 +238,7 @@
     "contract": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
   },
   {
-    "denom": "gravity0x45804880de22913dafe09f4980848ece6ecbaf78",
+    "denom": "gravity0x45804880De22913dAFE09f4980848ECE6EcbAf78",
     "type": "bridge",
     "origin_chain": "ethereum",
     "origin_denom": "paxg",
@@ -350,7 +251,7 @@
     "contract": "0x45804880de22913dafe09f4980848ece6ecbaf78"
   },
   {
-    "denom": "gravity0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+    "denom": "gravity0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
     "type": "bridge",
     "origin_chain": "ethereum",
     "origin_denom": "storj",
@@ -363,7 +264,7 @@
     "contract": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac"
   },
   {
-    "denom": "gravity0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+    "denom": "gravity0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
     "type": "bridge",
     "origin_chain": "ethereum",
     "origin_denom": "steth",

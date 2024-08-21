@@ -1,0 +1,86 @@
+{
+    "chain_id_cosmos" : "osmosis-1",
+    "chain_name": "Osmosis",
+    "chain_image": "osmosis/resource/chain_osmosis.png",
+    "symbol" : "OSMO",
+    "symbol_image" : "osmosis/asset/osmo.png",
+    "bechAccountPrefix" : "osmo",
+    "bechValidatorPrefix" : "osmovaloper",
+    "name_for_dapp" : "OSMOSIS", 
+    "api_name" : "osmosis",
+    "origin_genesis_time" : "2021-06-18T17:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.0025uosmo",
+            "0.025uosmo"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-osmosis.cosmostation.io:443"
+        },
+        {
+            "provider": "Stakin",
+            "url": "osmosis.grpc.stakin-nodes.com:443"
+        },
+        {
+            "provider": "StakeTown",
+            "url": "osmosis-grpc.stake-town.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-osmosis.cosmostation.io/"
+        },
+        {
+            "provider": "Osmosis Foundation",
+            "url": "https://lcd.osmosis.zone/"
+        },
+        {
+            "provider": "Golden Ratio Staking",
+            "url": "https://rest.osmosis.goldenratiostaking.net/"
+        },
+        {
+            "provider": "Chainlayer",
+            "url": "https://osmosis-lcd.quickapi.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/osmosis/",
+        "account": "https://www.mintscan.io/osmosis/address/${address}",
+        "tx": "https://www.mintscan.io/osmosis/tx/${hash}",
+        "proposal": "https://www.mintscan.io/osmosis/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://osmosis.zone/",
+        "docs": "https://docs.osmosis.zone",
+        "github" : "https://github.com/osmosis-labs",
+        "medium": "https://medium.com/@Osmosis",
+        "twitter" : "https://twitter.com/osmosiszone",
+        "coingecko" : "https://www.coingecko.com/en/coins/osmosis"
+    },
+    "forum": {
+      "main": "https://gov.osmosis.zone",
+      "governance": "https://gov.osmosis.zone/proposals"
+    },
+    "description" : {
+        "ko" : "Cosmos SDK와 코스모스 인터블록체인 커뮤니케이션(IBC) 프로토콜을 이용하여 다수의 다른 블록체인 네트워크 유저들에게 유동성을 제공해주는 인터체인 AMM.",
+        "en" : "The interchain AMM powered by the Cosmos Inter-Blockchain Communication protocol, enabling sovereign blockchain networks to access a vast pool of liquidity.",
+        "ja" : "CosmosSDKとコスモスインターブロックチェーンコミュニケーション(IBC)プロトコルを利用して、多数の違うブロックチェーンネットワークユーザーたちに流動性を提供するインターチェーンAMM。"
+    }
+}

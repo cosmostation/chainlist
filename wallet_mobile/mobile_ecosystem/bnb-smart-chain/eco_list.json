@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Venus Protocol",
+    "description": "Venus is a decentralized finance (DeFi) platform on the Binance Smart Chain that allows users to lend, borrow, and earn interest on their crypto assets.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/bnb-smart-chain/resource/venus.png",
+    "link": "https://app.venus.io/",
+    "type": "DeFi"
+  },
+  {
+    "name": "Autoshark",
+    "description": "AutoShark Finance is a decentralized finance (DeFi) platform on the Binance Smart Chain that offers services such as yield farming, staking, and automated market making (AMM).",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/bnb-smart-chain/resource/autoshark.jpg",
+    "link": "https://autoshark.finance/",
+    "type": "DeFi"
+  },
+  {
+    "name": "PancakeSwap",
+    "description": "PancakeSwap is a decentralized exchange (DEX) on the Binance Smart Chain (BSC) that allows users to swap BEP-20 tokens. It features yield farming, staking, and a lottery system, providing users with opportunities to earn rewards through liquidity provision and participation in various financial activities.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/bnb-smart-chain/resource/pancakeswap.png",
+    "link": "https://pancakeswap.finance/",
+    "type": "Dex"
+  },
+  {
+    "name": "Apeswap",
+    "description": "ApeSwap is a decentralized finance (DeFi) platform on the Binance Smart Chain that provides services such as token swapping, yield farming, and staking. It aims to offer a user-friendly experience with a focus on community-driven development and sustainability.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/bnb-smart-chain/resource/apeswap.jpg",
+    "link": "https://apeswap.finance/",
+    "type": "Swap"
+  },
+  {
+    "name": "Usdfi",
+    "description": "USDFI is a decentralized finance (DeFi) platform focused on providing stablecoin solutions.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/bnb-smart-chain/resource/usdfi.jpg",
+    "link": "https://usdfi.com/",
+    "type": "DeFi"
+  },
+  {
+    "name": "Organya World",
+    "description": "Organya World is an online gaming platform where players can engage in various interactive activities.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/bnb-smart-chain/resource/organya.jpg",
+    "link": "https://organya.world/play-now",
+    "type": "Game"
+  }
+]

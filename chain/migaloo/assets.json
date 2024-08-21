@@ -64,5 +64,29 @@
     "description": "RAC",
     "image": "migaloo/asset/rac.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH",
+    "type": "native",
+    "origin_chain": "migaloo",
+    "origin_denom": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH",
+    "origin_type": "native",
+    "symbol": "ampGASH",
+    "decimals": 6,
+    "description": "Eris Amplified gASH",
+    "image": "migaloo/asset/ampGASH.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale",
+    "type": "native",
+    "origin_chain": "migaloo",
+    "origin_denom": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale",
+    "origin_type": "native",
+    "symbol": "bWHALE",
+    "decimals": 6,
+    "description": "BackBoneLabs Liquid Staked WHALE",
+    "image": "migaloo/asset/bwhale.png",
+    "coinGeckoId": "backbone-labs-staked-whale"
   }
 ]

@@ -1,0 +1,38 @@
+[
+  {
+    "denom": "ukava",
+    "type": "staking",
+    "origin_chain": "kava-testnet",
+    "origin_denom": "ukava",
+    "origin_type": "staking",
+    "symbol": "KAVA",
+    "decimals": 6,
+    "description": "Kava-testnet Staking Coin",
+    "image": "kava-testnet/asset/kava.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "usdx",
+    "type": "native",
+    "origin_chain": "kava-testnet",
+    "origin_denom": "usdx",
+    "origin_type": "native",
+    "symbol": "USDX",
+    "decimals": 6,
+    "description": "Kava-testnet USDX",
+    "image": "kava-testnet/asset/usdx.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "btcb",
+    "type": "bridge",
+    "origin_chain": "kava-testnet",
+    "origin_denom": "btcb",
+    "origin_type": "bep2",
+    "symbol": "BTCB",
+    "decimals": 8,
+    "description": "Kava-testnet BTCB",
+    "image": "kava-testnet/asset/btcb.png",
+    "coinGeckoId": ""
+  }
+]

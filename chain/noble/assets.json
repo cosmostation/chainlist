@@ -8,7 +8,8 @@
     "symbol": "NOBLE",
     "decimals": 6,
     "description": "Noble Staking Coin",
-    "image": "noble/asset/stake.png"
+    "image": "noble/asset/stake.png",
+    "color": "#6A8AF8"
   },
   {
     "denom": "uusdc",
@@ -21,6 +22,18 @@
     "description": "Native Coin",
     "image": "ethereum/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ausdy",
+    "type": "native",
+    "origin_chain": "noble",
+    "origin_denom": "ausdy",
+    "origin_type": "native",
+    "symbol": "USDY",
+    "decimals": 18,
+    "description": "Native Coin",
+    "image": "ethereum/asset/usdy.png",
+    "coinGeckoId": "ondo-us-dollar-yield"
   },
   {
     "denom": "ufrienzies",

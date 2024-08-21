@@ -9,7 +9,8 @@
     "decimal": 6,
     "description": "Medas Digital Staking Coin",
     "image": "medasdigital/asset/medas.png",
-    "coinGeckoId": "medasdigital"
+    "coinGeckoId": "medasdigital",
+    "color": "#0A4ED2"
   },
   {
     "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
@@ -41,10 +42,10 @@
     "decimal": 6,
     "enable": true,
     "path": "sentinel>medasdigital",
-    "channel": "channel-6",
+    "channel": "channel-4",
     "port": "transfer",
     "counter_party": {
-        "channel": "channel-84",
+        "channel": "channel-60",
         "port": "transfer",
         "denom": "udvpn"
     },

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "neutron.proposals.single",
+        "contract_address": "neutron1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshlt6zh"
+    },
+    {
+        "name": "neutron.proposals.multiple",
+        "contract_address": "neutron1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsj3fj40"
+    },
+    {
+        "name": "neutron.proposals.overrule",
+        "contract_address": "neutron12pwnhtv7yat2s30xuf4gdk9qm85v4j3e6p44let47pdffpklcxlq56v0te"
+    },
+    {
+        "name": "neutron.voting.vaults.neutron",
+        "contract_address": "neutron1qeyjez6a9dwlghf9d6cy44fxmsajztw257586akk6xn6k88x0gus5djz4e"
+    },
+    {
+        "name": "neutron.subdaos.security.core",
+        "contract_address": "neutron1fuyxwxlsgjkfjmxfthq8427dm2am3ya3cwcdr8gls29l7jadtazsuyzwcc"
+    },
+    {
+        "name": "neutron.subdaos.security.proposals.single",
+        "contract_address": "neutron15m728qxvtat337jdu2f0uk6pu905kktrxclgy36c0wd822tpxcmqvnrurt"
+    }
+]

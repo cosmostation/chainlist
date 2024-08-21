@@ -1,0 +1,27 @@
+[
+  {
+    "denom": "abgt",
+    "type": "staking",
+    "origin_chain": "berachain-testnet",
+    "origin_denom": "abgt",
+    "origin_type": "staking",
+    "symbol": "BGT",
+    "decimals": 18,
+    "description": "Berachain Staking Coin",
+    "image": "berachain-testnet/asset/bgt.png",
+    "coinGeckoId": "",
+    "color": "#FFCC5B"
+  },
+  {
+    "denom": "abera",
+    "type": "native",
+    "origin_chain": "berachain-testnet",
+    "origin_denom": "abera",
+    "origin_type": "native",
+    "symbol": "BERA",
+    "decimals": 18,
+    "description": "Berachain Main Coin",
+    "image": "berachain-testnet/asset/bera.png",
+    "coinGeckoId": ""
+  }
+]

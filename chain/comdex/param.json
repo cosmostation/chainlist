@@ -1,0 +1,91 @@
+{
+    "chain_id_cosmos" : "comdex-1",
+    "chain_name": "Comdex",
+    "chain_image": "comdex/resource/chain_comdex.png",
+    "symbol" : "CMDX",
+    "symbol_image" : "comdex/asset/cmdx.png",
+    "bechAccountPrefix" : "comdex",
+    "bechValidatorPrefix" : "comdexvaloper",
+    "name_for_dapp" : "COMDEX", 
+    "api_name" : "comdex",
+    "origin_genesis_time" : "2021-11-20T14:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.025ucmdx",
+            "0.25ucmdx"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-comdex.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "comdex-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "StakerHouse",
+            "url": "comdex-grpc.stakerhouse.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-comdex.cosmostation.io/"
+        },
+        {
+            "provider": "comdex",
+            "url": "https://rest.comdex.one/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://comdex-api.polkachu.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://comdex.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://comdex-api.lavenderfive.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/comdex/",
+        "account": "https://www.mintscan.io/comdex/address/${address}",
+        "tx": "https://www.mintscan.io/comdex/tx/${hash}",
+        "proposal": "https://www.mintscan.io/comdex/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://comdex.one/",
+        "docs": "https://docs.comdex.one",
+        "github" : "https://github.com/comdex-official",
+        "blog" : "https://blog.comdex.one/",
+        "medium": "https://blog.comdex.one",
+        "twitter" : "https://twitter.com/ComdexOfficial",
+        "coingecko" : "https://www.coingecko.com/en/coins/comdex"
+    },
+    "forum": {
+      "main": "https://forum.comdex.one",
+      "governance": "https://forum.comdex.one/c/comdex-discussion"
+    },
+    "description" : {
+        "ko" : "Comdex는 인터체인 DeFi를 위한 인프라 레이어입니다.",
+        "en" : "Comdex is an interchain DeFi infrastructure layer housing a suite of composable solutions on-chain.",
+        "ja" : "ComdexはインターチェーンDeFiのためのインフラストラクチャレイヤです。"
+    }
+}

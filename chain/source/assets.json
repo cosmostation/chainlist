@@ -1,0 +1,15 @@
+[
+  {
+    "denom": "usource",
+    "type": "staking",
+    "origin_chain": "source",
+    "origin_denom": "usource",
+    "origin_type": "staking",
+    "symbol": "SOURCE",
+    "decimals": 6,
+    "description": "SOURCE Staking Coin",
+    "image": "source/asset/source.png",
+    "coinGeckoId": "source",
+    "color": "#31A8FA"
+  }
+]
