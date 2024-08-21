@@ -28,17 +28,7 @@
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
-    "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-canto.cosmostation.io:443"
-        }
-    ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-canto.cosmostation.io/"
-        },
         {
             "provider": "Polkachu",
             "url": "https://canto-api.polkachu.com/"
@@ -50,24 +40,16 @@
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc-canto-evm.cosmostation.io"
-        },
-        {
-            "provider": "althea",
-            "url": "https://canto.gravitychain.io"
-        },
-        {
-            "provider": "silent",
-            "url": "https://evm-rpc.canto.silentvalidator.com"
-        },
-        {
             "provider": "Slingshot",
             "url": "https://canto.slingshot.finance"
         },
         {
             "provider": "plexnode",
             "url": "https://mainnode.plexnode.org:8545"
+        },
+        {
+            "provider": "Ansybl",
+            "url": "https://canto-rpc.ansybl.io"
         }
     ],
     "explorer" : {
