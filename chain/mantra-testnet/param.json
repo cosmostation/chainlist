@@ -39,7 +39,7 @@
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "http://lcd-office.cosmostation.io/mantra-testnet/"
+            "url": "https://lcd-office.cosmostation.io/mantra-testnet/"
         },
         {
             "provider": "MANTRACHAIN",
