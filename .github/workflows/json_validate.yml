@@ -1,82 +1,26 @@
-            - name: JSON Validation
-  # You may pin to the exact commit or the version.
-  # uses: ammarlakis/action-ajv@445274826a4b7d391eb2b995e1414b669c10b6b9
-  uses: ammarlakis/action-ajv@v1.0.0
-  with:
-    # The schema file used for valiation.
-    schema: 
-    # The data files to be validated. Glob pattern is supported.
-    data: 
-    # https://ajv.js.org/options.html#strict
-    strict: # optional
-    # https://ajv.js.org/options.html#strictschema
-    strictSchema: # optional
-    # https://ajv.js.org/options.html#strictnumbers
-    strictNumbers: # optional
-    # https://ajv.js.org/options.html#stricttypes
-    strictTypes: # optional
-    # https://ajv.js.org/options.html#stricttuples
-    strictTuples: # optional
-    # https://ajv.js.org/options.html#strictrequired
-    strictRequired: # optional
-    # https://ajv.js.org/options.html#allowuniontypes
-    allowUnionTypes: # optional
-    # https://ajv.js.org/options.html#allownatchingproperties
-    allowMatchingProperties: # optional
-    # https://ajv.js.org/options.html#validateformats
-    validateFormats: # optional
-    # https://ajv.js.org/options.html#allerrors
-    allErrors: # optional
-    # https://ajv.js.org/options.html#verbose
-    verbose: # optional
-    # https://ajv.js.org/options.html#discriminator
-    discriminator: # optional
-    # https://ajv.js.org/options.html#unicoderegexp
-    unicodeRegExp: # optional
-    # https://ajv.js.org/options.html#timestamp
-    timestamp: # optional
-    # https://ajv.js.org/options.html#parsedate
-    parseDate: # optional
-    # https://ajv.js.org/options.html#allowdate
-    allowDate: # optional
-    # https://ajv.js.org/options.html#int32range
-    int32range: # optional
-    # #https://ajv.js.org/options.html#comment
-    comment: # optional
-    # https://ajv.js.org/options.html#removeadditional
-    removeAdditional: # optional
-    # https://ajv.js.org/options.html#usedefaults
-    useDefaults: # optional
-    # https://ajv.js.org/options.html#coercetypes
-    coerceTypes: # optional
-    # https://ajv.js.org/options.html#meta
-    meta: # optional
-    # https://ajv.js.org/options.html#validateschema
-    validateSchema: # optional
-    # https://ajv.js.org/options.html#addusedschema
-    addUsedSchema: # optional
-    # https://ajv.js.org/options.html#inlinerefs
-    inlineRefs: # optional
-    # https://ajv.js.org/options.html#passcontext
-    passContext: # optional
-    # https://ajv.js.org/options.html#looprequired
-    loopRequired: # optional
-    # https://ajv.js.org/options.html#loopenum
-    loopEnum: # optional
-    # https://ajv.js.org/options.html#ownproperties
-    ownProperties: # optional
-    # https://ajv.js.org/options.html#multipleOfprecision
-    multipleOfPrecision: # optional
-    # https://ajv.js.org/options.html#messages
-    messages: # optional
-    # https://ajv.js.org/options.html#code
-    codeEs5: # optional
-    # https://ajv.js.org/options.html#code
-    codeEsm: # optional
-    # https://ajv.js.org/options.html#code
-    codeLines: # optional
-    # https://ajv.js.org/options.html#code
-    codeSource: # optional
-    # https://ajv.js.org/options.html#code
-    codeOptimize: # optional
-          
+name: Lint JSON Files
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  validate-config:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install jsonlint
+      run: npm install -g jsonlint
+
+    - name: Lint JSON files
+      run: |
+        jsonlint ./**/*.json -q
