@@ -1,16 +1,35 @@
 {
-    
+    "chain_name": "Bitcoin Testnet",
+    "chain_image": "bitcoin-testnet/resource/chain_bitcoin-testnet.png",
+    "symbol" : "BTC",
+    "symbol_image" : "bitcoin-testnet/asset/btc.png",
+    "accountType" : [
+        {
+            "hd_path": "m/84'/1'/0'/0/X",
+            "pubkey_style": "p2wpkh"
+        }
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/1'/0'/0/X",
+            "pubkey_style": "p2pkh"
+        }
+        {
+            "is_default" : false,
+            "hd_path": "m/49'/1'/0'/0/X",
+            "pubkey_style": "p2wpkhSh"
+        }
+    ],
     "explorer" : {
-        "name": "",
-        "url": "",
-        "account": "",
-        "tx": ""
+        "name": "Mempool.space",
+        "url": "https://mempool.space/testnet4/",
+        "account": "https://mempool.space/testnet4/address/${address}",
+        "tx": "https://mempool.space/testnet4/tx/${hash}"
     },
     "about" : {
     },
     "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
+        "ko" : "비트코인은 중앙기관 없이 개인들이 직접 거래할 수 있는 디지털 화폐입니다. 사용자들 간의 신뢰를 바탕으로 운영되며, 중개자 없이 안전하게 거래할 수 있습니다.",
+        "en" : "Bitcoin is a digital currency that allows individuals to trade directly without any central authority. It operates based on trust between users, enabling secure transactions without intermediaries.",
+        "ja" : "ビットコインは中央機関を介さずに個人同士で取引できるデジタル通貨です。ユーザー間の信頼を基に運営され、仲介者なしで安全に取引できます。"
     }
 }

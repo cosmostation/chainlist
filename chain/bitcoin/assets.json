@@ -1,2 +1,15 @@
 [
+    {
+        "denom": "btc",
+        "type": "native",
+        "origin_chain": "bitcoin",
+        "origin_denom": "btc",
+        "origin_type": "native",
+        "symbol": "BTC",
+        "decimals": 8,
+        "description": "BitCoin",
+        "image": "bitcoin/asset/btc.png",
+        "coinGeckoId": "bitcoin",
+        "color": "#FFB333"
+    }
 ]
