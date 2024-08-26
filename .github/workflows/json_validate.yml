@@ -21,8 +21,8 @@ jobs:
         node-version: '18'
         
     - name: Install jsonlint
-      run: npm install -g jsonlint
+      run: npm install -g @prantlf/jsonlint
 
     - name: Lint JSON files
       run: |
-        jsonlint ./**/*.json -q
+        jsonlint -q ./**/*.json
