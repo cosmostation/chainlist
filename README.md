@@ -27,7 +27,7 @@
 
 
 ## Chain Image Set
-<img src="https://raw.githubusercontent.com/cosmostation/chainlist/main/resource/static/guide_chains.png" width="512" height="370"> <img src="https://raw.githubusercontent.com/cosmostation/chainlist/main/resource/static/guide_tokens.png" width="348" height="370">
+<img src="https://raw.githubusercontent.com/cosmostation/chainlist/main/resource/static/guide_chains.png" width="256" height="185"> <img src="https://raw.githubusercontent.com/cosmostation/chainlist/main/resource/static/guide_tokens.png" width="174" height="185">
 
 
 - Chains and assets image with 3D
