@@ -28,7 +28,7 @@
 - Chains and assets image with 3D
 - Available in all sizes and formats. 
 - [Figma Link](https://www.figma.com/design/MbcSKIWlFb3LelMkkdV8qZ/Brand-Asset?node-id=0-1&t=GAXd4H0Y4AZ7q89P-1)
-
+- [DownLoad](https://www.figma.com/community/file/1410186894545005444/cosmostation-brand-asset)
 
 
 
