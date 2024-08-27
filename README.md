@@ -1,8 +1,3 @@
-<div align="center">
-  <h1> Cosmostation Chain List</h1>
-</div>
-
-
 
 
 ## Chain Information By Cosmostation
@@ -27,7 +22,7 @@
 
 
 ## Chain Image Set
-<img src="https://raw.githubusercontent.com/cosmostation/chainlist/main/resource/static/guide_chains.png" width="307" height="222"> <img src="https://raw.githubusercontent.com/cosmostation/chainlist/main/resource/static/guide_tokens.png" width="208" height="222">
+<img src="https://raw.githubusercontent.com/cosmostation/chainlist/main/resource/static/guide_chains.png" width="368" height="266"> <img src="https://raw.githubusercontent.com/cosmostation/chainlist/main/resource/static/guide_tokens.png" width="249" height="266">
 
 
 - Chains and assets image with 3D
