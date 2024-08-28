@@ -142,7 +142,7 @@
     "decimals": 18,
     "description": "DAI Earned in Kava",
     "image": "kava/asset/bdai.png",
-    "coinGeckoId": "dai"
+    "coinGeckoId": ""
   },
   {
     "denom": "erc20/multichain/usdc",
@@ -154,7 +154,7 @@
     "decimals": 6,
     "description": "USDC Earned in Kava",
     "image": "kava/asset/busdc.png",
-    "coinGeckoId": "usd-coin"
+    "coinGeckoId": ""
   },
   {
     "denom": "erc20/multichain/usdt",
@@ -166,7 +166,7 @@
     "decimals": 6,
     "description": "USDT Earned in Kava",
     "image": "kava/asset/busdt.png",
-    "coinGeckoId": "tether"
+    "coinGeckoId": ""
   },
   {
     "denom": "erc20/axelar/usdc",
@@ -282,7 +282,7 @@
     "decimals": 8,
     "description": "Multichain Wrapped BTC on Kava",
     "image": "kava/asset/multiwbtc.png",
-    "coinGeckoId": "wrapped-bitcoin"
+    "coinGeckoId": ""
   },
   {
     "denom": "erc20/bitgo/wbtc",
