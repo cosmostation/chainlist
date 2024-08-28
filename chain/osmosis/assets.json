@@ -3495,5 +3495,17 @@
     "description": "The Cosmos Network's premier self-hatred memecoin.",
     "image": "osmosis/asset/shitmos.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP",
+    "type": "native",
+    "origin_chain": "osmosis",
+    "origin_denom": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP",
+    "origin_type": "native",
+    "symbol": "XTRUMP",
+    "decimals": 6,
+    "description": "Deep beneath the Capitol, in a top-secret lab, $XTRUMP is sparking a revolutionary rebellion against the system. 5555 tokens to solve the NFT liquidity chaos",
+    "image": "osmosis/asset/trump.png",
+    "coinGeckoId": ""
   }
 ]
