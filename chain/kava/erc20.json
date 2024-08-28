@@ -41,7 +41,7 @@
     "decimals": 6,
     "image": "kava/asset/kava_evm_multiusdc.png",
     "default": true,
-    "coinGeckoId": "usd-coin"
+    "coinGeckoId": ""
   },
   {
     "chainId": 2222,
@@ -52,7 +52,7 @@
     "decimals": 6,
     "image": "kava/asset/kava_evm_multiusdt.png",
     "default": true,
-    "coinGeckoId": "tether"
+    "coinGeckoId": ""
   },
   {
     "chainId": 2222,
@@ -63,7 +63,7 @@
     "decimals": 18,
     "image": "kava/asset/kava_evm_multidai.png",
     "default": false,
-    "coinGeckoId": "dai"
+    "coinGeckoId": ""
   },
   {
     "chainId": 2222,
@@ -74,7 +74,7 @@
     "decimals": 8,
     "image": "kava/asset/kava_evm_multiwbtc.png",
     "default": false,
-    "coinGeckoId": "wrapped-bitcoin"
+    "coinGeckoId": ""
   },
   {
     "chainId": 2222,
