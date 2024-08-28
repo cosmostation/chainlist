@@ -1,4 +1,16 @@
 [
+    {
+    "name": "Archway Connect",
+    "type": "Defi",
+    "description": "Archway Connect is the Gateway to all things Archway where users can bridge, stake, vote, manage assets & interact with the Archway Ecosystem",
+    "status": "open",
+    "thumbnail" : "connect-cover",
+    "link": "https://connect.archway.io/",
+    "social": {
+      "webSite": "https://connect.archway.io/",
+      "twitter": "https://x.com/ArchwayHQ"
+    }
+  },
   {
     "name": "Astrovault",
     "type": "Dex",
@@ -14,27 +26,51 @@
     }
   },
   {
-    "name": "Aeroscraper",
-    "type": "Lending & Borrowing",
-    "description": "Aeroscraper is a user-centric decentralized lending-borrowing protocol that revolutionizes the DeFi space with its interest-free, over-collateralized stablecoin and DeFi loans",
+    "name": "Ambur Marketplace",
+    "type": "NFTs",
+    "description": "Archway's Premier NFT Marketplace",
     "status": "open",
-    "thumbnail" : "aeroscraper-cover",
-    "link": "https://www.aeroscraper.io",
+    "thumbnail" : "ambur-cover",
+    "link": "https://ambur.xyz/",
     "social": {
-      "webSite": "https://www.aeroscraper.io",
-      "twitter": "https://twitter.com/aeroscraper"
+      "webSite": "https://ambur.xyz/",
+      "twitter": "https://x.com/Amburxyz"
     }
   },
   {
-    "name": "Eris Protocol",
-    "type": "Liquid Staking",
-    "description": "Liquid Staking and Slow Burn Arbitrage Protocol",
+    "name": "Liquid Finance",
+    "type": "Defi",
+    "description": "Earn staking rewards while unlocking endless opportunities to make the most of your assets",
     "status": "open",
-    "thumbnail" : "eris-cover",
-    "link": "https://www.erisprotocol.com/archway/amplifier",
+    "thumbnail" : "liquidfinance-cover",
+    "link": "https://liquidfinance.xyz",
     "social": {
-      "webSite": "https://www.erisprotocol.com/archway/amplifier",
-      "twitter": "https://twitter.com/eris_protocol"
+      "webSite": "https://liquidfinance.xyz",
+      "twitter": "https://twitter.com/liquid_finance"
+    }
+  },
+  {
+    "name": "CALC Finance",
+    "type": "Defi",
+    "description": "The most calculated way to enter and exit positions with DCA strategies, save time, and counter emotional decision-making.",
+    "status": "open",
+    "thumbnail" : "calcfinance-cover",
+    "link": "https://app.calculated.fi/?chain=archway-1",
+    "social": {
+      "webSite": "https://calculated.fi/",
+      "twitter": "https://x.com/CALC_Finance"
+    }
+  },
+  {
+    "name": "ArchID",
+    "type": "NFTs",
+    "description": "A social security number is how official sources identify you, but not how you introduce yourself. You do that with your name. Start using your ArchID instead of an unmemorable string to identify yourself in Archway",
+    "status": "open",
+    "thumbnail" : "archid-cover",
+    "link": "https://archid.app",
+    "social": {
+      "webSite": "https://archid.app",
+      "twitter": "https://twitter.com/archidapp"
     }
   },
   {
@@ -47,6 +83,18 @@
     "social": {
       "webSite": "https://coinhall.org/?chains=archway&verified=true&reliable=true&tab=all&timeframe=24h&sort=volume&dir=desc",
       "twitter": "https://twitter.com/coinhall_org"
+    }
+  },
+  {
+    "name": "Sudo Stake",
+    "type": "Defi",
+    "description": "On-chain property rights for everyone",
+    "status": "open",
+    "thumbnail" : "sudostake-cover",
+    "link": "https://sudostake.vercel.app",
+    "social": {
+      "webSite": "https://sudostake.vercel.app",
+      "twitter": "https://twitter.com/sudostake"
     }
   },
   {
@@ -74,18 +122,6 @@
     }
   },
   {
-    "name": "Liquid Finance",
-    "type": "Defi",
-    "description": "Earn staking rewards while unlocking endless opportunities to make the most of your assets",
-    "status": "open",
-    "thumbnail" : "liquidfinance-cover",
-    "link": "https://liquidfinance.xyz",
-    "social": {
-      "webSite": "https://liquidfinance.xyz",
-      "twitter": "https://twitter.com/liquid_finance"
-    }
-  },
-  {
     "name": "PeerSwap",
     "type": "Defi",
     "description": "Swap your tokens against your preferred token, set the desired amount you want to receive",
@@ -110,18 +146,6 @@
     }
   },
   {
-    "name": "Sudo Stake",
-    "type": "Defi",
-    "description": "On-chain property rights for everyone",
-    "status": "open",
-    "thumbnail" : "sudostake-cover",
-    "link": "https://sudostake.vercel.app",
-    "social": {
-      "webSite": "https://sudostake.vercel.app",
-      "twitter": "https://twitter.com/sudostake"
-    }
-  },
-  {
     "name": "TFM",
     "type": "Defi",
     "description": "The Pro-Trading Terminal of Cosmos. Proprietary IBC & DEX & NFT Aggregator",
@@ -131,30 +155,6 @@
     "social": {
       "webSite": "https://tfm.com/ibc?chainFrom=cosmoshub-4&chainTo=archway-1&token0=uatom&token1=aarch",
       "twitter": "https://twitter.com/tfm_com"
-    }
-  },
-  {
-    "name": "ArchID",
-    "type": "NFTs",
-    "description": "A social security number is how official sources identify you, but not how you introduce yourself. You do that with your name. Start using your ArchID instead of an unmemorable string to identify yourself in Archway",
-    "status": "open",
-    "thumbnail" : "archid-cover",
-    "link": "https://archid.app",
-    "social": {
-      "webSite": "https://archid.app",
-      "twitter": "https://twitter.com/archidapp"
-    }
-  },
-  {
-    "name": "EvolvNFT",
-    "type": "NFTs",
-    "description": "Decentralized hub that allows you to easily create, manage and evolve your decentralized assets",
-    "status": "open",
-    "thumbnail" : "evolvnft-cover",
-    "link": "https://evolvnft.com",
-    "social": {
-      "webSite": "https://evolvnft.com",
-      "twitter": "https://twitter.com/evolv_nft"
     }
   },
   {
@@ -182,18 +182,6 @@
     }
   },
   {
-    "name": "Nomos",
-    "type": "Multisig",
-    "description": "The Premier Multisig Solution on Archway for the entire Cosmos Ecosystem",
-    "status": "open",
-    "thumbnail" : "nomos-cover",
-    "link": "https://nomos.ms",
-    "social": {
-      "webSite": "https://nomos.ms",
-      "twitter": "https://twitter.com/Nomos_Multisig"
-    }
-  },
-  {
     "name": "Axelar",
     "type": "Bridges",
     "description": "Axelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click",
@@ -203,18 +191,6 @@
     "social": {
       "webSite": "https://axelar.network",
       "twitter": "https://twitter.com/axelarcore"
-    }
-  },
-  {
-    "name": "Cede.store",
-    "type": "Bridges",
-    "description": "Access and transfer your assets from 10+ Centralized Exchanges, with a DeFi UX",
-    "status": "open",
-    "thumbnail" : "cedestore-cover",
-    "link": "https://send.cede.store/?tokenSymbol=ARCH&network=archway",
-    "social": {
-      "webSite": "https://send.cede.store/?tokenSymbol=ARCH&network=archway",
-      "twitter": "https://twitter.com/cedelabs"
     }
   },
   {
