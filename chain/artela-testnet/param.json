@@ -1,0 +1,78 @@
+{
+    "chain_id_cosmos" : "artela_11822-1",
+    "chain_id_evm" : "0x2e2e",
+    "chain_name": "Artela Testnet",
+    "chain_image": "artela-testnet/resource/chain_artela-testnet.png",
+    "symbol" : "ART",
+    "symbol_image" : "artela-testnet/asset/art.png",
+    "bechAccountPrefix" : "art",
+    "bechValidatorPrefix" : "artvaloper",
+    "name_for_dapp" : "ARTELA", 
+    "api_name" : "artela-testnet",
+    "origin_genesis_time" : "22024-01-06T11:06:55Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/artela.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "80000000000uart"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-office-artela.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/artela-testnet/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-office-evm.cosmostation.io/artela-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Nodestake",
+        "url": "https://explorer.nodestake.org/artela-testnet",
+        "account": "https://explorer.nodestake.org/artela-testnet/account/${address}",
+        "tx": "https://explorer.nodestake.org/artela-testnet/tx/${hash}",
+        "proposal": "https://explorer.nodestake.org/artela-testnet/gov/${id}"
+    },
+    "evm_explorer": {
+        "name": "Betanet",
+        "url": "https://betanet-scan.artela.network",
+        "account": "https://betanet-scan.artela.network/address/${address}",
+        "tx": "https://betanet-scan.artela.network/tx/${hash}"
+      },
+    "about" : {
+        "website" : "https://artela.network/",
+        "docs": "https://docs.artela.network/",
+        "github" : "https://github.com/artela-network",
+        "blog" : "https://artela.network/blog",
+        "medium" : "https://medium.com/@artela_network",
+        "twitter" : "https://x.com/artela_network",
+        "discord" : "https://discord.com/invite/artela",
+        "coingecko" : ""
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "Artela는 온체인 기능 확장에 초점을 맞춘 이중 가상 머신 블록체인입니다. Artela dApp은 측면 프로그래밍을 사용하는 새로운 VM + WASM 아키텍처를 기반으로 구축되어 지금까지 불가능했던 기존 블록체인 프로토콜에 새로운 기능과 동작을 가져올 수 있습니다.",
+        "en" : "Artela is a dual-virtual-machine blockchain focused on extending on-chain functionality. Artela dApps are built on a novel VM + WASM architecture using&nbsp;aspect programming,&nbsp;which can bring new features and behaviors to existing blockchain protocols that were, until now, impossible.",
+        "ja" : "Artela は、オンチェーン機能の拡張に重点を置いたデュアル仮想マシン ブロックチェーンです。 Artela dApps は、アスペクト プログラミングを使用した新しい VM + WASM アーキテクチャ上に構築されており、これまでは不可能だった新しい機能や動作を既存のブロックチェーン プロトコルにもたらすことができます。"
+    }
+}

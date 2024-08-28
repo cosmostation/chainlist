@@ -1,0 +1,112 @@
+[
+  {
+    "chainId": 137,
+    "chainName": "polygon",
+    "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    "symbol": "WMATIC",
+    "description": "WMATIC",
+    "decimals": 18,
+    "image": "polygon/asset/wmatic.png",
+    "default": true,
+    "coinGeckoId":"wmatic"
+  },
+  {
+    "chainId": 137,
+    "chainName": "polygon",
+    "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "symbol": "WETH",
+    "description": "Wrapped Ether",
+    "decimals": 18,
+    "image": "ethereum/asset/weth.png",
+    "default": true,
+    "coinGeckoId":"weth"
+  },
+  {
+    "chainId": 137,
+    "chainName": "polygon",
+    "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "symbol": "USDT",
+    "description": "Polygon Bridged USDT",
+    "decimals": 6,
+    "image": "ethereum/asset/usdt.png",
+    "default": true,
+    "coinGeckoId":"polygon-bridged-usdt-polygon"
+  },
+  {
+    "chainId": 137,
+    "chainName": "polygon",
+    "address": "0x3BA4c387f786bFEE076A58914F5Bd38d668B42c3",
+    "symbol": "BNB",
+    "description": "BNB",
+    "decimals": 18,
+    "image": "bnb-smart-chain/asset/bnb.png",
+    "default": true,
+    "coinGeckoId":"binancecoin"
+  },
+  {
+    "chainId": 137,
+    "chainName": "polygon",
+    "address": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7",
+    "symbol": "BUSD",
+    "description": "binance-usd",
+    "decimals": 18,
+    "image": "bnb-smart-chain/asset/busd.png",
+    "default": true,
+    "coinGeckoId":"binance-usd"
+  },
+  {
+    "chainId": 137,
+    "chainName": "polygon",
+    "address": "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b",
+    "symbol": "AVAX",
+    "description": "Avalanche",
+    "decimals": 18,
+    "image": "avalanche/asset/avax.png",
+    "default": true,
+    "coinGeckoId":"avalanche-2"
+  },
+  {
+    "chainId": 137,
+    "chainName": "polygon",
+    "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+    "symbol": "USDC",
+    "description": "USD Coin",
+    "decimals": 6,
+    "image": "ethereum/asset/usdc.png",
+    "default": true,
+    "coinGeckoId":"usd-coin"
+  },
+  {
+    "chainId": 137,
+    "chainName": "polygon",
+    "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "symbol": "USDC.e",
+    "description": "USD Coin (PoS)",
+    "decimals": 6,
+    "image": "ethereum/asset/usdc.png",
+    "default": true,
+    "coinGeckoId":"usd-coin"
+  },
+  {
+    "chainId": 137,
+    "chainName": "polygon",
+    "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+    "symbol": "WBTC",
+    "description": "Wrapped BTC (PoS)",
+    "decimals": 8,
+    "image": "ethereum/asset/wbtc.png",
+    "default": true,
+    "coinGeckoId":"wrapped-bitcoin"
+  },
+  {
+    "chainId": 137,
+    "chainName": "polygon",
+    "address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+    "symbol": "LDO",
+    "description": "Lido DAO Token (PoS)",
+    "decimals": 18,
+    "image": "ethereum/asset/ldo.png",
+    "default": true,
+    "coinGeckoId":"lido-dao"
+  }
+]

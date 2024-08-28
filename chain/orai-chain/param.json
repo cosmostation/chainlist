@@ -1,0 +1,37 @@
+{
+    "chain_name": "Oraichain",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.005orai"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "MMS",
+            "url": "grpc-oraichain.mms.team:443"
+        },
+        {
+            "provider": "PFC",
+            "url": "grpc.orai.pfc.zone:443"
+        },
+        {
+            "provider": "KonsorTech",
+            "url": "mainnet-orai.konsortech.xyz:33090"
+        }
+    ],
+    "about" : {
+		"website" : "https://orai.io/"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

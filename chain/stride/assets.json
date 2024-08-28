@@ -60,7 +60,7 @@
     "image": "stride/asset/stosmo.png",
     "coinGeckoId": "stride-staked-osmo"
   },
-    {
+  {
     "denom": "stuluna",
     "type": "native",
     "origin_chain": "stride",
@@ -155,6 +155,94 @@
     "description": "Stride Staked TIA",
     "image": "stride/asset/stutia.png",
     "coinGeckoId": "stride-staked-tia"
+  },
+  {
+    "denom": "stusaga",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stusaga",
+    "origin_type": "native",
+    "symbol": "stSAGA",
+    "decimals": 6,
+    "description": "Stride Staked SAGA",
+    "image": "stride/asset/stsaga.png",
+    "coinGeckoId": "stride-staked-saga"
+  },
+  {
+    "denom": "stadym",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stadym",
+    "origin_type": "native",
+    "symbol": "stDYM",
+    "decimals": 18,
+    "description": "Stride Staked DYM",
+    "image": "stride/asset/stdym.png",
+    "coinGeckoId": "stride-staked-dym"
+  },
+  {
+    "denom": "staISLM",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "staISLM",
+    "origin_type": "native",
+    "symbol": "stISLM",
+    "decimals": 18,
+    "description": "Stride Staked ISLM",
+    "image": "stride/asset/stislm.png",
+    "coinGeckoId": "stride-staked-islm"
+  },
+  {
+    "denom": "stuband",
+    "type": "native",
+    "origin_chain": "stride",
+    "origin_denom": "stuband",
+    "origin_type": "native",
+    "symbol": "stBAND",
+    "decimals": 6,
+    "description": "Stride Staked BAND",
+    "image": "stride/asset/stband.png",
+    "coinGeckoId": "stride-staked-band"
+  },
+  {
+    "denom": "ibc/AC11D57A5FBC0DF322615027DB86FAA602283F1801ED71FDDAA26117C41256D7",
+    "type": "ibc",
+    "origin_chain": "band",
+    "origin_denom": "uband",
+    "origin_type": "staking",
+    "symbol": "BAND",
+    "decimals": 6,
+    "enable": true,
+    "path": "band>stride",
+    "channel": "channel-161",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-258",
+      "port": "transfer",
+      "denom": "uband"
+    },
+    "image": "band/asset/band.png",
+    "coinGeckoId": "band-protocol"
+  },
+  {
+    "denom": "ibc/255BEB856BFBC1B75A3C349CF769E9FADEB595804F4FC688A72D651576B9180E",
+    "type": "ibc",
+    "origin_chain": "haqq",
+    "origin_denom": "aISLM",
+    "origin_type": "staking",
+    "symbol": "ISLM",
+    "decimals": 18,
+    "enable": true,
+    "path": "haqq>stride",
+    "channel": "channel-240",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-7",
+      "port": "transfer",
+      "denom": "aISLM"
+    },
+    "image": "haqq/asset/islm.png",
+    "coinGeckoId": "islamic-coin"
   },
   {
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
@@ -435,5 +523,65 @@
     },
     "image": "celestia/asset/tia.png",
     "coinGeckoId": "celestia"
+  },
+  {
+    "denom": "ibc/520D9C4509027DE66C737A1D6A6021915A3071E30DBA8F758B46532B060D7AA5",
+    "type": "ibc",
+    "origin_chain": "saga",
+    "origin_denom": "usaga",
+    "origin_type": "staking",
+    "symbol": "SAGA",
+    "decimals": 6,
+    "enable": true,
+    "path": "saga>stride",
+    "channel": "channel-213",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "usaga"
+    },
+    "image": "saga/asset/saga.png",
+    "coinGeckoId": "saga-2"
+  },
+  {
+    "denom": "ibc/E1C22332C083574F3418481359733BA8887D171E76C80AD9237422AEABB66018",
+    "type": "ibc",
+    "origin_chain": "dymension",
+    "origin_denom": "adym",
+    "origin_type": "staking",
+    "symbol": "DYM",
+    "decimals": 18,
+    "enable": true,
+    "path": "dymension>stride",
+    "channel": "channel-197",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "adym"
+    },
+    "image": "dymension/asset/dym.png",
+    "coinGeckoId": "dymension"
+  },
+  {
+    "denom": "ibc/561C70B20188A047BFDE6F9946BDDC5D8AC172B9BE04FF868DFABF819E5A9CCE",
+    "type": "ibc",
+    "origin_chain": "dydx",
+    "origin_denom": "adydx",
+    "origin_type": "staking",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "enable": true,
+    "path": "dydx>stride",
+    "channel": "channel-160",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-1",
+      "port": "transfer",
+      "denom": "adydx"
+    },
+    "image": "dydx/asset/dydx.png",
+    "coinGeckoId": "dydx-chain"
   }
 ]

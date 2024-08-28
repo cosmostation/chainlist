@@ -1,0 +1,70 @@
+{
+    "chain_id_cosmos" : "nillion-chain-testnet-1",
+    "chain_name": "Nillion Testnet",
+    "chain_image": "nillion-testnet/resource/chain_nillion-testnet.png",
+    "symbol" : "NIL",
+    "symbol_image" : "nillion-testnet/asset/nil.png",
+    "bechAccountPrefix" : "nillion",
+    "bechValidatorPrefix" : "nillionvaloper",
+    "name_for_dapp" : "NILLION-TESTNET", 
+    "api_name" : "nillion-testnet",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.001unil",
+            "0.01unil"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.3,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-office-nillion.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "polkachu",
+            "url": "https://nillion-testnet-api.polkachu.com/"
+        },
+        {
+            "provider": "lavenderfive",
+            "url": "https://testnet-nillion-api.lavenderfive.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Nodeguru",
+        "url": "https://testnet.nillion.explorers.guru",
+        "account": "https://testnet.nillion.explorers.guru/account/${address}",
+        "tx": "https://testnet.nillion.explorers.guru/transaction/${hash}",
+        "proposal": "https://testnet.nillion.explorers.guru/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://nillion.com/",
+        "docs": "https://docs.nillion.com/",
+        "github" : "https://github.com/NillionNetwork",
+        "blog" : "https://nillion.com/news/",
+        "twitter" : "https://twitter.com/nillionnetwork", 
+        "telegram" : "https://t.me/nillionnetwork",
+        "discord" : "https://discord.com/invite/nillionnetwork",
+        "coingecko" : ""
+    },
+    "forum": {
+      "main": "https://www.nillhub.com/"
+    },
+    "description" : {
+        "ko" : "Nillion은 고가치 데이터를 보호하면서 분산 환경에서 안전하게 처리할 수 있는 네트워크입니다. 마치 블록체인이 거래를 탈중앙화한 것처럼, Nillion은 신뢰를 탈중앙화하여 데이터를 안전하게 관리합니다.",
+        "en" : "Nillion is a secure computation network that decentralizes trust for high value data in the same way that blockchains decentralized transactions.",
+        "ja" : "Nillionは、高価値データを保護しつつ分散環境で安全に処理できるネットワークです。ブロックチェーンが取引を分散化したように、Nillionは信頼を分散化してデータを安全に管理します。"
+    }
+}

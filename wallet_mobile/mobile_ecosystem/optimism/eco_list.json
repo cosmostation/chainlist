@@ -1,0 +1,67 @@
+[
+  {
+    "name": "1inch",
+    "description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/optimism/resource/1inch.png",
+    "link": "https://app.1inch.io/#/10",
+    "type": "DEX"
+  },
+  {
+    "name": "Uniswap",
+    "description": "Uniswap V3 is a noncustodial automated market maker implemented for the Ethereum Virtual Machine. It provides increased capital efficiency, fine-tuned control of liquidity provider, and improve accuracy and convenience of its price oracle.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/optimism/resource/uniswap.png",
+    "link": "https://app.uniswap.org/swap?chain=optimism",
+    "type": "DEX"
+  },
+  {
+    "name": "Exactly Protocol",
+    "description": "Exactly is a decentralized finance (DeFi) platform focused on providing fixed-rate lending and borrowing solutions.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/optimism/resource/exactly.png",
+    "link": "https://app.exact.ly/",
+    "type": "DeFi"
+  },
+  {
+    "name": "Stargate",
+    "description": "Stargate Finance is a decentralized finance (DeFi) platform focused on providing cross-chain liquidity transfer solutions.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/optimism/resource/stargate.png",
+    "link": "https://stargate.finance/",
+    "type": "DeFi"
+  },
+  {
+    "name": "WooFi",
+    "description": "WOOFi is a decentralized finance (DeFi) platform within the WOO Network that offers a variety of financial services including swapping, staking, and yield farming. It aims to provide deep liquidity, low fees, and competitive yields for users",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/optimism/resource/woofi.jpg",
+    "link": "https://fi.woo.org/swap/?chainId0=10",
+    "type": "DeFi"
+  },
+  {
+    "name": "Aave",
+    "description": "Aave is a decentralized finance money market protocol that allows you to lend, borrow, and earn interest on cryptocurrencies.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/optimism/resource/aave.png",
+    "link": "https://app.aave.com/?marketName=proto_optimism_v3",
+    "type": "Lending"
+  },
+  {
+    "name": "Curve",
+    "description": "Curve is DeFi’s leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve’s factory and incentivized by Curve’s DAO.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/optimism/resource/curve.png",
+    "link": "https://curve.fi/#/optimism/swap",
+    "type": "DEX"
+  },
+  {
+    "name": "Pooltime",
+    "description": "oolTime is a decentralized finance (DeFi) platform that offers a gamified staking experience. Users can stake their digital assets to participate in lottery-style reward pools, combining the excitement of gaming with the benefits of DeFi.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/optimism/resource/pooltogether.png",
+    "link": "https://www.pooltime.app/",
+    "type": "DEX"
+  },
+  {
+    "name": "Sushi",
+    "description": "A leading multi-chain DEX deployed across 25+ blockchains, cooking up a community-built, open-source ecosystem of all the DeFi tools you need.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/optimism/resource/sushi.png",
+    "link": "https://www.sushi.com/swap?chainId=10",
+    "type": "DEX"
+  }
+]
+
+

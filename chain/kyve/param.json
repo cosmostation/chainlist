@@ -1,9 +1,27 @@
 {
+    "chain_id_cosmos" : "kyve-1",
+    "chain_name": "Kyve",
+    "chain_image": "kyve/resource/chain_kyve.png",
+    "symbol" : "KYVE",
+    "symbol_image" : "kyve/asset/kyve.png",
+    "bechAccountPrefix" : "kyve",
+    "bechValidatorPrefix" : "kyvevaloper",
+    "name_for_dapp" : "KYVE", 
+    "api_name" : "kyve",
+    "origin_genesis_time" : "2023-03-14T14:03:14Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.02ukyve"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -14,22 +32,49 @@
             "url": "grpc-kyve.cosmostation.io:443"
         },
         {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-kyve.cosmos-spaces.cloud:2590"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "kyve-grpc.lavenderfive.com:443"
         },
         {
             "provider": "MMS",
             "url": "grpc-kyve.mms.team:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-kyve.cosmostation.io/"
+        },
+        {
+            "provider": "kyve",
+            "url": "https://api-eu-1.kyve.network/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "kyve-grpc.lavenderfive.com:443"
+            "url": "https://kyve-api.lavenderfive.com/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-kyve.ecostake.com/"
+        },
+        {
+            "provider": "Imperator.co",
+            "url": "https://lcd-kyve.imperator.co/"
         }
     ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/kyve/",
+        "account": "https://www.mintscan.io/kyve/address/${address}",
+        "tx": "https://www.mintscan.io/kyve/tx/${hash}",
+        "proposal": "https://www.mintscan.io/kyve/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.kyve.network/",
-        "blog" : "https://blog.kyve.network/",
+        "docs": "https://docs.kyve.network",
         "github" : "https://github.com/KYVENetwork",
+        "blog" : "https://blog.kyve.network",
+        "medium": "https://blog.kyve.network",
         "twitter" : "https://twitter.com/KYVENetwork",
         "coingecko" : "https://www.coingecko.com/en/coins/kyve-network"
     },

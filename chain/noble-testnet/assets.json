@@ -7,8 +7,9 @@
     "origin_type": "staking",
     "symbol": "NOBLE",
     "decimals": 6,
-    "description": "Noble Staking Coin",
-    "image": "noble-testnet/asset/stake.png"
+    "description": "Noble testnet Staking Coin",
+    "image": "noble-testnet/asset/stake.png",
+    "coinGeckoId": ""
   },
   {
     "denom": "uusdc",
@@ -18,19 +19,20 @@
     "origin_type": "native",
     "symbol": "USDC",
     "decimals": 6,
-    "description": "Native Coin",
+    "description": "Noble testnet Native Coin",
     "image": "noble-testnet/asset/usdc.png",
-    "coinGeckoId": "usd-coin"
+    "coinGeckoId": ""
   },
   {
-    "denom": "uusdlr",
+    "denom": "ausdy",
     "type": "native",
     "origin_chain": "noble-testnet",
-    "origin_denom": "uusdlr",
+    "origin_denom": "ausdy",
     "origin_type": "native",
-    "symbol": "USDLR",
-    "decimals": 6,
-    "description": "USDLR is a fiat-backed testnet stablecoin issued by Stable. Stable pays DeFi protocols who distribute USDLR",
-    "image": "noble-testnet/asset/usdlr.svg"
+    "symbol": "USDY",
+    "decimals": 18,
+    "description": "Noble testnet Native Coin",
+    "image": "ethereum/asset/usdy.png",
+    "coinGeckoId": ""
   }
 ]

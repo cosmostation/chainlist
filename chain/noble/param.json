@@ -1,10 +1,27 @@
 {
+    "chain_id_cosmos" : "noble-1",
+    "chain_name": "Noble",
+    "chain_image": "noble/resource/chain_noble.png",
+    "symbol" : "NOBLE",
+    "symbol_image" : "noble/asset/stake.png",
+    "bechAccountPrefix" : "noble",
+    "bechValidatorPrefix" : "noblevaloper",
+    "name_for_dapp" : "NOBLE", 
+    "api_name" : "noble",
+    "origin_genesis_time" : "2023-03-27T16:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.1uusdc",
-            "0.01ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0"
+            "0.1uusdc,0.01ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -15,14 +32,36 @@
             "url": "grpc-noble.cosmostation.io:443"
         },
         {
-            "provider": "polkachu",
-            "url": "noble-grpc.polkachu.com:21590"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "noble-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-noble.cosmostation.io/"
+        },
+        {
+            "provider": "polkachu",
+            "url": "https://noble-api.polkachu.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://noble-api.lavenderfive.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/noble/",
+        "account": "https://www.mintscan.io/noble/address/${address}",
+        "tx": "https://www.mintscan.io/noble/tx/${hash}",
+        "proposal": "https://www.mintscan.io/noble/proposals/${id}"
+    },
     "about" : {
         "website" : "https://nobleassets.xyz/",
-        "blog" : "https://mirror.xyz/nobleassets.eth",
+        "docs": "https://docs.nobleassets.xyz/",
         "github" : "https://github.com/strangelove-ventures/noble",
+        "blog" : "https://mirror.xyz/nobleassets.eth",
         "twitter" : "https://twitter.com/noble_xyz",
         "coingecko" : ""
     },

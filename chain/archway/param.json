@@ -1,9 +1,28 @@
 {
+    "chain_id_cosmos" : "archway-1",
+    "chain_name": "Archway",
+    "chain_image": "archway/resource/chain_archway.png",
+    "symbol" : "ARCH",
+    "symbol_image" : "archway/asset/arch.png",
+    "bechAccountPrefix" : "archway",
+    "bechValidatorPrefix" : "archwayvaloper",
+    "name_for_dapp" : "ARCHWAY", 
+    "api_name" : "archway",
+    "origin_genesis_time" : "2023-07-03T12:00:00Z",
+    "moblie_dapp" : true,
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
-            "1000000000000aarch"
+            "140000000000aarch"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -18,8 +37,8 @@
             "url": "grpc.mainnet.archway.io:443"
         },
         {
-            "provider": "Nodes.Guru",
-            "url": "grpc-1.archway.nodes.guru:10690"
+            "provider": "StakeUp",
+            "url": "grpc.archway.stakeup.tech:443"
         },
         {
             "provider": "openbitlab",
@@ -30,10 +49,45 @@
             "url": "grpc.archway.lgns.net:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-archway.cosmostation.io/"
+        },
+        {
+            "provider": "Silk Nodes",
+            "url": "https://archway.api.silknodes.io/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://archway-api.w3coins.io/"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://archway.api.kjnodes.com/"
+        },
+        {
+            "provider": "cryptech",
+            "url": "https://api-archway.cryptech.com.ua/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-archway.whispernode.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/archway/",
+        "account": "https://www.mintscan.io/archway/address/${address}",
+        "tx": "https://www.mintscan.io/archway/tx/${hash}",
+        "proposal": "https://www.mintscan.io/archway/proposals/${id}"
+    },
     "about" : {
         "website" : "https://archway.io/",
-        "blog" : "https://blog.archway.io/",
+        "docs": "https://docs.archway.io/",
         "github" : "https://github.com/archway-network",
+        "blog" : "https://blog.archway.io/",
+        "medium": "https://blog.archway.io/",
         "twitter" : "https://twitter.com/archwayhq",
         "coingecko" : "https://www.coingecko.com/en/coins/archway"
     },

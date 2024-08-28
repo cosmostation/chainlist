@@ -1,0 +1,57 @@
+[
+  {
+    "chainId": 80085,
+    "chainName": "Berachain Artio Testnet",
+    "address": "0x5806E416dA447b267cEA759358cF22Cc41FAE80F",
+    "symbol": "WBERA",
+    "description": "Wrapped Berachain Token",
+    "decimals": 18,
+    "image": "berachain-testnet/asset/wbera.png",
+    "default": true,
+    "coinGeckoId":""
+  },
+  {
+    "chainId": 80085,
+    "chainName": "Berachain Artio Testnet",
+    "address": "0x7EeCA4205fF31f947EdBd49195a7A88E6A91161B",
+    "symbol": "HONEY",
+    "description": "Honey",
+    "decimals": 18,
+    "image": "berachain-testnet/asset/honey.png",
+    "default": true,
+    "coinGeckoId":""
+  },
+  {
+    "chainId": 80085,
+    "chainName": "Berachain Artio Testnet",
+    "address": "0x6581e59A1C8dA66eD0D313a0d4029DcE2F746Cc5",
+    "symbol": "stgUSDC",
+    "description": "Stable Collateral USD Coin",
+    "decimals": 18,
+    "image": "berachain-testnet/asset/stgusdc.png",
+    "default": true,
+    "coinGeckoId":""
+  },
+  {
+    "chainId": 80085,
+    "chainName": "Berachain Artio Testnet",
+    "address": "0x9DAD8A1F64692adeB74ACa26129e0F16897fF4BB",
+    "symbol": "WBTC",
+    "description": "Wrapped Bitcoin",
+    "decimals": 8,
+    "image": "ethereum/asset/wbtc.png",
+    "default": true,
+    "coinGeckoId":""
+  },
+  {
+    "chainId": 80085,
+    "chainName": "Berachain Artio Testnet",
+    "address": "0x8239FBb3e3D0C2cDFd7888D8aF7701240Ac4DcA4",
+    "symbol": "WETH",
+    "description": "Wrapped Ether",
+    "decimals": 18,
+    "image": "ethereum/asset/weth.png",
+    "default": true,
+    "coinGeckoId":""
+  }
+]

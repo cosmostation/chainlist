@@ -1,0 +1,33 @@
+{
+    "chain_name": "Acrechain",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "250000000aevmos"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Nodestake",
+            "url": "grpc.acre.nodestake.top:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "D-stake",
+            "url": "https://jsonrpc-acre.d-stake.xyz"
+        }
+    ],
+    "about" : {
+        "website" : "https://arable.finance/"
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}
