@@ -2,30 +2,30 @@
   {
     "name": "pSTAKE Finance",
     "type": "Defi",
-    "description": "A multi-chain liquid staking protocol that unlocks liquidity for your staked assets.",
+    "description": "pSTAKE Finance is a Bitcoin Yield and liquid staking protocol, backed by Binance Labs.",
     "status": "open",
     "thumbnail" : "pstake-finance",
-    "link": "https://app.pstake.finance/",
+    "link": "https://pstake.finance/",
     "social": {
-      "webSite": "https://app.pstake.finance/",
+      "webSite": "https://pstake.finance/",
       "twitter": "https://twitter.com/pStakeFinance",
-      "docs": "https://docs.pstake.finance/stkATOM_Introduction/",
+      "docs": "https://docs.pstake.finance/",
       "medium": "https://blog.pstake.finance/"
     }
   },
   {
-    "name": "Dexter",
+    "name": "Persistence DEX",
     "type": "Defi",
-    "description": "Dexter is an AMM for yield-generating assets like liquid-staked assets and interest-bearing tokens in DeFi, built on Persistence Core-1",
+    "description": "Persistence DEX is a trading and liquidity venue for XPRT, BTC and its' related assets, LSTs and Stablecoins.",
     "status": "open",
     "thumbnail" : "dexter",
-    "link": "https://app.dexter.zone/",
+    "link": "https://persistence.one/",
     "social": {
-      "webSite": "https://app.dexter.zone/",
-      "twitter": "https://twitter.com/dexter_zone",
-      "docs": "https://docs.dexter.zone/onboarding/introduction",
+      "webSite": "https://persistence.one/",
+      "twitter": "https://x.com/PersistenceOne",
+      "docs": "https://docs.persistence.one/persistence-dex/introduction",
       "github": "https://github.com/dexter-zone/dexter_core",
-      "medium": "https://medium.com/@Dexter.Zone"
+      "medium": "https://blog.pstake.finance/"
     }
   }
 ]
