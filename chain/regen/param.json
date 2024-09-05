@@ -1,4 +1,21 @@
 {
+    "chain_id_cosmos" : "regen-1",
+    "chain_name": "Regen",
+    "chain_image": "regen/resource/chain_regen.png",
+    "symbol" : "REGEN",
+    "symbol_image" : "regen/asset/regen.png",
+    "bechAccountPrefix" : "regen",
+    "bechValidatorPrefix" : "regenvaloper",
+    "name_for_dapp" : "REGEN", 
+    "api_name" : "regen",
+    "origin_genesis_time" : "2021-04-15T15:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -6,6 +23,7 @@
             "0.0025uregen",
             "0.025uregen"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -16,28 +34,50 @@
             "url": "grpc-regen.cosmostation.io:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "regen-mainnet-grpc.autostake.com:443"
-        },
-        {
             "provider": "Notional",
             "url": "grpc-regen-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "w3coins",
-            "url": "regen-grpc.w3coins.io:22790"
-        },
-        {
-            "provider": "Allnodes.com ⚡️ Nodes & Staking",
-            "url": "regen-grpc.publicnode.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-regen.cosmostation.io/"
+        },
+        {
+            "provider": "vitwit",
+            "url": "http://public-rpc.regen.vitwit.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://regen.api.m.stavr.tech/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://regen-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-regen.ecostake.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/regen/",
+        "account": "https://www.mintscan.io/regen/address/${address}",
+        "tx": "https://www.mintscan.io/regen/tx/${hash}",
+        "proposal": "https://www.mintscan.io/regen/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.regen.network/",
-        "blog" : "https://medium.com/regen-network",
+        "docs": "https://docs.regen.network",
         "github" : "https://github.com/regen-network",
+        "medium": "https://medium.com/regen-network",
         "twitter" : "https://twitter.com/regen_network",
         "coingecko" : "https://www.coingecko.com/en/coins/regen"
+    },
+    "forum": {
+      "main": "https://forum.regen.network",
+      "governance": "https://forum.regen.network/discussions/Governance/"
     },
     "description" : {
         "ko" : "Regen은 친환경 데이터와 환경보호 활동를 위해 설계된 코스모스 기반 지분증명 블록체인입니다.",

@@ -1,10 +1,28 @@
 {
+    "chain_id_cosmos" : "likecoin-mainnet-2",
+    "chain_name": "Likecoin",
+    "chain_image": "likecoin/resource/chain_likecoin.png",
+    "symbol" : "LIKE",
+    "symbol_image" : "likecoin/asset/like.png",
+    "bechAccountPrefix" : "like",
+    "bechValidatorPrefix" : "likevaloper",
+    "name_for_dapp" : "LIKECOIN", 
+    "api_name" : "likecoin",
+    "origin_genesis_time" : "2019-11-15T04:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "10000nanolike",
             "1000000nanolike"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -19,12 +37,47 @@
             "url": "grpc-likecoin-mainnet.pikaser.net:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-likecoin.cosmostation.io/"
+        },
+        {
+            "provider": "like.co",
+            "url": "https://mainnet-node.like.co/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://like.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Oldcat",
+            "url": "https://likecoin-node.oldcat.io/api/"
+        },
+        {
+            "provider": "PikaSer",
+            "url": "https://rest-likecoin-mainnet.pikaser.net/"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/likecoin",
+        "account": "https://atomscan.com/likecoin/accounts/${address}",
+        "tx": "https://atomscan.com/likecoin/transactions/${hash}",
+        "proposal": "https://atomscan.com/likecoin/votes/${id}"
+    },
     "about" : {
         "website" : "https://about.like.co/",
-        "blog" : "https://blog.like.co/en/",
+        "docs": "https://docs.like.co/developer/introduction",
         "github" : "https://github.com/likecoin",
+        "blog" : "https://blog.like.co/en/",
+        "medium": "https://blog.like.co/en/",
         "twitter" : "https://twitter.com/likecoin",
+        "discord" : "https://discord.com/invite/W4DQ6peZZZ",
         "coingecko" : "https://www.coingecko.com/en/coins/likecoin"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/LikeCoin"
     },
     "description" : {
         "ko" : "소셜 미디어와 온라인 게시물을 위한 탈중앙화 플랫폼 및 인프라를 제공하는 Cosmos SDK 기반 블록체인 네트워크.",

@@ -1,0 +1,94 @@
+{
+    "chain_id_cosmos" : "agoric-3",
+    "chain_name": "Agoric",
+    "chain_image": "agoric/resource/chain_agoric.png",
+    "symbol" : "BLD",
+    "symbol_image" : "agoric/asset/bld.png",
+    "bechAccountPrefix" : "agoric",
+    "bechValidatorPrefix" : "agoricvaloper",
+    "name_for_dapp" : "AGORIC", 
+    "api_name" : "agoric",
+    "origin_genesis_time" : "2022-07-01T00:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/564'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.03ubld,0.0034uist",
+            "0.05ubld,0.0074uist",
+            "0.07ubld,0.02uist"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.3
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-agoric.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-agoric.cosmostation.io/"
+        },
+        {
+            "provider": "Agoric",
+            "url": "https://main.api.agoric.net/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://agoric-api.polkachu.com/"
+        },
+        {
+            "provider": "Kjnodes",
+            "url": "https://agoric.api.kjnodes.com/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://agoric-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "Stakeflow",
+            "url": "https://api-agoric-01.stakeflow.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/agoric/",
+        "account": "https://www.mintscan.io/agoric/address/${address}",
+        "tx": "https://www.mintscan.io/agoric/tx/${hash}",
+        "proposal": "https://www.mintscan.io/agoric/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://agoric.com/",
+        "docs": "https://docs.agoric.com/",
+        "github" : "https://github.com/agoric",
+        "blog" : "https://agoric.com/blog",
+        "twitter" : "https://agoric.com/twitter/",
+        "discord" : "https://agoric.com/discord/",
+        "telegram" : "https://agoric.com/telegram/",
+        "youtube" : "https://www.youtube.com/agoric",
+        "coingecko" : "https://www.coingecko.com/coins/agoric"
+    },
+    "forum": {
+      "main": "https://community.agoric.com/"
+    },
+    "description" : {
+        "ko" : "Agoric는 자바스크립트로 크로스체인 스마트 계약을 구축하기 위한 코스모스 기반 레이어 1 블록체인입니다.",
+        "en" : "Agoric is a Cosmos-based Layer 1 blockchain for building cross-chain smart contracts in JavaScript.",
+        "ja" : "AgoricはJavaScriptでクロスチェーンスマートコントラクトを構築するための、Cosmosベースのレイヤー1ブロックチェーンです。"
+    }
+}

@@ -1,0 +1,28 @@
+name: Lint JSON Files
+
+on:
+  workflow_dispatch:
+  
+  push:
+    branches:
+      - master
+
+jobs:
+  validate-config:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install jsonlint
+      run: npm install -g @prantlf/jsonlint
+
+    - name: Lint JSON files
+      run: |
+        jsonlint -q ./**/*.json

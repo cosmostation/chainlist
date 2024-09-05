@@ -1,0 +1,31 @@
+ [
+  {
+    "name": "pSTAKE Finance",
+    "type": "Defi",
+    "description": "pSTAKE Finance is a Bitcoin Yield and liquid staking protocol, backed by Binance Labs.",
+    "status": "open",
+    "thumbnail" : "pstake-finance",
+    "link": "https://pstake.finance/",
+    "social": {
+      "webSite": "https://pstake.finance/",
+      "twitter": "https://twitter.com/pStakeFinance",
+      "docs": "https://docs.pstake.finance/",
+      "medium": "https://blog.pstake.finance/"
+    }
+  },
+  {
+    "name": "Persistence DEX",
+    "type": "Defi",
+    "description": "Persistence DEX is a trading and liquidity venue for XPRT, BTC and its' related assets, LSTs and Stablecoins.",
+    "status": "open",
+    "thumbnail" : "dexter",
+    "link": "https://persistence.one/",
+    "social": {
+      "webSite": "https://persistence.one/",
+      "twitter": "https://x.com/PersistenceOne",
+      "docs": "https://docs.persistence.one/persistence-dex/introduction",
+      "github": "https://github.com/dexter-zone/dexter_core",
+      "medium": "https://blog.pstake.finance/"
+    }
+  }
+]
