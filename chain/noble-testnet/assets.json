@@ -34,5 +34,17 @@
     "description": "Noble testnet Native Coin",
     "image": "ethereum/asset/usdy.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ueure",
+    "type": "native",
+    "origin_chain": "noble-testnet",
+    "origin_denom": "ueure",
+    "origin_type": "native",
+    "symbol": "EURe",
+    "decimals": 6,
+    "description": "Noble testnet Native Coin",
+    "image": "noble-testnet/asset/eure.png",
+    "coinGeckoId": ""
   }
 ]
