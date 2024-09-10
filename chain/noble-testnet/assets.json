@@ -36,6 +36,18 @@
     "coinGeckoId": ""
   },
   {
+    "denom": "uusyc",
+    "type": "native",
+    "origin_chain": "noble-testnet",
+    "origin_denom": "uusyc",
+    "origin_type": "native",
+    "symbol": "USYC",
+    "decimals": 6,
+    "description": "Noble testnet Native Coin",
+    "image": "noble-testnet/asset/usyc.png",
+    "coinGeckoId": ""
+  },
+  {
     "denom": "ueure",
     "type": "native",
     "origin_chain": "noble-testnet",
