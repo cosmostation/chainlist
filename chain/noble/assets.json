@@ -20,7 +20,7 @@
     "symbol": "USDC",
     "decimals": 6,
     "description": "Native Coin",
-    "image": "ethereum/asset/usdc.png",
+    "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
   },
   {
@@ -32,8 +32,32 @@
     "symbol": "USDY",
     "decimals": 18,
     "description": "Native Coin",
-    "image": "ethereum/asset/usdy.png",
+    "image": "noble/asset/usdy.png",
     "coinGeckoId": "ondo-us-dollar-yield"
+  },
+  {
+    "denom": "uusyc",
+    "type": "native",
+    "origin_chain": "noble",
+    "origin_denom": "uusyc",
+    "origin_type": "native",
+    "symbol": "USYC",
+    "decimals": 6,
+    "description": "Native Coin",
+    "image": "noble/asset/usyc.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ueure",
+    "type": "native",
+    "origin_chain": "noble",
+    "origin_denom": "ueure",
+    "origin_type": "native",
+    "symbol": "EURe",
+    "decimals": 6,
+    "description": "Native Coin",
+    "image": "noble/asset/eure.png",
+    "coinGeckoId": "monerium-eur-money"
   },
   {
     "denom": "ufrienzies",
