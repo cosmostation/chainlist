@@ -21,9 +21,9 @@
     ],
     "explorer" : {
         "name": "Mempool.space",
-        "url": "https://mempool.space/testnet/",
-        "account": "https://mempool.space/testnet/address/${address}",
-        "tx": "https://mempool.space/testnet/tx/${hash}"
+        "url": "https://mempool.space/testnet4/",
+        "account": "https://mempool.space/testnet4/address/${address}",
+        "tx": "https://mempool.space/testnet4/tx/${hash}"
     },
     "about" : {
     },
