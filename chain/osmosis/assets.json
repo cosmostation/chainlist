@@ -3648,7 +3648,7 @@
     "description": "Deep beneath the Capitol, in a top-secret lab, $XTRUMP is sparking a revolutionary rebellion against the system. 5555 tokens to solve the NFT liquidity chaos",
     "image": "osmosis/asset/trump.png",
     "coinGeckoId": ""
-  }
+  },
   {
     "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-icrc-ckBTC",
     "type": "bridge",
@@ -3659,6 +3659,6 @@
     "decimals": 8,
     "path": "icp>osmosis",
     "image": "osmosis/asset/ckbtc.png",
-    "coinGeckoId": "",
-  },
+    "coinGeckoId": ""
+  }
 ]
