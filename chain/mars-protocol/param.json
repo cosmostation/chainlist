@@ -28,22 +28,18 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-mars-protocol.cosmostation.io:443"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "mars-grpc.lavenderfive.com:443"
         },
         {
             "provider": "Delphi Labs",
             "url": "grpc.marsprotocol.io:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "mars-grpc.lavenderfive.com:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-mars-protocol.cosmostation.io/"
+            "provider": "Polkachu",
+            "url": "https://mars-api.polkachu.com/"
         },
         {
             "provider": "Delphi Labs",
@@ -56,18 +52,15 @@
         {
             "provider": "AutoStake 🛡️ Slash Protected",
             "url": "https://mars-mainnet-lcd.autostake.com/"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "https://mars-api.polkachu.com/"
         }
+        
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/mars-protocol/",
-        "account": "https://www.mintscan.io/mars-protocol/address/${address}",
-        "tx": "https://www.mintscan.io/mars-protocol/tx/${hash}",
-        "proposal": "https://www.mintscan.io/mars-protocol/proposals/${id}"
+        "name": "Pingpub",
+        "url": "https://ping.pub/mars",
+        "account": "https://ping.pub/mars/account/${address}",
+        "tx": "https://ping.pub/mars/tx/${hash}",
+        "proposal": "https://ping.pub/mars/gov/${id}"
     },
     "about" : {
         "website" : "https://marsprotocol.io/",
