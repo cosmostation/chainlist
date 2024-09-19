@@ -12,7 +12,7 @@
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://rpc-office-evm.cosmostation.io/story-testnet"
+            "url": "https://rpc-office-evm.cosmostation.io/story-testnet/"
         },
         {
             "provider": "StoryRPC",
