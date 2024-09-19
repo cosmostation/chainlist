@@ -25,9 +25,9 @@
     ],
     "explorer" : {
         "name": "Story Explorer",
-        "url": "https://explorer.story.foundation/",
-        "account": "",
-        "tx": "https://explorer.story.foundation/transactions/${hash}"
+        "url": "https://testnet.storyscan.xyz/",
+        "account": "https://testnet.storyscan.xyz/address/${address}",
+        "tx": "https://testnet.storyscan.xyz/tx/${hash}"
     },
     "about" : {
         "website" : "https://www.story.foundation/",
