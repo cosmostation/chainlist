@@ -1,0 +1,14 @@
+[
+    {
+        "denom": "stake",
+        "type": "native",
+        "origin_chain": "story-testnet",
+        "origin_denom": "stake",
+        "origin_type": "native",
+        "symbol": "IP",
+        "decimals": 18,
+        "description": "Strory testnet native coin",
+        "image": "story-testnet/asset/ip.png",
+        "color": "#6A62FF"
+    }
+]
