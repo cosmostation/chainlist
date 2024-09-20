@@ -5,6 +5,7 @@
     "symbol" : "SUI",
     "symbol_image" : "sui/asset/sui.png",
     "origin_genesis_time" : "2023-05-03T00:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/784'/0'/0'/X'",
