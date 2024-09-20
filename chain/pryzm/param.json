@@ -18,8 +18,8 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.0025pryzm",
-            "0.025pryzm"
+            "0.0025upryzm",
+            "0.025upryzm"
         ],
         "init_gas_limit" : 300000,
         "isSimulable" : true,
