@@ -36,6 +36,28 @@
             "url": "stride-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-stride.cosmostation.io/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://stride-api.polkachu.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-stride.cosmos-spaces.cloud/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://stride-api.lavenderfive.com/"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://stride.api.kjnodes.com/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/stride/",

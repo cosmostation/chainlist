@@ -9,6 +9,7 @@
     "name_for_dapp" : "ARCHWAY", 
     "api_name" : "archway",
     "origin_genesis_time" : "2023-07-03T12:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -46,6 +47,32 @@
         {
             "provider": "Luganodes",
             "url": "grpc.archway.lgns.net:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-archway.cosmostation.io/"
+        },
+        {
+            "provider": "Silk Nodes",
+            "url": "https://archway.api.silknodes.io/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://archway-api.w3coins.io/"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://archway.api.kjnodes.com/"
+        },
+        {
+            "provider": "cryptech",
+            "url": "https://api-archway.cryptech.com.ua/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-archway.whispernode.com/"
         }
     ],
     "explorer" : {

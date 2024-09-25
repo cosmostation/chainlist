@@ -1,0 +1,67 @@
+{
+    "chain_id_cosmos" : "pryzm-1",
+    "chain_name": "Pryzm",
+    "chain_image": "pryzm/resource/chain_pryzm.png",
+    "symbol" : "PRYZM",
+    "symbol_image" : "pryzm/asset/pryzm.png",
+    "bechAccountPrefix" : "pryzm",
+    "bechValidatorPrefix" : "pryzmvaloper",
+    "name_for_dapp" : "PRYZM", 
+    "api_name" : "pryzm",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0025ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2,0.025ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B,0.002ibc/BF28D9C17E0306B194D50F51C3B2590BEAD15E04E03ADD34C3A26E62D85C9676,500000000ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255,0.015ibc/B8AF5D92165F35AB31F3FC7C7B444B9D240760FA5D406C49D24862BD0284E395",
+            "0.003ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2,0.03ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B,0.003ibc/BF28D9C17E0306B194D50F51C3B2590BEAD15E04E03ADD34C3A26E62D85C9676,600000000ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255,0.02ibc/B8AF5D92165F35AB31F3FC7C7B444B9D240760FA5D406C49D24862BD0284E395"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Pryzm",
+            "url": "grpc.pryzm.zone:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "pryzm.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "PRYZM",
+            "url": "https://api.pryzm.zone/"
+        },
+        {
+            "provider": "Lavender.Five Nodes",
+            "url": "https://rest.lavenderfive.com:443/pryzm/"
+        }
+    ],
+    "explorer" : {
+        "name": "PingPub",
+        "url": "https://cosmosrun.info/pryzm/",
+        "account": "https://cosmosrun.info/pryzm/account/${address}",
+        "tx": "https://cosmosrun.info/pryzm/tx/${hash}",
+        "proposal": "https://cosmosrun.info/pryzm/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://pryzm.zone//",
+        "docs": "https://docs.pryzm.zone/",
+        "github" : "https://github.com/pryzm-finance",
+        "twitter" : "https://x.com/Pryzm_Zone"
+    },
+    "description" : {
+        "ko" : "변동성 있는 가격과 불안정한 수익을 관리할 수 있는 도구를 제공합니다. 수익을 최적화하고, 미래 수익을 잠금 해제하고 토큰화하고, 위험을 관리하세요. Pryzm은 수익 최적화를 위한 레이어 1 블록체인입니다.",
+        "en" : "Empowering you with the tools to manage volatile prices and unstable yields. Optimize your profits, unlock and tokenize your future yield, and manage your risks. Pryzm is the layer 1 blockchain for yield optimization.",
+        "ja" : "変動の激しい価格と不安定な利回りを管理するためのツールを提供します。利益を最適化し、将来の利回りを解放してトークン化し、リスクを管理します。Pryzm は、利回り最適化のためのレイヤー 1 ブロックチェーンです。"
+    }
+}

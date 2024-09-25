@@ -38,6 +38,24 @@
             "url": "grpc-irisnet-ia.cosmosia.notional.ventures:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-iris.cosmostation.io/"
+        },
+        {
+            "provider": "Stakeflow",
+            "url": "https://api-irisnet-01.stakeflow.io/"
+        },
+        {
+            "provider": "High Stakes 🇨🇭",
+            "url": "https://iris-api.highstakes.ch/"
+        },
+        {
+            "provider": "KonsorTech",
+            "url": "https://mainnet-iris-api.konsortech.xyz/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/iris/",

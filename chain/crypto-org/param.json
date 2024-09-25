@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos" : "crypto-org-chain-mainnet-1",
     "chain_name": "Cronos Pos",
-    "chain_image": "crypto-org/resource/chain_cronos_pos.png",
+    "chain_image": "crypto-org/resource/chain_crypto-org.png",
     "symbol" : "CRO",
     "symbol_image" : "crypto-org/asset/cro.png",
     "bechAccountPrefix" : "cro",
@@ -36,6 +36,16 @@
         {
             "provider": "crypto.org",
             "url": "grpc.mainnet.crypto.org:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-crypto-org.cosmostation.io/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://cryptocom-api.polkachu.com/"
         }
     ],
     "explorer" : {

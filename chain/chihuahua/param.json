@@ -45,6 +45,28 @@
             "url": "grpc.chihuahua.validatus.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-chihuahua.cosmostation.io/"
+        },
+        {
+            "provider": "Chihuahua",
+            "url": "https://api.chihuahua.wtf/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-chihuahua.ecostake.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://chihua.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://chihuahua-api.polkachu.com/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/chihuahua/",

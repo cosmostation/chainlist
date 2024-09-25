@@ -4,6 +4,7 @@
     "chain_image": "polygon/resource/chain_polygon.png",
     "symbol" : "MATIC",
     "symbol_image" : "polygon/asset/matic.png",
+    "origin_genesis_time" : "2020-05-30T04:30:00Z",
     "moblie_dapp" : true,
     "evm_rpc_endpoint" : [
         {
@@ -41,7 +42,7 @@
         "website" : "https://polygon.technology/",
         "docs": "https://docs.polygon.technology/",
         "github" : "https://github.com/maticnetwork/",
-        "blog" : "https://github.com/maticnetwork/",
+        "blog" : "https://polygon.technology/blog",
         "medium": "",
         "twitter" : "https://twitter.com/0xPolygon",
         "discord" : "https://discord.com/invite/0xPolygon",

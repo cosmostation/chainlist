@@ -32,6 +32,20 @@
             "url": "grpc-medibloc.cosmostation.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-medibloc.cosmostation.io/"
+        },
+        {
+            "provider": "medibloc",
+            "url": "https://api.gopanacea.org/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://panacea-rest.staketab.org/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/medibloc/",

@@ -33,20 +33,30 @@
             "url": "grpc-osmosis.cosmostation.io:443"
         },
         {
-            "provider": "Notional",
-            "url": "grpc-osmosis-ia.cosmosia.notional.ventures:443"
-        },
-        {
             "provider": "Stakin",
             "url": "osmosis.grpc.stakin-nodes.com:443"
         },
         {
             "provider": "StakeTown",
             "url": "osmosis-grpc.stake-town.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-osmosis.cosmostation.io/"
         },
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "osmosis-grpc.lavenderfive.com:443"
+            "provider": "Osmosis Foundation",
+            "url": "https://lcd.osmosis.zone/"
+        },
+        {
+            "provider": "Golden Ratio Staking",
+            "url": "https://rest.osmosis.goldenratiostaking.net/"
+        },
+        {
+            "provider": "Chainlayer",
+            "url": "https://osmosis-lcd.quickapi.com/"
         }
     ],
     "explorer" : {

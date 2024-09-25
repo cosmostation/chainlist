@@ -1,0 +1,55 @@
+{
+    "chain_id_cosmos" : "bitbadges-1",
+    "chain_name": "BitBadges",
+    "chain_image": "bitbadges/resource/bitbadgeslogo.png",
+    "symbol" : "BADGE",
+    "symbol_image" : "bitbadges/asset/bitbadgeslogo.png",
+    "bechAccountPrefix" : "cosmos",
+    "bechValidatorPrefix" : "cosmosvaloper",
+    "name_for_dapp" : "BitBadges", 
+    "api_name" : "bitbadges",
+    "origin_genesis_time" : "2024-09-08T20:28:35.97966166Z",
+    "accountType" : [ 
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethereum.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0ubadge"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/bitbadges/",
+        "account": "https://www.mintscan.io/bitbadges/address/${address}",
+        "tx": "https://www.mintscan.io/bitbadges/tx/${hash}",
+        "proposal": "https://www.mintscan.io/bitbadges/proposals/${id}"
+    },
+    "about" : {
+      "website" : "https://bitbadges.io/",
+      "docs": "https://docs.bitbadges.io/",
+      "github" : "https://github.com/bitbadges",
+      "blog" : "",
+      "medium": "",
+      "twitter" : "",
+      "discord" : "https://discord.com/invite/TJMaEd9bar",
+      "coingecko" : ""
+    },
+    "description" : {
+      "en" : "BitBadges is the all-in-one, multi-chain platform for creating, collecting, and authenticating with digital NFT badges."
+    }
+}

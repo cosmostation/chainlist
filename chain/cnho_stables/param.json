@@ -1,0 +1,52 @@
+{
+    "chain_id_cosmos" : "cnho_stables-1",
+    "chain_name": "CNHO Stables",
+    "chain_image": "cnho_stables/resource/chain.png",
+    "symbol" : "CNHO",
+    "symbol_image" : "cnho_stables/asset/chain.png",
+    "bechAccountPrefix" : "cnho",
+    "bechValidatorPrefix" : "cnhovaloper",
+    "api_name" : "cnho",
+    "origin_genesis_time" : "2024-04-10T03:05:25.355240367Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0025ucnho",
+            "0.025ucnho",
+            "0.04ucnho"
+        ],
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "CNHO Stables",
+            "url": "https://rpc.cnho.io"
+        }
+    ],
+    "grpc_endpoint" : [
+        {
+            "provider": "CNHO Stables",
+            "url": "159.138.232.248:9090"
+        }
+    ],
+    "about" : {
+        "website" : "https://cnho.io/",
+        "github" : "https://github.com/alashooinc/Chain_CNHO",
+    
+        "coingecko" : ""
+    },
+    "description" : {
+       
+        "en" : "CNHO Stables"
+        
+    }
+}

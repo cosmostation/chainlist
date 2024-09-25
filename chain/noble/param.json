@@ -36,6 +36,20 @@
             "url": "noble-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-noble.cosmostation.io/"
+        },
+        {
+            "provider": "polkachu",
+            "url": "https://noble-api.polkachu.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://noble-api.lavenderfive.com/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/noble/",

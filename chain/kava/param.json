@@ -49,10 +49,6 @@
         {
             "provider": "kava",
             "url": "grpc.data.kava.io:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-kava-ia.cosmosia.notional.ventures:443"
         }
     ],
     "evm_rpc_endpoint" : [

@@ -36,6 +36,28 @@
             "url": "teritori-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-teritori.cosmostation.io/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://teritori-api.polkachu.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://teritori.api.m.stavr.tech/"
+        },
+        {
+            "provider": "silent",
+            "url": "https://api.teritori.silentvalidator.com/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://teritori-api.ibs.team/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/teritori/",

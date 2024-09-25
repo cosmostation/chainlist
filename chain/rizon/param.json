@@ -34,12 +34,26 @@
             "url": "grpc-rizon.cosmostation.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-rizon.cosmostation.io/"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "https://api.rizon.chaintools.tech/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://rizon.api.m.stavr.tech/"
+        }
+    ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/rizon/",
-        "account": "https://www.mintscan.io/rizon/address/${address}",
-        "tx": "https://www.mintscan.io/rizon/tx/${hash}",
-        "proposal": "https://www.mintscan.io/rizon/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/rizon",
+        "account": "https://atomscan.com/rizon/accounts/${address}",
+        "tx": "https://atomscan.com/rizon/transactions/${hash}",
+        "proposal": "https://atomscan.com/rizon/votes/${id}"
     },
     "about" : {
         "website" : "https://rizon.world/",

@@ -1,0 +1,44 @@
+{
+    "chain_id_evm" : "0x5E9",
+    "chain_name": "Story Testnet",
+    "chain_image": "story-testnet/resource/chain_story-testnet.png",
+    "symbol" : "IP",
+    "symbol_image" : "story-testnet/asset/ip.png",
+    "moblie_dapp" : true,
+    "evm_fee" : {
+        "eip1559": true,
+        "simul_gas_multiply" : 1.3
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-office-evm.cosmostation.io/story-testnet/"
+        },
+        {
+            "provider": "StoryRPC",
+            "url": "https://testnet.storyrpc.io"
+        },
+        {
+            "provider": "Oneiricts",
+            "url": "https://story-rpc.oneiricts.com:8445"
+        }
+    ],
+    "explorer" : {
+        "name": "Story Explorer",
+        "url": "https://testnet.storyscan.xyz/",
+        "account": "https://testnet.storyscan.xyz/address/${address}",
+        "tx": "https://testnet.storyscan.xyz/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://www.story.foundation/",
+        "docs": "https://docs.story.foundation/docs/",
+        "github" : "https://github.com/storyprotocol",
+        "twitter" : "https://x.com/StoryProtocol",
+        "discord" : "https://discord.com/invite/storyprotocol"
+    },
+    "description" : {
+        "ko" : "스토리는 세계의 IP 블록체인으로, 차세대 AI, DeFi 및 소비자 애플리케이션을 구동하는 프로그래밍 가능 IP를 추진하고 있습니다.",
+        "en" : "Story is the World’s IP Blockchain, onramping Programmable IP to power the next generation of AI, DeFi, and consumer applications.",
+        "ja" : "Story は世界初の IP ブロックチェーンであり、プログラマブル IP を導入して次世代の AI、DeFi、コンシューマー アプリケーションを強化します。"
+    }
+}

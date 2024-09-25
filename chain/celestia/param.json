@@ -48,6 +48,28 @@
             "url": "celestia.grpc.stakin-nodes.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-celestia.cosmostation.io/"
+        },
+        {
+            "provider": "Numia",
+            "url": "https://public-celestia-lcd.numia.xyz/"
+        },
+        {
+            "provider": "Newmetric",
+            "url": "https://celestia-rest.mesa.newmetric.xyz/"
+        },
+        {
+            "provider": "Lunar Oasis",
+            "url": "https://api.lunaroasis.net/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://celestia-api.lavenderfive.com/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/celestia/",

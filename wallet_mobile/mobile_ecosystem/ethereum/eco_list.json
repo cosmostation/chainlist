@@ -22,7 +22,7 @@
   },
   {
     "name": "Aave",
-    "description": "Aave is a decentralized finance money market protocol that allows you to lend, borrow, and earn interest on cryptocurrencies. .",
+    "description": "Aave is a decentralized finance money market protocol that allows you to lend, borrow, and earn interest on cryptocurrencies.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/aave.png",
     "link": "https://app.aave.com/",
     "type": "Lending"
@@ -31,7 +31,7 @@
     "name": "Uniswap",
     "description": "Uniswap V3 is a noncustodial automated market maker implemented for the Ethereum Virtual Machine. It provides increased capital efficiency, fine-tuned control of liquidity provider, and improve accuracy and convenience of its price oracle.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/uniswap.png",
-    "link": "https://app.ether.fi",
+    "link": "https://app.uniswap.org/swap?chain=mainnet",
     "type": "DEX"
   }
 ]

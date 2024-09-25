@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos" : "onomy-mainnet-1",
     "chain_name": "Onomy",
-    "chain_image": "onomy-protocol/resource/chain_onomy.png",
+    "chain_image": "onomy-protocol/resource/chain_onomy-protocol.png",
     "symbol" : "NOM",
     "symbol_image" : "onomy-protocol/asset/nom.png",
     "bechAccountPrefix" : "onomy",
@@ -30,6 +30,20 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-onomy-protocol.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-onomy-protocol.cosmostation.io/"
+        },
+        {
+            "provider": "onomy",
+            "url": "https://rest-mainnet.onomy.io/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://onomy-mainnet-lcd.autostake.com/"
         }
     ],
     "explorer" : {

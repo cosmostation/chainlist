@@ -46,6 +46,28 @@
             "url": "passage-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-passage.cosmostation.io/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://passage-rest.staketab.org/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-passage.ecostake.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://passage-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-passage.cosmos-spaces.cloud/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/passage/",

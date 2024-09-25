@@ -37,6 +37,28 @@
             "url": "grpc.humans.nodestake.top:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-humans.cosmostation.io/"
+        },
+        {
+            "provider": "NodesHub",
+            "url": "https://humans.api.nodeshub.online/"
+        },
+        {
+            "provider": "itrocket",
+            "url": "https://humans-mainnet-api.itrocket.net/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://humans-rest.staketab.org/"
+        },
+        {
+            "provider": "TheNOP.io",
+            "url": "https://api-humansai.thenop.io/"
+        }
+    ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",

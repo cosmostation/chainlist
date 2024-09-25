@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos" : "gravity-bridge-3",
     "chain_name": "GravityBridge",
-    "chain_image": "gravity-bridge/resource/chain_gravitybridge.png",
+    "chain_image": "gravity-bridge/resource/chain_gravity-bridge.png",
     "symbol" : "GRAV",
     "symbol_image" : "gravity-bridge/asset/grav.png",
     "bechAccountPrefix" : "gravity",
@@ -38,6 +38,28 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "gravitybridge-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-gravity-bridge.cosmostation.io/"
+        },
+        {
+            "provider": "althea",
+            "url": "https://gravitychain.io:1317/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://gravity-api.polkachu.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://gravitybridge-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://gravity-rest.staketab.org/"
         }
     ],
     "explorer" : {

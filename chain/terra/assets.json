@@ -93,5 +93,17 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash",
+    "type": "native",
+    "origin_chain": "terra",
+    "origin_denom": "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash",
+    "origin_type": "native",
+    "symbol": "ashLUNA",
+    "decimals": 6,
+    "description": "LUNA burn derivative",
+    "image": "terra/asset/luna.ash.png",
+    "coinGeckoId": ""
   }
 ]

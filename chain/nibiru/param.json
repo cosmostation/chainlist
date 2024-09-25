@@ -50,6 +50,28 @@
             "url": "nibiru-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-nibiru.cosmostation.io/"
+        },
+        {
+            "provider": "silent",
+            "url": "https://api.nibiru.silentvalidator.com/"
+        },
+        {
+            "provider": "LiveRaveN",
+            "url": "https://nibiru.api.liveraven.net/"
+        },
+        {
+            "provider": "Cogwheel ⚙️",
+            "url": "https://nibiru-api.cogwheel.zone/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://nibiru.api.m.stavr.tech/"
+        }
+    ],
     "explorer" : {
         "name": "Nibiru",
         "url": "https://explorer.nibiru.fi/cataclysm-1/",

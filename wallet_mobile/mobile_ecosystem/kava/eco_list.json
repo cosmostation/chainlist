@@ -1,12 +1,5 @@
 [
   {
-    "name": "Kava",
-    "description": "The Kava app offers protocols decentralized lending and borrowing, liquidity mining, earning rewards with BUSD, and liquid staking of KAVA.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/kava.png",
-    "link": "https://app.kava.io/",
-    "type": "Dashboard"
-  },
-  {
     "name": "Curve",
     "description": "Curve is DeFi’s leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve’s factory and incentivized by Curve’s DAO.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/curve.png",
@@ -40,5 +33,50 @@
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/stargate.jpg",
     "link": "https://stargate.finance/",
     "type": "DeFi"
+  },
+  {
+    "name": "Hover",
+    "description": "Hover Market is a decentralized finance (DeFi) platform that provides an overview of various DeFi services and products. ",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/havor.jpg",
+    "link": "https://app.hover.market/overview",
+    "type": "DeFi"
+  },
+  {
+    "name": "Squidrouter",
+    "description": "Squid Router is a decentralized finance (DeFi) platform designed to facilitate cross-chain swaps. It allows users to seamlessly exchange assets across different blockchain networks, offering a user-friendly interface for secure and efficient transactions.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/squidrouter.jpg",
+    "link": "https://app.squidrouter.com/?chains=kava_2222-10%2C1&tokens=erc20%2Ftether%2Fusdt%2C0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "type": "Bridge"
+  },
+  {
+    "name": "Equilibre Finance",
+    "description": "Équilibre Finance is a financial platform that focuses on providing decentralized finance (DeFi) solutions.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/equilibrefinance.png",
+    "link": "https://equilibrefinance.com/",
+    "type": "DeFi",
+    "support" : false
+  },
+  {
+    "name": "Kinetix",
+    "description": "Kinetix Finance's DEX is a decentralized exchange platform allowing users to trade cryptocurrencies seamlessly.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/kinetix.png",
+    "link": "https://dex.kinetix.finance/#/",
+    "type": "DEX",
+    "support" : false
+  },
+  {
+    "name": "Wagmi",
+    "description": "Wagmi's platform allows users to trade and swap cryptocurrencies through a decentralized interface.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/wagmi.png",
+    "link": "https://app.wagmi.com/trade/swap#/trade/swap",
+    "type": "DeFi",
+    "support" : false
+  },
+  {
+    "name": "Kava",
+    "description": "The Kava app offers protocols decentralized lending and borrowing, liquidity mining, earning rewards with BUSD, and liquid staking of KAVA.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/kava/resource/kava.png",
+    "link": "https://app.kava.io/evm/wkava",
+    "type": "Dashboard"
   }
 ]

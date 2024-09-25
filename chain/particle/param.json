@@ -1,0 +1,26 @@
+{
+  "explorer" : {
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://particle.network/",
+        "docs": "https://developers.particle.network/",
+        "github" : "https://github.com/Particle-Network",
+        "blog" : "https://blog.particle.network/",
+        "twitter" : "https://twitter.com/ParticleNtwrk", 
+        "discord" : "https://discord.com/invite/2y44qr6CR2",
+        "coingecko" : ""
+    },
+    "forum": {
+      "main": "https://community.particle.io/"
+    },
+    "description" : {
+        "ko" : "Particle Network는 유니버설 계정을 통해 모든 체인을 통합하는 레이어 1입니다.",
+        "en" : "Particle Network is an L1 unifying all chains through Universal Accounts.",
+        "ja" :  "Particle Networkは、ユニバーサルアカウントを通じてすべてのチェーンを統合するレイヤー1です。"
+    }
+}

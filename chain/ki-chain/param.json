@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos" : "kichain-2",
     "chain_name": "Ki Chain",
-    "chain_image": "ki-chain/resource/chain_ki.png",
+    "chain_image": "ki-chain/resource/chain_ki-chain.png",
     "symbol" : "XKI",
     "symbol_image" : "ki-chain/asset/xki.png",
     "bechAccountPrefix" : "ki",
@@ -38,6 +38,28 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "kichain-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-ki-chain.cosmostation.io/"
+        },
+        {
+            "provider": "kifoundation",
+            "url": "https://api-mainnet.blockchain.ki/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://kichain.api.m.stavr.tech/"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "https://api.kichain.chaintools.tech/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://kichain-mainnet-lcd.autostake.com/"
         }
     ],
     "explorer" : {

@@ -47,6 +47,28 @@
             "url": "grpc-omniflix.mzonder.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-omniflix.cosmostation.io/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://omniflixhub-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-omniflixhub.cosmos-spaces.cloud/"
+        },
+        {
+            "provider": "silent",
+            "url": "https://api.omniflix.silentvalidator.com/"
+        },
+        {
+            "provider": "kingnodes 👑",
+            "url": "https://omniflix-rest.kingnodes.com/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/omniflix/",

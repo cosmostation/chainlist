@@ -32,6 +32,28 @@
             "url": "grpc-saga.cosmostation.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-saga.cosmostation.io/"
+        },
+        {
+            "provider": "Golden Ratio Staking",
+            "url": "https://rest.saga.goldenratiostaking.net/"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.saga.nodestake.org/"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://saga.api.kjnodes.com/"
+        },
+        {
+            "provider": "Bro_n_Bro",
+            "url": "https://lcd.saga.bronbro.io/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/saga/",

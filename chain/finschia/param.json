@@ -36,6 +36,16 @@
             "url": "finschia-grpc.finschia.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-finschia.cosmostation.io/"
+        },
+        {
+            "provider": "Finschia",
+            "url": "https://finschia-api.finschia.io/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/finschia/",

@@ -462,5 +462,25 @@
     "description": "BackBone Labs Liquid Staked KUJI",
     "image": "kujira/asset/bkuji.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/E1CEC1DEA8B17EEA3FEF47215571727EA7D668AC18E7A2F6B8C85F09E4A055BA",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "ausdy",
+    "origin_type": "native",
+    "symbol": "USDY",
+    "decimals": 18,
+    "enable": true,
+    "path": "noble>kujira",
+    "channel": "channel-62",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-2",
+      "port": "transfer",
+      "denom": "ausdy"
+    },
+    "image": "ethereum/asset/usdy.png",
+    "coinGeckoId": "ondo-us-dollar-yield"
   }
 ]

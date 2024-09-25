@@ -40,6 +40,24 @@
             "url": "grpc-althea.cosmostation.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-althea.cosmostation.io/"
+        },
+        {
+            "provider": "Chandra Station",
+            "url": "https://nodes.chandrastation.com/api/althea/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://althea.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://althea-api.lavenderfive.com/"
+        }
+    ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",

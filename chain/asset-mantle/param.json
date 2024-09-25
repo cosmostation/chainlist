@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos" : "mantle-1",
     "chain_name": "AssetMantle",
-    "chain_image": "asset-mantle/resource/chain_assetmantle.png",
+    "chain_image": "asset-mantle/resource/chain_asset-mantle.png",
     "symbol" : "MNTL",
     "symbol_image" : "asset-mantle/asset/mntl.png",
     "bechAccountPrefix" : "mantle",
@@ -44,6 +44,32 @@
         {
             "provider": "StakerHouse",
             "url": "assetmantle-grpc.stakerhouse.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-asset-mantle.cosmostation.io/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-assetmantle.whispernode.com/"
+        },
+        {
+            "provider": "paranorm",
+            "url": "https://api.mantle.paranorm.pro/"
+        },
+        {
+            "provider": "StakerHouse",
+            "url": "https://assetmantle-rest.stakerhouse.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://assetmantle-api.polkachu.com/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-assetmantle.ecostake.com/"
         }
     ],
     "explorer" : {

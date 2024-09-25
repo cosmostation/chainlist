@@ -40,6 +40,28 @@
             "url": "bitsong-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-bitsong.cosmostation.io/"
+        },
+        {
+            "provider": "stake.systems",
+            "url": "https://lcd.explorebitsong.com/"
+        },
+        {
+            "provider": "Validatrium",
+            "url": "https://bitsong-api.validatrium.club/"
+        },
+        {
+            "provider": "🐹 Quokka Stake",
+            "url": "https://api.bitsong.quokkastake.io/"
+        },
+        {
+            "provider": "Starsquid",
+            "url": "https://api-bitsong.starsquid.io/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/bitsong/",

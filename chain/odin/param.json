@@ -3,7 +3,7 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-			"0.0025loki"
+			"0.0025loki",
 			"0.025loki"
         ],
         "init_gas_limit" : 300000,

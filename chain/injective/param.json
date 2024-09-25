@@ -9,6 +9,7 @@
     "name_for_dapp" : "INJECTIVE", 
     "api_name" : "injective",
     "origin_genesis_time" : "2021-06-30T13:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -16,10 +17,11 @@
             "pubkey_type": "/injective.crypto.v1beta1.ethsecp256k1.PubKey"
         }
     ],
+    "tx_timeout_add" : 100, 
     "fee" : {
         "base" : "0",
         "rate" : [
-            "160000000inj"
+            "710000000inj"
         ],
         "init_gas_limit" : 300000,
         "isSimulable" : true,
@@ -42,6 +44,32 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "injective-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-injective.cosmostation.io/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://injective-api.lavenderfive.com/"
+        },
+        {
+            "provider": "High Stakes 🇨🇭",
+            "url": "https://injective-api.highstakes.ch/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-injective.whispernode.com/"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://injective-rest.publicnode.com/"
+        },
+        {
+            "provider": "Ecostake",
+            "url": "https://rest-injective.ecostake.com/"
         }
     ],
     "explorer" : {

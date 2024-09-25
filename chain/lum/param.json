@@ -46,6 +46,28 @@
             "url": "lumnetwork-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-lum.cosmostation.io/"
+        },
+        {
+            "provider": "Lum Foundation",
+            "url": "https://rest.node0.mainnet.lum.network/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://lumnetwork-api.lavenderfive.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://lum.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://lum-api.ibs.team/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/lum/",

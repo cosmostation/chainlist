@@ -1,0 +1,28 @@
+[
+  {
+    "denom": "ubadge",
+    "type": "native",
+    "origin_chain": "bitbadges",
+    "origin_denom": "ubadge",
+    "origin_type": "native",
+    "symbol": "BADGE",
+    "decimals": 9,
+    "description": "$BADGE is the native in-app credits token for BitBadges.",
+    "image": "bitbadges/asset/bitbadgeslogo.png",
+    "coinGeckoId": "",
+    "display_denom": "badge"
+  },
+  {
+    "denom": "ustake",
+    "type": "native",
+    "origin_chain": "bitbadges",
+    "origin_denom": "ustake",
+    "origin_type": "native",
+    "symbol": "STAKE",
+    "decimals": 9,
+    "description": "The native staking denom for the BitBadges blockchain.",
+    "image": "bitbadges/asset/bitbadgeslogo.png",
+    "coinGeckoId": "",
+    "display_denom": "stake"
+  }
+]

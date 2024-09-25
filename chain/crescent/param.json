@@ -38,6 +38,28 @@
             "url": "crescent.grpc.stakin-nodes.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-crescent.cosmostation.io:443"
+        },
+        {
+            "provider": "crescent",
+            "url": "https://mainnet.crescent.network:1317"
+        },
+        {
+            "provider": "PUPMØS",
+            "url": "https://api-crescent.pupmos.network"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://crescent-api.polkachu.com"
+        },
+        {
+            "provider": "Stakin",
+            "url": "https://crescent.rest.stakin-nodes.com"
+        }
+    ],
     "explorer" : {
         "name": "Atomscan",
         "url": "https://atomscan.com/crescent",

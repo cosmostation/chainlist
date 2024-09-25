@@ -54,6 +54,28 @@
             "url": "juno-grpc.cogwheel.zone:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-juno.cosmostation.io/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-juno.ecostake.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://juno-api.lavenderfive.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://juno.api.m.stavr.tech/"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "https://api.juno.chaintools.tech/"
+        }
+    ],
     "explorer" : {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/juno/",
