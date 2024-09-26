@@ -1,0 +1,15 @@
+[
+  {
+    "denom": "uatone",
+    "type": "staking",
+    "origin_chain": "atomone",
+    "origin_denom": "uatone",
+    "origin_type": "staking",
+    "symbol": "ATONE",
+    "decimals": 6,
+    "description": "The native staking token of AtomOne.",
+    "image": "atomone/asset/atone.png",
+    "coinGeckoId": "atomone",
+    "color": ""
+  }
+]
