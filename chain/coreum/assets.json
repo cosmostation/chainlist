@@ -16,7 +16,7 @@
     "denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
     "type": "native",
     "origin_chain": "coreum",
-    "origin_denom": "usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z",
+    "origin_denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
     "origin_type": "native",
     "symbol": "XRP",
     "decimals": 6,
@@ -36,6 +36,19 @@
     "image": "coreum/asset/sara.png",
     "coinGeckoId": "pulsara",
     "color": "#1739ff"
+  },
+  {
+    "denom": "ulicore-core13gza3msdh8hegqxhgezll9quucsr63s0gp43k274xwt66k4e8pmq5zpnm9",
+    "type": "native",
+    "origin_chain": "coreum",
+    "origin_denom": "ulicore-core13gza3msdh8hegqxhgezll9quucsr63s0gp43k274xwt66k4e8pmq5zpnm9",
+    "origin_type": "native",
+    "symbol": "liCORE",
+    "decimals": 6,
+    "description": "Liquid staking asset for COREUM, by Pulsara",
+    "image": "coreum/asset/licore.png",
+    "coinGeckoId": "",
+    "color": "#FF03CB"
   },
   {
     "denom": "ibc/E1E3674A0E4E1EF9C69646F9AF8D9497173821826074622D831BAB73CCB99A2D",
