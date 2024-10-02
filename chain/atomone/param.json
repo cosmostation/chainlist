@@ -1,22 +1,23 @@
 {
-    "chain_id_cosmos" : "",
-    "chain_name": "",
+    "chain_id_cosmos" : "atomone-1",
+    "chain_name": "ATOMONE",
     "chain_image": "atomone/resource/chain_atomone.png",
-    "symbol" : "",
-    "symbol_image" : "",
-    "bechAccountPrefix" : "",
-    "bechValidatorPrefix" : "",
+    "symbol" : "ATONE",
+    "symbol_image" : "atomone/asset/atone.png",
+    "bechAccountPrefix" : "atone",
+    "bechValidatorPrefix" : "atonevaloper",
     "name_for_dapp" : "ATOMONE", 
     "api_name" : "atomone",
     "origin_genesis_time" : "",
     "moblie_dapp" : true,
     "accountType" : [
         {
-            "hd_path": "",
-            "pubkey_style": "",
-            "pubkey_type": ""
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
     ],
+    "isBankLocked" : true,
     "fee" : {
     },
     "grpc_endpoint" : [
