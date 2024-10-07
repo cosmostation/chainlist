@@ -9,7 +9,6 @@
     "name_for_dapp" : "ATOMONE", 
     "api_name" : "atomone",
     "origin_genesis_time" : "",
-    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -41,11 +40,10 @@
     },
     "about" : {
         "website" : "",
-        "docs": "",
         "github" : "https://github.com/atomone-hub",
         "blog" : "",
         "medium": "",
-        "twitter" : "",
+        "twitter" : "https://x.com/_atomone",
         "coingecko" : ""
     },
     "description" : {
