@@ -1,10 +1,48 @@
 {
-  "explorer" : {
-        "name": "",
-        "url": "",
-        "account": "",
-        "tx": "",
-        "proposal": ""
+  "chain_id_cosmos" : "mantra-1",
+    "chain_name": "Mantra",
+    "chain_image": "mantra/resource/chain_mantra.png",
+    "symbol" : "OM",
+    "symbol_image" : "mantra/asset/om.png",
+    "bechAccountPrefix" : "mantra",
+    "bechValidatorPrefix" : "mantravaloper",
+    "api_name" : "mantra",
+    "origin_genesis_time" : "",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.002uom",
+        ],
+        "init_gas_limit" : 300000,
+        "simul_gas_multiply" : 1.8,
+        "fee_threshold" : ""
+    },
+    "voting_threshold" : 1000000,
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-mantra.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-mantra.cosmostation.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/mantra/",
+        "account": "https://www.mintscan.io/mantra/address/${address}",
+        "tx": "https://www.mintscan.io/mantra/tx/${hash}",
+        "proposal": "https://www.mintscan.io/mantra/proposals/${id}"
     },
     "about" : {
         "website" : "https://www.mantrachain.io/",
