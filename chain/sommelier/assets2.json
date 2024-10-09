@@ -6,7 +6,7 @@
         "symbol": "SOMM",
         "description": "Sommelier Staking Coin",
         "decimals": 6,
-        "image": "sommelier/asset/somm.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sommelier/asset/somm.png",
         "coinGeckoId": "sommelier",
         "color": "#A22B70"
     },
@@ -17,7 +17,7 @@
         "symbol": "OSMO",
         "description": "Osmosis Staking Coin",
         "decimals": 6,
-        "image": "osmosis/asset/osmo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
         "coinGeckoId": "osmosis",
         "color": "#FFFFFF",
         "ibc_info" : {

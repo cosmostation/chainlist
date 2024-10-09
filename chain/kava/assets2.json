@@ -6,7 +6,7 @@
         "symbol": "KAVA",
         "description": "Kava Staking Coin",
         "decimals": 6,
-        "image": "kava/asset/kava.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
         "coinGeckoId": "kava",
         "color": "#9248DB"
     },
@@ -17,7 +17,7 @@
         "symbol": "ATOM",
         "description": "Cosmoshub Staking Coin",
         "decimals": 6,
-        "image": "cosmos/asset/atom.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
         "coinGeckoId": "cosmos",
         "color": "#FFFFFF",
         "ibc_info" : {
@@ -42,7 +42,7 @@
         "symbol": "OSMO",
         "description": "Osmosis Staking Coin",
         "decimals": 6,
-        "image": "osmosis/asset/osmo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
         "coinGeckoId": "osmosis",
         "color": "#FFFFFF",
         "ibc_info" : {
@@ -67,7 +67,7 @@
         "symbol": "ION",
         "description": "ION is the second native token of Osmosis.",
         "decimals": 6,
-        "image": "osmosis/asset/ion.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ion.png",
         "coinGeckoId": "ion",
         "color": "#FFFFFF",
         "ibc_info" : {
@@ -92,7 +92,7 @@
         "symbol": "AKT",
         "description": "Akash Network Staking Coin",
         "decimals": 6,
-        "image": "akash/asset/akt.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
         "coinGeckoId": "akash-network",
         "color": "#FFFFFF",
         "ibc_info" : {
@@ -117,7 +117,7 @@
         "symbol": "USDT",
         "description": "USDt - directly minted on the Kava chain by the Tether Foundation.",
         "decimals": 6,
-        "image": "ethereum/asset/usdt.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
         "coinGeckoId": "tether",
         "color": "#009393"
     },
@@ -128,7 +128,7 @@
         "symbol": "USDX",
         "description": "The native stablecoin of Kava.",
         "decimals": 6,
-        "image": "kava/asset/usdx.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/usdx.png",
         "coinGeckoId": "usdx",
         "color": "#04d4a3"
     },
@@ -139,7 +139,7 @@
         "symbol": "SWP",
         "description": "Governance token of Kava Swap Protocol.",
         "decimals": 6,
-        "image": "kava/asset/swp.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/swp.png",
         "coinGeckoId": "kava-swap",
         "color": "#544cfc"
     },
@@ -150,7 +150,7 @@
         "symbol": "HARD",
         "description": "Governance token of Kava Lend Protocol.",
         "decimals": 6,
-        "image": "kava/asset/hard.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/hard.png",
         "coinGeckoId": "kava-lend",
         "color": "#7b34ac"
     },
@@ -161,7 +161,7 @@
         "symbol": "DEBT",
         "description": "This asset represents the overall debt in the Kava De-Fi system.",
         "decimals": 6,
-        "image": "kava/asset/debt.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/debt.png",
         "coinGeckoId": "",
         "color": "#FFFFFF"
     },
@@ -172,7 +172,7 @@
         "symbol": "axlUSDC",
         "description": "Axelar Wrapped USDC on Kava",
         "decimals": 6,
-        "image": "kava/asset/usdc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/usdc.png",
         "coinGeckoId": "axlusdc",
         "color": "#FFFFFF"
     },
@@ -183,7 +183,7 @@
         "symbol": "axlWBTC",
         "description": "Axelar Wrapped WBTC on Kava",
         "decimals": 8,
-        "image": "ethereum/asset/wbtc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
         "coinGeckoId": "axlwbtc",
         "color": "#FFFFFF"
     },
@@ -194,7 +194,7 @@
         "symbol": "wBTC",
         "description": "Wrapped Bitcoin on Kava via Bitgo",
         "decimals": 8,
-        "image": "ethereum/asset/wbtc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
         "coinGeckoId": "wrapped-bitcoin",
         "color": "#FFFFFF"
     },
@@ -205,7 +205,7 @@
         "symbol": "HBTC",
         "description": "HBTC on Kava",
         "decimals": 8,
-        "image": "kava/asset/hbtc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/hbtc.png",
         "coinGeckoId": "huobi-btc",
         "color": "#FFFFFF",
         "bridge_info" : {
@@ -219,7 +219,7 @@
         "symbol": "BNB",
         "description": "BNB on Kava - Deprecated",
         "decimals": 8,
-        "image": "bnb-beacon-chain/asset/bnb.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-beacon-chain/asset/bnb.png",
         "coinGeckoId": "binancecoin",
         "color": "#FFFFFF",
         "bridge_info" : {
@@ -233,7 +233,7 @@
         "symbol": "BTCB",
         "description": "BTCB on Kava - Deprecated",
         "decimals": 8,
-        "image": "bnb-beacon-chain/asset/btcb.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-beacon-chain/asset/btcb.png",
         "coinGeckoId": "bitcoin-bep2",
         "color": "#FFFFFF",
         "bridge_info" : {
@@ -247,7 +247,7 @@
         "symbol": "BUSD",
         "description": "BUSD on Kava - Deprecated",
         "decimals": 8,
-        "image": "bnb-beacon-chain/asset/busd.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-beacon-chain/asset/busd.png",
         "coinGeckoId": "binance-usd",
         "color": "#FFFFFF",
         "bridge_info" : {
@@ -261,7 +261,7 @@
         "symbol": "XRPB",
         "description": "XRPB on Kava - Deprecated",
         "decimals": 8,
-        "image": "bnb-beacon-chain/asset/xrpb.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-beacon-chain/asset/xrpb.png",
         "coinGeckoId": "ripple",
         "color": "#FFFFFF",
         "bridge_info" : {
@@ -275,7 +275,7 @@
         "symbol": "bDAI",
         "description": "Multichain Wrapped Dai on Kava  - Deprecated",
         "decimals": 18,
-        "image": "kava/asset/bdai.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/bdai.png",
         "coinGeckoId": "",
         "color": "#FFFFFF"
     },
@@ -286,7 +286,7 @@
         "symbol": "bUSDC",
         "description": "Multichain Wrapped USDC on Kava  - Deprecated",
         "decimals": 6,
-        "image": "kava/asset/busdc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/busdc.png",
         "coinGeckoId": "",
         "color": "#FFFFFF"
     },
@@ -297,7 +297,7 @@
         "symbol": "bUSDT",
         "description": "Multichain Wrapped USDT on Kava - Deprecated",
         "decimals": 6,
-        "image": "kava/asset/busdt.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/busdt.png",
         "coinGeckoId": "",
         "color": "#FFFFFF"
     },
@@ -308,7 +308,7 @@
         "symbol": "MultiWBTC",
         "description": "Multichain Wrapped BTC on Kava - Deprecated",
         "decimals": 8,
-        "image": "kava/asset/multiwbtc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/multiwbtc.png",
         "coinGeckoId": "",
         "color": "#FFFFFF"
     }
