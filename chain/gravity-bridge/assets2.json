@@ -19,7 +19,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
         "coinGeckoId": "osmosis",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "osmosis>gravity-bridge",
             "client" : {
@@ -31,8 +30,7 @@
                 "port": "transfer",
                 "chain": "osmosis",
                 "denom": "uosmo"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -44,7 +42,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
         "coinGeckoId": "cosmos",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "cosmos>gravity-bridge",
             "client" : {
@@ -56,8 +53,7 @@
                 "port": "transfer",
                 "chain": "cosmos",
                 "denom": "uatom"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -69,7 +65,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nyx/asset/nym.png",
         "coinGeckoId": "nym",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "nyx>gravity-bridge",
             "client" : {
@@ -81,8 +76,7 @@
                 "port": "transfer",
                 "chain": "nyx",
                 "denom": "unym"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -94,7 +88,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/huahua.png",
         "coinGeckoId": "chihuahua-token",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "chihuahua>gravity-bridge",
             "client" : {
@@ -106,8 +99,7 @@
                 "port": "transfer",
                 "chain": "chihuahua",
                 "denom": "uhuahua"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -119,7 +111,6 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cheqd/asset/cheq.png",
         "coinGeckoId": "cheqd-network",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "cheqd>gravity-bridge",
             "client" : {
@@ -131,8 +122,7 @@
                 "port": "transfer",
                 "chain": "cheqd",
                 "denom": "ncheq"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -144,7 +134,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
         "coinGeckoId": "stargaze",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stargaze>gravity-bridge",
             "client" : {
@@ -156,8 +145,7 @@
                 "port": "transfer",
                 "chain": "stargaze",
                 "denom": "ustars"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -169,7 +157,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
         "coinGeckoId": "secret",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "secret>gravity-bridge",
             "client" : {
@@ -181,8 +168,7 @@
                 "port": "transfer",
                 "chain": "secret",
                 "denom": "uscrt"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -194,7 +180,6 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/unification/asset/fund.png",
         "coinGeckoId": "unification",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "unification>gravity-bridge",
             "client" : {
@@ -206,8 +191,7 @@
                 "port": "transfer",
                 "chain": "unification",
                 "denom": "nund"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -237,7 +221,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
         "coinGeckoId": "weth",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -273,7 +256,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
         "coinGeckoId": "dai",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -291,7 +273,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uni.png",
         "coinGeckoId": "uniswap",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -309,7 +290,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/paxg.png",
         "coinGeckoId": "pax-gold",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -327,7 +307,6 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/storj.png",
         "coinGeckoId": "storj",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -345,7 +324,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/steth.png",
         "coinGeckoId": "staked-ether",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -363,7 +341,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pstake.png",
         "coinGeckoId": "pstake-finance",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -381,7 +358,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
         "coinGeckoId": "tether",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -399,7 +375,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/stketh.png",
         "coinGeckoId": "pstake-staked-eth",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -417,7 +392,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sd.png",
         "coinGeckoId": "stader",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -435,7 +409,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/page.png",
         "coinGeckoId": "page",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {
@@ -453,7 +426,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frax.png",
         "coinGeckoId": "frax",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
             "counter_party": {

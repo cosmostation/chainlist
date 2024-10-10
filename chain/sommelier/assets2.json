@@ -19,7 +19,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
         "coinGeckoId": "osmosis",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "osmosis>sommelier",
             "client" : {
@@ -31,8 +30,7 @@
                 "port": "transfer",
                 "chain": "osmosis",
                 "denom": "uosmo"
-            },
-            "enable": true
+            }
         }
     }
 ]

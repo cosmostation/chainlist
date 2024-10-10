@@ -19,7 +19,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
         "coinGeckoId": "cosmos",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "cosmos>axelar",
             "client" : {
@@ -31,8 +30,7 @@
                 "port": "transfer",
                 "chain": "cosmos",
                 "denom": "uatom"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -44,7 +42,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
         "coinGeckoId": "osmosis",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "osmosis>axelar",
             "client" : {
@@ -56,8 +53,7 @@
                 "port": "transfer",
                 "chain": "osmosis",
                 "denom": "uosmo"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -69,7 +65,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
         "coinGeckoId": "injective-protocol",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "injective>axelar",
             "client" : {
@@ -81,8 +76,7 @@
                 "port": "transfer",
                 "chain": "injective",
                 "denom": "inj"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -94,7 +88,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
         "coinGeckoId": "secret",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "secret>axelar",
             "client" : {
@@ -106,8 +99,7 @@
                 "port": "transfer",
                 "chain": "secret",
                 "denom": "uscrt"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -119,7 +111,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kujira/asset/kuji.png",
         "coinGeckoId": "kujira",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "kujira>axelar",
             "client" : {
@@ -144,7 +135,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
         "coinGeckoId": "stargaze",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stargaze>axelar",
             "client" : {
@@ -156,8 +146,7 @@
                 "port": "transfer",
                 "chain": "stargaze",
                 "denom": "ustars"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -169,7 +158,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/asset/fet.png",
         "coinGeckoId": "fetch-ai",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stargaze>axelar",
             "client" : {
@@ -181,8 +169,7 @@
                 "port": "transfer",
                 "chain": "fetchai",
                 "denom": "afet"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -194,7 +181,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/evmos.png",
         "coinGeckoId": "evmos",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "evmos>axelar",
             "client" : {
@@ -206,8 +192,7 @@
                 "port": "transfer",
                 "chain": "evmos",
                 "denom": "aevmos"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -219,7 +204,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/asset/regen.png",
         "coinGeckoId": "regen",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "regen>axelar",
             "client" : {
@@ -231,8 +215,7 @@
                 "port": "transfer",
                 "chain": "regen",
                 "denom": "uregen"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -244,7 +227,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
         "coinGeckoId": "terra-luna-2",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "terra>axelar",
             "client" : {
@@ -256,8 +238,7 @@
                 "port": "transfer",
                 "chain": "terra",
                 "denom": "uluna"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -323,7 +304,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ape.png",
         "coinGeckoId": "apecoin",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>axelar",
             "counter_party": {
@@ -341,7 +321,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/aave.png",
         "coinGeckoId": "aave",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>axelar",
             "counter_party": {
@@ -377,7 +356,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frax.png",
         "coinGeckoId": "frax",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>axelar",
             "counter_party": {
@@ -431,7 +409,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mkr.png",
         "coinGeckoId": "maker",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>axelar",
             "counter_party": {
@@ -449,7 +426,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rai.png",
         "coinGeckoId": "rai",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>axelar",
             "counter_party": {
@@ -485,7 +461,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/steth.png",
         "coinGeckoId": "staked-ether",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>axelar",
             "counter_party": {
@@ -503,7 +478,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uni.png",
         "coinGeckoId": "uniswap",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>axelar",
             "counter_party": {
@@ -593,7 +567,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/wavax.png",
         "coinGeckoId": "wrapped-avax",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "avalanche>axelar",
             "counter_party": {
@@ -647,7 +620,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
         "coinGeckoId": "wrapped-steth",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>axelar",
             "counter_party": {
@@ -665,7 +637,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sfrxeth.png",
         "coinGeckoId": "staked-frax-ether",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>axelar",
             "counter_party": {
@@ -737,7 +708,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celo/asset/cusd.png",
         "coinGeckoId": "celo-dollar",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "ethereum>axelar",
             "counter_party": {
@@ -755,7 +725,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fantom/asset/mpx.png",
         "coinGeckoId": "mpx",
-        "color": "#FFFFFF",
         "bridge_info" : {
             "path": "fantom>axelar",
             "counter_party": {

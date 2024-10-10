@@ -19,7 +19,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
         "coinGeckoId": "osmosis",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "osmosis>cosmos",
             "client" : {
@@ -31,8 +30,7 @@
                 "port": "transfer",
                 "chain": "osmosis",
                 "denom": "uosmo"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -44,7 +42,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ion.png",
         "coinGeckoId": "ion",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "osmosis>cosmos",
             "client" : {
@@ -56,8 +53,7 @@
                 "port": "transfer",
                 "chain": "osmosis",
                 "denom": "uion"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -69,7 +65,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/starname/asset/iov.png",
         "coinGeckoId": "starname",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "starname>cosmos",
             "client" : {
@@ -81,8 +76,7 @@
                 "port": "transfer",
                 "chain": "starname",
                 "denom": "uiov"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -94,7 +88,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iris/asset/iris.png",
         "coinGeckoId": "iris-network",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "iris>cosmos",
             "client" : {
@@ -106,8 +99,7 @@
                 "port": "transfer",
                 "chain": "iris",
                 "denom": "uiris"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -119,7 +111,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
         "coinGeckoId": "akash-network",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "akash>cosmos",
             "client" : {
@@ -131,8 +122,7 @@
                 "port": "transfer",
                 "chain": "akash",
                 "denom": "uakt"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -144,7 +134,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/asset/regen.png",
         "coinGeckoId": "regen",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "regen>cosmos",
             "client" : {
@@ -156,8 +145,7 @@
                 "port": "transfer",
                 "chain": "regen",
                 "denom": "uregen"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -169,7 +157,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/asset/dvpn.png",
         "coinGeckoId": "sentinel",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "sentinel>cosmos",
             "client" : {
@@ -181,8 +168,7 @@
                 "port": "transfer",
                 "chain": "sentinel",
                 "denom": "udvpn"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -194,7 +180,6 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crypto-org/asset/cro.png",
         "coinGeckoId": "crypto-com-chain",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "crypto-org>cosmos",
             "client" : {
@@ -206,8 +191,7 @@
                 "port": "transfer",
                 "chain": "crypto-org",
                 "denom": "basecro"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -219,7 +203,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/asset/xprt.png",
         "coinGeckoId": "persistence",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "persistence>cosmos",
             "client" : {
@@ -231,8 +214,7 @@
                 "port": "transfer",
                 "chain": "persistence",
                 "denom": "uxprt"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -244,7 +226,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
         "coinGeckoId": "juno-network",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "juno>cosmos",
             "client" : {
@@ -256,8 +237,7 @@
                 "port": "transfer",
                 "chain": "juno",
                 "denom": "ujuno"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -269,7 +249,6 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/likecoin/asset/like.png",
         "coinGeckoId": "likecoin",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "likecoin>cosmos",
             "client" : {
@@ -281,8 +260,7 @@
                 "port": "transfer",
                 "chain": "likecoin",
                 "denom": "nanolike"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -294,7 +272,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
         "coinGeckoId": "injective-protocol",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "injective>cosmos",
             "client" : {
@@ -306,8 +283,7 @@
                 "port": "transfer",
                 "chain": "injective",
                 "denom": "inj"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -319,7 +295,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ki-chain/asset/xki.png",
         "coinGeckoId": "ki",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "ki-chain>cosmos",
             "client" : {
@@ -331,8 +306,7 @@
                 "port": "transfer",
                 "chain": "ki-chain",
                 "denom": "uxki"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -344,7 +318,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/asset/btsg.png",
         "coinGeckoId": "bitsong",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "bitsong>cosmos",
             "client" : {
@@ -356,8 +329,7 @@
                 "port": "transfer",
                 "chain": "bitsong",
                 "denom": "ubtsg"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -369,7 +341,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcanna/asset/bcna.png",
         "coinGeckoId": "bitcanna",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "bitcanna>cosmos",
             "client" : {
@@ -381,8 +352,7 @@
                 "port": "transfer",
                 "chain": "bitcanna",
                 "denom": "ubcna"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -394,7 +364,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
         "coinGeckoId": "kava",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "kava>cosmos",
             "client" : {
@@ -406,8 +375,7 @@
                 "port": "transfer",
                 "chain": "kava",
                 "denom": "ukava"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -419,7 +387,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/umee/asset/umee.png",
         "coinGeckoId": "umee",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "umee>cosmos",
             "client" : {
@@ -431,8 +398,7 @@
                 "port": "transfer",
                 "chain": "umee",
                 "denom": "uumee"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -444,7 +410,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
         "coinGeckoId": "secret",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "secret>cosmos",
             "client" : {
@@ -456,8 +421,7 @@
                 "port": "transfer",
                 "chain": "secret",
                 "denom": "uscrt"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -469,7 +433,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/evmos.png",
         "coinGeckoId": "evmos",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "evmos>cosmos",
             "client" : {
@@ -481,8 +444,7 @@
                 "port": "transfer",
                 "chain": "evmos",
                 "denom": "aevmos"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -494,7 +456,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aioz/asset/aioz.png",
         "coinGeckoId": "aioz-network",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "aioz>cosmos",
             "client" : {
@@ -506,8 +467,7 @@
                 "port": "transfer",
                 "chain": "aioz",
                 "denom": "attoaioz"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -519,7 +479,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrn.png",
         "coinGeckoId": "neutron-3",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "neutron>cosmos",
             "client" : {
@@ -531,8 +490,7 @@
                 "port": "transfer",
                 "chain": "neutron",
                 "denom": "untrn"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -544,7 +502,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/strd.png",
         "coinGeckoId": "stride",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -556,8 +513,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "stustrd"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -569,7 +525,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/statom.png",
         "coinGeckoId": "stride-staked-atom",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -581,8 +536,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "stuatom"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -594,7 +548,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stosmo.png",
         "coinGeckoId": "stride-staked-osmo",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -606,8 +559,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "stuosmo"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -619,7 +571,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/ststars.png",
         "coinGeckoId": "stride-staked-stars",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -631,8 +582,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "stustars"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -644,7 +594,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stjuno.png",
         "coinGeckoId": "stride-staked-juno",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -656,8 +605,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "stujuno"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -669,7 +617,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stevmos.png",
         "coinGeckoId": "stride-staked-evmos",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -681,8 +628,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "staevmos"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -694,7 +640,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stinj.png",
         "coinGeckoId": "stride-staked-injective",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -706,8 +651,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "stinj"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -719,7 +663,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stumee.png",
         "coinGeckoId": "stride-staked-umee",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -731,8 +674,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "stuumee"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -744,7 +686,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stcmdx.png",
         "coinGeckoId": "",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -756,8 +697,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "stucmdx"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -769,7 +709,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stluna.png",
         "coinGeckoId": "stride-staked-luna",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -781,8 +720,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "stuluna"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -794,7 +732,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stsomm.png",
         "coinGeckoId": "",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "stride>cosmos",
             "client" : {
@@ -806,8 +743,7 @@
                 "port": "transfer",
                 "chain": "stride",
                 "denom": "stusomm"
-            },
-            "enable": true
+            }
         }
     },
     {
@@ -819,7 +755,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
         "coinGeckoId": "usd-coin",
-        "color": "#FFFFFF",
         "ibc_info" : {
             "path": "noble>cosmos",
             "client" : {
@@ -831,8 +766,7 @@
                 "port": "transfer",
                 "chain": "noble",
                 "denom": "uusdc"
-            },
-            "enable": true
+            }
         }
     }
 ]
