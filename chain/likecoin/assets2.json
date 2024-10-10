@@ -1,0 +1,13 @@
+[
+    {
+        "type": "native",
+        "denom": "nanolike",
+        "name" : "Like Coin",
+        "symbol": "LIKE",
+        "description": "Like Staking Coin",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/likecoin/asset/like.png",
+        "coinGeckoId": "likecoin",
+        "color": "#2D8A99"
+    }
+]
