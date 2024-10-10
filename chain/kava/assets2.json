@@ -106,7 +106,7 @@
         "type": "native",
         "denom": "erc20/tether/usdt",
         "name" : "Tether USDt",
-        "symbol": "USDT",
+        "symbol": "USDt",
         "description": "USDt - directly minted on the Kava chain by the Tether Foundation.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
