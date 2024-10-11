@@ -768,5 +768,28 @@
                 "denom": "uusdc"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C7DE16F5065C5568C2A16C241069D76DA93F056172A40391EB682444AF40F048",
+        "name" : "Cifer",
+        "symbol": "CIF",
+        "description": "Cifer Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cifer/asset/cif.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "cifer>cosmos",
+            "client" : {
+                "channel": "channel-831",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "cifer",
+                "denom": "ucif"
+            }
+        }
     }
 ]

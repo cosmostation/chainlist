@@ -200,7 +200,7 @@
         "name" : "Wrapped Bitcoin (Ethereum to Gravity-Bridge)",
         "symbol": "WBTC.grv",
         "description": "Gravity Bridge WBTC",
-        "decimals": 18,
+        "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
         "coinGeckoId": "wrapped-bitcoin",
         "color": "#f39444",
@@ -355,7 +355,7 @@
         "name" : "Tether USD",
         "symbol": "USDT.grv",
         "description": "Gravity Bridge USDT.",
-        "decimals": 18,
+        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
         "coinGeckoId": "tether",
         "bridge_info" : {
@@ -406,7 +406,7 @@
         "name" : "Page",
         "symbol": "PAGE.grv",
         "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
-        "decimals": 18,
+        "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/page.png",
         "coinGeckoId": "page",
         "bridge_info" : {

@@ -1,0 +1,128 @@
+[
+    {
+        "type": "native",
+        "denom": "acanto",
+        "name" : "Canto",
+        "symbol": "CANTO",
+        "description": "Canto Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/canto/asset/canto.png",
+        "coinGeckoId": "canto",
+        "color": "#00DC80"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>canto",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-358",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DC186CA7A8C009B43774EBDC825C935CABA9743504CE6037507E6E5CCE12858A",
+        "name" : "Wrapped Ethereum",
+        "symbol": "WETH.grv",
+        "description": "Gravity Bridge WETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>canto",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-88",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4F6A2DEFEA52CD8D90966ADCB2BD0593D3993AB0DF7F6AEB3EFD6167D79237B0",
+        "name" : "Tether USD",
+        "symbol": "USDT.grv",
+        "description": "Gravity Bridge USDT.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>canto",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-88",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/17CD484EE7D9723B847D95015FA3EBD1572FD13BC84FB838F55B18A57450F25B",
+        "name" : "USD Coin",
+        "symbol": "USDC.grv",
+        "description": "Gravity Bridge USDC",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>canto",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-88",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/CD7B6B7D85FDF5F72A78E806BCFB8060B561EEF27677B111E0A610626056451E",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>canto",
+            "client" : {
+                "channel": "channel-20",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    }
+]
