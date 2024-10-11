@@ -36,7 +36,7 @@
                 "channel": "channel-62",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-21",
                 "port": "transfer",
                 "chain": "noble",
@@ -59,7 +59,7 @@
                 "channel": "channel-9",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-41",
                 "port": "transfer",
                 "chain": "axelar",

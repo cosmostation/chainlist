@@ -25,7 +25,7 @@
                 "channel": "channel-10",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-144",
                 "port": "transfer",
                 "chain": "osmosis",
@@ -48,7 +48,7 @@
                 "channel": "channel-17",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-281",
                 "port": "transfer",
                 "chain": "cosmos",
@@ -71,7 +71,7 @@
                 "channel": "channel-18",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-0",
                 "port": "transfer",
                 "chain": "nyx",
@@ -94,7 +94,7 @@
                 "channel": "channel-34",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-15",
                 "port": "transfer",
                 "chain": "chihuahua",
@@ -117,7 +117,7 @@
                 "channel": "channel-43",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-2",
                 "port": "transfer",
                 "chain": "cheqd",
@@ -140,7 +140,7 @@
                 "channel": "channel-7",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-6",
                 "port": "transfer",
                 "chain": "stargaze",
@@ -163,7 +163,7 @@
                 "channel": "channel-79",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-17",
                 "port": "transfer",
                 "chain": "secret",
@@ -186,7 +186,7 @@
                 "channel": "channel-98",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-2",
                 "port": "transfer",
                 "chain": "unification",
@@ -206,7 +206,7 @@
         "color": "#f39444",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
             }
@@ -223,7 +223,7 @@
         "coinGeckoId": "weth",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
             }
@@ -241,7 +241,7 @@
         "color": "#2775CA",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
             }
@@ -258,7 +258,7 @@
         "coinGeckoId": "dai",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0x6b175474e89094c44da98b954eedeac495271d0f"
             }
@@ -275,7 +275,7 @@
         "coinGeckoId": "uniswap",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
             }
@@ -292,7 +292,7 @@
         "coinGeckoId": "pax-gold",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0x45804880de22913dafe09f4980848ece6ecbaf78"
             }
@@ -309,7 +309,7 @@
         "coinGeckoId": "storj",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac"
             }
@@ -326,7 +326,7 @@
         "coinGeckoId": "staked-ether",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
             }
@@ -343,7 +343,7 @@
         "coinGeckoId": "pstake-finance",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
             }
@@ -360,7 +360,7 @@
         "coinGeckoId": "tether",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
             }
@@ -377,7 +377,7 @@
         "coinGeckoId": "pstake-staked-eth",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0x2C5Bcad9Ade17428874855913Def0A02D8bE2324"
             }
@@ -394,7 +394,7 @@
         "coinGeckoId": "stader",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0x30D20208d987713f46DFD34EF128Bb16C404D10f"
             }
@@ -411,7 +411,7 @@
         "coinGeckoId": "page",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e"
             }
@@ -428,7 +428,7 @@
         "coinGeckoId": "frax",
         "bridge_info" : {
             "path": "ethereum>gravity-bridge",
-            "counter_party": {
+            "counterparty": {
                 "chain": "ethereum",
                 "contract": "0x853d955aCEf822Db058eb8505911ED77F175b99e"
             }

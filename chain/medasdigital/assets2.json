@@ -25,7 +25,7 @@
                 "channel": "channel-0",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-519",
                 "port": "transfer",
                 "chain": "osmosis",
@@ -48,7 +48,7 @@
                 "channel": "channel-4",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-60",
                 "port": "transfer",
                 "chain": "sentinel",
@@ -71,7 +71,7 @@
                 "channel": "channel-5",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-89",
                 "port": "transfer",
                 "chain": "sifchain",

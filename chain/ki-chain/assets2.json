@@ -25,7 +25,7 @@
                 "channel": "channel-0",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-77",
                 "port": "transfer",
                 "chain": "osmosis",
@@ -48,7 +48,7 @@
                 "channel": "channel-0",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-77",
                 "port": "transfer",
                 "chain": "osmosis",
@@ -71,7 +71,7 @@
                 "channel": "channel-1",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-223",
                 "port": "transfer",
                 "chain": "cosmos",
@@ -94,7 +94,7 @@
                 "channel": "channel-19",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-17",
                 "port": "transfer",
                 "chain": "axelar",

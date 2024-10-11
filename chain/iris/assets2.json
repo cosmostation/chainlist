@@ -25,7 +25,7 @@
                 "channel": "channel-12",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-182",
                 "port": "transfer",
                 "chain": "cosmos",
@@ -48,7 +48,7 @@
                 "channel": "channel-3",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-6",
                 "port": "transfer",
                 "chain": "osmosis",
@@ -71,7 +71,7 @@
                 "channel": "channel-3",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-6",
                 "port": "transfer",
                 "chain": "osmosis",
@@ -94,7 +94,7 @@
                 "channel": "channel-29",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-47",
                 "port": "transfer",
                 "chain": "gravity-bridge",
@@ -117,7 +117,7 @@
                 "channel": "channel-29",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-47",
                 "port": "transfer",
                 "chain": "gravity-bridge",
@@ -140,7 +140,7 @@
                 "channel": "channel-29",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-47",
                 "port": "transfer",
                 "chain": "gravity-bridge",

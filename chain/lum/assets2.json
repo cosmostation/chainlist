@@ -25,7 +25,7 @@
                 "channel": "channel-3",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-115",
                 "port": "transfer",
                 "chain": "osmosis",
@@ -48,7 +48,7 @@
                 "channel": "channel-3",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-115",
                 "port": "transfer",
                 "chain": "osmosis",
@@ -71,7 +71,7 @@
                 "channel": "channel-12",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-566",
                 "port": "transfer",
                 "chain": "cosmos",
