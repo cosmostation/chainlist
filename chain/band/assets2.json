@@ -1,0 +1,59 @@
+[
+    {
+        "type": "native",
+        "denom": "uband",
+        "name" : "Band",
+        "symbol": "BAND",
+        "description": "Band Protocol Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/band/asset/band.png",
+        "coinGeckoId": "band-protocol",
+        "color": "#516FFA"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1005CD468908E4EB83A7E3D4A68E90128D073E3A85611B8B424320F306C508E1",
+        "name" : "Ion DAO",
+        "symbol": "ION",
+        "description": "ION is the second native token of Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ion.png",
+        "coinGeckoId": "ion",
+        "ibc_info" : {
+            "path": "osmosis>band",
+            "client" : {
+                "channel": "channel-83",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-148",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uion"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6B8531505147C9FF2AC90BC096AEC5D8E77EE3582874640FA5FE4E4FB382D2AC",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>band",
+            "client" : {
+                "channel": "channel-83",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-148",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    }
+]

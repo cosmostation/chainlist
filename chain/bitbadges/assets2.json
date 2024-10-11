@@ -1,0 +1,22 @@
+[
+    {
+        "type": "native",
+        "denom": "ubadge",
+        "name" : "BitBadges Credits",
+        "symbol": "BADGE",
+        "description": "$BADGE is the native in-app credits token for BitBadges.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/asset/bitbadgeslogo.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ustake",
+        "name" : "BitBadges Staking",
+        "symbol": "STAKE",
+        "description": "The native staking denom for the BitBadges blockchain.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/asset/bitbadgeslogo.png",
+        "coinGeckoId": ""
+    }
+]
