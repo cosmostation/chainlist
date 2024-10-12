@@ -1,12 +1,13 @@
 [
     {
         "type": "native",
-        "denom": "ujunox",
+        "denom": "ujuno",
         "name" : "Juno Testnet",
-        "symbol": "JUNOX",
-        "description": "JUNO-testnet Staking Coin",
+        "symbol": "JUNO",
+        "description": "Juno Testnet Staking Coin",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno-testnet/asset/junox.png",
-        "coinGeckoId": ""
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno-testnet/asset/juno.png",
+        "coinGeckoId": "juno-network",
+        "color": "#F0827D"
     }
 ]
