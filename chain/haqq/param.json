@@ -1,5 +1,14 @@
 {
+    "chain_id_cosmos" : "haqq_11235-1",
     "chain_name": "Haqq Network",
+    "chain_image": "haqq/resource/chain_haqq.png",
+    "symbol" : "aISLM",
+    "symbol_image" : "haqq/asset/haqq.png",
+    "bechAccountPrefix" : "haqq",
+    "bechValidatorPrefix" : "haqqvaloper",
+    "name_for_dapp" : "HAQQ",
+    "api_name" : "",
+    "origin_genesis_time" : "",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -21,7 +30,7 @@
         }
     ],
     "about" : {
-		"website" : "https://haqq.network/"
+        "website" : "https://haqq.network/"
     },
     "forum": {
     },
