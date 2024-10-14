@@ -1,0 +1,128 @@
+[
+    {
+        "type": "native",
+        "denom": "upryzm",
+        "name": "Pryzm",
+        "symbol": "PRYZM",
+        "description": "Pryzm Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pryzm/asset/pryzm.png",
+        "coinGeckoId": "",
+        "color": "#c6ddf5"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>pryzm",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-859",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>pryzm",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-75755",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BF28D9C17E0306B194D50F51C3B2590BEAD15E04E03ADD34C3A26E62D85C9676",
+        "name" : "Celestia",
+        "symbol": "TIA",
+        "description": "Celestia Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
+        "coinGeckoId": "celestia",
+        "ibc_info" : {
+            "path": "celestia>pryzm",
+            "client" : {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-34",
+                "port": "transfer",
+                "chain": "celestia",
+                "denom": "utia"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
+        "name" : "Injective",
+        "symbol": "INJ",
+        "description": "Injective Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+        "coinGeckoId": "injective-protocol",
+        "ibc_info" : {
+            "path": "injective>pryzm",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-284",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "inj"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B8AF5D92165F35AB31F3FC7C7B444B9D240760FA5D406C49D24862BD0284E395",
+        "name" : "Luna",
+        "symbol": "LUNA",
+        "description": "Terra Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
+        "coinGeckoId": "terra-luna-2",
+        "ibc_info" : {
+            "path": "terra>pryzm",
+            "client" : {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-473",
+                "port": "transfer",
+                "chain": "terra",
+                "denom": "uluna"
+            }
+        }
+    }
+]
