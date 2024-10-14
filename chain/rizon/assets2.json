@@ -1,0 +1,92 @@
+[
+    {
+        "type": "native",
+        "denom": "uatolo",
+        "name" : "RIZON",
+        "symbol": "ATOLO",
+        "description": "Rizon Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/rizon/asset/atolo.png",
+        "coinGeckoId": "rizon",
+        "color": "#8C8AF2"
+    },
+    {
+        "type": "native",
+        "denom": "urchf",
+        "name" : "RCHF",
+        "symbol": "RCHF",
+        "description": "RIZON stable coin of Switzerland CHF",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/rizon/asset/rchf.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5FEB332D2B121921C792F1A0DBF7C3163FF205337B4AFE6E14F69E8E49545F49",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>rizon",
+            "client" : {
+                "channel": "channel-11",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-313",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EA7DF7F779C7F14E07172E5713E07356B55F01496CA649DDE46CF8FBF1A8466D",
+        "name" : "Ion DAO",
+        "symbol": "ION",
+        "description": "ION is the second native token of Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ion.png",
+        "coinGeckoId": "ion",
+        "ibc_info" : {
+            "path": "osmosis>rizon",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-221",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uion"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>rizon",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-221",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    }
+]
