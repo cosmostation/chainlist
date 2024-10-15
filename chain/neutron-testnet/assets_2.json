@@ -2,12 +2,12 @@
     {
         "type": "native",
         "denom": "untrn",
-        "name" : "Neutron",
+        "name": "Neutron Testnet",
         "symbol": "NTRN",
         "description": "The Native Main Dao Asset on Neutron Chain",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron-testnet/asset/ntrn.png",
-        "coinGeckoId": "neutron-3",
+        "coinGeckoId": "",
         "color": ""
     },
     {
@@ -23,8 +23,8 @@
     {
         "type": "ibc",
         "denom": "ibc/9DF365E2C0EF4EA02FA771F638BB9C0C830EFCD354629BDC017F79B348B4E989",
-        "name" : "Atom",
-        "symbol": "ATOM Testnet",
+        "name" : "Atom Testnet",
+        "symbol": "ATOM",
         "description": "Cosmoshub Testnet Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos-testnet/asset/atom.png",
@@ -46,8 +46,8 @@
     {
         "type": "ibc",
         "denom": "ibc/EFB00E728F98F0C4BBE8CA362123ACAB466EDA2826DC6837E49F4C1902F21BBA",
-        "name" : "Astroport",
-        "symbol": "ASTRO.cw20 Testnet",
+        "name" : "Astroport Testnet",
+        "symbol": "ASTRO.cw20",
         "description": "Astroport in Testnet",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/astro.png",
@@ -69,8 +69,8 @@
     {
         "type": "ibc",
         "denom": "ibc/CC8B40E3F3536D003C6ED7C65421067215453AECE1517A6F0935470C634A036B",
-        "name" : "Wrapped Ether (Ethereum via Axelar)",
-        "symbol": "WETH.eth.axl Testnet",
+        "name" : "Wrapped Ether Testnet (Ethereum via Axelar)",
+        "symbol": "WETH.eth.axl",
         "description": "Wrapped Ether on Axelar (Testnet)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
@@ -82,7 +82,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-272",
+                "channel": "channel-8",
                 "port": "transfer",
                 "chain": "axelar-testnet",
                 "denom": "eth-wei"
@@ -92,8 +92,8 @@
     {
         "type": "bridge",
         "denom": "factory/neutron1xdtwh5jr4zjx8g3zh29jud75c666wua7tsmum3ajm6ylf782etfs60dj2h/wstETH",
-        "name" : "wstETH",
-        "symbol": "wstETH Testnet",
+        "name" : "wstETH Testnet",
+        "symbol": "wstETH",
         "description": "wstETH on Neutron Testnet.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
