@@ -256,7 +256,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-5",
+                "channel": "channel-1",
                 "port": "transfer",
                 "chain": "saga",
                 "denom": "usaga"
@@ -693,7 +693,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-1",
+                "channel": "channel-0",
                 "port": "transfer",
                 "chain": "umee",
                 "denom": "uumee"
@@ -848,7 +848,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/rizon/asset/atolo.png",
         "coinGeckoId": "rizon",
         "ibc_info" : {
-            "path": "cerberus>osmosis",
+            "path": "rizon>osmosis",
             "client" : {
                 "channel": "channel-221",
                 "port": "transfer"
@@ -1153,7 +1153,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-0",
+                "channel": "channel-1",
                 "port": "transfer",
                 "chain": "comdex",
                 "denom": "ucmdx"
@@ -1246,7 +1246,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-8",
+                "channel": "channel-0",
                 "port": "transfer",
                 "chain": "tgrade",
                 "denom": "utgd"
@@ -2121,7 +2121,7 @@
             },
             "counterparty": {
                 "channel": "channel-8",
-                "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+                "port": "transfer",
                 "chain": "injective",
                 "denom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava"
             }
@@ -2686,8 +2686,8 @@
         "name" : "Nature Carbon Ton",
         "symbol": "NCT",
         "description": "Nature Carbon Ton (NCT) is a carbon token standard backed 1:1 by carbon credits issued by Verra, a global leader in the voluntary carbon market. NCT credits on Regen Network have been tokenized by Toucan.earth.",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qdydx.png",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/asset/nct.png",
         "coinGeckoId": "",
         "ibc_info" : {
             "path": "regen>osmosis",
@@ -3031,7 +3031,7 @@
         "name" : "Wrapped SOL (Wormhole)",
         "symbol": "SOL.wh",
         "description": "Wrapped SOL (Wormhole)",
-        "decimals": 6,
+        "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/solana.png",
         "coinGeckoId": "solana",
         "ibc_info" : {
@@ -3340,7 +3340,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-1",
+                "channel": "channel-2",
                 "port": "transfer",
                 "chain": "celestia",
                 "denom": "utia"
@@ -3501,7 +3501,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-8",
+                "channel": "channel-0",
                 "port": "transfer",
                 "chain": "stargaze",
                 "denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky"
@@ -3547,7 +3547,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-0",
+                "channel": "channel-2",
                 "port": "transfer",
                 "chain": "dymension",
                 "denom": "adym"
@@ -3589,11 +3589,11 @@
         "ibc_info" : {
             "path": "humans>osmosis",
             "client" : {
-                "channel": "channel-874",
+                "channel": "channel-20082",
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-10",
+                "channel": "channel-4",
                 "port": "transfer",
                 "chain": "humans",
                 "denom": "aheart"
@@ -3616,7 +3616,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-10",
+                "channel": "channel-3",
                 "port": "transfer",
                 "chain": "odin",
                 "denom": "udoki"
@@ -3639,7 +3639,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-10",
+                "channel": "channel-2",
                 "port": "transfer",
                 "chain": "coreum",
                 "denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz"
@@ -3721,7 +3721,7 @@
         "name" : "nRide Token",
         "symbol": "NRIDE",
         "description": "nRide is developing a uber-like ride-hailing protocol, leveraging cosmwasm smart-contracts for payment, driver registration and text-messaging between the rider and the driver, to create a trustless public transportation environment for any cab or taxi company to use.",
-        "decimals": 18,
+        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/nride.png",
         "coinGeckoId": "",
         "ibc_info" : {
@@ -3732,7 +3732,7 @@
             },
             "counterparty": {
                 "channel": "channel-47",
-                "port": "transfer",
+                "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
                 "denom": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
             }
