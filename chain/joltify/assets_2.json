@@ -29,7 +29,7 @@
                 "port": "transfer",
                 "chain": "cosmos",
                 "denom": "uatom"
-            },
+            }
         }
     },
     {
@@ -52,7 +52,7 @@
                 "port": "transfer",
                 "chain": "noble",
                 "denom": "uusdc"
-            },
+            }
         }
     }
 ]
