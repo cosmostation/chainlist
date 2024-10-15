@@ -35,23 +35,25 @@
     {
         "type": "ibc",
         "denom": "ibc/167E3D88D71B7D2F6308D3EF93FC3DD51932B2D9672D72B71418F61CBC5F5717",
-        
-        "origin_chain": "juno",
-        "origin_denom": "ujuno",
-        "origin_type": "staking",
+        "name" : "Juno",
         "symbol": "JUNO",
+        "description": "Juno Staking Coin",
         "decimals": 6,
-        "enable": true,
-        "path": "juno>comdex",
-        "channel": "channel-18",
-        "port": "transfer",
-        "counter_party": {
-            "channel": "channel-36",
-            "port": "transfer",
-            "denom": "ujuno"
-        },
-        "image": "juno/asset/juno.png",
-        "coinGeckoId": "juno-network"
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+        "coinGeckoId": "juno-network",
+        "ibc_info" : {
+            "path": "juno>comdex",
+            "client" : {
+                "channel": "channel-18",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "juno",
+                "denom": "ujuno"
+            }
+        }
     },
     {
         "type": "ibc",

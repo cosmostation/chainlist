@@ -159,7 +159,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/asset/fet.png",
         "coinGeckoId": "fetch-ai",
         "ibc_info" : {
-            "path": "stargaze>axelar",
+            "path": "fetchai>axelar",
             "client" : {
                 "channel": "channel-21",
                 "port": "transfer"

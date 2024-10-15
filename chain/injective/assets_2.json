@@ -593,7 +593,7 @@
         "name" : "Wrapped SOL (Wormhole)",
         "symbol": "SOL.wh",
         "description": "Wrapped SOL (Wormhole)",
-        "decimals": 6,
+        "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/solana.png",
         "coinGeckoId": "solana",
         "ibc_info" : {
@@ -662,7 +662,7 @@
         "name" : "Ninja Blaze Token",
         "symbol": "NBZ",
         "description": "Ninja Blaze Token",
-        "decimals": 8,
+        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/nbz.png",
         "coinGeckoId": "",
         "ibc_info" : {
@@ -1269,7 +1269,7 @@
         "name" : "Wrapped Bitcoin",
         "symbol": "wBTC",
         "description": "Wrapped Bitcoin",
-        "decimals": 18,
+        "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
         "coinGeckoId": "wrapped-bitcoin",
         "bridge_info" : {
@@ -1542,12 +1542,12 @@
         "symbol": "SOMM (Erc20)",
         "description": "Sommelier",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/somm.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sommelier/asset/somm.png",
         "coinGeckoId": "sommelier",
         "bridge_info" : {
-            "path": "ethereum>injective",
+            "path": "sommelier>ethereum>injective",
             "counterparty": {
-                "chain": "ethereum",
+                "chain": "sommelier",
                 "contract": "0xa670d7237398238de01267472c6f13e5b8010fd1"
             }
         }

@@ -233,7 +233,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-24",
+                "channel": "channel-1",
                 "port": "transfer",
                 "chain": "juno",
                 "denom": "ujuno"
@@ -279,7 +279,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-5",
+                "channel": "channel-1",
                 "port": "transfer",
                 "chain": "injective",
                 "denom": "inj"
@@ -371,7 +371,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-3",
+                "channel": "channel-0",
                 "port": "transfer",
                 "chain": "kava",
                 "denom": "ukava"
@@ -417,7 +417,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-1",
+                "channel": "channel-0",
                 "port": "transfer",
                 "chain": "secret",
                 "denom": "uscrt"
