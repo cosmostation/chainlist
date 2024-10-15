@@ -1,0 +1,109 @@
+[
+    {
+        "type": "native",
+        "denom": "untrn",
+        "name" : "Neutron",
+        "symbol": "NTRN",
+        "description": "The Native Main Dao Asset on Neutron Chain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron-testnet/asset/ntrn.png",
+        "coinGeckoId": "neutron-3",
+        "color": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron16l0qfrrahy5mve5x9nnw6zs9vv30k7rk55h6aaypq88ljwg57uxsxcg6y6/udatom",
+        "name" : "dATOM Testnet",
+        "symbol": "dATOM",
+        "description": "Drop staked ATOM(Neutron-testnet)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron-testnet/asset/datom.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9DF365E2C0EF4EA02FA771F638BB9C0C830EFCD354629BDC017F79B348B4E989",
+        "name" : "Atom",
+        "symbol": "ATOM Testnet",
+        "description": "Cosmoshub Testnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos-testnet/asset/atom.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "cosmos-testnet>neutron-testnet",
+            "client" : {
+                "channel": "channel-239",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3457",
+                "port": "transfer",
+                "chain": "cosmos-testnet",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EFB00E728F98F0C4BBE8CA362123ACAB466EDA2826DC6837E49F4C1902F21BBA",
+        "name" : "Astroport",
+        "symbol": "ASTRO.cw20 Testnet",
+        "description": "Astroport in Testnet",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/astro.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "terra-testnet>neutron-testnet",
+            "client" : {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-272",
+                "port": "transfer",
+                "chain": "terra-testnet",
+                "denom": "terra167dsqkh2alurx997wmycw9ydkyu54gyswe3ygmrs4lwume3vmwks8ruqnv"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/CC8B40E3F3536D003C6ED7C65421067215453AECE1517A6F0935470C634A036B",
+        "name" : "Wrapped Ether (Ethereum via Axelar)",
+        "symbol": "WETH.eth.axl Testnet",
+        "description": "Wrapped Ether on Axelar (Testnet)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "ethereum-testnet>axelar-testnet>neutron-testnet",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-272",
+                "port": "transfer",
+                "chain": "axelar-testnet",
+                "denom": "eth-wei"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/neutron1xdtwh5jr4zjx8g3zh29jud75c666wua7tsmum3ajm6ylf782etfs60dj2h/wstETH",
+        "name" : "wstETH",
+        "symbol": "wstETH Testnet",
+        "description": "wstETH on Neutron Testnet.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
+        "coinGeckoId": "",
+        "bridge_info" : {
+            "path": "ethereum-testnet>neutron-testnet",
+            "counterparty": {
+                "chain": "ethereum-testnet",
+                "contract": "0x6320cd32aa674d2898a68ec82e869385fc5f7e2f"
+            }
+        }
+    }
+]
