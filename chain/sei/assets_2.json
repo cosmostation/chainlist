@@ -112,7 +112,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
         "coinGeckoId": "weth",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
@@ -129,7 +129,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "usd-coin-wormhole-from-ethereum",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
@@ -146,7 +146,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
         "coinGeckoId": "tether-usd-wormhole-from-ethereum",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
@@ -163,7 +163,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
         "coinGeckoId": "wrapped-btc-wormhole",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
@@ -180,7 +180,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "usd-coin-wormhole-arb",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
@@ -197,7 +197,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
         "coinGeckoId": "weth",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
@@ -214,7 +214,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "usd-coin-pos-wormhole",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
@@ -231,7 +231,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "usd-coin",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
@@ -248,7 +248,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "usd-coin",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
@@ -265,7 +265,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "usd-coin",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
@@ -282,7 +282,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
         "coinGeckoId": "weth",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
@@ -299,7 +299,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
         "coinGeckoId": "tether",
         "bridge_info" : {
-            "path": "ethereum>sei"
+            "path": "ethereum>sei",
             "counterparty": {
                 "chain": "ethereum",
                 "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
