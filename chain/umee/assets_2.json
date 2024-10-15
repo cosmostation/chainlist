@@ -180,7 +180,7 @@
         "description": "Wrapped BNB on Axelar.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/wbnb.png",
-        "coinGeckoId": "wbnb",
+        "coinGeckoId": "binancecoin",
         "ibc_info" : {
             "path": "bnb-smart-chain>axelar>umee",
             "client" : {

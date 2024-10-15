@@ -303,7 +303,7 @@
         "name" : "Wrapped SOL (Wormhole)",
         "symbol": "SOL",
         "description": "Wrapped SOL (Wormhole)",
-        "decimals": 8,
+        "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/sol.png",
         "coinGeckoId": "wrapped-solana",
         "bridge_info" : {
