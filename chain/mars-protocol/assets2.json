@@ -1,0 +1,176 @@
+[
+    {
+        "type": "native",
+        "denom": "umars",
+        "name" : "Mars Protocol token",
+        "symbol": "MARS",
+        "description": "Mars Protocol is a cross-collateralized Money Market Protocol on Neutron and Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mars-protocol/asset/mars.png",
+        "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
+        "color": "#DA3A14"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FA0006F056DB6719B8C16C551FC392B62F5729978FC0B125AC9A432DBB2AA1A5",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>osmosis>mars-protocol",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-557",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FA7775734CC73176B7425910DE001A1D2AD9B6D9E93129A5D0750EAD13E4E63A",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "ethereum>axelar>osmosis>mars-protocol",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-557",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/923A25D77C573CC5B74BF8ECE7EDB1D27EE9B77F84892BBBF8CA51BD6FFFA397",
+        "name" : "Crescent",
+        "symbol": "CRE",
+        "description": "Crescent Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crescent/asset/cre.png",
+        "coinGeckoId": "crescent-network",
+        "ibc_info" : {
+            "path": "crescent>mars-protocol",
+            "client" : {
+                "channel": "channel-5",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-35",
+                "port": "transfer",
+                "chain": "crescent",
+                "denom": "ucre"
+            },
+            "enable": false
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C814F0B662234E24248AE3B2FE2C1B54BBAF12934B757F6E7BC5AEC119963895",
+        "name" : "Juno",
+        "symbol": "JUNO",
+        "description": "Juno Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+        "coinGeckoId": "juno-network",
+        "ibc_info" : {
+            "path": "juno>mars-protocol",
+            "client" : {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-209",
+                "port": "transfer",
+                "chain": "juno",
+                "denom": "ujuno"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/90F27756D300141BDF07B83E65401BDC58C05269B9BAE3ECB0B20FAB166BCF8F",
+        "name" : "Kuji",
+        "symbol": "KUJI",
+        "description": "KUJI Staking Coin - Legacy",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kujira/asset/kuji.png",
+        "coinGeckoId": "kujira",
+        "ibc_info" : {
+            "path": "kujira>mars-protocol",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-55",
+                "port": "transfer",
+                "chain": "kujira",
+                "denom": "ukuji"
+            },
+            "enable": false
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D70B0FBF97AEB04491E9ABF4467A7F66CD6250F4382CE5192D856114B83738D2",
+        "name" : "Luna",
+        "symbol": "LUNA",
+        "description": "Terra Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
+        "coinGeckoId": "terra",
+        "ibc_info" : {
+            "path": "terra>mars-protocol",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-78",
+                "port": "transfer",
+                "chain": "terra",
+                "denom": "uluna"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>mars-protocol",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-557",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    }
+]

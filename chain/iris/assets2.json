@@ -1,0 +1,188 @@
+[
+    {
+        "type": "native",
+        "denom": "uiris",
+        "name" : "IRISnet",
+        "symbol": "IRIS",
+        "description": "IRISnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iris/asset/iris.png",
+        "coinGeckoId": "iris-network",
+        "color": "#00A8FF"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A8C2D23A1E6F95DA4E48BA349667E322BD7A6C996D8A4AAE8BA72E190F3D1477",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>iris",
+            "client" : {
+                "channel": "channel-12",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-182",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>iris",
+            "client" : {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-6",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6CDA7F7E4DDB86FD275A986E78F13DF2FC500E3FEC2149E2215061FA51BB8C5D",
+        "name" : "Ion DAO",
+        "symbol": "ION",
+        "description": "ION is the second native token of Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ion.png",
+        "coinGeckoId": "ion",
+        "ibc_info" : {
+            "path": "osmosis>iris",
+            "client" : {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-6",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uion"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A5A5EBF3B7A180FBA2A3CE133153F5B904AA8B085691F66A15BE8156B6722652",
+        "name" : "USD Coin (Ethereum to Gravity-Bridge)",
+        "symbol": "USDC.grv",
+        "description": "Gravity Bridge USDC",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>iris",
+            "client" : {
+                "channel": "channel-29",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-47",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BB672AA10BBB0A66CD8613E6286D8F11A31A4CA0B8026379BBC2484971499EFE",
+        "name" : "Dai Stablecoin (Ethereum to Gravity-Bridge)",
+        "symbol": "DAI.grv",
+        "description": "Gravity Bridge DAI",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>iris",
+            "client" : {
+                "channel": "channel-29",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-47",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0x6b175474e89094c44da98b954eedeac495271d0f"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E244B968EE0D1EC047E7516F6ABECE7B68E9FD93B4BD8D08D13642247416BB17",
+        "name" : "Wrapped Ethereum (Ethereum to Gravity-Bridge)",
+        "symbol": "WETH.grv",
+        "description": "Gravity Bridge WETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>iris",
+            "client" : {
+                "channel": "channel-29",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-47",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "uwdt",
+        "name" : "WDT",
+        "symbol": "WDT",
+        "description": "Winner RDC",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iris/asset/wdt.png"
+    },
+    {
+        "type": "bridge",
+        "denom": "htltbcbnb",
+        "name" : "BNB - Deprecated",
+        "symbol": "BNB",
+        "description": "BNB on IRIS - Deprecated",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-beacon-chain/asset/bnb.png",
+        "coinGeckoId": "binancecoin",
+        "bridge_info" : {
+            "path": "bnb-beacon-chain>iris",
+            "enable": false
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "htltbcbusd",
+        "name" : "BUSD - Deprecated",
+        "symbol": "BUSD",
+        "description": "BUSD on IRIS - Deprecated",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-beacon-chain/asset/busd.png",
+        "coinGeckoId": "binance-usd",
+        "bridge_info" : {
+            "path": "bnb-beacon-chain>iris",
+            "enable": false
+        }
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "type": "native",
+        "denom": "uhedge",
+        "name" : "Hedge Testnet",
+        "symbol": "HEDGE",
+        "description": "The native staking token of the Hedge Testnet blockchain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/hedge-testent/asset/uhedge.png",
+        "coinGeckoId": ""
+    }
+]

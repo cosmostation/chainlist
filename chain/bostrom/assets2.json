@@ -1,0 +1,138 @@
+[
+    {
+        "type": "native",
+        "denom": "boot",
+        "name" : "Bostrom",
+        "symbol": "BOOT",
+        "description": "Bostrom Staking Coin",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/asset/boot.png",
+        "coinGeckoId": "bostrom",
+        "color": "#4cea4e"
+    },
+    {
+        "type": "native",
+        "denom": "hydrogen",
+        "name" : "Bostrom Hydrogen",
+        "symbol": "HYDROGEN",
+        "description": "The liquid staking token of Bostrom",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/asset/hydrogen.svg",
+        "coinGeckoId": "",
+        "color": "#ffffff"
+    },
+    {
+        "type": "native",
+        "denom": "milliampere",
+        "name" : "Bostrom Ampere",
+        "symbol": "AMPERE",
+        "description": "The resource token of Bostrom",
+        "decimals": 3,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/asset/ampere.png",
+        "coinGeckoId": "",
+        "color": "#f4ecce"
+    },
+    {
+        "type": "native",
+        "denom": "millivolt",
+        "name" : "Bostrom Volt",
+        "symbol": "VOLT",
+        "description": "The resource token of Bostrom",
+        "decimals": 3,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/asset/volt.png",
+        "coinGeckoId": "",
+        "color": "#fba809"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8D9262E35CAE362FA74AE05E430550757CF8D842EC1B241F645D3CB7179AFD10",
+        "name" : "Juno",
+        "symbol": "JUNO",
+        "description": "Juno Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+        "coinGeckoId": "juno-network",
+        "ibc_info" : {
+            "path": "juno>bostrom",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-93",
+                "port": "transfer",
+                "chain": "juno",
+                "denom": "ujuno"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>bostrom",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-95",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C23D820C5B6009E544AFC8AF5A2FEC288108AEDBFAEFDBBDD6BE54CC23069559",
+        "name" : "Graviton",
+        "symbol": "GRAV",
+        "description": "Gravity Bridge Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/asset/grav.png",
+        "coinGeckoId": "graviton",
+        "ibc_info" : {
+            "path": "gravity-bridge>bostrom",
+            "client" : {
+                "channel": "channel-12",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-103",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "ugraviton"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/15E9C5CF5969080539DB395FA7D9C0868265217EFC528433671AAF9B1912D159",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>bostrom",
+            "client" : {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-341",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "type": "native",
+        "denom": "btc",
+        "name" : "BitCoin",
+        "symbol": "BTC",
+        "description": "BitCoin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin/asset/btc.png",
+        "coinGeckoId": "bitcoin",
+        "color": "#FFB333"
+    }
+]

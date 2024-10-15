@@ -1,0 +1,82 @@
+[
+    {
+        "type": "native",
+        "denom": "utori",
+        "name" : "Teritori",
+        "symbol": "TORI",
+        "description": "Teritori Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/teritori/asset/tori.png",
+        "coinGeckoId": "teritori",
+        "color": "#16BBFF"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>teritori",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-431",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>teritori",
+            "client" : {
+                "channel": "channel-62",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-54",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F3F6BDEE1A79664B169D742651107BF4E03FA67E931452E27380B75F5917B7E9",
+        "name" : "Secret",
+        "symbol": "SCRT",
+        "description": "Secret Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
+        "coinGeckoId": "secret",
+        "ibc_info" : {
+            "path": "secret>teritori",
+            "client" : {
+                "channel": "channel-63",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-111",
+                "port": "transfer",
+                "chain": "secret",
+                "denom": "uscrt"
+            }
+        }
+    }
+]

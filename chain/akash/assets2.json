@@ -1,0 +1,220 @@
+[
+    {
+        "type": "native",
+        "denom": "uakt",
+        "name" : "Akash Network",
+        "symbol": "AKT",
+        "description": "Akash Network Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
+        "coinGeckoId": "akash-network",
+        "color": "#C71E10"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2E5D0AC026AC1AFA65A23023BA4F24BB8DDF94F118EDC0BAD6F625BFC557CDED",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>akash",
+            "client" : {
+                "channel": "channel-17",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-184",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1849A429022CBAAB619074CA4412D0016F262218BE6DD828BA8A3DD97D6B52BB",
+        "name" : "Juno",
+        "symbol": "JUNO",
+        "description": "Juno Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+        "coinGeckoId": "juno-network",
+        "ibc_info" : {
+            "path": "juno>akash",
+            "client" : {
+                "channel": "channel-35",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-29",
+                "port": "transfer",
+                "chain": "juno",
+                "denom": "ujuno"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B567D2C79ED9D9D78B5761E8E4D261C7013E349518FD499D42B2BD1B81266DD6",
+        "name" : "Kava",
+        "symbol": "KAVA",
+        "description": "Kava Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
+        "coinGeckoId": "kava",
+        "ibc_info" : {
+            "path": "kava>akash",
+            "client" : {
+                "channel": "channel-37",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "ukava"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3A67DDC3D4035596F1E4D5B563F434ED3FB0CD06169AE4779FB224CE5EF757A7",
+        "name" : "Kava Swap",
+        "symbol": "SWP",
+        "description": "Governance token of Kava Swap Protocol.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/swp.png",
+        "coinGeckoId": "kava-swap",
+        "ibc_info" : {
+            "path": "kava>akash",
+            "client" : {
+                "channel": "channel-37",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "swp"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9554B3A33B18F2FA7492E2EBB4D128FD98D812BB182B12CC6BCB5E94161E2C10",
+        "name" : "Kava Hard",
+        "symbol": "HARD",
+        "description": "Governance token of Kava Lend Protocol.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/hard.png",
+        "coinGeckoId": "kava-lend",
+        "ibc_info" : {
+            "path": "kava>akash",
+            "client" : {
+                "channel": "channel-37",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "hard"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F5CCE0AC7102584371EBA8A2C7B1094EAE554994B91B0511581BD2AB0237ED62",
+        "name" : "Kava USDX",
+        "symbol": "USDX",
+        "description": "The native stablecoin of Kava.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/usdx.png",
+        "coinGeckoId": "usdx",
+        "ibc_info" : {
+            "path": "kava>akash",
+            "client" : {
+                "channel": "channel-37",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "usdx"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/AAFAD8AC1A29CDA9985742B9DE3C32C1163798919C0B3A4C339A70D5F49D1E15",
+        "name" : "Ion DAO",
+        "symbol": "ION",
+        "description": "ION is the second native token of Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ion.png",
+        "coinGeckoId": "ion",
+        "ibc_info" : {
+            "path": "osmosis>akash",
+            "client" : {
+                "channel": "channel-9",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uion"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B4F8297D4C270E82BDF11D51FD51A9FD23B0958B98B1E08346477452119E7D70",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>akash",
+            "client" : {
+                "channel": "channel-9",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8DF58513AF8A608CD13929F5300EBCBD034FAFBA284691E8FC414A193F57529C",
+        "name" : "Sifchain",
+        "symbol": "ROWAN",
+        "description": "Sifchain Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sifchain/asset/rowan.png",
+        "coinGeckoId": "sifchain",
+        "ibc_info" : {
+            "path": "sifchain>akash",
+            "client" : {
+                "channel": "channel-24",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "sifchain",
+                "denom": "rowan"
+            }
+        }
+    }
+]

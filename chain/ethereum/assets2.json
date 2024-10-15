@@ -1,0 +1,12 @@
+[
+    {
+        "type": "native",
+        "denom": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name" : "Ethereum",
+        "symbol": "ETH",
+        "description": "Ethereum Native Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eth.png",
+        "coinGeckoId": "ethereum"
+    }
+]
