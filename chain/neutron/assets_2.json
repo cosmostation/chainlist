@@ -647,7 +647,7 @@
         "name" : "Astroport token",
         "symbol": "ASTRO",
         "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
-        "decimals": 9,
+        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/astro.png",
         "coinGeckoId": "astroport-fi",
         "color": "#4056e9"
