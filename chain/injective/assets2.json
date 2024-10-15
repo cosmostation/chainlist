@@ -567,12 +567,12 @@
     {
         "type": "ibc",
         "denom": "ibc/F3330C1B8BD1886FE9509B94C7B5398B892EA41420D2BC0B7C6A53CB8ED761D6",
-        "name" : "PYTH (Wormhole)",
+        "name" : "Pyth Network (Wormhole)",
         "symbol": "PYTH.wh",
         "description": "PYTH (Wormhole)",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pyth.png",
-        "coinGeckoId": "solana",
+        "coinGeckoId": "pyth-network",
         "ibc_info" : {
             "path": "solana>gateway>injective",
             "client" : {
