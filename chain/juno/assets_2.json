@@ -503,5 +503,46 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/wind.png",
         "coinGeckoId": "",
         "color": "#122b4d"
+    },
+    {
+        "type": "native",
+        "denom": "factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA",
+        "name" : "Arena Token",
+        "symbol": "ARENA",
+        "description": "The token for the Arena DAO",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png",
+        "coinGeckoId": "",
+        "color": "#dc6c24"
+    },
+    {
+        "type": "native",
+        "denom": "factory/juno16uprl38e4ljj5ctuha9ehpvp2l93z3d5jmwj2cttt6jkhlrhscpqgglalk/wind.ash",
+        "name" : "ashWIND",
+        "symbol": "ashWIND",
+        "description": "ashWIND",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wind.ash.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/juno1u805lv20qc6jy7c3ttre7nct6uyl20pfky5r7e/DGL",
+        "name" : "Licorice",
+        "symbol": "DGL",
+        "description": "Licorice",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dgl.png",
+        "coinGeckoId": "dfe0e0"
+    },
+    {
+        "type": "native",
+        "denom": "factory/juno1qly4zcmzr2gyxtze5yt9chv2srczwwunppxjfh/NEXX",
+        "name" : "NEXX GEN AI",
+        "symbol": "NEXX",
+        "description": "NEXX GEN AI",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nexx.png",
+        "coinGeckoId": "040405"
     }
 ]
