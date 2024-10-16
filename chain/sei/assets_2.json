@@ -374,5 +374,48 @@
                 "denom": "uusdc"
             }
         }
+    },
+    {
+        "type": "native",
+        "denom": "factory/sei1thgp6wamxwqt7rthfkeehktmq0ujh5kspluw6w/OIN",
+        "name" : "OIN STORE OF VALUE",
+        "symbol": "OIN",
+        "description": "OIN Token ($OIN) is a groundbreaking digital asset developed on the $SEI Blockchain. It transcends being merely a cryptocurrency; $OIN stands as a robust store of value, symbolizing the future of decentralized finance and its potential to reshape the crypto landscape.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oin.png",
+        "coinGeckoId": "",
+        "color": "#6cdbac"
+    },
+    {
+        "type": "native",
+        "denom": "factory/sei1x2fgaaqecvk8kwuqkjqcj27clw5p5g99uawdzy9sc4rku8avumcq3cky4k/ampSEI",
+        "name" : "ERIS Amplified SEI",
+        "symbol": "ampSEI",
+        "description": "ERIS liquid staked SEI.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/ampsei.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye",
+        "name" : "Popeye",
+        "symbol": "POPEYE",
+        "description": "Popeye the Seilor.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png",
+        "coinGeckoId": "",
+        "color": "#04040a"
+    },
+    {
+        "type": "native",
+        "denom": "factory/sei1ta5rkr6y2qlkj7px8w2cvear7m2822q4f4ea0m/sensei",
+        "name" : "Sensei Dog",
+        "symbol": "SENSEI",
+        "description": "A wise dog and a marshal arts master.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png",
+        "coinGeckoId": "",
+        "color": "#d4d0c7"
     }
 ]
