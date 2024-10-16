@@ -19,8 +19,8 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.002uom",
-            "0.003uom"
+            "0.2uom",
+            "0.3uom"
         ],
         "init_gas_limit" : 300000,
         "simul_gas_multiply" : 1.8,
