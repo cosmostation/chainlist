@@ -50,7 +50,7 @@
         "name": "Mintscan",
         "url": "https://www.mintscan.io/mantra-testnet/",
         "account": "https://www.mintscan.io/mantra-testnet/address/${address}",
-        "tx": "https://www.mintscan.io/mantra-testnet/tx/${hash}"
+        "tx": "https://www.mintscan.io/mantra-testnet/tx/${hash}",
         "proposal": "https://www.mintscan.io/mantra-testnet/proposals/${id}"
     },
     "about" : {
