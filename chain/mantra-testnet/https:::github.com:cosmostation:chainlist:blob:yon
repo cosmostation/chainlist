@@ -1,0 +1,48 @@
+https://github.com/cosmostation/chainlist/blob/yong_dev/chain/osmosis/assets2.json#L1207
+
+
+
+dfinity   icp VS internetcomputer
+
+
+"counter_party"
+
+"counterparty"
+
+https://api-haqq.sr20de.xyz/cosmos/base/tendermint/v1beta1/node_info
+
+https://haqq-api.noders.services/cosmos/base/tendermint/v1beta1/node_info
+
+https://haqq-api.noders.services/cosmos/bank/v1beta1/supply
+
+Chihuahua gRPC has some issue with simulate.
+You can using Rest (Settings -> Manage Chains -> Chihuahua -> select Rest endpoint)
+
+
+
+https://lcd-office.cosmostation.io/mantra-testnet/cosmos/base/tendermint/v1beta1/node_info
+
+https://api.dukong.mantrachain.io/cosmos/base/tendermint/v1beta1/node_info
+
+
+grpcurl grpc-office-mantra.cosmostation.io:443 cosmos.base.tendermint.v1beta1.Service.GetNodeInfo
+
+grpcurl grpc-office-neutron.cosmostation.io:443 cosmos.base.tendermint.v1beta1.Service.GetNodeInfo
+
+
+"image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/
+
+
+{
+    "chain": "evmos",
+    "type" : "erc20",
+    "contract": "0xD4949664cD82660AaE99bEdc034a0deA8A0bd517",
+    "symbol": "Wrapped Evmos",
+    "symbol": "WEVMOS",
+    "description": "Wrapped Evmos on EVM",
+    "decimals": 18,
+    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/wevmos.png",
+    "coinGeckoId": "evmos",
+	"color": "#FFFFFF"
+    "default_show": false,
+}
