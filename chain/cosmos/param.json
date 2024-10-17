@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "cosmoshub-4",
     "chain_name": "Cosmos",
-    "chain_image": "cosmos/resource/chain_cosmos.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/resource/chain_cosmos.png",
     "symbol" : "ATOM",
-    "symbol_image" : "cosmos/asset/atom.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
     "bechAccountPrefix" : "cosmos",
     "bechValidatorPrefix" : "cosmosvaloper",
     "name_for_dapp" : "COSMOS", 

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "cudos-1",
     "chain_name": "Cudos",
-    "chain_image": "cudos/resource/chain_cudos.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cudos/resource/chain_cudos.png",
     "symbol" : "CUDOS",
-    "symbol_image" : "cudos/asset/cudos.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cudos/asset/cudos.png",
     "bechAccountPrefix" : "cudos",
     "bechValidatorPrefix" : "cudosvaloper",
     "name_for_dapp" : "CUDOS", 

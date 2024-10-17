@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "celestia",
     "chain_name": "Celestia",
-    "chain_image": "celestia/resource/chain_celestia.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/resource/chain_celestia.png",
     "symbol" : "TIA",
-    "symbol_image" : "celestia/asset/tia.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
     "bechAccountPrefix" : "celestia",
     "bechValidatorPrefix" : "celestiavaloper",
     "name_for_dapp" : "CELESTIA", 

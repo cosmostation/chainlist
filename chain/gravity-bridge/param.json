@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "gravity-bridge-3",
     "chain_name": "GravityBridge",
-    "chain_image": "gravity-bridge/resource/chain_gravity-bridge.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/resource/chain_gravity-bridge.png",
     "symbol" : "GRAV",
-    "symbol_image" : "gravity-bridge/asset/grav.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/asset/grav.png",
     "bechAccountPrefix" : "gravity",
     "bechValidatorPrefix" : "gravityvaloper",
     "name_for_dapp" : "GRAVITY BRIDGE", 
