@@ -1,0 +1,329 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x4200000000000000000000000000000000000006",
+        "name" : "Wrapped Ether",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "name" : "USD Coin",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+        "name" : "Bridged USD Coin (Base)",
+        "symbol": "USDbC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/usdbc.png",
+        "coinGeckoId": "bridged-usd-coin-base",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+        "name" : "Dai Stablecoin",
+        "symbol": "DAI",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c",
+        "name" : "Rocket Pool ETH",
+        "symbol": "rETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/reth.png",
+        "coinGeckoId": "rocket-pool-eth",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4c5d8A75F3762c1561D96f177694f67378705E98",
+        "name" : "Pyth Network",
+        "symbol": "PYTH",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pyth.png",
+        "coinGeckoId": "pyth-network",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        "name" : "Coinbase Wrapped Staked ETH",
+        "symbol": "cbETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/cbeth.png",
+        "coinGeckoId": "coinbase-wrapped-staked-eth",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfA980cEd6895AC314E7dE34Ef1bFAE90a5AdD21b",
+        "name" : "Echelon Prime",
+        "symbol": "PRIME",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/prime.png",
+        "coinGeckoId": "echelon-prime"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+        "name" : "Aerodrome Finance",
+        "symbol": "AERO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/aero.png",
+        "coinGeckoId": "aerodrome-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+        "name" : "Degen",
+        "symbol": "DEGEN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/degen.png",
+        "coinGeckoId": "degen-base"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9EaF8C1E34F05a589EDa6BAfdF391Cf6Ad3CB239",
+        "name" : "yearn.finance",
+        "symbol": "YFI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/yfi.png",
+        "coinGeckoId": "yearn-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA7d68d155d17cB30e311367c2Ef1E82aB6022b67",
+        "name" : "Braintrust",
+        "symbol": "BTRST",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/btrst.png",
+        "coinGeckoId": "braintrust"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbFd5206962267c7b4b4A8B3D76AC2E1b2A5c4d5e",
+        "name" : "Osaka Protocol",
+        "symbol": "OSAK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/osaka.png",
+        "coinGeckoId": "osaka-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xFd4330b0312fdEEC6d4225075b82E00493FF2e3f",
+        "name" : "SmarDex",
+        "symbol": "SDEX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sdex.png",
+        "coinGeckoId": "smardex"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xcD1B51b87a8a7137D6421bA5A976225187a26777",
+        "name" : "L7DEX",
+        "symbol": "LSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/lsd.png",
+        "coinGeckoId": "l7dex"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x54330d28ca3357F294334BDC454a032e7f353416",
+        "name" : "Autonolas",
+        "symbol": "OLAS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/olas.png",
+        "coinGeckoId": "autonolas"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x24fcFC492C1393274B6bcd568ac9e225BEc93584",
+        "name" : "Heroes of Mavia",
+        "symbol": "MAVIA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mavia.png",
+        "coinGeckoId": "heroes-of-mavia"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x28fe69Ff6864C1C218878BDCA01482D36B9D57b1",
+        "name" : "Kyber Network Crystal v2",
+        "symbol": "KNC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/knc.png",
+        "coinGeckoId": "kyber-network-crystal"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4621b7A9c75199271F773Ebd9A499dbd165c3191",
+        "name" : "Dola USD Stablecoin",
+        "symbol": "DOLA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dola.png",
+        "coinGeckoId": "dola-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9e81F6495BA29a6B4D48bDdD042C0598fA8abc9F",
+        "name" : "MATH",
+        "symbol": "MATH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/math.png",
+        "coinGeckoId": "math"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4A3A6Dd60A34bB2Aba60D73B4C88315E9CeB6A3D",
+        "name" : "Magic Internet Money",
+        "symbol": "MIM",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mim.png",
+        "coinGeckoId": "magic-internet-money"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85",
+        "name" : "Seamless Protocol",
+        "symbol": "SEAM",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/seam.png",
+        "coinGeckoId": "seamless-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x858c50C3AF1913b0E849aFDB74617388a1a5340d",
+        "name" : "SubQueryToken",
+        "symbol": "SQT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sqt.png",
+        "coinGeckoId": "subquery-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2dAD3a13ef0C6366220f989157009e501e7938F8",
+        "name" : "Extra Finance",
+        "symbol": "EXTRA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/extra.png",
+        "coinGeckoId": "extra-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x703D57164CA270b0B330A87FD159CfEF1490c0a5",
+        "name" : "RAI Finance",
+        "symbol": "SOFI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sofi.png",
+        "coinGeckoId": "rai-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8Fbd0648971d56f1f2c35Fa075Ff5Bc75fb0e39D",
+        "name" : "UNKJD",
+        "symbol": "MBS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/mbs.png",
+        "coinGeckoId": "monkeyball"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x09188484e1Ab980DAeF53a9755241D759C5B7d60",
+        "name" : "RigoBlock",
+        "symbol": "GRG",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/grg.png",
+        "coinGeckoId": "rigoblock"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xDE5ed76E7c05eC5e4572CfC88d1ACEA165109E44",
+        "name" : "DEUS Finance",
+        "symbol": "DEUS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/deus.png",
+        "coinGeckoId": "deus-finance-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x13F4196cC779275888440b3000AE533BbBbC3166",
+        "name" : "Alongside Crypto Market Index",
+        "symbol": "AMKT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/amkt.png",
+        "coinGeckoId": "alongside-crypto-market-index"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
+        "name" : "BetSwirl v2",
+        "symbol": "BETS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bets.png",
+        "coinGeckoId": "betswirl"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB0fFa8000886e57F86dd5264b9582b2Ad87b2b91",
+        "name" : "Wormhole",
+        "symbol": "W",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/w.png",
+        "coinGeckoId": "wormhole"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66",
+        "name" : "Synthetix Network",
+        "symbol": "SNX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/snx.png",
+        "coinGeckoId": "havven"
+    }
+]
