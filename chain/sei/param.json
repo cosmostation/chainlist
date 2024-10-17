@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "pacific-1",
     "chain_name": "Sei",
-    "chain_image": "sei/resource/chain_sei.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/resource/chain_sei.png",
     "symbol" : "SEI",
-    "symbol_image" : "sei/asset/sei.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/sei.png",
     "bechAccountPrefix" : "sei",
     "bechValidatorPrefix" : "seivaloper",
     "name_for_dapp" : "SEI", 

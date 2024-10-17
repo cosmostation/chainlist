@@ -1,9 +1,9 @@
 {
   "chain_name": "Symphony Testnet",
   "chain_id_cosmos": "symphony-testnet-1",
-  "chain_image": "symphony-testnet/asset/chain.png",
+  "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/symphony-testnet/asset/chain.png",
   "symbol": "MLD",
-  "symbol_image": "symphony-testnet/asset/coin.png",
+  "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/symphony-testnet/asset/coin.png",
   "bechAccountPrefix": "symphony",
   "bechValidatorPrefix": "symphonyvaloper",
   "name_for_dapp": "Symphony Testnet",
