@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "onomy-mainnet-1",
     "chain_name": "Onomy",
-    "chain_image": "onomy-protocol/resource/chain_onomy-protocol.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/onomy-protocol/resource/chain_onomy-protocol.png",
     "symbol" : "NOM",
-    "symbol_image" : "onomy-protocol/asset/nom.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/onomy-protocol/asset/nom.png",
     "bechAccountPrefix" : "onomy",
     "bechValidatorPrefix" : "onomyvaloper",
     "name_for_dapp" : "ONOMY", 

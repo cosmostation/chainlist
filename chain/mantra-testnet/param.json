@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "mantra-dukong-1",
     "chain_name": "Dukong",
-    "chain_image": "mantra-testnet/resource/chain_mantra-testnet.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra-testnet/resource/chain_mantra-testnet.png",
     "symbol" : "OM",
-    "symbol_image" : "mantra-testnet/asset/om.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra-testnet/asset/om.png",
     "bechAccountPrefix" : "mantra",
     "bechValidatorPrefix" : "mantravaloper",
     "name_for_dapp" : "MANTRA TESTNET",

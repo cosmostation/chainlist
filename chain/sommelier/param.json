@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "sommelier-3",
     "chain_name": "Sommelier",
-    "chain_image": "sommelier/resource/chain_sommelier.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sommelier/resource/chain_sommelier.png",
     "symbol" : "SOMM",
-    "symbol_image" : "sommelier/asset/somm.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sommelier/asset/somm.png",
     "bechAccountPrefix" : "somm",
     "bechValidatorPrefix" : "sommvaloper",
     "name_for_dapp" : "SOMMELIER", 

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "quicksilver-2",
     "chain_name": "Quicksilver",
-    "chain_image": "quicksilver/resource/chain_quicksilver.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/resource/chain_quicksilver.png",
     "symbol" : "QCK",
-    "symbol_image" : "quicksilver/asset/qck.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qck.png",
     "bechAccountPrefix" : "quick",
     "bechValidatorPrefix" : "quickvaloper",
     "name_for_dapp" : "QUICKSILVER", 

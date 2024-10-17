@@ -1,9 +1,9 @@
 {
     "chain_id_evm" : "0xa4b1",
     "chain_name": "Arbitrum",
-    "chain_image": "arbitrum/resource/chain_arbitrum.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arbitrum/resource/chain_arbitrum.png",
     "symbol" : "ETH",
-    "symbol_image" : "arbitrum/asset/eth_arb.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arbitrum/asset/eth_arb.png",
     "origin_genesis_time" : "2021-05-28T10:13:20Z",
     "moblie_dapp" : true,
     "evm_fee" : {

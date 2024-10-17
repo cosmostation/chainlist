@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "kyve-1",
     "chain_name": "Kyve",
-    "chain_image": "kyve/resource/chain_kyve.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kyve/resource/chain_kyve.png",
     "symbol" : "KYVE",
-    "symbol_image" : "kyve/asset/kyve.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kyve/asset/kyve.png",
     "bechAccountPrefix" : "kyve",
     "bechValidatorPrefix" : "kyvevaloper",
     "name_for_dapp" : "KYVE", 

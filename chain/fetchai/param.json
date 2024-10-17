@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "fetchhub-4",
     "chain_name": "ASI Alliance",
-    "chain_image": "fetchai/resource/chain_fetchai.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/resource/chain_fetchai.png",
     "symbol" : "FET",
-    "symbol_image" : "fetchai/asset/fet.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/asset/fet.png",
     "bechAccountPrefix" : "fetch",
     "bechValidatorPrefix" : "fetchvaloper",
     "name_for_dapp" : "FETCH.AI", 

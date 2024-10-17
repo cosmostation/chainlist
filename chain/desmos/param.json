@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "desmos-mainnet",
     "chain_name": "Desmos",
-    "chain_image": "desmos/resource/chain_desmos.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/desmos/resource/chain_desmos.png",
     "symbol" : "DSM",
-    "symbol_image" : "desmos/asset/dsm.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/desmos/asset/dsm.png",
     "bechAccountPrefix" : "desmos",
     "bechValidatorPrefix" : "desmosvaloper",
     "name_for_dapp" : "DESMOS", 

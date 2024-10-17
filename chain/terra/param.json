@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "phoenix-1",
     "chain_name": "Terra",
-    "chain_image": "terra/resource/chain_terra.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/resource/chain_terra.png",
     "symbol" : "LUNA",
-    "symbol_image" : "terra/asset/luna.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
     "bechAccountPrefix" : "terra",
     "bechValidatorPrefix" : "terravaloper",
     "name_for_dapp" : "TERRA", 

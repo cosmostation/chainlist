@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "atomone-1",
     "chain_name": "ATOMONE",
-    "chain_image": "atomone/resource/chain_atomone.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/resource/chain_atomone.png",
     "symbol" : "ATONE",
-    "symbol_image" : "atomone/asset/atone.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/asset/atone.png",
     "bechAccountPrefix" : "atone",
     "bechValidatorPrefix" : "atonevaloper",
     "name_for_dapp" : "ATOMONE", 

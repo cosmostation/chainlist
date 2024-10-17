@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "shentu-2.2",
     "chain_name": "Shentu",
-    "chain_image": "shentu/resource/chain_shentu.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shentu/resource/chain_shentu.png",
     "symbol" : "CTK",
-    "symbol_image" : "shentu/asset/ctk.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shentu/asset/ctk.png",
     "bechAccountPrefix" : "shentu",
     "bechValidatorPrefix" : "shentuvaloper",
     "name_for_dapp" : "SHENTU", 

@@ -1,9 +1,9 @@
 {
     "chain_id" : "35834a8a",
     "chain_name": "Sui",
-    "chain_image": "sui/resource/chain_sui.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/resource/chain_sui.png",
     "symbol" : "SUI",
-    "symbol_image" : "sui/asset/sui.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/sui.png",
     "origin_genesis_time" : "2023-05-03T00:00:00Z",
     "moblie_dapp" : true,
     "accountType" : [

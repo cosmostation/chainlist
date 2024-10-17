@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "mars-1",
     "chain_name": "Mars Protocol",
-    "chain_image": "mars-protocol/resource/chain_mars-protocol.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mars-protocol/resource/chain_mars-protocol.png",
     "symbol" : "MARS",
-    "symbol_image" : "mars-protocol/asset/mars.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mars-protocol/asset/mars.png",
     "bechAccountPrefix" : "mars",
     "bechValidatorPrefix" : "marsvaloper",
     "name_for_dapp" : "MARS", 

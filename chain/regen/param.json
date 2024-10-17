@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "regen-1",
     "chain_name": "Regen",
-    "chain_image": "regen/resource/chain_regen.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/resource/chain_regen.png",
     "symbol" : "REGEN",
-    "symbol_image" : "regen/asset/regen.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/asset/regen.png",
     "bechAccountPrefix" : "regen",
     "bechValidatorPrefix" : "regenvaloper",
     "name_for_dapp" : "REGEN", 

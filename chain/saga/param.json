@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "ssc-1",
     "chain_name": "Saga",
-    "chain_image": "saga/resource/chain_saga.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saga/resource/chain_saga.png",
     "symbol" : "SAGA",
-    "symbol_image" : "saga/asset/saga.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saga/asset/saga.png",
     "bechAccountPrefix" : "saga",
     "bechValidatorPrefix" : "sagavaloper",
     "name_for_dapp" : "SAGA", 

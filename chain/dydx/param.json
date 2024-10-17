@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "dydx-mainnet-1",
     "chain_name": "dYdX",
-    "chain_image": "dydx/resource/chain_dydx.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/resource/chain_dydx.png",
     "symbol" : "DYDX",
-    "symbol_image" : "dydx/asset/dydx.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/asset/dydx.png",
     "bechAccountPrefix" : "dydx",
     "bechValidatorPrefix" : "dydxvaloper",
     "name_for_dapp" : "DYDX", 

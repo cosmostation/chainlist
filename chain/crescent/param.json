@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "crescent-1",
     "chain_name": "Crescent",
-    "chain_image": "crescent/resource/chain_crescent.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crescent/resource/chain_crescent.png",
     "symbol" : "CRE",
-    "symbol_image" : "crescent/asset/cre.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crescent/asset/cre.png",
     "bechAccountPrefix" : "cre",
     "bechValidatorPrefix" : "crevaloper",
     "name_for_dapp" : "CRESCENT", 

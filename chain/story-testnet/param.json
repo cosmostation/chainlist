@@ -1,9 +1,9 @@
 {
     "chain_id_evm" : "0x5E9",
     "chain_name": "Story Testnet",
-    "chain_image": "story-testnet/resource/chain_story-testnet.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/resource/chain_story-testnet.png",
     "symbol" : "IP",
-    "symbol_image" : "story-testnet/asset/ip.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/ip.png",
     "moblie_dapp" : true,
     "evm_fee" : {
         "eip1559": true,

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "neutron-1",
     "chain_name": "Neutron",
-    "chain_image": "neutron/resource/chain_neutron.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/resource/chain_neutron.png",
     "symbol" : "NTRN",
-    "symbol_image" : "neutron/asset/ntrn.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrn.png",
     "bechAccountPrefix" : "neutron",
     "bechValidatorPrefix" : "neutronvaloper",
     "name_for_dapp" : "NEUTRON", 

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "juno-1",
     "chain_name": "Juno",
-    "chain_image": "juno/resource/chain_juno.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/resource/chain_juno.png",
     "symbol" : "JUNO",
-    "symbol_image" : "juno/asset/juno.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
     "bechAccountPrefix" : "juno",
     "bechValidatorPrefix" : "junovaloper",
     "name_for_dapp" : "JUNO", 

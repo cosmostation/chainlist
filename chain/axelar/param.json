@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "axelar-dojo-1",
     "chain_name": "Axelar",
-    "chain_image": "axelar/resource/chain_axelar.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/resource/chain_axelar.png",
     "symbol" : "AXL",
-    "symbol_image" : "axelar/asset/axl.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
     "bechAccountPrefix" : "axelar",
     "bechValidatorPrefix" : "axelarvaloper",
     "name_for_dapp" : "AXELAR", 
