@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "akashnet-2",
     "chain_name": "Akash",
-    "chain_image": "akash/resource/chain_akash.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/resource/chain_akash.png",
     "symbol" : "AKT",
-    "symbol_image" : "akash/asset/akt.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
     "bechAccountPrefix" : "akash",
     "bechValidatorPrefix" : "akashvaloper",
     "name_for_dapp" : "AKASH", 

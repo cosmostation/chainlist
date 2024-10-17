@@ -1,8 +1,8 @@
 {
     "chain_name": "Bitcoin Testnet",
-    "chain_image": "bitcoin-testnet/resource/chain_bitcoin-testnet.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin-testnet/resource/chain_bitcoin-testnet.png",
     "symbol" : "BTC",
-    "symbol_image" : "bitcoin-testnet/asset/btc.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin-testnet/asset/btc.png",
     "accountType" : [
         {
             "hd_path": "m/84'/1'/0'/0/X",

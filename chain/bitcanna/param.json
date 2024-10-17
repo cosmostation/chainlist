@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "bitcanna-1",
     "chain_name": "Bitcanna",
-    "chain_image": "bitcanna/resource/chain_bitcanna.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcanna/resource/chain_bitcanna.png",
     "symbol" : "BCNA",
-    "symbol_image" : "bitcanna/asset/bcna.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcanna/asset/bcna.png",
     "bechAccountPrefix" : "bcna",
     "bechValidatorPrefix" : "bcnavaloper",
     "name_for_dapp" : "BITCANNA", 

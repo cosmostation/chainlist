@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos": "",
     "chain_name": "Babylon",
-    "chain_image": "babylon/resource/chain_babylon.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/resource/chain_babylon.png",
     "symbol": "BBN",
-    "symbol_image": "babylon/asset/bbn.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/bbn.png",
     "bechAccountPrefix": "bbn",
     "bechValidatorPrefix": "bbnvaloper",
     "name_for_dapp": "BABYLON",

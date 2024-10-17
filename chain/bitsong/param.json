@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "bitsong-2b",
     "chain_name": "Bitsong",
-    "chain_image": "bitsong/resource/chain_bitsong.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/resource/chain_bitsong.png",
     "symbol" : "BTSG",
-    "symbol_image" : "bitsong/asset/btsg.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/asset/btsg.png",
     "bechAccountPrefix" : "bitsong",
     "bechValidatorPrefix" : "bitsongvaloper",
     "name_for_dapp" : "BITSONG", 
