@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "likecoin-mainnet-2",
     "chain_name": "Likecoin",
-    "chain_image": "likecoin/resource/chain_likecoin.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/likecoin/resource/chain_likecoin.png",
     "symbol" : "LIKE",
-    "symbol_image" : "likecoin/asset/like.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/likecoin/asset/like.png",
     "bechAccountPrefix" : "like",
     "bechValidatorPrefix" : "likevaloper",
     "name_for_dapp" : "LIKECOIN", 

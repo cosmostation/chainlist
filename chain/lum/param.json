@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "lum-network-1",
     "chain_name": "Lum",
-    "chain_image": "lum/resource/chain_lum.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lum/resource/chain_lum.png",
     "symbol" : "LUM",
-    "symbol_image" : "lum/asset/lum.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lum/asset/lum.png",
     "bechAccountPrefix" : "lum",
     "bechValidatorPrefix" : "lumvaloper",
     "name_for_dapp" : "LUM", 
