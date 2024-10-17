@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "nillion-chain-testnet-1",
     "chain_name": "Nillion Testnet",
-    "chain_image": "nillion-testnet/resource/chain_nillion-testnet.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nillion-testnet/resource/chain_nillion-testnet.png",
     "symbol" : "NIL",
-    "symbol_image" : "nillion-testnet/asset/nil.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nillion-testnet/asset/nil.png",
     "bechAccountPrefix" : "nillion",
     "bechValidatorPrefix" : "nillionvaloper",
     "name_for_dapp" : "NILLION-TESTNET", 

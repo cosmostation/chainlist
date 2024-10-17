@@ -1,9 +1,9 @@
 {
   "chain_id_cosmos" : "mantra-1",
     "chain_name": "Mantra",
-    "chain_image": "mantra/resource/chain_mantra.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/resource/chain_mantra.png",
     "symbol" : "OM",
-    "symbol_image" : "mantra/asset/om.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/om.png",
     "bechAccountPrefix" : "mantra",
     "bechValidatorPrefix" : "mantravaloper",
     "api_name" : "mantra",

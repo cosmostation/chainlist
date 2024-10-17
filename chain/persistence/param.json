@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "core-1",
     "chain_name": "Persistence",
-    "chain_image": "persistence/resource/chain_persistence.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/resource/chain_persistence.png",
     "symbol" : "XPRT",
-    "symbol_image" : "persistence/asset/xprt.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/asset/xprt.png",
     "bechAccountPrefix" : "persistence",
     "bechValidatorPrefix" : "persistencevaloper",
     "name_for_dapp" : "PERSISTENCE", 
