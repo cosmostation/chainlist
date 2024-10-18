@@ -1836,5 +1836,55 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/syn.ash.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj178zy7myyxewek7ka7v9hru8ycpvfnen6xeps89/DRUGS",
+        "name" : "DRUGS",
+        "symbol": "DRUGS",
+        "description": "DRUGS",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/drugsoninj.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj17g4j3geupy762u0wrewqwprvtzar7k5et2zqsh/incel",
+        "name" : "InjectiveCelestiaNoFapLadyBoy420Inu",
+        "symbol": "INCEL",
+        "description": "INCEL",
+        "decimals": 6,
+        "image": "https://imagedelivery.net/lPzngbR8EltRfBOi_WYaXw/4aa87592-aa81-435e-d340-05354be7cb00/public",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj183lz632dna57ayuf6unqph5d0v2u655h2jzzyy/bamboo",
+        "name" : "Injective Panda",
+        "symbol": "BAMBOO",
+        "description": "Injective Panda",
+        "decimals": 6,
+        "image": "https://imagedelivery.net/lPzngbR8EltRfBOi_WYaXw/c69a42b1-04f2-405f-d7d4-72c3ea13fa00/public",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj188veuqed0dygkcmq5d24u3807n6csv4wdv28gh/wagmi",
+        "name" : "Wagmi Coin",
+        "symbol": "WAGMI",
+        "description": "Wagmi Coin",
+        "decimals": 6,
+        "image": "https://imagedelivery.net/lPzngbR8EltRfBOi_WYaXw/f001a7ca-9ca3-4fa8-45f1-85f3bd7e9800/public",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1898t0vtmul3tcn3t0v8qe3pat47ca937jkpezv/karate",
+        "name" : "Doge Wif Karate",
+        "symbol": "KARATE",
+        "description": "Doge Wif Karate",
+        "decimals": 6,
+        "image": "https://imagedelivery.net/lPzngbR8EltRfBOi_WYaXw/add7e69a-f62d-4d14-1e33-e266d8dd3200/public",
+        "coinGeckoId": ""
     }
 ]
