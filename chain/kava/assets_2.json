@@ -191,6 +191,17 @@
         "color": "#FFFFFF"
     },
     {
+        "type": "native",
+        "denom": "erc20/meson/mbtc",
+        "name" : "M-BTC",
+        "symbol": "M-BTC",
+        "description": "Merlin's Seal Bitcoin on Kava",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mbtc.png",
+        "coinGeckoId": "merlin-s-seal-btc",
+        "color": "#FFFFFF"
+    },
+    {
         "type": "bridge",
         "denom": "hbtc",
         "name" : "HBTC",
