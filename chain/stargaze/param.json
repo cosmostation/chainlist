@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "stargaze-1",
     "chain_name": "Stargaze",
-    "chain_image": "stargaze/resource/chain_stargaze.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/resource/chain_stargaze.png",
     "symbol" : "STARS",
-    "symbol_image" : "stargaze/asset/stars.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
     "bechAccountPrefix" : "stars",
     "bechValidatorPrefix" : "starsvaloper",
     "name_for_dapp" : "STARGAZE", 

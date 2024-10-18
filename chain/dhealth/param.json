@@ -1,9 +1,9 @@
 {
   "chain_id_cosmos" : "dhealth",
   "chain_name": "dHealth",
-  "chain_image": "dhealth/resource/chain_dhealth.png",
+  "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dhealth/resource/chain_dhealth.png",
   "symbol" : "DHP",
-  "symbol_image" : "dhealth/asset/dhp.png",
+  "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dhealth/asset/dhp.png",
   "bechAccountPrefix" : "dh",
   "bechValidatorPrefix" : "dhvaloper",
   "accountType" : [

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "sentinelhub-2",
     "chain_name": "Sentinel",
-    "chain_image": "sentinel/resource/chain_sentinel.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/resource/chain_sentinel.png",
     "symbol" : "DVPN",
-    "symbol_image" : "sentinel/asset/dvpn.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/asset/dvpn.png",
     "bechAccountPrefix" : "sent",
     "bechValidatorPrefix" : "sentvaloper",
     "name_for_dapp" : "SENTINEL", 

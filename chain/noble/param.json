@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "noble-1",
     "chain_name": "Noble",
-    "chain_image": "noble/resource/chain_noble.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/resource/chain_noble.png",
     "symbol" : "NOBLE",
-    "symbol_image" : "noble/asset/stake.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/stake.png",
     "bechAccountPrefix" : "noble",
     "bechValidatorPrefix" : "noblevaloper",
     "name_for_dapp" : "NOBLE", 

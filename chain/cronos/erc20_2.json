@@ -1,0 +1,75 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "name" : "Wrapped CRO",
+        "symbol": "WCRO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cronos/asset/wcro.png",
+        "coinGeckoId": "wrapped-cro",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+        "name" : "Tether",
+        "symbol": "USDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+        "name" : "USD Coin",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
+        "name" : "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB888d8Dd1733d72681b30c00ee76BDE93ae7aa93",
+        "name" : "Cosmos Hub (Erc20)",
+        "symbol": "ATOM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1a8E39ae59e5556B56b76fCBA98d22c9ae557396",
+        "name" : "Dogecoin",
+        "symbol": "DOGE",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/doge.png",
+        "coinGeckoId": "dogecoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbED48612BC69fA1CaB67052b42a95FB30C1bcFee",
+        "name" : "SHIBA INU",
+        "symbol": "SHIB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/shib.png",
+        "coinGeckoId": "shiba-inu"
+    }
+]

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "source-1",
     "chain_name": "Source",
-    "chain_image": "source/resource/chain_source.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/source/resource/chain_source.png",
     "symbol" : "SOURCE",
-    "symbol_image" : "source/asset/source.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/source/asset/source.png",
     "bechAccountPrefix" : "source",
     "bechValidatorPrefix" : "sourcevaloper",
     "accountType" : [

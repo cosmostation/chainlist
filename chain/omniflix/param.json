@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "omniflixhub-1",
     "chain_name": "Omniflix",
-    "chain_image": "omniflix/resource/chain_omniflix.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/omniflix/resource/chain_omniflix.png",
     "symbol" : "FLIX",
-    "symbol_image" : "omniflix/asset/flix.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/omniflix/asset/flix.png",
     "bechAccountPrefix" : "omniflix",
     "bechValidatorPrefix" : "omniflixvaloper",
     "name_for_dapp" : "OMNIFLIX", 

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "laozi-mainnet",
     "chain_name": "Band",
-    "chain_image": "band/resource/chain_band.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/band/resource/chain_band.png",
     "symbol" : "BAND",
-    "symbol_image" : "band/asset/band.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/band/asset/band.png",
     "bechAccountPrefix" : "band",
     "bechValidatorPrefix" : "bandvaloper",
     "name_for_dapp" : "BAND", 

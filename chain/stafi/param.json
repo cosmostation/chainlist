@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "stafihub-1",
     "chain_name": "Stafi",
-    "chain_image": "stafi/resource/chain_stafi.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stafi/resource/chain_stafi.png",
     "symbol" : "FIS",
-    "symbol_image" : "stafi/asset/fis.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stafi/asset/fis.png",
     "bechAccountPrefix" : "stafi",
     "bechValidatorPrefix" : "stafivaloper",
     "name_for_dapp" : "STAFIHUB", 

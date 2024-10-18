@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "titan-1",
     "chain_name": "Rizon",
-    "chain_image": "rizon/resource/chain_rizon.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/rizon/resource/chain_rizon.png",
     "symbol" : "ATOLO",
-    "symbol_image" : "rizon/asset/atolo.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/rizon/asset/atolo.png",
     "bechAccountPrefix" : "rizon",
     "bechValidatorPrefix" : "rizonvaloper",
     "name_for_dapp" : "RIZON", 

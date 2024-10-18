@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "emoney-3",
     "chain_name": "EMoney",
-    "chain_image": "emoney/resource/chain_emoney.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/emoney/resource/chain_emoney.png",
     "symbol" : "NGM",
-    "symbol_image" : "emoney/asset/ngm.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/emoney/asset/ngm.png",
     "bechAccountPrefix" : "emoney",
     "bechValidatorPrefix" : "emoneyvaloper",
     "name_for_dapp" : "EMONEY", 

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "comdex-1",
     "chain_name": "Comdex",
-    "chain_image": "comdex/resource/chain_comdex.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/resource/chain_comdex.png",
     "symbol" : "CMDX",
-    "symbol_image" : "comdex/asset/cmdx.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/asset/cmdx.png",
     "bechAccountPrefix" : "comdex",
     "bechValidatorPrefix" : "comdexvaloper",
     "name_for_dapp" : "COMDEX", 

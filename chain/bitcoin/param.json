@@ -1,8 +1,8 @@
 {
     "chain_name": "Bitcoin",
-    "chain_image": "bitcoin/resource/chain_bitcoin.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin/resource/chain_bitcoin.png",
     "symbol" : "BTC",
-    "symbol_image" : "bitcoin/asset/btc.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin/asset/btc.png",
     "origin_genesis_time" : "2009-01-03T18:15:05Z",
     "accountType" : [
         {
@@ -27,6 +27,19 @@
         "tx": "https://www.okx.com/web3/explorer/btc/tx/${hash}"
     },
     "about" : {
+        "website" : "https://bitcoin.org/",
+        "docs": "https://developer.bitcoin.org/devguide/",
+        "github" : "https://github.com/bitcoin",
+        "blog" : "https://bitcoin.org/en/blog",
+        "reddit" : "https://www.reddit.com/r/Bitcoin/",
+        "youtube" : "",
+        "twitter" : "", 
+        "telegram" : "",
+        "discord" : "",
+        "coingecko" : "https://www.coingecko.com/coins/bitcoin"
+    },
+    "forum": {
+      "main": "https://bitcointalk.org/"
     },
     "description" : {
         "ko" : "비트코인은 중앙기관 없이 개인들이 직접 거래할 수 있는 디지털 화폐입니다. 사용자들 간의 신뢰를 바탕으로 운영되며, 중개자 없이 안전하게 거래할 수 있습니다.",

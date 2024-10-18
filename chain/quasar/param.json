@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "quasar-1",
     "chain_name": "Quasar",
-    "chain_image": "quasar/resource/chain_quasar.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quasar/resource/chain_quasar.png",
     "symbol" : "QSR",
-    "symbol_image" : "quasar/asset/qsr.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quasar/asset/qsr.png",
     "bechAccountPrefix" : "quasar",
     "bechValidatorPrefix" : "quasarvaloper",
     "name_for_dapp" : "QUASAR", 

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "ixo-5",
     "chain_name": "Ixo",
-    "chain_image": "ixo/resource/chain_ixo.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ixo/resource/chain_ixo.png",
     "symbol" : "IXO",
-    "symbol_image" : "ixo/asset/ixo.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ixo/asset/ixo.png",
     "bechAccountPrefix" : "ixo",
     "bechValidatorPrefix" : "ixovaloper",
     "name_for_dapp" : "IXO", 

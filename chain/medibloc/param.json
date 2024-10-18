@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "panacea-3",
     "chain_name": "Medibloc",
-    "chain_image": "medibloc/resource/chain_medibloc.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medibloc/resource/chain_medibloc.png",
     "symbol" : "MED",
-    "symbol_image" : "medibloc/asset/med.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medibloc/asset/med.png",
     "bechAccountPrefix" : "panacea",
     "bechValidatorPrefix" : "panaceavaloper",
     "name_for_dapp" : "MEDIBLOC", 

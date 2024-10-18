@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "wormchain",
     "chain_name": "Wormhole Gateway",
-    "chain_image": "gateway/resource/chain_gateway.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gateway/resource/chain_gateway.png",
     "symbol" : "WORM",
-    "symbol_image" : "gateway/asset/worm.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gateway/asset/worm.png",
     "bechAccountPrefix" : "wormhole",
     "bechValidatorPrefix" : "wormholevaloper",
     "name_for_dapp" : "Wormhole Gateway",

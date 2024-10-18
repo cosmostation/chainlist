@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "pryzm-1",
     "chain_name": "Pryzm",
-    "chain_image": "pryzm/resource/chain_pryzm.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pryzm/resource/chain_pryzm.png",
     "symbol" : "PRYZM",
-    "symbol_image" : "pryzm/asset/pryzm.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pryzm/asset/pryzm.png",
     "bechAccountPrefix" : "pryzm",
     "bechValidatorPrefix" : "pryzmvaloper",
     "name_for_dapp" : "PRYZM", 

@@ -1,0 +1,14 @@
+[
+    {
+        
+        "type": "cw20",
+        "contract": "shido14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s6cptmu",
+        "name" : "Cw20-base token",
+        "symbol": "INR",
+        "description": "Cw20-base token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shido.png",
+        "coinGeckoId": "shido-2",
+        "wallet_preload": true
+    }
+]

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "archway-1",
     "chain_name": "Archway",
-    "chain_image": "archway/resource/chain_archway.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/resource/chain_archway.png",
     "symbol" : "ARCH",
-    "symbol_image" : "archway/asset/arch.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/arch.png",
     "bechAccountPrefix" : "archway",
     "bechValidatorPrefix" : "archwayvaloper",
     "name_for_dapp" : "ARCHWAY", 

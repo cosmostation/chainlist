@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "finschia-2",
     "chain_name": "Finschia",
-    "chain_image": "finschia/resource/chain_finschia.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/finschia/resource/chain_finschia.png",
     "symbol" : "FNSA",
-    "symbol_image" : "finschia/asset/fnsa.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/finschia/asset/fnsa.png",
     "bechAccountPrefix" : "link",
     "bechValidatorPrefix" : "linkvaloper",
     "name_for_dapp" : "FINSCHIA", 

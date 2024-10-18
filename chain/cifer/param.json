@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "cifer-2",
     "chain_name": "Cifer",
-    "chain_image": "cifer/resource/chain_cif.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cifer/resource/chain_cif.png",
     "symbol" : "CIF",
-    "symbol_image" : "cifer/asset/cif.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cifer/asset/cif.png",
     "bechAccountPrefix" : "cife",
     "bechValidatorPrefix" : "cifevaloper",
     "api_name" : "cifer",

@@ -1,0 +1,26 @@
+[
+    {
+        "type": "cw20",
+        "contract": "chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
+        "name" : "Puppy",
+        "symbol": "PUPPY",
+        "description": "The 21m Bitcoins of Chihuahua",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/puppy.png",
+        "coinGeckoId": "puppy",
+        "color": "#100e0d",
+        "wallet_preload": true
+    },
+    {
+        "type": "cw20",
+        "contract": "chihuahua1jz5n4aynhpxx7clf2m8hrv9dp5nz83k67fgaxhy4p9dfwl6zssrq3ymr6w",
+        "name" : "BackBone Labs Liquid Staked HUAHUA",
+        "symbol": "bHUAHUA",
+        "description": "BackBone Labs Liquid Staked HUAHUA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/bhuahua.png",
+        "coinGeckoId": "backbone-labs-staked-huahua",
+        "color": "#f2bd3a",
+        "wallet_preload": true
+    }
+]

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos": "lava-mainnet-1",
     "chain_name": "Lava",
-    "chain_image": "lava/resource/chain_lava.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lava/resource/chain_lava.png",
     "symbol" : "LAVA",
-    "symbol_image" : "lava/asset/lava.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lava/asset/lava.png",
     "bechAccountPrefix" : "lava@",
     "bechValidatorPrefix" : "lava@valoper",
     "name_for_dapp" : "LAVA", 

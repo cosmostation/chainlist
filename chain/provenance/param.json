@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "pio-mainnet-1",
     "chain_name": "Provenance",
-    "chain_image": "provenance/resource/chain_provenance.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/provenance/resource/chain_provenance.png",
     "symbol" : "HASH",
-    "symbol_image" : "provenance/asset/hash.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/provenance/asset/hash.png",
     "bechAccountPrefix" : "pb",
     "bechValidatorPrefix" : "pbvaloper",
     "name_for_dapp" : "PROVENANCE", 

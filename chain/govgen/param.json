@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "govgen-1",
     "chain_name": "GOVGEN",
-    "chain_image": "govgen/resource/chain_govgen.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/govgen/resource/chain_govgen.png",
     "symbol" : "GOVGEN",
-    "symbol_image" : "govgen/asset/govgen.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/govgen/asset/govgen.png",
     "bechAccountPrefix" : "govgen",
     "bechValidatorPrefix" : "govgenvaloper",
     "name_for_dapp" : "GOVGEN", 

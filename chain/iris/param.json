@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "irishub-1",
     "chain_name": "Iris",
-    "chain_image": "iris/resource/chain_iris.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iris/resource/chain_iris.png",
     "symbol" : "IRIS",
-    "symbol_image" : "iris/asset/iris.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iris/asset/iris.png",
     "bechAccountPrefix" : "iaa",
     "bechValidatorPrefix" : "iva",
     "name_for_dapp" : "IRIS", 

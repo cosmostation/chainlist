@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "kichain-2",
     "chain_name": "Ki Chain",
-    "chain_image": "ki-chain/resource/chain_ki-chain.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ki-chain/resource/chain_ki-chain.png",
     "symbol" : "XKI",
-    "symbol_image" : "ki-chain/asset/xki.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ki-chain/asset/xki.png",
     "bechAccountPrefix" : "ki",
     "bechValidatorPrefix" : "kivaloper",
     "name_for_dapp" : "KI", 

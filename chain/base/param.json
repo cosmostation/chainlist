@@ -1,9 +1,9 @@
 {
     "chain_id_evm" : "0x2105",
     "chain_name": "Base",
-    "chain_image": "base/resource/chain_base.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/resource/chain_base.png",
     "symbol" : "ETH",
-    "symbol_image" : "base/asset/eth_base.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/eth_base.png",
     "origin_genesis_time" : "2023-01-15T12:35:49Z",
     "moblie_dapp" : true,
     "evm_fee" : {

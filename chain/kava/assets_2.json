@@ -8,7 +8,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
         "coinGeckoId": "kava",
-        "color": "#9248DB"
+        "color": "#FF564F"
     },
     {
         "type": "ibc",
@@ -188,6 +188,17 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
         "coinGeckoId": "wrapped-bitcoin",
+        "color": "#FFFFFF"
+    },
+    {
+        "type": "native",
+        "denom": "erc20/meson/mbtc",
+        "name" : "M-BTC",
+        "symbol": "M-BTC",
+        "description": "Merlin's Seal Bitcoin on Kava",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mbtc.png",
+        "coinGeckoId": "merlin-s-seal-btc",
         "color": "#FFFFFF"
     },
     {
