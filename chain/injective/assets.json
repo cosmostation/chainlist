@@ -1580,5 +1580,17 @@
     "description": "SYN burn derivative",
     "image": "injective/asset/syn.ash.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/inj178zy7myyxewek7ka7v9hru8ycpvfnen6xeps89/DRUGS",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj178zy7myyxewek7ka7v9hru8ycpvfnen6xeps89/DRUGS",
+    "origin_type": "native",
+    "symbol": "DRUGS",
+    "decimals": 6,
+    "description": "Distributing Happiness",
+    "image": "injective/asset/drugsoninj.png",
+    "coinGeckoId": ""
   }
 ]
