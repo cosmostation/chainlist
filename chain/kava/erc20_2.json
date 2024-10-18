@@ -1,0 +1,285 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
+        "name" : "Wrapped Kava",
+        "symbol": "WKAVA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_wkava.png",
+        "coinGeckoId": "wrapped-kava",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
+        "name" : "Tether USDt (Erc20)",
+        "symbol": "USDt",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_usd₮.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3",
+        "name" : "ATOM (Erc20)",
+        "symbol": "ATOM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_atom.png",
+        "coinGeckoId": "cosmos",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+        "name" : "Multichain USDC",
+        "symbol": "MultiUSDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_multiusdc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+        "name" : "Multichain USDT",
+        "symbol": "MultiUSDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_multiusdt.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+        "name" : "Multichain Dai Stablecoin",
+        "symbol": "MultiDAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_multidai.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+        "name" : "Multichain Wrapped BTC",
+        "symbol": "MultiWBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_multiwbtc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+        "name" : "Axelar Wrapped USDC (Erc20)",
+        "symbol": "axlUSDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_axlusdc.png",
+        "coinGeckoId": "usd-coin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad",
+        "name" : "Axelar Wrapped WBTC (Erc20)",
+        "symbol": "axlWBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_axlwbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
+        "name" : "Axelar Wrapped USDT (Erc20)",
+        "symbol": "axlUSDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_axlusdt.png",
+        "coinGeckoId": "tether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb829b68f57CC546dA7E5806A929e53bE32a4625D",
+        "name" : "Axelar Wrapped ETH (Erc20)",
+        "symbol": "axlETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_axlweth.png",
+        "coinGeckoId": "weth-wei"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5E2Cf56A562b1bDD32ec26315063074ADC420C73",
+        "name" : "Axelar Wrapped FIL (Erc20)",
+        "symbol": "axlFIL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_axlwfil.png",
+        "coinGeckoId": "wfil-wei"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x332c72dd7E77070740F01d2d35851c461585D5d0",
+        "name" : "Axelar LiquidDriver",
+        "symbol": "axlLqdr",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/kava_evm_axlLqdr.png",
+        "coinGeckoId": "liquiddriver"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x88DfaAABaf06f3a41D2606EA98BC8edA109AbeBb",
+        "name" : "Axelar Mai Stablecoin ",
+        "symbol": "axlWMAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/15264/small/mimatic-red.png",
+        "coinGeckoId": "mimatic"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB448eC505C924944ca8B2C55EF05c299eE0781df",
+        "name" : "Kyber Network Crystal",
+        "symbol": "axlKNC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/kava_evm_axlknc.png",
+        "coinGeckoId": "kyber-network-crystal"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb5c4423a65B953905949548276654C96fcaE6992",
+        "name" : "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE",
+        "name" : "Elk Finance",
+        "symbol": "ELK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/elk.png",
+        "coinGeckoId": "elk-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd86C8d4279CCaFbec840c782BcC50D201f277419",
+        "name" : "Mare Finance",
+        "symbol": "MARE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mare.png",
+        "coinGeckoId": "mare-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa334884bF6b0A066d553D19e507315E839409e62",
+        "name" : "Ethos Reserve Note",
+        "symbol": "ERN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/ern.png",
+        "coinGeckoId": "ethos-reserve-note"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+        "name" : "Axelar (Erc20)",
+        "symbol": "AXL",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
+        "coinGeckoId": "axelar"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x23A6486099f740B7688A0bb7AED7C912015cA2F0",
+        "name" : "BNB (Erc20)",
+        "symbol": "BNB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/bnb.png",
+        "coinGeckoId": "wbnb-wei"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4D84E25cEa9447581867fE9f2329B972f532Da2c",
+        "name" : "BUSD (Erc20)",
+        "symbol": "BUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/busd.png",
+        "coinGeckoId": "binance-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb84df10966a5d7e1ab46d9276f55d57bd336afc7",
+        "name" : "Mai Stablecoin",
+        "symbol": "MAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/15264/small/mimatic-red.png",
+        "coinGeckoId": "mimatic"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc09c73f7b32573d178138e76c0e286ba21085c20",
+        "name" : "QiDao",
+        "symbol": "QI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/15329/small/qi.png",
+        "coinGeckoId": "qi-dao"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+        "name" : "Vara",
+        "symbol": "VARA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/23836.png",
+        "coinGeckoId": "equilibre"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xe5274e38e91b615d8822e8512a29a16ff1b9c4af",
+        "name" : "Pinjam.Kava",
+        "symbol": "PINKAV",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/30803/small/PINKAV_Logo_%28200x200%29.png",
+        "coinGeckoId": "pinjam-kava"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdb0e1e86b01c4ad25241b1843e407efc4d615248",
+        "name" : "dForce USD",
+        "symbol": "USX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/17422/small/usx_32.png",
+        "coinGeckoId": "token-dforce-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x00e1724885473B63bCE08a9f0a52F35b0979e35A",
+        "name" : "Oath Token",
+        "symbol": "OATH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/18520.png",
+        "coinGeckoId": "oath"
+    }
+]

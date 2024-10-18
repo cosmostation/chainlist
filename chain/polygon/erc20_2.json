@@ -1,0 +1,112 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "name" : "WMATIC",
+        "symbol": "WMATIC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/wmatic.png",
+        "coinGeckoId": "wmatic",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "name" : "Wrapped Ether",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "name" : "Polygon Bridged USDT",
+        "symbol": "USDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "polygon-bridged-usdt-polygon",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3BA4c387f786bFEE076A58914F5Bd38d668B42c3",
+        "name" : "BNB",
+        "symbol": "BNB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/bnb.png",
+        "coinGeckoId": "binancecoin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7",
+        "name" : "Binance USD",
+        "symbol": "BUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/busd.png",
+        "coinGeckoId": "binance-usd",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b",
+        "name" : "Avalanche",
+        "symbol": "AVAX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/avax.png",
+        "coinGeckoId": "avalanche-2",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+        "name" : "USDC Coin",
+        "symbol": "USD",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "name" : "USD Coin (PoS)",
+        "symbol": "USDC.e",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "name" : "Wrapped BTC (PoS)",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+        "name" : "Lido DAO Token (PoS)",
+        "symbol": "LDO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ldo.png",
+        "coinGeckoId": "lido-dao",
+        "wallet_preload": true
+    }
+]
