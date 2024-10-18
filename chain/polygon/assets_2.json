@@ -1,10 +1,10 @@
 [
     {
         "type": "native",
-        "denom": "",
+        "denom": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
         "name": "Polygon",
         "symbol": "MATIC",
-        "description": "Polygon native coin",
+        "description": "Polygon Native Coin",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/matic.png",
         "coinGeckoId": "tokenMatic"
