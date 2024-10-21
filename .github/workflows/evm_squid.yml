@@ -1,0 +1,41 @@
+name: EVM Squid Merge
+
+on:
+  workflow_dispatch:
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run code modification script
+        run: | 
+          node _script/evm_squid.js arbitrum 42161
+          node _script/evm_squid.js avalanche 43114
+          node _script/evm_squid.js base 8453
+          
+
+      - name: Create dynamic branch name
+        id: vars
+        run: |
+          BRANCH_NAME="update-assets-$(date +%Y%m%d%H%M%S)"
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Automated code modification"
+          branch: ${{ steps.vars.outputs.branch_name }}
+          title: "Automated PR: Weekly evm assets modification"
+          body: "arbitrum / avalanche / base"
+          draft: false
+          delete-branch: true  # PR 병합 후 브랜치 삭제
