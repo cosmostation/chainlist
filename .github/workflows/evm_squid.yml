@@ -25,7 +25,7 @@ jobs:
         id: vars
         run: |
           BRANCH_NAME="update-assets-$(date +%Y%m%d%H%M%S)"
-          echo "branch_name={BRANCH_NAME}" >> $GITHUB_OUTPUT
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
