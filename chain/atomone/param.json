@@ -16,7 +16,6 @@
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
     ],
-    "isBankLocked" : true,
     "fee" : {
         "base" : "0",
         "rate" : [
