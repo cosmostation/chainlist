@@ -18,8 +18,10 @@ jobs:
 
       - name: Run code modification script
         run: | 
-          node _script/evm_squid.js arbitrum 42161 && node _script/evm_squid.js avalanche 43114 && node _script/evm_squid.js base 8453
-          git status
+          node _script/evm_squid.js arbitrum 42161
+          node _script/evm_squid.js avalanche 43114
+          node _script/evm_squid.js base 8453
+          
 
       - name: Create dynamic branch name
         id: vars
