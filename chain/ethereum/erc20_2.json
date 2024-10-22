@@ -1,0 +1,2899 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "name" : "Tether",
+        "symbol": "USDT",
+        "description": "Tether",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name" : "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB",
+        "name" : "Ether.fi governance token",
+        "symbol": "ETHFI",
+        "description": "Ether.fi governance token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ethfi.png",
+        "coinGeckoId": "ether-fi",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+        "name" : "ether fi Staked ETH",
+        "symbol": "eETH",
+        "description": "ether fi Staked ETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eeth.png",
+        "coinGeckoId": "ether-fi-staked-eth",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "name" : "Wrapped eETH",
+        "symbol": "weETH",
+        "description": "Wrapped eETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weeth.png",
+        "coinGeckoId": "wrapped-eeth",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name" : "WETH",
+        "symbol": "WETH",
+        "description": "WETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
+        "name" : "DYDX Token",
+        "symbol": "DYDX",
+        "description": "DYDX Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/asset/dydx.png",
+        "coinGeckoId": "dydx",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+        "name" : "Binance USD",
+        "symbol": "BUSD",
+        "description": "Binance USD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/busd.png",
+        "coinGeckoId": "binance-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0000000000085d4780B73119b644AE5ecd22b376",
+        "name" : "TrueUSD",
+        "symbol": "TUSD",
+        "description": "TrueUSD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tusd.png",
+        "coinGeckoId": "true-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0000000000095413afC295d19EDeb1Ad7B71c952",
+        "name" : "Tokenlon",
+        "symbol": "LON",
+        "description": "Tokenlon",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lon.png",
+        "coinGeckoId": "tokenlon"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0",
+        "name" : "AllianceBlock",
+        "symbol": "ALBT",
+        "description": "AllianceBlock",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/albt.png",
+        "coinGeckoId": "allianceblock"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7",
+        "name" : "SKALE Network",
+        "symbol": "SKL",
+        "description": "SKALE Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/skl.png",
+        "coinGeckoId": "skale"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1",
+        "name" : "UniLend",
+        "symbol": "UFT",
+        "description": "UniLend",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uft.png",
+        "coinGeckoId": "unlend-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a",
+        "name" : "Orion Protocol",
+        "symbol": "ORN",
+        "description": "Orion Protocol",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/orn.png",
+        "coinGeckoId": "orion-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919",
+        "name" : "Rai Reflex Index",
+        "symbol": "RAI",
+        "description": "Rai Reflex Index",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rai.png",
+        "coinGeckoId": "rai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0488401c3F535193Fa8Df029d9fFe615A06E74E6",
+        "name" : "SparkPoint",
+        "symbol": "SRK",
+        "description": "SparkPoint",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/srk.png",
+        "coinGeckoId": "sparkpoint"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+        "name" : "UMA",
+        "symbol": "UMA",
+        "description": "UMA",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uma.png",
+        "coinGeckoId": "uma"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x06A01a4d579479Dd5D884EBf61A31727A3d8D442",
+        "name" : "Skey Network",
+        "symbol": "SKEY",
+        "description": "Skey Network",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/skey.png",
+        "coinGeckoId": "skey-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x07150e919B4De5fD6a63DE1F9384828396f25fDC",
+        "name" : "Base Protocol",
+        "symbol": "BASE",
+        "description": "Base Protocol",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/base.png",
+        "coinGeckoId": "base-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x09a3EcAFa817268f77BE1283176B946C4ff2E608",
+        "name" : "Mirror Protocol",
+        "symbol": "MIR",
+        "description": "Mirror Protocol",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mir.png",
+        "coinGeckoId": "mirror-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0a50C93c762fDD6E56D86215C24AaAD43aB629aa",
+        "name" : "LGO Token",
+        "symbol": "LGO",
+        "description": "LGO Token",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lgo.png",
+        "coinGeckoId": "legolas-exchange"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0Ae055097C6d159879521C384F1D2123D1f195e6",
+        "name" : "xDai",
+        "symbol": "STAKE",
+        "description": "xDai",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/stake.png",
+        "coinGeckoId": "xdai-stake"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+        "name" : "yearn.finance",
+        "symbol": "YFI",
+        "description": "yearn.finance",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/yfi.png",
+        "coinGeckoId": "yearn-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0c7D5ae016f806603CB1782bEa29AC69471CAb9c",
+        "name" : "Bifrost",
+        "symbol": "BFC",
+        "description": "Bifrost",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bfc.png",
+        "coinGeckoId": "bifrost"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0CDF9acd87E940837ff21BB40c9fd55F68bba059",
+        "name" : "Public Mint",
+        "symbol": "MINT",
+        "description": "Public Mint",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mint.png",
+        "coinGeckoId": "public-mint"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0cEC1A9154Ff802e7934Fc916Ed7Ca50bDE6844e",
+        "name" : "PoolTogether",
+        "symbol": "POOL",
+        "description": "PoolTogether",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pool.png",
+        "coinGeckoId": "pooltogether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+        "name" : "Basic Attention Token",
+        "symbol": "BAT",
+        "description": "Basic Attention Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bat.png",
+        "coinGeckoId": "basic-attention-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0f51bb10119727a7e5eA3538074fb341F56B09Ad",
+        "name" : "DAO Maker",
+        "symbol": "DAO",
+        "description": "DAO Maker",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dao.png",
+        "coinGeckoId": "dao-maker"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+        "name" : "Decentraland",
+        "symbol": "MANA",
+        "description": "Decentraland",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mana.png",
+        "coinGeckoId": "decentraland"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704",
+        "name" : "Blockzero Labs",
+        "symbol": "XIO",
+        "description": "Blockzero Labs",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xio.png",
+        "coinGeckoId": "xio"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+        "name" : "Pundi X",
+        "symbol": "PUNDIX",
+        "description": "Pundi X",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pundix.png",
+        "coinGeckoId": "pundi-x-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0fF6ffcFDa92c53F615a4A75D982f399C989366b",
+        "name" : "Unilayer",
+        "symbol": "LAYER",
+        "description": "Unilayer",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/layer.png",
+        "coinGeckoId": "unilayer"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x10Be9a8dAe441d276a5027936c3aADEd2d82bC15",
+        "name" : "UniMex Network",
+        "symbol": "UMX",
+        "description": "UniMex Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/umx.png",
+        "coinGeckoId": "unimex-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x111111111117dC0aa78b770fA6A738034120C302",
+        "name" : "1INCH Token",
+        "symbol": "1INCH",
+        "description": "1INCH Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/1inch.png",
+        "coinGeckoId": "1inch"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a",
+        "name" : "ARMOR",
+        "symbol": "ARMOR",
+        "description": "ARMOR",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/armor.png",
+        "coinGeckoId": "armor"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1337DEF18C680aF1f9f45cBcab6309562975b1dD",
+        "name" : "Armor NXM",
+        "symbol": "arNXM",
+        "description": "Armor NXM",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/arnxm.png",
+        "coinGeckoId": "armor-nxm"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
+        "name" : "DeFi Pulse Index",
+        "symbol": "DPI",
+        "description": "DeFi Pulse Index",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dpi.png",
+        "coinGeckoId": "defipulse-index"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x15874d65e649880c2614e7a480cb7c9A55787FF6",
+        "name" : "EthereumMax",
+        "symbol": "eMax",
+        "description": "EthereumMax",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/emax.png",
+        "coinGeckoId": "ethereummax"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1614F18Fc94f47967A3Fbe5FfcD46d4e7Da3D787",
+        "name" : "PAID Network",
+        "symbol": "PAID",
+        "description": "PAID Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/paid.png",
+        "coinGeckoId": "paid-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x16980b3B4a3f9D89E33311B5aa8f80303E5ca4F8",
+        "name" : "KIRA Network",
+        "symbol": "KEX",
+        "description": "KIRA Network",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/kex.png",
+        "coinGeckoId": "kira-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1796ae0b0fa4862485106a0de9b654eFE301D0b2",
+        "name" : "Polychain Monsters",
+        "symbol": "PMON",
+        "description": "Polychain Monsters",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pmon.png",
+        "coinGeckoId": "polychain-monsters"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998",
+        "name" : "Audius",
+        "symbol": "AUDIO",
+        "description": "Audius",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/audio.png",
+        "coinGeckoId": "audius"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
+        "name" : "Reputation",
+        "symbol": "REP",
+        "description": "Reputation",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rep.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
+        "name" : "Vesper Finance",
+        "symbol": "VSP",
+        "description": "Vesper Finance",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/vsp.png",
+        "coinGeckoId": "vesper-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1C9922314ED1415c95b9FD453c3818fd41867d0B",
+        "name" : "TOWER",
+        "symbol": "TOWER",
+        "description": "TOWER",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tower.png",
+        "coinGeckoId": "tower"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1cBb83EbcD552D5EBf8131eF8c9CD9d9BAB342bC",
+        "name" : "Non-Fungible Yearn",
+        "symbol": "NFY",
+        "description": "Non-Fungible Yearn",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/nfy.png",
+        "coinGeckoId": "non-fungible-yearn"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44",
+        "name" : "Keep3rV1",
+        "symbol": "KP3R",
+        "description": "Keep3rV1",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/kp3r.png",
+        "coinGeckoId": "keep3rv1"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1dD80016e3d4ae146Ee2EBB484e8edD92dacC4ce",
+        "name" : "Lead Wallet",
+        "symbol": "LEAD",
+        "description": "Lead Wallet",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lead.png",
+        "coinGeckoId": "lead-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "name" : "Uniswap",
+        "symbol": "UNI",
+        "description": "Uniswap",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uni.png",
+        "coinGeckoId": "uniswap"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1fE24F25b1Cf609B9c4e7E12D802e3640dFA5e43",
+        "name" : "Chain Guardians",
+        "symbol": "CGG",
+        "description": "ChainGuardians Governance Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cgg.png",
+        "coinGeckoId": "chain-guardians"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x21BfBDa47A0B4B5b1248c767Ee49F7caA9B23697",
+        "name" : "Ovr",
+        "symbol": "OVR",
+        "description": "Ovr",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ovr.png",
+        "coinGeckoId": "ovr"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x221657776846890989a759BA2973e427DfF5C9bB",
+        "name" : "Augur",
+        "symbol": "REP",
+        "description": "Augur",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/repv2.png",
+        "coinGeckoId": "augur"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "name" : "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x226f7b842E0F0120b7E194D05432b3fd14773a9D",
+        "name" : "UNION Protocol Governance",
+        "symbol": "UNN",
+        "description": "UNION Protocol Governance Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/unn.png",
+        "coinGeckoId": "union-protocol-governance-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5",
+        "name" : "Unisocks",
+        "symbol": "SOCKS",
+        "description": "Unisocks Edition 0",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/socks.png",
+        "coinGeckoId": "unisocks"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x25e1474170c4c0aA64fa98123bdc8dB49D7802fa",
+        "name" : "Bidao",
+        "symbol": "BID",
+        "description": "Bidao",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bid.png",
+        "coinGeckoId": "bidao"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x26c8AFBBFE1EBaca03C2bB082E69D0476Bffe099",
+        "name" : "Cellframe",
+        "symbol": "CELL",
+        "description": "Cellframe",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cell.png",
+        "coinGeckoId": "cellframe"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x26E43759551333e57F073bb0772F50329A957b30",
+        "name" : "DegenVC",
+        "symbol": "DGVC",
+        "description": "DegenVC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dgvc.png",
+        "coinGeckoId": "degenvc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x27C70Cd1946795B66be9d954418546998b546634",
+        "name" : "Doge Killer",
+        "symbol": "LEASH",
+        "description": "Doge Killer",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/leash.png",
+        "coinGeckoId": "leash"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+        "name" : "HEX",
+        "symbol": "HEX",
+        "description": "HEX",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/hex.png",
+        "coinGeckoId": "hex"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2ba592F78dB6436527729929AAf6c908497cB200",
+        "name" : "Cream",
+        "symbol": "CREAM",
+        "description": "Cream Finance",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cream.png",
+        "coinGeckoId": "cream-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2e1E15C44Ffe4Df6a0cb7371CD00d5028e571d14",
+        "name" : "Mettalex",
+        "symbol": "MTLX",
+        "description": "Mettalex",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mtlx.png",
+        "coinGeckoId": "mettalex"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5",
+        "name" : "ZeroSwap",
+        "symbol": "ZEE",
+        "description": "ZeroSwap",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zee.png",
+        "coinGeckoId": "zeroswap"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x30f271C9E86D2B7d00a6376Cd96A1cFBD5F0b9b3",
+        "name" : "Decentr",
+        "symbol": "DEC",
+        "description": "Decentr",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dec.png",
+        "coinGeckoId": "decentr"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3155BA85D5F96b2d030a4966AF206230e46849cb",
+        "name" : "THORChain",
+        "symbol": "RUNE",
+        "description": "THORChain ETH.RUNE",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rune.png",
+        "coinGeckoId": "thorchain-erc20"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3301Ee63Fb29F863f2333Bd4466acb46CD8323E6",
+        "name" : "Akita Inu",
+        "symbol": "AKITA",
+        "description": "Akita Inu",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/akita.png",
+        "coinGeckoId": "akita-inu"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3383c5a8969Dc413bfdDc9656Eb80A1408E4bA20",
+        "name" : "Wrapped ANATHA",
+        "symbol": "wANATHA",
+        "description": "Wrapped ANATHA",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wanatha.png",
+        "coinGeckoId": "wrapped-anatha"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f",
+        "name" : "RAMP",
+        "symbol": "RAMP",
+        "description": "RAMP [OLD]",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ramp.png",
+        "coinGeckoId": "ramp"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3593D125a4f7849a1B059E64F4517A86Dd60c95d",
+        "name" : "MANTRA",
+        "symbol": "OM",
+        "description": "MANTRA DAO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/om.png",
+        "coinGeckoId": "mantra-dao"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x362bc847A3a9637d3af6624EeC853618a43ed7D2",
+        "name" : "PARSIQ",
+        "symbol": "PRQ",
+        "description": "PARSIQ",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/prq.png",
+        "coinGeckoId": "parsiq"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+        "name" : "The Sandbox",
+        "symbol": "SAND",
+        "description": "The Sandbox",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sand.png",
+        "coinGeckoId": "the-sandbox"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x389999216860AB8E0175387A0c90E5c52522C945",
+        "name" : "FEG",
+        "symbol": "FEG",
+        "description": "FEG Token",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fegeth.png",
+        "coinGeckoId": "feg-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1",
+        "name" : "PowerPool Concentrated Voting Power",
+        "symbol": "CVP",
+        "description": "PowerPool Concentrated Voting Power",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cvp.png",
+        "coinGeckoId": "concentrated-voting-power"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3aFfCCa64c2A6f4e3B6Bd9c64CD2C969EFd1ECBe",
+        "name" : "DSLA",
+        "symbol": "DSLA",
+        "description": "DSLA",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dsla.png",
+        "coinGeckoId": "stacktical"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3D3D35bb9bEC23b06Ca00fe472b50E7A4c692C30",
+        "name" : "Vidya",
+        "symbol": "VIDYA",
+        "description": "Vidya",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/vidya.png",
+        "coinGeckoId": "vidya"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x408e41876cCCDC0F92210600ef50372656052a38",
+        "name" : "Ren",
+        "symbol": "REN",
+        "description": "Ren",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ren.png",
+        "coinGeckoId": "republic-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677",
+        "name" : "Sora",
+        "symbol": "XOR",
+        "description": "Sora",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xor.png",
+        "coinGeckoId": "sora"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
+        "name" : "FunFair",
+        "symbol": "FUN",
+        "description": "FunFair",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fun.png",
+        "coinGeckoId": "funfair"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x41A3Dba3D677E573636BA691a70ff2D606c29666",
+        "name" : "BlockWallet",
+        "symbol": "BLANK",
+        "description": "BlockWallet",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/blank.png",
+        "coinGeckoId": "blank"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5",
+        "name" : "Pickle Finance",
+        "symbol": "PICKLE",
+        "description": "Pickle Finance",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pickle.png",
+        "coinGeckoId": "pickle-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x431ad2ff6a9C365805eBaD47Ee021148d6f7DBe0",
+        "name" : "dForce",
+        "symbol": "DF",
+        "description": "dForce",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/df.png",
+        "coinGeckoId": "dforce-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E",
+        "name" : "FLOKI",
+        "symbol": "FLOKI",
+        "description": "FLOKI",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/floki.png",
+        "coinGeckoId": "floki"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb",
+        "name" : "Orchid Protocol",
+        "symbol": "OXT",
+        "description": "Orchid Protocol",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/oxt.png",
+        "coinGeckoId": "orchid-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+        "name" : "PAX Gold",
+        "symbol": "PAXG",
+        "description": "PAX Gold",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/paxg.png",
+        "coinGeckoId": "pax-gold"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+        "name" : "WOO",
+        "symbol": "WOO",
+        "description": "WOO Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/woo.png",
+        "coinGeckoId": "woo-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4a220E6096B25EADb88358cb44068A3248254675",
+        "name" : "Quant",
+        "symbol": "QNT",
+        "description": "Quant",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/qnt.png",
+        "coinGeckoId": "quant-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4B1E80cAC91e2216EEb63e29B957eB91Ae9C2Be8",
+        "name" : "Jupiter",
+        "symbol": "JUP",
+        "description": "Jupiter",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/jup.png",
+        "coinGeckoId": "jupiter"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4c11249814f11b9346808179Cf06e71ac328c1b5",
+        "name" : "Oraichain",
+        "symbol": "ORAI",
+        "description": "Oraichain Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/orai.png",
+        "coinGeckoId": "oraichain-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
+        "name" : "TrueFi",
+        "symbol": "TRU",
+        "description": "TrueFi",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tru.png",
+        "coinGeckoId": "truefi"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42",
+        "name" : "MCDEX Token",
+        "symbol": "MCB",
+        "description": "MCDEX Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mcb.png",
+        "coinGeckoId": "mcdex"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4fE83213D56308330EC302a8BD641f1d0113A4Cc",
+        "name" : "NuCypher",
+        "symbol": "NU",
+        "description": "NuCypher",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/nu.png",
+        "coinGeckoId": "nucypher"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd",
+        "name" : "Razor Network",
+        "symbol": "RAZOR",
+        "description": "Razor Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/razor.png",
+        "coinGeckoId": "razor-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "name" : "Chainlink",
+        "symbol": "LINK",
+        "description": "Chainlink",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
+        "coinGeckoId": "chainlink"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6",
+        "name" : "unFederalReserve",
+        "symbol": "eRSDL",
+        "description": "unFederalReserve",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ersdl.png",
+        "coinGeckoId": "unfederalreserve"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5228a22e72ccC52d415EcFd199F99D0665E7733b",
+        "name" : "pTokens BTC",
+        "symbol": "pBTC",
+        "description": "pTokens BTC [OLD]",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pbtc.png",
+        "coinGeckoId": "ptokens-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x54C9EA2E9C9E8eD865Db4A4ce6711C2a0d5063Ba",
+        "name" : "BarterTrade",
+        "symbol": "BART",
+        "description": "BarterTrade",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bart.png",
+        "coinGeckoId": "bartertrade"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x557B933a7C2c45672B610F8954A3deB39a51A8Ca",
+        "name" : "REVV",
+        "symbol": "REVV",
+        "description": "REVV",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/revv.png",
+        "coinGeckoId": "revv"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+        "name" : "Synth sUSD",
+        "symbol": "sUSD",
+        "description": "Synth sUSD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/susd.png",
+        "coinGeckoId": "nusd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x584bC13c7D411c00c01A62e8019472dE68768430",
+        "name" : "Hegic",
+        "symbol": "HEGIC",
+        "description": "Hegic",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/hegic.png",
+        "coinGeckoId": "hegic"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5a666c7d92E5fA7Edcb6390E4efD6d0CDd69cF37",
+        "name" : "Unmarshal",
+        "symbol": "MARSH",
+        "description": "Unmarshal",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/marsh.png",
+        "coinGeckoId": "unmarshal"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5cAf454Ba92e6F2c929DF14667Ee360eD9fD5b26",
+        "name" : "Dev",
+        "symbol": "DEV",
+        "description": "Dev",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dev.png",
+        "coinGeckoId": "dev-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0",
+        "name" : "DEXTF Token",
+        "symbol": "DEXTF",
+        "description": "DEXTF Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dextf.png",
+        "coinGeckoId": "dextf"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+        "name" : "Liquity USD",
+        "symbol": "LUSD",
+        "description": "Liquity USD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lusd.png",
+        "coinGeckoId": "liquity-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x607F4C5BB672230e8672085532f7e901544a7375",
+        "name" : "RLC",
+        "symbol": "RLC",
+        "description": "iExec RLC",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rlc.png",
+        "coinGeckoId": "iexec-rlc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6149C26Cd2f7b5CCdb32029aF817123F6E37Df5B",
+        "name" : "Launchpool",
+        "symbol": "LPOOL",
+        "description": "Launchpool",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lpool.png",
+        "coinGeckoId": "launchpool"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7",
+        "name" : "cVault finance",
+        "symbol": "CORE",
+        "description": "cVault.finance",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/core.png",
+        "coinGeckoId": "cvault-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6243d8CEA23066d098a15582d81a598b4e8391F4",
+        "name" : "Reflexer Ungovernance",
+        "symbol": "FLX",
+        "description": "Reflexer Ungovernance Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/flx.png",
+        "coinGeckoId": "reflexer-ungovernance-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x626E8036dEB333b408Be468F951bdB42433cBF18",
+        "name" : "AIOZ Network",
+        "symbol": "AIOZ",
+        "description": "AIOZ Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/aioz.png",
+        "coinGeckoId": "aioz-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x63b4f3e3fa4e438698CE330e365E831F7cCD1eF4",
+        "name" : "CyberFi",
+        "symbol": "CFi",
+        "description": "CyberFi Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cfi.png",
+        "coinGeckoId": "cyberfi"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6",
+        "name" : "Wise",
+        "symbol": "WISE",
+        "description": "Wise Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wise.png",
+        "coinGeckoId": "wise-token11"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C",
+        "name" : "Kylin",
+        "symbol": "KYL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/kyl.png",
+        "coinGeckoId": "kylin-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x67c597624B17b16fb77959217360B7cD18284253",
+        "name" : "Benchmark Protocol",
+        "symbol": "MARK",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mark.png",
+        "coinGeckoId": "benchmark-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
+        "name" : "Gnosis Token",
+        "symbol": "GNO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/gno.png",
+        "coinGeckoId": "gnosis"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x69692D3345010a207b759a7D1af6fc7F38b35c5E",
+        "name" : "CHADS VC",
+        "symbol": "CHADS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/chads.png",
+        "coinGeckoId": "chads-vc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23",
+        "name" : "Poolz Finance",
+        "symbol": "POOLZ",
+        "description": "Poolz Finance OLD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/poolz.png",
+        "coinGeckoId": "poolz-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074",
+        "name" : "Mask Network",
+        "symbol": "MASK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mask.png",
+        "coinGeckoId": "mask-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "name" : "Dai Stablecoin",
+        "symbol": "DAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+        "name" : "Sushi",
+        "symbol": "SUSHI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sushi.png",
+        "coinGeckoId": "sushi"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6BFf2fE249601ed0Db3a87424a2E923118BB0312",
+        "name" : "Fyooz",
+        "symbol": "FYZ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fyz.png",
+        "coinGeckoId": "fyooz"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
+        "name" : "Holo",
+        "symbol": "HOT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/hot.png",
+        "coinGeckoId": "holotoken"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6e0daDE58D2d89eBBe7aFc384e3E4f15b70b14D8",
+        "name" : "QuiverX",
+        "symbol": "QRX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/qrx.png",
+        "coinGeckoId": "quiverx"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6F87D756DAf0503d08Eb8993686c7Fc01Dc44fB1",
+        "name" : "UniTrade",
+        "symbol": "TRADE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/trade.png",
+        "coinGeckoId": "unitrade"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6fC13EACE26590B80cCCAB1ba5d51890577D83B2",
+        "name" : "Umbrella Network",
+        "symbol": "UMB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/umb.png",
+        "coinGeckoId": "umbrella-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x70401dFD142A16dC7031c56E862Fc88Cb9537Ce0",
+        "name" : "Bird Money",
+        "symbol": "BIRD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bird.png",
+        "coinGeckoId": "bird-money"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x725C263e32c72dDC3A19bEa12C5a0479a81eE688",
+        "name" : "Bridge Mutual",
+        "symbol": "BMI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bmi.png",
+        "coinGeckoId": "bridge-mutual"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x72630B1e3B42874bf335020Ba0249e3E9e47Bafc",
+        "name" : "Paypolitan",
+        "symbol": "EPAN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/epan.png",
+        "coinGeckoId": "paypolitan-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x72e364F2ABdC788b7E918bc238B21f109Cd634D7",
+        "name" : "Metaverse Index",
+        "symbol": "MVI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mvi.png",
+        "coinGeckoId": "metaverse-index"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x72e9D9038cE484EE986FEa183f8d8Df93f9aDA13",
+        "name" : "SmartCredit",
+        "symbol": "SMARTCREDIT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/smartcredit.png",
+        "coinGeckoId": "smartcredit-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x761D38e5ddf6ccf6Cf7c55759d5210750B5D60F3",
+        "name" : "Dogelon Mars",
+        "symbol": "ELON",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/elon.png",
+        "coinGeckoId": "dogelon-mars"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7659CE147D0e714454073a5dd7003544234b6Aa0",
+        "name" : "XCAD Network",
+        "symbol": "XCAD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xcad.png",
+        "coinGeckoId": "xcad-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7671904eed7f10808B664fc30BB8693FD7237abF",
+        "name" : "Bitberry",
+        "symbol": "BBR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bbr.png",
+        "coinGeckoId": "bitberry-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x77777FeDdddFfC19Ff86DB637967013e6C6A116C",
+        "name" : "Tornado Cash",
+        "symbol": "TORN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/torn.png",
+        "coinGeckoId": "tornado-cash"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7a2Bc711E19ba6aff6cE8246C546E8c4B4944DFD",
+        "name" : "WAXE",
+        "symbol": "WAXE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/waxe.png",
+        "coinGeckoId": "waxe"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7b123f53421b1bF8533339BFBdc7C98aA94163db",
+        "name" : "DFOhub",
+        "symbol": "BUIDL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/buidl.png",
+        "coinGeckoId": "dfohub"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        "name" : "Polygon",
+        "symbol": "MATIC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/matic.png",
+        "coinGeckoId": "matic-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7dE91B204C1C737bcEe6F000AAA6569Cf7061cb7",
+        "name" : "Robonomics",
+        "symbol": "XRT",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xrt.png",
+        "coinGeckoId": "robonomics-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB",
+        "name" : "xToken",
+        "symbol": "XTK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xtk.png",
+        "coinGeckoId": "xtoken"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "name" : "AAVE",
+        "symbol": "AAVE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/aave.png",
+        "coinGeckoId": "aave"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26",
+        "name" : "Origin Protocol",
+        "symbol": "OGN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ogn.png",
+        "coinGeckoId": "origin-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa",
+        "name" : "Polkastarter Token",
+        "symbol": "POLS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pols.png",
+        "coinGeckoId": "polkastarter"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
+        "name" : "Unibright",
+        "symbol": "UBT",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ubt.png",
+        "coinGeckoId": "unibright"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419",
+        "name" : "DIA",
+        "symbol": "DIA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dia.png",
+        "coinGeckoId": "dia-data"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+        "name" : "Frax",
+        "symbol": "FRAX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frax.png",
+        "coinGeckoId": "frax"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC",
+        "name" : "Keep Network",
+        "symbol": "KEEP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/keep.png",
+        "coinGeckoId": "keep-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8888801aF4d980682e47f1A9036e589479e835C5",
+        "name" : "88mph",
+        "symbol": "MPH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mph.png",
+        "coinGeckoId": "88mph"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB",
+        "name" : "Alchemist",
+        "symbol": "MIST️",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/alchemist.png",
+        "coinGeckoId": "alchemist"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x88EF27e69108B2633F8E1C184CC37940A075cC02",
+        "name" : "Dego Finance",
+        "symbol": "DEGO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dego.png",
+        "coinGeckoId": "dego-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD",
+        "name" : "pNetwork",
+        "symbol": "PNT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pnt.png",
+        "coinGeckoId": "pnetwork"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8a40c222996f9F3431f63Bf80244C36822060f12",
+        "name" : "Finxflo",
+        "symbol": "FXF",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fxf.png",
+        "coinGeckoId": "finxflo"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8a854288a5976036A725879164Ca3e91d30c6A1B",
+        "name" : "Guaranteed Entrance Token",
+        "symbol": "GET",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/get.png",
+        "coinGeckoId": "get-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8B39B70E39Aa811b69365398e0aACe9bee238AEb",
+        "name" : "PolkaFoundry",
+        "symbol": "PKF",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pkf.png",
+        "coinGeckoId": "polkafoundry"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8c15Ef5b4B21951d50E53E4fbdA8298FFAD25057",
+        "name" : "Function X",
+        "symbol": "FX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fx.png",
+        "coinGeckoId": "fx-coin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
+        "name" : "Swipe",
+        "symbol": "SXP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sxp.png",
+        "coinGeckoId": "swipe"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa",
+        "name" : "tBTC",
+        "symbol": "TBTC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tbtc.png",
+        "coinGeckoId": "tbtc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8f8221aFbB33998d8584A2B05749bA73c37a938a",
+        "name" : "Request",
+        "symbol": "REQ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/req.png",
+        "coinGeckoId": "request-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9355372396e3F6daF13359B7b607a3374cc638e0",
+        "name" : "WHALE",
+        "symbol": "WHALE",
+        "description": "",
+        "decimals": 4,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/whale.png",
+        "coinGeckoId": "whale"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
+        "name" : "Kleros",
+        "symbol": "PNK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pnk.png",
+        "coinGeckoId": "kleros"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9469D013805bFfB7D3DEBe5E7839237e535ec483",
+        "name" : "Darwinia Network",
+        "symbol": "RING",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ring.png",
+        "coinGeckoId": "darwinia-network-native-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x954b890704693af242613edEf1B603825afcD708",
+        "name" : "Cardstack",
+        "symbol": "CARD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/card.png",
+        "coinGeckoId": "cardstack"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
+        "name" : "Fei USD",
+        "symbol": "FEI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fei.png",
+        "coinGeckoId": "fei-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x95a4492F028aa1fd432Ea71146b433E7B4446611",
+        "name" : "APY Finance",
+        "symbol": "APY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/apy.png",
+        "coinGeckoId": "apy-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+        "name" : "Shiba Inu",
+        "symbol": "SHIB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/shib.png",
+        "coinGeckoId": "shiba-inu"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17",
+        "name" : "DeFi Yield Protocol",
+        "symbol": "DYP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dyp.png",
+        "coinGeckoId": "defi-yield-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+        "name" : "Ocean Protocol",
+        "symbol": "OCEAN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ocean.png",
+        "coinGeckoId": "ocean-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x990f341946A3fdB507aE7e52d17851B87168017c",
+        "name" : "Strong",
+        "symbol": "STRONG",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/strong.png",
+        "coinGeckoId": "strong"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541",
+        "name" : "Binance Wrapped BTC",
+        "symbol": "BBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bbtc.png",
+        "coinGeckoId": "binance-wrapped-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9cEB84f92A0561fa3Cc4132aB9c0b76A59787544",
+        "name" : "Doki Doki Finance",
+        "symbol": "DOKI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/doki.png",
+        "coinGeckoId": "doki-doki-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9EA3b5b4EC044b70375236A281986106457b20EF",
+        "name" : "Delta Financial",
+        "symbol": "DELTA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/delta.png",
+        "coinGeckoId": "delta-financial"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9Ed8e7C9604790F7Ec589F99b94361d8AAB64E5E",
+        "name" : "Unistake",
+        "symbol": "UNISTAKE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/unistake.png",
+        "coinGeckoId": "unistake"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9f7229aF0c4b9740e207Ea283b9094983f78ba04",
+        "name" : "Tadpole",
+        "symbol": "TAD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tad.png",
+        "coinGeckoId": "tadpole-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        "name" : "Maker",
+        "symbol": "MKR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mkr.png",
+        "coinGeckoId": "maker"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9F9c8ec3534c3cE16F928381372BfbFBFb9F4D24",
+        "name" : "GraphLinq",
+        "symbol": "GLQ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/glq.png",
+        "coinGeckoId": "graphlinq-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa0246c9032bC3A600820415aE600c6388619A14D",
+        "name" : "Harvest Finance",
+        "symbol": "FARM",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/farm.png",
+        "coinGeckoId": "harvest-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
+        "name" : "Aragon",
+        "symbol": "ANT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ant.png",
+        "coinGeckoId": "aragon"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa1d6Df714F91DeBF4e0802A542E13067f31b8262",
+        "name" : "RFOX",
+        "symbol": "RFOX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rfox.png",
+        "coinGeckoId": "redfox-labs-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa393473d64d2F9F026B60b6Df7859A689715d092",
+        "name" : "Lattice Token",
+        "symbol": "LTX",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ltx.png",
+        "coinGeckoId": "lattice-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
+        "name" : "mStable Governance: Meta",
+        "symbol": "MTA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mta.png",
+        "coinGeckoId": "meta"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA4EED63db85311E22dF4473f87CcfC3DaDCFA3E3",
+        "name" : "Rubic",
+        "symbol": "RBC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rbc.png",
+        "coinGeckoId": "rubic"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA8b919680258d369114910511cc87595aec0be6D",
+        "name" : "LUKSO",
+        "symbol": "LYXE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lyxe.png",
+        "coinGeckoId": "lukso-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca",
+        "name" : "Synternet",
+        "symbol": "NOIA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/noia.png",
+        "coinGeckoId": "noia-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA91ac63D040dEB1b7A5E4d4134aD23eb0ba07e14",
+        "name" : "Bella Protocol",
+        "symbol": "BEL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bel.png",
+        "coinGeckoId": "bella-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xAa6E8127831c9DE45ae56bB1b0d4D4Da6e5665BD",
+        "name" : "Index Coop - ETH 2x Flexible Leverage Index",
+        "symbol": "ETH2X-FLI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eth2x-fli.png",
+        "coinGeckoId": "eth-2x-flexible-leverage-index"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F",
+        "name" : "OriginTrail",
+        "symbol": "TRAC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/trac.png",
+        "coinGeckoId": "origintrail"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d",
+        "name" : "Celsius Network",
+        "symbol": "CEL",
+        "description": "",
+        "decimals": 4,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cel.png",
+        "coinGeckoId": "celsius-degree-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a",
+        "name" : "Monolith",
+        "symbol": "TKN",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tkn.png",
+        "coinGeckoId": "tokencard"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xaC0104Cca91D167873B8601d2e71EB3D4D8c33e0",
+        "name" : "Crowns",
+        "symbol": "CWS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cws.png",
+        "coinGeckoId": "crowns"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xaDB2437e6F65682B85F814fBc12FeC0508A7B1D0",
+        "name" : "UniCrypt",
+        "symbol": "UNCX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uncx.png",
+        "coinGeckoId": "unicrypt-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3",
+        "name" : "Ambire AdEx",
+        "symbol": "ADX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/adx.png",
+        "coinGeckoId": "adex"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xAE1eaAE3F627AAca434127644371b67B18444051",
+        "name" : "Yield Optimization Platform & Protocol",
+        "symbol": "YOP",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/yop.png",
+        "coinGeckoId": "yield-optimization-platform"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xaE697F994Fc5eBC000F8e22EbFfeE04612f98A0d",
+        "name" : "LGCY Network",
+        "symbol": "LGCY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lgcy.png",
+        "coinGeckoId": "lgcy-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xaf9f549774ecEDbD0966C52f250aCc548D3F36E5",
+        "name" : "Rio Fuel Token",
+        "symbol": "RFuel",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rfuel.png",
+        "coinGeckoId": "rio-defi"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB1e9157c2Fdcc5a856C8DA8b2d89b6C32b3c1229",
+        "name" : "Zenfuse",
+        "symbol": "ZEFU",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zefu.png",
+        "coinGeckoId": "zenfuse"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB26631c6dda06aD89B93C71400D25692de89c068",
+        "name" : "Minds",
+        "symbol": "MINDS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/minds.png",
+        "coinGeckoId": "minds"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB4d930279552397bbA2ee473229f89Ec245bc365",
+        "name" : "MahaDAO",
+        "symbol": "MAHA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/maha.png",
+        "coinGeckoId": "mahadao"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+        "name" : "Nexo",
+        "symbol": "NEXO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/nexo.png",
+        "coinGeckoId": "nexo"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB6ff96B8A8d214544Ca0dBc9B33f7AD6503eFD32",
+        "name" : "SYNC",
+        "symbol": "SYNC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sync.png",
+        "coinGeckoId": "sync-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb753428af26E81097e7fD17f40c88aaA3E04902c",
+        "name" : "saffron.finance",
+        "symbol": "SFI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sfi.png",
+        "coinGeckoId": "saffron-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB987D48Ed8f2C468D52D6405624EADBa5e76d723",
+        "name" : "Stabilize",
+        "symbol": "STBZ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/stbz.png",
+        "coinGeckoId": "stabilize"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB9d99C33eA2d86EC5eC6b8A4dD816EBBA64404AF",
+        "name" : "K21",
+        "symbol": "K21",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/k21.png",
+        "coinGeckoId": "k21"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb9EF770B6A5e12E45983C5D80545258aA38F3B78",
+        "name" : "0chain",
+        "symbol": "ZCN",
+        "description": "",
+        "decimals": 10,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zcn.png",
+        "coinGeckoId": "0chain"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "name" : "Balancer",
+        "symbol": "BAL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bal.png",
+        "coinGeckoId": "balancer"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
+        "name" : "Band Protocol",
+        "symbol": "BAND",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/band.png",
+        "coinGeckoId": "band-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A",
+        "name" : "Swapfolio",
+        "symbol": "SWFL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/swfl.png",
+        "coinGeckoId": "swapfolio"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+        "name" : "Loopring",
+        "symbol": "LRC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lrc.png",
+        "coinGeckoId": "loopring"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xBBc2AE13b23d715c30720F079fcd9B4a74093505",
+        "name" : "Ethernity Chain",
+        "symbol": "ERN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ern.png",
+        "coinGeckoId": "ethernity-chain"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
+        "name" : "Perpetual",
+        "symbol": "PERP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/perp.png",
+        "coinGeckoId": "perpetual-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbE9375C6a420D2eEB258962efB95551A5b722803",
+        "name" : "StormX",
+        "symbol": "STMX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/stmx.png",
+        "coinGeckoId": "storm"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb",
+        "name" : "GYSR",
+        "symbol": "GYSR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/gysr.png",
+        "coinGeckoId": "geyser"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xBF494F02EE3FdE1F20BEE6242bCe2d1ED0c15e47",
+        "name" : "World Token",
+        "symbol": "WORLD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/world.png",
+        "coinGeckoId": "world-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        "name" : "Compound",
+        "symbol": "COMP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/comp.png",
+        "coinGeckoId": "compound-governance-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        "name" : "Synthetix",
+        "symbol": "SNX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/snx.png",
+        "coinGeckoId": "havven"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC0bA369c8Db6eB3924965e5c4FD0b4C1B91e305F",
+        "name" : "DLP Duck Token",
+        "symbol": "DUCK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/duck.png",
+        "coinGeckoId": "dlp-duck-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+        "name" : "Ethereum Name Service",
+        "symbol": "ENS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ens.png",
+        "coinGeckoId": "ethereum-name-service"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC4C2614E694cF534D407Ee49F8E44D125E4681c4",
+        "name" : "Chain Games",
+        "symbol": "CHAIN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/chain.png",
+        "coinGeckoId": "chain-games"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC52C326331E9Ce41F04484d3B5E5648158028804",
+        "name" : "Unizen",
+        "symbol": "ZCX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zcx.png",
+        "coinGeckoId": "unizen"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC57d533c50bC22247d49a368880fb49a1caA39F7",
+        "name" : "PowerTrade Fuel",
+        "symbol": "PTF",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ptf.png",
+        "coinGeckoId": "powertrade-fuel"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc719d010B63E5bbF2C0551872CD5316ED26AcD83",
+        "name" : "Etherisc DIP",
+        "symbol": "DIP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dip.png",
+        "coinGeckoId": "etherisc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
+        "name" : "Tribe",
+        "symbol": "TRIBE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tribe.png",
+        "coinGeckoId": "tribe-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc834Fa996fA3BeC7aAD3693af486ae53D8aA8B50",
+        "name" : "Convergence",
+        "symbol": "CONV",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/conv.png",
+        "coinGeckoId": "convergence"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+        "name" : "The Graph",
+        "symbol": "GRT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/grt.png",
+        "coinGeckoId": "the-graph"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E",
+        "name" : "Rootkit Finance",
+        "symbol": "ROOT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/root.png",
+        "coinGeckoId": "rootkit"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D",
+        "name" : "Kine Governance Token",
+        "symbol": "KINE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/kine.png",
+        "coinGeckoId": "kine-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCC4304A31d09258b0029eA7FE63d032f52e44EFe",
+        "name" : "TrustSwap Token",
+        "symbol": "SWAP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/swap.png",
+        "coinGeckoId": "trustswap"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCF3C8Be2e2C42331Da80EF210e9B1b307C03d36A",
+        "name" : "BEPRO Network",
+        "symbol": "BEPRO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bepro.png",
+        "coinGeckoId": "bepro-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988",
+        "name" : "Terra Virtua Kolect",
+        "symbol": "TVK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tvk.png",
+        "coinGeckoId": "the-virtua-kolect"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de",
+        "name" : "SIREN",
+        "symbol": "SI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/si.png",
+        "coinGeckoId": "siren"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+        "name" : "OMG Network",
+        "symbol": "OMG",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/omg.png",
+        "coinGeckoId": "omisego"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9",
+        "name" : "Wrapped LUNC Token",
+        "symbol": "LUNC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lunc.png",
+        "coinGeckoId": "terra-luna"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+        "name" : "Ampleforth",
+        "symbol": "AMPL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ampl.png",
+        "coinGeckoId": "ampleforth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xD478161C952357F05f0292B56012Cd8457F1cfbF",
+        "name" : "Polkamarkets",
+        "symbol": "POLK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/polk.png",
+        "coinGeckoId": "polkamarkets"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+        "name" : "Curve DAO Token",
+        "symbol": "CRV",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/crv.png",
+        "coinGeckoId": "curve-dao-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xD5525D397898e5502075Ea5E830d8914f6F0affe",
+        "name" : "Degenerator MEME",
+        "symbol": "MEME",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/meme.png",
+        "coinGeckoId": "degenerator"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xD6c67B93a7b248dF608a653d82a100556144c5DA",
+        "name" : "ExNetwork Token",
+        "symbol": "EXNT",
+        "description": "",
+        "decimals": 16,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/exnt.png",
+        "coinGeckoId": "exnetwork-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdacD69347dE42baBfAEcD09dC88958378780FB62",
+        "name" : "Atari Token",
+        "symbol": "ATRI",
+        "description": "",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/atri.png",
+        "coinGeckoId": "atari"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xDDB3422497E61e13543BeA06989C0789117555c5",
+        "name" : "COTI",
+        "symbol": "COTI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/coti.png",
+        "coinGeckoId": "coti"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE1c7E30C42C24582888C758984f6e382096786bd",
+        "name" : "Curate",
+        "symbol": "XCUR",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xcur.png",
+        "coinGeckoId": "curate"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30",
+        "name" : "Injective",
+        "symbol": "INJ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/inj.png",
+        "coinGeckoId": "injective-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xe3818504c1B32bF1557b16C238B2E01Fd3149C17",
+        "name" : "PILLAR",
+        "symbol": "PLR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/plr.png",
+        "coinGeckoId": "pillar"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+        "name" : "0x Protocol",
+        "symbol": "ZRX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zrx.png",
+        "coinGeckoId": "0x"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55",
+        "name" : "SuperFarm",
+        "symbol": "SUPER",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/super.png",
+        "coinGeckoId": "superfarm"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE5CAeF4Af8780E59Df925470b050Fb23C43CA68C",
+        "name" : "Ferrum Network",
+        "symbol": "FRM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frm.png",
+        "coinGeckoId": "ferrum-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
+        "name" : "COIN",
+        "symbol": "COIN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/coin.png",
+        "coinGeckoId": "coin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
+        "name" : "Ankr Reward-Bearing Staked ETH",
+        "symbol": "aETHc",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/aethc.png",
+        "coinGeckoId": "ankreth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEA1ea0972fa092dd463f2968F9bB51Cc4c981D71",
+        "name" : "Modefi",
+        "symbol": "MOD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mod.png",
+        "coinGeckoId": "modefi"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
+        "name" : "SURF Finance",
+        "symbol": "SURF",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/surf.png",
+        "coinGeckoId": "surf-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
+        "name" : "renBTC",
+        "symbol": "renBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/renbtc.png",
+        "coinGeckoId": "renbtc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEBd9D99A3982d547C5Bb4DB7E3b1F9F14b67Eb83",
+        "name" : "Everest",
+        "symbol": "ID",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/id.png",
+        "coinGeckoId": "everid"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEd91879919B71bB6905f23af0A68d231EcF87b14",
+        "name" : "DMM: Governance",
+        "symbol": "DMG",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dmg.png",
+        "coinGeckoId": "dmm-governance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xee573a945B01B788B9287CE062A0CFC15bE9fd86",
+        "name" : "Exeedme",
+        "symbol": "XED",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xed.png",
+        "coinGeckoId": "exeedme"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xeEAA40B28A2d1b0B08f6f97bB1DD4B75316c6107",
+        "name" : "CVI FINANCE",
+        "symbol": "GOVI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/govi.png",
+        "coinGeckoId": "govi"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEec2bE5c91ae7f8a338e1e5f3b5DE49d07AfdC81",
+        "name" : "Dopex Governance Token",
+        "symbol": "DPX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dpx.png",
+        "coinGeckoId": "dopex"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE",
+        "name" : "Hermez Network Token",
+        "symbol": "HEZ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/hez.png",
+        "coinGeckoId": "hermez-network-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF063fE1aB7a291c5d06a86e14730b00BF24cB589",
+        "name" : "DxSale Network",
+        "symbol": "SALE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sale.png",
+        "coinGeckoId": "dxsale-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b",
+        "name" : "Rally",
+        "symbol": "RLY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rly.png",
+        "coinGeckoId": "rally-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf21661D0D1d76d3ECb8e1B9F1c923DBfffAe4097",
+        "name" : "Realio Network",
+        "symbol": "RIO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rio.png",
+        "coinGeckoId": "realio-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF411903cbC70a74d22900a5DE66A2dda66507255",
+        "name" : "Verasity",
+        "symbol": "VRA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/vra.png",
+        "coinGeckoId": "verasity"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf418588522d5dd018b425E472991E52EBBeEEEEE",
+        "name" : "PUSH",
+        "symbol": "PUSH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/push.png",
+        "coinGeckoId": "ethereum-push-notification-service"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577",
+        "name" : "YfDAI.finance",
+        "symbol": "YF-DAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/yf-dai.png",
+        "coinGeckoId": "yfdai-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF4d861575ecC9493420A3f5a14F85B13f0b50EB3",
+        "name" : "Fractal",
+        "symbol": "FCL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fcl.png",
+        "coinGeckoId": "fractal"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+        "name" : "Enjin Coin",
+        "symbol": "ENJ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/enj.png",
+        "coinGeckoId": "enjincoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf6537FE0df7F0Cc0985Cf00792CC98249E73EFa0",
+        "name" : "GIVLY Coin",
+        "symbol": "GIV",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/giv.png",
+        "coinGeckoId": "giveth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF938424F7210f31dF2Aee3011291b658f872e91e",
+        "name" : "Visor.Finance",
+        "symbol": "VISR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/visr.png",
+        "coinGeckoId": "visor"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF94b5C5651c888d928439aB6514B93944eEE6F48",
+        "name" : "Yield",
+        "symbol": "YLD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/yld.png",
+        "coinGeckoId": "yield-app"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfAd45E47083e4607302aa43c65fB3106F1cd7607",
+        "name": "Hoge Finance",
+        "symbol": "HOGE",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/hoge.png",
+        "coinGeckoId": "hoge-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xFbEEa1C75E4c4465CB2FCCc9c6d6afe984558E20",
+        "name": "DuckDaoDime",
+        "symbol": "DDIM",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ddim.png",
+        "coinGeckoId": "duckdaodime"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfC98e825A2264D890F9a1e68ed50E1526abCcacD",
+        "name": "Moss Carbon Credit",
+        "symbol": "MCO2",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mco2.png",
+        "coinGeckoId": "moss-carbon-credit"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF",
+        "name": "Rarible",
+        "symbol": "RARI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rari.png",
+        "coinGeckoId": "rarible"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xFE3E6a25e6b192A42a44ecDDCd13796471735ACf",
+        "name": "Reef",
+        "symbol": "REEF",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/reef.png",
+        "coinGeckoId": "reef"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfF20817765cB7f73d4bde2e66e067E58D11095C2",
+        "name": "Amp",
+        "symbol": "AMP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/amp.png",
+        "coinGeckoId": "amp-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfffffffFf15AbF397dA76f1dcc1A1604F45126DB",
+        "name": "FalconSwap Token",
+        "symbol": "FSW",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fsw.png",
+        "coinGeckoId": "fsw-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x383518188C0C6d7730D91b2c03a03C837814a899",
+        "name": "Olympus v1",
+        "symbol": "OHM",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ohm.png",
+        "coinGeckoId": "olympus-v1"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E",
+        "name": "Illuvium",
+        "symbol": "ILV",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ilv.png",
+        "coinGeckoId": "illuvium"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
+        "name": "Gala",
+        "symbol": "GALA",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/gala.png",
+        "coinGeckoId": "gala"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+        "name": "Convex Token",
+        "symbol": "CVX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cvx.png",
+        "coinGeckoId": "convex-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x090185f2135308BaD17527004364eBcC2D37e5F6",
+        "name": "Spell Token",
+        "symbol": "SPELL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/spell.png",
+        "coinGeckoId": "spell-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3b484b82567a09e2588A13D54D032153f0c0aEe0",
+        "name": "OpenDao SOS",
+        "symbol": "SOS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sos.png",
+        "coinGeckoId": "opendao"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6Bba316c48b49BD1eAc44573c5c871ff02958469",
+        "name": "Gas DAO",
+        "symbol": "GAS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/gas.png",
+        "coinGeckoId": "gas-dao"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
+        "name": "Metis",
+        "symbol": "METIS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/metis.png",
+        "coinGeckoId": "metis-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf4d2888d29D722226FafA5d9B24F9164c092421E",
+        "name": "LooksRare",
+        "symbol": "LOOKS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/looks.png",
+        "coinGeckoId": "looksrare"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1E4EDE388cbc9F4b5c79681B7f94d36a11ABEBC9",
+        "name": "X2Y2",
+        "symbol": "X2Y2",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/x2y2.png",
+        "coinGeckoId": "x2y2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+        "name": "ApeCoin (APE)",
+        "symbol": "APE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ape.png",
+        "coinGeckoId": "apecoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+        "name": "Stargate Finance",
+        "symbol": "STG",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/stg.png",
+        "coinGeckoId": "stargate-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec",
+        "name": "Real Yield ETH",
+        "symbol": "YieldETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/yieldeth.png",
+        "coinGeckoId": "yieldeth-sommelier"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+        "name": "pSTAKE Finance",
+        "symbol": "PSTAKE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pstake.png",
+        "coinGeckoId": "pstake-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8fac8031e079f409135766c7d5de29cf22ef897c",
+        "name": "Humans.ai",
+        "symbol": "HEART",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/humans/asset/humans.png",
+        "coinGeckoId": "humans-ai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "name": "Lido Staked Ether",
+        "symbol": "stETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/steth.png",
+        "coinGeckoId": "staked-ether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "name": "Lido wstETH",
+        "symbol": "wstETH",
+        "description": "Wrapped liquid staked Ether 2.0",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
+        "coinGeckoId": "wrapped-steth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+        "name": "Lido DAO",
+        "symbol": "LDO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ldo.png",
+        "coinGeckoId": "lido-dao"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+        "name": "Rocket Pool ETH",
+        "symbol": "rETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/reth.png",
+        "coinGeckoId": "rocket-pool-eth"
+    }
+]
