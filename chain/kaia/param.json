@@ -5,6 +5,7 @@
     "symbol" : "KLAY",
     "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/klay.png",
     "origin_genesis_time" : "",
+    "moblie_dapp" : true,
     "evm_fee" : {
         "eip1559": true,
         "simul_gas_multiply" : 1.3
