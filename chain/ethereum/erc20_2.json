@@ -20,6 +20,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "usd-coin",
         "wallet_preload": true
+    },
     {
         "type": "erc20",
         "contract": "0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB",
