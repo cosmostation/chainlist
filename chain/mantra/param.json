@@ -7,7 +7,7 @@
     "bechAccountPrefix" : "mantra",
     "bechValidatorPrefix" : "mantravaloper",
     "api_name" : "mantra",
-    "origin_genesis_time" : "",
+    "origin_genesis_time" : "2024-10-10T19:30:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -18,7 +18,7 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.002uom"
+            "0.01uom"
         ],
         "init_gas_limit" : 300000,
         "simul_gas_multiply" : 1.8,
