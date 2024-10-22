@@ -1,0 +1,35 @@
+[
+    {
+        "type": "native",
+        "denom": "ucgas",
+        "name" : "CGAS",
+        "symbol": "CGAS",
+        "description": "COSS Chain Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coss/asset/coss.png",
+        "coinGeckoId": "",
+        "color": "#9248DB"
+    },
+    {
+        "type": "native",
+        "denom": "ucoss",
+        "name" : "COSS",
+        "symbol": "COSS",
+        "description": "The inscription token of the COSS.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coss/asset/coss.png",
+        "coinGeckoId": "coss-2",
+        "color": "#876317"
+    },
+    {
+        "type": "native",
+        "denom": "ucias",
+        "name" : "CIAS",
+        "symbol": "CIAS",
+        "description": "The inscription token of the CIAS.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coss/asset/cias.png",
+        "coinGeckoId": "cias",
+        "color": "#4f3280"
+    }
+]

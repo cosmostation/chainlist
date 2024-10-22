@@ -1,0 +1,187 @@
+[
+    {
+        "type": "native",
+        "denom": "uluna",
+        "name" : "Luna",
+        "symbol": "LUNA",
+        "description": "Terra Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
+        "coinGeckoId": "terra-luna-2",
+        "color": "#1E75EE"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "ethereum>axelar>terra",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/CBF67A2BCF6CAE343FDF251E510C8E18C361FC02B23430C121116E0811835DEF",
+        "name" : "Tether USD (Ethereum via Axelar)",
+        "symbol": "USDT.eth.axl",
+        "description": "Tether's USD stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "ibc_info" : {
+            "path": "ethereum>axelar>terra",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7A6428206CBDE7B47F78A7A8CF4587CDCFD2B3BF06DD0352CEF678E88F1A501D",
+        "name" : "Cerberus",
+        "symbol": "CRBRUS",
+        "description": "Cerberus Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cerberus/asset/crbrus.png",
+        "coinGeckoId": "cerberus-2",
+        "ibc_info" : {
+            "path": "cerberus>osmosis>terra",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-251",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>terra",
+            "client" : {
+                "channel": "channel-253",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-30",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash",
+        "name" : "ashLUNA",
+        "symbol": "ashLUNA",
+        "description": "LUNA burn derivative",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.ash.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra1j35ta0llaxcf55auv2cjqau5a7aee6g8fz7md7my7005cvh23jfsaw83dy/ampWHALEt",
+        "name" : "ERIS Alliance Staked ampWHALE",
+        "symbol": "ampWHALEt",
+        "description": "ERIS Alliance Staked ampWHALE on Terra",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/ampwhalet.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra10j3zrymfrkta2pxe0gklc79gu06tqyuy8c3kh6tqdsrrprsjqkrqzfl4df/boneWHALEt",
+        "name" : "ERIS Alliance Staked boneWHALE",
+        "symbol": "boneWHALEt",
+        "description": "ERIS Alliance Staked boneWHALE on Terra",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/bonewhalet.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra1vklefn7n6cchn0u962w3gaszr4vf52wjvd4y95t2sydwpmpdtszsqvk9wy/ampROAR",
+        "name" : "ERIS Amplified ROAR",
+        "symbol": "ampROAR",
+        "description": "ERIS Liquid Enterprise Staked ROAR",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/amproar.png",
+        "coinGeckoId": "",
+        "color": "#5b83c3"
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra1dndhtdr2v7ca8rrn67chlqw3cl3xhm3m2uxls62vghcg3fsh5tpss5xmcu/MOAR",
+        "name" : "ERIS MOAR",
+        "symbol": "MOAR",
+        "description": "ERIS Liquid Alliance Staked ampROAR",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/moar.png",
+        "coinGeckoId": "",
+        "color": "#9363b3"
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra1djk2zl83dspt696ex5crhfacu8vm6934576t4zdd2592fzyahr2qma6guq/ULUN-IBC/-LP",
+        "name" : "ATOM-LUNA LP Token URA",
+        "symbol": "ATOM-LUNA-LP",
+        "description": "ATOM-LUNA liquidity pool token on URA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/ura.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra12jxfw2vg4cu6mxlgf39dp5ccxtuwm468w8eh9cnh2qsxc9t0sffs7ekhft/ULUN-IBC/-LP",
+        "name" : "LUNA-USDC LP Token URA",
+        "symbol": "LUNA-USDC-LP",
+        "description": "LUNA-USDC liquidity pool token on URA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/ura.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra1w9spejtuac5dt0gympq576uhwde39exhh7hdxwl99rjvaphfukkq6y4cv7/ULUN-IBC/-LP",
+        "name" : "LUNA-USDT liquidity pool token on URA",
+        "symbol": "LUNA-USDT-LP",
+        "description": "LUNA-USDT liquidity pool token on URA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/ura.png",
+        "coinGeckoId": ""
+    }
+]

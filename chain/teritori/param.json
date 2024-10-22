@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "teritori-1",
     "chain_name": "Teritori",
-    "chain_image": "teritori/resource/chain_teritori.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/teritori/resource/chain_teritori.png",
     "symbol" : "TORI",
-    "symbol_image" : "teritori/asset/tori.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/teritori/asset/tori.png",
     "bechAccountPrefix" : "tori",
     "bechValidatorPrefix" : "torivaloper",
     "name_for_dapp" : "TERITORI", 

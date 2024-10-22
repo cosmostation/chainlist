@@ -1,0 +1,264 @@
+[
+    {
+        "type": "native",
+        "denom": "uqck",
+        "name" : "Quicksilver",
+        "symbol": "QCK",
+        "description": "Quicksilver Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qck.png",
+        "coinGeckoId": "quicksilver",
+        "color": "#9B9B9B"
+    },
+    {
+        "type": "native",
+        "denom": "uqstars",
+        "name" : "Quicksilver Liquid Staked STARS",
+        "symbol": "qSTARS",
+        "description": "Quicksilver Staked Stars",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qstars.png",
+        "coinGeckoId": "qstar-2"
+    },
+    {
+        "type": "native",
+        "denom": "uqatom",
+        "name" : "Quicksilver Liquid Staked ATOM",
+        "symbol": "qATOM",
+        "description": "Quicksilver Staked ATOM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qatom.png",
+        "coinGeckoId": "qatom"
+    },
+    {
+        "type": "native",
+        "denom": "uqregen",
+        "name" : "Quicksilver Liquid Staked REGEN",
+        "symbol": "qREGEN",
+        "description": "Quicksilver Staked REGEN",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qregen.png",
+        "coinGeckoId": "qregen"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>quicksilver",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-467",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/49BAE4CD2172833F14000627DA87ED8024AD46A38D6ED33F6239F22B5832F958",
+        "name" : "Stargaze",
+        "symbol": "STARS",
+        "description": "Stargaze Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
+        "coinGeckoId": "stargaze",
+        "ibc_info" : {
+            "path": "stargaze>quicksilver",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-124",
+                "port": "transfer",
+                "chain": "stargaze",
+                "denom": "ustars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>quicksilver",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-522",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/50601881EB04667D5BD252FAEB5AA0713F117A2AB9DE365CF7DF9BB4083065B8",
+        "name" : "Persistence One",
+        "symbol": "XPRT",
+        "description": "Persistence Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/asset/pstake.png",
+        "coinGeckoId": "persistence",
+        "ibc_info" : {
+            "path": "persistence>quicksilver",
+            "client" : {
+                "channel": "channel-16",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-73",
+                "port": "transfer",
+                "chain": "persistence",
+                "denom": "uxprt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/73E97EB411B29C6F989C35D277D1A7FC65083572F102AC6BD101884EE9FB2C9F",
+        "name" : "Evmos",
+        "symbol": "EVMOS",
+        "description": "Evmos Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/evmos.png",
+        "coinGeckoId": "evmos",
+        "ibc_info" : {
+            "path": "evmos>quicksilver",
+            "client" : {
+                "channel": "channel-7",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-37",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "aevmos"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A7E38774F447445DB94A8ED00BEE78EFC43EED7A732D314D3F7F4AB743993E9F",
+        "name" : "Regen",
+        "symbol": "REGEN",
+        "description": "Regen Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/asset/regen.png",
+        "coinGeckoId": "regen",
+        "ibc_info" : {
+            "path": "regen>quicksilver",
+            "client" : {
+                "channel": "channel-17",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-62",
+                "port": "transfer",
+                "chain": "regen",
+                "denom": "uregen"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "uqosmo",
+        "name" : "Quicksilver Liquid Staked OSMO",
+        "symbol": "qOSMO",
+        "description": "Quicksilver Liquid Staked OSMO",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qosmo.png",
+        "coinGeckoId": "qosmo"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BFF8BC09B94E2EA90B64961A181D2383280FFA7847109DE1AB4ECA366466462A",
+        "name" : "Sommelier",
+        "symbol": "SOMM",
+        "description": "Sommelier Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sommelier/asset/somm.png",
+        "coinGeckoId": "sommelier",
+        "ibc_info" : {
+            "path": "sommelier>quicksilver",
+            "client" : {
+                "channel": "channel-101",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-59",
+                "port": "transfer",
+                "chain": "sommelier",
+                "denom": "usomm"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "uqsomm",
+        "name" : "Quicksilver Liquid Staked SOMM",
+        "symbol": "qSOMM",
+        "description": "Quicksilver Staked SOMM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qsomm.png",
+        "coinGeckoId": "qsomm"
+    },
+    {
+        "type": "native",
+        "denom": "uqjuno",
+        "name" : "Quicksilver Liquid Staked JUNO",
+        "symbol": "qJUNO",
+        "description": "Quicksilver Staked JUNO",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qjuno.png",
+        "coinGeckoId": "qjuno"
+    },
+    {
+        "type": "native",
+        "denom": "uqsaga",
+        "name" : "Quicksilver Liquid Staked SAGA",
+        "symbol": "qSAGA",
+        "description": "Quicksilver Staked SAGA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qsaga.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "uqbld",
+        "name" : "Quicksilver Liquid Staked BLD",
+        "symbol": "qBLD",
+        "description": "Quicksilver Staked BLD",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qbld.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "aqdydx",
+        "name" : "Quicksilver Liquid Staked DYDX",
+        "symbol": "qDYDX",
+        "description": "Quicksilver Staked DYDX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qdydx.png",
+        "coinGeckoId": ""
+    }
+]

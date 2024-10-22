@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "bitbadges-1",
     "chain_name": "BitBadges",
-    "chain_image": "bitbadges/resource/bitbadgeslogo.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/resource/bitbadgeslogo.png",
     "symbol" : "BADGE",
-    "symbol_image" : "bitbadges/asset/bitbadgeslogo.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/asset/bitbadgeslogo.png",
     "bechAccountPrefix" : "bb",
     "bechValidatorPrefix" : "bbvaloper",
     "name_for_dapp" : "BitBadges", 

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "iov-mainnet-ibc",
     "chain_name": "starname",
-    "chain_image": "starname/resource/chain_starname.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/starname/resource/chain_starname.png",
     "symbol" : "IOV",
-    "symbol_image" : "starname/asset/iov.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/starname/asset/iov.png",
     "bechAccountPrefix" : "star",
     "bechValidatorPrefix" : "starvaloper",
     "name_for_dapp" : "STARNAME", 

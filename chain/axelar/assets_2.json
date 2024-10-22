@@ -1,0 +1,772 @@
+[
+    {
+        "type": "native",
+        "denom": "uaxl",
+        "name" : "Axelar",
+        "symbol": "AXL",
+        "description": "Axelar Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
+        "coinGeckoId": "axelar",
+        "color": "#A1A1A1"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>axelar",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-293",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>axelar",
+            "client" : {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-208",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ADF401C952ADD9EE232D52C8303B8BE17FE7953C8D420F20769AF77240BD0C58",
+        "name" : "Injective",
+        "symbol": "INJ",
+        "description": "Injective Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+        "coinGeckoId": "injective-protocol",
+        "ibc_info" : {
+            "path": "injective>axelar",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-84",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "inj"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5B0968D76C6250F0824BD0BB4317DB34E884A14B345C83FB8256809855AC7CA7",
+        "name" : "Secret",
+        "symbol": "SCRT",
+        "description": "Secret Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
+        "coinGeckoId": "secret",
+        "ibc_info" : {
+            "path": "secret>axelar",
+            "client" : {
+                "channel": "channel-12",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-20",
+                "port": "transfer",
+                "chain": "secret",
+                "denom": "uscrt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1EDB735A58AA984F6FF11E332077D8A05D5E70E355427C2CF419BD1566FC1E2C",
+        "name" : "Kuji",
+        "symbol": "KUJI",
+        "description": "KUJI Staking Coin - Legacy",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kujira/asset/kuji.png",
+        "coinGeckoId": "kujira",
+        "ibc_info" : {
+            "path": "kujira>axelar",
+            "client" : {
+                "channel": "channel-14",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-9",
+                "port": "transfer",
+                "chain": "kujira",
+                "denom": "ukuji"
+            },
+            "enable": false
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A139C0E0B5E87CBA8EAEEB12B9BEE13AC7C814CFBBFA87BBCADD67E31003466C",
+        "name" : "Stargaze",
+        "symbol": "STARS",
+        "description": "Stargaze Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
+        "coinGeckoId": "stargaze",
+        "ibc_info" : {
+            "path": "stargaze>axelar",
+            "client" : {
+                "channel": "channel-18",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-50",
+                "port": "transfer",
+                "chain": "stargaze",
+                "denom": "ustars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B76399CD0009818F7D347EEC032A4E472173D12F0DC99C2ACFB6BEFCC01030E3",
+        "name" : "Artificial Superintelligence Alliance",
+        "symbol": "FET",
+        "description": "Artificial Superintelligence Alliance Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/asset/fet.png",
+        "coinGeckoId": "fetch-ai",
+        "ibc_info" : {
+            "path": "fetchai>axelar",
+            "client" : {
+                "channel": "channel-21",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-14",
+                "port": "transfer",
+                "chain": "fetchai",
+                "denom": "afet"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/73D370D177CC659EA123B423D1AC194F0733537E5A346ECEA1DCBC8FEBB45FD3",
+        "name" : "Evmos",
+        "symbol": "EVMOS",
+        "description": "Evmos Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/evmos.png",
+        "coinGeckoId": "evmos",
+        "ibc_info" : {
+            "path": "evmos>axelar",
+            "client" : {
+                "channel": "channel-22",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-21",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "aevmos"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5336218FAC4BC06222A3FDD158602CBAAAAE1B16D4B738732C03F6ABDDB1E948",
+        "name" : "Regen",
+        "symbol": "REGEN",
+        "description": "Regen Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/asset/regen.png",
+        "coinGeckoId": "regen",
+        "ibc_info" : {
+            "path": "regen>axelar",
+            "client" : {
+                "channel": "channel-29",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-48",
+                "port": "transfer",
+                "chain": "regen",
+                "denom": "uregen"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6896F977DF5B427359BA77B5AF1052E5512D460F3CE59C8F6A7CB51408351F3C",
+        "name" : "Luna",
+        "symbol": "LUNA",
+        "description": "Terra Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
+        "coinGeckoId": "terra-luna-2",
+        "ibc_info" : {
+            "path": "terra>axelar",
+            "client" : {
+                "channel": "channel-11",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-6",
+                "port": "transfer",
+                "chain": "terra",
+                "denom": "uluna"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "uusdc",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "color": "#2474cc",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "uusdt",
+        "name" : "Tether USD (Ethereum via Axelar)",
+        "symbol": "USDT.axl",
+        "description": "Tether's USD stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "axelar-usdt",
+        "color": "#54ac94",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "wbtc-satoshi",
+        "name" : "Wrapped Bitcoin (Ethereum via Axelar)",
+        "symbol": "WBTC.axl",
+        "description": "Wrapped Bitcoin on Axelar",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "axlwbtc",
+        "color": "#41394d",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ape-wei",
+        "name" : "ApeCoin (Ethereum via Axelar)",
+        "symbol": "WBTC.axl",
+        "description": "ApeCoin on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ape.png",
+        "coinGeckoId": "apecoin",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4d224452801ACEd8B2F0aebE155379bb5D594381"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "aave-wei",
+        "name" : "AAVE (Ethereum via Axelar)",
+        "symbol": "AAVE.axl",
+        "description": "Aave on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/aave.png",
+        "coinGeckoId": "aave",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "dai-wei",
+        "name" : "Dai Stablecoin (Ethereum via Axelar)",
+        "symbol": "DAI.axl",
+        "description": "Dai stablecoin on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai",
+        "color": "#f4ac34",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6b175474e89094c44da98b954eedeac495271d0f"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "frax-wei",
+        "name" : "FRAX (Ethereum via Axelar)",
+        "symbol": "FRAX.axl",
+        "description": "Frax's fractional-algorithmic stablecoin on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frax.png",
+        "coinGeckoId": "frax",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x853d955aCEf822Db058eb8505911ED77F175b99e"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "weth-wei",
+        "name" : "Wrapped Ether (Ethereum via Axelar)",
+        "symbol": "WETH.axl",
+        "description": "Wrapped Ether on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "axlweth",
+        "color": "#3a3444",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "link-wei",
+        "name" : "Chainlink (Ethereum via Axelar)",
+        "symbol": "LINK.axl",
+        "description": "Chainlink on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
+        "coinGeckoId": "chainlink",
+        "color": "#2c5cdc",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "mkr-wei",
+        "name" : "Maker (Ethereum via Axelar)",
+        "symbol": "MKR.axl",
+        "description": "Maker on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mkr.png",
+        "coinGeckoId": "maker",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "rai-wei",
+        "name" : "Rai Reflex Index (Ethereum via Axelar)",
+        "symbol": "RAI.axl",
+        "description": "Rai Reflex Index on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rai.png",
+        "coinGeckoId": "rai",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "shib-wei",
+        "name" : "Shiba Inu (Ethereum via Axelar)",
+        "symbol": "SHIB.axl",
+        "description": "Shiba Inu on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/shib.png",
+        "coinGeckoId": "shiba-inu",
+        "color": "#FFA409",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "steth-wei",
+        "name" : "Lido Staked Ether (Ethereum via Axelar)",
+        "symbol": "stETH.axl",
+        "description": "Lido Staked Ether on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/steth.png",
+        "coinGeckoId": "staked-ether",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "uni-wei",
+        "name" : "Uniswap (Ethereum via Axelar)",
+        "symbol": "UNI.axl",
+        "description": "Uniswap on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uni.png",
+        "coinGeckoId": "uniswap",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "wmatic-wei",
+        "name" : "Wrapped Matic (Polygon via Axelar)",
+        "symbol": "WMATIC.axl",
+        "description": "Wrapped Matic on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/wmatic.png",
+        "coinGeckoId": "wmatic",
+        "color": "#8444e4",
+        "bridge_info" : {
+            "path": "polygon>axelar",
+            "counterparty": {
+                "chain": "polygon",
+                "contract": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "wglmr-wei",
+        "name" : "Wrapped Moonbeam (Moonbeam via Axelar)",
+        "symbol": "WGLMR.axl",
+        "description": "Wrapped Moonbeam on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/moonbeam/asset/wglmr.png",
+        "coinGeckoId": "wrapped-moonbeam",
+        "color": "#e4147c",
+        "bridge_info" : {
+            "path": "moonbeam>axelar",
+            "counterparty": {
+                "chain": "moonbeam",
+                "contract": "0xAcc15dC74880C9944775448304B263D191c6077F"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "dot-planck",
+        "name" : "Wrapped Polkadot (Moonbeam via Axelar)",
+        "symbol": "DOT.axl",
+        "description": "Wrapped Polkadot on Axelar",
+        "decimals": 10,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/moonbeam/asset/xcdot.png",
+        "coinGeckoId": "xcdot",
+        "color": "#e4047c",
+        "bridge_info" : {
+            "path": "moonbeam>axelar",
+            "counterparty": {
+                "chain": "moonbeam",
+                "contract": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "wftm-wei",
+        "name" : "Wrapped FTM (Fantom via Axelar)",
+        "symbol": "WFTM.axl",
+        "description": "Wrapped FTM on Axelar.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fantom/asset/wftm.png",
+        "coinGeckoId": "wrapped-fantom",
+        "color": "#1c6cfc",
+        "bridge_info" : {
+            "path": "fantom>axelar",
+            "counterparty": {
+                "chain": "fantom",
+                "contract": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "wavax-wei",
+        "name" : "Wrapped AVAX (Avalanche via Axelar)",
+        "symbol": "WAVAX.axl",
+        "description": "Wrapped AVAX on Axelar.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/wavax.png",
+        "coinGeckoId": "wrapped-avax",
+        "bridge_info" : {
+            "path": "avalanche>axelar",
+            "counterparty": {
+                "chain": "avalanche",
+                "contract": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "wbnb-wei",
+        "name" : "Wrapped BNB (BSC via Axelar)",
+        "symbol": "WBNB.axl",
+        "description": "Wrapped BNB on Axelar.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/wbnb.png",
+        "coinGeckoId": "wbnb",
+        "color": "#f3bb0c",
+        "bridge_info" : {
+            "path": "bnb-smart-chain>axelar",
+            "counterparty": {
+                "chain": "bnb-smart-chain",
+                "contract": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "busd-wei",
+        "name" : "Binance USD (Ethereum via Axelar)",
+        "symbol": "BUSD.axl",
+        "description": "Binance USD on Axelar.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/busd.png",
+        "coinGeckoId": "binance-usd",
+        "color": "#f3bb0c",
+        "bridge_info" : {
+            "path": "bnb-smart-chain>ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4fabb145d64652a948d72533023f6e7a623c7c53"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "wsteth-wei",
+        "name" : "Wrapped Lido Staked Ether (Ethereum via Axelar)",
+        "symbol": "wstETH.axl",
+        "description": "Wrapped Lido Staked Ether on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
+        "coinGeckoId": "wrapped-steth",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "sfrxeth-wei",
+        "name" : "Staked Frax Ether (Ethereum via Axelar)",
+        "symbol": "sfrxETH.axl",
+        "description": "Staked Frax Ether on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sfrxeth.png",
+        "coinGeckoId": "staked-frax-ether",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xac3E018457B222d93114458476f3E3416Abbe38F"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "reth-wei",
+        "name" : "Rocket Pool Ether (Ethereum via Axelar)",
+        "symbol": "rETH.axl",
+        "description": "Rocket Pool Ether on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/reth.png",
+        "coinGeckoId": "rocket-pool-eth",
+        "color": "#fba487",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xae78736Cd615f374D3085123A210448E74Fc6393"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cbeth-wei",
+        "name" : "Coinbase Wrapped Staked ETH (Ethereum via Axelar)",
+        "symbol": "cbETH.axl",
+        "description": "Coinbase Wrapped Staked ETH on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eth_base.png",
+        "coinGeckoId": "coinbase-wrapped-staked-eth",
+        "color": "#c9dbfc",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "pepe-wei",
+        "name" : "Pepe (Ethereum via Axelar)",
+        "symbol": "PEPE.axl",
+        "description": "Pepe on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pepe.png",
+        "coinGeckoId": "pepe",
+        "color": "#cc3233",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cusd-wei",
+        "name" : "cUSD (Ethereum via Axelar)",
+        "symbol": "cUSD.axl",
+        "description": "cUSD on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celo/asset/cusd.png",
+        "coinGeckoId": "celo-dollar",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x765de816845861e75a25fca122bb6898b8b1282a"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "mpx-wei",
+        "name" : "MPX (Fantom via Axelar)",
+        "symbol": "MPX.axl",
+        "description": "MPX on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fantom/asset/mpx.png",
+        "coinGeckoId": "mpx",
+        "bridge_info" : {
+            "path": "fantom>axelar",
+            "counterparty": {
+                "chain": "fantom",
+                "contract": "0x66eEd5FF1701E6ed8470DC391F05e27B1d0657eb"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "wfil-wei",
+        "name" : "Wrapped FIL from Filecoin (Ethereum via Axelar)",
+        "symbol": "FIL.axl",
+        "description": "Wrapped FIL on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/fil.png",
+        "coinGeckoId": "filecoin",
+        "color": "#0694fc",
+        "bridge_info" : {
+            "path": "filecoin>ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6A7b717aE5Ed65F85BA25403D5063D368239828e"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "arb-wei",
+        "name" : "Arbitrum (Arbitrum via Axelar)",
+        "symbol": "ARB.axl",
+        "description": "Arbitrum on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arbitrum/asset/arb.png",
+        "coinGeckoId": "arbitrum",
+        "color": "#253545",
+        "bridge_info" : {
+            "path": "arbitrum>axelar",
+            "counterparty": {
+                "chain": "arbitrum",
+                "contract": "0x912ce59144191c1204e64559fe8253a0e49e6548"
+            }
+        }
+    }
+]

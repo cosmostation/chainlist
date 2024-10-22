@@ -1,0 +1,24 @@
+[
+    {
+        "type": "native",
+        "denom": "aacre",
+        "name" : "Acre",
+        "symbol": "ACRE",
+        "description": "The native EVM, governance and staking token of the Acrechain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/acrechain/asset/acre.png",
+        "coinGeckoId": "arable-protocol",
+        "color": "#4aa29e"
+    },
+    {
+        "type": "native",
+        "denom": "cnto",
+        "name" : "Ciento Token",
+        "symbol": "CNTO",
+        "description": "Ciento Exchange Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/cnto.png",
+        "coinGeckoId": "",
+        "color": "#ecc53b"
+    }
+]

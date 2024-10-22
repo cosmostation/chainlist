@@ -1,0 +1,58 @@
+[
+    {
+        "type": "native",
+        "denom": "uosmo",
+        "name" : "Osmosis Testnet",
+        "symbol": "OSMO",
+        "description": "Osmosis-testnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis-testnet/asset/osmo.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/01AF67CDE9EDCD2B7708CC80D9ADC00BBF5406B159E92C0AA4DB37AA65056BED",
+        "name" : "Finschia Testnet",
+        "symbol": "TFNSA",
+        "description": "Finschia Testnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/finschia-testnet/asset/fnsa.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "finschia-testnet>osmosis",
+            "client" : {
+                "channel": "channel-5951",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "finschia-testnet",
+                "denom": "tcony"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1A0B3E71D4DECB10DBCD327EF8D8EF5E87580898A2A3D9D6ACB1DF2BFD127063",
+        "name": "Ondo US Dollar Yield Testnet",
+        "symbol": "USDY",
+        "description": "Noble testnet Native Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdy.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "noble-testnet>osmosis-testnet",
+            "client" : {
+                "channel": "channel-4280",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-22",
+                "port": "transfer",
+                "chain": "noble-testnet",
+                "denom": "ausdy"
+            }
+        }
+    }
+]

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "stride-1",
     "chain_name": "Stride",
-    "chain_image": "stride/resource/chain_stride.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/resource/chain_stride.png",
     "symbol" : "STRD",
-    "symbol_image" : "stride/asset/strd.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/strd.png",
     "bechAccountPrefix" : "stride",
     "bechValidatorPrefix" : "stridevaloper",
     "name_for_dapp" : "STRIDE", 

@@ -1,9 +1,9 @@
 {
     "chain_id_evm" : "0xa86a",
     "chain_name": "avalanche",
-    "chain_image": "avalanche/resource/chain_avalanche.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/resource/chain_avalanche.png",
     "symbol" : "AVAX",
-    "symbol_image" : "avalanche/asset/avax.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/avax.png",
     "origin_genesis_time" : "2022-10-04T15:04:31Z",
     "moblie_dapp" : true,
     "evm_fee" : {

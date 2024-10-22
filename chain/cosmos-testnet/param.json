@@ -2,9 +2,9 @@
 
     "chain_id_cosmos" : "theta-testnet-001",
     "chain_name": "Cosmos Testnet",
-    "chain_image": "cosmos-testnet/resource/chain_cosmos-testnet.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos-testnet/resource/chain_cosmos-testnet.png",
     "symbol" : "ATOM",
-    "symbol_image" : "cosmos-testnet/asset/atom.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos-testnet/asset/atom.png",
     "bechAccountPrefix" : "cosmos",
     "bechValidatorPrefix" : "cosmosvaloper",
     "name_for_dapp" : "COSMOS TESTNET", 

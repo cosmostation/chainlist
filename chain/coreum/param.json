@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "coreum-mainnet-1",
     "chain_name": "Coreum",
-    "chain_image": "coreum/resource/chain_coreum.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/resource/chain_coreum.png",
     "symbol" : "CORE",
-    "symbol_image" : "coreum/asset/core.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/core.png",
     "bechAccountPrefix" : "core",
     "bechValidatorPrefix" : "corevaloper",
     "name_for_dapp" : "COREUM", 

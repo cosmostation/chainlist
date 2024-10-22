@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "umee-1",
     "chain_name": "UX",
-    "chain_image": "umee/resource/chain_umee.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/umee/resource/chain_umee.png",
     "symbol" : "UX",
-    "symbol_image" : "umee/asset/umee.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/umee/asset/umee.png",
     "bechAccountPrefix" : "umee",
     "bechValidatorPrefix" : "umeevaloper",
     "name_for_dapp" : "UX", 

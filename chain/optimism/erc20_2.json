@@ -1,0 +1,112 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x4200000000000000000000000000000000000042",
+        "name" : "Optimism",
+        "symbol": "OP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/optimism/asset/op.png",
+        "coinGeckoId": "optimism",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+        "name" : "Tether USD",
+        "symbol": "USDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+        "name" : "USD Coin",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+        "name" : "USD Coin (Bridged from Ethereum)",
+        "symbol": "USDC.e",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+        "name" : "ChainLink Token",
+        "symbol": "LINK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
+        "coinGeckoId": "chainlink",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+        "name" : "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+        "name" : "Dai Stablecoin",
+        "symbol": "DAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xFdb794692724153d1488CcdBE0C56c252596735F",
+        "name" : "Lido DAO Token",
+        "symbol": "LDO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ldo.png",
+        "coinGeckoId": "lido-dao",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x99C59ACeBFEF3BBFB7129DC90D1a11DB0E91187f",
+        "name" : "Pyth Network",
+        "symbol": "PYTH",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pyth.png",
+        "coinGeckoId": "pyth-network",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1",
+        "name" : "Worldcoin",
+        "symbol": "WLD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/worldcoin/asset/wld.png",
+        "coinGeckoId": "worldcoin-wld",
+        "wallet_preload": true
+    }
+]

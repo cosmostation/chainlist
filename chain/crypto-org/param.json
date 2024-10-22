@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "crypto-org-chain-mainnet-1",
     "chain_name": "Cronos Pos",
-    "chain_image": "crypto-org/resource/chain_crypto-org.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crypto-org/resource/chain_crypto-org.png",
     "symbol" : "CRO",
-    "symbol_image" : "crypto-org/asset/cro.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crypto-org/asset/cro.png",
     "bechAccountPrefix" : "cro",
     "bechValidatorPrefix" : "crocncl",
     "name_for_dapp" : "CRONOS POS", 

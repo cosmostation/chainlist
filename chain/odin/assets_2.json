@@ -1,0 +1,42 @@
+[
+    {
+        "type": "native",
+        "denom": "loki",
+        "name" : "Odin",
+        "symbol": "ODIN",
+        "description": "ODIN Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/odin/asset/odin.png",
+        "coinGeckoId": "odin-protocol"
+    },
+    {
+        "type": "native",
+        "denom": "mgeo",
+        "name" : "Geo",
+        "symbol": "GEO",
+        "description": "Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/odin/asset/geo.png",
+        "coinGeckoId": "geodb"
+    },
+    {
+        "type": "native",
+        "denom": "mO9W",
+        "name" : "O9W",
+        "symbol": "O9W",
+        "description": "Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/odin/asset/o9w.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "udoki",
+        "name" : "DOKI",
+        "symbol": "DOKI",
+        "description": "Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/odin/asset/doki.png",
+        "coinGeckoId": "doki"
+    }
+]

@@ -1,9 +1,9 @@
 {
     "chain_id_evm" : "0x19",
     "chain_name": "Cronos",
-    "chain_image": "cronos/resource/chain_cronos.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cronos/resource/chain_cronos.png",
     "symbol" : "CRO",
-    "symbol_image" : "cronos/asset/cro.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cronos/asset/cro.png",
     "origin_genesis_time" : "2021-11-08T10:00:00Z",
     "moblie_dapp" : true,
     "evm_fee" : {

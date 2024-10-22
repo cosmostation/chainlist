@@ -1,14 +1,15 @@
 {
     "chain_id_cosmos" : "osmosis-1",
     "chain_name": "Osmosis",
-    "chain_image": "osmosis/resource/chain_osmosis.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/resource/chain_osmosis.png",
     "symbol" : "OSMO",
-    "symbol_image" : "osmosis/asset/osmo.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
     "bechAccountPrefix" : "osmo",
     "bechValidatorPrefix" : "osmovaloper",
     "name_for_dapp" : "OSMOSIS", 
     "api_name" : "osmosis",
     "origin_genesis_time" : "2021-06-18T17:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

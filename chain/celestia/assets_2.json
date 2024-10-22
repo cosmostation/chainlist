@@ -1,0 +1,36 @@
+[
+    {
+        "type": "native",
+        "denom": "utia",
+        "name" : "Celestia",
+        "symbol": "TIA",
+        "description": "Celestia Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
+        "coinGeckoId": "celestia",
+        "color": "#D554F8"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/895D502280E6C6EB4DCD6F5591231DAC2072890F67D5422BD5004D0747496F3B",
+        "name" : "TORO",
+        "symbol": "TORO",
+        "description": "The memecoin built for the Celestia community.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/toro.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "osmosis>celestia",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-6994",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1nr8zfakf6jauye3uqa9lrmr5xumee5n42lv92z/toro"
+            }
+        }
+    }
+]

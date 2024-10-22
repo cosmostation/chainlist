@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "nyx",
     "chain_name": "Nyx",
-    "chain_image": "nyx/resource/chain_nyx.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nyx/resource/chain_nyx.png",
     "symbol" : "NYX",
-    "symbol_image" : "nyx/asset/nyx.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nyx/asset/nyx.png",
     "bechAccountPrefix" : "n",
     "bechValidatorPrefix" : "nvaloper",
     "name_for_dapp" : "NYX", 

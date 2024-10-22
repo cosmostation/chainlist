@@ -1,0 +1,12 @@
+[
+    {
+        "type": "native",
+        "denom": "utick",
+        "name" : "Microtick",
+        "symbol": "TICK",
+        "description": "Microtick Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/microtick/asset/tick.png",
+        "coinGeckoId": "microtick"
+    }
+]

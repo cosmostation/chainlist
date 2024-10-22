@@ -1,14 +1,14 @@
 {
-    "chain_id_cosmos" : "mantra-hongbai-1",
-    "chain_name": "Mantra Testnet",
-    "chain_image": "mantra-testnet/resource/chain_mantra-testnet.png",
+    "chain_id_cosmos" : "mantra-dukong-1",
+    "chain_name": "Dukong",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra-testnet/resource/chain_mantra-testnet.png",
     "symbol" : "OM",
-    "symbol_image" : "mantra-testnet/asset/om.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra-testnet/asset/om.png",
     "bechAccountPrefix" : "mantra",
     "bechValidatorPrefix" : "mantravaloper",
     "name_for_dapp" : "MANTRA TESTNET",
     "api_name" : "mantra-testnet",
-    "origin_genesis_time" : "2024-04-09T14:14:27Z",
+    "origin_genesis_time" : "2024-10-07T15:15:00Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -19,8 +19,8 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.002uom",
-            "0.003uom"
+            "0.2uom",
+            "0.3uom"
         ],
         "init_gas_limit" : 300000,
         "simul_gas_multiply" : 1.8,
@@ -33,7 +33,7 @@
         },
         {
             "provider": "MANTRACHAIN",
-            "url": "grpc.hongbai.mantrachain.io:443"
+            "url": "grpc.dukong.mantrachain.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -43,19 +43,15 @@
         },
         {
             "provider": "MANTRACHAIN",
-            "url": "https://api.hongbai.mantrachain.io/"
-        },
-        {
-            "provider": "Allnodes ⚡️ Nodes & Staking",
-            "url": "https://mantra-testnet-rest.publicnode.com/"
+            "url": "https://api.dukong.mantrachain.io/"
         }
     ],
     "explorer" : {
-        "name": "Stavr",
-        "url": "https://explorer.stavr.tech/MANTRA-Hongbai/",
-        "account": "https://explorer.stavr.tech/MANTRA-Hongbai/account/${address}",
-        "tx": "https://explorer.stavr.tech/MANTRA-Hongbai/tx/${hash}",
-        "proposal": "https://explorer.stavr.tech/MANTRA-Hongbai/gov/${id}"
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/mantra-testnet/",
+        "account": "https://www.mintscan.io/mantra-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/mantra-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/mantra-testnet/proposals/${id}"
     },
     "about" : {
         "website" : "https://www.mantrachain.io/",

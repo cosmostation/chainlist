@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "cnho_stables-1",
     "chain_name": "CNHO Stables",
-    "chain_image": "cnho_stables/resource/chain.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cnho_stables/resource/chain.png",
     "symbol" : "CNHO",
-    "symbol_image" : "cnho_stables/asset/chain.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cnho_stables/asset/chain.png",
     "bechAccountPrefix" : "cnho",
     "bechValidatorPrefix" : "cnhovaloper",
     "api_name" : "cnho",

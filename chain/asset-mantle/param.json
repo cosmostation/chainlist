@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "mantle-1",
     "chain_name": "AssetMantle",
-    "chain_image": "asset-mantle/resource/chain_asset-mantle.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/asset-mantle/resource/chain_asset-mantle.png",
     "symbol" : "MNTL",
-    "symbol_image" : "asset-mantle/asset/mntl.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/asset-mantle/asset/mntl.png",
     "bechAccountPrefix" : "mantle",
     "bechValidatorPrefix" : "mantlevaloper",
     "name_for_dapp" : "ASSETMANTLE", 
