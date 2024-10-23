@@ -38,7 +38,7 @@
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "description": "",
-        "decimals": 6,
+        "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
         "coinGeckoId": "dai",
         "wallet_preload": true
