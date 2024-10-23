@@ -6,6 +6,8 @@
     "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/source/asset/source.png",
     "bechAccountPrefix" : "source",
     "bechValidatorPrefix" : "sourcevaloper",
+    "name_for_dapp" : "SOURCE",
+    "origin_genesis_time" : "2023-10-01T17:43:25Z",
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -48,6 +50,32 @@
         {
             "provider": "STAVR",
             "url": "source.grpc.m.stavr.tech:9590"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "NodeStake",
+            "url": "https://api.source.nodestake.top/"
+        },
+        {
+            "provider": "BccNodes",
+            "url": "https://source.lcd.bccnodes.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://source.api.m.stavr.tech/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://source-mainnet-lcd.autostake.com:443/"
+        },
+        {
+            "provider": "BlueStake 🚀",
+            "url": "https://source-api.bluestake.net/"
+        },
+        {
+            "provider": "StakeUp",
+            "url": "https://api-cosmoshub.cosmos-spaces.cloud/"
         }
     ],
     "explorer" : {
