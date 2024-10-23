@@ -54,5 +54,38 @@
                 "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/747FF58D3F211497581252CEBE11D7E785FC1E53AC5C29497A361E3830F1AF4A",
+        "name" : "MEME",
+        "symbol": "MEME",
+        "description": "MEME Token (MEME) is the native staking token of the MEME Chain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "meme>planq",
+            "client" : {
+                "channel": "channel-64",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "meme",
+                "denom": "umeme"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09",
+        "name" : "Source Token",
+        "symbol": "SRCX",
+        "description": "The token of Source Protocol bridged from BSC.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png",
+        "coinGeckoId": ""
     }
 ]
