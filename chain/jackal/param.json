@@ -1,9 +1,17 @@
 {
+    "chain_id_cosmos" : "jackal-1",
     "chain_name": "Jackal",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/jackal/resource/chain_jackal.png",
+    "symbol" : "JKL",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/jackal/asset/jkl.png",
+    "bechAccountPrefix" : "jkl",
+    "bechValidatorPrefix" : "jklvaloper",
+    "name_for_dapp" : "JACKAL",
+    "api_name" : "jackal",
+    "origin_genesis_time" : "2022-10-26T22:00:00Z",
     "fee" : {
-        "base" : "1",
+        "base" : "0",
         "rate" : [
-            "0.002ujkl",
             "0.002ujkl",
             "0.02ujkl"
         ],
@@ -13,10 +21,51 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Jackal Labs",
-            "url": "rpc.jackalprotocol.com:443"
+            "provider": "Silent",
+            "url": "grpc.jackal.silentvalidator.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "jackal.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Jackal Labs",
+            "url": "https://api.jackalprotocol.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://rest.lavenderfive.com:443/jackal/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://jkl.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Nodeist",
+            "url": "https://api-jackal.nodeist.net/"
+        },
+        {
+            "provider": "Silk Nodes",
+            "url": "https://jackal.api.silknodes.io/"
+        },
+        {
+            "provider": "Silent",
+            "url": "https://api.jackal.silentvalidator.com/"
+        },
+        {
+            "provider": "MathNodes",
+            "url": "https://api.jackal.mathnodes.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Ping.pub",
+        "url": "https://ping.pub/jackal",
+        "account": "https://ping.pub/jackal/account/${address}",
+        "tx": "https://ping.pub/jackal/tx/${hash}",
+        "proposal": "https://ping.pub/jackal/gov/${id}"
+    },
     "about" : {
         "website" : "https://jackalprotocol.com/",
         "blog" : "https://www.jackalprotocol.com/blog",
