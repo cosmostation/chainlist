@@ -1,9 +1,27 @@
 {
+    "chain_id_cosmos" : "migaloo-1",
     "chain_name": "Migaloo",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/resource/migaloo_cosmos.png",
+    "symbol" : "WHALE",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/whitewhale.png",
+    "bechAccountPrefix" : "migaloo",
+    "bechValidatorPrefix" : "migaloovaloper",
+    "name_for_dapp" : "MIGALOO",
+    "api_name" : "migaloo",
+    "origin_genesis_time" : "2023-02-13T15:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
-            "1uwhale"
+            "1uwhale",
+            "2uwhale",
+            "3uwhale"
         ],
         "init_gas_limit" : 300000,
         "isSimulable" : true,
@@ -20,14 +38,44 @@
             "url": "migaloo-grpc.cosmosrescue.com:9090"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://migaloo-rest.publicnode.com/"
+        },
+        {
+            "provider": "High Stakes 🇨🇭",
+            "url": "https://migaloo-api.highstakes.ch/"
+        },
+        {
+            "provider": "Kleomedes",
+            "url": "https://migaloo-api.kleomedes.network:443/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://migaloo-api.polkachu.com:443/"
+        }
+    ],
+    "explorer" : {
+        "name": "Migaloo Explorers Guru",
+        "url": "https://migaloo.explorers.guru/",
+        "account": "https://migaloo.explorers.guru/account/${address}",
+        "tx": "https://migaloo.explorers.guru/transaction/${hash}",
+        "proposal": "https://migaloo.explorers.guru/proposal/${id}"
+    },
     "about" : {
-    	"website" : "https://www.whitewhale.money/"
+        "website" : "https://www.whitewhale.money/",
+        "docs": "https://docs.migaloo.zone/",
+        "github" : "https://github.com/White-Whale-Defi-Platform",
+        "medium": "https://medium.com/white-whale",
+        "twitter" : "https://twitter.com/whitewhaledefi",
+        "coingecko" : "https://www.coingecko.com/en/coins/white-whale"
     },
     "forum": {
     },
     "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
+        "ko" : "Migaloo는 원래 Terra 생태계의 일부로 시작되었지만 그 이후로 Cosmos 생태계로 전환하여 다양한 존에서 유동성을 균형 있게 조절하고 분배하는 분산형 플랫폼을 만드는 데 중점을 두었습니다. 주요 특징으로는 허가 없는 특성과 교차 체인 스테이킹을 용이하게 하고 블록체인 보안을 강화하는 Alliance 모듈이 있습니다. Migaloo의 주력 애플리케이션은 White Whale Protocol로, 스테이커를 위한 수익을 창출하기 위해 거래 및 플래시 대출을 사용하는 인터체인 유동성 프로토콜입니다. 이 플랫폼은 상호 운용성, 확장성 및 커뮤니티 참여를 강조하여 Cosmos 생태계에서 핵심적인 플레이어가 되는 것을 목표로 합니다.",
+        "en" : "Migaloo originated as part of the Terra ecosystem but has since transitioned to the Cosmos ecosystem, focusing on creating a decentralized platform that balances and distributes liquidity across various zones. Key features include its permissionless nature and the Alliance module, which facilitates cross-chain staking and enhances blockchain security. Migaloo's flagship application is the White Whale Protocol, an interchain liquidity protocol that uses trading and flash loans to generate yield for stakers. The platform emphasizes interoperability, scalability, and community engagement, aiming to be a pivotal player in the Cosmos ecosystem.",
+        "ja" : "Migaloo は Terra エコシステムの一部として始まりましたが、その後 Cosmos エコシステムに移行し、さまざまなゾーン間で流動性のバランスを取り、分配する分散型プラットフォームの作成に重点を置いています。主な機能には、許可のない性質と、クロスチェーン ステーキングを容易にし、ブロックチェーンのセキュリティを強化する Alliance モジュールがあります。Migaloo の主力アプリケーションは White Whale Protocol です。これは、取引とフラッシュ ローンを使用してステーカーに利回りを生み出すインターチェーン流動性プロトコルです。このプラットフォームは相互運用性、スケーラビリティ、コミュニティ エンゲージメントを重視し、Cosmos エコシステムの中心的なプレーヤーになることを目指しています。"
     }
 }
