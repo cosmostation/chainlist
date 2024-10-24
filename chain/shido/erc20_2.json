@@ -1,0 +1,13 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xb3b825F2670eBA4Fd85be72CF290F5Ec91A3c5ff",
+        "name" : "MER",
+        "symbol": "MER",
+        "description": "ERC-20 contract",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shido.png",
+        "coinGeckoId": "shido-2",
+        "wallet_preload": true
+    }
+]
