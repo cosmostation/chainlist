@@ -21,6 +21,10 @@ jobs:
           node _script/evm_squid.js arbitrum 42161
           node _script/evm_squid.js avalanche 43114
           node _script/evm_squid.js base 8453
+          node _script/evm_squid.js bnb-smart-chain 56
+          node _script/evm_squid.js ethereum 1
+          node _script/evm_squid.js optimism 10
+          node _script/evm_squid.js polygon 137
           
 
       - name: Create dynamic branch name
