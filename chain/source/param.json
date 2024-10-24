@@ -81,7 +81,7 @@
     "explorer" : {
         "name": "🔥STAVR🔥",
         "url": "https://explorer.stavr.tech/Source-Mainnet/",
-        "account": "https://explorer.stavr.tech/Source-Mainnet/accounts/${address}",
+        "account": "https://explorer.stavr.tech/Source-Mainnet/account/${address}",
         "tx": "https://explorer.stavr.tech/Source-Mainnet/tx/${hash}",
         "proposal": "https://explorer.stavr.tech/Source-Mainnet/gov/${id}"
     },
