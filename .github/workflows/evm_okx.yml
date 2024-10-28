@@ -1,0 +1,57 @@
+name: EVM OKX Merge
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: https://registry.npmjs.org/
+
+      - name: Install dependencies
+        run: |
+          npm install --prefix _script/evm_okx
+
+      - name: Set environment variables
+        run: |
+          echo "OKX_API_KEY=${{ secrets.OKX_API_KEY }}" >> $GITHUB_ENV
+          echo "OKX_SECRET_KEY=${{ secrets.OKX_SECRET_KEY }}" >> $GITHUB_ENV
+          echo "OKX_PASSPHRASE=${{ secrets.OKX_PASSPHRASE }}" >> $GITHUB_ENV
+
+      - name: Run code modification script
+        run: |
+          node _script/evm_okx/evm_okx.mjs cronos 25
+        env:
+          API_KEY: ${{ secrets.OKX_API_KEY }}
+          SECRET_KEY: ${{ secrets.OKX_SECRET_KEY }}
+          PASSPHRASE: ${{ secrets.OKX_PASSPHRASE }}
+
+      - name: Create dynamic branch name
+        id: vars
+        run: |
+          BRANCH_NAME="update-assets-$(date +%Y%m%d%H%M%S)"
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Automated code modification"
+          branch: ${{ steps.vars.outputs.branch_name }}
+          title: "Automated PR: Weekly evm assets modification with OKX"
+          body: "cronos"
+          draft: false
+          delete-branch: true # PR 병합 후 브랜치 삭제
