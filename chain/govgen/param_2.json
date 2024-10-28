@@ -9,7 +9,7 @@
     "bech_validator_prefix" : "govgenvaloper",
     "origin_genesis_time" : "2024-02-27T14:00:00Z",
     "api_name" : "govgen",
-    "is_bank_enabled" : false,
+    "is_send_enabled" : false,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
