@@ -1,0 +1,10 @@
+{
+  "name": "evm-okx-github-action",
+  "version": "1.0.0",
+  "description": "evm-okx-github-action",
+  "type": "module",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  },
+  "license": "ISC"
+}
