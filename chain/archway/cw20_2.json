@@ -191,5 +191,25 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/amparch.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "archway12yurzx8zynv3ck7uh4tucre48tqsm4fac4hfk9p3l24qs2cn08dqr684cg",
+        "name" : "BackBoneLabs Liquid Staked Arch",
+        "symbol": "bARCH",
+        "description": "BackBoneLabs Liquid Staked Arch",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/barch.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "archway16kxu278xtwa9ql20yhgk9smk2k6ke74hsxeesf36c9dhxqc5zyksh8ykwu",
+        "name" : "Architects Token",
+        "symbol": "TOKN",
+        "description": "Architects Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/tokn.png",
+        "coinGeckoId": ""
     }
 ]
