@@ -9,7 +9,7 @@
     "bech_account_prefix" : "evmos",
     "bech_validator_prefix" : "evmosvaloper",
     "origin_genesis_time" : "2022-03-02T19:00:00Z",
-    "api_name" : "evmos",
+    "api_name": "evmos",
     "is_support_cw20" : true,
     "account_type" : [
         {
