@@ -9,7 +9,7 @@
     "bech_validator_prefix" : "starvaloper",
     "origin_genesis_time" : "2019-03-13T23:00:00Z",
     "api_name" : "starname",
-    "cosmos_fee" : {
+    "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
             "0.1uiov",

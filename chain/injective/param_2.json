@@ -9,7 +9,7 @@
     "bech_validator_prefix" : "injvaloper",
     "origin_genesis_time" : "2021-06-30T13:00:00Z",
     "api_name" : "injective",
-    "is_moblie_dapp" : true,
+    "is_support_moblie_dapp" : true,
     "tx_timeout_padding" : 100,
     "account_type" : [
         {
@@ -18,7 +18,7 @@
             "pubkey_type": "/injective.crypto.v1beta1.ethsecp256k1.PubKey"
         }
     ],
-    "cosmos_fee" : {
+    "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
             "710000000inj"

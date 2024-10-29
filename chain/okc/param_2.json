@@ -10,7 +10,7 @@
     "bech_validator_prefix" : "exvaloper",
     "origin_genesis_time" : "2021-01-15T12:00:00Z",
     "api_name" : "okc",
-    "is_erc20" : true,
+    "is_support_erc20" : true,
     "explorer" : {
         "name": "Oklink",
         "url": "https://www.oklink.com/oktc/",

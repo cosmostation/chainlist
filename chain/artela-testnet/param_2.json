@@ -17,7 +17,7 @@
             "pubkey_type": "/artela.crypto.v1.ethsecp256k1.PubKey"
         }
     ],
-    "cosmos_fee" : {
+    "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
             "80000000000uart"

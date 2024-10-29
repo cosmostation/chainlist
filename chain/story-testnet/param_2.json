@@ -6,8 +6,8 @@
     "main_asset_symbol" : "IP",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/ip.png",
     "api_name" : "story-testnet",
-    "evm_fee" : {
-        "eip1559": true,
+    "evm_fee_info" : {
+        "is_eip1559": true,
         "simul_gas_multiply" : 1.3
     },
     "evm_rpc_endpoint" : [

@@ -9,9 +9,9 @@
     "bech_validator_prefix" : "archwayvaloper",
     "origin_genesis_time" : "2023-07-03T12:00:00Z",
     "api_name" : "archway",
-    "is_moblie_dapp" : true,
-    "is_cw20" : true,
-    "is_cw721" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_cw20" : true,
+    "is_support_cw721" : true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -19,7 +19,7 @@
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
     ],
-    "cosmos_fee" : {
+    "cosmos_fee_info" : {
         "base": "0",
         "rate": [
             "140000000000aarch"

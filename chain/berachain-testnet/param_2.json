@@ -17,7 +17,7 @@
             "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
         }
     ],
-    "cosmos_fee" : {
+    "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
             "0abera"

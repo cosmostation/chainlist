@@ -9,10 +9,10 @@
     "gas_asset_symbol" : "ETH",
     "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/optimism/asset/eth_op.png",
     "origin_genesis_time" : "2021-11-11T09:16:39Z",
-    "is_moblie_dapp" : true,
-    "is_erc20" : true,
-    "evm_fee" : {
-        "eip1559": true,
+    "is_support_moblie_dapp" : true,
+    "is_support_erc20" : true,
+    "evm_fee_info" : {
+        "is_eip1559": true,
         "simulated_gas_multiply" : 1.3
     },
     "evm_rpc_endpoint" : [

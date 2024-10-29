@@ -10,7 +10,7 @@
     "bech_validator_prefix" : "cantovaloper",
     "origin_genesis_time" : "2022-07-26T17:27:56Z",
     "api_name" : "canto",
-    "is_erc20" : true,
+    "is_support_erc20" : true,
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -18,7 +18,7 @@
             "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
         }
     ],
-    "cosmos_fee" : {
+    "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
             "1500000000000acanto",
@@ -29,8 +29,8 @@
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
-    "evm_fee" : {
-        "eip1559": false,
+    "evm_fee_info" : {
+        "is_eip1559": false,
         "simulated_gas_multiply" : 1.2
     },
     "lcd_endpoint" : [

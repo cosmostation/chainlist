@@ -17,7 +17,7 @@
             "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
         }
     ],
-    "cosmos_fee" : {
+    "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
             "20000000000aheart"
@@ -27,8 +27,8 @@
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
-    "evm_fee" : {
-        "eip1559": false,
+    "evm_fee_info" : {
+        "is_eip1559": false,
         "simulated_gas_multiply" : 1.2
     },
     "grpc_endpoint" : [

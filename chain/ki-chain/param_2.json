@@ -9,7 +9,7 @@
     "bech_validator_prefix" : "kivaloper",
     "origin_genesis_time" : "2020-08-04T00:00:00Z",
     "api_name" : "ki-chain",
-    "is_cw20" : true,
+    "is_support_cw20" : true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -17,7 +17,7 @@
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
     ],
-    "cosmos_fee" : {
+    "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
             "0.025uxki"

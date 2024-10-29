@@ -10,7 +10,7 @@
     "bech_validator_prefix" : "evmosvaloper",
     "origin_genesis_time" : "2022-03-02T19:00:00Z",
     "api_name" : "evmos",
-    "is_cw20" : true,
+    "is_support_cw20" : true,
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -18,7 +18,7 @@
             "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
         }
     ],
-    "cosmos_fee" : {
+    "cosmos_fee_info" : {
         "base" : "1",
         "rate" : [
             "25000000000aevmos",

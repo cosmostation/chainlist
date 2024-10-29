@@ -16,7 +16,7 @@
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
     ],
-    "cosmos_fee" : {
+    "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
             "0.1uumee",
