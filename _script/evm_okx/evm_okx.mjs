@@ -66,7 +66,10 @@ async function main() {
         name: asset.tokenName,
         symbol: asset.tokenSymbol,
         description: asset.tokenSymbol, // NOTE: Temporary
-        decimals: asset.decimals,
+        decimals:
+          typeof asset.decimals === "string"
+            ? Number(asset.decimals)
+            : asset.decimals,
         image: asset?.tokenLogoUrl,
         coinGeckoId: asset?.coingeckoId || "",
       }));
