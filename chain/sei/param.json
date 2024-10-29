@@ -18,9 +18,10 @@
     ],
     "tx_timeout_add" : 100, 
     "fee" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
-            "0.02usei"
+            "0.02usei",
+            "0.04usei"
         ],
         "init_gas_limit" : 300000,
         "isSimulable" : true,
