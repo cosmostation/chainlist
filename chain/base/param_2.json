@@ -1,0 +1,57 @@
+{
+    "chain_id_evm" : "0x2105",
+    "chain_name": "Base",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/resource/chain_base.png",
+    "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "main_asset_symbol" : "ETH",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/eth_base.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "ETH",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/eth_base.png",
+    "origin_genesis_time" : "2023-01-15T12:35:49Z",
+    "api_name" : "base",
+    "is_moblie_dapp" : true,
+    "is_erc20" : true,
+    "evm_fee" : {
+        "eip1559": true,
+        "simul_gas_multiply" : 1.3
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Foundation",
+            "url": "https://mainnet.base.org"
+        },
+        {
+            "provider": "Blockpi",
+            "url": "https://base.blockpi.network/v1/rpc/public"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://base.drpc.org"
+        },
+        {
+            "provider": "Blastapi",
+            "url": "https://base-mainnet.public.blastapi.io"
+        }
+    ],
+    "explorer" : {
+        "name": "Basescan",
+        "url": "https://basescan.org/",
+        "account": "https://basescan.org/address/${address}",
+        "tx": "https://basescan.org/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://www.base.org/",
+        "docs": "https://docs.base.org/",
+        "github" : "https://github.com/base-org",
+        "blog" : "https://base.mirror.xyz/",
+        "medium": "",
+        "twitter" : "https://twitter.com/base",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Base는 Coinbase에서 인큐베이팅하고 오픈 소스 OP 스택을 기반으로 구축된 Ethereum L2입니다.",
+        "en" : "An Ethereum L2, incubated by Coinbase and built on the open-source OP Stack.",
+        "ja" : "BaseはCoinbaseでインキュベートし、オープンソースのOPスタックに基づいて構築されたEthereum L2です。"
+    }
+}

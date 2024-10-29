@@ -12,7 +12,7 @@
     "api_name" : "kava",
     "is_moblie_dapp" : true,
     "is_erc20" : true,
-    "accountType" : [
+    "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
             "pubkey_style": "keccak256",

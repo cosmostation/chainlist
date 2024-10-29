@@ -1,0 +1,81 @@
+{
+    "chain_id_cosmos" : "canto_7700-1",
+    "chain_id_evm" : "0x1e14",
+    "chain_name": "Canto",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/canto/resource/chain_canto.png",
+    "main_asset_denom" : "acanto",
+    "main_asset_symbol" : "CANTO",
+    "main_asset_image" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/canto/asset/canto.png",
+    "bech_account_prefix" : "canto",
+    "bech_validator_prefix" : "cantovaloper",
+    "origin_genesis_time" : "2022-07-26T17:27:56Z",
+    "api_name" : "canto",
+    "is_erc20" : true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee" : {
+        "base" : "0",
+        "rate" : [
+            "1500000000000acanto",
+            "2000000000000acanto"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee" : {
+        "eip1559": false,
+        "simulated_gas_multiply" : 1.2
+    },
+    "lcd_endpoint" : [
+        {
+            "provider": "Polkachu",
+            "url": "https://canto-api.polkachu.com/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://canto-mainnet-lcd.autostake.com/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Slingshot",
+            "url": "https://canto.slingshot.finance"
+        },
+        {
+            "provider": "plexnode",
+            "url": "https://mainnode.plexnode.org:8545"
+        },
+        {
+            "provider": "Ansybl",
+            "url": "https://canto-rpc.ansybl.io"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/canto",
+        "account": "https://atomscan.com/canto/accounts/${address}",
+        "tx": "https://atomscan.com/canto/transactions/${hash}",
+        "proposal": "https://atomscan.com/canto/votes/${id}"
+    },
+    "about" : {
+        "website" : "https://canto.io/",
+        "docs": "https://docs.canto.io/",
+        "github" : "https://github.com/Canto-Network",
+        "blog" : "https://canto.mirror.xyz/",
+        "medium": "https://canto.mirror.xyz/",
+        "twitter" : "https://twitter.com/CantoPublic",
+        "coingecko" : "https://www.coingecko.com/en/coins/canto"
+    },
+    "description" : {
+        "ko" : "Canto는 이더리움 가상머신을(EVM) 실행할 수 있도록 만들어진 Cosmos SDK 기반 레이어 1 블록체인입니다.",
+        "en" : "Canto is a Cosmos SDK based Layer-1 blockchain that runs Ethereum Virtual Machine.",
+        "ja" : "Cantoは、イーサリアム仮想マシン（EVM）を実行できるように設計されたCosmos SDKベースのレイヤ1ブロックチェーンです。"
+    }
+}

@@ -9,6 +9,7 @@
     "gas_asset_symbol" : "ETH",
     "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eth.png",
     "origin_genesis_time" : "2015-07-30T03:26:13Z",
+    "api_name" : "ethereum",
     "is_moblie_dapp" : true,
     "is_erc20" : true,
     "evm_fee" : {

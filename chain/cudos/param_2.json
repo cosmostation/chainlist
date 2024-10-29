@@ -1,0 +1,82 @@
+{
+    "chain_id_cosmos" : "cudos-1",
+    "chain_name": "Cudos",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cudos/resource/chain_cudos.png",
+    "main_asset_denom" : "acudos",
+    "main_asset_symbol" : "CUDOS",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cudos/asset/cudos.png",
+    "bech_account_prefix" : "cudos",
+    "bech_validator_prefix" : "cudosvaloper",
+    "origin_genesis_time" : "2022-06-15T07:48:13Z",
+    "api_name" : "cudos",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee" : {
+        "base" : "0",
+        "rate" : [
+            "5000000000000acudos",
+            "10000000000000acudos"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-cudos.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "cudos-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-cudos.cosmostation.io/"
+        },
+        {
+            "provider": "Kleomedes",
+            "url": "https://cudos-api.kleomedes.network/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://cudos-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://cudos-api.lavenderfive.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/cudos/",
+        "account": "https://www.mintscan.io/cudos/address/${address}",
+        "tx": "https://www.mintscan.io/cudos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/cudos/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.cudos.org/",
+        "docs": "https://docs.cudos.org/",
+        "github" : "https://github.com/CudoVentures",
+        "blog" : "https://www.cudos.org/blog/",
+        "medium": "https://medium.com/cudos",
+        "twitter" : "https://twitter.com/cudos",
+        "coingecko" : "https://www.coingecko.com/en/coins/cudos"
+    },
+    "forum": {
+        "main": "https://www.reddit.com/r/CUDOS"
+    },
+    "description" : {
+        "ko" : "Cudos는 블록체인과 클라우드 컴퓨팅 기술을 결합하여 Web3를 위한 분산형 플랫폼을 만듭니다.",
+        "en" : "Cudos is a combining blockchain and cloud computing technologies to create a decentralized platform for Web3.",
+        "ja" : "Cudos は、ブロックチェーンとクラウド コンピューティング テクノロジーを組み合わせて、Web3 用の分散プラットフォームを作成します。"
+    }
+}

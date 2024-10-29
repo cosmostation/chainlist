@@ -1,0 +1,29 @@
+{
+    "chain_name": "Carbon",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "1swth"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "carbon-grpc.lavenderfive.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.carbon.network/"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}
