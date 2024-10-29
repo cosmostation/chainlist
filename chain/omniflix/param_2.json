@@ -1,0 +1,96 @@
+{
+    "chain_id_cosmos" : "omniflixhub-1",
+    "chain_name": "Omniflix",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/omniflix/resource/chain_omniflix.png",
+    "main_asset_denom" : "uflix",
+    "main_asset_symbol" : "FLIX",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/omniflix/asset/flix.png",
+    "bech_account_prefix" : "omniflix",
+    "bech_validator_prefix" : "omniflixvaloper",
+    "origin_genesis_time" : "2022-02-22T07:00:00Z",
+    "api_name" : "omniflix",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.001uflix"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-omniflix.cosmostation.io:443"
+        },
+        {
+            "provider": "kingnodes",
+            "url": "grpc-omniflix.kingnodes.com:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-omniflixhub-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "omniflixhub-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "MZONDER",
+            "url": "grpc-omniflix.mzonder.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-omniflix.cosmostation.io/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://omniflixhub-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-omniflixhub.cosmos-spaces.cloud/"
+        },
+        {
+            "provider": "silent",
+            "url": "https://api.omniflix.silentvalidator.com/"
+        },
+        {
+            "provider": "kingnodes 👑",
+            "url": "https://omniflix-rest.kingnodes.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/omniflix/",
+        "account": "https://www.mintscan.io/omniflix/address/${address}",
+        "tx": "https://www.mintscan.io/omniflix/tx/${hash}",
+        "proposal": "https://www.mintscan.io/omniflix/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.omniflix.network/",
+        "docs": "https://docs.omniflix.network",
+        "github" : "https://github.com/OmniFlix",
+        "blog" : "https://blog.omniflix.network/",
+        "twitter" : "https://twitter.com/OmniFlixNetwork",
+        "discord" : "https://discord.com/invite/6gdQ4yZSTC",
+        "coingecko" : "https://www.coingecko.com/en/coins/omniflix-network"
+    },
+    "forum": {
+        "main": "https://www.reddit.com/r/omniflix"
+    },
+    "description" : {
+        "ko" : "NFT 창작자들과 커뮤니티에게 탈중앙화된 미디어 플랫폼을 제공하는 블록체인 프로젝트.",
+        "en" : "OmniFlix Network is a blockchain specifically designed for creators and communities, powered by NFTs.",
+        "ja" : "NFTクリエイターやコミュニティに脱中央化されたミディアプラットフォームを提供するブロックチェーンプロジェクト。"
+    }
+}

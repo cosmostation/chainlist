@@ -1,17 +1,17 @@
 {
-    "chain_id_cosmos" : "cosmoshub-4",
+    "chain_id_cosmos": "cosmoshub-4",
     "chain_name": "Cosmos",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/resource/chain_cosmos.png",
-    "main_asset_denom" : "uatom",
-    "main_asset_symbol" : "ATOM",
+    "main_asset_denom": "uatom",
+    "main_asset_symbol": "ATOM",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
-    "bech_account_prefix" : "cosmos",
-    "bech_validator_prefix" : "cosmosvaloper",
-    "origin_genesis_time" : "2019-03-13T23:00:00Z",
-    "api_name" : "cosmos",
-    "is_moblie_dapp" : true,
-    "voting_threshold" : 1000000,
-    "account_type" : [
+    "bech_account_prefix": "cosmos",
+    "bech_validator_prefix": "cosmosvaloper",
+    "origin_genesis_time": "2019-03-13T23:00:00Z",
+    "api_name": "cosmos",
+    "is_moblie_dapp": true,
+    "voting_threshold": 1000000,
+    "account_type": [
         {
             "hd_path": "m/44'/118'/0'/0/X",
             "pubkey_style": "secp256k1",
@@ -19,18 +19,18 @@
         }
     ],
     "cosmos_fee" : {
-        "base" : "0",
-        "rate" : [
+        "base": "0",
+        "rate": [
             "0.005uatom",
             "0.025uatom"
         ],
         "is_feemarket": true,
-        "is_simulable" : true,
-        "simulated_gas_multiply" : 1.8,
-        "init_gas_limit" : 300000,
-        "fee_threshold" : ""
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.8,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
     },
-    "grpc_endpoint" : [
+    "grpc_endpoint": [
         {
             "provider": "Cosmostation",
             "url": "grpc-cosmos.cosmostation.io:443"
@@ -52,7 +52,7 @@
             "url": "grpc-cosmoshub.mms.team:443"
         }
     ],
-    "lcd_endpoint" : [
+    "lcd_endpoint": [
         {
             "provider": "Cosmostation",
             "url": "https://lcd-cosmos.cosmostation.io/"
@@ -78,29 +78,29 @@
             "url": "https://api-cosmoshub.cosmos-spaces.cloud/"
         }
     ],
-    "explorer" : {
+    "explorer": {
         "name": "Mintscan",
         "url": "https://www.mintscan.io/cosmos/",
         "account": "https://www.mintscan.io/cosmos/address/${address}",
         "tx": "https://www.mintscan.io/cosmos/tx/${hash}",
         "proposal": "https://www.mintscan.io/cosmos/proposals/${id}"
     },
-    "about" : {
-        "website" : "https://cosmos.network",
+    "about": {
+        "website": "https://cosmos.network",
         "docs": "https://docs.cosmos.network",
-        "github" : "https://github.com/cosmos",
-        "blog" : "https://blog.cosmos.network",
+        "github": "https://github.com/cosmos",
+        "blog": "https://blog.cosmos.network",
         "medium": "https://blog.cosmos.network",
-        "twitter" : "https://twitter.com/cosmos",
-        "coingecko" : "https://www.coingecko.com/en/coins/cosmos-hub"
+        "twitter": "https://twitter.com/cosmos",
+        "coingecko": "https://www.coingecko.com/en/coins/cosmos-hub"
     },
     "forum": {
         "main": "https://forum.cosmos.network",
         "governance": "https://forum.cosmos.network/c/hub-proposals"
     },
-    "description" : {
-        "ko" : "코스모스 허브는 다양한 블록체인 네트워크의 상호 운용성을 가능하게 해주는 Internet of Blockchain 입니다.",
-        "en" : "The Cosmos Hub is an Internet of Blockchains, a network of blockchains able to communicate with each other in a decentralized way.",
-        "ja" : "Cosmos Hub は、さまざまなブロックチェーンネットワークの相互運用性を可能にするInternet of Blockchainです。"
+    "description": {
+        "ko": "코스모스 허브는 다양한 블록체인 네트워크의 상호 운용성을 가능하게 해주는 Internet of Blockchain 입니다.",
+        "en": "The Cosmos Hub is an Internet of Blockchains, a network of blockchains able to communicate with each other in a decentralized way.",
+        "ja": "Cosmos Hub は、さまざまなブロックチェーンネットワークの相互運用性を可能にするInternet of Blockchainです。"
     }
 }

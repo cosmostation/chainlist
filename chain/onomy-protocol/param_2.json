@@ -1,0 +1,69 @@
+{
+    "chain_id_cosmos" : "onomy-mainnet-1",
+    "chain_name": "Onomy",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/onomy-protocol/resource/chain_onomy-protocol.png",
+    "main_asset_denom" : "anom",
+    "main_asset_symbol" : "NOM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/onomy-protocol/asset/nom.png",
+    "bech_account_prefix" : "onomy",
+    "bech_validator_prefix" : "onomyvaloper",
+    "origin_genesis_time" : "2022-11-29T16:57:15Z",
+    "api_name" : "onomy-protocol",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.0anom"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-onomy-protocol.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-onomy-protocol.cosmostation.io/"
+        },
+        {
+            "provider": "onomy",
+            "url": "https://rest-mainnet.onomy.io/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://onomy-mainnet-lcd.autostake.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/onomy-protocol/",
+        "account": "https://www.mintscan.io/onomy-protocol/address/${address}",
+        "tx": "https://www.mintscan.io/onomy-protocol/tx/${hash}",
+        "proposal": "https://www.mintscan.io/onomy-protocol/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://onomy.io/",
+        "docs": "https://docs.onomy.io/",
+        "github" : "https://github.com/onomyprotocol/",
+        "medium": "https://medium.com/onomy-protocol",
+        "twitter" : "https://twitter.com/onomyprotocol",
+        "coingecko" : "https://www.coingecko.com/en/coins/onomy-protocol"
+    },
+    "description" : {
+        "ko" : "오더북과 AMM이 결합된 Onomy 덱스 거래소와 스테이블코인 발행을 위해 설계된 코스모스 SDK 기반 레이어 1 블록체인 프로토콜.",
+        "en" : "Onomy is a Cosmos SDK-based layer-1 protocol designed for Onomy Exchange and Onomy Reserve.",
+        "ja" : "オーダーブックとAMMが結合されたOnomyデックス取引所とステーブルコイン発行のため設計されたコスモスSDKベースレイヤー1ブロックチェーンプロトコル。"
+    }
+}

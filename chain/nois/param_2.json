@@ -1,10 +1,10 @@
 {
-    "chain_name": "Odin Protocol",
+    "chain_name": "Nois",
     "cosmos_fee" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
-            "0.0025loki",
-            "0.025loki"
+            "0.0unois",
+            "0.05unois"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
@@ -13,12 +13,20 @@
     },
     "grpc_endpoint" : [
         {
+            "provider": "nysa.network",
+            "url": "nois-grpc.nysa.network"
+        },
+        {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "odin-grpc.lavenderfive.com:443"
+            "url": "nois-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "silent",
+            "url": "grpc.nois.silentvalidator.com:443"
         }
     ],
     "about" : {
-        "website" : "https://odinprotocol.io/"
+        "website" : "https://nois.network"
     },
     "forum": {
     },

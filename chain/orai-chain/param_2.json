@@ -1,10 +1,9 @@
 {
-    "chain_name": "Odin Protocol",
+    "chain_name": "Oraichain",
     "cosmos_fee" : {
         "base" : "0",
         "rate" : [
-            "0.0025loki",
-            "0.025loki"
+            "0.005orai"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
@@ -13,12 +12,20 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "odin-grpc.lavenderfive.com:443"
+            "provider": "MMS",
+            "url": "grpc-oraichain.mms.team:443"
+        },
+        {
+            "provider": "PFC",
+            "url": "grpc.orai.pfc.zone:443"
+        },
+        {
+            "provider": "KonsorTech",
+            "url": "mainnet-orai.konsortech.xyz:33090"
         }
     ],
     "about" : {
-        "website" : "https://odinprotocol.io/"
+        "website" : "https://orai.io/"
     },
     "forum": {
     },
