@@ -1,0 +1,93 @@
+{
+    "chain_id_cosmos" : "sentinelhub-2",
+    "chain_name": "Sentinel",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/resource/chain_sentinel.png",
+    "main_asset_denom": "udvpn",
+    "main_asset_symbol" : "DVPN",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/asset/dvpn.png",
+    "bech_account_prefix" : "sent",
+    "bech_validator_prefix" : "sentvaloper",
+    "origin_genesis_time" : "2021-03-27T12:00:00Z",
+    "api_name" : "sentinel",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.1udvpn,0.01ibc/31FEE1A2A9F9C01113F90BD0BBCCE8FD6BBB8585FAF109A2101827DD1D5B95B8,0.01ibc/B1C0DDB14F25279A2026BC8794E12B259F8BDA546A3C5132CCAEE4431CE36783,0.01ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518,0.01ibc/A8C2D23A1E6F95DA4E48BA349667E322BD7A6C996D8A4AAE8BA72E190F3D1477"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-sentinel.cosmostation.io:443"
+        },
+        {
+            "provider": "RoomIT",
+            "url": "grpc.dvpn.roomit.xyz:8443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-sentinel-ia.cosmosia.notional.ventures:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-sentinel.cosmostation.io/"
+        },
+        {
+            "provider": "Busurnode",
+            "url": "https://api-sentinel.busurnode.com/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-sentinel.whispernode.com/"
+        },
+        {
+            "provider": "🐹 Quokka Stake",
+            "url": "https://api.sentinel.quokkastake.io/"
+        },
+        {
+            "provider": "MathNodes Romania",
+            "url": "https://api.ro.mathnodes.com/"
+        },
+        {
+            "provider": "MathNodes China",
+            "url": "https://api.dvpn.me/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/sentinel/",
+        "account": "https://www.mintscan.io/sentinel/address/${address}",
+        "tx": "https://www.mintscan.io/sentinel/tx/${hash}",
+        "proposal": "https://www.mintscan.io/sentinel/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://sentinel.co/",
+        "docs": "https://docs.sentinel.co",
+        "github" : "https://github.com/sentinel-official",
+        "medium": "https://medium.com/sentinel",
+        "twitter" : "https://twitter.com/Sentinel_co",
+        "coingecko" : "https://www.coingecko.com/en/coins/sentinel"
+    },
+    "forum": {
+        "main": "https://commonwealth.im/sentinel",
+        "governance": "https://commonwealth.im/sentinel/discussions/1%20-%20Proposal%20discussion"
+    },
+    "description" : {
+        "ko" : "탈중앙화 오픈소스 VPN 서비스를 호스팅하여 유저들에게 프라이버시와 보안을 제공하는 Cosmos SDK 기반의 PoS 네트워크.",
+        "en" : "Cosmos SDK based PoS network hosting open-source distributed and decentralized VPN service, providing users ensured privacy and security.",
+        "ja" : "分散型オープンソースVPNサービスをホスティングしてユーザーたちにプライバシーと保安を提供するCosmos SDKベースのPoSネットワーク。"
+    }
+}

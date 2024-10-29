@@ -1,0 +1,46 @@
+{
+    "chain_id_cosmos" : "iov-mainnet-ibc",
+    "chain_name": "starname",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/starname/resource/chain_starname.png",
+    "main_asset_denom" : "uiov",
+    "main_asset_symbol" : "IOV",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/starname/asset/iov.png",
+    "bech_account_prefix" : "star",
+    "bech_validator_prefix" : "starvaloper",
+    "origin_genesis_time" : "2019-03-13T23:00:00Z",
+    "api_name" : "starname",
+    "cosmos_fee" : {
+        "base" : "0",
+        "rate" : [
+            "0.1uiov",
+            "1.0uiov"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/starname",
+        "account": "https://atomscan.com/starname/accounts/${address}",
+        "tx": "https://atomscan.com/starname/transactions/${hash}",
+        "proposal": "https://atomscan.com/starname/votes/${id}"
+    },
+    "about" : {
+        "website" : "https://www.starname.me/",
+        "blog" : "https://medium.com/iov-internet-of-values",
+        "github" : "https://github.com/iov-one",
+        "twitter" : "https://twitter.com/starname_me",
+        "coingecko" : "https://www.coingecko.com/en/coins/starname"
+    },
+    "description" : {
+        "ko" : "Tendermint를 기반으로하는 Starname은 빠르고 안전하며 분산 된 범용 네이밍 서비스를 구축합니다.",
+        "en" : "Built on Tendermint, Starname builds a fast, secure and decentralized universal name service.",
+        "ja" : "TendermintをベースにするStarnameは高速で安全な分散型汎用ネーミングサービスを構築します。"
+    }
+}

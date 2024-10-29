@@ -2,28 +2,29 @@
     "chain_id_cosmos" : "source-1",
     "chain_name": "Source",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/source/resource/chain_source.png",
-    "symbol" : "SOURCE",
-    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/source/asset/source.png",
-    "bechAccountPrefix" : "source",
-    "bechValidatorPrefix" : "sourcevaloper",
-    "name_for_dapp" : "SOURCE",
+    "main_asset_denom": "usource",
+    "main_asset_symbol" : "SOURCE",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/source/asset/source.png",
+    "bech_account_prefix" : "source",
+    "bech_validator_prefix" : "sourcevaloper",
     "origin_genesis_time" : "2023-10-01T17:43:25Z",
-    "accountType" : [
+    "api_name": "source",
+    "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
             "pubkey_style": "secp256k1",
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
     ],
-    "fee" : {
+    "cosmos_fee" : {
         "base" : "1",
         "rate" : [
             "0.05usource",
             "0.075usource",
             "0.1usource"
         ],
-        "isSimulable" : true,
-        "simul_gas_multiply" : 1.2,
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
@@ -39,7 +40,7 @@
             "provider": "Nodeist",
             "url": "grpc-source.nodeist.net:443"
         },
-		{
+        {
             "provider": "NodesHub",
             "url": "source.grpc.nodeshub.online:443"
         },
@@ -94,8 +95,8 @@
         "coingecko" : "https://www.coingecko.com/en/coins/source"
     },
     "forum": {
-      "main": "https://www.sourceprotocol.io/blog",
-      "governance": "https://commonwealth.im/source/"
+        "main": "https://www.sourceprotocol.io/blog",
+        "governance": "https://commonwealth.im/source/"
     },
     "description" : {
         "ko" : "안전하고 지속 가능한 글로벌 네트워크에서 무제한의 엔터프라이즈 애플리케이션을 구축할 수 있습니다.",

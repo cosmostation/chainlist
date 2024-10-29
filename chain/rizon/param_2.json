@@ -1,0 +1,71 @@
+{
+    "chain_id_cosmos" : "titan-1",
+    "chain_name": "Rizon",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/rizon/resource/chain_rizon.png",
+    "main_asset_denom": "uatolo",
+    "main_asset_symbol" : "ATOLO",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/rizon/asset/atolo.png",
+    "bech_account_prefix" : "rizon",
+    "bech_validator_prefix" : "rizonvaloper",
+    "origin_genesis_time" : "2021-09-28T08:00:00Z",
+    "api_name" : "rizon",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.00025uatolo",
+            "0.0025uatolo",
+            "0.025uatolo"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-rizon.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-rizon.cosmostation.io/"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "https://api.rizon.chaintools.tech/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://rizon.api.m.stavr.tech/"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/rizon",
+        "account": "https://atomscan.com/rizon/accounts/${address}",
+        "tx": "https://atomscan.com/rizon/transactions/${hash}",
+        "proposal": "https://atomscan.com/rizon/votes/${id}"
+    },
+    "about" : {
+        "website" : "https://rizon.world/",
+        "docs": "https://docs.rizon.world",
+        "github" : "https://github.com/rizon-world/rizon",
+        "blog" : "https://medium.com/hdac",
+        "twitter" : "https://twitter.com/hdac_rizon",
+        "coingecko" : "https://www.coingecko.com/en/coins/rizon"
+    },
+    "description" : {
+        "ko" : "기존 비즈니스를 디지털 통화로 연결하는 Cosmos SDK 기반 오픈 소스 블록 체인.",
+        "en" : "Cosmos SDK based public network bridging traditional businesses with digital currencies.",
+        "ja" : "従来のビジネスをデジタル通貨につなげるCosmos SDKベースのオープンソースブロックチェーン。"
+    }
+}
