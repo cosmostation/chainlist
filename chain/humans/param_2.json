@@ -3,13 +3,13 @@
     "chain_id_evm" : "0x441",
     "chain_name": "Humans.ai",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/humans/resource/chain_humans.png",
-    "symbol" : "HEART",
-    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/humans/asset/humans.png",
-    "bechAccountPrefix" : "human",
-    "bechValidatorPrefix" : "humanvaloper",
-    "name_for_dapp" : "HUMANS.AI", 
-    "api_name" : "humans",
+    "main_asset_denom" : "aheart",
+    "main_asset_symbol" : "HEART",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/humans/asset/humans.png",
+    "bech_account_prefix" : "human",
+    "bech_validator_prefix" : "humanvaloper",
     "origin_genesis_time" : "2023-05-29T18:00:00Z",
+    "api_name" : "humans",
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -17,15 +17,19 @@
             "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
         }
     ],
-    "fee" : {
+    "cosmos_fee" : {
         "base" : "0",
         "rate" : [
             "20000000000aheart"
         ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
         "init_gas_limit" : 300000,
-        "isSimulable" : true,
-        "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
+    },
+    "evm_fee" : {
+        "eip1559": false,
+        "simulated_gas_multiply" : 1.2
     },
     "grpc_endpoint" : [
         {

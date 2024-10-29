@@ -1,0 +1,73 @@
+{
+    "chain_id_cosmos" : "panacea-3",
+    "chain_name": "Medibloc",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medibloc/resource/chain_medibloc.png",
+    "main_asset_denom" : "umed",
+    "main_asset_symbol" : "MED",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medibloc/asset/med.png",
+    "bech_account_prefix" : "panacea",
+    "bech_validator_prefix" : "panaceavaloper",
+    "origin_genesis_time" : "2019-07-31T05:00:00Z",
+    "api_name" : "medibloc",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/371'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee" : {
+        "base" : "0",
+        "rate" : [
+            "5umed"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-medibloc.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-medibloc.cosmostation.io/"
+        },
+        {
+            "provider": "medibloc",
+            "url": "https://api.gopanacea.org/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://panacea-rest.staketab.org/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/medibloc/",
+        "account": "https://www.mintscan.io/medibloc/address/${address}",
+        "tx": "https://www.mintscan.io/medibloc/tx/${hash}",
+        "proposal": "https://www.mintscan.io/medibloc/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://medibloc.com/",
+        "docs": "https://docs.gopanacea.org/",
+        "github" : "https://github.com/Medibloc",
+        "blog" : "https://medibloc.com/blog/",
+        "medium": "https://medibloc.medium.com",
+        "twitter" : "https://twitter.com/_MediBloc",
+        "coingecko" : "https://www.coingecko.com/en/coins/medibloc"
+    },
+    "forum": {
+        "main": "https://reddit.com/r/MediBloc"
+    },
+    "description" : {
+        "ko" : "메디블록은 환자 중심의 의료 정보 플랫폼 구축을 통해 모든 사람이 건강한 삶을 살 수 있는 세상을 만들고자 하는 블록체인 기반의 디지털 헬스케어 기업입니다.",
+        "en" : "MediBloc is a blockchain-based digital healthcare company with the lofty goals of building a patient-centric healthcare data platform and ultimately helping people lead healthier lives.",
+        "ja" : "MediBloc は、患者中心のヘルスケア データ プラットフォームを構築し、最終的に人々がより健康的な生活を送れるよう支援するという高い目標を掲げる、ブロックチェーン ベースのデジタル ヘルスケア企業です。"
+    }
+}

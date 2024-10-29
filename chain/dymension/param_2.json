@@ -1,0 +1,120 @@
+{
+    "chain_id_cosmos" : "dymension_1100-1",
+    "chain_id_evm" : "0x44c",
+    "chain_name": "Dymension",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dymension/resource/chain_dymension.png",
+    "main_asset_denom" : "adym",
+    "main_asset_symbol" : "DYM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dymension/asset/dym.png",
+    "bech_account_prefix" : "dym",
+    "bech_validator_prefix" : "dymvaloper",
+    "origin_genesis_time" : "2024-02-06T12:00:00Z",
+    "api_name" : "dymension",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee" : {
+        "base" : "0",
+        "rate" : [
+            "5000000000adym"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-dymension.cosmostation.io:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.dymension.nodestake.org:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "dymension-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "kjnodes.com 🦄",
+            "url": "dymension.grpc.kjnodes.com:443"
+        },
+        {
+            "provider": "silent",
+            "url": "grpc.dymension.silentvalidator.com:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-dymension-evm.cosmostation.io"
+        },
+        {
+            "provider": "Posthuman",
+            "url": "https://evm-rpc.dymension.posthuman.digital"
+        },
+        {
+            "provider": "AgoraNodes",
+            "url": "https://dym-m-json.agoranodes.com"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://dymension-jsonrpc.ibs.team"
+        },
+        {
+            "provider": "Wave",
+            "url": "https://dymension.0xwave.com:2087"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-dymension.cosmostation.io/"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.dymension.nodestake.org/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://dymension-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://dymension-api.lavenderfive.com/"
+        },
+        {
+            "provider": "lesnik | UTSA",
+            "url": "https://m-dymension.api.utsa.tech/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/dymension/",
+        "account": "https://www.mintscan.io/dymension/address/${address}",
+        "tx": "https://www.mintscan.io/dymension/tx/${hash}",
+        "proposal": "https://www.mintscan.io/dymension/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://dymension.xyz/",
+        "docs": "https://docs.dymension.xyz/",
+        "github" : "https://github.com/dymensionxyz",
+        "blog" : "https://medium.com/@dymension",
+        "medium": "https://medium.com/@dymension",
+        "twitter" : "https://twitter.com/dymension",
+        "coingecko" : "https://www.coingecko.com/en/coins/dymension"
+    },
+    "forum": {
+        "main": "https://forum.dymension.xyz/"
+    },
+    "description" : {
+        "ko" : "Dymension은 $DYM으로 보호되는 탈중앙화된 L1 블록체인으로, 롤앱 인터넷의 구축을 지향합니다.",
+        "en" : "Dymension is a decentralized L1 blockchain that fuels the Internet of RollApps, secured by $DYM.",
+        "ja" : "Dymensionは$DYMで保護される脱中央化されたL1ブロックチェーンで、ロールアプリインターネットの構築を目指します。"
+    }
+}

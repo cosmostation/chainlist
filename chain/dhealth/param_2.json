@@ -1,0 +1,52 @@
+{
+    "chain_id_cosmos" : "dhealth",
+    "chain_name": "dHealth",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dhealth/resource/chain_dhealth.png",
+    "main_asset_denom" : "udhp",
+    "main_asset_symbol" : "DHP",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dhealth/asset/dhp.png",
+    "bech_account_prefix" : "dh",
+    "bech_validator_prefix" : "dhvaloper",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/10111'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee" : {
+        "base" : "1",
+        "rate" : [
+            "0.001udhp",
+            "0.01udhp",
+            "0.025udhp"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "dHealth",
+            "url": "grpc.dhealth.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://www.dhealth.com/",
+        "docs": "https://docs.dhealth.com",
+        "github" : "https://github.com/dhealthproject",
+        "blog" : "https://medium.com/dhealth",
+        "medium": "https://medium.com/dhealth",
+        "twitter" : "https://twitter.com/dHealth_Network",
+        "coingecko" : "https://www.coingecko.com/en/coins/dhealth"
+    },
+    "forum": {
+        "main": "https://www.reddit.com/r/dhealth"
+    },
+    "description" : {
+        "ko" : "dHealth는 분산형 web3 의료 솔루션입니다. dHealth는 데이터 소유권을 보호하고 의료 분야에서 새로운 비즈니스 모델을 활성화합니다.",
+        "en" : "dHealth is a decentralized, web3 health-care solution. dHealth protects data ownership and enables new business models in the field of health-care.",
+        "ja" : "dHealth は、分散型 Web3 ヘルスケア ソリューションです。 dHealth はデータの所有権を保護し、ヘルスケアにおける新しいビジネス モデルを可能にします。"
+    }
+}
