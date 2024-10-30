@@ -19,7 +19,6 @@
     "fee" : {
         "base" : "0",
         "rate" : [
-            "0.025uctk",
             "0.05uctk"
         ],
         "init_gas_limit" : 300000,
