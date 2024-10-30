@@ -1,4 +1,51 @@
 {
+    "chain_id_cosmos" : "initiation-2",
+    "chain_name": "Initia Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/initia-testnet/resource/chain_initia-testnet.png",
+    "main_asset_denom" : "uinit",
+    "main_asset_symbol" : "INIT",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/initia-testnet/asset/init.png",
+    "bech_account_prefix" : "init",
+    "bech_validator_prefix" : "initvaloper",
+    "origin_genesis_time" : "2024-09-20T04:11:43Z",
+    "api_name" : "initia-testnet",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.15uinit",
+            "0.4uinit"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.8,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-office-initia-2.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/mantra-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Initia Scan",
+        "url": "https://scan.testnet.initia.xyz/initiation-2/",
+        "account": "https://scan.testnet.initia.xyz/initiation-2/accounts/${address}",
+        "tx": "https://scan.testnet.initia.xyz/initiation-2/txs/${hash}",
+        "proposal": "https://scan.testnet.initia.xyz/initiation-2/proposals/${id}"
+    },
     "about" : {
         "website" : "https://initia.xyz/",
         "docs": "https://docs.initia.xyz/",
