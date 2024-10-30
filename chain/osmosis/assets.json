@@ -3660,5 +3660,26 @@
     "path": "icp>osmosis",
     "image": "osmosis/asset/ckbtc.png",
     "coinGeckoId": "chain-key-bitcoin"
+  },
+  {
+    "denom": "ibc/164807F6226F91990F358C6467EEE8B162E437BDCD3DADEC3F0CE20693720795",
+    "type": "ibc",
+    "origin_chain": "mantra",
+    "origin_denom": "uom",
+    "origin_type": "staking",
+    "symbol": "OM",
+    "decimals": 6,
+    "enable": true,
+    "path": "mantra>osmosis",
+    "channel": "channel-85077",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "uom"
+    },
+    "image": "mantra/asset/om.png",
+    "coinGeckoId": "mantra-dao",
+    "color": "#FC86CD"
   }
 ]
