@@ -80,7 +80,7 @@
     "description": "DAI",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/dai01.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "dai"
   },
   {
     "type": "erc20",
@@ -90,7 +90,7 @@
     "description": "TUSD",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/tusd01.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "true-usd"
   },
   {
     "type": "erc20",
@@ -100,7 +100,7 @@
     "description": "WETH",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/web3/currency/token/25-0xe44fd7fcb2b1581822d0c862b68222998a0c299a-97.png/type=default_350_0",
-    "coinGeckoId": ""
+    "coinGeckoId": "weth"
   },
   {
     "type": "erc20",
@@ -110,7 +110,7 @@
     "description": "VVS",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/VVS-fbf5a8ec98d44b828746db5dd6b865f2-20220719.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "vvs-finance"
   },
   {
     "type": "erc20",
@@ -120,7 +120,7 @@
     "description": "MMF",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/MMF-f4d2b8aaf67548d88f61ee13ffee5a99-20220719.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "mmfinance"
   },
   {
     "type": "erc20",
@@ -130,7 +130,7 @@
     "description": "TONIC",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/TONIC-f486cab2632947238288d7d8db76f709-20220719.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "tectonic"
   },
   {
     "type": "erc20",
@@ -150,7 +150,7 @@
     "description": "SVN",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/SVN-7cb96c82b0494d9d8580755ab4030346-20220719.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "savanna"
   },
   {
     "type": "erc20",
@@ -170,7 +170,7 @@
     "description": "CRONA",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/CRONA-683bcc76625049d5aa58c5a0994b451d-20220719.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "cronaswap"
   },
   {
     "type": "erc20",
@@ -190,7 +190,7 @@
     "description": "MMO",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/MMO-fe8f22ba45664d4e8bee95938e632733-20220719.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "mad-meerkat-optimizer"
   },
   {
     "type": "erc20",
@@ -200,7 +200,7 @@
     "description": "MSHARE",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/mshare-b31296e52d2f43da89436190ea98053e-20220721.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "meerkat-shares"
   },
   {
     "type": "erc20",
@@ -220,7 +220,7 @@
     "description": "CRK",
     "decimals": 9,
     "image": "https://static.okx.com/cdn/wallet/logo/CRK-29bf51a58c3a4bf5b7856d31c167b290-20220719.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "croking"
   },
   {
     "type": "erc20",
@@ -250,7 +250,7 @@
     "description": "SKY",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/sky-ce3d39b023ec4d199e692ce5bb13ef4d-20220720.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "darkcrypto-share"
   },
   {
     "type": "erc20",
@@ -260,7 +260,7 @@
     "description": "LUNC",
     "decimals": 6,
     "image": "https://static.okx.com/cdn/wallet/logo/LUNA-20220719.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "terra-luna"
   },
   {
     "type": "erc20",
@@ -280,7 +280,7 @@
     "description": "CRX",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/crx-b7b7a769f95e469a8f69cb6967e98e46-20220720.jpg",
-    "coinGeckoId": ""
+    "coinGeckoId": "crodex"
   },
   {
     "type": "erc20",
@@ -290,7 +290,7 @@
     "description": "ADA",
     "decimals": 6,
     "image": "https://static.okx.com/cdn/wallet/logo/ADA-20220328.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "cardano"
   },
   {
     "type": "erc20",
@@ -310,7 +310,7 @@
     "description": "MIMAS",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/mimas-90b10822719f42419a60db1229faa846-20220721.PNG",
-    "coinGeckoId": ""
+    "coinGeckoId": "mimas-finance"
   },
   {
     "type": "erc20",
@@ -330,7 +330,7 @@
     "description": "CROISSANT",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/croissant-58ec5633c8864a0e82943cb71c29be99-20220720.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "croissant-games"
   },
   {
     "type": "erc20",
@@ -360,7 +360,7 @@
     "description": "APE",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/icon/77040_APE-20220825.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "apecoin"
   },
   {
     "type": "erc20",
@@ -380,7 +380,7 @@
     "description": "MAI",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/mimatic-4260095d2f504c009e26fce9d4384c33-20220721.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "mimatic"
   },
   {
     "type": "erc20",
@@ -390,7 +390,7 @@
     "description": "ONI",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/icon/77043_ONI-20220825.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "oni-token"
   },
   {
     "type": "erc20",
@@ -410,7 +410,7 @@
     "description": "BIFI",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/bifi-8274b2e310794cf8b670eeb52ad3cd50-20220720.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "beefy-finance"
   },
   {
     "type": "erc20",
@@ -440,7 +440,7 @@
     "description": "BTE",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/logo/bte-784090d489434127a698241251fe86e3-20220720.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "betero"
   },
   {
     "type": "erc20",
@@ -480,7 +480,7 @@
     "description": "ORBS",
     "decimals": 18,
     "image": "https://static.okx.com/cdn/wallet/icon/77054_ORBS-20220826.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "orbs"
   },
   {
     "type": "erc20",
@@ -500,6 +500,6 @@
     "description": "NVT",
     "decimals": 8,
     "image": "https://static.okx.com/cdn/wallet/logo/NVT-0xd1351ec15e8511658c2ba1e1e81e1e60aa39c9cd.png",
-    "coinGeckoId": ""
+    "coinGeckoId": "nervenetwork"
   }
 ]
