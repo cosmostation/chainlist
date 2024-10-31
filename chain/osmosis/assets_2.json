@@ -9311,5 +9311,27 @@
         "description": "Roostock BTC bridged via Router.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/rootstock/images/rbtc.svg",
         "color": "#FF9931"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/164807F6226F91990F358C6467EEE8B162E437BDCD3DADEC3F0CE20693720795",
+        "name": "Mantra",
+        "symbol": "OM",
+        "decimals": 6,
+        "description": "MANTRA Staking Coin",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/om.png",
+        "ibc_info": {
+            "path": "mantra>osmosis",
+            "client": {
+                "channel": "channel-85077",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "mantra",
+                "denom": "uom"
+            }
+        }
     }
 ]
