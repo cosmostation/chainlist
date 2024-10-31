@@ -8158,6 +8158,7 @@
         "decimals": 6,
         "description": "An alloy of USDT asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
+        "coinGeckoId": "tether",
         "color": "#009393"
     },
     {
@@ -8201,6 +8202,7 @@
         "decimals": 8,
         "description": "An alloy of BTC asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg",
+        "coinGeckoId": "bitcoin",
         "color": "#f4941c"
     },
     {
@@ -8470,6 +8472,7 @@
         "decimals": 18,
         "description": "An alloy of ETH asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg",
+        "coinGeckoId": "ethereum",
         "color": "#303030"
     },
     {
@@ -8480,6 +8483,7 @@
         "decimals": 9,
         "description": "An alloy of SOL asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg"
+        "coinGeckoId": "solana"
     },
     {
         "type": "ibc",
@@ -8647,6 +8651,7 @@
         "decimals": 12,
         "description": "An alloy of OP asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/optimism/images/op.svg",
+        "coinGeckoId": "optimism",
         "color": "#fc0424"
     },
     {
@@ -8678,6 +8683,7 @@
         "decimals": 12,
         "description": "An alloy of SHIB asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg",
+        "coinGeckoId": "shiba-inu",
         "color": "#FFA409"
     },
     {
@@ -8688,6 +8694,7 @@
         "decimals": 12,
         "description": "An alloy of ARB asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg",
+        "coinGeckoId": "arbitrum",
         "color": "#253545"
     },
     {
@@ -8698,6 +8705,7 @@
         "decimals": 12,
         "description": "An alloy of LINK asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg",
+        "coinGeckoId": "chainlink",
         "color": "#2c5cdc"
     },
     {
@@ -8708,6 +8716,7 @@
         "decimals": 12,
         "description": "An alloy of PEPE asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg",
+        "coinGeckoId": "pepe",
         "color": "#cc3233"
     },
     {
@@ -8718,6 +8727,7 @@
         "decimals": 10,
         "description": "An alloy of DOT asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg",
+        "coinGeckoId": "polkadot",
         "color": "#e4047c"
     },
     {
@@ -8902,6 +8912,7 @@
         "decimals": 9,
         "description": "An alloy of TON asset variants on Osmosis.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/ton.svg",
+        "coinGeckoId": "the-open-network",
         "color": "#0088CC"
     },
     {
@@ -9320,6 +9331,7 @@
         "decimals": 6,
         "description": "MANTRA Staking Coin",
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/om.png",
+        "coinGeckoId": "mantra-dao",
         "ibc_info": {
             "path": "mantra>osmosis",
             "client": {
