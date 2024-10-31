@@ -25,7 +25,7 @@
                 "channel": "channel-12",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-186",
                 "port": "transfer",
                 "chain": "cosmos",
@@ -48,7 +48,7 @@
                 "channel": "channel-0",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-2",
                 "port": "transfer",
                 "chain": "osmosis",
@@ -71,7 +71,7 @@
                 "channel": "channel-0",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-2",
                 "port": "transfer",
                 "chain": "osmosis",
@@ -94,7 +94,7 @@
                 "channel": "channel-50",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-3",
                 "port": "transfer",
                 "chain": "secret",
@@ -117,7 +117,7 @@
                 "channel": "channel-55",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-4",
                 "port": "transfer",
                 "chain": "decentr",
@@ -140,7 +140,7 @@
                 "channel": "channel-60",
                 "port": "transfer"
             },
-            "counter_party": {
+            "counterparty": {
                 "channel": "channel-4",
                 "port": "transfer",
                 "chain": "medasdigital",
