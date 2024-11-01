@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "dydxvaloper",
     "origin_genesis_time" : "2023-10-26T17:00:00Z",
     "api_name" : "dydx",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

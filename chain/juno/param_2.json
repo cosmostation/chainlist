@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "junovaloper",
     "origin_genesis_time" : "2021-10-01T15:00:00Z",
     "api_name" : "juno",
+    "is_support_mintscan": true,
     "is_support_cw20" : true,
     "account_type" : [
         {

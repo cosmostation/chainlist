@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "bitsongvaloper",
     "origin_genesis_time" : "2021-03-26T20:00:00Z",
     "api_name" : "bitsong",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/639'/0'/0/X",

@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "gravityvaloper",
     "origin_genesis_time" : "2021-12-10T14:45:49Z",
     "api_name" : "gravity-bridge",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

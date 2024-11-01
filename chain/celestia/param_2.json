@@ -9,6 +9,7 @@
     "bechValidatorPrefix" : "celestiavaloper",
     "origin_genesis_time" : "2023-10-31T14:00:00Z",
     "api_name" : "celestia",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

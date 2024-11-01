@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "linkvaloper",
     "origin_genesis_time" : "2023-05-25T03:00:00Z",
     "api_name" : "finschia",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/438'/0'/0/X",

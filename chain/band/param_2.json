@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "bandvaloper",
     "origin_genesis_time" : "2020-05-28T14:00:00Z",
     "api_name" : "band",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/494'/0'/0/X",

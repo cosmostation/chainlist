@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "crocncl",
     "origin_genesis_time" : "2021-03-25T01:00:00Z",
     "api_name" : "crypto-org",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/394'/0'/0/X",

@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "kivaloper",
     "origin_genesis_time" : "2020-08-04T00:00:00Z",
     "api_name" : "ki-chain",
+    "is_support_mintscan": true,
     "is_support_cw20" : true,
     "account_type" : [
         {

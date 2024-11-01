@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "umeevaloper",
     "origin_genesis_time" : "2022-02-15T17:00:00Z",
     "api_name" : "umee",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

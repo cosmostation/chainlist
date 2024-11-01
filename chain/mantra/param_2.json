@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "mantravaloper",
     "origin_genesis_time" : "2024-10-10T11:30:00Z",
     "api_name" : "mantra",
+    "is_support_mintscan": true,
     "is_support_moblie_dapp" : true,
     "account_type" : [
         {

@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "stridevaloper",
     "origin_genesis_time" : "2022-09-04T19:00:00Z",
     "api_name" : "stride",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

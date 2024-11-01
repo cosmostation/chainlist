@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "seivaloper",
     "origin_genesis_time" : "2023-05-22T15:00:00Z",
     "api_name" : "sei",
+    "is_support_mintscan": true,
     "is_support_cw20" : true,
     "tx_timeout_padding" : 100,
     "account_type" : [

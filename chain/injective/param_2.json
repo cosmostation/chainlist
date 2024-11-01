@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "injvaloper",
     "origin_genesis_time" : "2021-06-30T13:00:00Z",
     "api_name" : "injective",
+    "is_support_mintscan": true,
     "is_support_moblie_dapp" : true,
     "tx_timeout_padding" : 100,
     "account_type" : [

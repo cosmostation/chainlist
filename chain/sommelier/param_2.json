@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "sommvaloper",
     "origin_genesis_time" : "2021-09-13T15:00:00Z",
     "api_name" : "sommelier",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

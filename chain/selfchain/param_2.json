@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "selfvaloper",
     "origin_genesis_time" : "2024-06-06T06:06:06Z",
     "api_name" : "selfchain",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

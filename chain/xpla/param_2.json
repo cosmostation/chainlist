@@ -10,6 +10,7 @@
     "bech_validator_prefix" : "xplavaloper",
     "origin_genesis_time" : "2022-08-19T09:30:00Z",
     "api_name" : "xpla",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "persistencevaloper",
     "origin_genesis_time" : "2021-03-30T12:08:46Z",
     "api_name" : "persistence",
+    "is_support_mintscan": true,
     "is_support_moblie_dapp" : true,
     "account_type" : [
         {

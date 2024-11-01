@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "atonevaloper",
     "origin_genesis_time" : "2024-10-18T15:00:00Z",
     "api_name" : "atomone",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

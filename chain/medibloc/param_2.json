@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "panaceavaloper",
     "origin_genesis_time" : "2019-07-31T05:00:00Z",
     "api_name" : "medibloc",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/371'/0'/0/X",

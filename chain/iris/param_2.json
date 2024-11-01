@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "iva",
     "origin_genesis_time" : "2019-03-01T06:54:00Z",
     "api_name" : "iris",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "sagavaloper",
     "origin_genesis_time" : "2024-04-08T00:00:00Z",
     "api_name" : "saga",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

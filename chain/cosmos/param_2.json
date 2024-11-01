@@ -9,6 +9,7 @@
     "bech_validator_prefix": "cosmosvaloper",
     "origin_genesis_time": "2019-03-13T23:00:00Z",
     "api_name": "cosmos",
+    "is_support_mintscan": true,
     "is_support_moblie_dapp": true,
     "voting_threshold": 1000000,
     "skip_affiliate": "50",

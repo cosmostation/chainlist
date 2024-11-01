@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "terravaloper",
     "origin_genesis_time" : "2022-05-28T06:00:00Z",
     "api_name" : "terra",
+    "is_support_mintscan": true,
     "is_support_cw20" : true,
     "account_type" : [
         {

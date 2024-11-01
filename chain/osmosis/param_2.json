@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "osmovaloper",
     "origin_genesis_time" : "2021-06-18T17:00:00Z",
     "api_name" : "osmosis",
+    "is_support_mintscan": true,
     "is_support_moblie_dapp" : true,
     "account_type" : [
         {

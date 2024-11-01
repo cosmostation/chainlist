@@ -11,6 +11,7 @@
     "origin_genesis_time" : "2024-03-25T00:00:00Z",
     "api_name" : "althea",
     "is_send_enabled" : false,
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "corevaloper",
     "origin_genesis_time" : "2023-03-12T00:00:00Z",
     "api_name" : "coreum",
+    "is_support_mintscan": true,
     "is_support_moblie_dapp" : true,
     "account_type" : [
         {
