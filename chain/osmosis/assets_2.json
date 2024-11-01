@@ -232,8 +232,8 @@
     {
         "type": "ibc",
         "denom": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
-        "name": "Polygon",
-        "symbol": "POL",
+        "name": "Wrapped Matic",
+        "symbol": "WMATIC",
         "description": "Polygon (formerly Matic) Network brings massive scale to Ethereum using an adapted version of Plasma with PoS based side chains. Polygon is a well-structured, easy-to-use platform for Ethereum scaling and infrastructure development.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/wmatic.png",
@@ -1273,6 +1273,7 @@
         "description": "The INJ token is the native governance token for the Injective chain.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+        "coinGeckoId": "injective-protocol",
         "color": "#04a2fc",
         "ibc_info": {
             "path": "injective>osmosis",
@@ -1929,6 +1930,7 @@
         "description": "Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mkr.svg",
+        "coinGeckoId": "maker",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -3186,7 +3188,7 @@
         "symbol": "PLQ",
         "decimals": 18,
         "description": "The native EVM, governance and staking token of the Planq Network",
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/Planq/asset/planq.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/planq/asset/planq.png",
         "color": "#d4f3fb",
         "coinGeckoId": "planq",
         "ibc_info": {
@@ -3258,6 +3260,7 @@
         "decimals": 6,
         "description": "Quicksilver Liquid Staked STARS",
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qstars.png",
+        "coinGeckoId": "qstar-2",
         "color": "#fc944c",
         "ibc_info": {
             "path": "quicksilver>osmosis",
@@ -3350,6 +3353,7 @@
         "description": "Mars Protocol token (pre-migration)",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token-ibc.svg",
         "color": "#000000",
+        "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
         "ibc_info": {
             "path": "mars-protocol>osmosis",
             "client": {
@@ -3535,6 +3539,7 @@
         "decimals": 6,
         "description": "Quicksilver Liquid Staked REGEN",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qregen.svg",
+        "coinGeckoId": "qregen",
         "color": "#fc944c",
         "ibc_info": {
             "path": "quicksilver>osmosis",
@@ -4277,6 +4282,7 @@
         "decimals": 18,
         "description": "Pepe is a community based memecoin with one mission: to make memecoins great again. Made to honor the iconic meme we all know and love, Pepe is here to take reign as the most memeable memecoin in existence, fueled purely by memetic power. Pepe is for the people.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pepe.axl.svg",
+        "coinGeckoId": "pepe",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4308,6 +4314,7 @@
         "decimals": 18,
         "description": "Coinbase Wrapped Staked ETH (“cbETH”) is a utility token and liquid representation of ETH staked through Coinbase. cbETH gives customers the option to sell, transfer, or otherwise use their staked ETH in dapps while it remains locked by the Ethereum protocol.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/cbeth.png",
+        "coinGeckoId": "coinbase-wrapped-staked-eth",
         "color": "#c9dbfc",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
@@ -4331,6 +4338,7 @@
         "decimals": 18,
         "description": "Rocket Pool is a decentralised Ethereum Proof of Stake pool.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/reth.png",
+        "coinGeckoId": "rocket-pool-eth",
         "color": "#fba487",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
@@ -4354,6 +4362,7 @@
         "decimals": 18,
         "description": "sfrxETH is the version of frxETH which accrues staking yield. All profit generated from Frax Ether validators is distributed to sfrxETH holders. By exchanging frxETH for sfrxETH, one become's eligible for staking yield, which is redeemed upon converting sfrxETH back to frxETH.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sfrxeth.svg",
+        "coinGeckoId": "staked-frax-ether",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4375,6 +4384,7 @@
         "symbol": "wstETH.eth.axl",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wstETH.axl.svg",
+        "coinGeckoId": "wrapped-steth",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4975,6 +4985,7 @@
         "decimals": 8,
         "description": "Sui’s native asset is called SUI.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/sui/images/sui.svg",
+        "coinGeckoId": "sui",
         "ibc_info": {
             "path": "sui>gateway>osmosis",
             "client": {
