@@ -25,7 +25,7 @@
             "0.025ufis"
         ],
         "is_simulable" : true,
-        "simul_gas_multiply" : 1.2,
+        "simulated_gas_multiply" : 1.2,
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
