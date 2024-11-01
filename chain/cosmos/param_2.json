@@ -11,6 +11,7 @@
     "api_name": "cosmos",
     "is_support_moblie_dapp": true,
     "voting_threshold": 1000000,
+    "skip_affiliate": "50",
     "account_type": [
         {
             "hd_path": "m/44'/118'/0'/0/X",
