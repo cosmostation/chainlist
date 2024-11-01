@@ -209,8 +209,8 @@
     {
         "type": "ibc",
         "denom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
-        "name": "Binance Coin",
-        "symbol": "BNB",
+        "name": "Wrapped Binance Coin",
+        "symbol": "BNB.axl",
         "description": "BNB powers the BNB Chain ecosystem and is the native coin of the BNB Beacon Chain and BNB Smart Chain.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/wbnb.png",
@@ -1473,11 +1473,11 @@
     {
         "type": "ibc",
         "denom": "ibc/65381C5F3FD21442283D56925E62EA524DED8B6927F0FF94E21E0020954C40B5",
-        "name": "Ether (Gravity Bridge)",
-        "symbol": "ETH.grv",
+        "name": "Wrapped Ether (Gravity Bridge)",
+        "symbol": "WETH.grv",
         "description": "Gravity Bridge WETH",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/weth.grv.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
         "coinGeckoId": "weth",
         "ibc_info": {
             "path": "ethereum>gravity-bridge>osmosis",
@@ -1523,7 +1523,7 @@
         "symbol": "DAI.grv",
         "description": "Gravity Bridge DAI",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dai.grv.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
         "coinGeckoId": "dai",
         "ibc_info": {
             "path": "ethereum>gravity-bridge>osmosis",
@@ -1749,7 +1749,7 @@
         "symbol": "LUNA",
         "description": "The native staking token of Terra.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
         "coinGeckoId": "terra-luna-2",
         "ibc_info": {
             "path": "terra>osmosis",
@@ -2291,7 +2291,7 @@
         "symbol": "CUDOS",
         "description": "The native token of the Cudos blockchain",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cudos/asset/cudos.png",
         "coinGeckoId": "cudos",
         "ibc_info": {
             "path": "cudos>osmosis",
@@ -2337,7 +2337,7 @@
         "symbol": "BLD",
         "description": "BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/agoric/asset/bld.png",
         "coinGeckoId": "agoric",
         "ibc_info": {
             "path": "agoric>osmosis",
@@ -2360,7 +2360,7 @@
         "symbol": "IST",
         "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/agoric/asset/ist.png",
         "coinGeckoId": "inter-stable-token",
         "ibc_info": {
             "path": "agoric>osmosis",
@@ -3235,7 +3235,7 @@
         "symbol": "CANTO",
         "decimals": 18,
         "description": "Canto is a Layer-1 blockchain built to deliver on the promise of DeFi",
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/canto/asset/canto.png",
         "color": "#1c1f1f",
         "coinGeckoId": "canto",
         "ibc_info": {
@@ -3351,7 +3351,7 @@
         "symbol": "MARS.mars",
         "decimals": 6,
         "description": "Mars Protocol token (pre-migration)",
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token-ibc.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mars-protocol/asset/mars-ibc.png",
         "color": "#000000",
         "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
         "ibc_info": {
@@ -3538,7 +3538,7 @@
         "symbol": "qREGEN",
         "decimals": 6,
         "description": "Quicksilver Liquid Staked REGEN",
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qregen.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qregen.png",
         "coinGeckoId": "qregen",
         "color": "#fc944c",
         "ibc_info": {
@@ -4281,7 +4281,7 @@
         "symbol": "PEPE.axl",
         "decimals": 18,
         "description": "Pepe is a community based memecoin with one mission: to make memecoins great again. Made to honor the iconic meme we all know and love, Pepe is here to take reign as the most memeable memecoin in existence, fueled purely by memetic power. Pepe is for the people.",
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pepe.axl.svg",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pepe.axl.png",
         "coinGeckoId": "pepe",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
@@ -4892,7 +4892,7 @@
         "name": "Stride Staked SOMM",
         "symbol": "stSOMM",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stsomm.png",
         "color": "#e40474",
         "coinGeckoId": "stride-staked-sommelier",
         "ibc_info": {
@@ -4917,6 +4917,7 @@
         "decimals": 8,
         "description": "Solana (SOL) is the native asset of the Solana blockchain.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.wh.svg",
+        "coinGeckoId": "solana",
         "ibc_info": {
             "path": "solana>gateway>osmosis",
             "client": {
@@ -4980,8 +4981,8 @@
     {
         "type": "ibc",
         "denom": "ibc/B1C287C2701774522570010EEBCD864BCB7AB714711B3AA218699FDD75E832F5",
-        "name": "Sui",
-        "symbol": "SUI",
+        "name": "Sui (Wormhole",
+        "symbol": "SUI.wh",
         "decimals": 8,
         "description": "Sui’s native asset is called SUI.",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/sui/images/sui.svg",
@@ -6400,7 +6401,7 @@
         "symbol": "stSAGA",
         "decimals": 6,
         "description": "Stride's liquid staked SAGA",
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsaga.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stsaga.png",
         "color": "#e40474",
         "ibc_info": {
             "path": "stride>osmosis",
@@ -8900,7 +8901,7 @@
         "symbol": "TON.orai",
         "decimals": 9,
         "description": "The native token of TON",
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.orai.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/orai.png",
         "ibc_info": {
             "path": "ton>orai-chain>osmosis",
             "client": {
