@@ -1,0 +1,122 @@
+[
+    {
+        "type": "native",
+        "denom": "ufis",
+        "name" : "FIS",
+        "symbol": "FIS",
+        "description": "StaFi Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stafi/asset/fis.png",
+        "coinGeckoId": "stafi",
+        "color": "#6758FF"
+    },
+    {
+        "type": "native",
+        "denom": "uratom",
+        "name" : "rATOM",
+        "symbol": "rATOM",
+        "description": "StaFi Staked ATOM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stafi/asset/ratom.png",
+        "coinGeckoId": "stafi-staked-atom"
+    },
+    {
+        "type": "native",
+        "denom": "uriris",
+        "name" : "rIRIS",
+        "symbol": "rIRIS",
+        "description": "StaFi Staked IRIS",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stafi/asset/riris.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "urhuahua",
+        "name" : "rHUAHUA",
+        "symbol": "rHUAHUA",
+        "description": "StaFi Staked HUAHUA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stafi/asset/rhuahua.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "urswth",
+        "name" : "rSWTH",
+        "symbol": "rSWTH",
+        "description": "StaFi Staked SWTH",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stafi/asset/rswth.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>stafi",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-369",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/89B8CC5467F9D02C505E598C4191F1B086DD83F3EBE9A67620A02BB409B9734C",
+        "name" : "IRISnet",
+        "symbol": "IRIS",
+        "description": "IRISnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iris/asset/iris.png",
+        "coinGeckoId": "iris-network",
+        "ibc_info" : {
+            "path": "iris>stafi",
+            "client" : {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-33",
+                "port": "transfer",
+                "chain": "iris",
+                "denom": "uiris"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B5C5ADF9955FF42C1AD0C2B8924256DDBC91BD57E4AD232803419266661D3BDC",
+        "name" : "Chihuahua Chain",
+        "symbol": "HUAHUA",
+        "description": "Chihuahua Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/huahua.png",
+        "coinGeckoId": "chihuahua-token",
+        "ibc_info" : {
+            "path": "chihuahua>stafi",
+            "client" : {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "chihuahua",
+                "denom": "uhuahua"
+            }
+        }
+    }
+]

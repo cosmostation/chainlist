@@ -372,5 +372,82 @@
     "image": "juno/asset/poil.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1h86ut5aevlxuuxrra6wy3dfq6e39zkzzv9eelz678jr6amxlc4gsx46j82",
+    "symbol": "MRVA",
+    "description": "Minerva was one of the main goddesses worshiped by the Roman Pagans and is a goddess from Roman Mythology.",
+    "decimals": 6,
+    "image": "juno/asset/minerva.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno13c57ssxvlzefsj4v5spdz4m9r6c6s2far5npvmc9en7nz02xqjyqne40gk",
+    "symbol": "LUNO",
+    "description": "In Roman mythology, Juno (Latin: Iuno; pronounced [[Help:Pronunciation|[ˈjuːnoː]]]) was the protector and advisor of the state.",
+    "decimals": 6,
+    "image": "juno/asset/luno.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1elpg96tju8a32vzn25u6asvscajjm4000589z0zthhvks28ajypqzurl7r",
+    "symbol": "ATEN",
+    "description": "ATEN is NETA.",
+    "decimals": 6,
+    "image": "juno/asset/aten.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1dtd45vxvv080v9x7hffysnmvrqm6ysecjdnvafqul28646hm04xs9gheh0",
+    "symbol": "HERA",
+    "description": "HERA is the goddess of marriage in Greek mythology.",
+    "decimals": 6,
+    "image": "juno/asset/hera.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1gwstg5ycwzxkecqat46kw3s0hwt6c9afsuvllu7cec0xh7nquhqszgf82c",
+    "symbol": "TAKUMI",
+    "description": "Prop #16, Prop #20.",
+    "decimals": 6,
+    "image": "juno/asset/takumi.png",
+    "default": false,
+    "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m",
+    "symbol": "bJUNO",
+    "description": "BackBone Labs Liquid Staked JUNO",
+    "decimals": 6,
+    "image": "juno/asset/bjuno.png",
+    "default": false,
+    "coinGeckoId": "backbone-labs-staked-juno"
+  },
+  {
+    "chainId": -1,
+    "chainName": "juno",
+    "address": "juno1spjes0smg5yp40dl7gqyw0h8rn03tnmve06dd2m5acwgh6tlx86swha3xg",
+    "symbol": "AFA",
+    "description": "Airdrop For All [AFA - New Name on Cosmos Ecosystem, A4A - Old Name on TurtleNetwork] is a token from turtleNetwork towards cosmos ecosystem.",
+    "decimals": 0,
+    "image": "juno/asset/afa.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]

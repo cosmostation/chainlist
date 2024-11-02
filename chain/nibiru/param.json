@@ -1,4 +1,21 @@
 {
+    "chain_id_cosmos" : "cataclysm-1",
+    "chain_name": "Nibiru",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nibiru/resource/chain_nibiru.png",
+    "symbol" : "NIBI",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nibiru/asset/nibi.png",
+    "bechAccountPrefix" : "nibi",
+    "bechValidatorPrefix" : "nibivaloper",
+    "name_for_dapp" : "NIBIRU", 
+    "api_name" : "nibiru",
+    "origin_genesis_time" : "2023-11-08T20:09:48Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -6,6 +23,7 @@
             "0.05unibi",
             "0.1unibi"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -16,28 +34,63 @@
             "url": "grpc-nibiru.cosmostation.io:443"
         },
         {
-            "provider": "KjNodes",
+            "provider": "Nibiru Foundation",
+            "url": "grpc.nibiru.fi:443"
+        },
+        {
+            "provider": "kjnodes.com 🦄",
             "url": "nibiru.grpc.kjnodes.com:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "nibiru-grpc.polkachu.com:19890"
+            "provider": "NodeStake",
+            "url": "grpc.nibiru.nodestake.org:443"
         },
         {
-            "provider": "NodeStake",
-            "url": "https://grpc.nibiru.nodestake.top:443"
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "nibiru-grpc.lavenderfive.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-nibiru.cosmostation.io/"
+        },
+        {
+            "provider": "silent",
+            "url": "https://api.nibiru.silentvalidator.com/"
+        },
+        {
+            "provider": "LiveRaveN",
+            "url": "https://nibiru.api.liveraven.net/"
+        },
+        {
+            "provider": "Cogwheel ⚙️",
+            "url": "https://nibiru-api.cogwheel.zone/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://nibiru.api.m.stavr.tech/"
+        }
+    ],
+    "explorer" : {
+        "name": "Nibiru",
+        "url": "https://explorer.nibiru.fi/cataclysm-1/",
+        "account": "https://explorer.nibiru.fi/cataclysm-1/account/${address}",
+        "tx": "https://explorer.nibiru.fi/cataclysm-1/tx/${hash}",
+        "proposal": "https://explorer.nibiru.fi/cataclysm-1/gov/${id}"
+    },
     "about" : {
         "website" : "https://nibiru.fi/",
-        "blog" : "https://nibiru.fi/blog/",
+        "docs": "https://nibiru.fi/docs",
         "github" : "https://github.com/NibiruChain",
+        "blog" : "https://nibiru.fi/blog/",
         "twitter" : "https://twitter.com/NibiruChain",
-        "coingecko" : ""
+        "discord" : "https://discord.com/invite/nibirufi",
+        "coingecko" : "https://www.coingecko.com/en/coins/nibiru"
     },
     "description" : {
-        "ko" : "차세대 화폐 시대를 여는 DeFi 허브입니다.",
-        "en" : "A DeFi hub ushering in the next era of money.",
-        "ja" : "お金の次の時代を導く DeFi ハブ。"
+        "ko" : "nibiru는 차세대 화폐 시대를 여는 Web3 허브입니다.",
+        "en" : "The Web3 hub ushering in the next era of money",
+        "ja" : "nibiruは次世代マネー時代を開くWeb3ハブです。"
     }
 }

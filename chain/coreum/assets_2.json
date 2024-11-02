@@ -1,0 +1,79 @@
+[
+    {
+        "type": "native",
+        "denom": "ucore",
+        "name" : "Coreum",
+        "symbol": "COREUM",
+        "description": "Coreum Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/core.png",
+        "coinGeckoId": "coreum",
+        "color": "#16B87B"
+    },
+    {
+        "type": "native",
+        "denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+        "name" : "Ripple",
+        "symbol": "XRP",
+        "description": "XRP bridged from XRPL",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/xrp.png",
+        "coinGeckoId": "ripple",
+        "color": "#040404"
+    },
+    {
+        "type": "native",
+        "denom": "usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z",
+        "name" : "Pulsara",
+        "symbol": "SARA",
+        "description": "Pulsara Ecosystem Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/sara.png",
+        "coinGeckoId": "pulsara",
+        "color": "#1739ff"
+    },
+    {
+        "type": "native",
+        "denom": "ulicore-core13gza3msdh8hegqxhgezll9quucsr63s0gp43k274xwt66k4e8pmq5zpnm9",
+        "name" : "liCORE",
+        "symbol": "liCORE",
+        "description": "Liquid staking asset for COREUM, by Pulsara",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/licore.png",
+        "coinGeckoId": "",
+        "color": "#FF03CB"
+    },
+    {
+        "type": "native",
+        "denom": "xrpl11278ecf9e-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+        "name" : "Sologenic",
+        "symbol": "SOLO",
+        "description": "Sologenic",
+        "decimals": 15,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/solo.png",
+        "coinGeckoId": "solo-coin"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E1E3674A0E4E1EF9C69646F9AF8D9497173821826074622D831BAB73CCB99A2D",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>coreum",
+            "client" : {
+                "channel": "channel-19",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-49",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    }
+]

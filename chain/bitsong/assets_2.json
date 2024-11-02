@@ -1,0 +1,63 @@
+[
+    {
+        "type": "native",
+        "denom": "ubtsg",
+        "name" : "BitSong",
+        "symbol": "BTSG",
+        "description": "BitSong Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/asset/btsg.png",
+        "coinGeckoId": "bitsong",
+        "color": "#FF005C"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>bitsong",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-229",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09",
+        "name": "Adam Clay FanToken",
+        "symbol": "CLAY",
+        "description": "Adam Clay a BitSong Music FanToken.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09.png"
+    },
+    {
+        "type": "native",
+        "denom": "ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A",
+        "name": "404Deep Records Fantoken",
+        "symbol": "404DR",
+        "description": "404Deep Records a BitSong Music FanToken.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A.png"
+    },
+    {
+        "type": "native",
+        "denom": "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D",
+        "name": "N43 Fantoken",
+        "symbol": "N43",
+        "description": "N43 a BitSong Music FanToken.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft387C1C279D962ED80C09C1D592A92C4275FD7C5D.png"
+    }
+]

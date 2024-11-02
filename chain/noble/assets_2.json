@@ -1,0 +1,86 @@
+[
+    {
+        "type": "native",
+        "denom": "ustake",
+        "name": "Stake",
+        "symbol": "STAKE",
+        "description": "Noble Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/stake.png",
+        "coinGeckoId": "",
+        "color": "#6A8AF8"
+    },
+    {
+        "type": "native",
+        "denom": "uusdc",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin"
+    },
+    {
+        "type": "native",
+        "denom": "ausdy",
+        "name": "Ondo US Dollar Yield",
+        "symbol": "USDY",
+        "description": "Ondo US Dollar Yield",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdy.png",
+        "coinGeckoId": "ondo-us-dollar-yield"
+    },
+    {
+        "type": "native",
+        "denom": "uusyc",
+        "name": "US Yield Coin",
+        "symbol": "USYC",
+        "description": "Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usyc.png",
+        "coinGeckoId": "hashnote-usyc"
+    },
+    {
+        "type": "native",
+        "denom": "ueure",
+        "name": "Monerium EUR emoney",
+        "symbol": "EURe",
+        "description": "EURe is a Euro-backed stablecoin issued by Monerium on Noble.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/eure.png",
+        "coinGeckoId": "monerium-eur-money"
+    },
+    {
+        "type": "native",
+        "denom": "ufrienzies",
+        "name": "Frienzies",
+        "symbol": "FRNZ",
+        "description": "Frienzies are an IBC token redeemable exclusively for a physical asset issued by the Noble entity.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/frnz.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>noble",
+            "client" : {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-536",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    }
+]

@@ -1,0 +1,702 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x4200000000000000000000000000000000000042",
+        "name": "Optimism",
+        "symbol": "OP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/optimism/asset/op.png",
+        "coinGeckoId": "optimism",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+        "name": "USD Coin (Bridged from Ethereum)",
+        "symbol": "USDC.e",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+        "name": "ChainLink Token",
+        "symbol": "LINK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
+        "coinGeckoId": "chainlink",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xFdb794692724153d1488CcdBE0C56c252596735F",
+        "name": "Lido DAO Token",
+        "symbol": "LDO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ldo.png",
+        "coinGeckoId": "lido-dao",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x99C59ACeBFEF3BBFB7129DC90D1a11DB0E91187f",
+        "name": "Pyth Network",
+        "symbol": "PYTH",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pyth.png",
+        "coinGeckoId": "pyth-network",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1",
+        "name": "Worldcoin",
+        "symbol": "WLD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/worldcoin/asset/wld.png",
+        "coinGeckoId": "worldcoin-wld",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4200000000000000000000000000000000000006",
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://ethereum-optimism.github.io/data/WETH/logo.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+        "name": "Axelar USDC",
+        "symbol": "axlUSDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/usdc.svg",
+        "coinGeckoId": "axlusdc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2e3d870790dc77a83dd1d18184acc7439a53f475",
+        "name": "FRAX",
+        "symbol": "FRAX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/frax.svg",
+        "coinGeckoId": "frax"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB448eC505C924944ca8B2C55EF05c299eE0781df",
+        "name": "Axelar Wrapped KNC",
+        "symbol": "axlKNC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/knc.svg",
+        "coinGeckoId": "kyber-network-crystal"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819",
+        "name": "LUSD Stablecoin",
+        "symbol": "LUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/9566.png",
+        "coinGeckoId": "liquity-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc5b001dc33727f8f26880b184090d3e252470d45",
+        "name": "Ethos Reserve Note",
+        "symbol": "ERN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0xc5b001DC33727F8F26880B184090D3E252470D45/logo.svg",
+        "coinGeckoId": "ethos-reserve-note"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdfa46478f9e5ea86d57387849598dbfb2e964b02",
+        "name": "Mai Stablecoin",
+        "symbol": "MAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0xdfa46478f9e5ea86d57387849598dbfb2e964b02/logo.svg",
+        "coinGeckoId": "mimatic"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
+        "name": "Axelar USDT",
+        "symbol": "axlUSDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/usdt.svg",
+        "coinGeckoId": "tether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
+        "name": "Axelar",
+        "symbol": "AXL",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/axl.svg",
+        "coinGeckoId": "axelar"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xcb8fa9a76b8e203d8c3797bf438d8fb81ea3326a",
+        "name": "Alchemix USD",
+        "symbol": "alUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0xcb8fa9a76b8e203d8c3797bf438d8fb81ea3326a/logo.svg",
+        "coinGeckoId": "alchemix-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x47536f17f4ff30e64a96a7555826b8f9e66ec468",
+        "name": "MUMMY",
+        "symbol": "MMY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/23038.png",
+        "coinGeckoId": "mummy-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x73cb180bf0521828d8849bc8cf2b920918e23032",
+        "name": "Overnight Finance USD",
+        "symbol": "USD+",
+        "description": "",
+        "decimals": 6,
+        "image": "https://assets.smold.app/api/token/10/0x73cb180bf0521828d8849bc8cf2b920918e23032/logo.svg",
+        "coinGeckoId": "usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
+        "name": "Rocket Pool ETH",
+        "symbol": "rETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://ethereum-optimism.github.io/data/rETH/logo.svg",
+        "coinGeckoId": "reth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb153fb3d196a8eb25522705560ac152eeec57901",
+        "name": "Magic Internet Money",
+        "symbol": "MIM",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0xb153fb3d196a8eb25522705560ac152eeec57901/logo.svg",
+        "coinGeckoId": "magic-internet-money"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8ae125e8653821e851f12a49f7765db9a9ce7384",
+        "name": "Dola USD Stablecoin",
+        "symbol": "DOLA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0xb153fb3d196a8eb25522705560ac152eeec57901/logo.svg",
+        "coinGeckoId": "dola-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
+        "name": "Synthetix USD",
+        "symbol": "sUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9/logo.svg",
+        "coinGeckoId": "nusd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbfd291da8a403daaf7e5e9dc1ec0aceacd4848b9",
+        "name": "dForce USD",
+        "symbol": "USX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://ethereum-optimism.github.io/data/USX/logo.svg",
+        "coinGeckoId": "token-dforce-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
+        "name": "Wrapped liquid staked Ether 2.0",
+        "symbol": "wstETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0x1f32b1c2345538c0c6f582fcb022739c4a194ebb/logo.svg",
+        "coinGeckoId": "wrapped-steth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
+        "name": "BOB Token",
+        "symbol": "BOB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://ethereum-optimism.github.io/data/BOB/logo.svg",
+        "coinGeckoId": "bob"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x340fe1d898eccaad394e2ba0fc1f93d27c7b717a",
+        "name": "Wrapped USDR (Tangible USD)",
+        "symbol": "wUSDR",
+        "description": "",
+        "decimals": 9,
+        "image": "https://assets.smold.app/api/token/10/0x340fe1d898eccaad394e2ba0fc1f93d27c7b717a/logo.svg",
+        "coinGeckoId": "wrapped-usdr"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed",
+        "name": "Angle EURO",
+        "symbol": "agEUR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/logo.svg",
+        "coinGeckoId": "ageur"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3c8b650257cfb5f272f799f5e2b4e65093a11a05",
+        "name": "Velodrome",
+        "symbol": "VELO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0x3c8b650257cfb5f272f799f5e2b4e65093a11a05/logo.svg",
+        "coinGeckoId": "velodrome-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+        "name": "Lyra",
+        "symbol": "LYRA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://ethereum-optimism.github.io/data/LYRA/logo.png",
+        "coinGeckoId": "lyra-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642",
+        "name": "Beefy",
+        "symbol": "BIFI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642/logo.svg",
+        "coinGeckoId": "beefy-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x920cf626a271321c151d027030d5d08af699456b",
+        "name": "Kwenta DAO",
+        "symbol": "KWENTA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0x920cf626a271321c151d027030d5d08af699456b/logo.svg",
+        "coinGeckoId": "kwenta"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+        "name": "Synthetix",
+        "symbol": "SNX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://ethereum-optimism.github.io/data/SNX/logo.svg",
+        "coinGeckoId": "havven"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5d47baba0d66083c52009271faf3f50dcc01023c",
+        "name": "UniDex",
+        "symbol": "UNIDX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0x5d47baba0d66083c52009271faf3f50dcc01023c/logo.svg",
+        "coinGeckoId": "unidex"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x217d47011b23bb961eb6d93ca9945b7501a5bb11",
+        "name": "Optimistic Thales Token",
+        "symbol": "THALES",
+        "description": "",
+        "decimals": 18,
+        "image": "https://ethereum-optimism.github.io/data/THALES/logo.png",
+        "coinGeckoId": "thales"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x929b939f8524c3be977af57a4a0ad3fb1e374b50",
+        "name": "Meta",
+        "symbol": "MTA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0x929b939f8524c3be977af57a4a0ad3fb1e374b50/logo.svg",
+        "coinGeckoId": "meta"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa50b23cdfb2ec7c590e84f403256f67ce6dffb84",
+        "name": "BlueNorva Token",
+        "symbol": "BLU",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0xa50b23cdfb2ec7c590e84f403256f67ce6dffb84/logo.svg",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6c2f7b6110a37b3b0fbdd811876be368df02e8b0",
+        "name": "StaFi rETH",
+        "symbol": "rETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.smold.app/api/token/10/0x6c2f7b6110a37b3b0fbdd811876be368df02e8b0/logo.svg",
+        "coinGeckoId": "reth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdb4ea87ff83eb1c80b8976fc47731da6a31d35e5",
+        "name": "wTBT(Bridge Token)",
+        "symbol": "wTBT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://ethereum-optimism.github.io/data/wTBT/logo.svg",
+        "coinGeckoId": "wtbt"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x61baadcf22d2565b0f471b291c475db5555e0b76",
+        "name": "Aelin Protocol",
+        "symbol": "AELIN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://ethereum-optimism.github.io/data/AELIN/logo.png",
+        "coinGeckoId": "aelin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x88DfaAABaf06f3a41D2606EA98BC8edA109AbeBb",
+        "name": "Mai Stablecoin",
+        "symbol": "axlWMAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/15264/small/mimatic-red.png?1620281018",
+        "coinGeckoId": "mimatic"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x332c72dd7E77070740F01d2d35851c461585D5d0",
+        "name": "LiquidDriver",
+        "symbol": "axlLqdr",
+        "description": "",
+        "decimals": 18,
+        "image": "https://2302794922-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MYQICp07j-iq-GK2MHc%2Fuploads%2F9E0dn7eOs8PLq9hq26Gv%2FIcon-PNG.png?alt=media&token=53c999ea-e4a0-43a3-9ae8-2f2d4c83f132",
+        "coinGeckoId": "liquiddriver"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x00e1724885473B63bCE08a9f0a52F35b0979e35A",
+        "name": "Oath Token",
+        "symbol": "OATH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/18520.png",
+        "coinGeckoId": "oath"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3eE6107d9C93955acBb3f39871D32B02F82B78AB",
+        "name": "Staked ERN Vault",
+        "symbol": "stERN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://github.com/0xsquid/assets/blob/main/images/tokens/stERN.svg?raw=true",
+        "coinGeckoId": "staked-ethos-reserve-note"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9cfB13E6c11054ac9fcB92BA89644F30775436e4",
+        "name": "Axelar Wrapped wstETH",
+        "symbol": "axl-wstETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/wsteth.svg",
+        "coinGeckoId": "wrapped-steth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x91c415FEcD651F11D24aC4b72Ed08dbEb9868D43",
+        "name": "Gridex",
+        "symbol": "GDX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/23941.png",
+        "coinGeckoId": "gdx-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x259c1C2ED264402b5ed2f02bc7dC25A15C680c18",
+        "name": "OneRing",
+        "symbol": "RING",
+        "description": "",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/17786.png",
+        "coinGeckoId": "onering"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb4F2cF13b262C9f0ddB9B2A9143af753EF184E98",
+        "name": "ZYB - Zyber Token",
+        "symbol": "ZYB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/23419.png",
+        "coinGeckoId": "zyberswap"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1DB2466d9F5e10D7090E7152B68d62703a2245F0",
+        "name": "Sonne",
+        "symbol": "SONNE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/22001.png",
+        "coinGeckoId": "sonne-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x406Cde76a3fD20e48bc1E0F60651e60Ae204B040",
+        "name": "Axelar Wrapped FRAX",
+        "symbol": "axlFRAX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/frax.svg",
+        "coinGeckoId": "frax"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3b08fcd15280e7B5A6e404c4abb87F7C774D1B2e",
+        "name": "OVN",
+        "symbol": "OVN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/ovn.svg",
+        "coinGeckoId": "overnight-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x41b94c5867f7F6217C9a30520Cb3e793B1ee1b97",
+        "name": "axlTIA",
+        "symbol": "axlTIA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/celestia.svg",
+        "coinGeckoId": "celestia"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3A18dcC9745eDcD1Ef33ecB93b0b6eBA5671e7Ca",
+        "name": "Kuji",
+        "symbol": "KUJI",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/kuji.svg",
+        "coinGeckoId": "kujira"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xebD4A18034C78A415088DF8508f102421eD693b1",
+        "name": "axelar wrapped DEUS",
+        "symbol": "axlDEUS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/deus.svg",
+        "coinGeckoId": "deus-finance-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x809c55916bb542c1419724022B3F0162087E3C88",
+        "name": "Teritori",
+        "symbol": "TORI",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/tori.svg",
+        "coinGeckoId": "teritori"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2598c30330D5771AE9F983979209486aE26dE875",
+        "name": "Any Inu",
+        "symbol": "AI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/28916.png",
+        "coinGeckoId": "any-inu"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x64D599b3d0c5f1375e5e639E98aB86298261A30B",
+        "name": "Chihuahua",
+        "symbol": "HUAHUA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/huahua.svg",
+        "coinGeckoId": "chihuahua-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf3602C5A7f625181659445C8dDDde73dA15c22e3",
+        "name": "Staked Frax",
+        "symbol": "sFRAX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/sfrax.svg",
+        "coinGeckoId": "staked-frax"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x219279953d8D23520B7878447e8A6c266a51de2f",
+        "name": "Frax Price Index",
+        "symbol": "FPI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/fpi.svg",
+        "coinGeckoId": "frax-price-index"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5860a0bF37133f8461b2DEDe7C80e55D6bfF3721",
+        "name": "Frax Share",
+        "symbol": "FXS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/fxs.svg",
+        "coinGeckoId": "frax-share"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfD389Dc9533717239856190F42475d3f263a270d",
+        "name": "Granary Token",
+        "symbol": "GRAIN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/grain.svg",
+        "coinGeckoId": "granary"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4AA81D7AB59C775fe6F9F45E6941A0FB8cD692a6",
+        "name": "MilkyWay Staked TIA",
+        "symbol": "milkTIA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://assets.coingecko.com/coins/images/33795/standard/milktia.png?1702989842",
+        "coinGeckoId": "milkyway-staked-tia"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9F41b34f42058a7b74672055a5fae22c4b113Fd1",
+        "name": "Yum",
+        "symbol": "YUM",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/yum.svg",
+        "coinGeckoId": "yum"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc7Edf7B7b3667a06992508e7B156eff794a9e1c8",
+        "name": "Persistence",
+        "symbol": "XPRT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/xprt.svg",
+        "coinGeckoId": "persistence"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd58Dc7aa4827CC51169b68E64f0fD4EA7faC557D",
+        "name": "Axelar Wrapped Stargaze",
+        "symbol": "axlSTARS",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/stars.svg",
+        "coinGeckoId": "stargaze"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x86e650048A20E0646d14E974d76109e16a0605d7",
+        "name": "Saga",
+        "symbol": "axlSAGA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/saga.svg",
+        "coinGeckoId": "saga"
+    }
+]

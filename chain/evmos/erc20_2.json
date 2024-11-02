@@ -1,0 +1,324 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xD4949664cD82660AaE99bEdc034a0deA8A0bd517",
+        "name" : "Wrapped Evmos",
+        "symbol": "WEVMOS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/wevmos.png",
+        "coinGeckoId": "evmos",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2C68D1d6aB986Ff4640b51e1F14C716a076E44C4",
+        "name" : "Stride Staked Evmos",
+        "symbol": "stEVMOS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stevmos.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6",
+        "name" : "Cosmos Hub (Erc20)",
+        "symbol": "ATOM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB5124FA2b2cF92B2D469b249433BA1c96BDF536D",
+        "name" : "Stride Staked Atom",
+        "symbol": "stATOM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/statom.png",
+        "coinGeckoId": "stride-staked-atom"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xD32eB974468ed767338533842D2D4Cc90B9BAb46",
+        "name" : "Stride Staked Osmo",
+        "symbol": "stOSMO",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stosmo.png",
+        "coinGeckoId": "stride-staked-osmo"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19",
+        "name" : "JUNO",
+        "symbol": "JUNO",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+        "coinGeckoId": "juno-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc71aAf8e486e3F33841BB56Ca3FD2aC3fa8D29a8",
+        "name" : "Stride Staked Juno",
+        "symbol": "stJUNO",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stjuno.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
+        "name" : "USD Coin on Axelar",
+        "symbol": "axlUSDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xe01C6D4987Fc8dCE22988DADa92d56dA701d0Fe0",
+        "name" : "Tether USD on Axelar",
+        "symbol": "axlUSDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x50dE24B3f0B3136C50FA8A3B8ebc8BD80a269ce5",
+        "name" : "Wrapped Ether on Axelar",
+        "symbol": "axlWETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF5b24c0093b65408ACE53df7ce86a02448d53b25",
+        "name" : "Wrapped Bitcoin on Axelar",
+        "symbol": "axlWBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4A2a90D444DbB7163B5861b772f882BbA394Ca67",
+        "name" : "Dai Stablecoin on Axelar",
+        "symbol": "axlDAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
+        "name" : "USD Coin via Gravity Bridge",
+        "symbol": "gUSDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
+        "name" : "Tether USD via Gravity Bridge",
+        "symbol": "gUSDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E",
+        "name" : "Wrapped Ether via Gravity Bridge",
+        "symbol": "gWETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1D54EcB8583Ca25895c512A8308389fFD581F9c9",
+        "name" : "Wrapped Bitcoin via Gravity Bridge",
+        "symbol": "gWBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
+        "name" : "Dai Stablecoin via Gravity Bridge",
+        "symbol": "gDAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8FA78CEB7F04118Ec6d06AaC37Ca854691d8e963",
+        "name" : "Stride",
+        "symbol": "STRD",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/strd.png",
+        "coinGeckoId": "stride"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5aD523d94Efb56C400941eb6F34393b84c75ba39",
+        "name" : "Stargaze",
+        "symbol": "STARS",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
+        "coinGeckoId": "stargaze"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E",
+        "name" : "Stride Staked Stars",
+        "symbol": "stSTARS",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/ststars.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x75aeE82a16BD1fB98b11879af93AB7CE055f66Da",
+        "name" : "xDiffusion",
+        "symbol": "xDIFF",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/xdiff.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3f75ceabCDfed1aCa03257Dc6Bdc0408E2b4b026",
+        "name" : "Diffusion",
+        "symbol": "DIFF",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/diff.png",
+        "coinGeckoId": "diffusion"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x47685B6AC7bB4de761A57828877A7B8254c8B145",
+        "name" : "Evmos Domains",
+        "symbol": "EVD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/evd.png",
+        "coinGeckoId": "evmos-domains"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x181C262b973B22C307C646a67f64B76410D19b6B",
+        "name" : "EvmoSwap Token",
+        "symbol": "EMO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/emo.png",
+        "coinGeckoId": "evmoswap"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xBbD37BF85f7474b5bDe689695674faB1888565Ad",
+        "name" : "OAV",
+        "symbol": "OAV",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/oav.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xe46910336479F254723710D57e7b683F3315b22B",
+        "name" : "USD Coin (Celer)",
+        "symbol": "ceUSDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb72A7567847abA28A2819B855D7fE679D4f59846",
+        "name" : "Tether USD (Celer)",
+        "symbol": "ceUSDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x940dAAbA3F713abFabD79CdD991466fe698CBe54",
+        "name" : "Dai Stablecoin (Celer)",
+        "symbol": "ceDAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x655ecB57432CC1370f65e5dc2309588b71b473A9",
+        "name" : "NEOKingdom DAO",
+        "symbol": "NEOK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/neok.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1cFc8f1FE8D5668BAFF2724547EcDbd6f013a280",
+        "name" : "Teledisko DAO - Legacy",
+        "symbol": "BERLIN-legacy",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/berlin.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfbf4318d24a93753f11d365a6dcf8b830e98ab0f",
+        "name" : "Crowdpunk DAO",
+        "symbol": "CROWDP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/crowdp.png",
+        "coinGeckoId": ""
+    }
+]

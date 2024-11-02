@@ -1,0 +1,71 @@
+{
+    "chain_id_cosmos" : "finschia-2",
+    "chain_name": "Finschia",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/finschia/resource/chain_finschia.png",
+    "main_asset_denom" : "cony",
+    "main_asset_symbol" : "FNSA",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/finschia/asset/fnsa.png",
+    "bech_account_prefix" : "link",
+    "bech_validator_prefix" : "linkvaloper",
+    "origin_genesis_time" : "2023-05-25T03:00:00Z",
+    "api_name" : "finschia",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/438'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.015cony"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-finschia.cosmostation.io:443"
+        },
+        {
+            "provider": "Finschia",
+            "url": "finschia-grpc.finschia.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-finschia.cosmostation.io/"
+        },
+        {
+            "provider": "Finschia",
+            "url": "https://finschia-api.finschia.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/finschia/",
+        "account": "https://www.mintscan.io/finschia/address/${address}",
+        "tx": "https://www.mintscan.io/finschia/tx/${hash}",
+        "proposal": "https://www.mintscan.io/finschia/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.finschia.io/",
+        "docs": "https://docs.finschia.io/",
+        "github" : "https://github.com/Finschia/",
+        "blog" : "https://www.finschia.io/disclosure/",
+        "medium": "https://finschia.medium.com/",
+        "twitter" : "https://twitter.com/finschia",
+        "coingecko" : "https://www.coingecko.com/en/coins/fnsa"
+    },
+    "description" : {
+        "ko" : "Finschia는 스마트 계약을 원활하게 통합하여 LINE 블록체인의 글로벌 확장을 계속하고 있는 IBC Consoritum 블록체인입니다.",
+        "en" : "Finschia is an IBC Consortium blockchain that seamlessly incorporates smart contracts, continuing the global expansion of the LINE blockchain.",
+        "ja" : "Finschiaはスマート契約を円滑に統合し、LINEブロックチェーンのグローバル拡張を続けているIBC Consoritumブロックチェーンです。"
+    }
+}

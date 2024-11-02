@@ -1,0 +1,91 @@
+[
+    {
+        "type": "native",
+        "denom": "aplanq",
+        "name" : "Planq",
+        "symbol": "PLQ",
+        "description": "Planq Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/planq/asset/planq.png",
+        "coinGeckoId": "planq"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>planq",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-492",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/26B4B4BBF3C8D5DB1ADE993CCD865A7CC608B2BAEF20E0166F18B84E32184F63",
+        "name" : "nRide Token",
+        "symbol": "NRIDE",
+        "description": "nRide is developing a uber-like ride-hailing protocol, leveraging cosmwasm smart-contracts for payment, driver registration and text-messaging between the rider and the driver, to create a trustless public transportation environment for any cab or taxi company to use.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/nride.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "osmosis>planq",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-492",
+                "port": "transfer",
+                "chain": "juno",
+                "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/747FF58D3F211497581252CEBE11D7E785FC1E53AC5C29497A361E3830F1AF4A",
+        "name" : "MEME",
+        "symbol": "MEME",
+        "description": "MEME Token (MEME) is the native staking token of the MEME Chain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "meme>planq",
+            "client" : {
+                "channel": "channel-64",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "meme",
+                "denom": "umeme"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09",
+        "name" : "Source Token",
+        "symbol": "SRCX",
+        "description": "The token of Source Protocol bridged from BSC.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png",
+        "coinGeckoId": ""
+    }
+]

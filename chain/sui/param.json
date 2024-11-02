@@ -1,0 +1,60 @@
+{
+    "chain_id" : "35834a8a",
+    "chain_name": "Sui",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/resource/chain_sui.png",
+    "symbol" : "SUI",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/sui.png",
+    "origin_genesis_time" : "2023-05-03T00:00:00Z",
+    "moblie_dapp" : true,
+    "accountType" : [
+        {
+            "hd_path": "m/44'/784'/0'/0'/X'",
+            "pubkey_style": "ed25519"
+        }
+    ],
+    "rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://sui-mainnet-us-2.cosmostation.io"
+        },
+        {
+            "provider": "Cosmostation",
+            "url": "https://sui-mainnet-ca-2.cosmostation.io"
+        },
+        {
+            "provider": "Cosmostation",
+            "url": "https://sui-mainnet-us-1.cosmostation.io"
+        },
+        {
+            "provider": "Foundation",
+            "url": "https://fullnode.mainnet.sui.io:443"
+        }
+    ],
+    "explorer" : {
+        "name": "Suiscan",
+        "url": "https://suiscan.xyz/",
+        "account": "https://suiscan.xyz/mainnet/account/${address}",
+        "tx": "https://suiscan.xyz/mainnet/tx/${hash}",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://sui.io/",
+        "whitepaper" : "https://docs.sui.io/paper/sui.pdf",
+        "docs": "https://docs.sui.io/",
+        "github" : "https://github.com/MystenLabs/sui",
+        "blog" : "https://blog.sui.io/",
+        "medium": "https://medium.com/mysten-labs",
+        "twitter" : "https://twitter.com/Mysten_Labs",
+        "discord" : "https://discord.com/invite/Sui",
+        "linkedin": "https://www.linkedin.com/company/mysten-labs/",
+        "coingecko" : "https://www.coingecko.com/coins/sui"
+    },
+    "forum": {
+      "main": "https://forums.sui.io/"
+    },
+    "description" : {
+        "ko" : "Sui는 글로벌 채택의 요구를 충족하기 위해 설계된 혁신적인 레이어-1 블록체인 플랫폼으로, 안전하고 강력하며 확장 가능한 개발 환경을 제공합니다. 독창적인 객체 중심 데이터 모델을 기반으로 하여 신뢰받는 Move 프로그래밍 언어로 강화된 Sui는 현재 블록체인 프레임워크에서 발견되는 비효율성을 해결하도록 설계되었습니다.",
+        "en" : "Sui is an innovative layer-1 blockchain platform crafted to meet the demands of global adoption, providing a secure, robust, and scalable development environment. Rooted in a unique object-centric data model and fortified by the trusted Move programming language, Sui is engineered to tackle the inefficiencies found in current blockchain frameworks.",
+        "ja" : "Suiは、グローバルな採用の要求を満たすために設計された革新的なレイヤー1のブロックチェーンプラットフォームで、安全で強力かつスケーラブルな開発環境を提供します。独自のオブジェクト中心のデータモデルに基づき、信頼できるMoveプログラミング言語で強化されたSuiは、現在のブロックチェーンフレームワークに見られる非効率性に対処するように設計されています。"
+    }
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "type": "native",
+        "denom": "ucre",
+        "name" : "Crescent",
+        "symbol": "CRE",
+        "description": "Crescent Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crescent/asset/cre.png",
+        "coinGeckoId": "crescent-network",
+        "color": "#F4BC76"
+    },
+    {
+        "type": "native",
+        "denom": "ubcre",
+        "name" : "bCrescent",
+        "symbol": "bCRE",
+        "description": "Crescent Liquidated CRE",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crescent/asset/bcre.png",
+        "coinGeckoId": "liquid-staking-crescent"
+    }
+]

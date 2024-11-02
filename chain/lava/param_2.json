@@ -1,0 +1,85 @@
+{
+    "chain_id_cosmos": "lava-mainnet-1",
+    "chain_name": "Lava",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lava/resource/chain_lava.png",
+    "main_asset_denom" : "ulava",
+    "main_asset_symbol" : "LAVA",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lava/asset/lava.png",
+    "bech_account_prefix" : "lava@",
+    "bech_validator_prefix" : "lava@valoper",
+    "origin_genesis_time" : "2024-01-17T15:00:00Z",
+    "api_name" : "lava",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.00005ulava"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-lava.cosmostation.io:443"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "lava.grpc.m.stavr.tech:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-lava.cosmostation.io/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://lava-api.w3coins.io/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://lava-api.ibs.team/"
+        },
+        {
+            "provider": "AVIAONE",
+            "url": "https://api.lava-mainnet-1.lava.aviaone.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://lava.api.m.stavr.tech/"
+        }
+    ],
+    "explorer" : {
+        "name": "W3coins",
+        "url": "https://lava-explorer.w3coins.io/Lava",
+        "account": "https://lava-explorer.w3coins.io/Lava/account/${address}",
+        "tx": "https://lava-explorer.w3coins.io/Lava/tx/${hash}",
+        "proposal": "https://lava-explorer.w3coins.io/Lava/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://www.lavanet.xyz/",
+        "docs": "https://docs.lavanet.xyz/",
+        "github" : "https://github.com/lavanet/docs",
+        "blog" : "https://www.lavanet.xyz/blog",
+        "twitter" : "https://twitter.com/lavanetxyz",
+        "discord" : "https://discord.com/invite/Tbk5NxTCdA",
+        "coingecko" : "https://www.coingecko.com/en/coins/lava-network"
+    },
+    "forum": {
+        "main": "https://community.lavanet.xyz/"
+    },
+    "description" : {
+        "ko" : "라바(Lava)는 롤업들이 고성능 인프라 제공자 네트워크를 구축하는 데 사용하는 모듈형 네트워크입니다. RPC 요청은 사용 가능한 최상의 제공자로 라우팅되어 개발자와 사용자에게 최적의 서비스를 제공합니다.",
+        "en" : "Lava is a modular network which rollups use to bootstrap a performant network of infrastructure providers. RPC requests are routed to the best available provider, giving developers and users optimal service.",
+        "ja" : "ラバ（Lava）は、ロールアップが高性能なインフラプロバイダーネットワークをブートストラップするために使用するモジュラー ネットワークです。RPCリクエストは、利用可能な最高のプロバイダーにルーティングされ、開発者とユーザーに最適なサービスを提供します。"
+    }
+}

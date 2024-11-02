@@ -1,40 +1,70 @@
 {
+    "chain_id_cosmos" : "canto_7700-1",
+    "chain_id_evm" : "0x1e14",
+    "chain_name": "Canto",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/canto/resource/chain_canto.png",
+    "symbol" : "CANTO",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/canto/asset/canto.png",
+    "bechAccountPrefix" : "canto",
+    "bechValidatorPrefix" : "cantovaloper",
+    "name_for_dapp" : "CANTO", 
+    "api_name" : "canto",
+    "origin_genesis_time" : "2022-07-26T17:27:56Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "1500000000000acanto",
             "2000000000000acanto"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
-    "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-canto.cosmostation.io:443"
-        },
+    "lcd_endpoint" : [
         {
             "provider": "Polkachu",
-            "url": "canto-grpc.polkachu.com:14990"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "grpc.canto.nodestake.top:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-canto.cosmos-spaces.cloud:2280"
+            "url": "https://canto-api.polkachu.com/"
         },
         {
             "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "canto-mainnet-grpc.autostake.com:443"
+            "url": "https://canto-mainnet-lcd.autostake.com/"
         }
     ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Slingshot",
+            "url": "https://canto.slingshot.finance"
+        },
+        {
+            "provider": "plexnode",
+            "url": "https://mainnode.plexnode.org:8545"
+        },
+        {
+            "provider": "Ansybl",
+            "url": "https://canto-rpc.ansybl.io"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/canto",
+        "account": "https://atomscan.com/canto/accounts/${address}",
+        "tx": "https://atomscan.com/canto/transactions/${hash}",
+        "proposal": "https://atomscan.com/canto/votes/${id}"
+    },
     "about" : {
         "website" : "https://canto.io/",
-        "blog" : "https://canto.mirror.xyz/",
+        "docs": "https://docs.canto.io/",
         "github" : "https://github.com/Canto-Network",
+        "blog" : "https://canto.mirror.xyz/",
+        "medium": "https://canto.mirror.xyz/",
         "twitter" : "https://twitter.com/CantoPublic",
         "coingecko" : "https://www.coingecko.com/en/coins/canto"
     },

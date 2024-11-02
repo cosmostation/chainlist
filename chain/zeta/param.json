@@ -1,0 +1,107 @@
+{
+    "chain_id_cosmos" : "zetachain_7000-1",
+    "chain_id_evm" : "0x1b58",
+    "chain_name": "ZETACHAIN",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/resource/chain_zeta.png",
+    "symbol" : "ZETA",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/zeta.png",
+    "bechAccountPrefix" : "zeta",
+    "bechValidatorPrefix" : "zetavaloper",
+    "name_for_dapp" : "zeta", 
+    "api_name" : "zeta",
+    "origin_genesis_time" : "2023-10-19T10:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+            "10000000000azeta"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-zeta.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-zeta.cosmostation.io/"
+        },
+        {
+            "provider": "BlockPI",
+            "url": "https://zetachain.blockpi.network/lcd/v1/public/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://zetachain-api.lavenderfive.com/"
+        },
+        {
+            "provider": "[NODERS]TEAM",
+            "url": "https://zetachain-api.noders.services/"
+        },
+        {
+            "provider": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅",
+            "url": "https://zetachain.api.nodeshub.online/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-zeta-evm.cosmostation.io"
+        },
+        {
+            "provider": "Blastapi",
+            "url": "https://zetachain-mainnet.public.blastapi.io"
+        },
+        {
+            "provider": "Allthatnode",
+            "url": "https://zetachain-mainnet.g.allthatnode.com/archive/evm"
+        },
+        {
+            "provider": "Blockpi",
+            "url": "https://zetachain-evm.blockpi.network/v1/rpc/public"
+        },
+        {
+            "provider": "drpc",
+            "url": "https://zeta-chain.drpc.org "
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/zeta/",
+        "account": "https://www.mintscan.io/zeta/address/${address}",
+        "tx": "https://www.mintscan.io/zeta/tx/${hash}",
+        "proposal": "https://www.mintscan.io/zeta/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.zetachain.com/",
+        "docs": "https://www.zetachain.com/docs/",
+        "github" : "https://github.com/zeta-chain",
+        "blog" : "https://www.zetachain.com/blog",
+        "reddit" : "https://www.reddit.com/r/zetablockchain/",
+        "youtube" : "https://www.youtube.com/@ZetaBlockchain",
+        "twitter" : "https://twitter.com/zetablockchain", 
+        "telegram" : "https://t.me/zetachainofficial",
+        "discord" : "https://discord.com/invite/zetachain",
+        "coingecko" : "https://www.coingecko.com/en/coins/zetachain"
+    },
+    "forum": {
+      "main": "https://governance.zetachain.com/"
+    },
+    "description" : {
+        "ko" : "ZetaChain은 다양한 블록체인 간의 스마트 계약과 메시징을 지원하는 공공 블록체인입니다. 크로스체인 및 멀티체인 문제를 해결하여 결제, DeFi, 게임 등 여러 블록체인의 혜택을 누릴 수 있게 합니다.",
+        "en" : "ZetaChain is the foundational, public blockchain that enables omnichain smart contracts and messaging between any blockchain. It solves the problems of “cross-chain” and “multi-chain” and aims to open the crypto and global financial ecosystem to anyone.",
+        "ja" : "ZetaChainは、異なるブロックチェーン間でのスマートコントラクトとメッセージングをサポートするパブリックブロックチェーンです。「クロスチェーン」および「マルチチェーン」の問題を解決し、決済やDeFi、ゲームなど、さまざまなブロックチェーンの利点を享受できます。"
+    }
+}

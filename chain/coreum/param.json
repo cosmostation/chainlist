@@ -1,4 +1,22 @@
 {
+    "chain_id_cosmos" : "coreum-mainnet-1",
+    "chain_name": "Coreum",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/resource/chain_coreum.png",
+    "symbol" : "COREUM",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/core.png",
+    "bechAccountPrefix" : "core",
+    "bechValidatorPrefix" : "corevaloper",
+    "name_for_dapp" : "COREUM", 
+    "api_name" : "coreum",
+    "origin_genesis_time" : "2023-03-12T00:00:00Z",
+    "moblie_dapp" : true,
+    "accountType" : [
+        {
+            "hd_path": "m/44'/990'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -6,6 +24,7 @@
             "0.0625ucore",
             "0.5ucore"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -28,14 +47,44 @@
             "url": "full-node-curium.mainnet-1.coreum.dev:9090"
         },
         {
-            "provider": "NodeX Validator",
-            "url": "https://grpc.coreum.nodexcapital.com:444"
+            "provider": "Coreum Foundation",
+            "url": "full-node-uranium.mainnet-1.coreum.dev:9090"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-coreum.cosmostation.io/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-coreum.ecostake.com/"
+        },
+        {
+            "provider": "Silk Nodes",
+            "url": "https://coreum.api.silknodes.io/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://coreum-api.ibs.team/"
+        },
+        {
+            "provider": "Stakewolle",
+            "url": "https://public.stakewolle.com/cosmos/coreum/rest"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/coreum/",
+        "account": "https://www.mintscan.io/coreum/address/${address}",
+        "tx": "https://www.mintscan.io/coreum/tx/${hash}",
+        "proposal": "https://www.mintscan.io/coreum/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.coreum.com/",
-        "blog" : "https://www.coreum.com/community#press-&-media",
+        "docs": "https://docs.coreum.dev/",
         "github" : "https://github.com/CoreumFoundation",
+        "blog" : "https://www.coreum.com/community#press-&-media",
         "twitter" : "https://twitter.com/CoreumOfficial",
         "coingecko" : "https://www.coingecko.com/en/coins/coreum"
     },

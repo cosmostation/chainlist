@@ -1,10 +1,28 @@
 {
+    "chain_id_cosmos" : "umee-1",
+    "chain_name": "UX",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/umee/resource/chain_umee.png",
+    "symbol" : "UX",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/umee/asset/umee.png",
+    "bechAccountPrefix" : "umee",
+    "bechValidatorPrefix" : "umeevaloper",
+    "name_for_dapp" : "UX", 
+    "api_name" : "umee",
+    "origin_genesis_time" : "2022-02-15T17:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.1uumee",
             "0.2uumee"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -15,28 +33,63 @@
             "url": "grpc-umee.cosmostation.io:443"
         },
         {
-            "provider": "Polkachu",
-            "url": "umee-grpc.polkachu.com:13690"
+            "provider": "MMS",
+            "url": "grpc-umee.mms.team:443"
         },
         {
             "provider": "Notional",
             "url": "grpc-umee-ia.cosmosia.notional.ventures:443"
         },
         {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "umee-mainnet-grpc.autostake.com:443"
+            "provider": "MZONDER",
+            "url": "grpc-umee.mzonder.com:443"
         },
         {
-            "provider": "QuantNode gRPC",
-            "url": "umee-grpc.quantnode.tech:9090"
+            "provider": "StakeTown",
+            "url": "umee-grpc.stake-town.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-umee.cosmostation.io/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://umee.api.m.stavr.tech/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://umee-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://umee-api.polkachu.com/"
+        },
+        {
+            "provider": "QuantNode",
+            "url": "https://umee-lcd.quantnode.tech/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/umee/",
+        "account": "https://www.mintscan.io/umee/address/${address}",
+        "tx": "https://www.mintscan.io/umee/tx/${hash}",
+        "proposal": "https://www.mintscan.io/umee/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.ux.xyz/",
-        "blog" : "https://medium.com/umeeblog",
+        "docs": "https://docs.umee.cc/umee",
         "github" : "https://github.com/umee-network",
+        "blog" : "https://www.ux.xyz/blog",
+        "medium": "https://medium.com/umeeblog",
         "twitter" : "https://twitter.com/Umee_CrossChain",
         "coingecko" : "https://www.coingecko.com/en/coins/umee"
+    },
+    "forum": {
+      "main": "https://commonwealth.im/umee",
+      "governance": "https://commonwealth.im/umee/discussions/Proposal%20Discussion"
     },
     "description" : {
         "ko" : "멀티체인 대출 및 차용, 스테이킹, 레버리지를 가능하게 하는 크로스체인 DeFi 플랫폼.",

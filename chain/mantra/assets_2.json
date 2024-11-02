@@ -1,0 +1,61 @@
+[
+    {
+        "type": "native",
+        "denom": "uom",
+        "name": "Mantra",
+        "symbol": "OM",
+        "description": "MANTRA Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/om.png",
+        "coinGeckoId": "mantra-dao",
+        "color": "#FC86CD"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
+        "name": "USDC",
+        "symbol": "USDC",
+        "decimals": 6,
+        "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "color": "#2775CA",
+        "coinGeckoId": "usd-coin",
+        "ibc_info": {
+            "path": "noble>mantra",
+            "client": {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-101",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6749D16BC09F419C090C330FC751FFF1C96143DB7A4D2FCAEC2F348A3E17618A",
+        "name": "Ondo US Dollar Yield",
+        "symbol": "USDY",
+        "decimals": 18,
+        "description": "Ondo US Dollar Yield",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg",
+        "color": "#142c5c",
+        "coinGeckoId": "ondo-us-dollar-yield",
+        "ibc_info": {
+            "path": "noble>mantra",
+            "client": {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-101",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "ausdy"
+            }
+        }
+    }
+]

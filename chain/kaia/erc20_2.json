@@ -1,0 +1,105 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x5c13e303a62fc5dedf5b52d66873f2e59fedadc2",
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x608792deb376cce1c9fa4d0e6b7b44f507cffa6a",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x999999999939ba65abb254339eec0b2a0dac80e9",
+        "name": "Governance Council KLAY",
+        "symbol": "GCKLAY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/gcklay.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc6a2ad8cc6e4a7e08fc37cc5954be07d499e7654",
+        "name": "KlaySwap Protocol",
+        "symbol": "KSP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/ksp.png",
+        "coinGeckoId": "klayswap-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x98a8345bb9d3dda9d808ca1c9142a28f6b0430e1",
+        "name" : "Wrapped Ether",
+        "symbol": "weETH",
+        "description": "WETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x84f8c3c8d6ee30a559d73ec570d574f671e82647",
+        "name" : "SuperWalk",
+        "symbol": "GRND",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/grnd.png",
+        "coinGeckoId": "superwalk-grnd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x15d9f3ab1982b0e5a415451259994ff40369f584",
+        "name" : "BTCB Token",
+        "symbol": "BTCB",
+        "description": "Binance Bitcoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/btcb.png",
+        "coinGeckoId": "binance-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x02cbe46fb8a1f579254a9b485788f2d86cad51aa",
+        "name" : "BORA",
+        "symbol": "BORA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/bora.png",
+        "coinGeckoId": "bora"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x42952b873ed6f7f0a7e4992e2a9818e3a9001995",
+        "name" : "Lair Staked KAIA",
+        "symbol": "stKAIA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/stkaia.png",
+        "coinGeckoId": "lair-staked-kaia"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7fc692699f2216647a0e06225d8bdf8cdee40e7f",
+        "name" : "KRWO",
+        "symbol": "KRWO",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/krwo.png",
+        "coinGeckoId": ""
+    }
+]

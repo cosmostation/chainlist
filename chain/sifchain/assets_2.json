@@ -1,0 +1,1742 @@
+[
+    {
+        "type": "native",
+        "denom": "rowan",
+        "name" : "Sifchain",
+        "symbol": "ROWAN",
+        "description": "Sifchain Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sifchain/asset/rowan.png",
+        "coinGeckoId": "sifchain",
+        "color": "#9248DB"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/21CB41565FCA19AB6613EE06B0D56E588E0DC3E53FF94BA499BB9635794A1A35",
+        "name" : "Sentinel",
+        "symbol": "DVPN",
+        "description": "Sentinel Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/asset/dvpn.png",
+        "coinGeckoId": "sentinel",
+        "ibc_info" : {
+            "path": "sentinel>sifchain",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "sentinel",
+                "denom": "udvpn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6D717BFF5537D129035BAB39F593D638BA258A9F8D86FB7ECCEAB05B6950CC3E",
+        "name" : "Akash Network",
+        "symbol": "AKT",
+        "description": "Akash Network Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
+        "coinGeckoId": "akash-network",
+        "ibc_info" : {
+            "path": "akash>sifchain",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-24",
+                "port": "transfer",
+                "chain": "akash",
+                "denom": "uakt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2CC6F10253D563A7C238096BA63D060F7F356E37D5176E517034B8F730DB4AB6",
+        "name" : "Regen",
+        "symbol": "REGEN",
+        "description": "Regen Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/asset/regen.png",
+        "coinGeckoId": "regen",
+        "ibc_info" : {
+            "path": "regen>sifchain",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-28",
+                "port": "transfer",
+                "chain": "regen",
+                "denom": "uregen"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F20C4E30E4202C11FE009D6D58B2FF212C99084CB6F767287A51A93EFD960086",
+        "name" : "Starname",
+        "symbol": "IOV",
+        "description": "Starname Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/starname/asset/iov.png",
+        "coinGeckoId": "starname",
+        "ibc_info" : {
+            "path": "starname>sifchain",
+            "client" : {
+                "channel": "channel-54",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-18",
+                "port": "transfer",
+                "chain": "starname",
+                "denom": "uiov"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D87BC708A791246AA683D514C273736F07579CBD56C9CA79B7823F9A01C16270",
+        "name" : "Persistence One",
+        "symbol": "XPRT",
+        "description": "Persistence Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/asset/xprt.png",
+        "coinGeckoId": "persistence",
+        "ibc_info" : {
+            "path": "persistence>sifchain",
+            "client" : {
+                "channel": "channel-7",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-26",
+                "port": "transfer",
+                "chain": "persistence",
+                "denom": "uxprt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B4314D0E670CB43C88A5DCA09F76E5E812BD831CC2FEC6E434C9E5A9D1F57953",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>sifchain",
+            "client" : {
+                "channel": "channel-17",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-47",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ACA7D0100794F39DF3FF0C5E31638B24737321C24F32C2C486A24C78DD8F2029",
+        "name" : "e-Money",
+        "symbol": "NGM",
+        "description": "e-Money Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/emoney/asset/ngm.png",
+        "coinGeckoId": "e-money",
+        "ibc_info" : {
+            "path": "emoney>sifchain",
+            "client" : {
+                "channel": "channel-19",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-14",
+                "port": "transfer",
+                "chain": "emoney",
+                "denom": "ungm"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7B8A3357032F3DB000ACFF3B2C9F8E77B932F21004FC93B5A8F77DE24161A573",
+        "name" : "EUR stablecoin",
+        "symbol": "EEUR",
+        "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/emoney/asset/eeur.png",
+        "coinGeckoId": "e-money-eur",
+        "ibc_info" : {
+            "path": "emoney>sifchain",
+            "client" : {
+                "channel": "channel-19",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-14",
+                "port": "transfer",
+                "chain": "emoney",
+                "denom": "eeur"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F279AB967042CAC10BFF70FAECB179DCE37AAAE4CD4C1BC4565C2BBC383BC0FA",
+        "name" : "Juno",
+        "symbol": "JUNO",
+        "description": "Juno Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+        "coinGeckoId": "juno-network",
+        "ibc_info" : {
+            "path": "juno>sifchain",
+            "client" : {
+                "channel": "channel-14",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "juno",
+                "denom": "ujuno"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B21954812E6E642ADC0B5ACB233E02A634BF137C572575BF80F7C0CC3DB2E74D",
+        "name" : "Cronos Coin",
+        "symbol": "CRO",
+        "description": "Cronos POS Staking Coin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crypto-org/asset/cro.png",
+        "coinGeckoId": "crypto-com-chain",
+        "ibc_info" : {
+            "path": "crypto-org>sifchain",
+            "client" : {
+                "channel": "channel-9",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-33",
+                "port": "transfer",
+                "chain": "crypto-org",
+                "denom": "basecro"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/11DFDFADE34DCE439BA732EBA5CD8AA804A544BA1ECC0882856289FAF01FE53F",
+        "name" : "IRISnet",
+        "symbol": "IRIS",
+        "description": "IRISnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iris/asset/iris.png",
+        "coinGeckoId": "iris-network",
+        "ibc_info" : {
+            "path": "iris>sifchain",
+            "client" : {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-19",
+                "port": "transfer",
+                "chain": "iris",
+                "denom": "uiris"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/345D30E8ED06B47FC538ED131D99D16126F07CD6F8B35DE96AAF4C1E445AF466",
+        "name" : "Secret",
+        "symbol": "SCRT",
+        "description": "Secret Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
+        "coinGeckoId": "secret",
+        "ibc_info" : {
+            "path": "secret>sifchain",
+            "client" : {
+                "channel": "channel-65",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-15",
+                "port": "transfer",
+                "chain": "secret",
+                "denom": "uscrt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>sifchain",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-192",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ceth",
+        "name" : "ETH (Ethereum via Sifchain)",
+        "symbol": "ETH",
+        "description": "ETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eth.png",
+        "coinGeckoId": "ethereum",
+        "bridge_info" : {
+            "path": "ethereum>sifchain"
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cusdc",
+        "name" : "USDC (Ethereum via Sifchain)",
+        "symbol": "USDC",
+        "description": "USDC",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "csrm",
+        "name" : "SRM (Ethereum via Sifchain)",
+        "symbol": "SRM",
+        "description": "SRM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/srm.png",
+        "coinGeckoId": "serum",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x476c5e26a75bd202a9683ffd34359c0cc15be0ff"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cusdt",
+        "name" : "USDT (Ethereum via Sifchain)",
+        "symbol": "USDT",
+        "description": "USDT",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ccro",
+        "name" : "CRO (Ethereum via Sifchain)",
+        "symbol": "CRO",
+        "description": "CRO",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crypto-org/asset/cro.png",
+        "coinGeckoId": "crypto-com-chain",
+        "bridge_info" : {
+            "path": "crypto-org>ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "c1inch",
+        "name" : "1INCH (Ethereum via Sifchain)",
+        "symbol": "1INCH",
+        "description": "1INCH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/1inch.png",
+        "coinGeckoId": "1inch",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x111111111117dc0aa78b770fa6a738034120c302"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "caave",
+        "name" : "AAVE (Ethereum via Sifchain)",
+        "symbol": "AAVE",
+        "description": "AAVE",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/aave.png",
+        "coinGeckoId": "aave",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cakro",
+        "name" : "AKRO (Ethereum via Sifchain)",
+        "symbol": "AKRO",
+        "description": "AKRO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/akro.png",
+        "coinGeckoId": "akropolis",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cant",
+        "name" : "ANT (Ethereum via Sifchain)",
+        "symbol": "ANT",
+        "description": "ANT",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ant.png",
+        "coinGeckoId": "aragon",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "caxs",
+        "name" : "AXS (Ethereum via Sifchain)",
+        "symbol": "AXS",
+        "description": "AXS",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/axs.png",
+        "coinGeckoId": "axie-infinity",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cb20",
+        "name" : "B20 (Ethereum via Sifchain)",
+        "symbol": "B20",
+        "description": "B20",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/b20.png",
+        "coinGeckoId": "b20",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc4De189Abf94c57f396bD4c52ab13b954FebEfD8"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cbal",
+        "name" : "BAL (Ethereum via Sifchain)",
+        "symbol": "BAL",
+        "description": "BAL",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bal.png",
+        "coinGeckoId": "balancer",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xba100000625a3754423978a60c9317c58a424e3D"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cband",
+        "name" : "Band (Ethereum via Sifchain)",
+        "symbol": "Band",
+        "description": "Band",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/band.png",
+        "coinGeckoId": "band-protocol",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cbat",
+        "name" : "BAT (Ethereum via Sifchain)",
+        "symbol": "BAT",
+        "description": "BAT",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bat.png",
+        "coinGeckoId": "basic-attention-token",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x0d8775f648430679a709e98d2b0cb6250d2887ef"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cbnt",
+        "name" : "BNT (Ethereum via Sifchain)",
+        "symbol": "BNT",
+        "description": "BNT",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bnt.png",
+        "coinGeckoId": "bancor",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cbond",
+        "name" : "BOND (Ethereum via Sifchain)",
+        "symbol": "BOND",
+        "description": "BOND",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bond.png",
+        "coinGeckoId": "barnbridge",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x0391D2021f89DC339F60Fff84546EA23E337750f"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cbtsg",
+        "name" : "BTSG (Ethereum via Sifchain)",
+        "symbol": "BTSG",
+        "description": "BTSG",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/btsg.png",
+        "coinGeckoId": "bitsong",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x05079687D35b93538cbd59fe5596380cae9054A9"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ccocos",
+        "name" : "COCOS (Ethereum via Sifchain)",
+        "symbol": "COCOS",
+        "description": "COCOS",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cocos.png",
+        "coinGeckoId": "",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x0C6f5F7D555E7518f6841a79436BD2b1Eef03381"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ccomp",
+        "name" : "COMP (Ethereum via Sifchain)",
+        "symbol": "COMP",
+        "description": "COMP",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/comp.png",
+        "coinGeckoId": "",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc00e94cb662c3520282e6f5717214004a7f26888"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cconv",
+        "name" : "CONV (Ethereum via Sifchain)",
+        "symbol": "CONV",
+        "description": "CONV",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/conv.png",
+        "coinGeckoId": "convergence",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc834Fa996fA3BeC7aAD3693af486ae53D8aA8B50"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ccream",
+        "name" : "CREAM (Ethereum via Sifchain)",
+        "symbol": "CREAM",
+        "description": "CREAM",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cream.png",
+        "coinGeckoId": "cream-2",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x2ba592F78dB6436527729929AAf6c908497cB200"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cdai",
+        "name" : "DAI (Ethereum via Sifchain)",
+        "symbol": "DAI",
+        "description": "DAI",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6b175474e89094c44da98b954eedeac495271d0f"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cdaofi",
+        "name" : "DAOFI (Ethereum via Sifchain)",
+        "symbol": "DAOFI",
+        "description": "DAOFI",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/daofi.png",
+        "coinGeckoId": "xxxxx",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xD82BB924a1707950903e2C0a619824024e254cD1"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cdfyn",
+        "name" : "DFYN (Ethereum via Sifchain)",
+        "symbol": "DFYN",
+        "description": "DFYN",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dfyn.png",
+        "coinGeckoId": "dfyn-network",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x9695e0114e12C0d3A3636fAb5A18e6b737529023"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cdino",
+        "name" : "DINO (Ethereum via Sifchain)",
+        "symbol": "DINO",
+        "description": "DINO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dino.png",
+        "coinGeckoId": "",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4c081D8EC752C8cA6309149E3ad07747b2576401"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cdnxc",
+        "name" : "DNXC (Ethereum via Sifchain)",
+        "symbol": "DNXC",
+        "description": "DNXC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dnxc.png",
+        "coinGeckoId": "dinox",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x20a8CEC5fffea65Be7122BCaB2FFe32ED4Ebf03a"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cdon",
+        "name" : "DON (Ethereum via Sifchain)",
+        "symbol": "DON",
+        "description": "DON",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/don.png",
+        "coinGeckoId": "donkey-token",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4576E6825B462b6916D2a41E187626E9090A92c6"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cenj",
+        "name" : "ENJ (Ethereum via Sifchain)",
+        "symbol": "ENJ",
+        "description": "ENJ",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/enj.png",
+        "coinGeckoId": "enjincoin",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cern",
+        "name" : "ERN (Ethereum via Sifchain)",
+        "symbol": "ERN",
+        "description": "ERN",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ern.png",
+        "coinGeckoId": "ethernity-chain",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xbbc2ae13b23d715c30720f079fcd9b4a74093505"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cesd",
+        "name" : "ESD (Ethereum via Sifchain)",
+        "symbol": "ESD",
+        "description": "ESD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/esd.png",
+        "coinGeckoId": "empty-set-dollar",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x36F3FD68E7325a35EB768F1AedaAe9EA0689d723"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cfrax",
+        "name" : "FRAX (Ethereum via Sifchain)",
+        "symbol": "FRAX",
+        "description": "FRAX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frax.png",
+        "coinGeckoId": "frax",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x853d955aCEf822Db058eb8505911ED77F175b99e"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cftm",
+        "name" : "FTM (Ethereum via Sifchain)",
+        "symbol": "FTM",
+        "description": "FTM",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ftm.png",
+        "coinGeckoId": "fantom",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4e15361fd6b4bb609fa63c81a2be19d873717870"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cfxs",
+        "name" : "FXS (Ethereum via Sifchain)",
+        "symbol": "FXS",
+        "description": "FXS",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fxs.png",
+        "coinGeckoId": "frax-share",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cgrt",
+        "name" : "GRT (Ethereum via Sifchain)",
+        "symbol": "GRT",
+        "description": "GRT",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/grt.png",
+        "coinGeckoId": "the-graph",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc944e90c64b2c07662a292be6244bdf05cda44a7"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ciotx",
+        "name" : "IOTX (Ethereum via Sifchain)",
+        "symbol": "IOTX",
+        "description": "IOTX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/iotx.png",
+        "coinGeckoId": "iotex",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ckeep",
+        "name" : "KEEP (Ethereum via Sifchain)",
+        "symbol": "KEEP",
+        "description": "KEEP",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/keep.png",
+        "coinGeckoId": "keep-network",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ckft",
+        "name" : "KFT (Ethereum via Sifchain)",
+        "symbol": "KFT",
+        "description": "KFT",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/kft.png",
+        "coinGeckoId": "knit-finance",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xEF53462838000184F35f7D991452e5f25110b207"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cldo",
+        "name" : "LDO (Ethereum via Sifchain)",
+        "symbol": "LDO",
+        "description": "LDO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ldo.png",
+        "coinGeckoId": "lido-dao",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cleash",
+        "name" : "LEASH (Ethereum via Sifchain)",
+        "symbol": "LEASH",
+        "description": "LEASH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/leash.png",
+        "coinGeckoId": "leash",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x27C70Cd1946795B66be9d954418546998b546634"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "clgcy",
+        "name" : "LGCY (Ethereum via Sifchain)",
+        "symbol": "LGCY",
+        "description": "LGCY",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lgcy.png",
+        "coinGeckoId": "lgcy-network",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xaE697F994Fc5eBC000F8e22EbFfeE04612f98A0d"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "clina",
+        "name" : "LINA (Ethereum via Sifchain)",
+        "symbol": "LINA",
+        "description": "LINA",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lina.png",
+        "coinGeckoId": "linear",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x3E9BC21C9b189C09dF3eF1B824798658d5011937"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "clink",
+        "name" : "LINK (Ethereum via Sifchain)",
+        "symbol": "LINK",
+        "description": "LINK",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
+        "coinGeckoId": "chainlink",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "clon",
+        "name" : "LON (Ethereum via Sifchain)",
+        "symbol": "LON",
+        "description": "LON",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lon.png",
+        "coinGeckoId": "tokenlon",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x0000000000095413afC295d19EDeb1Ad7B71c952"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "clrc",
+        "name" : "LRC (Ethereum via Sifchain)",
+        "symbol": "LRC",
+        "description": "LRC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lrc.png",
+        "coinGeckoId": "loopring",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cmana",
+        "name" : "MANA (Ethereum via Sifchain)",
+        "symbol": "MANA",
+        "description": "MANA",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/mana.png",
+        "coinGeckoId": "decentraland",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cmatic",
+        "name" : "MATIC (Ethereum via Sifchain)",
+        "symbol": "MATIC",
+        "description": "MATIC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/matic.png",
+        "coinGeckoId": "matic-network",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cmetis",
+        "name" : "METIS (Ethereum via Sifchain)",
+        "symbol": "METIS",
+        "description": "METIS",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/metis.png",
+        "coinGeckoId": "metis-token",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cocean",
+        "name" : "OCEAN (Ethereum via Sifchain)",
+        "symbol": "OCEAN",
+        "description": "OCEAN",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ocean.png",
+        "coinGeckoId": "ocean-protocol",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cogn",
+        "name" : "OGN (Ethereum via Sifchain)",
+        "symbol": "OGN",
+        "description": "OGN",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ogn.png",
+        "coinGeckoId": "origin-protocol",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "coh",
+        "name" : "OH (Ethereum via Sifchain)",
+        "symbol": "OH",
+        "description": "OH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/oh.png",
+        "coinGeckoId": "oh-finance",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x16ba8efe847ebdfef99d399902ec29397d403c30"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cpaid",
+        "name" : "PAID (Ethereum via Sifchain)",
+        "symbol": "PAID",
+        "description": "PAID",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/paid.png",
+        "coinGeckoId": "paid-network",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x1614F18Fc94f47967A3Fbe5FfcD46d4e7Da3D787"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cpols",
+        "name" : "POLS (Ethereum via Sifchain)",
+        "symbol": "POLS",
+        "description": "POLS",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pols.png",
+        "coinGeckoId": "polkastarter",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cpond",
+        "name" : "POND (Ethereum via Sifchain)",
+        "symbol": "POND",
+        "description": "POND",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pond.png",
+        "coinGeckoId": "marlin",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x57B946008913B82E4dF85f501cbAeD910e58D26C"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cquick",
+        "name" : "QUICK (Ethereum via Sifchain)",
+        "symbol": "QUICK",
+        "description": "QUICK",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/quick.png",
+        "coinGeckoId": "quick",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6c28aef8977c9b773996d0e8376d2ee379446f2f"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "crail",
+        "name" : "RAIL (Ethereum via Sifchain)",
+        "symbol": "RAIL",
+        "description": "RAIL",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rail.png",
+        "coinGeckoId": "railgun",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cratom",
+        "name" : "RATOM (Ethereum via Sifchain)",
+        "symbol": "RATOM",
+        "description": "RATOM",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ratom.png",
+        "coinGeckoId": "stafi-ratom",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xd01cb3d113a864763dd3977fe1e725860013b0ed"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "creef",
+        "name" : "REEF (Ethereum via Sifchain)",
+        "symbol": "REEF",
+        "description": "REEF",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/reef.png",
+        "coinGeckoId": "reef",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xFE3E6a25e6b192A42a44ecDDCd13796471735ACf"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "crfuel",
+        "name" : "RFUEL (Ethereum via Sifchain)",
+        "symbol": "RFUEL",
+        "description": "RFUEL",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rfuel.png",
+        "coinGeckoId": "rio-defi",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xaf9f549774ecEDbD0966C52f250aCc548D3F36E5"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "crly",
+        "name" : "RLY (Ethereum via Sifchain)",
+        "symbol": "RLY",
+        "description": "RLY",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rly.png",
+        "coinGeckoId": "rally-2",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "crndr",
+        "name" : "RNDR (Ethereum via Sifchain)",
+        "symbol": "RNDR",
+        "description": "RNDR",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rndr.png",
+        "coinGeckoId": "render-token",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "crune",
+        "name" : "RUNE (Ethereum via Sifchain)",
+        "symbol": "RUNE",
+        "description": "RUNE",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rune.png",
+        "coinGeckoId": "thorchain",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x3155BA85D5F96b2d030a4966AF206230e46849cb"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "csaito",
+        "name" : "SAITO (Ethereum via Sifchain)",
+        "symbol": "SAITO",
+        "description": "SAITO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/saito.png",
+        "coinGeckoId": "saito",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xFa14Fa6958401314851A17d6C5360cA29f74B57B"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "csand",
+        "name" : "SAND (Ethereum via Sifchain)",
+        "symbol": "SAND",
+        "description": "SAND",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sand.png",
+        "coinGeckoId": "the-sandbox",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cshib",
+        "name" : "SHIB (Ethereum via Sifchain)",
+        "symbol": "SHIB",
+        "description": "SHIB",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/shib.png",
+        "coinGeckoId": "shiba-inu",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "csnx",
+        "name" : "SNX (Ethereum via Sifchain)",
+        "symbol": "SNX",
+        "description": "SNX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/snx.png",
+        "coinGeckoId": "havven",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "csusd",
+        "name" : "sUSD (Ethereum via Sifchain)",
+        "symbol": "sUSD",
+        "description": "sUSD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/susd.png",
+        "coinGeckoId": "nusd",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x57ab1ec28d129707052df4df418d58a2d46d5f51"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "csushi",
+        "name" : "SUSHI (Ethereum via Sifchain)",
+        "symbol": "SUSHI",
+        "description": "SUSHI",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sushi.png",
+        "coinGeckoId": "sushi",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "csxp",
+        "name" : "SXP (Ethereum via Sifchain)",
+        "symbol": "SXP",
+        "description": "SXP",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sxp.png",
+        "coinGeckoId": "swipe",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ctidal",
+        "name" : "TIDAL (Ethereum via Sifchain)",
+        "symbol": "TIDAL",
+        "description": "TIDAL",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tidal.png",
+        "coinGeckoId": "tidal-finance",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x29CbD0510EEc0327992CD6006e63F9Fa8E7f33B7"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ctoke",
+        "name" : "TOKE (Ethereum via Sifchain)",
+        "symbol": "TOKE",
+        "description": "TOKE",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/toke.png",
+        "coinGeckoId": "tokemak",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x2e9d63788249371f1dfc918a52f8d799f4a38c94"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ctshp",
+        "name" : "TSHP (Ethereum via Sifchain)",
+        "symbol": "TSHP",
+        "description": "TSHP",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tshp.png",
+        "coinGeckoId": "12ships",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x525794473f7ab5715c81d06d10f52d11cc052804"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "ctusd",
+        "name" : "TUSD (Ethereum via Sifchain)",
+        "symbol": "TUSD",
+        "description": "TUSD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tusd.png",
+        "coinGeckoId": "true-usd",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x0000000000085d4780B73119b644AE5ecd22b376"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cufo",
+        "name" : "UFO (Ethereum via Sifchain)",
+        "symbol": "UFO",
+        "description": "UFO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ufo.png",
+        "coinGeckoId": "ufo-gaming",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x249e38Ea4102D0cf8264d3701f1a0E39C4f2DC3B"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cuma",
+        "name" : "UMA (Ethereum via Sifchain)",
+        "symbol": "UMA",
+        "description": "UMA",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uma.png",
+        "coinGeckoId": "uma",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cuni",
+        "name" : "UNI (Ethereum via Sifchain)",
+        "symbol": "UNI",
+        "description": "UNI",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uni.png",
+        "coinGeckoId": "uniswap",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cust",
+        "name" : "USTC (Ethereum via Sifchain)",
+        "symbol": "USTC",
+        "description": "USTC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ust.png",
+        "coinGeckoId": "wrapped-ust",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cwbtc",
+        "name" : "WBTC (Ethereum via Sifchain)",
+        "symbol": "WBTC",
+        "description": "WBTC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cwfil",
+        "name" : "WFIL (Ethereum via Sifchain)",
+        "symbol": "WFIL",
+        "description": "WFIL",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wfil.png",
+        "coinGeckoId": "wrapped-filecoin",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6e1a19f235be7ed8e3369ef73b196c07257494de"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cwscrt",
+        "name" : "WSCRT (Ethereum via Sifchain)",
+        "symbol": "WSCRT",
+        "description": "WSCRT",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wscrt.png",
+        "coinGeckoId": "secret-erc20",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x2b89bf8ba858cd2fcee1fada378d5cd6936968be"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "cyfi",
+        "name" : "YFI (Ethereum via Sifchain)",
+        "symbol": "YFI",
+        "description": "YFI",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/yfi.png",
+        "coinGeckoId": "yearn-finance",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "czcn",
+        "name" : "ZCN (Ethereum via Sifchain)",
+        "symbol": "ZCN",
+        "description": "ZCN",
+        "decimals": 10,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zcn.png",
+        "coinGeckoId": "0chain",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xb9ef770b6a5e12e45983c5d80545258aa38f3b78"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "czcx",
+        "name" : "ZCX (Ethereum via Sifchain)",
+        "symbol": "ZCX",
+        "description": "ZCX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zcx.png",
+        "coinGeckoId": "unizen",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc52c326331e9ce41f04484d3b5e5648158028804"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "czrx",
+        "name" : "ZRX (Ethereum via Sifchain)",
+        "symbol": "ZRX",
+        "description": "ZRX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zrx.png",
+        "coinGeckoId": "0x",
+        "bridge_info" : {
+            "path": "ethereum>sifchain",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xe41d2489571d322189246dafa5ebde1f4699f498"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4F7199F3ECB5FA109E71EB9ED2FA3DE6A98F3C87E7E60285BFEDDAA2DF1EB0B4",
+        "name" : "Medas Digital",
+        "symbol": "MEDAS",
+        "description": "The native token of Medas Digital Network",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medasdigital/asset/medas.png",
+        "coinGeckoId": "medasdigital",
+        "ibc_info" : {
+            "path": "medasdigital>sifchain",
+            "client" : {
+                "channel": "channel-89",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "medasdigital",
+                "denom": "umedas"
+            }
+        }
+    }
+]

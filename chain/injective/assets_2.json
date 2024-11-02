@@ -1,0 +1,1900 @@
+[
+    {
+        "type": "native",
+        "denom": "inj",
+        "name" : "Injective",
+        "symbol": "INJ",
+        "description": "Injective Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+        "coinGeckoId": "injective-protocol",
+        "color": "#00BBDD"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/AC87717EA002B0123B10A05063E69BCA274BA2C44D842AEEB41558D2856DCE93",
+        "name" : "Stride Staked INJ",
+        "symbol": "stINJ",
+        "description": "Stride Staked INJ",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stinj.png",
+        "coinGeckoId": "stride-staked-injective",
+        "ibc_info" : {
+            "path": "stride>injective",
+            "client" : {
+                "channel": "channel-89",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-6",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stinj"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3FDD002A3A4019B05A33D324B2F29748E77AF501BEA5C96D1F28B2D6755F9F25",
+        "name" : "Stride",
+        "symbol": "STRD",
+        "description": "Stride Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/strd.png",
+        "coinGeckoId": "stride",
+        "ibc_info" : {
+            "path": "stride>injective",
+            "client" : {
+                "channel": "channel-89",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-6",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "ustrd"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/57AA1A70A4BC9769C525EBF6386F7A21536E04A79D62E1981EFCEF9428EBB205",
+        "name" : "Kava",
+        "symbol": "KAVA",
+        "description": "Kava Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
+        "coinGeckoId": "kava",
+        "ibc_info" : {
+            "path": "kava>injective",
+            "client" : {
+                "channel": "channel-143",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-122",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "ukava"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+        "name" : "Tether USDt",
+        "symbol": "USDt.kava",
+        "description": "USDt - directly minted on the Kava chain by the Tether Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "ibc_info" : {
+            "path": "kava>injective",
+            "client" : {
+                "channel": "channel-143",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-122",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "erc20/tether/usdt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>injective",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-220",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/16618B7F7AC551F48C057A13F4CA5503693FBFF507719A85BC6876B8BD75F821",
+        "name" : "Evmos",
+        "symbol": "EVMOS",
+        "description": "Evmos Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/evmos.png",
+        "coinGeckoId": "evmos",
+        "ibc_info" : {
+            "path": "evmos>injective",
+            "client" : {
+                "channel": "channel-83",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "aevmos"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F6CC233E5C0EA36B1F74AB1AF98471A2D6A80E2542856639703E908B4D93E7C4",
+        "name" : "Neokingdom",
+        "symbol": "NEOK",
+        "description": "The token of Neokingdom DAO.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/neok.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "evmos>injective",
+            "client" : {
+                "channel": "channel-83",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B786E7CBBF026F6F15A8DA248E0F18C62A0F7A70CB2DABD9239398C8B5150ABB",
+        "name" : "Persistence One",
+        "symbol": "XPRT",
+        "description": "Persistence Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/asset/xprt.png",
+        "coinGeckoId": "persistence",
+        "ibc_info" : {
+            "path": "persistence>injective",
+            "client" : {
+                "channel": "channel-82",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-41",
+                "port": "transfer",
+                "chain": "persistence",
+                "denom": "uxprt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B68C1D2682A8B69E20BB921E34C6A3A2B6D1E13E3E8C0092E373826F546DEE65",
+        "name" : "Axelar",
+        "symbol": "AXL",
+        "description": "Axelar Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
+        "coinGeckoId": "axelar",
+        "ibc_info" : {
+            "path": "axelar>injective",
+            "client" : {
+                "channel": "channel-84",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uaxl"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7E1AF94AD246BE522892751046F0C959B768642E5671CC3742264068D49553C0",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>injective",
+            "client" : {
+                "channel": "channel-84",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/624BA9DD171915A2B9EA70F69638B2CEA179959850C1A586F6C485498F29EDD4",
+        "name" : "Wrapped Polkadot (Moonbeam via Axelar)",
+        "symbol": "DOT.glmr.axl",
+        "description": "Wrapped Polkadot on Axelar",
+        "decimals": 10,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/moonbeam/asset/xcdot.png",
+        "coinGeckoId": "xcdot",
+        "ibc_info" : {
+            "path": "moonbeam>axelar>injective",
+            "client" : {
+                "channel": "channel-84",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "dot-planck"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DD9182E8E2B13C89D6B4707C7B43E8DB6193F9FF486AFA0E6CF86B427B0D231A",
+        "name" : "Nois",
+        "symbol": "NOIS",
+        "description": "Nois Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nois/asset/nois.png",
+        "coinGeckoId": "nois",
+        "ibc_info" : {
+            "path": "nois>injective",
+            "client" : {
+                "channel": "channel-138",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-17",
+                "port": "transfer",
+                "chain": "nois",
+                "denom": "unois"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EBD5A24C554198EBAF44979C5B4D2C2D312E6EBAB71962C92F735499C7575839",
+        "name" : "Astroport",
+        "symbol": "ASTRO.cw20",
+        "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/astro.png",
+        "coinGeckoId": "astroport-fi",
+        "ibc_info" : {
+            "path": "terra>injective",
+            "client" : {
+                "channel": "channel-104",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-91",
+                "port": "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce",
+                "chain": "terra",
+                "denom": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C20C0A822BD22B2CEF0D067400FCCFB6FAEEE9E91D360B4E0725BD522302D565",
+        "name" : "Oraichain",
+        "symbol": "ORAI",
+        "description": "Oraichain Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/orai.png",
+        "coinGeckoId": "oraichain-token",
+        "ibc_info" : {
+            "path": "oraichain>injective",
+            "client" : {
+                "channel": "channel-147",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-146",
+                "port": "transfer",
+                "chain": "oraichain",
+                "denom": "orai"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/92E0120F15D037353CFB73C14651FC8930ADC05B93100FD7754D3A689E53B333",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>injective",
+            "client" : {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-122",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D6E6A20ABDD600742D22464340A7701558027759CE14D12590F8EA869CCCF445",
+        "name" : "Whale",
+        "symbol": "WHALE",
+        "description": "Migaloo Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/whitewhale.png",
+        "coinGeckoId": "white-whale",
+        "ibc_info" : {
+            "path": "migaloo>injective",
+            "client" : {
+                "channel": "channel-102",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "uwhite"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/34346A60A95EB030D62D6F5BDD4B745BE18E8A693372A8A347D5D53DBBB1328B",
+        "name" : "Sommelier",
+        "symbol": "SOMM",
+        "description": "Sommelier Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sommelier/asset/somm.png",
+        "coinGeckoId": "sommelier",
+        "ibc_info" : {
+            "path": "sommelier>injective",
+            "client" : {
+                "channel": "channel-93",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "sommelier",
+                "denom": "usomm"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3A6DD3358D9F7ADD18CDE79BA10B400511A5DE4AE2C037D7C9639B52ADAF35C6",
+        "name" : "Crescent",
+        "symbol": "CRE",
+        "description": "Crescent Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crescent/asset/cre.png",
+        "coinGeckoId": "crescent-network",
+        "ibc_info" : {
+            "path": "crescent>injective",
+            "client" : {
+                "channel": "channel-90",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-23",
+                "port": "transfer",
+                "chain": "crescent",
+                "denom": "ucre"
+            },
+            "enable": false
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D91A2C4EE7CD86BBAFCE0FA44A60DDD9AFBB7EEB5B2D46C0984DEBCC6FEDFAE8",
+        "name" : "Canto",
+        "symbol": "CANTO",
+        "description": "Canto Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/canto/asset/canto.png",
+        "coinGeckoId": "canto",
+        "ibc_info" : {
+            "path": "canto>injective",
+            "client" : {
+                "channel": "channel-101",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-12",
+                "port": "transfer",
+                "chain": "canto",
+                "denom": "acanto"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F51BB221BAA275F2EBF654F70B005627D7E713AFFD6D86AFD1E43CAA886149F4",
+        "name" : "Celestia",
+        "symbol": "TIA",
+        "description": "Celestia Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
+        "coinGeckoId": "celestia",
+        "ibc_info" : {
+            "path": "celestia>injective",
+            "client" : {
+                "channel": "channel-152",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-7",
+                "port": "transfer",
+                "chain": "celestia",
+                "denom": "utia"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F8D4A8A44D8EF57F83D49624C4C89EECB1472D6D2D1242818CDABA6BC2479DA9",
+        "name" : "Cerberus",
+        "symbol": "CRBRUS",
+        "description": "Cerberus Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cerberus/asset/crbrus.png",
+        "coinGeckoId": "cerberus-2",
+        "ibc_info" : {
+            "path": "cerberus>osmosis>injective",
+            "client" : {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-122",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9A115B56E769B92621FFF90567E2D60EFD146E86E867491DB69EEDA9ADC36204",
+        "name" : "Kuji",
+        "symbol": "KUJI",
+        "description": "KUJI Staking Coin - Legacy",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kujira/asset/kuji.png",
+        "coinGeckoId": "kujira",
+        "ibc_info" : {
+            "path": "kujira>injective",
+            "client" : {
+                "channel": "channel-98",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-54",
+                "port": "transfer",
+                "chain": "kujira",
+                "denom": "ukuji"
+            },
+            "enable": false
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2CBC2EA121AE42563B08028466F37B600F2D7D4282342DE938283CC3FB2BC00E",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>injective",
+            "client" : {
+                "channel": "channel-148",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-31",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/61FA42C3F0B0F8768ED2CE380EDD3BE0E4CB7E67688F81F70DE9ECF5F8684E1E",
+        "name" : "Andromeda",
+        "symbol": "ANDR",
+        "description": "Andromeda Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png",
+        "coinGeckoId": "andromeda-2",
+        "ibc_info" : {
+            "path": "andromeda>injective",
+            "client" : {
+                "channel": "channel-213",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-13",
+                "port": "transfer",
+                "chain": "andromeda",
+                "denom": "uandr"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F3330C1B8BD1886FE9509B94C7B5398B892EA41420D2BC0B7C6A53CB8ED761D6",
+        "name" : "Pyth Network (Wormhole)",
+        "symbol": "PYTH.wh",
+        "description": "PYTH (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pyth.png",
+        "coinGeckoId": "pyth-network",
+        "ibc_info" : {
+            "path": "solana>gateway>injective",
+            "client" : {
+                "channel": "channel-183",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-13",
+                "port": "transfer",
+                "chain": "gateway",
+                "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/B8ohBnfisop27exk2gtNABJyYjLwQA7ogrp5uNzvZCoy"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A8B0B746B5AB736C2D8577259B510D56B8AF598008F68041E3D634BCDE72BE97",
+        "name" : "Wrapped SOL (Wormhole)",
+        "symbol": "SOL.wh",
+        "description": "Wrapped SOL (Wormhole)",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/solana.png",
+        "coinGeckoId": "solana",
+        "ibc_info" : {
+            "path": "solana>gateway>injective",
+            "client" : {
+                "channel": "channel-183",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-13",
+                "port": "transfer",
+                "chain": "gateway",
+                "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8CF0E4184CA3105798EDB18CAA3981ADB16A9951FE9B05C6D830C746202747E1",
+        "name" : "ARB (Wormhole)",
+        "symbol": "ARB.wh",
+        "description": "ARB (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arbitrum/asset/arb.png",
+        "coinGeckoId": "arbitrum",
+        "ibc_info" : {
+            "path": "arbitrum>gateway>injective",
+            "client" : {
+                "channel": "channel-183",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-13",
+                "port": "transfer",
+                "chain": "gateway",
+                "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/4jq5m8FR6W6nJygDj8NMMbB48mqX4LQHc3j5uEb9syDe"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4DEFEB42BAAB2788723759D95B7550BCE460855563ED977036248F5B94C842FC",
+        "name" : "Wrapped MATIC (Wormhole)",
+        "symbol": "WMATIC.wh",
+        "description": "Wrapped MATIC  (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/wmatic.png",
+        "coinGeckoId": "wmatic",
+        "ibc_info" : {
+            "path": "polygon>gateway>injective",
+            "client" : {
+                "channel": "channel-183",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-13",
+                "port": "transfer",
+                "chain": "gateway",
+                "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/4gn1J9pchUGh63ez1VwiuTmU4nfJ8Rr8o5HgBC5TMdMk"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1011E4D6D4800DA9B8F21D7C207C0B0C18E54E614A8576037F066B775210709D",
+        "name" : "Ninja Blaze Token",
+        "symbol": "NBZ",
+        "description": "Ninja Blaze Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/nbz.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "neutron>injective",
+            "client" : {
+                "channel": "channel-177",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-60",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/93EAE5F9D6C14BFAC8DD1AFDBE95501055A7B22C5D8FA8C986C31D6EFADCA8A9",
+        "name" : "Ondo US Dollar Yield",
+        "symbol": "USDY",
+        "description": "Ondo US Dollar Yield",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdy.png",
+        "coinGeckoId": "ondo-us-dollar-yield",
+        "ibc_info" : {
+            "path": "noble>injective",
+            "client" : {
+                "channel": "channel-148",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-31",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "ausdy"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xa47c8bf37f92aBed4A126BDA807A7b7498661acD",
+        "name" : "TerraUSD",
+        "symbol": "UST",
+        "description": "TerraUSD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ustc.png",
+        "coinGeckoId": "terrausd",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa47c8bf37f92abed4a126bda807a7b7498661acd"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d",
+        "name" : "Celsius",
+        "symbol": "CEL",
+        "description": "Celsius",
+        "decimals": 4,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/cel.png",
+        "coinGeckoId": "celsius-degree-token",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "name" : "Tether",
+        "symbol": "USDT",
+        "description": "Tether",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name" : "USD Coin",
+        "symbol": "USDClegacy",
+        "description": "USD Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xfa6de2697D59E88Ed7Fc4dFE5A33daC43565ea41",
+        "name" : "DEFI Top 5 Tokens Index",
+        "symbol": "DEFI5",
+        "description": "DEFI Top 5 Tokens Index",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/defi5.png",
+        "coinGeckoId": "",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xfa6de2697d59e88ed7fc4dfe5a33dac43565ea41"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c",
+        "name" : "Utrust",
+        "symbol": "UTK",
+        "description": "Utrust",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/utk.png",
+        "coinGeckoId": "utrust",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+        "name" : "Graph Token",
+        "symbol": "GRT",
+        "description": "Graph Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/grt.png",
+        "coinGeckoId": "the-graph",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc944e90c64b2c07662a292be6244bdf05cda44a7"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xc55c2175E90A46602fD42e931f62B3Acc1A013Ca",
+        "name" : "Mogul Productions",
+        "symbol": "STARS",
+        "description": "Mogul Productions",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/stars.png",
+        "coinGeckoId": "mogul-productions",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc55c2175e90a46602fd42e931f62b3acc1a013ca"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xaC9Bb427953aC7FDDC562ADcA86CF42D988047Fd",
+        "name" : "Scatter.cx",
+        "symbol": "STT",
+        "description": "Scatter.cx",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/stt.png",
+        "coinGeckoId": "",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xac9bb427953ac7fddc562adca86cf42d988047fd"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca",
+        "name" : "Syntropy",
+        "symbol": "NOIA",
+        "description": "Syntropy",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/noia.png",
+        "coinGeckoId": "noia-network",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+        "name" : "Enjin Coin",
+        "symbol": "ENJ",
+        "description": "Enjin Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/enj.png",
+        "coinGeckoId": "enjincoin",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+        "name" : "0x",
+        "symbol": "ZRX",
+        "description": "0x",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zrx.png",
+        "coinGeckoId": "0x",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xe41d2489571d322189246dafa5ebde1f4699f498"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xCC4304A31d09258b0029eA7FE63d032f52e44EFe",
+        "name" : "TrustSwap",
+        "symbol": "SWAP",
+        "description": "TrustSwap",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/swap.png",
+        "coinGeckoId": "trustswap",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xcc4304a31d09258b0029ea7fe63d032f52e44efe"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name" : "Wrapped Ethereum",
+        "symbol": "wETH",
+        "description": "Wrapped Ethereum",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        "name" : "Synthetix Network Token",
+        "symbol": "SNX",
+        "description": "Synthetix Network Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/snx.png",
+        "coinGeckoId": "havven",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b",
+        "name" : "Axie Infinity",
+        "symbol": "AXS",
+        "description": "Axie Infinity",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/axs.png",
+        "coinGeckoId": "axie-infinity",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+        "name" : "Nexo",
+        "symbol": "NEXO",
+        "description": "Nexo",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/nexo.png",
+        "coinGeckoId": "nexo",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xAaEf88cEa01475125522e117BFe45cF32044E238",
+        "name" : "GuildFi",
+        "symbol": "GF",
+        "description": "GuildFi",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/gf.png",
+        "coinGeckoId": "guildfi",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xaaef88cea01475125522e117bfe45cf32044e238"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+        "name" : "Ocean Protocol",
+        "symbol": "OCEAN",
+        "description": "Ocean Protocol",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ocean.png",
+        "coinGeckoId": "ocean-protocol",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+        "name" : "SHIBA INU",
+        "symbol": "SHIB",
+        "description": "SHIBA INU",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/shib.png",
+        "coinGeckoId": "shiba-inu",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "name" : "Aave",
+        "symbol": "AAVE",
+        "description": "Aave",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/aave.png",
+        "coinGeckoId": "aave",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        "name" : "Polygon",
+        "symbol": "MATIC",
+        "description": "Polygon",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/matic.png",
+        "coinGeckoId": "matic-network",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x6f259637dcD74C767781E37Bc6133cd6A68aa161",
+        "name" : "Huobi Token",
+        "symbol": "HT",
+        "description": "Huobi Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ht.png",
+        "coinGeckoId": "huobi-token",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6f259637dcd74c767781e37bc6133cd6a68aa161"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+        "name" : "SushiSwap",
+        "symbol": "SUSHI",
+        "description": "SushiSwap",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sushi.png",
+        "coinGeckoId": "sushi",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "name" : "Dai",
+        "symbol": "DAI",
+        "description": "Dai",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6b175474e89094c44da98b954eedeac495271d0f"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "name" : "Chainlink",
+        "symbol": "LINK",
+        "description": "Chainlink",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
+        "coinGeckoId": "chainlink",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x514910771af9ca656af840dff83e8264ecf986ca"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x50f09629d0afDF40398a3F317cc676cA9132055c",
+        "name" : "Evai.io",
+        "symbol": "EVAI",
+        "description": "Evai.io",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/evai.png",
+        "coinGeckoId": "evai",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x50f09629d0afdf40398a3f317cc676ca9132055c"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x4a220E6096B25EADb88358cb44068A3248254675",
+        "name" : "Quant",
+        "symbol": "QNT",
+        "description": "Quant",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/qnt.png",
+        "coinGeckoId": "quant-network",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4a220e6096b25eadb88358cb44068a3248254675"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+        "name" : "Binance USD",
+        "symbol": "BUSD",
+        "description": "Binance USD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/busd.png",
+        "coinGeckoId": "binance-usd",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4fabb145d64652a948d72533023f6e7a623c7c53"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
+        "name" : "Fantom",
+        "symbol": "FTM",
+        "description": "Fantom",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ftm.png",
+        "coinGeckoId": "fantom",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4e15361fd6b4bb609fa63c81a2be19d873717870"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+        "name" : "PAX Gold",
+        "symbol": "PAXG",
+        "description": "PAX Gold",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/paxg.png",
+        "coinGeckoId": "pax-gold",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x45804880de22913dafe09f4980848ece6ecbaf78"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
+        "name" : "Chiliz",
+        "symbol": "CHZ",
+        "description": "Chiliz",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/chz.png",
+        "coinGeckoId": "chiliz",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x3506424f91fd33084466f402d5d97f05f8e3b4af"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x3155BA85D5F96b2d030a4966AF206230e46849cb",
+        "name" : "THORChain (ERC20)",
+        "symbol": "RUNE",
+        "description": "THORChain (ERC20)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/chz.png",
+        "coinGeckoId": "thorchain-erc20",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x3155ba85d5f96b2d030a4966af206230e46849cb"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "name" : "Wrapped Bitcoin",
+        "symbol": "wBTC",
+        "description": "Wrapped Bitcoin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "name" : "Uniswap",
+        "symbol": "UNI",
+        "description": "Uniswap",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uni.png",
+        "coinGeckoId": "uniswap",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+        "name" : "UMA",
+        "symbol": "UMA",
+        "description": "UMA",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uma.png",
+        "coinGeckoId": "uma",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+        "name" : "Basic Attention Token",
+        "symbol": "BAT",
+        "description": "Basic Attention Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/bat.png",
+        "coinGeckoId": "basic-attention-token",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x0d8775f648430679a709e98d2b0cb6250d2887ef"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x0cEC1A9154Ff802e7934Fc916Ed7Ca50bDE6844e",
+        "name" : "PoolTogether",
+        "symbol": "POOL",
+        "description": "PoolTogether",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pool.png",
+        "coinGeckoId": "pooltogether",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x111111111117dC0aa78b770fA6A738034120C302",
+        "name" : "1inch",
+        "symbol": "1INCH",
+        "description": "1inch",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/1inch.png",
+        "coinGeckoId": "1inch",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x111111111117dc0aa78b770fa6a738034120c302"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x080B12E80C9b45e97C23b6ad10a16B3e2a123949",
+        "name" : "BurnX",
+        "symbol": "XBX",
+        "description": "BurnX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xbx.png",
+        "coinGeckoId": "",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x080b12e80c9b45e97c23b6ad10a16b3e2a123949"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x92D6C1e31e14520e676a687F0a93788B716BEff5",
+        "name" : "dYdX",
+        "symbol": "dYdX",
+        "description": "dYdX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dydx.png",
+        "coinGeckoId": "dydx",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x92D6C1e31e14520e676a687F0a93788B716BEff5"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+        "name" : "Ape Coin",
+        "symbol": "APE",
+        "description": "Ape Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ape.png",
+        "coinGeckoId": "apecoin",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4d224452801ACEd8B2F0aebE155379bb5D594381"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "name" : "Lido Staked ETH",
+        "symbol": "stETH",
+        "description": "Lido Staked ETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/steth.png",
+        "coinGeckoId": "staked-ether",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xc690F7C7FcfFA6a82b79faB7508c466FEfdfc8c5",
+        "name" : "Lympo",
+        "symbol": "LYM",
+        "description": "Lympo",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/lym.png",
+        "coinGeckoId": "lympo",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc690F7C7FcfFA6a82b79faB7508c466FEfdfc8c5"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e",
+        "name" : "ECOMI",
+        "symbol": "OMI",
+        "description": "ECOMI",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/omi.png",
+        "coinGeckoId": "ecomi",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xed35af169af46a02ee13b9d79eb57d6d68c1749e"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "name" : "Lido wstETH",
+        "symbol": "WSTETH",
+        "description": "Lido wstETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
+        "coinGeckoId": "wrapped-steth",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x3F07A84eCdf494310D397d24c1C78B041D2fa622",
+        "name" : "SteadyETH",
+        "symbol": "SteadyETH",
+        "description": "SteadyETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/steadyeth.png",
+        "coinGeckoId": "",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x3F07A84eCdf494310D397d24c1C78B041D2fa622"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x4986fD36b6b16f49b43282Ee2e24C5cF90ed166d",
+        "name" : "SteadyBTC",
+        "symbol": "SteadyBTC",
+        "description": "SteadyBTC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/steadybtc.png",
+        "coinGeckoId": "",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4986fD36b6b16f49b43282Ee2e24C5cF90ed166d"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x6b7f87279982d919Bbf85182DDeAB179B366D8f2",
+        "name" : "ETHBTC Trend",
+        "symbol": "ETHBTCTrend",
+        "description": "ETHBTC Trend",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ethbtctrend.png",
+        "coinGeckoId": "",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6b7f87279982d919Bbf85182DDeAB179B366D8f2"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xa670d7237398238DE01267472C6f13e5B8010FD1",
+        "name" : "Sommelier",
+        "symbol": "SOMM (Erc20)",
+        "description": "Sommelier",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sommelier/asset/somm.png",
+        "coinGeckoId": "sommelier",
+        "bridge_info" : {
+            "path": "sommelier>ethereum>injective",
+            "counterparty": {
+                "chain": "sommelier",
+                "contract": "0xa670d7237398238de01267472c6f13e5b8010fd1"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439",
+        "name" : "Moon App",
+        "symbol": "APP",
+        "description": "Moon App",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/app.png",
+        "coinGeckoId": "moon-app",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xb2617246d0c6c0087f18703d576831899ca94f01",
+        "name" : "ZigCoin",
+        "symbol": "ZIG",
+        "description": "ZigCoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zig.png",
+        "coinGeckoId": "zignaly",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x96F6eF951840721AdBF46Ac996b59E0235CB985C",
+        "name" : "Ondo US Dollar Yield",
+        "symbol": "USDYet",
+        "description": "Ondo US Dollar Yield",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdy.png",
+        "coinGeckoId": "ondo-us-dollar-yield",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x96f6ef951840721adbf46ac996b59e0235cb985c"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "name" : "Ethena USDe",
+        "symbol": "USDe",
+        "description": "Ethena USDe",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usde.png",
+        "coinGeckoId": "ethena-usde",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "peggy0xC08512927D12348F6620a698105e1BAac6EcD911",
+        "name" : "GMO JPY",
+        "symbol": "GYEN",
+        "description": "GMO JPY",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/gyen.png",
+        "coinGeckoId": "gyen",
+        "bridge_info" : {
+            "path": "ethereum>injective",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc08512927d12348f6620a698105e1baac6ecd911"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1q6zlut7gtkzknkk773jecujwsdkgq882akqksk",
+        "name" : "USD Coin (legacy)",
+        "symbol": "USDCet",
+        "description": "USD Coin (legacy)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin-wormhole-from-ethereum"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj12pwnhtv7yat2s30xuf4gdk9qm85v4j3e60dgvu",
+        "name" : "USD Coin",
+        "symbol": "USDCso",
+        "description": "USD Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1sthrn5ep8ls5vzz8f9gp89khhmedahhdkqa8z3",
+        "name" : "Solana (legacy)",
+        "symbol": "SOLlegacy",
+        "description": "Solana (legacy)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/sol.png",
+        "coinGeckoId": "solana"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1dxv423h8ygzgxmxnvrf33ws3k94aedfdevxd8h",
+        "name" : "Wrapped Matic (legacy)",
+        "symbol": "WMATIClegacy",
+        "description": "Wrapped Matic (legacy)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/wmatic.png",
+        "coinGeckoId": "wmatic"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1q6kpxy6ar5lkxqudjvryarrrttmakwsvzkvcyh",
+        "name" : "Chiliz (legacy)",
+        "symbol": "CHZlegacy",
+        "description": "Chiliz (legacy)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/chz.png",
+        "coinGeckoId": "chiliz"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1d5vz0uzwlpfvgwrwulxg6syy82axa58y4fuszd",
+        "name" : "Arbitrum (legacy)",
+        "symbol": "ARBlegacy",
+        "description": "Arbitrum (legacy)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arbitrum/asset/arb.png",
+        "coinGeckoId": "arbitrum"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1maeyvxfamtn8lfyxpjca8kuvauuf2qeu6gtxm3/Talis",
+        "name" : "talis-protocol",
+        "symbol": "TALIS",
+        "description": "talis-protocol",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/talis.png",
+        "coinGeckoId": "talis-protocol"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1tjcf9497fwmrnk22jfu5hsdq82qshga54ajvzy",
+        "name" : "Pyth Network (legacy)",
+        "symbol": "PYTHlegacy",
+        "description": "Pyth Network (legacy)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pyth.png",
+        "coinGeckoId": "pyth-network"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj172ccd0gddgz203e4pf86ype7zjx573tn8g0df9/GINGER",
+        "name" : "GINGER",
+        "symbol": "GINGER",
+        "description": "GINGER",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/ginger.png",
+        "coinGeckoId": "ginger"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+        "name" : "AUTISM",
+        "symbol": "AUTISM",
+        "description": "AUTISM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/autism.png",
+        "coinGeckoId": "autism"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1xy3kvlr4q4wdd6lrelsrw2fk2ged0any44hhwq/KIRA",
+        "name" : "KIRA",
+        "symbol": "KIRA",
+        "description": "KIRA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/kira.png",
+        "coinGeckoId": "kira-the-injective-cat"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
+        "name" : "Dog Wif Nunchucks",
+        "symbol": "NINJA",
+        "description": "Dog Wif Nunchucks",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/ninja.png",
+        "coinGeckoId": "dog-wif-nuchucks"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1vwn4x08hlactxj3y3kuqddafs2hhqzapruwt87/katana",
+        "name" : "Dog Wif Katana",
+        "symbol": "KATANA",
+        "description": "Dog Wif Katana",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/katana.png",
+        "coinGeckoId": "dogwifkatana"
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava",
+        "name" : "HAVA",
+        "symbol": "HAVA",
+        "description": "Hava Coin is the lifeblood of the Cosmos & Injective networks, rewarding builders and welcoming supporters. https://havacoin.xyz/",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/hava.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj127l5a2wmkyvucxdlupqyac3y0v6wqfhq03ka64/qunt",
+        "name" : "QUNT",
+        "symbol": "QUNT",
+        "description": "QUNT",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/qunt.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/hdro",
+        "name" : "Hydro",
+        "symbol": "HDRO",
+        "description": "Hydro",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/hdro.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1zdj9kqnknztl2xclm5ssv25yre09f8908d4923",
+        "name" : "Dojo Token",
+        "symbol": "DOJO",
+        "description": "Dojo Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/dojo.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ",
+        "name" : "BackBone Labs LST",
+        "symbol": "bINJ",
+        "description": "BackBone Labs LST",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/bINJ.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN",
+        "name" : "Galactic Syndicate",
+        "symbol": "SYN",
+        "description": "Galactic Syndicate",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/syn.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash",
+        "name" : "ashSYN",
+        "symbol": "ashSYN",
+        "description": "SYN burn derivative",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/syn.ash.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj178zy7myyxewek7ka7v9hru8ycpvfnen6xeps89/DRUGS",
+        "name" : "DRUGS",
+        "symbol": "DRUGS",
+        "description": "DRUGS",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/drugsoninj.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj17g4j3geupy762u0wrewqwprvtzar7k5et2zqsh/incel",
+        "name" : "InjectiveCelestiaNoFapLadyBoy420Inu",
+        "symbol": "INCEL",
+        "description": "INCEL",
+        "decimals": 6,
+        "image": "https://imagedelivery.net/lPzngbR8EltRfBOi_WYaXw/4aa87592-aa81-435e-d340-05354be7cb00/public",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj183lz632dna57ayuf6unqph5d0v2u655h2jzzyy/bamboo",
+        "name" : "Injective Panda",
+        "symbol": "BAMBOO",
+        "description": "Injective Panda",
+        "decimals": 6,
+        "image": "https://imagedelivery.net/lPzngbR8EltRfBOi_WYaXw/c69a42b1-04f2-405f-d7d4-72c3ea13fa00/public",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj188veuqed0dygkcmq5d24u3807n6csv4wdv28gh/wagmi",
+        "name" : "Wagmi Coin",
+        "symbol": "WAGMI",
+        "description": "Wagmi Coin",
+        "decimals": 6,
+        "image": "https://imagedelivery.net/lPzngbR8EltRfBOi_WYaXw/f001a7ca-9ca3-4fa8-45f1-85f3bd7e9800/public",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1898t0vtmul3tcn3t0v8qe3pat47ca937jkpezv/karate",
+        "name" : "Doge Wif Karate",
+        "symbol": "KARATE",
+        "description": "Doge Wif Karate",
+        "decimals": 6,
+        "image": "https://imagedelivery.net/lPzngbR8EltRfBOi_WYaXw/add7e69a-f62d-4d14-1e33-e266d8dd3200/public",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj104h3hchl7ws8lp78zpvrunvsjdwfjc02r5d0fp/injx",
+        "name" : "Injex Finance",
+        "symbol": "INJX",
+        "description": "Injex Finance",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/injx.png",
+        "coinGeckoId": "injex-finance"
+    }
+]

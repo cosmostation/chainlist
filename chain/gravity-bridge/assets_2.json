@@ -1,0 +1,437 @@
+[
+    {
+        "type": "native",
+        "denom": "ugraviton",
+        "name" : "Graviton",
+        "symbol": "GRAV",
+        "description": "Gravity Bridge Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/asset/grav.png",
+        "coinGeckoId": "graviton",
+        "color": "#0088C8"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/376222D6D9DAE23092E29740E56B758580935A6D77C24C2ABD57A6A78A1F3955",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>gravity-bridge",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-144",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2E5D0AC026AC1AFA65A23023BA4F24BB8DDF94F118EDC0BAD6F625BFC557CDED",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>gravity-bridge",
+            "client" : {
+                "channel": "channel-17",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-281",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0C273962C274B2C05B22D9474BFE5B84D6A6FCAD198CB9B0ACD35EA521A36606",
+        "name" : "NYM",
+        "symbol": "NYM",
+        "description": "NYM Token (NYM) is the Nym Network's native utility token, used as the primary means to incentivize mixnet node operators.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nyx/asset/nym.png",
+        "coinGeckoId": "nym",
+        "ibc_info" : {
+            "path": "nyx>gravity-bridge",
+            "client" : {
+                "channel": "channel-18",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "nyx",
+                "denom": "unym"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/048BE20AE2E6BFD4142C547E04F17E5F94363003A12B7B6C084E08101BFCF7D1",
+        "name" : "Chihuahua Chain",
+        "symbol": "HUAHUA",
+        "description": "Chihuahua Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/huahua.png",
+        "coinGeckoId": "chihuahua-token",
+        "ibc_info" : {
+            "path": "chihuahua>gravity-bridge",
+            "client" : {
+                "channel": "channel-34",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-15",
+                "port": "transfer",
+                "chain": "chihuahua",
+                "denom": "uhuahua"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5012B1C96F286E8A6604A87037CE51241C6F1CA195B71D1E261FCACB69FB6BC2",
+        "name" : "Cheq",
+        "symbol": "CHEQ",
+        "description": "Cheqd Staking Coin",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cheqd/asset/cheq.png",
+        "coinGeckoId": "cheqd-network",
+        "ibc_info" : {
+            "path": "cheqd>gravity-bridge",
+            "client" : {
+                "channel": "channel-43",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "cheqd",
+                "denom": "ncheq"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4F393C3FCA4190C0A6756CE7F6D897D5D1BE57D6CCB80D0BC87393566A7B6602",
+        "name" : "Stargaze",
+        "symbol": "STARS",
+        "description": "Stargaze Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
+        "coinGeckoId": "stargaze",
+        "ibc_info" : {
+            "path": "stargaze>gravity-bridge",
+            "client" : {
+                "channel": "channel-7",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-6",
+                "port": "transfer",
+                "chain": "stargaze",
+                "denom": "ustars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7907EA1A11FD4FC2A815FCAA54948C42F08E3F3C874EE48861386286FEB80160",
+        "name" : "Secret",
+        "symbol": "SCRT",
+        "description": "Secret Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
+        "coinGeckoId": "secret",
+        "ibc_info" : {
+            "path": "secret>gravity-bridge",
+            "client" : {
+                "channel": "channel-79",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-17",
+                "port": "transfer",
+                "chain": "secret",
+                "denom": "uscrt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D157AD8A50DAB0FC4EB95BBE1D9407A590FA2CDEE04C90A76C005089BF76E519",
+        "name" : "Unification",
+        "symbol": "FUND",
+        "description": "Unification Staking Coin",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/unification/asset/fund.png",
+        "coinGeckoId": "unification",
+        "ibc_info" : {
+            "path": "unification>gravity-bridge",
+            "client" : {
+                "channel": "channel-98",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "unification",
+                "denom": "nund"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "name" : "Wrapped Bitcoin (Ethereum to Gravity-Bridge)",
+        "symbol": "WBTC.grv",
+        "description": "Gravity Bridge WBTC",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "color": "#f39444",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "name" : "Wrapped Ethereum (Ethereum to Gravity-Bridge)",
+        "symbol": "WETH.grv",
+        "description": "Gravity Bridge WETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name" : "USD Coin (Ethereum to Gravity-Bridge)",
+        "symbol": "USDC.grv",
+        "description": "Gravity Bridge USDC",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "color": "#2775CA",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "name" : "Dai Stablecoin (Ethereum to Gravity-Bridge)",
+        "symbol": "DAI.grv",
+        "description": "Gravity Bridge DAI",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x6b175474e89094c44da98b954eedeac495271d0f"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "name" : "Uniswap (Ethereum to Gravity-Bridge)",
+        "symbol": "UNI.grv",
+        "description": "Gravity Bridge UNI",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uni.png",
+        "coinGeckoId": "uniswap",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+        "name" : "Paxos Gold (Ethereum to Gravity-Bridge)",
+        "symbol": "PAXG.grv",
+        "description": "Gravity Bridge Paxos Gold",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/paxg.png",
+        "coinGeckoId": "pax-gold",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x45804880de22913dafe09f4980848ece6ecbaf78"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
+        "name" : "Storj (Ethereum to Gravity-Bridge)",
+        "symbol": "STORJ.grv",
+        "description": "Gravity Bridge Storj",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/storj.png",
+        "coinGeckoId": "storj",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "name" : "Lido Staked Ether (Ethereum to Gravity-Bridge)",
+        "symbol": "STETH.grv",
+        "description": "Gravity Bridge Lido Staked Ether",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/steth.png",
+        "coinGeckoId": "staked-ether",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+        "name" : "pSTAKE Finance (Ethereum to Gravity-Bridge)",
+        "symbol": "PSTAKE.grv",
+        "description": "pSTAKE Finance is a Bitcoin Yield and Liquid Staking protocol, backed by Binance Labs.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pstake.png",
+        "coinGeckoId": "pstake-finance",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "name" : "Tether USD",
+        "symbol": "USDT.grv",
+        "description": "Gravity Bridge USDT.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0x2C5Bcad9Ade17428874855913Def0A02D8bE2324",
+        "name" : "Pstake Staked ETH",
+        "symbol": "stkETH.grv",
+        "description": "Gravity Bridge stkETH.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/stketh.png",
+        "coinGeckoId": "pstake-staked-eth",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x2C5Bcad9Ade17428874855913Def0A02D8bE2324"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0x30D20208d987713f46DFD34EF128Bb16C404D10f",
+        "name" : "Stader",
+        "symbol": "SD.grv",
+        "description": "Gravity Bridge SD.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sd.png",
+        "coinGeckoId": "stader",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x30D20208d987713f46DFD34EF128Bb16C404D10f"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+        "name" : "Page",
+        "symbol": "PAGE.grv",
+        "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/page.png",
+        "coinGeckoId": "page",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0x853d955aCEf822Db058eb8505911ED77F175b99e",
+        "name" : "Frax",
+        "symbol": "FRAX.grv",
+        "description": "Gravity Bridge Frax.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frax.png",
+        "coinGeckoId": "frax",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x853d955aCEf822Db058eb8505911ED77F175b99e"
+            }
+        }
+    }
+]

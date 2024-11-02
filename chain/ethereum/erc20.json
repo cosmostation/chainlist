@@ -2,28 +2,6 @@
   {
     "chainId": 1,
     "chainName": "ethereum",
-    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "symbol": "WETH",
-    "description": "WETH",
-    "decimals": 18,
-    "image": "ethereum/asset/weth.png",
-    "default": true,
-    "coinGeckoId":"weth"
-  },
-  {
-    "chainId": 1,
-    "chainName": "ethereum",
-    "address": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
-    "symbol": "DYDX",
-    "description": "DYDX Token",
-    "decimals": 18,
-    "image": "dydx/asset/dydx.png",
-    "default": true,
-    "coinGeckoId":"dydx"
-  },
-  {
-    "chainId": 1,
-    "chainName": "ethereum",
     "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
     "symbol": "USDT",
     "description": "Tether",
@@ -46,12 +24,67 @@
   {
     "chainId": 1,
     "chainName": "ethereum",
+    "address": "0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB",
+    "symbol": "ETHFI",
+    "description": "Ether.fi governance token",
+    "decimals": 18,
+    "image": "ethereum/asset/ethfi.png",
+    "default": true,
+    "coinGeckoId":"ether-fi"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+    "symbol": "eETH",
+    "description": "ether fi Staked ETH",
+    "decimals": 18,
+    "image": "ethereum/asset/eeth.png",
+    "default": true,
+    "coinGeckoId":"ether-fi-staked-eth"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+    "symbol": "weETH",
+    "description": "Wrapped eETH",
+    "decimals": 18,
+    "image": "ethereum/asset/weeth.png",
+    "default": true,
+    "coinGeckoId":"wrapped-eeth"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "symbol": "WETH",
+    "description": "WETH",
+    "decimals": 18,
+    "image": "ethereum/asset/weth.png",
+    "default": true,
+    "coinGeckoId":"weth"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
+    "symbol": "DYDX",
+    "description": "DYDX Token",
+    "decimals": 18,
+    "image": "dydx/asset/dydx.png",
+    "default": true,
+    "coinGeckoId":"dydx"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
     "address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
     "symbol": "BUSD",
     "description": "Binance USD",
     "decimals": 18,
     "image": "ethereum/asset/busd.png",
-    "default": true,
+    "default": false,
     "coinGeckoId":"binance-usd"
   },
   {
@@ -2470,7 +2503,7 @@
     "symbol": "LUNC",
     "description": "Wrapped LUNC Token",
     "decimals": 18,
-    "image": "ethereum/asset/lunc.png",
+    "image": "terra-classic/asset/lunc.png",
     "default": false,
     "coinGeckoId":"terra-luna"
   },
@@ -3078,5 +3111,71 @@
     "image": "ethereum/asset/yieldeth.png",
     "default": false,
     "coinGeckoId":"yieldeth-sommelier"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+    "symbol": "PSTAKE",
+    "description": "pSTAKE Finance",
+    "decimals": 18,
+    "image": "ethereum/asset/pstake.png",
+    "default": false,
+    "coinGeckoId":"pstake-finance"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0x8fac8031e079f409135766c7d5de29cf22ef897c",
+    "symbol": "HEART",
+    "description": "Humans.ai",
+    "decimals": 18,
+    "image": "humans/asset/humans.png",
+    "default": false,
+    "coinGeckoId":"humans-ai"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "symbol": "stETH",
+    "description": "Lido Staked Ether",
+    "decimals": 18,
+    "image": "ethereum/asset/steth.png",
+    "default": false,
+    "coinGeckoId":"staked-ether"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "symbol": "wstETH",
+    "description": "Wrapped stETH",
+    "decimals": 18,
+    "image": "ethereum/asset/wsteth.png",
+    "default": false,
+    "coinGeckoId":"wrapped-steth"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+    "symbol": "LDO",
+    "description": "Lido DAO",
+    "decimals": 18,
+    "image": "ethereum/asset/ldo.png",
+    "default": false,
+    "coinGeckoId":"lido-dao"
+  },
+  {
+    "chainId": 1,
+    "chainName": "ethereum",
+    "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+    "symbol": "rETH",
+    "description": "Rocket Pool ETH",
+    "decimals": 18,
+    "image": "ethereum/asset/reth.png",
+    "default": false,
+    "coinGeckoId":"rocket-pool-eth"
   }
 ]

@@ -1,0 +1,548 @@
+[
+    {
+        "type": "native",
+        "denom": "ujuno",
+        "name" : "Juno",
+        "symbol": "JUNO",
+        "description": "Juno Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+        "coinGeckoId": "juno-network",
+        "color": "#F0827D"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>juno",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-42",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/008BFD000A10BCE5F0D4DD819AE1C1EC2942396062DABDD6AE64A655ABC7085B",
+        "name" : "BitSong",
+        "symbol": "BTSG",
+        "description": "BitSong Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/asset/btsg.png",
+        "coinGeckoId": "bitsong",
+        "ibc_info" : {
+            "path": "bitsong>juno",
+            "client" : {
+                "channel": "channel-17",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "bitsong",
+                "denom": "ubtsg"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F6B367385300865F654E110976B838502504231705BAC0849B0651C226385885",
+        "name" : "Stargaze",
+        "symbol": "STARS",
+        "description": "Stargaze Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
+        "coinGeckoId": "stargaze",
+        "ibc_info" : {
+            "path": "stargaze>juno",
+            "client" : {
+                "channel": "channel-20",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "stargaze",
+                "denom": "ustars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D836B191CDAE8EDACDEBE7B64B504C5E06CC17C6A072DAF278F9A96DF66F6241",
+        "name" : "Chihuahua Chain",
+        "symbol": "HUAHUA",
+        "description": "Chihuahua Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/huahua.png",
+        "coinGeckoId": "chihuahua-token",
+        "ibc_info" : {
+            "path": "chihuahua>juno",
+            "client" : {
+                "channel": "channel-28",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "chihuahua",
+                "denom": "uhuahua"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6842C591DC4588411A565C9FF650FB15A17DFE3F0A43201E8141E4D14B8D171A",
+        "name" : "Dig Chain",
+        "symbol": "DIG",
+        "description": "Dig Chain Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dig-chain/asset/dig.png",
+        "coinGeckoId": "dig-chain",
+        "ibc_info" : {
+            "path": "dig-chain>juno",
+            "client" : {
+                "channel": "channel-37",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "dig-chain",
+                "denom": "udig"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7455B3F2F2737906BACF4AE980069A4CAB7C7F9FDAABAEFBA439DF037AEC5898",
+        "name" : "Persistence One",
+        "symbol": "XPRT",
+        "description": "Persistence Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/asset/xprt.png",
+        "coinGeckoId": "persistence",
+        "ibc_info" : {
+            "path": "persistence>juno",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-37",
+                "port": "transfer",
+                "chain": "persistence",
+                "denom": "uxprt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/946AD96F278770521526D7283F58268DA2F6ACDDE40324A9D1C86811D78C86A0",
+        "name" : "Comdex",
+        "symbol": "CMDX",
+        "description": "Comdex Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/asset/cmdx.png",
+        "coinGeckoId": "comdex",
+        "ibc_info" : {
+            "path": "comdex>juno",
+            "client" : {
+                "channel": "channel-36",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-18",
+                "port": "transfer",
+                "chain": "comdex",
+                "denom": "ucmdx"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DFC6F33796D5D0075C5FB54A4D7B8E76915ACF434CB1EE2A1BA0BB8334E17C3A",
+        "name" : "Akash Network",
+        "symbol": "AKT",
+        "description": "Akash Network Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
+        "coinGeckoId": "akash-network",
+        "ibc_info" : {
+            "path": "akash>juno",
+            "client" : {
+                "channel": "channel-29",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-35",
+                "port": "transfer",
+                "chain": "akash",
+                "denom": "uakt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>juno",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-207",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B55B08EF3667B0C6F029C2CC9CAA6B00788CF639EBB84B34818C85CBABA33ABD",
+        "name" : "Secret",
+        "symbol": "SCRT",
+        "description": "Secret Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
+        "coinGeckoId": "secret",
+        "ibc_info" : {
+            "path": "secret>juno",
+            "client" : {
+                "channel": "channel-48",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "secret",
+                "denom": "uscrt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EAC38D55372F38F1AFD68DF7FE9EF762DCF69F26520643CF3F9D292A738D8034",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>juno",
+            "client" : {
+                "channel": "channel-71",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-4",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/281FEE887CDF71EB9C1FEFC554822DCB06BE4E8A8BFF944ED64E3D03437E9384",
+        "name" : "Mars",
+        "symbol": "MARS.old",
+        "description": "Mars Protocol token (pre-migration)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mars-protocol/asset/mars-ibc.png",
+        "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
+        "ibc_info" : {
+            "path": "mars-protocol>juno",
+            "client" : {
+                "channel": "channel-209",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "mars-protocol",
+                "denom": "umars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/95A45A81521EAFDBEDAEEB6DA975C02E55B414C95AD3CE50709272366A90CA17",
+        "name" : "Wrapped Ether (Ethereum via Axelar)",
+        "symbol": "WETH.eth.axl",
+        "description": "Wrapped Ether on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "axlweth",
+        "ibc_info" : {
+            "path": "ethereum>axelar>juno",
+            "client" : {
+                "channel": "channel-71",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-4",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "weth-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3A6ADE78FB8169C034C29C4F2E1A61CE596EC8235366F22381D981A98F1F5A5C",
+        "name" : "Whale",
+        "symbol": "WHALE",
+        "description": "Migaloo Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/whitewhale.png",
+        "coinGeckoId": "white-whale",
+        "ibc_info" : {
+            "path": "migaloo>juno",
+            "client" : {
+                "channel": "channel-210",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "uwhale"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2F7C2A3D5D42553ED46F57D8B0DE3733B1B5FF571E2C6A051D34525904B4C0AF",
+        "name" : "ampWHALE",
+        "symbol": "ampWHALE",
+        "description": "ampWHALE",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/ampwhale.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "migaloo>juno",
+            "client" : {
+                "channel": "channel-210",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/01BAE2E69D02670B22758FBA74E4114B6E88FC1878936C919DA345E6C6C92ABF",
+        "name": "BackBone Labs Liquid Staked WHALE",
+        "symbol": "bWHALE",
+        "description": "BackBoneLabs Liquid Staked WHALE",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/bwhale.png",
+        "coinGeckoId": "backbone-labs-staked-whale",
+        "ibc_info" : {
+            "path": "migaloo>juno",
+            "client" : {
+                "channel": "channel-210",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F0C440C8040E2FCCAC621D32D3A00D9B347C989D52CE869A91CB34D07B0021D2",
+        "name": "RESTAKE",
+        "symbol": "RSTK",
+        "description": "Restake DAO Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "migaloo>juno",
+            "client" : {
+                "channel": "channel-210",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "factory/migaloo1d0uma9qzcts4fzt7ml39xp44aut5k6qyjfzz4asalnecppppr3rsl52vvv/rstk"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/AEC6690629B7EAF808D1A0B3EEF7C9B9229315F175FE8900AD5C4F7B6FD62E29",
+        "name" : "Lion Cub DAO",
+        "symbol": "CUB",
+        "description": "Lion Cub DAO is a useless meme community DAO on Terra.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/cub.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "terra>juno",
+            "client" : {
+                "channel": "channel-32",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-153",
+                "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+                "chain": "terra",
+                "denom": "cw20:terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/738D8F365F1CA9CA6B5851E77EEB878FC6FCC784EE687A10A933F0D1FAC960C0",
+        "name" : "BLUE CUB DAO",
+        "symbol": "BLUE",
+        "description": "BLUE CUB DAO is a community DAO on Terra.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/blue.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "terra>juno",
+            "client" : {
+                "channel": "channel-32",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-153",
+                "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+                "chain": "terra",
+                "denom": "cw20:terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1D9E14A1F00613ED39E4B8A8763A20C9BE5B5EA0198F2FE47EAE43CD91A0137B",
+        "name" : "Nois",
+        "symbol": "NOIS",
+        "description": "Nois Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nois/asset/nois.png",
+        "coinGeckoId": "nois",
+        "ibc_info" : {
+            "path": "nois>juno",
+            "client" : {
+                "channel": "channel-225",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "nois",
+                "denom": "unois"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4A482FA914A4B9B05801ED81C33713899F322B24F76A06F4B8FE872485EA22FF",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>juno",
+            "client" : {
+                "channel": "channel-224",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind",
+        "name" : "Wind Token",
+        "symbol": "WIND",
+        "description": "Wind Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/wind.png",
+        "coinGeckoId": "",
+        "color": "#122b4d"
+    },
+    {
+        "type": "native",
+        "denom": "factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA",
+        "name" : "Arena Token",
+        "symbol": "ARENA",
+        "description": "The token for the Arena DAO",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png",
+        "coinGeckoId": "",
+        "color": "#dc6c24"
+    },
+    {
+        "type": "native",
+        "denom": "factory/juno16uprl38e4ljj5ctuha9ehpvp2l93z3d5jmwj2cttt6jkhlrhscpqgglalk/wind.ash",
+        "name" : "ashWIND",
+        "symbol": "ashWIND",
+        "description": "ashWIND",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wind.ash.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/juno1u805lv20qc6jy7c3ttre7nct6uyl20pfky5r7e/DGL",
+        "name" : "Licorice",
+        "symbol": "DGL",
+        "description": "Licorice",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dgl.png",
+        "coinGeckoId": "dfe0e0"
+    },
+    {
+        "type": "native",
+        "denom": "factory/juno1qly4zcmzr2gyxtze5yt9chv2srczwwunppxjfh/NEXX",
+        "name" : "NEXX GEN AI",
+        "symbol": "NEXX",
+        "description": "NEXX GEN AI",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nexx.png",
+        "coinGeckoId": "040405"
+    }
+]

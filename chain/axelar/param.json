@@ -1,10 +1,28 @@
 {
+    "chain_id_cosmos" : "axelar-dojo-1",
+    "chain_name": "Axelar",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/resource/chain_axelar.png",
+    "symbol" : "AXL",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
+    "bechAccountPrefix" : "axelar",
+    "bechValidatorPrefix" : "axelarvaloper",
+    "name_for_dapp" : "AXELAR", 
+    "api_name" : "axelar",
+    "origin_genesis_time" : "2021-12-22T16:25:37Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.007uaxl",
             "0.05uaxl"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.3,
         "fee_threshold" : ""
@@ -15,8 +33,8 @@
             "url": "grpc-axelar.cosmostation.io:443"
         },
         {
-            "provider": "Qubelabs",
-            "url": "axelar-grpc.qubelabs.io:9092"
+            "provider": "Notional",
+            "url": "grpc-axelar-ia.cosmosia.notional.ventures:443"
         },
         {
             "provider": "Stakin",
@@ -25,18 +43,48 @@
         {
             "provider": "Notional",
             "url": "grpc-axelar-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "carbonZERO🌲",
-            "url": "grpc-axelar.carbonzero.zone:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-axelar.cosmostation.io/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://axelar-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://axelar-rest.staketab.org/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://axelar-api.w3coins.io/"
+        },
+        {
+            "provider": "Imperator.co",
+            "url": "https://lcd-axelar.imperator.co/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/axelar/",
+        "account": "https://www.mintscan.io/axelar/address/${address}",
+        "tx": "https://www.mintscan.io/axelar/tx/${hash}",
+        "proposal": "https://www.mintscan.io/axelar/proposals/${id}"
+    },
     "about" : {
         "website" : "https://axelar.network/",
-        "blog" : "https://axelar.network/blog",
+        "docs": "https://docs.axelar.dev",
         "github" : "https://github.com/axelarnetwork",
+        "blog" : "https://axelar.network/blog",
+        "medium": "https://axelar.network/blog",
         "twitter" : "https://twitter.com/axelarnetwork",
         "coingecko" : "https://www.coingecko.com/en/coins/axelar"
+    },
+     "forum": {
+      "main": "https://community.axelar.network"
     },
     "description" : {
         "ko" : "Axelar는 간단한 페깅 메커니즘으로 크로스 체인 통신을 가능하게 하는 분산형 멀티체인 네트워크입니다.",

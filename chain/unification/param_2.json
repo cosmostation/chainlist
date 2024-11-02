@@ -1,0 +1,73 @@
+{
+    "chain_id_cosmos" : "FUND-MainNet-2",
+    "chain_name": "Unification",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/unification/resource/chain_unification.png",
+    "main_asset_denom" : "nund",
+    "main_asset_symbol" : "FUND",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/unification/asset/fund.png",
+    "bech_account_prefix" : "und",
+    "bech_validator_prefix" : "undvaloper",
+    "origin_genesis_time" : "2020-05-14T09:33:07Z",
+    "api_name" : "unification",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/5555'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+		    "25.0nund",
+		    "100.0nund",
+		    "200.0nund"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Unification",
+            "url": "grpc.unification.io:443"
+        },
+        {
+            "provider": "Chainmasters",
+            "url": "grpc.unification.chainmasters.info:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Unification",
+            "url": "https://rest.unification.io/"
+        },
+        {
+            "provider": "Chainmasters",
+            "url": "https://rest.unification.chainmasters.ninja/"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/unification",
+        "account": "https://atomscan.com/unification/accounts/${address}",
+        "tx": "https://atomscan.com/unification/transactions/${hash}",
+        "proposal": "https://atomscan.com/unification/votes/${id}"
+    },
+    "about" : {
+		"website" : "https://unification.com/",
+        "docs": "https://unification.com/developers",
+        "github" : "https://github.com/unification-com",
+        "blog" : "https://medium.com/unificationfoundation",
+        "twitter" : "https://twitter.com/UnificationUND",
+        "coingecko" : "https://www.coingecko.com/en/coins/unification"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "기본적으로 Unification Blockchain Toolkit은 두 가지 핵심 분야로 구성됩니다. 기존 기업을 Web3 경제로 초대하는 Blockchain Business 제품과 Ethereum/EVM 네트워크에서 Dapps를 구동하고 풍부하게 하는 오픈 액세스 툴킷인 Permissionless Products입니다.",
+        "en" : "Fundamentally, the Unification Blockchain Toolkit comprises two core branches: Blockchain Business products, to welcome traditional enterprises into the Web3 economy; and Permissionless Products, an open-access toolkit to power and enrich Dapps on Ethereum/EVM networks",
+        "ja" : "基本的に、Unification Blockchain Toolkitは2つのコアブランチで構成されています。1つは、従来の企業をWeb3経済に迎え入れるためのBlockchain Business製品、もう1つは、Ethereum/EVMネットワーク上のDappsを強化して強化するためのオープンアクセスツールキットであるPermissionless Productsです。"
+    }
+}

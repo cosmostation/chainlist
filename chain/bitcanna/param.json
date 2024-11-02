@@ -1,9 +1,27 @@
 {
+    "chain_id_cosmos" : "bitcanna-1",
+    "chain_name": "Bitcanna",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcanna/resource/chain_bitcanna.png",
+    "symbol" : "BCNA",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcanna/asset/bcna.png",
+    "bechAccountPrefix" : "bcna",
+    "bechValidatorPrefix" : "bcnavaloper",
+    "name_for_dapp" : "BITCANNA", 
+    "api_name" : "bitcanna",
+    "origin_genesis_time" : "2021-09-30T12:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
             "0.025ubcna"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -26,16 +44,50 @@
             "url": "grpc-bitcanna.mms.team:443"
         },
         {
-            "provider": "Panthea EU",
-            "url": "bitcanna-grpc.panthea.eu:16710"
+            "provider": "AlxVoy ⚡ ANODE.TEAM",
+            "url": "bitcanna.grpc.m.anode.team:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-bitcanna.cosmostation.io/"
+        },
+        {
+            "provider": "bitcanna",
+            "url": "https://lcd.bitcanna.io/"
+        },
+        {
+            "provider": "Panthea EU",
+            "url": "https://bitcanna-api.panthea.eu/"
+        },
+        {
+            "provider": "SGTstake",
+            "url": "https://api.bitcanna.sgtstake.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://bitcanna.api.m.stavr.tech/"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/bitcanna",
+        "account": "https://atomscan.com/bitcanna/accounts/${address}",
+        "tx": "https://atomscan.com/bitcanna/transactions/${hash}",
+        "proposal": "https://atomscan.com/bitcanna/votes/${id}"
+    },
     "about" : {
         "website" : "https://www.bitcanna.io/",
-        "blog" : "https://medium.com/@BitCannaGlobal",
+        "docs": "https://docs.bitcanna.io",
         "github" : "https://github.com/BitCannaGlobal",
+        "blog" : "https://medium.com/@BitCannaGlobal",
+        "medium": "https://medium.com/@BitCannaGlobal",
         "twitter" : "https://twitter.com/BitcannaGlobal",
         "coingecko" : "https://www.coingecko.com/en/coins/bitcanna"
+    },
+     "forum": {
+      "main": "https://www.reddit.com/r/BitCanna"
     },
     "description" : {
         "ko" : "네덜란드를 중심으로 유렵 내 카나비스의 공급망과 거래용 화폐($BCNA)를 제공하는 Cosmos SDK 기반 탈중앙화 네트워크.",

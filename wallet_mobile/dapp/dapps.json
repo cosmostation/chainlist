@@ -1,0 +1,203 @@
+[
+  {
+    "title": "Osmosis",
+    "description": "Swap, provide, and earn on the leading decentralized AMM.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/osmosis.png",
+    "url": "https://app.osmosis.zone",
+    "chain": ["osmosis"],
+    "category": "Defi",
+    "tag": ["Dex"]
+  },
+  {
+    "title": "Astrovault",
+    "description": "DeFi, Sustainably.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/astrovault.png",
+    "url": "https://astrovault.io",
+    "chain": ["archway"],
+    "category": "DeFi",
+    "tag": ["Dex"]
+  },
+  {
+    "title": "Astroport",
+    "description": "Astroport Defi",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/astroport.png",
+    "url": "https://app.astroport.fi",
+    "chain": ["injective", "neutron"],
+    "category": "Defi",
+    "tag": ["Dex"]
+  },
+  {
+    "title": "Injective Hub",
+    "description": "Access Unlimited DeFi Markets",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/injective.png",
+    "url": "https://hub.injective.network",
+    "chain": ["injective"],
+    "category": "Dashboard",
+    "tag": ["Dashboard", "Wallet"]
+  },
+  {
+    "title": "Kava",
+    "description": "Swap, mint, lend and earn on Kava, a lightning-fast Layer-1 blockchain that combines Cosmos & Ethereum.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/kava.png",
+    "url": "https://app.kava.io",
+    "chain": ["kava"],
+    "category": "Defi",
+    "tag": ["Dex"]
+  },
+  {
+    "title": "Stargaze",
+    "description": "A Decentralized Community-owned NFT App Chain.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/stargaze.png",
+    "url": "https://app.stargaze.zone",
+    "chain": ["stargaze"],
+    "category": "NFT",
+    "tag": ["Marketplace", "NFT"]
+  },
+  {
+    "title": "Stride",
+    "description": "Stride is a blockchain that provides liquidity for staked tokens.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/stride.png",
+    "url": "https://app.stride.zone",
+    "chain": [
+      "stride",
+      "cosmos",
+      "juno",
+      "osmosis",
+      "injective",
+      "comdex",
+      "stargaze",
+      "evmos",
+      "sommelier",
+      "terra",
+      "umee"
+    ],
+    "category": "Defi",
+    "tag": ["Liquid Staking"]
+  },
+  {
+    "title": "PulsaraDAX",
+    "description": "Provide liquidity, swap and participate on governance on the first Decentralized Autonomous Exchange",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/pulsara.png",
+    "url": "https://dax.pulsara.io",
+    "chain": ["coreum"],
+    "category": "Defi",
+    "tag": ["DAX"]
+  },
+  {
+    "title": "pSTAKE",
+    "description": "Earn staking rewards on your Assets for securing PoS networks and participate in DeFi with stkAssets for additional yields.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/pstake.png",
+    "url": "https://app.pstake.finance/cosmos",
+    "chain": ["persistence"],
+    "category": "Defi",
+    "tag": ["Liquid Staking"]
+  },
+  {
+    "title": "DAODAO",
+    "description": "Simple, capable, and free DAO tooling.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/daodao.png",
+    "url": "https://daodao.zone/home",
+    "chain": ["juno"],
+    "category": "Social",
+    "tag": ["DAO"]
+  },
+  {
+    "title": "Coinhall",
+    "description": "Realtime Charts, DEX Aggregator & Analytics.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/coinhall.png",
+    "url": "https://coinhall.org",
+    "chain": ["juno", "osmosis"],
+    "category": "Defi",
+    "tag": ["AGG"]
+  },
+  {
+    "title": "Liker.Land: Writing NFT",
+    "description": "Publish as you write. Collect as you read.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/likerland.png",
+    "url": "https://liker.land",
+    "chain": ["likecoin"],
+    "category": "NFT",
+    "tag": ["SNS"]
+  },
+  {
+    "title": "depub.space",
+    "description": "An Web3 decentralized Twitter on Likecoin.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/depubspace.png",
+    "url": "https://depub.space",
+    "chain": ["likecoin"],
+    "category": "Social",
+    "tag": ["SNS"]
+  },
+  {
+    "title": "OmniFlix Market",
+    "description": "OmniFlix Market is the destination for NFT creators, communities & curators to list & collect NFTs in Fixed Price Listings or Timed Auctions in various IBC tokens.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/omniflix.png",
+    "url": "https://omniflix.market",
+    "chain": ["omniflix"],
+    "category": "NFT",
+    "tag": ["MarketPlace"]
+  },
+  {
+    "title": "Frontier OmniFlix Market",
+    "description": "Frontier is a Market UI on OmniFlix to bring you the latest features that might be tagged as features in testing and development.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/omniflix.png",
+    "url": "https://frontier.omniflix.market",
+    "chain": ["omniflix"],
+    "category": "NFT",
+    "tag": ["MarketPlace"]
+  },
+  {
+    "title": "Mars Protocol",
+    "description": "Lend, borrow and earn on the galaxy's most powerful credit protocol or enter the Fields of Mars for advanced DeFi strategies.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/mars.png",
+    "url": "https://v1.marsprotocol.io",
+    "chain": ["osmosis"],
+    "category": "Defi",
+    "tag": ["Money Market", "Farming"]
+  },
+  {
+    "title": "StreamSwap Protocol",
+    "description": "launchpad for community-driven token launches using time-based swaps",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/stream-swap.png",
+    "url": "https://app.streamswap.io",
+    "chain": ["osmosis"],
+    "category": "DeFi",
+    "tag": ["Interchain Launchpad"]
+  },
+  {
+    "title": "Dezswap",
+    "description": "Sassy Dez brought the no.1 DEX to the XPLA Chain. Dezswap helps your painless DeFi life!",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/dezswap.png",
+    "url": "https://app.dezswap.io",
+    "chain": ["xpla"],
+    "category": "DeFi",
+    "tag": ["Dex"]
+  },
+  {
+    "title": "STARFLEIT",
+    "description": "Powerful DEX with next-gen technologies on Fetch.ai",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/starfleit.png",
+    "url": "https://app.starfleit.io",
+    "chain": ["fetchai"],
+    "category": "DeFi",
+    "tag": ["Dex"]
+  },
+  {
+    "title": "Liquid Finance",
+    "description": "Non-custodial liquid staking protocol focused on unlocking liquidity within the archwayHQ ecosystem.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/liquid-finance.png",
+    "url": "https://liquidfinance.xyz",
+    "chain": ["archway"],
+    "category": "DeFi",
+    "tag": ["Liquid Staking"]
+  },
+  {
+    "title": "Ninja Blaze",
+    "description": "Ninja Blaze is a platform with several games on a blockchain, which revolutionizes the market and brings full transparency and honesty to the players.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/ninja-blaze.png",
+    "url": "https://app.blaze.ninja",
+    "chain": ["injective"],
+    "category": "Gaming",
+    "tag": ["GameFi"]
+  }
+]

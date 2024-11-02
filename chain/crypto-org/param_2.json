@@ -1,0 +1,77 @@
+{
+    "chain_id_cosmos" : "crypto-org-chain-mainnet-1",
+    "chain_name": "Cronos Pos",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crypto-org/resource/chain_crypto-org.png",
+    "main_asset_denom" : "basecro",
+    "main_asset_symbol" : "CRO",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crypto-org/asset/cro.png",
+    "bech_account_prefix" : "cro",
+    "bech_validator_prefix" : "crocncl",
+    "origin_genesis_time" : "2021-03-25T01:00:00Z",
+    "api_name" : "crypto-org",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/394'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.025basecro",
+            "0.05basecro",
+            "0.075basecro"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-crypto-org.cosmostation.io:443"
+        },
+        {
+            "provider": "crypto.org",
+            "url": "grpc.mainnet.crypto.org:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-crypto-org.cosmostation.io/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://cryptocom-api.polkachu.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/crypto-org/",
+        "account": "https://www.mintscan.io/crypto-org/address/${address}",
+        "tx": "https://www.mintscan.io/crypto-org/tx/${hash}",
+        "proposal": "https://www.mintscan.io/crypto-org/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://cronos-pos.org/",
+        "docs": "https://docs.cronos-pos.org",
+        "github" : "https://github.com/crypto-org-chain",
+        "blog" : "https://medium.com/crypto-org-chain",
+        "medium": "https://medium.com/@crypto.org",
+        "twitter" : "https://twitter.com/cryptocom",
+        "coingecko" : "https://www.coingecko.com/en/coins/cronos"
+    },
+    "forum": {
+      "main": "https://github.com/crypto-org-chain/chain-main/discussions",
+      "governance": "https://github.com/crypto-org-chain/chain-main/discussions/categories/ideas"
+    },
+    "description" : {
+        "ko" : "Cronos POS 는 암호화폐 결제 분야의 미래를 주도하는 퍼블릭 블록체인입니다.",
+        "en" : "Cronos PoS Chain is a public blockchain that empowers the future of payments in cryptocurrency",
+        "ja" : "Cronos PoS Chainは、暗号通貨の支払いの未来を実現する公開ブロックチェーンです。"
+    }
+}

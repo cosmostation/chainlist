@@ -1,0 +1,112 @@
+[
+    {
+        "type": "native",
+        "denom": "uwhale",
+        "name" : "Whale",
+        "symbol": "WHALE",
+        "description": "Migaloo Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/whitewhale.png",
+        "coinGeckoId": "white-whale"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/84B8C4F1FE15019DBD937B5670905B6280BB7C0D031E9F4D9F50E33386D3CAE6",
+        "name" : "Lion Cub DAO",
+        "symbol": "CUB",
+        "description": "Lion Cub DAO is a useless meme community DAO on Terra.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/cub.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "terra>migaloo",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-87",
+                "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+                "chain": "terra",
+                "denom": "cw20:terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E224A26BBDD3FBBB461CBFC40EDC74BAA9606C667371F428F147A8D6C98C28D6",
+        "name" : "BLUE CUB DAO",
+        "symbol": "BLUE",
+        "description": "BLUE CUB DAO is a community DAO on Terra.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/blue.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "terra>migaloo",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-87",
+                "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+                "chain": "terra",
+                "denom": "cw20:terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac",
+        "name": "Racoon",
+        "symbol": "RAC",
+        "description": "RAC",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/rac.png",
+        "coinGeckoId": "",
+        "color": "#2b2434"
+    },
+    {
+        "type": "native",
+        "denom": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH",
+        "name": "ampGASH",
+        "symbol": "ampGASH",
+        "description": "ERIS Liquid Alliance Staked GASH",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/ampGASH.png",
+        "coinGeckoId": "",
+        "color": "#374455"
+    },
+    {
+        "type": "native",
+        "denom": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale",
+        "name": "BackBone Labs Liquid Staked WHALE",
+        "symbol": "bWHALE",
+        "description": "BackBoneLabs Liquid Staked WHALE",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/bwhale.png",
+        "coinGeckoId": "backbone-labs-staked-whale",
+        "color": "#d8d8d8"
+    },
+    {
+        "type": "native",
+        "denom": "factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE",
+        "name": "ampWHALE",
+        "symbol": "ampWHALE",
+        "description": "ampWHALE",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/ampwhale.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/migaloo1d0uma9qzcts4fzt7ml39xp44aut5k6qyjfzz4asalnecppppr3rsl52vvv/rstk",
+        "name": "RESTAKE",
+        "symbol": "RSTK",
+        "description": "Restake DAO Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.png",
+        "coinGeckoId": "",
+        "color": "#3ccc64"
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xdF54B6c6195EA4d948D03bfD818D365cf175cFC2",
+        "name" : "OKB (KIP20)",
+        "symbol": "OKB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/okb.png",
+        "coinGeckoId": "okb",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8F8526dbfd6E38E3D8307702cA8469Bae6C56C15",
+        "name" : "Wrapped OKT (KIP20)",
+        "symbol": "WOKT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/wokt.png",
+        "coinGeckoId": "wrapped-okt"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x382bB369d343125BfB2117af9c149795C6C65C50",
+        "name" : "Tether (KIP20)",
+        "symbol": "USDT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc946DAf81b08146B1C7A8Da2A851Ddf2B3EAaf85",
+        "name" : "USD Coin (KIP20)",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x54e4622DC504176b3BB432dCCAf504569699a7fF",
+        "name" : "OEC BTC (KIP20)",
+        "symbol": "BTCK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/btck.png",
+        "coinGeckoId": "oec-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEF71CA2EE68F45B9Ad6F72fbdb33d707b872315C",
+        "name" : "ETHK (KIP20)",
+        "symbol": "ETHK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/ethk.png",
+        "coinGeckoId": "oec-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x21cDE7E32a6CAF4742d00d44B07279e7596d26B9",
+        "name" : "DAIK (KIP20)",
+        "symbol": "DAIK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/daik.png",
+        "coinGeckoId": "oec-dai"
+    }
+]

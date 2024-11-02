@@ -1,0 +1,215 @@
+[
+    {
+        "type": "cw20",
+        "contract": "archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n",
+        "name" : "Astrovault AXV",
+        "symbol": "AXV",
+        "description": "Astrovault AXV",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/axv.png",
+        "coinGeckoId": "astrovault",
+        "color": "#141434",
+        "wallet_preload": true
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1t2llqsvwwunf98v692nqd5juudcmmlu3zk55utx7xtfvznel030saclvq6",
+        "name" : "sARCH",
+        "symbol": "sARCH",
+        "description": "Liquid Finance Staked ARCH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/sarch.png",
+        "coinGeckoId": "liquid-finance-arch",
+        "wallet_preload": true
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1cutfh7m87cyq5qgqqw49f289qha7vhsg6wtr6rl5fvm28ulnl9ssg0vk0n",
+        "name" : "Astrovault xARCH",
+        "symbol": "xARCH",
+        "description": "Astrovault xARCH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xarch.png",
+        "coinGeckoId": "astrovault-xarch"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1m273xq2fjmn993jm4kft5c49w2c70yfv5zypt3d92cqp4n5faefqqkuf0l",
+        "name" : "Astrovault xATOM",
+        "symbol": "xATOM",
+        "description": "Astrovault xATOM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xatom.png",
+        "coinGeckoId": "astrovault-xatom"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1yjdgfut7jkq5xwzyp6p5hs7hdkmszn34zkhun6mglu3falq3yh8sdkaj7j",
+        "name" : "Astrovault xJKL",
+        "symbol": "xJKL",
+        "description": "Astrovault xJKL",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xjkl.png",
+        "coinGeckoId": "astrovault-xjkl"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1veyq07az0d7mlp49sa9f9ef56w0dd240vjsy76yv0m4pl5a2x2uq698cs7",
+        "name" : "Astrovault xDEC",
+        "symbol": "xDEC",
+        "description": "Astrovault xDEC",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xdec.png",
+        "coinGeckoId": "xdec-astrovault"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1mast3w89sn8gtmvdhr6gfemu4jdx60563fajs5ucsc7s7e9jv00q7qw0hu",
+        "name" : "Astrovault xBCNA",
+        "symbol": "xBCNA",
+        "description": "Astrovault xBCNA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xbcna.png",
+        "coinGeckoId": "xbcna_astrovault"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1asgu5g79cdjcdd40lgefplszehykpwzcunx30ca4456a4tddmwcsrmtvx8",
+        "name" : "Astrovault xFLIX",
+        "symbol": "xFLIX",
+        "description": "Astrovault xFLIX",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xflix.png",
+        "coinGeckoId": "xflix_astrovault"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway14fzmzu2apcdzwx9dspyk0yjmxwwnpmxh7zlezh5ywe4l0pky39ysgzd9gg",
+        "name" : "Astrovault xCMDX",
+        "symbol": "xCMDX",
+        "description": "Astrovault xCMDX",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xcmdx.png",
+        "coinGeckoId": "xcmdx_astrovault"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1zfnzv39cp4dv3jjy0aptn5msc02tjmy602l46u90dt729q80939qjgqcdj",
+        "name" : "Astrovault xGRAV",
+        "symbol": "xGRAV",
+        "description": "Astrovault xGRAV",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xgrav.png",
+        "coinGeckoId": "xgrav_astrovault"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1yv8uhe795xs4fwz6mjm278yr35ps0yagjchfp39q5x49dty9jgssm5tnkv",
+        "name" : "Astrovault xBLD",
+        "symbol": "xBLD",
+        "description": "Astrovault xBLD",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xbld.png",
+        "coinGeckoId": "xbld_astrovault"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1l3m84nf7xagkdrcced2y0g367xphnea5uqc3mww3f83eh6h38nqqxnsxz7",
+        "name" : "Astrovault bnUSD",
+        "symbol": "bnUSD",
+        "description": "Balanced Dollar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/bnusd.png",
+        "coinGeckoId": "balanced-dollars"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1ndrruk2atj4yrcqsnypthvnexjv6erpwtczqlfp8d97zsv8k6wgqjmw4gt",
+        "name" : "Astrovault xQWOYN",
+        "symbol": "xQWOYN",
+        "description": "Astrovault xQWOYN",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xqwoyn.png",
+        "coinGeckoId": "xqwoyn_astrovault"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1tl8l2gt9dncdu6huds39dsg366ctllvtnm078qkkad2mnv28erss98tl2n",
+        "name" : "Astrovault xAKT",
+        "symbol": "xAKT",
+        "description": "Astrovault xAKT",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xakt.png",
+        "coinGeckoId": "xakt_astrovault"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1wh099rqeeq8x62kv3w3m7x40p2r5sjtkk25364jwtlunzmxmmyhsh9nwl0",
+        "name" : "Astrovault xVDL",
+        "symbol": "xVDL",
+        "description": "Astrovault xVDL",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xvdl.png",
+        "coinGeckoId": "xvdl_astrovault"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1qfkn8ezkf5jqvchfs2jp3lukul7l79a4jg56upgkvu464805g78q6flwrx",
+        "name" : "Astrovault xCUDOS",
+        "symbol": "xCUDOS",
+        "description": "Astrovault xCUDOS",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xcudos.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1tvrrctwllg8aalc4ruk6a4zxtel8ff7ggxljvu6ffj3wpm2zp8kqyecxpr",
+        "name" : "Astrovault xMPWR",
+        "symbol": "xMPWR",
+        "description": "Astrovault xMPWR",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xmpwr.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1h7vfp6hjjluw8n6m2v4tkfdw3getkwqldu59xghltdskt3rh6shqczumjc",
+        "name" : "Astrovault xPLQ",
+        "symbol": "xPLQ",
+        "description": "Astrovault xPLQ",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/xplq.png",
+        "coinGeckoId": "xplq_astrovault"
+    },
+    {
+        "type": "cw20",
+        "contract": "archway1fwurjg7ah4v7hhs6xsc3wutqpvmahrfhns285s0lt34tgfdhplxq6m8xg5",
+        "name" : "Astrovault ampARCH",
+        "symbol": "ampARCH",
+        "description": "Eris Amplified ARCH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/amparch.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "archway12yurzx8zynv3ck7uh4tucre48tqsm4fac4hfk9p3l24qs2cn08dqr684cg",
+        "name" : "BackBoneLabs Liquid Staked Arch",
+        "symbol": "bARCH",
+        "description": "BackBoneLabs Liquid Staked Arch",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/barch.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "archway16kxu278xtwa9ql20yhgk9smk2k6ke74hsxeesf36c9dhxqc5zyksh8ykwu",
+        "name" : "Architects Token",
+        "symbol": "TOKN",
+        "description": "Architects Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/tokn.png",
+        "coinGeckoId": ""
+    }
+]

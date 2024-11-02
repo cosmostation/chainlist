@@ -395,5 +395,39 @@
     "image": "evmos/asset/neok.png",
     "contract": "0x655ecB57432CC1370f65e5dc2309588b71b473A9",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "erc20/0x1cFc8f1FE8D5668BAFF2724547EcDbd6f013a280",
+    "type": "native",
+    "origin_chain": "evmos",
+    "origin_denom": "neok",
+    "origin_type": "erc20",
+    "symbol": "BERLIN",
+    "description": "Teledisko DAO",
+    "decimals": 18,
+    "enable": true,
+    "image": "evmos/asset/berlin.png",
+    "contract": "0x1cFc8f1FE8D5668BAFF2724547EcDbd6f013a280",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/35357FE55D81D88054E135529BB2AEB1BB20D207292775A19BD82D83F27BE9B4",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>evmos",
+    "channel": "channel-64",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-7",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
   }
 ]

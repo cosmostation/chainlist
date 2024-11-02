@@ -1,0 +1,35 @@
+{
+    "chain_name": "Cerberus",
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0ucrbrus"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "address": "grpc-cerberus-ia.cosmosia.notional.ventures:443",
+            "provider": "Notional"
+        },
+        {
+            "address": "cerberus-grpc.polkachu.com:13890",
+            "provider": "Polkachu"
+        }
+    ],
+    "about" : {
+        "webSite": "https://www.cerberus.zone",
+        "docs": "https://docs.cerberus.zone/running-a-validator.html",
+        "github": "https://github.com/cerberus-zone?tab=repositories",
+        "medium": "https://medium.com/cerberus-zone/cerberus-crbrus-airdrop-coming-to-the-cosmos-network-9911c780dcdd",
+        "twitter": "https://twitter.com/CerberusZone",
+        "coingecko" : "https://www.coingecko.com/en/coins/cerberus"
+    },
+    "description" : {
+        "ko" : "지옥의 파수꾼 케르베로스를 모티브로 만들어진 코스모스 생태계 밈 코인입니다.",
+        "en" : "Cerberus is a community-led tri-headed dog meme coin in Cosmos ecosystem.",
+        "ja" : "地獄の見張人ケルベロスをモチーブにして作られたコスモス生態系ミームコインです。"
+    }
+}

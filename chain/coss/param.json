@@ -1,4 +1,5 @@
 {
+    "chain_name": "Coss",
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -20,7 +21,6 @@
     ],
     "about" : {
         "website" : "https://coss.ink",
-        "blog" : "",
         "github" : "https://github.com/coss-inscription",
         "twitter" : "https://twitter.com/coss_market",
         "coingecko" : ""

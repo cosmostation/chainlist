@@ -1,0 +1,22 @@
+[
+    {
+        "type": "cw20",
+        "contract": "ki19stkp42g90j77c2wpmux0z6qr7y8zfh5p3zph7lh9k9u25mmfvnscx5tnu",
+        "name" : "Treasury-backed private debt",
+        "symbol": "KUSD",
+        "description": "Treasury-backed private debt",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ki-chain/asset/kusd.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "ki1f9wtn4yp55ngjn3lnalnm323jt5dju63z4dwku8yrqvnaj02t6zse4zp8w",
+        "name" : "Cosmos Core",
+        "symbol": "COSC",
+        "description": "Cosmos Core",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ki-chain/asset/cosc.png",
+        "coinGeckoId": ""
+    }
+]

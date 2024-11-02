@@ -1,0 +1,421 @@
+[
+    {
+        "type": "native",
+        "denom": "usei",
+        "name" : "Sei",
+        "symbol": "SEI",
+        "description": "Sei Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/sei.png",
+        "coinGeckoId": "sei-network",
+        "color": "#BA364D"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>sei",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-782",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6CDD4663F2F09CD62285E2D45891FC149A3568E316CE3EBBE201A71A78A69388",
+        "name" : "Atom",
+        "symbol": "ATOM (Osmosis)",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>osmosis>sei",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-782",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>sei",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-584",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "axlUSDC",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>sei",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-103",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/4tLQqCLaoKKfNFuPjA9o39YbKUwhR1F8N29Tz3hEbfP2",
+        "name" : "Wrapped Ethereum",
+        "symbol": "WETH",
+        "description": "Wrapped Ether from Ethereum (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/Hq4tuDzhRBnxw3tFA5n6M52NVMVcC19XggbyDiJKCD6H",
+        "name" : "Wrapped Ethereum",
+        "symbol": "USDCet",
+        "description": "Wrapped USDC from Ethereum (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin-wormhole-from-ethereum",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/HktfLoADCk9mnjv7XJiN4YXK9ayE6xinLzt8wzcsR2rY",
+        "name" : "Wrapped Ethereum",
+        "symbol": "USDTet",
+        "description": "Wrapped Tether USD from Ethereum (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether-usd-wormhole-from-ethereum",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7omXa4gryZ5NiBmLep7JsTtTtANCVKXwT9vbN91aS1br",
+        "name" : "Wrapped Ethereum",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin from Ethereum (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-btc-wormhole",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/7edDfnf4mku8So3t4Do215GNHwASEwCWrdhM5GqD51xZ",
+        "name" : "Wrapped Arbitrum",
+        "symbol": "USDCar",
+        "description": "Wrapped USDC from Arbitrum (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin-wormhole-arb",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9hJDBDaxqQQhF5HhaPUykeLncBa38XQ5uoNxN3tPQu5r",
+        "name" : "Wrapped Arbitrum",
+        "symbol": "WETHar",
+        "description": "Wrapped Ether from Arbitrum (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/DUVFMY2neJdL8aE4d3stcpttDDm5aoyfGyVvm29iA9Yp",
+        "name" : "Wrapped Polygon",
+        "symbol": "USDCpo",
+        "description": "Wrapped USDC from Polygon (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin-pos-wormhole",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3VKKYtbQ9iq8f9CaZfgR6Cr3TUj6ypXPAn6kco6wjcAu",
+        "name" : "Wrapped Optimism",
+        "symbol": "USDCop",
+        "description": "Wrapped USDC from Optimism (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9fELvUhFo6yWL34ZaLgPbCPzdk9MD1tAzMycgH45qShH",
+        "name" : "Wrapped Solana",
+        "symbol": "USDCso",
+        "description": "Wrapped USDC from Solana (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/3Ri4N719RQfQaudHiB9CMCYACtK3aieoz1q1Ph24VdAb",
+        "name" : "Wrapped BSC",
+        "symbol": "USDCbs",
+        "description": "Wrapped USDC from BSC (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/9tTHn18vLnfyBvrQaia6N15zwrfRCAebZDshoPZ39ahN",
+        "name" : "Wrapped BSC",
+        "symbol": "WETHbs",
+        "description": "Wrapped Ether from BSC (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/871jbn9unTavWsAe83f2Ma9GJWSv6BKsyWYLiQ6z3Pva",
+        "name" : "Binance-Peg BSC-USD",
+        "symbol": "USDTbs",
+        "description": "Binance-Peg BSC-USD from BSC (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "bridge_info" : {
+            "path": "ethereum>sei",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/71CEEB5CC09F75A3ACDC417108C14514351B6B2A540ACE9B37A80BF930845134",
+        "name" : "Cerberus",
+        "symbol": "CRBRUS",
+        "description": "Cerberus Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cerberus/asset/crbrus.png",
+        "coinGeckoId": "cerberus-2",
+        "ibc_info" : {
+            "path": "cerberus>osmosis>sei",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-782",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6C00E4AA0CC7618370F81F7378638AE6C48EFF8C9203CE1C2357012B440EBDB7",
+        "name" : "Tether",
+        "symbol": "USDt.kava",
+        "description": "Tether USDt",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "ibc_info" : {
+            "path": "kava>sei",
+            "client" : {
+                "channel": "channel-18",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-132",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "erc20/tether/usdt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/CA6FBFAF399474A06263E10D0CE5AEBBE15189D6D4B2DD9ADE61007E68EB9DB0",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>sei",
+            "client" : {
+                "channel": "channel-45",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-39",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/sei1thgp6wamxwqt7rthfkeehktmq0ujh5kspluw6w/OIN",
+        "name" : "OIN STORE OF VALUE",
+        "symbol": "OIN",
+        "description": "OIN Token ($OIN) is a groundbreaking digital asset developed on the $SEI Blockchain. It transcends being merely a cryptocurrency; $OIN stands as a robust store of value, symbolizing the future of decentralized finance and its potential to reshape the crypto landscape.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oin.png",
+        "coinGeckoId": "",
+        "color": "#6cdbac"
+    },
+    {
+        "type": "native",
+        "denom": "factory/sei1x2fgaaqecvk8kwuqkjqcj27clw5p5g99uawdzy9sc4rku8avumcq3cky4k/ampSEI",
+        "name" : "ERIS Amplified SEI",
+        "symbol": "ampSEI",
+        "description": "ERIS liquid staked SEI.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/ampsei.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye",
+        "name" : "Popeye",
+        "symbol": "POPEYE",
+        "description": "Popeye the Seilor.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png",
+        "coinGeckoId": "",
+        "color": "#04040a"
+    },
+    {
+        "type": "native",
+        "denom": "factory/sei1ta5rkr6y2qlkj7px8w2cvear7m2822q4f4ea0m/sensei",
+        "name" : "Sensei Dog",
+        "symbol": "SENSEI",
+        "description": "A wise dog and a marshal arts master.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png",
+        "coinGeckoId": "",
+        "color": "#d4d0c7"
+    }
+]

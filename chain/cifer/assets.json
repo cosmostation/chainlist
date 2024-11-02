@@ -1,0 +1,34 @@
+[
+  {
+    "denom": "ucif",
+    "type": "staking",
+    "origin_chain": "cifer",
+    "origin_denom": "ucif",
+    "origin_type": "staking",
+    "symbol": "CIF",
+    "decimals": 6,
+    "description": "CIF Token for Cifer chain",
+    "image": "cifer/asset/cif.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/C7DE16F5065C5568C2A16C241069D76DA93F056172A40391EB682444AF40F048",
+    "type": "ibc",
+    "origin_chain": "cifer",
+    "origin_denom": "ucif",
+    "origin_type": "staking",
+    "symbol": "CIF",
+    "decimals": 6,
+    "enable": true,
+    "path": "cifer>cosmos",
+    "channel": "channel-831",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-0",
+      "port": "transfer",
+      "denom": "ucif"
+    },
+    "image": "cifer/asset/cif.png",
+    "coinGeckoId": ""
+  }
+]

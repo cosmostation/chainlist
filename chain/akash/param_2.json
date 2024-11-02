@@ -1,0 +1,96 @@
+{
+    "chain_id_cosmos" : "akashnet-2",
+    "chain_name": "Akash",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/resource/chain_akash.png",
+    "main_asset_denom" : "uakt",
+    "main_asset_symbol" : "AKT",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
+    "bech_account_prefix" : "akash",
+    "bech_validator_prefix" : "akashvaloper",
+    "origin_genesis_time" : "2020-09-25T14:00:00Z",
+    "api_name" : "akash",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0025uakt",
+            "0.025uakt"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-akash.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-akash-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "akash-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-akash.cosmostation.io/"
+        },
+        {
+            "provider": "forbole",
+            "url": "https://api.akash.forbole.com/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-akash.ecostake.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes",
+            "url": "https://akash-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://akash-api.polkachu.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-akash.cosmos-spaces.cloud/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/akash/",
+        "account": "https://www.mintscan.io/akash/address/${address}",
+        "tx": "https://www.mintscan.io/akash/tx/${hash}",
+        "proposal": "https://www.mintscan.io/akash/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://akash.network/",
+        "docs": "https://docs.akash.network",
+        "github" : "https://github.com/akash-network",
+        "blog" : "https://akash.network/blog/",
+        "medium": "https://akash.network/blog",
+        "twitter" : "https://twitter.com/akashnet_",
+        "coingecko" : "https://www.coingecko.com/en/coins/akash-network"
+    },
+    "forum": {
+        "main": "https://forum.akash.network",
+        "governance": "https://forum.akash.network/c/proposal"
+    },
+    "description" : {
+        "ko" : "Akash Network는 사용자가 컴퓨팅 리소스를 안전하고 효율적으로 사고 팔 수 있도록 해주는 오픈 소스 슈퍼 클라우드입니다.",
+        "en" : "Akash Network is an open-source Supercloud that allows users to securely and efficiently buy and sell computing resources.",
+        "ja" : "Akash Networkは、ユーザーがコンピューティングリソースを安全かつ効率的に売買できるようにするオープンソーススーパークラウドです。"
+    }
+}

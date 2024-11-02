@@ -1,4 +1,22 @@
 {
+    "chain_id_cosmos" : "evmos_9001-2",
+    "chain_id_evm" : "0x2329",
+    "chain_name": "Evmos",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/resource/chain_evmos.png",
+    "symbol" : "EVMOS",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/evmos.png",
+    "bechAccountPrefix" : "evmos",
+    "bechValidatorPrefix" : "evmosvaloper",
+    "name_for_dapp" : "EVMOS", 
+    "api_name" : "evmos",
+    "origin_genesis_time" : "2022-03-02T19:00:00Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "1",
         "rate" : [
@@ -6,6 +24,7 @@
             "40000000000aevmos",
             "80000000000aevmos"
         ],
+        "init_gas_limit" : 300000,
         "isSimulable" : true,
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
@@ -16,10 +35,6 @@
             "url": "grpc-evmos.cosmostation.io:443"
         },
         {
-            "provider": "evmos.org",
-            "url": "grpc.bd.evmos.org:9090"
-        },
-        {
             "provider": "Notional",
             "url": "grpc-evmos-ia.cosmosia.notional.ventures:443"
         },
@@ -28,16 +43,89 @@
             "url": "evmos-grpc.lavenderfive.com:443"
         },
         {
-            "provider": "ChainTools",
-            "url": "evmos.grpcui.chaintools.host:443"
+            "provider": "StakeTown",
+            "url": "evmos-grpc.stake-town.com:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-evmos.cosmostation.io/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://evmos-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://evmos-api.polkachu.com/"
+        },
+        {
+            "provider": "Silent",
+            "url": "https://api.evmos.silentvalidator.com/"
+        },
+        {
+            "provider": "TC Network",
+            "url": "https://rest.evmos.tcnetwork.io/"
+        },
+        {
+            "provider": "Validatrium",
+            "url": "https://evmos-api.validatrium.club/"
+        },
+        {
+            "provider": "Stakeflow",
+            "url": "https://api-evmos-01.stakeflow.io/"
+        },
+        {
+            "provider": "W3coins",
+            "url": "https://evmos-api.w3coins.io/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-evmos-evm.cosmostation.io"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://evmos-evm.publicnode.com"
+        },
+        {
+            "provider": "Stakely",
+            "url": "https://evmos-json-rpc.stakely.io"
+        },
+        {
+            "provider": "BlockHunters",
+            "url": "https://json-rpc.evmos.bh.rocks"
+        },
+        {
+            "provider": "silent",
+            "url": "https://evm-rpc.evmos.silentvalidator.com"
+        },
+        {
+            "provider": "Validatus",
+            "url": "https://json-rpc.evmos.validatus.com"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/evmos/",
+        "account": "https://www.mintscan.io/evmos/address/${address}",
+        "tx": "https://www.mintscan.io/evmos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/evmos/proposals/${id}"
+    },
     "about" : {
         "website" : "https://evmos.org/",
-        "blog" : "https://evmos.blog/",
+        "docs": "https://evmos.dev",
         "github" : "https://github.com/evmos",
+        "blog" : "https://evmos.blog/",
+        "medium": "https://medium.com/evmos",
         "twitter" : "https://twitter.com/EvmosOrg",
         "coingecko" : "https://www.coingecko.com/en/coins/evmos"
+    },
+    "forum": {
+      "main": "https://commonwealth.im/evmos",
+      "governance": "https://commonwealth.im/evmos"
     },
     "description" : {
         "ko" : "EVM(이더리움 가상 머신) 호환이 가능한 Cosmos SDK 기반 블록체인.",

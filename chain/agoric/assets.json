@@ -1,0 +1,68 @@
+[
+  {
+    "denom": "ubld",
+    "type": "staking",
+    "origin_chain": "agoric",
+    "origin_denom": "ubld",
+    "origin_type": "staking",
+    "symbol": "BLD",
+    "decimals": 6,
+    "description": "Agoric Staking Coin",
+    "image": "agoric/asset/bld.png",
+    "coinGeckoId": "agoric",
+    "color": "#bc2c44"
+  },
+  {
+    "denom": "uist",
+    "type": "native",
+    "origin_chain": "agoric",
+    "origin_denom": "uist",
+    "origin_type": "native",
+    "symbol": "IST",
+    "decimals": 6,
+    "description": "Agoric Stablecoin",
+    "image": "agoric/asset/ist.png",
+    "coinGeckoId": "inter-stable-token"
+  },
+  {
+    "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "origin_type": "native",
+    "symbol": "USDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "noble>agoric",
+    "channel": "channel-62",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-21",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "noble/asset/usdc.png",
+    "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+    "type": "ibc",
+    "origin_chain": "ethereum",
+    "origin_denom": "usdc",
+    "origin_type": "erc20",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "enable": true,
+    "path": "ethereum>axelar>agoric",
+    "channel": "channel-9",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-41",
+      "port": "transfer",
+      "denom": "uusdc"
+    },
+    "image": "ethereum/asset/usdc.png",
+    "coinGeckoId": "axlusdc",
+    "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  }
+]

@@ -1,0 +1,372 @@
+[
+    {
+        "type": "native",
+        "denom": "0x2::sui::SUI",
+        "name" : "Sui",
+        "symbol": "SUI",
+        "description": "Sui Staking Coin",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/sui.png",
+        "coinGeckoId": "sui"
+    },
+    {
+        "type": "bridge",
+        "denom": "0x5d4b302506645c37ff133b98c4b50a5ae14841659738d6d733d59d0d217a93bf::coin::COIN",
+        "name" : "USD Coin (Wormhole)",
+        "symbol": "USDC.eth",
+        "description": "USD Coin (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "ethereum>sui"
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN",
+        "name" : "Tether USD (Wormhole)",
+        "symbol": "USDT.eth",
+        "description": "Tether USD (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "bridge_info" : {
+            "path": "ethereum>sui"
+        }
+    },
+    {
+        "type": "native",
+        "denom": "0xbff8dc60d3f714f678cd4490ff08cabbea95d308c6de47a150c79cc875e0c7c6::sbox::SBOX",
+        "name" : "SuiBoxer Coin",
+        "symbol": "SBOX",
+        "description": "SUI said fuck off but we say welcome, airdrop for everyone.",
+        "decimals": 1,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/suiboxer.png",
+        "coinGeckoId": "suiboxer"
+    },
+    {
+        "type": "native",
+        "denom": "0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc::TOKEN::TOKEN",
+        "name" : "Suiswap Token",
+        "symbol": "SSWP",
+        "description": "Suiswap Platform Governance Token",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/sswp.png",
+        "coinGeckoId": "suiswap"
+    },
+    {
+        "type": "native",
+        "denom": "0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK",
+        "name" : "Bucket USD",
+        "symbol": "BUCK",
+        "description": "The stablecoin minted through bucketprotocol.io",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/buck.png",
+        "coinGeckoId": "bucket-protocol-buck-stablecoin"
+    },
+    {
+        "type": "native",
+        "denom": "0x7016aae72cfc67f2fadf55769c0a7dd54291a583b63051a5ed71081cce836ac6::sca::SCA",
+        "name" : "Scallop",
+        "symbol": "SCA",
+        "description": "SCA is the native token of Scallop Protocol.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/sca.png",
+        "coinGeckoId": "scallop-2"
+    },
+    {
+        "type": "native",
+        "denom": "0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
+        "name" : "Cetus Token",
+        "symbol": "CETUS",
+        "description": "CETUS is the native token of Cetus Protocol.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/cetus.png",
+        "coinGeckoId": "cetus-protocol"
+    },
+    {
+        "type": "native",
+        "denom": "0x5d1f47ea69bb0de31c313d7acf89b890dbb8991ea8e03c6c355171f84bb1ba4a::turbos::TURBOS",
+        "name" : "Turbos",
+        "symbol": "TURBOS",
+        "description": "Turbos Finance Token",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/turbos.png",
+        "coinGeckoId": "turbos-finance"
+    },
+    {
+        "type": "native",
+        "denom": "0xb779486cfd6c19e9218cc7dc17c453014d2d9ba12d2ee4dbb0ec4e1e02ae1cca::spt::SPT",
+        "name" : "SPT",
+        "symbol": "SPT",
+        "description": "Seapad launchpad foundation token",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/spt.png",
+        "coinGeckoId": "seapad"
+    },
+    {
+        "type": "native",
+        "denom": "0x76cb819b01abed502bee8a702b4c2d547532c12f25001c9dea795a5e631c26f1::fud::FUD",
+        "name" : "FUD",
+        "symbol": "FUD",
+        "description": "The community coin of Sui",
+        "decimals": 5,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/fud.png",
+        "coinGeckoId": "fud-the-pug"
+    },
+    {
+        "type": "native",
+        "denom": "0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT",
+        "name" : "Volo Staked SUI",
+        "symbol": "VSUI",
+        "description": "Instant staking liquidity through a bond-like synthetic token called voloSUI.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/vsui.png",
+        "coinGeckoId": "volo-staked-sui"
+    },
+    {
+        "type": "native",
+        "denom": "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX",
+        "name" : "NAVX Token",
+        "symbol": "NAVX",
+        "description": "One-stop Liquidity Protocol on Sui",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/navx.png",
+        "coinGeckoId": "navi"
+    },
+    {
+        "type": "native",
+        "denom": "0xde2d3e02ba60b806f81ee9220be2a34932a513fe8d7f553167649e95de21c066::reap_token::REAP_TOKEN",
+        "name" : "REAP",
+        "symbol": "REAP",
+        "description": "Reap Token",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/reap.png",
+        "coinGeckoId": "releap"
+    },
+    {
+        "type": "native",
+        "denom": "0xebbf537bc3686be32fe22b498b42715641bbb209267be72236a352e0444cc5df::sui_pepe::SUI_PEPE",
+        "name" : "SUI PEPE",
+        "symbol": "SPEPE",
+        "description": "The biggest memecoin on SUI blockchain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/spepe.png",
+        "coinGeckoId": "sui-pepe"
+    },
+    {
+        "type": "native",
+        "denom": "0xbde4ba4c2e274a60ce15c1cfff9e5c42e41654ac8b6d906a57efa4bd3c29f47d::hasui::HASUI",
+        "name" : "haSUI",
+        "symbol": "HASUI",
+        "description": "haSUI is a staking token of SUI",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/hasui.png",
+        "coinGeckoId": "haedal-staked-sui"
+    },
+    {
+        "type": "native",
+        "denom": "0x9a5502414b5d51d01c8b5641db7436d789fa15a245694b24aa37c25c2a6ce001::scb::SCB",
+        "name" : "Sacabam",
+        "symbol": "SCB",
+        "description": "The best meme token that Sui has ever seen",
+        "decimals": 5,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/scb.png",
+        "coinGeckoId": "sacabam"
+    },
+    {
+        "type": "native",
+        "denom": "0xe4239cd951f6c53d9c41e25270d80d31f925ad1655e5ba5b543843d4a66975ee::SUIP::SUIP",
+        "name" : "SuiPad",
+        "symbol": "SUIP",
+        "description": "SuiPad The Premier Launchpad for Tier-1 Projects",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/suip.png",
+        "coinGeckoId": "suipad"
+    },
+    {
+        "type": "native",
+        "denom": "0x706fa7723231e13e8d37dad56da55c027f3163094aa31c867ca254ba0e0dc79f::artfi::ARTFI",
+        "name" : "ARTFI",
+        "symbol": "ARTFI",
+        "description": "ARTFI is native coin of artfitoken.io",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/artfi.png",
+        "coinGeckoId": "artfi"
+    },
+    {
+        "type": "native",
+        "denom": "0x8c47c0bde84b7056520a44f46c56383e714cc9b6a55e919d8736a34ec7ccb533::suicune::SUICUNE",
+        "name" : "Suicune",
+        "symbol": "HSUI",
+        "description": "Suicune will be fully community operated.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/hsui.png",
+        "coinGeckoId": "suicune-on-sui"
+    },
+    {
+        "type": "bridge",
+        "denom": "0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN",
+        "name" : "Wrapped Ether (Wormhole)",
+        "symbol": "WETH",
+        "description": "Wrapped Ether (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "bridge_info" : {
+            "path": "ethereum>sui"
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0xb231fcda8bbddb31f2ef02e6161444aec64a514e2c89279584ac9806ce9cf037::coin::COIN",
+        "name" : "Wrapped SOL (Wormhole)",
+        "symbol": "USDC.solana",
+        "description": "Wrapped SOL (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "ethereum>sui"
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0x94e7a8e71830d2b34b3edaa195dc24c45d142584f06fa257b73af753d766e690::celer_usdc_coin::CELER_USDC_COIN",
+        "name" : "USD Coin (Wormhole)",
+        "symbol": "USDC.celer",
+        "description": "USD Coin (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "ethereum>sui"
+        }
+    },
+    {
+        "type": "native",
+        "denom": "0x1d58e26e85fbf9ee8596872686da75544342487f95b1773be3c9a49ab1061b19::suia_token::SUIA_TOKEN",
+        "name" : "SUIA",
+        "symbol": "SUIA",
+        "description": "SUIA is the native token of Suia.io",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/suia.png",
+        "coinGeckoId": "suia"
+    },
+    {
+        "type": "bridge",
+        "denom": "0x3a5143bb1196e3bcdfab6203d1683ae29edd26294fc8bfeafe4aaa9d2704df37::coin::COIN",
+        "name" : "Aptos Coin (Wormhole)",
+        "symbol": "APT",
+        "description": "Aptos Coin (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/asset/apt.png",
+        "coinGeckoId": "aptos",
+        "bridge_info" : {
+            "path": "aptos>sui"
+        }
+    },
+    {
+        "type": "native",
+        "denom": "0x6dae8ca14311574fdfe555524ea48558e3d1360d1607d1c7f98af867e3b7976c::flx::FLX",
+        "name" : "FlowX",
+        "symbol": "FLX",
+        "description": "FlowX",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/flx.png",
+        "coinGeckoId": "flowx-finance"
+    },
+    {
+        "type": "native",
+        "denom": "0x6907963ca849faff0957b9a8269a7a07065e3def2eef49cc33b50ab946ea5a9f::coin::COIN",
+        "name" : "Bonk",
+        "symbol": "BONK",
+        "description": "Bonk",
+        "decimals": 5,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/bonk.png",
+        "coinGeckoId": "bonk"
+    },
+    {
+        "type": "native",
+        "denom": "0x1e520f3bb4b93938cf2bc90fb8d709ed3042dbf3c0290824c0ace15e583e8162::suishiba::SUISHIBA",
+        "name" : "SuiShiba",
+        "symbol": "SUISHIB",
+        "description": "SuiShiba is a community-driven meme project",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/suishib.png",
+        "coinGeckoId": "suishiba"
+    },
+    {
+        "type": "bridge",
+        "denom": "0xb7844e289a8410e50fb3ca48d69eb9cf29e27d223ef90353fe1bd8e27ff8f3f8::coin::COIN",
+        "name" : "Wrapped SOL (Wormhole)",
+        "symbol": "SOL",
+        "description": "Wrapped SOL (Wormhole)",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/sol.png",
+        "coinGeckoId": "wrapped-solana",
+        "bridge_info" : {
+            "path": "solana>sui"
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0xdbe380b13a6d0f5cdedd58de8f04625263f113b3f9db32b3e1983f49e2841676::coin::COIN",
+        "name" : "Wrapped Matic (Wormhole)",
+        "symbol": "WMATIC",
+        "description": "Wrapped Matic (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/wmatic.png",
+        "coinGeckoId": "wmatic",
+        "bridge_info" : {
+            "path": "polygon>sui"
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0xb848cce11ef3a8f62eccea6eb5b35a12c4c2b1ee1af7755d02d7bd6218e8226f::coin::COIN",
+        "name" : "Wrapped BNB (Wormhole)",
+        "symbol": "WBNB",
+        "description": "Wrapped BNB (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/wbnb.png",
+        "coinGeckoId": "wbnb",
+        "bridge_info" : {
+            "path": "bnb-smart-chain>sui"
+        }
+    },
+    {
+        "type": "native",
+        "denom": "0xf325ce1300e8dac124071d3152c5c5ee6174914f8bc2161e88329cf579246efc::afsui::AFSUI",
+        "name" : "afSUI",
+        "symbol": "AFSUI",
+        "description": "Aftermath Staked Sui",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/afsui.png",
+        "coinGeckoId": "aftermath-staked-sui"
+    },
+    {
+        "type": "native",
+        "denom": "0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB",
+        "name" : "BLUB",
+        "symbol": "BLUB",
+        "description": "A Dirty Fish in the Waters of the Sui Ocean",
+        "decimals": 2,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/blub.png",
+        "coinGeckoId": "blub"
+    },
+    {
+        "type": "bridge",
+        "denom": "0x909cba62ce96d54de25bec9502de5ca7b4f28901747bbf96b76c2e63ec5f1cba::coin::COIN",
+        "name" : "USD Coin (Wormhole)",
+        "symbol": "USDC.bnb",
+        "description": "USD Coin (Wormhole)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "ethereum>sui"
+        }
+    }
+]
