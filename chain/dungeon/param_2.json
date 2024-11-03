@@ -38,11 +38,6 @@
         }
     ],
     "explorer": {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/dungeon/",
-        "account": "https://www.mintscan.io/dungeon/address/${address}",
-        "tx": "https://www.mintscan.io/dungeon/tx/${hash}",
-        "proposal": "https://www.mintscan.io/dungeon/proposals/${id}"
     },
     "about": {
         "website": "https://www.cryptodungeon.org/",
