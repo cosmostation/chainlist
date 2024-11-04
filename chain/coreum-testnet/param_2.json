@@ -1,5 +1,48 @@
 {
+    "chain_id_cosmos" : "coreum-testnet-1",
     "chain_name": "Coreum Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum-testnet/resource/chain_coreum-testnet.png",
+    "main_asset_denom" : "ucore",
+    "main_asset_symbol" : "COREUM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum-testnet/asset/core.png",
+    "bech_account_prefix" : "core",
+    "bech_validator_prefix" : "corevaloper",
+    "api_name" : "coreum-testnet",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/990'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.05ucore",
+            "0.0625ucore",
+            "0.5ucore"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/coreum-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/coreum-testnet/",
+        "account": "https://www.mintscan.io/coreum-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/coreum-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/coreum-testnet/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.coreum.com/",
         "docs": "https://docs.coreum.dev/",
