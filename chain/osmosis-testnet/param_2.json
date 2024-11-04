@@ -1,5 +1,44 @@
 {
+    "chain_id_cosmos" : "osmo-test-5",
     "chain_name": "Osmosis Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis-testnet/resource/chain_osmosis-testnet.png",
+    "main_asset_denom" : "uosmo",
+    "main_asset_symbol" : "OSMO",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis-testnet/asset/osmo.png",
+    "bech_account_prefix" : "osmo",
+    "bech_validator_prefix" : "osmovaloper",
+    "api_name" : "osmosis-testnet",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.0025uosmo",
+            "0.025uosmo"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/osmosis-testnet/"
+        },
+        {
+            "provider": "Osmosis",
+            "url": "https://lcd.testnet.osmosis.zone/"
+        }
+    ],
     "about" : {
         "website" : "https://osmosis.zone/",
         "docs": "https://docs.osmosis.zone",
@@ -7,6 +46,13 @@
         "medium": "https://medium.com/@Osmosis",
         "twitter" : "https://twitter.com/osmosiszone",
         "coingecko" : ""
+    },
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/osmosis-testnet/",
+        "account": "https://www.mintscan.io/osmosis-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/osmosis-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/osmosis-testnet/proposals/${id}"
     },
     "forum": {
         "main": "https://gov.osmosis.zone",

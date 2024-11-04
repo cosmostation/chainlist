@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "mantravaloper",
     "origin_genesis_time" : "2024-10-07T15:15:00Z",
     "api_name" : "mantra-testnet",
+    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

@@ -1,5 +1,46 @@
 {
+    "chain_id_cosmos" : "grand-1",
     "chain_name": "Noble Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/resource/chain_noble-testnet.png",
+    "main_asset_denom": "ustake",
+    "main_asset_symbol" : "NOBLE",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/stake.png",
+    "bech_account_prefix" : "noble",
+    "bech_validator_prefix" : "noblevaloper",
+    "api_name" : "noble-testnet",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.1uusdc"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/noble-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/noble-testnet/",
+        "account": "https://www.mintscan.io/noble-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/noble-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/noble-testnet/proposals/${id}"
+    },
     "about" : {
         "website" : "https://nobleassets.xyz/",
         "docs": "https://docs.nobleassets.xyz/",

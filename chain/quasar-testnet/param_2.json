@@ -1,5 +1,55 @@
 {
+    "chain_id_cosmos" : "quasar-test-1",
     "chain_name": "Quasar Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quasar-testnet/resource/chain_quasar-testnet.png",
+    "main_asset_denom" : "uqsr",
+    "main_asset_symbol" : "QSR",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quasar-testnet/asset/qsr.png",
+    "bech_account_prefix" : "quasar",
+    "bech_validator_prefix" : "quasarvaloper",
+    "api_name" : "quasar-testnet",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.1uqsr"
+        ],
+        "is_feemarket": true,
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "KJNodes.com",
+            "url": "quasar-testnet.grpc.kjnodes.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/quasar-testnet/"
+        },
+        {
+            "provider": "KJNodes.com",
+            "url": "https://quasar-testnet.api.kjnodes.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/quasar-testnet/",
+        "account": "https://www.mintscan.io/quasar-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/quasar-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/quasar-testnet/proposals/${id}"
+    },
     "about" : {
         "website" : "https://www.quasar.fi/",
         "docs": "https://docs.quasar.fi",

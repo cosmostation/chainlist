@@ -1,5 +1,48 @@
 {
+    "chain_id_cosmos" : "uni-6",
     "chain_name": "Juno Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno-testnet/resource/chain_juno-testnet.png",
+    "main_asset_denom" : "ujuno",
+    "main_asset_symbol" : "JUNO",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno-testnet/asset/juno.png",
+    "bech_account_prefix" : "juno-testnet",
+    "bech_validator_prefix" : "junovaloper",
+    "api_name" : "juno",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.075ujuno",
+            "0.1ujuno",
+            "0.125ujuno"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/juno-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/juno-testnet/",
+        "account": "https://www.mintscan.io/juno-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/juno-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/juno-testnet/proposals/${id}"
+    },
     "about" : {
         "website" : "https://junonetwork.io/",
         "docs": "https://docs.junonetwork.io/juno/readme",
