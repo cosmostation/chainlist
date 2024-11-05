@@ -31,6 +31,10 @@
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
+    "evm_fee_info" : {
+        "is_eip1559": false,
+        "simulated_gas_multiply" : 1.2
+    },
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
