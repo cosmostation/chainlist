@@ -26,6 +26,10 @@
         "init_gas_limit": 300000
     },
     "grpc_endpoint": [
+        {
+            "provider": "ApeironNodes",
+            "url": "grpc-dungeonchain.apeironnodes.com:9090"
+        }
     ],
     "lcd_endpoint": [
         {
