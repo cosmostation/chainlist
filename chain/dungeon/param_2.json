@@ -28,7 +28,7 @@
     "grpc_endpoint": [
         {
             "provider": "ApeironNodes",
-            "url": "grpc-dungeonchain.apeironnodes.com:9090"
+            "url": "grpc-dungeonchain.apeironnodes.com:443"
         }
     ],
     "lcd_endpoint": [
