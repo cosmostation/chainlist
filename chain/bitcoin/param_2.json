@@ -5,6 +5,11 @@
     "main_asset_symbol" : "BTC",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin/asset/btc.png",
     "origin_genesis_time" : "2009-01-03T18:15:05Z",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "bitcoin"
+    ],
     "account_type" : [
         {
             "hd_path": "m/84'/0'/0'/0/X",

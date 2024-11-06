@@ -9,6 +9,11 @@
     "bech_validator_prefix": "cheqdvaloper",
     "origin_genesis_time": "2021-11-11T14:47:05Z",
     "api_name": "cheqd",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type": [
         {
             "hd_path": "m/44'/118'/0'/0/X",

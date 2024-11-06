@@ -9,7 +9,12 @@
     "bech_account_prefix" : "aioz",
     "bech_validator_prefix" : "aiozvaloper",
     "origin_genesis_time" : "2021-12-25T04:21:30Z",
+    "is_support_mobile_wallet" : true,
     "api_name": "aioz",
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

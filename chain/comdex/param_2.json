@@ -1,5 +1,5 @@
 {
-    "chain_id_cosmos" : "comdex-1",
+    "chain_id_cosmos": "comdex-1",
     "chain_name": "Comdex",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/resource/chain_comdex.png",
     "main_asset_denom" : "ucmdx",
@@ -10,6 +10,11 @@
     "origin_genesis_time" : "2021-11-20T14:00:00Z",
     "api_name" : "comdex",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

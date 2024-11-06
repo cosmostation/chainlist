@@ -9,6 +9,11 @@
     "bech_validator_prefix" : "marsvaloper",
     "origin_genesis_time" : "2023-01-31T15:00:00Z",
     "api_name" : "mars-protocol",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

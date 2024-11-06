@@ -9,6 +9,11 @@
     "bech_validator_prefix" : "undvaloper",
     "origin_genesis_time" : "2020-05-14T09:33:07Z",
     "api_name" : "unification",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/5555'/0'/0/X",

@@ -10,8 +10,13 @@
     "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/bnb.png",
     "origin_genesis_time" : "2020-08-29T03:24:08Z",
     "api_name" : "bnb-smart-chain",
+    "is_support_mobile_wallet" : true,
     "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : true,
     "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Binance",

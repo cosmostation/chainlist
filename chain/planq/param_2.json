@@ -10,6 +10,12 @@
     "bech_validator_prefix" : "plqvaloper",
     "origin_genesis_time" : "2022-08-30T11:27:57Z",
     "api_name" : "planq",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

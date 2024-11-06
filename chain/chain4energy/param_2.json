@@ -9,6 +9,11 @@
     "bech_validator_prefix": "c4evaloper",
     "origin_genesis_time": "2022-09-22T14:00:00Z",
     "api_name": "chain4energy",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type": [
         {
             "hd_path": "m/44'/118'/0'/0/X",

@@ -8,6 +8,11 @@
     "bech_account_prefix" : "nillion",
     "bech_validator_prefix" : "nillionvaloper",
     "api_name" : "nillion-testnet",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

@@ -9,6 +9,11 @@
     "bech_validator_prefix" : "noblevaloper",
     "api_name" : "noble-testnet",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

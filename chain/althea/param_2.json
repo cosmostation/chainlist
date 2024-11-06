@@ -1,5 +1,5 @@
 {
-    "chain_id_cosmos" : "althea_258432-1",
+    "chain_id_cosmos": "althea_258432-1",
     "chain_id_evm" : "0x3f180",
     "chain_name": "Althea",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/althea/resource/chain_althea.png",
@@ -12,6 +12,12 @@
     "api_name" : "althea",
     "is_send_enabled" : false,
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

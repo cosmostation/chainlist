@@ -9,6 +9,11 @@
     "bech_validator_prefix" : "lava@valoper",
     "origin_genesis_time" : "2024-01-17T15:00:00Z",
     "api_name" : "lava",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

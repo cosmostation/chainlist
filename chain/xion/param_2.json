@@ -9,6 +9,9 @@
     "bech_validator_prefix" : "xionvaloper",
     "origin_genesis_time" : "",
     "api_name" : "xion",
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

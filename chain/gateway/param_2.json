@@ -9,6 +9,9 @@
     "bech_validator_prefix" : "wormholevaloper",
     "origin_genesis_time" : "2022-09-27T22:08:43Z",
     "api_name" : "gateway",
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

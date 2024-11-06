@@ -11,8 +11,14 @@
     "origin_genesis_time" : "2019-11-05T14:00:00Z",
     "api_name" : "kava",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
     "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
     "is_support_erc20" : true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

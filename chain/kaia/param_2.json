@@ -9,8 +9,13 @@
     "gas_asset_symbol" : "KLAY",
     "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/klay.png",
     "origin_genesis_time" : "2019-06-24T09:45:05Z",
+    "is_support_mobile_wallet": true,
     "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
     "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
     "evm_fee_info" : {
         "is_eip1559": true,
         "simul_gas_multiply" : 1.3

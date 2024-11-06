@@ -5,11 +5,16 @@
     "main_asset_denom" : "uqsr",
     "main_asset_symbol" : "QSR",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quasar/asset/qsr.png",
-    "bech_account_prefix" : "quasar",
-    "bech_validator_prefix" : "quasarvaloper",
-    "origin_genesis_time" : "2023-03-22T20:00:00Z",
-    "api_name" : "quasar",
+    "bech_account_prefix": "quasar",
+    "bech_validator_prefix": "quasarvaloper",
+    "origin_genesis_time": "2023-03-22T20:00:00Z",
+    "api_name": "quasar",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

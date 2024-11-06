@@ -10,6 +10,11 @@
     "origin_genesis_time" : "2020-05-28T14:00:00Z",
     "api_name" : "band",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/494'/0'/0/X",

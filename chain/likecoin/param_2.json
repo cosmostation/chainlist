@@ -9,6 +9,11 @@
     "bech_validator_prefix" : "likevaloper",
     "origin_genesis_time" : "2019-11-15T04:00:00Z",
     "api_name" : "likecoin",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

@@ -11,6 +11,12 @@
     "origin_genesis_time" : "2022-08-19T09:30:00Z",
     "api_name" : "xpla",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

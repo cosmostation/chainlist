@@ -9,6 +9,9 @@
     "bech_validator_prefix" : "emoneyvaloper",
     "origin_genesis_time" : "2020-03-25T12:00:00Z",
     "api_name" : "emoney",
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

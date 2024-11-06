@@ -4,6 +4,11 @@
     "main_asset_denom" : "btc",
     "main_asset_symbol" : "BTC",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin-testnet/asset/btc.png",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "bitcoin"
+    ],
     "account_type" : [
         {
             "hd_path": "m/84'/1'/0'/0/X",

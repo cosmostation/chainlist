@@ -9,6 +9,9 @@
     "bech_validator_prefix" : "mintvaloper",
     "api_name" : "mintstation-testnet",
     "is_support_mintscan": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

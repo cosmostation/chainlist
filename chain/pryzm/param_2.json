@@ -8,6 +8,11 @@
     "bech_account_prefix" : "pryzm",
     "bech_validator_prefix" : "pryzmvaloper",
     "api_name" : "pryzm",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

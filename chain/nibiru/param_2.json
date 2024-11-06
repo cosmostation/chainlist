@@ -9,6 +9,11 @@
     "bech_validator_prefix" : "nibivaloper",
     "origin_genesis_time" : "2023-11-08T20:09:48Z",
     "api_name" : "nibiru",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

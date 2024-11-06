@@ -10,6 +10,11 @@
     "origin_genesis_time" : "2021-03-27T12:00:00Z",
     "api_name" : "sentinel",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

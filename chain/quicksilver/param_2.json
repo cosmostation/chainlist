@@ -9,6 +9,11 @@
     "bech_validator_prefix" : "quickvaloper",
     "origin_genesis_time" : "2022-12-16T13:00:00Z",
     "api_name" : "quicksilver",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

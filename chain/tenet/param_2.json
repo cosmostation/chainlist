@@ -10,6 +10,11 @@
     "bech_validator_prefix" : "tenetvaloper",
     "origin_genesis_time" : "2023-04-17T09:45:19Z",
     "api_name": "tenet",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

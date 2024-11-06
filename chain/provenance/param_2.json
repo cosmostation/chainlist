@@ -10,6 +10,11 @@
     "origin_genesis_time" : "2021-04-20T16:20:00Z",
     "api_name" : "provenance",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/505'/0'/0/X",

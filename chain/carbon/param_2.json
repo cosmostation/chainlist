@@ -9,6 +9,11 @@
     "bech_validator_prefix": "swthvaloper",
     "origin_genesis_time": "2021-10-05T07:10:09Z",
     "api_name": "carbon",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type": [
         {
             "hd_path": "m/44'/118'/0'/0/X",

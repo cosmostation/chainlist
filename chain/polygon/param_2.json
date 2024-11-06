@@ -9,8 +9,13 @@
     "gas_asset_symbol" : "MATIC",
     "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/matic.png",
     "origin_genesis_time" : "2020-05-30T04:30:00Z",
+    "is_support_mobile_wallet": true,
     "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
     "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
     "evm_fee_info" : {
         "is_eip1559": true,
         "simulated_gas_multiply" : 1.3

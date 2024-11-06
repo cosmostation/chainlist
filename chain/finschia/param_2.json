@@ -10,6 +10,11 @@
     "origin_genesis_time" : "2023-05-25T03:00:00Z",
     "api_name" : "finschia",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/438'/0'/0/X",

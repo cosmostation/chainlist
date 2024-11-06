@@ -10,6 +10,11 @@
     "origin_genesis_time" : "2024-06-06T06:06:06Z",
     "api_name" : "selfchain",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

@@ -9,6 +9,9 @@
     "bech_validator_prefix" : "cudosvaloper",
     "origin_genesis_time" : "2022-06-15T07:48:13Z",
     "api_name" : "cudos",
+    "chain_type": [
+        "cosmos"
+    ],
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

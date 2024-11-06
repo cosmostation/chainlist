@@ -9,6 +9,11 @@
     "bech_validator_prefix" : "initvaloper",
     "origin_genesis_time" : "2024-09-20T04:11:43Z",
     "api_name" : "initia-testnet",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

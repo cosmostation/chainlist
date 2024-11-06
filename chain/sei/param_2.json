@@ -10,8 +10,13 @@
     "origin_genesis_time" : "2023-05-22T15:00:00Z",
     "api_name" : "sei",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
     "is_support_cw20" : true,
     "tx_timeout_padding" : 100,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

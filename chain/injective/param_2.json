@@ -10,8 +10,13 @@
     "origin_genesis_time" : "2021-06-30T13:00:00Z",
     "api_name" : "injective",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
     "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
     "tx_timeout_padding" : 100,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

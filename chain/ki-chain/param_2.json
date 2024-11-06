@@ -9,8 +9,13 @@
     "bech_validator_prefix" : "kivaloper",
     "origin_genesis_time" : "2020-08-04T00:00:00Z",
     "api_name" : "ki-chain",
-    "is_support_mintscan": true,
     "is_support_cw20" : true,
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
