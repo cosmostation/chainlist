@@ -10,9 +10,14 @@
     "origin_genesis_time": "2019-03-13T23:00:00Z",
     "api_name": "cosmos",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
     "is_support_moblie_dapp": true,
+    "is_support_extention_wallet" : true,
     "voting_threshold": 1000000,
     "skip_affiliate": "50",
+    "chain_type": [
+        "cosmos"
+    ]
     "account_type": [
         {
             "hd_path": "m/44'/118'/0'/0/X",

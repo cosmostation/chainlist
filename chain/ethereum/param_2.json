@@ -10,8 +10,13 @@
     "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eth.png",
     "origin_genesis_time" : "2015-07-30T03:26:13Z",
     "api_name" : "ethereum",
+    "is_support_mobile_wallet" : true,
     "is_support_moblie_dapp" : true,
+    "is_support_extention_wallet" : true,
     "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ]
     "evm_fee_info" : {
         "is_eip1559": true,
         "simulated_gas_multiply" : 1.3

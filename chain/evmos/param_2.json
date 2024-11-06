@@ -11,7 +11,13 @@
     "origin_genesis_time" : "2022-03-02T19:00:00Z",
     "api_name": "evmos",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extention_wallet" : true,
     "is_support_cw20" : true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ]
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
