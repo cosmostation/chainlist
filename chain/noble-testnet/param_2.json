@@ -8,6 +8,7 @@
     "bech_account_prefix" : "noble",
     "bech_validator_prefix" : "noblevaloper",
     "api_name" : "noble-testnet",
+    "is_stake_enabled" : false,
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,

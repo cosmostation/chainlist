@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "noblevaloper",
     "origin_genesis_time" : "2023-03-27T16:00:00Z",
     "api_name" : "noble",
+    "is_stake_enabled" : false,
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
