@@ -12,7 +12,7 @@
     {
         "type": "native",
         "denom": "factory/neutron16l0qfrrahy5mve5x9nnw6zs9vv30k7rk55h6aaypq88ljwg57uxsxcg6y6/udatom",
-        "name" : "dATOM Testnet",
+        "name": "dATOM Testnet",
         "symbol": "dATOM",
         "description": "Drop staked ATOM(Neutron-testnet)",
         "decimals": 6,
@@ -20,17 +20,27 @@
         "coinGeckoId": ""
     },
     {
+        "type": "native",
+        "denom": "factory/neutron1tkr6mtll5e2z53ze2urnc3ld3tq3dam2rchezc5lg9c237ft66gqtw94jm/drop",
+        "name": "dTIA Testnet",
+        "symbol": "dTIA",
+        "description": "Drop Staked TIA(Neutron-testnet)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron-testnet/asset/dtia.png",
+        "coinGeckoId": ""
+    },
+    {
         "type": "ibc",
         "denom": "ibc/9DF365E2C0EF4EA02FA771F638BB9C0C830EFCD354629BDC017F79B348B4E989",
-        "name" : "Atom Testnet",
+        "name": "Atom Testnet",
         "symbol": "ATOM",
         "description": "Cosmoshub Testnet Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos-testnet/asset/atom.png",
         "coinGeckoId": "",
-        "ibc_info" : {
+        "ibc_info": {
             "path": "cosmos-testnet>neutron-testnet",
-            "client" : {
+            "client": {
                 "channel": "channel-239",
                 "port": "transfer"
             },
@@ -45,15 +55,15 @@
     {
         "type": "ibc",
         "denom": "ibc/EFB00E728F98F0C4BBE8CA362123ACAB466EDA2826DC6837E49F4C1902F21BBA",
-        "name" : "Astroport Testnet",
+        "name": "Astroport Testnet",
         "symbol": "ASTRO.cw20",
         "description": "Astroport in Testnet",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/astro.png",
         "coinGeckoId": "",
-        "ibc_info" : {
+        "ibc_info": {
             "path": "terra-testnet>neutron-testnet",
-            "client" : {
+            "client": {
                 "channel": "channel-3",
                 "port": "transfer"
             },
@@ -68,15 +78,15 @@
     {
         "type": "ibc",
         "denom": "ibc/CC8B40E3F3536D003C6ED7C65421067215453AECE1517A6F0935470C634A036B",
-        "name" : "Wrapped Ether Testnet (Ethereum via Axelar)",
+        "name": "Wrapped Ether Testnet (Ethereum via Axelar)",
         "symbol": "WETH.eth.axl",
         "description": "Wrapped Ether on Axelar (Testnet)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
         "coinGeckoId": "",
-        "ibc_info" : {
+        "ibc_info": {
             "path": "ethereum-testnet>axelar-testnet>neutron-testnet",
-            "client" : {
+            "client": {
                 "channel": "channel-2",
                 "port": "transfer"
             },
@@ -91,13 +101,13 @@
     {
         "type": "bridge",
         "denom": "factory/neutron1xdtwh5jr4zjx8g3zh29jud75c666wua7tsmum3ajm6ylf782etfs60dj2h/wstETH",
-        "name" : "wstETH Testnet",
+        "name": "wstETH Testnet",
         "symbol": "wstETH",
         "description": "wstETH on Neutron Testnet.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
         "coinGeckoId": "",
-        "bridge_info" : {
+        "bridge_info": {
             "path": "ethereum-testnet>neutron-testnet",
             "counterparty": {
                 "chain": "ethereum-testnet",
