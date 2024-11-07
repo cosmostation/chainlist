@@ -13,10 +13,18 @@
     "account_type" : [
         {
             "hd_path": "m/44'/637'/X'/0'/0'",
-            "pubkey_style": ""
+            "pubkey_style": "ed25519"
         }
     ],
     "rpc_endpoint" : [
+        {
+            "provider": "Aptos Labs",
+            "url": "https://fullnode.mainnet.aptoslabs.com"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/http/aptos"
+        }
     ],
     "explorer" : {
         "name": "Aptos Explorer",
