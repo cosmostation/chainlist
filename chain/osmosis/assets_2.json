@@ -53,6 +53,7 @@
         "description": "Ethereum (ETH) is a decentralized, open-source blockchain system featuring smart contract functionality. It's the native cryptocurrency of the Ethereum platform, often regarded as the second most popular digital currency after Bitcoin. Ethereum was proposed in late 2013 and development was crowdfunded in 2014, leading to its network going live on 30 July 2015.\n\nETH, as a digital currency, is used for a variety of purposes within the Ethereum ecosystem, including the execution of decentralized smart contracts and as a mode of payment. Unlike Bitcoin, Ethereum was designed to be a platform for applications that can operate without the need for intermediaries, using blockchain technology. This has made Ethereum a leading platform for various applications, including decentralized finance (DeFi), non-fungible tokens (NFTs), and more. Ethereum is constantly evolving, with a significant upgrade termed Ethereum 2.0, which aims to improve its scalability, security, and sustainability.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/eth.axl.svg",
+        "coinGeckoId": "axlweth",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -123,6 +124,7 @@
         "description": "Multi-Collateral Dai, brings a lot of new and exciting features, such as support for new CDP collateral types and Dai Savings Rate.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg",
+        "coinGeckoId": "dai",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -146,6 +148,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.svg",
         "color": "#f3bb0c",
+        "coinGeckoId": "binance-usd",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -217,7 +220,7 @@
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.svg",
         "color": "#f3bb0c",
         "ibc_info": {
-            "path": "binancesmartchain>axelar>osmosis",
+            "path": "bnb-smart-chain>axelar>osmosis",
             "client": {
                 "channel": "channel-208",
                 "port": "transfer"
@@ -239,6 +242,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg",
         "color": "#8444e4",
+        "coinGeckoId": "wmatic",
         "ibc_info": {
             "path": "polygon>axelar>osmosis",
             "client": {
@@ -262,6 +266,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.svg",
         "color": "#eb4444",
+        "coinGeckoId": "avalanche-2",
         "ibc_info": {
             "path": "avalanche>axelar>osmosis",
             "client": {
@@ -287,7 +292,7 @@
         "color": "#fcdb5b",
         "coinGeckoId": "terra-luna",
         "ibc_info": {
-            "path": "terra>osmosis",
+            "path": "terra-classic>osmosis",
             "client": {
                 "channel": "channel-72",
                 "port": "transfer"
@@ -295,7 +300,7 @@
             "counterparty": {
                 "channel": "channel-1",
                 "port": "transfer",
-                "chain": "terra",
+                "chain": "terra-classic",
                 "denom": "uluna"
             }
         }
@@ -523,6 +528,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg",
         "color": "#050505",
+        "coinGeckoId": "pstake-finance",
         "ibc_info": {
             "path": "ethereum>gravity-bridge>persistence>osmosis",
             "client": {
@@ -740,7 +746,7 @@
         "color": "#2c4484",
         "coinGeckoId": "ixo",
         "ibc_info": {
-            "path": "impacthub>osmosis",
+            "path": "ixo>osmosis",
             "client": {
                 "channel": "channel-38",
                 "port": "transfer"
@@ -1001,6 +1007,7 @@
         "description": "Native token of Dig Chain",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dig/images/dig.png",
+        "coinGeckoId": "dig-chain",
         "color": "#1b1433",
         "ibc_info": {
             "path": "dig>osmosis",
@@ -1169,6 +1176,7 @@
         "decimals": 3,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.svg",
         "color": "#040404",
+        "coinGeckoId": "marble",
         "ibc_info": {
             "path": "juno>osmosis",
             "client": {
@@ -1179,7 +1187,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl"
+                "denom": "juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl"
             }
         }
     },
@@ -1299,7 +1307,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr"
+                "denom": "juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr"
             }
         }
     },
@@ -1337,7 +1345,7 @@
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg",
         "color": "#4b83e0",
         "ibc_info": {
-            "path": "terra>osmosis",
+            "path": "terra-classic>osmosis",
             "client": {
                 "channel": "channel-72",
                 "port": "transfer"
@@ -1345,7 +1353,7 @@
             "counterparty": {
                 "channel": "channel-1",
                 "port": "transfer",
-                "chain": "terra",
+                "chain": "terra-classic",
                 "denom": "ukrw"
             }
         }
@@ -1431,6 +1439,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg",
         "color": "#e2877e",
+        "coinGeckoId": "hope-galaxy",
         "ibc_info": {
             "path": "juno>osmosis",
             "client": {
@@ -1441,7 +1450,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z"
+                "denom": "juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z"
             }
         }
     },
@@ -1465,7 +1474,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa"
+                "denom": "juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa"
             }
         }
     },
@@ -1566,6 +1575,7 @@
         "description": "Gravity Bridge DAI",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dai.grv.svg",
+        "coinGeckoId": "dai",
         "ibc_info": {
             "path": "ethereum>gravity-bridge>osmosis",
             "client": {
@@ -1622,7 +1632,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq"
+                "denom": "juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49"
             }
         }
     },
@@ -1692,7 +1702,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49"
+                "denom": "juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49"
             }
         }
     },
@@ -1715,7 +1725,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g"
+                "denom": "juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g"
             }
         }
     },
@@ -1762,7 +1772,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w"
+                "denom": "juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w"
             }
         }
     },
@@ -1785,7 +1795,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3"
+                "denom": "juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3"
             }
         }
     },
@@ -1982,6 +1992,7 @@
         "description": "Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mkr.svg",
+        "coinGeckoId": "maker",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -2199,7 +2210,7 @@
                 "channel": "channel-18",
                 "port": "wasm.ki1hzz0s0ucrhdp6tue2lxk3c03nj6f60qy463we7lgx0wudd72ctmsd9kgha",
                 "chain": "ki-chain",
-                "denom": "cw20:ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy"
+                "denom": "ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy"
             }
         }
     },
@@ -2245,7 +2256,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se"
+                "denom": "juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se"
             }
         }
     },
@@ -2268,7 +2279,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh"
+                "denom": "juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh"
             }
         }
     },
@@ -2330,7 +2341,7 @@
         "color": "#000000",
         "coinGeckoId": "oraichain-token",
         "ibc_info": {
-            "path": "oraichain>osmosis",
+            "path": "orai-chain>osmosis",
             "client": {
                 "channel": "channel-216",
                 "port": "transfer"
@@ -2338,7 +2349,7 @@
             "counterparty": {
                 "channel": "channel-13",
                 "port": "transfer",
-                "chain": "oraichain",
+                "chain": "orai-chain",
                 "denom": "orai"
             }
         }
@@ -2458,7 +2469,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
+                "denom": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
             }
         }
     },
@@ -2481,7 +2492,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3"
+                "denom": "juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3"
             }
         }
     },
@@ -2574,7 +2585,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse"
+                "denom": "juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse"
             }
         }
     },
@@ -2597,7 +2608,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf"
+                "denom": "juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf"
             }
         }
     },
@@ -2738,7 +2749,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3"
+                "denom": "juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3"
             }
         }
     },
@@ -2858,7 +2869,7 @@
                 "channel": "channel-44",
                 "port": "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4",
                 "chain": "secret",
-                "denom": "cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
+                "denom": "secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
             }
         }
     },
@@ -2881,7 +2892,7 @@
                 "channel": "channel-44",
                 "port": "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4",
                 "chain": "secret",
-                "denom": "cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt"
+                "denom": "secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt"
             }
         }
     },
@@ -2903,7 +2914,7 @@
                 "channel": "channel-44",
                 "port": "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4",
                 "chain": "secret",
-                "denom": "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d"
+                "denom": "secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d"
             }
         }
     },
@@ -2927,7 +2938,7 @@
                 "channel": "channel-44",
                 "port": "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4",
                 "chain": "secret",
-                "denom": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
+                "denom": "secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
             }
         }
     },
@@ -2951,7 +2962,7 @@
                 "channel": "channel-44",
                 "port": "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4",
                 "chain": "secret",
-                "denom": "cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
+                "denom": "secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
             }
         }
     },
@@ -2998,7 +3009,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz"
+                "denom": "juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz"
             }
         }
     },
@@ -3117,7 +3128,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
+                "denom": "juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
             }
         }
     },
@@ -3140,7 +3151,7 @@
                 "channel": "channel-44",
                 "port": "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4",
                 "chain": "secret",
-                "denom": "cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852"
+                "denom": "secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852"
             }
         }
     },
@@ -3234,7 +3245,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n"
+                "denom": "juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n"
             }
         }
     },
@@ -3342,6 +3353,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qstars.svg",
         "color": "#fc944c",
+        "coinGeckoId": "qstar-2",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -3376,7 +3388,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
+                "denom": "juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
             }
         }
     },
@@ -3433,6 +3445,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token-ibc.svg",
         "color": "#000000",
+        "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
         "ibc_info": {
             "path": "mars-protocol>osmosis",
             "client": {
@@ -3535,7 +3548,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
+                "denom": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
             }
         }
     },
@@ -3571,6 +3584,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qatom.svg",
         "color": "#fc944c",
+        "coinGeckoId": "qatom",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -3618,6 +3632,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qregen.svg",
         "color": "#fc944c",
+        "coinGeckoId": "qregen",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -3651,7 +3666,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x"
+                "denom": "juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x"
             }
         }
     },
@@ -3791,7 +3806,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1xekkh27punj0uxruv3gvuydyt856fax0nu750xns99t2qcxp7xmsqwhfma"
+                "denom": "juno1xekkh27punj0uxruv3gvuydyt856fax0nu750xns99t2qcxp7xmsqwhfma"
             }
         }
     },
@@ -3814,7 +3829,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno166heaxlyntd33a5euh4rrz26svhean4klzw594esmd02l4atan6sazy2my"
+                "denom": "juno166heaxlyntd33a5euh4rrz26svhean4klzw594esmd02l4atan6sazy2my"
             }
         }
     },
@@ -3837,7 +3852,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1x5qt47rw84c4k6xvvywtrd40p8gxjt8wnmlahlqg07qevah3f8lqwxfs7z"
+                "denom": "juno1x5qt47rw84c4k6xvvywtrd40p8gxjt8wnmlahlqg07qevah3f8lqwxfs7z"
             }
         }
     },
@@ -3860,7 +3875,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1qqwf3lkfjhp77yja7gmg3y95pda0e5xctqrdhf3wvwdd79flagvqfgrgxp"
+                "denom": "juno1qqwf3lkfjhp77yja7gmg3y95pda0e5xctqrdhf3wvwdd79flagvqfgrgxp"
             }
         }
     },
@@ -3907,7 +3922,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1ngww7zxak55fql42wmyqrr4rhzpne24hhs4p3w4cwhcdgqgr3hxsmzl9zg"
+                "denom": "juno1ngww7zxak55fql42wmyqrr4rhzpne24hhs4p3w4cwhcdgqgr3hxsmzl9zg"
             }
         }
     },
@@ -3930,7 +3945,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1ytymtllllsp3hfmndvcp802p2xmy5s8m59ufel8xv9ahyxyfs4hs4kd4je"
+                "denom": "juno1ytymtllllsp3hfmndvcp802p2xmy5s8m59ufel8xv9ahyxyfs4hs4kd4je"
             }
         }
     },
@@ -3953,7 +3968,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1jrr0tuuzxrrwcg6hgeqhw5wqpck2y55734e7zcrp745aardlp0qqg8jz06"
+                "denom": "juno1jrr0tuuzxrrwcg6hgeqhw5wqpck2y55734e7zcrp745aardlp0qqg8jz06"
             }
         }
     },
@@ -3976,7 +3991,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1jwdy7v4egw36pd84aeks3ww6n8k7zhsumd4ac8q5lts83ppxueus4626e8"
+                "denom": "juno1jwdy7v4egw36pd84aeks3ww6n8k7zhsumd4ac8q5lts83ppxueus4626e8"
             }
         }
     },
@@ -3999,7 +4014,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1k2ruzzvvwwtwny6gq6kcwyfhkzahaunp685wmz4hafplduekj98q9hgs6d"
+                "denom": "juno1k2ruzzvvwwtwny6gq6kcwyfhkzahaunp685wmz4hafplduekj98q9hgs6d"
             }
         }
     },
@@ -4022,7 +4037,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1f5datjdse3mdgrapwuzs3prl7pvxxht48ns6calnn0t77v2s9l8s0qu488"
+                "denom": "juno1f5datjdse3mdgrapwuzs3prl7pvxxht48ns6calnn0t77v2s9l8s0qu488"
             }
         }
     },
@@ -4045,7 +4060,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1j4ux0f6gt7e82z7jdpm25v4g2gts880ap64rdwa49989wzhd0dfqed6vqm"
+                "denom": "juno1j4ux0f6gt7e82z7jdpm25v4g2gts880ap64rdwa49989wzhd0dfqed6vqm"
             }
         }
     },
@@ -4092,7 +4107,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1dyyf7pxeassxvftf570krv7fdf5r8e4r04mp99h0mllsqzp3rs4q7y8yqg"
+                "denom": "juno1dyyf7pxeassxvftf570krv7fdf5r8e4r04mp99h0mllsqzp3rs4q7y8yqg"
             }
         }
     },
@@ -4115,7 +4130,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1dpany8c0lj526lsa02sldv7shzvnw5dt5ues72rk35hd69rrydxqeraz8l"
+                "denom": "juno1dpany8c0lj526lsa02sldv7shzvnw5dt5ues72rk35hd69rrydxqeraz8l"
             }
         }
     },
@@ -4139,7 +4154,7 @@
                 "channel": "channel-44",
                 "port": "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4",
                 "chain": "secret",
-                "denom": "cw20:secret1fl449muk5yq8dlad7a22nje4p5d2pnsgymhjfd"
+                "denom": "secret1fl449muk5yq8dlad7a22nje4p5d2pnsgymhjfd"
             }
         }
     },
@@ -4162,7 +4177,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1llg7q2d5dqlrqzh5dxv8c7kzzjszld34s5vktqmlmaaxqjssz43sxyhq0d"
+                "denom": "juno1llg7q2d5dqlrqzh5dxv8c7kzzjszld34s5vktqmlmaaxqjssz43sxyhq0d"
             }
         }
     },
@@ -4185,7 +4200,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno13ca2g36ng6etcfhr9qxx352uw2n5e92np54thfkm3w3nzlhsgvwsjaqlyq"
+                "denom": "juno13ca2g36ng6etcfhr9qxx352uw2n5e92np54thfkm3w3nzlhsgvwsjaqlyq"
             }
         }
     },
@@ -4231,7 +4246,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1lpvx3mv2a6ddzfjc7zzz2v2cm5gqgqf0hx67hc5p5qwn7hz4cdjsnznhu8"
+                "denom": "juno1lpvx3mv2a6ddzfjc7zzz2v2cm5gqgqf0hx67hc5p5qwn7hz4cdjsnznhu8"
             }
         }
     },
@@ -4255,7 +4270,7 @@
                 "channel": "channel-44",
                 "port": "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4",
                 "chain": "secret",
-                "denom": "cw20:secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm"
+                "denom": "secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm"
             }
         }
     },
@@ -4324,7 +4339,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno10vgf2u03ufcf25tspgn05l7j3tfg0j63ljgpffy98t697m5r5hmqaw95ux"
+                "denom": "juno10vgf2u03ufcf25tspgn05l7j3tfg0j63ljgpffy98t697m5r5hmqaw95ux"
             }
         }
     },
@@ -4347,7 +4362,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1epxnvge53c4hkcmqzlxryw5fp7eae2utyk6ehjcfpwajwp48km3sgxsh9k"
+                "denom": "juno1epxnvge53c4hkcmqzlxryw5fp7eae2utyk6ehjcfpwajwp48km3sgxsh9k"
             }
         }
     },
@@ -4359,6 +4374,7 @@
         "description": "Pepe is a community based memecoin with one mission: to make memecoins great again. Made to honor the iconic meme we all know and love, Pepe is here to take reign as the most memeable memecoin in existence, fueled purely by memetic power. Pepe is for the people.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pepe.axl.svg",
+        "coinGeckoId": "pepe",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4391,6 +4407,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/cbeth.png",
         "color": "#c9dbfc",
+        "coinGeckoId": "coinbase-wrapped-staked-eth",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4414,6 +4431,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/reth.png",
         "color": "#fba487",
+        "coinGeckoId": "rocket-pool-eth",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4436,6 +4454,7 @@
         "description": "sfrxETH is the version of frxETH which accrues staking yield. All profit generated from Frax Ether validators is distributed to sfrxETH holders. By exchanging frxETH for sfrxETH, one become's eligible for staking yield, which is redeemed upon converting sfrxETH back to frxETH.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sfrxeth.svg",
+        "coinGeckoId": "staked-frax-ether",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4457,6 +4476,7 @@
         "symbol": "wstETH.eth.axl",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wstETH.axl.svg",
+        "coinGeckoId": "wrapped-steth",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4515,7 +4535,7 @@
                 "channel": "channel-26",
                 "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
                 "chain": "terra",
-                "denom": "cw20:terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv"
+                "denom": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv"
             }
         }
     },
@@ -4594,7 +4614,7 @@
                 "channel": "channel-26",
                 "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
                 "chain": "terra",
-                "denom": "cw20:terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
+                "denom": "terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
             }
         }
     },
@@ -4617,7 +4637,7 @@
                 "channel": "channel-26",
                 "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
                 "chain": "terra",
-                "denom": "cw20:terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
+                "denom": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
             }
         }
     },
@@ -4664,7 +4684,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1ju8k8sqwsqu5k6umrypmtyqu2wqcpnrkf4w4mntvl0javt4nma7s8lzgss"
+                "denom": "juno1ju8k8sqwsqu5k6umrypmtyqu2wqcpnrkf4w4mntvl0javt4nma7s8lzgss"
             }
         }
     },
@@ -4825,7 +4845,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1m4h8q4p305wgy7vkux0w6e5ylhqll3s6pmadhxkhqtuwd5wlxhxs8xklsw"
+                "denom": "juno1m4h8q4p305wgy7vkux0w6e5ylhqll3s6pmadhxkhqtuwd5wlxhxs8xklsw"
             }
         }
     },
@@ -4989,6 +5009,7 @@
         "description": "Solana (SOL) is the native asset of the Solana blockchain.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.wh.svg",
+        "coinGeckoId": "solana",
         "ibc_info": {
             "path": "solana>gateway>osmosis",
             "client": {
@@ -5057,6 +5078,7 @@
         "description": "Sui’s native asset is called SUI.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/sui/images/sui.svg",
+        "coinGeckoId": "sui",
         "ibc_info": {
             "path": "sui>gateway>osmosis",
             "client": {
@@ -5910,7 +5932,7 @@
                 "channel": "channel-73",
                 "port": "wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52",
                 "chain": "chihuahua",
-                "denom": "cw20:chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef"
+                "denom": "chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef"
             }
         }
     },
@@ -6098,7 +6120,7 @@
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg",
         "color": "#1c1c1b",
         "ibc_info": {
-            "path": "binancesmartchain>pundix>osmosis",
+            "path": "bnb-smart-chain>pundix>osmosis",
             "client": {
                 "channel": "channel-12618",
                 "port": "transfer"
@@ -6154,7 +6176,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno10gthz5ufgrpuk5cscve2f0hjp56wgp90psqxcrqlg4m9mcu9dh8q4864xy"
+                "denom": "juno10gthz5ufgrpuk5cscve2f0hjp56wgp90psqxcrqlg4m9mcu9dh8q4864xy"
             }
         }
     },
@@ -6270,7 +6292,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps"
+                "denom": "juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps"
             }
         }
     },
@@ -6373,7 +6395,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k"
+                "denom": "juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k"
             }
         }
     },
@@ -6584,7 +6606,7 @@
                 "channel": "channel-392",
                 "port": "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce",
                 "chain": "terra",
-                "denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
+                "denom": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
             }
         }
     },
@@ -6735,7 +6757,7 @@
                 "channel": "channel-26",
                 "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
                 "chain": "terra",
-                "denom": "cw20:terra1sxe8u2hjczlekwfkcq0rs28egt38pg3wqzfx4zcrese4fnvzzupsk9gjkq"
+                "denom": "terra1sxe8u2hjczlekwfkcq0rs28egt38pg3wqzfx4zcrese4fnvzzupsk9gjkq"
             }
         }
     },
@@ -6749,7 +6771,7 @@
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png",
         "color": "#7f22bc",
         "ibc_info": {
-            "path": "binancesmartchain>planq>source>osmosis",
+            "path": "bnb-smart-chain>planq>source>osmosis",
             "client": {
                 "channel": "channel-8945",
                 "port": "transfer"
@@ -6955,7 +6977,7 @@
                 "channel": "channel-0",
                 "port": "transfer",
                 "chain": "sei",
-                "denom": "cw20:sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed"
+                "denom": "sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed"
             }
         }
     },
@@ -7059,7 +7081,7 @@
                 "channel": "channel-26",
                 "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
                 "chain": "terra",
-                "denom": "cw20:terra1xp9hrhthzddnl7j5du83gqqr4wmdjm5t0guzg9jp6jwrtpukwfjsjgy4f3"
+                "denom": "terra1xp9hrhthzddnl7j5du83gqqr4wmdjm5t0guzg9jp6jwrtpukwfjsjgy4f3"
             }
         }
     },
@@ -7809,7 +7831,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "cw20:juno1spjes0smg5yp40dl7gqyw0h8rn03tnmve06dd2m5acwgh6tlx86swha3xg"
+                "denom": "juno1spjes0smg5yp40dl7gqyw0h8rn03tnmve06dd2m5acwgh6tlx86swha3xg"
             }
         }
     },
@@ -8240,6 +8262,7 @@
         "description": "An alloy of USDT asset variants on Osmosis.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
+        "coinGeckoId": "tether",
         "color": "#009393"
     },
     {
@@ -8326,7 +8349,7 @@
                 "channel": "channel-108",
                 "port": "wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc",
                 "chain": "terra",
-                "denom": "cw20:terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2"
+                "denom": "terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2"
             }
         }
     },
@@ -8963,7 +8986,7 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.orai.svg",
         "ibc_info": {
-            "path": "ton>oraichain>osmosis",
+            "path": "ton>orai-chain>osmosis",
             "client": {
                 "channel": "channel-216",
                 "port": "transfer"
@@ -8971,7 +8994,7 @@
             "counterparty": {
                 "channel": "channel-13",
                 "port": "transfer",
-                "chain": "oraichain",
+                "chain": "orai-chain",
                 "denom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton"
             }
         }
