@@ -9621,6 +9621,7 @@
         "name": "AtomOne",
         "symbol": "ATONE",
         "description": "The native staking and governance token of AtomOne",
+        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg",
         "ibc_info": {
             "path": "atomone>osmosis",
@@ -9675,6 +9676,7 @@
         "name": "Yield GATA",
         "symbol": "YGATA",
         "description": "GATA Yield DAO Governance Token powered by OmniFlixHub",
+        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg",
         "color": "#7b5aff",
         "ibc_info": {
