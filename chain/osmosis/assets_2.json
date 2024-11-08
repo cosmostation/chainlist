@@ -219,8 +219,9 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.svg",
         "color": "#f3bb0c",
+        "coinGeckoId": "binancecoin",
         "ibc_info": {
-            "path": "bnb-smart-chain>axelar>osmosis",
+            "path": "binancesmartchain>axelar>osmosis",
             "client": {
                 "channel": "channel-208",
                 "port": "transfer"
@@ -242,7 +243,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg",
         "color": "#8444e4",
-        "coinGeckoId": "wmatic",
+        "coinGeckoId": "matic-network",
         "ibc_info": {
             "path": "polygon>axelar>osmosis",
             "client": {
@@ -292,7 +293,7 @@
         "color": "#fcdb5b",
         "coinGeckoId": "terra-luna",
         "ibc_info": {
-            "path": "terra-classic>osmosis",
+            "path": "terra>osmosis",
             "client": {
                 "channel": "channel-72",
                 "port": "transfer"
@@ -300,7 +301,7 @@
             "counterparty": {
                 "channel": "channel-1",
                 "port": "transfer",
-                "chain": "terra-classic",
+                "chain": "terra",
                 "denom": "uluna"
             }
         }
@@ -746,7 +747,7 @@
         "color": "#2c4484",
         "coinGeckoId": "ixo",
         "ibc_info": {
-            "path": "ixo>osmosis",
+            "path": "impacthub>osmosis",
             "client": {
                 "channel": "channel-38",
                 "port": "transfer"
@@ -1007,7 +1008,6 @@
         "description": "Native token of Dig Chain",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dig/images/dig.png",
-        "coinGeckoId": "dig-chain",
         "color": "#1b1433",
         "ibc_info": {
             "path": "dig>osmosis",
@@ -1176,7 +1176,6 @@
         "decimals": 3,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.svg",
         "color": "#040404",
-        "coinGeckoId": "marble",
         "ibc_info": {
             "path": "juno>osmosis",
             "client": {
@@ -1345,7 +1344,7 @@
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg",
         "color": "#4b83e0",
         "ibc_info": {
-            "path": "terra-classic>osmosis",
+            "path": "terra>osmosis",
             "client": {
                 "channel": "channel-72",
                 "port": "transfer"
@@ -1353,7 +1352,7 @@
             "counterparty": {
                 "channel": "channel-1",
                 "port": "transfer",
-                "chain": "terra-classic",
+                "chain": "terra",
                 "denom": "ukrw"
             }
         }
@@ -1439,7 +1438,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg",
         "color": "#e2877e",
-        "coinGeckoId": "hope-galaxy",
         "ibc_info": {
             "path": "juno>osmosis",
             "client": {
@@ -1486,6 +1484,7 @@
         "description": "Frax is a fractional-algorithmic stablecoin protocol. It aims to provide a highly scalable, decentralized, algorithmic money in place of fixed-supply assets like BTC. Additionally, FXS is the value accrual and governance token of the entire Frax ecosystem.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/frax.svg",
+        "coinGeckoId": "frax",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -1575,7 +1574,6 @@
         "description": "Gravity Bridge DAI",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dai.grv.svg",
-        "coinGeckoId": "dai",
         "ibc_info": {
             "path": "ethereum>gravity-bridge>osmosis",
             "client": {
@@ -1632,7 +1630,7 @@
                 "channel": "channel-47",
                 "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
                 "chain": "juno",
-                "denom": "juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49"
+                "denom": "juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq"
             }
         }
     },
@@ -1948,6 +1946,7 @@
         "description": "Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets. It also features access to highly innovative flash loans, which let developers borrow instantly and easily; no collateral needed. With 16 different assets, 5 of which are stablecoins.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/aave.svg",
+        "coinGeckoId": "aave",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -1970,6 +1969,7 @@
         "description": "ApeCoin found new expression in web3 through art, gaming, entertainment, and events. APE is a token made to support what’s next, controlled, and built on by the community. It will serve as a decentralized protocol layer for community-led initiatives that drive culture forward into the metaverse.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ape.svg",
+        "coinGeckoId": "apecoin",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -2015,6 +2015,7 @@
         "description": "RAI is a non-pegged, ETH-backed stable asset. It is useful as more 'stable' collateral for other DeFi protocols (compared to ETH or BTC) or as a stable asset with an embedded interest rate.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/rai.svg",
+        "coinGeckoId": "rai",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -2223,6 +2224,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg",
         "color": "#e4147c",
+        "coinGeckoId": "moonbeam",
         "ibc_info": {
             "path": "moonbeam>axelar>osmosis",
             "client": {
@@ -2341,7 +2343,7 @@
         "color": "#000000",
         "coinGeckoId": "oraichain-token",
         "ibc_info": {
-            "path": "orai-chain>osmosis",
+            "path": "oraichain>osmosis",
             "client": {
                 "channel": "channel-216",
                 "port": "transfer"
@@ -2349,7 +2351,7 @@
             "counterparty": {
                 "channel": "channel-13",
                 "port": "transfer",
-                "chain": "orai-chain",
+                "chain": "oraichain",
                 "denom": "orai"
             }
         }
@@ -3306,6 +3308,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.svg",
         "color": "#1c6cfc",
+        "coinGeckoId": "fantom",
         "ibc_info": {
             "path": "fantom>axelar>osmosis",
             "client": {
@@ -3353,7 +3356,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qstars.svg",
         "color": "#fc944c",
-        "coinGeckoId": "qstar-2",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -3445,7 +3447,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token-ibc.svg",
         "color": "#000000",
-        "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
         "ibc_info": {
             "path": "mars-protocol>osmosis",
             "client": {
@@ -3584,7 +3585,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qatom.svg",
         "color": "#fc944c",
-        "coinGeckoId": "qatom",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -3632,7 +3632,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qregen.svg",
         "color": "#fc944c",
-        "coinGeckoId": "qregen",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -4213,6 +4212,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/filecoin/images/fil.svg",
         "color": "#0493fc",
+        "coinGeckoId": "filecoin",
         "ibc_info": {
             "path": "filecoin>axelar>osmosis",
             "client": {
@@ -4374,7 +4374,6 @@
         "description": "Pepe is a community based memecoin with one mission: to make memecoins great again. Made to honor the iconic meme we all know and love, Pepe is here to take reign as the most memeable memecoin in existence, fueled purely by memetic power. Pepe is for the people.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pepe.axl.svg",
-        "coinGeckoId": "pepe",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4476,7 +4475,6 @@
         "symbol": "wstETH.eth.axl",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wstETH.axl.svg",
-        "coinGeckoId": "wrapped-steth",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4719,6 +4717,7 @@
         "description": "The native fee, governance, staking, and bonding token of the Polkadot platform.",
         "decimals": 12,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/kusama/images/ksm.svg",
+        "coinGeckoId": "kusama",
         "ibc_info": {
             "path": "composable>osmosis",
             "client": {
@@ -5009,7 +5008,6 @@
         "description": "Solana (SOL) is the native asset of the Solana blockchain.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.wh.svg",
-        "coinGeckoId": "solana",
         "ibc_info": {
             "path": "solana>gateway>osmosis",
             "client": {
@@ -5033,6 +5031,7 @@
         "decimals": 5,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bonk.png",
         "color": "#ee950a",
+        "coinGeckoId": "bonk",
         "ibc_info": {
             "path": "solana>gateway>osmosis",
             "client": {
@@ -5101,6 +5100,7 @@
         "description": "Aptos token (APT) is the Aptos blockchain native token used for paying network and transaction fees.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/apt-dm.svg",
+        "coinGeckoId": "aptos",
         "ibc_info": {
             "path": "aptos>gateway>osmosis",
             "client": {
@@ -5238,6 +5238,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.svg",
         "color": "#14448c",
+        "coinGeckoId": "yieldeth-sommelier",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -5684,6 +5685,7 @@
         "description": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg",
+        "coinGeckoId": "wrapped-steth",
         "ibc_info": {
             "path": "ethereum>neutron>osmosis",
             "client": {
@@ -5864,6 +5866,7 @@
         "description": "Pyth is a protocol that allows market participants to publish pricing information on-chain for others to use. The protocol is an interaction between three parties:\n-Publishers submit pricing information to Pyth's oracle program. Pyth has multiple data publishers for every product to improve the accuracy and robustness of the system.\n-Pyth's oracle program combines publishers' data to produce a single aggregate price and confidence interval.\nConsumers read the price information produced by the oracle program.\n\nPyth's oracle program runs simultaneously on both Solana mainnet and Pythnet. Each instance of the program is responsible for its own set of price feeds. Solana Price Feeds are available for use by Solana protocols. In this case, since the oracle program itself runs on Solana, the resulting prices are immediately available to consumers without requiring any additional work. Pythnet Price Feeds are available on 12+ blockchains. The prices constructed on Pythnet are transferred cross-chain to reach consumers on these blockchains.\n\nIn both cases, the critical component of the system is the oracle program that combines the data from each individual publisher. This program maintains a number of different Solana accounts that list the products on Pyth and their current price data. Publishers publish their price and confidence by interacting with the oracle program on every slot. The program stores this information in its accounts. The first price update in a slot additionally triggers price aggregation, which combines the price data from the previous slot into a single aggregate price and confidence interval. This aggregate price is written to the Solana account where it is readable by other on-chain programs and available for transmission to other blockchains.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pyth.svg",
+        "coinGeckoId": "pyth-network",
         "ibc_info": {
             "path": "solana>gateway>osmosis",
             "client": {
@@ -6096,6 +6099,7 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg",
         "color": "#ebb324",
+        "coinGeckoId": "page",
         "ibc_info": {
             "path": "ethereum>gravity-bridge>osmosis",
             "client": {
@@ -6119,8 +6123,9 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg",
         "color": "#1c1c1b",
+        "coinGeckoId": "pundi-x-purse",
         "ibc_info": {
-            "path": "bnb-smart-chain>pundix>osmosis",
+            "path": "binancesmartchain>pundix>osmosis",
             "client": {
                 "channel": "channel-12618",
                 "port": "transfer"
@@ -6770,8 +6775,9 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png",
         "color": "#7f22bc",
+        "coinGeckoId": "source-protocol",
         "ibc_info": {
-            "path": "bnb-smart-chain>planq>source>osmosis",
+            "path": "binancesmartchain>planq>source>osmosis",
             "client": {
                 "channel": "channel-8945",
                 "port": "transfer"
@@ -6816,6 +6822,7 @@
         "decimals": 5,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png",
         "color": "#485573",
+        "coinGeckoId": "basket",
         "ibc_info": {
             "path": "solana>gateway>osmosis",
             "client": {
@@ -7115,6 +7122,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg",
         "color": "#f1d20c",
+        "coinGeckoId": "pundi-x-2",
         "ibc_info": {
             "path": "ethereum>fxcore>osmosis",
             "client": {
@@ -7137,6 +7145,7 @@
         "description": "The native fee, governance and staking token of the Tinkernet Parachain.",
         "decimals": 12,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tinkernet/images/tnkr.svg",
+        "coinGeckoId": "tinkernet",
         "ibc_info": {
             "path": "composable>osmosis",
             "client": {
@@ -7160,6 +7169,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/w.png",
         "color": "#040404",
+        "coinGeckoId": "wormhole",
         "ibc_info": {
             "path": "solana>gateway>osmosis",
             "client": {
@@ -8262,8 +8272,8 @@
         "description": "An alloy of USDT asset variants on Osmosis.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
-        "coinGeckoId": "tether",
-        "color": "#009393"
+        "color": "#009393",
+        "coinGeckoId": "tether"
     },
     {
         "type": "ibc",
@@ -8306,7 +8316,8 @@
         "description": "An alloy of BTC asset variants on Osmosis.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg",
-        "color": "#f4941c"
+        "color": "#f4941c",
+        "coinGeckoId": "bitcoin"
     },
     {
         "type": "ibc",
@@ -8575,7 +8586,8 @@
         "description": "An alloy of ETH asset variants on Osmosis.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg",
-        "color": "#303030"
+        "color": "#303030",
+        "coinGeckoId": "ethereum"
     },
     {
         "type": "native",
@@ -8584,7 +8596,8 @@
         "symbol": "SOL",
         "description": "An alloy of SOL asset variants on Osmosis.",
         "decimals": 9,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg"
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg",
+        "coinGeckoId": "solana"
     },
     {
         "type": "ibc",
@@ -8718,7 +8731,8 @@
         "description": "TRONIX is the mainnet native token of the TRON Protocol issued by TRON DAO, known as TRX.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.svg",
-        "color": "#FF060A"
+        "color": "#FF060A",
+        "coinGeckoId": "tron"
     },
     {
         "type": "ibc",
@@ -8752,7 +8766,8 @@
         "description": "An alloy of OP asset variants on Osmosis.",
         "decimals": 12,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/optimism/images/op.svg",
-        "color": "#fc0424"
+        "color": "#fc0424",
+        "coinGeckoId": "optimism"
     },
     {
         "type": "ibc",
@@ -8783,7 +8798,8 @@
         "description": "An alloy of SHIB asset variants on Osmosis.",
         "decimals": 12,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg",
-        "color": "#FFA409"
+        "color": "#FFA409",
+        "coinGeckoId": "shiba-inu"
     },
     {
         "type": "native",
@@ -8793,7 +8809,8 @@
         "description": "An alloy of ARB asset variants on Osmosis.",
         "decimals": 12,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg",
-        "color": "#253545"
+        "color": "#253545",
+        "coinGeckoId": "arbitrum"
     },
     {
         "type": "native",
@@ -8803,7 +8820,8 @@
         "description": "An alloy of LINK asset variants on Osmosis.",
         "decimals": 12,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg",
-        "color": "#2c5cdc"
+        "color": "#2c5cdc",
+        "coinGeckoId": "chainlink"
     },
     {
         "type": "native",
@@ -8813,7 +8831,8 @@
         "description": "An alloy of PEPE asset variants on Osmosis.",
         "decimals": 12,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg",
-        "color": "#cc3233"
+        "color": "#cc3233",
+        "coinGeckoId": "pepe"
     },
     {
         "type": "native",
@@ -8823,7 +8842,8 @@
         "description": "An alloy of DOT asset variants on Osmosis.",
         "decimals": 10,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg",
-        "color": "#e4047c"
+        "color": "#e4047c",
+        "coinGeckoId": "polkadot"
     },
     {
         "type": "ibc",
@@ -8986,7 +9006,7 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.orai.svg",
         "ibc_info": {
-            "path": "ton>orai-chain>osmosis",
+            "path": "ton>oraichain>osmosis",
             "client": {
                 "channel": "channel-216",
                 "port": "transfer"
@@ -8994,7 +9014,7 @@
             "counterparty": {
                 "channel": "channel-13",
                 "port": "transfer",
-                "chain": "orai-chain",
+                "chain": "oraichain",
                 "denom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton"
             }
         }
@@ -9007,7 +9027,8 @@
         "description": "An alloy of TON asset variants on Osmosis.",
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/ton.svg",
-        "color": "#0088CC"
+        "color": "#0088CC",
+        "coinGeckoId": "the-open-network"
     },
     {
         "type": "ibc",
@@ -9122,6 +9143,7 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/internetcomputer/images/ckbtc.svg",
         "color": "#3B00B9",
+        "coinGeckoId": "chain-key-bitcoin",
         "bridge_info": {
             "path": "internetcomputer>osmosis"
         }
@@ -9285,7 +9307,8 @@
         "symbol": "UNI",
         "description": "An alloy of UNI asset variants on Osmosis.",
         "decimals": 12,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uni.svg"
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uni.svg",
+        "coinGeckoId": "uniswap"
     },
     {
         "type": "ibc",
@@ -9569,7 +9592,8 @@
         "description": "An alloy of DOGE asset variants on Osmosis.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/dogecoin/images/doge.png",
-        "color": "#bda148"
+        "color": "#bda148",
+        "coinGeckoId": "dogecoin"
     },
     {
         "type": "native",
@@ -9579,7 +9603,8 @@
         "description": "An alloy of LTC asset variants on Osmosis.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/litecoin/images/ltc.svg",
-        "color": "#345D9D"
+        "color": "#345D9D",
+        "coinGeckoId": "litecoin"
     },
     {
         "type": "native",
@@ -9589,7 +9614,8 @@
         "description": "An alloy of BCH asset variants on Osmosis.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoincash/images/bch.svg",
-        "color": "#0AC18E"
+        "color": "#0AC18E",
+        "coinGeckoId": "bitcoin-cash"
     },
     {
         "type": "ibc",
@@ -9621,7 +9647,6 @@
         "name": "AtomOne",
         "symbol": "ATONE",
         "description": "The native staking and governance token of AtomOne",
-        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg",
         "ibc_info": {
             "path": "atomone>osmosis",
@@ -9676,7 +9701,6 @@
         "name": "Yield GATA",
         "symbol": "YGATA",
         "description": "GATA Yield DAO Governance Token powered by OmniFlixHub",
-        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg",
         "color": "#7b5aff",
         "ibc_info": {
