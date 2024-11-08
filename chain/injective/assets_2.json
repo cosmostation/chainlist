@@ -1886,5 +1886,15 @@
         "decimals": 6,
         "image": "https://imagedelivery.net/lPzngbR8EltRfBOi_WYaXw/add7e69a-f62d-4d14-1e33-e266d8dd3200/public",
         "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj104h3hchl7ws8lp78zpvrunvsjdwfjc02r5d0fp/injx",
+        "name" : "Injex Finance",
+        "symbol": "INJX",
+        "description": "Injex Finance",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/injx.png",
+        "coinGeckoId": "injex-finance"
     }
 ]

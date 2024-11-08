@@ -1,0 +1,42 @@
+{
+    "chain_id_cosmos" : "haqq_11235-1",
+    "chain_name": "Haqq Network",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/haqq/resource/chain_haqq.png",
+    "main_asset_denom" : "aISLM",
+    "main_asset_symbol" : "ISLM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/haqq/asset/haqq.png",
+    "bech_account_prefix" : "haqq",
+    "bech_validator_prefix" : "haqqvaloper",
+    "api_name" : "",
+    "origin_genesis_time" : "",
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "25000000000aISLM"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "NodeStake",
+            "url": "grpc.haqq.nodestake.top:443"
+        },
+        {
+            "provider": "Palamar",
+            "url": "haqq-grpc.palamar.io:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://haqq.network/"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

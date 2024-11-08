@@ -1,0 +1,24 @@
+{
+    "explorer" : {
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://prysm.network/",
+        "docs": "http://docs.prysm.network/",
+        "github" : "https://github.com/LightLABS-Dev",
+        "medium" : "https://medium.com/@prysmnetwork",
+        "twitter" : "https://twitter.com/PrysmNetwork",
+        "discord" : "http://discord.gg/prysmnetwork",
+        "coingecko" : ""
+    },
+    "forum": {
+        "main": "https://www.prysm.network/forum"
+    },
+    "description" : {
+        "en" : "PRYSM is An ICS hub connecting PoW assets to Cosmos, enabling secure, low cost DeFi access and interoperability across blockchains."
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "chain_id_cosmos" : "shentu-2.2",
+    "chain_name": "Shentu",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shentu/resource/chain_shentu.png",
+    "main_asset_denom": "uctk",
+    "main_asset_symbol" : "CTK",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shentu/asset/ctk.png",
+    "bech_account_prefix" : "shentu",
+    "bech_validator_prefix" : "shentuvaloper",
+    "origin_genesis_time" : "2020-10-24T14:24:00Z",
+    "api_name" : "shentu",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.05uctk"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-shentu.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-shentu.cosmostation.io/"
+        },
+        {
+            "provider": "Shentu",
+            "url": "https://rest.noopsbycertik.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://shentu-api.polkachu.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://shentu.api.m.stavr.tech/"
+        },
+        {
+            "provider": "ramuchi.tech",
+            "url": "https://shentu-api.ramuchi.tech/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/shentu/",
+        "account": "https://www.mintscan.io/shentu/address/${address}",
+        "tx": "https://www.mintscan.io/shentu/tx/${hash}",
+        "proposal": "https://www.mintscan.io/shentu/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.shentu.technology/",
+        "github" : "https://github.com/shentufoundation",
+        "blog" : "https://medium.com/shentu-foundation",
+        "medium": "https://medium.com/shentu-foundation",
+        "twitter" : "https://twitter.com/ShentuChain",
+        "coingecko" : "https://www.coingecko.com/en/coins/shentu"
+    },
+    "forum": {
+      "main": "https://www.reddit.com/r/ShentuChain"
+    },
+    "description" : {
+        "ko" : "Shentu Foundation의 고유한 공식 검증 보안 시스템을 기반으로하는 공용 플랫폼입니다. shentu체인은 보안 중심 체인에서 스마트 계약 실행 및 상호 작용을 허용합니다.",
+        "en" : "A public platform based on the Shentu Foundation’s unique Formal Verification security system.",
+        "ja" : "Shentu Foundationの固有な公式検証保安システムをベースにする共用プラットフォームです。Shentuは保安中心チェーンでスマート契約実行及び相互作用を許容します。"
+    }
+}

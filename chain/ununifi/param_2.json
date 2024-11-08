@@ -1,0 +1,31 @@
+{
+    "chain_name": "UnUniFi",
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0025uguu",
+            "0.025uguu",
+            "0.04uguu"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "ununifi-grpc.lavenderfive.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://ununifi.io/"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

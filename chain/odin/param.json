@@ -1,14 +1,14 @@
 {
     "chain_name": "Odin Protocol",
-    "fee" : {
+    "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-			"0.0025loki",
-			"0.025loki"
+            "0.0025loki",
+            "0.025loki"
         ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
         "init_gas_limit" : 300000,
-        "isSimulable" : true,
-        "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
@@ -18,7 +18,7 @@
         }
     ],
     "about" : {
-		"website" : "https://odinprotocol.io/"
+        "website" : "https://odinprotocol.io/"
     },
     "forum": {
     },

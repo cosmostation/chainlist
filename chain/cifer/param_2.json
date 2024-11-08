@@ -1,0 +1,47 @@
+{
+    "chain_id_cosmos" : "cifer-2",
+    "chain_name": "Cifer",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cifer/resource/chain_cif.png",
+    "main_asset_denom" : "ucif",
+    "main_asset_symbol" : "CIF",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cifer/asset/cif.png",
+    "bech_account_prefix" : "cife",
+    "bech_validator_prefix" : "cifevaloper",
+    "origin_genesis_time" : "2024-04-10T03:05:25.355240367Z",
+    "api_name" : "cifer",
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0025ucif",
+            "0.025ucif",
+            "0.04ucif"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cifer",
+            "url": "34.128.114.243:9090"
+        }
+    ],
+    "about" : {
+        "website" : "https://cifer.ai/",
+        "github" : "https://github.com/CiferAI",
+        "twitter" : "https://twitter.com/cifer_ai",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "사이퍼 블록체인 네트워크: 분산형 머신러닝",
+        "en" : "Cifer Blockchain Network Built for Decentralized Machine Learning",
+        "ja" : "サイファーブロックチェーンネットワーク: 分散型機械学習"
+    }
+}

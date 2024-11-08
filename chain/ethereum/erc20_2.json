@@ -3628,16 +3628,6 @@
     },
     {
         "type": "erc20",
-        "contract": "0x3c8D2FCE49906e11e71cB16Fa0fFeB2B16C29638",
-        "name": "Nifty League",
-        "symbol": "NFTL",
-        "description": "",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x3c8D2FCE49906e11e71cB16Fa0fFeB2B16C29638/logo.png",
-        "coinGeckoId": "nftlaunch"
-    },
-    {
-        "type": "erc20",
         "contract": "0x0De05F6447ab4D22c8827449EE4bA2D5C288379B",
         "name": "OOKI",
         "symbol": "OOKI",

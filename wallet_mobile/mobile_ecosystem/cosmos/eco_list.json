@@ -19,5 +19,12 @@
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/pstake-finance.png",
     "link": "https://app.pstake.finance/cosmos",
     "type": "Defi"
+  },
+  {
+    "name": "Hydro Voting",
+    "description": "Hydro lets ATOM holders vote on project bids to direct liquidity and earn rewards. It’s in view-only mode, with pilot rounds ongoing.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/hydro.jpg",
+    "link": "https://hydro.cosmos.network/voting",
+    "type": "Vote"
   }
 ]

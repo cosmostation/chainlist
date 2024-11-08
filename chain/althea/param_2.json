@@ -1,0 +1,99 @@
+{
+    "chain_id_cosmos": "althea_258432-1",
+    "chain_id_evm" : "0x3f180",
+    "chain_name": "Althea",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/althea/resource/chain_althea.png",
+    "main_asset_denom" : "aalthea",
+    "main_asset_symbol" : "ALTHEA",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/althea/asset/altg.png",
+    "bech_account_prefix" : "althea",
+    "bech_validator_prefix" : "altheavaloper",
+    "origin_genesis_time" : "2024-03-25T00:00:00Z",
+    "api_name" : "althea",
+    "is_send_enabled" : false,
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "100000000000aalthea"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-althea.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-althea.cosmostation.io/"
+        },
+        {
+            "provider": "Chandra Station",
+            "url": "https://nodes.chandrastation.com/api/althea/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://althea.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://althea-api.lavenderfive.com/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-althea-evm.cosmostation.io"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/althea/",
+        "account": "https://www.mintscan.io/althea/address/${address}",
+        "tx": "https://www.mintscan.io/althea/tx/${hash}",
+        "proposal": "https://www.mintscan.io/althea/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.althea.net/",
+        "docs": "https://docs.althea.net/",
+        "github" : "https://github.com/AltheaFoundation",
+        "blog" : "https://medium.com/althea-mesh",
+        "medium": "https://medium.com/althea-mesh",
+        "twitter" : "https://twitter.com/AltheaNetwork",
+        "discord" : "https://discord.com/invite/hHx7HxcycF",
+        "coingecko" : "https://www.coingecko.com/en/coins/althea"
+    },
+    "forum": {
+        "main": "https://forum.altheamesh.com/"
+    },
+    "description" : {
+        "ko" : "Althea Network는  ISP 서비스와 인프라를 위한 분산형 플랫폼이며, 블록체인 기술을 통해 효율적인 인프라 지원 및 결제 처리를 지원합니다.",
+        "en" : "Althea Network is a decentralized platform for ISP service and infrastructure, leveraging blockchain technology to facilitate efficient metering, delivery, infrastructure deployment and payment processing.",
+        "ja" : "Althea Network は、ISP サービスとインフラストラクチャのための分散型プラットフォームであり、ブロックチェーン技術を活用して効率的な計測、配信、インフラストラクチャの導入、支払い処理を促進します。"
+    }
+}

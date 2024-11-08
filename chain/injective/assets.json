@@ -1592,5 +1592,17 @@
     "description": "Distributing Happiness",
     "image": "injective/asset/drugsoninj.png",
     "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/inj104h3hchl7ws8lp78zpvrunvsjdwfjc02r5d0fp/injx",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj104h3hchl7ws8lp78zpvrunvsjdwfjc02r5d0fp/injx",
+    "origin_type": "native",
+    "symbol": "INJX",
+    "decimals": 6,
+    "description": "Injex Finance",
+    "image": "injective/asset/injx.png",
+    "coinGeckoId": "injex-finance"
   }
 ]

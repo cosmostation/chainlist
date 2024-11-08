@@ -1,0 +1,32 @@
+{
+    "chain_name": "Titan",
+    "cosmos_fee_info": {
+        "base": "1",
+        "rate": [
+            "100000000000atkx",
+            "110000000000atkx",
+            "200000000000atkx"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.4,
+        "init_gas_limit" : 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "Titanlab.io",
+            "url": "titan-grpc.titanlab.io:443"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+    ],
+    "about": {
+        "website": "https://titanlab.io/",
+        "github": "https://github.com/titantkx/titan"
+    },
+    "description": {
+        "ko": "EVM(이더리움 가상 머신) 호환이 가능한 Cosmos SDK 기반 블록체인.",
+        "en": "A Cosmos SDK based IBC & EVM-compatible(Ethereum Virtual Machine) blockchain.",
+        "ja": "EVM(イーサリアム仮想マシン)互換可能な (イーサリアム仮想マシン) Cosmos SDKベースのブロックチェーン。"
+    }
+}

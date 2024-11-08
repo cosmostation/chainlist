@@ -1,0 +1,91 @@
+{
+    "chain_id_cosmos" : "ixo-5",
+    "chain_name": "Ixo",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ixo/resource/chain_ixo.png",
+    "main_asset_denom" : "uixo",
+    "main_asset_symbol" : "IXO",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ixo/asset/ixo.png",
+    "bech_account_prefix" : "ixo",
+    "bech_validator_prefix" : "ixovaloper",
+    "origin_genesis_time" : "2021-08-19T12:00:00Z",
+    "api_name" : "ixo",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.025uixo"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-ixo.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-ixo-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "impacthub-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-ixo.cosmostation.io/"
+        },
+        {
+            "provider": "ixoworld",
+            "url": "https://impacthub.ixo.world/rest/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://ixo.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://impacthub-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://ixo-api.ibs.team/"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/ixo",
+        "account": "https://atomscan.com/ixo/accounts/${address}",
+        "tx": "https://atomscan.com/ixo/transactions/${hash}",
+        "proposal": "https://atomscan.com/ixo/votes/${id}"
+    },
+    "about" : {
+        "website" : "https://www.ixo.world/",
+        "docs": "https://docs.ixo.foundation/ixo",
+        "github" : "https://github.com/ixofoundation",
+        "blog" : "https://medium.com/ixo-blog",
+        "medium": "https://medium.com/ixo-blog",
+        "twitter" : "https://twitter.com/ixoworld",
+        "coingecko" : "https://www.coingecko.com/en/coins/ixo"
+    },
+    "description" : {
+        "ko" : "Ixo 프로토콜은 재생 금융 및 지구 상태 변화 검증을 위한 탄소 중립 블록체인 네트워크를 구축하는 것을 목표로 합니다.",
+        "en" : "Ixo protocol aims to build a carbon-negative blockchain network for regenerative finance and verifying earth state change.",
+        "ja" : "脱炭素ブロックチェーンを通じて再生金融活性化及び気候変化を追跡するCosmos SDKベースのプロトコル。"
+    }
+}
