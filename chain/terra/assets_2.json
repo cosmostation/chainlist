@@ -4,7 +4,7 @@
         "denom": "uluna",
         "name" : "Luna",
         "symbol": "LUNA",
-        "description": "Terra Staking Coin",
+        "description": "The native staking token of Terra.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
         "coinGeckoId": "terra-luna-2",
@@ -212,7 +212,7 @@
         "denom": "ibc/830107B6700EF8D76F5DB4B586C436A3D2A672939F93BDFC6543E12DD281453A",
         "name" : "Kava",
         "symbol": "KAVA",
-        "description": "Kava Staking Coin",
+        "description": "Kava is a EVM/IBC Co-Chain through which USDt can be transported via Stargate Finance.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
         "coinGeckoId": "kava",
@@ -501,6 +501,143 @@
                 "port": "transfer",
                 "chain": "cosmos",
                 "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/25BC59386BB65725F735EFC0C369BB717AA8B5DAD846EAF9CBF5D0F18F207211",
+        "name" : "Injective",
+        "symbol": "INJ",
+        "description": "The INJ token is the native governance token for the Injective chain.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+        "coinGeckoId": "injective-protocol",
+        "ibc_info" : {
+            "path": "injective>terra",
+            "client" : {
+                "channel": "channel-255",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-151",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "inj"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/223FF539430381ADAB3A66AC4822E253C3F845E9841F17FEEC207B3AA9F8D915",
+        "name" : "dATOM",
+        "symbol": "dATOM",
+        "description": "A liquid staking derivative of staked ATOM, powered by DROP on Neutron.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/datom.png",
+        "coinGeckoId": "drop-staked-atom",
+        "ibc_info" : {
+            "path": "neutron>terra",
+            "client" : {
+                "channel": "channel-229",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "The native token of Osmosis, running one of the largest DEX in Cosmos.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>terra",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-251",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5BDDCE0FEE672CB481C0FC7B82132B90CBCD5B5CF314934A8868D570F69756F8",
+        "name" : "Sei",
+        "symbol": "SEI",
+        "description": "Sei is a parallel EVM/IBC chain through which USDt and USDC can be transported via Stargate Finance.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/sei.png",
+        "coinGeckoId": "sei-network",
+        "ibc_info" : {
+            "path": "sei>terra",
+            "client" : {
+                "channel": "channel-158",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "sei",
+                "denom": "usei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8D8A7F7253615E5F76CB6252A1E1BD921D5EDB7BBAAF8913FB1C77FF125D9995",
+        "name" : "Astroport token",
+        "symbol": "ASTRO",
+        "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/astro.png",
+        "coinGeckoId": "astroport-fi",
+        "ibc_info" : {
+            "path": "neutron>terra",
+            "client" : {
+                "channel": "channel-229",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6",
+        "name" : "Staked Astroport Token",
+        "symbol": "xASTRO",
+        "description": "The staked version of the Astroport token, powered by Neutron.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/xAstro.png",
+        "ibc_info" : {
+            "path": "neutron>terra",
+            "client" : {
+                "channel": "channel-229",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1zlf3hutsa4qnmue53lz2tfxrutp8y2e3rj4nkghg3rupgl4mqy8s5jgxsn/xASTRO"
             }
         }
     }
