@@ -3,12 +3,12 @@
     "chainId": -1,
     "chainName": "terra",
     "address": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
-    "symbol": "ASTRO",
-    "description": "Astroport Token",
+    "symbol": "ASTRO.cw20",
+    "description": "Astroport Token (outdated)",
     "decimals": 6,
-    "image": "terra/asset/astro.png",
+    "image": "terra/asset/astro-cw20.png",
     "default": true,
-    "coinGeckoId": "astroport-fi"
+    "coinGeckoId": ""
   },
   {
     "chainId": -1,
@@ -69,7 +69,7 @@
     "chainId": -1,
     "chainName": "terra",
     "address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
-    "symbol": "boneLUNA",
+    "symbol": "bLUNA",
     "description": "BackBoneLabs Liquid Staked LUNA",
     "decimals": 6,
     "image": "terra/asset/bluna.png",
@@ -86,5 +86,16 @@
     "image": "terra/asset/LADS.png",
     "default": false,
     "coinGeckoId": ""
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
+    "symbol": "ROAR",
+    "description": "Lion DAO is a community DAO that lives on the Terra blockchain with the mission to reactivate the LUNAtic community and showcase Terra protocols & tooling.",
+    "decimals": 6,
+    "image": "terra/asset/roar.png",
+    "default": false,
+    "coinGeckoId": "lion-dao"
   }
 ]
