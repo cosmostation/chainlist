@@ -17,8 +17,8 @@
         "symbol": "USDC.eth.axl",
         "description": "Circle's stablecoin on Axelar",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
-        "coinGeckoId": "usd-coin",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg",
+        "coinGeckoId": "axlusdc",
         "ibc_info" : {
             "path": "ethereum>axelar>terra",
             "client" : {
@@ -40,8 +40,8 @@
         "symbol": "USDT.eth.axl",
         "description": "Tether's USD stablecoin on Axelar",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
-        "coinGeckoId": "tether",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg",
+        "coinGeckoId": "axelar-usdt",
         "ibc_info" : {
             "path": "ethereum>axelar>terra",
             "client" : {
@@ -183,5 +183,141 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/ura.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+        "name" : "Tether USDt",
+        "symbol": "USDt",
+        "description": "USDt - directly minted on the Kava chain by the Tether Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "ibc_info" : {
+            "path": "kava>terra",
+            "client" : {
+                "channel": "channel-272",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-138",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "erc20/tether/usdt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/830107B6700EF8D76F5DB4B586C436A3D2A672939F93BDFC6543E12DD281453A",
+        "name" : "Kava",
+        "symbol": "KAVA",
+        "description": "Kava Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
+        "coinGeckoId": "kava",
+        "ibc_info" : {
+            "path": "kava>terra",
+            "client" : {
+                "channel": "channel-272",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-138",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "ukava"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/792AAE6279F4709F66068E29A79E6F16BBC0A9B93561A91FC040606793E62D6B",
+        "name" : "Carbon",
+        "symbol": "SWTH",
+        "description": "The native governance token of Carbon",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg",
+        "coinGeckoId": "switcheo",
+        "ibc_info" : {
+            "path": "carbon>terra",
+            "client" : {
+                "channel": "channel-36",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-12",
+                "port": "transfer",
+                "chain": "carbon",
+                "denom": "swth"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0E90026619DD296AD4EF9546396F292B465BAB6B5BE00ABD6162AA1CE8E68098",
+        "name" : "StaFi Staked SWTH",
+        "symbol": "rSWTH",
+        "description": "A liquid staking derivative of staked SWTH",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/rswth.svg",
+        "coinGeckoId": "stafi-staked-swth",
+        "ibc_info" : {
+            "path": "stafi>terra",
+            "client" : {
+                "channel": "channel-204",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-9",
+                "port": "transfer",
+                "chain": "stafi",
+                "denom": "urswth"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/08095CEDEA29977C9DD0CE9A48329FDA622C183359D5F90CF04CC4FF80CBE431",
+        "name" : "Stride Staked LUNA",
+        "symbol": "stLUNA",
+        "description": "A liquid staking derivative of staked LUNA",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stluna.png",
+        "ibc_info" : {
+            "path": "stride>terra",
+            "client" : {
+                "channel": "channel-46",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-52",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuluna"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+        "name" : "Monerium EUR emoney",
+        "symbol": "EURe",
+        "description": "EURe is a Euro-backed stablecoin issued by Monerium on Noble.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/eure.png",
+        "ibc_info" : {
+            "path": "noble>terra",
+            "client" : {
+                "channel": "channel-253",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-30",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "ueure"
+            }
+        }
     }
 ]
