@@ -258,7 +258,7 @@
         "denom": "ibc/0E90026619DD296AD4EF9546396F292B465BAB6B5BE00ABD6162AA1CE8E68098",
         "name" : "StaFi Staked SWTH",
         "symbol": "rSWTH",
-        "description": "A liquid staking derivative of staked SWTH",
+        "description": "A liquid staking derivative of staked SWTH, powered by StaFi.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/rswth.svg",
         "coinGeckoId": "stafi-staked-swth",
@@ -281,7 +281,7 @@
         "denom": "ibc/08095CEDEA29977C9DD0CE9A48329FDA622C183359D5F90CF04CC4FF80CBE431",
         "name" : "Stride Staked LUNA",
         "symbol": "stLUNA",
-        "description": "A liquid staking derivative of staked LUNA",
+        "description": "A liquid staking derivative of staked LUNA, powered by Stride.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stluna.png",
         "ibc_info" : {
@@ -306,6 +306,7 @@
         "description": "EURe is a Euro-backed stablecoin issued by Monerium on Noble.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/eure.png",
+        "coinGeckoId": "monerium-eur-money",
         "ibc_info" : {
             "path": "noble>terra",
             "client" : {
@@ -317,6 +318,189 @@
                 "port": "transfer",
                 "chain": "noble",
                 "denom": "ueure"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/36A02FFC4E74DF4F64305130C3DFA1B06BEAC775648927AA44467C76A77AB8DB",
+        "name" : "Whale",
+        "symbol": "WHALE",
+        "description": "Migaloo is a cosmwasm-powered, permissionless blockchain designed to build decentralized applications with a focus on interchain liquidity solutions.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/whitewhale.png",
+        "coinGeckoId": "white-whale",
+        "ibc_info" : {
+            "path": "migaloo>terra",
+            "client" : {
+                "channel": "channel-86",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "uwhale"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B3F639855EE7478750CC8F82072307ED6E131A8EFF20345E1D136B50C4E5EC36",
+        "name" : "Amplified WHALE",
+        "symbol": "ampWHALE",
+        "description": "A liquid staking derivative of staked Whale, powered by Eris Protocol.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/ampwhale.png",
+        "coinGeckoId": "eris-amplified-whale",
+        "ibc_info" : {
+            "path": "migaloo>terra",
+            "client" : {
+                "channel": "channel-86",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/517E13F14A1245D4DE8CF467ADD4DA0058974CDCC880FA6AE536DBCA1D16D84E",
+        "name" : "BackBone Labs Staked WHALE",
+        "symbol": "bWHALE",
+        "description": "A liquid staking derivative of staked Whale, powered by BackBone Labs.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/bwhale.png",
+        "ibc_info" : {
+            "path": "migaloo>terra",
+            "client" : {
+                "channel": "channel-86",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/CF57A83CED6CEC7D706631B5DC53ABC21B7EDA7DF7490732B4361E6D5DD19C73",
+        "name" : "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin (WBTC) is a token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Osmosis community led.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
+        "coinGeckoId": "wrapped-bitcoin",
+        "ibc_info" : {
+            "path": "osmosis>terra",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-251",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/05D299885B07905B6886F554B39346EA6761246076A1120B1950049B92B922DD",
+        "name" : "Wrapped Bitcoin (Ethereum via Axelar)",
+        "symbol": "WBTC.eth.axl",
+        "description": "Wrapped Bitcoin on Axelar",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg",
+        "coinGeckoId": "axlwbtc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>terra",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "wbtc-satoshi"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
+        "name" : "Wrapped Lido Staked Ether",
+        "symbol": "wstETH",
+        "description": "wstETH is the wrapped version of stETH, powered by Neutron and is considered canonical.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
+        "coinGeckoId": "wrapped-steth",
+        "ibc_info" : {
+            "path": "ethereum>neutron>terra",
+            "client" : {
+                "channel": "channel-229",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BC8A77AFBD872FDC32A348D3FB10CC09277C266CFE52081DE341C7EC6752E674",
+        "name" : "Wrapped Ethereum (Axelar)",
+        "symbol": "wETH.axl",
+        "description": "Ethereum (ETH) is a decentralized, open-source blockchain system featuring smart contract functionality. It is the native cryptocurrency of the Ethereum platform.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/eth.axl.svg",
+        "coinGeckoId": "axlweth",
+        "ibc_info" : {
+            "path": "ethereum>axelar>terra",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "weth-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "ATOM is the native cryptocurrency of the Cosmos Hub (Gaia), designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>terra",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-339",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
             }
         }
     }
