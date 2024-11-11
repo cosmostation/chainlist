@@ -640,5 +640,28 @@
                 "denom": "factory/neutron1zlf3hutsa4qnmue53lz2tfxrutp8y2e3rj4nkghg3rupgl4mqy8s5jgxsn/xASTRO"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FD9DBF0DB4D301313195159303811FD2FD72185C4B11A51659EFCD49D7FF1228",
+        "name" : "Stride ATOM",
+        "symbol": "stATOM",
+        "description": "A liquid staking derivative of staked ATOM, powered by Stride.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/statom.png",
+        "coinGeckoId": "stride-staked-atom",
+        "ibc_info" : {
+            "path": "stride>terra",
+            "client" : {
+                "channel": "channel-46",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-52",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuatom"
+            }
+        }
     }
 ]
