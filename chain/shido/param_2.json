@@ -45,6 +45,28 @@
         {
             "provider": "shido.io",
             "url": "grpc-web.shidoscan.com"
+        },
+        {
+            "provider": "MavNode",
+            "url": "https://grpc-maverick.mavnode.io"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Shido"
+            "address": "https://swagger.shidoscan.com",
+        },
+        {
+            "provider": "Indonode",
+            "url": "https://api.shido.indonode.net"
+        },
+        {
+            "provider": "MavNode",
+            "url": "https://api-maverick.mavnode.io"
+        },
+        {
+            "provider": "KENSEI",
+            "url": "https://api.kenseishido.com"
         }
     ],
     "evm_rpc_endpoint" : [
