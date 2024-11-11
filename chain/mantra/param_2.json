@@ -30,6 +30,7 @@
             "0.02uom",
             "0.03uom"
         ],
+        "is_feemarket": true,
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.3,
         "init_gas_limit" : 300000,
