@@ -1,17 +1,6 @@
 [
     {
         "type": "cw20",
-        "contract": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
-        "name" : "Astroport Token (outdated)",
-        "symbol": "ASTRO.cw20",
-        "description": "The old CW20 token of Astroport, which has been migrated to a new factory address on Neutron.",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/astro-cw20.png",
-        "coinGeckoId": "",
-        "color": "#4056e9"
-    },
-    {
-        "type": "cw20",
         "contract": "terra14xsm2wzvu7xaf567r693vgfkhmvfs08l68h4tjj5wjgyn5ky8e2qvzyanh",
         "name" : "Stader LunaX Token",
         "symbol": "LUNAX",
