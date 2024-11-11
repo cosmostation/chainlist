@@ -384,7 +384,7 @@
         "contract": "terra1lnsvush7d94zakuvc84sqp996s0rcuqe3c4zaaslcgk64q8gepks25vegx",
         "name" : "Wrapped Bitcoin (Portal)",
         "symbol": "WBTC.wh",
-        "description": "Wrapped Bitcoin is an token backed 1:1 with Bitcoin, imported directly to Terra from Ethereum via Wormhole technology.",
+        "description": "Wrapped Bitcoin is a token backed 1:1 with Bitcoin, imported directly to Terra from Ethereum via Wormhole technology.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/WBTCportal.png",
         "coinGeckoId": "wrapped-btc-wormhole"
