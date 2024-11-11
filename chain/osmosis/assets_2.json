@@ -293,7 +293,7 @@
         "color": "#fcdb5b",
         "coinGeckoId": "terra-luna",
         "ibc_info": {
-            "path": "terra>osmosis",
+            "path": "terra-classic>osmosis",
             "client": {
                 "channel": "channel-72",
                 "port": "transfer"
@@ -301,7 +301,7 @@
             "counterparty": {
                 "channel": "channel-1",
                 "port": "transfer",
-                "chain": "terra",
+                "chain": "terra-classic",
                 "denom": "uluna"
             }
         }
@@ -435,7 +435,7 @@
         "color": "#5493f2",
         "coinGeckoId": "terrausd",
         "ibc_info": {
-            "path": "terra>osmosis",
+            "path": "terra-classic>osmosis",
             "client": {
                 "channel": "channel-72",
                 "port": "transfer"
@@ -443,7 +443,7 @@
             "counterparty": {
                 "channel": "channel-1",
                 "port": "transfer",
-                "chain": "terra",
+                "chain": "terra-classic",
                 "denom": "uusd"
             }
         }
@@ -1344,7 +1344,7 @@
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg",
         "color": "#4b83e0",
         "ibc_info": {
-            "path": "terra>osmosis",
+            "path": "terra-classic>osmosis",
             "client": {
                 "channel": "channel-72",
                 "port": "transfer"
@@ -1352,7 +1352,7 @@
             "counterparty": {
                 "channel": "channel-1",
                 "port": "transfer",
-                "chain": "terra",
+                "chain": "terra-classic",
                 "denom": "ukrw"
             }
         }
@@ -8351,7 +8351,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/juris.png",
         "ibc_info": {
-            "path": "terra>osmosis",
+            "path": "terra-classic>osmosis",
             "client": {
                 "channel": "channel-78488",
                 "port": "transfer"
@@ -8359,7 +8359,7 @@
             "counterparty": {
                 "channel": "channel-108",
                 "port": "wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc",
-                "chain": "terra",
+                "chain": "terra-classic",
                 "denom": "terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2"
             }
         }
