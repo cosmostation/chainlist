@@ -7,7 +7,7 @@
     "description": "Astroport Token (outdated)",
     "decimals": 6,
     "image": "terra/asset/astro-cw20.png",
-    "default": true,
+    "default": false,
     "coinGeckoId": ""
   },
   {
@@ -92,10 +92,65 @@
     "chainName": "terra",
     "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
     "symbol": "ROAR",
-    "description": "Lion DAO is a community DAO that lives on the Terra blockchain with the mission to reactivate the LUNAtic community and showcase Terra protocols & tooling.",
+    "description": "Lion DAO",
     "decimals": 6,
     "image": "terra/asset/roar.png",
     "default": false,
     "coinGeckoId": "lion-dao"
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra15hhqg8gyz04zapynqtk7uvlsp7lzay7etrt9ann0276v94yae63sxygeat",
+    "symbol": "ETH.wh",
+    "description": "Wrapped Ethereum (Portal)",
+    "decimals": 8,
+    "image": "terra/asset/wETHportal.png",
+    "default": false,
+    "coinGeckoId": "ethereum-wormhole"
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1lnsvush7d94zakuvc84sqp996s0rcuqe3c4zaaslcgk64q8gepks25vegx",
+    "symbol": "WBTC.wh",
+    "description": "Wrapped Bitcoin (Portal)",
+    "decimals": 8,
+    "image": "terra/asset/WBTCportal.png",
+    "default": false,
+    "coinGeckoId": "wrapped-btc-wormhole"
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1ctelwayk6t2zu30a8v9kdg3u2gr0slpjdfny5pjp7m3tuquk32ysugyjdg",
+    "symbol": "SOL.wh",
+    "description": "Wrapped Solana (Portal)",
+    "decimals": 8,
+    "image": "terra/asset/wSOLportal.png",
+    "default": false,
+    "coinGeckoId": "sol-wormhole"
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1xc7ynquupyfcn43sye5pfmnlzjcw2ck9keh0l2w2a4rhjnkp64uq4pr388",
+    "symbol": "BNB.wh",
+    "description": "Wrapped BNB (Portal)",
+    "decimals": 8,
+    "image": "terra/asset/wBNBportal.png",
+    "default": false,
+    "coinGeckoId": "binance-coin-wormhole"
+  },
+  {
+    "chainId": -1,
+    "chainName": "terra",
+    "address": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
+    "symbol": "arbLUNA",
+    "description": "ERIS Arbitrage LUNA",
+    "decimals": 6,
+    "image": "terra/asset/arbLuna.png",
+    "default": false,
+    "coinGeckoId": ""
   }
 ]
