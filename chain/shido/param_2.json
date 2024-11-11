@@ -10,6 +10,14 @@
     "bech_validator_prefix" : "shidovaloper",
     "origin_genesis_time" : "2024-03-29T20:27:38.935002404Z",
     "api_name" : "shido",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "is_support_cw20" : true,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -37,6 +45,28 @@
         {
             "provider": "shido.io",
             "url": "grpc-web.shidoscan.com"
+        },
+        {
+            "provider": "MavNode",
+            "url": "https://grpc-maverick.mavnode.io"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Shido",
+            "url": "https://swagger.shidoscan.com"
+        },
+        {
+            "provider": "Indonode",
+            "url": "https://api.shido.indonode.net"
+        },
+        {
+            "provider": "MavNode",
+            "url": "https://api-maverick.mavnode.io"
+        },
+        {
+            "provider": "KENSEI",
+            "url": "https://api.kenseishido.com"
         }
     ],
     "evm_rpc_endpoint" : [
@@ -50,11 +80,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/shido/",
-        "account": "https://www.mintscan.io/shido/address/${address}",
-        "tx": "https://www.mintscan.io/shido/tx/${hash}",
-        "proposal": "https://www.mintscan.io/shido/proposals/${id}"
+        "name": "Shidoscan",
+        "url": "https://shidoscan.com",
+        "account": "https://shidoscan.com/address/${address}",
+        "tx": "https://shidoscan.com/tx/${hash}",
+        "proposal": ""
     },
     "about" : {
         "website" : "https://shido.io/",
