@@ -53,8 +53,8 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Shido"
-            "address": "https://swagger.shidoscan.com",
+            "provider": "Shido",
+            "url": "https://swagger.shidoscan.com"
         },
         {
             "provider": "Indonode",
