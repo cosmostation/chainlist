@@ -1,5 +1,26 @@
 {
+    "chain_id_cosmos" : "Oraichain",
     "chain_name": "Oraichain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/resource/chain_orai.png",
+    "main_asset_denom" : "orai",
+    "main_asset_symbol" : "ORAI",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/orai.png",
+    "bech_account_prefix" : "orai",
+    "bech_validator_prefix" : "oraivaloper",
+    "origin_genesis_time" : "2021-02-14T08:44:16Z",
+    "api_name" : "orai-chain",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
@@ -24,14 +45,36 @@
             "url": "mainnet-orai.konsortech.xyz:33090"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "OraiChain",
+            "url": "https://lcd.orai.io"
+        },
+        {
+            "provider": "Public Node",
+            "url": "https://oraichain-rest.publicnode.com"
+        }
+    ],
+    "explorer" : {
+        "name": "Oraiscan",
+        "url": "https://scan.orai.io/",
+        "account": "https://scan.orai.io/account/${address}",
+        "tx": "https://scan.orai.io/txs/${hash}",
+        "proposal": "https://scan.orai.io/proposals/${id}"
+    },
     "about" : {
-        "website" : "https://orai.io/"
+        "website" : "https://orai.io/",
+        "docs": "https://docs.orai.io/",
+        "github" : "https://github.com/oraichain",
+        "medium": "https://oraichain.medium.com/",
+        "twitter" : "https://x.com/oraichain",
+        "coingecko" : "https://www.coingecko.com/en/coins/oraichain-token"
     },
     "forum": {
     },
     "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
+        "ko" : "고유한 AI 레이어 1 블록체인으로, 탈중앙화된 인프라 위에 사람 중심의 인공지능을 구축할 수 있는 프레임워크와 도구를 제공합니다.",
+        "en" : "The unique AI Layer 1 blockchain providing frameworks and tools to build human-centric artificial intelligence on decentralized infrastructures.",
+        "ja" : "独自のAIレイヤー1ブロックチェーンで、分散型インフラ上に人間中心の人工知能を構築するためのフレームワークとツールを提供します。"
     }
 }
