@@ -731,5 +731,15 @@
                 "contract": "So11111111111111111111111111111111111111112"
             }
         }
+    },
+    {
+        "type": "cw20",
+        "denom": "cw20:terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
+        "name" : "Lion Dao",
+        "symbol": "ROAR",
+        "description": "Lion DAO is a community DAO that lives on the Terra blockchain with the mission to reactivate the LUNAtic community and showcase Terra protocols & tooling.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/roar.png",
+        "coinGeckoId": "lion-dao"
     }
 ]
