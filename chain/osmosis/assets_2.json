@@ -221,7 +221,7 @@
         "color": "#f3bb0c",
         "coinGeckoId": "binancecoin",
         "ibc_info": {
-            "path": "binancesmartchain>axelar>osmosis",
+            "path": "bnb-smart-chain>axelar>osmosis",
             "client": {
                 "channel": "channel-208",
                 "port": "transfer"
@@ -747,7 +747,7 @@
         "color": "#2c4484",
         "coinGeckoId": "ixo",
         "ibc_info": {
-            "path": "impacthub>osmosis",
+            "path": "ixo>osmosis",
             "client": {
                 "channel": "channel-38",
                 "port": "transfer"
@@ -755,7 +755,7 @@
             "counterparty": {
                 "channel": "channel-4",
                 "port": "transfer",
-                "chain": "impacthub",
+                "chain": "ixo",
                 "denom": "uixo"
             }
         }
@@ -2343,7 +2343,7 @@
         "color": "#000000",
         "coinGeckoId": "oraichain-token",
         "ibc_info": {
-            "path": "oraichain>osmosis",
+            "path": "orai-chain>osmosis",
             "client": {
                 "channel": "channel-216",
                 "port": "transfer"
@@ -2351,7 +2351,7 @@
             "counterparty": {
                 "channel": "channel-13",
                 "port": "transfer",
-                "chain": "oraichain",
+                "chain": "orai-chain",
                 "denom": "orai"
             }
         }
@@ -6125,7 +6125,7 @@
         "color": "#1c1c1b",
         "coinGeckoId": "pundi-x-purse",
         "ibc_info": {
-            "path": "binancesmartchain>pundix>osmosis",
+            "path": "bnb-smart-chain>pundix>osmosis",
             "client": {
                 "channel": "channel-12618",
                 "port": "transfer"
@@ -6777,7 +6777,7 @@
         "color": "#7f22bc",
         "coinGeckoId": "source-protocol",
         "ibc_info": {
-            "path": "binancesmartchain>planq>source>osmosis",
+            "path": "bnb-smart-chain>planq>source>osmosis",
             "client": {
                 "channel": "channel-8945",
                 "port": "transfer"
@@ -9006,7 +9006,7 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.orai.svg",
         "ibc_info": {
-            "path": "ton>oraichain>osmosis",
+            "path": "ton>orai-chain>osmosis",
             "client": {
                 "channel": "channel-216",
                 "port": "transfer"
@@ -9014,7 +9014,7 @@
             "counterparty": {
                 "channel": "channel-13",
                 "port": "transfer",
-                "chain": "oraichain",
+                "chain": "orai-chain",
                 "denom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton"
             }
         }
