@@ -43,16 +43,20 @@
     ],
     "lcd_endpoint" : [
         {
+            "provider": "NolusProtocol",
+            "url": "lcd.nolus.network/"
+        },
+        {
             "provider": "Publicnode",
-            "url": "https://nolus-rest.publicnode.com"
+            "url": "https://nolus-rest.publicnode.com/"
         },
         {
             "provider": "LiveRaveN",
-            "url": "https://nolus.api.liveraven.net"
+            "url": "https://nolus.api.liveraven.net/"
         },
         {
             "provider": "Architect Nodes",
-            "url": "https://rest-nolus.architectnodes.com"
+            "url": "https://rest-nolus.architectnodes.com/"
         }
     ],
     "explorer" : {
