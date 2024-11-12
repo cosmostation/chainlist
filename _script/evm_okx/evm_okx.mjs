@@ -76,7 +76,7 @@ async function main() {
 
     const mergedAssets = [...currentAssets, ...assetsToAdd];
 
-    writeFileSync(fileName, JSON.stringify(mergedAssets, null, 4));
+    writeFileSync(fileName, JSON.stringify(mergedAssets, null, 2));
 
     console.log("Assets added successfully");
   } catch (e) {
