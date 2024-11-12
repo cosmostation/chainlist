@@ -466,5 +466,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/berlin.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "erc20/0xfbf4318d24a93753f11d365a6dcf8b830e98ab0f",
+        "name" : "CROWDP",
+        "symbol": "CROWDP",
+        "description": "Crowdpunk DAO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/crowdp.png",
+        "coinGeckoId": ""
     }
 ]
