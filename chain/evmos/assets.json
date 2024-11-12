@@ -429,5 +429,19 @@
     },
     "image": "noble/asset/usdc.png",
     "coinGeckoId": "usd-coin"
+  },
+  {
+    "denom": "erc20/0xfbf4318d24a93753f11d365a6dcf8b830e98ab0f",
+    "type": "native",
+    "origin_chain": "evmos",
+    "origin_denom": "crowdp",
+    "origin_type": "erc20",
+    "symbol": "CROWDP",
+    "description": "Crowdpunk DAO",
+    "decimals": 18,
+    "enable": true,
+    "image": "evmos/asset/crowdp.png",
+    "contract": "0xfbf4318d24a93753f11d365a6dcf8b830e98ab0f",
+    "coinGeckoId": ""
   }
 ]
