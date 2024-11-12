@@ -24,7 +24,9 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.005orai"
+            "0.003orai",
+            "0.005orai",
+            "0.007orai"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
@@ -47,12 +49,20 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "OraiChain",
-            "url": "https://lcd.orai.io"
+            "provider": "oraichain-team",
+            "url": "https://lcd.orai.io/"
         },
         {
             "provider": "Public Node",
-            "url": "https://oraichain-rest.publicnode.com"
+            "url": "https://oraichain-rest.publicnode.com/"
+        },
+        {
+            "provider": "Blockval",
+            "url": "https://api-orai.blockval.io/"
+        },
+        {
+            "provider": "KonsorTech",
+            "url": "https://mainnet-orai-api.konsortech.xyz/"
         }
     ],
     "explorer" : {

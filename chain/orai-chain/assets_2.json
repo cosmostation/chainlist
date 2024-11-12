@@ -8,5 +8,74 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/orai.png",
         "coingecko_id": "oraichain-token"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9C4DCD21B48231D0BC2AC3D1B74A864746B37E4292694C93C617324250D002FC",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>orai-chain",
+            "client" : {
+                "channel": "channel-13",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-216",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/49D820DFDE9F885D7081725A58202ABA2F465CAEE4AFBC683DFB79A8E013E83E",
+        "name": "Injective",
+        "symbol": "INJ",
+        "description": "The INJ token is the native governance token for the Injective chain.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+        "coinGeckoId": "injective-protocol",
+        "ibc_info": {
+            "path": "injective>orai-chain",
+            "client": {
+                "channel": "channel-146",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-147",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "inj"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78",
+        "name": "Cosmos Hub",
+        "symbol": "ATOM",
+        "description": "The native staking and governance token of the Cosmos Hub.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info": {
+            "path": "cosmos>orai-chain",
+            "client": {
+                "channel": "channel-15",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-301",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
     }
 ]
