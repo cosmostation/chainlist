@@ -1,0 +1,106 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+        "name": "Wrapped Fantom",
+        "symbol": "WFTM",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/axelarnetwork/axelar-docs/main/public/images/chains/fantom.svg",
+        "coinGeckoId": "wrapped-fantom",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x74b23882a30290451A17c44f4F05243b6b58C76d",
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1B6382DBDEa11d97f24495C9A90b7c88469134a4",
+        "name": "Axelar USDC",
+        "symbol": "axlUSDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/axelarnetwork/axelar-docs/main/public/images/assets/usdc.svg",
+        "coinGeckoId": "axlusdc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x66eed5ff1701e6ed8470dc391f05e27b1d0657eb",
+        "name": "Morphex",
+        "symbol": "MPX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/mpx.svg",
+        "coinGeckoId": "mpx"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xD5d5350F42CB484036A1C1aF5F2DF77eAFadcAFF",
+        "name": "Axelar DAI",
+        "symbol": "axlDAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://docs.axelar.dev/images/assets/dai.svg",
+        "coinGeckoId": "dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd226392C23fb3476274ED6759D4a478db3197d82",
+        "name": "Axelar USDT",
+        "symbol": "axlUSDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/usdt.svg",
+        "coinGeckoId": "tether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x448d59B4302aB5d2dadf9611bED9457491926c8e",
+        "name": "Axelar Wrapped BTC",
+        "symbol": "axlWBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+        "name": "StargateToken",
+        "symbol": "STG",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fantom/asset/stg.png",
+        "coinGeckoId": "stargate-finance"
+    }
+]
