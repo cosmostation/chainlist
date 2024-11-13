@@ -17,7 +17,6 @@
         "description": "Lion Cub DAO is a useless meme community DAO on Terra.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/cub.png",
-        "coinGeckoId": "lunax",
         "color": "#f3d343"
     },
     {
@@ -357,46 +356,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/roar.png",
         "coinGeckoId": "lion-dao"
-    },
-    {
-        "type": "cw20",
-        "contract": "terra15hhqg8gyz04zapynqtk7uvlsp7lzay7etrt9ann0276v94yae63sxygeat",
-        "name" : "Wrapped Ethereum (Portal)",
-        "symbol": "ETH.wh",
-        "description": "Wrapped Ethereum imported directly to Terra via Wormhole technology.",
-        "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/wETHportal.png",
-        "coinGeckoId": "ethereum-wormhole"
-    },
-    {
-        "type": "cw20",
-        "contract": "terra1lnsvush7d94zakuvc84sqp996s0rcuqe3c4zaaslcgk64q8gepks25vegx",
-        "name" : "Wrapped Bitcoin (Portal)",
-        "symbol": "WBTC.wh",
-        "description": "Wrapped Bitcoin is a token backed 1:1 with Bitcoin, imported directly to Terra from Ethereum via Wormhole technology.",
-        "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/WBTCportal.png",
-        "coinGeckoId": "wrapped-btc-wormhole"
-    },
-    {
-        "type": "cw20",
-        "contract": "terra1ctelwayk6t2zu30a8v9kdg3u2gr0slpjdfny5pjp7m3tuquk32ysugyjdg",
-        "name" : "Wrapped Solana (Portal)",
-        "symbol": "SOL.wh",
-        "description": "Wrapped Solana imported directly to Terra via Wormhole technology.",
-        "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/wSOLportal.png",
-        "coinGeckoId": "sol-wormhole"
-    },
-    {
-        "type": "cw20",
-        "contract": "terra1xc7ynquupyfcn43sye5pfmnlzjcw2ck9keh0l2w2a4rhjnkp64uq4pr388",
-        "name" : "Wrapped BNB (Portal)",
-        "symbol": "BNB.wh",
-        "description": "Wrapped BNB imported directly to Terra via Wormhole technology.",
-        "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/wBNBportal.png",
-        "coinGeckoId": "binance-coin-wormhole"
     },
     {
         "type": "cw20",
