@@ -9792,30 +9792,6 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/BBE825F7D1673E1EBF05AB02000E23E6077967B79547A3733B60AE4ED62C4D32",
-        "name": "Shido",
-        "symbol": "SHIDO",
-        "description": "The native EVM and Wasm, governance and staking token of the Shido Chain",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg",
-        "color": "#046ffc",
-        "coinGeckoId": "shido-2",
-        "ibc_info": {
-            "path": "shido>osmosis",
-            "client": {
-                "channel": "channel-38921",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-0",
-                "port": "transfer",
-                "chain": "shido",
-                "denom": "shido"
-            }
-        }
-    },
-    {
-        "type": "ibc",
         "denom": "ibc/0B3C3D06228578334B66B57FBFBA4033216CEB8119B27ACDEE18D92DA5B28D43",
         "name": "Wormhole USDC(Avalanche)",
         "symbol": "avalanche.USDC.wh",
