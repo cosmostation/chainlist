@@ -1,13 +1,13 @@
 [
     {
         "type": "erc20",
-        "contract": "0xb3b825F2670eBA4Fd85be72CF290F5Ec91A3c5ff",
-        "name" : "MER",
-        "symbol": "MER",
-        "description": "ERC-20 contract",
+        "contract": "0x8cbafFD9b658997E7bf87E98FEbF6EA6917166F7",
+        "name" : "Wrapped shido",
+        "symbol": "WSHIDO",
+        "description": "",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shido.png",
-        "coinGeckoId": "shido-2",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/wshido.png",
+        "coinGeckoId": "",
         "wallet_preload": true
     }
 ]
