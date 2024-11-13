@@ -9,5 +9,86 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/wshido.png",
         "coinGeckoId": "",
         "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd",
+        "name" : "Shido usdc",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x27027Eb11c456d690DEA785905C1915D6b444bCe",
+        "name" : "Salt",
+        "symbol": "SALT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/wshido.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8c248F053920f6b39bFdE892480d10C5E0A8a3df",
+        "name" : "Goat",
+        "symbol": "GOAT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/goat.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5ac082F693160eB2136d81AA9E772101109c11c4",
+        "name" : "Shido ninja",
+        "symbol": "NINJA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/ninja.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA48054c9fc0026459031141E42052a9aB37034Fd",
+        "name" : "Shidokid",
+        "symbol": "KIDDO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/kiddo.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd9650144Cd028fc70270a26C1D878E5dbeF8CE9A",
+        "name" : "Magic",
+        "symbol": "MAGIC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/magic.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfB889425B72c97C5b4484cF148AE2404AB7A13e7",
+        "name" : "Kensei",
+        "symbol": "KENSEI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/kensei.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x29a9733cEbeF2219f48763B40859a0eec8B5C77F",
+        "name" : "Xshrimp",
+        "symbol": "SHRIMP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shrimp.png",
+        "coinGeckoId": ""
     }
 ]
