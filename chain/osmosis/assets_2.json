@@ -1366,7 +1366,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/microtick/images/tick.svg",
         "color": "#6bab14",
-        "coinGeckoId": "microtick",
         "ibc_info": {
             "path": "microtick>osmosis",
             "client": {
@@ -1551,7 +1550,6 @@
         "description": "Gravity Bridge USDC",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.grv.svg",
-        "coinGeckoId": "gravity-bridge-usdc",
         "ibc_info": {
             "path": "ethereum>gravity-bridge>osmosis",
             "client": {
@@ -1643,7 +1641,6 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.svg",
         "color": "#4c7cdc",
-        "coinGeckoId": "provenance-blockchain",
         "ibc_info": {
             "path": "provenance>osmosis",
             "client": {
@@ -2085,7 +2082,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.svg",
         "color": "#a7248a",
-        "coinGeckoId": "tgrade",
         "ibc_info": {
             "path": "tgrade>osmosis",
             "client": {
@@ -2200,7 +2196,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/lvn.png",
         "color": "#683480",
-        "coinGeckoId": "lvn",
         "ibc_info": {
             "path": "ki-chain>osmosis",
             "client": {
@@ -2294,7 +2289,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.svg",
         "color": "#3c2832",
-        "coinGeckoId": "crescent-network",
         "ibc_info": {
             "path": "crescent>osmosis",
             "client": {
@@ -3072,7 +3066,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/imversed/images/imversed.svg",
         "color": "#4c54e4",
-        "coinGeckoId": "imv",
         "ibc_info": {
             "path": "imversed>osmosis",
             "client": {
@@ -3260,7 +3253,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/arusd.svg",
         "color": "#77b64f",
-        "coinGeckoId": "arable-usd",
         "ibc_info": {
             "path": "acrechain>osmosis",
             "client": {
@@ -3379,7 +3371,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wynd.svg",
         "color": "#6bcc95",
-        "coinGeckoId": "wynd",
         "ibc_info": {
             "path": "juno>osmosis",
             "client": {
@@ -3492,7 +3483,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg",
         "color": "#e40474",
-        "coinGeckoId": "stride-staked-luna",
         "ibc_info": {
             "path": "stride>osmosis",
             "client": {
@@ -3515,7 +3505,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg",
         "color": "#e40474",
-        "coinGeckoId": "stride-staked-evmos",
         "ibc_info": {
             "path": "stride>osmosis",
             "client": {
@@ -3608,7 +3597,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg",
         "color": "#645ca4",
-        "coinGeckoId": "harbor-2",
         "ibc_info": {
             "path": "comdex>osmosis",
             "client": {
@@ -4763,7 +4751,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png",
         "color": "#a493e4",
-        "coinGeckoId": "quasar-2",
         "ibc_info": {
             "path": "quasar>osmosis",
             "client": {
@@ -5727,7 +5714,6 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qwoyn/images/qwoyn.png",
         "color": "#04e4fc",
-        "coinGeckoId": "qwoyn",
         "ibc_info": {
             "path": "qwoyn>osmosis",
             "client": {
@@ -6916,8 +6902,7 @@
         "description": "Sail DAO is a liquidity deployment and management DAO built as a collaboration between the Osmosis and Migaloo Blockchains.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sail.png",
-        "color": "#1e264f",
-        "coinGeckoId": "sail-dao"
+        "color": "#1e264f"
     },
     {
         "type": "ibc",
@@ -9721,6 +9706,28 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/3B95D63B520C283BCA86F8CD426D57584039463FD684A5CBA31D2780B86A1995",
+        "name": "Dungeon Coin",
+        "symbol": "DGN",
+        "description": "Dungeon native token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+        "ibc_info": {
+            "path": "dungeon>osmosis",
+            "client": {
+                "channel": "channel-85791",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "dungeon",
+                "denom": "udgn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/42D0FBF9DDC72D7359D309A93A6DF9F6FDEE3987EA1C5B3CDE95C06FCE183F12",
         "name": "furya",
         "symbol": "FURY",
@@ -9787,6 +9794,30 @@
                 "port": "transfer",
                 "chain": "dhealth",
                 "denom": "udhp"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BBE825F7D1673E1EBF05AB02000E23E6077967B79547A3733B60AE4ED62C4D32",
+        "name": "Shido",
+        "symbol": "SHIDO",
+        "description": "The native EVM and Wasm, governance and staking token of the Shido Chain",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg",
+        "color": "#046ffc",
+        "coinGeckoId": "shido-2",
+        "ibc_info": {
+            "path": "shido>osmosis",
+            "client": {
+                "channel": "channel-38921",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "shido",
+                "denom": "shido"
             }
         }
     },
