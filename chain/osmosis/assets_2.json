@@ -1,3 +1,4 @@
+
 [
     {
         "type": "native",
@@ -9218,7 +9219,7 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/A6712952E566B8A9F29D0A533F043C3CE3CF9870B01A2180E390133119C14A71",
+        "denom": "ibc/629B5691DE993DCD07AA1B0587AD52A7FA4E8F28B77DE15BCBDF936CA6F76E6C",
         "name": "Kima Network",
         "symbol": "KIMA",
         "description": "Kima is an asset-agnostic interoperability infrastructure that connects blockchain networks and legacy financial systems, enabling secure, scalable cross-chain transactions and seamless communication across ecosystems.",
@@ -9227,11 +9228,11 @@
         "ibc_info": {
             "path": "kimanetwork>osmosis",
             "client": {
-                "channel": "channel-83350",
+                "channel": "channel-86496",
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-0",
+                "channel": "channel-4",
                 "port": "transfer",
                 "chain": "kimanetwork",
                 "denom": "uKIMA"
@@ -9728,6 +9729,28 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/A6712952E566B8A9F29D0A533F043C3CE3CF9870B01A2180E390133119C14A71",
+        "name": "Kima Network",
+        "symbol": "KIMA",
+        "description": "Kima is an asset-agnostic interoperability infrastructure that connects blockchain networks and legacy financial systems, enabling secure, scalable cross-chain transactions and seamless communication across ecosystems.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg",
+        "ibc_info": {
+            "path": "kimanetwork>osmosis",
+            "client": {
+                "channel": "channel-83350",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "kimanetwork",
+                "denom": "uKIMA"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/42D0FBF9DDC72D7359D309A93A6DF9F6FDEE3987EA1C5B3CDE95C06FCE183F12",
         "name": "furya",
         "symbol": "FURY",
@@ -9794,30 +9817,6 @@
                 "port": "transfer",
                 "chain": "dhealth",
                 "denom": "udhp"
-            }
-        }
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/BBE825F7D1673E1EBF05AB02000E23E6077967B79547A3733B60AE4ED62C4D32",
-        "name": "Shido",
-        "symbol": "SHIDO",
-        "description": "The native EVM and Wasm, governance and staking token of the Shido Chain",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg",
-        "color": "#046ffc",
-        "coinGeckoId": "shido-2",
-        "ibc_info": {
-            "path": "shido>osmosis",
-            "client": {
-                "channel": "channel-38921",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-0",
-                "port": "transfer",
-                "chain": "shido",
-                "denom": "shido"
             }
         }
     },
