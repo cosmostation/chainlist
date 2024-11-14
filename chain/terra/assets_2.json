@@ -741,5 +741,16 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/roar.png",
         "coinGeckoId": "lion-dao"
+    },
+    {
+        "type": "cw20",
+        "denom": "terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t",
+        "name" : "Lion Cub DAO",
+        "symbol": "CUB",
+        "description": "Lion Cub DAO is a useless meme community DAO on Terra.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/cub.png",
+        "coinGeckoId": "",
+        "color": "#f3d343"
     }
 ]
