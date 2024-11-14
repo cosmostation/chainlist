@@ -281,5 +281,15 @@
         "decimals": 18,
         "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/18520.png",
         "coinGeckoId": "oath"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x25e9171C98Fc1924Fa9415CF50750274F0664764",
+        "name" : "Kava Hard",
+        "symbol": "HARD",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/hard.png",
+        "coinGeckoId": "kava-lend"
     }
 ]
