@@ -3681,5 +3681,18 @@
     "image": "mantra/asset/om.png",
     "coinGeckoId": "mantra-dao",
     "color": "#FC86CD"
+  },
+  {
+    "denom": "udgn",
+    "type": "staking",
+    "origin_chain": "dungeon",
+    "origin_denom": "uosmo",
+    "origin_type": "staking",
+    "symbol": "DGN",
+    "decimals": 6,
+    "description": "Dungeon Staking Coin",
+    "image": "dungeon/asset/dungeon.png",
+    "coinGeckoId": "",
+    "color": "#9248DB"
   }
 ]
