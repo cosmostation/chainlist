@@ -373,7 +373,7 @@
         "contract": "terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
         "name" : "SOLID",
         "symbol": "SOLID",
-        "description": "A Terra native collateralized USD stablecoin, powered by Capapult Finance.",
+        "description": "A Terra native overcollateralized USD stablecoin, powered by Capapult Finance.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/solid.png",
         "coinGeckoId": ""
