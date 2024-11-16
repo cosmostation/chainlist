@@ -713,5 +713,15 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/roar.png",
         "coinGeckoId": "lion-dao"
+    },
+    {
+        "type": "cw20",
+        "denom": "terra1qmnxhecc3vnmhef9q7vap7spx9tgpnw9fqe8ljqfwrlz7rur9y5qu2dlp6",
+        "name" : "Wrapped Avalanche (Portal)",
+        "symbol": "AVAX.wh",
+        "description": "Wrapped Avalanche imported directly to Terra via Wormhole technology.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/wAVAXportal.png",
+        "coinGeckoId": "avalanche-wormhole"
     }
 ]
