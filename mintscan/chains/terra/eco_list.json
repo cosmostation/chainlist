@@ -1,11 +1,26 @@
 [
   {
-    "name": "astroport",
+    "name": "Eris Protocol",
     "type": "Defi",
-    "description": "An automated, decentralized exchange protocol.",
+    "description": "The Terra Liquidity Alliance is a place where liquidity providers can earn LUNA rewards. Also mint/unstake ampLUNA here.",
+    "status": "open",
+    "thumbnail" : "eris-protocol",
+    "link": "https://www.erisprotocol.com/terra/liquidity-hub?tab=liquidity",
+    "social": {
+      "webSite": "https://www.erisprotocol.com/",
+      "twitter": "https://twitter.com/eris_protocol",
+      "medium": "https://medium.com/@eris_protocol",
+      "github": "https://github.com/erisprotocol",
+      "docs": "https://docs.erisprotocol.com/"
+    }
+  },
+  {
+    "name": "Astroport",
+    "type": "Defi",
+    "description": "A meta AMM built on Terra. Dock here to trade your wares.",
     "status": "open",
     "thumbnail" : "astroport",
-    "link": "https://app.astroport.fi/swap",
+    "link": "https://app.astroport.fi/swap?chain=terra&from=ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB&to=uluna",
     "social": {
       "webSite": "https://astroport.fi/en",
       "twitter": "https://twitter.com/astroport_fi",
@@ -15,23 +30,65 @@
     }
   },
   {
-    "name": "Stride",
+    "name": "White Whale",
     "type": "Defi",
-    "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
+    "description": "White Whale runs a Terra decentralized exchange with a focus on interchain liquidity.",
     "status": "open",
-    "thumbnail" : "stride",
-    "link": "https://app.stride.zone/?chain=LUNA",
+    "thumbnail" : "white-whale",
+    "link": "https://app.whitewhale.money/terra/swap?from=USDt&to=LUNA",
     "social": {
-      "webSite": "https://www.stride.zone/",
-      "twitter": "https://twitter.com/stride_zone",
-      "github": "https://github.com/Stride-Labs/stride",
-      "docs": "https://docs.stride.zone/"
+      "webSite": "https://www.whitewhale.money/",
+      "twitter": "https://twitter.com/WhiteWhaleDefi",
+      "medium": "https://medium.com/@whitewhaleterra",
+      "github": "https://github.com/White-Whale-Defi-Platform/",
+      "docs": "https://docs.migaloo.zone/"
+    }
+  },
+  {
+    "name": "TFM",
+    "type": "Defi",
+    "description": "TFM is the modular liquidity layer for Terra and Cosmos. Also runs a DEX aggregrator for Astroport and White Whale.",
+    "status": "open",
+    "thumbnail" : "tfm",
+    "link": "https://app.tfm.com/terra2/trade/protrade?chainFrom=&chainTo=&dashboard=false&from=ibc%2F2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB&to=uluna",
+    "social": {
+      "webSite": "https://app.tfm.com/terra2/trade/protrade?chainFrom=&chainTo=&dashboard=false&from=ibc%2F9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5&to=uluna",
+      "twitter": "https://twitter.com/tfm_com",
+      "medium": "https://medium.com/@tfm.com",
+      "github": "https://github.com/tfm-com",
+      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
+    }
+  },
+  {
+    "name": "LUNA Gravedigger",
+    "type": "Defi",
+    "description": "A multi-chain Liquid Staking Hub. Mint or unstake bLUNA here.",
+    "status": "open",
+    "thumbnail" : "gravedigger",
+    "link": "https://app.backbonelabs.io/gravedigger/phoenix-1",
+    "social": {
+      "webSite": "https://www.backbonelabs.io/gravedigger.html",
+      "twitter": "https://twitter.com/BackBone_Labs",
+      "medium": "https://backbonelabs.medium.com/"
+    }
+  },
+  {
+    "name": "Necropolis",
+    "type": "Defi",
+    "description": "A multi-chain NFT Marketplace and Launchpad. BackBone Labs",
+    "status": "open",
+    "thumbnail" : "necropolis",
+    "link": "https://app.backbonelabs.io/necropolis/collections",
+    "social": {
+      "webSite": "https://www.backbonelabs.io/necropolis.html",
+      "twitter": "https://twitter.com/BackBone_Labs",
+      "medium": "https://backbonelabs.medium.com/"
     }
   },
   {
     "name": "capapult",
     "type": "Defi",
-    "description": "Decentralised CDP ($SOLID) on Terra, governed through $CAPA holders.",
+    "description": "Decentralised CDP stablecoin ($SOLID) on Terra, governed through $CAPA holders.",
     "status": "open",
     "thumbnail" : "capapult",
     "link": "https://app.capapult.finance/dashboard",
@@ -40,6 +97,20 @@
       "twitter": "https://twitter.com/capapult?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
       "medium": "https://medium.com/@capapult",
       "github": "https://github.com/capapult-finance"
+    }
+  },
+  {
+    "name": "LUNA Stride",
+    "type": "Defi",
+    "description": "Liquid staking for the Cosmos. Mint or unstake stLUNA here.",
+    "status": "open",
+    "thumbnail" : "stride",
+    "link": "https://app.stride.zone/?chain=LUNA",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
     }
   },
   {
@@ -58,55 +129,6 @@
     }
   },
   {
-    "name": "Feather",
-    "type": "Others",
-    "description": "A solution for spinning up a new Cosmos SDK-based blockchain.",
-    "status": "prepare",
-    "thumbnail" : "feather",
-    "link": ""
-  },
-  {
-    "name": "LUNA Gravedigger",
-    "type": "Defi",
-    "description": "A multi-chain Defi/Collateral/NFT Hub.",
-    "status": "open",
-    "thumbnail" : "gravedigger",
-    "link": "https://app.backbonelabs.io/gravedigger/phoenix-1",
-    "social": {
-      "webSite": "https://app.backbonelabs.io/gravedigger/phoenix-1",
-      "twitter": "https://twitter.com/BackBone_Labs",
-      "medium": "https://backbonelabs.medium.com/"
-    }
-  },
-  {
-    "name": "Necropolis",
-    "type": "Defi",
-    "description": "A multi-chain NFT Marketplace and Launchpad",
-    "status": "open",
-    "thumbnail" : "necropolis",
-    "link": "https://necropolisnft.io/collections",
-    "social": {
-      "webSite": "https://necropolisnft.io/collections",
-      "twitter": "https://twitter.com/BackBone_Labs",
-      "medium": "https://backbonelabs.medium.com/"
-    }
-  },
-  {
-    "name": "TFM",
-    "type": "Defi",
-    "description": "Trading platform built for Terra and Cosmos.",
-    "status": "open",
-    "thumbnail" : "tfm",
-    "link": "https://tfm.com/ibc",
-    "social": {
-      "webSite": "https://tfm.com/ibc",
-      "twitter": "https://twitter.com/tfm_com",
-      "medium": "https://medium.com/@tfm.com",
-      "github": "https://github.com/tfm-com",
-      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
-    }
-  },
-  {
     "name": "Warp Protocol",
     "type": "Defi",
     "description": "Smart contract-based transaction automator.",
@@ -119,5 +141,13 @@
       "github": "https://github.com/terra-money/warp-docs",
       "docs": "https://docs.warp.money/"
     }
+  },
+  {
+    "name": "Feather",
+    "type": "Others",
+    "description": "A solution for spinning up a new Cosmos SDK-based blockchain.",
+    "status": "prepare",
+    "thumbnail" : "feather",
+    "link": ""
   }
 ]
