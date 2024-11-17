@@ -100,6 +100,21 @@
     }
   },
   {
+    "name": "Demex",
+    "type": "Defi",
+    "description": "A multi-chain Perpetual DEX on Carbon. Borrow/lend LUNA here.",
+    "status": "open",
+    "thumbnail" : "demex",
+    "link": "https://app.dem.exchange/",
+    "social": {
+      "webSite": "https://dem.exchange/",
+      "twitter": "https://twitter.com/demexchange",
+      "medium": "https://medium.com/tag/demex",
+      "github": "https://github.com/Switcheo/carbon-js-sdk",
+      "docs": "https://docs.dem.exchange/"
+    }
+  },
+  {
     "name": "LUNA Stride",
     "type": "Defi",
     "description": "Liquid staking for the Cosmos. Mint or unstake stLUNA here.",
