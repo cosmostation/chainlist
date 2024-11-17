@@ -75,7 +75,7 @@
   {
     "name": "Necropolis",
     "type": "Defi",
-    "description": "A multi-chain NFT Marketplace and Launchpad. BackBone Labs",
+    "description": "A multi-chain NFT Marketplace and Launchpad, powered by BackBone Labs",
     "status": "open",
     "thumbnail" : "necropolis",
     "link": "https://app.backbonelabs.io/necropolis/collections",
@@ -126,6 +126,21 @@
       "twitter": "https://twitter.com/stride_zone",
       "github": "https://github.com/Stride-Labs/stride",
       "docs": "https://docs.stride.zone/"
+    }
+  },
+  {
+    "name": "Portal",
+    "type": "Defi",
+    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains such as Solana and EVM.",
+    "status": "open",
+    "thumbnail" : "portal",
+    "link": "https://portalbridge.com/advanced-tools/#/transfer",
+    "social": {
+      "webSite": "https://portalbridge.com/advanced-tools/#/transfer",
+      "twitter": "https://twitter.com/portalbridge_?lang=en",
+      "medium": "https://wormholecrypto.medium.com/",
+      "github": "https://github.com/White-Whale-Defi-Platform/",
+      "docs": "https://github.com/wormhole-foundation/wormhole"
     }
   },
   {
