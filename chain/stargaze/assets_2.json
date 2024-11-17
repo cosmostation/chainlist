@@ -293,5 +293,95 @@
                 "denom": "uatom"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FED316EA6AA1F52581F61D5D4B38F2A09042D5EA1DABA07B8A23C1EE3C0C4651",
+        "name": "Stride Staked ATOM",
+        "symbol": "stATOM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/statom.png",
+        "color": "#e40474",
+        "coinGeckoId": "stride-staked-atom",
+        "ibc_info": {
+            "path": "stride>stargaze",
+            "client": {
+                "channel": "channel-106",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-19",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7A58490427EF0092E2BFFB4BEEBA38E29B09E9B98557DFC78335B43F15CF2676",
+        "name": "Stride Staked STARS",
+        "symbol": "stSTARS",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/ststars.png",
+        "coinGeckoId": "stride-staked-stars",
+        "ibc_info": {
+            "path": "stride>stargaze",
+            "client": {
+                "channel": "channel-106",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-19",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stustars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/08CF01F857C36D3C91C3427AA2EACFAFC07971E7AC40B6C433A9982B333F2567",
+        "name": "Stride Staked STARS",
+        "symbol": "stSTARS",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/ststars.png",
+        "coinGeckoId": "stride-staked-stars",
+        "ibc_info": {
+            "path": "stride>stargaze",
+            "client": {
+                "channel": "channel-106",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-19",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stustars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/08CF01F857C36D3C91C3427AA2EACFAFC07971E7AC40B6C433A9982B333F2567",
+        "name": "Ethereum (Axelar)",
+        "symbol": "ETH.axl",
+        "description": "Ethereum (ETH) is a decentralized, open-source blockchain system featuring smart contract functionality. It's the native cryptocurrency of the Ethereum platform, often regarded as the second most popular digital currency after Bitcoin. Ethereum was proposed in late 2013 and development was crowdfunded in 2014, leading to its network going live on 30 July 2015.\n\nETH, as a digital currency, is used for a variety of purposes within the Ethereum ecosystem, including the execution of decentralized smart contracts and as a mode of payment. Unlike Bitcoin, Ethereum was designed to be a platform for applications that can operate without the need for intermediaries, using blockchain technology. This has made Ethereum a leading platform for various applications, including decentralized finance (DeFi), non-fungible tokens (NFTs), and more. Ethereum is constantly evolving, with a significant upgrade termed Ethereum 2.0, which aims to improve its scalability, security, and sustainability.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/eth.axl.svg",
+        "coinGeckoId": "axlweth",
+        "ibc_info": {
+            "path": "ethereum>axelar>stargaze",
+            "client": {
+                "channel": "channel-50",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-18",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "weth-wei"
+            }
+        }
     }
 ]
