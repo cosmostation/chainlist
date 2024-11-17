@@ -363,7 +363,7 @@
         "contract": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
         "name" : "ERIS Arbitrage LUNA",
         "symbol": "arbLUNA",
-        "description": "The arbitrage vault will take slow burn arbitrage opportunities by trading LUNA to ampLUNA and start the slow unbonding process.",
+        "description": "A derivative of LUNA based on arbitrage trading LUNA to ampLUNA and starting the slow unbonding process. Powered by ERIS Protocol.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/arbLuna.png",
         "coinGeckoId": ""
