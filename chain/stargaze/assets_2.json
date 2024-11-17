@@ -269,5 +269,29 @@
                 "denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9DF365E2C0EF4EA02FA771F638BB9C0C830EFCD354629BDC017F79B348B4E989",
+        "name" : "Cosmos Hub",
+        "symbol": "ATOM",
+        "description": "The native staking and governance token of the Cosmos Hub.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+         "color": "#272d45",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>stargaze",
+            "client" : {
+                "channel": "channel-239",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-730",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
     }
 ]
