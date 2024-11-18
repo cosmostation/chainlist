@@ -173,11 +173,15 @@
     }
   },
   {
-    "name": "Pinion",
+    "name": "Feather",
     "type": "Others",
-    "description": "The rare feather of the phoenix. It is said to have regeneration properties.",
+    "description": "Feather is a tool that makes it easy and lightweight to create blockchains on Cosmos Ecosystems, just like a bird's feather.",
     "status": "prepare",
     "thumbnail" : "feather",
-    "link": ""
+    "link": "https://www.terra.money/ecosystem/feather",
+    "social": {
+      "webSite": "https://www.terra.money/ecosystem/feather",
+      "github": "https://github.com/terra-money/feather.js",
+      "docs": "https://docs.terra.money/develop/feather-js/"
   }
 ]
