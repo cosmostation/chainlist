@@ -2,7 +2,7 @@
   {
     "name": "Eris Protocol",
     "type": "Defi",
-    "description": "The Terra Liquidity Alliance is a place where liquidity providers can earn LUNA rewards. Also mint/unstake ampLUNA here.",
+    "description": "The Terra Liquidity Alliance is a place where liquidity providers can earn Luna rewards. You can also mint/unstake Amplified Luna here.",
     "status": "open",
     "thumbnail" : "eris-protocol",
     "link": "https://www.erisprotocol.com/terra/liquidity-hub?tab=liquidity",
@@ -17,7 +17,7 @@
   {
     "name": "Astroport",
     "type": "Defi",
-    "description": "A meta AMM built on Terra. Dock here to trade your wares.",
+    "description": "A meta automated market maker built on Terra. Dock here to trade your wares.",
     "status": "open",
     "thumbnail" : "astroport",
     "link": "https://app.astroport.fi/swap?chain=terra&from=ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB&to=uluna",
@@ -47,7 +47,7 @@
   {
     "name": "TFM",
     "type": "Defi",
-    "description": "TFM is a modular liquidity layer for Cosmos. Also runs a Terra DEX aggregrator.",
+    "description": "TFM is a modular liquidity layer for Cosmos. Click to open the Terra DEX aggregrator.",
     "status": "open",
     "thumbnail" : "tfm",
     "link": "https://app.tfm.com/terra2/trade/protrade?chainFrom=&chainTo=&dashboard=false&from=ibc%2F2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB&to=uluna",
@@ -57,19 +57,6 @@
       "medium": "https://medium.com/@tfm.com",
       "github": "https://github.com/tfm-com",
       "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
-    }
-  },
-  {
-    "name": "LUNA Gravedigger",
-    "type": "Defi",
-    "description": "A multi-chain Liquid Staking Hub. Mint or unstake bLUNA here.",
-    "status": "open",
-    "thumbnail" : "gravedigger",
-    "link": "https://app.backbonelabs.io/gravedigger/phoenix-1",
-    "social": {
-      "webSite": "https://www.backbonelabs.io/gravedigger.html",
-      "twitter": "https://twitter.com/BackBone_Labs",
-      "medium": "https://backbonelabs.medium.com/"
     }
   },
   {
@@ -83,6 +70,34 @@
       "webSite": "https://www.backbonelabs.io/necropolis.html",
       "twitter": "https://twitter.com/BackBone_Labs",
       "medium": "https://backbonelabs.medium.com/"
+    }
+  },
+  {
+    "name": "Luna Gravedigger",
+    "type": "Defi",
+    "description": "A multi-chain Liquid Staking Hub. You can mint/unstake Bone Luna here.",
+    "status": "open",
+    "thumbnail" : "gravedigger",
+    "link": "https://app.backbonelabs.io/gravedigger/phoenix-1",
+    "social": {
+      "webSite": "https://www.backbonelabs.io/gravedigger.html",
+      "twitter": "https://twitter.com/BackBone_Labs",
+      "medium": "https://backbonelabs.medium.com/"
+    }
+  },
+  {
+    "name": "Portal",
+    "type": "Defi",
+    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains such as Solana and EVM.",
+    "status": "open",
+    "thumbnail" : "portal",
+    "link": "https://portalbridge.com/advanced-tools/#/transfer",
+    "social": {
+      "webSite": "https://portalbridge.com/advanced-tools/#/transfer",
+      "twitter": "https://twitter.com/portalbridge_?lang=en",
+      "medium": "https://wormholecrypto.medium.com/",
+      "github": "https://github.com/wormhole-foundation/wormhole",
+      "docs": "https://wormhole.com/docs/"
     }
   },
   {
@@ -102,10 +117,10 @@
   {
     "name": "Demex",
     "type": "Defi",
-    "description": "A multi-chain Perpetual DEX on Carbon. Borrow/lend LUNA here.",
+    "description": "A multi-chain Perpetual DEX on Carbon. You can also borrow/lend Luna here via Nitron.",
     "status": "open",
     "thumbnail" : "demex",
-    "link": "https://app.dem.exchange/",
+    "link": "https://app.dem.exchange/trade/LUNA-PERP",
     "social": {
       "webSite": "https://dem.exchange/",
       "twitter": "https://twitter.com/demexchange",
@@ -115,9 +130,9 @@
     }
   },
   {
-    "name": "LUNA Stride",
+    "name": "Luna Stride",
     "type": "Defi",
-    "description": "Liquid staking for the Cosmos. Mint or unstake stLUNA here.",
+    "description": "Liquid staking Hub for the Cosmos. You can mint/unstake Stride Luna here.",
     "status": "open",
     "thumbnail" : "stride",
     "link": "https://app.stride.zone/?chain=LUNA",
@@ -126,21 +141,6 @@
       "twitter": "https://twitter.com/stride_zone",
       "github": "https://github.com/Stride-Labs/stride",
       "docs": "https://docs.stride.zone/"
-    }
-  },
-  {
-    "name": "Portal",
-    "type": "Defi",
-    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains such as Solana and EVM.",
-    "status": "open",
-    "thumbnail" : "portal",
-    "link": "https://portalbridge.com/advanced-tools/#/transfer",
-    "social": {
-      "webSite": "https://portalbridge.com/advanced-tools/#/transfer",
-      "twitter": "https://twitter.com/portalbridge_?lang=en",
-      "medium": "https://wormholecrypto.medium.com/",
-      "github": "https://github.com/wormhole-foundation/wormhole",
-      "docs": "https://wormhole.com/docs/"
     }
   },
   {
@@ -173,9 +173,9 @@
     }
   },
   {
-    "name": "Feather",
+    "name": "Pinion",
     "type": "Others",
-    "description": "A solution for spinning up a new Cosmos SDK-based blockchain.",
+    "description": "The rare feather of the phoenix. It is said to have regeneration properties.",
     "status": "prepare",
     "thumbnail" : "feather",
     "link": ""
