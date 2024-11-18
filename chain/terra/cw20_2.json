@@ -44,9 +44,9 @@
     {
         "type": "cw20",
         "contract": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
-        "name" : "ERIS Amplified LUNA",
+        "name" : "Amplified LUNA",
         "symbol": "ampLUNA",
-        "description": "A liquid staking derivative of LUNA, powered by ERIS Protocol, which also hosts the Terra Liquidity Alliance.",
+        "description": "A liquid staking derivative of staked LUNA, powered by ERIS Protocol.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/ampluna.png",
         "coinGeckoId": "eris-amplified-luna"
@@ -54,9 +54,9 @@
     {
         "type": "cw20",
         "contract": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
-        "name" : "boneLUNA",
+        "name" : "Bone LUNA",
         "symbol": "bLUNA",
-        "description": "A liquid staking derivative of LUNA, powered by BackBone Labs, which also hosts an NFT marketplace.",
+        "description": "A liquid staking derivative of staked LUNA, powered by BackBone Labs.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/bluna.png",
         "coinGeckoId": "backbone-labs-staked-luna",
