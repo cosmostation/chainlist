@@ -3,9 +3,9 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.1umedas",
-            "0.25umedas",
-            "0.4umedas"
+            "0.01umedas",
+            "0.025umedas",
+            "0.04umedas"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.5,
@@ -14,7 +14,7 @@
     "endpoint_url" : [
         {
             "provider": "Neptun Validator",
-            "url": "grpc.medas-digital.io:9090"
+            "url": "https://grpc.medas-digital.io:9090"
         }
     ],
     "about" : {
