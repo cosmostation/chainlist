@@ -30,6 +30,8 @@ jobs:
           echo "OKX_API_KEY=${{ secrets.OKX_API_KEY }}" >> $GITHUB_ENV
           echo "OKX_SECRET_KEY=${{ secrets.OKX_SECRET_KEY }}" >> $GITHUB_ENV
           echo "OKX_PASSPHRASE=${{ secrets.OKX_PASSPHRASE }}" >> $GITHUB_ENV
+          echo "COINGECKO_API_KEY=${{ secrets.COINGECKO_API_KEY }}" >> $GITHUB_ENV
+          echo "FRONT_API_KEY=${{ secrets.FRONT_API_KEY }}" >> $GITHUB_ENV
 
       - name: Run code modification script
         run: |
@@ -39,6 +41,8 @@ jobs:
           API_KEY: ${{ secrets.OKX_API_KEY }}
           SECRET_KEY: ${{ secrets.OKX_SECRET_KEY }}
           PASSPHRASE: ${{ secrets.OKX_PASSPHRASE }}
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          FRONT_API_KEY: ${{ secrets.FRONT_API_KEY }}
 
       - name: Create dynamic branch name
         id: vars
