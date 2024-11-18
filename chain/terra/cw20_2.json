@@ -46,7 +46,7 @@
         "contract": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
         "name" : "ERIS Amplified LUNA",
         "symbol": "ampLUNA",
-        "description": "ERIS liquid staked LUNA.",
+        "description": "A liquid staking derivative of LUNA, powered by ERIS Protocol, which also hosts the Terra Liquidity Alliance.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/ampluna.png",
         "coinGeckoId": "eris-amplified-luna"
@@ -54,9 +54,9 @@
     {
         "type": "cw20",
         "contract": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
-        "name" : "BackBone Labs Liquid Staked LUNA",
+        "name" : "boneLUNA",
         "symbol": "bLUNA",
-        "description": "BackBone Labs Liquid Staked LUNA.",
+        "description": "A liquid staking derivative of LUNA, powered by BackBone Labs, which also hosts an NFT marketplace.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/bluna.png",
         "coinGeckoId": "backbone-labs-staked-luna",
@@ -363,7 +363,7 @@
         "contract": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
         "name" : "ERIS Arbitrage LUNA",
         "symbol": "arbLUNA",
-        "description": "The arbitrage vault will take slow burn arbitrage opportunities by trading LUNA to ampLUNA and start the slow unbonding process.",
+        "description": "A derivative of LUNA based on arbitrage trading LUNA to ampLUNA and starting the slow unbonding process. Powered by ERIS Protocol.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/arbLuna.png",
         "coinGeckoId": ""
@@ -383,7 +383,7 @@
         "contract": "terra13c7t0xtfpafcr6gae9f404x5am7euf87c9qwmsphsecamqjjujqs7yfm4m",
         "name" : "Wrapped DO KWEEN (Portal)",
         "symbol": "KWEEN.wh",
-        "description": "Do Kwon's mind uploaded into a 300 IQ superintelligent MTF AI speedrunning it back to $100B.",
+        "description": "Do Kwon's mind uploaded into a 300 IQ superintelligent female AI speedrunning it back to $100B.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/kween.png",
         "coinGeckoId": ""
