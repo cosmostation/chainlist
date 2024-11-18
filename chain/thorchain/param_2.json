@@ -37,11 +37,11 @@
     "lcd_endpoint" : [
         {
             "provider": "Thor Node",
-            "url": "https://thornode.ninerealms.com/"
+            "url": "https://thornode.thorchain.liquify.com/"
         },
         {
             "provider": "Thor Node",
-            "url": "https://thornode.thorchain.liquify.com/"
+            "url": "https://thornode.ninerealms.com/"
         }
     ],
     "explorer" : {
