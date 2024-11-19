@@ -7,12 +7,12 @@
         "description": "The native token of Medas Digital Network",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medasdigital/asset/medas.png",
-        "coinGeckoId": "medasdigital",
+        "coinGeckoId": "",
         "color": "#0A4ED2"
     },
     {
         "type": "ibc",
-        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "denom": "ibc/FBBC35295AA037DC0A77796B08DC3003EC918E18E75D61D675A0EEAC0643F36C",
         "name" : "Osmosis",
         "symbol": "OSMO",
         "description": "Osmosis Staking Coin",
@@ -26,7 +26,7 @@
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-519",
+                "channel": "channel-87042",
                 "port": "transfer",
                 "chain": "osmosis",
                 "denom": "uosmo"
@@ -53,29 +53,6 @@
                 "port": "transfer",
                 "chain": "sentinel",
                 "denom": "udvpn"
-            }
-        }
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/92E4AB82E3B2AF2D5181AC69C74F9F6D890442C7B7B02CC8634B9D3ED7CF936D",
-        "name" : "Sifchain",
-        "symbol": "ROWAN",
-        "description": "Sifchain Staking Coin",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sifchain/asset/rowan.png",
-        "coinGeckoId": "sifchain",
-        "ibc_info" : {
-            "path": "sifchain>medasdigital",
-            "client" : {
-                "channel": "channel-5",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-89",
-                "port": "transfer",
-                "chain": "sifchain",
-                "denom": "rowan"
             }
         }
     }
