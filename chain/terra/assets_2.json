@@ -688,6 +688,29 @@
         }
     },
     {
+        "type": "ibc",
+        "denom": "ibc/79B60804664911EB0B074690182CCA7332406417B1050A583BAF0904F6B54635",
+        "name" : "Luna Classic",
+        "symbol": "LUNC",
+        "description": "Terra Classic is the original blockchain platform that powered the UST algorithmic stablecoin and LUNA token before the launch of Terra Phoenix.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg",
+        "coinGeckoId": "terra-luna-classic",
+        "ibc_info" : {
+            "path": "terra-classic>terra",
+            "client" : {
+                "channel": "channel-314",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-85",
+                "port": "transfer",
+                "chain": "terra-classic",
+                "denom": "uluna"
+            }
+        }
+    },
+    {
         "type": "cw20",
         "denom": "terra15hhqg8gyz04zapynqtk7uvlsp7lzay7etrt9ann0276v94yae63sxygeat",
         "name" : "Wrapped Ethereum (Portal)",
