@@ -1,32 +1,66 @@
 {
+    "chain_id_cosmos" : "medasdigital-2",
     "chain_name": "medasdigital",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medasdigital/resource/chain_medas.png",
+    "main_asset_denom" : "ukyve",
+    "main_asset_symbol" : "KYVE",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medasdigital/asset/medas.png",
+    "bech_account_prefix" : "medas",
+    "bech_validator_prefix" : "medasvaloper",
+    "origin_genesis_time" : "",
+    "api_name" : "medasdigital",
+    "is_support_mobile_wallet": false,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.1umedas",
-            "0.25umedas",
-            "0.4umedas"
+            "0.01umedas",
+            "0.025umedas",
+            "0.04umedas"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.5,
         "fee_threshold" : ""
     },
-    "endpoint_url" : [
+    "grpc_endpoint" : [
         {
             "provider": "Neptun Validator",
             "url": "grpc.medas-digital.io:9090"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Neptun Validator",
+            "url": "https://lcd.medas-digital.io:1317/"
+        }
+    ],
+    "explorer" : {
+        "name": "BigDipper",
+        "url": "https://www.mintscan.io/kyve/",
+        "account": "explorer.medas-digital.io:3100/medasdigital/accounts/${address}",
+        "tx": "https://explorer.medas-digital.io:3100/medasdigital/transactions/${hash}",
+        "proposal": "https://explorer.medas-digital.io:3100/medasdigital/proposals/${id}"
+    },
     "about" : {
         "website" : "https://medas-digital.io/",
         "blog" : "",
-        "github" : "",
+        "github" : "https://github.com/oxygene76/medasdigital-2",
         "twitter" : "https://twitter.com/medasdigital",
         "coingecko" : ""
     },
     "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
+        "ko" : "Medas Digital은 블록체인과 분산형 기술의 미래를 선도하는 기업으로, 새로운 홈페이지를 통해 이러한 비전을 구체화하고 있습니다.",
+        "en" : "Medas Digital is a company leading the future of blockchain and decentralized technology, and we are bringing this vision to life with our new website.",
+        "ja" : "Medas Digitalは、ブロックチェーンと分散型技術の未来をリードする企業であり、新しいホームページを通じてこのビジョンを具体化しています。"
     }
 }

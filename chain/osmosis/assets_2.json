@@ -3083,7 +3083,7 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/01E94A5FF29B8DDEFC86F412CC3927F7330E9B523CC63A6194B1108F5276025C",
+        "denom": "ibc/FBBC35295AA037DC0A77796B08DC3003EC918E18E75D61D675A0EEAC0643F36C",
         "name": "Medas Digital Network",
         "symbol": "MEDAS",
         "description": "The native token of Medas Digital Network",
@@ -3093,7 +3093,7 @@
         "ibc_info": {
             "path": "medasdigital>osmosis",
             "client": {
-                "channel": "channel-519",
+                "channel": "channel-87042",
                 "port": "transfer"
             },
             "counterparty": {
