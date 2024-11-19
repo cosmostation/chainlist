@@ -665,6 +665,29 @@
         }
     },
     {
+        "type": "ibc",
+        "denom": "ibc/7B7831150D7A8FF2A198DF4F8BD246F1BEA8E94B9ECD3EF7F8B6497B66BB206C",
+        "name" : "Neutron",
+        "symbol": "NTRN",
+        "description": "Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub's security to provide cross-chain DeFi applications.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrn.png",
+        "coinGeckoId": "neutron",
+        "ibc_info" : {
+            "path": "neutron>terra",
+            "client" : {
+                "channel": "channel-229",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "untrn"
+            }
+        }
+    },
+    {
         "type": "cw20",
         "denom": "terra15hhqg8gyz04zapynqtk7uvlsp7lzay7etrt9ann0276v94yae63sxygeat",
         "name" : "Wrapped Ethereum (Portal)",
