@@ -694,7 +694,7 @@
         "symbol": "LUNC",
         "description": "Terra Classic is the original blockchain platform that powered the UST algorithmic stablecoin and LUNA token before the launch of Terra Phoenix.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/lunc.png",
         "coinGeckoId": "terra-luna-classic",
         "ibc_info" : {
             "path": "terra-classic>terra",
