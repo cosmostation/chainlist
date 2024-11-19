@@ -1,7 +1,7 @@
 [
   {
     "name": "Eris Protocol",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "The Terra Liquidity Alliance is a place where liquidity providers can earn Luna rewards. You can also mint/unstake Amplified Luna here.",
     "status": "open",
     "thumbnail" : "eris-protocol",
@@ -16,7 +16,7 @@
   },
   {
     "name": "Astroport",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "A meta automated market maker built on Terra. Dock here to trade your wares.",
     "status": "open",
     "thumbnail" : "astroport",
@@ -31,7 +31,7 @@
   },
   {
     "name": "White Whale",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "White Whale runs a Terra decentralized exchange with a focus on interchain liquidity.",
     "status": "open",
     "thumbnail" : "white-whale",
@@ -46,7 +46,7 @@
   },
   {
     "name": "TFM",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "TFM is a modular liquidity layer for Cosmos. Click to open the Terra DEX aggregrator.",
     "status": "open",
     "thumbnail" : "tfm",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Necropolis",
-    "type": "Defi",
+    "type": "NFT",
     "description": "A multi-chain NFT Marketplace and Launchpad, powered by BackBone Labs",
     "status": "open",
     "thumbnail" : "necropolis",
@@ -74,7 +74,7 @@
   },
   {
     "name": "Luna Gravedigger",
-    "type": "Defi",
+    "type": "LSD",
     "description": "A multi-chain Liquid Staking Hub. You can mint/unstake Bone Luna here.",
     "status": "open",
     "thumbnail" : "gravedigger",
@@ -86,23 +86,8 @@
     }
   },
   {
-    "name": "Portal",
-    "type": "Defi",
-    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains such as Solana and EVM.",
-    "status": "open",
-    "thumbnail" : "portal",
-    "link": "https://portalbridge.com/advanced-tools/#/transfer",
-    "social": {
-      "webSite": "https://portalbridge.com/advanced-tools/#/transfer",
-      "twitter": "https://twitter.com/portalbridge_?lang=en",
-      "medium": "https://wormholecrypto.medium.com/",
-      "github": "https://github.com/wormhole-foundation/wormhole",
-      "docs": "https://wormhole.com/docs/"
-    }
-  },
-  {
     "name": "capapult",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "Decentralised CDP stablecoin ($SOLID) on Terra, governed through $CAPA holders.",
     "status": "open",
     "thumbnail" : "capapult",
@@ -116,7 +101,7 @@
   },
   {
     "name": "Demex",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "A multi-chain Perpetual DEX on Carbon. You can also borrow/lend Luna here via Nitron.",
     "status": "open",
     "thumbnail" : "demex",
@@ -124,14 +109,56 @@
     "social": {
       "webSite": "https://dem.exchange/",
       "twitter": "https://twitter.com/demexchange",
-      "medium": "https://medium.com/tag/demex",
       "github": "https://github.com/Switcheo/carbon-js-sdk",
       "docs": "https://docs.dem.exchange/"
     }
   },
   {
+    "name": "Noble Express",
+    "type": "Transport",
+    "description": "Transfer USDC from Solana / EVM to Noble. IBC after to Terra within Keplr or Leap.",
+    "status": "open",
+    "thumbnail" : "noble-express",
+    "link": "https://express.noble.xyz/transfer?origin=solana&destination=noble",
+    "social": {
+      "webSite": "https://express.noble.xyz/",
+      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
+      "github": "https://github.com/noble-assets/noble",
+      "docs": "https://docs.noble.xyz/cctp"
+    }
+  },
+  {
+    "name": "Stargate Finance",
+    "type": "Transport",
+    "description": "Transfer USDt from any EVM chain to Kava. Then go to app.kava.io/transfer and send to Terra. (Use OKX wallet if issues with MetaMask.)",
+    "status": "open",
+    "thumbnail" : "portal",
+    "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
+    "social": {
+      "webSite": "https://app.kava.io/transfer",
+      "twitter": "https://x.com/stargatefinance?lang=en",
+      "medium": "https://medium.com/stargate-official",
+      "github": "https://github.com/stargate-protocol",
+      "docs": "https://stargateprotocol.gitbook.io/stargate/v2-user-docs"
+    }
+  },
+  {
+    "name": "Portal",
+    "type": "Transport",
+    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains such as Solana and EVM.",
+    "status": "open",
+    "thumbnail" : "portal",
+    "link": "https://portalbridge.com/advanced-tools/#/transfer",
+    "social": {
+      "webSite": "https://wormhole.com/",
+      "twitter": "https://twitter.com/portalbridge_?lang=en",
+      "github": "https://github.com/wormhole-foundation/wormhole",
+      "docs": "https://wormhole.com/docs/"
+    }
+  },
+  {
     "name": "Luna Stride",
-    "type": "Defi",
+    "type": "LSD",
     "description": "Liquid staking Hub for the Cosmos. You can mint/unstake Stride Luna here.",
     "status": "open",
     "thumbnail" : "stride",
@@ -160,7 +187,7 @@
   },
   {
     "name": "Warp Protocol",
-    "type": "Defi",
+    "type": "DeFi",
     "description": "Smart contract-based transaction automator.",
     "status": "open",
     "thumbnail" : "warp-protocol",
@@ -174,8 +201,8 @@
   },
   {
     "name": "Feather",
-    "type": "Others",
-    "description": "Feather is a developer tool that makes it easy and lightweight to create blockchains on Cosmos Ecosystems, just like a bird's feather.",
+    "type": "Dev Tools",
+    "description": "A developer toolkit that makes it easy and lightweight to create blockchains on Cosmos ecosystems, just like a bird's feather.",
     "status": "prepare",
     "thumbnail" : "feather",
     "link": "https://featherjs.pages.dev/",
