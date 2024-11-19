@@ -1995,7 +1995,7 @@
     "coinGeckoId": "arable-protocol"
   },
   {
-    "denom": "ibc/01E94A5FF29B8DDEFC86F412CC3927F7330E9B523CC63A6194B1108F5276025C",
+    "denom": "ibc/FBBC35295AA037DC0A77796B08DC3003EC918E18E75D61D675A0EEAC0643F36C",
     "type": "ibc",
     "origin_chain": "medasdigital",
     "origin_denom": "umedas",
@@ -2004,7 +2004,7 @@
     "decimals": 6,
     "enable": true,
     "path": "medasdigital>osmosis",
-    "channel": "channel-519",
+    "channel": "channel-87042",
     "port": "transfer",
     "counter_party": {
       "channel": "channel-0",
