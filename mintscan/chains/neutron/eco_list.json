@@ -182,5 +182,50 @@
       "twitter": "https://x.com/nfadotzone",
       "telegram": "https://t.me/nfazone"
     }
+  },
+  {
+    "name": "Forge",
+    "type": "Earn",
+    "description": "The unified chain launch dashboard for Cosmos",
+    "status": "open",
+    "thumbnail" : "forge",
+    "link": "https://forge.cosmos.network/",
+    "social": {
+      "webSite": "https://forge.cosmos.network/",
+      "telegram": "https://t.me/cosmosproject",
+      "twitter": "https://x.com/cosmos",
+      "youtube": "https://www.youtube.com/c/CosmosProject",
+      "discord": "https://discord.com/invite/cosmosnetwork",
+      "github": "https://github.com/cosmos/interchain-security",
+      "docs": "https://cosmos.github.io/interchain-security/"
+    }
+  },
+  {
+    "name": "Hydro",
+    "type": "Earn",
+    "description": "Hydro gives ATOM stakers the opportunity to allocate the Hub’s liquidity by voting on bids submitted by projects, and receive tributes for their support.",
+    "status": "open",
+    "thumbnail" : "hydro",
+    "link": "https://hydro.cosmos.network/",
+    "social": {
+      "webSite": "https://hydro.cosmos.network/",
+      "telegram": "https://t.me/+xUzNOTZjUNw5Mzhk",
+      "docs": "https://hydro.cosmos.network/docs"
+    }
+  },
+  {
+    "name": "DaoDao",
+    "type": "Dao",
+    "description": "Simple, capable, and free DAO toolings for Cosmos",
+    "status": "open",
+    "thumbnail" : "daodao",
+    "link": "https://daodao.zone/dao/cosmos",
+    "social": {
+      "webSite": "https://daodao.zone/",
+      "twitter": "https://x.com/DA0_DA0",
+      "discord": "https://discord.com/invite/5uBMNMy4UR",
+      "github": "https://github.com/DA0-DA0",
+      "docs": "https://docs.daodao.zone/"
+    }
   }
 ]
