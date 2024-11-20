@@ -56,7 +56,7 @@
     ],
     "explorer": {
         "name": "Dora Vota Ping Pub",
-        "url": "https://atomscan.com/firmachain",
+        "url": "https://vota-explorer.dorafactory.org/doravota",
         "account": "https://vota-explorer.dorafactory.org/doravota/account/${address}",
         "tx": "https://vota-explorer.dorafactory.org/doravota/tx/${hash}",
         "proposal": "https://vota-explorer.dorafactory.org/doravota/gov/${id}"
