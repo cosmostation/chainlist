@@ -17,7 +17,7 @@
   {
     "name": "Astroport",
     "type": "DeFi",
-    "description": "A meta automated market maker built on Terra. Dock here to trade your wares.",
+    "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
     "status": "open",
     "thumbnail" : "astroport",
     "link": "https://app.astroport.fi/swap?chain=terra&from=ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB&to=uluna",
@@ -32,7 +32,7 @@
   {
     "name": "White Whale",
     "type": "DeFi",
-    "description": "White Whale runs a Terra decentralized exchange with a focus on interchain liquidity.",
+    "description": "White Whale runs an interchain decentralized exchange where Terrans can swap their coins.",
     "status": "open",
     "thumbnail" : "white-whale",
     "link": "https://app.whitewhale.money/terra/swap?from=USDt&to=LUNA",
@@ -94,9 +94,8 @@
     "link": "https://app.capapult.finance/dashboard",
     "social": {
       "webSite": "https://www.capapult.finance/",
-      "twitter": "https://twitter.com/capapult?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-      "medium": "https://medium.com/@capapult",
-      "github": "https://github.com/capapult-finance"
+      "twitter": "https://x.com/solid_capa",
+      "docs": "https://www.capapult.finance/whitepaper-v2.pdf"
     }
   },
   {
@@ -123,7 +122,7 @@
     "social": {
       "webSite": "https://express.noble.xyz/",
       "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
-      "github": "https://github.com/noble-assets/noble",
+      "github": "https://github.com/noble-assets",
       "docs": "https://docs.noble.xyz/cctp"
     }
   },
