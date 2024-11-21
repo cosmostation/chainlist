@@ -89,5 +89,26 @@
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/rocketx.png",
         "link": "https://app.rocketx.exchange/",
         "type": "DEX"
+    },
+    {
+        "name": "Unizen",
+        "description": "Unizen is a cutting-edge operating system for Web3 applications that enables users to seamlessly, cost-efficiently, and securely interact with all things Web3, including THORChain-powered cross-chain swaps.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/unizen.png",
+        "link": "https://zcx.com/trade/",
+        "type": "DEX"
+    },
+    {
+        "name": "Cacao Swap",
+        "description": "Cacao Swap is a supercharged user interface for cross-chain swaps, synthetics and yield opportunities. Powered by Thorchain, Maya Protocol and ChainFlip, it offers a user-first experience for all interactions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/cacao.png",
+        "link": "https://cacaoswap.app/",
+        "type": "DEX"
+    },
+    {
+        "name": "Babylon",
+        "description": "Babylon addresses the complexity and inefficiency of trading across multiple bridges and exchanges with the addition of the finest swapping tech, along with the development of a DeFi hub.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/babylon.png",
+        "link": "https://app.babylonswap.io/",
+        "type": "DEX"
     }
 ]
