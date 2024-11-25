@@ -40,10 +40,6 @@
     ],
     "lcd_endpoint": [
         {
-            "provider": "Lavenderfive",
-            "url": "https://rest.lavenderfive.com:443/sge/"
-        },
-        {
             "provider": "Polkachu",
             "url": "https://sge-api.polkachu.com/"
         },
@@ -58,6 +54,10 @@
         {
             "provider": "🔥STAVR🔥",
             "url": "https://sge.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavenderfive",
+            "url": "https://rest.lavenderfive.com:443/sge/"
         }
     ],
     "explorer": {
