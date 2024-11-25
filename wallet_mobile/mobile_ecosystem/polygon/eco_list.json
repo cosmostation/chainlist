@@ -1,9 +1,79 @@
 [
-  {
-    "name": "1inch",
-    "description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/1inch.png",
-    "link": "https://app.1inch.io/#/137/simple/swap/MATIC",
-    "type": "DEX"
-  }
+    {
+        "name": "1inch",
+        "description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/1inch.png",
+        "link": "https://app.1inch.io/#/137/simple/swap/MATIC",
+        "type": "DEX"
+    },
+    {
+        "name": "Rango Exchange",
+        "description": "Rango Exchange a powerful multi-chain aggregator for DEX and bridges, based on reachability and support of top blockchains.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/rangoexchange.png",
+        "link": "https://app.rango.exchange/bridge?fromBlockchain=ETH&fromToken=ETH&toBlockchain=ETH&toToken=USDT--0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "type": "DEX"
+    },
+    {
+        "name": "ShapeShift",
+        "description": "ShapeShift is a pioneer in self-custody for digital asset trading. Our open source platform empowers users to safely buy, hold, trade, and invest in a range of digital assets and improves access to open, decentralized financial systems.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/shapeshift.png",
+        "link": "https://app.shapeshift.com/?utm_source=mainpage&utm_medium=launchdapp&utm_campaign=top#/trade",
+        "type": "DEX"
+    },
+    {
+        "name": "Jumper",
+        "description": "A truly multi-chain exchange. Aggregating the best in the business for bridging, swapping, onramping.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/jumper.png",
+        "link": "https://jumper.exchange",
+        "type": "DEX"
+    },
+    {
+        "name": "OpenOcean",
+        "description": "OpenOcean is a leading DEX Aggregator, a cross-chain swap aggregator, and Web3 middleware developer in the crypto space, offering a suite of tools across 30+ networks and maintains strong connections with 1000+ DeFi projects.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/openocean.png",
+        "link": "https://app.openocean.finance/eth",
+        "type": "DEX"
+    },
+    {
+        "name": "Symbiosis",
+        "description": "Symbiosis is a cross-chain AMM DEX that pools together liquidity from different networks: L1s and L2s, EVM and non-EVM. With Symbiosis, you can easily swap any token and move your assets across different networks.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/symbiosis.png",
+        "link": "https://app.symbiosis.finance",
+        "type": "DEX"
+    },
+    {
+        "name": "Rubic",
+        "description": "Rubic aggregates swaps of 15,000+ assets across dozens of blockchains with the best rates, highest liquidity, and transaction speeds - in one click, thanks to the integration of 220+ DEXs and bridges.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/rubic.png",
+        "link": "https://app.rubic.exchange",
+        "type": "DEX"
+    },
+    {
+        "name": "Plexus",
+        "description": "PLEXUS is a cross-chain liquidity aggregator that combines DEXs and Bridges on many chains, allowing users to trade all tokens in every chain with one click and one API at the fastest and most optimal price.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/plexus.png",
+        "link": "https://www.plexus.app/swap",
+        "type": "DEX"
+    },
+    {
+        "name": "RocketX",
+        "description": "RocketX is the most advanced hybrid aggregator that simplifies access to $100B+ liquidity across 300+ DEXs & 6 Top CEXs via a Single UI and API",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/rocketx.png",
+        "link": "https://app.rocketx.exchange/",
+        "type": "DEX"
+    },
+    {
+        "name": "Unizen",
+        "description": "Unizen is a cutting-edge operating system for Web3 applications that enables users to seamlessly, cost-efficiently, and securely interact with all things Web3, including THORChain-powered cross-chain swaps.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/unizen.png",
+        "link": "https://zcx.com/trade/",
+        "type": "DEX"
+    }
+    {
+        "name": "Babylon",
+        "description": "Babylon addresses the complexity and inefficiency of trading across multiple bridges and exchanges with the addition of the finest swapping tech, along with the development of a DeFi hub.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/polygon/resource/babylon.png",
+        "link": "https://app.babylonswap.io/",
+        "type": "DEX"
+    }
 ]

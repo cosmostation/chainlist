@@ -1,58 +1,79 @@
 [
-  {
-    "name": "Cronos Discover",
-    "description": "Cronos Discover is a platform that ranks the best projects on the Cronos Chain.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/discover_cronos.png",
-    "link": "https://discover.cronos.org/ranking",
-    "type": "Leader Board"
-  },
-  {
-    "name": "Crodex",
-    "description": "Crodex is a decentralized exchange (DEX) on the Cronos blockchain, offering trading, liquidity provision, and yield farming. It aims to provide a seamless DeFi experience with low fees and fast transactions.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/crodex.png",
-    "link": "https://swap.crodex.app/#/swap",
-    "type": "Dex"
-  },
-  {
-    "name": "VVS Finance",
-    "description": "VVS Finance is a decentralized finance (DeFi) platform on the Cronos blockchain. It provides users with various financial services, including swapping, staking, and yield farming.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/vvs_finance.png",
-    "link": "https://vvs.finance/",
-    "type": "DeFi"
-  },
-  {
-    "name": "Ebisus Bay",
-    "description": "Ebisu's Bay is a decentralized marketplace for NFTs on the Cronos blockchain. It allows users to create, buy, sell, and trade a wide variety of non-fungible tokens (NFTs).",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/ebisusbay.jpg",
-    "link": "https://www.ebisusbay.com/",
-    "type": "Game & NFT"
-  },
-  {
-    "name": "Corgiai",
-    "description": "CorgiAI is a platform focused on integrating AI and blockchain technology to create innovative solutions. It offers various services and products that leverage artificial intelligence for enhanced security, efficiency, and user experience in the blockchain space.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/corgiai.png",
-    "link": "https://corgiai.xyz/",
-    "type": "AI"
-  },
-  {
-    "name": "Fulcrom Finance",
-    "description": "Fulcrom Finance is a decentralized finance (DeFi) platform that provides a range of financial services including swapping, staking, and liquidity provision.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/fulcrom_finance.jpg",
-    "link": "https://fulcrom.finance/",
-    "type": "DeFi"
-  },
-  {
-    "name": "Wolfswap",
-    "description": "WolfSwap is a decentralized finance (DeFi) platform designed for cryptocurrency trading and liquidity provision.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/wolfswap.jpg",
-    "link": "https://wolfswap.app/",
-    "type": "DeFi"
-  },
-  {
-    "name": "Win Galaxy",
-    "description": "Wingalaxy is an online game that integrates blockchain technology to provide an immersive gaming experience.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/wingalaxy.jpg",
-    "link": "https://wingalaxy.game/",
-    "type": "Game"
-  }
+    {
+        "name": "Cronos Discover",
+        "description": "Cronos Discover is a platform that ranks the best projects on the Cronos Chain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/discover_cronos.png",
+        "link": "https://discover.cronos.org/ranking",
+        "type": "Leader Board"
+    },
+    {
+        "name": "Crodex",
+        "description": "Crodex is a decentralized exchange (DEX) on the Cronos blockchain, offering trading, liquidity provision, and yield farming. It aims to provide a seamless DeFi experience with low fees and fast transactions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/crodex.png",
+        "link": "https://swap.crodex.app/#/swap",
+        "type": "Dex"
+    },
+    {
+        "name": "VVS Finance",
+        "description": "VVS Finance is a decentralized finance (DeFi) platform on the Cronos blockchain. It provides users with various financial services, including swapping, staking, and yield farming.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/vvs_finance.png",
+        "link": "https://vvs.finance/",
+        "type": "DeFi"
+    },
+    {
+        "name": "Ebisus Bay",
+        "description": "Ebisu's Bay is a decentralized marketplace for NFTs on the Cronos blockchain. It allows users to create, buy, sell, and trade a wide variety of non-fungible tokens (NFTs).",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/ebisusbay.jpg",
+        "link": "https://www.ebisusbay.com/",
+        "type": "Game & NFT"
+    },
+    {
+        "name": "Corgiai",
+        "description": "CorgiAI is a platform focused on integrating AI and blockchain technology to create innovative solutions. It offers various services and products that leverage artificial intelligence for enhanced security, efficiency, and user experience in the blockchain space.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/corgiai.png",
+        "link": "https://corgiai.xyz/",
+        "type": "AI"
+    },
+    {
+        "name": "Fulcrom Finance",
+        "description": "Fulcrom Finance is a decentralized finance (DeFi) platform that provides a range of financial services including swapping, staking, and liquidity provision.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/fulcrom_finance.jpg",
+        "link": "https://fulcrom.finance/",
+        "type": "DeFi"
+    },
+    {
+        "name": "Wolfswap",
+        "description": "WolfSwap is a decentralized finance (DeFi) platform designed for cryptocurrency trading and liquidity provision.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/wolfswap.jpg",
+        "link": "https://wolfswap.app/",
+        "type": "DeFi"
+    },
+    {
+        "name": "Win Galaxy",
+        "description": "Wingalaxy is an online game that integrates blockchain technology to provide an immersive gaming experience.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/wingalaxy.jpg",
+        "link": "https://wingalaxy.game/",
+        "type": "Game"
+    },
+    {
+        "name": "Symbiosis",
+        "description": "Symbiosis is a cross-chain AMM DEX that pools together liquidity from different networks: L1s and L2s, EVM and non-EVM. With Symbiosis, you can easily swap any token and move your assets across different networks.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/symbiosis.png",
+        "link": "https://app.symbiosis.finance",
+        "type": "DEX"
+    },
+    {
+        "name": "Rubic",
+        "description": "Rubic aggregates swaps of 15,000+ assets across dozens of blockchains with the best rates, highest liquidity, and transaction speeds - in one click, thanks to the integration of 220+ DEXs and bridges.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/rubic.png",
+        "link": "https://app.rubic.exchange",
+        "type": "DEX"
+    },
+    {
+        "name": "RocketX",
+        "description": "RocketX is the most advanced hybrid aggregator that simplifies access to $100B+ liquidity across 300+ DEXs & 6 Top CEXs via a Single UI and API",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cronos/resource/rocketx.png",
+        "link": "https://app.rocketx.exchange/",
+        "type": "DEX"
+    }
 ]
