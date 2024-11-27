@@ -768,5 +768,28 @@
                 "contract": "0x912ce59144191c1204e64559fe8253a0e49e6548"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/53046FFF6CAD109D8F9B2C7C9913853AD241928CD05CDDE419343D176025DA74",
+        "name" : "Crowdpunk DAO",
+        "symbol": "CROWDP",
+        "description": "The token of Crowdpunk DAO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.svg",
+        "color": "#04fbfb",
+        "ibc_info" : {
+            "path": "evmos>axelar",
+            "client" : {
+                "channel": "channel-22",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-21",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F"
+            }
+        }
     }
 ]
