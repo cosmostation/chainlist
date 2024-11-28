@@ -62,10 +62,6 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Planq Network",
-            "url": "https://rest.planq.network/"
-        },
-        {
             "provider": "🔥STAVR🔥",
             "url": "https://planq.api.m.stavr.tech/"
         },
@@ -95,10 +91,6 @@
         }
     ],
     "evm_rpc_endpoint" : [
-        {
-            "provider": "Planq Network",
-            "url": "https://evm-rpc.planq.network"
-        },
         {
             "provider": "Nodies",
             "url": "https://planq-rpc.nodies.app"
