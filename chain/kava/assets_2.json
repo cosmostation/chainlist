@@ -313,5 +313,28 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/multiwbtc.png",
         "coinGeckoId": "",
         "color": "#FFFFFF"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D4F1F74C6B90168E05B974F2EBB5938D18704B73DE273CAACF7E96F7821B2C3D",
+        "name" : "Crowdpunk DAO",
+        "symbol": "CROWDP",
+        "description": "The token of Crowdpunk DAO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.svg",
+        "color": "#04fbfb",
+        "ibc_info" : {
+            "path": "evmos>kava",
+            "client" : {
+                "channel": "channel-117",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-83",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F"
+            }
+        }
     }
 ]

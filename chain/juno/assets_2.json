@@ -544,5 +544,28 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nexx.png",
         "coinGeckoId": "040405"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B4B81727559DC69159ED8BECD4452D555235CA0D11FADD3ADE121395A7E2833E",
+        "name" : "Crowdpunk DAO",
+        "symbol": "CROWDP",
+        "description": "The token of Crowdpunk DAO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.svg",
+        "color": "#04fbfb",
+        "ibc_info" : {
+            "path": "evmos>juno",
+            "client" : {
+                "channel": "channel-70",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F"
+            }
+        }
     }
 ]

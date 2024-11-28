@@ -383,5 +383,28 @@
                 "denom": "weth-wei"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D29FF5FFE7B9A5C6CE595FF963F7C93F2B8603586645C39B13E1D336847863C3",
+        "name" : "Crowdpunk DAO",
+        "symbol": "CROWDP",
+        "description": "The token of Crowdpunk DAO",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.svg",
+        "color": "#04fbfb",
+        "ibc_info" : {
+            "path": "evmos>stargaze",
+            "client" : {
+                "channel": "channel-46",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-13",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F"
+            }
+        }
     }
 ]
