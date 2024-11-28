@@ -88,6 +88,10 @@
         {
             "provider": "Blockval",
             "url": "https://api-planq.blockval.io/"
+        },
+        {
+            "provider": "Planq Network",
+            "url": "https://rest.planq.network/"
         }
     ],
     "evm_rpc_endpoint" : [
@@ -110,6 +114,10 @@
         {
             "provider": "Safe Block",
             "url": "https://evm.planq.safeblock.space"
+        },
+        {
+            "provider": "Planq Network",
+            "url": "https://evm-rpc.planq.network"
         }
     ],
     "explorer" : {
