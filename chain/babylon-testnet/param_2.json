@@ -1,4 +1,49 @@
 {
+    "chain_id_cosmos": "",
+    "chain_name": "Babylon Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/resource/chain_babylon-testnet.png",
+    "main_asset_denom" : "ubbn",
+    "main_asset_symbol": "BBN",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/asset/bbn.png",
+    "bech_account_prefix": "bbn",
+    "bech_validator_prefix": "bbnvaloper",
+    "origin_genesis_time": "",
+    "api_name": "babylon-testnet",
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0ubbn"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Babylon Labs",
+            "url": "https://lcd.devnet.babylonlabs.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
+    },
     "about" : {
         "website" : "https://babylonchain.io/",
         "docs" : "https://docs.babylonchain.io/",
