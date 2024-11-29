@@ -1,4 +1,44 @@
 {
+    "chain_id_cosmos": "",
+    "chain_name": "Milkyway",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/milkyway/resource/chain_milkyway.png",
+    "main_asset_denom": "umilk",
+    "main_asset_symbol": "MILK",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/milkyway/asset/milk.png",
+    "bech_account_prefix": "milk",
+    "bech_validator_prefix": "milkvaloper",
+    "origin_genesis_time": "",
+    "api_name": "milkyway",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+    ],
+    "lcd_endpoint": [
+    ],
+    "explorer": {
+    },
+    "about": {
+    },
     "description" : {
         "ko" : "MilkyWay는 최초의 모듈형 스테이킹 포털로, 리퀴드 스테이킹과 리스테이킹 솔루션을 통해 원하는 것을 자유롭게 구축할 수 있는 기반을 제공합니다.",
         "en" : "MilkyWay is the first modular staking portal offering liquid staking and restaking solutions to unlock the freedom to build anything.",
