@@ -39,6 +39,10 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "pryzm.lavenderfive.com:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "pryzm-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -49,6 +53,10 @@
         {
             "provider": "Lavender.Five Nodes",
             "url": "https://rest.lavenderfive.com:443/pryzm/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://pryzm-api.chainroot.io/"
         }
     ],
     "explorer" : {

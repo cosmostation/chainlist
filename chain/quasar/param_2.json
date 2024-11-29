@@ -45,6 +45,10 @@
         {
             "provider": "StakeTown",
             "url": "quasar-grpc.stake-town.com:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "quasar-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -67,6 +71,10 @@
         {
             "provider": "Cosmos Spaces",
             "url": "https://api-quasar.cosmos-spaces.cloud/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://quasar-api.chainroot.io/"
         }
     ],
     "explorer" : {

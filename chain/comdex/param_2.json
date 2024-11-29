@@ -45,6 +45,10 @@
         {
             "provider": "StakerHouse",
             "url": "comdex-grpc.stakerhouse.com:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "comdex-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -67,6 +71,10 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "https://comdex-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://comdex-api.chainroot.io/"
         }
     ],
     "explorer" : {
