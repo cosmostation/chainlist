@@ -23,8 +23,9 @@
         }
     ],
     "cosmos_fee_info" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
+            "0.01ubtsg",
             "0.025ubtsg"
         ],
         "is_simulable" : true,
