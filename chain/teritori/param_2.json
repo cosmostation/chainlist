@@ -40,6 +40,10 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "teritori-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "teritori-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -62,6 +66,10 @@
         {
             "provider": "Inter Blockchain Services",
             "url": "https://teritori-api.ibs.team/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://teritori-api.chainroot.io/"
         }
     ],
     "explorer" : {

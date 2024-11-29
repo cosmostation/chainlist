@@ -46,6 +46,10 @@
         {
             "provider": "StakeTown",
             "url": "osmosis-grpc.stake-town.com:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "osmosis-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -64,6 +68,10 @@
         {
             "provider": "Chainlayer",
             "url": "https://osmosis-lcd.quickapi.com/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://osmosis-api.chainroot.io/"
         }
     ],
     "explorer" : {

@@ -55,6 +55,10 @@
         {
             "provider": "Luganodes",
             "url": "grpc.archway.lgns.net:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "archway-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -81,6 +85,10 @@
         {
             "provider": "WhisperNode 🤐",
             "url": "https://lcd-archway.whispernode.com/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://archway-api.chainroot.io/"
         }
     ],
     "explorer" : {

@@ -55,6 +55,10 @@
         {
             "provider": "Coreum Foundation",
             "url": "full-node-uranium.mainnet-1.coreum.dev:9090"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "coreum-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -77,6 +81,10 @@
         {
             "provider": "Stakewolle",
             "url": "https://public.stakewolle.com/cosmos/coreum/rest"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://coreum-api.chainroot.io/"
         }
     ],
     "explorer" : {

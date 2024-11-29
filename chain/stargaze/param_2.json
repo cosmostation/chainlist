@@ -47,6 +47,10 @@
         {
             "provider": "Notional",
             "url": "grpc-stargaze-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "stargaze-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -69,6 +73,10 @@
         {
             "provider": "ramuchi.tech",
             "url": "https://stargaze-api.ramuchi.tech/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://stargaze-api.chainroot.io/"
         }
     ],
     "explorer" : {

@@ -59,6 +59,10 @@
         {
             "provider": "Cogwheel",
             "url": "juno-grpc.cogwheel.zone:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "juno-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -81,6 +85,10 @@
         {
             "provider": "ChainTools",
             "url": "https://api.juno.chaintools.tech/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://juno-api.chainroot.io/"
         }
     ],
     "explorer" : {
