@@ -1,0 +1,39 @@
+{
+    "chain_name": "Namada",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/namada/resource/chain_namada.png",
+    "main_asset_denom" : "tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7",
+    "main_asset_symbol" : "NAM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/namada/asset/nam.png",
+    "origin_genesis_time" : "",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "namada"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/877'/0'/0'/X'",
+            "pubkey_style": "ed25519"
+        }
+    ],
+    "rpc_endpoint" : [
+    ],
+    "explorer" : {
+    },
+    "about" : {
+        "website" : "",
+        "docs": "",
+        "github" : "",
+        "blog" : "",
+        "reddit" : "",
+        "twitter" : "",
+        "telegram" : "",
+        "discord" : "",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}
