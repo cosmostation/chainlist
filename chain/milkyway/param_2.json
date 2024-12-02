@@ -45,6 +45,11 @@
         }
     ],
     "explorer": {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/milkway/",
+        "account": "https://www.mintscan.io/milkway/address/${address}",
+        "tx": "https://www.mintscan.io/milkway/tx/${hash}",
+        "proposal": "https://www.mintscan.io/milkway/proposals/${id}"
     },
     "about": {
         "website" : "https://www.milkyway.zone/",
