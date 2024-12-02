@@ -129,7 +129,7 @@
   {
     "name": "Stargate Finance",
     "type": "Transport",
-    "description": "Transfer USDT from any EVM chain to Kava. Then go to app.kava.io/transfer and send to Terra. (Use OKX wallet if issues with MetaMask.)",
+    "description": "Transfer USDT from any EVM chain to Kava. Then go to app.kava.io/transfer and send to Terra. (Alternative route: SEI and generate Sei address on app.sei.io, then IBC to Terra.)",
     "status": "open",
     "thumbnail" : "stargate",
     "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
