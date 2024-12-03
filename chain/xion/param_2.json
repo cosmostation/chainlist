@@ -9,6 +9,9 @@
     "bech_validator_prefix" : "xionvaloper",
     "origin_genesis_time" : "",
     "api_name" : "xion",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
     "chain_type": [
         "cosmos"
     ],
@@ -31,10 +34,23 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-xion.cosmostation.io:443"
+        }
     ],
     "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-xion.cosmostation.io/"
+        }
     ],
     "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/xion/",
+        "account": "https://www.mintscan.io/xion/address/${address}",
+        "tx": "https://www.mintscan.io/xion/tx/${hash}",
+        "proposal": "https://www.mintscan.io/xion/proposals/${id}"
     },
     "about" : {
         "website" : "https://xion.burnt.com/",
