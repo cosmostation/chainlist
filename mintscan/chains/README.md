@@ -13,7 +13,7 @@ Nuetorn Ecosystem [Example](https://www.mintscan.io/neutron/ecosystem/)
 
 
 
-Please add your service for correct chain folder. When you want create new cahin folder please follow [chainlist](https://github.com/cosmostation/chainlist/tree/main/chain) naming
+Please add your service for correct chain folder. When you want create new chain folder please follow [chainlist](https://github.com/cosmostation/chainlist/tree/main/chain) naming
 
 
 [mandatory]
