@@ -88,7 +88,7 @@
             - API ID: *cosmos*
        - Empty string if none
 
-    - ***If the type is <u>ibc</u>, provide the info below:***
+    - ***If the type is <ins>ibc</ins>, provide the info below:***
       - `ibc_info`
         - `path`
           - If the coin was transferred via ibc, bridge or other path, provide full details of where it was transferred from.
@@ -103,7 +103,7 @@
           - `chain`
           - `denom`
             - Coin's denom before ibc transfer
-     - ***If the type is <u>bridge</u>, provide the info below:***
+     - ***If the type is <ins>bridge</ins>, provide the info below:***
        - `bridge_info`
          - `path` (optional)
            - If the coin was transferred via ibc, bridge or other path, provide full details of where it was transferred from.
