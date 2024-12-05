@@ -4,10 +4,10 @@
 
 - Migrated from [Token Resource](https://github.com/cosmostation/cosmostation_token_resource)
 - [Validator's moniker image](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-validator-image)
-- [Add Asset's Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-token-info)
-- [Add Erc20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-erc20-token-info)
+- [Add Asset's Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-coin-info)
 - [Add Cw20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-cw20-token-info)
-- [dApp link and description on Mobile Wallet](https://github.com/cosmostation/chainlist/tree/main/dapp)
+- [Add Erc20 Info](https://github.com/cosmostation/chainlist/tree/main#how-to-add-your-erc20-token-info)
+- [dApp link and description on Mobile Wallet](https://github.com/cosmostation/chainlist/tree/main/wallet_mobile/dapp)
 - [Add gRPC/EVM Endpoint](https://github.com/cosmostation/chainlist/tree/main#how-to-add-endpoint)
 
 
@@ -43,9 +43,9 @@
 ---
 
 <details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add your token info</h2></summary>
+  <summary><h2 style='display: inline; font-size: 24px'>How to add your coin info</h2></summary>
 
-‼️ Please be noted that tokens of Testnets and unverified networks may not be merged to master.
+‼️ Please be noted that coins of Testnets and unverified networks may not be merged to master.
 1. Fork this repo to your own github account
 2. Clone fork and create new branch
 
@@ -56,210 +56,370 @@
    git checkout <branch_name>
    ```
 
-3. Add the info of your token in the chain that your token needs to be displayed
-   - Common info to fill
-     - `denom`
-       - token's denom
+3. Add the info of your coin in the chain `assets_2.json` file that your coin needs to be displayed
+    >If there is no chain in the list, create a folder for the chain  
+    Then add `assets_2.json` file to the folder, add coin info to that file  
+    Changes will be updated within 24 hours after merged to master
+
+
+   - ***Common info to fill***
      - `type`
-       - `staking` refers that the token is the native staking token of a chain.
-       - `native` refers that the token is a native token issued on a chain, but not the staking token.
-       - `ibc` refers that the token was ibc transferred.
-       - `pool` refers that the token represents a pool token.
-       - `bridge` refers that the token is a bridge token.
-       - `cw20` refers that the token is a cw20 token.
-       - `erc20` refers thatthe token is an erc20 token.
-     - `origin_chain`
-       - The origin chain where this token was issued.
-     - `origin_denom`
-       - Original denom of the token.
-     - `origin_type`
-       - Original type of the token. [ staking, native, pool, ibc, bridge, cw20, erc20 ]
+       - `native` refers that the coin is a native coin issued on a chain.
+       - `ibc` refers that the coin was ibc transferred.
+       - `bridge` refers that the coin is a bridge coin.
+     - `denom`
+       - coin's denom
      - `symbol`
-       - The displayed name of the token in the list.
+       - The displayed name of the coin in the list.
+     - `description`
+       - A brief summary of the coin
      - `decimals`
-       - Token's decimals.
+       - Coin's decimals.
      - `image` (optional)
-       - Image route of the token.
+       - Image route of the coin.
        - Add image in `${targetchain}/asset` folder.
          - Make sure to upload a `png` file.
      - `coinGeckoId`
-       - Coin gecko site's API ID <ex) https://www.coingecko.com/en/coins/cosmos-hub -> API ID: cosmos>
+       - Coin gecko site's API ID 
+         - ex. https://www.coingecko.com/en/coins/cosmos-hub 
+            - API ID: *cosmos*
        - Empty string if none
-   - If the type is staking, provide the info below:
-     - `description`
-       - A brief summary of the token
-- If the type is ibc, provide the info below:
-  - `enable` (optional)
-    - `true` if ibc transmission is possible
-  - `channel` (optional)
-  - `port` (optional)
-    - Add the token's channel and port
-    - `counter_party` (optional)
-    - `channel`
-      - `port`
-        - Add counter party's channel and port
-      - `denom`
-      - Token's denom before ibc transfer
-   - `path` (optional)
-    - If the token was transferred via ibc, bridge or other path, provide full details of where it was transferred from.
-    - If the type is bridge, provide the info below:
-    - `path` (optional)
-      - If the token was transferred via ibc, bridge or other path, provide full details of where it was transferred from.
-    - `contract` (optional)
-      - If the token was transferred via contract, provide the contract address.
+     - `color` (optional)
+    - ***If the type is <u>ibc</u>, provide the info below:***
+      - `ibc_info`
+        - `path`
+          - If the coin was transferred via ibc, bridge or other path, provide full details of where it was transferred from.
+        - `client`
+          - `channel`
+          - `port`
+            - Add the coin's channel and port
+        - `counterparty`
+          - `channel`
+          - `port`
+            - Add counter party's channel and port
+          - `chain`
+          - `denom`
+            - Coin's denom before ibc transfer
+     - ***If the type is <u>bridge</u>, provide the info below:***
+       - `bridge_info`
+         - `path` (optional)
+           - If the coin was transferred via ibc, bridge or other path, provide full details of where it was transferred from.
+         - `counterparty`
+           - `chain`
+           - `contract` (optional)
+             - If the coin was transferred via contract, provide the contract address.
+         - `enable` (optional)
+           - `true` if ibc transmission is possible
+
+
+
+   ### Coin info json example
+   `chain/${chain}/assets_2.json`
+
+    - Native Coin
+
+      ```json
+      // example OSMOSIS
+      [
+        {
+            "type": "native",
+            "denom": "uosmo",
+            "name": "Osmosis",
+            "symbol": "OSMO",
+            "description": "The native token of Osmosis",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+            "color": "#760dbb",
+            "coinGeckoId": "osmosis"
+        },
+        {
+            "type": "native",
+            "denom": "uion",
+            "name": "Ion DAO",
+            "symbol": "ION",
+            "description": "ION is the second native token of Osmosis.",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg",
+            "color": "#4453c7",
+            "coinGeckoId": "ion"
+        }
+      ]
+      ```
+
+    - IBC Coin
+
+      ```json
+      [
+        // example COSMOS
+        {
+            "type": "ibc",
+            "denom": "ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC",
+            "name" : "Osmosis",
+            "symbol": "OSMO",
+            "description": "Osmosis Staking Coin",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+            "coinGeckoId": "osmosis",
+            "ibc_info" : {
+                "path": "osmosis>cosmos",
+                "client" : {
+                    "channel": "channel-141",
+                    "port": "transfer"
+                },
+                "counterparty": {
+                    "channel": "channel-0",
+                    "port": "transfer",
+                    "chain": "osmosis",
+                    "denom": "uosmo"
+                }
+            }
+        }
+        // example IRIS
+        {
+            "type": "ibc",
+            "denom": "ibc/E244B968EE0D1EC047E7516F6ABECE7B68E9FD93B4BD8D08D13642247416BB17",
+            "name" : "Wrapped Ethereum (Ethereum to Gravity-Bridge)",
+            "symbol": "WETH.grv",
+            "description": "Gravity Bridge WETH",
+            "decimals": 18,
+            "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+            "coinGeckoId": "weth",
+            "ibc_info" : {
+                "path": "ethereum>gravity-bridge>iris",
+                "client" : {
+                    "channel": "channel-29",
+                    "port": "transfer"
+                },
+                "counterparty": {
+                    "channel": "channel-47",
+                    "port": "transfer",
+                    "chain": "gravity-bridge",
+                    "denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+                }
+            }
+        }
+      ]
+      ```
+
+    - Bridge Coin
+
+      ```json
+      [
+        // example GRAVITY-BRIDGE
+        {
+            "type": "bridge",
+            "denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "name" : "Wrapped Bitcoin (Ethereum to Gravity-Bridge)",
+            "symbol": "WBTC.grv",
+            "description": "Gravity Bridge WBTC",
+            "decimals": 8,
+            "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+            "coinGeckoId": "wrapped-bitcoin",
+            "color": "#f39444",
+            "bridge_info" : {
+                "path": "ethereum>gravity-bridge",
+                "counterparty": {
+                    "chain": "ethereum",
+                    "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+                }
+            }
+        }
+        // example IRIS
+        {
+            "type": "bridge",
+            "denom": "htltbcbusd",
+            "name" : "BUSD - Deprecated",
+            "symbol": "BUSD",
+            "description": "BUSD on IRIS - Deprecated",
+            "decimals": 8,
+            "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-beacon-chain/asset/busd.png",
+            "coinGeckoId": "binance-usd",
+            "bridge_info" : {
+                "path": "bnb-beacon-chain>iris",
+                "enable": false
+            }
+        }
+      ]
+      ```
+
+
+4. Commit and push to your fork
+
+   ```shell
+   git add -A
+   git commit -m “Add <YOUR COIN NAME>”
+   git push origin <branch_name>
+   ```
+
+5. From your repository, make pull request (PR)
+</details>
 
 ---
 
-- Native Token
-  `chain/${chain}/assets.json`
+<details>
+  <summary><h2 style='display: inline; font-size: 24px'>How to add your CW20 token info</h2></summary>
 
-  ```json
-  // example OSMOSIS
-  [
-    {
-      "denom": "uosmo",
-      "type": "staking",
-      "origin_chain": "osmosis",
-      "origin_denom": "uosmo",
-      "origin_type": "staking",
-      "symbol": "OSMO",
-      "decimals": 6,
-      "description": "Osmosis Staking Coin",
-      "image": "osmosis/asset/osmo.png",
-      "coinGeckoId": "osmosis"
-    },
-    {
-      "denom": "uion",
-      "type": "native",
-      "origin_chain": "osmosis",
-      "origin_denom": "uion",
-      "origin_type": "native",
-      "symbol": "ION",
-      "decimals": 6,
-      "description": "Native Coin",
-      "image": "osmosis/asset/ion.png",
-      "coinGeckoId": "ion"
-    },
-    // example KUJIRA
-    {
-      "denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
-      "type": "native",
-      "origin_chain": "kujira",
-      "origin_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
-      "origin_type": "native",
-      "symbol": "USK",
-      "decimals": 6,
-      "description": "USK Stable Asset",
-      "image": "kujira/asset/usk.png",
-      "coinGeckoId": "usk"
-    },
-  ]
-  ```
+  [Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/cw20_2.json) list supporting
+1. Fork this repo to your own github account
+2. Clone fork and create new branch
 
-- IBC Token
+   ```shell
+   git clone git@github.com:YOUR_ACCOUNT/chainlist.git
+   cd chainlist
+   git branch <branch_name>
+   git checkout <branch_name>
+   ```
 
-  ```json
-  [
-    // example COSMOS
-    {
-      "denom": "ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC",
-      "type": "ibc",
-      "origin_chain": "osmosis",
-      "origin_denom": "uosmo",
-      "origin_type": "staking",
-      "symbol": "OSMO",
-      "decimals": 6,
-      "enable": true,
-      "path": "osmosis>cosmos",
-      "channel": "channel-141",
-      "port": "transfer",
-      "counter_party": {
-        "channel": "channel-0",
-        "port": "transfer",
-        "denom": "uosmo"
-      },
-      "image": "osmosis/asset/osmo.png", // Set image route for base_denom
-      "coinGeckoId": "osmosis"
-    },
-    // example IRIS
-    {
-      "denom": "ibc/E244B968EE0D1EC047E7516F6ABECE7B68E9FD93B4BD8D08D13642247416BB17",
-      "type": "ibc",
-      "origin_denom": "weth",
-      "origin_type": "erc20",
-      "symbol": "WETH",
-      "origin_chain": "ethereum",
-      "decimals": 18,
-      "enable": true,
-      "path": "ethereum>gravity-bridge>iris",
-      "channel": "channel-29",
-      "port": "transfer",
-      "counter_party": {
-        "channel": "channel-47",
-        "port": "transfer",
-        "denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
-      },
-      "image": "ethereum/asset/weth.png", // Set image route for base_denom
-      "coinGeckoId": "weth",
-      "contract": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+3. Add the info of your token in the chain `cw20_2.json` file that your token needs to be displayed  
+   >If there is no chain in the list, create a folder for the chain  
+   Then add `cw20_2.json` file to the folder, add token info to that file   
+   Changes will be updated within 24 hours after merged to master
+      - `type`
+        - cw20 
+      - `contract`
+        - Token's contract_address
+      - `name`
+        - Token's name
+      - `symbol`
+        - Name of token's symbol
+      - `description`
+        - A brief summary of the token
+      - `decimals`
+        - Decimal of the token
+      - `image`
+        - Image route of the token
+        - `/${targetChain}/asset` add image in the folder
+        - Make sure to upload a `png` file
+      - `coinGeckoId`
+        - Coin gecko site's API ID 
+          - ex. https://www.coingecko.com/en/coins/cosmos-hub
+            - API ID: *cosmos*
+        - Empty string if none
+      - `color` (optional)
+      - `wallet_preload` (optional)
+        - default value is `false`
 
-    }
-  ]
-  ```
 
-- Bridge Token
+   ### Cw20 info json example
+   `chain/${targetChain}/cw20_2.json`
 
-  ```json
-  [
-    // example GRAVITY-BRIDGE
-    {
-      "denom": "gravity0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-      "type": "bridge",
-      "origin_chain": "ethereum",
-      "origin_denom": "wbtc",
-      "origin_type": "erc20",
-      "symbol": "WBTC",
-      "decimals": 8,
-      "path": "ethereum>gravity-bridge",
-      "image": "ethereum/asset/wbtc.png",
-      "coinGeckoId": "wrapped-bitcoin",
-      "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
-    },
-    // example IRIS
-    {
-      "denom": "htltbcbusd",
-      "type": "bridge",
-      "origin_chain": "bnb-beacon-chain",
-      "origin_denom": "busd",
-      "origin_type": "bep2",
-      "symbol": "BUSD",
-      "decimals": 8,
-      "path": "bnb-beacon-chain>iris",
-      "image": "bnb-beacon-chain/asset/busd.png",
-      "coinGeckoId": "binance-usd"
-    },
-  ]
-  ```
+     - Cw20 Token
 
-- Pool Token
+        ```json
+        // example JUNO
+        [
+          {
+              "type": "cw20",
+              "contract": "juno1pqht3pkhr5fpyre2tw3ltrzc0kvxknnsgt04thym9l7n2rmxgw0sgefues",
+              "name" : "DAO",
+              "symbol": "DAO",
+              "description": "DAO DAO",
+              "decimals": 6,
+              "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/dao.png",
+              "coinGeckoId": ""
+          },
+          {
+              "type": "cw20",
+              "contract": "juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
+              "name" : "Neta",
+              "symbol": "NETA",
+              "description": "The native token cw20 for Neta on Juno Chain",
+              "decimals": 6,
+              "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/neta.png",
+              "coinGeckoId": "neta",
+              "color": "#f87b7b",
+              "wallet_preload": true
+          }
+        ]
+        ```
+4. Commit and push to your fork
 
-  ```json
-  // example COSMOS
-  [
-    {
-      "denom": "poolDFB8434D5A80B4EAFA94B6878BD5B85265AC6C5D37204AB899B1C3C52543DA7E",
-      "type": "pool",
-      "origin_chain": "cosmos",
-      "origin_denom": "poolDFB8434D5A80B4EAFA94B6878BD5B85265AC6C5D37204AB899B1C3C52543DA7E",
-      "origin_type": "pool",
-      "symbol": "GDEX-1",
-      "decimals": 6,
-      "description": "pool/1",
-      "image": "cosmos/asset/pool.png", // Add pool image in the target chain’s folder
-      "coinGeckoId": ""
-    },
-  ]
-  ```
+    ```shell
+      git add -A
+      git commit -m “Add <YOUR TOKEN NAME>”
+      git push origin <branch_name>
+    ```
+
+5. From your repository, make pull request (PR)
+</details>
+
+---
+
+<details>
+  <summary><h2 style='display: inline; font-size: 24px'>How to add your ERC20 token info</h2></summary>
+
+  [Evmos Erc20](https://github.com/cosmostation/chainlist/blob/main/chain/evmos/erc20_2.json) list supporting
+
+1. Fork this repo to your own github account
+2. Clone fork and create new branch
+
+   ```shell
+   git clone git@github.com:YOUR_ACCOUNT/chainlist.git
+   cd chainlist
+   git branch <branch_name>
+   git checkout <branch_name>
+   ```
+
+3. Add the info of your token in the chain that your token needs to be displayed  
+   >If there is no chain in the list, create a folder for the chain  
+   Then add `erc20_2.json` file to the folder, add token info to that file   
+   Changes will be updated within 24 hours after merged to master
+   - `type`
+     - erc20
+   - `contract`
+     - Token's contract_address
+   - `name`
+     - Token's name
+   - `symbol`
+     - Name of token's symbol
+   - `description`
+     - A brief summary of the token
+   - `decimals`
+     - Decimal of the token
+   - `image`
+     - Image route of the token
+     - `/${targetChain}/asset` add image in the folder
+     - Make sure to upload a `png`file
+   - `coinGeckoId` (optional)
+     - Coin gecko site's API ID
+       - ex. https://www.coingecko.com/en/coins/cosmos-hub
+         - API ID: *cosmos*
+     - Empty string if none
+   - `wallet_preload` (optional)
+     - default value is `false`
+
+
+   ### Erc20 info json example
+   `chain/${targetChain}/erc20_2.json`
+
+    - ERC20 Token
+
+      ```json
+      // example EVMOS
+      [
+        {
+            "type": "erc20",
+            "contract": "0xD4949664cD82660AaE99bEdc034a0deA8A0bd517",
+            "name" : "Wrapped Evmos",
+            "symbol": "WEVMOS",
+            "description": "",
+            "decimals": 18,
+            "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/wevmos.png",
+            "coinGeckoId": "evmos",
+            "wallet_preload": true
+        },
+        {
+            "type": "erc20",
+            "contract": "0xb72A7567847abA28A2819B855D7fE679D4f59846",
+            "name" : "Tether USD (Celer)",
+            "symbol": "ceUSDT",
+            "description": "",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+            "coinGeckoId": "tether"
+        }
+      ]
+      ```
 
 4. Commit and push to your fork
 
@@ -275,181 +435,10 @@
 ---
 
 <details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add your CW20 token info</h2></summary>
-
-  [Juno Cw20](https://github.com/cosmostation/chainlist/blob/main/chain/juno/cw20.json) list supporting
-  1. Fork this repo to your own github account\
-  2. Clone fork and create new branch
-
-   ```shell
-   git clone git@github.com:YOUR_ACCOUNT/chainlist.git
-   cd chainlist
-   git branch <branch_name>
-   git checkout <branch_name>
-   ```
-
-   3. Add the info of your token in the chain that your token needs to be displayed
-   If there is no chain in the list, create a folder for the chain and add info in the folder
-   Then add the name of the folder in: supports.json
-   Changes will be updated within 24 hours after merged to master
-   - `chainId`
-     - -1
-   - `chainName`
-     - Chain with the token
-   - `address`
-     - Token's contract_address
-   - `symbol`
-     - Name of token's symbol
-   - `description`
-     - A brief summary of the token
-   - `decimals`
-     - Decimal of the token
-   - `image`
-     - Image route of the token
-     - `/${targetChain}/asset` add image in the folder
-     - Make sure to upload a `png` file
-   - `default`
-     - default value is `false`
-   - `coinGeckoId`
-     - Coin gecko site's API ID <ex) https://www.coingecko.com/en/coins/cosmos-hub -> API ID: cosmos>
-     - Empty string if none
-
----
-
-- Cw20 Token
-  `chain/${targetChain}/cw20.json`
-
-  ```json
-  // example JUNO
-  [
-    {
-      "chainId": -1,
-      "chainName": "juno",
-      "address": "juno1pqht3pkhr5fpyre2tw3ltrzc0kvxknnsgt04thym9l7n2rmxgw0sgefues",
-      "symbol": "DAO",
-      "description": "DAO DAO",
-      "decimals": 6,
-      "image": "juno/asset/dao.png",
-      "default": false,
-      "coinGeckoId": ""
-    },
-    {
-      "chainId": -1,
-      "chainName": "juno",
-      "address": "juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
-      "symbol": "NETA",
-      "description": "NETA",
-      "decimals": 6,
-      "image": "juno/asset/neta.png",
-      "default": true,
-      "coinGeckoId": "neta"
-    },
-  ]
-  ```
-
-  4. Commit and push to your fork
-
-  ```shell
-    git add -A
-    git commit -m “Add <YOUR TOKEN NAME>”
-    git push origin <branch_name>
-  ```
-
-  5. From your repository, make pull request (PR)
-  </details>
-
----
-
-<details>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add your ERC20 token info</h2></summary>
-
-  [Evmos Erc20](https://github.com/cosmostation/chainlist/blob/main/chain/evmos/erc20.json) list supporting
-
-  1. Fork this repo to your own github account
-  2. Clone fork and create new branch
-
-   ```shell
-   git clone git@github.com:YOUR_ACCOUNT/chainlist.git
-   cd chainlist
-   git branch <branch_name>
-   git checkout <branch_name>
-   ```
-
-   3. Add the info of your token in the chain that your token needs to be displayed
-   If there is no chain in the list, create a folder for the chain and add info in the folder
-   Then add the name of the folder in: supports.json
-   Changes will be updated within 24 hours after merged to master
-   - `chainId`
-     - ChainId of the chain
-   - `address`
-     - Token's contract_address
-   - `chainName`
-     - Name of the displayed token
-   - `symbol`
-     - Name of token's symbol
-   - `decimals`
-     - Decimal of the token
-   - `image`
-     - Image route of the token
-     - `/${targetChain}/asset` add image in the folder
-     - Make sure to upload a `png`file
-   - `default`
-     - default value is `false`
-   - `coinGeckoId` (optional)
-     - Coin gecko site's API ID <ex) https://www.coingecko.com/en/coins/cosmos-hub -> API ID: cosmos>
-     - Empty string if none
-
-   ---
-
-- ERC20 Token
-  `chain/${targetChain}/erc20.json`
-
-  ```json
-  // example EVMOS
-  [
-    {
-      "chainId": 9001,
-      "chainName": "evmos",
-      "address": "0xD4949664cD82660AaE99bEdc034a0deA8A0bd517",
-      "symbol": "WEVMOS",
-      "description": "Wrapped Evmos",
-      "decimals": 18,
-      "image": "evmos/asset/wevmos.png",
-      "default": true,
-      "coinGeckoId": "evmos"
-    },
-    {
-      "chainId": 9001,
-      "chainName": "evmos",
-      "address": "0xb72A7567847abA28A2819B855D7fE679D4f59846",
-      "symbol": "ceUSDT",
-      "description": "Tether USD (Celer)",
-      "decimals": 6,
-      "image": "ethereum/asset/usdt.png",
-      "default": false,
-      "coinGeckoId": "tether"
-    },
-  ]
-  ```
-
-  4. Commit and push to your fork
-
-   ```shell
-   git add -A
-   git commit -m “Add <YOUR TOKEN NAME>”
-   git push origin <branch_name>
-   ```
-
-  5. From your repository, make pull request (PR)
-</details>
-
----
-
-<details>
   <summary><h2 style='display: inline; font-size: 24px'>How to add endpoint</h2></summary>
 
 To add endpoints managed by chainlist,
-You must add an endpoint to `https://github.com/cosmostation/chainlist/blob/main/chain/{chain}/param.json`
+You must add an endpoint to `https://github.com/cosmostation/chainlist/blob/main/chain/{chain}/param_2.json`
 
 ```
 {
@@ -515,7 +504,7 @@ curl --location '$EVM_URL' \
 
 ## Contact and Community
 - [Official Website](https://www.cosmostation.io)
-- [E-mail](support@cosmostation.io)
+- [E-mail](mailto:support@cosmostation.io)
 - [Telegram - International](https://t.me/cosmostation)
 - [Kakao - Korean](https://open.kakao.com/o/g6KKSe5)
 
