@@ -68,7 +68,9 @@
        - `ibc` refers that the coin was ibc transferred.
        - `bridge` refers that the coin is a bridge coin.
      - `denom`
-       - coin's denom
+       - Coin's denom
+     - `name`
+       - Coin's name
      - `symbol`
        - The displayed name of the coin in the list.
      - `description`
@@ -79,12 +81,13 @@
        - Image route of the coin.
        - Add image in `${targetchain}/asset` folder.
          - Make sure to upload a `png` file.
+     - `color` (optional)
      - `coinGeckoId`
        - Coin gecko site's API ID 
          - ex. https://www.coingecko.com/en/coins/cosmos-hub 
             - API ID: *cosmos*
        - Empty string if none
-     - `color` (optional)
+
     - ***If the type is <u>ibc</u>, provide the info below:***
       - `ibc_info`
         - `path`
@@ -385,6 +388,7 @@
        - ex. https://www.coingecko.com/en/coins/cosmos-hub
          - API ID: *cosmos*
      - Empty string if none
+   - `color` (optional)
    - `wallet_preload` (optional)
      - default value is `false`
 
