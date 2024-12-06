@@ -9941,6 +9941,7 @@
         "description": "Xion Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/asset/xion.png",
+        "coinGeckoId": "xion-2",
         "ibc_info": {
             "path": "xion>osmosis",
             "client": {
