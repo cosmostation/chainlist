@@ -9932,5 +9932,27 @@
         "symbol": "earnCDT",
         "description": "Auto-compounding vault for Membrane's Stability Pool used to ease the UX of compounding CDT",
         "decimals": 6
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
+        "name": "Xion",
+        "symbol": "XION",
+        "description": "Xion Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/asset/xion.png",
+        "ibc_info": {
+            "path": "xion>osmosis",
+            "client": {
+                "channel": "channel-89321",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "xion",
+                "denom": "uxion"
+            }
+        }
     }
 ]
