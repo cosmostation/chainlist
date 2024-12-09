@@ -63,6 +63,28 @@
             "url": "grpc.data.kava.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-kava.cosmostation.io/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://kava-api.polkachu.com/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://kava-api.ibs.team/"
+        },
+        {
+            "provider": "Stakeflow",
+            "url": "https://api-kava-01.stakeflow.io/"
+        },
+        {
+            "provider": "Allnodes & Staking",
+            "url": "https://kava-rest.publicnode.com/"
+        }
+    ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",
