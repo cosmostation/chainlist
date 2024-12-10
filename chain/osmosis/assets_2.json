@@ -9957,15 +9957,16 @@
         }
     },
     {
-        "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
         "type": "bridge",
-        "origin_chain": "icp",
-        "origin_denom": "ICP",
-        "origin_type": "native",
+        "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
+        "name": "Internet Computer",
         "symbol": "ICP",
+        "description": "ICP ffrom dfinity",
         "decimals": 8,
-        "path": "icp>osmosis",
-        "image": "osmosis/asset/icp.png",
-        "coinGeckoId": "internet-computer"
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/icp.png",
+        "coinGeckoId": "internet-computer",
+        "bridge_info": {
+            "path": "internetcomputer>osmosis"
+        }
     }
 ]
