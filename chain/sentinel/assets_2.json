@@ -133,7 +133,7 @@
         "description": "The native token of Medas Digital Network",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medasdigital/asset/medas.png",
-        "coinGeckoId": "medasdigital",
+        "coinGeckoId": "",
         "ibc_info" : {
             "path": "medasdigital>sentinel",
             "client" : {

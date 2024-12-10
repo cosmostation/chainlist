@@ -236,7 +236,6 @@
         "description": "BTCB on Kava - Deprecated",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-beacon-chain/asset/btcb.png",
-        "coinGeckoId": "bitcoin-bep2",
         "bridge_info" : {
             "path": "bnb-beacon-chain>kava",
             "enable": false

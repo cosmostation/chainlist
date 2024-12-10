@@ -211,7 +211,7 @@
         "description": "Staking derivative seJUNO for staked JUNO",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/sejuno.png",
-        "coinGeckoId": "stakeeasy-juno-derivative",
+        "coinGeckoId": "",
         "color": "#26363f"
     },
     {
@@ -242,7 +242,7 @@
         "description": "The native token cw20 for Loop Finance on Juno Chain",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/loop.png",
-        "coinGeckoId": "loop",
+        "coinGeckoId": "",
         "color": "#2d2c45"
     },
     {
@@ -265,7 +265,7 @@
         "description": "PUNK JUNO TOKEN",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/punk.png",
-        "coinGeckoId": "juno-punk"
+        "coinGeckoId": ""
     },
     {
         "type": "cw20",
@@ -407,7 +407,7 @@
         "description": "The native token cw20 for Hopers on Juno Chain",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/hopers.png",
-        "coinGeckoId": "hopers-io",
+        "coinGeckoId": "",
         "color": "#08d890"
     },
     {
