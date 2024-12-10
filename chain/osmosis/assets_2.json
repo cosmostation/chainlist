@@ -9955,5 +9955,17 @@
                 "denom": "uxion"
             }
         }
+    },
+    {
+        "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
+        "type": "bridge",
+        "origin_chain": "icp",
+        "origin_denom": "ICP",
+        "origin_type": "native",
+        "symbol": "ICP",
+        "decimals": 8,
+        "path": "icp>osmosis",
+        "image": "osmosis/asset/icp.png",
+        "coinGeckoId": "internet-computer"
     }
 ]
