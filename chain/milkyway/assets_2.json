@@ -11,7 +11,7 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
+        "denom": "ibc/F1183DB3D428313A6FD329DF18219F9D6B83257D07D292EA9EC1D877E89EC2B0",
         "name" : "Celestia",
         "symbol": "TIA",
         "description": "Celestia Staking Coin",
@@ -21,11 +21,11 @@
         "ibc_info" : {
             "path": "celestia>milkyway",
             "client" : {
-                "channel": "channel-2",
+                "channel": "channel-1",
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-6994",
+                "channel": "channel-49",
                 "port": "transfer",
                 "chain": "celestia",
                 "denom": "utia"
