@@ -15,7 +15,7 @@
     "chain_type": [
         "cosmos"
     ],
-    "accountType" : [
+    "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
             "pubkey_style": "secp256k1",
