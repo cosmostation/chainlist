@@ -5957,7 +5957,7 @@
         "symbol": "milkTIA",
         "description": "MilkyWay's liquid staked TIA",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/milktia.png",
         "color": "#d18dfc",
         "coinGeckoId": "milkyway-staked-tia"
     },
@@ -6462,7 +6462,7 @@
         "symbol": "stTIA",
         "description": "Stride's liquid staked TIA",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stutia.png",
         "color": "#e40474",
         "ibc_info": {
             "path": "stride>osmosis",
