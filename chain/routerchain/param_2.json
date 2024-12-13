@@ -1,5 +1,6 @@
 {
     "chain_id_cosmos" : "router_9600-1",
+    "chain_id_evm": "0x2580",
     "chain_name": "Routerchain",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/routerchain/resource/chain_routerchain.png",
     "main_asset_denom" : "route",
@@ -33,6 +34,10 @@
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
+    "evm_fee_info" : {
+        "is_eip1559": false,
+        "simulated_gas_multiply" : 1.2
+    },
     "grpc_endpoint" : [
         {
             "provider": "NodeStake",
@@ -61,10 +66,6 @@
         {
             "provider": "genznodes",
             "url": "https://router-rpc-evm.genznodes.dev"
-        },
-        {
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
-            "url": "https://routerchain_mainnet_evm.chain.whenmoonwhenlambo.money"
         }
     ],
     "explorer" : {
