@@ -1,5 +1,6 @@
 {
     "chain_id_cosmos" : "realionetwork_3301-1",
+    "chain_id_evm": "0xce5"
     "chain_name": "Realio",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/realio/resource/chain_realio.png",
     "main_asset_denom" : "ario",
@@ -34,6 +35,10 @@
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
+    "evm_fee_info" : {
+        "is_eip1559": false,
+        "simulated_gas_multiply" : 1.2
+    },
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
@@ -64,14 +69,6 @@
         {
             "provider": "genznodes",
             "url": "https://realio-rpc-evm.genznodes.dev"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "https://jsonrpc.realio.nodestake.org"
-        },
-        {
-            "provider": "https://realio-jsonrpc.noders.services",
-            "url": "[NODERS]TEAM"
         }
     ],
     "explorer" : {
