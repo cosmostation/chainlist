@@ -12,7 +12,7 @@
     "is_support_mintscan": true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
-    "voting_threshold": 999999,
+    "voting_threshold": 1000000,
     "chain_type": [
         "cosmos"
     ],
