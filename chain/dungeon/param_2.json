@@ -38,6 +38,18 @@
     ],
     "lcd_endpoint": [
         {
+            "provider": "Quasar",
+            "url": "https://dungeon.api.quasarstaking.ai"
+        },
+        {
+            "provider": "Seraphim",
+            "url": "https://api-dungeon-1.seraphim.zone"
+        },
+        {
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+            "url": "https://dungeon_mainnet_api.chain.whenmoonwhenlambo.money"
+        },
+        {
             "provider": "ApeironNodes",
             "url": "https://api-dungeonchain.apeironnodes.com"
         },
