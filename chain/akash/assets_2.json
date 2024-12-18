@@ -216,5 +216,29 @@
                 "denom": "rowan"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/170C677610AC31DF0904FFE09CD3B5C657492170E7E52372E48756B71E56F2F1",
+        "name": "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg",
+        "color": "#2474cb",
+        "coinGeckoId": "axlusdc",
+        "ibc_info": {
+            "path": "ethereum>axelar>osmosis>akash",
+            "client": {
+                "channel": "channel-9",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
+            }
+        }
     }
 ]
