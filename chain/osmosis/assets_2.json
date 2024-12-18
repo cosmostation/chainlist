@@ -408,7 +408,7 @@
         "symbol": "SCRT",
         "description": "The native token of Secret Network",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
         "color": "#040404",
         "coinGeckoId": "secret",
         "ibc_info": {
@@ -696,7 +696,7 @@
         "symbol": "EEUR",
         "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/emoney/asset/eeur.png",
         "color": "#f4c808",
         "coinGeckoId": "e-money-eur",
         "ibc_info": {
@@ -1103,7 +1103,7 @@
         "symbol": "UMEE",
         "description": "The native token of Umee",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/umee/asset/umee.png",
         "color": "#22f2e9",
         "coinGeckoId": "umee",
         "ibc_info": {
@@ -1127,7 +1127,7 @@
         "symbol": "GRAV",
         "description": "The native token of Gravity Bridge",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/asset/grav.png",
         "color": "#042ca4",
         "coinGeckoId": "graviton",
         "ibc_info": {
@@ -1436,7 +1436,7 @@
         "symbol": "HOPE",
         "description": "Hope Galaxy is an NFT collection based on its own native Token $HOPE, a cw20 token on Juno chain.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/hope.png",
         "color": "#e2877e",
         "ibc_info": {
             "path": "juno>osmosis",
@@ -2430,7 +2430,7 @@
         "symbol": "IST",
         "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/agoric/asset/ist.png",
         "color": "#d485e2",
         "coinGeckoId": "inter-stable-token",
         "ibc_info": {
@@ -2546,7 +2546,7 @@
         "name": "Stride Staked STARS",
         "symbol": "stSTARS",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/ststars.png",
         "color": "#e40474",
         "coinGeckoId": "stride-staked-stars",
         "ibc_info": {
@@ -3347,7 +3347,7 @@
         "symbol": "qSTARS",
         "description": "Quicksilver Liquid Staked STARS",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qstars.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qstar.png",
         "color": "#fc944c",
         "ibc_info": {
             "path": "quicksilver>osmosis",
@@ -3619,7 +3619,7 @@
         "symbol": "qREGEN",
         "description": "Quicksilver Liquid Staked REGEN",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qregen.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qregen.png",
         "color": "#fc944c",
         "ibc_info": {
             "path": "quicksilver>osmosis",
@@ -3712,7 +3712,7 @@
         "symbol": "qOSMO",
         "description": "Quicksilver Liquid Staked OSMO",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qosmo.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qosmo.png",
         "color": "#fc944c",
         "ibc_info": {
             "path": "quicksilver>osmosis",
@@ -4362,7 +4362,7 @@
         "symbol": "PEPE.axl",
         "description": "Pepe is a community based memecoin with one mission: to make memecoins great again. Made to honor the iconic meme we all know and love, Pepe is here to take reign as the most memeable memecoin in existence, fueled purely by memetic power. Pepe is for the people.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pepe.axl.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/pepe.png",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4925,7 +4925,7 @@
         "symbol": "qSOMM",
         "description": "Quicksilver Liquid Staked SOMM",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qsomm.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qsomm.png",
         "color": "#fc944c",
         "ibc_info": {
             "path": "quicksilver>osmosis",
@@ -5524,7 +5524,7 @@
         "symbol": "DYDX",
         "description": "DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/asset/dydx.png",
         "coinGeckoId": "dydx-chain",
         "ibc_info": {
             "path": "dydx>osmosis",
