@@ -892,6 +892,16 @@
         "coinGeckoId": "drop-staked-atom"
     },
     {
+	"type": "native",
+        "denom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia",
+        "name" : "dTIA",
+        "symbol": "dTIA",
+        "description": "Drop staked TIA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dtia.png",
+        "coinGeckoId": "drop-staked-tia"
+    },
+    {
         "type": "native",
         "denom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/sin",
         "name" : "SIN",
