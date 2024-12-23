@@ -25,9 +25,9 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.01uelys",
-            "0.025uelys",
-            "0.03uelys"
+            "0.01uelys,0.005ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+            "0.025uelys,0.01ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+            "0.03uelys,0.025ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.3,
