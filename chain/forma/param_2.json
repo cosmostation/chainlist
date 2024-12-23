@@ -1,0 +1,52 @@
+{
+    "chain_id_evm" : "0xf043a",
+    "chain_name": "Forma",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/forma/resource/chain_forma.png",
+    "main_asset_denom" : "utia",
+    "main_asset_symbol" : "TIA",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
+    "gas_asset_denom" : "utia",
+    "gas_asset_symbol" : "TIA",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
+    "origin_genesis_time" : "",
+    "api_name" : "forma",
+    "is_support_cw721" : true,
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : true,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Forma",
+            "url": "https://rpc.forma.art"
+        }
+    ],
+    "explorer" : {
+        "name": "Forma explorer",
+        "url": "https://explorer.forma.art/",
+        "account": "https://explorer.forma.art/address/${address}",
+        "tx": "https://explorer.forma.art/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://forma.art/",
+        "docs": "https://docs.forma.art/",
+        "github" : "https://github.com/forma-dev",
+        "blog" : "",
+        "medium": "",
+        "twitter" : "https://x.com/Formachain",
+        "discord" : "https://discord.com/invite/cfHDU8k7FQ",
+        "coingecko" : "https://www.coingecko.com/en/coins/celestia"
+    },
+    "description" : {
+        "ko" : "Forma는 완전한 EVM 호환성과 첫 번째 자주적인 롤업을 제공합니다. Astria 위에 구축되었으며, Celestia를 기반으로 합니다.",
+        "en" : "Forma is fully EVM compatible and the first sovereign rollup. Built on Astria with Celestia underneath.",
+        "ja" : "Formaは完全なEVM互換性を持ち、最初の主権的なロールアップです。Astriaの上に構築され、Celestiaを基盤としています。"
+    }
+}
