@@ -110,5 +110,12 @@
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/babylon.png",
         "link": "https://app.babylonswap.io/",
         "type": "DEX"
+    },
+    {
+        "name": "Hyperliquid",
+        "description": "Hyperliquid is a fast and reliable crypto trading platform offering advanced tools and real-time market data. It’s designed to help users trade efficiently and manage their portfolios with ease.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/hyperliquid.png",
+        "link": "https://app.hyperliquid.xyz/",
+        "type": "DEX"
     }
 ]
