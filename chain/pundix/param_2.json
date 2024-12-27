@@ -1,0 +1,73 @@
+{
+    "chain_id_cosmos" : "PUNDIX",
+    "chain_name": "Pundix",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pundix/resource/chain_pundix.png",
+    "main_asset_denom" : "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
+    "main_asset_symbol" : "PUNDIX",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pundix/asset/pundix.png",
+    "bech_account_prefix" : "px",
+    "bech_validator_prefix" : "pxvaloper",
+    "api_name" : "pundix",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "2000000000000ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
+            "2500000000000ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
+            "3000000000000ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Pundi X",
+            "url": "px-grpc.pundix.com:9090"
+        },
+        {
+            "provider": "Nodes Hub",
+            "url": "pundix.grpc.nodeshub.online:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Pundi X",
+            "url": "https://px-rest.pundix.com/"
+        },
+        {
+            "provider": "Nodes Hub",
+            "url": "https://pundix.api.nodeshub.online/"
+        }
+    ],
+    "explorer" : {
+        "name": "starscan",
+        "url": "https://starscan.io",
+        "account": "https://starscan.io/pundix/address/${address}",
+        "tx": "https://starscan.io/pundix/tx/${hash}",
+        "proposal": "https://pundiscan.io/pundix/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://pundix.com",
+        "docs": "https://docs.pundix.com/",
+        "github" : "https://github.com/pundix",
+        "twitter" : "https://x.com/pundixlabs"
+    },
+    "description" : {
+        "ko" : "Pundi X Chain은 Function X 네트워크 내에서 결제에 특화된 전용 블록체인입니다. 이 체인은 높은 처리량의 거래를 저지연, 저수수료로 처리하도록 특별히 설계되었습니다. 또한, 향후 규제 요건 업그레이드, 하드웨어(XPOS) 통합, 포스(Point-of-Sales) 호환성을 제공하며, 상인과 결제 프로세서를 위한 인센티브를 제공하는 토크노믹스를 갖추고 있습니다.",
+        "en" : "Pundi X Chain is a dedicated payment-focused blockchain in the Function X network. It is specially designed to perform high throughput transactions with low latency and low transaction fees. In addition, it provides room for future compliance requirement upgrades, hardware (XPOS) integration, and Point-of-Sales compatibility, with tokenonomics that offer incentives to merchants and payment processors.",
+        "ja" : "Pundi X Chainは、Function Xネットワーク内で決済に特化した専用のブロックチェーンです。このチェーンは、高スループットの取引を低遅延・低手数料で処理するように特別に設計されています。さらに、将来の規制要件のアップグレード、ハードウェア（XPOS）との統合、POS（ポイント・オブ・セール）との互換性を提供し、商人や決済プロセッサにインセンティブを提供するトークノミクスを備えています。"
+    }
+}
