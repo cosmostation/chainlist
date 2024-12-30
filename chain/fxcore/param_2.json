@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos" : "fxcore",
     "chain_id_evm" : "0x212",
-    "chain_name": "Fxcore",
+    "chain_name": "FUNCTION-X",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fxcore/resource/chain_fxcore.png",
     "main_asset_denom" : "FX",
     "main_asset_symbol" : "FX",
@@ -67,11 +67,11 @@
     "evm_rpc_endpoint" : [
         {
             "provider": "Function X",
-            "url": "https://fx-json.functionx.io"
+            "url": "https://fx-json-web3.functionx.io:8545"
         },
         {
-            "provider": "Nodes Hub",
-            "url": "https://functionx.rpc.nodeshub.online"
+            "provider": "Function X",
+            "url": "https://fx-json-web3.portfolio-x.xyz:8545"
         }
     ],
     "explorer" : {
