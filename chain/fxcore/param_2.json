@@ -40,20 +40,7 @@
         "is_eip1559": true,
         "simulated_gas_multiply" : 1.2
     },
-    "grpc_endpoint" : [
-        {
-            "provider": "Function X",
-            "url": "fx-grpc.functionx.io:9090"
-        },
-        {
-            "provider": "Portfolio X",
-            "url": "fx-grpc.portfolio-x.xyz:9090"
-        },
-        {
-            "provider": "Nodes Hub",
-            "url": "functionx.grpc.nodeshub.online:443"
-        }
-    ],
+    "grpc_endpoint" : [],
     "lcd_endpoint" : [
         {
             "provider": "Function X",
