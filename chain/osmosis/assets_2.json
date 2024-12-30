@@ -9968,5 +9968,27 @@
         "bridge_info": {
             "path": "internetcomputer>osmosis"
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/794CF0A448ECA518B9FEAB3356BD283E8762460F8FE87A013E6F9DBA6C53601C",
+        "name": "Chihuahua",
+        "symbol": "CHIHUAHUA",
+        "description": "Chihuahua coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/chihuahua.png",
+        "ibc_info": {
+            "path": "chihuahua>osmosis",
+            "client": {
+                "channel": "channel-113",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-7",
+                "port": "transfer",
+                "chain": "chihuahua",
+                "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/Chihuahua"
+            }
+        }
     }
 ]
