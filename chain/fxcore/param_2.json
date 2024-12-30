@@ -11,7 +11,6 @@
     "origin_genesis_time" : "2021-07-05T04:00:00Z",
     "api_name" : "fxcore",
     "is_support_mobile_wallet" : true,
-    "is_support_moblie_dapp": true,
     "is_support_extension_wallet" : false,
     "is_support_erc20" : true,
     "chain_type": [
@@ -40,20 +39,7 @@
         "is_eip1559": true,
         "simulated_gas_multiply" : 1.2
     },
-    "grpc_endpoint" : [
-        {
-            "provider": "Function X",
-            "url": "fx-grpc.functionx.io:9090"
-        },
-        {
-            "provider": "Portfolio X",
-            "url": "fx-grpc.portfolio-x.xyz:9090"
-        },
-        {
-            "provider": "Nodes Hub",
-            "url": "functionx.grpc.nodeshub.online:443"
-        }
-    ],
+    "grpc_endpoint" : [],
     "lcd_endpoint" : [
         {
             "provider": "Function X",

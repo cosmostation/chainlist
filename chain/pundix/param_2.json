@@ -32,16 +32,7 @@
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
-    "grpc_endpoint" : [
-        {
-            "provider": "Pundi X",
-            "url": "px-grpc.pundix.com:9090"
-        },
-        {
-            "provider": "Nodes Hub",
-            "url": "pundix.grpc.nodeshub.online:443"
-        }
-    ],
+    "grpc_endpoint" : [],
     "lcd_endpoint" : [
         {
             "provider": "Pundi X",
