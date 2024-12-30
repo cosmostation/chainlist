@@ -8,5 +8,25 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pundix/asset/pundix.png",
         "coinGeckoId": "pundi-x-2"
+    },
+    {
+        "type": "native",
+        "denom": "bsc0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
+        "name": "PURSE",
+        "symbol": "PURSE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
+        "coinGeckoId": "pundi-x-purse"
+    },
+    {
+        "type": "native",
+        "denom": "ibc/37CA072246C3BCBB445AEC196645F5AAB7876C456D76BC96141D3A0D6E615D2E",
+        "name": "FX",
+        "symbol": "FX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fxcore/asset/fx.png",
+        "coinGeckoId": "fx-coin"
     }
 ]
