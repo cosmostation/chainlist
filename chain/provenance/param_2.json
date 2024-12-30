@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "pbvaloper",
     "origin_genesis_time" : "2021-04-20T16:20:00Z",
     "api_name" : "provenance",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -61,11 +60,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/provenance/",
-        "account": "https://www.mintscan.io/provenance/address/${address}",
-        "tx": "https://www.mintscan.io/provenance/tx/${hash}",
-        "proposal": "https://www.mintscan.io/provenance/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/provenance",
+        "account": "https://atomscan.com/provenance/accounts/${address}",
+        "tx": "https://atomscan.com/provenance/transactions/${hash}",
+        "proposal": "https://atomscan.com/provenance/votes/${id}"
     },
     "about" : {
         "website" : "https://www.provenance.io/",

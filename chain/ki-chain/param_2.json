@@ -10,7 +10,6 @@
     "origin_genesis_time" : "2020-08-04T00:00:00Z",
     "api_name" : "ki-chain",
     "is_support_cw20" : true,
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -70,11 +69,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/ki-chain/",
-        "account": "https://www.mintscan.io/ki-chain/address/${address}",
-        "tx": "https://www.mintscan.io/ki-chain/tx/${hash}",
-        "proposal": "https://www.mintscan.io/ki-chain/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/ki-chain",
+        "account": "https://atomscan.com/ki-chain/accounts/${address}",
+        "tx": "https://atomscan.com/ki-chain/transactions/${hash}",
+        "proposal": "https://atomscan.com/ki-chain/votes/${id}"
     },
     "about" : {
         "website" : "https://www.foundation.ki/",
