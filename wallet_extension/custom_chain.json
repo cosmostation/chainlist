@@ -11,11 +11,13 @@
     "main_asset_coin_gecko_id": "agoric",
     "bech_account_prefix": "agoric",
     "bech_validator_prefix": "agoricvaloper",
-    "account_type": {
-      "hd_path": "m/44'/564'/0'/0/X",
-      "pubkey_style": "secp256k1",
-      "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
-    },
+    "account_type": [
+      {
+        "hd_path": "m/44'/564'/0'/0/X",
+        "pubkey_style": "secp256k1",
+        "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+      }
+    ],
     "chain_type": ["cosmos"],
     "cosmos_fee_info": {
       "base": "1",
