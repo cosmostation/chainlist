@@ -12,5 +12,12 @@
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/story-testnet/resource/stake.jpg",
         "link": "https://staking.story.foundation/",
         "type": "Dashboard"
+    },
+    {
+        "name": "Story Scan",
+        "description": "Story testnet explorer",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/story-testnet/resource/storyscan.jpg",
+        "link": "https://odyssey.storyscan.xyz/",
+        "type": "Explorer"
     }
 ]
