@@ -50,6 +50,10 @@
         {
             "provider": "Validatus",
             "url": "grpc.chihuahua.validatus.com:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "chihuahua-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -72,6 +76,10 @@
         {
             "provider": "Polkachu",
             "url": "https://chihuahua-api.polkachu.com/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://chihuahua-api.chainroot.io/"
         }
     ],
     "explorer" : {

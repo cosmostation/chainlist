@@ -53,6 +53,10 @@
         {
             "provider": "StakeTown",
             "url": "umee-grpc.stake-town.com:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "ux-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -75,6 +79,10 @@
         {
             "provider": "QuantNode",
             "url": "https://umee-lcd.quantnode.tech/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://ux-api.chainroot.io/"
         }
     ],
     "explorer" : {
