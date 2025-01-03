@@ -9990,5 +9990,15 @@
                 "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/Chihuahua"
             }
         }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1svj5kd8kzj7xxtrd6ftjk0856ffpyj4egz7f9pd9dge5wr4kwansmefq07/ion.ash",
+        "name": "Burned ION",
+        "symbol": "ashION",
+        "description": "ashION - Burned ION",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ashion.png",
+        "color": "#ebb093"
     }
 ]
