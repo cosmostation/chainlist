@@ -7,6 +7,13 @@
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dhealth/asset/dhp.png",
     "bech_account_prefix" : "dh",
     "bech_validator_prefix" : "dhvaloper",
+    "origin_genesis_time" : "2024-03-18T10:30:00Z",
+    "api_name" : "dHealth",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/10111'/0'/0/X",
@@ -30,8 +37,29 @@
         {
             "provider": "dHealth",
             "url": "grpc.dhealth.com:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.dhealth.nodestake.org:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "dhealth",
+            "url": "https://lcd.dhealth.com/"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.dhealth.nodestake.org"
+        }
+    ],
+    "explorer" : {
+        "name": "NodeStake",
+        "url": "https://explorer.nodestake.org/dhealth",
+        "account": "https://explorer.nodestake.org/dhealth/account/${address}",
+        "tx": "https://explorer.nodestake.org/dhealth/tx/${hash}",
+        "proposal": "https://explorer.nodestake.org/dhealth/gov/${id}"
+    },
     "about" : {
         "website" : "https://www.dhealth.com/",
         "docs": "https://docs.dhealth.com",
