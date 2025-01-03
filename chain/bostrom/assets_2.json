@@ -7,8 +7,7 @@
         "description": "Bostrom Staking Coin",
         "decimals": 0,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/asset/boot.png",
-        "coinGeckoId": "bostrom",
-        "color": "#4cea4e"
+        "coinGeckoId": "bostrom"
     },
     {
         "type": "native",
@@ -18,8 +17,7 @@
         "description": "The liquid staking token of Bostrom",
         "decimals": 0,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/asset/hydrogen.svg",
-        "coinGeckoId": "",
-        "color": "#ffffff"
+        "coinGeckoId": ""
     },
     {
         "type": "native",
@@ -29,8 +27,7 @@
         "description": "The resource token of Bostrom",
         "decimals": 3,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/asset/ampere.png",
-        "coinGeckoId": "",
-        "color": "#f4ecce"
+        "coinGeckoId": ""
     },
     {
         "type": "native",
@@ -40,8 +37,7 @@
         "description": "The resource token of Bostrom",
         "decimals": 3,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/asset/volt.png",
-        "coinGeckoId": "",
-        "color": "#fba809"
+        "coinGeckoId": ""
     },
     {
         "type": "ibc",

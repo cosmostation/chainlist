@@ -1,29 +1,72 @@
 {
+    "chain_id_cosmos" : "bostrom",
     "chain_name": "Bostrom",
-    "fee" : {
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/resource/chain_bostrom.png",
+    "main_asset_denom" : "boot",
+    "main_asset_symbol" : "BOOT",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/asset/boot.png",
+    "bech_account_prefix" : "bostrom",
+    "bech_validator_prefix" : "bostromvaloper",
+    "origin_genesis_time" : "2021-11-05T13:22:42Z",
+    "api_name" : "bostrom",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0boot"
+            "0.0boot"
         ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
         "init_gas_limit" : 300000,
-        "isSimulable" : true,
-        "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
         {
             "provider": "Notional",
             "url": "grpc-cyber-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Bro_n_Bro",
+            "url": "grpc.cyber.bronbro.io:443"
         }
     ],
-    "about" : {
-        
+    "lcd_endpoint" : [
+        {
+            "provider": "cybercongress",
+            "url": "https://lcd.bostrom.cybernode.ai/"
+        },
+        {
+            "provider": "Notional",
+            "url": "https://api-cyber-ia.cosmosia.notional.ventures/"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/bostrom",
+        "account": "https://atomscan.com/bostrom/accounts/${address}",
+        "tx": "https://atomscan.com/bostrom/transactions/${hash}",
+        "proposal": "https://atomscan.com/bostrom/votes/${id}"
     },
-    "forum": {
+    "about" : {
+        "website" : "https://cyb.ai/",
+        "github" : "https://github.com/cybercongress",
+        "twitter" : "https://x.com/cyber_devs",
+        "coingecko" : "https://www.coingecko.com/en/coins/bostrom"
     },
     "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
+        "ko" : "Bostrom은 Cosmos SDK 기반의 블록체인으로, 분산 지식 그래프와 AI 애플리케이션을 지원합니다. 효율적인 정보 처리와 AI 생태계 협력을 가능하게 합니다.",
+        "en" : "Bostrom is a blockchain for decentralized knowledge graphs and AI applications, built on Cosmos SDK. It enables efficient information processing and collaboration in AI ecosystems.",
+        "ja" : "Bostromは、Cosmos SDKを基盤としたブロックチェーンで、分散型ナレッジグラフやAIアプリケーションを支援します。効率的な情報処理とAIエコシステムの協力を可能にします。"
     }
 }
