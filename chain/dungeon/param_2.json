@@ -32,6 +32,10 @@
     },
     "grpc_endpoint": [
         {
+            "provider": "Quasar",
+            "url": "dungeon.grpc.quasarstaking.ai"
+        },
+        {
             "provider": "ApeironNodes",
             "url": "grpc-dungeonchain.apeironnodes.com:443"
         }
