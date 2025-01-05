@@ -9713,6 +9713,7 @@
         "description": "Dungeon native token",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+        "coinGeckoId": "dragon-coin-2",
         "ibc_info": {
             "path": "dungeon>osmosis",
             "client": {
