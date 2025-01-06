@@ -51,11 +51,11 @@
         }
     ],
     "explorer": {
-        "name": "Tabiscan",
-        "url": "https://testnetv2.tabiscan.com/",
-        "account": "https://testnetv2.tabiscan.com/address/${address}",
-        "tx": "https://testnetv2.tabiscan.com/tx/${hash}",
-        "proposal": ""
+        "name": "NodeStake",
+        "url": "https://explorer.nodestake.org/tabi-testnet",
+        "account": "https://explorer.nodestake.org/tabi-testnet/account/${address}",
+        "tx": "https://explorer.nodestake.org/tabi-testnet/tx/${hash}",
+        "proposal": "https://explorer.nodestake.org/tabi-testnet/gov/${id}"
     },
     "about": {
         "website": "https://www.tabichain.com/",
