@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos" : "pion-1",
     "chain_name": "Neutron Testnet",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/resource/chain_neutron-testnet.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron-testnet/resource/chain_neutron-testnet.png",
     "main_asset_denom" : "untrn",
     "main_asset_symbol" : "NTRN",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrn.png",
@@ -15,7 +15,7 @@
     "chain_type": [
         "cosmos"
     ],
-    "accountType" : [
+    "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
             "pubkey_style": "secp256k1",

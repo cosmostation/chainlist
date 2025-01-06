@@ -109,5 +109,15 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/ashHUAHUA.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/Chihuahua",
+        "name" : "CHIHUAHUA",
+        "symbol": "CHIHUAHUA",
+        "description": "Chihuahua coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/chihuahua_chihuahua.png",
+        "coinGeckoId": ""
     }
 ]

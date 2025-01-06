@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "lumvaloper",
     "origin_genesis_time" : "2021-12-14T17:00:00Z",
     "api_name" : "lum",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -75,11 +74,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/lum/",
-        "account": "https://www.mintscan.io/lum/address/${address}",
-        "tx": "https://www.mintscan.io/lum/tx/${hash}",
-        "proposal": "https://www.mintscan.io/lum/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/lum-network",
+        "account": "https://atomscan.com/lum-network/accounts/${address}",
+        "tx": "https://atomscan.com/lum-network/transactions/${hash}",
+        "proposal": "https://atomscan.com/lum-network/votes/${id}"
     },
     "about" : {
         "website" : "https://lum.network/",

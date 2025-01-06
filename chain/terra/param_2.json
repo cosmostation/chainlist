@@ -46,6 +46,10 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "terra2-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "terra-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -68,6 +72,10 @@
         {
             "provider": "cosmosrescue",
             "url": "https://terra-api.cosmosrescue.dev/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://terra-api.chainroot.io/"
         }
     ],
     "explorer" : {

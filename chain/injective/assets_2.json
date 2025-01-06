@@ -863,7 +863,7 @@
         "description": "Syntropy",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/noia.png",
-        "coinGeckoId": "noia-network",
+        "coinGeckoId": "",
         "bridge_info" : {
             "path": "ethereum>injective",
             "counterparty": {
@@ -1152,7 +1152,7 @@
         "description": "Evai.io",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/evai.png",
-        "coinGeckoId": "evai",
+        "coinGeckoId": "",
         "bridge_info" : {
             "path": "ethereum>injective",
             "counterparty": {
@@ -1254,7 +1254,7 @@
         "description": "THORChain (ERC20)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/chz.png",
-        "coinGeckoId": "thorchain-erc20",
+        "coinGeckoId": "",
         "bridge_info" : {
             "path": "ethereum>injective",
             "counterparty": {
@@ -1896,5 +1896,15 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/injx.png",
         "coinGeckoId": "injex-finance"
-    }
+    },
+    {
+      "type": "native",
+      "denom": "factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept",
+      "name": "Neptune Finance",
+      "symbol": "NEPT",
+      "description": "The native token of Neptune Finance",
+      "decimals": 6,
+      "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/nept.png",
+      "coinGeckoId": ""
+  }
 ]

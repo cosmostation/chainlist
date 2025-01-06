@@ -24,7 +24,8 @@
     "cosmos_fee_info": {
         "base": "0",
         "rate": [
-            "0udgn"
+            "0.005udgn",
+            "0.025udgn"
         ],
         "is_simulable": true,
         "simulated_gas_multiply": 1.2,
@@ -32,11 +33,27 @@
     },
     "grpc_endpoint": [
         {
+            "provider": "Quasar",
+            "url": "dungeon.grpc.quasarstaking.ai"
+        },
+        {
             "provider": "ApeironNodes",
             "url": "grpc-dungeonchain.apeironnodes.com:443"
         }
     ],
     "lcd_endpoint": [
+        {
+            "provider": "Quasar",
+            "url": "https://dungeon.api.quasarstaking.ai"
+        },
+        {
+            "provider": "Seraphim",
+            "url": "https://api-dungeon-1.seraphim.zone"
+        },
+        {
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+            "url": "https://dungeon_mainnet_api.chain.whenmoonwhenlambo.money"
+        },
         {
             "provider": "ApeironNodes",
             "url": "https://api-dungeonchain.apeironnodes.com"

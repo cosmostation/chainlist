@@ -9,5 +9,255 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/carbon/asset/swth.png",
         "coinGeckoId": "switcheo",
         "color": "#a5edf2"
+    },
+    {
+        "type": "native",
+        "denom": "usc",
+        "name" : "Carbon USD Coin",
+        "symbol": "USC",
+        "description": "The native stablecoin of Carbon",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/usc.png",
+        "coinGeckoId": "carbon-usd"
+    },
+    {
+        "type": "native",
+        "denom": "cgt/1",
+        "name" : "Carbon Grouped USD",
+        "symbol": "USD",
+        "description": "Grouped USD on Carbon",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/carbon-grouped-usd.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/07FA7831E1920D0C87C9388F86B0108677F6ED0C9DE7E4063F05ED675192405C",
+        "name" : "Stargaze Staking Coin",
+        "symbol": "STARS",
+        "description": "STARS token on Carbon",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+        "coinGeckoId": "stargaze",
+        "ibc_info": {
+            "path": "stargaze>carbon",
+            "client": {
+                "channel": "channel-15",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-123",
+                "port": "transfer",
+                "chain": "stargaze",
+                "denom": "ustars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
+        "name" : "milkTIA",
+        "symbol": "milkTIA",
+        "description": "MilkTIA token on Carbon",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
+        "coinGeckoId": "milkyway-staked-tia",
+        "ibc_info": {
+            "path": "osmosis>carbon",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-188",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3552CECB7BCE1891DB6070D37EC6E954C972B1400141308FCD85FD148BD06DE5",
+        "name" : "Stride",
+        "symbol": "STRD",
+        "description": "STRD token on Carbon",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+        "coinGeckoId": "stride",
+        "ibc_info": {
+            "path": "stride>carbon",
+            "client": {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-47",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "ustrd"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/35E771B8682D828173F4B795F6C307780F96DC64D6F914FAE4CC9B4666F66364",
+        "name" : "Evmos",
+        "symbol": "EVMOS",
+        "description": "EVMOS token on Carbon",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+        "coinGeckoId": "evmos",
+        "ibc_info": {
+            "path": "evmos>carbon",
+            "client": {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-23",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "aevmos"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4E06CF24FEBFB3F5AF645377DCC0B70AA6183BAF6B918B8B6243FCDEB7D38118",
+        "name" : "IRIS Hub Staking Coin",
+        "symbol": "IRIS",
+        "description": "IRIS token on Carbon",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.png",
+        "coinGeckoId": "iris-network",
+        "ibc_info": {
+            "path": "iris>carbon",
+            "client": {
+                "channel": "channel-28",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-68",
+                "port": "transfer",
+                "chain": "iris",
+                "denom": "uiris"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93",
+        "name" : "Stride Staked OSMO",
+        "symbol": "stOSMO",
+        "description": "stOSMO token on Carbon",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
+        "coinGeckoId": "stride-staked-osmo",
+        "ibc_info": {
+            "path": "stride>carbon",
+            "client": {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-47",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/92E974290AF9E2BC3AEEEC35305C8FD76AC5A22A74CF8D91270FDF5A1C41E861",
+        "name" : "Canto",
+        "symbol": "CANTO",
+        "description": "CANTO token on Carbon",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
+        "coinGeckoId": "canto",
+        "ibc_info": {
+            "path": "canto>carbon",
+            "client": {
+                "channel": "channel-18",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-6",
+                "port": "transfer",
+                "chain": "canto",
+                "denom": "acanto"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+        "name" : "Cosmos",
+        "symbol": "ATOM",
+        "description": "Cosmos governance token on Carbon",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info": {
+            "path": "cosmos>carbon",
+            "client": {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-342",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+        "name" : "Stride Staked ATOM",
+        "symbol": "stATOM",
+        "description": "stATOM token on Carbon",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+        "coinGeckoId": "stride-staked-atom",
+        "ibc_info": {
+            "path": "stride>carbon",
+            "client": {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-47",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "OSMO token on Carbon",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info": {
+            "path": "osmosis>carbon",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-188",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
     }
 ]

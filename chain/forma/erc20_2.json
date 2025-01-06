@@ -1,0 +1,73 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xD5eacE1274dBF70960714F513db207433615a263",
+        "name": "Wrapped Celestia",
+        "symbol": "WTIA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/forma/asset/wtia.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd5eBC5e5f38c2d8c91C43122a105327c1F0260b4",
+        "name": "ZeroWayFT",
+        "symbol": "ZWFT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/forma/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc8c80DCb9a662D1DA1f1318d7CB33f6094EAB6aa",
+        "name": "bebra",
+        "symbol": "bbr",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/forma/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x834A3ba07e48E8356e0cc32822679EF27e844A55",
+        "name": "cheems forma",
+        "symbol": "chef",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/forma/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC7e7B97c2a94c763117143bAb741E325Df48124D",
+        "name": "CryptoCode",
+        "symbol": "CODE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/forma/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbDD132CcB9267b23dda9eFA02647021498C18565",
+        "name": "Nation Token",
+        "symbol": "NTN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/forma/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xda3F73118ddf802b98B857824037dc9b8EFe8C9b",
+        "name": "Qutem",
+        "symbol": "QTM",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/forma/asset/unknown.png",
+        "coinGeckoId": ""
+    }
+]

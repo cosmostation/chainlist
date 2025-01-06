@@ -806,7 +806,7 @@
         "description": "ESD",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/esd.png",
-        "coinGeckoId": "empty-set-dollar",
+        "coinGeckoId": "",
         "bridge_info" : {
             "path": "ethereum>sifchain",
             "counterparty": {
@@ -1248,7 +1248,7 @@
         "description": "RATOM",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ratom.png",
-        "coinGeckoId": "stafi-ratom",
+        "coinGeckoId": "",
         "bridge_info" : {
             "path": "ethereum>sifchain",
             "counterparty": {
@@ -1503,7 +1503,6 @@
         "description": "TSHP",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/tshp.png",
-        "coinGeckoId": "12ships",
         "bridge_info" : {
             "path": "ethereum>sifchain",
             "counterparty": {
@@ -1622,7 +1621,7 @@
         "description": "WFIL",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wfil.png",
-        "coinGeckoId": "wrapped-filecoin",
+        "coinGeckoId": "",
         "bridge_info" : {
             "path": "ethereum>sifchain",
             "counterparty": {
@@ -1724,7 +1723,7 @@
         "description": "The native token of Medas Digital Network",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medasdigital/asset/medas.png",
-        "coinGeckoId": "medasdigital",
+        "coinGeckoId": "",
         "ibc_info" : {
             "path": "medasdigital>sifchain",
             "client" : {

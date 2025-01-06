@@ -7,7 +7,7 @@
         "description": "Stader LunaX Token.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/lunax.png",
-        "coinGeckoId": "lunax"
+        "coinGeckoId": ""
     },
     {
         "type": "cw20",
@@ -49,7 +49,7 @@
         "description": "Amplified LUNA is a liquid staking derivative of LUNA, powered by ERIS Protocol.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/ampluna.png",
-        "coinGeckoId": "eris-amplified-luna"
+        "coinGeckoId": ""
     },
     {
         "type": "cw20",
