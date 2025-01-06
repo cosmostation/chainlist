@@ -10001,5 +10001,29 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ashion.png",
         "color": "#ebb093"
-    }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
+        "name": "WireLibertyFence",
+        "symbol": "WLF",
+        "description": "WLF coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wirelibertyfence.png",
+        "ibc_info": 
+            {
+            "path": "chihuahua>osmosis",
+            "client": {
+            "channel": "channel-113",
+            "port": "transfer"
+            },
+            "counterparty": 
+            {
+            "channel": "channel-7",
+            "port": "transfer",
+            "chain": "chihuahua",
+            "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/wirelibertyfence"
+            }
+        }
+    },
 ]
