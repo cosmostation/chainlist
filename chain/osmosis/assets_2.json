@@ -10009,19 +10009,18 @@
         "description": "WLF coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/wirelibertyfence.png",
-        "ibc_info": 
-            {
+        "ibc_info": {
             "path": "chihuahua>osmosis",
             "client": {
-            "channel": "channel-113",
-            "port": "transfer"
+                "channel": "channel-113",
+                "port": "transfer"
             },
-            "counterparty": 
+            "counterparty":
             {
-            "channel": "channel-7",
-            "port": "transfer",
-            "chain": "chihuahua",
-            "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/wirelibertyfence"
+                "channel": "channel-7",
+                "port": "transfer",
+                "chain": "chihuahua",
+                "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/wirelibertyfence"
             }
         }
     }
