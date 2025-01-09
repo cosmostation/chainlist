@@ -1,0 +1,95 @@
+[
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/onbloc/usdc",
+        "name" : "Usd Coin",
+        "symbol": "USDC",
+        "description": "USDC is a GRC20 stablecoin issued solely for testing purposes.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_usdc.svg",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/demo/wugnot",
+        "name" : "wrapped GNOT",
+        "symbol": "wugnot",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc tincidunt ultricies. Nullam nec purus nec nunc tincidunt ultricies.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_demo_wugnot.svg",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/gnoswap/v1/gns",
+        "name" : "Gnoswap",
+        "symbol": "GNS",
+        "description": "GNS is a GRC20 token issued solely for testing purposes.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_gnoswap_v1_gns.svg",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/onbloc/foo",
+        "name" : "Foo",
+        "symbol": "FOO",
+        "description": "Foo is a GRC20 token issued solely with testing purpose.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_foo.svg",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/onbloc/bar",
+        "name" : "Bar",
+        "symbol": "BAR",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_bar.svg",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/onbloc/obl",
+        "name" : "Obl",
+        "symbol": "OBL",
+        "description": "Onbloc is a leading gno.land blockchain software company building Adena and Gnoscan to make it easy to build applications on gno.land.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_obl.svg",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/onbloc/qux",
+        "name" : "Qux",
+        "symbol": "QUX",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_qux.svg",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/demo/foo20",
+        "name" : "Foo",
+        "symbol": "FOO",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "decimals": 4,
+        "image": "",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/onbloc/baz",
+        "name" : "Baz",
+        "symbol": "BAZ",
+        "description": "Adena is a friendly, open-source, non-custodial gno.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_baz.svg",
+        "coinGeckoId": ""
+    }
+]
