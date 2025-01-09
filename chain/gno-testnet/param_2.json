@@ -1,0 +1,59 @@
+{
+    "chain_id_cosmos" : "test5",
+    "chain_name": "GNO Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/resource/chain_gno-testnet.png",
+    "main_asset_denom" : "ugnot",
+    "main_asset_symbol" : "GNOT",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/gnot.png",
+    "bech_account_prefix" : "g",
+    "bech_validator_prefix" : "gvaloper",
+    "origin_genesis_time" : "",
+    "api_name" : "gno-testnet",
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.00001ugnot"
+        ],
+        "is_simulable" : false,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 100000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+    ],
+    "explorer" : {
+        "name": "Gnoscan",
+        "url": "https://gnoscan.io/",
+        "account": "https://gnoscan.io/accounts/${address}",
+        "tx": "https://gnoscan.io/transactions/details?txhash=${hash}",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://gno.land/",
+        "docs": "https://docs.gno.land/",
+        "github" : "https://github.com/gnolang",
+        "blog" : "https://gno.land/r/gnoland/blog",
+        "twitter" : "https://x.com/_gnoland",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Gnoland는 Go 기반의 프로그래밍 언어 Gnolang으로 개발된 확장성 있는 블록체인 플랫폼입니다. 안전하고 효율적인 스마트 계약 실행을 지원하며, 성능 높은 탈중앙화 애플리케이션 개발을 가능하게 합니다.",
+        "en" : "Gnoland is a scalable blockchain platform built with Gnolang, a Go-based programming language. It ensures secure and efficient smart contract execution, enabling developers to build high-performance decentralized applications.",
+        "ja" : "Gnolandは、Go言語をベースとしたプログラミング言語Gnolangで構築されたスケーラブルなブロックチェーンプラットフォームです。安全で効率的なスマートコントラクトの実行を提供し、高性能な分散型アプリケーションの開発を可能にします。"
+    }
+}
