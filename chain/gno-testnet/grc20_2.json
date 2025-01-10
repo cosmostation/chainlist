@@ -6,7 +6,7 @@
         "symbol": "USDC",
         "description": "USDC is a GRC20 stablecoin issued solely for testing purposes.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_usdc.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/usdc.png",
         "coinGeckoId": "",
         "wallet_preload": true
     },
@@ -14,10 +14,10 @@
         "type": "grc20",
         "contract": "gno.land/r/demo/wugnot",
         "name" : "wrapped GNOT",
-        "symbol": "wugnot",
+        "symbol": "wGNOT",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc tincidunt ultricies. Nullam nec purus nec nunc tincidunt ultricies.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_demo_wugnot.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/wgnot.png",
         "coinGeckoId": "",
         "wallet_preload": true
     },
@@ -28,7 +28,7 @@
         "symbol": "GNS",
         "description": "GNS is a GRC20 token issued solely for testing purposes.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_gnoswap_v1_gns.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/gns.png",
         "coinGeckoId": "",
         "wallet_preload": true
     },
@@ -39,7 +39,7 @@
         "symbol": "FOO",
         "description": "Foo is a GRC20 token issued solely with testing purpose.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_foo.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/foo.png",
         "coinGeckoId": ""
     },
     {
@@ -49,7 +49,7 @@
         "symbol": "BAR",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_bar.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/bar.png",
         "coinGeckoId": ""
     },
     {
@@ -59,7 +59,7 @@
         "symbol": "OBL",
         "description": "Onbloc is a leading gno.land blockchain software company building Adena and Gnoscan to make it easy to build applications on gno.land.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_obl.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/obl.png",
         "coinGeckoId": ""
     },
     {
@@ -69,7 +69,7 @@
         "symbol": "QUX",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_qux.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/qux.png",
         "coinGeckoId": ""
     },
     {
@@ -79,7 +79,7 @@
         "symbol": "FOO",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "decimals": 4,
-        "image": "",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/unknown.png",
         "coinGeckoId": ""
     },
     {
@@ -89,7 +89,7 @@
         "symbol": "BAZ",
         "description": "Adena is a friendly, open-source, non-custodial gno.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/onbloc/gno-token-resource/main/grc20/images/gno_land_r_onbloc_baz.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/baz.png",
         "coinGeckoId": ""
     }
 ]
