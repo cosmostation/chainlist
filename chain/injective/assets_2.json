@@ -657,27 +657,15 @@
         }
     },
     {
-        "type": "ibc",
-        "denom": "ibc/1011E4D6D4800DA9B8F21D7C207C0B0C18E54E614A8576037F066B775210709D",
+        "type": "native",
+        "denom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ",
         "name" : "Ninja Blaze Token",
         "symbol": "NBZ",
         "description": "Ninja Blaze Token",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/nbz.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/nbz.png",
         "coinGeckoId": "",
-        "ibc_info" : {
-            "path": "neutron>injective",
-            "client" : {
-                "channel": "channel-177",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-60",
-                "port": "transfer",
-                "chain": "neutron",
-                "denom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz"
-            }
-        }
+        "color": "#9890f9"
     },
     {
         "type": "ibc",
