@@ -86,6 +86,7 @@
         "description": "Stride's liquid staked TIA",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stutia.png",
+        "coinGeckoId": "stride-staked-tia",
         "ibc_info" : {
             "path": "stride>osmosis>milkyway",
             "client" : {
