@@ -406,5 +406,28 @@
                 "denom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3BD86E80E000B52DA57C474A6A44E37F73D34E38A1FA79EE678E08D119FC555B",
+        "name" : "MANTRA",
+        "symbol": "OM",
+        "description": "The native token of MANTRA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg",
+        "color": "#fba0c1",
+        "ibc_info" : {
+            "path": "mantra>stargaze",
+            "client" : {
+                "channel": "channel-406",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-4",
+                "port": "transfer",
+                "chain": "mantra",
+                "denom": "uom"
+            }
+        }
     }
 ]
