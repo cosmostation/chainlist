@@ -429,5 +429,27 @@
                 "denom": "uom"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/93B1AE0AD5E88242745B245064A2A51DDA1319C18176A966D5F8F9E02ED5373E",
+        "name" : "CULT",
+        "symbol": "CULT",
+        "description": "CULT - Less Brainwashing, More Utility",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/cult.png",
+        "ibc_info" : {
+            "path": "osmosis>stargaze",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-75",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB"
+            }
+        }
     }
 ]

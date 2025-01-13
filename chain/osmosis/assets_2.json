@@ -10046,5 +10046,14 @@
                 "denom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ"
             }
         }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
+        "name": "CULT",
+        "symbol": "CULT",
+        "description": "CULT - Less Brainwashing, More Utility",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/cult.png"
     }
 ]
