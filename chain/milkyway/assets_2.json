@@ -100,5 +100,28 @@
                 "denom": "ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8D4FC51F696E03711B9B37A5787FB89BD2DDBAF788813478B002D552A12F9157",
+        "name" : "dTIA",
+        "symbol": "dTIA",
+        "description": "Drop staked TIA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dtia.png",
+        "coinGeckoId": "drop-staked-tia",
+        "ibc_info" : {
+            "path": "neutron>osmosis>milkyway",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-89298",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4"
+            }
+        }
     }
 ]

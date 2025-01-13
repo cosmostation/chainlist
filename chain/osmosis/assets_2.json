@@ -10056,5 +10056,28 @@
         "description": "CULT - Less Brainwashing, More Utility",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/cult.png"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4",
+        "name" : "dTIA",
+        "symbol": "dTIA",
+        "description": "Drop staked TIA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dtia.png",
+        "coinGeckoId": "drop-staked-tia",
+        "ibc_info": {
+            "path": "neutron>osmosis",
+            "client": {
+                "channel": "channel-874",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia"
+            }
+        }
     }
 ]
