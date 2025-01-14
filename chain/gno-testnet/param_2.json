@@ -31,7 +31,7 @@
         ],
         "is_simulable" : false,
         "simulated_gas_multiply" : 1.2,
-        "init_gas_limit" : 100000,
+        "init_gas_limit" : 1000000,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
