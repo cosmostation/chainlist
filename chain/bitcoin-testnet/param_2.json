@@ -4,9 +4,12 @@
     "main_asset_denom" : "btc",
     "main_asset_symbol" : "BTC",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin-testnet/asset/btc.png",
-    "is_support_staking" : true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
+    "btc_staking": {
+        "is_support_staking" : true,
+        "url": "https://btcstaking.testnet.babylonlabs.io/"
+    },
     "chain_type": [
         "bitcoin"
     ],
