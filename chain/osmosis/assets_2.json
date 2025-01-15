@@ -9629,7 +9629,7 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/715283E4A955EB803AB1DD30B488587A4D63BF0B51BADA537053DEE479BA10D6",
+        "denom": "ibc/BC26A7A805ECD6822719472BCB7842A48EF09DF206182F8F259B2593EB5D23FB",
         "name": "AtomOne",
         "symbol": "ATONE",
         "description": "The native staking and governance token of AtomOne",
@@ -9638,11 +9638,11 @@
         "ibc_info": {
             "path": "atomone>osmosis",
             "client": {
-                "channel": "channel-85309",
+                "channel": "channel-94814",
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-0",
+                "channel": "channel-2",
                 "port": "transfer",
                 "chain": "atomone",
                 "denom": "uatone"
@@ -10016,8 +10016,7 @@
                 "channel": "channel-113",
                 "port": "transfer"
             },
-            "counterparty":
-            {
+            "counterparty": {
                 "channel": "channel-7",
                 "port": "transfer",
                 "chain": "chihuahua",
@@ -10028,7 +10027,7 @@
     {
         "type": "ibc",
         "denom": "ibc/DC1DF96AB7F5109433C3D5FDADE83F8EC2D522B80FAB0593BC1A2781F36AD633",
-        "name" : "Ninja Blaze Token",
+        "name": "Ninja Blaze Token",
         "symbol": "NBZ",
         "description": "Ninja Blaze Token",
         "decimals": 6,
@@ -10060,7 +10059,7 @@
     {
         "type": "ibc",
         "denom": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4",
-        "name" : "dTIA",
+        "name": "dTIA",
         "symbol": "dTIA",
         "description": "Drop staked TIA",
         "decimals": 6,
