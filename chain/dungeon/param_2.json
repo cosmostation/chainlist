@@ -33,7 +33,7 @@
     "grpc_endpoint": [
         {
             "provider": "Quasar",
-            "url": "dungeon.grpc.quasarstaking.ai"
+            "url": "dungeon.grpc.quasarstaking.ai:80"
         },
         {
             "provider": "ApeironNodes",
