@@ -34,7 +34,7 @@
     "grpc_endpoint": [
         {
             "provider": "Quasar",
-            "url": "dungeon.grpc.quasarstaking.ai"
+            "url": "dungeon.grpc.quasarstaking.ai:80"
         },
         {
             "provider": "ApeironNodes",
@@ -44,7 +44,7 @@
     "lcd_endpoint": [
         {
             "provider": "Quasar",
-            "url": "https://dungeon.api.quasarstaking.ai"
+            "url": "https://dungeon-wallet.api.quasarstaking.ai:443"
         },
         {
             "provider": "Seraphim",
