@@ -32,14 +32,6 @@
         "init_gas_limit": 300000
     },
     "grpc_endpoint": [
-        {
-            "provider": "Quasar",
-            "url": "dungeon.grpc.quasarstaking.ai:80"
-        },
-        {
-            "provider": "ApeironNodes",
-            "url": "grpc-dungeonchain.apeironnodes.com:443"
-        }
     ],
     "lcd_endpoint": [
         {
@@ -49,18 +41,6 @@
         {
             "provider": "Seraphim",
             "url": "https://api-dungeon-1.seraphim.zone"
-        },
-        {
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
-            "url": "https://dungeon_mainnet_api.chain.whenmoonwhenlambo.money"
-        },
-        {
-            "provider": "ApeironNodes",
-            "url": "https://api-dungeonchain.apeironnodes.com"
-        },
-        {
-            "provider": "ApeironNodes (Archive)",
-            "url": "https://api-archive-dungeonchain.apeironnodes.com"
         }
     ],
     "explorer": {
