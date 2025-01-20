@@ -1,9 +1,9 @@
 [
     {
         "type": "native",
-        "denom": "btc",
+        "denom": "sbtc",
         "name" : "BitCoin Testnet",
-        "symbol": "BTC",
+        "symbol": "sBTC",
         "description": "BitCoin",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin-testnet/asset/btc.png",
