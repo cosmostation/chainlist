@@ -124,5 +124,28 @@
                 "denom": "uluna"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EA6E1E8BA2EB9F681C4BD12C8C81A46530A62934F2BD561B120A00F46946CE87",
+        "name" : "dATOM",
+        "symbol": "dATOM",
+        "description": "A liquid staking derivative of staked ATOM, powered by DROP on Neutron.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/datom.png",
+        "coinGeckoId": "drop-staked-atom",
+        "ibc_info" : {
+            "path": "neutron>pryzm",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-4329",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
+            }
+        }
     }
 ]
