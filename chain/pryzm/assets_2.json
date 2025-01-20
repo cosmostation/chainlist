@@ -147,5 +147,192 @@
                 "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>pryzm",
+            "client" : {
+                "channel": "channel-5",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-79",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
+        "name": "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg",
+        "color": "#2474cb",
+        "coinGeckoId": "axlusdc",
+        "ibc_info": {
+            "path": "ethereum>axelar>pryzm",
+            "client": {
+                "channel": "channel-13",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-155",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F8CA5236869F819BC006EEF088E67889A26E4140339757878F0F4E229CDDA858",
+        "name": "dYdX Protocol",
+        "symbol": "DYDX",
+        "description": "DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/asset/dydx.png",
+        "coinGeckoId": "dydx-chain",
+        "ibc_info": {
+            "path": "dydx>pryzm",
+            "client": {
+                "channel": "channel-24",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-71",
+                "port": "transfer",
+                "chain": "dydx",
+                "denom": "adydx"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FA78980867B7E87F382CDA00275C55DDC248CABC7DEE27AC6868CCF97DD5E02F",
+        "name": "Stride Staked TIA",
+        "symbol": "stTIA",
+        "description": "Stride's liquid staked TIA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stutia.png",
+        "color": "#e40474",
+        "coinGeckoId": "stride-staked-tia",
+        "ibc_info": {
+            "path": "stride>pryzm",
+            "client": {
+                "channel": "channel-257",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-23",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stutia"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/120DC39B61CC121E91525C1D51624E41BBE74C537D7B0BE50BBFF9A00E37B6EE",
+        "name": "Stride Staked DYDX",
+        "symbol": "stDYDX",
+        "description": "Stride's liquid staked DYDX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stadydx.png",
+        "color": "#e40474",
+        "ibc_info": {
+            "path": "stride>pryzm",
+            "client": {
+                "channel": "channel-257",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-23",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stadydx"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "c:uatom",
+        "name": "cAtom",
+        "symbol": "cATOM",
+        "description": "Pryzm's native liquid staking token for ATOM.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAtom.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "c:inj",
+        "name": "cINJ",
+        "symbol": "cINJ",
+        "description": "Pryzm's native liquid staking token for INJ.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cInj.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "c:uosmo",
+        "name": "cOsmo",
+        "symbol": "cOsmo",
+        "description": "Pryzm's native liquid staking token for OSMO.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cOsmo.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "c:uluna",
+        "name": "cLUNA",
+        "symbol": "cLUNA",
+        "description": "Pryzm's native liquid staking token for LUNA.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cLuna.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/pryzm1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3sk0s70x/cuauuu",
+        "name": "cAUUU",
+        "symbol": "cAUUU",
+        "description": "Pryzm's native liquid staking token for AUUU.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAuuu.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "c:utia",
+        "name": "cTIA",
+        "symbol": "cTIA",
+        "description": "Pryzm's native liquid staking token for TIA.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cTia.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu",
+        "name": "AUUU",
+        "symbol": "AUUU",
+        "description": "The meme token of PRYZM.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/AUUU.png",
+        "coinGeckoId": ""
     }
 ]
