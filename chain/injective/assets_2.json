@@ -1906,5 +1906,45 @@
       "decimals": 6,
       "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/nept.png",
       "coinGeckoId": ""
-  }
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BITCOIN",
+        "name" : "Cosmos Bitcoin",
+        "symbol": "BITCOIN",
+        "description": "Cosmos Bitcoin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/bitcoin.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS",
+        "name" : "BRICS",
+        "symbol": "BRICS",
+        "description": "BRICS coin",
+         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/brics.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/CRYPTO",
+        "name" : "Crypto",
+        "symbol": "CRYPTO",
+        "description": "CRYPTO coin",
+         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/crypto.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC",
+        "name" : "INC",
+        "symbol": "INC",
+        "description": "Instant Noodles coin",
+         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inc.png",
+        "coinGeckoId": ""
+    } 
 ]
