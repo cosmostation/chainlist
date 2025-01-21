@@ -291,5 +291,25 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/hard.png",
         "coinGeckoId": "kava-lend"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0c3B74Fbc76b477813ca3747f193eD3384d640e2",
+        "name" : "BlushToken",
+        "symbol": "BLUSH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/blush.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x061BeA4a986906E4FD7450158D0FbF7c0d3e7128",
+        "name" : "PrincessToken",
+        "symbol": "PRIN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/prin.png",
+        "coinGeckoId": ""
     }
 ]

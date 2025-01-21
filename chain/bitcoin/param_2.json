@@ -7,6 +7,10 @@
     "origin_genesis_time" : "2009-01-03T18:15:05Z",
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
+    "btc_staking": {
+        "is_support_staking" : false,
+        "url": "https://btcstaking.babylonlabs.io/"
+    },
     "chain_type": [
         "bitcoin"
     ],

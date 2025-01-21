@@ -33,10 +33,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-bitcanna.cosmostation.io:443"
-        },
-        {
             "provider": "bitcanna",
             "url": "grpc.bitcanna.io:443"
         },
@@ -54,10 +50,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-bitcanna.cosmostation.io/"
-        },
         {
             "provider": "bitcanna",
             "url": "https://lcd.bitcanna.io/"

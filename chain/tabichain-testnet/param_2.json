@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos": "tabi_9788-2",
     "chain_id_evm" : "0x263C",
-    "chain_name": "Tabichain Testnet",
+    "chain_name": "TabiChain Testnet",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/tabichain-testnet/resource/chain_tabichain-testnet.png",
     "main_asset_denom": "atabi",
     "main_asset_symbol": "TABI",
@@ -25,7 +25,7 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "100000000atabi"
+            "2000000000atabi"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
@@ -51,11 +51,11 @@
         }
     ],
     "explorer": {
-        "name": "Tabiscan",
-        "url": "https://testnetv2.tabiscan.com/",
-        "account": "https://testnetv2.tabiscan.com/address/${address}",
-        "tx": "https://testnetv2.tabiscan.com/tx/${hash}",
-        "proposal": ""
+        "name": "NodeStake",
+        "url": "https://explorer.nodestake.org/tabi-testnet",
+        "account": "https://explorer.nodestake.org/tabi-testnet/account/${address}",
+        "tx": "https://explorer.nodestake.org/tabi-testnet/tx/${hash}",
+        "proposal": "https://explorer.nodestake.org/tabi-testnet/gov/${id}"
     },
     "about": {
         "website": "https://www.tabichain.com/",
