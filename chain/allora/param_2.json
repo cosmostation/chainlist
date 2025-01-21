@@ -33,11 +33,19 @@
     },
     "grpc_endpoint" : [
         {
+            "provider": "Cosmostation",
+            "url": "grpc-allora.cosmostation.io:443"
+        },
+        {
             "provider": "Allora",
             "url": "allora-grpc.mainnet.allora.network:443"
         }
     ],
     "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-allora.cosmostation.io/"
+        },
         {
             "provider": "Allora",
             "url": "https://allora-api.mainnet.allora.network/"
