@@ -7,7 +7,7 @@
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/allora/asset/allo.png",
     "bech_account_prefix" : "allo",
     "bech_validator_prefix" : "allovaloper",
-    "origin_genesis_time" : "2024-12-23T14:08:14.267395511Z",
+    "origin_genesis_time" : "2024-12-23T14:08:14Z",
     "api_name" : "allora",
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
@@ -24,7 +24,8 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "10uallo"
+            "10uallo",
+            "12uallo"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
