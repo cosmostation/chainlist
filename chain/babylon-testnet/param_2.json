@@ -5,6 +5,12 @@
     "main_asset_denom" : "ubbn",
     "main_asset_symbol": "BBN",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/asset/bbn.png",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "btc_staking": {
+        "is_support_staking" : true,
+        "url": "https://btcstaking.testnet.babylonlabs.io/"
+    },
     "bech_account_prefix": "bbn",
     "bech_validator_prefix": "bbnvaloper",
     "origin_genesis_time": "",
