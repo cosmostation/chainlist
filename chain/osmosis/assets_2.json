@@ -10004,6 +10004,106 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
+        "name": "WireLibertyFence",
+        "symbol": "WLF",
+        "description": "WLF coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/wirelibertyfence.png",
+        "ibc_info": {
+            "path": "chihuahua>osmosis",
+            "client": {
+                "channel": "channel-113",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-7",
+                "port": "transfer",
+                "chain": "chihuahua",
+                "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/wirelibertyfence"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DC1DF96AB7F5109433C3D5FDADE83F8EC2D522B80FAB0593BC1A2781F36AD633",
+        "name": "Ninja Blaze Token",
+        "symbol": "NBZ",
+        "description": "Ninja Blaze Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/nbz.png",
+        "coinGeckoId": "",
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client": {
+                "channel": "channel-122",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
+        "name": "CULT",
+        "symbol": "CULT",
+        "description": "CULT - Less Brainwashing, More Utility",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/cult.png"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4",
+        "name": "dTIA",
+        "symbol": "dTIA",
+        "description": "Drop staked TIA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dtia.png",
+        "coinGeckoId": "drop-staked-tia",
+        "ibc_info": {
+            "path": "neutron>osmosis",
+            "client": {
+                "channel": "channel-874",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C1B4D4804EB8F95FFB75E6395A301F0AD6D7DDE5C3A45571B70E46A368DD353E",
+        "name" : "dATOM",
+        "symbol": "dATOM",
+        "description": "A liquid staking derivative of staked ATOM, powered by DROP on Neutron.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/datom.png",
+        "coinGeckoId": "drop-staked-atom",
+        "ibc_info" : {
+            "path": "neutron>osmosis",
+            "client" : {
+                "channel": "channel-874",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/648260E4FF8AEDD310F2A72930F25DD7F43DD82F45F66E53B4A70A0C216FA53B",
         "name": "Cosmos Bitcoin",
         "symbol": "BITCOIN",
@@ -10089,60 +10189,5 @@
                 "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC"
 							}
 					}
-    },       	
-    {
-        "type": "native",
-        "denom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
-        "name": "CULT",
-        "symbol": "CULT",
-        "description": "CULT - Less Brainwashing, More Utility",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/cult.png"
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4",
-        "name": "dTIA",
-        "symbol": "dTIA",
-        "description": "Drop staked TIA",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dtia.png",
-        "coinGeckoId": "drop-staked-tia",
-        "ibc_info": {
-            "path": "neutron>osmosis",
-            "client": {
-                "channel": "channel-874",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-10",
-                "port": "transfer",
-                "chain": "neutron",
-                "denom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia"
-            }
-        }
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/C1B4D4804EB8F95FFB75E6395A301F0AD6D7DDE5C3A45571B70E46A368DD353E",
-        "name" : "dATOM",
-        "symbol": "dATOM",
-        "description": "A liquid staking derivative of staked ATOM, powered by DROP on Neutron.",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/datom.png",
-        "coinGeckoId": "drop-staked-atom",
-        "ibc_info" : {
-            "path": "neutron>osmosis",
-            "client" : {
-                "channel": "channel-874",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-10",
-                "port": "transfer",
-                "chain": "neutron",
-                "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
-            }
-        }
-    }
+    }      	
 ]
