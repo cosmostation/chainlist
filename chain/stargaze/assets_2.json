@@ -416,6 +416,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg",
         "color": "#fba0c1",
+        "coinGeckoId": "mantra-dao",
         "ibc_info" : {
             "path": "mantra>stargaze",
             "client" : {
