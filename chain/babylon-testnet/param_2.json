@@ -5,6 +5,7 @@
     "main_asset_denom" : "ubbn",
     "main_asset_symbol": "tBABY",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/asset/bbn.png",
+    "is_support_mintscan": true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
     "btc_staking": {
