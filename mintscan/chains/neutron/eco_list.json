@@ -240,5 +240,90 @@
             "github": "https://github.com/DA0-DA0",
             "docs": "https://docs.daodao.zone/"
         }
+    },
+    {
+        "name": "Astrovault",
+        "type": "Dex",
+        "description": "DeFi, Sustainably.",
+        "status": "open",
+        "thumbnail" : "astrovault",
+        "link": "https://astrovault.io/dashboard-msaw",
+        "social": {
+            "webSite": "https://astrovault.io/dashboard-msaw",
+            "docs": "https://astrovault.io/help-msaw",
+            "twitter": "https://astrovault.io/twitter-msaw",
+            "medium": "https://astrovault.io/medium-msaw/"
+        }
+    },
+    {
+        "name": "BullBear",
+        "type": "Dex",
+        "description": "Bull Vs Bear is a platform that allows you to leverage long and short assets against each other, backed by USDC collateral and powered by Mars Protocol Perps. It simplifies the process of creating leveraged positions by handling multiple steps (minting credit accounts, depositing assets, creating positions) in a single click.",
+        "status": "open",
+        "thumbnail" : "bullbear",
+        "link": "https://bullbear.zone/",
+        "social": {
+            "webSite": "https://bullbear.zone/"
+        }
+    },
+    {
+        "name": "Levana",
+        "type": "Dex",
+        "description": "Levana Trade is a decentralized platform for trading perpetual swaps with leverage on various crypto assets. It offers a user-friendly interface and tools for managing risk in a transparent, trustless environment.",
+        "status": "open",
+        "thumbnail" : "levana",
+        "link": "https://trade.levana.finance/neutron/trade/NTRN_USD",
+        "social": {
+            "webSite": "https://www.levana.finance/",
+            "docs": "https://docs.levana.finance/intro",
+            "twitter": "https://x.com/Levana_protocol",
+            "discord": "https://discord.com/invite/Xa7yzUtApz",
+            "medium": "https://medium.com/levana-protocol",
+            "github": "https://github.com/levana-Protocol"
+        }
+    },
+    {
+        "name": "Amulet",
+        "type": "Leverage",
+        "description": "Amulet is a decentralized protocol on Neutron that allows users to borrow against future staking rewards and other yields. Loans, called Advances, are issued as synthetic tokens pegged 1:1 to the native asset, with no risk of liquidation, as staking rewards automatically repay the loan over time.",
+        "status": "open",
+        "thumbnail" : "amulet",
+        "link": "https://app.amulet.finance/",
+        "social": {
+            "webSite": "https://app.amulet.finance/",
+            "docs": "https://docs.amulet.finance/",
+            "twitter": "https://x.com/AmuletFinance",
+            "medium": "https://medium.com/@amuletfinance",
+            "github": "https://github.com/Amulet-Finance",
+            "telegram": "https://t.me/AmuletFinance"
+        }
+    },
+    {
+        "name": "Margined",
+        "type": "Vault",
+        "description": "Margined Protocol is developing institutional grade vaults and asset allocation tooling for DeFi.",
+        "status": "open",
+        "thumbnail" : "margined",
+        "link": "https://trade.margined.io/neutron/vaults",
+        "social": {
+            "webSite": "https://www.margined.io/",
+            "docs": "https://docs.margined.io/",
+            "twitter": "https://x.com/margined_io",
+            "medium": "https://medium.com/@margined_io",
+            "github": "https://github.com/margined-protocol",
+            "discord": "https://discord.com/invite/VsMYS3SrxJ"
+        }
+    },
+    {
+        "name": "Jade Money",
+        "type": "Vault",
+        "description": "Jade is a decentralized platform that allows users to mint $JSD, a yield-bearing stablecoin backed 1:1 by $USDC. By depositing USDC into Jade, users can earn yield while maintaining the stable value of their assets.",
+        "status": "open",
+        "thumbnail" : "jademoney",
+        "link": "https://jade.money/app",
+        "social": {
+            "webSite": "https://jade.money/",
+            "twitter": "https://x.com/jadedotmoney"
+        }
     }
 ]
