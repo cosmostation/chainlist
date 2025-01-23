@@ -10101,5 +10101,93 @@
                 "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
             }
         }
-    }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/648260E4FF8AEDD310F2A72930F25DD7F43DD82F45F66E53B4A70A0C216FA53B",
+        "name": "Cosmos Bitcoin",
+        "symbol": "BITCOIN",
+        "description": "Cosmos Bitcoin",
+        "decimals": 6,
+        "image": " https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/bitcoin.png",
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client":{
+                "channel": "channel-122",
+                "port": "transfer"
+					},
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BITCOIN"
+							}
+					}
+    },
+	{
+        "type": "ibc",
+        "denom": "ibc/54C7B977B96DFC56D877A7F74D22BD26B5E42CA6171F120F5A36AC82BFD4711A",
+        "name": "BRICS",
+        "symbol": "BRICS",
+        "description": "BRICS coin",
+        "decimals": 6,
+        "image": " https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/brics.png",
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client":{
+                "channel": "channel-122",
+                "port": "transfer"
+					},
+             "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS"
+							}
+					}
+    },
+	{
+        "type": "ibc",
+        "denom": "ibc/1B23B6F7DAC37267F04E82466AB798CC59F941BD4AE5653C497730F174F14849",
+        "name": "Crypto",
+        "symbol": "CRYPTO",
+        "description": "Crypto coin",
+        "decimals": 6,
+        "image": " https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/crypto.png",
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client":{
+                "channel": "channel-122",
+                "port": "transfer"
+					},
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/CRYPTO"
+							}
+					}
+    }, 
+	{
+        "type": "ibc",
+        "denom": "ibc/A436BC9498153DC580B56BD27043BBFE08A1754696C05FFF00B2A41EC796D180",
+        "name": "INC",
+        "symbol": "INC",
+        "description": "Instant Noodles coin",
+        "decimals": 6,
+        "image": " https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/inc.png",
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client":{
+                "channel": "channel-122",
+                "port": "transfer"
+					},
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC"
+							}
+					}
+    }      	
 ]
