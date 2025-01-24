@@ -325,5 +325,61 @@
             "webSite": "https://jade.money/",
             "twitter": "https://x.com/jadedotmoney"
         }
+    },
+    {
+        "name": "MilkyWay",
+        "type": "Restaking",
+        "description": "Milkyway ReStake simplifies staking by automating reward compounding, maximizing yield effortlessly. Manage rewards across multiple blockchains with a seamless and user-friendly platform.",
+        "status": "open",
+        "thumbnail" : "milkyway",
+        "link": "https://app.milkyway.zone/restake",
+        "social": {
+            "webSite": "https://www.milkyway.zone/",
+            "docs": "https://docs.milkyway.zone/",
+            "twitter": "https://x.com/milky_way_zone",
+            "medium": "https://medium.com/milkyway-zone",
+            "discord": "https://discord.com/invite/4ywmNE3tqq"
+        }
+    },
+    {
+        "name": "Streamweave",
+        "type": "Payments",
+        "description": "Streamweave is a platform that enables continuous crypto payments for various use cases such as subscriptions, salaries, vesting schedules, and rewards.",
+        "status": "open",
+        "thumbnail" : "streamweave",
+        "link": "https://streamweave.org/",
+        "social": {
+            "webSite": "https://streamweave.org/",
+            "twitter": "https://x.com/Streamweave_org"
+        }
+    },
+    {
+        "name": "Skip",
+        "type": "Bridge",
+        "description": "Skip Protocol optimizes blockchain efficiency by enabling secure and transparent block space auctions for MEV. It helps validators and delegators maximize revenue while maintaining network performance.",
+        "thumbnail" : "skip",
+        "link": "https://go.skip.build/",
+        "social": {
+            "webSite": "https://www.skip.build/",
+            "docs": "https://docs.skip.build/go",
+            "twitter": "https://x.com/skipprotocol",
+            "github": "https://github.com/skiptools/skip-bridge",
+            "discord": "https://discord.com/invite/hFeHVAE26P"
+        }
+    },
+    {
+        "name": "Hyperlane",
+        "type": "Bridge",
+        "description": "Hyperlane is a permissionless interoperability protocol for cross-chain communication. It enables message passing and asset transfers across different chains without relying on centralized intermediaries or requiring any permissions.",
+        "thumbnail" : "hyperlane",
+        "link": "https://www.usenexus.org/",
+        "social": {
+            "webSite": "https://hyperlane.xyz/",
+            "docs": "https://docs.hyperlane.xyz/",
+            "twitter": "https://x.com/hyperlane",
+            "medium": "https://medium.com/hyperlane",
+            "github": "https://github.com/hyperlane-xyz",
+            "discord": "https://discord.com/invite/VK9ZUy3aTV"
+        }
     }
 ]
