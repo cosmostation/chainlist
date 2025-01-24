@@ -2,12 +2,12 @@
   {
     "name": "Eris Protocol",
     "type": "DeFi",
-    "description": "The Terra Liquidity Alliance is a place where liquidity providers can earn Luna rewards. You can also mint/unstake Amplified Luna here.",
+    "description": "The Terra Liquidity Alliance is a place where LP providers can earn LUNA rewards.",
     "status": "open",
     "thumbnail" : "eris-protocol",
     "link": "https://www.erisprotocol.com/terra/liquidity-hub?tab=liquidity",
     "social": {
-      "webSite": "https://www.erisprotocol.com/",
+      "webSite": "https://www.erisprotocol.com/terra/amplifier/LUNA",
       "twitter": "https://twitter.com/eris_protocol",
       "medium": "https://medium.com/@eris_protocol",
       "github": "https://github.com/erisprotocol",
@@ -15,9 +15,23 @@
     }
   },
   {
+    "name": "Skip Go",
+    "type": "DeFi",
+    "description": "Cross-chain DEX aggregator for swapping LUNA to Noble USDC, Kava USDT and much more.",
+    "status": "open",
+    "thumbnail" : "skip-go",
+    "link": "https://go.skip.build/",
+    "social": {
+      "webSite": "https://www.skip.build/",
+      "twitter": "https://x.com/SkipProtocol",
+      "github": "https://github.com/skip-mev",
+      "docs": "https://docs.skip.build/go"
+    }
+  },
+  {
     "name": "Astroport",
     "type": "DeFi",
-    "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+    "description": "A neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
     "status": "open",
     "thumbnail" : "astroport",
     "link": "https://app.astroport.fi/swap?chain=terra&from=ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB&to=uluna",
@@ -32,7 +46,7 @@
   {
     "name": "White Whale",
     "type": "DeFi",
-    "description": "White Whale runs an interchain decentralized exchange where Terrans can swap their coins.",
+    "description": "Hosts a native Terra DEX with a focus on interchain liquidity solutions.",
     "status": "open",
     "thumbnail" : "white-whale",
     "link": "https://app.whitewhale.money/terra/swap?from=USDt&to=LUNA",
@@ -47,12 +61,12 @@
   {
     "name": "TFM",
     "type": "DeFi",
-    "description": "TFM is a modular liquidity layer for Cosmos. Click to open the Terra DEX aggregrator.",
+    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers here.",
     "status": "open",
     "thumbnail" : "tfm",
-    "link": "https://app.tfm.com/terra2/trade/protrade?chainFrom=&chainTo=&dashboard=false&from=ibc%2F2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB&to=uluna",
+    "link": "https://app.tfm.com/bridge?chainFrom=phoenix-1&chainTo=cosmoshub-4",
     "social": {
-      "webSite": "https://app.tfm.com/terra2/trade/protrade?chainFrom=&chainTo=&dashboard=false&from=ibc%2F9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5&to=uluna",
+      "webSite": "https://tfm.com/",
       "twitter": "https://twitter.com/tfm_com",
       "medium": "https://medium.com/@tfm.com",
       "github": "https://github.com/tfm-com",
@@ -75,7 +89,7 @@
   {
     "name": "Luna Gravedigger",
     "type": "LSD",
-    "description": "A multi-chain Liquid Staking Hub. You can mint/unstake Bone Luna here.",
+    "description": "A multi-chain Liquid Staking Hub. Mint/unstake bLUNA here.",
     "status": "open",
     "thumbnail" : "gravedigger",
     "link": "https://app.backbonelabs.io/gravedigger/phoenix-1",
@@ -83,6 +97,20 @@
       "webSite": "https://www.backbonelabs.io/gravedigger.html",
       "twitter": "https://twitter.com/BackBone_Labs",
       "medium": "https://backbonelabs.medium.com/"
+    }
+  },
+  {
+    "name": "Luna Stride",
+    "type": "LSD",
+    "description": "Liquid staking Hub for the Cosmos. Mint/unstake stLUNA here.",
+    "status": "open",
+    "thumbnail" : "stride",
+    "link": "https://app.stride.zone/?chain=LUNA",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
     }
   },
   {
@@ -101,7 +129,7 @@
   {
     "name": "Demex",
     "type": "DeFi",
-    "description": "A multi-chain Perpetual DEX on Carbon. You can also borrow/lend Luna here via Nitron.",
+    "description": "A multi-chain Perpetual DEX on Carbon. Also borrow/lend LUNA here via Nitron.",
     "status": "open",
     "thumbnail" : "demex",
     "link": "https://app.dem.exchange/trade/LUNA-PERP",
@@ -115,10 +143,10 @@
   {
     "name": "Noble Express",
     "type": "Transport",
-    "description": "Transfer USDC from Solana / EVM to Noble. IBC after to Terra within Keplr or Leap.",
+    "description": "Transfer native USDC from Solana/EVM to Terra with CCTP tech.",
     "status": "open",
     "thumbnail" : "noble-express",
-    "link": "https://express.noble.xyz/transfer?origin=solana&destination=noble",
+    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
     "social": {
       "webSite": "https://express.noble.xyz/",
       "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
@@ -129,7 +157,7 @@
   {
     "name": "Stargate Finance",
     "type": "Transport",
-    "description": "Transfer USDT from any EVM chain to Kava. Then go to app.kava.io/transfer and send to Terra. (Alternative route: SEI and generate Sei address on app.sei.io, then IBC to Terra.)",
+    "description": "Transfer native USDT from EVM to Kava. Then go to app.kava.io/transfer and send to Terra.",
     "status": "open",
     "thumbnail" : "stargate",
     "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
@@ -144,7 +172,7 @@
   {
     "name": "Portal",
     "type": "Transport",
-    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains such as Solana and EVM.",
+    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains.",
     "status": "open",
     "thumbnail" : "portal",
     "link": "https://portalbridge.com/advanced-tools/#/transfer",
@@ -153,20 +181,6 @@
       "twitter": "https://twitter.com/portalbridge_?lang=en",
       "github": "https://github.com/wormhole-foundation/wormhole",
       "docs": "https://wormhole.com/docs/"
-    }
-  },
-  {
-    "name": "Luna Stride",
-    "type": "LSD",
-    "description": "Liquid staking Hub for the Cosmos. You can mint/unstake Stride Luna here.",
-    "status": "open",
-    "thumbnail" : "stride",
-    "link": "https://app.stride.zone/?chain=LUNA",
-    "social": {
-      "webSite": "https://www.stride.zone/",
-      "twitter": "https://twitter.com/stride_zone",
-      "github": "https://github.com/Stride-Labs/stride",
-      "docs": "https://docs.stride.zone/"
     }
   },
   {
