@@ -17,7 +17,7 @@
   {
     "name": "Skip Go",
     "type": "DeFi",
-    "description": "Cross-chain DEX aggregator for swapping LUNA to Noble USDC/EURe, Kava USDT and much more.",
+    "description": "Cross-chain DEX aggregator for swapping LUNA to USDC/EURe (Noble), USDT (Kava) and much more.",
     "status": "open",
     "thumbnail" : "skip-go",
     "link": "https://go.skip.build/",
@@ -167,6 +167,20 @@
       "medium": "https://medium.com/stargate-official",
       "github": "https://github.com/stargate-protocol",
       "docs": "https://www.kava.io/news/how-to-bridge-usdt-with-stargate"
+    }
+  },
+  {
+    "name": "Monerium",
+    "type": "Transport",
+    "description": "Mint/burn EURe via instant SEPA transfers to your personal monerium IBAN.",
+    "status": "open",
+    "thumbnail" : "monerium",
+    "link": "https://monerium.app/accounts",
+    "social": {
+      "webSite": "https://www.noble.xyz/eure",
+      "twitter": "https://x.com/monerium",
+      "github": "https://github.com/monerium/module-noble",
+      "docs": "https://monerium.dev/docs/welcome"
     }
   },
   {
