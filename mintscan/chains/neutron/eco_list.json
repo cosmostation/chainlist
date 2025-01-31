@@ -472,5 +472,19 @@
             "github": "https://github.com/Arena-DAO",
             "discord": "https://discord.com/invite/wZVHWGHrRE"
         }
+    },
+    {
+        "name": "Valence",
+        "type": "Dao",
+        "description": "Valence Rebalancer is a decentralized tool for optimizing asset allocation and portfolio management. It automates rebalancing strategies to enhance capital efficiency and risk management in DeFi.",
+        "link": "https://app.valence.zone/rebalancer",
+        "thumbnail" : "valence",
+        "social": {
+            "webSite": "https://www.valence.zone/",
+            "blog": "https://www.valence.zone/blog",
+            "docs": "https://docs.valence.zone/",
+            "twitter": "https://x.com/ValenceZone",
+            "github": "https://github.com/timewave-computer"
+        }
     }
 ]
