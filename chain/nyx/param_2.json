@@ -61,11 +61,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/nyx/",
-        "account": "https://www.mintscan.io/nyx/address/${address}",
-        "tx": "https://www.mintscan.io/nyx/tx/${hash}",
-        "proposal": "https://www.mintscan.io/nyx/proposals/${id}"
+        "name": "Guru",
+        "url": "https://nym.explorers.guru/",
+        "account": "https://nym.explorers.guru/account/${address}",
+        "tx": "https://nym.explorers.guru/transaction/${hash}",
+        "proposal": "https://nym.explorers.guru/proposal/${id}"
     },
     "about" : {
         "website" : "https://nymtech.net/",

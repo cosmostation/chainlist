@@ -69,11 +69,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/kyve/",
-        "account": "https://www.mintscan.io/kyve/address/${address}",
-        "tx": "https://www.mintscan.io/kyve/tx/${hash}",
-        "proposal": "https://www.mintscan.io/kyve/proposals/${id}"
+        "name": "Guru",
+        "url": "https://kyve.explorers.guru/",
+        "account": "https://kyve.explorers.guru/account/${address}",
+        "tx": "https://kyve.explorers.guru/transaction/${hash}",
+        "proposal": "https://kyve.explorers.guru/proposal/${id}"
     },
     "about" : {
         "website" : "https://www.kyve.network/",
