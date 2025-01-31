@@ -381,5 +381,96 @@
             "github": "https://github.com/hyperlane-xyz",
             "discord": "https://discord.com/invite/VK9ZUy3aTV"
         }
+    },
+    {
+        "name": "Satellite",
+        "type": "Bridge",
+        "description": "Satellite is a web application built on top of the Axelar Network. It provides an easy to use interface which enables users to transfer their crypto assets from one chain to another.",
+        "thumbnail" : "satellite",
+        "link": "https://satellite.money/?source=cosmoshub&destination=neutron&asset_denom=uusdc&destination_address=",
+        "social": {
+            "webSite": "https://www.axelar.network/",
+            "docs": "https://docs.axelar.dev/resources/satellite/",
+            "twitter": "https://x.com/axl_satellite",
+            "medium": "https://medium.com/axelar/transfer-terra-assets-to-evm-chains-using-satellite-f6480c7ff20c",
+            "github": "https://github.com/axelarnetwork/axelar-satellite",
+            "discord": "https://discord.com/invite/aRZ3Ra6f7D"
+        }
+    },
+    {
+        "name": "Squid",
+        "type": "Bridge",
+        "description": "Squid Router enables seamless cross-chain swaps and asset transfers between different blockchain networks. It enhances DeFi accessibility by providing efficient token bridging and interoperability.",
+        "link": "https://app.squidrouter.com/?chains=cosmoshub-4%2Cneutron-1&tokens=uatom%2Cuntrn",
+        "thumbnail" : "squid",
+        "social": {
+            "webSite": "https://www.squidrouter.com/",
+            "docs": "https://docs.squidrouter.com/",
+            "twitter": "https://x.com/squidrouter",
+            "medium": "https://medium.com/@squidrouter",
+            "github": "https://github.com/0xsquid",
+            "discord": "https://discord.com/invite/squidrouter"
+        }
+    },
+    {
+        "name": "NGMI zone",
+        "type": "Game",
+        "description": "NGMI Zone offers on-chain analytics and insights for traders and crypto enthusiasts. It helps users track market trends and blockchain activities with real-time data.",
+        "link": "https://ngmi.zone/",
+        "thumbnail" : "ngmi",
+        "social": {
+            "webSite": "https://ngmi.zone/"
+        }
+    },
+    {
+        "name": "Squared zone",
+        "type": "Game",
+        "description": "Squared Zone is a DeFi platform offering automated asset management and yield optimization. It helps users maximize returns through staking and liquidity strategies.",
+        "link": "https://squared.zone/",
+        "thumbnail" : "squared",
+        "social": {
+            "webSite": "https://squared.zone/"
+        }
+    },
+    {
+        "name": "Vendetta",
+        "type": "Predictions",
+        "description": "Vendetta Markets is a decentralized prediction market platform for trading on real-world events. It offers on-chain transparency and a trustless environment for betting and risk hedging.",
+        "link": "https://vendetta.markets/markets",
+        "thumbnail" : "vendetta",
+        "social": {
+            "webSite": "https://vendetta.markets/",
+            "docs": "https://vendetta-docs.vercel.app/",
+            "twitter": "https://x.com/vendettamarkets",
+            "github": "https://github.com/vendetta-labs",
+            "discord": "https://discord.com/invite/WuqGneAuzG"
+        }
+    },
+    {
+        "name": "Velo Space",
+        "type": "Predictions",
+        "description": "Velo Space is a DeFi platform enabling seamless cross-chain asset transfers and liquidity management. Users can trade, stake, and manage digital assets efficiently across blockchain networks.",
+        "link": "https://app.velo.space/",
+        "thumbnail" : "velo",
+        "social": {
+            "webSite": "https://www.velo.space/",
+            "telegram": "https://t.me/veloapp",
+            "twitter": "https://x.com/velo_space",
+            "github": "https://github.com/velo-dao/velo-games-contracts"
+        }
+    },
+    {
+        "name": "Arena Dao",
+        "type": "Dao",
+        "description": "ArenaDAO is a decentralized organization governing the Arena protocol for prediction markets and trading. It empowers community-driven decision-making and incentivized participation in DeFi.",
+        "link": "https://arenadao.org/compete",
+        "thumbnail" : "arena",
+        "social": {
+            "webSite": "https://arenadao.org/",
+            "docs": "https://docs.arenadao.org/",
+            "twitter": "https://x.com/ArenaDAO",
+            "github": "https://github.com/Arena-DAO",
+            "discord": "https://discord.com/invite/wZVHWGHrRE"
+        }
     }
 ]
