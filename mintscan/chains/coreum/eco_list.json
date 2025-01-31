@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Tokenproof",
+        "type": "Integrations",
+        "description": "A mobile app for token-based experiences - Powering brands with Web3 ticketing and loyalty tools.",
+        "status": "open",
+        "thumbnail" : "tokenproof",
+        "link": "https://tokenproof.xyz/",
+        "social": {
+            "webSite": "https://tokenproof.xyz/",
+            "twitter": "https://x.com/tokenproof",
+            "medium": "https://medium.com/@tokenproof"
+        }
+    },
+    {
+        "name": "Lighthouse",
+        "type": "Integrations",
+        "description": "A blockchain file management solution offering perpetual storage to Web2 and Web3 users.",
+        "status": "open",
+        "thumbnail" : "lighthouse",
+        "link": "https://www.lighthouse.storage/",
+        "social": {
+            "webSite": "https://www.lighthouse.storage/",
+            "twitter": "https://x.com/lighthouseweb3",
+            "medium": "https://www.lighthouse.storage/blogs",
+            "docs": "https://docs.lighthouse.storage/lighthouse-1"
+        }
+    },
+    {
+        "name": "TriwebAPI",
+        "type": "Integrations",
+        "description": "A Smart Dashboard to accelerate blockchain development with tools, modules, and features.",
+        "status": "open",
+        "thumbnail" : "triwebAPI",
+        "link": "https://www.triwebapi.com/",
+        "social": {
+            "webSite": "https://www.triwebapi.com/",
+            "twitter": "https://x.com/TriwebAPI",
+            "telegram": "https://t.me/TriwebAPI",
+            "docs": "https://sinqlarity.gitbook.io/sinqlarity-docs/introduction"
+        }
+    }
+]
