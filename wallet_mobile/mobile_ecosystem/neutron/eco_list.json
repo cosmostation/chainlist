@@ -56,6 +56,27 @@
         "type": "Trading"
     },
     {
+        "name": "Levana",
+        "description": "Levana Trade is a decentralized platform for trading perpetual swaps with leverage on various crypto assets. It offers a user-friendly interface and tools for managing risk in a transparent, trustless environment.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/levana.png",
+        "link": "https://trade.levana.finance/neutron/trade/NTRN_USD",
+        "type": "Dex"
+    },
+    {
+        "name": "Skip",
+        "description": "Skip Protocol optimizes blockchain efficiency by enabling secure and transparent block space auctions for MEV. It helps validators and delegators maximize revenue while maintaining network performance.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/skip.png",
+        "link": "https://go.skip.build/",
+        "type": "Bridge"
+    },
+    {
+        "name": "Squid",
+        "description": "Squid Router enables seamless cross-chain swaps and asset transfers between different blockchain networks. It enhances DeFi accessibility by providing efficient token bridging and interoperability.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/squid.png",
+        "link": "https://app.squidrouter.com/?chains=cosmoshub-4%2Cneutron-1&tokens=uatom%2Cuntrn",
+        "type": "Bridge"
+    },
+    {
         "name": "Eclipsefi",
         "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/neutron/resource/eclipse-fi.png",
