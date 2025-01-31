@@ -79,11 +79,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/asset-mantle/",
-        "account": "https://www.mintscan.io/asset-mantle/address/${address}",
-        "tx": "https://www.mintscan.io/asset-mantle/tx/${hash}",
-        "proposal": "https://www.mintscan.io/asset-mantle/proposals/${id}"
+        "name": "Guru",
+        "url": "https://assetmantle.explorers.guru/",
+        "account": "https://assetmantle.explorers.guru/account/${address}",
+        "tx": "https://assetmantle.explorers.guru/transaction/${hash}",
+        "proposal": "https://assetmantle.explorers.guru/proposal/${id}"
     },
     "about" : {
         "website" : "https://assetmantle.one/",

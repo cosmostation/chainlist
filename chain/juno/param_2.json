@@ -92,11 +92,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/juno/",
-        "account": "https://www.mintscan.io/juno/address/${address}",
-        "tx": "https://www.mintscan.io/juno/tx/${hash}",
-        "proposal": "https://www.mintscan.io/juno/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/juno/",
+        "account": "https://atomscan.com/juno/accounts/${address}",
+        "tx": "https://atomscan.com/juno/transactions/${hash}",
+        "proposal": "https://atomscan.com/juno/votes/${id}"
     },
     "about" : {
         "website" : "https://junonetwork.io/",
