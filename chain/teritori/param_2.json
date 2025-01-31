@@ -38,12 +38,8 @@
             "url": "grpc-teritori.cosmostation.io:443"
         },
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "teritori-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "teritori-grpc.chainroot.io:443"
+            "provider": "NodeStake",
+            "url": "grpc.teritori.nodestake.top:443"
         }
     ],
     "lcd_endpoint" : [
