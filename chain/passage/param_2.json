@@ -75,11 +75,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/passage/",
-        "account": "https://www.mintscan.io/passage/address/${address}",
-        "tx": "https://www.mintscan.io/passage/tx/${hash}",
-        "proposal": "https://www.mintscan.io/passage/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/passage/",
+        "account": "https://atomscan.com/passage/accounts/${address}",
+        "tx": "https://atomscan.com/passage/transactions/${hash}",
+        "proposal": "https://atomscan.com/passage/votes/${id}"
     },
     "about" : {
         "website" : "https://www.passage.io/",

@@ -73,11 +73,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/teritori/",
-        "account": "https://www.mintscan.io/teritori/address/${address}",
-        "tx": "https://www.mintscan.io/teritori/tx/${hash}",
-        "proposal": "https://www.mintscan.io/teritori/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/teritori/",
+        "account": "https://atomscan.com/teritori/accounts/${address}",
+        "tx": "https://atomscan.com/teritori/transactions/${hash}",
+        "proposal": "https://atomscan.com/teritori/votes/${id}"
     },
     "about" : {
         "website" : "https://teritori.com/",

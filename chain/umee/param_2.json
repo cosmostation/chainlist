@@ -86,11 +86,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/umee/",
-        "account": "https://www.mintscan.io/umee/address/${address}",
-        "tx": "https://www.mintscan.io/umee/tx/${hash}",
-        "proposal": "https://www.mintscan.io/umee/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/umee/",
+        "account": "https://atomscan.com/umee/accounts/${address}",
+        "tx": "https://atomscan.com/umee/transactions/${hash}",
+        "proposal": "https://atomscan.com/umee/votes/${id}"
     },
     "about" : {
         "website" : "https://www.ux.xyz/",
