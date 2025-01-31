@@ -39,6 +39,12 @@
     ],
     "lcd_endpoint" : [
     ],
+    "cosmos_rpc_endpoint" : [
+        {
+            "provider": "Gno Land",
+            "url": "https://rpc.gno.land"
+        }
+    ],
     "explorer" : {
         "name": "Gnoscan",
         "url": "https://gnoscan.io/",
