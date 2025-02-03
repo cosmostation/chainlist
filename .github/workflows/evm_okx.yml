@@ -37,6 +37,7 @@ jobs:
         run: |
           node _script/evm_okx/evm_okx.mjs cronos 25
           node _script/evm_okx/evm_okx.mjs fantom 250
+          node _script/evm_okx/evm_okx.mjs arbitrum 42161
         env:
           API_KEY: ${{ secrets.OKX_API_KEY }}
           SECRET_KEY: ${{ secrets.OKX_SECRET_KEY }}
