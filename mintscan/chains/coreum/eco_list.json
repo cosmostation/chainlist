@@ -72,11 +72,11 @@
         }
     },
     {
-        "name": "ISO20022",
+        "name": "ISO Simulator",
         "type": "Native dApps",
         "description": "Coreum is the first blockchain to simplify compliance with global financial standards like ISO 20022, enabling institutions to validate cross-border payments and tap into a blockchain-based settlement layer with instant finality.",
         "status": "open",
-        "thumbnail" : "iso20022",
+        "thumbnail" : "isosimulator",
         "link": "https://iso20022.coreum.com/",
         "social": {
             "webSite": "https://iso20022.coreum.com/",
