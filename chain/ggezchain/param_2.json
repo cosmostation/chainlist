@@ -1,0 +1,64 @@
+{
+  "chain_id_cosmos": "ggezchain",
+  "chain_name": "GGEZ1 Chain",
+  "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ggezchain/resource/chain_ggezchain.png",
+  "main_asset_denom": "uggez1",
+  "main_asset_symbol": "GGEZ1",
+  "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ggezchain/asset/ggez1.png",
+  "bech_account_prefix": "ggez",
+  "bech_validator_prefix": "ggezvaloper",
+  "origin_genesis_time": "2024-11-12T12:53:55.698108233Z",
+  "api_name": "ggezchain",
+  "is_support_mintscan": true,
+  "account_type": [
+    {
+      "hd_path": "m/44'/118'/0'/0/X",
+      "pubkey_style": "secp256k1",
+      "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+    }
+  ],
+  "cosmos_fee_info": {
+    "base": "0",
+    "rate": [
+    "0.4uggez1,0.5uggz", 
+    "0.5uggez1,0.75uggz", 
+    "0.75uggez1,1uggz"
+    ],
+    "is_simulable": true,
+    "simulated_gas_multiply": 1.3,
+    "init_gas_limit": 300000,
+    "fee_threshold": ""
+  },
+  "grpc_endpoint": [
+    {
+      "provider": "GGEZ1 Chain",
+      "url": "grpc.ggez.one:4443"
+    }
+  ],
+  "lcd_endpoint": [
+    {
+      "provider": "GGEZ1 Chain",
+      "url": "https://rest.ggez.one"
+    }
+  ],
+  "explorer": {
+    "name": "Mintscan",
+    "url": "https://www.mintscan.io/ggezchain/",
+    "account": "https://www.mintscan.io/ggezchain/address/${address}",
+    "tx": "https://www.mintscan.io/ggezchain/tx/${hash}",
+    "proposal": "https://www.mintscan.io/ggezchain/proposals/${id}"
+  },
+  "about": {
+    "website": "https://ggez.one",
+    "github": "https://github.com/GGEZLabs",
+    "twitter": "https://twitter.com/ggez_one",
+    "discord": "https://discord.com/invite/7P4RvsEeMA",
+    "telegram": "https://t.me/ggez1channel",
+    "youtube": "https://www.youtube.com/@ggez_one"
+  },
+  "description": {
+    "ko": "GGEZ1 재단은 GGEZ1 블록체인 생태계 지원에 전념하는 비영리 단체입니다. 생태계는 실제 자산(RWA)의 토큰화에 중점을 두고 재생 금융(ReFi)의 원칙을 통합하여 지속 가능하고 공평한 경제 미래를 촉진합니다.",
+    "en": "The GGEZ1 Foundation is a non-profit organization dedicated to supporting the GGEZ1 blockchain ecosystem. The ecosystem focuses on the tokenization of Real-World Assets (RWA) and integrates the principles of Regenerative Finance (ReFi) to promote a sustainable and equitable economic future.",
+    "ja": "GGEZ1 Foundation は、GGEZ1 ブロックチェーン エコシステムのサポートに特化した非営利組織です。このエコシステムは、現実世界資産 (RWA) のトークン化に焦点を当て、再生金融 (ReFi) の原則を統合して、持続可能で公平な経済の未来を促進します。"
+  }
+}
