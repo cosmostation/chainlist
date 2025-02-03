@@ -64,28 +64,39 @@ async function main() {
       (item) => !!item.platforms[assetPlatformId]
     );
 
-    const response = await fetch(
-      `https://www.okx.com/api/v5/dex/aggregator/all-tokens?chainId=${chainId}`,
-      {
-        headers: {
-          "OK-ACCESS-KEY": apiKey,
-          "OK-ACCESS-SIGN": cryptoJS.enc.Base64.stringify(
-            cryptoJS.HmacSHA256(
-              timestamp +
-                "GET" +
-                `/api/v5/dex/aggregator/all-tokens?chainId=${chainId}`,
-              secretKey
-            )
-          ),
-          "OK-ACCESS-TIMESTAMP": timestamp,
-          "OK-ACCESS-PASSPHRASE": passphrase,
-        },
-      }
-    );
+    const fetchTokenData = () => {
+      return new Promise((resolve) => {
+        setTimeout(async () => {
+          const response = await fetch(
+            `https://www.okx.com/api/v5/dex/aggregator/all-tokens?chainId=${chainId}`,
+            {
+              headers: {
+                "OK-ACCESS-KEY": apiKey,
+                "OK-ACCESS-SIGN": cryptoJS.enc.Base64.stringify(
+                  cryptoJS.HmacSHA256(
+                    timestamp +
+                      "GET" +
+                      `/api/v5/dex/aggregator/all-tokens?chainId=${chainId}`,
+                    secretKey
+                  )
+                ),
+                "OK-ACCESS-TIMESTAMP": timestamp,
+                "OK-ACCESS-PASSPHRASE": passphrase,
+              },
+            }
+          ).catch((error) => {
+            console.log(error);
+          });
 
-    const jsonResponse = await response.json();
+          const responseData = await response.json();
+          resolve(responseData);
+        }, 31000); // NOTE For OKX API rate limit
+      });
+    };
 
-    const erc20Assets = jsonResponse.data || [];
+    const fetchedTokenData = await fetchTokenData();
+
+    const erc20Assets = fetchedTokenData.data || [];
 
     const currentAssetContractAddresses = currentAssets.map((asset) => {
       return asset.contract.toLowerCase();
