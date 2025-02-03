@@ -24,6 +24,8 @@ async function main() {
 
     const chain = process.argv[2];
 
+    console.log("🚀 ~ main ~ chain:", chain);
+
     const chainId = process.argv[3];
 
     if (!chain || !chainId) {
