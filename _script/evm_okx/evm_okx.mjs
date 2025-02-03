@@ -85,11 +85,7 @@ async function main() {
 
     const jsonResponse = await response.json();
 
-    console.log("🚀 ~ main ~ jsonResponse:", jsonResponse);
-
     const erc20Assets = jsonResponse.data || [];
-
-    console.log("🚀 ~ main ~ erc20Assets:", erc20Assets);
 
     const currentAssetContractAddresses = currentAssets.map((asset) => {
       return asset.contract.toLowerCase();
