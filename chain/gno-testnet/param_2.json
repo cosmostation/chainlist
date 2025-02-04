@@ -28,11 +28,13 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.000048ugnot"
+            "0.001ugnot",
+            "0.0025ugnot",
+            "0.004ugnot"
         ],
-        "is_simulable" : false,
-        "simulated_gas_multiply" : 1.2,
-        "init_gas_limit" : 10000000,
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.6,
+        "init_gas_limit" : 100000,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
