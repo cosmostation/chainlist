@@ -27,6 +27,7 @@
             "10uallo",
             "12uallo"
         ],
+        "is_feemarket": true,
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
         "init_gas_limit" : 300000,
