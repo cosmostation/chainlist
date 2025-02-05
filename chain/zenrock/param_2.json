@@ -33,11 +33,11 @@
     "grpc_endpoint" : [
         {
             "provider": "Zenrock",
-            "url": "https://grpc.diamond.zenrocklabs.io:443"
+            "url": "grpc.diamond.zenrocklabs.io:443"
         },
         {
             "provider": "NodeStake",
-            "url": "https://grpc.zenrock.nodestake.org:443"
+            "url": "grpc.zenrock.nodestake.org:443"
         }
     ],
     "lcd_endpoint" : [
