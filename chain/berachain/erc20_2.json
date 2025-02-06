@@ -40,16 +40,6 @@
         "description": "USD Coin (USDC)",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/usdc.png",
-        "coinGeckoId": "bridged-usdc-stargate"
-    },
-    {
-        "type": "erc20",
-        "contract": "0x549943e04f40284185054145c6E4e9568C1D3241",
-        "name" : "Bridged USDC (Stargate)",
-        "symbol": "USDC.e",
-        "description": "USD Coin (USDC)",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/usdc.png",
         "coinGeckoId": "usd-coin"
     },
     {
@@ -79,7 +69,17 @@
         "symbol": "WBTC",
         "description": "Wrapped Bitcoin (WBTC)",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/wbtc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/wbtc.png",
         "coinGeckoId": "bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+        "name" : "WETH Token",
+        "symbol": "WETH",
+        "description": "Wrapped Ether (WETH)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/weth.png",
+        "coinGeckoId": "weth"
     }
 ]
