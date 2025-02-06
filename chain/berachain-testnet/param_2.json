@@ -25,6 +25,10 @@
             "url": "https://rpc-office-evm.cosmostation.io/berachain-testnet/"
         },
         {
+            "provider": "bArtio",
+            "url": "https://bartio.rpc.berachain.com/"
+        },
+        {
             "provider": "Synergynodes",
             "url": "https://berachain-testnet-evm.synergynodes.com/"
         }
