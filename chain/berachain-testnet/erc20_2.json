@@ -27,7 +27,7 @@
         "name" : "USDC Token",
         "symbol": "USDC",
         "description": "USD Coin (USDC)",
-        "decimals": 18,
+        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/usdc.png",
         "coinGeckoId": "",
         "wallet_preload": true
@@ -148,7 +148,7 @@
         "name" : "Tether USD",
         "symbol": "USDT",
         "description": "Tether USD",
-        "decimals": 18,
+        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/usdt.png",
         "coinGeckoId": "",
         "wallet_preload": false
