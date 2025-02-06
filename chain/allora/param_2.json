@@ -55,9 +55,9 @@
     ],
     "explorer" : {
         "name": "Allora Studio",
-        "url": "https://explorer.allora.network/",
-        "account": "https://explorer.allora.network/profile/${address}",
-        "tx": "https://explorer.allora.network/explorer/transactions/${hash}",
+        "url": "",
+        "account": "",
+        "tx": "",
         "proposal": ""
     },
     "about" : {
