@@ -32,22 +32,22 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Zenrock",
-            "url": "grpc.diamond.zenrocklabs.io:443"
-        },
-        {
             "provider": "NodeStake",
             "url": "grpc.zenrock.nodestake.org:443"
+        },
+        {
+            "provider": "Zenrock",
+            "url": "grpc.diamond.zenrocklabs.io:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Zenrock",
-            "url": "https://api.diamond.zenrocklabs.io/"
-        },
-        {
             "provider": "NodeStake",
             "url": "https://api.zenrock.nodestake.org/"
+        },
+        {
+            "provider": "Zenrock",
+            "url": "https://api.diamond.zenrocklabs.io/"
         }
     ],
     "explorer" : {
