@@ -5,5 +5,12 @@
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/berachain/resource/berachain-bridge.png",
         "link": "https://bridge.berachain.com/bridge/token",
         "type": "Bridge"
+    },
+    {
+        "name": "Honey Mint",
+        "description": "Honey Swap enables users to trade approved stablecoins and other assets for $HONEY, Berachain's native stablecoin.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/berachain/resource/honeymint.png",
+        "link": "https://honey.berachain.com/",
+        "type": "Dex"
     }
 ]
