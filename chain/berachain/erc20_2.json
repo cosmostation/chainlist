@@ -7,7 +7,7 @@
         "description": "Honey (HONEY)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/honey.png",
-        "coinGeckoId": "",
+        "coinGeckoId": "honey-3",
         "wallet_preload": true
     },
     {
@@ -18,7 +18,7 @@
         "description": "Bera Governance Token (BGT)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/bgt.png",
-        "coinGeckoId": "",
+        "coinGeckoId": "berachain-governance-token",
         "wallet_preload": true
     },
     {
@@ -29,7 +29,7 @@
         "description": "Wrapped Bera (WBERA)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/wbera.png",
-        "coinGeckoId": "",
+        "coinGeckoId": "wrapped-bera",
         "wallet_preload": true
     },
     {
@@ -81,5 +81,55 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/weth.png",
         "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+        "name" : "Solv BTC",
+        "symbol": "SolvBTC",
+        "description": "Solv BTC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/solvbtc.png",
+        "coinGeckoId": "solv-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+        "name" : "SolvBTC Babylon",
+        "symbol": "SolvBTC",
+        "description": "SolvBTC Babylon",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/solvbtc.png",
+        "coinGeckoId": "solv-protocol-solvbtc-bbn"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
+        "name" : "StakeStone Ether",
+        "symbol": "STONE",
+        "description": "StakeStone Ether",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/stone.png",
+        "coinGeckoId": "stakestone-ether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6fc6545d5cDE268D5C7f1e476D444F39c995120d",
+        "name" : "Berachain Staked ETH",
+        "symbol": "beraETH",
+        "description": "Berachain Staked ETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/steth.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xff12470a969Dd362EB6595FFB44C82c959Fe9ACc",
+        "name" : "USDa",
+        "symbol": "USDa",
+        "description": "USDa",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/steth.png",
+        "coinGeckoId": "usda-2"
     }
 ]
