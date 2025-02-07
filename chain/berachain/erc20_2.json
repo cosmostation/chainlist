@@ -131,5 +131,125 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/usda.png",
         "coinGeckoId": "usda-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+        "name" : "Reservoir Stablecoin",
+        "symbol": "rUSD",
+        "description": "Reservoir Stablecoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/rusda.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "name" : "USDe",
+        "symbol": "USDe",
+        "description": "USDe",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/usde.png",
+        "coinGeckoId": "ethena-usde"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+        "name" : "Staked USDe",
+        "symbol": "sUSDe",
+        "description": "Staked USDe",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/susde.png",
+        "coinGeckoId": "ethena-staked-usde"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7",
+        "name" : "Wrapped eETH",
+        "symbol": "weETH",
+        "description": "Wrapped eETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/weeth.png",
+        "coinGeckoId": "wrapped-eeth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+        "name" : "Lorenzo stBTC",
+        "symbol": "stBTC",
+        "description": "Lorenzo stBTC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/stbtc.png",
+        "coinGeckoId": "lorenzo-stbtc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1fCca65fb6Ae3b2758b9b2B394CB227eAE404e1E",
+        "name" : "pumpBTC.bera",
+        "symbol": "pumpBTC.bera",
+        "description": "pumpBTC.bera",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/pumpbtc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC3827A4BC8224ee2D116637023b124CED6db6e90",
+        "name" : "uniBTC",
+        "symbol": "uniBTC",
+        "description": "uniBTC",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/unibtc.png",
+        "coinGeckoId": "universal-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+        "name" : "Lombard Staked Bitcoin",
+        "symbol": "LBTC",
+        "description": "Lombard Staked Bitcoin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/lbtc.png",
+        "coinGeckoId": "lombard-staked-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbAC93A69c62a1518136FF840B788Ba715cbDfE2B",
+        "name" : "Fire Bitcoin",
+        "symbol": "FBTC",
+        "description": "Fire Bitcoin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/fbtc.png",
+        "coinGeckoId": "lombard-staked-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5B82028cfc477C4E7ddA7FF33d59A23FA7Be002a",
+        "name" : "Magic Internet Money",
+        "symbol": "MIM",
+        "description": "Magic Internet Money",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/mim.png",
+        "coinGeckoId": "magic-internet-money"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x850CDF416668210ED0c36bfFF5d21921C7adA3b8",
+        "name" : "rswETH",
+        "symbol": "rswETH",
+        "description": "rswETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/rsweth.png",
+        "coinGeckoId": "restaked-swell-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+        "name" : "KelpDao Restaked ETH",
+        "symbol": "rsETH",
+        "description": "KelpDao Restaked ETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/rseth.png",
+        "coinGeckoId": "kelp-dao-restaked-eth"
     }
 ]
