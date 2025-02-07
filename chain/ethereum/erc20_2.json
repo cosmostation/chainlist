@@ -4225,5 +4225,15 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/xprt.svg",
         "coinGeckoId": "persistence"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf091867EC603A6628eD83D274E835539D82e9cc8",
+        "name": "Zeta",
+        "symbol": "ZETA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/zeta.png",
+        "coinGeckoId": "zetachain"
     }
 ]
