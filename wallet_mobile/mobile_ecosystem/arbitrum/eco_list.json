@@ -110,5 +110,12 @@
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/arbitrum/resource/babylon.png",
         "link": "https://app.babylonswap.io/",
         "type": "DEX"
+    },
+    {
+        "name": "NFT Bridge",
+        "description": "Bridge your NFTs to Berachain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/arbitrum/resource/nftBridge.png",
+        "link": "https://nftbridge.berachain.com/",
+        "type": "Bridge"
     }
 ]
