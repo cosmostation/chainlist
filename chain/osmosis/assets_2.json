@@ -4862,7 +4862,7 @@
     {
         "type": "ibc",
         "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
-        "name": "Tether USD (Kava)",
+        "name": "Tether USD",
         "symbol": "USDT",
         "description": "Tether gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
         "decimals": 6,
@@ -8253,8 +8253,8 @@
     {
         "type": "native",
         "denom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
-        "name": "Tether USD",
-        "symbol": "USDT.osmo",
+        "name": "Tether USD (alloyed)",
+        "symbol": "allUSDT",
         "description": "An alloy of USDT asset variants on Osmosis.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
