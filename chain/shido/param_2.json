@@ -40,22 +40,30 @@
     },
     "grpc_endpoint" : [
         {
+            "provider": "shido.io",
+            "url": "grpc.shidoscan.com:443"
+        },
+        {
             "provider": "MavNode",
             "url": "grpc.mavnode.io:443"
         }
     ],
     "lcd_endpoint" : [
         {
+            "provider": "Shido",
+            "url": "https://swagger.shidoscan.com/"
+        },
+        {
             "provider": "Indonode",
-            "url": "https://api.shido.indonode.net"
+            "url": "https://api.shido.indonode.net/"
         },
         {
             "provider": "MavNode",
-            "url": "https://api-maverick.mavnode.io"
+            "url": "https://api-maverick.mavnode.io/"
         },
         {
             "provider": "KENSEI",
-            "url": "https://api.kenseishido.com"
+            "url": "https://api.kenseishido.com/"
         }
     ],
     "evm_rpc_endpoint" : [
