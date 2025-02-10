@@ -10,7 +10,6 @@
     "origin_genesis_time" : "2021-10-01T15:00:00Z",
     "api_name" : "juno",
     "is_support_cw20" : true,
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -37,10 +36,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-juno.cosmostation.io:443"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "juno-grpc.lavenderfive.com:443"
         },
@@ -66,10 +61,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-juno.cosmostation.io/"
-        },
         {
             "provider": "ecostake",
             "url": "https://rest-juno.ecostake.com/"

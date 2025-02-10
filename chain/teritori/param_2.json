@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "torivaloper",
     "origin_genesis_time" : "2022-10-03T13:00:00Z",
     "api_name" : "teritori",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -34,19 +33,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-teritori.cosmostation.io:443"
-        },
-        {
             "provider": "NodeStake",
             "url": "grpc.teritori.nodestake.top:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-teritori.cosmostation.io/"
-        },
         {
             "provider": "Polkachu",
             "url": "https://teritori-api.polkachu.com/"

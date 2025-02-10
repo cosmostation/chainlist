@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "umeevaloper",
     "origin_genesis_time" : "2022-02-15T17:00:00Z",
     "api_name" : "umee",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -35,10 +34,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-umee.cosmostation.io:443"
-        },
-        {
             "provider": "MMS",
             "url": "grpc-umee.mms.team:443"
         },
@@ -60,10 +55,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-umee.cosmostation.io/"
-        },
         {
             "provider": "🔥STAVR🔥",
             "url": "https://umee.api.m.stavr.tech/"

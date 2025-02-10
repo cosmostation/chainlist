@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "mantlevaloper",
     "origin_genesis_time" : "2022-04-18T12:00:00Z",
     "api_name" : "asset-mantle",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
     "chain_type": [
@@ -36,10 +35,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-asset-mantle.cosmostation.io:443"
-        },
-        {
             "provider": "NodeStake",
             "url": "grpc.assetmantle.nodestake.top:443"
         },
@@ -53,10 +48,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-asset-mantle.cosmostation.io/"
-        },
         {
             "provider": "WhisperNode 🤐",
             "url": "https://lcd-assetmantle.whispernode.com/"
