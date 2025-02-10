@@ -40,12 +40,8 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "shido.io",
-            "url": "grpc-web.shidoscan.com:443"
-        },
-        {
             "provider": "MavNode",
-            "url": "grpc-maverick.mavnode.io:443"
+            "url": "grpc.mavnode.io:443"
         }
     ],
     "lcd_endpoint" : [
