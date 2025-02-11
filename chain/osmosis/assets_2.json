@@ -170,7 +170,7 @@
         "symbol": "ATOM",
         "description": "The native staking and governance token of the Cosmos Hub.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
         "color": "#272d45",
         "coinGeckoId": "cosmos",
         "ibc_info": {
@@ -455,7 +455,7 @@
         "symbol": "STARS",
         "description": "The native token of Stargaze",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
         "color": "#db2777",
         "coinGeckoId": "stargaze",
         "ibc_info": {
