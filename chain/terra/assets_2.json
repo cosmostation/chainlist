@@ -17,7 +17,7 @@
         "symbol": "USDC.axl",
         "description": "Wrapped USDC imported to Cosmos from Ethereum via Axelar.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "axlusdc",
         "ibc_info" : {
             "path": "ethereum>axelar>terra",
