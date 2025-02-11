@@ -68,11 +68,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/ixo",
-        "account": "https://atomscan.com/ixo/accounts/${address}",
-        "tx": "https://atomscan.com/ixo/transactions/${hash}",
-        "proposal": "https://atomscan.com/ixo/votes/${id}"
+        "name": "Ixo",
+        "url": "https://explorer.ixo.earth/",
+        "account": "https://explorer.ixo.earth/ixo/account/${address}",
+        "tx": "https://explorer.ixo.earth/ixo/tx/${hash}",
+        "proposal": "https://explorer.ixo.earth/ixo/gov/${id}"
     },
     "about" : {
         "website" : "https://www.ixo.world/",
