@@ -1,3 +1,13 @@
 [
-
+    {
+        "type": "native",
+        "denom": "0x0000000000000000000000000000000000000000",
+        "name" : "Berachain",
+        "symbol": "BERA",
+        "description": "Berachain Native Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/bera.png",
+        "coinGeckoId": "berachain-bera"
+    }
 ]
+ 

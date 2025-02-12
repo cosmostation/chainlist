@@ -12,6 +12,7 @@
     "is_support_cw20" : true,
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
+    "is_support_moblie_dapp" : true,
     "is_support_extension_wallet": true,
     "chain_type": [
         "cosmos"
@@ -86,7 +87,7 @@
         "proposal": "https://www.mintscan.io/terra/proposals/${id}"
     },
     "about" : {
-        "website" : "https://www.terra.money/",
+        "website" : "https://phoenix.money/",
         "docs": "https://docs.terra.money/",
         "github" : "https://github.com/terra-money/core",
         "blog" : "https://medium.com/terra-money",
@@ -99,7 +100,7 @@
     },
     "description" : {
         "ko" : "Terra 네트워크는 Terra Classic 에서 하드포크된 Cosmos SDK 기반 비허가형 블록체인 네트워크입니다.",
-        "en" : "Terra is a Cosmos SDK-based permissionless blockchain network, also known as the Phoenix chain. It hosts a wide range of applications and seeks to connect the Cosmos and beyond via the Terra Liquidity Alliance. Its development and maintenance is currently lead by the Phoenix Directive.",
+        "en" : "Terra is a lightning-fast CosmWasm-enabled permissionless blockchain. Built for stability and efficiency, she serves as the foundation of the Liquidity Alliance, seamlessly integrating native stablecoins like USDC, USDT, and EURe. Phoenix is not just a rebirth of Terra, it’s an evolution, designed to be the financial backbone of Cosmos. Its maintenance and development are currently led by the Phoenix Directive.",
         "ja" : "Terraネットワークは、Terra ClassicでハードフォークされたCosmos SDKベースの非許可型ブロックチェーンネットワークです。"
     }
 }

@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "pasgvaloper",
     "origin_genesis_time" : "2022-08-17T15:00:00Z",
     "api_name" : "passage",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -36,10 +35,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-passage.cosmostation.io:443"
-        },
-        {
             "provider": "StakerHouse",
             "url": "passage-grpc.stakerhouse.com:443"
         },
@@ -53,10 +48,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-passage.cosmostation.io/"
-        },
         {
             "provider": "Staketab",
             "url": "https://passage-rest.staketab.org/"
@@ -75,11 +66,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/passage/",
-        "account": "https://www.mintscan.io/passage/address/${address}",
-        "tx": "https://www.mintscan.io/passage/tx/${hash}",
-        "proposal": "https://www.mintscan.io/passage/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/passage/",
+        "account": "https://atomscan.com/passage/accounts/${address}",
+        "tx": "https://atomscan.com/passage/transactions/${hash}",
+        "proposal": "https://atomscan.com/passage/votes/${id}"
     },
     "about" : {
         "website" : "https://www.passage.io/",

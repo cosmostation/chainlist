@@ -10,7 +10,6 @@
     "bech_validator_prefix" : "evmosvaloper",
     "origin_genesis_time" : "2022-03-02T19:00:00Z",
     "api_name": "evmos",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
     "is_support_erc20" : true,
@@ -43,10 +42,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-evmos.cosmostation.io:443"
-        },
-        {
             "provider": "Notional",
             "url": "grpc-evmos-ia.cosmosia.notional.ventures:443"
         },
@@ -60,10 +55,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-evmos.cosmostation.io/"
-        },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "https://evmos-api.lavenderfive.com/"
@@ -95,10 +86,6 @@
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc-evmos-evm.cosmostation.io"
-        },
-        {
             "provider": "Allnodes ⚡️ Nodes & Staking",
             "url": "https://evmos-evm.publicnode.com"
         },
@@ -120,11 +107,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/evmos/",
-        "account": "https://www.mintscan.io/evmos/address/${address}",
-        "tx": "https://www.mintscan.io/evmos/tx/${hash}",
-        "proposal": "https://www.mintscan.io/evmos/proposals/${id}"
+        "name": "Guru",
+        "url": "https://evmos.explorers.guru/",
+        "account": "https://evmos.explorers.guru/account/${address}",
+        "tx": "https://evmos.explorers.guru/transaction/${hash}",
+        "proposal": "https://evmos.explorers.guru/proposal/${id}"
     },
     "about" : {
         "website" : "https://evmos.org/",

@@ -8,6 +8,12 @@
     "bech_account_prefix": "bbn",
     "bech_validator_prefix": "bbnvaloper",
     "origin_genesis_time": "",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "btc_staking": {
+        "is_support_staking" : false,
+        "url": "https://btcstaking.babylonlabs.io/"
+    },
     "api_name": "babylon",
     "chain_type": [
         "cosmos"
@@ -51,7 +57,7 @@
     "about": {
         "website": "https://babylonchain.io/",
         "docs": "https://docs.babylonchain.io/",
-        "github": "https://github.com/babylonchain",
+        "github": "https://github.com/babylonlabs-io",
         "blog": "https://babylonchain.io/blog",
         "medium": "https://medium.com/babylonchain-io",
         "reddit": "https://www.reddit.com/r/babylonlabs/",

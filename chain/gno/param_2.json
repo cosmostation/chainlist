@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "gvaloper",
     "origin_genesis_time" : "",
     "api_name" : "gno",
+    "is_stake_enabled" : false,
     "is_support_mintscan": true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
@@ -25,11 +26,11 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.001ugnot"
+            "0.00001ugnot"
         ],
         "is_simulable" : false,
         "simulated_gas_multiply" : 1.2,
-        "init_gas_limit" : 300000,
+        "init_gas_limit" : 100000,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [

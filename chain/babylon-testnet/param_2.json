@@ -1,10 +1,17 @@
 {
-    "chain_id_cosmos": "",
+    "chain_id_cosmos": "bbn-test-5",
     "chain_name": "Babylon Testnet",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/resource/chain_babylon-testnet.png",
     "main_asset_denom" : "ubbn",
-    "main_asset_symbol": "BBN",
+    "main_asset_symbol": "tBABY",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/asset/bbn.png",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "btc_staking": {
+        "is_support_staking" : true,
+        "url": "https://btcstaking.testnet.babylonlabs.io/"
+    },
     "bech_account_prefix": "bbn",
     "bech_validator_prefix": "bbnvaloper",
     "origin_genesis_time": "",
@@ -22,7 +29,7 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.0ubbn"
+            "0.002ubbn"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
@@ -30,24 +37,32 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-office-babylon.cosmostation.io"
+        }
     ],
     "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/babylon-testnet/"
+        },
         {
             "provider": "Babylon Labs",
             "url": "https://lcd.devnet.babylonlabs.io/"
         }
     ],
     "explorer" : {
-        "name": "",
-        "url": "",
-        "account": "",
-        "tx": "",
-        "proposal": ""
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/babylon-testnet/",
+        "account": "https://www.mintscan.io/babylon-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/babylon-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/babylon-testnetram /proposals/${id}"
     },
     "about" : {
         "website" : "https://babylonchain.io/",
         "docs" : "https://docs.babylonchain.io/",
-        "github" : "https://github.com/babylonchain",
+        "github" : "https://github.com/babylonlabs-io",
         "blog" : "https://babylonchain.io/blog",
         "medium": "https://medium.com/babylonchain-io",
         "reddit" : "https://www.reddit.com/r/babylonlabs/",

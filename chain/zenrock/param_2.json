@@ -1,0 +1,72 @@
+{
+    "chain_id_cosmos" : "diamond-1",
+    "chain_name": "Zenrock",
+    "main_asset_denom" : "urock",
+    "main_asset_symbol" : "ROCK",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/resource/chain_zenrock.png",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zenrock/asset/rock.png",
+    "bech_account_prefix" : "zen",
+    "bech_validator_prefix" : "zenvaloper",
+    "origin_genesis_time" : "2024-11-20T17:39:07Z",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "2.5urock"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "NodeStake",
+            "url": "grpc.zenrock.nodestake.org:443"
+        },
+        {
+            "provider": "Zenrock",
+            "url": "grpc.diamond.zenrocklabs.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "NodeStake",
+            "url": "https://api.zenrock.nodestake.org/"
+        },
+        {
+            "provider": "Zenrock",
+            "url": "https://api.diamond.zenrocklabs.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Big Dipper",
+        "url": "https://explorer.diamond.zenrocklabs.io/",
+        "account": "https://explorer.diamond.zenrocklabs.io/accounts/${address}",
+        "tx": "https://explorer.diamond.zenrocklabs.io/transactions/${hash}",
+        "proposal": "https://explorer.diamond.zenrocklabs.io/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://zenrocklabs.io/",
+        "docs": "https://docs.zenrocklabs.io/",
+        "github" : "https://github.com/zenrock-foundation",
+        "twitter" : "https://twitter.com/officialzenrock",
+        "coingecko" : "https://www.coingecko.com/en/coins/zenrock"
+    },
+    "description" : {
+        "ko" : "Zenrock 체인은 크로스체인 프로토콜 및 지갑 개발자가 옴니체인 보안을 구현할 수 있도록 탈중앙화 키 관리를 지원하는 탈중앙화 인터페이스입니다.",
+        "en" : "Zenrock chain is the decentralized interface to enable decentralized key management for builders of cross-chain protocols and wallets to unlock omnichain security.",
+        "ja" : "Zenrockチェーンは、クロスチェーンプロトコルおよびウォレットの開発者がオムニチェーンセキュリティを実現できるようにする、分散型キー管理を可能にする分散型インターフェースです。"
+    }
+}

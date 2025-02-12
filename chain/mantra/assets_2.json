@@ -12,6 +12,53 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+        "name": "Cosmos Hub",
+        "symbol": "ATOM",
+        "description": "The native staking and governance token of the Cosmos Hub.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "color": "#272d45",
+        "coinGeckoId": "cosmos",
+        "ibc_info": {
+            "path": "cosmos>mantra",
+            "client": {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1252",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>mantra",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-85077",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
         "name": "USDC",
         "symbol": "USDC",
@@ -55,6 +102,30 @@
                 "port": "transfer",
                 "chain": "noble",
                 "denom": "ausdy"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/16E817E682AD1A73FD748BC989574B2702E109C4105550498086531FA3D6B050",
+        "name": "Stargaze",
+        "symbol": "STARS",
+        "description": "The native token of Stargaze",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
+        "color": "#db2777",
+        "coinGeckoId": "stargaze",
+        "ibc_info": {
+            "path": "stargaze>mantra",
+            "client": {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-406",
+                "port": "transfer",
+                "chain": "stargaze",
+                "denom": "ustars"
             }
         }
     }

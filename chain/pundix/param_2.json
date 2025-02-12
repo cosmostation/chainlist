@@ -10,6 +10,7 @@
     "api_name" : "pundix",
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
+    "is_support_moblie_dapp": true,
     "chain_type": [
         "cosmos"
     ],

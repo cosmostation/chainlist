@@ -8,7 +8,7 @@
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shido.png",
     "bech_account_prefix" : "shido",
     "bech_validator_prefix" : "shidovaloper",
-    "origin_genesis_time" : "2024-03-29T20:27:38.935002404Z",
+    "origin_genesis_time" : "2024-03-29T20:27:38Z",
     "api_name" : "shido",
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
@@ -44,30 +44,26 @@
             "url": "grpc.shidoscan.com:443"
         },
         {
-            "provider": "shido.io",
-            "url": "grpc-web.shidoscan.com:443"
-        },
-        {
             "provider": "MavNode",
-            "url": "grpc-maverick.mavnode.io:443"
+            "url": "grpc.mavnode.io:443"
         }
     ],
     "lcd_endpoint" : [
         {
             "provider": "Shido",
-            "url": "https://swagger.shidoscan.com"
+            "url": "https://swagger.shidoscan.com/"
         },
         {
             "provider": "Indonode",
-            "url": "https://api.shido.indonode.net"
+            "url": "https://api.shido.indonode.net/"
         },
         {
             "provider": "MavNode",
-            "url": "https://api-maverick.mavnode.io"
+            "url": "https://api-maverick.mavnode.io/"
         },
         {
             "provider": "KENSEI",
-            "url": "https://api.kenseishido.com"
+            "url": "https://api.kenseishido.com/"
         }
     ],
     "evm_rpc_endpoint" : [

@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "torivaloper",
     "origin_genesis_time" : "2022-10-03T13:00:00Z",
     "api_name" : "teritori",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -34,23 +33,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-teritori.cosmostation.io:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "teritori-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "teritori-grpc.chainroot.io:443"
+            "provider": "NodeStake",
+            "url": "grpc.teritori.nodestake.top:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-teritori.cosmostation.io/"
-        },
         {
             "provider": "Polkachu",
             "url": "https://teritori-api.polkachu.com/"
@@ -73,11 +60,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/teritori/",
-        "account": "https://www.mintscan.io/teritori/address/${address}",
-        "tx": "https://www.mintscan.io/teritori/tx/${hash}",
-        "proposal": "https://www.mintscan.io/teritori/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/teritori/",
+        "account": "https://atomscan.com/teritori/accounts/${address}",
+        "tx": "https://atomscan.com/teritori/transactions/${hash}",
+        "proposal": "https://atomscan.com/teritori/votes/${id}"
     },
     "about" : {
         "website" : "https://teritori.com/",

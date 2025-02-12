@@ -82,8 +82,8 @@
     {
         "type": "ibc",
         "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
-        "name" : "Tether USDt",
-        "symbol": "USDt.kava",
+        "name" : "Tether USD",
+        "symbol": "USDt",
         "description": "USDt - directly minted on the Kava chain by the Tether Foundation.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
@@ -657,27 +657,15 @@
         }
     },
     {
-        "type": "ibc",
-        "denom": "ibc/1011E4D6D4800DA9B8F21D7C207C0B0C18E54E614A8576037F066B775210709D",
+        "type": "native",
+        "denom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ",
         "name" : "Ninja Blaze Token",
         "symbol": "NBZ",
         "description": "Ninja Blaze Token",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/nbz.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/nbz.png",
         "coinGeckoId": "",
-        "ibc_info" : {
-            "path": "neutron>injective",
-            "client" : {
-                "channel": "channel-177",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-60",
-                "port": "transfer",
-                "chain": "neutron",
-                "denom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz"
-            }
-        }
+        "color": "#9890f9"
     },
     {
         "type": "ibc",
@@ -739,9 +727,9 @@
     {
         "type": "bridge",
         "denom": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "name" : "Tether",
-        "symbol": "USDT",
-        "description": "Tether",
+        "name" : "Tether USD (peggy)",
+        "symbol": "USDT.peggy",
+        "description": "USDT, bridged directly from Ethereum to Injective.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
         "coinGeckoId": "tether",
@@ -756,9 +744,9 @@
     {
         "type": "bridge",
         "denom": "peggy0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name" : "USD Coin",
-        "symbol": "USDClegacy",
-        "description": "USD Coin",
+        "name" : "USD Coin (peggy)",
+        "symbol": "USDC.peggy",
+        "description": "USDC, bridged directly from Ethereum to Injective.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "usd-coin",
@@ -1906,5 +1894,45 @@
       "decimals": 6,
       "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/nept.png",
       "coinGeckoId": ""
-  }
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BITCOIN",
+        "name" : "Cosmos Bitcoin",
+        "symbol": "BITCOIN",
+        "description": "Cosmos Bitcoin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/bitcoin.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS",
+        "name" : "BRICS",
+        "symbol": "BRICS",
+        "description": "BRICS coin",
+         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/brics.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/CRYPTO",
+        "name" : "Crypto",
+        "symbol": "CRYPTO",
+        "description": "CRYPTO coin",
+         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/crypto.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC",
+        "name" : "INC",
+        "symbol": "INC",
+        "description": "Instant Noodles coin",
+         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inc.png",
+        "coinGeckoId": ""
+    } 
 ]

@@ -35,28 +35,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-elys.cosmostation.io:443"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "elys-grpc.polkachu.com:22090"
-        },
-        {
-            "provider": "Allnodes Nodes & Staking",
-            "url": "elys-grpc.publicnode.com:443"
-        },
-        {
-            "provider": "itrocket",
-            "url": "elys-mainnet-grpc.itrocket.net:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-elys.cosmostation.io/"
-        },
         {
             "provider": "Polkachu",
             "url": "https://elys-api.polkachu.com/"

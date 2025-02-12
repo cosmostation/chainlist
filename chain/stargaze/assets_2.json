@@ -406,5 +406,51 @@
                 "denom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3BD86E80E000B52DA57C474A6A44E37F73D34E38A1FA79EE678E08D119FC555B",
+        "name" : "MANTRA",
+        "symbol": "OM",
+        "description": "The native token of MANTRA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg",
+        "color": "#fba0c1",
+        "coinGeckoId": "mantra-dao",
+        "ibc_info" : {
+            "path": "mantra>stargaze",
+            "client" : {
+                "channel": "channel-406",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-4",
+                "port": "transfer",
+                "chain": "mantra",
+                "denom": "uom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1CD4EED1BD74D41C165B9200AAF7A13C92DDB381DB7067EA32EEF8CC1370F764",
+        "name" : "CULT",
+        "symbol": "CULT",
+        "description": "CULT - Less Brainwashing, More Utility",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/cult.png",
+        "ibc_info" : {
+            "path": "osmosis>stargaze",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-75",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult"
+            }
+        }
     }
 ]

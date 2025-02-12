@@ -117,5 +117,12 @@
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/hyperliquid.png",
         "link": "https://app.hyperliquid.xyz/",
         "type": "DEX"
+    },
+    {
+        "name": "NFT Bridge",
+        "description": "Bridge your NFTs to Berachain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/ethereum/resource/nftBridge.png",
+        "link": "https://nftbridge.berachain.com/",
+        "type": "Bridge"
     }
 ]

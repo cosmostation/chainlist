@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "kyvevaloper",
     "origin_genesis_time" : "2023-03-14T14:03:14Z",
     "api_name" : "kyve",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -34,10 +33,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-kyve.cosmostation.io:443"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "kyve-grpc.lavenderfive.com:443"
         },
@@ -47,10 +42,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-kyve.cosmostation.io/"
-        },
         {
             "provider": "kyve",
             "url": "https://api-eu-1.kyve.network/"
@@ -69,11 +60,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/kyve/",
-        "account": "https://www.mintscan.io/kyve/address/${address}",
-        "tx": "https://www.mintscan.io/kyve/tx/${hash}",
-        "proposal": "https://www.mintscan.io/kyve/proposals/${id}"
+        "name": "Guru",
+        "url": "https://kyve.explorers.guru/",
+        "account": "https://kyve.explorers.guru/account/${address}",
+        "tx": "https://kyve.explorers.guru/transaction/${hash}",
+        "proposal": "https://kyve.explorers.guru/proposal/${id}"
     },
     "about" : {
         "website" : "https://www.kyve.network/",

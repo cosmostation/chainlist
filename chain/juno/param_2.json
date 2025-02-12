@@ -10,7 +10,6 @@
     "origin_genesis_time" : "2021-10-01T15:00:00Z",
     "api_name" : "juno",
     "is_support_cw20" : true,
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -36,10 +35,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-juno.cosmostation.io:443"
-        },
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "juno-grpc.lavenderfive.com:443"
@@ -67,10 +62,6 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-juno.cosmostation.io/"
-        },
-        {
             "provider": "ecostake",
             "url": "https://rest-juno.ecostake.com/"
         },
@@ -92,11 +83,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/juno/",
-        "account": "https://www.mintscan.io/juno/address/${address}",
-        "tx": "https://www.mintscan.io/juno/tx/${hash}",
-        "proposal": "https://www.mintscan.io/juno/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/juno/",
+        "account": "https://atomscan.com/juno/accounts/${address}",
+        "tx": "https://atomscan.com/juno/transactions/${hash}",
+        "proposal": "https://atomscan.com/juno/votes/${id}"
     },
     "about" : {
         "website" : "https://junonetwork.io/",
