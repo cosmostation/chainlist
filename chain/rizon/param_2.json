@@ -46,11 +46,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/rizon",
-        "account": "https://atomscan.com/rizon/accounts/${address}",
-        "tx": "https://atomscan.com/rizon/transactions/${hash}",
-        "proposal": "https://atomscan.com/rizon/votes/${id}"
+        "name": "Ping.pub",
+        "url": "https://ping.pub/rizon",
+        "account": "https://ping.pub/rizon/account/${address}",
+        "tx": "https://ping.pub/rizon/tx/${hash}",
+        "proposal": "https://ping.pub/rizon/gov/${id}"
     },
     "about" : {
         "website" : "https://rizon.world/",

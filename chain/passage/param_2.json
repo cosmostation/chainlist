@@ -66,11 +66,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/passage/",
-        "account": "https://atomscan.com/passage/accounts/${address}",
-        "tx": "https://atomscan.com/passage/transactions/${hash}",
-        "proposal": "https://atomscan.com/passage/votes/${id}"
+        "name": "Zenscan",
+        "url": "https://passage.zenscan.io/",
+        "account": "https://passage.zenscan.io/address.php?address=${address}",
+        "tx": "https://passage.zenscan.io/transaction.php?hash=${hash}",
+        "proposal": "https://passage.zenscan.io/proposal.php?id=${id}"
     },
     "about" : {
         "website" : "https://www.passage.io/",

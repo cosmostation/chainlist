@@ -52,11 +52,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/aioz",
-        "account": "https://atomscan.com/aioz/accounts/${address}",
-        "tx": "https://atomscan.com/aioz/transactions/${hash}",
-        "proposal": "https://atomscan.com/aioz/votes/${id}"
+        "name": "Aioz",
+        "url": "https://explorer.aioz.network/",
+        "account": "https://explorer.aioz.network/address/${address}",
+        "tx": "https://explorer.aioz.network/tx/${hash}",
+        "proposal": ""
     },
     "about" : {
         "website" : "https://aioz.network/",

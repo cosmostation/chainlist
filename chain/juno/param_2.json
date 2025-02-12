@@ -83,11 +83,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/juno/",
-        "account": "https://atomscan.com/juno/accounts/${address}",
-        "tx": "https://atomscan.com/juno/transactions/${hash}",
-        "proposal": "https://atomscan.com/juno/votes/${id}"
+        "name": "Ping.pub",
+        "url": "https://ping.pub/juno",
+        "account": "https://ping.pub/juno/account/${address}",
+        "tx": "https://ping.pub/juno/tx/${hash}",
+        "proposal": "https://ping.pub/juno/gov/${id}"
     },
     "about" : {
         "website" : "https://junonetwork.io/",

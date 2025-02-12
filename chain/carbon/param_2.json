@@ -44,11 +44,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/carbon",
-        "account": "https://atomscan.com/carbon/accounts/${address}",
-        "tx": "https://atomscan.com/carbon/transactions/${hash}",
-        "proposal": "https://atomscan.com/carbon/votes/${id}"
+        "name": "Carbonscan",
+        "url": "https://scan.carbon.network/dashboard",
+        "account": "https://scan.carbon.network/account/${address}",
+        "tx": "https://scan.carbon.network/transaction/${hash}",
+        "proposal": "https://scan.carbon.network/governance/proposal/${id}"
     },
     "about" : {
         "website": "https://www.carbon.network/",

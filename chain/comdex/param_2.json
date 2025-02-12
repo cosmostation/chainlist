@@ -77,11 +77,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/comdex",
-        "account": "https://atomscan.com/comdex/accounts/${address}",
-        "tx": "https://atomscan.com/comdex/transactions/${hash}",
-        "proposal": "https://atomscan.com/comdex/votes/${id}"
+        "name": "Ping.pub",
+        "url": "https://explorer.comdex.one/comdex-1",
+        "account": "https://explorer.comdex.one/comdex-1/account/${address}",
+        "tx": "https://explorer.comdex.one/comdex-1/tx/${hash}",
+        "proposal": "https://explorer.comdex.one/comdex-1/gov/${id}"
     },
     "about" : {
         "website" : "https://comdex.one/",

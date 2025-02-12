@@ -64,11 +64,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/canto",
+        "name": "NodeStake",
+        "url": "https://explorer.nodestake.org/canto",
         "account": "https://atomscan.com/canto/accounts/${address}",
-        "tx": "https://atomscan.com/canto/transactions/${hash}",
-        "proposal": "https://atomscan.com/canto/votes/${id}"
+        "tx": "https://explorer.nodestake.org/canto/tx/${hash}",
+        "proposal": "https://explorer.nodestake.org/canto/gov/${id}"
     },
     "about" : {
         "website" : "https://canto.io/",

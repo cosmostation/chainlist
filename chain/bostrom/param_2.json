@@ -52,11 +52,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/bostrom",
-        "account": "https://atomscan.com/bostrom/accounts/${address}",
-        "tx": "https://atomscan.com/bostrom/transactions/${hash}",
-        "proposal": "https://atomscan.com/bostrom/votes/${id}"
+        "name": "Ping.pub",
+        "url": "https://ping.pub/bostrom",
+        "account": "https://ping.pub/bostrom/account/${address}",
+        "tx": "https://ping.pub/bostrom/tx/${hash}",
+        "proposal": "https://ping.pub/bostrom/gov/${id}"
     },
     "about" : {
         "website" : "https://cyb.ai/",
