@@ -69,11 +69,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/ki-chain",
-        "account": "https://atomscan.com/ki-chain/accounts/${address}",
-        "tx": "https://atomscan.com/ki-chain/transactions/${hash}",
-        "proposal": "https://atomscan.com/ki-chain/votes/${id}"
+        "name": "Big Dipper",
+        "url": "https://explorer.blockchain.ki/",
+        "account": "https://explorer.blockchain.ki/account/${address}",
+        "tx": "https://explorer.blockchain.ki/transactions/${hash}",
+        "proposal": "https://explorer.blockchain.ki/proposals/${id}"
     },
     "about" : {
         "website" : "https://www.foundation.ki/",

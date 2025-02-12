@@ -61,11 +61,11 @@
         }
     ],
     "explorer": {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/firmachain",
-        "account": "https://atomscan.com/firmachain/accounts/${address}",
-        "tx": "https://atomscan.com/firmachain/transactions/${hash}",
-        "proposal": "https://atomscan.com/firmachain/votes/${id}"
+        "name": "Firmachain",
+        "url": "https://explorer.firmachain.dev/",
+        "account": "https://explorer.firmachain.dev/accounts/${address}",
+        "tx": "https://explorer.firmachain.dev/transactions/${hash}",
+        "proposal": "https://explorer.firmachain.dev/proposals/${id}"
     },
     "about": {
         "website": "https://firmachain.org/",

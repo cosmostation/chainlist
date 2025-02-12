@@ -68,11 +68,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/bitcanna",
-        "account": "https://atomscan.com/bitcanna/accounts/${address}",
-        "tx": "https://atomscan.com/bitcanna/transactions/${hash}",
-        "proposal": "https://atomscan.com/bitcanna/votes/${id}"
+        "name": "Valopers",
+        "url": "https://bitcanna.valopers.com/",
+        "account": "https://bitcanna.valopers.com/account/${address}",
+        "tx": "https://bitcanna.valopers.com/transactions/${hash}",
+        "proposal": "https://bitcanna.valopers.com/proposals/${id}"
     },
     "about" : {
         "website" : "https://www.bitcanna.io/",

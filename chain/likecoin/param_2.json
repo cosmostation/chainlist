@@ -65,11 +65,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/likecoin",
-        "account": "https://atomscan.com/likecoin/accounts/${address}",
-        "tx": "https://atomscan.com/likecoin/transactions/${hash}",
-        "proposal": "https://atomscan.com/likecoin/votes/${id}"
+        "name": "Ping.pub",
+        "url": "https://ping.pub/likecoin",
+        "account": "https://ping.pub/likecoin/account/${address}",
+        "tx": "https://ping.pub/likecoin/tx/${hash}",
+        "proposal": "https://ping.pub/likecoin/gov/${id}"
     },
     "about" : {
         "website" : "https://about.like.co/",
