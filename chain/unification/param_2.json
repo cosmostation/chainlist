@@ -54,11 +54,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/unification",
-        "account": "https://atomscan.com/unification/accounts/${address}",
-        "tx": "https://atomscan.com/unification/transactions/${hash}",
-        "proposal": "https://atomscan.com/unification/votes/${id}"
+        "name": "Ping.pub",
+        "url": "https://explorer.unification.io/",
+        "account": "https://explorer.unification.io/u/account/${address}",
+        "tx": "https://explorer.unification.io/u/tx/${hash}",
+        "proposal": "https://explorer.unification.io/u/gov/${id}"
     },
     "about" : {
 		"website" : "https://unification.com/",

@@ -60,11 +60,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/provenance",
-        "account": "https://atomscan.com/provenance/accounts/${address}",
-        "tx": "https://atomscan.com/provenance/transactions/${hash}",
-        "proposal": "https://atomscan.com/provenance/votes/${id}"
+        "name": "Provenance",
+        "url": "https://explorer.provenance.io/",
+        "account": "https://explorer.provenance.io/accounts/${address}",
+        "tx": "https://explorer.provenance.io/tx/${hash}",
+        "proposal": "https://explorer.provenance.io/proposals/${id}"
     },
     "about" : {
         "website" : "https://www.provenance.io/",

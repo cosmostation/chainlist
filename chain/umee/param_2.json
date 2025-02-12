@@ -77,11 +77,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/umee/",
-        "account": "https://atomscan.com/umee/accounts/${address}",
-        "tx": "https://atomscan.com/umee/transactions/${hash}",
-        "proposal": "https://atomscan.com/umee/votes/${id}"
+        "name": "Valopers",
+        "url": "https://ux.valopers.com/",
+        "account": "https://ux.valopers.com/account/${address}",
+        "tx": "https://ux.valopers.com/transactions/${hash}",
+        "proposal": "https://ux.valopers.com/proposals/${id}"
     },
     "about" : {
         "website" : "https://www.ux.xyz/",

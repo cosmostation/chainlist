@@ -63,11 +63,11 @@
         }
     ],
     "explorer" : {
-        "name": "Atomscan",
-        "url": "https://atomscan.com/chain4energy",
-        "account": "https://atomscan.com/chain4energy/accounts/${address}",
-        "tx": "https://atomscan.com/chain4energy/transactions/${hash}",
-        "proposal": "https://atomscan.com/chain4energy/votes/${id}"
+        "name": "C4E",
+        "url": "https://explorer.c4e.io/",
+        "account": "https://explorer.c4e.io/accounts/${address}",
+        "tx": "https://explorer.c4e.io/transactions/${hash}",
+        "proposal": "https://explorer.c4e.io/proposals/${id}"
     },
     "about" : {
         "webSite": "https://c4e.io/",
