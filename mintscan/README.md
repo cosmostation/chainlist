@@ -6,7 +6,7 @@
 
 ## 1. How to add your Dapp in Ecosystem
 
-Nuetorn Ecosystem [Example](https://www.mintscan.io/neutron/ecosystem/)
+Neutron Ecosystem [Example](https://www.mintscan.io/neutron/ecosystem/)
 
 ![banner](https://github.com/cosmostation/chainlist/blob/main/resource/static/ecosystem_demo.png?raw=true)
 
@@ -18,7 +18,7 @@ Please add your service for correct chain folder. When you want create new chain
 - type : Service type
 - description : Description of service
 - status : Description of service [open, prepare, close]
-- thumnail : To display image. ex) mintscan/{chain}/resource/{thumnail}.png
+- thumbnail : To display image. ex) mintscan/{chain}/resource/{thumbnail}.png
 
 [optional]
 
@@ -40,7 +40,7 @@ Ecosystem
     "type": "Dex",
     "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
     "status": "open",
-    "thumnail": "astroport",
+    "thumbnail": "astroport",
     "link": "https://neutron.astroport.fi/swap",
     "social": {
       "webSite": "https://astroport.fi/en",
@@ -70,7 +70,7 @@ Osmosis contract [Example](https://www.mintscan.io/osmosis/wasm/)
 [optional]
 
 - link : Promotion link for this contract
-- thumnail : Promotion image. will display well with new UI. ex) mintscan/{chain}/resource/{thumnail}.png
+- thumbnail : Promotion image. will display well with new UI. ex) mintscan/{chain}/resource/{thumbnail}.png
 
 Ecosystem
 `mintscan/chains/${chain}/major_contract.json`
@@ -83,7 +83,7 @@ Ecosystem
     "contract_address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
     "description": "USDT on the Kava Chain issued directly by the Tether Foundation",
     "link": "",
-    "thumnail": ""
+    "thumbnail": ""
   }
 ]
 ```
