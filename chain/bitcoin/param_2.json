@@ -16,6 +16,11 @@
     ],
     "account_type" : [
         {
+            "hd_path": "m/86'/0'/0'/0/X",
+            "pubkey_style": "p2tr"
+        },
+        {
+            "is_default" : false,
             "hd_path": "m/84'/0'/0'/0/X",
             "pubkey_style": "p2wpkh"
         },
