@@ -1,0 +1,62 @@
+[
+    {
+        "type": "native",
+        "denom": "okt",
+        "name" : "Okt",
+        "symbol": "OKT",
+        "description": "Okt Native Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/okt.png",
+        "coinGeckoId": "oec-token"
+    },
+    {
+        "type": "native",
+        "denom": "btck-ba9",
+        "name": "Okt",
+        "symbol": "BTCK",
+        "description": "Bitcoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/okc/images/btck.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "dotk-4c0",
+        "name": "Okt",
+        "symbol": "DOTK",
+        "description": "Polkadot",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/okc/images/dotk.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ethk-c63",
+        "name": "Okt",
+        "symbol": "ETHK",
+        "description": "Ethereum",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/okc/images/ethk.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "filk-2ee",
+        "name": "Okt",
+        "symbol": "FILK",
+        "description": "Filecoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/okc/images/filk.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ltck-5cb",
+        "name": "Okt",
+        "symbol": "LTCK",
+        "description": "Litecoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/okc/images/ltck.png",
+        "coinGeckoId": ""
+    }
+]
