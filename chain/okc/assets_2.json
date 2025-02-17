@@ -58,5 +58,55 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/ltck.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "okb-c4d",
+        "name": "Okt",
+        "symbol": "OKB",
+        "description": "OKB",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/okb.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "usdc-e6c",
+        "name": "Okt",
+        "symbol": "usdc",
+        "description": "USDCoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/usdc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "usdk-956",
+        "name": "Okt",
+        "symbol": "usdk",
+        "description": "USDK",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/usdk.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "usdt-a2b",
+        "name": "Okt",
+        "symbol": "USDT",
+        "description": "Tether USD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/usdt.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "yfi-bb5",
+        "name": "Okt",
+        "symbol": "YFI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/yfi.png",
+        "coinGeckoId": ""
     }
 ]
