@@ -37,6 +37,12 @@
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
     ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Okex",
+            "url": "https://exchainrpc.okex.org"
+        }
+    ],
     "explorer" : {
         "name": "Oklink",
         "url": "https://www.oklink.com/oktc/",
