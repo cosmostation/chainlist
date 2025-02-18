@@ -77,5 +77,15 @@
                 "denom": "uatom"
             }
         }
+    },
+    {   "type": "native",
+        "denom": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
+        "name" : "SAM",
+        "symbol": "SAM",
+        "description": "The SAM token is a native memecoin on Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.png",
+        "coinGeckoId": "sam-2",
+        "color": "#000000"
     }
 ]
