@@ -10189,5 +10189,29 @@
                 "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC"
 							}
 					}
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E72E62E74112F379BB760D02515DA215408CCBF401CD4C9BC0A3DBD72A7076E1",
+        "name": "SAM",
+        "symbol": "SAM",
+        "description": "The SAM token is a native memecoin on Oraichain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.png",
+        "color": "#000000",
+        "coinGeckoId": "sam-2",
+        "ibc_info": {
+            "path": "orai-chain>osmosis",
+            "client": {
+                "channel": "channel-216",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-13",
+                "port": "transfer",
+                "chain": "orai-chain",
+                "denom": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM"
+            }
+        }
     }      	
 ]
