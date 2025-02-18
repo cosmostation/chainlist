@@ -7,7 +7,7 @@
         "description": "The OCH token is the cw20 token for the Oraichain",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png",
-        "coinGeckoId": "",
+        "coinGeckoId": "och",
         "wallet_preload": false
     },
     {
@@ -73,7 +73,7 @@
         "description": "The scORAI token is the cw20 token for the Oraichain.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/scorai.png",
-        "coinGeckoId": "",
+        "coinGeckoId": "scorai",
         "wallet_preload": false
     },
     {
@@ -106,7 +106,7 @@
         "description": "The ORAIX token is the cw20 token for the Oraichain.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/oraix.png",
-        "coinGeckoId": "",
+        "coinGeckoId": "oraidex",
         "wallet_preload": false
     },
     {
