@@ -34,10 +34,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-comdex.cosmostation.io:443"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "comdex-grpc.lavenderfive.com:443"
         },
@@ -51,10 +47,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-comdex.cosmostation.io/"
-        },
         {
             "provider": "comdex",
             "url": "https://rest.comdex.one/"
