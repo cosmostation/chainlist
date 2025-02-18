@@ -17,7 +17,7 @@
         "symbol": "BTC",
         "description": "The BTC token is the cw20 token for the Oraichain.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/btc.png",
         "coinGeckoId": "",
         "wallet_preload": false
     },
@@ -28,7 +28,7 @@
         "symbol": "wETH",
         "description": "The wETH token is the cw20 token for the Oraichain.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/weth.png",
         "coinGeckoId": "",
         "wallet_preload": false
     },
@@ -127,7 +127,7 @@
         "symbol": "USDT",
         "description": "The USDT token is the cw20 token for the Oraichain.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/usdt.png",
         "coinGeckoId": "",
         "wallet_preload": false
     },
@@ -138,7 +138,7 @@
         "symbol": "INJ",
         "description": "The Wrapped INJ token for the Oraichain.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/inj.png",
         "coinGeckoId": "",
         "wallet_preload": false
     }
