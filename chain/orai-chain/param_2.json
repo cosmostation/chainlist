@@ -9,6 +9,7 @@
     "bech_validator_prefix" : "oraivaloper",
     "origin_genesis_time" : "2021-02-14T08:44:16Z",
     "api_name" : "orai-chain",
+    "is_support_cw20" : true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
