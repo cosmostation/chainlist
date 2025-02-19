@@ -107,11 +107,11 @@
         }
     ],
     "explorer" : {
-        "name": "Guru",
-        "url": "https://evmos.explorers.guru/",
-        "account": "https://evmos.explorers.guru/account/${address}",
-        "tx": "https://evmos.explorers.guru/transaction/${hash}",
-        "proposal": "https://evmos.explorers.guru/proposal/${id}"
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/evmos/",
+        "account": "https://www.mintscan.io/evmos/address/${address}",
+        "tx": "https://www.mintscan.io/evmos/tx/${hash}",
+        "proposal": "https://www.mintscan.io/evmos/proposals/${id}"
     },
     "about" : {
         "website" : "https://evmos.org/",
