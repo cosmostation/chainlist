@@ -1,0 +1,72 @@
+{
+    "chain_name": "Namada",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/namada/resource/chain_namada.png",
+    "main_asset_denom" : "tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7",
+    "main_asset_symbol" : "NAM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/namada/asset/nam.png",
+    "origin_genesis_time" : "2024-12-03T15:00:00Z",
+    "api_name" : "namada",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "namada"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/877'/0'/0'/X'",
+            "pubkey_style": "ed25519"
+        }
+    ],
+    "namada_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.000001nam"
+        ]
+    },
+    "indexer_endpoint" : [
+        {
+            "provider": "Grand Valley",
+            "url": "https://index-namada.5elementsnodes.com/"
+        },
+        {
+            "provider": "5ElementsNodes",
+            "url": "https://indexer-mainnet-namada.grandvalleys.com/"
+        },
+        {
+            "provider": "EmberStake",
+            "url": "https://namada-idx.emberstake.xyz/"
+        }
+    ],
+    "rpc_endpoint" : [
+        {
+            "provider": "5ElementsNodes",
+            "url": "https://rpc-namada.5elementsnodes.com"
+        },
+        {
+            "provider": "Decentrio",
+            "url": "https://namada.rpc.decentrio.ventures"
+        }
+    ],
+    "explorer" : {
+        "name": "Valoper",
+        "url": "https://namada.valopers.com/",
+        "account": "https://namada.valopers.com/account/${address}",
+        "tx": "https://namada.valopers.com/transactions/${hash}",
+        "proposal": "https://namada.valopers.com/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://namada.net/",
+        "docs": "https://docs.namada.net/",
+        "github" : "https://github.com/anoma/namada",
+        "blog" : "https://namada.net/blog",
+        "twitter" : "https://x.com/namada",
+        "telegram" : "https://t.me/namadaprotocol",
+        "discord" : "https://discord.com/invite/namada",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Namada는 여러 블록체인 간 자산과 거래의 프라이버시를 보호하는 네트워크입니다. 고급 암호화 기술을 사용해 안전하고 개인적인 자산 전송을 지원합니다.",
+        "en" : "Namada is a network designed to protect the privacy of assets and transactions across multiple blockchains. It uses advanced cryptographic techniques to enable secure and private asset transfers.",
+        "ja" : "Namadaは複数のブロックチェーン間で資産と取引のプライバシーを保護するネットワークです。高度な暗号化技術を使用し、安全かつプライベートな資産転送を実現します。"
+    }
+}

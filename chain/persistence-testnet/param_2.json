@@ -1,0 +1,78 @@
+{
+    "chain_id_cosmos" : "test-core-2",
+    "chain_name": "Persistence Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence-testnet/resource/chain_persistence-testnet.png",
+    "main_asset_denom" : "uxprt",
+    "main_asset_symbol" : "XPRT",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence-testnet/asset/xprt.png",
+    "bech_account_prefix" : "persistence",
+    "bech_validator_prefix" : "persistencevaloper",
+    "api_name" : "persistence-testnet",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/750'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.0uxprt",
+            "0.025uxprt"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/persistence-testnet/"
+        },
+        {
+            "provider": "Persistence",
+            "url": "https://rest.testnet2.persistence.one/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://persistence-testnet-api.polkachu.com//"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/persistence-testnet/",
+        "account": "https://www.mintscan.io/persistence-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/persistence-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/persistence-testnet/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://persistence.one/",
+        "docs": "https://docs.persistence.one/",
+        "github" : "https://github.com/persistenceOne",
+        "blog" : "https://blog.persistence.one/",
+        "medium": "https://medium.com/@persistenceone",
+        "twitter" : "https://twitter.com/PersistenceOne",
+        "discord" : "https://discord.com/invite/vyvp3scWnH",
+        "coingecko" : "https://www.coingecko.com/en/coins/persistence"
+    },
+    "forum": {
+        "main": "https://forum.persistence.one/",
+        "governance": "https://forum.persistence.one/c/governance/"
+    },
+    "description" : {
+        "ko" : "Persistence One은 Liquid Stake 및 Restake를 위해 구축된 레이어 1 체인 입니다.",
+        "en" : "Persistence One is a purpose built Layer 1 on a mission to maximize yield and security through Liquid Staking and Restaking.",
+        "ja" : "Persistence Oneは、Liquid StakeとRestake用に構築されたレイヤ1チェーンです。"
+    }
+}

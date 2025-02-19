@@ -1,0 +1,33 @@
+{
+    "chain_name": "Dyson Protocol",
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0002dys"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "lol",
+            "url": "dys-grpc.dyson.lol:443"
+        },
+        {
+            "provider": "cogwheel",
+            "url": "dyson-grpc.cogwheel.zone:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://dysonprotocol.com/"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

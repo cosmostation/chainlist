@@ -1,0 +1,87 @@
+{
+    "chain_id_cosmos" : "teritori-1",
+    "chain_name": "Teritori",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/teritori/resource/chain_teritori.png",
+    "main_asset_denom" : "utori",
+    "main_asset_symbol" : "TORI",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/teritori/asset/tori.png",
+    "bech_account_prefix" : "tori",
+    "bech_validator_prefix" : "torivaloper",
+    "origin_genesis_time" : "2022-10-03T13:00:00Z",
+    "api_name" : "teritori",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0utori"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "NodeStake",
+            "url": "grpc.teritori.nodestake.top:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Polkachu",
+            "url": "https://teritori-api.polkachu.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://teritori.api.m.stavr.tech/"
+        },
+        {
+            "provider": "silent",
+            "url": "https://api.teritori.silentvalidator.com/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://teritori-api.ibs.team/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://teritori-api.chainroot.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Teritori",
+        "url": "https://teritori.explorers.guru/",
+        "account": "https://teritori.explorers.guru/account/${address}",
+        "tx": "https://teritori.explorers.guru/transaction/${hash}",
+        "proposal": "https://teritori.explorers.guru/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://teritori.com/",
+        "docs": "https://teritori.gitbook.io/teritori-whitepaper/",
+        "github" : "https://github.com/teritori",
+        "blog" : "https://teritori.com/blog",
+        "medium": "https://medium.com/teritori",
+        "twitter" : "https://twitter.com/teritorinetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/teritori"
+    },
+    "forum": {
+        "main": "https://app.teritori.com/feed",
+        "governance": "https://app.teritori.com/governance"
+    },
+    "description" : {
+        "ko" : "Teritori는 웹3 커뮤니티들에게 플랫폼을 제공하기 위해 설계된 탈중앙화 멀티체인 생태계입니다.",
+        "en" : "Teritori is a decentralized multichain hub designed to provide an all-in-one experience for Web3 communities.",
+        "ja" : "Teritori はWeb3コミュニティにプラットフォームを提供するため設計された分散型マルチチェーンエコシステムです。"
+    }
+}

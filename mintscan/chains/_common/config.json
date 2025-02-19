@@ -1,0 +1,35 @@
+{
+  "akash": {
+    "legacyChainIds": ["akashnet-1"]
+  },
+  "cosmos": {
+    "legacyChainIds": ["cosmoshub-1", "cosmoshub-2", "cosmoshub-3"]
+  },
+  "evmos": {
+    "legacyChainIds": ["evmos_9001-1"]
+  },
+  "fetchai": {
+    "legacyChainIds": ["fetchhub-1", "fetchhub-2", "fetchhub-3"]
+  },
+  "finschia": {
+    "legacyChainIds": ["finschia-1"]
+  },
+  "gravity-bridge": {
+    "legacyChainIds": ["gravity-bridge-1", "gravity-bridge-2"]
+  },
+  "kava": {
+    "legacyChainIds": ["kava-2", "kava-3", "kava-4", "kava-6", "kava-7", "kava-8", "kava-9"]
+  },
+  "ki-chain": {
+    "legacyChainIds": ["kichain-1"]
+  },
+  "passage": {
+    "legacyChainIds": ["passage-1"]
+  },
+  "sentinel": {
+    "legacyChainIds": ["sentinelhub-1"]
+  },
+  "shentu": {
+    "legacyChainIds": ["shentu-2", "shentu-2.1"]
+  }
+}

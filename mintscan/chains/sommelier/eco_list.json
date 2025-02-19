@@ -1,0 +1,25 @@
+[
+  {
+    "id": "finance",
+    "name": "Sommelier Finance",
+    "type": "Defi",
+    "description": "Vaults that predict and adapt to market conditions, 24/7 and fully on-chain.",
+    "thumbnail" : "finance",
+    "link": "https://app.sommelier.finance/"
+  },
+  {
+    "id": "stride",
+    "name": "Stride",
+    "type": "Defi",
+    "description": "Liquid staking for the Cosmos. Enables you to transfer, trade, and borrow against your tokens - without missing any staking rewards.",
+    "thumbnail" : "stride",
+    "link": "https://app.stride.zone/?chain=SOMM",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
+    }
+  }
+  
+]

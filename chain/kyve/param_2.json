@@ -1,0 +1,83 @@
+{
+    "chain_id_cosmos" : "kyve-1",
+    "chain_name": "Kyve",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kyve/resource/chain_kyve.png",
+    "main_asset_denom" : "ukyve",
+    "main_asset_symbol" : "KYVE",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kyve/asset/kyve.png",
+    "bech_account_prefix" : "kyve",
+    "bech_validator_prefix" : "kyvevaloper",
+    "origin_genesis_time" : "2023-03-14T14:03:14Z",
+    "api_name" : "kyve",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.02ukyve"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "kyve-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "MMS",
+            "url": "grpc-kyve.mms.team:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "kyve",
+            "url": "https://api-eu-1.kyve.network/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://kyve-api.lavenderfive.com/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-kyve.ecostake.com/"
+        },
+        {
+            "provider": "Imperator.co",
+            "url": "https://lcd-kyve.imperator.co/"
+        }
+    ],
+    "explorer" : {
+        "name": "Guru",
+        "url": "https://kyve.explorers.guru/",
+        "account": "https://kyve.explorers.guru/account/${address}",
+        "tx": "https://kyve.explorers.guru/transaction/${hash}",
+        "proposal": "https://kyve.explorers.guru/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://www.kyve.network/",
+        "docs": "https://docs.kyve.network",
+        "github" : "https://github.com/KYVENetwork",
+        "blog" : "https://blog.kyve.network",
+        "medium": "https://blog.kyve.network",
+        "twitter" : "https://twitter.com/KYVENetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/kyve-network"
+    },
+    "description" : {
+        "ko" : "KYVE 네트워크는 탈중앙화된 데이터 레이크 솔루션을 제공하는 Cosmos SDK 기반 블록체인입니다.",
+        "en" : "KYVE is a Cosmos SDK-based network that provides a decentralized data lake solution.",
+        "ja" : "KYVEネットワークは、脱中央化されたデータレイクソリューションを提供するCosmos SDKベースのブロックチェーンです。"
+    }
+}

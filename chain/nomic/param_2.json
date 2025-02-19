@@ -1,0 +1,61 @@
+{
+    "chain_id_cosmos": "nomic-stakenet-3",
+    "chain_name": "Nomic",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nomic/resource/chain_nomic.png",
+    "main_asset_denom": "unom",
+    "main_asset_symbol": "NOM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nomic/asset/nom.png",
+    "bech_account_prefix": "nomic",
+    "bech_validator_prefix": "nomicvaloper",
+    "origin_genesis_time": "2022-07-04T00:00:00Z",
+    "api_name": "nomic",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
+            "0.0unom"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000
+    },
+    "grpc_endpoint": [
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "nomic-io",
+            "url": "https://app.nomic.io:8443"
+        }
+    ],
+    "explorer": {
+        "name": "Bigdipper",
+        "url": "https://bigdipper.live/nomic",
+        "account": "https://bigdipper.live/nomic/accounts/${address}",
+        "tx": "https://bigdipper.live/nomic/transactions/${hash}",
+        "proposal": "https://bigdipper.live/nomic/proposals/${id}"
+    },
+    "about": {
+        "website": "https://nomic.io/",
+        "docs": "https://docs.nomic.io/",
+        "github": "https://github.com/nomic-io",
+        "twitter": "https://x.com/nomicbtc",
+        "coingecko" : ""
+    },
+    "description": {
+        "en": "Nomic is a layer-1 blockchain that acts as a decentralized, non-custodial bridge between Bitcoin and the Cosmos ecosystem, allowing users to utilize Bitcoin (BTC) on various DeFi protocols in the Cosmos ecosystem.",
+        "ko": "Nomic은 비트코인과 코스모스 생태계를 연결하는 탈중앙화된 비수탁형 브릿지 역할을 하는 레이어-1 블록체인입니다. 이를 통해 사용자는 비트코인(BTC)을 코스모스 생태계의 다양한 디파이(DeFi) 프로토콜에서 활용할 수 있습니다.",
+        "ja": "ノミックは、ビットコインとコスモスエコシステムを結ぶ脱中央化された非受託型ブリッジとして機能するレイヤー1ブロックチェーンです。これにより、ユーザーはビットコイン（BTC）をコスモスエコシステムのさまざまなディファイ（DeFi）プロトコルで利用できます。"
+    }
+}
+

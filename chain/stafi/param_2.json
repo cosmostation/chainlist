@@ -1,0 +1,97 @@
+{
+    "chain_id_cosmos" : "stafihub-1",
+    "chain_name": "Stafi",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stafi/resource/chain_stafi.png",
+    "main_asset_denom" : "ufis",
+    "main_asset_symbol" : "FIS",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stafi/asset/fis.png",
+    "bech_account_prefix" : "stafi",
+    "bech_validator_prefix" : "stafivaloper",
+    "origin_genesis_time" : "2022-08-17T13:00:00Z",
+    "api_name" : "stafi",
+    "is_stake_enabled" : false,
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.01ufis",
+            "0.025ufis"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-stafi.cosmostation.io:443"
+        },
+        {
+            "provider": "StaFiHub",
+            "url": "public-grpc-rpc1.stafihub.io:443"
+        },
+        {
+            "provider": "StaFiHub",
+            "url": "public-grpc-rpc2.stafihub.io:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.stafihub.nodestake.top:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-stafi.cosmostation.io/"
+        },
+        {
+            "provider": "StaFiHub",
+            "url": "https://public-rest-rpc1.stafihub.io/"
+        },
+        {
+            "provider": "StaFiHub",
+            "url": "https://public-rest-rpc2.stafihub.io/"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.stafihub.nodestake.top/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/stafi/",
+        "account": "https://www.mintscan.io/stafi/address/${address}",
+        "tx": "https://www.mintscan.io/stafi/tx/${hash}",
+        "proposal": "https://www.mintscan.io/stafi/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.stafihub.io/",
+        "docs": "https://docs.stafi.io/",
+        "github" : "https://github.com/stafihub/stafihub",
+        "medium": "https://stafi-protocol.medium.com/",
+        "twitter" : "https://twitter.com/StaFiHub_",
+        "coingecko" : "https://www.coingecko.com/en/coins/stafi"
+    },
+    "forum": {
+        "main": "https://commonwealth.im/stafi",
+        "governance": "https://commonwealth.im/stafi/discussions"
+    },
+    "description" : {
+        "ko" : "StaFi Hub 는 크로스체인 리퀴드 스테이킹을 위해 설계된 Cosmos SDK 기반 블록체인 네트워크입니다.",
+        "en" : "StaFi Hub is a sovereign Cosmos SDK based blockchain designed for cross-chain liquid staking.",
+        "ja" : "StaFi Hubはクロスチェーンリキッドステーキングのために設計されたCosmos SDKベースのブロックチェーンネットワークです。"
+    }
+}

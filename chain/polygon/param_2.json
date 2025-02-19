@@ -1,0 +1,70 @@
+{
+    "chain_id_evm" : "0x89",
+    "chain_name": "Polygon",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/resource/chain_polygon.png",
+    "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "main_asset_symbol" : "MATIC",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/matic.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "MATIC",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/matic.png",
+    "origin_genesis_time" : "2020-05-30T04:30:00Z",
+    "is_support_mobile_wallet": true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Polygon",
+            "url": "https://polygon-rpc.com"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/polygon"
+        },
+        {
+            "provider": "OnFinality",
+            "url": "https://polygon.api.onfinality.io/public"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://polygon.drpc.org"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://polygon-bor-rpc.publicnode.com"
+        },
+        {
+            "provider": "Quiknode",
+            "url": "https://rpc-mainnet.matic.quiknode.pro"
+        }
+    ],
+    "explorer" : {
+        "name": "Polygonscan",
+        "url": "https://polygonscan.com/",
+        "account": "https://polygonscan.com/address/${address}",
+        "tx": "https://polygonscan.com/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://polygon.technology/",
+        "docs": "https://docs.polygon.technology/",
+        "github" : "https://github.com/maticnetwork/",
+        "blog" : "https://polygon.technology/blog",
+        "medium": "",
+        "twitter" : "https://twitter.com/0xPolygon",
+        "discord" : "https://discord.com/invite/0xPolygon",
+        "coingecko" : "https://www.coingecko.com/en/coins/polygon"
+    },
+    "description" : {
+        "ko" : "Polygon(이전 Matic Network)은 Ethereum 확장 및 인프라 개발을 위한 플랫폼입니다. 핵심 구성 요소는 다양한 유형의 애플리케이션 구축을 지원하는 유연한 모듈식 프레임워크인 Polygon SDK입니다.",
+        "en" : "Polygon (Previously Matic Network) is the first well-structured, easy-to-use platform for Ethereum scaling and infrastructure development. Its core component is Polygon SDK, a modular, flexible framework that supports building multiple types of applications.",
+        "ja" : "Polygon（旧Matic Network）は、Ethereumの拡張とインフラストラクチャの開発のためのプラットフォームです。 コアコンポーネントは、さまざまな種類のアプリケーションの構築をサポートする柔軟なモジュール式フレームワークであるPolygon SDKです。"
+    }
+}

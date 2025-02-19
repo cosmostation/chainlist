@@ -1,0 +1,33 @@
+{
+    "chain_name": "Vidulum",
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.005uvdl"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Notional",
+            "url": "grpc-vidulum-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Decloud Nodes Lab",
+            "url": "vidulum.declab.pro:9013"
+        }
+    ],
+    "about" : {
+        "website" : "https://vidulum.app/"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

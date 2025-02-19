@@ -1,0 +1,54 @@
+{
+    "chain_id_evm" : "0x2019",
+    "chain_name": "Kaia",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/resource/chain_kaia.png",
+    "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "main_asset_symbol" : "KLAY",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/klay.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "KLAY",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/klay.png",
+    "origin_genesis_time" : "2019-06-24T09:45:05Z",
+    "is_support_mobile_wallet": true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simul_gas_multiply" : 1.3
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Kaia",
+            "url": "https://public-en.node.kaia.io"
+        },
+        {
+            "provider": "Kaia",
+            "url": "https://archive-en.node.kaia.io"
+        }
+    ],
+    "explorer" : {
+        "name": "Kaiascan",
+        "url": "https://kaiascan.io/",
+        "account": "https://kaiascan.io/account/${address}",
+        "tx": "https://kaiascan.io/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://www.kaia.io/",
+        "docs": "https://docs.kaia.io/",
+        "github" : "https://github.com/kaiachain",
+        "blog" : "https://medium.com/kaiachain",
+        "medium": "",
+        "twitter" : "https://x.com/klaytn_official",
+        "discord" : "https://discord.com/invite/kaiachain",
+        "coingecko" : "https://www.coingecko.com/en/coins/klaytn"
+    },
+    "description" : {
+        "ko" : "Kaia는 엔터프라이즈급 신뢰성과 성능을 위해 최적화된 BFT 기반의 공공 블록체인으로, 확장성, 보안, 그리고 강력한 생태계를 갖추고 있습니다.",
+        "en" : "Kaia is a BFT-based public blockchain, optimized for enterprise-grade reliability and performance, with a focus on scalability, security, and a strong ecosystem.",
+        "ja" : "Kaiaは、エンタープライズ向けの信頼性とパフォーマンスを最適化したBFTベースのパブリックブロックチェーンで、拡張性、セキュリティ、強力なエコシステムを備えています。"
+    }
+}

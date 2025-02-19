@@ -1,0 +1,90 @@
+{
+    "chain_id_cosmos": "stride-1",
+    "chain_name": "Stride",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/resource/chain_stride.png",
+    "main_asset_denom": "ustrd",
+    "main_asset_symbol": "STRD",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/strd.png",
+    "bech_account_prefix": "stride",
+    "bech_validator_prefix": "stridevaloper",
+    "origin_genesis_time": "2022-09-04T19:00:00Z",
+    "api_name": "stride",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
+            "0.0005ustrd,0.001stuosmo,0.0001stuatom,20000000000staevmos,500000000stinj,0.01stutia,15000000000stadydx,15000000000stadym,0.01stusaga,0.001ibc/D24B4564BCD51D3D02D9987D92571EAC5915676A9BD6D9B0C1D0254CB8A5EA34,0.0001ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2,0.01ibc/BF3B4F53F3694B66E13C23107C84B6485BD2B96296BB7EC680EA77BBA75B4801,20000000000ibc/4B322204B4F59D770680FE4D7A565DDC3F37BFF035474B717476C66A4F83DD72,500000000ibc/A7454562FF29FE068F42F9DE4805ABEF54F599D1720B345D6518D9B5C64EA6D2,15000000000ibc/561C70B20188A047BFDE6F9946BDDC5D8AC172B9BE04FF868DFABF819E5A9CCE,15000000000ibc/E1C22332C083574F3418481359733BA8887D171E76C80AD9237422AEABB66018,0.01ibc/520D9C4509027DE66C737A1D6A6021915A3071E30DBA8F758B46532B060D7AA5"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-stride.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "stride-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-stride.cosmostation.io/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://stride-api.polkachu.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-stride.cosmos-spaces.cloud/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://stride-api.lavenderfive.com/"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://stride.api.kjnodes.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/stride/",
+        "account": "https://www.mintscan.io/stride/address/${address}",
+        "tx": "https://www.mintscan.io/stride/tx/${hash}",
+        "proposal": "https://www.mintscan.io/stride/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.stride.zone/",
+        "docs": "https://docs.stride.zone",
+        "github" : "https://github.com/Stride-Labs/stride",
+        "blog" : "https://stride.zone/blog",
+        "twitter" : "https://twitter.com/stride_zone",
+        "coingecko" : "https://www.coingecko.com/en/coins/stride"
+    },
+    "forum": {
+        "main": "https://www.reddit.com/r/Stride_Zone"
+    },
+    "description" : {
+        "ko" : "Stride 는 stToken의 발행을 통해 스테이킹된 자산을 유동화시키는 유동성 스테이킹 프로토콜입니다.",
+        "en" : "Stride is a liquid staking protocol that unlocks the liquidity for staked assets in the IBC ecosystem.",
+        "ja" : "StrideはstTokenの発行を通じてステーキングされた資産を流動化させる流動性ステーキングプロトコルです。"
+    }
+}

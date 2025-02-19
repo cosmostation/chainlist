@@ -1,0 +1,71 @@
+{
+    "chain_id_evm" : "0x38",
+    "chain_name": "BNB Smart Chain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/resource/chain_bnb-smart-chain.png",
+    "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "main_asset_symbol" : "BNB",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/bnb.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "BNB",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/bnb.png",
+    "origin_genesis_time" : "2020-08-29T03:24:08Z",
+    "api_name" : "bnb-smart-chain",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : true,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Binance",
+            "url": "https://bsc-dataseed.binance.org"
+        },
+        {
+            "provider": "BSC",
+            "url": "https://bsc-dataseed4.defibit.io"
+        },
+        {
+            "provider": "BSC",
+            "url": "https://bsc-dataseed1.bnbchain.org"
+        },
+        {
+            "provider": "BSC",
+            "url": "https://bsc-dataseed3.bnbchain.org"
+        },
+        {
+            "provider": "BSC",
+            "url": "https://bsc-dataseed1.ninicoin.io"
+        },
+        {
+            "provider": "Nodereal",
+            "url": "https://binance.nodereal.io"
+        },
+        {
+            "provider": "Pokt",
+            "url": "https://bsc-pokt.nodies.app"
+        }
+    ],
+    "explorer" : {
+        "name": "Bscscan",
+        "url": "https://bscscan.com/",
+        "account": "https://bscscan.com/address/${address}",
+        "tx": "https://bscscan.com/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://www.bnbchain.org/en/bnb-smart-chain",
+        "docs": "https://docs.bnbchain.org/docs/learn/intro/",
+        "github" : "https://github.com/bnb-chain",
+        "blog" : "https://www.bnbchain.org/en/blog",
+        "medium": "",
+        "twitter" : "https://twitter.com/BNBCHAIN",
+        "discord" : "https://discord.com/invite/bnbchain",
+        "coingecko" : "https://www.coingecko.com/en/coins/bnb"
+    },
+    "description" : {
+        "ko" : "BNB Smart Chain은 범용 스마트 계약 실행이 가능한 EVM(Ethereum Virtual Machine) 호환 블록체인 플랫폼입니다.",
+        "en" : "BNB Smart Chain is an Ethereum Virtual Machine (EVM) compatible blockchain platform capable of general purpose smart contract execution.",
+        "ja" : "BNB Smart Chainは、汎用スマート契約を実行できるEVM（Ethereum Virtual Machine）互換ブロックチェーンプラットフォームです。"
+    }
+}
