@@ -68,7 +68,7 @@
         "description": "PSTAKE Liquid-Staked XPRT",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/asset/stkxprt.png",
-        "coinGeckoId": "stkxprt"
+        "coinGeckoId": "persistence-staked-xprt"
     },
     {
         "type": "ibc",
