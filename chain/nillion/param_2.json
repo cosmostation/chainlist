@@ -33,16 +33,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-nillion.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-nillion.cosmostation.io/"
-        }
     ],
     "explorer" : {
         "name": "Mintscan",
