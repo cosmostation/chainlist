@@ -13,6 +13,7 @@
     "is_support_mobile_wallet": true,
     "is_support_moblie_dapp" : true,
     "is_support_extension_wallet": true,
+    "is_support_cw20" : true,
     "tx_timeout_padding" : 100,
     "chain_type": [
         "cosmos"
