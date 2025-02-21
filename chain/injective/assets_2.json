@@ -657,6 +657,98 @@
         }
     },
     {
+        "type": "ibc",
+        "denom": "ibc/00BF66BAB34873B07FB9EEEBCFACEA11FB4BB348718862AA7782D6DECC1F44C8",
+        "name" : "Xion",
+        "symbol": "XION",
+        "description": "Xion Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/asset/xion.png",
+        "coinGeckoId": "xion-2",
+        "ibc_info" : {
+            "path": "xion>injective",
+            "client" : {
+                "channel": "channel-387",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-4",
+                "port": "transfer",
+                "chain": "xion",
+                "denom": "uxion"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/AF921F0874131B56897A11AA3F33D5B29CD9C147A1D7C37FE8D918CB420956B2",
+        "name" : "Saga",
+        "symbol": "SAGA",
+        "description": "Saga Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saga/asset/saga.png",
+        "coinGeckoId": "saga-2",
+        "ibc_info" : {
+            "path": "saga>injective",
+            "client" : {
+                "channel": "channel-261",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "saga",
+                "denom": "usaga"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C1D3666F27EA64209584F18BC79648E0C1783BB6EEC04A8060E4A8E9881C841B",
+        "name" : "fetch-ai",
+        "symbol": "FET",
+        "description": "Fetch Hub Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/asset/fet.png",
+        "coinGeckoId": "fetch-ai",
+        "ibc_info" : {
+            "path": "fetchai>injective",
+            "client" : {
+                "channel": "channel-283",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-33",
+                "port": "transfer",
+                "chain": "fetchai",
+                "denom": "afet"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/775AB5A9D31074F245BB7864B7031AC7BDC9C6C0FD64A72528A8D07203CD71F3",
+        "name" : "Mantra",
+        "symbol": "OM",
+        "description": "MANTRA Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/om.png",
+        "coinGeckoId": "mantra-dao",
+        "ibc_info" : {
+            "path": "mantra>injective",
+            "client" : {
+                "channel": "channel-363",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "mantra",
+                "denom": "afet"
+            }
+        }
+    },
+    {
         "type": "native",
         "denom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ",
         "name" : "Ninja Blaze Token",
