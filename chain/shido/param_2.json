@@ -51,7 +51,11 @@
     "lcd_endpoint" : [
         {
             "provider": "Shido",
-            "url": "https://swagger.shidoscan.com/"
+            "url": "https://api.shidoscan.net/"
+        },
+        {
+            "provider": "Zeeve",
+            "url": "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/"
         },
         {
             "provider": "Indonode",
@@ -59,7 +63,7 @@
         },
         {
             "provider": "MavNode",
-            "url": "https://api-maverick.mavnode.io/"
+            "url": "https://rest.mavnode.io/"
         },
         {
             "provider": "KENSEI",
@@ -69,18 +73,22 @@
     "evm_rpc_endpoint" : [
         {
             "provider": "Shido",
-            "url": "https://rpc-nodes.shidoscan.com"
+            "url": "https://evm.shidoscan.net/"
         },
         {
-            "provider": "Shido",
-            "url": "https://rpc-delta-nodes.shidoscan.com"
+            "provider": "Zeeve",
+            "url": "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/rpc"
+        },
+        {
+            "provider": "MavNode",
+            "url": "https://evm.mavnode.io/"
         }
     ],
     "explorer" : {
         "name": "Shidoscan",
-        "url": "https://shidoscan.com",
-        "account": "https://shidoscan.com/address/${address}",
-        "tx": "https://shidoscan.com/tx/${hash}",
+        "url": "https://shidoscan.net",
+        "account": "https://shidoscan.net/address/${address}",
+        "tx": "https://shidoscan.net/tx/${hash}",
         "proposal": ""
     },
     "about" : {
