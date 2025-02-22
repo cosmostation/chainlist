@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "1inch",
     "description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/1inch.png",
@@ -24,6 +25,7 @@
     "type": "DEX"
   },
   {
+    "id": 2,
     "name": "Osmosis Zone",
     "description": "Interchain Liquidity Lab - Swap, earn and build on the leading decentralized Cosmos exchange.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/osmosiszone.png",
@@ -32,13 +34,51 @@
         "osmosis"
     ],
     "socials": {
-      "github": "",
-      "telegram": "",
-      "twitter": "",
-      "discord": "",
-      "reddit": ""
+      "github": "https://github.com/osmosis-labs/osmosis",
+      "telegram": "https://t.me/osmosis_chat",
+      "twitter": "https://x.com/osmosiszone",
+      "discord": "https://discord.com/invite/osmosis",
+      "reddit": "https://www.reddit.com/r/OsmosisLab/"
     },
     "is_default": false,
+    "type": "Defi"
+  },
+  {
+    "id": 3,
+    "name": "Drop Money",
+    "description": "Drop is a DeFi platform focused on providing liquidity across multiple blockchain networks, enhancing interoperability and transaction efficiency.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/dropmoney.png",
+    "link": "https://app.drop.money/dashboard?referral_code=dropmaga",
+    "chains": [
+        "cosmos", 
+        "neutron"
+    ],
+    "socials": {
+      "github": "https://github.com/hadronlabs-org/drop-contracts",
+      "telegram": "https://t.me/drop_protocol",
+      "twitter": "https://x.com/Dropdotmoney",
+      "discord": "https://discord.com/invite/dropdotmoney"
+    },
+    "type": "DeFi"
+  },
+  {
+    "id": 4,
+    "name": "Uniswap",
+    "description": "Uniswap V3 is a noncustodial automated market maker implemented for the Ethereum Virtual Machine. It provides increased capital efficiency, fine-tuned control of liquidity provider, and improve accuracy and convenience of its price oracle.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/uniswap.png",
+    "link": "https://app.uniswap.org/swap",
+    "chains": [
+        "ethereum", 
+        "arbitrum", 
+        "avalanche",
+        "base",
+        "optimism"
+    ],
+    "socials": {
+      "github": "https://github.com/Uniswap",
+      "twitter": "https://x.com/Uniswap",
+      "discord": "https://discord.com/invite/uniswap"
+    },
     "type": "Defi"
   }
 ]
