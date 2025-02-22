@@ -4,7 +4,7 @@
     "name": "1inch",
     "description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/1inch.png",
-    "link": "https://app.1inch.io/",
+    "link": "https://app.1inch.io",
     "chains": [
         "ethereum", 
         "arbitrum", 
@@ -29,7 +29,7 @@
     "name": "Osmosis Zone",
     "description": "Interchain Liquidity Lab - Swap, earn and build on the leading decentralized Cosmos exchange.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/osmosiszone.png",
-    "link": "https://app.osmosis.zone/",
+    "link": "https://app.osmosis.zone",
     "chains": [
         "osmosis"
     ],
@@ -47,7 +47,7 @@
     "name": "Drop Money",
     "description": "Drop is a DeFi platform focused on providing liquidity across multiple blockchain networks, enhancing interoperability and transaction efficiency.",
     "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/dropmoney.png",
-    "link": "https://app.drop.money/dashboard?referral_code=dropmaga",
+    "link": "https://app.drop.money",
     "chains": [
         "cosmos", 
         "neutron"
