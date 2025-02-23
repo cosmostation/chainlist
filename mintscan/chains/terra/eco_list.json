@@ -17,7 +17,7 @@
   {
     "name": "Skip Go",
     "type": "DeFi",
-    "description": "Powerful cross-chain DEX aggregator for Cosmos. Recommended wallets: Leap or Keplr",
+    "description": "Powerful CCTP-enabled DEX aggregator for Cosmos. Recommended wallets: Leap or Keplr",
     "status": "open",
     "thumbnail" : "skip-go",
     "link": "https://go.skip.build/",
@@ -31,7 +31,7 @@
   {
     "name": "Stargate Finance",
     "type": "Transport",
-    "description": "Transfer USDT/USDC from anywhere to SEI. Then use Skip Go to swap to LUNA. (app.sei.io to link SEI address first)",
+    "description": "Transfer USDT/USDC from anywhere to Sei. Then use Skip Go to swap to LUNA. (app.sei.io to link Sei address for IBC)",
     "status": "open",
     "thumbnail" : "stargate",
     "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=sei&dstToken=0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
