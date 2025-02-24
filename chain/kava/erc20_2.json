@@ -13,9 +13,9 @@
     {
         "type": "erc20",
         "contract": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
-        "name" : "Tether USDt (Erc20)",
-        "symbol": "USDt",
-        "description": "",
+        "name" : "Tether USD (Erc20)",
+        "symbol": "USDT",
+        "description": "The ERC20 supply of Cosmos USDT on Kava EVM. Go to app.kava.io/transfer to convert to IBC USDT.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
         "coinGeckoId": "tether",

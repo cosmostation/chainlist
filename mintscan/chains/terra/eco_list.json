@@ -17,15 +17,30 @@
   {
     "name": "Skip Go",
     "type": "DeFi",
-    "description": "Cross-chain DEX aggregator for swapping LUNA to USDC/EURe (Noble), USDT (Kava) and much more.",
+    "description": "Powerful CCTP-enabled DEX aggregator for Cosmos. Recommended wallets: Leap or Keplr",
     "status": "open",
-    "thumbnail" : "skip-go",
+    "thumbnail" : "skip-go2",
     "link": "https://go.skip.build/",
     "social": {
       "webSite": "https://www.skip.build/",
       "twitter": "https://x.com/SkipProtocol",
       "github": "https://github.com/skip-mev",
       "docs": "https://docs.skip.build/go"
+    }
+  },
+  {
+    "name": "Stargate Finance",
+    "type": "Transport",
+    "description": "Transfer USDT/USDC from anywhere to Sei. Then use Skip Go to swap to LUNA. (app.sei.io to link Sei address for IBC)",
+    "status": "open",
+    "thumbnail" : "stargate2",
+    "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=sei&dstToken=0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+    "social": {
+      "webSite": "https://app.sei.io/",
+      "twitter": "https://x.com/StargateFinance/status/1821985963901645284",
+      "medium": "https://medium.com/stargate-official",
+      "github": "https://github.com/stargate-protocol",
+      "docs": "https://www.kava.io/news/how-to-bridge-usdt-with-stargate"
     }
   },
   {
@@ -141,35 +156,6 @@
     }
   },
   {
-    "name": "Noble Express",
-    "type": "Transport",
-    "description": "Transfer native USDC from Solana/EVM to Terra with CCTP tech.",
-    "status": "open",
-    "thumbnail" : "noble-express",
-    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
-    "social": {
-      "webSite": "https://express.noble.xyz/",
-      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
-      "github": "https://github.com/noble-assets",
-      "docs": "https://docs.noble.xyz/cctp"
-    }
-  },
-  {
-    "name": "Stargate Finance",
-    "type": "Transport",
-    "description": "Transfer native USDT from EVM to Kava. Then go to app.kava.io/transfer and send to Terra.",
-    "status": "open",
-    "thumbnail" : "stargate",
-    "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
-    "social": {
-      "webSite": "https://app.kava.io/transfer",
-      "twitter": "https://x.com/stargatefinance?lang=en",
-      "medium": "https://medium.com/stargate-official",
-      "github": "https://github.com/stargate-protocol",
-      "docs": "https://www.kava.io/news/how-to-bridge-usdt-with-stargate"
-    }
-  },
-  {
     "name": "Monerium",
     "type": "Transport",
     "description": "Mint/burn EURe via instant SEPA transfers to your personal monerium IBAN.",
@@ -195,6 +181,20 @@
       "twitter": "https://twitter.com/portalbridge_?lang=en",
       "github": "https://github.com/wormhole-foundation/wormhole",
       "docs": "https://wormhole.com/docs/"
+    }
+  },
+  {
+    "name": "Noble Express",
+    "type": "Transport",
+    "description": "Alternative to Skip for native CCTP transfers for USDC.",
+    "status": "open",
+    "thumbnail" : "noble-express",
+    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
+    "social": {
+      "webSite": "https://express.noble.xyz/",
+      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
+      "github": "https://github.com/noble-assets",
+      "docs": "https://docs.noble.xyz/cctp"
     }
   },
   {
