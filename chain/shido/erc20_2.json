@@ -90,5 +90,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shrimp.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xe550Bde2F0898552B38a41635d7a8DDB1Fd81276",
+        "name" : "Shido Dex",
+        "symbol": "SHDX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shdx.png",
+        "coinGeckoId": ""
     }
 ]
