@@ -34,6 +34,17 @@
     },
     {
         "type": "erc20",
+        "contract": "0x2CeC7f1ac87F5345ced3D6c74BBB61bfAE231Ffb",
+        "name" : "Stride BGT",
+        "symbol": "stBGT",
+        "description": "Stride Liquid Staked BGT",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/stbgt.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
         "contract": "0x549943e04f40284185054145c6E4e9568C1D3241",
         "name" : "Bridged USDC (Stargate)",
         "symbol": "USDC.e",
