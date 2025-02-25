@@ -1,0 +1,127 @@
+[
+    {
+        "type": "native",
+        "denom": "ucmdx",
+        "name" : "Comdex",
+        "symbol": "CMDX",
+        "description": "Comdex Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/asset/cmdx.png",
+        "coinGeckoId": "comdex",
+        "color": "#FE4350"
+    },
+    {
+        "type": "native",
+        "denom": "uharbor",
+        "name" : "Harbor",
+        "symbol": "HARBOR",
+        "description": "Governance Token of Harbor protocol on Comdex network",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/asset/harbor.png",
+        "coinGeckoId": "harbor-2",
+        "color": "#645ca4"
+    },
+    {
+        "type": "native",
+        "denom": "ucmst",
+        "name" : "CMST",
+        "symbol": "CMST",
+        "description": "Stable Token of Harbor protocol on Comdex network",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/asset/cmst.png",
+        "coinGeckoId": "composite",
+        "color": "#040404"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/167E3D88D71B7D2F6308D3EF93FC3DD51932B2D9672D72B71418F61CBC5F5717",
+        "name" : "Juno",
+        "symbol": "JUNO",
+        "description": "Juno Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+        "coinGeckoId": "juno-network",
+        "ibc_info" : {
+            "path": "juno>comdex",
+            "client" : {
+                "channel": "channel-18",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "juno",
+                "denom": "ujuno"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>comdex",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-87",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/961FA3E54F5DCCA639F37A7C45F7BBE41815579EF1513B5AFBEFCFEB8F256352",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>comdex",
+            "client" : {
+                "channel": "channel-37",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-400",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E1616E7C19EA474C565737709A628D6F8A23FF9D3E9A7A6871306CF5E0A5341E",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>comdex",
+            "client" : {
+                "channel": "channel-34",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-31",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    }
+]

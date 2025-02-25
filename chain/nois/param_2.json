@@ -1,0 +1,38 @@
+{
+    "chain_name": "Nois",
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.0unois",
+            "0.05unois"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "nysa.network",
+            "url": "nois-grpc.nysa.network"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "nois-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "silent",
+            "url": "grpc.nois.silentvalidator.com:443"
+        }
+    ],
+    "about" : {
+        "website" : "https://nois.network"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

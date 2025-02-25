@@ -1,0 +1,58 @@
+{
+    "chain_id_cosmos" : "mocha-4",
+    "chain_name": "Celestia Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia-testnet/resource/chain_celestia-testnet.png",
+    "main_asset_denom" : "utia",
+    "main_asset_symbol" : "TIA",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia-testnet/asset/tia.png",
+    "bechAccountPrefix" : "celestia",
+    "bechValidatorPrefix" : "celestiavaloper",
+    "api_name" : "celestia-testnet",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.002utia"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/celestia-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/celestia-testnet/",
+        "account": "https://www.mintscan.io/celestia-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/celestia-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/celestia-testnet/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://celestia.org/",
+        "docs": "https://docs.celestia.org",
+        "github" : "https://github.com/celestiaorg",
+        "blog" : "https://blog.celestia.org/",
+        "medium": "https://blog.celestia.org",
+        "twitter" : "https://twitter.com/CelestiaOrg",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Celestia 는 누구나 손쉽게 블록체인을 배포할 수 있는 모듈형 블록체인 네트워크입니다.",
+        "en" : "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
+        "ja" : "Celestiaは、誰もが簡単にブロックチェーンを展開できるモジュラーなブロックチェーンネットワークです。"
+    }
+}

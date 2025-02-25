@@ -1,0 +1,80 @@
+{
+    "chain_id_cosmos" : "noble-1",
+    "chain_name": "Noble",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/resource/chain_noble.png",
+    "main_asset_denom": "ustake",
+    "main_asset_symbol" : "NOBLE",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/stake.png",
+    "bech_account_prefix" : "noble",
+    "bech_validator_prefix" : "noblevaloper",
+    "origin_genesis_time" : "2023-03-27T16:00:00Z",
+    "api_name" : "noble",
+    "is_stake_enabled" : false,
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.1uusdc,0.01ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-noble.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "noble-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-noble.cosmostation.io/"
+        },
+        {
+            "provider": "polkachu",
+            "url": "https://noble-api.polkachu.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://noble-api.lavenderfive.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/noble/",
+        "account": "https://www.mintscan.io/noble/address/${address}",
+        "tx": "https://www.mintscan.io/noble/tx/${hash}",
+        "proposal": "https://www.mintscan.io/noble/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://nobleassets.xyz/",
+        "docs": "https://docs.nobleassets.xyz/",
+        "github" : "https://github.com/strangelove-ventures/noble",
+        "blog" : "https://mirror.xyz/nobleassets.eth",
+        "twitter" : "https://twitter.com/noble_xyz",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Noble은 IBC 생태계 상 네이티브 토큰 발행을 위해 설계된 Cosmos SDK 기반 블록체인입니다.",
+        "en" : "Noble is a Cosmos chain bringing native asset issuance to the IBC ecosystem.",
+        "ja" : "NobleはIBC生態系上、ネイティブトークン発行のために設計されたCosmosSDKベースのブロックチェーンです。"
+    }
+}

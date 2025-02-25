@@ -1,0 +1,683 @@
+[
+    {
+        "type": "native",
+        "denom": "uluna",
+        "name" : "Luna",
+        "symbol": "LUNA",
+        "description": "The native staking token of Terra Phoenix.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
+        "coinGeckoId": "terra-luna-2",
+        "color": "#1E75EE"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
+        "name" : "USD Coin (Axelar)",
+        "symbol": "USDC.axl",
+        "description": "Wrapped USDC imported to Cosmos from Ethereum via Axelar.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>terra",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/CBF67A2BCF6CAE343FDF251E510C8E18C361FC02B23430C121116E0811835DEF",
+        "name" : "Tether USD (Axelar)",
+        "symbol": "USDT.axl",
+        "description": "Wrapped USDT imported to Cosmos from Ethereum via Axelar.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg",
+        "coinGeckoId": "axelar-usdt",
+        "ibc_info" : {
+            "path": "ethereum>axelar>terra",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7A6428206CBDE7B47F78A7A8CF4587CDCFD2B3BF06DD0352CEF678E88F1A501D",
+        "name" : "Cerberus",
+        "symbol": "CRBRUS",
+        "description": "Cerberus Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cerberus/asset/crbrus.png",
+        "coinGeckoId": "cerberus-2",
+        "ibc_info" : {
+            "path": "cerberus>osmosis>terra",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-251",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+        "name" : "USD Coin",
+        "symbol": "USDC",
+        "description": "USDC - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>terra",
+            "client" : {
+                "channel": "channel-253",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-30",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash",
+        "name" : "ashLUNA",
+        "symbol": "ashLUNA",
+        "description": "LUNA burn derivative",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.ash.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra1j35ta0llaxcf55auv2cjqau5a7aee6g8fz7md7my7005cvh23jfsaw83dy/ampWHALEt",
+        "name" : "ERIS Alliance Staked ampWHALE",
+        "symbol": "ampWHALEt",
+        "description": "ERIS Alliance Staked ampWHALE on Terra",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/ampwhalet.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra10j3zrymfrkta2pxe0gklc79gu06tqyuy8c3kh6tqdsrrprsjqkrqzfl4df/boneWHALEt",
+        "name" : "ERIS Alliance Staked boneWHALE",
+        "symbol": "boneWHALEt",
+        "description": "ERIS Alliance Staked boneWHALE on Terra",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/bonewhalet.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra1vklefn7n6cchn0u962w3gaszr4vf52wjvd4y95t2sydwpmpdtszsqvk9wy/ampROAR",
+        "name" : "ERIS Amplified ROAR",
+        "symbol": "ampROAR",
+        "description": "ERIS Liquid Enterprise Staked ROAR",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/amproar.png",
+        "coinGeckoId": "",
+        "color": "#5b83c3"
+    },
+    {
+        "type": "native",
+        "denom": "factory/terra1dndhtdr2v7ca8rrn67chlqw3cl3xhm3m2uxls62vghcg3fsh5tpss5xmcu/MOAR",
+        "name" : "ERIS MOAR",
+        "symbol": "MOAR",
+        "description": "ERIS Liquid Alliance Staked ampROAR",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/moar.png",
+        "coinGeckoId": "",
+        "color": "#9363b3"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+        "name" : "Tether USD",
+        "symbol": "USDT",
+        "description": "USDT - directly minted on the Kava chain by the Tether Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "ibc_info" : {
+            "path": "kava>terra",
+            "client" : {
+                "channel": "channel-272",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-138",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "erc20/tether/usdt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/830107B6700EF8D76F5DB4B586C436A3D2A672939F93BDFC6543E12DD281453A",
+        "name" : "Kava",
+        "symbol": "KAVA",
+        "description": "Kava is a IBC/EVM Co-Chain through which USDT can be send to a CEX (or Stargate).",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
+        "coinGeckoId": "kava",
+        "ibc_info" : {
+            "path": "kava>terra",
+            "client" : {
+                "channel": "channel-272",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-138",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "ukava"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/792AAE6279F4709F66068E29A79E6F16BBC0A9B93561A91FC040606793E62D6B",
+        "name" : "Carbon",
+        "symbol": "SWTH",
+        "description": "The native governance token of Carbon, which hosts Demex: an omni-chain platform for trading perpetuals, spot, and lending/borrowing.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg",
+        "coinGeckoId": "switcheo",
+        "ibc_info" : {
+            "path": "carbon>terra",
+            "client" : {
+                "channel": "channel-36",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-12",
+                "port": "transfer",
+                "chain": "carbon",
+                "denom": "swth"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0E90026619DD296AD4EF9546396F292B465BAB6B5BE00ABD6162AA1CE8E68098",
+        "name" : "StaFi Staked SWTH",
+        "symbol": "rSWTH",
+        "description": "A liquid staking derivative of staked SWTH, powered by StaFi.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/rswth.svg",
+        "coinGeckoId": "stafi-staked-swth",
+        "ibc_info" : {
+            "path": "stafi>terra",
+            "client" : {
+                "channel": "channel-204",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-9",
+                "port": "transfer",
+                "chain": "stafi",
+                "denom": "urswth"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/08095CEDEA29977C9DD0CE9A48329FDA622C183359D5F90CF04CC4FF80CBE431",
+        "name" : "Stride LUNA",
+        "symbol": "stLUNA",
+        "description": "Stride LUNA is a liquid staking derivative of LUNA, powered by Stride Protocol.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stluna.png",
+        "ibc_info" : {
+            "path": "stride>terra",
+            "client" : {
+                "channel": "channel-46",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-52",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuluna"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+        "name" : "Monerium EURe",
+        "symbol": "EURe",
+        "description": "EURe is a Euro-backed stablecoin issued by Monerium on Noble.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/eure.png",
+        "coinGeckoId": "monerium-eur-money",
+        "ibc_info" : {
+            "path": "noble>terra",
+            "client" : {
+                "channel": "channel-253",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-30",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "ueure"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/36A02FFC4E74DF4F64305130C3DFA1B06BEAC775648927AA44467C76A77AB8DB",
+        "name" : "Whale",
+        "symbol": "WHALE",
+        "description": "The native token of Migaloo, a cosmwasm, permissionless blockchain designed to build decentralized applications with a focus on interchain liquidity solutions.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/whitewhale.png",
+        "coinGeckoId": "white-whale",
+        "ibc_info" : {
+            "path": "migaloo>terra",
+            "client" : {
+                "channel": "channel-86",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "uwhale"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B3F639855EE7478750CC8F82072307ED6E131A8EFF20345E1D136B50C4E5EC36",
+        "name" : "Amplified WHALE",
+        "symbol": "ampWHALE",
+        "description": "A liquid staking derivative of staked Whale, powered by Eris Protocol.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/ampwhale.png",
+        "coinGeckoId": "eris-amplified-whale",
+        "ibc_info" : {
+            "path": "migaloo>terra",
+            "client" : {
+                "channel": "channel-86",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/517E13F14A1245D4DE8CF467ADD4DA0058974CDCC880FA6AE536DBCA1D16D84E",
+        "name" : "BackBone Labs Staked WHALE",
+        "symbol": "bWHALE",
+        "description": "A liquid staking derivative of staked Whale, powered by BackBone Labs.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/bwhale.png",
+        "ibc_info" : {
+            "path": "migaloo>terra",
+            "client" : {
+                "channel": "channel-86",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/CF57A83CED6CEC7D706631B5DC53ABC21B7EDA7DF7490732B4361E6D5DD19C73",
+        "name" : "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin is a token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Osmosis community led.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
+        "coinGeckoId": "wrapped-bitcoin",
+        "ibc_info" : {
+            "path": "osmosis>terra",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-251",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/05D299885B07905B6886F554B39346EA6761246076A1120B1950049B92B922DD",
+        "name" : "Wrapped BTC (Axelar)",
+        "symbol": "WBTC.axl",
+        "description": "Wrapped Bitcoin imported to Cosmos from Ethereum via Axelar.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg",
+        "coinGeckoId": "axlwbtc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>terra",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "wbtc-satoshi"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
+        "name" : "Wrapped stETH",
+        "symbol": "wstETH",
+        "description": "Wrapped Lido Staked Ether, imported to Terra via Neutron and is considered the canonical version of stETH in the whole Cosmos.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
+        "coinGeckoId": "wrapped-steth",
+        "ibc_info" : {
+            "path": "ethereum>neutron>terra",
+            "client" : {
+                "channel": "channel-229",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BC8A77AFBD872FDC32A348D3FB10CC09277C266CFE52081DE341C7EC6752E674",
+        "name" : "Wrapped ETH (Axelar)",
+        "symbol": "WETH.axl",
+        "description": "Wrapped Ethereum imported to Cosmos via Axelar.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/eth.axl.svg",
+        "coinGeckoId": "axlweth",
+        "ibc_info" : {
+            "path": "ethereum>axelar>terra",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "weth-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "ATOM is the native cryptocurrency of the Cosmos Hub (Gaia), designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>terra",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-339",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/25BC59386BB65725F735EFC0C369BB717AA8B5DAD846EAF9CBF5D0F18F207211",
+        "name" : "Injective",
+        "symbol": "INJ",
+        "description": "The INJ token is the native governance token for the Injective chain.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+        "coinGeckoId": "injective-protocol",
+        "ibc_info" : {
+            "path": "injective>terra",
+            "client" : {
+                "channel": "channel-255",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-151",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "inj"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/223FF539430381ADAB3A66AC4822E253C3F845E9841F17FEEC207B3AA9F8D915",
+        "name" : "dATOM",
+        "symbol": "dATOM",
+        "description": "A liquid staking derivative of staked ATOM, powered by DROP on Neutron.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/datom.png",
+        "coinGeckoId": "drop-staked-atom",
+        "ibc_info" : {
+            "path": "neutron>terra",
+            "client" : {
+                "channel": "channel-229",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "The native token of Osmosis, running one of the largest DEX in Cosmos.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>terra",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-251",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5BDDCE0FEE672CB481C0FC7B82132B90CBCD5B5CF314934A8868D570F69756F8",
+        "name" : "Sei",
+        "symbol": "SEI",
+        "description": "Sei is a parallel IBC/EVM chain through which USDT/USDC can be transported in and out of Cosmos via Stargate Finance.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/sei.png",
+        "coinGeckoId": "sei-network",
+        "ibc_info" : {
+            "path": "sei>terra",
+            "client" : {
+                "channel": "channel-158",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "sei",
+                "denom": "usei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8D8A7F7253615E5F76CB6252A1E1BD921D5EDB7BBAAF8913FB1C77FF125D9995",
+        "name" : "Astroport token",
+        "symbol": "ASTRO",
+        "description": "The cross-chain governance token of Astroport, which now has its home base on Neutron.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/astro.png",
+        "coinGeckoId": "astroport-fi",
+        "ibc_info" : {
+            "path": "neutron>terra",
+            "client" : {
+                "channel": "channel-229",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6",
+        "name" : "Staked Astroport Token",
+        "symbol": "xASTRO",
+        "description": "The staked version of the Astroport token, powered by Neutron.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/xAstro.png",
+        "ibc_info" : {
+            "path": "neutron>terra",
+            "client" : {
+                "channel": "channel-229",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1zlf3hutsa4qnmue53lz2tfxrutp8y2e3rj4nkghg3rupgl4mqy8s5jgxsn/xASTRO"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FD9DBF0DB4D301313195159303811FD2FD72185C4B11A51659EFCD49D7FF1228",
+        "name" : "Stride ATOM",
+        "symbol": "stATOM",
+        "description": "A liquid staking derivative of staked ATOM, powered by Stride.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/statom.png",
+        "coinGeckoId": "stride-staked-atom",
+        "ibc_info" : {
+            "path": "stride>terra",
+            "client" : {
+                "channel": "channel-46",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-52",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7B7831150D7A8FF2A198DF4F8BD246F1BEA8E94B9ECD3EF7F8B6497B66BB206C",
+        "name" : "Neutron",
+        "symbol": "NTRN",
+        "description": "Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub's security to provide cross-chain DeFi applications.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrn.png",
+        "coinGeckoId": "neutron",
+        "ibc_info" : {
+            "path": "neutron>terra",
+            "client" : {
+                "channel": "channel-229",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-25",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "untrn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/79B60804664911EB0B074690182CCA7332406417B1050A583BAF0904F6B54635",
+        "name" : "Luna Classic",
+        "symbol": "LUNC",
+        "description": "The native staking token of the Terra Classic blockchain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/lunc.png",
+        "coinGeckoId": "terra-luna-classic",
+        "ibc_info" : {
+            "path": "terra-classic>terra",
+            "client" : {
+                "channel": "channel-314",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-85",
+                "port": "transfer",
+                "chain": "terra-classic",
+                "denom": "uluna"
+            }
+        }
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "chain_name": "sifchain",
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0rowan"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "about" : {
+        "website" : "",
+        "blog" : "",
+        "github" : "",
+        "twitter" : "",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

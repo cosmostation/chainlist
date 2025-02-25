@@ -1,0 +1,150 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x5F0b1a82749cb4E2278EC87F8BF6B618dC71a8bf",
+        "name" : "Wrapped Zeta",
+        "symbol": "WZETA",
+        "description": "Wrapped Zeta",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/wzeta.png",
+        "coinGeckoId": "wrapped-zetachain",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x45334a5B0a01cE6C260f2B570EC941C680EA62c0",
+        "name" : "ZetaEarn Staked ZETA",
+        "symbol": "stZETA",
+        "description": "ZetaEarn Staked ZETA (ZRC20)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/zetaearn-stzeta.png",
+        "coinGeckoId": "zetaearn-staked-zeta"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x13A0c5930C028511Dc02665E7285134B6d11A5f4",
+        "name" : "ZetaChain Bridged BTC.BTC",
+        "symbol": "BTC.BTC",
+        "description": "ZetaChain Bridged BTC.BTC (ZRC20)",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/btc-btc.png",
+        "coinGeckoId": "zetachain-bridged-btc-btc-zetachain"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd97B1de3619ed2c6BEb3860147E30cA8A7dC9891",
+        "name" : "ZetaChain Bridged ETH.ETH",
+        "symbol": "ETH.ETH",
+        "description": "ZetaChain Bridged ETH.ETH (ZRC20)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/eth-eth.png",
+        "coinGeckoId": "zetachain-eth-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7c8dDa80bbBE1254a7aACf3219EBe1481c6E01d7",
+        "name" : "ZetaChain Bridged USDT.ETH",
+        "symbol": "USDT.ETH",
+        "description": "ZetaChain Bridged USDT.ETH (ZRC20)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/usdt-eth.png",
+        "coinGeckoId": "zetachain-bridged-usdt-eth-zetachain",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a",
+        "name" : "ZetaChain Bridged USDC.ETH",
+        "symbol": "USDC.ETH",
+        "description": "ZetaChain Bridged USDC.ETH (ZRC20)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/usdc-eth.png",
+        "coinGeckoId": "zetachain-bridged-usdc-eth-zetachain",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x236b0de675cc8f46ae186897fccefe3370c9eded",
+        "name" : "ZetaChain Bridged PEPE.ETH",
+        "symbol": "PEPE.ETH",
+        "description": "ZetaChain Bridged PEPE.ETH (ZRC20)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/pepe-eth.png",
+        "coinGeckoId": "pepe",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x777915D031d1e8144c90D025C594b3b8Bf07a08d",
+        "name" : "ZetaChain Bridged SHIB.ETH",
+        "symbol": "SHIB.ETH",
+        "description": "ZetaChain Bridged SHIB.ETH (ZRC20)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/shib-eth.png",
+        "coinGeckoId": "shiba-inu",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb",
+        "name" : "ZetaChain Bridged BNB.ETH",
+        "symbol": "BNB.ETH",
+        "description": "ZetaChain Bridged BNB.ETH (ZRC20)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/bnb-bsc.png",
+        "coinGeckoId": "zetachain-bridged-bnb-bsc-zetachain",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x91d4F0D54090Df2D81e834c3c8CE71C6c865e79F",
+        "name" : "ZetaChain Bridged USDT.BSC",
+        "symbol": "USDT.BSC",
+        "description": "ZetaChain Bridged USDT.BSC (ZRC20)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/usdt-bsc.png",
+        "coinGeckoId": "zetachain-bridged-usdt-bsc-zetachain",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x05BA149A7bd6dC1F937fA9046A9e05C05f3b18b0",
+        "name" : "ZetaChain Bridged USDC.BSC",
+        "symbol": "USDC.BSC",
+        "description": "ZetaChain Bridged USDC.BSC (ZRC20)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/usdc-bsc.png",
+        "coinGeckoId": "zetachain-bridged-usdc-bsc-zetachain",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xADF73ebA3Ebaa7254E859549A44c74eF7cff7501",
+        "name" : "ZetaChain Bridged POL.POLYGON",
+        "symbol": "POL.POLYGON",
+        "description": "ZetaChain Bridged POL.POLYGON (ZRC20)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/pol-pol.png",
+        "coinGeckoId": "polygon-ecosystem-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfC9201f4116aE6b054722E10b98D904829b469c3",
+        "name" : "ZetaChain Bridged USDC.POL",
+        "symbol": "USDC.POL",
+        "description": "ZetaChain Bridged USDC.POL (ZRC20)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/usdc-pol.png",
+        "coinGeckoId": "usd-coin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdbfF6471a79E5374d771922F2194eccc42210B9F",
+        "name" : "ZetaChain Bridged USDT.POLYGON",
+        "symbol": "USDT.POLYGON",
+        "description": "ZetaChain Bridged USDT.POLYGON (ZRC20)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/usdt-pol.png",
+        "coinGeckoId": "tether"
+    }
+]

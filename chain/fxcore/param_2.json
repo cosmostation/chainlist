@@ -1,0 +1,83 @@
+{
+    "chain_id_cosmos" : "fxcore",
+    "chain_id_evm" : "0x212",
+    "chain_name": "FUNCTION-X",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fxcore/resource/chain_fxcore.png",
+    "main_asset_denom" : "FX",
+    "main_asset_symbol" : "FX",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fxcore/asset/fx.png",
+    "bech_account_prefix" : "fx",
+    "bech_validator_prefix" : "fxvaloper",
+    "origin_genesis_time" : "2021-07-05T04:00:00Z",
+    "api_name" : "fxcore",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "4200000000000FX",
+            "5000000000000FX"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
+    },
+    "grpc_endpoint" : [],
+    "lcd_endpoint" : [
+        {
+            "provider": "Function X",
+            "url": "https://fx-rest.functionx.io/"
+        },
+        {
+            "provider": "Nodes Hub",
+            "url": "https://functionx.api.nodeshub.online/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Function X",
+            "url": "https://fx-json-web3.functionx.io:8545"
+        },
+        {
+            "provider": "Function X",
+            "url": "https://fx-json-web3.portfolio-x.xyz:8545"
+        }
+    ],
+    "explorer" : {
+        "name": "pundiscan",
+        "url": "https://pundiscan.io/",
+        "account": "https://pundiscan.io/fxcore/address/${address}",
+        "tx": "https://pundiscan.io/fxcore/tx/${hash}",
+        "proposal": "https://pundiscan.io/fxcore/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://functionx.io/home#/",
+        "docs": "https://pundi.gitbook.io/pundi/readme/pundi-aifx/developers",
+        "github" : "https://github.com/PundiAI/fx-core",
+        "twitter" : "https://x.com/functionx_io",
+        "medium" : "https://medium.com/pundiai",
+        "coingecko" : "https://www.coingecko.com/en/coins/function-x"
+    },
+    "description" : {
+        "ko" : "f(x)Core는 Function X 생태계 전체의 핵심 네트워크입니다. 이는 모든 자산과 크로스체인을 연결하는 중심 역할을 합니다.",
+        "en" : "f(x)Core is the core network of the entire Function X ecosystem. It is the interlink of all assets and cross-chains.",
+        "ja" : "f(x)Coreは、Function Xエコシステム全体のコアネットワークです。これは、すべての資産とクロスチェーンをつなぐ中心的な役割を果たします。"
+    }
+}

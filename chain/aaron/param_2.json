@@ -1,0 +1,63 @@
+{
+    "chain_id_cosmos" : "aaronetwork",
+    "chain_name": "Aaron",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aaron/resource/chain_aaron.png",
+    "main_asset_denom" : "uaaron",
+    "main_asset_symbol" : "AARON",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aaron/asset/aaron.png",
+    "bech_account_prefix" : "aaron",
+    "bech_validator_prefix" : "aaronvaloper",
+    "origin_genesis_time" : "2024-11-24T12:21:31Z",
+    "api_name" : "aaron",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0025uaaron"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Aaron Network",
+            "url": "https://mainnet-api.aaronetwork.xyz/"
+        }
+    ],
+    "explorer" : {
+        "name": "Aaron Explorer",
+        "url": "https://explorer.aaronetwork.xyz/",
+        "account": "https://explorer.aaronetwork.xyz/address/${address}",
+        "tx": "https://explorer.aaronetwork.xyz/hash/${hash}",
+        "proposal": "https://explorer.aaronetwork.xyz/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://aaronetwork.xyz/",
+        "docs": "",
+        "github" : "https://github.com/aaronetwork/",
+        "blog" : "https://blog.aaronetwork.xyz/",
+        "medium": "",
+        "twitter" : "https://x.com/aaronetwork",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Aaron Network는 빠르고 안전한 거래와 블록체인 간 상호 운용성을 제공하는 차세대 분산형 네트워크입니다. 사용자와 개발자를 위한 혁신적인 디앱 생태계를 지원합니다.",
+        "en" : "Aaron Network is a next-generation decentralized network offering fast, secure transactions and cross-chain interoperability. It supports an innovative dApp ecosystem for users and developers.",
+        "ja" : "Aaron Networkは、高速で安全な取引とブロックチェーン間の相互運用性を提供する次世代型分散ネットワークです。ユーザーと開発者のための革新的なdAppエコシステムをサポートします。"
+    }
+}

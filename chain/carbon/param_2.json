@@ -1,0 +1,66 @@
+{
+    "chain_id_cosmos": "carbon-1",
+    "chain_name": "Carbon",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/carbon/resource/chain_carbon.png",
+    "main_asset_denom": "swth",
+    "main_asset_symbol": "SWTH",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/carbon/asset/swth.png",
+    "bech_account_prefix": "swth",
+    "bech_validator_prefix": "swthvaloper",
+    "origin_genesis_time": "2021-10-05T07:10:09Z",
+    "api_name": "carbon",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "100swth"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "switcheo-labs",
+            "url": "https://api.carbon.network/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://rest.lavenderfive.com:443/carbon/"
+        }
+    ],
+    "explorer" : {
+        "name": "Carbonscan",
+        "url": "https://scan.carbon.network/dashboard",
+        "account": "https://scan.carbon.network/account/${address}",
+        "tx": "https://scan.carbon.network/transaction/${hash}",
+        "proposal": "https://scan.carbon.network/governance/proposal/${id}"
+    },
+    "about" : {
+        "website": "https://www.carbon.network/",
+        "github": "https://github.com/Switcheo/carbon-bootstrap",
+        "twitter": "https://twitter.com/0xcarbon",
+        "coingecko" : "https://www.coingecko.com/en/coins/carbon-protocol"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "Carbon은 독보적인 거래 경험을 구축하기 위한 기본 DeFi 모듈을 제공하는 Layer 1 체인입니다.",
+        "en" : "Carbon is a Layer 1 chain that offers native DeFi modules for building unparalleled trading experiences.",
+        "ja" : "Carbon は、比類のない取引体験を構築するためのネイティブ DeFi モジュールを提供するレイヤー 1 チェーンです。"
+    }
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "type": "native",
+        "denom": "dys",
+        "name" : "Dyson",
+        "symbol": "DYS",
+        "description": "Dyson Protocol Staking Coin",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dyson-protocol/asset/dys.png",
+        "coinGeckoId": "",
+        "color": "#040404"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>dyson-protocol",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-526",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    }
+]

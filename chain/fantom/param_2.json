@@ -1,0 +1,65 @@
+{
+    "chain_id_evm" : "0xfa",
+    "chain_name": "Fantom",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fantom/resource/chain_fantom.png",
+    "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "main_asset_symbol" : "FTM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fantom/asset/ftm.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "FTM",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fantom/asset/ftm.png",
+    "origin_genesis_time" : "2019-12-27T13:00:00Z",
+    "is_support_mobile_wallet": true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Fantom",
+            "url": "https://rpc.ftm.tools"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/fantom"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://fantom.drpc.org"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://fantom-rpc.publicnode.com"
+        }
+    ],
+    "explorer" : {
+        "name": "Ftmscan",
+        "url": "https://ftmscan.com/",
+        "account": "https://ftmscan.com/address/${address}",
+        "tx": "https://ftmscan.com/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://fantom.foundation/",
+        "docs": "https://docs.fantom.foundation/",
+        "github" : "https://github.com/Fantom-Foundation",
+        "blog" : "https://blog.fantom.foundation/",
+        "reddit" : "https://www.reddit.com/r/FantomFoundation/",
+        "instagram" : "https://www.instagram.com/fantom.fdn/",
+        "youtube" : "https://www.youtube.com/channel/UC0T0nLjwUaLDiSONLBxY8IQ",
+        "twitter" : "https://x.com/FantomFDN", 
+        "telegram" : "https://t.me/Fantom_English",
+        "discord" : "https://discord.com/invite/STrtzvaUTe",
+        "coingecko" : "fantom"
+    },
+    "description" : {
+        "ko" : "Fantom은 레이어 1 EVM 호환 블록체인으로, 프로젝트들이 탈중앙화 애플리케이션(dApp)을 개발하고, 개인 간 금융 거래를 수행할 수 있는 안전하고 효율적인 스마트 계약 플랫폼을 구축하는 것을 목표로 하고 있습니다.",
+        "en" : "Fantom is a Layer 1, EVM-compatible blockchain designed to provide a secure and efficient smart contract platform for projects to develop decentralized applications (dApps) and conduct peer-to-peer financial transactions.",
+        "ja" : "ファントム（Fantom）は、Layer 1 の EVM 互換ブロックチェーンで、プロジェクトが分散型アプリケーション（dApp）を開発し、ピアツーピアでの金融取引を行うための安全で効率的なスマートコントラクトプラットフォームを提供することを目指しています。"
+    }
+}

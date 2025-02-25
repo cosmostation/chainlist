@@ -1,0 +1,106 @@
+{
+    "chain_id_cosmos" : "quicksilver-2",
+    "chain_name": "Quicksilver",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/resource/chain_quicksilver.png",
+    "main_asset_denom": "uqck",
+    "main_asset_symbol" : "QCK",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qck.png",
+    "bech_account_prefix" : "quick",
+    "bech_validator_prefix" : "quickvaloper",
+    "origin_genesis_time" : "2022-12-16T13:00:00Z",
+    "api_name" : "quicksilver",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0001uqck"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-quicksilver.cosmostation.io:443"
+        },
+        {
+            "provider": "TAKESHI",
+            "url": "grpc-quicksilver.takeshi.team:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-quicksilver-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "quicksilver-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "MMS",
+            "url": "grpc-quicksilver.mms.team:443"
+        },
+        {
+            "provider": "StakeTown",
+            "url": "quicksilver-grpc.stake-town.com:443"
+        },
+        {
+            "provider": "TdrSys",
+            "url": "quicksilver.tdrsys.com:2083"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-quicksilver.cosmostation.io/"
+        },
+        {
+            "provider": "Notional",
+            "url": "https://api-quicksilver-ia.cosmosia.notional.ventures/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://quicksilver-api.lavenderfive.com/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://quicksilver-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
+            "url": "https://m-quicksilver.api.utsa.tech/"
+        }
+    ],
+    "explorer" : {
+        "name": "Guru",
+        "url": "https://quicksilver.explorers.guru/",
+        "account": "https://quicksilver.explorers.guru/account/${address}",
+        "tx": "https://quicksilver.explorers.guru/transaction/${hash}",
+        "proposal": "https://quicksilver.explorers.guru/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://quicksilver.zone/",
+        "docs": "https://docs.quicksilver.zone/",
+        "github" : "https://github.com/quicksilver-zone/quicksilver",
+        "medium": "https://medium.com/quicksilverzone",
+        "twitter" : "https://twitter.com/quicksilverzone",
+        "coingecko" : "https://www.coingecko.com/en/coins/quicksilver"
+    },
+    "description" : {
+        "ko" : "Cosmos Interchain 생태계 체인들을 위한 리퀴드 스테이킹 프로토콜.",
+        "en" : "Quicksilver Protocol is a liquid staking protocol for the Cosmos Interchain ecosystem.",
+        "ja" : "Cosmos Interchainエコシステムチェーンのためのリキッドステーキング プロトコル。"
+    }
+}

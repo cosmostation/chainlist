@@ -1,0 +1,104 @@
+{
+    "chain_id_cosmos" : "fetchhub-4",
+    "chain_name": "ASI Alliance",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/resource/chain_fetchai.png",
+    "main_asset_denom" : "afet",
+    "main_asset_symbol" : "FET",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/asset/fet.png",
+    "bech_account_prefix" : "fetch",
+    "bech_validator_prefix" : "fetchvaloper",
+    "origin_genesis_time" : "2021-03-31T14:00:00Z",
+    "api_name" : "fetchai",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/60'/0'/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "2afet"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-fetchai.cosmostation.io:443"
+        },
+        {
+            "provider": "fetch.ai",
+            "url": "grpc-fetchhub.fetch.ai:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-fetchhub-ia.cosmosia.notional.ventures:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-fetchai.cosmostation.io/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://fetch-api.polkachu.com/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://fetchhub-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://fetch-api.w3coins.io/"
+        },
+        {
+            "provider": "AVIAONE 🟢",
+            "url": "https://api.fetchhub-4.fetch.aviaone.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/fetchai/",
+        "account": "https://www.mintscan.io/fetchai/address/${address}",
+        "tx": "https://www.mintscan.io/fetchai/tx/${hash}",
+        "proposal": "https://www.mintscan.io/fetchai/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://fetch.ai/",
+        "docs": "https://docs.fetch.ai",
+        "github" : "https://github.com/fetchai",
+        "blog" : "https://fetch.ai/blog",
+        "medium": "https://medium.com/fetch-ai",
+        "twitter" : "https://twitter.com/Fetch_ai",
+        "coingecko" : "https://www.coingecko.com/en/coins/fetch-ai"
+    },
+    "description" : {
+        "ko" : "이전 명칭: Fetch.ai인 The Artificial Superintelligence Alliance (ASI)는 분산형 디지털 경제를 중심으로 구축된 스마트 인프라를 가능하게 하기 위한 개방형 접근, 토큰화된 분산형 머신 러닝 네트워크입니다.",
+        "en" : "Formerly Fetch.ai Network. An open access, tokenized, decentralized machine learning network to enable smart infrastructure built around a decentralized digital economy.",
+        "ja" : "以前の名称: Fetch.aiであるArtificial Superintelligence Alliance (ASI) は、分散型デジタル経済を中心に構築されたスマートインフラを実現するための、オープンアクセス、トークン化された分散型機械学習ネットワークです。"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "chain_id_cosmos": "vota-ash",
+    "chain_name": "Dora Vota",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/doravota/resource/chain_doravota.png",
+    "main_asset_denom": "peaka",
+    "main_asset_symbol": "DORA",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/doravota/asset/dora.png",
+    "bech_account_prefix": "dora",
+    "bech_validator_prefix": "doravaloper",
+    "origin_genesis_time": "2023-09-01T04:32:38Z",
+    "api_name": "doravota",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
+            "100000000000peaka"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "dorafactory",
+            "url": "vota-grpc.dorafactory.org:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "dorafactory",
+            "url": "https://vota-rest.dorafactory.org"
+        },
+        {
+            "provider": "lesnik | UTSA",
+            "url": "https://m-dora.api.utsa.tech"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://dora-rest.publicnode.com"
+        },
+        {
+            "provider": "ITRocket",
+            "url": "https://doravota-mainnet-api.itrocket.net"
+        }
+    ],
+    "explorer": {
+        "name": "Dora Vota Ping Pub",
+        "url": "https://vota-explorer.dorafactory.org/doravota",
+        "account": "https://vota-explorer.dorafactory.org/doravota/account/${address}",
+        "tx": "https://vota-explorer.dorafactory.org/doravota/tx/${hash}",
+        "proposal": "https://vota-explorer.dorafactory.org/doravota/gov/${id}"
+    },
+    "about": {
+        "website": "https://dorafactory.org/",
+        "docs": "https://docs.dorafactory.org/docs",
+        "github": "https://github.com/DoraFactory",
+        "blog" : "https://research.dorahacks.io/",
+        "twitter": "https://x.com/DoraFactory"
+    },
+    "description": {
+        "en": "Dora Factory is a digital infrastructure that supports the global hacker movement, providing protocols, tools, and public infrastructure for open source communities and cutting-edge technology developers to thrive.",
+        "ko": "Dora Factory는 글로벌 해커 운동을 지원하는 디지털 인프라로서, 오픈 소스 커뮤니티와 첨단 기술 개발자들이 번영할 수 있도록 프로토콜, 도구, 공공재 인프라를 제공합니다.",
+        "ja": "Dora Factoryはグローバルハッカー運動をサポートするデジタルインフラストラクチャで、オープンソースコミュニティと先進技術開発者が繁栄するためのプロトコル、ツール、公共財インフラストラクチャを提供しています。"
+    }
+}
+

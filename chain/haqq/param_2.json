@@ -1,0 +1,119 @@
+{
+    "chain_id_cosmos" : "haqq_11235-1",
+    "chain_id_evm" : "0x2be3",
+    "chain_name": "Haqq Network",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/haqq/resource/chain_haqq.png",
+    "main_asset_denom" : "aISLM",
+    "main_asset_symbol" : "ISLM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/haqq/asset/islm.png",
+    "bech_account_prefix" : "haqq",
+    "bech_validator_prefix" : "haqqvaloper",
+    "origin_genesis_time" : "2022-05-05T11:53:32Z",
+    "api_name" : "haqq",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp": true,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "25000000000aISLM",
+            "40000000000aISLM"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "kioqq",
+            "url": "grpc.haqq.sh:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Haqq",
+            "url": "https://rest.cosmos.haqq.network/"
+        },
+        {
+            "provider": "kioqq",
+            "url": "https://sdk.haqq.sh/"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://haqq-rest.publicnode.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://rest.lavenderfive.com:443/haqq/"
+        },
+        {
+            "provider": "KonsorTech",
+            "url": "https://mainnet-haqq-api.konsortech.xyz/"
+        },
+        {
+            "provider": "[NODERS]TEAM",
+            "url": "https://haqq-api.noders.services/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Haqq",
+            "url": "https://rpc.eth.haqq.network"
+        },
+        {
+            "provider": "kioqq",
+            "url": "https://evm.haqq.sh"
+        },
+        {
+            "provider": "Haqq",
+            "url": "https://rpc.eth.haqq.network"
+        },
+        {
+            "provider": "publicnode",
+            "url": "https://haqq-evm.publicnode.com"
+        },
+        {
+            "provider": "drpc",
+            "url": "https://haqq.drpc.org"
+        }
+    ],
+    "explorer" : {
+        "name": "Pingpub",
+        "url": "https://ping.pub/haqq",
+        "account": "https://ping.pub/haqq/account/${address}",
+        "tx": "https://ping.pub/haqq/tx/${hash}",
+        "proposal": "https://ping.pub/haqq/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://haqq.network/",
+        "docs": "https://docs.haqq.network/",
+        "github" : "https://github.com/haqq-network/haqq",
+        "blog" : "https://www.haqq.network/blog?tag=all-posts",
+        "twitter" : "https://x.com/The_HaqqNetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/islamic-coin"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "샤리아 가치를 충족하는 블록체인. 빌더와 최종 사용자를 염두에 두고. 사용 편의성과 재정적 안녕을 위해 설계됨.",
+        "en" : "Blockchain that meets Shariah values. For builders and end users in mind. Designed for ease of use and financial well-being.",
+        "ja" : "シャリアの価値観を満たすブロックチェーン。ビルダーとエンドユーザーを念頭に置き、使いやすさと経済的幸福のために設計されています。"
+    }
+}

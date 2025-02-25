@@ -1,12 +1,16 @@
 {
+  "agoric-3": "agoric",
   "akashnet-2": "akash",
   "althea_258432-1": "althea",
   "0x3f180": "althea",
   "0xa4b1": "arbitrum",
   "archway-1": "archway",
+  "artela_11822-1": "artela-testnet",
+  "0x2e2e": "artela-testnet",
   "mantle-1": "asset-mantle",
   "0xa86a": "avalanche",
   "axelar-dojo-1": "axelar",
+  "0x2105": "base",
   "laozi-mainnet": "band",
   "bitcanna-1": "bitcanna",
   "bitsong-2b": "bitsong",
@@ -44,6 +48,7 @@
   "0x8ae": "kava",
   "kichain-2": "ki-chain",
   "kyve-1": "kyve",
+  "lava-mainnet-1": "lava",
   "likecoin-mainnet-2": "likecoin",
   "lum-network-1": "lum",
   "mars-1": "mars-protocol",
@@ -79,5 +84,8 @@
   "phoenix-1": "terra",
   "tgrade-mainnet-1": "tgrade",
   "umee-1": "umee",
-  "dimension_37-1": "xpla"
+  "dimension_37-1": "xpla",
+  "0x25": "xpla",
+  "zetachain_7000-1": "zeta",
+  "0x1b58": "zeta"
 }

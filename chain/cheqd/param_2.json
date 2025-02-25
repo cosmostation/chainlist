@@ -1,0 +1,80 @@
+{
+    "chain_id_cosmos": "cheqd-mainnet-1",
+    "chain_name": "Cheqd",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cheqd/resource/chain_cheqd.png",
+    "main_asset_denom": "ncheq",
+    "main_asset_symbol": "CHEQ",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cheqd/asset/cheq.png",
+    "bech_account_prefix": "cheqd",
+    "bech_validator_prefix": "cheqdvaloper",
+    "origin_genesis_time": "2021-11-11T14:47:05Z",
+    "api_name": "cheqd",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "50ncheq",
+            "75ncheq",
+            "100ncheq"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "cheqd",
+            "url": "grpc.cheqd.net:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "cheqd",
+            "url": "https://api.cheqd.net/"
+        },
+        {
+            "provider": "Lavender.Five Nodes",
+            "url": "https://rest.lavenderfive.com:443/cheqd/"
+        },
+        {
+            "provider": "Blockval",
+            "url": "https://api-cheqd.blockval.io/"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://cheqd-rest.publicnode.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Pingpub",
+        "url": "https://ping.pub/cheqd",
+        "account": "https://ping.pub/cheqd/account/${address}",
+        "tx": "https://ping.pub/cheqd/tx/${hash}",
+        "proposal": "https://ping.pub/cheqd/gov/${id}"
+    },
+    "about" : {
+        "webSite": "https://cheqd.io",
+        "docs": "https://docs.cheqd.io/identity",
+        "github": "https://github.com/cheqd",
+        "blog" : "https://cheqd.io/blog/",
+        "medium": "https://blog.cheqd.io/",
+        "twitter": "https://twitter.com/cheqd_io",
+        "coingecko" : "https://www.coingecko.com/en/coins/cheqd-network"
+    },
+    "description" : {
+        "ko" : "cheqd는 SSI(Self-Sovereign Identity) 및 블록체인 기술로 구축된 퍼블릭 무허가형 네트워크입니다.",
+        "en" : "cheqd is a public permissionless network built with Self-Sovereign Identity (SSI) and blockchain technologies.",
+        "ja" : "cheqd は、Self-Sovereign Identity (SSI) とブロックチェーン テクノロジーを使用して構築されたパブリック パーミッションレス ネットワークです。"
+    }
+}

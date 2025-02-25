@@ -1,0 +1,74 @@
+{
+    "chain_id_cosmos": "tabi_9788-2",
+    "chain_id_evm" : "0x263C",
+    "chain_name": "TabiChain Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/tabichain-testnet/resource/chain_tabichain-testnet.png",
+    "main_asset_denom": "atabi",
+    "main_asset_symbol": "TABI",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/tabichain-testnet/asset/tabi.png",
+    "bech_account_prefix": "tabis",
+    "bech_validator_prefix": "tabisvaloper",
+    "origin_genesis_time": "",
+    "api_name": "tabichain-testnet",
+    "is_support_mobile_wallet" : true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "2000000000atabi"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
+    },
+    "grpc_endpoint": [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Tabi-Testnet",
+            "url": "https://api.testnetv2.tabichain.com/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Tabi-Testnet",
+            "url": "https://rpc.testnetv2.tabichain.com"
+        }
+    ],
+    "explorer": {
+        "name": "NodeStake",
+        "url": "https://explorer.nodestake.org/tabi-testnet",
+        "account": "https://explorer.nodestake.org/tabi-testnet/account/${address}",
+        "tx": "https://explorer.nodestake.org/tabi-testnet/tx/${hash}",
+        "proposal": "https://explorer.nodestake.org/tabi-testnet/gov/${id}"
+    },
+    "about": {
+        "website": "https://www.tabichain.com/",
+        "docs": "https://tabichain.gitbook.io/tabichain",
+        "github": "https://github.com/tabilabs/tabi",
+        "blog": "https://blog.tabi.lol/",
+        "medium": "https://tabi-official.medium.com/",
+        "twitter": "https://x.com/Tabichain",
+        "coingecko": ""
+    },
+    "description": {
+        "ko": "Tabichain은 Web3 게임에 중점을 둔 Cosmos SDK 기반 블록체인입니다. 높은 확장성과 EVM 호환성을 제공하며, 블록체인 게임 개발을 지원하는 도구를 제공합니다.",
+        "en": "Tabichain is a Cosmos SDK-based blockchain focused on Web3 gaming. It offers high scalability, EVM compatibility, and tools for building blockchain-based games efficiently.",
+        "ja": "Tabichainは、Web3ゲームに特化したCosmos SDKベースのブロックチェーンです。高いスケーラビリティとEVM互換性を提供し、効率的なブロックチェーンゲームの開発を支援します。"
+    }
+}

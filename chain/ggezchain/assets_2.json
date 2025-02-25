@@ -1,0 +1,24 @@
+[
+  {
+    "type": "native",
+    "denom": "uggez1",
+    "name": "GGEZ1",
+    "symbol": "GGEZ1",
+    "description": "The Governance Coin of the GGEZ1 Network.",
+    "decimals": 6,
+    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ggezchain/asset/ggez1.png",
+    "coinGeckoId": "",
+    "color": "#039abf"
+  },
+  {
+    "type": "native",
+    "denom": "uggz",
+    "name": "GGZ",
+    "symbol": "GGZ",
+    "description": "The ReFi Coin of the GGEZ1 Network.",
+    "decimals": 6,
+    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ggezchain/asset/ggz.png",
+    "coinGeckoId": "",
+    "color": "#8400cd"
+  }
+]

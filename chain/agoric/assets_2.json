@@ -1,0 +1,70 @@
+[
+    {
+        "type": "native",
+        "denom": "ubld",
+        "name" : "Agoric",
+        "symbol": "BLD",
+        "description": "Agoric Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/agoric/asset/bld.png",
+        "coinGeckoId": "agoric",
+        "color": "#c42b44"
+    },
+    {
+        "type": "native",
+        "denom": "uist",
+        "name" : "Inter Stable Token",
+        "symbol": "IST",
+        "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/agoric/asset/ist.png",
+        "coinGeckoId": "inter-stable-token",
+        "color": "#d485e2"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>agoric",
+            "client" : {
+                "channel": "channel-62",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-21",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>agoric",
+            "client" : {
+                "channel": "channel-9",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-41",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    }
+]
