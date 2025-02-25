@@ -7,7 +7,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/wshido.png",
-        "coinGeckoId": "",
+        "coinGeckoId": "wrapped-shido",
         "wallet_preload": true
     },
     {
@@ -29,16 +29,6 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/salt.png",
-        "coinGeckoId": ""
-    },
-    {
-        "type": "erc20",
-        "contract": "0x8c248F053920f6b39bFdE892480d10C5E0A8a3df",
-        "name" : "Goat",
-        "symbol": "GOAT",
-        "description": "",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/goat.png",
         "coinGeckoId": ""
     },
     {
@@ -79,16 +69,17 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/kensei.png",
-        "coinGeckoId": ""
+        "coinGeckoId": "",
+        "wallet_preload": true
     },
     {
         "type": "erc20",
-        "contract": "0x29a9733cEbeF2219f48763B40859a0eec8B5C77F",
-        "name" : "Xshrimp",
-        "symbol": "SHRIMP",
+        "contract": "0x37385e458bb1b19c614c238e5109e59ac605df7a",
+        "name" : "Crazy Chicken",
+        "symbol": "CHICK",
         "description": "",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shrimp.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/chick.png",
         "coinGeckoId": ""
     },
     {
@@ -99,6 +90,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shdx.png",
-        "coinGeckoId": ""
+        "coinGeckoId": "",
+        "wallet_preload": true
     }
 ]
