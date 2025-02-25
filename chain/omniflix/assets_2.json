@@ -124,5 +124,86 @@
                 "denom": "uhuahua"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9F28238BDB687A86681B30764BA1437E079C3565D04FDD7862055A83F7E5C630",
+        "name" : "Chihuahuawifhat",
+        "symbol": "BADDOG",
+        "description": "has a hat",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "chihuahua>osmosis>omniflix",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-199",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "ibc/2FFE07C4B4EFC0DDA099A16C6AF3C9CCA653CC56077E87217A585D48794B0BC7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/43D3010F4CA111744AC8B68E460BC95E565C32928A267FA2B30609C04C10B274",
+        "name": "Inter Stable Token",
+        "symbol": "IST",
+        "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/agoric/asset/ist.png",
+        "color": "#d485e2",
+        "coinGeckoId": "inter-stable-token",
+        "ibc_info": {
+            "path": "agoric>omniflix",
+            "client": {
+                "channel": "channel-30",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-58",
+                "port": "transfer",
+                "chain": "agoric",
+                "denom": "uist"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6901B45BC2C5418ED8B3C3C9F9A641A3DAF2D234230AFA9DF32D8F9F9434721C",
+        "name": "Akash",
+        "symbol": "AKT",
+        "description": "Akash Token (AKT) is the Akash Network's native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
+        "color": "#bc342c",
+        "coinGeckoId": "akash-network",
+        "ibc_info": {
+            "path": "akash>omniflix",
+            "client": {
+                "channel": "channel-25",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-61",
+                "port": "transfer",
+                "chain": "akash",
+                "denom": "uakt"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata",
+        "name": "Yield GATA",
+        "symbol": "YGATA",
+        "description": "GATA Yield DAO Governance Token powered by OmniFlixHub",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.png",
+        "color": "#7b5aff"
     }
 ]
