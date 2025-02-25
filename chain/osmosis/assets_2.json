@@ -3524,9 +3524,9 @@
         "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C",
         "name": "nRide Token",
         "symbol": "NRIDE",
-        "description": "nRide Token",
+        "description": "nRide is developing an uber-like ride-hailing protocol, leveraging cosmwasm smart-contracts for payment, driver registration and text-messaging between the rider and the driver, to create a trustless public transportation environment for any cab or taxi company to use.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/nride.png",
         "color": "#050505",
         "ibc_info": {
             "path": "juno>osmosis",

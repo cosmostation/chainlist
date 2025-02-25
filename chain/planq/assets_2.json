@@ -42,7 +42,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/nride.png",
         "coinGeckoId": "",
         "ibc_info" : {
-            "path": "osmosis>planq",
+            "path": "juno>osmosis>planq",
             "client" : {
                 "channel": "channel-1",
                 "port": "transfer"
@@ -50,7 +50,7 @@
             "counterparty": {
                 "channel": "channel-492",
                 "port": "transfer",
-                "chain": "juno",
+                "chain": "osmosis",
                 "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C"
             }
         }
