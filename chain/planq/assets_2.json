@@ -34,29 +34,6 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/26B4B4BBF3C8D5DB1ADE993CCD865A7CC608B2BAEF20E0166F18B84E32184F63",
-        "name" : "nRide Token",
-        "symbol": "NRIDE",
-        "description": "nRide is developing an uber-like ride-hailing protocol, leveraging cosmwasm smart-contracts for payment, driver registration and text-messaging between the rider and the driver, to create a trustless public transportation environment for any cab or taxi company to use.",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/nride.png",
-        "coinGeckoId": "",
-        "ibc_info" : {
-            "path": "juno>osmosis>planq",
-            "client" : {
-                "channel": "channel-1",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-492",
-                "port": "transfer",
-                "chain": "osmosis",
-                "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C"
-            }
-        }
-    },
-    {
-        "type": "ibc",
         "denom": "ibc/747FF58D3F211497581252CEBE11D7E785FC1E53AC5C29497A361E3830F1AF4A",
         "name" : "MEME",
         "symbol": "MEME",
