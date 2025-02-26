@@ -92,5 +92,25 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shdx.png",
         "coinGeckoId": "",
         "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x796F48d17d38E5f0A7aFe7966448828bdc13e8B1",
+        "name" : "0xDead",
+        "symbol": "0xded",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/0xdead.png",
+        "coinGeckoId": ""
+    },    
+    {
+        "type": "erc20",
+        "contract": "0xF7B264B723059a05fBf13E32783F88db33A24365",
+        "name" : "Shidoshi",
+        "symbol": "SDS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shidoshi.png",
+        "coinGeckoId": ""
     }
 ]
