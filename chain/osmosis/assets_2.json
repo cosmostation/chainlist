@@ -9629,6 +9629,29 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
+        "name": "Ali-Rev-Gator",
+        "symbol": "BIKE",
+        "description": "The OG meme coin on MANTRA Chain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/BIKE.png",
+        "color": "#80c75d",
+        "ibc_info": {
+            "path": "mantra>osmosis",
+            "client": {
+                "channel": "channel-85077",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "mantra",
+                "denom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/BC26A7A805ECD6822719472BCB7842A48EF09DF206182F8F259B2593EB5D23FB",
         "name": "AtomOne",
         "symbol": "ATONE",
