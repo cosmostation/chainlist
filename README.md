@@ -33,11 +33,14 @@
 
 
 <details open>
-  <summary><h2 style='display: inline; font-size: 24px'>How to add your validator image</h2></summary>
+  <summary><h2 style='display: inline; font-size: 24px; text-decoration: line-through'>How to add your validator image</h2></summary>
 
- - Add your image to `${targetchain}/moniker` folder
- - Image with png format and validator address name
- - [Example](https://github.com/cosmostation/chainlist/blob/main/chain/cosmos/moniker/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos
+ - From March 2025, Display moniker information based on the on-chain validator description (Keybase Identity). 
+ - The existing monitor folder will be deleted soon.
+
+ - ~~Add your image to `${targetchain}/moniker` folder~~
+ - ~~Image with png format and validator address name~~
+ - ~~[Example](https://github.com/cosmostation/chainlist/blob/main/chain/cosmos/moniker/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn.png) will display cosmostation validator moniker logo for cosmos~~
 </details>
 
 ---
