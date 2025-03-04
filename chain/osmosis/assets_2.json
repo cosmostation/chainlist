@@ -170,7 +170,7 @@
         "symbol": "ATOM",
         "description": "The native staking and governance token of the Cosmos Hub.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
         "color": "#272d45",
         "coinGeckoId": "cosmos",
         "ibc_info": {
@@ -213,13 +213,11 @@
     {
         "type": "ibc",
         "denom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
-        "name": "Binance Coin",
-        "symbol": "BNB",
+        "name": "Binance Coin (Axelar)",
+        "symbol": "BNB.axl",
         "description": "BNB powers the BNB Chain ecosystem and is the native coin of the BNB Beacon Chain and BNB Smart Chain.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.svg",
-        "color": "#f3bb0c",
-        "coinGeckoId": "binancecoin",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bnb.axl.svg",
         "ibc_info": {
             "path": "bnb-smart-chain>axelar>osmosis",
             "client": {
@@ -407,8 +405,7 @@
         "symbol": "SCRT",
         "description": "The native token of Secret Network",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
-        "color": "#040404",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg",
         "coinGeckoId": "secret",
         "ibc_info": {
             "path": "secret>osmosis",
@@ -455,7 +452,7 @@
         "symbol": "STARS",
         "description": "The native token of Stargaze",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg",
         "color": "#db2777",
         "coinGeckoId": "stargaze",
         "ibc_info": {
@@ -695,7 +692,7 @@
         "symbol": "EEUR",
         "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/emoney/asset/eeur.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg",
         "color": "#f4c808",
         "coinGeckoId": "e-money-eur",
         "ibc_info": {
@@ -1102,7 +1099,7 @@
         "symbol": "UMEE",
         "description": "The native token of Umee",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/umee/asset/umee.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg",
         "color": "#22f2e9",
         "coinGeckoId": "umee",
         "ibc_info": {
@@ -1126,7 +1123,7 @@
         "symbol": "GRAV",
         "description": "The native token of Gravity Bridge",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/asset/grav.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
         "color": "#042ca4",
         "coinGeckoId": "graviton",
         "ibc_info": {
@@ -1241,12 +1238,11 @@
     {
         "type": "ibc",
         "denom": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
-        "name": "Fetch.ai",
-        "symbol": "FET",
+        "name": "Fetch.ai (Fetch.ai)",
+        "symbol": "FET.fet",
         "description": "The native staking and governance token of the Fetch Hub.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg",
-        "color": "#1c2444",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.svg",
         "coinGeckoId": "fetch-ai",
         "ibc_info": {
             "path": "fetchai>osmosis",
@@ -1270,7 +1266,7 @@
         "description": "The native token of Asset Mantle",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg",
-        "color": "#edb548",
+        "color": "#fbab30",
         "coinGeckoId": "assetmantle",
         "ibc_info": {
             "path": "asset-mantle>osmosis",
@@ -1435,7 +1431,7 @@
         "symbol": "HOPE",
         "description": "Hope Galaxy is an NFT collection based on its own native Token $HOPE, a cw20 token on Juno chain.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/hope.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg",
         "color": "#e2877e",
         "ibc_info": {
             "path": "juno>osmosis",
@@ -2429,7 +2425,7 @@
         "symbol": "IST",
         "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/agoric/asset/ist.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg",
         "color": "#d485e2",
         "coinGeckoId": "inter-stable-token",
         "ibc_info": {
@@ -2545,7 +2541,7 @@
         "name": "Stride Staked STARS",
         "symbol": "stSTARS",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/ststars.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg",
         "color": "#e40474",
         "coinGeckoId": "stride-staked-stars",
         "ibc_info": {
@@ -3018,7 +3014,6 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg",
         "color": "#4aa29e",
-        "coinGeckoId": "arable-protocol",
         "ibc_info": {
             "path": "acrechain>osmosis",
             "client": {
@@ -3346,8 +3341,8 @@
         "symbol": "qSTARS",
         "description": "Quicksilver Liquid Staked STARS",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qstars.png",
-        "color": "#fc944c",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qstars.svg",
+        "color": "#ff914d",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -3438,6 +3433,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token-ibc.svg",
         "color": "#000000",
+        "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
         "ibc_info": {
             "path": "mars-protocol>osmosis",
             "client": {
@@ -3524,9 +3520,9 @@
         "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C",
         "name": "nRide Token",
         "symbol": "NRIDE",
-        "description": "nRide is developing an uber-like ride-hailing protocol, leveraging cosmwasm smart-contracts for payment, driver registration and text-messaging between the rider and the driver, to create a trustless public transportation environment for any cab or taxi company to use.",
+        "description": "nRide Token",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/nride.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.svg",
         "color": "#050505",
         "ibc_info": {
             "path": "juno>osmosis",
@@ -3573,7 +3569,7 @@
         "description": "Quicksilver Liquid Staked ATOM",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qatom.svg",
-        "color": "#fc944c",
+        "color": "#ff914d",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -3618,8 +3614,8 @@
         "symbol": "qREGEN",
         "description": "Quicksilver Liquid Staked REGEN",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qregen.png",
-        "color": "#fc944c",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qregen.svg",
+        "color": "#ff914d",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -3711,8 +3707,8 @@
         "symbol": "qOSMO",
         "description": "Quicksilver Liquid Staked OSMO",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qosmo.png",
-        "color": "#fc944c",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qosmo.svg",
+        "color": "#ff914d",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -4173,7 +4169,7 @@
         "denom": "ibc/980A2748F37C938AD129B92A51E2ABA8CFFC6862ADD61EC1B291125535DBE30B",
         "name": "Manna",
         "symbol": "MANNA",
-        "description": "Social Impact DAO dedicated to combating food insecurity and malnutrition",
+        "description": "Social Impact DAO dedicated to combatting food insecurity and malnutrition",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/manna.png",
         "color": "#299544",
@@ -4194,13 +4190,12 @@
     {
         "type": "ibc",
         "denom": "ibc/18FB5C09D9D2371F659D4846A956FA56225E377EE3C3652A2BF3542BF809159D",
-        "name": "Filecoin",
-        "symbol": "FIL",
+        "name": "Filecoin (Axelar)",
+        "symbol": "FIL.axl",
         "description": "Filecoin is a decentralized storage network designed to turn cloud storage into an algorithmic market. The network facilitates open markets for storing and retrieving data, where users pay to store their files on storage miners. Filecoin is built on top of the InterPlanetary File System (IPFS), a peer-to-peer storage network. Filecoin aims to store data in a decentralized manner, unlike traditional cloud storage providers.\n\nParticipants in the Filecoin network are incentivized to act honestly and store as much data as possible because they earn the Filecoin cryptocurrency (FIL) in exchange for their storage services. This setup ensures the integrity and accessibility of data stored. Filecoin's model allows for a variety of storage options, including long-term archival storage and more rapid retrieval services, making it a versatile solution for decentralized data storage. The project, developed by Protocol Labs, also focuses on ensuring that data is stored reliably and efficiently.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/filecoin/images/fil.svg",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fil.axl.svg",
         "color": "#0493fc",
-        "coinGeckoId": "filecoin",
         "ibc_info": {
             "path": "filecoin>axelar>osmosis",
             "client": {
@@ -4361,7 +4356,7 @@
         "symbol": "PEPE.axl",
         "description": "Pepe is a community based memecoin with one mission: to make memecoins great again. Made to honor the iconic meme we all know and love, Pepe is here to take reign as the most memeable memecoin in existence, fueled purely by memetic power. Pepe is for the people.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/pepe.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pepe.axl.svg",
         "ibc_info": {
             "path": "ethereum>axelar>osmosis",
             "client": {
@@ -4862,8 +4857,8 @@
     {
         "type": "ibc",
         "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
-        "name": "Tether USD",
-        "symbol": "USDT",
+        "name": "Tether USD (Kava)",
+        "symbol": "USDT.kava",
         "description": "Tether gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.kava.svg",
@@ -4924,8 +4919,8 @@
         "symbol": "qSOMM",
         "description": "Quicksilver Liquid Staked SOMM",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qsomm.png",
-        "color": "#fc944c",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qsomm.svg",
+        "color": "#ff914d",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -5059,12 +5054,11 @@
     {
         "type": "ibc",
         "denom": "ibc/B1C287C2701774522570010EEBCD864BCB7AB714711B3AA218699FDD75E832F5",
-        "name": "Sui",
-        "symbol": "SUI",
+        "name": "Sui (Wormhole)",
+        "symbol": "SUI.wh",
         "description": "Sui’s native asset is called SUI.",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/sui/images/sui.svg",
-        "coinGeckoId": "sui",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sui.wh.svg",
         "ibc_info": {
             "path": "sui>gateway>osmosis",
             "client": {
@@ -5082,12 +5076,11 @@
     {
         "type": "ibc",
         "denom": "ibc/A4D176906C1646949574B48C1928D475F2DF56DE0AC04E1C99B08F90BC21ABDE",
-        "name": "Aptos Coin",
-        "symbol": "APT",
+        "name": "Aptos Coin (Wormhole)",
+        "symbol": "APT.wh",
         "description": "Aptos token (APT) is the Aptos blockchain native token used for paying network and transaction fees.",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/apt-dm.svg",
-        "coinGeckoId": "aptos",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/apt.wh.svg",
         "ibc_info": {
             "path": "aptos>gateway>osmosis",
             "client": {
@@ -5519,11 +5512,11 @@
     {
         "type": "ibc",
         "denom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
-        "name": "dYdX Protocol",
-        "symbol": "DYDX",
+        "name": "dYdX Protocol (dYdX Protocol)",
+        "symbol": "DYDX.dydx",
         "description": "DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/asset/dydx.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.svg",
         "coinGeckoId": "dydx-chain",
         "ibc_info": {
             "path": "dydx>osmosis",
@@ -5542,7 +5535,7 @@
     {
         "type": "ibc",
         "denom": "ibc/2B30802A0B03F91E4E16D6175C9B70F2911377C1CAE9E50FF011C821465463F9",
-        "name": "f(x)Core",
+        "name": "Function X",
         "symbol": "FX",
         "description": "The native staking token of the Function X",
         "decimals": 18,
@@ -5956,7 +5949,7 @@
         "symbol": "milkTIA",
         "description": "MilkyWay's liquid staked TIA",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/milktia.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg",
         "color": "#d18dfc",
         "coinGeckoId": "milkyway-staked-tia"
     },
@@ -5991,6 +5984,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.svg",
         "color": "#2b2434",
+        "coinGeckoId": "racoon",
         "ibc_info": {
             "path": "migaloo>osmosis",
             "client": {
@@ -6461,9 +6455,8 @@
         "symbol": "stTIA",
         "description": "Stride's liquid staked TIA",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stutia.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg",
         "color": "#e40474",
-        "coinGeckoId": "stride-staked-tia",
         "ibc_info": {
             "path": "stride>osmosis",
             "client": {
@@ -6588,6 +6581,7 @@
         "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg",
+        "coinGeckoId": "astroport-fi",
         "ibc_info": {
             "path": "terra>osmosis",
             "client": {
@@ -6642,7 +6636,7 @@
         "symbol": "HEART",
         "description": "The native staking and governance token of Humans.ai.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/humans/asset/humans.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg",
         "color": "#f3f3f3",
         "coinGeckoId": "humans-ai",
         "ibc_info": {
@@ -6762,7 +6756,6 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png",
         "color": "#7f22bc",
-        "coinGeckoId": "source-protocol",
         "ibc_info": {
             "path": "bnb-smart-chain>planq>source>osmosis",
             "client": {
@@ -6827,12 +6820,11 @@
     {
         "type": "ibc",
         "denom": "ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F",
-        "name": "AIOZ Network",
-        "symbol": "AIOZ",
+        "name": "AIOZ Network (AIOZ Network)",
+        "symbol": "AIOZ.aioz",
         "description": "The native staking and governance token of the AIOZ Network.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg",
-        "color": "#24241c",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.svg",
         "coinGeckoId": "aioz-network",
         "ibc_info": {
             "path": "aioz>osmosis",
@@ -7272,7 +7264,7 @@
         "symbol": "SHIDO",
         "description": "The native EVM and Wasm, governance and staking token of the Shido Chain",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shido.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg",
         "color": "#046ffc",
         "coinGeckoId": "shido-2",
         "ibc_info": {
@@ -7849,7 +7841,7 @@
         "description": "Quicksilver Liquid Staked JUNO",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qjuno.svg",
-        "color": "#fc944c",
+        "color": "#ff914d",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -7895,7 +7887,7 @@
         "description": "Quicksilver Liquid Staked DYDX",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qdydx.svg",
-        "color": "#fc944c",
+        "color": "#ff914d",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -7918,7 +7910,7 @@
         "description": "Quicksilver Liquid Staked BLD",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qbld.svg",
-        "color": "#fc944c",
+        "color": "#ff914d",
         "ibc_info": {
             "path": "quicksilver>osmosis",
             "client": {
@@ -8253,8 +8245,8 @@
     {
         "type": "native",
         "denom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
-        "name": "Tether USD (alloyed)",
-        "symbol": "allUSDT",
+        "name": "Tether USD",
+        "symbol": "USDT",
         "description": "An alloy of USDT asset variants on Osmosis.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
@@ -8639,8 +8631,7 @@
         "symbol": "TRX.rt",
         "description": "TRONIX is the mainnet native token of the TRON Protocol issued by TRON DAO, known as TRX.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.svg",
-        "color": "#FF060A",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/trx.rt.svg",
         "bridge_info": {
             "path": "tron>osmosis"
         }
@@ -9244,7 +9235,7 @@
         "denom": "ibc/ABD49F44559CB3E557CC458459CB6A67CEBD66E23C7674A0B2B445230BDA1F6C",
         "name": "Stratos",
         "symbol": "STOS",
-        "description": "STOS coin is the native token for the Stratos Blockchain. Stratos is a pioneering decentralized infrastructure service provider, revolutionizing AI and DePIN with advanced decentralized solutions in storage, computing, databases, and blockchain services. We empower Web 3.0 developers and dApps through our scalable, reliable, and high-performance networks.",
+        "description": "STOS coin is the native token for the Stratos Blockchain. Stratos is a pioneering decentralized infrastructure service provider, revolutionizing AI and DePIN with advanced decentralized solutions in storage, computing, databases, and blockchain services. We empower Web 3.0 developpers and dApps through our scalable, reliable, and high-performance networks.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stratos/images/stratos.svg",
         "color": "#04847c",
@@ -9498,11 +9489,11 @@
     {
         "type": "ibc",
         "denom": "ibc/616C2EA69BC328F245CE449785CB0B526B462C48F19DCF9B3D30699579B4308A",
-        "name": "Coinbase Wrapped BTC (Axelar)",
-        "symbol": "cbBTC.axl",
+        "name": "Coinbase Wrapped BTC (Base via Axelar)",
+        "symbol": "$cbBTC.base.axl",
         "description": "Coinbase Wrapped Bitcoin on Axelar",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/cbbtc.axl.svg",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/cbBTC.base.axl.svg",
         "ibc_info": {
             "path": "base>axelar>osmosis",
             "client": {
@@ -9577,7 +9568,7 @@
         "symbol": "DOGE",
         "description": "An alloy of DOGE asset variants on Osmosis.",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/dogecoin/images/doge.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/dogecoin/images/doge.svg",
         "color": "#bda148",
         "coinGeckoId": "dogecoin"
     },
@@ -9629,35 +9620,13 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
-        "name": "Ali-Rev-Gator",
-        "symbol": "BIKE",
-        "description": "The OG meme coin on MANTRA Chain",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/BIKE.png",
-        "color": "#80c75d",
-        "ibc_info": {
-            "path": "mantra>osmosis",
-            "client": {
-                "channel": "channel-85077",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-0",
-                "port": "transfer",
-                "chain": "mantra",
-                "denom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE"
-            }
-        }
-    },
-    {
-        "type": "ibc",
         "denom": "ibc/BC26A7A805ECD6822719472BCB7842A48EF09DF206182F8F259B2593EB5D23FB",
         "name": "AtomOne",
         "symbol": "ATONE",
         "description": "The native staking and governance token of AtomOne",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg",
+        "coinGeckoId": "atomone",
         "ibc_info": {
             "path": "atomone>osmosis",
             "client": {
@@ -9680,7 +9649,8 @@
         "description": "The Spice memecoin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/spice.png",
-        "color": "#e5ba44"
+        "color": "#e5ba44",
+        "coinGeckoId": "spice-2"
     },
     {
         "type": "ibc",
@@ -9712,7 +9682,7 @@
         "symbol": "YGATA",
         "description": "GATA Yield DAO Governance Token powered by OmniFlixHub",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg",
         "color": "#7b5aff",
         "ibc_info": {
             "path": "omniflix>osmosis",
@@ -9731,9 +9701,9 @@
     {
         "type": "ibc",
         "denom": "ibc/3B95D63B520C283BCA86F8CD426D57584039463FD684A5CBA31D2780B86A1995",
-        "name": "Dungeon Coin",
+        "name": "Dragon Coin",
         "symbol": "DGN",
-        "description": "Dungeon native token",
+        "description": "Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem's governance and success.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
         "coinGeckoId": "dragon-coin-2",
@@ -9753,47 +9723,767 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/A6712952E566B8A9F29D0A533F043C3CE3CF9870B01A2180E390133119C14A71",
-        "name": "Kima Network",
-        "symbol": "KIMA",
-        "description": "Kima is an asset-agnostic interoperability infrastructure that connects blockchain networks and legacy financial systems, enabling secure, scalable cross-chain transactions and seamless communication across ecosystems.",
+        "denom": "ibc/1B454982D3746951510D3845145B83628D4ED380D95722C8077776C4689F973A",
+        "name": "Synternet",
+        "symbol": "SYNT",
+        "description": "Synternet is a blockchain that powers modular, interoperable data infrastructure across all major chains.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.svg",
+        "color": "#272d45",
         "ibc_info": {
-            "path": "kimanetwork>osmosis",
+            "path": "synternet>osmosis",
             "client": {
-                "channel": "channel-83350",
+                "channel": "channel-85186",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "synternet",
+                "denom": "usynt"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bomu",
+        "name": "$bomu",
+        "symbol": "BOMU",
+        "description": "Sssshhh…",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bomu.png"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C1B4D4804EB8F95FFB75E6395A301F0AD6D7DDE5C3A45571B70E46A368DD353E",
+        "name": "dATOM",
+        "symbol": "dATOM",
+        "description": "Drop staked ATOM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg",
+        "coinGeckoId": "drop-staked-atom",
+        "ibc_info": {
+            "path": "neutron>osmosis",
+            "client": {
+                "channel": "channel-874",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa",
+        "name": "Sherpa",
+        "symbol": "SHERPA",
+        "description": "The Sherpa memecoin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sherpa.png",
+        "color": "#fe9cdf"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/35F2FB6D55E1F4249D81E0E2B4F9F7961BEBE402517609043FD94796412755F0",
+        "name": "amATOM",
+        "symbol": "amATOM",
+        "description": "The advance token for ATOM denominated vaults on Amulet Protocol",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg",
+        "ibc_info": {
+            "path": "neutron>osmosis",
+            "client": {
+                "channel": "channel-874",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1shwxlkpdjd8h5wdtrykypwd2v62z5glr95yp0etdcspkkjwm5meq82ndxs/amatom"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
+        "name": "Ripple",
+        "symbol": "XRP",
+        "description": "An alloy of XRP asset variants on Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg",
+        "color": "#040404",
+        "coinGeckoId": "ripple"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
+        "name": "xion",
+        "symbol": "XION",
+        "description": "XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png",
+        "coinGeckoId": "xion-2",
+        "ibc_info": {
+            "path": "xion>osmosis",
+            "client": {
+                "channel": "channel-89321",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "xion",
+                "denom": "uxion"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1ss0n3ghv5rr4z4y54fnkprc69tegmdm3ejlkgr2z4utnyg7eljgs9pztvs/alloyed/allFIL",
+        "name": "Filecoin",
+        "symbol": "FIL",
+        "description": "An alloy of FIL asset variants on Osmosis.",
+        "decimals": 12,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/filecoin/images/fil.svg",
+        "color": "#0493fc",
+        "coinGeckoId": "filecoin"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38",
+        "name": "Toncoin (Int3)",
+        "symbol": "TON.int3",
+        "description": "TON on Int3face",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.int3.svg",
+        "ibc_info": {
+            "path": "ton>int3face>osmosis",
+            "client": {
+                "channel": "channel-82819",
                 "port": "transfer"
             },
             "counterparty": {
                 "channel": "channel-0",
                 "port": "transfer",
-                "chain": "kimanetwork",
-                "denom": "uKIMA"
+                "chain": "int3face",
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton"
             }
         }
     },
     {
         "type": "ibc",
-        "denom": "ibc/42D0FBF9DDC72D7359D309A93A6DF9F6FDEE3987EA1C5B3CDE95C06FCE183F12",
-        "name": "furya",
-        "symbol": "FURY",
-        "description": "The native token of Furya",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.svg",
-        "color": "#040404",
-        "coinGeckoId": "fanfury",
+        "denom": "ibc/CD20AC50CE57F1CF2EA680D7D47733DA9213641D2D116C5806A880F508609A7A",
+        "name": "MOBIX",
+        "symbol": "MOBX",
+        "description": "The MOBX coin rewards the use of eco-friendly micromobility transportation.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/mobx.svg",
+        "color": "#04ae9b",
         "ibc_info": {
-            "path": "furya>osmosis",
+            "path": "fetchai>osmosis",
             "client": {
-                "channel": "channel-8690",
+                "channel": "channel-229",
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-3",
+                "channel": "channel-10",
                 "port": "transfer",
-                "chain": "furya",
-                "denom": "ufury"
+                "chain": "fetchai",
+                "denom": "nanomobx"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
+        "name": "Internet Computer",
+        "symbol": "ICP",
+        "description": "Internet Computer bridged via Omnity Network.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/internetcomputer/images/icp.svg",
+        "color": "#29ABE2",
+        "coinGeckoId": "internet-computer",
+        "bridge_info": {
+            "path": "internetcomputer>osmosis"
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/643EBFFC9D4533E93A5CF144FE786A6FB326F4C0C6224F7CB7563CC374EE56EE",
+        "name": "Elys Network",
+        "symbol": "ELYS",
+        "description": "The native token of Elys Network",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png",
+        "coinGeckoId": "elys-network",
+        "ibc_info": {
+            "path": "elys>osmosis",
+            "client": {
+                "channel": "channel-91017",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-6",
+                "port": "transfer",
+                "chain": "elys",
+                "denom": "uelys"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D28B585D6B67E2F1479BBA3E949C687289C94D33FFA0720E3A8CB0B244AD8BC6",
+        "name": "Aaron Network",
+        "symbol": "AARON",
+        "description": "Aaron Network is an innovative platform for secure and private messaging, integrated into the blockchain ecosystem. We also offer a unique address reputation scoring system, ensuring that every user can interact with others confidently.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aaronetwork/images/aaron.png",
+        "ibc_info": {
+            "path": "aaronetwork>osmosis",
+            "client": {
+                "channel": "channel-91942",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-7",
+                "port": "transfer",
+                "chain": "aaronetwork",
+                "denom": "uaaron"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/794CF0A448ECA518B9FEAB3356BD283E8762460F8FE87A013E6F9DBA6C53601C",
+        "name": "Chihuahua",
+        "symbol": "CHIHUAHUA",
+        "description": "Chihuahua coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/chihuahua.png",
+        "color": "#444444",
+        "ibc_info": {
+            "path": "chihuahua>osmosis",
+            "client": {
+                "channel": "channel-113",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-7",
+                "port": "transfer",
+                "chain": "chihuahua",
+                "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/Chihuahua"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
+        "name": "wirelibertyfence",
+        "symbol": "WLF",
+        "description": "WLF coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/wirelibertyfence.png",
+        "color": "#BD963D",
+        "ibc_info": {
+            "path": "chihuahua>osmosis",
+            "client": {
+                "channel": "channel-113",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-7",
+                "port": "transfer",
+                "chain": "chihuahua",
+                "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/wirelibertyfence"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DC1DF96AB7F5109433C3D5FDADE83F8EC2D522B80FAB0593BC1A2781F36AD633",
+        "name": "Ninja Blaze",
+        "symbol": "NBZ",
+        "description": "Ninja Blaze is a decentralized multi-chain gaming platform powered by Injective Blockchain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/NBZ.svg",
+        "color": "#9890f9",
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client": {
+                "channel": "channel-122",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/dogecoin-native-DOGE",
+        "name": "Chain-key Dogecoin",
+        "symbol": "ckDOGE",
+        "description": "A multi-chain dogecoin twin, trustlessly created by chain-key cryptography and Internet Computer smart contracts that directly hold raw dogecoin.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ckDOGE.svg",
+        "bridge_info": {
+            "path": "dogecoin>osmosis"
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4",
+        "name": "dTIA",
+        "symbol": "dTIA",
+        "description": "Drop staked TIA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dTIA.svg",
+        "ibc_info": {
+            "path": "neutron>osmosis",
+            "client": {
+                "channel": "channel-874",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6569248F0ADF74C0751A48AE8D19F28B40565629265956DA4BEBFBFD73F72F0A",
+        "name": "Neptune Receipt USDT",
+        "symbol": "nUSDT",
+        "description": "A receipt token for lent USDT issued by the Neptune Protocol.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdt.png",
+        "color": "#54ac94",
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client": {
+                "channel": "channel-122",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7D22B3B8C52261AB0A5F8360B5F472C9A14A05ADFEF858C3573D09AFF10CE1BE",
+        "name": "Neptune Receipt USDC",
+        "symbol": "nUSDC",
+        "description": "A receipt token for lent USDC issued by the Neptune Protocol.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdc.png",
+        "color": "#2775ca",
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client": {
+                "channel": "channel-122",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2C43B074A5C7C3FB32EB8FA85239FCF887312BC960F373BC1EF1EE8517A0B996",
+        "name": "kUSD",
+        "symbol": "kUSD",
+        "description": "A Stablecoin native to the Kopi blockchain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kopi/images/kusd.svg",
+        "ibc_info": {
+            "path": "kopi>osmosis",
+            "client": {
+                "channel": "channel-97998",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "kopi",
+                "denom": "ukusd"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/86E7DAA73DD4AEA7319C77A81CF202A02BD094AE8550EEEAB06DF31749B6E05C",
+        "name": "Kopi",
+        "symbol": "XKP",
+        "description": "The native token of kopi",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kopi/images/kopi.svg",
+        "ibc_info": {
+            "path": "kopi>osmosis",
+            "client": {
+                "channel": "channel-97998",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "kopi",
+                "denom": "ukopi"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BA47828ADDC3700F50B35696390F4C53E35CBB42E84FF768BB75C3F6BAEFD9F1",
+        "name": "Quicksilver Liquid Staked ARCH",
+        "symbol": "qARCH",
+        "description": "Quicksilver Liquid Staked ARCH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qarch.svg",
+        "color": "#ff914d",
+        "ibc_info": {
+            "path": "quicksilver>osmosis",
+            "client": {
+                "channel": "channel-522",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "quicksilver",
+                "denom": "aqarch"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C66CF6F56DC47AECFA2C593C371D5D6218CF9DF709B6F0DAB7C33A9766889E55",
+        "name": "Quicksilver Liquid Staked PICA",
+        "symbol": "qPICA",
+        "description": "Quicksilver Liquid Staked PICA",
+        "decimals": 12,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qpica.svg",
+        "color": "#ff914d",
+        "ibc_info": {
+            "path": "quicksilver>osmosis",
+            "client": {
+                "channel": "channel-522",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "quicksilver",
+                "denom": "pqpica"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E8CB12995A190336CA7A647B618E97DF6CA1E1A3FD7685B1AA9C1C80FC63858E",
+        "name": "Quicksilver Liquid Staked TIA",
+        "symbol": "qTIA",
+        "description": "Quicksilver Liquid Staked TIA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qtia.svg",
+        "color": "#ff914d",
+        "ibc_info": {
+            "path": "quicksilver>osmosis",
+            "client": {
+                "channel": "channel-522",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "quicksilver",
+                "denom": "uqtia"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9880C90A843C647E7A5D7C108CBB3D6E3D671F3F6BB930558F81B3B24D334162",
+        "name": "Quicksilver Liquid Staked FLIX",
+        "symbol": "qFLIX",
+        "description": "Quicksilver Liquid Staked FLIX",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qflix.svg",
+        "color": "#ff914d",
+        "ibc_info": {
+            "path": "quicksilver>osmosis",
+            "client": {
+                "channel": "channel-522",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "quicksilver",
+                "denom": "uqflix"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C3FD0795C73D0D61C09374F99D3F23E746194D22A64B6A44FF0530BCF2419053",
+        "name": "Quicksilver Liquid Staked LUNA",
+        "symbol": "qLUNA",
+        "description": "Quicksilver Liquid Staked LUNA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qluna.svg",
+        "color": "#ff914d",
+        "ibc_info": {
+            "path": "quicksilver>osmosis",
+            "client": {
+                "channel": "channel-522",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "quicksilver",
+                "denom": "uqluna"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3C85C44DCB6BCC4FFB9D295EE79ED412E1FAD5D775C99E6AA51CCEF5CA32409C",
+        "name": "Quicksilver Liquid Staked INJ",
+        "symbol": "qINJ",
+        "description": "Quicksilver Liquid Staked INJ",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qinj.svg",
+        "color": "#ff914d",
+        "ibc_info": {
+            "path": "quicksilver>osmosis",
+            "client": {
+                "channel": "channel-522",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "quicksilver",
+                "denom": "qinj"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1nqu7rc5mj5p2cgyfp7gl3lw7kw99cltple3xtzl2cs5fyw0r2tasr7xv48/alloyed/allSUI",
+        "name": "Sui",
+        "symbol": "SUI",
+        "description": "An alloy of SUI asset variants on Osmosis.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/sui/images/sui.svg",
+        "coinGeckoId": "sui"
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1zynnzvwdu72zc4mxqnnp348ksfmayldqyfs8khdud3myr7m5h8nsqwta2v/alloyed/allAPT",
+        "name": "Aptos Coin",
+        "symbol": "APT",
+        "description": "An alloy of APTOS asset variants on Osmosis.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/aptos.svg",
+        "coinGeckoId": "aptos"
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1zetxzc5nka4jm203ljjtjf933jwjh45ge6spfeef447rnnhqxc4qrazrcz/alloyed/allBNB",
+        "name": "Binance Coin",
+        "symbol": "BNB",
+        "description": "An alloy of BNB asset variants on Osmosis.",
+        "decimals": 12,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.svg",
+        "color": "#f3bb0c",
+        "coinGeckoId": "binancecoin"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8765FF0D37A7A85357ED28061EDEBC736743216DB06FE92231957CE158FB351E",
+        "name": "Side Bitcoin",
+        "symbol": "sBTC",
+        "description": "BTC-pegged token on Side Chain.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/sBTC.svg",
+        "color": "#f7771a",
+        "ibc_info": {
+            "path": "bitcoin>sidechain>osmosis",
+            "client": {
+                "channel": "channel-98081",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "sidechain",
+                "denom": "sat"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083/alloyed/allDYDX",
+        "name": "dYdX Protocol",
+        "symbol": "DYDX",
+        "description": "An alloy of DYDX asset variants on Osmosis.",
+        "decimals": 12,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
+        "coinGeckoId": "dydx-chain"
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs/alloyed/allFET",
+        "name": "Fetch.ai",
+        "symbol": "FET",
+        "description": "An alloy of FET asset variants on Osmosis.",
+        "decimals": 12,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg",
+        "color": "#1c2444",
+        "coinGeckoId": "fetch-ai"
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae/alloyed/allAIOZ",
+        "name": "AIOZ Network",
+        "symbol": "AIOZ",
+        "description": "An alloy of AIOZ asset variants on Osmosis.",
+        "decimals": 12,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg",
+        "color": "#24241c",
+        "coinGeckoId": "aioz-network"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E72E62E74112F379BB760D02515DA215408CCBF401CD4C9BC0A3DBD72A7076E1",
+        "name": "SAM",
+        "symbol": "SAM",
+        "description": "The SAM token is a native memecoin on Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.svg",
+        "coinGeckoId": "sam-2",
+        "ibc_info": {
+            "path": "orai-chain>osmosis",
+            "client": {
+                "channel": "channel-216",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-13",
+                "port": "transfer",
+                "chain": "orai-chain",
+                "denom": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6178310C049238B538203D57BFF17481C7E8E11C9D7EA204D2C9B1E67D914F78",
+        "name": "EMPR",
+        "symbol": "EMPR",
+        "description": "Staking coin of Emporion",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/empr.png",
+        "ibc_info": {
+            "path": "juno>osmosis",
+            "client": {
+                "channel": "channel-42",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "juno",
+                "denom": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
+        "name": "Ali-Rev-Gator",
+        "symbol": "BIKE",
+        "description": "The OG meme coin on MANTRA Chain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/BIKE.png",
+        "color": "#80c75d",
+        "ibc_info": {
+            "path": "mantra>osmosis",
+            "client": {
+                "channel": "channel-85077",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "mantra",
+                "denom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/73C91DAE5E8AAC34C95BE8B969365449FFFC2D900A5FDEF40BA339EB34CE5752",
+        "name": "Pryzm",
+        "symbol": "PRYZM",
+        "description": "The native token of PRYZM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm.svg",
+        "color": "#c6ddf5",
+        "ibc_info": {
+            "path": "pryzm>osmosis",
+            "client": {
+                "channel": "channel-75755",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "pryzm",
+                "denom": "upryzm"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/48047CBAA27D0526BA9E6BEC9D77D9B796AA95E35C95891C7F19C3F0D32473F6",
+        "name": "HOOD",
+        "symbol": "HOOD",
+        "description": "The community token for The Fortunate Few, a multi chain NFT community platform.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/hood.png",
+        "ibc_info": {
+            "path": "stargaze>osmosis",
+            "client": {
+                "channel": "channel-75",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "stargaze",
+                "denom": "factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood"
             }
         }
     },
@@ -9817,30 +10507,6 @@
                 "port": "transfer",
                 "chain": "pundix",
                 "denom": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78"
-            }
-        }
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/320F8D6EC17E14436D19C6D844BB9A5AE9B9A209F6D18364A2191FF08E8732A9",
-        "name": "dHealth",
-        "symbol": "DHP",
-        "description": "The native token of dHealth",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg",
-        "color": "#140c7c",
-        "coinGeckoId": "dhealth",
-        "ibc_info": {
-            "path": "dhealth>osmosis",
-            "client": {
-                "channel": "channel-38776",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-1",
-                "port": "transfer",
-                "chain": "dhealth",
-                "denom": "udhp"
             }
         }
     },
@@ -9958,117 +10624,14 @@
         "decimals": 6
     },
     {
-        "type": "ibc",
-        "denom": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5",
-        "name": "Xion",
-        "symbol": "XION",
-        "description": "Xion Staking Coin",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/asset/xion.png",
-        "coinGeckoId": "xion-2",
-        "ibc_info": {
-            "path": "xion>osmosis",
-            "client": {
-                "channel": "channel-89321",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-1",
-                "port": "transfer",
-                "chain": "xion",
-                "denom": "uxion"
-            }
-        }
-    },
-    {
-        "type": "bridge",
-        "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP",
-        "name": "Internet Computer",
-        "symbol": "ICP",
-        "description": "ICP ffrom dfinity",
-        "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/icp.png",
-        "coinGeckoId": "internet-computer",
-        "bridge_info": {
-            "path": "internetcomputer>osmosis"
-        }
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/794CF0A448ECA518B9FEAB3356BD283E8762460F8FE87A013E6F9DBA6C53601C",
-        "name": "Chihuahua",
-        "symbol": "CHIHUAHUA",
-        "description": "Chihuahua coin",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/chihuahua.png",
-        "ibc_info": {
-            "path": "chihuahua>osmosis",
-            "client": {
-                "channel": "channel-113",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-7",
-                "port": "transfer",
-                "chain": "chihuahua",
-                "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/Chihuahua"
-            }
-        }
-    },
-    {
         "type": "native",
         "denom": "factory/osmo1svj5kd8kzj7xxtrd6ftjk0856ffpyj4egz7f9pd9dge5wr4kwansmefq07/ion.ash",
         "name": "Burned ION",
         "symbol": "ashION",
         "description": "ashION - Burned ION",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ashion.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ashion.png",
         "color": "#ebb093"
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/3D00ACF371FC6B7BC871399B1909DDE18749FA19DE6B7A4F74E1D96BC073B3BC",
-        "name": "WireLibertyFence",
-        "symbol": "WLF",
-        "description": "WLF coin",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/wirelibertyfence.png",
-        "ibc_info": {
-            "path": "chihuahua>osmosis",
-            "client": {
-                "channel": "channel-113",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-7",
-                "port": "transfer",
-                "chain": "chihuahua",
-                "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/wirelibertyfence"
-            }
-        }
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/DC1DF96AB7F5109433C3D5FDADE83F8EC2D522B80FAB0593BC1A2781F36AD633",
-        "name": "Ninja Blaze Token",
-        "symbol": "NBZ",
-        "description": "Ninja Blaze Token",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/nbz.png",
-        "coinGeckoId": "",
-        "ibc_info": {
-            "path": "injective>osmosis",
-            "client": {
-                "channel": "channel-122",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-8",
-                "port": "transfer",
-                "chain": "injective",
-                "denom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ"
-            }
-        }
     },
     {
         "type": "native",
@@ -10077,51 +10640,26 @@
         "symbol": "CULT",
         "description": "CULT - Less Brainwashing, More Utility",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/cult.png"
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/cult.png"
     },
     {
         "type": "ibc",
-        "denom": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4",
-        "name": "dTIA",
-        "symbol": "dTIA",
-        "description": "Drop staked TIA",
+        "denom": "ibc/EA0C8F1121425943740B2D1B1DC5BDD717D49A9D5A639DC7074C10E9212CC794",
+        "name": "Pleb Coin",
+        "symbol": "PLEB",
+        "description": "Tek ovah!",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dtia.png",
-        "coinGeckoId": "drop-staked-tia",
         "ibc_info": {
-            "path": "neutron>osmosis",
+            "path": "stargaze>osmosis",
             "client": {
-                "channel": "channel-874",
+                "channel": "channel-75",
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-10",
+                "channel": "channel-0",
                 "port": "transfer",
-                "chain": "neutron",
-                "denom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia"
-            }
-        }
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/C1B4D4804EB8F95FFB75E6395A301F0AD6D7DDE5C3A45571B70E46A368DD353E",
-        "name" : "dATOM",
-        "symbol": "dATOM",
-        "description": "A liquid staking derivative of staked ATOM, powered by DROP on Neutron.",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/datom.png",
-        "coinGeckoId": "drop-staked-atom",
-        "ibc_info" : {
-            "path": "neutron>osmosis",
-            "client" : {
-                "channel": "channel-874",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-10",
-                "port": "transfer",
-                "chain": "neutron",
-                "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
+                "chain": "stargaze",
+                "denom": "factory/stars1k7qsxdxh8calmt4txk75e6hdntefslegwddqnlwjjqgjkmcfqy0qa97sn8/pleb"
             }
         }
     },
@@ -10132,109 +10670,81 @@
         "symbol": "BITCOIN",
         "description": "Cosmos Bitcoin",
         "decimals": 6,
-        "image": " https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/bitcoin.png",
         "ibc_info": {
             "path": "injective>osmosis",
-            "client":{
+            "client": {
                 "channel": "channel-122",
                 "port": "transfer"
-					},
+            },
             "counterparty": {
                 "channel": "channel-8",
                 "port": "transfer",
                 "chain": "injective",
                 "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BITCOIN"
-							}
-					}
+            }
+        }
     },
-	{
-        "type": "ibc",
-        "denom": "ibc/54C7B977B96DFC56D877A7F74D22BD26B5E42CA6171F120F5A36AC82BFD4711A",
-        "name": "BRICS",
-        "symbol": "BRICS",
-        "description": "BRICS coin",
-        "decimals": 6,
-        "image": " https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/brics.png",
-        "ibc_info": {
-            "path": "injective>osmosis",
-            "client":{
-                "channel": "channel-122",
-                "port": "transfer"
-					},
-             "counterparty": {
-                "channel": "channel-8",
-                "port": "transfer",
-                "chain": "injective",
-                "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS"
-							}
-					}
-    },
-	{
+    {
         "type": "ibc",
         "denom": "ibc/1B23B6F7DAC37267F04E82466AB798CC59F941BD4AE5653C497730F174F14849",
         "name": "Crypto",
         "symbol": "CRYPTO",
-        "description": "Crypto coin",
+        "description": "Crypto",
         "decimals": 6,
-        "image": " https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/crypto.png",
         "ibc_info": {
             "path": "injective>osmosis",
-            "client":{
+            "client": {
                 "channel": "channel-122",
                 "port": "transfer"
-					},
+            },
             "counterparty": {
                 "channel": "channel-8",
                 "port": "transfer",
                 "chain": "injective",
                 "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/CRYPTO"
-							}
-					}
-    }, 
-	{
+            }
+        }
+    },
+    {
         "type": "ibc",
-        "denom": "ibc/A436BC9498153DC580B56BD27043BBFE08A1754696C05FFF00B2A41EC796D180",
-        "name": "INC",
-        "symbol": "INC",
-        "description": "Instant Noodles coin",
+        "denom": "ibc/54C7B977B96DFC56D877A7F74D22BD26B5E42CA6171F120F5A36AC82BFD4711A",
+        "name": "Brics coin",
+        "symbol": "BRICS",
+        "description": "Bricscoin",
         "decimals": 6,
-        "image": " https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/inc.png",
         "ibc_info": {
             "path": "injective>osmosis",
-            "client":{
+            "client": {
                 "channel": "channel-122",
                 "port": "transfer"
-					},
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A436BC9498153DC580B56BD27043BBFE08A1754696C05FFF00B2A41EC796D180",
+        "name": "Instant Noodles Coin",
+        "symbol": "INC",
+        "description": "Instant Noodles Coin",
+        "decimals": 6,
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client": {
+                "channel": "channel-122",
+                "port": "transfer"
+            },
             "counterparty": {
                 "channel": "channel-8",
                 "port": "transfer",
                 "chain": "injective",
                 "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC"
-							}
-					}
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/E72E62E74112F379BB760D02515DA215408CCBF401CD4C9BC0A3DBD72A7076E1",
-        "name": "SAM",
-        "symbol": "SAM",
-        "description": "The SAM token is a native memecoin on Oraichain",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.png",
-        "color": "#000000",
-        "coinGeckoId": "sam-2",
-        "ibc_info": {
-            "path": "orai-chain>osmosis",
-            "client": {
-                "channel": "channel-216",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-13",
-                "port": "transfer",
-                "chain": "orai-chain",
-                "denom": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM"
             }
         }
-    }      	
+    }
 ]
