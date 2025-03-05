@@ -1,0 +1,79 @@
+{
+    "chain_id_cosmos" : "andromeda-1",
+    "chain_name": "Andromeda",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/andromeda/resource/chain_andromeda.png",
+    "main_asset_denom": "uandr",
+    "main_asset_symbol" : "ANDR",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/andromeda/asset/andr.png",
+    "bech_account_prefix" : "andr",
+    "bech_validator_prefix" : "andrvaloper",
+    "origin_genesis_time" : "2023-11-15T07:53:19Z",
+    "api_name" : "andromeda",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.05uandr"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Lavender.Five Nodes",
+            "url": "andromeda.lavenderfive.com:443"
+        },
+        {
+            "provider": "LiveRaveN",
+            "url": "andromeda.grpc.liveraven.net:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Stavr",
+            "url": "https://andro.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavender.Five Nodes",
+            "url": "https://rest.lavenderfive.com:443/andromeda/"
+        },
+        {
+            "provider": "StakerHouse",
+            "url": "https://andromeda-rest.stakerhouse.com:443/"
+        }
+    ],
+    "explorer" : {
+        "name": "Stavr",
+        "url": "https://explorer.stavr.tech/Andromeda-Mainnet/",
+        "account": "https://explorer.stavr.tech/Andromeda-Mainnet/account/${address}",
+        "tx": "https://explorer.stavr.tech/Andromeda-Mainnet/tx/${hash}",
+        "proposal": "https://explorer.stavr.tech/Andromeda-Mainnet/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://www.andromedaprotocol.io/",
+        "docs": "https://docs.andromedaprotocol.io/andromeda",
+        "github" : "https://github.com/andromedaprotocol",
+        "blog" : "https://www.andromedaprotocol.io/blog",
+        "medium": "",
+        "twitter" : "https://x.com/andromedaprot",
+        "coingecko" : "https://www.coingecko.com/en/coins/andromeda-2"
+    },
+    "description" : {
+        "ko" : "Andromeda는 aOS 기반의 Web3 운영 체제로, IBC를 활용한 멀티체인 상호운용성과 ADO를 통한 빠른 개발을 지원하는 플랫폼입니다.",
+        "en" : "Andromeda is a Web3 operating system based on aOS, enabling multi-chain interoperability through IBC and supporting rapid development via ADO.",
+        "ja" : "Andromedaは、aOSを基盤としたWeb3オペレーティングシステムであり、IBCを活用したマルチチェーン相互運用性と、ADOによる迅速な開発をサポートするプラットフォームです。"
+    }
+}
