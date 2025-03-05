@@ -7,7 +7,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/wshido.png",
-        "coinGeckoId": "",
+        "coinGeckoId": "wrapped-shido",
         "wallet_preload": true
     },
     {
@@ -28,17 +28,7 @@
         "symbol": "SALT",
         "description": "",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/wshido.png",
-        "coinGeckoId": ""
-    },
-    {
-        "type": "erc20",
-        "contract": "0x8c248F053920f6b39bFdE892480d10C5E0A8a3df",
-        "name" : "Goat",
-        "symbol": "GOAT",
-        "description": "",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/goat.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/salt.png",
         "coinGeckoId": ""
     },
     {
@@ -53,7 +43,7 @@
     },
     {
         "type": "erc20",
-        "contract": "0xA48054c9fc0026459031141E42052a9aB37034Fd",
+        "contract": "0x2835Ad9a421C14E1C571a5Bb492B86b7E8f5873A",
         "name" : "Shidokid",
         "symbol": "KIDDO",
         "description": "",
@@ -79,16 +69,48 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/kensei.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x37385e458bb1b19c614c238e5109e59ac605df7a",
+        "name" : "Crazy Chicken",
+        "symbol": "CHICK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/chick.png",
         "coinGeckoId": ""
     },
     {
         "type": "erc20",
-        "contract": "0x29a9733cEbeF2219f48763B40859a0eec8B5C77F",
-        "name" : "Xshrimp",
-        "symbol": "SHRIMP",
+        "contract": "0xe550Bde2F0898552B38a41635d7a8DDB1Fd81276",
+        "name" : "Shido Dex",
+        "symbol": "SHDX",
         "description": "",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shrimp.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shdx.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x796F48d17d38E5f0A7aFe7966448828bdc13e8B1",
+        "name" : "0xDead",
+        "symbol": "0xded",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/0xdead.png",
+        "coinGeckoId": ""
+    },    
+    {
+        "type": "erc20",
+        "contract": "0xF7B264B723059a05fBf13E32783F88db33A24365",
+        "name" : "Shidoshi",
+        "symbol": "SDS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shidoshi.png",
         "coinGeckoId": ""
     }
 ]

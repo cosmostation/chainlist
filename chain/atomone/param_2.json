@@ -26,7 +26,7 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.001uatone"
+            "0.1uatone"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
@@ -58,7 +58,13 @@
         "blog" : "",
         "medium": "",
         "twitter" : "https://x.com/_atomone",
-        "coingecko" : ""
+        "discord" : "https://discord.com/invite/atomone",
+        "reddit" : "https://www.reddit.com/r/AtomOneHub/",
+        "coingecko" : "atomone"
+    },
+    "forum": {
+        "main": "https://common.xyz/atomone/discussions?tab=all",
+        "governance": "https://gov.atom.one/"
     },
     "description" : {
         "ko" : "AtomOne는 Gaia의 대안적인 최소 포크로, 다양한 하위 그룹의 대표성을 강화하고 Cosmos 생태계 내에서 정치적 기반 역할을 합니다. 협력과 경쟁을 통해 특화된 영역을 조성하며, 직접 민주주의에 영감을 받은 거버넌스 모델을 도입하고 있습니다.",

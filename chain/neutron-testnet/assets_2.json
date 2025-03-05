@@ -20,6 +20,16 @@
         "coinGeckoId": ""
     },
     {
+        "type": "native",
+        "denom": "factory/neutron1d4vuh48gngpltsx263njghasydrjdke3mx7tw2dc8yl66x92xj3qafza2z/udinit",
+        "name": "dINIT Testnet",
+        "symbol": "dINIT",
+        "description": "Drop staked INIT(Neutron-testnet)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron-testnet/asset/dinit.png",
+        "coinGeckoId": ""
+    },
+    {
         "type": "ibc",
         "denom": "ibc/9DF365E2C0EF4EA02FA771F638BB9C0C830EFCD354629BDC017F79B348B4E989",
         "name": "Atom Testnet",
