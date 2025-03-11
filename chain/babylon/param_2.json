@@ -9,7 +9,7 @@
     "bech_validator_prefix": "bbnvaloper",
     "origin_genesis_time": "",
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : true,
+    "is_support_extension_wallet" : false,
     "btc_staking": {
         "is_support_staking" : false,
         "url": "https://btcstaking.babylonlabs.io/"

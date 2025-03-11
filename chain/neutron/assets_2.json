@@ -1038,5 +1038,93 @@
                 "denom": "factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F16C7C5B6F7E96ACDA73E35BCA3A3DE49DDF7164066A359C843E9709041CE6B9",
+        "name": "Dogecoin (Int3)",
+        "symbol": "DOGE.int3",
+        "description": "Dogecoin on Int3face",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg",
+        "ibc_info": {
+            "path": "dogecoin>int3face>neutron",
+            "client": {
+                "channel": "channel-6455",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "int3face",
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D9E2128761E0A60C6C7C166BF30A23E9C2029576817F16CD4BD4F598A2077C04",
+        "name": "Bitcoin (Int3)",
+        "symbol": "BTC.int3",
+        "description": "Bitcoin on Int3face",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg",
+        "ibc_info": {
+            "path": "bitcoin>int3face>neutron",
+            "client": {
+                "channel": "channel-6455",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "int3face",
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1D45F4770FA033E69A3A3B751263FD774952C2452F65944A1CB914E58C74A35B",
+        "name": "Bitcoin Cash (Int3)",
+        "symbol": "BCH.int3",
+        "description": "Bitcoin-Cash on Int3face",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg",
+        "ibc_info": {
+            "path": "bitcoincash>int3face>neutron",
+            "client": {
+                "channel": "channel-6455",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "int3face",
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C4C791209A16419A4BB3C3177E5E8AE4477C9D7457842E7F531F91C513FA79A0",
+        "name": "Litecoin (Int3)",
+        "symbol": "LTC.int3",
+        "description": "Litecoin on Int3face",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg",
+        "ibc_info": {
+            "path": "litecoin>int3face>neutron",
+            "client": {
+                "channel": "channel-6455",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "int3face",
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc"
+            }
+        }
     }
 ]

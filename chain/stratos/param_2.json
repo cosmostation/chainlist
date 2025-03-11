@@ -1,0 +1,98 @@
+{
+    "chain_id_cosmos" : "stratos-1",
+    "chain_id_evm" : "0x800",
+    "chain_name": "Evmos",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stratos/resource/chain_stratos.png",
+    "main_asset_denom" : "wei",
+    "main_asset_symbol" : "STOS",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stratos/asset/stos.png",
+    "bech_account_prefix" : "st",
+    "bech_validator_prefix" : "stvaloper",
+    "origin_genesis_time" : "2023-09-08T00:00:00Z",
+    "api_name": "stratos",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : false,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "1000000000wei",
+            "1200000000wei",
+            "1600000000wei"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": false,
+        "simulated_gas_multiply" : 1.2
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "thestratos.org",
+            "url": "grpc.thestratos.org:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "thestratos.org",
+            "url": "https://rest.thestratos.org/"
+        },
+        {
+            "provider": "[NODERS]TEAM",
+            "url": "https://stratos-api.noders.services:443/"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.stratos.nodestake.org/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "thestratos.org",
+            "url": "https://web3-rpc.thestratos.org"
+        },
+        {
+            "provider": "[NODERS]TEAM",
+            "url": "https://stratos-jsonrpc.noders.services"
+        }
+    ],
+    "explorer" : {
+        "name": "Bigdipper",
+        "url": "https://explorer.thestratos.org/",
+        "account": "https://explorer.thestratos.org/accounts/${address}",
+        "tx": "https://explorer.thestratos.org/transactions/${hash}",
+        "proposal": "https://explorer.thestratos.org/stratos/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.thestratos.org/",
+        "docs": "https://docs.thestratos.org/",
+        "github" : "https://github.com/stratosnet",
+        "blog" : "",
+        "medium": "https://stratos-network.medium.com/",
+        "twitter" : "https://x.com/Stratos_Network",
+        "coingecko" : "https://www.coingecko.com/en/coins/stratos"
+    },
+    "forum": {
+        "main": "https://commonwealth.im/evmos",
+        "governance": "https://commonwealth.im/evmos"
+    },
+    "description" : {
+        "ko" : "Stratos는 스토리지, 컴퓨팅, 데이터베이스 및 블록체인 서비스를 포함한 첨단 탈중앙화 솔루션을 통해 AI와 DePIN을 혁신하는 선구적인 탈중앙화 인프라 서비스 제공업체입니다. 우리는 확장 가능하고 신뢰할 수 있으며 고성능 네트워크를 통해 Web 3.0 개발자와 dApp을 지원합니다.",
+        "en" : "Stratos is a pioneering decentralized infrastructure service provider, revolutionizing AI and DePIN with advanced decentralized solutions in storage, computing, databases, and blockchain services. We empower Web 3.0 developpers and dApps through our scalable, reliable, and high-performance networks.",
+        "ja" : "Stratosは、ストレージ、コンピューティング、データベース、ブロックチェーンサービスを含む先進的な分散型ソリューションを活用し、AIとDePINを革新する先駆的な分散型インフラサービスプロバイダーです。私たちは、スケーラブルで信頼性が高く、高性能なネットワークを通じて、Web3.0開発者やdAppsを支援します。"
+    }
+}

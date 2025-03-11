@@ -4235,5 +4235,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/zeta.png",
         "coinGeckoId": "zetachain"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
+        "name": "Cronos",
+        "symbol": "CRO",
+        "description": "Cronos",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cronos/asset/cro.png",
+        "coinGeckoId": "crypto-com-chain"
     }
 ]

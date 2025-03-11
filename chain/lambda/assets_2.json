@@ -1,0 +1,13 @@
+[
+    {
+        "type": "native",
+        "denom": "ulamb",
+        "name" : "Lambda",
+        "symbol": "LAMB",
+        "description": "The native token of Lambda",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lambda/asset/lamb.png",
+        "coinGeckoId": "lambda",
+        "color": "#e41c54"
+    }
+]

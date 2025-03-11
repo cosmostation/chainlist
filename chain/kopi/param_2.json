@@ -1,0 +1,87 @@
+{
+    "chain_id_cosmos" : "luwak-1",
+    "chain_name": "Kopi",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kopi/resource/chain_kopi.png",
+    "main_asset_denom": "ukopi",
+    "main_asset_symbol" : "XKP",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kopi/asset/xkp.png",
+    "bech_account_prefix" : "kopi",
+    "bech_validator_prefix" : "kopivaloper",
+    "origin_genesis_time" : "2024-11-19T20:58:29Z",
+    "api_name" : "kopi",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.025ukopi"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Stakerhouse",
+            "url": "kopi-grpc.stakerhouse.com:443"
+        },
+        {
+            "provider": "Node9x",
+            "url": "kopi-grpc.node9x.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Kopi Foundation",
+            "url": "https://rest.kopi.money/"
+        },
+        {
+            "provider": "Cosmoscan",
+            "url": "https://kopi-rest.cosmoscan.com/"
+        },
+        {
+            "provider": "Stakerhouse",
+            "url": "https://kopi-rest.stakerhouse.com/"
+        },
+        {
+            "provider": "Moonbridge",
+            "url": "https://kopi-api.moonbridge.org/"
+        },
+        {
+            "provider": "Bony",
+            "url": "https://kopi-mainnet-api.bonynode.online/"
+        }
+    ],
+    "explorer" : {
+        "name": "Kopi Foundation Explorer",
+        "url": "https://explorer.kopi.money/",
+        "account": "https://explorer.kopi.money/luwak-1/account/${address}",
+        "tx": "https://explorer.kopi.money/luwak-1/tx/${hash}",
+        "proposal": "https://explorer.kopi.money/luwak-1/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://kopi.money/",
+        "docs": "https://kopi.money/academy/introduction-kopi",
+        "github" : "https://github.com/kopi-money",
+        "blog" : "",
+        "medium": "",
+        "twitter" : "https://x.com/kopi_money",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "​Kopi는 탈중앙화 거래소와 자체 공급 관리 코인(kCoins)을 제공하는 최신 DeFi 프로젝트입니다.",
+        "en" : "​Kopi is a new DeFi project offering a decentralized exchange and its own supply-managed coin, kCoins.",
+        "ja" : "Kopiは、分散型取引所と独自の供給管理コイン（kCoins）を提供する最新のDeFiプロジェクトです。。"
+    }
+}
