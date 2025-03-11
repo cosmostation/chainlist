@@ -1046,7 +1046,7 @@
         "symbol": "DOGE.int3",
         "description": "Dogecoin on Int3face",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/doge.int3.svg",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg",
         "ibc_info": {
             "path": "dogecoin>int3face>neutron",
             "client": {
@@ -1068,7 +1068,7 @@
         "symbol": "BTC.int3",
         "description": "Bitcoin on Int3face",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/btc.int3.svg",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg",
         "ibc_info": {
             "path": "bitcoin>int3face>neutron",
             "client": {
@@ -1090,7 +1090,7 @@
         "symbol": "BCH.int3",
         "description": "Bitcoin-Cash on Int3face",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bch.int3.svg",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg",
         "ibc_info": {
             "path": "bitcoincash>int3face>neutron",
             "client": {
@@ -1112,7 +1112,7 @@
         "symbol": "LTC.int3",
         "description": "Litecoin on Int3face",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ltc.int3.svg",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg",
         "ibc_info": {
             "path": "litecoin>int3face>neutron",
             "client": {
