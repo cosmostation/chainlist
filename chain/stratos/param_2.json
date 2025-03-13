@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos" : "stratos-1",
     "chain_id_evm" : "0x800",
-    "chain_name": "Evmos",
+    "chain_name": "Stratos",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stratos/resource/chain_stratos.png",
     "main_asset_denom" : "wei",
     "main_asset_symbol" : "STOS",
@@ -73,8 +73,8 @@
     "explorer" : {
         "name": "Bigdipper",
         "url": "https://explorer.thestratos.org/",
-        "account": "https://explorer.thestratos.org/accounts/${address}",
-        "tx": "https://explorer.thestratos.org/transactions/${hash}",
+        "account": "https://explorer.thestratos.org/stratos/accounts/${address}",
+        "tx": "https://explorer.thestratos.org/stratos/transactions/${hash}",
         "proposal": "https://explorer.thestratos.org/stratos/proposals/${id}"
     },
     "about" : {
