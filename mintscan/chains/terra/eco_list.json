@@ -33,7 +33,7 @@
     "type": "Transport",
     "description": "Transfer USDT/USDC from outside of Cosmos to Sei EVM and then use Skip Go for IBC to Terra. (Alternate route: Kava)",
     "status": "open",
-    "thumbnail" : "stargate2",
+    "thumbnail" : "stargate",
     "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=sei&dstToken=0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
     "social": {
       "webSite": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
@@ -178,8 +178,7 @@
     "link": "https://app.kava.io/transfer",
     "social": {
       "webSite": "https://app.kava.io/transfer",
-      "twitter": "https://twitter.com/portalbridge_?lang=en",
-      "github": "https://github.com/wormhole-foundation/wormhole",
+      "twitter": "https://x.com/KAVA_CHAIN/status/1768320712660398268",
       "docs": "https://help.app.kava.io/article/44-how-to-transfer-usdt-to-cosmos-chains-with-a-single-click"
     }
   },
