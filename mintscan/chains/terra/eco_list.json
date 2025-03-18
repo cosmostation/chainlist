@@ -31,7 +31,7 @@
   {
     "name": "Stargate Finance",
     "type": "Transport",
-    "description": "Transfer USDT/USDC from outside of Cosmos to Sei EVM and then use Skip Go for IBC to Terra. (Alternate route: Kava)",
+    "description": "Transfer USDT/USDC from anywhere to Sei EVM. Then use Skip Go for IBC to Terra. (Alternate route: Kava)",
     "status": "open",
     "thumbnail" : "stargate",
     "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=sei&dstToken=0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
@@ -44,9 +44,22 @@
     }
   },
   {
+    "name": "Kava EVM to Terra",
+    "type": "Transport",
+    "description": "Use this app for 1-click transfer native USDT from Kava EVM to Terra and back.",
+    "status": "open",
+    "thumbnail" : "appkava",
+    "link": "https://app.kava.io/transfer",
+    "social": {
+      "webSite": "https://app.kava.io/transfer",
+      "twitter": "https://x.com/KAVA_CHAIN/status/1768320712660398268",
+      "docs": "https://help.app.kava.io/article/44-how-to-transfer-usdt-to-cosmos-chains-with-a-single-click"
+    }
+  },
+  {
     "name": "Monerium",
     "type": "Transport",
-    "description": "SEPA transfers to your monerium IBAN will mint EURe on your Noble address, to then IBC to Terra.",
+    "description": "SEPA transfers to your monerium IBAN will mint EURe on your Noble address. Then IBC to Terra.",
     "status": "open",
     "thumbnail" : "monerium",
     "link": "https://monerium.app/accounts",
@@ -85,21 +98,6 @@
       "medium": "https://medium.com/@whitewhaleterra",
       "github": "https://github.com/White-Whale-Defi-Platform/",
       "docs": "https://docs.migaloo.zone/"
-    }
-  },
-  {
-    "name": "TFM",
-    "type": "DeFi",
-    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's, ...",
-    "status": "open",
-    "thumbnail" : "tfm",
-    "link": "https://app.tfm.com/bridge?chainFrom=cosmoshub-4&chainTo=phoenix-1&token0=uatom",
-    "social": {
-      "webSite": "https://tfm.com/",
-      "twitter": "https://twitter.com/tfm_com",
-      "medium": "https://medium.com/@tfm.com",
-      "github": "https://github.com/tfm-com",
-      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
     }
   },
   {
@@ -156,6 +154,21 @@
     }
   },
   {
+    "name": "TFM",
+    "type": "DeFi",
+    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's, ...",
+    "status": "open",
+    "thumbnail" : "tfm",
+    "link": "https://app.tfm.com/bridge?chainFrom=cosmoshub-4&chainTo=phoenix-1&token0=uatom",
+    "social": {
+      "webSite": "https://tfm.com/",
+      "twitter": "https://twitter.com/tfm_com",
+      "medium": "https://medium.com/@tfm.com",
+      "github": "https://github.com/tfm-com",
+      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
+    }
+  },
+  {
     "name": "Demex",
     "type": "DeFi",
     "description": "A multi-chain Perpetual DEX on Carbon. Also borrow/lend LUNA here via Nitron.",
@@ -170,22 +183,9 @@
     }
   },
   {
-    "name": "Kava EVM to Terra",
-    "type": "Transport",
-    "description": "Use this app for 1-click transfer native USDT on Kava EVM to Terra and back.",
-    "status": "open",
-    "thumbnail" : "appkava",
-    "link": "https://app.kava.io/transfer",
-    "social": {
-      "webSite": "https://app.kava.io/transfer",
-      "twitter": "https://x.com/KAVA_CHAIN/status/1768320712660398268",
-      "docs": "https://help.app.kava.io/article/44-how-to-transfer-usdt-to-cosmos-chains-with-a-single-click"
-    }
-  },
-  {
     "name": "Noble Express",
     "type": "Transport",
-    "description": "Burn USDC on Solana/EVM to then mint equivalent amounts on Noble -> Terra.",
+    "description": "Alternative to Skip Go for native USDC transfers to Terra.",
     "status": "open",
     "thumbnail" : "noble-express",
     "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
