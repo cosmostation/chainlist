@@ -17,7 +17,7 @@
   {
     "name": "Skip Go",
     "type": "DeFi",
-    "description": "Powerful CCTP-enabled DEX aggregator for Cosmos. Recommended wallets: Leap or Keplr",
+    "description": "Powerful DEX aggregator for Terra/Cosmos. Also allows USDC transfers in and out of Cosmos.",
     "status": "open",
     "thumbnail" : "skip-go2",
     "link": "https://go.skip.build/",
@@ -31,16 +31,43 @@
   {
     "name": "Stargate Finance",
     "type": "Transport",
-    "description": "Transfer USDT/USDC from anywhere to Sei. Then use Skip Go to swap to LUNA. (app.sei.io to link Sei address for IBC)",
+    "description": "Transfer USDT/USDC from anywhere to Sei EVM. Then use Skip Go for IBC to Terra. (Alternate route: Kava)",
     "status": "open",
-    "thumbnail" : "stargate2",
+    "thumbnail" : "stargate",
     "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=sei&dstToken=0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
     "social": {
-      "webSite": "https://app.sei.io/",
-      "twitter": "https://x.com/StargateFinance/status/1821985963901645284",
+      "webSite": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
+      "twitter": "https://x.com/SeiNetwork/status/1822004855650840618",
       "medium": "https://medium.com/stargate-official",
       "github": "https://github.com/stargate-protocol",
       "docs": "https://www.kava.io/news/how-to-bridge-usdt-with-stargate"
+    }
+  },
+  {
+    "name": "Kava EVM to Terra",
+    "type": "Transport",
+    "description": "Use this app for 1-click transfer native USDT from Kava EVM to Terra and back.",
+    "status": "open",
+    "thumbnail" : "appkava",
+    "link": "https://app.kava.io/transfer",
+    "social": {
+      "webSite": "https://app.kava.io/transfer",
+      "twitter": "https://x.com/KAVA_CHAIN/status/1768320712660398268",
+      "docs": "https://help.app.kava.io/article/44-how-to-transfer-usdt-to-cosmos-chains-with-a-single-click"
+    }
+  },
+  {
+    "name": "Monerium",
+    "type": "Transport",
+    "description": "SEPA transfers to your monerium IBAN will mint EURe on your Noble address. Then IBC to Terra.",
+    "status": "open",
+    "thumbnail" : "monerium",
+    "link": "https://monerium.app/accounts",
+    "social": {
+      "webSite": "https://www.noble.xyz/eure",
+      "twitter": "https://x.com/monerium",
+      "github": "https://github.com/monerium/module-noble",
+      "docs": "https://monerium.dev/docs/welcome"
     }
   },
   {
@@ -71,21 +98,6 @@
       "medium": "https://medium.com/@whitewhaleterra",
       "github": "https://github.com/White-Whale-Defi-Platform/",
       "docs": "https://docs.migaloo.zone/"
-    }
-  },
-  {
-    "name": "TFM",
-    "type": "DeFi",
-    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers here.",
-    "status": "open",
-    "thumbnail" : "tfm",
-    "link": "https://app.tfm.com/bridge?chainFrom=cosmoshub-4&chainTo=phoenix-1&token0=uatom",
-    "social": {
-      "webSite": "https://tfm.com/",
-      "twitter": "https://twitter.com/tfm_com",
-      "medium": "https://medium.com/@tfm.com",
-      "github": "https://github.com/tfm-com",
-      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
     }
   },
   {
@@ -131,7 +143,7 @@
   {
     "name": "capapult",
     "type": "DeFi",
-    "description": "Decentralised CDP stablecoin ($SOLID) on Terra, governed through $CAPA holders.",
+    "description": "Here you can mint $SOLID, a decentralized overcollateralized stablecoin, governed through $CAPA holders.",
     "status": "open",
     "thumbnail" : "capapult",
     "link": "https://app.capapult.finance/dashboard",
@@ -139,6 +151,21 @@
       "webSite": "https://www.capapult.finance/",
       "twitter": "https://x.com/solid_capa",
       "docs": "https://www.capapult.finance/whitepaper-v2.pdf"
+    }
+  },
+  {
+    "name": "TFM",
+    "type": "DeFi",
+    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's, ...",
+    "status": "open",
+    "thumbnail" : "tfm",
+    "link": "https://app.tfm.com/bridge?chainFrom=cosmoshub-4&chainTo=phoenix-1&token0=uatom",
+    "social": {
+      "webSite": "https://tfm.com/",
+      "twitter": "https://twitter.com/tfm_com",
+      "medium": "https://medium.com/@tfm.com",
+      "github": "https://github.com/tfm-com",
+      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
     }
   },
   {
@@ -156,17 +183,17 @@
     }
   },
   {
-    "name": "Monerium",
+    "name": "Noble Express",
     "type": "Transport",
-    "description": "Mint/burn EURe via instant SEPA transfers to your personal monerium IBAN.",
+    "description": "Alternative to Skip Go for native USDC transfers to Terra.",
     "status": "open",
-    "thumbnail" : "monerium",
-    "link": "https://monerium.app/accounts",
+    "thumbnail" : "noble-express",
+    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
     "social": {
-      "webSite": "https://www.noble.xyz/eure",
-      "twitter": "https://x.com/monerium",
-      "github": "https://github.com/monerium/module-noble",
-      "docs": "https://monerium.dev/docs/welcome"
+      "webSite": "https://express.noble.xyz/",
+      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
+      "github": "https://github.com/noble-assets",
+      "docs": "https://docs.noble.xyz/cctp"
     }
   },
   {
@@ -181,20 +208,6 @@
       "twitter": "https://twitter.com/portalbridge_?lang=en",
       "github": "https://github.com/wormhole-foundation/wormhole",
       "docs": "https://wormhole.com/docs/"
-    }
-  },
-  {
-    "name": "Noble Express",
-    "type": "Transport",
-    "description": "Alternative to Skip for native CCTP transfers for USDC.",
-    "status": "open",
-    "thumbnail" : "noble-express",
-    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
-    "social": {
-      "webSite": "https://express.noble.xyz/",
-      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
-      "github": "https://github.com/noble-assets",
-      "docs": "https://docs.noble.xyz/cctp"
     }
   },
   {
