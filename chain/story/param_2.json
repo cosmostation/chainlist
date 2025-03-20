@@ -22,12 +22,12 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "StoryRPC",
-            "url": "https://mainnet.storyrpc.io"
-        },
-        {
             "provider": "Nodestake",
             "url": "https://evmrpc.story.nodestake.org"
+        },
+        {
+            "provider": "StoryRPC",
+            "url": "https://mainnet.storyrpc.io"
         },
         {
             "provider": "Silentvalidator",
