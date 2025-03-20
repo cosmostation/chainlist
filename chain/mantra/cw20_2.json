@@ -8,5 +8,15 @@
       "decimals":18,
       "image":"https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/Libre.png",
       "coinGeckoId":""
+   },
+   {
+      "type":"cw20",
+      "contract":"mantra1jqy453tqmd8l7xtxz5cxfaw8rms7u8lsjtdd3u7hlm4gzjfy54usuunnmk",
+      "name":"Fluxtra Staked OM",
+      "symbol":"ftOM",
+      "description":"ftOM is a CW-20 value-accruing token wrapper for OM token that is staked in validators",
+      "decimals":18,
+      "image":"https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/ftom.png",
+      "coinGeckoId":""
    }
 ]
