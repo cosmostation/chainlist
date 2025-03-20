@@ -81,29 +81,6 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/12DA42304EE1CE96071F712AA4D58186AD11C3165C0DCDA71E017A54F3935E66",
-        "name" : "IRISnet",
-        "symbol": "IRIS",
-        "description": "IRISnet Staking Coin",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iris/asset/iris.png",
-        "coinGeckoId": "iris-network",
-        "ibc_info" : {
-            "path": "iris>cosmos",
-            "client" : {
-                "channel": "channel-182",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-12",
-                "port": "transfer",
-                "chain": "iris",
-                "denom": "uiris"
-            }
-        }
-    },
-    {
-        "type": "ibc",
         "denom": "ibc/2181AAB0218EAC24BC9F86BD1364FBBFA3E6E3FCC25E88E3E68C15DC6E752D86",
         "name" : "Akash Network",
         "symbol": "AKT",
