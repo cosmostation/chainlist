@@ -1,0 +1,68 @@
+{
+    "chain_id_cosmos": "deluge-1",
+    "chain_name": "ZkCloud Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zkcloud-testnet/resource/chain_zkcloud-testnet.png",
+    "main_asset_denom" : "uproof",
+    "main_asset_symbol" : "PROOF",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zkcloud-testnet/asset/proof.png",
+    "bech_account_prefix" : "zkcloud",
+    "bech_validator_prefix" : "zkcloudvaloper",
+    "origin_genesis_time" : "2025-03-04T11:00:06Z",
+    "api_name" : "zkcloud-testnet",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.025uproof",
+            "0.04uproof"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "ZkCloud",
+            "url": "grpc.testnet.zkcloud.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "ZkCloud",
+            "url": "https://api.testnet.zkcloud.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Ping.pub",
+        "url": "https://testnet.ping.pub/zkcloud",
+        "account": "https://testnet.ping.pub/zkcloud/account/${address}",
+        "tx": "https://testnet.ping.pub/zkcloud/tx/${hash}",
+        "proposal": "https://testnet.ping.pub/zkcloud/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://www.zkcloud.com/",
+        "docs": "https://docs.gevulot.com/gevulot-docs",
+        "github" : "https://github.com/thezkcloud",
+        "blog" : "https://blog.zkcloud.com/",
+        "medium": "",
+        "twitter" : "https://x.com/thezkcloud",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "zkCloud는 ZK(Zero-Knowledge) 기술 기반의 보안 클라우드 컴퓨팅 플랫폼입니다.",
+        "en" : "zkCloud is a secure cloud computing platform based on Zero-Knowledge (ZK) technology.",
+        "ja" : "zkCloudはゼロ知識証明（ZK）技術に基づいた安全なクラウドコンピューティングプラットフォームです。"
+    }
+}
