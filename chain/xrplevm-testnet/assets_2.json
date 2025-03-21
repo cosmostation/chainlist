@@ -1,0 +1,12 @@
+[
+    {
+        "type": "native",
+        "denom": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name" : "Avalanche",
+        "symbol": "XRP",
+        "description": "XRP is a digital asset that's native to the XRP Ledger and XRPL EVM Sidechain, an open-source permissionless and decentralized blockchain",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm-testnet/asset/xrp.png",
+        "coinGeckoId": "avalanche-2"
+    }
+]
