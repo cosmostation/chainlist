@@ -1,0 +1,67 @@
+{
+    "chain_id_cosmos": "ledger-testnet-1",
+    "chain_name": "Lombard Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard-testnet/resource/chain_lombard-testnet.png",
+    "main_asset_denom" : "ulom",
+    "main_asset_symbol" : "LOM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard-testnet/asset/lom.png",
+    "bech_account_prefix" : "lom",
+    "bech_validator_prefix" : "lomvaloper",
+    "origin_genesis_time" : "2024-12-14T23:50:00Z",
+    "api_name" : "lombard-testnet",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "1ulom"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc.testnet.lombard.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd.testnet.lombard.cosmostation.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/lombard-testnet/",
+        "account": "https://www.mintscan.io/lombard-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/lombard-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/lombard-testnet/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.lombard.finance/",
+        "docs": "https://docs.lombard.finance/",
+        "github" : "https://github.com/lombard-finance",
+        "blog" : "https://www.lombard.finance/blog/",
+        "medium": "",
+        "twitter" : "https://x.com/lombard_finance",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Lombard Finance는 비트코인과 미술품, 부동산 같은 실물 자산을 온체인 담보로 활용해, 탈중앙화 방식으로 대출을 제공하는 DeFi 플랫폼입니다.",
+        "en" : "Lombard Finance is a DeFi platform that offers decentralized loans by using on-chain collateral such as Bitcoin and real-world assets like art and real estate.",
+        "ja" : "Lombard Finance（ロンバード・ファイナンス）は、ビットコインや美術品、不動産などの実物資産をオンチェーン担保として活用し、分散型の形でローンを提供するDeFiプラットフォームです。"
+    }
+}
