@@ -4,9 +4,9 @@
     "contract": "0x43D8814FdFB9B8854422Df13F1c66e34E4fa91fD",
     "name" : "USD Coin",
     "symbol": "USDC",
-    "description": "USD Coin (USDC)",
+    "description": "USD Coin",
     "decimals": 6,
-    "image": "",
+    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
     "coinGeckoId": ""
   },
   {
@@ -14,9 +14,9 @@
     "contract": "0x71F859f9920D394c5E3d0057CE8544250f8BFAEC",
     "name" : "Wrapped Kava",
     "symbol": "WKAVA",
-    "description": "Wrapped Kava (WKAVA)",
+    "description": "Wrapped Kava",
     "decimals": 18,
-    "image": "",
-    "coinGeckoId": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_wkava.png"
+    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_wkava.png",
+    "coinGeckoId": ""
   }
 ]
