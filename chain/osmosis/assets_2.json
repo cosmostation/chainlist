@@ -170,7 +170,7 @@
         "symbol": "ATOM",
         "description": "The native staking and governance token of the Cosmos Hub.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
         "color": "#272d45",
         "coinGeckoId": "cosmos",
         "ibc_info": {
@@ -194,7 +194,7 @@
         "symbol": "CRO",
         "description": "CRO is the native token of the Crypto.org Chain, referred to as Native CRO.",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crypto-org/asset/cro.png",
         "coinGeckoId": "crypto-com-chain",
         "ibc_info": {
             "path": "crypto-org>osmosis",
@@ -311,7 +311,7 @@
         "symbol": "JUNO",
         "description": "The native token of JUNO Chain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
         "color": "#fa7b7b",
         "coinGeckoId": "juno-network",
         "ibc_info": {
@@ -405,7 +405,7 @@
         "symbol": "SCRT",
         "description": "The native token of Secret Network",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/secret/asset/scrt.png",
         "coinGeckoId": "secret",
         "ibc_info": {
             "path": "secret>osmosis",
@@ -452,7 +452,7 @@
         "symbol": "STARS",
         "description": "The native token of Stargaze",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
         "color": "#db2777",
         "coinGeckoId": "stargaze",
         "ibc_info": {
@@ -548,7 +548,7 @@
         "symbol": "AKT",
         "description": "Akash Token (AKT) is the Akash Network's native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
         "color": "#bc342c",
         "coinGeckoId": "akash-network",
         "ibc_info": {
@@ -572,7 +572,7 @@
         "symbol": "REGEN",
         "description": "REGEN coin is the token for the Regen Network Platform",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/asset/regen.png",
         "color": "#56b790",
         "coinGeckoId": "regen",
         "ibc_info": {
@@ -596,7 +596,7 @@
         "symbol": "DVPN",
         "description": "DVPN is the native token of the Sentinel Hub.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/asset/dvpn.png",
         "color": "#10a7ef",
         "coinGeckoId": "sentinel",
         "ibc_info": {
@@ -1051,7 +1051,7 @@
         "symbol": "BAND",
         "description": "The native token of BandChain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/band/asset/band.png",
         "color": "#4424e4",
         "coinGeckoId": "band-protocol",
         "ibc_info": {
@@ -1242,7 +1242,7 @@
         "symbol": "FET.fet",
         "description": "The native staking and governance token of the Fetch Hub.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/asset/fet.png",
         "coinGeckoId": "fetch-ai",
         "ibc_info": {
             "path": "fetchai>osmosis",
@@ -1313,7 +1313,7 @@
         "symbol": "INJ",
         "description": "The INJ token is the native governance token for the Injective chain.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
         "color": "#04a2fc",
         "coinGeckoId": "injective-protocol",
         "ibc_info": {
@@ -2495,7 +2495,7 @@
         "symbol": "STRD",
         "description": "The native token of Stride",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/strd.png",
         "color": "#e4047c",
         "coinGeckoId": "stride",
         "ibc_info": {
@@ -2518,7 +2518,7 @@
         "name": "Stride Staked ATOM",
         "symbol": "stATOM",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/statom.png",
         "color": "#e40474",
         "coinGeckoId": "stride-staked-atom",
         "ibc_info": {
@@ -2611,7 +2611,7 @@
         "symbol": "AXL",
         "description": "The native token of Axelar",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
         "color": "#040404",
         "coinGeckoId": "axelar",
         "ibc_info": {
@@ -2824,7 +2824,7 @@
         "symbol": "JKL",
         "description": "The native staking and governance token of Jackal.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/jackal/asset/jkl.png",
         "color": "#dbdbcb",
         "coinGeckoId": "jackal-protocol",
         "ibc_info": {
@@ -5354,7 +5354,7 @@
         "symbol": "SGE",
         "description": "The native token of SGE Network",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sge/asset/sge.png",
         "color": "#C0A15B",
         "coinGeckoId": "six-sigma",
         "ibc_info": {
@@ -5492,7 +5492,7 @@
         "symbol": "TIA",
         "description": "The native token of the Celestia blockchain.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
         "color": "#7c2cfb",
         "coinGeckoId": "celestia",
         "ibc_info": {
@@ -5516,7 +5516,7 @@
         "symbol": "DYDX.dydx",
         "description": "DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/asset/dydx.png",
         "coinGeckoId": "dydx-chain",
         "ibc_info": {
             "path": "dydx>osmosis",
@@ -5949,7 +5949,7 @@
         "symbol": "milkTIA",
         "description": "MilkyWay's liquid staked TIA",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/milktia.png",
         "color": "#d18dfc",
         "coinGeckoId": "milkyway-staked-tia"
     },
@@ -7730,7 +7730,7 @@
         "symbol": "SEDA",
         "description": "The native token of SEDA Chain.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/seda/asset/seda.png",
         "color": "#8178d1",
         "coinGeckoId": "seda-2",
         "ibc_info": {
@@ -8506,7 +8506,7 @@
         "symbol": "USDY",
         "description": "Ondo US Dollar Yield",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdy.png",
         "color": "#142c5c",
         "coinGeckoId": "ondo-us-dollar-yield",
         "ibc_info": {
@@ -9601,7 +9601,7 @@
         "symbol": "OM",
         "description": "The native token of MANTRA",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/om.png",
         "color": "#fba0c1",
         "coinGeckoId": "mantra-dao",
         "ibc_info": {
@@ -9625,7 +9625,7 @@
         "symbol": "ATONE",
         "description": "The native staking and governance token of AtomOne",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/asset/atone.png",
         "coinGeckoId": "atomone",
         "ibc_info": {
             "path": "atomone>osmosis",
@@ -9826,7 +9826,7 @@
         "symbol": "XION",
         "description": "XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/asset/xion.png",
         "coinGeckoId": "xion-2",
         "ibc_info": {
             "path": "xion>osmosis",
@@ -9964,7 +9964,7 @@
         "symbol": "CHIHUAHUA",
         "description": "Chihuahua coin",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/chihuahua.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/huahua.png",
         "color": "#444444",
         "ibc_info": {
             "path": "chihuahua>osmosis",
@@ -10613,7 +10613,8 @@
         "name": "Mars Looped USDC Vault",
         "symbol": "earnUSDC",
         "description": "USDC supplied on Mars looped using Membrane by a vault that also has an entry fee",
-        "decimals": 6
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/unknown.png"
     },
     {
         "type": "native",
@@ -10621,7 +10622,8 @@
         "name": "Earn CDT Vault",
         "symbol": "earnCDT",
         "description": "Auto-compounding vault for Membrane's Stability Pool used to ease the UX of compounding CDT",
-        "decimals": 6
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/unknown.png"
     },
     {
         "type": "native",
@@ -10649,6 +10651,7 @@
         "symbol": "PLEB",
         "description": "Tek ovah!",
         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/pleb.png",
         "ibc_info": {
             "path": "stargaze>osmosis",
             "client": {
@@ -10670,6 +10673,7 @@
         "symbol": "BITCOIN",
         "description": "Cosmos Bitcoin",
         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/bitcoin.png",
         "ibc_info": {
             "path": "injective>osmosis",
             "client": {
@@ -10691,6 +10695,7 @@
         "symbol": "CRYPTO",
         "description": "Crypto",
         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/crypto.png",
         "ibc_info": {
             "path": "injective>osmosis",
             "client": {
@@ -10712,6 +10717,7 @@
         "symbol": "BRICS",
         "description": "Bricscoin",
         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/brics.png",
         "ibc_info": {
             "path": "injective>osmosis",
             "client": {
@@ -10733,6 +10739,7 @@
         "symbol": "INC",
         "description": "Instant Noodles Coin",
         "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inc.png",
         "ibc_info": {
             "path": "injective>osmosis",
             "client": {
