@@ -10746,5 +10746,27 @@
                 "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51",
+        "name": "Manifest native token",
+        "symbol": "MFX",
+        "description": "Manifest native token",
+        "decimals": 6,,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png"
+        "ibc_info": {
+            "path": "manifest>osmosis",
+            "client": {
+                "channel": "channel-100418",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "manifest",
+                "denom": "umfx"
+            }
+        }
     }
 ]
