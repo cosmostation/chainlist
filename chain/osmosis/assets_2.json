@@ -10775,5 +10775,14 @@
                 "denom": "umfx"
             }
         }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
+        "name": "The Seven Green Shade",
+        "symbol": "T7S",
+        "description": "T7S is the heartbeat of the Seven Shaders universe—powering NFTs, AI adventures, and gaming rewards. One token, endless possibilities.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png"
     }
 ]

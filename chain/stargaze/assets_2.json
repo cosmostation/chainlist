@@ -452,5 +452,262 @@
                 "denom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FEF6B2D5C0F7D3C3EE2E27D1C01EAE9CA04A7201661E69215726E7F84AFCD0FB",
+        "name": "The Seven Green Shade",
+        "symbol": "T7S",
+        "description": "T7S is the heartbeat of the Seven Shaders universe—powering NFTs, AI adventures, and gaming rewards. One token, endless possibilities.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png",
+        "ibc_info" : {
+            "path": "osmosis>stargaze",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-75",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
+        "name": "Ali-Rev-Gator",
+        "symbol": "BIKE",
+        "description": "The OG meme coin on MANTRA Chain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/BIKE.png",
+        "color": "#80c75d",
+        "ibc_info": {
+            "path": "mantra>stargaze",
+            "client": {
+                "channel": "channel-406",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-4",
+                "port": "transfer",
+                "chain": "mantra",
+                "denom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood",
+        "name": "HOOD",
+        "symbol": "HOOD",
+        "description": "The community token for The Fortunate Few, a multi chain NFT community platform.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/hood.png"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
+        "name": "Yield GATA",
+        "symbol": "YGATA",
+        "description": "GATA Yield DAO Governance Token powered by OmniFlixHub",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.png",
+        "color": "#7b5aff",
+        "ibc_info": {
+            "path": "omniflix>stargaze",
+            "client": {
+                "channel": "channel-398",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-49",
+                "port": "transfer",
+                "chain": "omniflix",
+                "denom": "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8577E98BDDD2758FD5647A53563DAAC89921326F964EBF899B945ED05A66CA5F",
+        "name": "Shitmos",
+        "symbol": "SHITMOS",
+        "description": "The Cosmos Network's premier self-hatred memecoin.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/shitmos.svg",
+        "ibc_info" : {
+            "path": "osmosis>stargaze",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-75",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/shitmos"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC",
+        "name": "OLDbglUSDC",
+        "symbol": "OLDbglUSDC",
+        "description": "OLD Bonded GopLend USDC.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/bglUSDC.png"
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglSTARS",
+        "name": "OLDbglSTARS",
+        "symbol": "OLDbglSTARS",
+        "description": "OLD Bonded GopLend STARS.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/bglSTARS.png"
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars1t6fyr84hn6lyjdvk3e3c697cptfn5cwat2jxqyzuvuesaypznslshy6x9v/vlt",
+        "name": "VLT",
+        "symbol": "VAULT",
+        "description": "Native token of the Underworld.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/vault.png"
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars167y92c2fe690l0lrqyk9tahpqvu97au0cmpayh3j9455r2f6f06s78emw4/wolfshit",
+        "name": "WOLFSHIT",
+        "symbol": "WOLFSHIT",
+        "description": "WOLFSHIT",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/wolfshit.png"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4982C47384F003FCCB02490F92CE2F23DBEC9A7A0C1F440BDB12D24357E6703D",
+        "name": "XTRUMP",
+        "symbol": "XTRUMP",
+        "description": "The Representative factory token for Trump Kemistry",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XTRUMP.png",
+        "ibc_info" : {
+            "path": "osmosis>stargaze",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-75",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars14mfk0sd6rlajkvgpgrvfk9lfhjwmkrzvednekvcn32jzy3drjy5sfem9p7/cocks",
+        "name": "COCKS",
+        "symbol": "COCKS",
+        "description": "COCKS",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/cocks.png"
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars132jrwxjps93usq3ejy7cq6qqc7j3gtx3mu8jhaj5nnk3p0ste2ssqsndvj/botz",
+        "name": "BOTZ",
+        "symbol": "BOTZ",
+        "description": "BOTZ",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/botz.png"
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars133a6mnkp9d3pkt48y699hy0tvq5xngpz7cwak0qr4suq0cj9zpfslvt0em/kingshit",
+        "name": "KINGSHIT",
+        "symbol": "KINGSHIT",
+        "description": "KINGSHIT",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/kingshit.png"
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars1k7qsxdxh8calmt4txk75e6hdntefslegwddqnlwjjqgjkmcfqy0qa97sn8/pleb",
+        "name": "PLEB",
+        "symbol": "PLEB",
+        "description": "PLEB",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/pleb.png"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E94BB144B818CB8061F43E202BEA1E9273B87D6326C8C6F4E6AE71C62FD37854",
+        "name": "Membrane",
+        "symbol": "MBRN",
+        "description": "Membrane's protocol token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MBRN.svg",
+        "coinGeckoId": "membrane",
+        "ibc_info" : {
+            "path": "osmosis>stargaze",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-75",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrnP"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B0263C28B6F44651F4596413B41FDB749EA010BD1220816DAC0ABF9947C1E806",
+        "name": "CDT Stablecoin",
+        "symbol": "CDT",
+        "description": "Membrane's CDP-style stablecoin called CDT",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CDT.svg",
+        "coinGeckoId": "collateralized-debt-token",
+        "ibc_info" : {
+            "path": "osmosis>stargaze",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-75",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/uOHH",
+        "name": "ohhVAULT ohh",
+        "symbol": "OHH",
+        "description": "Social token for the ohhVAULT.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.png"
+    },
+    {
+        "type": "native",
+        "denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/mGAZE",
+        "name": "Gaze GAZE",
+        "symbol": "GAZE",
+        "description": "The native meme token of stargaze.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.png"
     }
 ]
