@@ -41,17 +41,30 @@
         "simulated_gas_multiply" : 1.2
     },
     "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc.testnet.xrplevm.cosmostation.io:443"
+        }
+
     ],
     "lcd_endpoint" : [
         {
             "provider": "Foundation",
             "url": "http://cosmos.testnet.xrplevm.org:1317/"
+        },
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd.testnet.xrplevm.cosmostation.io/"
         }
     ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Foundation",
             "url": "https://rpc.testnet.xrplevm.org"
+        },
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-office-evm.cosmostation.io/xrplevm-testnet/"
         }
     ],
     "explorer" : {
