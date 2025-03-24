@@ -10753,8 +10753,8 @@
         "name": "Manifest native token",
         "symbol": "MFX",
         "description": "Manifest native token",
-        "decimals": 6,,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png"
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png",
         "ibc_info": {
             "path": "manifest>osmosis",
             "client": {
