@@ -33,12 +33,8 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "nolus-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Publicnode",
-            "url": "nolus-grpc.publicnode.com:443"
+            "provider": "NolusProtocol",
+            "url": "grpc.nolus.network:443"
         }
     ],
     "lcd_endpoint" : [
