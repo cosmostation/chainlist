@@ -1,0 +1,70 @@
+{
+    "chain_id_cosmos" : "manifest-ledger-mainnet",
+    "chain_name": "Manifest",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manifest/resource/chain_manifest.png",
+    "main_asset_denom" : "upoa",
+    "main_asset_symbol" : "POA",
+    "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png",
+    "bech_account_prefix" : "manifest",
+    "bech_validator_prefix" : "manifestvaloper",
+    "origin_genesis_time" : "2025-03-18T19:17:48Z",
+    "api_name" : "manifest",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "1.0umfx",
+            "5.0umfx"
+        ],
+        "is_feemarket": true,
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "The Lifted Initiative",
+            "url": "manifest-grpc.liftedinit.app:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "The Lifted Initiative",
+            "url": "https://nodes.liftedinit.app/manifest/api/"
+        },
+        {
+            "provider": "The Lifted Initiative",
+            "url": "https://manifest-rest.liftedinit.app/"
+        }
+    ],
+    "explorer" : {
+        "name": "Guru",
+        "url": "https://manifest.explorers.guru/",
+        "account": "https://manifest.explorers.guru/account/${address}",
+        "tx": "https://manifest.explorers.guru/transaction/${hash}",
+        "proposal": "https://manifest.explorers.guru/governance/${id}"
+    },
+    "about" : {
+        "website" : "https://manifestai.org/",
+        "docs": "",
+        "github" : "https://github.com/liftedinit",
+        "twitter" : "https://x.com/ManifestAIs/"
+    },
+    "description" : {
+        "ko" : "Manifest AI는 웹사이트에 AI 챗봇을 쉽게 통합할 수 있도록 도와주는 고객 지원용 AI 플랫폼입니다.",
+        "en" : "Manifest AI is a customer support AI platform that helps you easily integrate a chatbot into your website.",
+        "ja" : "Manifest AIは、ウェブサイトにチャットボットを簡単に統合できるカスタマーサポート向けのAIプラットフォームです。"
+    }
+}
