@@ -9,7 +9,7 @@
     "bech_account_prefix" : "ethm",
     "bech_validator_prefix" : "ethmvaloper",
     "origin_genesis_time" : "2025-02-01T00:00:00Z",
-    "api_name": "xrplevm",
+    "api_name": "xrplevm-testnet",
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : false,
     "is_support_erc20" : true,
