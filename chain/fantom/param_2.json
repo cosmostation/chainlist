@@ -22,16 +22,12 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Fantom",
-            "url": "https://rpc.ftm.tools"
+            "provider": "Drpc",
+            "url": "https://fantom.drpc.org"
         },
         {
             "provider": "Ankr",
             "url": "https://rpc.ankr.com/fantom"
-        },
-        {
-            "provider": "Drpc",
-            "url": "https://fantom.drpc.org"
         },
         {
             "provider": "Publicnode",

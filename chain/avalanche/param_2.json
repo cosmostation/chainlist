@@ -23,10 +23,6 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Avalanche",
-            "url": "https://avalanche.public-rpc.com"
-        },
-        {
             "provider": "Drpc",
             "url": "https://avalanche.drpc.org"
         },
