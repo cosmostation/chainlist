@@ -17,7 +17,7 @@
         "symbol": "ION",
         "description": "ION is the second native token of Osmosis.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ion.png",
         "color": "#4453c7",
         "coinGeckoId": "ion"
     },
@@ -357,7 +357,7 @@
         "symbol": "EVMOS",
         "description": "The native EVM, governance and staking token of the Evmos Hub",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/evmos.png",
         "color": "#ec4c34",
         "coinGeckoId": "evmos",
         "ibc_info": {
@@ -2401,7 +2401,7 @@
         "symbol": "BLD",
         "description": "BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/agoric/asset/bld.png",
         "color": "#c42b44",
         "coinGeckoId": "agoric",
         "ibc_info": {
@@ -4054,7 +4054,7 @@
         "symbol": "FLIX",
         "description": "The native staking token of OmniFlix Hub.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/omniflix/asset/flix.png",
         "color": "#c33635",
         "coinGeckoId": "omniflix-network",
         "ibc_info": {
@@ -4895,7 +4895,7 @@
         "symbol": "SEI",
         "description": "The native staking token of Sei.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/sei.png",
         "color": "#9c1c1c",
         "coinGeckoId": "sei-network",
         "ibc_info": {
@@ -5192,7 +5192,7 @@
         "symbol": "USDC",
         "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/usdc.png",
         "color": "#2775CA",
         "coinGeckoId": "usd-coin",
         "ibc_info": {
@@ -5468,7 +5468,7 @@
         "symbol": "COREUM",
         "description": "The native token of Coreum",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/core.png",
         "color": "#24d494",
         "coinGeckoId": "coreum",
         "ibc_info": {
@@ -5539,7 +5539,7 @@
         "symbol": "FX",
         "description": "The native staking token of the Function X",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fxcore/asset/fx.png",
         "color": "#1c1c1c",
         "coinGeckoId": "fx-coin",
         "ibc_info": {
@@ -6334,7 +6334,7 @@
         "symbol": "WBTC",
         "description": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/wbtc.png",
         "color": "#f39444",
         "coinGeckoId": "wrapped-bitcoin"
     },
@@ -6546,7 +6546,7 @@
         "symbol": "DYM",
         "description": "The native governance and staking token of the Dymension Hub",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dymension/asset/dym.png",
         "color": "#f4e4d4",
         "coinGeckoId": "dymension",
         "ibc_info": {
@@ -7217,7 +7217,7 @@
         "symbol": "SAGA",
         "description": "The native staking and governance token of Saga.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saga/asset/saga.png",
         "color": "#FFFFFF",
         "coinGeckoId": "saga-2",
         "ibc_info": {
@@ -9760,7 +9760,7 @@
         "symbol": "dATOM",
         "description": "Drop staked ATOM",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/datom.png",
         "coinGeckoId": "drop-staked-atom",
         "ibc_info": {
             "path": "neutron>osmosis",
@@ -9815,7 +9815,7 @@
         "symbol": "XRP",
         "description": "An alloy of XRP asset variants on Osmosis.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/xrp.png",
         "color": "#040404",
         "coinGeckoId": "ripple"
     },
