@@ -1,28 +1,24 @@
 [
     {
-        "name": "Skip Go",
-        "type": "DeFi",
-        "description": "Provides MEV solutions for Cosmos and Evm blockchains, enabling revenue generation through block space auctions and transaction prioritization",
+        "name": "Gov Atomone",
+        "type": "Governance",
+        "description": "Atomone governance platform.",
         "status": "open",
-        "thumbnail" : "skip",
-        "link": "https://go.skip.build/",
+        "thumbnail": "atomone",
+        "link": "https://gov.atom.one/",
         "social": {
-            "webSite": "https://www.skip.build/",
-            "twitter": "https://x.com/SkipProtocol",
-            "github": "https://github.com/skip-mev",
-            "docs": "https://docs.skip.build/go"
+            "webSite": "https://gov.atom.one/"
         }
     },
     {
-        "name": "Squid Router",
-        "type": "Defi",
-        "description": "Squid lets you swap tokens between blockchains, and unlocks access to apps across chains in 1 click ✨ EVM + Cosmos",
+        "name": "Staking Atomone",
+        "type": "Staking",
+        "description": "Atomone Staking platform.",
         "status": "open",
-        "thumbnail" : "squid",
-        "link": "https://app.squidrouter.com",
+        "thumbnail": "atomone_staking_portal",
+        "link": "https://staking.atom.one/",
         "social": {
-            "webSite": "https://app.squidrouter.com",
-            "twitter": "https://twitter.com/squidrouter"
+            "webSite": "https://staking.atom.one/"
         }
     }
 ]
