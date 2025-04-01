@@ -24,7 +24,7 @@
     ],
     "cosmos_fee_info": {
         "is_feemarket": true,
-        "simulated_gas_multiply" : 1.4,
+        "simulated_gas_multiply" : 1.5,
         "init_gas_limit": 500000
     },
     "grpc_endpoint": [
