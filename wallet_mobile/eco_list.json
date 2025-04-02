@@ -1,83 +1,180 @@
 [
-  {
-    "id": 1,
-    "name": "1inch",
-    "description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/1inch.png",
-    "link": "https://app.1inch.io",
-    "chains": [
-        "ethereum", 
-        "arbitrum", 
-        "avalanche", 
-        "fantom",
-        "kaia", 
-        "optimism", 
-        "polygon"
-    ],
-    "socials": {
-      "github": "https://github.com/1inch",
-      "telegram": "https://t.me/OneInchNetworkNews",
-      "twitter": "https://x.com/intent/follow?screen_name=1inch",
-      "discord": "https://discord.com/invite/1inch",
-      "reddit": "https://www.reddit.com/r/1inch/"
+    {
+        "id": 1,
+        "name": "Eigenlayer",
+        "description": "EigenLayer lets Ethereum users restake assets to support other protocols and earn extra rewards.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/eigenlayer.png",
+        "link": "https://app.eigenlayer.xyz",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "github": "https://github.com/eigenfoundation",
+            "telegram": "https://t.me/EigenLayerOfficial",
+            "twitter": "https://x.com/eigenlayer",
+            "discord": "https://discord.com/invite/eigenlayer"
+        },
+        "is_default": true,
+        "type": "Liquid staking"
     },
-    "is_default": true,
-    "type": "DEX"
-  },
-  {
-    "id": 2,
-    "name": "Osmosis Zone",
-    "description": "Interchain Liquidity Lab - Swap, earn and build on the leading decentralized Cosmos exchange.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/osmosiszone.png",
-    "link": "https://app.osmosis.zone",
-    "chains": [
-        "osmosis"
-    ],
-    "socials": {
-      "github": "https://github.com/osmosis-labs/osmosis",
-      "telegram": "https://t.me/osmosis_chat",
-      "twitter": "https://x.com/osmosiszone",
-      "discord": "https://discord.com/invite/osmosis",
-      "reddit": "https://www.reddit.com/r/OsmosisLab/"
+    {
+        "id": 2,
+        "name": "Etherfi",
+        "description": "EtherFi is a liquid restaking on Ethereum. Stake ETH to get eETH to reward you more across DeFi.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/etherfi.png",
+        "link": "https://app.eigenlayer.xyz",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "berachain"
+        ],
+        "socials": {
+            "github": "https://github.com/etherfi-protocol",
+            "telegram": "https://t.me/+C3fpSjmPqzA5NTVh",
+            "twitter": "https://x.com/ether_fi",
+            "discord": "https://discord.com/invite/etherfi"
+        },
+        "is_default": true,
+        "type": "Defi"
     },
-    "type": "DeFi"
-  },
-  {
-    "id": 3,
-    "name": "Drop Money",
-    "description": "Drop is a DeFi platform focused on providing liquidity across multiple blockchain networks, enhancing interoperability and transaction efficiency.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/dropmoney.png",
-    "link": "https://app.drop.money",
-    "chains": [
-        "cosmos", 
-        "neutron"
-    ],
-    "socials": {
-      "github": "https://github.com/hadronlabs-org/drop-contracts",
-      "telegram": "https://t.me/drop_protocol",
-      "twitter": "https://x.com/Dropdotmoney",
-      "discord": "https://discord.com/invite/dropdotmoney"
+    {
+        "id": 3,
+        "name": "1inch",
+        "description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/1inch.png",
+        "link": "https://app.1inch.io",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "fantom",
+            "kaia",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/1inch",
+            "telegram": "https://t.me/OneInchNetworkNews",
+            "twitter": "https://x.com/intent/follow?screen_name=1inch",
+            "discord": "https://discord.com/invite/1inch",
+            "reddit": "https://www.reddit.com/r/1inch/"
+        },
+        "is_default": true,
+        "type": "DEX"
     },
-    "type": "DeFi"
-  },
-  {
-    "id": 4,
-    "name": "Uniswap",
-    "description": "Uniswap V3 is a noncustodial automated market maker implemented for the Ethereum Virtual Machine. It provides increased capital efficiency, fine-tuned control of liquidity provider, and improve accuracy and convenience of its price oracle.",
-    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/uniswap.png",
-    "link": "https://app.uniswap.org/swap",
-    "chains": [
-        "ethereum", 
-        "arbitrum", 
-        "avalanche",
-        "base",
-        "optimism"
-    ],
-    "socials": {
-      "github": "https://github.com/Uniswap",
-      "twitter": "https://x.com/Uniswap",
-      "discord": "https://discord.com/invite/uniswap"
+    {
+        "id": 4,
+        "name": "Aave",
+        "description": "Aave is a decentralized finance money market protocol that allows you to lend, borrow, and earn interest on cryptocurrencies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/aave.png",
+        "link": "https://app.aave.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "fantom",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/aave",
+            "twitter": "https://x.com/aave",
+            "discord": "https://discord.com/invite/aave",
+            "reddit": "https://www.reddit.com/r/aave/"
+        },
+        "is_default": true,
+        "type": "Defi"
     },
-    "type": "DeFi"
-  }
+    {
+        "id": 5,
+        "name": "Uniswap",
+        "description": "Uniswap V3 is a noncustodial automated market maker implemented for the Ethereum Virtual Machine. It provides increased capital efficiency, fine-tuned control of liquidity provider, and improve accuracy and convenience of its price oracle.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/uniswap.png",
+        "link": "https://app.uniswap.org/swap",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/Uniswap",
+            "twitter": "https://x.com/Uniswap",
+            "discord": "https://discord.com/invite/uniswap"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 6,
+        "name": "Ethena",
+        "description": "Ethena is a DeFi platform offering secure lending, borrowing, and staking on the blockchain. It empowers users with full control over their assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/ethena.png",
+        "link": "https://app.uniswap.org/swap",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "bnb-smart-chain",
+            "optimism"
+        ],
+        "socials": {
+            "github": "https://github.com/ethena-labs",
+            "telegram": "https://t.me/ethena_labs",
+            "twitter": "https://x.com/ethena_labs",
+            "discord": "https://discord.com/invite/ethena",
+            "reddit": "https://www.reddit.com/r/Ethena/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 7,
+        "name": "Pendle",
+        "description": "Pendle is a DeFi protocol that unlocks the potential of yield trading by enabling users to tokenize and trade future yield on various assets. It provides innovative tools to maximize yield opportunities and enhance liquidity.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/pendle.png",
+        "link": "https://app.pendle.finance/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "optimism"
+        ],
+        "socials": {
+            "github": "https://github.com/pendle-finance/pendle-core-v2-public",
+            "telegram": "https://t.me/pendlefinance",
+            "twitter": "https://x.com/pendle_fi",
+            "discord": "https://discord.com/invite/EAujvncY2R",
+            "reddit": "https://www.reddit.com/r/Pendlefinance/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 8,
+        "name": "Morpho",
+        "description": "Morpho is a DeFi protocol that optimizes lending and borrowing on top of existing lending pools, offering improved rates through peer-to-peer matching while maintaining compatibility with major protocols like Aave and Compound.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet_mobile/resource/morpho.png",
+        "link": "https://app.morpho.org/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/morpho-org",
+            "telegram": "https://t.me/MorphoNetwork",
+            "twitter": "https://x.com/MorphoLabs",
+            "discord": "https://discord.com/invite/BWXbJMHMdz/"
+        },
+        "type": "DeFi"
+    }
 ]
