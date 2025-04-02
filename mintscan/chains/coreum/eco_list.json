@@ -1,29 +1,5 @@
 [
     {
-        "name": "Cored.In",
-        "type": "Native dApps",
-        "description": "A professional network with SocialFi and secure, self-sovereign identity standards.",
-        "status": "open",
-        "thumbnail" : "coredin",
-        "link": "https://cored.in/",
-        "social": {
-            "webSite": "https://cored.in/",
-            "twitter": "https://x.com/cored_in"
-        }
-    },
-    {
-        "name": "Bidds",
-        "type": "Native dApps",
-        "description": "Your Leading Coreum & XRP Ledger NFT Marketplace.",
-        "status": "open",
-        "thumbnail" : "bidds",
-        "link": "https://bidds.com/",
-        "social": {
-            "webSite": "https://bidds.com/",
-            "twitter": "https://x.com/BiddsonCore"
-        }
-    },
-    {
         "name": "Pulsara",
         "type": "Native dApps",
         "description": "Manage your assets and access all the features of the Coreum Blockchain.",
@@ -57,6 +33,18 @@
         "social": {
             "webSite": "https://cypherhq.io/",
             "twitter": "https://x.com/Cypher_HQ_"
+        }
+    },
+    {
+        "name": "Bidds",
+        "type": "Native dApps",
+        "description": "Your Leading Coreum & XRP Ledger NFT Marketplace.",
+        "status": "open",
+        "thumbnail" : "bidds",
+        "link": "https://bidds.com/",
+        "social": {
+            "webSite": "https://bidds.com/",
+            "twitter": "https://x.com/BiddsonCore"
         }
     },
     {
