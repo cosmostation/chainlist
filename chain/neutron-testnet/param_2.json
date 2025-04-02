@@ -23,6 +23,10 @@
         }
     ],
     "cosmos_fee_info": {
+        "base" : "0",
+        "rate" : [
+            "0.0053untrn"
+        ],
         "is_feemarket": true,
         "simulated_gas_multiply" : 1.5,
         "init_gas_limit": 500000
