@@ -9,5 +9,14 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/asset/bbn.png",
         "coinGeckoId": "",
         "color": "#FF863C"
-    }
+    },{
+      "type": "cw20",
+      "contract": "cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9",
+      "name" : "eBABY testnet",
+      "symbol": "eBABY",
+      "description": "ESCHER LST for Babylon",
+      "decimals": 6,
+      "image": "https://raw.githubusercontent.com/ohadbachner/chainlist/refs/heads/main/chain/babylon-testnet/asset/eBABY.svg",
+      "coinGeckoId": ""
+  },
 ]
