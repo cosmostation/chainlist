@@ -2,9 +2,9 @@
     "chain_id" : "0x1",
     "chain_name": "Aptos",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/resource/chain_aptos.png",
-    "main_asset_denom" : "0x1::aptos_coin::AptosCoin",
-    "main_asset_symbol" : "APT",
-    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/asset/aptos.png",
+    "staking_asset_denom" : "0x1::aptos_coin::AptosCoin",
+    "staking_asset_symbol" : "APT",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/asset/aptos.png",
     "origin_genesis_time" : "2022-10-13T06:22:40Z",
     "is_support_extension_wallet" : true,
     "chain_type": [

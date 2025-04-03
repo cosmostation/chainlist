@@ -3,7 +3,7 @@
     "chain_id_evm" : "0x2e2e",
     "chain_name": "Artela Testnet",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/artela-testnet/resource/chain_artela-testnet.png",
-    "main_asset_denom" : "uart",
+    "staking_asset_denom" : "uart",
     "symbol" : "ART",
     "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/artela-testnet/asset/art.png",
     "bech_account_prefix" : "art",
