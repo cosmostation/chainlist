@@ -1,6 +1,17 @@
 [
     {
         "type": "native",
+        "denom": "ustake",
+        "name" : "STAKE Testnet",
+        "symbol": "STAKE",
+        "description": "Lombard Testnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard-testnet/asset/stake.png",
+        "coinGeckoId": "",
+        "color": ""
+    },
+    {
+        "type": "native",
         "denom": "ulom",
         "name" : "Lombard",
         "symbol": "LOM",
