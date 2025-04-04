@@ -22,12 +22,13 @@
         }
     ],
     "cosmos_fee_info" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
-            "0.02ukyve"
+            "0.02ukyve",
+            "0.03ukyve"
         ],
         "is_simulable" : true,
-        "simulated_gas_multiply" : 1.2,
+        "simulated_gas_multiply" : 1.5,
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
