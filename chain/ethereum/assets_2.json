@@ -24,7 +24,7 @@
                 "source_port": "transfer",
                 "destination_port": "transfer",
                 "version": "ics20-1",
-                "encoding" : "application/x-solidity-abi"
+                "encoding" : "application/x-solidity-abi",
                 "chain": "cosmos",
                 "denom": "uatom"
             }
