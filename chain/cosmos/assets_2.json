@@ -791,5 +791,18 @@
                 "denom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F"
             }
         }
+    },
+    {
+        "type": "ibc_v2",
+        "denom": "ibc/C0B53D3D23827AE38058BED0BDCD554229278AF530A8D265FCF6DFF7C4B2ADFF",
+        "name": "WETH",
+        "symbol": "WETH",
+        "description": "WETH via ibc v2",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "ibc_v2_info" : {
+            "path": "ethereum>cosmos"
+        }
     }
 ]

@@ -4245,5 +4245,20 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cronos/asset/cro.png",
         "coinGeckoId": "crypto-com-chain"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbf6bc6782f7eb580312cc09b976e9329f3e027b3",
+        "name": "Atom",
+        "symbol": "ATOM",
+        "description": "ATOM via IBC",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "color": "#9248DB",
+        "support_ibc_v2" : true
+        "ibc_v2_info" : {
+            "path": "cosmos>ethereum",
+        }
     }
 ]
