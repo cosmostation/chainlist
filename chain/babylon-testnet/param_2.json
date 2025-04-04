@@ -6,6 +6,7 @@
     "staking_asset_symbol": "tBABY",
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/asset/bbn.png",
     "is_support_mintscan": true,
+    "is_support_cw20" : true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
     "btc_staking": {
