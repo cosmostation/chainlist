@@ -24,8 +24,8 @@
     "cosmos_fee_info" : {
         "base" : "1",
         "rate" : [
-            "0.02ukyve",
-            "0.03ukyve"
+            "2ukyve",
+            "3ukyve"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.5,
