@@ -801,7 +801,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
         "coinGeckoId": "weth",
-        "ibc_v2_info" : {
+        "ibc_info" : {
             "path": "ethereum>cosmos",
             "counterparty": {
                 "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",

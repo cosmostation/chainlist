@@ -18,7 +18,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
         "coinGeckoId": "cosmos",
-        "ibc_v2_info" : {
+        "ibc_info" : {
             "path": "cosmos>ethereum",
             "counterparty": {
                 "source_port": "transfer",

@@ -4257,7 +4257,7 @@
         "coinGeckoId": "cosmos",
         "color": "#9248DB",
         "support_ibc_v2" : true,
-        "ibc_v2_info" : {
+        "ibc_info" : {
             "path": "cosmos>ethereum"
         }
     }
