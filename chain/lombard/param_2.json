@@ -12,6 +12,7 @@
     "bech_validator_prefix" : "lomvaloper",
     "origin_genesis_time" : "2024-12-20T18:55:00Z",
     "api_name" : "lombard",
+    "is_stake_enabled" : false,
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": false,
