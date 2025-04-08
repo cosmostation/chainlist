@@ -4260,5 +4260,15 @@
         "ibc_info" : {
             "path": "cosmos>ethereum"
         }
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEd04915c23f00A313a544955524EB7DBD823143d",
+        "name": "ACH",
+        "symbol": "ACH",
+        "description": "Alchemy Pay",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cronos/asset/ach.png",
+        "coinGeckoId": "alchemy-pay"
     }
 ]
