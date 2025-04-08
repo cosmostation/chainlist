@@ -4258,7 +4258,18 @@
         "color": "#9248DB",
         "support_ibc_v2" : true,
         "ibc_info" : {
-            "path": "cosmos>ethereum"
+            "path": "cosmos>ethereum",
+            "client" : {
+                "version": "ics20-1",
+                "encoding" : "application/x-solidity-abi",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "08-wasm-1369",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
         }
     },
     {
