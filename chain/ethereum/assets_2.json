@@ -21,6 +21,7 @@
         "ibc_info" : {
             "path": "cosmos>ethereum",
             "counterparty": {
+                "source_client": "08-wasm-1369",
                 "source_port": "transfer",
                 "destination_port": "transfer",
                 "version": "ics20-1",
