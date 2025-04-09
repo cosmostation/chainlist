@@ -793,6 +793,30 @@
         }
     },
     {
+        "type": "ibc",
+        "denom": "ibc/DBD9E339E1B093A052D76BECFFDE8435EAC114CF2133346B4D691F3F2068C957",
+        "name" : "Lombard Staked BTC",
+        "symbol": "LBTC",
+        "description": "Lombard Staked BTC.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard/asset/lbtc.png",
+        "coinGeckoId": "lombard-staked-btc",
+        "color": "#04fbfb",
+        "ibc_info" : {
+            "path": "lombard>cosmos",
+            "client" : {
+                "channel": "channel-1340",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "lombard",
+                "denom": "uclbtc"
+            }
+        }
+    },
+    {
         "type": "ibc_v2",
         "denom": "ibc/C0B53D3D23827AE38058BED0BDCD554229278AF530A8D265FCF6DFF7C4B2ADFF",
         "name": "WETH",
