@@ -58,7 +58,7 @@
         "url": "https://www.mintscan.io/babylon-testnet/",
         "account": "https://www.mintscan.io/babylon-testnet/address/${address}",
         "tx": "https://www.mintscan.io/babylon-testnet/tx/${hash}",
-        "proposal": "https://www.mintscan.io/babylon-testnetram /proposals/${id}"
+        "proposal": "https://www.mintscan.io/babylon-testnet/proposals/${id}"
     },
     "about" : {
         "website" : "https://babylonchain.io/",

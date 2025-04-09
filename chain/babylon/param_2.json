@@ -1,5 +1,5 @@
 {
-    "chain_id_cosmos": "",
+    "chain_id_cosmos": "bbn-1",
     "chain_name": "Babylon",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/resource/chain_babylon.png",
     "staking_asset_denom" : "ubbn",
@@ -7,7 +7,8 @@
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/bbn.png",
     "bech_account_prefix": "bbn",
     "bech_validator_prefix": "bbnvaloper",
-    "origin_genesis_time": "",
+    "origin_genesis_time": "2024-08-13T15:45:14Z",
+    "is_support_mintscan": true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : false,
     "btc_staking": {
@@ -48,11 +49,11 @@
         }
     ],
     "explorer" : {
-        "name": "",
-        "url": "",
-        "account": "",
-        "tx": "",
-        "proposal": ""
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/babylon/",
+        "account": "https://www.mintscan.io/babylon/address/${address}",
+        "tx": "https://www.mintscan.io/babylon/tx/${hash}",
+        "proposal": "https://www.mintscan.io/babylon/proposals/${id}"
     },
     "about": {
         "website": "https://babylonchain.io/",
