@@ -4258,7 +4258,28 @@
         "color": "#9248DB",
         "support_ibc_v2" : true,
         "ibc_info" : {
-            "path": "cosmos>ethereum"
+            "path": "cosmos>ethereum",
+            "client" : {
+                "version": "ics20-1",
+                "encoding" : "application/x-solidity-abi",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "08-wasm-1369",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
         }
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEd04915c23f00A313a544955524EB7DBD823143d",
+        "name": "ACH",
+        "symbol": "ACH",
+        "description": "Alchemy Pay",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ach.png",
+        "coinGeckoId": "alchemy-pay"
     }
 ]

@@ -805,7 +805,9 @@
             "path": "ethereum>cosmos",
             "counterparty": {
                 "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
-                "BeaconProxyAddress": "0x0fa75c2c49d7db7ed62c5fb70bf78ba614ae6a89"
+                "BeaconProxyAddress": "0x0fa75c2c49d7db7ed62c5fb70bf78ba614ae6a89",
+                "chain": "ethereum",
+                "denom": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
             }
         }
     }
