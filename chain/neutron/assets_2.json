@@ -895,6 +895,16 @@
     },
     {
         "type": "native",
+        "denom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
+        "name" : "dNTRN",
+        "symbol": "dNTRN",
+        "description": "Drop staked NTRN",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dntrn.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
         "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
         "name" : "dATOM",
         "symbol": "dATOM",
