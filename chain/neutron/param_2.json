@@ -9,7 +9,7 @@
     "bech_validator_prefix": "neutronvaloper",
     "origin_genesis_time": "2023-05-10T15:00:00Z",
     "api_name" : "neutron",
-    "is_stake_enabled" : false,
+    "is_stake_enabled" : true,
     "is_support_cw20" : true,
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
