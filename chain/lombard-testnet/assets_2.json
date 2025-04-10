@@ -13,11 +13,22 @@
     {
         "type": "native",
         "denom": "ulom",
-        "name" : "Lombard",
+        "name" : "Lombard Testnet",
         "symbol": "LOM",
         "description": "The native token of Lombard Testnet Chain",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard-testnet/asset/lom.png",
+        "coinGeckoId": "",
+        "color": ""
+    },
+    {
+        "type": "native",
+        "denom": "uclbtc",
+        "name" : "Lombard Testnet Staked BTC",
+        "symbol": "LBTC",
+        "description": "Lombard Testnet Staked BTC.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard-testnet/asset/lbtc.png",
         "coinGeckoId": "",
         "color": ""
     }
