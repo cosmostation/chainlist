@@ -39,13 +39,13 @@
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "grpc-babylon.cosmostation.io:443"
+            "url": "grpc.mainnet.babylon.cosmostation.io:443"
         }
     ],
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-babylon.cosmostation.io/"
+            "url": "https://lcd.mainnet.babylon.cosmostation.io/"
         }
     ],
     "explorer" : {
