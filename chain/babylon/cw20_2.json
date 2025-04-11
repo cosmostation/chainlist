@@ -1,0 +1,14 @@
+[
+    {
+        "type": "cw20",
+        "contract": "bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz",
+        "name" : "Cube Baby",
+        "symbol": "cBABY",
+        "description": "Liquid staking token from Cube by SatLayer",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/cbaby.png",
+        "coinGeckoId": "cube-staked-baby",
+        "color": "#ff9a00",
+        "wallet_preload": true
+    }
+]
