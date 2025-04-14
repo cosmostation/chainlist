@@ -21,7 +21,7 @@
     "evm_rpc_endpoint" : [
         {
             "provider": "Berachain",
-            "url": "https://rpc.berachain.com/"
+            "url": "https://rpc.berachain.com"
         }
     ],
     "explorer" : {
