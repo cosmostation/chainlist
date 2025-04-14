@@ -4262,6 +4262,7 @@
                 "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
                 "version": "ics20-1",
                 "encoding" : "application/x-solidity-abi",
+                "channel": "cosmoshub-0",
                 "port": "transfer"
             },
             "counterparty": {
