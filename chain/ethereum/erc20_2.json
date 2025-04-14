@@ -4259,12 +4259,12 @@
         "ibc_info" : {
             "path": "cosmos>ethereum",
             "client" : {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
                 "version": "ics20-1",
                 "encoding" : "application/x-solidity-abi",
                 "port": "transfer"
             },
             "counterparty": {
-                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
                 "channel": "08-wasm-1369",
                 "port": "transfer",
                 "chain": "cosmos",
