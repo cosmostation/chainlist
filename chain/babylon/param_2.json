@@ -9,6 +9,7 @@
     "bech_validator_prefix": "bbnvaloper",
     "origin_genesis_time": "2024-08-13T15:45:14Z",
     "is_support_mintscan": true,
+    "is_support_cw20" : true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : false,
     "btc_staking": {
