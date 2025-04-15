@@ -13,7 +13,7 @@
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : false,
     "btc_staking": {
-        "is_support_staking" : false,
+        "is_support_staking" : true,
         "url": "https://btcstaking.babylonlabs.io/"
     },
     "api_name": "babylon",
