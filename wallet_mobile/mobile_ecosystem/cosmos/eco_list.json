@@ -1,5 +1,12 @@
 [
     {
+        "name": "IBC Eureka (Skip)",
+        "description": "IBC Eureka, launched by Cosmos’ Interchain Labs, enables secure and transparent connections between blockchains—marking a key step toward building a decentralized internet.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/eureka.png",
+        "link": "https://go.cosmos.network/",
+        "type": "IBC, Swap"
+    },
+    {
         "name": "Skip Go",
         "description": "Provides MEV solutions for Cosmos and Evm blockchains, enabling revenue generation through block space auctions and transaction prioritization.",
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/skip.png",
