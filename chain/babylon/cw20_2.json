@@ -21,5 +21,15 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/cbaby.png",
         "coinGeckoId": "cube-staked-baby",
         "color": "#ff9a00"
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks",
+        "name": "Lorenzo stBTC",
+        "symbol": "stBTC.union",
+        "description": "Union bridged stBTC, the liquid restaking token minted by Lorenzo Protocol for staked Bitcoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/stBTC.png",
+        "coinGeckoId": "lorenzo-stbtc"
     }
 ]
