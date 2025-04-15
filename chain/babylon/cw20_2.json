@@ -21,5 +21,15 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/cbaby.png",
         "coinGeckoId": "cube-staked-baby",
         "color": "#ff9a00"
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd",
+        "name": "Wrapped Ether",
+        "symbol": "WETH.union",
+        "description": "Union bridged WETH, Wrapped version of Ether on Babylon",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/WETH.png",
+        "coinGeckoId": "weth"
     }
 ]
