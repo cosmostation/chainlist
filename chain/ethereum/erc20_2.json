@@ -4245,5 +4245,52 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cronos/asset/cro.png",
         "coinGeckoId": "crypto-com-chain"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbf6bc6782f7eb580312cc09b976e9329f3e027b3",
+        "name": "Atom",
+        "symbol": "ATOM",
+        "description": "ATOM via Eureka IBC",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "color": "#9248DB",
+        "ibc_info" : {
+            "path": "cosmos>ethereum",
+            "client" : {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "version": "ics20-1",
+                "encoding" : "application/x-solidity-abi",
+                "channel": "cosmoshub-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "08-wasm-1369",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEd04915c23f00A313a544955524EB7DBD823143d",
+        "name": "ACH",
+        "symbol": "ACH",
+        "description": "Alchemy Pay",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ach.png",
+        "coinGeckoId": "alchemy-pay"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+        "name": "Pump BTC",
+        "symbol": "pumpBTC",
+        "description": "pumpBTC",
+        "decimals": 8,
+        "image": "https://etherscan.io/token/images/pumpbtcxyz2_32.png",
+        "coinGeckoId": "pumpbtc"
     }
 ]

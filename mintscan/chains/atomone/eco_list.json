@@ -1,24 +1,24 @@
 [
-	{
-		"name": "Gov Atomone",
-		"type": "Governance",
-		"description": "Atomone governance platform.",
-		"status": "open",
-		"thumbnail": "atomone",
-		"link": "https://gov.atom.one/",
-		"social": {
-			"webSite": "https://gov.atom.one/"
-		}
-	},
-	{
-		"name": "Staking Atomone",
-		"type": "Staking",
-		"description": "Atomone Staking platform.",
-		"status": "open",
-		"thumbnail": "atomone_staking_portal",
-		"link": "https://staking.atom.one/",
-		"social": {
-			"webSite": "https://staking.atom.one/"
-		}
-	}
+    {
+        "name": "Gov Atomone",
+        "type": "Governance",
+        "description": "Atomone governance platform.",
+        "status": "open",
+        "thumbnail": "atomone",
+        "link": "https://gov.atom.one/",
+        "social": {
+            "webSite": "https://gov.atom.one/"
+        }
+    },
+    {
+        "name": "Staking Atomone",
+        "type": "Staking",
+        "description": "Atomone Staking platform.",
+        "status": "open",
+        "thumbnail": "atomone_staking_portal",
+        "link": "https://staking.atom.one/",
+        "social": {
+            "webSite": "https://staking.atom.one/"
+        }
+    }
 ]

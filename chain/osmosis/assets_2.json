@@ -10784,5 +10784,29 @@
         "description": "T7S is the heartbeat of the Seven Shaders universe—powering NFTs, AI adventures, and gaming rewards. One token, endless possibilities.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EC3A4ACBA1CFBEE698472D3563B70985AEA5A7144C319B61B3EBDFB57B5E1535",
+        "name": "Babylon",
+        "symbol": "BABY",
+        "description": "Babylon Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/bbn.png",
+        "color": "#FF863C",
+        "coinGeckoId": "babylon",
+        "ibc_info": {
+            "path": "babylon>osmosis",
+            "client": {
+                "channel": "channel-101635",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "Babylon",
+                "denom": "ubbn"
+            }
+        }
     }
 ]

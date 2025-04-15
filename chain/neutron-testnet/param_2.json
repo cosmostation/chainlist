@@ -2,13 +2,12 @@
     "chain_id_cosmos" : "pion-1",
     "chain_name": "Neutron Testnet",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron-testnet/resource/chain_neutron-testnet.png",
-    "main_asset_denom" : "untrn",
-    "main_asset_symbol" : "NTRN",
-    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrn.png",
+    "staking_asset_denom" : "untrn",
+    "staking_asset_symbol" : "NTRN",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrn.png",
     "bech_account_prefix" : "neutron",
     "bech_validator_prefix" : "neutronvaloper",
     "api_name" : "neutron-testnet",
-    "is_stake_enabled" : false,
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
@@ -23,8 +22,12 @@
         }
     ],
     "cosmos_fee_info": {
+        "base" : "0",
+        "rate" : [
+            "0.0053untrn"
+        ],
         "is_feemarket": true,
-        "simulated_gas_multiply" : 1.3,
+        "simulated_gas_multiply" : 1.5,
         "init_gas_limit": 500000
     },
     "grpc_endpoint": [
@@ -128,5 +131,13 @@
             "manager": null,
             "denom": "untrn"
         }
-    ]
+    ],
+    "reward": {
+        "name": "Neutron Staking Rewards",
+        "description": "Neutron Staking Rewards",
+        "address": "neutron1h62p45vv3fg2q6sm00r93gqgmhqt9tfgq5hz33qyrhq8f0pqqj0s36wgc3",
+        "owner": "neutron19glux3jzdfyyz6ylmuksgxfj5phdaxfr2uhy86",
+        "manager": null,
+        "denom": "untrn"
+    }
 }

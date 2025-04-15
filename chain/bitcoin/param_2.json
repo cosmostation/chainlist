@@ -5,10 +5,11 @@
     "main_asset_symbol" : "BTC",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin/asset/btc.png",
     "origin_genesis_time" : "2009-01-03T18:15:05Z",
+    "is_stake_enabled" : false,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
     "btc_staking": {
-        "is_support_staking" : false,
+        "is_support_staking" : true,
         "url": "https://btcstaking.babylonlabs.io/"
     },
     "chain_type": [

@@ -2,10 +2,11 @@
     "chain_id_cosmos": "bbn-test-5",
     "chain_name": "Babylon Testnet",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/resource/chain_babylon-testnet.png",
-    "main_asset_denom" : "ubbn",
-    "main_asset_symbol": "tBABY",
-    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/asset/bbn.png",
+    "staking_asset_denom" : "ubbn",
+    "staking_asset_symbol": "tBABY",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/asset/bbn.png",
     "is_support_mintscan": true,
+    "is_support_cw20" : true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
     "btc_staking": {
@@ -57,7 +58,7 @@
         "url": "https://www.mintscan.io/babylon-testnet/",
         "account": "https://www.mintscan.io/babylon-testnet/address/${address}",
         "tx": "https://www.mintscan.io/babylon-testnet/tx/${hash}",
-        "proposal": "https://www.mintscan.io/babylon-testnetram /proposals/${id}"
+        "proposal": "https://www.mintscan.io/babylon-testnet/proposals/${id}"
     },
     "about" : {
         "website" : "https://babylonchain.io/",

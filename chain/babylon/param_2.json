@@ -1,17 +1,19 @@
 {
-    "chain_id_cosmos": "",
+    "chain_id_cosmos": "bbn-1",
     "chain_name": "Babylon",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/resource/chain_babylon.png",
-    "main_asset_denom" : "ubbn",
-    "main_asset_symbol": "BBN",
-    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/bbn.png",
+    "staking_asset_denom" : "ubbn",
+    "staking_asset_symbol": "BABY",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/bbn.png",
     "bech_account_prefix": "bbn",
     "bech_validator_prefix": "bbnvaloper",
-    "origin_genesis_time": "",
+    "origin_genesis_time": "2024-08-13T15:45:14Z",
+    "is_support_mintscan": true,
+    "is_support_cw20" : true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : false,
     "btc_staking": {
-        "is_support_staking" : false,
+        "is_support_staking" : true,
         "url": "https://btcstaking.babylonlabs.io/"
     },
     "api_name": "babylon",
@@ -28,7 +30,7 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.0ubbn"
+            "0.002ubbn"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
@@ -38,21 +40,21 @@
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "grpc-babylon.cosmostation.io:443"
+            "url": "grpc.mainnet.babylon.cosmostation.io:443"
         }
     ],
     "lcd_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://lcd-babylon.cosmostation.io/"
+            "url": "https://lcd.mainnet.babylon.cosmostation.io/"
         }
     ],
     "explorer" : {
-        "name": "",
-        "url": "",
-        "account": "",
-        "tx": "",
-        "proposal": ""
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/babylon/",
+        "account": "https://www.mintscan.io/babylon/address/${address}",
+        "tx": "https://www.mintscan.io/babylon/tx/${hash}",
+        "proposal": "https://www.mintscan.io/babylon/proposals/${id}"
     },
     "about": {
         "website": "https://babylonchain.io/",
@@ -64,7 +66,7 @@
         "twitter": "https://x.com/babylonlabs_io",
         "discord": "https://discord.com/invite/babylonglobal",
         "telegram": "https://t.me/babyloncommunity",
-        "coingecko": ""
+        "coingecko": "https://www.coingecko.com/coins/babylon"
     },
     "forum": {
         "main": "https://forum.babylonlabs.io/"

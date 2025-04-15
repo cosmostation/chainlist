@@ -1,0 +1,42 @@
+[
+    {
+        "name": "IBC Eureka (Skip)",
+        "type": "IBC, Swap",
+        "description": "IBC Eureka, launched by Cosmos’ Interchain Labs, enables secure and transparent connections between blockchains—marking a key step toward building a decentralized internet.",
+        "status": "open",
+        "thumbnail" : "eureka",
+        "link": "https://go.cosmos.network/",
+        "social": {
+            "webSite": "https://www.skip.build/",
+            "twitter": "https://x.com/SkipProtocol",
+            "github": "https://github.com/skip-mev",
+            "docs": "https://docs.skip.build/go"
+        }
+    },
+    {
+        "name": "Skip Go",
+        "type": "DeFi",
+        "description": "Provides MEV solutions for Cosmos and Evm blockchains, enabling revenue generation through block space auctions and transaction prioritization.",
+        "status": "open",
+        "thumbnail" : "skip",
+        "link": "https://go.skip.build/",
+        "social": {
+            "webSite": "https://www.skip.build/",
+            "twitter": "https://x.com/SkipProtocol",
+            "github": "https://github.com/skip-mev",
+            "docs": "https://docs.skip.build/go"
+        }
+    },
+    {
+        "name": "Squid Router",
+        "type": "Defi",
+        "description": "Squid lets you swap tokens between blockchains, and unlocks access to apps across chains in 1 click ✨ EVM + Cosmos.",
+        "status": "open",
+        "thumbnail" : "squid",
+        "link": "https://app.squidrouter.com",
+        "social": {
+            "webSite": "https://app.squidrouter.com",
+            "twitter": "https://twitter.com/squidrouter"
+        }
+    }
+]

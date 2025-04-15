@@ -9,5 +9,29 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon-testnet/asset/bbn.png",
         "coinGeckoId": "",
         "color": "#FF863C"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/13A78C8607F1ABD49DA5EC474262E3D69312A797FB0026BC4F9961D74EB6E066",
+        "name" : "Lombard Testnet Staked BTC",
+        "symbol": "LBTC",
+        "description": "Lombard Testnet Staked BTC.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard-testnet/asset/lbtc.png",
+        "coinGeckoId": "",
+        "color": "#04fbfb",
+        "ibc_info" : {
+            "path": "lombard-testnet>cosmos-testnet>babylon-testnet",
+            "client" : {
+                "channel": "",
+                "port": ""
+            },
+            "counterparty": {
+                "channel": "",
+                "port": "",
+                "chain": "cosmos-testnet",
+                "denom": ""
+            }
+        }
     }
 ]
