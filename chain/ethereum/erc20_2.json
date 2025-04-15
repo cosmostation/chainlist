@@ -4251,7 +4251,7 @@
         "contract": "0xbf6bc6782f7eb580312cc09b976e9329f3e027b3",
         "name": "Atom",
         "symbol": "ATOM",
-        "description": "ATOM via IBC",
+        "description": "ATOM via Eureka IBC",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
         "coinGeckoId": "cosmos",
@@ -4282,5 +4282,15 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ach.png",
         "coinGeckoId": "alchemy-pay"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+        "name": "Pump BTC",
+        "symbol": "pumpBTC",
+        "description": "pumpBTC",
+        "decimals": 8,
+        "image": "https://etherscan.io/token/images/pumpbtcxyz2_32.png",
+        "coinGeckoId": "pumpbtc"
     }
 ]

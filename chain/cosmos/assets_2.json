@@ -818,6 +818,30 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/7017AD43F9A09EFE8760556753B019B1B5C2E965095DEC22B613F7B010DF91D6",
+        "name" : "Babylon",
+        "symbol": "BABY",
+        "description": "Babylon Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/bbn.png",
+        "coinGeckoId": "babylon",
+        "color": "#FF863C",
+        "ibc_info" : {
+            "path": "babylon>cosmos",
+            "client" : {
+                "channel": "channel-1341",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "babylon",
+                "denom": "ubbn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/C0B53D3D23827AE38058BED0BDCD554229278AF530A8D265FCF6DFF7C4B2ADFF",
         "name": "WETH",
         "symbol": "WETH",
@@ -833,6 +857,86 @@
                 "port": "transfer",
                 "chain": "ethereum",
                 "denom": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E7E51FFF94A8B55BE84CEB0345E5CAF0A5DAEB374C6806CE908098B8996C7782",
+        "name": "Tether",
+        "symbol": "USDT",
+        "description": "Tether via Eureka",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/72607FA54BC78D6948403155FB5D99EA4405C905060ECAA55E6F0CF5E5204D77",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin via Eureka",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FD742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462",
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin via Eureka",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9DA8B22BC0E6D76C2D621EF008168BC163B09A517697B14B68DE75382043152E",
+        "name": "Pump BTC",
+        "symbol": "pumpBTC",
+        "description": "pumpBTC via Eureka",
+        "decimals": 8,
+        "image": "https://etherscan.io/token/images/pumpbtcxyz2_32.png",
+        "coinGeckoId": "pumpbtc",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e"
             }
         }
     }
