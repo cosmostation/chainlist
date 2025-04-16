@@ -21,5 +21,15 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/cbaby.png",
         "coinGeckoId": "cube-staked-baby",
         "color": "#ff9a00"
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2",
+        "name": "uniBTC",
+        "symbol": "uniBTC.union",
+        "description": "Union bridged uniBTC, which represents staked wBTC plus future Babylon staking rewards and Bedrock diamonds",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/uniBTC.png",
+        "coinGeckoId": "universal-btc"
     }
 ]
