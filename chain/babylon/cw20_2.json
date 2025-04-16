@@ -24,6 +24,16 @@
     },
     {
         "type": "cw20",
+        "contract": "bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d",
+        "name": "pumpBTC",
+        "symbol": "pumpBTC.union",
+        "description": "Union bridged pumpBTC, which serves as a Liquid Staking Solution for Babylon",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/PumpBTC.png",
+        "coinGeckoId": "pumpbtc"
+    }
+    {
+        "type": "cw20",
         "contract": "bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2",
         "name": "uniBTC",
         "symbol": "uniBTC.union",
