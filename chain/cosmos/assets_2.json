@@ -927,7 +927,7 @@
         "symbol": "pumpBTC",
         "description": "pumpBTC via Eureka",
         "decimals": 8,
-        "image": "https://etherscan.io/token/images/pumpbtcxyz2_32.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pumpBTC.png",
         "coinGeckoId": "pumpbtc",
         "ibc_info" : {
             "path": "ethereum>cosmos",
