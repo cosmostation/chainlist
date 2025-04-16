@@ -71,5 +71,15 @@
          "decimals": 8,
          "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/uniBTC.png",
          "coinGeckoId": "universal-btc"
-     }
+     },
+     {
+        "type": "cw20",
+        "contract": "bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy",
+        "name": "Lombard Staked Bitcoin",
+        "symbol": "LBTC.union",
+        "description": "Union bridged LBTC, staked version of Bitcoin from Lombard protocol",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/LBTC.png",
+        "coinGeckoId": "lombard-staked-btc"
+    }
 ]
