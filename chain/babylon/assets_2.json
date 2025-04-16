@@ -57,5 +57,28 @@
                 "denom": "uusdc"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/81D08BC39FB520EBD948CF017910DD69702D34BF5AC160F76D3B5CFC444EBCE0",
+        "name" : "Persistence One",
+        "symbol": "XPRT",
+        "description": "Persistence Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/asset/xprt.png",
+        "coinGeckoId": "persistence",
+        "ibc_info" : {
+            "path": "persistence>cosmos>babylon",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1341",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/81D08BC39FB520EBD948CF017910DD69702D34BF5AC160F76D3B5CFC444EBCE0"
+            }
+        }
     }
 ]
