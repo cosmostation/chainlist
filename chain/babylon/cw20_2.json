@@ -22,14 +22,44 @@
         "coinGeckoId": "cube-staked-baby",
         "color": "#ff9a00"
     },
-    {
-        "type": "cw20",
-        "contract": "bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks",
-        "name": "Lorenzo stBTC",
-        "symbol": "stBTC.union",
-        "description": "Union bridged stBTC, the liquid restaking token minted by Lorenzo Protocol for staked Bitcoin",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/stBTC.png",
-        "coinGeckoId": "lorenzo-stbtc"
-    }
+     {
+         "type": "cw20",
+         "contract": "bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst",
+         "name": "Solv BTC",
+         "symbol": "SolvBTC",
+         "description": "SolvBTC is a universal Bitcoin reserve",
+         "decimals": 18,
+         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/SolvBTC.png",
+         "coinGeckoId": "solv-btc"
+     },
+     {
+         "type": "cw20",
+         "contract": "bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks",
+         "name": "Lorenzo stBTC",
+         "symbol": "stBTC",
+         "description": "Liquid staked BTC from Lorenzo",
+         "decimals": 18,
+         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/stBTC.png",
+         "coinGeckoId": "lorenzo-stbtc"
+     },
+     {
+         "type": "cw20",
+         "contract": "bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d",
+         "name": "pumpBTC",
+         "symbol": "pumpBTC",
+         "description": "Liquid staking token for Babylon",
+         "decimals": 8,
+         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/PumpBTC.png",
+         "coinGeckoId": "pumpbtc"
+     },
+     {
+         "type": "cw20",
+         "contract": "bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2",
+         "name": "uniBTC",
+         "symbol": "uniBTC",
+         "description": "Represents staked wBTC plus future Babylon staking rewards and Bedrock diamonds",
+         "decimals": 8,
+         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/uniBTC.png",
+         "coinGeckoId": "universal-btc"
+     }
 ]
