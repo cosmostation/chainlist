@@ -1,0 +1,81 @@
+{
+    "chain_id_cosmos" : "pirin-1",
+    "chain_name": "Nolus",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nolus/resource/chain_nolus.png",
+    "staking_asset_denom" : "unls",
+    "staking_asset_symbol" : "NLS",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nolus/asset/nolus.png",
+    "bech_account_prefix" : "nolus",
+    "bech_validator_prefix" : "nolusvaloper",
+    "origin_genesis_time" : "2023-05-23T15:00:00Z",
+    "api_name" : "nolus",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.025unls"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "NolusProtocol",
+            "url": "grpc.nolus.network:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "NolusProtocol",
+            "url": "https://lcd.nolus.network/"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://nolus-rest.publicnode.com/"
+        },
+        {
+            "provider": "LiveRaveN",
+            "url": "https://nolus.api.liveraven.net/"
+        },
+        {
+            "provider": "Architect Nodes",
+            "url": "https://rest-nolus.architectnodes.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Ping.pub",
+        "url": "https://ping.pub/nolus",
+        "account": "https://ping.pub/nolus/account/${address}",
+        "tx": "https://ping.pub/nolus/tx/${hash}",
+        "proposal": "https://ping.pub/nolus/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://nolus.io/",
+        "docs": "https://hub.nolus.io/en/collections/10034429-tech-documentation",
+        "github" : "https://github.com/nolus-protocol",
+        "medium": "https://medium.com/nolusprotocol",
+        "twitter" : "https://x.com/nolusprotocol",
+        "coingecko" : "https://www.coingecko.com/en/coins/nolus"
+    },
+    "forum": {
+        "main": "https://www.reddit.com/r/nolus"
+    },
+    "description" : {
+        "ko" : "Nolus 블록체인은 대출자와 차입자를 연결하여, 차입자가 최대 150%의 자금을 확보하며 레버리지가 적용된 자산에 접근할 수 있게 합니다.",
+        "en" : "Nolus Blockchain bridges lenders and borrowers, enabling borrowers to secure up to 150% financing while accessing leveraged assets.",
+        "ja" : "Nolusブロックチェーンは貸し手と借り手をつなぎ、借り手が最大150%の資金を確保しながら、レバレッジのかかった資産にアクセスできるようにします。"
+    }
+}

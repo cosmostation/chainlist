@@ -1,0 +1,68 @@
+{
+    "chain_id_cosmos" : "int3face-1",
+    "chain_name": "Int3face",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/int3face/resource/chain_int3face.png",
+    "staking_asset_denom": "uint3",
+    "staking_asset_symbol" : "INT3",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/int3face/asset/int3.png",
+    "bech_account_prefix" : "int3",
+    "bech_validator_prefix" : "int3valoper",
+    "origin_genesis_time" : "2024-09-16T15:00:00Z",
+    "api_name" : "int3face",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.025uint3",
+            "0.04uint3"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Int3face.io",
+            "url": "grpc.mainnet.int3face.zone:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Int3face.io",
+            "url": "https://api.mainnet.int3face.zone/"
+        }
+    ],
+    "explorer" : {
+        "name": "Ping.pub",
+        "url": "https://explorer.int3face.zone/",
+        "account": "https://explorer.int3face.zone/int3face-1/account/${address}",
+        "tx": "https://explorer.int3face.zone/int3face-1/tx/${hash}",
+        "proposal": "https://explorer.int3face.zone/int3face-1/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://int3face.zone/",
+        "docs": "https://int3facechain.github.io/docs/int3face/overview",
+        "github" : "https://github.com/Int3facechain",
+        "blog" : "https://int3face.gitbook.io/bitfrost-docs",
+        "medium": "",
+        "twitter" : "https://x.com/_Bitfrost_",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Int3rface는 Cosmos 생태계를 다른 블록체인과 연결하는 크로스체인 브릿지입니다.",
+        "en" : "Int3face is a cross-chain bridge that connects the Cosmos ecosystem with other blockchains.",
+        "ja" : "Int3rfaceは、Cosmosエコシステムと他のブロックチェーンをつなぐクロスチェーンブリッジです。"
+    }
+}

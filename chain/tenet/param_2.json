@@ -1,0 +1,87 @@
+{
+    "chain_id_cosmos" : "tenet_1559-1",
+    "chain_id_evm" : "0x617",
+    "chain_name": "Tenet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/tenet/resource/chain_tenet.png",
+    "staking_asset_denom" : "atenet",
+    "staking_asset_symbol" : "TENET",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/tenet/asset/tenet.png",
+    "bech_account_prefix" : "tenet",
+    "bech_validator_prefix" : "tenetvaloper",
+    "origin_genesis_time" : "2023-04-17T09:45:19Z",
+    "api_name": "tenet",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "25000000000atenet",
+            "40000000000atenet"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "tenet-grpc.publicnode.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Tenet",
+            "url": "https://app.rpc.tenet.org/"
+        },
+        {
+            "provider": "Allnodes ⚡️ Nodes & Staking",
+            "url": "https://tenet-rest.publicnode.com/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Tenet",
+            "url": "https://rpc.tenet.org"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://tenet-evm.publicnode.com"
+        }
+    ],
+    "explorer" : {
+        "name": "Pingpub",
+        "url": "https://ping.pub/tenet",
+        "account": "https://ping.pub/tenet/account/${address}",
+        "tx": "https://ping.pub/tenet/tx/${hash}",
+        "proposal": "https://ping.pub/tenet/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://tenet.org/",
+        "docs": "https://docs.tenet.org/",
+        "github" : "https://github.com/tenet-org",
+        "twitter" : "https://x.com/tenet_org",
+        "coingecko" : "https://www.coingecko.com/en/coins/tenet"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "여러 블록체인의 스테이킹을 결합하여 네트워크 보안을 강화하는 DPoS(Diversified Proof of Stake) 메커니즘입니다.",
+        "en" : "Diversified Proof of Stake (DPoS) mechanism, which combines staking from multiple blockchains to strengthen network security.",
+        "ja" : "複数のブロックチェーンからのステーキングを組み合わせてネットワークのセキュリティを強化する、多様化プルーフオブステーク (DPoS) メカニズム。"
+    }
+}

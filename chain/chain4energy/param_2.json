@@ -1,0 +1,84 @@
+{
+    "chain_id_cosmos": "perun-1",
+    "chain_name": "C4E",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chain4energy/resource/chain_chain4energy.png",
+    "staking_asset_denom": "uc4e",
+    "staking_asset_symbol": "C4E",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chain4energy/asset/chain4energy.png",
+    "bech_account_prefix": "c4e",
+    "bech_validator_prefix": "c4evaloper",
+    "origin_genesis_time": "2022-09-22T14:00:00Z",
+    "api_name": "chain4energy",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.01uc4e"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "NodeStake",
+            "url": "grpc.c4e.nodestake.top:443"
+        },
+        {
+            "provider": "Cryptech",
+            "url": "grpc-c4e.cryptech.com.ua:443"
+        },
+        {
+            "provider": "StakeTown",
+            "url": "c4e-grpc.stake-town.com:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "C4E",
+            "url": "https://lcd.c4e.io/"
+        },
+        {
+            "provider": "MZONDER",
+            "url": "https://api-c4e.mzonder.com/"
+        },
+        {
+            "provider": "Crosnest",
+            "url": "https://rest.cros-nest.com/chain4energy/"
+        },
+        {
+            "provider": "Indonode",
+            "url": "https://api.c4e.indonode.net/"
+        }
+    ],
+    "explorer" : {
+        "name": "C4E",
+        "url": "https://explorer.c4e.io/",
+        "account": "https://explorer.c4e.io/accounts/${address}",
+        "tx": "https://explorer.c4e.io/transactions/${hash}",
+        "proposal": "https://explorer.c4e.io/proposals/${id}"
+    },
+    "about" : {
+        "webSite": "https://c4e.io/",
+        "docs": "",
+        "github": "https://github.com/chain4energy",
+        "twitter": "https://twitter.com/Chain4Energy",
+        "coingecko" : "https://www.coingecko.com/en/coins/chain4energy"
+    },
+    "description" : {
+        "ko" : "Chain4Energy는 에너지 산업을 위해 설계된 블록체인 플랫폼으로, 분산형 에너지 거래를 통해 에너지 생태계에 혁신을 가져오는 것을 목표로 합니다.",
+        "en" : "Chain4Energy is a blockchain platform designed for the energy industry, aiming to revolutionize the energy ecosystem through decentralized energy trading.",
+        "ja" : "Chain4Energy は、分散型エネルギー取引を通じてエネルギーエコシステムに革命を起こすことを目指して、エネルギー業界向けに設計されたブロックチェーン プラットフォームです。"
+    }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "type": "cw20",
+        "contract": "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv",
+        "name" : "Boy",
+        "symbol": "BOY",
+        "description": "Astro BOY",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/boy.png",
+        "coinGeckoId": "",
+        "color": "#333333",
+        "wallet_preload": true
+    },
+    {
+        "type": "cw20",
+        "contract": "neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf",
+        "name" : "wtf",
+        "symbol": "WTF",
+        "description": "What the Fuck",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/WTF.png",
+        "coinGeckoId": "",
+        "color": "#dcd5ab",
+        "wallet_preload": true
+    },
+    {
+        "type": "cw20",
+        "contract": "neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj",
+        "name" : "Bitcosmos",
+        "symbol": "BTC",
+        "description": "BITCOSMOS",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/bitcosmos.png",
+        "coinGeckoId": "",
+        "color": "#1b0847",
+        "wallet_preload": true
+    }
+]

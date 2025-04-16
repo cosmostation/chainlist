@@ -1,0 +1,51 @@
+[
+    {
+        "type": "native",
+        "denom": "0x1::aptos_coin::AptosCoin",
+        "name" : "Aptos",
+        "symbol": "APT",
+        "description": "Aptos Coin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/asset/aptos.png",
+        "coinGeckoId": "aptos"
+    },
+    {
+        "type": "bridge",
+        "denom": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+        "name" : "USD Coin (Wormhole)",
+        "symbol": "USDC",
+        "description": "USD Coin (Wormhole)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "ethereum>sui"
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0xc91d826e29a3183eb3b6f6aa3a722089fdffb8e9642b94c5fcd4c48d035c0080::coin::T",
+        "name" : "USD Coin (Wormhole Solana)",
+        "symbol": "USDCso",
+        "description": "USD Coin (Wormhole Solana)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "solana>sui"
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+        "name" : "USD Coin (LayerZero)",
+        "symbol": "zUSDC",
+        "description": "USD Coin (LayerZero)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": "layerzero>sui"
+        }
+    }
+]

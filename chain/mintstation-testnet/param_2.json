@@ -1,0 +1,64 @@
+{
+    "chain_id_cosmos" : "mintstation-1",
+    "chain_name": "Mintstation",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mintstation-testnet/resource/chain_mintstation.png",
+    "staking_asset_denom" : "umint",
+    "staking_asset_symbol" : "MINT",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mintstation-testnet/asset/mint.png",
+    "bech_account_prefix" : "mint",
+    "bech_validator_prefix" : "mintvaloper",
+    "api_name" : "mintstation-testnet",
+    "is_support_mintscan": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.00025umint",
+            "0.0025umint",
+            "0.025umint"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "cosmostation",
+            "url": "grpc-office-mintstation.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/mintstation-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/mintstation-testnet/",
+        "account": "https://www.mintscan.io/mintstation-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/mintstation-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/mintstation-testnet/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.stamper.network/",
+        "blog" : "",
+        "github" : "",
+        "twitter" : "",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Cosmos SDK 개발자들을 위한 무허가형 테스트넷 플레이그라운드 입니다.",
+        "en" : "This is a permissionless testnet playground for Cosmos SDK developers.",
+        "ja" : "Cosmos SDK 開発者のための無許可のテストネット プレーグラウンドです。"
+    }
+}

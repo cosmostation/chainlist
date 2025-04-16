@@ -1,0 +1,65 @@
+{
+    "chain_name": "Bitcoin",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin/resource/chain_bitcoin.png",
+    "main_asset_denom" : "btc",
+    "main_asset_symbol" : "BTC",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcoin/asset/btc.png",
+    "origin_genesis_time" : "2009-01-03T18:15:05Z",
+    "is_stake_enabled" : false,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "btc_staking": {
+        "is_support_staking" : true,
+        "url": "https://btcstaking.babylonlabs.io/"
+    },
+    "chain_type": [
+        "bitcoin"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/86'/0'/0'/0/X",
+            "pubkey_style": "p2tr"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/84'/0'/0'/0/X",
+            "pubkey_style": "p2wpkh"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/44'/0'/0'/0/X",
+            "pubkey_style": "p2pkh"
+        },
+        {
+            "is_default" : false,
+            "hd_path": "m/49'/0'/0'/0/X",
+            "pubkey_style": "p2wpkhSh"
+        }
+    ],
+    "explorer" : {
+        "name": "OKX",
+        "url": "https://www.okx.com/web3/explorer/btc/",
+        "account": "https://www.okx.com/web3/explorer/btc/address/${address}",
+        "tx": "https://www.okx.com/web3/explorer/btc/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://bitcoin.org/",
+        "docs": "https://developer.bitcoin.org/devguide/",
+        "github" : "https://github.com/bitcoin",
+        "blog" : "https://bitcoin.org/en/blog",
+        "reddit" : "https://www.reddit.com/r/Bitcoin/",
+        "youtube" : "",
+        "twitter" : "",
+        "telegram" : "",
+        "discord" : "",
+        "coingecko" : "https://www.coingecko.com/coins/bitcoin"
+    },
+    "forum": {
+        "main": "https://bitcointalk.org/"
+    },
+    "description" : {
+        "ko" : "비트코인은 중앙기관 없이 개인들이 직접 거래할 수 있는 디지털 화폐입니다. 사용자들 간의 신뢰를 바탕으로 운영되며, 중개자 없이 안전하게 거래할 수 있습니다.",
+        "en" : "Bitcoin is a digital currency that allows individuals to trade directly without any central authority. It operates based on trust between users, enabling secure transactions without intermediaries.",
+        "ja" : "ビットコインは中央機関を介さずに個人同士で取引できるデジタル通貨です。ユーザー間の信頼を基に運営され、仲介者なしで安全に取引できます。"
+    }
+}

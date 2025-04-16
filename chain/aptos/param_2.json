@@ -1,0 +1,51 @@
+{
+    "chain_id" : "0x1",
+    "chain_name": "Aptos",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/resource/chain_aptos.png",
+    "staking_asset_denom" : "0x1::aptos_coin::AptosCoin",
+    "staking_asset_symbol" : "APT",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/asset/aptos.png",
+    "origin_genesis_time" : "2022-10-13T06:22:40Z",
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "aptos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/637'/0'/0'/X'",
+            "pubkey_style": "ed25519"
+        }
+    ],
+    "rpc_endpoint" : [
+        {
+            "provider": "Aptos Labs",
+            "url": "https://fullnode.mainnet.aptoslabs.com"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/http/aptos"
+        }
+    ],
+    "explorer" : {
+        "name": "Aptos Explorer",
+        "url": "https://explorer.aptoslabs.com/?network=mainnet",
+        "account": "https://explorer.aptoslabs.com/account/${address}",
+        "tx": "https://explorer.aptoslabs.com/txn/${hash}",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://aptoslabs.com/",
+        "docs": "https://aptos.dev/en",
+        "github" : "https://github.com/aptos-labs",
+        "twitter" : "https://twitter.com/AptosLabs",
+        "coingecko" : "https://www.coingecko.com/coins/aptos"
+    },
+    "forum": {
+        "main": "https://forums.sui.io/"
+    },
+    "description" : {
+        "ko" : "Aptos 블록체인은 웹 3의 사용자 경험을 개선하는 것을 목표로 하는 레이어 1, 지분증명 블록체인입니다.",
+        "en" : "The Aptos blockchain is a Layer 1, Proof-of-Stake blockchain that aims to improve the user experience for web3.",
+        "ja" : "Aptos ブロックチェーンは、Web3 のユーザー エクスペリエンスの向上を目的としたレイヤー 1 の Proof-of-Stake ブロックチェーンです。"
+    }
+}

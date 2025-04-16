@@ -1,0 +1,24 @@
+[
+    {
+        "type": "native",
+        "denom": "aISLM",
+        "name" : "Islamic Coin",
+        "symbol": "ISLM",
+        "description": "The native EVM, governance and staking token of the Haqq Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/haqq/asset/islm.png",
+        "coinGeckoId": "islamic-coin",
+        "color": "#04cd80"
+    },
+    {
+        "type": "native",
+        "denom": "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
+        "name" : "Deenar",
+        "symbol": "DEEN",
+        "description": "Deenar gold-backed stablecoin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png",
+        "coinGeckoId": "deenar-gold",
+        "color": "#ffbc05"
+    }
+]

@@ -1,0 +1,48 @@
+{
+    "chain_id_evm" : "0x138de",
+    "chain_name": "Berachain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/resource/chain_berachain.png",
+    "main_asset_denom" : "0x0000000000000000000000000000000000000000",
+    "main_asset_symbol" : "BERA",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/bera.png",
+    "origin_genesis_time" : "2025-02-06T03:08:29Z",
+    "api_name" : "berachain",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : true,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simul_gas_multiply" : 1.3
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Berachain",
+            "url": "https://rpc.berachain.com"
+        }
+    ],
+    "explorer" : {
+        "name": "Berascan",
+        "url": "https://berascan.com/",
+        "account": "https://berascan.com/address/${address}",
+        "tx": "https://berascan.com/tx/${hash}",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://www.berachain.com/",
+        "docs": "https://docs.berachain.com/",
+        "github" : "https://github.com/berachain",
+        "blog" : "https://blog.berachain.com/",
+        "discord" : "https://discord.com/invite/berachain",
+        "coingecko" : "https://www.coingecko.com/en/coins/berachain-bera"
+    },
+    "description" : {
+        "ko" : "Berachain은 Proof-of-Liquidity 합의에 기반한 고성능, EVM 호환 블록체인입니다. 이 네트워크는 전통적인 스마트 컨트랙트 플랫폼을 새로운 코스모스 네이티브 구성으로 재구성합니다.",
+        "en" : "Berachain is a high-performance, EVM-compatible blockchain built on Proof-of-Liquidity consensus. The network rearchitects the traditional smart contract platform to a novel, Cosmos-native configuration.",
+        "ja" : "Berachainは、Proof-of-Liquidityコンセンサスに基づく高性能なEVM互換ブロックチェーンです。このネットワークは従来のスマートコントラクトプラットフォームを新しいコスモスネイティブの構成に再設計しています。"
+    }
+}
+

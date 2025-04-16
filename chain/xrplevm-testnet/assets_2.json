@@ -1,0 +1,22 @@
+[
+    {
+        "type": "native",
+        "denom": "poa",
+        "name" : "POA Staking Coin.",
+        "symbol": "POA",
+        "description": "XRP EVM Sidechain Tesstnet Staking Coin.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm-testnet/asset/poa.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "axrp",
+        "name" : "XRP on EVM Sidechain Testnet",
+        "symbol": "XRP",
+        "description": "XRP is a digital asset that's native to the XRP Ledger and XRPL EVM Sidechain, an open-source permissionless and decentralized blockchain",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm-testnet/asset/xrp.png",
+        "coinGeckoId": ""
+    }
+]

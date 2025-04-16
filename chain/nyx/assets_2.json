@@ -1,0 +1,46 @@
+[
+    {
+        "type": "native",
+        "denom": "unyx",
+        "name": "NYX",
+        "symbol": "NYX",
+        "description": "Nyx Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nyx/asset/nyx.png",
+        "coinGeckoId": "",
+        "color": "#FF6C5A"
+    },
+    {
+        "type": "native",
+        "denom": "unym",
+        "name" : "NYM",
+        "symbol": "NYM",
+        "description": "NYM Token (NYM) is the Nym Network's native utility token, used as the primary means to incentivize mixnet node operators.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nyx/asset/nym.png",
+        "coinGeckoId": "nym"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FC9D92EC12BC974E8B6179D411351524CD5C2EBC3CE29D5BA856414FEFA47093",
+        "name" : "Graviton",
+        "symbol": "GRAV",
+        "description": "Gravity Bridge Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/asset/grav.png",
+        "coinGeckoId": "graviton",
+        "ibc_info" : {
+            "path": "gravity-bridge>nyx",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-18",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "ugraviton"
+            }
+        }
+    }
+]

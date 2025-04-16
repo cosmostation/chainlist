@@ -1,0 +1,145 @@
+[
+    {
+        "type": "cw20",
+        "contract": "orai1hn8w33cqvysun2aujk5sv33tku4pgcxhhnsxmvnkfvdxagcx0p8qa4l98q",
+        "name" : "Och",
+        "symbol": "OCH",
+        "description": "The OCH token is the cw20 token for the Oraichain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png",
+        "coinGeckoId": "och",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai10g6frpysmdgw5tdqke47als6f97aqmr8s3cljsvjce4n5enjftcqtamzsd",
+        "name" : "Btc",
+        "symbol": "BTC",
+        "description": "The BTC token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/btc.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai1dqa52a7hxxuv8ghe7q5v0s36ra0cthea960q2cukznleqhk0wpnshfegez",
+        "name" : "Weth",
+        "symbol": "wETH",
+        "description": "The wETH token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/weth.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai1lplapmgqnelqn253stz6kmvm3ulgdaytn89a8mz9y85xq8wd684s6xl3lt",
+        "name" : "Xoch",
+        "symbol": "xOCH",
+        "description": "The xOCH token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai19q4qak2g3cj2xc2y3060t0quzn3gfhzx08rjlrdd3vqxhjtat0cq668phq",
+        "name" : "scATOM",
+        "symbol": "scATOM",
+        "description": "The scATOM token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/scatom.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai1c7tpjenafvgjtgm9aqwm7afnke6c56hpdms8jc6md40xs3ugd0es5encn0",
+        "name" : "Wtrx",
+        "symbol": "wTRX",
+        "description": "The TRX token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai1065qe48g7aemju045aeyprflytemx7kecxkf5m7u5h5mphd0qlcs47pclp",
+        "name" : "Scorai",
+        "symbol": "SCORAI",
+        "description": "The scORAI token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/scorai.png",
+        "coinGeckoId": "scorai",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai1gzvndtzceqwfymu2kqhta2jn6gmzxvzqwdgvjw",
+        "name" : "Milky",
+        "symbol": "MILKY",
+        "description": "The MILKY token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/milky-token.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai1nd4r053e3kgedgld2ymen8l9yrw8xpjyaal7j5",
+        "name" : "Kwt",
+        "symbol": "KWT",
+        "description": "The KAWAII token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/kwt.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge",
+        "name" : "Oraix",
+        "symbol": "ORAIX",
+        "description": "The ORAIX token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/oraix.png",
+        "coinGeckoId": "oraidex",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai10ldgzued6zjp0mkqwsv2mux3ml50l97c74x8sg",
+        "name" : "Airight",
+        "symbol": "AIRI",
+        "description": "The AIRI token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/airi.png",
+        "coinGeckoId": "airight",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai12hzjxfh77wl572gdzct2fxv2arxcwh6gykc7qh",
+        "name" : "Usdt",
+        "symbol": "USDT",
+        "description": "The USDT token is the cw20 token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/usdt.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "cw20",
+        "contract": "orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49",
+        "name" : "Injective",
+        "symbol": "INJ",
+        "description": "The Wrapped INJ token for the Oraichain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/inj.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    }
+]

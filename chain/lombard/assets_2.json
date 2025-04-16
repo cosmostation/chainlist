@@ -1,0 +1,35 @@
+[
+    {
+        "type": "native",
+        "denom": "ustake",
+        "name" : "STAKE",
+        "symbol": "STAKE",
+        "description": "Lombard Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard/asset/stake.png",
+        "coinGeckoId": "",
+        "color": ""
+    },
+    {
+        "type": "native",
+        "denom": "ulom",
+        "name" : "Lombard",
+        "symbol": "LOM",
+        "description": "The native token of Lombard.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard/asset/lom.png",
+        "coinGeckoId": "",
+        "color": ""
+    },
+    {
+        "type": "native",
+        "denom": "uclbtc",
+        "name" : "Lombard Staked BTC",
+        "symbol": "LBTC",
+        "description": "Lombard Staked BTC.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard/asset/lbtc.png",
+        "coinGeckoId": "lombard-staked-btc",
+        "color": ""
+    }
+]

@@ -1,0 +1,220 @@
+[
+    {
+        "name": "Archway Connect",
+        "type": "Defi",
+        "description": "Archway Connect is the Gateway to all things Archway where users can bridge, stake, vote, manage assets & interact with the Archway Ecosystem",
+        "status": "open",
+        "thumbnail" : "connect-cover",
+        "link": "https://connect.archway.io/",
+        "social": {
+            "webSite": "https://connect.archway.io/",
+            "twitter": "https://x.com/ArchwayHQ"
+        }
+    },
+    {
+        "name": "Astrovault",
+        "type": "Dex",
+        "description": "DeFi, Sustainably.",
+        "status": "open",
+        "thumbnail" : "astrovault",
+        "link": "https://astrovault.io/dashboard-msaw",
+        "social": {
+            "webSite": "https://astrovault.io/dashboard-msaw",
+            "docs": "https://astrovault.io/help-msaw",
+            "twitter": "https://astrovault.io/twitter-msaw",
+            "medium": "https://astrovault.io/medium-msaw/"
+        }
+    },
+    {
+        "name": "Ambur Marketplace",
+        "type": "NFTs",
+        "description": "Archway's Premier NFT Marketplace",
+        "status": "open",
+        "thumbnail" : "ambur-cover",
+        "link": "https://ambur.xyz/",
+        "social": {
+            "webSite": "https://ambur.xyz/",
+            "twitter": "https://x.com/Amburxyz"
+        }
+    },
+    {
+        "name": "Liquid Finance",
+        "type": "Defi",
+        "description": "Earn staking rewards while unlocking endless opportunities to make the most of your assets",
+        "status": "open",
+        "thumbnail" : "liquidfinance-cover",
+        "link": "https://liquidfinance.xyz",
+        "social": {
+            "webSite": "https://liquidfinance.xyz",
+            "twitter": "https://twitter.com/liquid_finance"
+        }
+    },
+    {
+        "name": "CALC Finance",
+        "type": "Defi",
+        "description": "The most calculated way to enter and exit positions with DCA strategies, save time, and counter emotional decision-making.",
+        "status": "open",
+        "thumbnail" : "calcfinance-cover",
+        "link": "https://app.calculated.fi/?chain=archway-1",
+        "social": {
+            "webSite": "https://calculated.fi/",
+            "twitter": "https://x.com/CALC_Finance"
+        }
+    },
+    {
+        "name": "ArchID",
+        "type": "NFTs",
+        "description": "A social security number is how official sources identify you, but not how you introduce yourself. You do that with your name. Start using your ArchID instead of an unmemorable string to identify yourself in Archway",
+        "status": "open",
+        "thumbnail" : "archid-cover",
+        "link": "https://archid.app",
+        "social": {
+            "webSite": "https://archid.app",
+            "twitter": "https://twitter.com/archidapp"
+        }
+    },
+    {
+        "name": "Coinhall",
+        "type": "Dex",
+        "description": "The Interchain Trading and Rewards Hub",
+        "status": "open",
+        "thumbnail" : "coinhall-cover",
+        "link": "https://coinhall.org/?chains=archway&verified=true&reliable=true&tab=all&timeframe=24h&sort=volume&dir=desc",
+        "social": {
+            "webSite": "https://coinhall.org/?chains=archway&verified=true&reliable=true&tab=all&timeframe=24h&sort=volume&dir=desc",
+            "twitter": "https://twitter.com/coinhall_org"
+        }
+    },
+    {
+        "name": "Sudo Stake",
+        "type": "Defi",
+        "description": "On-chain property rights for everyone",
+        "status": "open",
+        "thumbnail" : "sudostake-cover",
+        "link": "https://sudostake.vercel.app",
+        "social": {
+            "webSite": "https://www.sudostake.com",
+            "twitter": "https://twitter.com/sudostake"
+        }
+    },
+    {
+        "name": "Crypto.com",
+        "type": "Exchange",
+        "description": "The best place to buy, sell, and pay with crypto",
+        "status": "open",
+        "thumbnail" : "cryptocom-cover",
+        "link": "https://crypto.com",
+        "social": {
+            "webSite": "https://crypto.com",
+            "twitter": "https://twitter.com/cryptocom"
+        }
+    },
+    {
+        "name": "Evia",
+        "type": "Defi",
+        "description": "The Next Generation of Wealth Creation",
+        "status": "open",
+        "thumbnail" : "evia_cover",
+        "link": "https://app.evia.network",
+        "social": {
+            "webSite": "https://app.evia.network",
+            "twitter": "https://twitter.com/evianetwork"
+        }
+    },
+    {
+        "name": "PeerSwap",
+        "type": "Defi",
+        "description": "Swap your tokens against your preferred token, set the desired amount you want to receive",
+        "status": "open",
+        "thumbnail" : "peerswap-cover",
+        "link": "https://peerswap.net",
+        "social": {
+            "webSite": "https://peerswap.net",
+            "twitter": "https://twitter.com/peerswapotc"
+        }
+    },
+    {
+        "name": "Squid",
+        "type": "Defi",
+        "description": "Squid lets you swap tokens between blockchains, and unlocks access to apps across chains in 1 click ✨ EVM + Cosmos",
+        "status": "open",
+        "thumbnail" : "squid-cover",
+        "link": "https://app.squidrouter.com",
+        "social": {
+            "webSite": "https://app.squidrouter.com",
+            "twitter": "https://twitter.com/squidrouter"
+        }
+    },
+    {
+        "name": "TFM",
+        "type": "Defi",
+        "description": "The Pro-Trading Terminal of Cosmos. Proprietary IBC & DEX & NFT Aggregator",
+        "status": "open",
+        "thumbnail" : "tfm-cover",
+        "link": "https://tfm.com/ibc?chainFrom=cosmoshub-4&chainTo=archway-1&token0=uatom&token1=aarch",
+        "social": {
+            "webSite": "https://tfm.com/ibc?chainFrom=cosmoshub-4&chainTo=archway-1&token0=uatom&token1=aarch",
+            "twitter": "https://twitter.com/tfm_com"
+        }
+    },
+    {
+        "name": "Pipapo",
+        "type": "NFTs",
+        "description": "Join us on the ultimate NFT launchpad and earn $ARCH rewards with every collection",
+        "status": "open",
+        "thumbnail" : "pipapo-cover",
+        "link": "https://archway.pipapo.io",
+        "social": {
+            "webSite": "https://archway.pipapo.io",
+            "twitter": "https://twitter.com/pipapoio"
+        }
+    },
+    {
+        "name": "Gelotto",
+        "type": "Games",
+        "description": "The first IBC multi venture business. Games. NFTs. Validators. More.",
+        "status": "open",
+        "thumbnail" : "gelotto-cover",
+        "link": "https://gelotto.io",
+        "social": {
+            "webSite": "https://gelotto.io",
+            "twitter": "https://twitter.com/Gelotto2"
+        }
+    },
+    {
+        "name": "Axelar",
+        "type": "Bridges",
+        "description": "Axelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click",
+        "status": "open",
+        "thumbnail" : "axelar-cover",
+        "link": "https://axelar.network",
+        "social": {
+            "webSite": "https://axelar.network",
+            "twitter": "https://twitter.com/axelarcore"
+        }
+    },
+    {
+        "name": "Kado",
+        "type": "Bridges",
+        "description": "Kado is a fiat to crypto on/off ramp platform for easy onboarding to DeFi and direct to self custody",
+        "status": "open",
+        "thumbnail" : "kado-cover",
+        "link": "https://www.kado.money",
+        "social": {
+            "webSite": "https://www.kado.money",
+            "twitter": "https://twitter.com/kado_money"
+        }
+    },
+    {
+        "name": "Architects",
+        "type": "NFT",
+        "description": "Dynamic NFT project where users evolve through $CULT-powered rites and join the Order of the Architects to shape a new digital reality.",
+        "status": "open",
+        "thumbnail" : "architects",
+        "link": "https://www.architectsnft.io/",
+        "social": {
+            "webSite": "https://www.architectsnft.io/",
+            "twitter": "https://x.com/Architects_nft"
+        }
+    }
+]

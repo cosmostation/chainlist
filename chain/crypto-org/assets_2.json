@@ -1,0 +1,128 @@
+[
+    {
+        "type": "native",
+        "denom": "basecro",
+        "name" : "Cronos Coin",
+        "symbol": "CRO",
+        "description": "Cronos POS Staking Coin, referred to as Native CRO.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/crypto-org/asset/cro.png",
+        "coinGeckoId": "crypto-com-chain",
+        "color": "#1199FA"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/67E8B26BE190FB3F191DA72D6A390DB7DFA6E92C99CB37644DECBEBD2A075C41",
+        "name" : "Sifchain",
+        "symbol": "ROWAN",
+        "description": "Sifchain Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sifchain/asset/rowan.png",
+        "coinGeckoId": "sifchain",
+        "ibc_info" : {
+            "path": "sifchain>crypto-org",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-9",
+                "port": "transfer",
+                "chain": "sifchain",
+                "denom": "rowan"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B5919B1B65A79F595F71D2E8306FD1FB70B969A268230E745A6DBE86F1060D58",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>crypto-org",
+            "client" : {
+                "channel": "channel-27",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-187",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0433997003A2CFE10E483B93743BEC37F2F13B89854FD69599482E6DB8E6CE22",
+        "name" : "Ion DAO",
+        "symbol": "ION",
+        "description": "ION is the second native token of Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ion.png",
+        "coinGeckoId": "ion",
+        "ibc_info" : {
+            "path": "osmosis>crypto-org",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uion"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/376222D6D9DAE23092E29740E56B758580935A6D77C24C2ABD57A6A78A1F3955",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>crypto-org",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/80D5E86278CE910A7A9653CCA7DEB62C817E07AF9C0C657B43191C43DE60B107",
+        "name" : "Evmos",
+        "symbol": "EVMOS",
+        "description": "Evmos Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/evmos.png",
+        "coinGeckoId": "evmos",
+        "ibc_info" : {
+            "path": "evmos>crypto-org",
+            "client" : {
+                "channel": "channel-57",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-31",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "aevmos"
+            }
+        }
+    }
+]

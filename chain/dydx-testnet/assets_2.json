@@ -1,0 +1,13 @@
+[
+    {
+        "type": "native",
+        "denom": "adydx",
+        "name" : "dYdX Testnet",
+        "symbol": "dYdX",
+        "description": "dYdX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx-testnet/asset/dydx.png",
+        "coinGeckoId": "dydx",
+        "color": "#9248DB"
+    }
+]

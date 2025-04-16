@@ -1,0 +1,65 @@
+{
+    "chain_id_cosmos" : "thorchain-1",
+    "chain_name": "ThorChain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/thorchain/resource/chain_thorchain.png",
+    "staking_asset_denom": "rune",
+    "staking_asset_symbol" : "RUNE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/thorchain/asset/rune.png",
+    "bech_account_prefix": "thor",
+    "bech_validator_prefix": "thorvaloper",
+    "origin_genesis_time": "2021-04-13T11:00:00Z",
+    "api_name" : "thorchain",
+    "is_stake_enabled" : false,
+    "is_support_mobile_wallet": true,
+    "is_support_moblie_dapp": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/931'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "1rune"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Thor Node",
+            "url": "https://thornode.ninerealms.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Thorchain",
+        "url": "https://thorchain.net",
+        "account": "https://thorchain.net/address/${address}",
+        "tx": "https://thorchain.net/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://thorchain.org/",
+        "docs": "https://docs.thorchain.org/",
+        "github" : "https://github.com/thorchain",
+        "medium" : "https://medium.com/thorchain",
+        "twitter" : "https://x.com/thorchain",
+        "coingecko" : "https://www.coingecko.com/en/coins/thorchain"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "THORChain은 여러 블록체인 간 자산 교환을 래핑된 토큰 없이 지원하는 탈중앙화 프로토콜입니다. 네이티브 토큰 RUNE은 네트워크 보안을 책임지고 교환을 활성화합니다.",
+        "en" : "THORChain is a decentralized protocol for swapping assets across blockchains without using wrapped tokens. Its native token, RUNE, secures the network and powers these cross-chain exchanges.",
+        "ja" : "THORChainは、ラップされたトークンを使わずに複数のブロックチェーン間で資産を交換できる分散型プロトコルです。ネイティブトークンRUNEは、ネットワークのセキュリティを保ち、資産交換を可能にします。"
+    }
+}

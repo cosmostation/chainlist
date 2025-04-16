@@ -1,0 +1,91 @@
+{
+    "chain_id_cosmos" : "ixo-5",
+    "chain_name": "Impact Hub",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ixo/resource/chain_ixo.png",
+    "staking_asset_denom" : "uixo",
+    "staking_asset_symbol" : "IXO",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ixo/asset/ixo.png",
+    "bech_account_prefix" : "ixo",
+    "bech_validator_prefix" : "ixovaloper",
+    "origin_genesis_time" : "2021-08-19T12:00:00Z",
+    "api_name" : "ixo",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.025uixo"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-ixo.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-ixo-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "impacthub-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-ixo.cosmostation.io/"
+        },
+        {
+            "provider": "ixoworld",
+            "url": "https://impacthub.ixo.world/rest/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://ixo.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://impacthub-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://ixo-api.ibs.team/"
+        }
+    ],
+    "explorer" : {
+        "name": "Ixo",
+        "url": "https://explorer.ixo.earth/",
+        "account": "https://explorer.ixo.earth/ixo/account/${address}",
+        "tx": "https://explorer.ixo.earth/ixo/tx/${hash}",
+        "proposal": "https://explorer.ixo.earth/ixo/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://www.ixo.world/",
+        "docs": "https://docs.ixo.world",
+        "github" : "https://github.com/ixofoundation",
+        "blog" : "https://chronicle.impacts.network/",
+        "medium": "https://medium.com/ixo-blog",
+        "twitter" : "https://twitter.com/ixoworld",
+        "coingecko" : "https://www.coingecko.com/en/coins/ixo"
+    },
+    "description" : {
+        "ko" : "IXO는 IXO 프로토콜 블록체인으로 구동되는 상호 연결된 네트워크의 Internet of Impacts의 레이어-1 토큰으로, 공간 웹(Spatial Web)을 위한 기초 인프라를 제공합니다. 이러한 네트워크는 사람, 조직, 물리적 인프라, 금융 자본, AI 및 데이터를 포함한 동적 디지털 트윈 도메인이 더 지능적으로 조정, 자금 지원, 검증, 관리, 정보 제공될 수 있도록 지원하며, 지속 가능한 사회적, 환경적, 경제적, 기후적 영향을 인터넷 규모로 생성하는 것을 사명으로 합니다. 이 공간 웹을 통해 이미 깨끗한 에너지 전환, 질병 예방, 청년 고용, 교육, 자율 AI, 공급망 최적화와 같은 분야에서 솔루션이 배치되고 있습니다.",
+        "en" : "IXO is the layer-1 token of the Internet of Impacts of inter-connected networks, powered by IXO Protocol blockchains, that provides foundational infrastructure for the Spatial Web. These networks enable dynamic digital twin domains of people, organisations, physical infrastructure, financial capital, AI and data to be more intelligently coordinated, financed, verified, governed, and informed, with the mission of generating sustainable social, environmental, economic, and climate Impacts, at an Internet-scale. Solutions are already being deployed through this Spatial Web in domains such as clean energy transition, disease prevention, youth employment, education, autonomous AI, and supply-chain optimisation.",
+        "ja" : "IXOは、IXOプロトコルのブロックチェーンによって支えられた相互接続されたネットワークのインパクト・インターネット（Internet of Impacts）のレイヤー1トークンであり、スペーシャルウェブ（Spatial Web）の基盤となるインフラを提供します。これらのネットワークは、人々、組織、物理的インフラ、金融資本、AI、データといった動的なデジタルツインドメインをより賢く調整、資金調達、検証、管理、情報提供できるようにし、持続可能な社会的、環境的、経済的、気候的なインパクトをインターネット規模で生み出すことを使命としています。このスペーシャルウェブを通じて、クリーンエネルギー移行、病気予防、若者の雇用、教育、自律型AI、サプライチェーン最適化といった分野で、すでにソリューションが展開されています。"
+    }
+}

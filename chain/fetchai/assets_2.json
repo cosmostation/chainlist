@@ -1,0 +1,24 @@
+[
+    {
+        "type": "native",
+        "denom": "afet",
+        "name" : "fetch-ai",
+        "symbol": "FET",
+        "description": "Fetch Hub Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/asset/fet.png",
+        "coinGeckoId": "fetch-ai",
+        "color": "#57B5A8"
+    },
+    {
+        "type": "native",
+        "denom": "nanomobx",
+        "name" : "MOBIX",
+        "symbol": "MOBX",
+        "description": "The MOBX coin rewards the use of eco-friendly micromobility transportation.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fetchai/asset/mobx.png",
+        "coinGeckoId": "mobix",
+        "color": "#04ae9b"
+    }
+]

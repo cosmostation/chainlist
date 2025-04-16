@@ -1,0 +1,71 @@
+{
+    "chain_id_cosmos" : "synternet-1",
+    "chain_name": "Synternet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/synternet/resource/chain_synternet.png",
+    "staking_asset_denom": "usynt",
+    "staking_asset_symbol" : "SYNT",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/synternet/asset/synt.png",
+    "bech_account_prefix" : "synt",
+    "bech_validator_prefix" : "syntvaloper",
+    "origin_genesis_time" : "2023-12-04T14:24:58Z",
+    "api_name": "synternet",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.01usynt",
+            "0.025usynt",
+            "0.03usynt"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Synternet",
+            "url": "https://api.synternet.com/"
+        },
+        {
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+            "url": "https://synternet_mainnet_api.chain.whenmoonwhenlambo.money/"
+        },
+        {
+            "provider": "AutoStake Slash Protected",
+            "url": "https://synternet-mainnet-lcd.autostake.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Big Dipper",
+        "url": "https://explorer.synternet.com/",
+        "account": "https://explorer.synternet.com/accounts/${address}",
+        "tx": "https://explorer.synternet.com/transactions/${hash}",
+        "proposal": "https://explorer.synternet.com/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.synternet.com/",
+        "docs": "https://docs.synternet.com/",
+        "github" : "https://github.com/Synternet",
+        "blog": "https://www.synternet.com/blog/",
+        "twitter" : "https://x.com/synternet_com",
+        "coingecko" : "https://www.coingecko.com/en/coins/synternet"
+    },
+    "description" : {
+        "ko" : "Synternet은 블록체인을 연결해 실시간 데이터 통합을 지원하고 Web3 애플리케이션을 간소화합니다.",
+        "en" : "Synternet connects blockchains, enabling real-time data integration and simplifying Web3 applications.",
+        "ja" : "Synternetはブロックチェーンを接続し、リアルタイムのデータ統合を可能にし、Web3アプリケーションを簡素化します。"
+    }
+}

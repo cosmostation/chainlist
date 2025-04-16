@@ -1,0 +1,79 @@
+{
+    "chain_id_cosmos": "bbn-1",
+    "chain_name": "Babylon",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/resource/chain_babylon.png",
+    "staking_asset_denom" : "ubbn",
+    "staking_asset_symbol": "BABY",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/bbn.png",
+    "bech_account_prefix": "bbn",
+    "bech_validator_prefix": "bbnvaloper",
+    "origin_genesis_time": "2024-08-13T15:45:14Z",
+    "is_support_mintscan": true,
+    "is_support_cw20" : true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "btc_staking": {
+        "is_support_staking" : true,
+        "url": "https://btcstaking.babylonlabs.io/"
+    },
+    "api_name": "babylon",
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.002ubbn"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc.mainnet.babylon.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd.mainnet.babylon.cosmostation.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/babylon/",
+        "account": "https://www.mintscan.io/babylon/address/${address}",
+        "tx": "https://www.mintscan.io/babylon/tx/${hash}",
+        "proposal": "https://www.mintscan.io/babylon/proposals/${id}"
+    },
+    "about": {
+        "website": "https://babylonchain.io/",
+        "docs": "https://docs.babylonchain.io/",
+        "github": "https://github.com/babylonlabs-io",
+        "blog": "https://babylonchain.io/blog",
+        "medium": "https://medium.com/babylonchain-io",
+        "reddit": "https://www.reddit.com/r/babylonlabs/",
+        "twitter": "https://x.com/babylonlabs_io",
+        "discord": "https://discord.com/invite/babylonglobal",
+        "telegram": "https://t.me/babyloncommunity",
+        "coingecko": "https://www.coingecko.com/coins/babylon"
+    },
+    "forum": {
+        "main": "https://forum.babylonlabs.io/"
+    },
+    "description": {
+        "ko": "Babylon 프로젝트는 비트코인을 확장하여 분산된 세계를 보호하는 보안 프로토콜을 설계합니다.",
+        "en": "Babylon project designs security protocols that scale Bitcoin to secure the decentralized world.",
+        "ja": "Babylonプロジェクトは、ビットコインをスケーリングして分散型の世界を保護するためのセキュリティプロトコルを設計します。"
+    }
+}

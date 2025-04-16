@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Faucet",
+    "description": "Gno faucet hub.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/gno-testnet/resource/faucet.png",
+    "link": "https://faucet.gno.land/",
+    "type": "Faucet"
+  },
+  {
+    "name": "Gnoscan",
+    "description": "Gno testnet 5 explorer.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/gno-testnet/resource/gnoscan.png",
+    "link": "https://gnoscan.io/",
+    "type": "Explorer"
+  },
+  {
+    "name": "Gno Playground",
+    "description": "Gno Playground is a simple web interface that lets you write, test, and experiment with your Gno code to improve your understanding of the Gno language.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/gno-testnet/resource/playground.png",
+    "link": "https://play.gno.land/",
+    "type": "Playground"
+  },
+  {
+    "name": "Gno Studio Connect",
+    "description": "Gno Studio Connect provides seamless access to realms, making it simple to explore, interact, and engage with gno.land’s smart contracts through function calls. Connect focuses on function calls, enabling users to interact with any realm’s exposed function(s) on gno.land.",
+    "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/gno-testnet/resource/gno_studio.png",
+    "link": "https://gno.studio/connect",
+    "type": "Studio"
+  }
+]

@@ -1,0 +1,50 @@
+{
+    "chain_id_evm" : "0x279F",
+    "chain_name": "Monad Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/monad-testnet/resource/chain_monad-testnet.png",
+    "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "main_asset_symbol" : "MON",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/monad-testnet/asset/mon.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "MON",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/monad-testnet/asset/mon.png",
+    "origin_genesis_time" : "",
+    "api_name" : "monad-testnet",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : true,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simul_gas_multiply" : 1.3
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Monad",
+            "url": "https://testnet-rpc.monad.xyz"
+        }
+    ],
+    "explorer" : {
+        "name": "Monadexplorer",
+        "url": "https://testnet.monadexplorer.com/",
+        "account": "https://testnet.monadexplorer.com/address/${address}",
+        "tx": "https://testnet.monadexplorer.com/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://www.monad.xyz/",
+        "docs": "https://docs.monad.xyz/",
+        "github" : "https://github.com/monad-developers",
+        "blog" : "https://www.monad.xyz/blog",
+        "medium": "",
+        "twitter" : "https://x.com/monad_xyz",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Monad는 이더리움 완전 호환성과 독자적 병렬 실행 아키텍처를 결합해, 초당 수십만 트랜잭션 처리를 가능케 하는 초고성능 차세대 스마트 컨트랙트 플랫폼입니다.",
+        "en" : "Monad is a next-generation smart contract platform that combines full Ethereum compatibility with a proprietary parallel execution architecture, enabling hundreds of thousands of transactions per second.",
+        "ja" : "Monadは、イーサリアムとの完全な互換性と独自の並列実行アーキテクチャを融合させ、毎秒数十万件のトランザクション処理を可能にする次世代スマートコントラクトプラットフォームです。"
+    }
+}

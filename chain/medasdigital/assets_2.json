@@ -1,0 +1,59 @@
+[
+    {
+        "type": "native",
+        "denom": "umedas",
+        "name" : "Medas Digital",
+        "symbol": "MEDAS",
+        "description": "The native token of Medas Digital Network",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medasdigital/asset/medas.png",
+        "coinGeckoId": "",
+        "color": "#0A4ED2"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FBBC35295AA037DC0A77796B08DC3003EC918E18E75D61D675A0EEAC0643F36C",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>medasdigital",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-87042",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B4C138B6F08A5BC826ABEFD56CAE828D2CF0A3B62A73B74AECC46D257371B125",
+        "name" : "Sentinel",
+        "symbol": "DVPN",
+        "description": "Sentinel Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/asset/dvpn.png",
+        "coinGeckoId": "sentinel",
+        "ibc_info" : {
+            "path": "sentinel>medasdigital",
+            "client" : {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-60",
+                "port": "transfer",
+                "chain": "sentinel",
+                "denom": "udvpn"
+            }
+        }
+    }
+]

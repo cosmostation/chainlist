@@ -1,0 +1,96 @@
+{
+    "chain_id_cosmos" : "realionetwork_3301-1",
+    "chain_id_evm": "0xce5",
+    "chain_name": "Realio",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/realio/resource/chain_realio.png",
+    "staking_asset_denom" : "ario",
+    "staking_asset_symbol" : "RIO",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/realio/asset/rio.png",
+    "bech_account_prefix" : "realio",
+    "bech_validator_prefix" : "realiovaloper",
+    "origin_genesis_time" : "2023-04-07T17:00:00Z",
+    "api_name" : "realio",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "4000000000ario",
+            "5000000000ario",
+            "8000000000ario"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "genznodes",
+            "url": "https://realio-api.genznodes.dev/"
+        },
+        {
+            "provider": "Nodeist",
+            "url": "https://api-realio-network.nodeist.net/"
+            
+        },
+        {
+            "provider": "Stavr",
+            "url": "https://realio.api.m.stavr.tech/"
+            
+        },
+        {
+            "provider": "Indonode",
+            "url": "https://api.realio.indonode.net/"
+        },
+        {
+            "provider": "vinjan",
+            "url": "https://api-realio.vinjan.xyz/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "genznodes",
+            "url": "https://realio-rpc-evm.genznodes.dev"
+        }
+    ],
+    "explorer" : {
+        "name": "TC Network",
+        "url": "https://explorer.tcnetwork.io/realio",
+        "account": "https://explorer.tcnetwork.io/realio/account/${address}",
+        "tx": "https://explorer.tcnetwork.io/realio/transaction/${hash}",
+        "proposal": "https://explorer.tcnetwork.io/realio/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://realio.network/",
+        "docs": "https://docs.realio.network/",
+        "github" : "https://github.com/realiotech/realio-network",
+        "medium" : "https://medium.com/@Realio_Network",
+        "twitter" : "https://x.com/realio_network",
+        "telegram" : "https://t.me/realio_fund",
+        "discord" : "https://discord.com/invite/WhRgHEfDF4",
+        "coingecko" : "https://www.coingecko.com/en/coins/realio-network"
+    },
+    "description" : {
+        "ko" : "Realio 네트워크는 디지털화된 실물 자산(RWA)의 발행과 관리를 위한 멀티체인 Web3 생태계입니다. EVM 및 비 EVM 호환 체인 간 상호 운용성을 제공합니다.",
+        "en" : "Realio Network is a multi-chain Web3 ecosystem for issuing and managing tokenized real-world assets (RWA). It provides interoperability across EVM and non-EVM compatible chains.",
+        "ja" : "Realio Networkは、トークン化された実世界資産（RWA）の発行と管理のためのマルチチェーンWeb3エコシステムです。EVMおよび非EVM互換チェーン間の相互運用性を提供します。"
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "chain_id_cosmos" : "archway-1",
+    "chain_name": "Archway",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/resource/chain_archway.png",
+    "staking_asset_denom" : "aarch",
+    "staking_asset_symbol" : "ARCH",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/arch.png",
+    "bech_account_prefix" : "archway",
+    "bech_validator_prefix" : "archwayvaloper",
+    "origin_genesis_time" : "2023-07-03T12:00:00Z",
+    "api_name" : "archway",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : true,
+    "is_support_cw20" : true,
+    "is_support_cw721" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+            "140000000000aarch"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-archway.cosmostation.io:443"
+        },
+        {
+            "provider": "Archway Foundation",
+            "url": "grpc.mainnet.archway.io:443"
+        },
+        {
+            "provider": "StakeUp",
+            "url": "grpc.archway.stakeup.tech:443"
+        },
+        {
+            "provider": "openbitlab",
+            "url": "archway-grpc.openbitlab.com:443"
+        },
+        {
+            "provider": "Luganodes",
+            "url": "grpc.archway.lgns.net:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "archway-grpc.chainroot.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-archway.cosmostation.io/"
+        },
+        {
+            "provider": "Silk Nodes",
+            "url": "https://archway.api.silknodes.io/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://archway-api.w3coins.io/"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://archway.api.kjnodes.com/"
+        },
+        {
+            "provider": "cryptech",
+            "url": "https://api-archway.cryptech.com.ua/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-archway.whispernode.com/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://archway-api.chainroot.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/archway/",
+        "account": "https://www.mintscan.io/archway/address/${address}",
+        "tx": "https://www.mintscan.io/archway/tx/${hash}",
+        "proposal": "https://www.mintscan.io/archway/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://archway.io/",
+        "docs": "https://docs.archway.io/",
+        "github" : "https://github.com/archway-network",
+        "blog" : "https://blog.archway.io/",
+        "medium": "https://blog.archway.io/",
+        "twitter" : "https://twitter.com/archwayhq",
+        "coingecko" : "https://www.coingecko.com/en/coins/archway"
+    },
+    "description" : {
+        "ko" : "Archway는 dApp들의 기여도에 따라 리워드가 개발자들에게 분배되도록 설계된 스마트 컨트랙트 블록체인입니다.",
+        "en" : "Archway is a persmissionless smart contract blockchain designed to incentivize the deployments of dApps.",
+        "ja" : "Archwayは、dAppの貢献度に応じてリワードが開発者に分配されるように設計されたスマートコントラクトブロックチェーンです。"
+    }
+}

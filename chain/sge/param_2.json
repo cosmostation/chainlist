@@ -1,0 +1,82 @@
+{
+    "chain_id_cosmos": "sgenet-1",
+    "chain_name": "Sge Network",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sge/resource/chain_sge.png",
+    "staking_asset_denom": "usge",
+    "staking_asset_symbol": "SGE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sge/asset/sge.png",
+    "bech_account_prefix": "sge",
+    "bech_validator_prefix": "sgevaloper",
+    "origin_genesis_time": "2023-09-06T12:00:00Z",
+    "api_name": "sge",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "1",
+        "rate": [
+            "0.1usge",
+            "0.25usge",
+            "0.5usge"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "StakerHouse",
+            "url": "sge-grpc.stakerhouse.com:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "Polkachu",
+            "url": "https://sge-api.polkachu.com/"
+        },
+        {
+            "provider": "Nostake",
+            "url": "https://api.sge.nodestake.top/"
+        },
+        {
+            "provider": "Nodeist",
+            "url": "https://api-sge.nodeist.net/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://sge.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavenderfive",
+            "url": "https://rest.lavenderfive.com:443/sge/"
+        }
+    ],
+    "explorer": {
+        "name": "Ping.pub",
+        "url": "https://blockexplorer.sgenetwork.io/",
+        "account": "https://blockexplorer.sgenetwork.io/sge/account/${address}",
+        "tx": "https://blockexplorer.sgenetwork.io/sge/tx/${hash}",
+        "proposal": "https://blockexplorer.sgenetwork.io/sge/gov/${id}"
+    },
+    "about": {
+        "website": "https://sgenetwork.io/",
+        "docs": "https://sgenetwork.gitbook.io/documentation-1",
+        "github": "https://github.com/sge-network",
+        "twitter": "https://x.com/sge_network"
+    },
+    "description": {
+        "en": "SGE Network is a blockchain platform for sports, gaming, and entertainment, and is a layer 1 blockchain based on the Cosmos SDK.",
+        "ko": "SGE 네트워크는 스포츠, 게임, 엔터테인먼트 분야를 위한 블록체인 플랫폼으로, Cosmos SDK를 기반으로 한 레이어 1 블록체인입니다.",
+        "ja": "SGEネットワークは、スポーツ、ゲーム、エンターテイメント分野のためのブロックチェーンプラットフォームで、Cosmos SDKをベースにしたレイヤ1ブロックチェーンです。"
+    }
+}
+

@@ -1,0 +1,30 @@
+{
+    "chain_name": "Odin Protocol",
+    "fee" : {
+        "base" : "0",
+        "rate" : [
+			"0.0025loki",
+			"0.025loki"
+        ],
+        "init_gas_limit" : 300000,
+        "isSimulable" : true,
+        "simul_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "odin-grpc.lavenderfive.com:443"
+        }
+    ],
+    "about" : {
+		"website" : "https://odinprotocol.io/"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

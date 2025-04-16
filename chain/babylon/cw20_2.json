@@ -1,0 +1,25 @@
+[   
+    {
+        "type": "cw20",
+        "contract": "bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s",
+        "name" : "eBABY",
+        "symbol": "eBABY",
+        "description": "ESCHER LST for Babylon",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/ohadbachner/chainlist/refs/heads/main/chain/babylon-testnet/asset/eBABY.svg",
+        "coinGeckoId": "",
+        "color": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz",
+        "name" : "Cube Baby",
+        "symbol": "cBABY",
+        "description": "Liquid staking token from Cube by SatLayer",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/cbaby.png",
+        "coinGeckoId": "cube-staked-baby",
+        "color": "#ff9a00"
+    }
+]

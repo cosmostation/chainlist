@@ -1,0 +1,45 @@
+[
+    {
+        "type": "native",
+        "denom": "upoa",
+        "name": "Manifest Proof of Authority Token",
+        "symbol": "POA",
+        "description": "Proof of Authority token for the Manifest network",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manifest/asset/upoa.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "umfx",
+        "name": "Manifest Token",
+        "symbol": "MFX",
+        "description": "Manifest native token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manifest/asset/mfx.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>manifest",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-100418",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    }
+]

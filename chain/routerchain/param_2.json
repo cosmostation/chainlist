@@ -1,0 +1,93 @@
+{
+    "chain_id_cosmos" : "router_9600-1",
+    "chain_id_evm": "0x2580",
+    "chain_name": "RouterChain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/routerchain/resource/chain_routerchain.png",
+    "staking_asset_denom" : "route",
+    "staking_asset_symbol" : "ROUTE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/routerchain/asset/route.png",
+    "bech_account_prefix" : "router",
+    "bech_validator_prefix" : "routervaloper",
+    "origin_genesis_time" : "2023-11-30T11:40:25Z",
+    "api_name" : "routerchain",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "7route",
+            "10route"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "NodeStake",
+            "url": "grpc.router.nodestake.org:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Router",
+            "url": "https://sentry.lcd.routerprotocol.com/"
+        },
+        {
+            "provider": "genznodes",
+            "url": "https://router-api.genznodes.dev/"
+        },
+        {
+            "provider": "Nodes Hub Slash Protected",
+            "url": "https://router.api.nodeshub.online/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Router",
+            "url": "https://sentry.evm.rpc.routerprotocol.com"
+        },
+        {
+            "provider": "genznodes",
+            "url": "https://router-rpc-evm.genznodes.dev"
+        }
+    ],
+    "explorer" : {
+        "name": "Routerscan",
+        "url": "https://routerscan.io/",
+        "account": "https://routerscan.io/address/${address}",
+        "tx": "https://routerscan.io/tx/${hash}",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://www.routerprotocol.com/",
+        "docs": "https://docs.routerprotocol.com/",
+        "github" : "https://github.com/router-protocol",
+        "medium" : "https://routerprotocol.medium.com/",
+        "twitter" : "https://x.com/routerprotocol?t=Jab_H522Y2fB6uM60Pn6zA&s=09",
+        "telegram" : "https://t.me/routerprotocol",
+        "discord" : "https://discord.com/invite/rKf9UYMNWC",
+        "coingecko" : "https://www.coingecko.com/en/coins/router-protocol-2"
+    },
+    "description" : {
+        "ko" : "Router Protocol은 다양한 블록체인 네트워크 간의 유동성과 상호 운용성을 강화하는 체인 추상화 플랫폼입니다. 이를 통해 개발자들은 L1 체인, CCIF, Nitro를 활용하여 유동성과 사용자 기반을 통합할 수 있습니다.",
+        "en" : "Router Protocol is a cross-chain abstraction platform that enhances liquidity and interoperability between various blockchain networks. It allows developers to unify liquidity and user bases using L1 chains, CCIF, and Nitro.",
+        "ja" : "Router Protocolは、さまざまなブロックチェーンネットワーク間の流動性と相互運用性を強化するクロスチェーン抽象化プラットフォームです。開発者はL1チェーン、CCIF、Nitroを利用して流動性とユーザーベースを統合できます。"
+    }
+}

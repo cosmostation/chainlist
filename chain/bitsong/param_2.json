@@ -1,0 +1,96 @@
+{
+    "chain_id_cosmos" : "bitsong-2b",
+    "chain_name": "Bitsong",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/resource/chain_bitsong.png",
+    "staking_asset_denom" : "ubtsg",
+    "staking_asset_symbol" : "BTSG",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/asset/btsg.png",
+    "bech_account_prefix" : "bitsong",
+    "bech_validator_prefix" : "bitsongvaloper",
+    "origin_genesis_time" : "2021-03-26T20:00:00Z",
+    "api_name" : "bitsong",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/639'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.01ubtsg",
+            "0.025ubtsg"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-bitsong.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-bitsong-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "bitsong-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-bitsong.cosmostation.io/"
+        },
+        {
+            "provider": "stake.systems",
+            "url": "https://lcd.explorebitsong.com/"
+        },
+        {
+            "provider": "Validatrium",
+            "url": "https://bitsong-api.validatrium.club/"
+        },
+        {
+            "provider": "🐹 Quokka Stake",
+            "url": "https://api.bitsong.quokkastake.io/"
+        },
+        {
+            "provider": "Starsquid",
+            "url": "https://api-bitsong.starsquid.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/bitsong/",
+        "account": "https://www.mintscan.io/bitsong/address/${address}",
+        "tx": "https://www.mintscan.io/bitsong/tx/${hash}",
+        "proposal": "https://www.mintscan.io/bitsong/proposals/${id}"
+    },
+    "about" : {
+        "website" : "http://bitsong.io/",
+        "docs": "https://docs.bitsong.io",
+        "github" : "https://github.com/BitSongOfficial",
+        "blog" : "https://bitsongofficial.medium.com/",
+        "medium": "https://bitsongofficial.medium.com",
+        "twitter" : "https://twitter.com/BitSongOfficial",
+        "coingecko" : "https://www.coingecko.com/en/coins/bitsong"
+    },
+    "forum": {
+        "main": "https://www.reddit.com/r/bitsong"
+    },
+    "description" : {
+        "ko" : "Cosmos SDK 기반 블록체인으로서 음악산업 내 아티스트와 팬, 음원 공급사를 연결해주는 탈중앙화 플랫폼입니다.",
+        "en" : "CA decentralized blockchain hub that provides a trustless marketplace for the music industry.",
+        "ja" : "Cosmos SDKベースブロックチエーンとして音楽産業内のアーティストとファン、音源サプライヤーをつなげる分散型プラットフォーム。"
+    }
+}
