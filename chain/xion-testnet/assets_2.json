@@ -7,7 +7,7 @@
         "description": "Xion Testnet Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion-testnet/asset/xion.png",
-        "coinGeckoId": "xion-2"
+        "coinGeckoId": ""
     },
     {
         "type": "ibc",
@@ -17,9 +17,9 @@
         "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdc.png",
-        "coinGeckoId": "usd-coin",
+        "coinGeckoId": "",
         "ibc_info": {
-            "path": "noble>xion",
+            "path": "noble-testnet>xion-testnet",
             "client": {
                 "channel": "channel-3",
                 "port": "transfer"
@@ -27,7 +27,7 @@
             "counterparty": {
                 "channel": "channel-333",
                 "port": "transfer",
-                "chain": "noble",
+                "chain": "noble-testnet",
                 "denom": "uusdc"
             }
         }
@@ -40,9 +40,9 @@
         "description": "Osmosis from Osmosis Chain",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis-testnet/asset/osmo.png",
-        "coinGeckoId": "osmosis",
+        "coinGeckoId": "",
         "ibc_info": {
-            "path": "osmosis>xion",
+            "path": "osmosis-testnet>xion-testnet",
             "client": {
                 "channel": "channel-2",
                 "port": "transfer"
@@ -50,7 +50,7 @@
             "counterparty": {
                 "channel": "channel-10231",
                 "port": "transfer",
-                "chain": "osmosis",
+                "chain": "osmosis-testnet",
                 "denom": "uosmo"
             }
         }
