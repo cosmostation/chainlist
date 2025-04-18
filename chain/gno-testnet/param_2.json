@@ -1,5 +1,5 @@
 {
-    "chain_id_cosmos" : "staging",
+    "chain_id_cosmos" : "portal-loop",
     "chain_name": "GNO Testnet",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/resource/chain_gno-testnet.png",
     "staking_asset_denom" : "ugnot",
@@ -10,7 +10,6 @@
     "origin_genesis_time" : "",
     "api_name" : "gno-testnet",
     "is_stake_enabled" : false,
-    "is_support_grc20" : true,
     "is_support_mintscan": false,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
