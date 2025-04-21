@@ -1,2 +1,13 @@
 [
+    {
+        "type": "native",
+        "denom": "uinit",
+        "name" : "Initia",
+        "symbol": "INIT",
+        "description": "Initia Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/initia/asset/init.png",
+        "coinGeckoId": "initia",
+        "color": "#040404"
+    }
 ]
