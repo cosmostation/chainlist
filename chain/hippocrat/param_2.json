@@ -1,14 +1,16 @@
 {
-    "chain_id_cosmos" : "hippo-protocol-testnet-1",
-    "chain_name": "Hippo Protocol Testnet",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/hippo-protocol-testnet/resource/chain_hippo-protocol-testnet.png",
+    "chain_id_cosmos" : "hippo-protocol-1",
+    "chain_name": "Hippo Protocol",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/hippocrat/resource/chain_hippocrat.png",
     "staking_asset_denom" : "ahp",
     "staking_asset_symbol" : "HP",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/hippo-protocol-testnet/asset/hp.png",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/hippocrat/asset/hp.png",
     "bech_account_prefix" : "hippo",
     "bech_validator_prefix" : "hippovaloper",
-    "api_name" : "hippo-protocol-testnet",
-    "is_support_mintscan": true,
+    "origin_genesis_time" : "2025-04-16T02:18:35Z",
+    "api_name" : "hippocrat",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
     "account_type" : [
         {
             "hd_path": "m/44'/0'/0'/0/X",
@@ -32,15 +34,15 @@
     "lcd_endpoint" : [
         {
             "provider": "HippoProtocol",
-            "url": "https://api.testnet.hippo-protocol.com"
+            "url": "https://api.hippo-protocol.com/"
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/hippo-protocol-testnet/",
-        "account": "https://www.mintscan.io/hippo-protocol-testnet/address/${address}",
-        "tx": "https://www.mintscan.io/hippo-protocol-testnet/tx/${hash}",
-        "proposal": "https://www.mintscan.io/hippo-protocol-testnet/proposals/${id}"
+        "name": "Hippo River",
+        "url": "https://river.hippoprotocol.ai/",
+        "account": "https://river.hippoprotocol.ai/hippo-protocol/account/${address}",
+        "tx": "https://river.hippoprotocol.ai/hippo-protocol/tx/${hash}",
+        "proposal": "https://river.hippoprotocol.ai/hippo-protocol/gov/${id}"
     },
     "about" : {
         "website" : "https://hippocrat.io",
@@ -49,7 +51,7 @@
         "blog" : "https://hippocrat.io/blog",
         "medium": "https://medium.com/hippocrat",
         "twitter" : "https://x.com/hippocrat_io",
-        "coingecko" : ""
+        "coingecko" : "https://www.coingecko.com/en/coins/hippocrat"
     },
     "forum": {
         "main": "https://community.hippocrat.io"
