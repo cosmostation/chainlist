@@ -35,7 +35,7 @@
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "grpc.mainnet.initia.cosmostation.io:443"
+            "url": "grpc.initia.mainnet.cosmostation.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -45,7 +45,7 @@
         },
         {
             "provider": "Cosmostation",
-            "url": "https://lcd.mainnet.initia.cosmostation.io/"
+            "url": "https://lcd.initia.mainnet.cosmostation.io/"
         }
     ],
     "explorer" : {
