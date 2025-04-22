@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Eigenlayer",
         "description": "EigenLayer lets Ethereum users restake assets to support other protocols and earn extra rewards.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/eigenlayer.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/eigenlayer.png",
         "link": "https://app.eigenlayer.xyz",
         "chains": [
             "ethereum"
@@ -21,7 +21,7 @@
         "id": 2,
         "name": "Etherfi",
         "description": "EtherFi is a liquid restaking on Ethereum. Stake ETH to get eETH to reward you more across DeFi.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/etherfi.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/etherfi.png",
         "link": "https://app.eigenlayer.xyz",
         "chains": [
             "ethereum",
@@ -42,7 +42,7 @@
         "id": 3,
         "name": "1inch",
         "description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/1inch.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/1inch.png",
         "link": "https://app.1inch.io",
         "chains": [
             "ethereum",
@@ -67,7 +67,7 @@
         "id": 4,
         "name": "Aave",
         "description": "Aave is a decentralized finance money market protocol that allows you to lend, borrow, and earn interest on cryptocurrencies.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/aave.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/aave.png",
         "link": "https://app.aave.com/",
         "chains": [
             "ethereum",
@@ -92,7 +92,7 @@
         "id": 5,
         "name": "Uniswap",
         "description": "Uniswap V3 is a noncustodial automated market maker implemented for the Ethereum Virtual Machine. It provides increased capital efficiency, fine-tuned control of liquidity provider, and improve accuracy and convenience of its price oracle.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/uniswap.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/uniswap.png",
         "link": "https://app.uniswap.org/swap",
         "chains": [
             "ethereum",
@@ -114,7 +114,7 @@
         "id": 6,
         "name": "Ethena",
         "description": "Ethena is a DeFi platform offering secure lending, borrowing, and staking on the blockchain. It empowers users with full control over their assets.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/ethena.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ethena.png",
         "link": "https://app.uniswap.org/swap",
         "chains": [
             "ethereum",
@@ -136,7 +136,7 @@
         "id": 7,
         "name": "Pendle",
         "description": "Pendle is a DeFi protocol that unlocks the potential of yield trading by enabling users to tokenize and trade future yield on various assets. It provides innovative tools to maximize yield opportunities and enhance liquidity.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/pendle.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pendle.png",
         "link": "https://app.pendle.finance/",
         "chains": [
             "ethereum",
@@ -159,7 +159,7 @@
         "id": 8,
         "name": "Morpho",
         "description": "Morpho is a DeFi protocol that optimizes lending and borrowing on top of existing lending pools, offering improved rates through peer-to-peer matching while maintaining compatibility with major protocols like Aave and Compound.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/morpho.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/morpho.png",
         "link": "https://app.morpho.org/",
         "chains": [
             "ethereum",
@@ -181,7 +181,7 @@
         "id": 9,
         "name": "Rango Exchange",
         "description": "Rango Exchange a powerful multi-chain aggregator for DEX and bridges, based on reachability and support of top blockchains.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/rangoexchange.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/rangoexchange.png",
         "link": "https://app.rango.exchange/bridge?fromBlockchain=ETH&fromToken=ETH&toBlockchain=ETH&toToken=USDT--0xdac17f958d2ee523a2206206994597c13d831ec7",
         "chains": [
             "ethereum",
@@ -201,7 +201,7 @@
         "id": 10,
         "name": "ShapeShift",
         "description": "ShapeShift is a pioneer in self-custody for digital asset trading. Our open source platform empowers users to safely buy, hold, trade, and invest in a range of digital assets and improves access to open, decentralized financial systems.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/shapeshift.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/shapeshift.png",
         "link": "https://app.shapeshift.com/?utm_source=mainpage&utm_medium=launchdapp&utm_campaign=top#/trade",
         "chains": [
             "ethereum",
@@ -219,7 +219,7 @@
         "id": 11,
         "name": "Jumper",
         "description": "A truly multi-chain exchange. Aggregating the best in the business for bridging, swapping, onramping.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/jumper.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/jumper.png",
         "link": "https://jumper.exchange",
         "chains": [
             "ethereum",
@@ -237,7 +237,7 @@
         "id": 12,
         "name": "OpenOcean",
         "description": "OpenOcean is a leading DEX Aggregator, a cross-chain swap aggregator, and Web3 middleware developer in the crypto space, offering a suite of tools across 30+ networks and maintains strong connections with 1000+ DeFi projects.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/openocean.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/openocean.png",
         "link": "https://app.openocean.finance/eth",
         "chains": [
             "ethereum",
@@ -256,7 +256,7 @@
         "id": 13,
         "name": "Symbiosis",
         "description": "Symbiosis is a cross-chain AMM DEX that pools together liquidity from different networks: L1s and L2s, EVM and non-EVM. With Symbiosis, you can easily swap any token and move your assets across different networks.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/symbiosis.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/symbiosis.png",
         "link": "https://app.symbiosis.finance",
         "chains": [
             "ethereum",
@@ -275,7 +275,7 @@
         "id": 14,
         "name": "Rubic",
         "description": "Rubic aggregates swaps of 15,000+ assets across dozens of blockchains with the best rates, highest liquidity, and transaction speeds - in one click, thanks to the integration of 220+ DEXs and bridges.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/rubic.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/rubic.png",
         "link": "https://app.rubic.exchange",
         "chains": [
             "ethereum",
@@ -295,7 +295,7 @@
         "id": 15,
         "name": "Plexus",
         "description": "PLEXUS is a cross-chain liquidity aggregator that combines DEXs and Bridges on many chains, allowing users to trade all tokens in every chain with one click and one API at the fastest and most optimal price.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/plexus.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/plexus.png",
         "link": "https://www.plexus.app/swap",
         "chains": [
             "ethereum",
@@ -314,7 +314,7 @@
         "id": 16,
         "name": "RocketX",
         "description": "RocketX is the most advanced hybrid aggregator that simplifies access to $100B+ liquidity across 300+ DEXs & 6 Top CEXs via a Single UI and API",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/rocketx.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/rocketx.png",
         "link": "https://app.rocketx.exchange/",
         "chains": [
             "ethereum",
@@ -334,7 +334,7 @@
         "id": 17,
         "name": "Unizen",
         "description": "Unizen is a cutting-edge operating system for Web3 applications that enables users to seamlessly, cost-efficiently, and securely interact with all things Web3, including THORChain-powered cross-chain swaps.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/unizen.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/unizen.png",
         "link": "https://zcx.com/trade/",
         "chains": [
             "ethereum",
@@ -350,7 +350,7 @@
         "id": 18,
         "name": "Cacao Swap",
         "description": "Cacao Swap is a supercharged user interface for cross-chain swaps, synthetics and yield opportunities. Powered by Thorchain, Maya Protocol and ChainFlip, it offers a user-first experience for all interactions.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/cacao.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/cacao.png",
         "link": "https://cacaoswap.app/",
         "chains": [
             "ethereum",
@@ -363,7 +363,7 @@
         "id": 19,
         "name": "Babylon",
         "description": "Babylon addresses the complexity and inefficiency of trading across multiple bridges and exchanges with the addition of the finest swapping tech, along with the development of a DeFi hub.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/babylon.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/babylon.png",
         "link": "https://app.babylonswap.io/",
         "chains": [
             "ethereum",
@@ -379,7 +379,7 @@
         "id": 20,
         "name": "Hyperliquid",
         "description": "Hyperliquid is a fast and reliable crypto trading platform offering advanced tools and real-time market data. It’s designed to help users trade efficiently and manage their portfolios with ease.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/hyperliquid.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hyperliquid.png",
         "link": "https://app.hyperliquid.xyz/",
         "chains": [
             "ethereum"
@@ -391,7 +391,7 @@
         "id": 21,
         "name": "NFT Bridge",
         "description": "Bridge your NFTs to Berachain.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/ecosystem_dev/wallet/resource/nftBridge.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/nftBridge.png",
         "link": "https://nftbridge.berachain.com/",
         "chains": [
             "ethereum",
