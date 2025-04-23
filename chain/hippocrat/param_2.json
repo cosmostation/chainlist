@@ -32,7 +32,7 @@
     "grpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "grpc.mainnet.hippocrat.cosmostation.io:443"
+            "url": "grpc.hippocrat.mainnet.cosmostation.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -42,7 +42,7 @@
         },
         {
             "provider": "Cosmostation",
-            "url": "https://lcd.mainnet.hippocrat.cosmostation.io/"
+            "url": "https://lcd.hippocrat.mainnet.cosmostation.io/"
         }
     ],
     "explorer" : {
