@@ -123,5 +123,15 @@
                 "denom": "ibc/C7A810C6ED1FC3FFC7C834A534D400EADC94FF7D3BE13DDD4C042AEF1816DFB4"
             }
         }
+    },
+    {
+        "type": "native",
+        "denom": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN",
+        "name" : "milkBABY",
+        "symbol": "milkBABY",
+        "description": "MilkyWay's liquid staked BABY",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/milkyway/asset/milkbaby.png",
+        "coinGeckoId": ""
     }
 ]
