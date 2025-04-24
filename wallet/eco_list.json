@@ -260,13 +260,13 @@
         "link": "https://app.symbiosis.finance",
         "chains": [
             "ethereum",
-            "base",
-            "cronos",
-            "polygon",
-            "optimism",
             "arbitrum",
             "avalanche",
+            "base",
             "bnb-smart-chain"
+            "cronos",
+            "optimism",
+            "polygon"
         ],
         "socials": {},
         "type": "DEX"
@@ -279,14 +279,14 @@
         "link": "https://app.rubic.exchange",
         "chains": [
             "ethereum",
-            "base",
-            "bnb-smart-chain",
             "arbitrum",
             "avalanche",
-            "polygon",
-            "optimism",
-            "fantom",
+            "base",
+            "bnb-smart-chain",
             "cronos"
+            "fantom"
+            "optimism",
+            "polygon"
         ],
         "socials": {},
         "type": "DEX"
@@ -299,13 +299,13 @@
         "link": "https://www.plexus.app/swap",
         "chains": [
             "ethereum",
-            "base",
-            "fantom",
-            "polygon",
-            "optimism",
             "arbitrum",
             "avalanche",
+            "base",
             "bnb-smart-chain"
+            "fantom",
+            "optimism",
+            "polygon"
         ],
         "socials": {},
         "type": "DEX"
@@ -318,14 +318,14 @@
         "link": "https://app.rocketx.exchange/",
         "chains": [
             "ethereum",
-            "base",
-            "fantom",
-            "cronos",
-            "polygon",
-            "optimism",
             "arbitrum",
             "avalanche",
+            "base",
             "bnb-smart-chain"
+            "cronos",
+            "fantom",
+            "optimism",
+            "polygon"
         ],
         "socials": {},
         "type": "DEX"
@@ -361,22 +361,6 @@
     },
     {
         "id": 19,
-        "name": "Babylon",
-        "description": "Babylon addresses the complexity and inefficiency of trading across multiple bridges and exchanges with the addition of the finest swapping tech, along with the development of a DeFi hub.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/babylon.png",
-        "link": "https://app.babylonswap.io/",
-        "chains": [
-            "ethereum",
-            "polygon",
-            "arbitrum",
-            "avalanche",
-            "bnb-smart-chain"
-        ],
-        "socials": {},
-        "type": "DEX"
-    },
-    {
-        "id": 20,
         "name": "Hyperliquid",
         "description": "Hyperliquid is a fast and reliable crypto trading platform offering advanced tools and real-time market data. It’s designed to help users trade efficiently and manage their portfolios with ease.",
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hyperliquid.png",
@@ -388,7 +372,7 @@
         "type": "DEX"
     },
     {
-        "id": 21,
+        "id": 20,
         "name": "NFT Bridge",
         "description": "Bridge your NFTs to Berachain.",
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/nftBridge.png",
@@ -399,5 +383,164 @@
         ],
         "socials": {},
         "type": "Bridge"
+    },
+    {
+        "id": 21,
+        "name": "Sushi Swap",
+        "description": "A leading multi-chain DEX deployed across 25+ blockchains, cooking up a community-built, open-source ecosystem of all the DeFi tools you need.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/sushi.png",
+        "link": "https://www.sushi.com/swap",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "cronos",
+            "fantom",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 22,
+        "name": "Beefy Finance",
+        "description": "The Multichain Yield Optimizer that autocompounds your crypto on BSC, Polygon, Fantom, HECO and Avalanche.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/beefy.png",
+        "link": "https://app.beefy.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "cronos",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 23,
+        "name": "Compound",
+        "description": "Compound's V3 app is a decentralized finance (DeFi) platform that allows users to lend and borrow cryptocurrencies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/compound.png",
+        "link": "https://v3-app.compound.finance/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 24,
+        "name": "Opensea",
+        "description": "OpenSea is a decentralized marketplace for buying, selling, and discovering non-fungible tokens.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/opensea.png",
+        "link": "https://opensea.io/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "NFT"
+    },
+    {
+        "id": 25,
+        "name": "Moonwell",
+        "description": "Moonwell is a decentralized finance (DeFi) platform that offers simple and secure lending services.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/moonwell.png",
+        "link": "https://moonwell.fi/discover",
+        "chains": [
+            "ethereum",
+            "base",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 26,
+        "name": "Zora",
+        "description": "Zora is a decentralized platform that allows users to create, buy, and sell NFTs.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/zora.png",
+        "link": "https://zora.co/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "optimism"
+        ],
+        "socials": {},
+        "type": "NFT"
+    },
+    {
+        "id": 27,
+        "name": "Berachain Bridge",
+        "description": "The canonical bridge to Berachain is the Berachain Bridge, powered by LayerZero. There are a number of source chains supporting bridging to Berachain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/berachain-bridge.png",
+        "link": "https://bridge.berachain.com/bridge/token",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "Bridge"
+    },
+    {
+        "id": 28,
+        "name": "BeraHub",
+        "description": "BeraHub is the place to manage all things $BGT and access Berachain liquidity through BeraSwap.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/berahub.png",
+        "link": "https://hub.berachain.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 29,
+        "name": "Honey Mint",
+        "description": "Honey Swap enables users to trade approved stablecoins and other assets for $HONEY, Berachain's native stablecoin.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/honeymint.png",
+        "link": "https://honey.berachain.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 30,
+        "name": "Bera Airdrop",
+        "description": "Berachain Airdrop",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/airdrop.png",
+        "link": "https://airdrop.berachain.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {},
+        "type": "Airdrop"
     }
 ]
