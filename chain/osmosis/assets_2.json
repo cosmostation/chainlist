@@ -381,7 +381,7 @@
         "symbol": "KAVA",
         "description": "The native staking and governance token of Kava",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
         "color": "#e64942",
         "coinGeckoId": "kava",
         "ibc_info": {
@@ -740,7 +740,7 @@
         "symbol": "IXO",
         "description": "The native token of IXO Chain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ixo/asset/ixo.png",
         "color": "#2c4484",
         "coinGeckoId": "ixo",
         "ibc_info": {
@@ -4387,7 +4387,7 @@
         "symbol": "cbETH",
         "description": "Coinbase Wrapped Staked ETH (“cbETH”) is a utility token and liquid representation of ETH staked through Coinbase. cbETH gives customers the option to sell, transfer, or otherwise use their staked ETH in dapps while it remains locked by the Ethereum protocol.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/cbeth.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/cbeth.png",
         "color": "#c9dbfc",
         "coinGeckoId": "coinbase-wrapped-staked-eth",
         "ibc_info": {
@@ -4411,7 +4411,7 @@
         "symbol": "rETH",
         "description": "Rocket Pool is a decentralised Ethereum Proof of Stake pool.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/reth.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/reth.png",
         "color": "#fba487",
         "coinGeckoId": "rocket-pool-eth",
         "ibc_info": {
