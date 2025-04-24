@@ -8,15 +8,5 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iota/asset/iota.png",
         "coinGeckoId": "iota"
-    },
-    {
-        "type": "native",
-        "denom": "0x1461ef74f97e83eb024a448ab851f980f4e577a97877069c72b44b5fe9929ee3::cert::CERT",
-        "name" : "Staked IOTA",
-        "symbol": "STIOTA",
-        "description": "",
-        "decimals": 9,
-        "image": "https://swirlstake.com/logo.svg",
-        "coinGeckoId": ""
     }
 ]
