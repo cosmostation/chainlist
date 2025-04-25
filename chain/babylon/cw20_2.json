@@ -76,10 +76,20 @@
         "type": "cw20",
         "contract": "bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy",
         "name": "Lombard Staked Bitcoin",
-        "symbol": "LBTC.union",
-        "description": "Union bridged LBTC, staked version of Bitcoin from Lombard protocol",
+        "symbol": "LBTC",
+        "description": "Staked version of Bitcoin from Lombard protocol",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/LBTC.png",
         "coinGeckoId": "lombard-staked-btc"
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x",
+        "name": "SatLayer uniBTC Bridged",
+        "symbol": "satUniBTC.e",
+        "description": "Staked version of uniBTC from SatLayer",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/uniBTC.png",
+        "coinGeckoId": ""
     }
 ]
