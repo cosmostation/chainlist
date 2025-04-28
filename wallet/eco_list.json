@@ -976,5 +976,190 @@
         ],
         "socials": {},
         "type": "DeFi"
+    },
+    {
+        "id": 62,
+        "name": "Babylon Labs",
+        "description": "Babylon’s BTC Staking platform allows Bitcoin holders to stake their BTC natively without bridges or wrapped tokens. It offers a secure and decentralized way to earn rewards while retaining full control of their Bitcoin.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/babylon.png",
+        "link": "https://btcstaking.babylonlabs.io/",
+        "chains": [
+            "bitcoin",
+            "babylon"
+        ],
+        "socials": {},
+        "type": "Infra"
+    },
+    {
+        "id": 63,
+        "name": "Initia",
+        "description": "Initia dApp Portal",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/appinitia.png",
+        "link": "https://app.initia.xyz/",
+        "chains": [
+            "initia"
+        ],
+        "socials": {},
+        "type": "Infra"
+    },
+    {
+        "id": 64,
+        "name": "AirDrop Checker",
+        "description": "Initia air drop check & claim",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/initiairdrop.png",
+        "link": "https://airdrop.initia.xyz/check",
+        "chains": [
+            "initia"
+        ],
+        "socials": {},
+        "type": "Airdrop"
+    },
+    {
+        "id": 65,
+        "name": "Pulsara",
+        "description": "Decentralized application exchange platform designed to provide seamless access to various DApps within the Pulsara ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pulsara.png",
+        "link": "https://dax.pulsara.io",
+        "chains": [
+            "coreum"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 66,
+        "name": "Crodex",
+        "description": "Crodex is a decentralized exchange (DEX) on the Cronos blockchain, offering trading, liquidity provision, and yield farming. It aims to provide a seamless DeFi experience with low fees and fast transactions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/crodex.png",
+        "link": "https://swap.crodex.app/#/swap",
+        "chains": [
+            "cronos"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 67,
+        "name": "VVS Finance",
+        "description": "VVS Finance is a decentralized finance (DeFi) platform on the Cronos blockchain. It provides users with various financial services, including swapping, staking, and yield farming.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/vvs_finance.png",
+        "link": "https://vvs.finance/",
+        "chains": [
+            "ethereum",
+            "cronos"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 68,
+        "name": "Ebisus Bay",
+        "description": "Ebisu's Bay is a decentralized marketplace for NFTs on the Cronos blockchain. It allows users to create, buy, sell, and trade a wide variety of non-fungible tokens (NFTs).",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ebisusbay.png",
+        "link": "https://www.ebisusbay.com/",
+        "chains": [
+            "cronos"
+        ],
+        "socials": {},
+        "type": "NFT"
+    },
+    {
+        "id": 69,
+        "name": "Fulcrom Finance",
+        "description": "Fulcrom Finance is a decentralized finance (DeFi) platform that provides a range of financial services including swapping, staking, and liquidity provision.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/fulcrom_finance.png",
+        "link": "https://fulcrom.finance/",
+        "chains": [
+            "cronos"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 70,
+        "name": "Wolfswap",
+        "description": "WolfSwap is a decentralized finance (DeFi) platform designed for cryptocurrency trading and liquidity provision.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/wolfswap.png",
+        "link": "https://wolfswap.app/",
+        "chains": [
+            "cronos",
+            "base",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 71,
+        "name": "Shell Haqq",
+        "description": "HAQQ Shell is the official web interface of the HAQQ blockchain, enabling users to easily access various features such as staking, governance participation, and account management.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/haqq.png",
+        "link": "https://shell.haqq.network/staking",
+        "chains": [
+            "haqq"
+        ],
+        "socials": {},
+        "type": "Infra"
+    },
+    {
+        "id": 72,
+        "name": "Kaia Potal",
+        "description": "Comprehensive platform that simplifies your blockchain experience by offering features such as token swaps, cross-chain bridges, and staking opportunities. It also provides missions and rewards to enhance user engagement.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/potal_kaia.png",
+        "link": "https://portal.kaia.io/",
+        "chains": [
+            "kaia"
+        ],
+        "socials": {},
+        "type": "Infra"
+    },
+    {
+        "id": 73,
+        "name": "Capybara",
+        "description": "Capybara DEX is a decentralized exchange on the Kaia chain, offering efficient token trading with features like single-token liquidity pools and a launchpad for new projects.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/capybara.png",
+        "link": "https://dex.capybara.exchange/",
+        "chains": [
+            "kaia"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 74,
+        "name": "Lair Finance",
+        "description": "Lair Finance is a decentralized liquid staking platform on the Kaia blockchain, letting users stake KAIA tokens and earn rewards with added liquidity.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/lair.png",
+        "link": "https://app.lair.fi/",
+        "chains": [
+            "kaia",
+            "berachain"
+        ],
+        "socials": {},
+        "type": "Liquid staking"
+    },
+    {
+        "id": 75,
+        "name": "Kaia Fun",
+        "description": "KaiaFun is a memecoin launchpad on the Kaia blockchain, enabling fair-launch memecoins and supporting the DeFi ecosystem with trading liquidity.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kaiafun.png",
+        "link": "https://kaiafun.io/",
+        "chains": [
+            "kaia"
+        ],
+        "socials": {},
+        "type": "NFT"
+    },
+    {
+        "id": 76,
+        "name": "Kaia Square",
+        "description": "Kaia Square is the governance hub for the Kaia blockchain, where users discuss proposals and influence ecosystem decisions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/square.png",
+        "link": "https://square.kaia.io/",
+        "chains": [
+            "kaia"
+        ],
+        "socials": {},
+        "type": "Infra"
     }
 ]
