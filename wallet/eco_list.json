@@ -399,6 +399,7 @@
             "bnb-smart-chain",
             "cronos",
             "fantom",
+            "kava",
             "optimism",
             "polygon"
         ],
@@ -988,6 +989,7 @@
             "babylon"
         ],
         "socials": {},
+        "is_default": true,
         "type": "Infra"
     },
     {
@@ -1161,5 +1163,156 @@
         ],
         "socials": {},
         "type": "Infra"
+    },
+    {
+        "id": 77,
+        "name": "DEX Screener",
+        "description": "Real time DEX analytics.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dex_scanner.png",
+        "link": "https://dexscreener.com/kava",
+        "chains": [
+            "kava"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 78,
+        "name": "Hover",
+        "description": "Hover Market is a decentralized finance (DeFi) platform that provides an overview of various DeFi services and products.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/havor.png",
+        "link": "https://app.hover.market/overview",
+        "chains": [
+            "kava"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 79,
+        "name": "Kava",
+        "description": "The Kava app offers protocols decentralized lending and borrowing, liquidity mining, earning rewards with BUSD, and liquid staking of KAVA.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kava.png",
+        "link": "https://app.kava.io/evm/wkava",
+        "chains": [
+            "kava"
+        ],
+        "socials": {},
+        "type": "Infra"
+    },
+    {
+        "id": 80,
+        "name": "Mantra Zone",
+        "description": "Bridge, Staking & Governance for Mantra.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/mantra_zone.png",
+        "link": "https://mantra.zone/",
+        "chains": [
+            "mantra"
+        ],
+        "socials": {},
+        "type": "Infra"
+    },
+    {
+        "id": 81,
+        "name": "Persistence DEX",
+        "description": "Persistence DEX is a decentralized exchange for token swapping, liquidity management, and digital asset handling.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dexter.png",
+        "link": "https://app.persistence.one/",
+        "chains": [
+            "persistence",
+            "babylon"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 82,
+        "name": "Zeta Earn",
+        "description": "ZetaEarn is the liquid staking(ZetaStake) and launchpad solution(ZetaStarter) on ZetaChain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/zearn.png",
+        "link": "https://zearn.xyz/",
+        "chains": [
+            "zeta"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 83,
+        "name": "Guild",
+        "description": "Ability to bridge assets to ZetaChain and enforce ZetaChain network requirements for Guild members.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/guild.png",
+        "link": "https://guild.xyz/",
+        "chains": [
+            "avalanche",
+            "arbitrum",
+            "base",
+            "polygon",
+            "zeta"
+        ],
+        "socials": {},
+        "type": "DAO"
+    },
+    {
+        "id": 84,
+        "name": "NFTs2Me",
+        "description": "NFTs2Me is a multichain user-friendly comprehensive platform to create, deploy and manage your NFT collection and community, 100% free with advanced functionalities.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/nfts2me.png",
+        "link": "https://nfts2me.com/app/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "berachain",
+            "bnb-smart-chain",
+            "fantom",
+            "kaia",
+            "optimism",
+            "polygon",
+            "zeta"
+        ],
+        "socials": {},
+        "type": "NTF"
+    },
+    {
+        "id": 85,
+        "name": "Micro3",
+        "description": "Micro3 is a decentralized SocialFi NFT platform empowering the community, integrating SocialFi and NFT, utilizing #LayerZero and #Chainlink technologies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/micro3.png",
+        "link": "https://micro3.io/",
+        "chains": [
+            "arbitrum",
+            "avalanche",
+            "berachain",
+            "bnb-smart-chain",
+            "cronos",
+            "fantom",
+            "kaia",
+            "optimism",
+            "polygon",
+            "zeta"
+        ],
+        "socials": {},
+        "type": "NTF"
+    },
+    {
+        "id": 86,
+        "name": "L2Marathon",
+        "description": "L2Marathon is an omnichain NFT project. It allows users to mint and bridge NFTs across multiple Layer 2 networks.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/l2marathon.png",
+        "link": "https://l2marathon.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "berachain",
+            "bnb-smart-chain",
+            "fantom",
+            "optimism",
+            "polygon",
+            "zeta"
+        ],
+        "socials": {},
+        "type": "NTF"
     }
 ]
