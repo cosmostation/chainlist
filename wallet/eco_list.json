@@ -108,6 +108,7 @@
             "twitter": "https://x.com/Uniswap",
             "discord": "https://discord.com/invite/uniswap"
         },
+        "is_default": true,
         "type": "DeFi"
     },
     {
@@ -456,6 +457,7 @@
             "polygon"
         ],
         "socials": {},
+        "is_default": true,
         "type": "NFT"
     },
     {
@@ -542,5 +544,212 @@
         ],
         "socials": {},
         "type": "Airdrop"
+    },
+    {
+        "id": 31,
+        "name": "Exactly Protocol",
+        "description": "Exactly is a decentralized finance (DeFi) platform focused on providing fixed-rate lending and borrowing solutions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/exactly.png",
+        "link": "https://app.exact.ly/",
+        "chains": [
+            "optimism"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 32,
+        "name": "Stargate",
+        "description": "Stargate Finance is a decentralized finance (DeFi) platform focused on providing cross-chain liquidity transfer solutions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/stargate.png",
+        "link": "https://stargate.finance/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "fantom",
+            "kaia",
+            "kava",
+            "optimism",
+            "polygon",
+            "xpla"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 33,
+        "name": "WooFi",
+        "description": "WOOFi is a decentralized finance (DeFi) platform within the WOO Network that offers a variety of financial services including swapping, staking, and yield farming. It aims to provide deep liquidity, low fees, and competitive yields for users",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/woofi.png",
+        "link": "https://fi.woo.org/swap/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 34,
+        "name": "Curve",
+        "description": "Curve is DeFi’s leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve’s factory and incentivized by Curve’s DAO.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/curve.png",
+        "link": "https://curve.fi/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "fantom",
+            "kava",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 35,
+        "name": "Pooltime",
+        "description": "PoolTime is a decentralized finance (DeFi) platform that offers a gamified staking experience. Users can stake their digital assets to participate in lottery-style reward pools, combining the excitement of gaming with the benefits of DeFi.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pooltogether.png",
+        "link": "https://www.pooltime.app/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 36,
+        "name": "IBC Eureka (Skip)",
+        "description": "IBC Eureka, launched by Cosmos’ Interchain Labs, enables secure and transparent connections between blockchains—marking a key step toward building a decentralized internet.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/eureka.png",
+        "link": "https://go.cosmos.network/",
+        "chains": [
+            "ethereum",
+            "cosmos"
+        ],
+        "socials": {
+            "telegram": "https://t.me/cosmosproject",
+            "twitter": "https://x.com/cosmos",
+            "discord": "https://discord.com/invite/interchain",
+            "reddit": "https://www.reddit.com/r/cosmosnetwork/"
+        },
+        "is_default": true,
+        "type": "IBC"
+    },
+    {
+        "id": 37,
+        "name": "Skip Go",
+        "description": "Provides MEV solutions for Cosmos and Evm blockchains, enabling revenue generation through block space auctions and transaction prioritization.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/skip.png",
+        "link": "https://go.skip.build/",
+        "chains": [
+            "ethereum",
+            "cosmos"
+        ],
+        "socials": {},
+        "is_default": true,
+        "type": "DeFi"
+    },
+    {
+        "id": 38,
+        "name": "Squid Router",
+        "description": "Squid lets you swap tokens between blockchains, and unlocks access to apps across chains in 1 click ✨ EVM + Cosmos.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/squid.png",
+        "link": "https://app.squidrouter.com",
+        "chains": [
+            "ethereum",
+            "cosmos"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 39,
+        "name": "Drop Money",
+        "description": "Drop is a DeFi platform focused on providing liquidity across multiple blockchain networks, enhancing interoperability and transaction efficiency.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dropmoney.png",
+        "link": "https://app.drop.money/dashboard?referral_code=dropmaga",
+        "chains": [
+            "cosmos",
+            "celestia",
+            "neutron"
+        ],
+        "socials": {},
+        "is_default": true,
+        "type": "DeFi"
+    },
+    {
+        "id": 40,
+        "name": "DaoDao",
+        "description": "Platform designed for decentralized autonomous organizations (DAOs) to manage their operations.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/daodao.png",
+        "link": "https://daodao.zone/",
+        "chains": [
+            "cosmos",
+            "bitsong",
+            "juno",
+            "neutron",
+            "migaloo",
+            "omniflix",
+            "orai-chain",
+            "osmosis",
+            "stargaze"
+        ],
+        "socials": {},
+        "type": "DAO"
+    },
+    {
+        "id": 41,
+        "name": "pSTAKE Finance",
+        "description": "A multi-chain liquid staking protocol that unlocks liquidity for your staked assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pstake-finance.png",
+        "link": "https://app.pstake.finance/cosmos",
+        "chains": [
+            "persistence"
+        ],
+        "socials": {},
+        "type": "Defi"
+    },
+    {
+        "id": 42,
+        "name": "Hydro",
+        "description": "Hydro lets ATOM holders vote on project bids to direct liquidity and earn rewards. It’s in view-only mode, with pilot rounds ongoing.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hydro.png",
+        "link": "https://hydro.cosmos.network/",
+        "chains": [
+            "cosmos"
+        ],
+        "socials": {},
+        "type": "Defi"
+    },
+    {
+        "id": 43,
+        "name": "Osmosis Zone",
+        "description": "Interchain Liquidity Lab - Swap, earn and build on the leading decentralized Cosmos exchange.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/osmosiszone.png",
+        "link": "https://app.osmosis.zone/",
+        "chains": [
+            "osmosis"
+        ],
+        "socials": {},
+        "is_default": true,
+        "type": "Defi"
     }
 ]
