@@ -725,7 +725,7 @@
             "persistence"
         ],
         "socials": {},
-        "type": "Defi"
+        "type": "DeFi"
     },
     {
         "id": 42,
@@ -737,7 +737,7 @@
             "cosmos"
         ],
         "socials": {},
-        "type": "Defi"
+        "type": "DeFi"
     },
     {
         "id": 43,
@@ -750,7 +750,7 @@
         ],
         "socials": {},
         "is_default": true,
-        "type": "Defi"
+        "type": "DeFi"
     },
     {
         "id": 44,
@@ -843,7 +843,7 @@
             "archway"
         ],
         "socials": {},
-        "type": "Defi"
+        "type": "DeFi"
     },
     {
         "id": 51,
@@ -855,6 +855,126 @@
             "archway"
         ],
         "socials": {},
-        "type": "Defi"
+        "type": "DeFi"
+    },
+    {
+        "id": 52,
+        "name": "7K Aggregator",
+        "description": "The Leading Liquidity Hub for Smart Traders on Sui Network.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/7k.png",
+        "link": "https://7k.ag/",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 53,
+        "name": "ABEx Finance",
+        "description": "ABEx is a revonluationary on-chain derivatives protocol within the Sui ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/abex.png",
+        "link": "https://abex.fi/app/trade",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 54,
+        "name": "Aftermath Finance",
+        "description": "CEX but on-chain. Your one-stop DeFi hub on Sui.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/aftermath.png",
+        "link": "https://aftermath.finance/trade",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 55,
+        "name": "AlphaFi",
+        "description": "Smart Yield Aggregator. Best Safe Real Yields on Sui Network.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/alphafi.png",
+        "link": "https://alphafi.xyz/portfolio",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 56,
+        "name": "Hyperspace",
+        "description": "The #1 NFT Marketplace on Sui.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hyperspace.png",
+        "link": "https://sui.hyperspace.xyz/",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "NFT"
+    },
+    {
+        "id": 57,
+        "name": "SuiDex",
+        "description": "The first AMM (Automated Market Maker) on the SUI blockchain, created to enable safe and decentralized token swaps.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/suidex.png",
+        "link": "https://app.suidex.io/",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 58,
+        "name": "Scallop",
+        "description": "The Next Generation Money Market Based on Sui.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/scallop.png",
+        "link": "https://app.scallop.io/",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 59,
+        "name": "NAVI Protocol",
+        "description": "Navi is the first Native One-Stop Liquidity Protocol on Sui. It enables users to participate as liquidity providers or borrowers within the Sui Ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/navi.png",
+        "link": "https://app.naviprotocol.io/",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 60,
+        "name": "Splash Dash",
+        "description": "Splash Dash is an intuitive SUI dashboard that offers SUI users an one-for-all platform for staking, investments, and asset management.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/splashdash.png",
+        "link": "https://dash.splash.im/mainnet/dashboard",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "Infra"
+    },
+    {
+        "id": 61,
+        "name": "Kriya",
+        "description": "Kriya is building institutional grade infra for on-chain trading. The current suite includes - an in-app bridge, an AMM swap and a fully on-chain orderbook for 20x perp trading.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kriya.png",
+        "link": "https://www.app.kriya.finance/spot/swap",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "DeFi"
     }
 ]
