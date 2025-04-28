@@ -751,5 +751,110 @@
         "socials": {},
         "is_default": true,
         "type": "Defi"
+    },
+    {
+        "id": 44,
+        "name": "Neutron",
+        "description": "Duality is a DEX on the Neutron network for secure and efficient crypto trading. It uses smart contracts and offers a user-friendly interface.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/neutron.png",
+        "link": "https://app.neutron.org/",
+        "chains": [
+            "neutron"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 45,
+        "name": "Astroport",
+        "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/astroport.png",
+        "link": "https://neutron.astroport.fi/swap",
+        "chains": [
+            "neutron",
+            "injective",
+            "osmosis",
+            "sei",
+            "terra"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 46,
+        "name": "Apollo dao",
+        "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/apollo.png",
+        "link": "https://app.apollo.farm/",
+        "chains": [
+            "neutron",
+            "osmosis"
+        ],
+        "socials": {},
+        "type": "Vaults"
+    },
+    {
+        "id": 47,
+        "name": "Coinhall",
+        "description": "Providing real-time cryptocurrency market data, including prices, trading volumes, and market caps.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/coinhall-cover.png",
+        "link": "https://coinhall.org",
+        "chains": [
+            "cosmos",
+            "celestia",
+            "injective",
+            "neutron",
+            "osmosis"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 48,
+        "name": "Levana",
+        "description": "Levana Trade is a decentralized platform for trading perpetual swaps with leverage on various crypto assets. It offers a user-friendly interface and tools for managing risk in a transparent, trustless environment.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/levana.png",
+        "link": "https://trade.levana.finance/neutron/trade/NTRN_USD",
+        "chains": [
+            "neutron"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 49,
+        "name": "Stargaze Zone",
+        "description": "Community-owned app chain designed specifically for NFTs.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/stargaze.png",
+        "link": "https://www.stargaze.zone/",
+        "chains": [
+            "stargaze"
+        ],
+        "socials": {},
+        "type": "NFT"
+    },
+    {
+        "id": 50,
+        "name": "Astrovault",
+        "description": "DeFi, Sustainably.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/astrovault.png",
+        "link": "https://astrovault.io",
+        "chains": [
+            "archway"
+        ],
+        "socials": {},
+        "type": "Defi"
+    },
+    {
+        "id": 51,
+        "name": "Sudo Stake",
+        "description": "On-chain property rights for everyone.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/sudostake.png",
+        "link": "https://www.sudostake.com/",
+        "chains": [
+            "archway"
+        ],
+        "socials": {},
+        "type": "Defi"
     }
 ]
