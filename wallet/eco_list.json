@@ -792,7 +792,7 @@
             "osmosis"
         ],
         "socials": {},
-        "type": "Vaults"
+        "type": "DeFi"
     },
     {
         "id": 47,
@@ -1552,7 +1552,7 @@
             "injective"
         ],
         "socials": {},
-        "type": "Game"
+        "type": "GameFi"
     },
     {
         "id": 106,
@@ -1653,7 +1653,7 @@
             "gno-testnet"
         ],
         "socials": {},
-        "type": "DashBoard"
+        "type": "Faucet"
     },
     {
         "id": 114,
@@ -1754,5 +1754,137 @@
         ],
         "socials": {},
         "type": "DeFi"
+    },
+    {
+        "id": 121,
+        "name": "Monad Faucet",
+        "description": "Monad Testnet Faucet",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/monadfaucet.png",
+        "link": "https://testnet.monad.xyz/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {},
+        "type": "Faucet"
+    },
+    {
+        "id": 122,
+        "name": "GMonad",
+        "description": "Network Visualization",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/gmonad.png",
+        "link": "https://www.gmonads.com/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 123,
+        "name": "Amertis",
+        "description": "Experience seamless trading with AmertisExchange, the ultimate aggregator connecting you to deep liquidity pools.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/amertis.png",
+        "link": "https://testnet.amertis.exchange/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 124,
+        "name": "Apriori",
+        "description": "aPriori is an MEV infrastructure and liquid staking protocol, designed for the parallel execution era and natively built on Monad.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/apriori.png",
+        "link": "https://stake.apr.io/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 125,
+        "name": "Azaar",
+        "description": "Azaar is a high-performance DEX aggregator and trading platform built for Monad.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/azaar.png",
+        "link": "https://app-monad-testnet.azaar.com/swap",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 126,
+        "name": "XrplEvm Faucet",
+        "description": "XrplEvm Testnet Faucet",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/xrplevmfaucet.png",
+        "link": "https://faucet.xrplevm.org/",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {},
+        "type": "Faucet"
+    },
+    {
+        "id": 127,
+        "name": "Strobe",
+        "description": "Unlock new yield opportunities for XRP holders by tapping into diverse reward sources.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/strobe.png",
+        "link": "https://strobe.finance/",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 128,
+        "name": "Moai Finance",
+        "description": "Moai Finance is on a mission to pioneer decentralized real-fi by leveraging public blockchain protocols as its foundational infrastructure.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/moai.png",
+        "link": "https://xrplevm.moai-finance.xyz/swap",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 129,
+        "name": "Hammy Swap",
+        "description": "Hammy Swap is the pioneer DEX on the XRPL EVM Sidechain. It offers seamless swap and yield-farming services, combining security, cost-effectiveness and a user-friendly experience.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hammy.png",
+        "link": "https://hammy.finance/",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 130,
+        "name": "Palmera",
+        "description": "Powered by Safe, Palmera streamlines your Safes operations and treasury management across multiple chains, all from a single dashboard",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/palmera.png",
+        "link": "https://app.palmeradao.xyz/create",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {},
+        "type": "Dashboard"
+    },
+    {
+        "id": 131,
+        "name": "ZNS Connect",
+        "description": "ZNSConnect decentralized ID platform powered by decentralized addresses",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/zns.png",
+        "link": "https://zns.bio/search",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {},
+        "type": "Dashboard"
     }
 ]
