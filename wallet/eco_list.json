@@ -1469,5 +1469,290 @@
         ],
         "socials": {},
         "type": "DashBoard"
+    },
+    {
+        "id": 99,
+        "name": "Injective Hub",
+        "description": "Access Unlimited DeFi Markets",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hubinjective.png",
+        "link": "https://hub.injective.network",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 100,
+        "name": "Helix",
+        "description": "A Decentralized Crypto Exchange on Injective.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/helix.png",
+        "link": "https://helixapp.com/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 101,
+        "name": "Talis",
+        "description": "Digital marketplace for NFTs, offering a wide range of categories including digital art, animation, music, video, and photography.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/tails.png",
+        "link": "https://injective.talis.art/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "NFT"
+    },
+    {
+        "id": 102,
+        "name": "Bitoro Pro",
+        "description": "The ultimate hub for trading perps onchain. Optimized with the deepest liquidity in DeFi.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/bitoro-pro.png",
+        "link": "https://inj.app.bitoro.network/portfolio",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 103,
+        "name": "Mito",
+        "description": "Offers vaults for decentralized finance (DeFi) investments. These vaults allow users to deposit cryptocurrencies to earn yields through various DeFi strategies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/mito.png",
+        "link": "https://mito.fi/vaults/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 104,
+        "name": "Blackpanther",
+        "description": "Vaults platform offers a secure way for users to deposit cryptocurrencies and earn returns through automated DeFi strategies. It simplifies yield generation, helping users optimize their investments effortlessly.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/blackpanther.png",
+        "link": "https://trade.blackpanther.fi/vault",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 105,
+        "name": "Ninja Blaze",
+        "description": "Gaming platform offering various online games, including Jackpot, Roshambo, Double, and Lootbox.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ninja-blaze.png",
+        "link": "https://app.blaze.ninja/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "Game"
+    },
+    {
+        "id": 106,
+        "name": "Ninja Blaze",
+        "description": "Gaming platform offering various online games, including Jackpot, Roshambo, Double, and Lootbox.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ninja-blaze.png",
+        "link": "https://app.blaze.ninja/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "Game"
+    },
+    {
+        "id": 107,
+        "name": "Dojo",
+        "description": "DojoSwap is a decentralized exchange (DEX) that facilitates secure and efficient trading of digital assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dojo.png",
+        "link": "https://dojo.trading/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 108,
+        "name": "Hydro",
+        "description": "Decentralized finance platform providing various financial services, including staking and lending, powered by smart contracts.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/injhydro.png",
+        "link": "https://app.hydroprotocol.finance/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 109,
+        "name": "Kage Finance",
+        "description": "Kage Finance is a comprehensive trading platform and Telegram bot designed for the Injective blockchain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kagefinance.png",
+        "link": "https://app.kage.finance/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 110,
+        "name": "Ninjakit",
+        "description": "Dashboard for managing and tracking various blockchain tools and assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ninjakit.png",
+        "link": "https://ninjakits.io/dashboard",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 111,
+        "name": "Neptune Finance",
+        "description": "Neptune Finance is a decentralized finance platform offering lending, borrowing, and swapping services on the Injective blockchain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/neptune.png",
+        "link": "https://app.nept.finance/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 112,
+        "name": "Mountain Protocol",
+        "description": "Mountain Protocol provides yield-earning stablecoins such as USDM, allowing users to earn DeFi-native returns with dollar stability.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/mountain.png",
+        "link": "https://defi.mountainprotocol.com/",
+        "chains": [
+            "ethereum",
+            "avalanche",
+            "arbitrum",
+            "base",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 113,
+        "name": "Gno Faucet",
+        "description": "Gno Testnet faucet hub.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/faucet.png",
+        "link": "https://faucet.gno.land/",
+        "chains": [
+            "gno-testnet"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 114,
+        "name": "Gnoscan",
+        "description": "Gno Testnet Explorer.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/gnoscan.png",
+        "link": "https://gnoscan.io/",
+        "chains": [
+            "gno-testnet"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 115,
+        "name": "Gno Playground",
+        "description": "Gno Playground is a simple web interface that lets you write, test, and experiment with your Gno code to improve your understanding of the Gno language.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/playground.png",
+        "link": "https://play.gno.land/",
+        "chains": [
+            "gno-testnet"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 116,
+        "name": "Gno Studio Connect",
+        "description": "Gno Studio Connect provides seamless access to realms, making it simple to explore, interact, and engage with gno.land’s smart contracts through function calls. Connect focuses on function calls, enabling users to interact with any realm’s exposed function(s) on gno.land.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/gno_studio.png",
+        "link": "https://gno.studio/connect",
+        "chains": [
+            "gno-testnet"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 117,
+        "name": "Venus Protocol",
+        "description": "Venus is a decentralized finance (DeFi) platform on the Binance Smart Chain that allows users to lend, borrow, and earn interest on their crypto assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/venus.png",
+        "link": "https://app.venus.io/",
+        "chains": [
+            "bnb-smart-chain",
+            "arbitrum",
+            "base",
+            "ethereum",
+            "optimism"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 118,
+        "name": "PancakeSwap",
+        "description": "PancakeSwap is a decentralized exchange (DEX) on the Binance Smart Chain (BSC) that allows users to swap BEP-20 tokens. It features yield farming, staking, and a lottery system, providing users with opportunities to earn rewards through liquidity provision and participation in various financial activities.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pancakeswap.png",
+        "link": "https://pancakeswap.finance/",
+        "chains": [
+            "bnb-smart-chain",
+            "arbitrum",
+            "base",
+            "ethereum",
+            "monad-testnet",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 119,
+        "name": "Apeswap",
+        "description": "ApeSwap is a decentralized finance (DeFi) platform on the Binance Smart Chain that provides services such as token swapping, yield farming, and staking. It aims to offer a user-friendly experience with a focus on community-driven development and sustainability.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/apeswap.png",
+        "link": "https://apeswap.finance/",
+        "chains": [
+            "bnb-smart-chain",
+            "arbitrum",
+            "avalanche",
+            "ethereum",
+            "fantom",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 120,
+        "name": "Usdfi",
+        "description": "USDFI is a decentralized finance (DeFi) platform focused on providing stablecoin solutions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/usdfi.png",
+        "link": "https://usdfi.com/",
+        "chains": [
+            "bnb-smart-chain",
+            "arbitrum"
+        ],
+        "socials": {},
+        "type": "DeFi"
     }
 ]
