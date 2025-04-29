@@ -1556,15 +1556,15 @@
     },
     {
         "id": 106,
-        "name": "Ninja Blaze",
-        "description": "Gaming platform offering various online games, including Jackpot, Roshambo, Double, and Lootbox.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ninja-blaze.png",
-        "link": "https://app.blaze.ninja/",
+        "name": "Beraborrow",
+        "description": "Bera Borrow is a decentralized borrowing platform on Berachain, enabling users to access liquidity without selling their assets. Users can deposit collateral and borrow stablecoins while maintaining exposure to their crypto holdings.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/beraborrow.png",
+        "link": "https://app.beraborrow.com/",
         "chains": [
-            "injective"
+            "berachain"
         ],
         "socials": {},
-        "type": "Game"
+        "type": "DeFi"
     },
     {
         "id": 107,
@@ -1886,5 +1886,41 @@
         ],
         "socials": {},
         "type": "Dashboard"
+    },
+    {
+        "id": 132,
+        "name": "Kodiak",
+        "description": "Kodiak Finance offers decentralized liquidity provisioning and trading on Berachain, helping users maximize their DeFi yields.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kodiak.png",
+        "link": "https://app.kodiak.finance/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 133,
+        "name": "Berapaw",
+        "description": "BeraPaw is an NFT marketplace on Berachain, empowering users to trade, collect, and explore digital assets easily.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/berapaw.png",
+        "link": "https://www.berapaw.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 134,
+        "name": "Beradrome",
+        "description": "Beradrome is a decentralized exchange (DEX) and liquidity hub built on Berachain. It allows users to trade assets, provide liquidity, and participate in DeFi opportunities within the Berachain ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/beradrome.png",
+        "link": "https://www.beradrome.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {},
+        "type": "DeFi"
     }
 ]
