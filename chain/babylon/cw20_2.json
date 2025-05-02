@@ -91,5 +91,15 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/uniBTC.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq",
+        "name": "SatLayer LBTC Bridged",
+        "symbol": "satLBTC.e",
+        "description": "Staked version of LBTC from SatLayer",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/LBTC.png",
+        "coinGeckoId": ""
     }
 ]
