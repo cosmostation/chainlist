@@ -94,6 +94,16 @@
     },
     {
         "type": "cw20",
+        "contract": "bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc",
+        "name": "SatLayer xSatSolvBTC Bridged",
+        "symbol": "satSolvBTC.e",
+        "description": "Staked version of xSolvBTC from SatLayer",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/SolvBTC.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
         "contract": "bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq",
         "name": "SatLayer LBTC Bridged",
         "symbol": "satLBTC.e",
