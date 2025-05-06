@@ -90,7 +90,7 @@
         "description": "Staked version of uniBTC from SatLayer",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/uniBTC.png",
-        "coinGeckoId": ""
+        "coinGeckoId": "universal-btc"
     },
     {
         "type": "cw20",
@@ -100,7 +100,7 @@
         "description": "Staked version of xSolvBTC from SatLayer",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/SolvBTC.png",
-        "coinGeckoId": ""
+        "coinGeckoId": "solv-protocol-solvbtc-bbn"
     },
     {
         "type": "cw20",
@@ -110,6 +110,6 @@
         "description": "Staked version of LBTC from SatLayer",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/LBTC.png",
-        "coinGeckoId": ""
+        "coinGeckoId": "lombard-staked-btc"
     }
 ]
