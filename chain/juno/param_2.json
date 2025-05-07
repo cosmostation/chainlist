@@ -36,50 +36,30 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "juno-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-juno-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "kingnodes 👑",
-            "url": "grpc-juno.kingnodes.com:443"
-        },
-        {
             "provider": "StakeTown",
             "url": "juno-grpc.stake-town.com:443"
         },
         {
             "provider": "Cogwheel",
             "url": "juno-grpc.cogwheel.zone:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "juno-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "ecostake",
-            "url": "https://rest-juno.ecostake.com/"
+            "provider": "Publicnode",
+            "url": "https://juno-rest.publicnode.com/"
         },
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://juno-api.lavenderfive.com/"
+            "provider": "declab",
+            "url": "https://juno.declab.pro:443/"
         },
         {
             "provider": "🔥STAVR🔥",
             "url": "https://juno.api.m.stavr.tech/"
         },
         {
-            "provider": "ChainTools",
-            "url": "https://api.juno.chaintools.tech/"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "https://juno-api.chainroot.io/"
+            "provider": "Polkachu",
+            "url": "https://juno-api.polkachu.com/"
         }
     ],
     "explorer" : {
