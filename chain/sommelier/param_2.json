@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "sommvaloper",
     "origin_genesis_time" : "2021-09-13T15:00:00Z",
     "api_name" : "sommelier",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -34,19 +33,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-sommelier.cosmostation.io:443"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "sommelier-grpc.lavenderfive.com:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-sommelier.cosmostation.io/"
-        },
         {
             "provider": "PUPMØS",
             "url": "https://api-sommelier.pupmos.network/"
@@ -65,11 +56,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/sommelier/",
-        "account": "https://www.mintscan.io/sommelier/address/${address}",
-        "tx": "https://www.mintscan.io/sommelier/tx/${hash}",
-        "proposal": "https://www.mintscan.io/sommelier/proposals/${id}"
+        "name": "EZ Staking",
+        "url": "https://ezstaking.app/sommelier/",
+        "account": "https://ezstaking.app/sommelier/account/${address}",
+        "tx": "https://ezstaking.app/sommelier/txs/${hash}",
+        "proposal": "https://ezstaking.app/sommelier/proposals/${id}"
     },
     "about" : {
         "website" : "https://www.sommelier.finance/",
