@@ -10808,5 +10808,28 @@
                 "denom": "ubbn"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9D8D4CAE9D8F15B69E93969304AF3878D14BDED39FEAF0060566D6AC22288779",
+        "name": "Milk",
+        "symbol": "MILK",
+        "description": "Milkyway Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/milkyway/asset/milk.png",
+        "coinGeckoId": "milkyway-2"
+        "ibc_info": {
+            "path": "milkyway>osmosis",
+            "client": {
+                "channel": "channel-89298",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "milkyway",
+                "denom": "umilk"
+            }
+        }
     }
 ]
