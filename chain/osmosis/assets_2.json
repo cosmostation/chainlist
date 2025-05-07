@@ -10817,7 +10817,7 @@
         "description": "Milkyway Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/milkyway/asset/milk.png",
-        "coinGeckoId": "milkyway-2"
+        "coinGeckoId": "milkyway-2",
         "ibc_info": {
             "path": "milkyway>osmosis",
             "client": {
