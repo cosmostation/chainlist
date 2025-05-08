@@ -34,13 +34,13 @@
     "grpc_endpoint" : [
         {
             "provider": "Lumera Protocol",
-            "url": "https://grpc.lumera.io"
+            "url": "grpc.lumera.io"
         }
     ],
     "lcd_endpoint" : [
         {
             "provider": "Lumera Protocol",
-            "url": "https://lcd.lumera.io"
+            "url": "https://lcd.lumera.io/"
         }
     ],
     "explorer" : {
