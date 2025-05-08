@@ -35,21 +35,21 @@
     "grpc_endpoint" : [
         {
             "provider": "Lumera Protocol",
-            "url": "https://grpc.lumera.io"
+            "url": "https://grpc.testnet.lumera.io"
         }
     ],
     "lcd_endpoint" : [
         {
             "provider": "Lumera Protocol",
-            "url": "https://lcd.lumera.io"
+            "url": "https://lcd.testnet.lumera.io"
         }
     ],
     "explorer" : {
         "name": "Lumera Protocol",
-        "url": "https://portal.lumera.io/lumera-testnet-1/",
-        "account": "https://portal.lumera.io/lumera-testnet-1/account/${accountAddress}",
-        "tx": "https://portal.lumera.io/lumera-testnet-1/tx/${txHash}",
-        "proposal": "https://portal.lumera.io/lumera-testnet-1/gov/${id}"
+        "url": "https://portal.testnet.lumera.io/lumera-testnet-1/",
+        "account": "https://portal.testnet.lumera.io/lumera-testnet-1/account/${accountAddress}",
+        "tx": "https://portal.testnet.lumera.io/lumera-testnet-1/tx/${txHash}",
+        "proposal": "https://portal.testnet.lumera.io/lumera-testnet-1/gov/${id}"
     },
     "about" : {
         "github" : "https://github.com/LumeraProtocol",
