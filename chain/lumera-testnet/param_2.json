@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "lumeravaloper",
     "origin_genesis_time" : "2025-01-28T16:00:00Z",
     "api_name" : "lumera-testnet",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -58,6 +57,8 @@
         "website" : "https://lumera.io/"
     },
     "description" : {
-        "en" : "Lumera Protocol is a decentralized, open-source platform that enables developers to build and deploy AI applications on the blockchain. It provides a secure and scalable infrastructure for AI applications, allowing developers to focus on building their applications without worrying about the underlying infrastructure."
+        "ko" : "Lumera Protocol은 분산형 오픈소스 플랫폼으로, 개발자들이 AI 애플리케이션을 블록체인 위에 구축하고 배포할 수 있도록 지원합니다. 이 프로토콜은 AI 애플리케이션을 위한 안전하고 확장 가능한 인프라를 제공하여, 개발자들이 기반 인프라에 대한 걱정 없이 애플리케이션 개발에 집중할 수 있도록 합니다.",
+        "en" : "Lumera Protocol is a decentralized, open-source platform that enables developers to build and deploy AI applications on the blockchain. It provides a secure and scalable infrastructure for AI applications, allowing developers to focus on building their applications without worrying about the underlying infrastructure.",
+        "ja" : "Lumera Protocolは、開発者がAIアプリケーションをブロックチェーン上に構築・展開できる分散型のオープンソースプラットフォームです。安全でスケーラブルなインフラを提供することで、開発者は基盤となるインフラを気にせずにアプリケーションの開発に専念することができます。"
     }
 }
