@@ -8,7 +8,7 @@
     "origin_genesis_time" : "",
     "api_name" : "berachain-testnet",
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : true,
+    "is_support_extension_wallet" : false,
     "is_support_erc20" : true,
     "chain_type": [
         "evm"

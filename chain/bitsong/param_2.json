@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "bitsongvaloper",
     "origin_genesis_time" : "2021-03-26T20:00:00Z",
     "api_name" : "bitsong",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
     "chain_type": [
@@ -35,10 +34,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-bitsong.cosmostation.io:443"
-        },
-        {
             "provider": "Notional",
             "url": "grpc-bitsong-ia.cosmosia.notional.ventures:443"
         },
@@ -48,10 +43,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-bitsong.cosmostation.io/"
-        },
         {
             "provider": "stake.systems",
             "url": "https://lcd.explorebitsong.com/"
@@ -70,11 +61,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/bitsong/",
-        "account": "https://www.mintscan.io/bitsong/address/${address}",
-        "tx": "https://www.mintscan.io/bitsong/tx/${hash}",
-        "proposal": "https://www.mintscan.io/bitsong/proposals/${id}"
+        "name": "Ping.pub",
+        "url": "https://ping.pub/bitsong/",
+        "account": "https://ping.pub/bitsong/account/${address}",
+        "tx": "https://ping.pub/bitsong/tx/${hash}",
+        "proposal": "https://ping.pub/bitsong/gov/${id}"
     },
     "about" : {
         "website" : "http://bitsong.io/",

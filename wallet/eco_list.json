@@ -1873,7 +1873,7 @@
             "xrplevm-testnet"
         ],
         "socials": {},
-        "type": "Dashboard"
+        "type": "DashBoard"
     },
     {
         "id": 131,
@@ -1885,7 +1885,7 @@
             "xrplevm-testnet"
         ],
         "socials": {},
-        "type": "Dashboard"
+        "type": "DashBoard"
     },
     {
         "id": 132,
@@ -1922,5 +1922,33 @@
         ],
         "socials": {},
         "type": "DeFi"
+    },
+    {
+        "id": 135,
+        "name": "Tower",
+        "description": "TowerSwap is a decentralized exchange (DEX) built on Berachain, enabling users to swap tokens seamlessly and efficiently. It offers a streamlined interface and supports deep liquidity for fast, low-slippage trades.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/tower.png",
+        "link": "https://app.tower.fi/",
+        "chains": [
+            "babylon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/tower",
+            "twitter": "https://x.com/tower",
+            "discord": "https://discord.com/invite/tower"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 136,
+        "name": "Escher",
+        "description": "Escher Finance is a decentralized platform for liquid staking across multiple chains. It integrates with protocols like Babylon to enable secure, cross-chain staking. Users earn rewards through the ePoints system by participating in the ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/escher.png",
+        "link": "https://app.escher.finance/",
+        "chains": [
+            "babylon"
+        ],
+        "socials": {},
+        "type": "Liquid staking"
     }
 ]

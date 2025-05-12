@@ -1,13 +1,13 @@
 {
-    "chain_id" : "2304aa97",
+    "chain_id" : "6364aad5",
     "chain_name": "Iota",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iota/resource/chain_iota.png",
     "staking_asset_denom" : "0x2::iota::IOTA",
     "staking_asset_symbol" : "IOTA",
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iota/asset/iota.png",
-    "origin_genesis_time" : "",
+    "origin_genesis_time" : "2025-05-05T07:00:00Z",
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : false,
+    "is_support_extension_wallet" : true,
     "chain_type": [
         "iota"
     ],
@@ -20,14 +20,14 @@
     "rpc_endpoint" : [
         {
             "provider": "Iota",
-            "url": "https://api.testnet.iota.cafe"
+            "url": "https://api.mainnet.iota.cafe"
         }
     ],
     "explorer" : {
-        "name": "Iotascan",
-        "url": "https://iotascan.com/testnet/home",
-        "account": "https://iotascan.com/testnet/account/${address}",
-        "tx": "https://iotascan.com/testnet/tx/${hash}",
+        "name": "Iota",
+        "url": "https://explorer.iota.org/?network=mainnet",
+        "account": "https://explorer.iota.org/address/${address}?network=mainnet",
+        "tx": "https://explorer.iota.org/txblock/${hash}?network=mainnet",
         "proposal": ""
     },
     "about" : {
@@ -39,7 +39,7 @@
         "twitter" : "https://x.com/iota",
         "discord" : "https://discord.iota.org/",
         "linkedin": "https://www.linkedin.com/company/iotafoundation/",
-        "coingecko" : ""
+        "coingecko" : "https://www.coingecko.com/en/coins/iota"
     },
     "description" : {
         "ko" : "IOTA는 L1에서는 Move, L2에서는 EVM 기반의 스마트 계약을 지원하는 분산 원장입니다. 디지털 자산 관리와 확장성 높은 dApp 개발에 최적화되어 있습니다. 합의는 DPoS 기반 Mysticeti 프로토콜을 통해 이루어집니다.",
