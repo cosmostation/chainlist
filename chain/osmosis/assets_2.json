@@ -5192,7 +5192,7 @@
         "symbol": "USDC",
         "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/usdc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
         "color": "#2775CA",
         "coinGeckoId": "usd-coin",
         "ibc_info": {
@@ -10829,6 +10829,30 @@
                 "port": "transfer",
                 "chain": "milkyway",
                 "denom": "umilk"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0C39BD03B5C57A1753A9B73164705871A9B549F1A5226CFD7E39BE7BF73CF8CF",
+        "name": "Noble Dollar",
+        "symbol": "USDN",
+        "description": "USDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdn.png",
+        "color": "#14C784",
+        "coinGeckoId": "noble-dollar-usdn",
+        "ibc_info": {
+            "path": "noble>osmosis",
+            "client": {
+                "channel": "channel-750",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdn"
             }
         }
     }
