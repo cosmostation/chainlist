@@ -39,6 +39,10 @@
     ],
     "lcd_endpoint" : [
         {
+            "provider": "nodesguru",
+            "url": "https://api-1.paloma.nodes.guru/"
+        },
+        {
             "provider": "Kjnodes",
             "url": "https://paloma.api.kjnodes.com/"
         }
