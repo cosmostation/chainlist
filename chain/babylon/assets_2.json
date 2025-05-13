@@ -103,5 +103,29 @@
                 "denom": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DEF63053872AFF04509EDA37BFCB1D890BAA55D47FEC36DBBD19FF55A537D8B3",
+        "name": "Noble Dollar",
+        "symbol": "USDN",
+        "description": "USDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdn.png",
+        "coinGeckoId": "noble-dollar-usdn",
+        "color": "#14C784",
+        "ibc_info" : {
+            "path": "noble>babylon",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-132",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdn"
+            }
+        }
     }
 ]
