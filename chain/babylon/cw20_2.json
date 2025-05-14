@@ -43,6 +43,16 @@
          "coinGeckoId": "solv-btc"
      },
      {
+        "type": "cw20",
+        "contract": "bbn1ztf5dlsljzmxn800yeydplwyvpp828fjkyy29gtjzerd4mu4kxsscmzc0a",
+        "name": "xSolvBTC",
+        "symbol": "xSolvBTC",
+        "description": "xSolvBTC is a yield-bearing Bitcoin token representing staked Bitcoin in the Babylon ecosystem",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/xSolvBTC.png",
+        "coinGeckoId": "solv-protocol-solvbtc-bbn"
+    },
+     {
          "type": "cw20",
          "contract": "bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks",
          "name": "Lorenzo stBTC",
@@ -96,10 +106,10 @@
         "type": "cw20",
         "contract": "bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc",
         "name": "SatLayer xSatSolvBTC Bridged",
-        "symbol": "satSolvBTC.e",
+        "symbol": "satXSolvBTC.e",
         "description": "Staked version of xSolvBTC from SatLayer",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/SolvBTC.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/xSolvBTC.png",
         "coinGeckoId": "solv-protocol-solvbtc-bbn"
     },
     {
@@ -111,5 +121,65 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/LBTC.png",
         "coinGeckoId": "lombard-staked-btc"
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa",
+        "name": "SatLayer satFBTC Bridged",
+        "symbol": "satFBTC.e",
+        "description": "Staked version of satFBTC from SatLayer",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/FBTC.png",
+        "coinGeckoId": "ignition-fbtc"
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93",
+        "name": "SatLayer stBTC Bridged",
+        "symbol": "satStBTC.e",
+        "description": "Staked version of stBTC from SatLayer",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/stBTC.png",
+        "coinGeckoId": "lorenzo-stbtc"
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn1zwg6c8rzk8htpn67cj4vrq5y2qdhfgtzvslyy9574s4j8j5xynlqg0qzs2",
+        "name": "SatLayer pumpBTC Bridged",
+        "symbol": "satPumpBTC.e",
+        "description": "Staked version of pumpBTC from SatLayer",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/PumpBTC.png",
+        "coinGeckoId": "pumpbtc"
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn1m83xl7pshe9dt25ztlnlqfy8ksaxdp5e098fcl372fjdacpusdcqjp4zx3",
+        "name": "SatLayer WBTC Bridged",
+        "symbol": "satWBTC.e",
+        "description": "Staked version of WBTC from SatLayer",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/WBTC.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh",
+        "name": "ether.fi BTC",
+        "symbol": "eBTC",
+        "description": "eBTC is ether.fi's flagship Bitcoin-backed liquid restaking token, simplifying yield optimization and available for staking and bridging across multiple chains",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/eBTC.png",
+        "coinGeckoId": "ether-fi-staked-btc"
+    },
+    {
+        "type": "cw20",
+        "contract": "bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll",
+        "name": "Liquid Staked BTC",
+        "symbol": "mBTC",
+        "description": "mBTC is a cross-chain wrapped token pegged to BTC on a 1:1 basis and it does not accrue any underlying yield",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/mBTC.png",
+        "coinGeckoId": "babypie-wrapped-btc"
     }
 ]
