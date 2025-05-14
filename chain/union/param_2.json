@@ -33,6 +33,10 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
+        {
+            "provider": "Union Foundation",
+            "url": "grpc.rpc-node.union-1.union.build:443"
+        }
     ],
     "lcd_endpoint" : [
         {
