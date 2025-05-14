@@ -462,8 +462,8 @@ You must add an endpoint to `https://github.com/cosmostation/chainlist/blob/main
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc-humans-evm.cosmostation.io"
+            "provider": "NodeStake",
+            "url": "https://jsonrpc.humans.nodestake.top"
         },
         {
             "provider": "Posthuman",
