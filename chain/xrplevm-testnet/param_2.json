@@ -18,7 +18,6 @@
     "is_support_extension_wallet" : false,
     "is_support_erc20" : true,
     "chain_type": [
-        "cosmos",
         "evm"
     ],
     "account_type" : [
