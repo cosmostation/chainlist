@@ -689,7 +689,12 @@
             "polygon",
             "xpla"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/stargate-protocol",
+            "telegram": "https://t.me/joinchat/LEM0ELklmO1kODdh",
+            "twitter": "https://x.com/StargateFinance",
+            "discord": "https://discord.com/invite/E6xp6y4"
+        },
         "type": "DeFi"
     },
     {
@@ -708,28 +713,12 @@
             "optimism",
             "polygon"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/woonetwork",
+            "twitter": "https://x.com/_WOOFi",
+            "discord": "https://discord.com/invite/woonetwork"
+        },
         "type": "DeFi"
-    },
-    {
-        "id": 34,
-        "name": "Curve",
-        "description": "Curve is DeFi’s leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve’s factory and incentivized by Curve’s DAO.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/curve.png",
-        "link": "https://curve.fi/",
-        "chains": [
-            "ethereum",
-            "arbitrum",
-            "avalanche",
-            "base",
-            "bnb-smart-chain",
-            "fantom",
-            "kava",
-            "optimism",
-            "polygon"
-        ],
-        "socials": {},
-        "type": "DEX"
     },
     {
         "id": 35,
@@ -743,7 +732,10 @@
             "avalanche",
             "base"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/PoolTogether_",
+            "discord": "https://pooltogether.com/discord"
+        },
         "type": "DEX"
     },
     {
@@ -775,7 +767,12 @@
             "ethereum",
             "cosmos"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/cosmosproject",
+            "twitter": "https://x.com/cosmos",
+            "discord": "https://discord.com/invite/interchain",
+            "reddit": "https://www.reddit.com/r/cosmosnetwork/"
+        },
         "is_default": true,
         "type": "DeFi"
     },
@@ -789,7 +786,11 @@
             "ethereum",
             "cosmos"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/0xsquid/",
+            "twitter": "https://x.com/squidrouter",
+            "discord": "https://discord.com/invite/squidrouter"
+        },
         "type": "DeFi"
     },
     {
@@ -803,7 +804,12 @@
             "celestia",
             "neutron"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/hadronlabs-org/drop-contracts",
+            "telegram": "https://t.me/drop_protocol",
+            "twitter": "https://x.com/Dropdotmoney",
+            "discord": "https://discord.com/invite/dropdotmoney"
+        },
         "is_default": true,
         "type": "DeFi"
     },
@@ -824,7 +830,11 @@
             "osmosis",
             "stargaze"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/DA0-DA0",
+            "twitter": "https://x.com/DA0_DA0",
+            "discord": "https://discord.com/invite/5uBMNMy4UR"
+        },
         "type": "DashBoard"
     },
     {
@@ -836,7 +846,12 @@
         "chains": [
             "persistence"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/pstakefinancechat",
+            "twitter": "https://x.com/pSTAKE_Cosmos",
+            "discord": "https://discord.com/invite/kKvSz6F8AJ",
+            "reddit": "https://www.reddit.com/r/pstake_official"
+        },
         "type": "DeFi"
     },
     {
@@ -848,7 +863,10 @@
         "chains": [
             "cosmos"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/hydro_community",
+            "twitter": "https://x.com/HydroTeam_"
+        },
         "type": "DeFi"
     },
     {
@@ -860,7 +878,13 @@
         "chains": [
             "osmosis"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/osmosis-labs",
+            "telegram": "https://t.me/osmosis_chat",
+            "twitter": "https://x.com/osmosiszone",
+            "discord": "https://discord.com/invite/osmosis",
+            "reddit": "https://www.reddit.com/r/OsmosisLab"
+        },
         "is_default": true,
         "type": "DeFi"
     },
@@ -873,7 +897,13 @@
         "chains": [
             "neutron"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/neutron-org",
+            "telegram": "https://t.me/neutron_community",
+            "twitter": "https://x.com/Neutron_org",
+            "discord": "https://discord.com/invite/bzPBzbDvWC",
+            "reddit": "https://www.reddit.com/r/Neutron_org/"
+        },
         "type": "DEX"
     },
     {
@@ -889,7 +919,13 @@
             "sei",
             "terra"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/astroport-fi/",
+            "telegram": "https://t.me/astroport_fi",
+            "twitter": "https://x.com/astroport_fi",
+            "discord": "https://discord.com/invite/astroport",
+            "reddit": "https://www.reddit.com/r/Astroport/"
+        },
         "type": "DEX"
     },
     {
@@ -902,7 +938,13 @@
             "neutron",
             "osmosis"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/apollodao",
+            "telegram": "https://t.me/apollodao",
+            "twitter": "https://x.com/ApolloDAO",
+            "discord": "https://discord.com/invite/j3KxMR8ZjZ",
+            "reddit": "https://www.reddit.com/r/ApolloDAO/"
+        },
         "type": "DeFi"
     },
     {
@@ -918,7 +960,11 @@
             "neutron",
             "osmosis"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/coinhall_org",
+            "twitter": "https://x.com/coinhall_org",
+            "discord": "https://discord.com/invite/Ebz8yaveAk"
+        },
         "type": "DEX"
     },
     {
@@ -930,7 +976,10 @@
         "chains": [
             "neutron"
         ],
-        "socials": {},
+        "socials": {
+            "discord": "https://discord.com/invite/Xa7yzUtApz",
+            "reddit:" "https://www.reddit.com/r/levanadragons"
+        },
         "type": "DEX"
     },
     {
@@ -942,7 +991,13 @@
         "chains": [
             "stargaze"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/public-awesome",
+            "telegram": "https://t.me/joinchat/ZQ95YmIn3AI0ODFh",
+            "twitter": "https://x.com/stargazezone",
+            "discord": "https://discord.com/invite/stargaze",
+            "reddit": "https://www.reddit.com/r/stargaze/"
+        },
         "type": "NFT"
     },
     {
@@ -954,7 +1009,11 @@
         "chains": [
             "archway"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/axvdex",
+            "twitter": "https://x.com/axvdex",
+            "discord": "https://discord.com/invite/SfsuTgz27m"
+        },
         "type": "DeFi"
     },
     {
@@ -966,7 +1025,11 @@
         "chains": [
             "archway"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/sudostake",
+            "telegram": "https://t.me/sudostake",
+            "twitter": "https://x.com/sudostake"
+        },
         "type": "DeFi"
     },
     {
@@ -978,7 +1041,10 @@
         "chains": [
             "sui"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/7k_ag_",
+            "discord": "https://discord.com/invite/vNhgKEawXn"
+        },
         "type": "DeFi"
     },
     {
@@ -990,7 +1056,10 @@
         "chains": [
             "sui"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/ABExFinance",
+            "discord": "https://discord.com/invite/gTbkHAHU8B"
+        },
         "type": "DeFi"
     },
     {
@@ -1002,7 +1071,11 @@
         "chains": [
             "sui"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/AftermathFinance/",
+            "twitter": "https://x.com/aftermathfi",
+            "discord": "https://discord.com/invite/KvVCAauXk5"
+        },
         "type": "DeFi"
     },
     {
@@ -1014,31 +1087,11 @@
         "chains": [
             "sui"
         ],
-        "socials": {},
-        "type": "DeFi"
-    },
-    {
-        "id": 56,
-        "name": "Hyperspace",
-        "description": "The #1 NFT Marketplace on Sui.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hyperspace.png",
-        "link": "https://sui.hyperspace.xyz/",
-        "chains": [
-            "sui"
-        ],
-        "socials": {},
-        "type": "NFT"
-    },
-    {
-        "id": 57,
-        "name": "SuiDex",
-        "description": "The first AMM (Automated Market Maker) on the SUI blockchain, created to enable safe and decentralized token swaps.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/suidex.png",
-        "link": "https://app.suidex.io/",
-        "chains": [
-            "sui"
-        ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/AlphaFiSUI",
+            "twitter": "https://x.com/AlphaFiSUI",
+            "discord": "https://discord.com/invite/Pn6cKUSqSs"
+        },
         "type": "DeFi"
     },
     {
@@ -1050,7 +1103,13 @@
         "chains": [
             "sui"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/scallop-io",
+            "telegram": "https://t.me/scallop_io",
+            "twitter": "https://x.com/intent/follow?screen_name=Scallop_io",
+            "discord": "https://discord.com/invite/F7umecFArJ",
+            "reddit": "https://www.reddit.com/r/Scallop/"
+        },
         "type": "DeFi"
     },
     {
@@ -1062,7 +1121,11 @@
         "chains": [
             "sui"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/navi_protocol",
+            "twitter": "https://x.com/navi_protocol",
+            "discord": "https://discord.com/invite/R6Xkbee8Xq"
+        },
         "type": "DeFi"
     },
     {
@@ -1078,18 +1141,6 @@
         "type": "DashBoard"
     },
     {
-        "id": 61,
-        "name": "Kriya",
-        "description": "Kriya is building institutional grade infra for on-chain trading. The current suite includes - an in-app bridge, an AMM swap and a fully on-chain orderbook for 20x perp trading.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kriya.png",
-        "link": "https://www.app.kriya.finance/spot/swap",
-        "chains": [
-            "sui"
-        ],
-        "socials": {},
-        "type": "DeFi"
-    },
-    {
         "id": 62,
         "name": "Babylon Labs",
         "description": "Babylon’s BTC Staking platform allows Bitcoin holders to stake their BTC natively without bridges or wrapped tokens. It offers a secure and decentralized way to earn rewards while retaining full control of their Bitcoin.",
@@ -1099,7 +1150,13 @@
             "bitcoin",
             "babylon"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/babylonlabs-io",
+            "telegram": "https://t.me/babyloncommunity",
+            "twitter": "https://x.com/babylonlabs_io",
+            "discord": "https://discord.com/invite/babylonglobal",
+            "reddit": "https://www.reddit.com/r/babylonlabs/"
+        },
         "is_default": true,
         "type": "DashBoard"
     },
@@ -1112,7 +1169,11 @@
         "chains": [
             "initia"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/initia-labs",
+            "twitter": "https://x.com/initia",
+            "discord": "https://discord.com/invite/initia"
+        },
         "type": "DashBoard"
     },
     {
@@ -1124,7 +1185,11 @@
         "chains": [
             "initia"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/initia-labs",
+            "twitter": "https://x.com/initia",
+            "discord": "https://discord.com/invite/initia"
+        },
         "type": "Airdrop"
     },
     {
@@ -1136,7 +1201,11 @@
         "chains": [
             "coreum"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/pulsara_io",
+            "twitter": "https://x.com/pulsara_io",
+            "reddit": "https://www.reddit.com/r/pulsara/"
+        },
         "type": "DEX"
     },
     {
@@ -1148,7 +1217,13 @@
         "chains": [
             "cronos"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/CrodexApp",
+            "telegram": "https://t.me/crodexofficial",
+            "twitter": "https://x.com/crodexapp",
+            "discord": "https://discord.com/invite/xSCzBRYGy4",
+            "reddit": "https://www.reddit.com/r/crodex/"
+        },
         "type": "DEX"
     },
     {
@@ -1161,7 +1236,12 @@
             "ethereum",
             "cronos"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/VVSFinance",
+            "twitter": "https://x.com/VVS_finance",
+            "discord": "https://discord.com/invite/V2957zMsmg",
+            "reddit": "https://www.reddit.com/r/VVS_Finance/"
+        },
         "type": "DeFi"
     },
     {
@@ -1173,7 +1253,10 @@
         "chains": [
             "cronos"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/EbisusBay",
+            "discord": "https://discord.com/invite/ebisusbay"
+        },
         "type": "NFT"
     },
     {
@@ -1185,7 +1268,10 @@
         "chains": [
             "cronos"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/FulcromFinance",
+            "discord": "https://discord.com/invite/7cTMWnpAfd"
+        },
         "type": "DeFi"
     },
     {
@@ -1199,7 +1285,10 @@
             "base",
             "polygon"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/wolfswapdotapp",
+            "discord": "https://discord.com/invite/moonflowlabs"
+        },
         "type": "DeFi"
     },
     {
