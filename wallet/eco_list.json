@@ -1804,20 +1804,12 @@
         "chains": [
             "injective"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/talisprotocol",
+            "twitter": "https://x.com/ProtocolTalis",
+            "discord": "https://discord.com/invite/pgxEttXaZa"
+        },
         "type": "NFT"
-    },
-    {
-        "id": 102,
-        "name": "Bitoro Pro",
-        "description": "The ultimate hub for trading perps onchain. Optimized with the deepest liquidity in DeFi.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/bitoro-pro.png",
-        "link": "https://inj.app.bitoro.network/portfolio",
-        "chains": [
-            "injective"
-        ],
-        "socials": {},
-        "type": "DeFi"
     },
     {
         "id": 103,
@@ -1828,7 +1820,10 @@
         "chains": [
             "injective"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/MitoFinance",
+            "discord": "https://discord.com/invite/mitofi"
+        },
         "type": "DeFi"
     },
     {
@@ -1840,7 +1835,11 @@
         "chains": [
             "injective"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/BlackPanther_fi",
+            "twitter": "https://x.com/BlackPanther_Fi",
+            "discord": "https://discord.com/invite/ftcDnpvWHx"
+        },
         "type": "DeFi"
     },
     {
@@ -1852,7 +1851,11 @@
         "chains": [
             "injective"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/NinjaBlazeApp",
+            "twitter": "https://x.com/NinjaBlazeApp",
+            "discord": "https://discord.com/invite/X7h9nRMUBR"
+        },
         "type": "GameFi"
     },
     {
@@ -1864,7 +1867,10 @@
         "chains": [
             "berachain"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/beraborrow",
+            "discord": "https://discord.com/invite/beraborrowofficial"
+        },
         "type": "DeFi"
     },
     {
@@ -1876,7 +1882,10 @@
         "chains": [
             "injective"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/dojo_swap",
+            "twitter": "https://x.com/Dojo_Swap"
+        },
         "type": "DeFi"
     },
     {
@@ -1888,7 +1897,11 @@
         "chains": [
             "injective"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/Hydro_LSDfi",
+            "twitter": "https://x.com/hydro_fi",
+            "discord": "https://discord.com/invite/mYjW7vynjs"
+        },
         "type": "DeFi"
     },
     {
@@ -1900,7 +1913,10 @@
         "chains": [
             "injective"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/Hydro_LSDfi",
+            "twitter": "https://x.com/KageFinance"
+        },
         "type": "DeFi"
     },
     {
@@ -1912,7 +1928,10 @@
         "chains": [
             "injective"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/ninjakits_",
+            "discord": "https://discord.com/invite/SDJvYUKHWV"
+        },
         "type": "DashBoard"
     },
     {
@@ -1924,7 +1943,11 @@
         "chains": [
             "injective"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/neptunefinance",
+            "twitter": "https://x.com/neptune_finance",
+            "discord": "https://discord.com/invite/xj6tpkdk7k"
+        },
         "type": "DeFi"
     },
     {
@@ -1941,7 +1964,10 @@
             "optimism",
             "polygon"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/mountainprotocol",
+            "twitter": "https://x.com/mountainusdm"
+        },
         "type": "DeFi"
     },
     {
@@ -1953,7 +1979,11 @@
         "chains": [
             "gno-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/gnolang/gno",
+            "twitter": "https://x.com/_gnoland",
+            "discord": "https://discord.com/invite/S8nKUqwkPn"
+        },
         "type": "Faucet"
     },
     {
@@ -1965,7 +1995,10 @@
         "chains": [
             "gno-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/gnoscan",
+            "discord": "https://discord.com/invite/Bhgkr7hMEz"
+        },
         "type": "DashBoard"
     },
     {
@@ -1974,18 +2007,6 @@
         "description": "Gno Playground is a simple web interface that lets you write, test, and experiment with your Gno code to improve your understanding of the Gno language.",
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/playground.png",
         "link": "https://play.gno.land/",
-        "chains": [
-            "gno-testnet"
-        ],
-        "socials": {},
-        "type": "DashBoard"
-    },
-    {
-        "id": 116,
-        "name": "Gno Studio Connect",
-        "description": "Gno Studio Connect provides seamless access to realms, making it simple to explore, interact, and engage with gno.land’s smart contracts through function calls. Connect focuses on function calls, enabling users to interact with any realm’s exposed function(s) on gno.land.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/gno_studio.png",
-        "link": "https://gno.studio/connect",
         "chains": [
             "gno-testnet"
         ],
@@ -2005,7 +2026,13 @@
             "ethereum",
             "optimism"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/VenusProtocol/",
+            "telegram": "https://t.me/venusprotocol",
+            "twitter": "https://x.com/VenusProtocol",
+            "discord": "https://discord.com/invite/venus-protocol-912811548651708448",
+            "reddit": "https://www.reddit.com/r/venusprotocol/"
+        },
         "type": "DeFi"
     },
     {
@@ -2022,7 +2049,13 @@
             "monad-testnet",
             "polygon"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/pancakeswap/",
+            "telegram": "https://t.me/pancakeswap",
+            "twitter": "https://x.com/pancakeswap",
+            "discord": "https://discord.com/invite/pancakeswap",
+            "reddit": "https://www.reddit.com/r/pancakeswap/"
+        },
         "type": "DEX"
     },
     {
@@ -2040,7 +2073,12 @@
             "optimism",
             "polygon"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/ape_bond",
+            "twitter": "https://x.com/ApeBond",
+            "discord": "https://discord.com/invite/g3A5T6VSFr",
+            "reddit": "https://www.reddit.com/r/Apeswap/new/"
+        },
         "type": "DEX"
     },
     {
@@ -2053,7 +2091,12 @@
             "bnb-smart-chain",
             "arbitrum"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/USDFI",
+            "telegram": "https://t.me/USDFI",
+            "twitter": "https://x.com/stable_usdfi",
+            "discord": "https://discord.com/invite/MjvpF8UwB4"
+        },
         "type": "DeFi"
     },
     {
@@ -2065,7 +2108,10 @@
         "chains": [
             "monad-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/monad_xyz",
+            "discord": "https://discord.com/invite/monad"
+        },
         "type": "Faucet"
     },
     {
@@ -2077,7 +2123,9 @@
         "chains": [
             "monad-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/zeroxrevick"
+        },
         "type": "DashBoard"
     },
     {
@@ -2089,7 +2137,11 @@
         "chains": [
             "monad-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/AetherForge-Labs",
+            "twitter": "https://x.com/AmertisExchange",
+            "discord": "https://discord.com/invite/AEwRjGT3T8"
+        },
         "type": "DeFi"
     },
     {
@@ -2113,7 +2165,11 @@
         "chains": [
             "monad-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/azaarannouncements",
+            "twitter": "https://x.com/AzaarExchange",
+            "discord": "https://discord.com/invite/UagdwttWjJ"
+        },
         "type": "DeFi"
     },
     {
@@ -2125,7 +2181,11 @@
         "chains": [
             "xrplevm-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/xrplevm",
+            "twitter": "https://x.com/RippleXDev",
+            "discord": "https://discord.com/invite/xrplevm"
+        },
         "type": "Faucet"
     },
     {
@@ -2137,7 +2197,11 @@
         "chains": [
             "xrplevm-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/strobe-protocol",
+            "twitter": "https://x.com/StrobeFinance",
+            "discord": "https://discord.com/invite/YKXH5n7n5u"
+        },
         "type": "DeFi"
     },
     {
@@ -2149,7 +2213,11 @@
         "chains": [
             "xrplevm-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/MoaiFinance",
+            "discord": "https://discord.com/invite/PSrF5z34dV"
+        },
+        "typ
         "type": "DeFi"
     },
     {
@@ -2161,7 +2229,9 @@
         "chains": [
             "xrplevm-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/HammySwap"
+        },
         "type": "DeFi"
     },
     {
@@ -2173,7 +2243,9 @@
         "chains": [
             "xrplevm-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/palmera_support"
+        },
         "type": "DashBoard"
     },
     {
@@ -2185,7 +2257,11 @@
         "chains": [
             "xrplevm-testnet"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/znsconnect",
+            "twitter": "https://x.com/ZNSConnect",
+            "discord": "https://discord.com/invite/skbA5Ucmmc"
+        },
         "type": "DashBoard"
     },
     {
@@ -2197,7 +2273,10 @@
         "chains": [
             "berachain"
         ],
-        "socials": {},
+        "socials": {
+            "twitter": "https://x.com/KodiakFi",
+            "discord": "https://discord.com/invite/kodiak"
+        },
         "type": "DeFi"
     },
     {
@@ -2209,7 +2288,11 @@
         "chains": [
             "berachain"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/BeraPaw",
+            "twitter": "https://x.com/0xBeraPaw",
+            "discord": "https://discord.com/invite/berapaw"
+        },
         "type": "DeFi"
     },
     {
@@ -2221,7 +2304,11 @@
         "chains": [
             "berachain"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/beralabs",
+            "twitter": "https://x.com/beradrome",
+            "discord": "https://discord.com/invite/qsjEDvz5yd"
+        },
         "type": "DeFi"
     },
     {
