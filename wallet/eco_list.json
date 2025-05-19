@@ -2337,5 +2337,118 @@
         ],
         "socials": {},
         "type": "Liquid staking"
+    },
+    {
+        "id": 137,
+        "name": "Bebop",
+        "description": "Bebop is a decentralized trading platform that enables efficient and slippage-free token swaps across multiple assets, powered by smart order routing.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/bebop.png",
+        "link": "https://bebop.xyz/trade",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "monad-testnet",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "twitter": "https://x.com/bebop_dex",
+            "discord": "https://discord.com/invite/bebop"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 138,
+        "name": "castora",
+        "description": "Castora is a DeFi platform that offers native yield-bearing stablecoin pools with automated strategies, enabling users to earn passive income with minimal risk.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/castora.png",
+        "link": "https://castora.xyz/pools",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/castora_xyz",
+            "discord": "https://discord.com/invite/wmHceHvNBD"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 139,
+        "name": "Crystal",
+        "description": "Crystal Exchange is a decentralized swapping platform that allows users to trade tokens across supported chains with low fees and fast execution.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/crystal.png",
+        "link": "https://app.crystal.exchange/swap",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/CrystalExch",
+            "discord": "https://discord.com/invite/CrystalExch"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 140,
+        "name": "Dusted",
+        "description": "Dusted is a portfolio cleanup tool that helps users convert small, illiquid token balances into a preferred asset, streamlining wallet management.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dusted.png",
+        "link": "https://www.dusted.app/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/dusted_app",
+            "discord": "https://discord.com/invite/dusted"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 141,
+        "name": "Shmonad",
+        "description": "Shmonad is an experimental on-chain game built on Berachain, combining strategy and community-driven gameplay through smart contracts.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/shmonad.png",
+        "link": "https://shmonad.xyz/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/FastLane-Labs",
+            "twitter": "https://x.com/0xFastlane",
+            "discord": "https://discord.com/invite/m8XsaY4jZh"
+        },
+        "type": "Liquid staking"
+    },
+    {
+        "id": 142,
+        "name": "Fukunad",
+        "description": "Fukunad is a gamified DeFi platform on the Monad testnet, offering users the opportunity to earn yield through fair and transparent raffle pools.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/fukunad.png",
+        "link": "https://testnet.fukunad.xyz/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/Fuku_nad",
+            "discord": "https://discord.com/invite/sXWz9mswWs"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 143,
+        "name": "Kintsu",
+        "description": "Kintsu is a next-generation liquid staking protocol built on the Monad blockchain, enabling users to stake MON tokens and receive sMON, a liquid staking token that accrues yield over time. This approach allows users to maintain liquidity and participate in DeFi activities while earning staking rewards. Kintsu's design emphasizes composability and capital efficiency within the Monad ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kintsu.png",
+        "link": "https://kintsu.xyz/staking",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/kintsu_xyz",
+            "discord": "https://discord.com/invite/kintsu"
+        },
+        "type": "Liquid staking"
     }
 ]
