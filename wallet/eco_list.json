@@ -1312,7 +1312,12 @@
         "chains": [
             "kaia"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/kaiachain_en",
+            "twitter": "https://x.com/kaiachain",
+            "discord": "https://discord.com/invite/kaiachain",
+            "reddit": "https://www.reddit.com/r/kaiachain/"
+        },
         "type": "DashBoard"
     },
     {
@@ -1324,7 +1329,10 @@
         "chains": [
             "kaia"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/CapybaraDEX",
+            "twitter": "https://x.com/CapybaraDEX"
+        },
         "type": "DEX"
     },
     {
@@ -1337,7 +1345,11 @@
             "kaia",
             "berachain"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/bug4city/lair-lsd",
+            "twitter": "https://x.com/LairFinance",
+            "discord": "https://discord.com/invite/lairfinance"
+        },
         "type": "Liquid staking"
     },
     {
@@ -1349,7 +1361,10 @@
         "chains": [
             "kaia"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/kaiafun",
+            "twitter": "https://x.com/kaiafunio"
+        },
         "type": "NFT"
     },
     {
@@ -1361,7 +1376,12 @@
         "chains": [
             "kaia"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/KaiaChain_EN",
+            "twitter": "https://x.com/KaiaChain",
+            "discord": "https://discord.com/invite/2WKdP9a8HP",
+            "reddit": "https://www.reddit.com/r/kaiachain/?rdt=60122"
+        },
         "type": "DashBoard"
     },
     {
@@ -1373,7 +1393,12 @@
         "chains": [
             "kava"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://telegram.me/dexscreenerchat",
+            "twitter": "https://x.com/dexscreener",
+            "discord": "https://discord.com/invite/XNgMb5tQN7",
+            "reddit": "https://www.reddit.com/r/dexscreener/"
+        },
         "type": "DEX"
     },
     {
@@ -1385,7 +1410,10 @@
         "chains": [
             "kava"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/hovermarket",
+            "twitter": "https://x.com/hover_market"
+        },
         "type": "DeFi"
     },
     {
@@ -1397,7 +1425,12 @@
         "chains": [
             "kava"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/kavalabs",
+            "twitter": "https://x.com/KAVA_CHAIN",
+            "discord": "https://discord.com/invite/q6QuanE4bx",
+            "reddit": "https://www.reddit.com/r/kava_platform/"
+        },
         "type": "DashBoard"
     },
     {
@@ -1409,7 +1442,11 @@
         "chains": [
             "mantra"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/MANTRA_Chain",
+            "twitter": "https://x.com/MANTRA_Chain",
+            "discord": "https://discord.com/invite/gfks4TwAJV"
+        },
         "type": "DashBoard"
     },
     {
@@ -1422,7 +1459,13 @@
             "persistence",
             "babylon"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/dexter-zone",
+            "telegram": "https://t.me/persistenceone",
+            "twitter": "https://x.com/PersistenceOne?utm_source=persistence_dex&utm_medium=persistence&utm_campaign=persistence",
+            "discord": "https://discord.com/invite/vyvp3scWnH",
+            "reddit": "https://www.reddit.com/r/PersistenceOne/"
+        },
         "type": "DeFi"
     },
     {
@@ -1434,7 +1477,12 @@
         "chains": [
             "zeta"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/ZearnLabs",
+            "telegram": "https://t.me/zearn_protocol",
+            "twitter": "https://x.com/Zearn_Protocol",
+            "discord": "https://discord.com/invite/A7gXdUKfUv"
+        },
         "type": "DeFi"
     },
     {
@@ -1450,7 +1498,11 @@
             "polygon",
             "zeta"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/guildxyz/guild.xyz",
+            "twitter": "https://x.com/guildxyz",
+            "discord": "https://discord.com/invite/KUkghUdk2G"
+        },
         "type": "DashBoard"
     },
     {
@@ -1471,7 +1523,11 @@
             "polygon",
             "zeta"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/nfts2me",
+            "twitter": "https://x.com/nfts2me",
+            "discord": "https://discord.com/invite/Usmgxj2Msk"
+        },
         "type": "NFT"
     },
     {
@@ -1492,7 +1548,11 @@
             "polygon",
             "zeta"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/micro3official",
+            "twitter": "https://x.com/Micro3io",
+            "discord": "https://discord.com/invite/micro3"
+        },
         "type": "NFT"
     },
     {
@@ -1512,7 +1572,10 @@
             "polygon",
             "zeta"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/l2marathonupdates",
+            "twitter": "https://x.com/L2Marathon"
+        },
         "type": "NFT"
     },
     {
@@ -1529,7 +1592,12 @@
             "bnb-smart-chain",
             "polygon"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/ShidoGlobal",
+            "twitter": "https://x.com/ShidoGlobal",
+            "discord": "https://discord.com/invite/9zvD93q5dW",
+            "reddit": "https://www.reddit.com/r/Shido/"
+        },
         "type": "DeFi"
     },
     {
@@ -1553,7 +1621,11 @@
         "chains": [
             "shido"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/blockscout/blockscout",
+            "twitter": "https://x.com/blockscout",
+            "discord": "https://discord.com/invite/blockscout"
+        },
         "type": "DashBoard"
     },
     {
@@ -1565,7 +1637,12 @@
         "chains": [
             "shido"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/shido_tapgame_bot",
+            "twitter": "https://x.com/ShidoGlobal",
+            "discord": "https://discord.com/invite/9zvD93q5dW",
+            "reddit": "https://www.reddit.com/r/ShidoInuOfficial/"
+        },
         "type": "DashBoard"
     },
     {
@@ -1577,7 +1654,12 @@
         "chains": [
             "shido"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/MavNode",
+            "telegram": "https://t.me/MavNodez",
+            "twitter": "https://x.com/MavNode",
+            "discord": "https://discord.com/"
+        },
         "type": "DashBoard"
     },
     {
@@ -1585,7 +1667,7 @@
         "name": "Noble Express",
         "description": "Send USDC Anywhere",
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/nobleexpress.png",
-        "link": "https://wenmint.fun",
+        "link": "https://express.noble.xyz",
         "chains": [
             "ethereum",
             "arbitrum",
@@ -1595,7 +1677,12 @@
             "kava",
             "optimism"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/noble-assets/noble",
+            "telegram": "https://t.me/+5mCog0PAWCRmOWYx",
+            "twitter": "https://x.com/noble_xyz",
+            "discord": "https://discord.com/invite/zuSU3GW8yp"
+        },
         "type": "DeFi"
     },
     {
@@ -1619,7 +1706,11 @@
         "chains": [
             "shido"
         ],
-        "socials": {},
+        "socials": {
+            "github": "https://github.com/MavNode/dexhub",
+            "telegram": "https://t.me/ShidoGlobal",
+            "twitter": "https://x.com/ShidoGlobal"
+        },
         "type": "Tools"
     },
     {
@@ -1631,7 +1722,10 @@
         "chains": [
             "ethereum"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/TheGemPad",
+            "twitter": "https://x.com/thegempad"
+        },
         "type": "DashBoard"
     },
     {
@@ -1655,7 +1749,10 @@
         "chains": [
             "shido"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/shido_kid",
+            "twitter": "https://x.com/shidokid"
+        },
         "type": "Tools"
     },
     {
@@ -1663,7 +1760,7 @@
         "name": "KenseiDAO",
         "description": "Decentralized governance for the Kensei ecosystem.",
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kenseidao.png",
-        "link": "https://shidokid.com",
+        "link": "https://dao.kenseishido.com",
         "chains": [
             "shido"
         ],
@@ -1691,7 +1788,11 @@
         "chains": [
             "injective"
         ],
-        "socials": {},
+        "socials": {
+            "telegram": "https://t.me/helixapp",
+            "twitter": "https://x.com/helixapp_",
+            "discord": "https://discord.com/invite/helixapp"
+        },
         "type": "DeFi"
     },
     {
