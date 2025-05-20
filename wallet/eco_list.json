@@ -2450,5 +2450,17 @@
             "discord": "https://discord.com/invite/kintsu"
         },
         "type": "Liquid staking"
+    },
+    {
+        "id": 144,
+        "name": "Neve",
+        "description": "Neve is a clean and simple lending and borrowing platform on Neutron. It is using the audited Smart Contracts of the Mars Protocol ensuring the highest security standard in Cosmos.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/neve.png",
+        "link": "https://neve-lend.com/",
+        "chains": [
+            "neutron"
+        ],
+        "socials": {},
+        "type": "DeFi"
     }
 ]
