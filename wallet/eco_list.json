@@ -2462,5 +2462,20 @@
         ],
         "socials": {},
         "type": "DeFi"
+    },
+    {
+        "id": 145,
+        "name": "Swirl",
+        "description": "Swirl is IOTA’s first liquid staking platform, allowing users to stake IOTA and receive stIOTA tokens. These tokens provide instant liquidity, enabling participation in DeFi activities like trading and lending without locking assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/swirl.png",
+        "link": "https://swirlstake.com/app/",
+        "chains": [
+            "iota"
+        ],
+        "socials": {
+            "twitter": "https://x.com/swirlstake",
+            "discord": "https://discord.com/invite/x3fFAUmbud"
+        },
+        "type": "DeFi"
     }
 ]
