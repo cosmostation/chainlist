@@ -1,2 +1,82 @@
 {
+    "chain_id_cosmos" : "sahara-test-1",
+    "chain_id_evm" : "0x4C7E1",
+    "chain_name": "Sahara Ai Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saharaai-testnet/resource/chain_saharaai-testnet.png",
+    "staking_asset_denom" : "usah",
+    "staking_asset_symbol" : "SAH",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saharaai-testnet/asset/sahara.png",
+    "bech_account_prefix" : "sah",
+    "bech_validator_prefix" : "sahvaloper",
+    "origin_genesis_time" : "2024-09-05T07:25:00Z",
+    "api_name": "saharaai-testnet",
+    "is_support_moblie_dapp": false,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : false,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "25000000000usah",
+            "40000000000usah",
+            "80000000000usah"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": false,
+        "simulated_gas_multiply" : 1.2
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Crouton Digital",
+            "url": "https://sahara-testnet-api.crouton.digital/"
+        },
+        {
+            "provider": "Moonlet",
+            "url": "https://sahara-api.testnet.moonlet.cloud/public/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Sahara Ai foundation",
+            "url": "hthttps://testnet.saharalabs.ai"
+        }
+    ],
+    "explorer" : {
+        "name": "Moonlet",
+        "url": "https://explorer.moonlet.cloud/sahara-testnet",
+        "account": "https://explorer.moonlet.cloud/sahara-testnet/account/${address}",
+        "tx": "https://explorer.moonlet.cloud/sahara-testnet/tx/${hash}",
+        "proposal": "https://explorer.moonlet.cloud/sahara-testnet/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://saharalabs.ai/",
+        "docs": "https://saharaai.gitbook.io/blockchain-developer-docs",
+        "github" : "https://github.com/SaharaLabsAI",
+        "blog" : "https://saharalabs.ai/blog",
+        "twitter" : "https://x.com/SaharaLabsAI",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Sahara AI는 누구나 AI 모델, 데이터셋, 애플리케이션을 만들고 공유하며 수익화할 수 있는 협업형 AI 플랫폼입니다.",
+        "en" : "Sahara AI is a collaborative platform where anyone can create, share, and monetize AI models, datasets, and applications.",
+        "ja" : "Sahara AIは、誰もがAIモデル、データセット、アプリケーションを作成・共有し、収益化できる協働型プラットフォームです。"
+    }
 }
