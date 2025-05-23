@@ -2477,5 +2477,17 @@
             "discord": "https://discord.com/invite/x3fFAUmbud"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 146,
+        "name": "Spaceward",
+        "description": "SUnlock the Potential of Warden Protocol.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/spaceward.png",
+        "link": "https://spaceward.chiado.wardenprotocol.org/",
+        "chains": [
+            "warden-testnet"
+        ],
+        "socials": {},
+        "type": "DashBoard"
     }
 ]
