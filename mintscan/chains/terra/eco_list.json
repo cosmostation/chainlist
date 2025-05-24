@@ -110,7 +110,7 @@
     "social": {
       "webSite": "https://solid.online/",
       "twitter": "https://x.com/solid_capa",
-      "docs": "https://www.capapult.finance/whitepaper-v2.pdf"
+      "docs": "https://solid.online/whitepaper-v2.pdf"
     }
   },
   {
@@ -125,6 +125,19 @@
       "twitter": "https://twitter.com/demexchange",
       "github": "https://github.com/Switcheo/carbon-js-sdk",
       "docs": "https://docs.dem.exchange/"
+    }
+  },
+  {
+    "name": "Boost DAO",
+    "type": "NFT",
+    "description": "Ignite is a permissionless OTC desk and launchpad for both tokens and NFTs",
+    "status": "open",
+    "thumbnail" : "ignite",
+    "link": "https://www.boostdao.io/ignite/permissionless-terra",
+    "social": {
+      "webSite": "https://www.boostdao.io/",
+      "twitter": "https://x.com/Boost_DAO",
+      "medium": "https://medium.com/@boost.dao/boost-dao-litepaper-82944a73bc80"
     }
   },
   {
@@ -183,9 +196,23 @@
     }
   },
   {
+    "name": "DAO DAO",
+    "type": "DeFi",
+    "description": "The home for Decentralized Autonomous Organizations for Terra/Cosmos, including PD and Lion Dao.",
+    "status": "open",
+    "thumbnail" : "daodao",
+    "link": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
+    "social": {
+      "webSite": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
+      "twitter": "https://x.com/DA0_DA0",
+      "github": "https://github.com/DA0-DA0",
+      "docs": "https://docs.daodao.zone/"
+    }
+  },
+  {
     "name": "Noble Express",
     "type": "Transport",
-    "description": "Alternative to Skip Go for native USDC transfers to Terra.",
+    "description": "Alternative to Skip Go for native USDC transfers in and out of Terra.",
     "status": "open",
     "thumbnail" : "noble-express",
     "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
