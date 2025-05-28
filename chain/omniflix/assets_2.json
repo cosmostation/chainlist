@@ -1,0 +1,209 @@
+[
+    {
+        "type": "native",
+        "denom": "uflix",
+        "name" : "OmniFlix Network",
+        "symbol": "FLIX",
+        "description": "OmniFlix Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/omniflix/asset/flix.png",
+        "coinGeckoId": "omniflix-network",
+        "color": "#6C63FF"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A8C2D23A1E6F95DA4E48BA349667E322BD7A6C996D8A4AAE8BA72E190F3D1477",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>omniflix",
+            "client" : {
+                "channel": "channel-12",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-306",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F951C98B3D08879376970DD39F74907896391810FD40AF9B2357A02E9E82BBA5",
+        "name" : "Juno",
+        "symbol": "JUNO",
+        "description": "Juno Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+        "coinGeckoId": "juno-network",
+        "ibc_info" : {
+            "path": "juno>omniflix",
+            "client" : {
+                "channel": "channel-20",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-78",
+                "port": "transfer",
+                "chain": "juno",
+                "denom": "ujuno"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EA7DF7F779C7F14E07172E5713E07356B55F01496CA649DDE46CF8FBF1A8466D",
+        "name" : "Ion DAO",
+        "symbol": "ION",
+        "description": "ION is the second native token of Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ion.png",
+        "coinGeckoId": "ion",
+        "ibc_info" : {
+            "path": "osmosis>omniflix",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-199",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uion"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>omniflix",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-199",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/CC12CFFD769D5E0059D98E760DD34FAB477261785B99240C97F6AABC4F566CB5",
+        "name" : "Chihuahua Chain",
+        "symbol": "HUAHUA",
+        "description": "Chihuahua Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/huahua.png",
+        "coinGeckoId": "chihuahua-token",
+        "ibc_info" : {
+            "path": "chihuahua>omniflix",
+            "client" : {
+                "channel": "channel-5",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-17",
+                "port": "transfer",
+                "chain": "chihuahua",
+                "denom": "uhuahua"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9F28238BDB687A86681B30764BA1437E079C3565D04FDD7862055A83F7E5C630",
+        "name" : "Chihuahuawifhat",
+        "symbol": "BADDOG",
+        "description": "has a hat",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "chihuahua>osmosis>omniflix",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-199",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "ibc/2FFE07C4B4EFC0DDA099A16C6AF3C9CCA653CC56077E87217A585D48794B0BC7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/43D3010F4CA111744AC8B68E460BC95E565C32928A267FA2B30609C04C10B274",
+        "name": "Inter Stable Token",
+        "symbol": "IST",
+        "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/agoric/asset/ist.png",
+        "color": "#d485e2",
+        "coinGeckoId": "inter-stable-token",
+        "ibc_info": {
+            "path": "agoric>omniflix",
+            "client": {
+                "channel": "channel-30",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-58",
+                "port": "transfer",
+                "chain": "agoric",
+                "denom": "uist"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6901B45BC2C5418ED8B3C3C9F9A641A3DAF2D234230AFA9DF32D8F9F9434721C",
+        "name": "Akash",
+        "symbol": "AKT",
+        "description": "Akash Token (AKT) is the Akash Network's native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
+        "color": "#bc342c",
+        "coinGeckoId": "akash-network",
+        "ibc_info": {
+            "path": "akash>omniflix",
+            "client": {
+                "channel": "channel-25",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-61",
+                "port": "transfer",
+                "chain": "akash",
+                "denom": "uakt"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata",
+        "name": "Yield GATA",
+        "symbol": "YGATA",
+        "description": "GATA Yield DAO Governance Token powered by OmniFlixHub",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.png",
+        "color": "#7b5aff"
+    }
+]

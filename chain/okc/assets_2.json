@@ -1,0 +1,112 @@
+[
+    {
+        "type": "native",
+        "denom": "okt",
+        "name" : "Okt",
+        "symbol": "OKT",
+        "description": "Okt Native Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/okt.png",
+        "coinGeckoId": "oec-token"
+    },
+    {
+        "type": "native",
+        "denom": "btck-ba9",
+        "name": "Okt",
+        "symbol": "BTCK",
+        "description": "Bitcoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/btck.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "dotk-4c0",
+        "name": "Okt",
+        "symbol": "DOTK",
+        "description": "Polkadot",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/dotk.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ethk-c63",
+        "name": "Okt",
+        "symbol": "ETHK",
+        "description": "Ethereum",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/ethk.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "filk-2ee",
+        "name": "Okt",
+        "symbol": "FILK",
+        "description": "Filecoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/filk.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ltck-5cb",
+        "name": "Okt",
+        "symbol": "LTCK",
+        "description": "Litecoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/ltck.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "okb-c4d",
+        "name": "Okt",
+        "symbol": "OKB",
+        "description": "OKB",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/okb.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "usdc-e6c",
+        "name": "Okt",
+        "symbol": "usdc",
+        "description": "USDCoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/usdc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "usdk-956",
+        "name": "Okt",
+        "symbol": "usdk",
+        "description": "USDK",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/usdk.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "usdt-a2b",
+        "name": "Okt",
+        "symbol": "USDT",
+        "description": "Tether USD",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/usdt.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "yfi-bb5",
+        "name": "Okt",
+        "symbol": "YFI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/okc/asset/yfi.png",
+        "coinGeckoId": ""
+    }
+]

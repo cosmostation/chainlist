@@ -1,0 +1,253 @@
+[
+  {
+    "name": "Eris Protocol",
+    "type": "DeFi",
+    "description": "The Terra Liquidity Alliance is a place where LP providers can earn LUNA rewards. Also mint ampLUNA here.",
+    "status": "open",
+    "thumbnail" : "eris-protocol",
+    "link": "https://www.erisprotocol.com/terra/liquidity-hub?tab=liquidity",
+    "social": {
+      "webSite": "https://www.erisprotocol.com/terra/amplifier/LUNA",
+      "twitter": "https://twitter.com/eris_protocol",
+      "medium": "https://medium.com/@eris_protocol",
+      "github": "https://github.com/erisprotocol",
+      "docs": "https://docs.erisprotocol.com/"
+    }
+  },
+  {
+    "name": "Astroport",
+    "type": "DeFi",
+    "description": "A neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+    "status": "open",
+    "thumbnail" : "astroport",
+    "link": "https://app.astroport.fi/swap?chain=terra&from=ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB&to=uluna",
+    "social": {
+      "webSite": "https://astroport.fi/en",
+      "twitter": "https://twitter.com/astroport_fi",
+      "medium": "https://astroport.medium.com/",
+      "github": "https://github.com/astroport-fi/",
+      "docs": "https://docs.astroport.fi/"
+    }
+  },
+  {
+    "name": "White Whale",
+    "type": "DeFi",
+    "description": "Hosts a native Terra DEX with a focus on interchain liquidity solutions.",
+    "status": "open",
+    "thumbnail" : "white-whale",
+    "link": "https://app.whitewhale.money/terra/swap?from=USDt&to=LUNA",
+    "social": {
+      "webSite": "https://www.whitewhale.money/",
+      "twitter": "https://twitter.com/WhiteWhaleDefi",
+      "medium": "https://medium.com/@whitewhaleterra",
+      "github": "https://github.com/White-Whale-Defi-Platform/",
+      "docs": "https://docs.migaloo.zone/"
+    }
+  },
+  {
+    "name": "Skip Go",
+    "type": "DeFi",
+    "description": "CCTP-enabled DEX aggregator for Terra/Cosmos. Now allows for IBC Eureka transfers!",
+    "status": "open",
+    "thumbnail" : "go-cosmos",
+    "link": "https://go.cosmos.network/",
+    "social": {
+      "webSite": "https://www.skip.build/",
+      "twitter": "https://x.com/SkipProtocol",
+      "github": "https://github.com/skip-mev",
+      "docs": "https://docs.skip.build/go"
+    }
+  },
+  {
+    "name": "Stargate Finance",
+    "type": "Transport",
+    "description": "Transfer USDT from anywhere to Kava EVM. Then use app.kava.io/transfer to Terra.",
+    "status": "open",
+    "thumbnail" : "stargate",
+    "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
+    "social": {
+      "webSite": "https://stargate.finance/",
+      "twitter": "https://x.com/StargateFinance",
+      "medium": "https://medium.com/stargate-official",
+      "github": "https://github.com/stargate-protocol",
+      "docs": "https://www.kava.io/news/how-to-bridge-usdt-with-stargate"
+    }
+  },
+  {
+    "name": "Kava to Terra",
+    "type": "Transport",
+    "description": "Use this app for 1-click IBC native USDT from Kava EVM to Terra and back.",
+    "status": "open",
+    "thumbnail" : "appkava",
+    "link": "https://app.kava.io/transfer",
+    "social": {
+      "webSite": "https://app.kava.io/transfer",
+      "twitter": "https://x.com/KAVA_CHAIN/status/1768320712660398268",
+      "docs": "https://help.app.kava.io/article/44-how-to-transfer-usdt-to-cosmos-chains-with-a-single-click"
+    }
+  },
+  {
+    "name": "Monerium",
+    "type": "Transport",
+    "description": "SEPA transfers to your monerium IBAN will mint EURe on your Noble address. Then IBC to Terra.",
+    "status": "open",
+    "thumbnail" : "monerium",
+    "link": "https://monerium.app/accounts",
+    "social": {
+      "webSite": "https://www.noble.xyz/eure",
+      "twitter": "https://x.com/monerium",
+      "github": "https://github.com/monerium/module-noble",
+      "docs": "https://monerium.dev/docs/welcome"
+    }
+  },
+  {
+    "name": "Capapult",
+    "type": "DeFi",
+    "description": "Here you can mint $SOLID, a decentralized overcollateralized stablecoin, governed through $CAPA holders.",
+    "status": "open",
+    "thumbnail" : "capapult",
+    "link": "https://app.solid.online/dashboard",
+    "social": {
+      "webSite": "https://solid.online/",
+      "twitter": "https://x.com/solid_capa",
+      "docs": "https://solid.online/whitepaper-v2.pdf"
+    }
+  },
+  {
+    "name": "Demex",
+    "type": "DeFi",
+    "description": "A multi-chain Perpetual DEX on Carbon. You can borrow/lend or perp trade LUNA here.",
+    "status": "open",
+    "thumbnail" : "demex",
+    "link": "https://app.dem.exchange/trade/LUNA-PERP",
+    "social": {
+      "webSite": "https://dem.exchange/",
+      "twitter": "https://twitter.com/demexchange",
+      "github": "https://github.com/Switcheo/carbon-js-sdk",
+      "docs": "https://docs.dem.exchange/"
+    }
+  },
+  {
+    "name": "Boost DAO",
+    "type": "NFT",
+    "description": "Ignite is a permissionless OTC desk and launchpad for both tokens and NFTs",
+    "status": "open",
+    "thumbnail" : "ignite",
+    "link": "https://www.boostdao.io/ignite/permissionless-terra",
+    "social": {
+      "webSite": "https://www.boostdao.io/",
+      "twitter": "https://x.com/Boost_DAO",
+      "medium": "https://medium.com/@boost.dao/boost-dao-litepaper-82944a73bc80"
+    }
+  },
+  {
+    "name": "Necropolis",
+    "type": "NFT",
+    "description": "A multi-chain NFT Marketplace and Launchpad, powered by BackBone Labs",
+    "status": "open",
+    "thumbnail" : "necropolis",
+    "link": "https://app.backbonelabs.io/nfts/necropolis/collections",
+    "social": {
+      "webSite": "https://www.backbonelabs.io/necropolis.html",
+      "twitter": "https://twitter.com/BackBone_Labs",
+      "medium": "https://backbonelabs.medium.com/"
+    }
+  },
+  {
+    "name": "Luna Gravedigger",
+    "type": "LSD",
+    "description": "A multi-chain liquid staking Hub. Mint/unstake bLUNA here.",
+    "status": "open",
+    "thumbnail" : "gravedigger",
+    "link": "https://app.backbonelabs.io/liquid-staking/gravedigger/phoenix-1",
+    "social": {
+      "webSite": "https://www.backbonelabs.io/gravedigger.html",
+      "twitter": "https://twitter.com/BackBone_Labs",
+      "medium": "https://backbonelabs.medium.com/"
+    }
+  },
+  {
+    "name": "Luna Stride",
+    "type": "LSD",
+    "description": "Liquid staking Hub for the Cosmos. Mint/unstake stLUNA here.",
+    "status": "open",
+    "thumbnail" : "stride",
+    "link": "https://app.stride.zone/?chain=LUNA",
+    "social": {
+      "webSite": "https://www.stride.zone/",
+      "twitter": "https://twitter.com/stride_zone",
+      "github": "https://github.com/Stride-Labs/stride",
+      "docs": "https://docs.stride.zone/"
+    }
+  },
+  {
+    "name": "TFM",
+    "type": "DeFi",
+    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's and much more ...",
+    "status": "open",
+    "thumbnail" : "tfm",
+    "link": "https://app.tfm.com/bridge?chainFrom=cosmoshub-4&chainTo=phoenix-1&token0=uatom",
+    "social": {
+      "webSite": "https://tfm.com/",
+      "twitter": "https://twitter.com/tfm_com",
+      "medium": "https://medium.com/@tfm.com",
+      "github": "https://github.com/tfm-com",
+      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
+    }
+  },
+  {
+    "name": "DAO DAO",
+    "type": "DeFi",
+    "description": "The home for Decentralized Autonomous Organizations for Terra/Cosmos, including PD and Lion Dao.",
+    "status": "open",
+    "thumbnail" : "daodao",
+    "link": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
+    "social": {
+      "webSite": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
+      "twitter": "https://x.com/DA0_DA0",
+      "github": "https://github.com/DA0-DA0",
+      "docs": "https://docs.daodao.zone/"
+    }
+  },
+  {
+    "name": "Noble Express",
+    "type": "Transport",
+    "description": "Alternative to Skip Go for native USDC transfers in and out of Terra.",
+    "status": "open",
+    "thumbnail" : "noble-express",
+    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
+    "social": {
+      "webSite": "https://express.noble.xyz/",
+      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
+      "github": "https://github.com/noble-assets",
+      "docs": "https://docs.noble.xyz/cctp"
+    }
+  },
+  {
+    "name": "Portal",
+    "type": "Transport",
+    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains.",
+    "status": "open",
+    "thumbnail" : "portal",
+    "link": "https://portalbridge.com/advanced-tools/#/transfer",
+    "social": {
+      "webSite": "https://wormhole.com/",
+      "twitter": "https://twitter.com/portalbridge_?lang=en",
+      "github": "https://github.com/wormhole-foundation/wormhole",
+      "docs": "https://wormhole.com/docs/"
+    }
+  },
+  {
+    "name": "Feather",
+    "type": "Dev Tools",
+    "description": "A developer toolkit that makes it easy and lightweight to create blockchains on Cosmos ecosystems, just like a bird's feather.",
+    "status": "prepare",
+    "thumbnail" : "feather",
+    "link": "https://featherjs.pages.dev/",
+    "social": {
+      "webSite": "https://www.terra.money/ecosystem/feather",
+      "github": "https://github.com/terra-money/feather.js",
+      "docs": "https://docs.terra.money/develop/feather-js/"
+    }
+  }
+]

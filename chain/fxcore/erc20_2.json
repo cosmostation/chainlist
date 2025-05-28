@@ -1,0 +1,34 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
+        "name" : "PURSE Token",
+        "symbol": "PURSE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
+        "coinGeckoId": "pundi-x-purse",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd567b3d7b8fe3c79a1ad8da978812cfc4fa05e75",
+        "name" : "Pundi X Token",
+        "symbol": "PUNDIX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pundix/asset/pundix.png",
+        "coinGeckoId": "pundi-x-2",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
+        "name" : "Tether USD",
+        "symbol": "USDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fxcore/asset/usdt.png",
+        "coinGeckoId": "tether"
+    }
+]

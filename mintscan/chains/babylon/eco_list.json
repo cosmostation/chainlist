@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Tower",
+        "type": "DEX",
+        "description": "TowerSwap is a decentralized exchange (DEX) built on Berachain, enabling users to swap tokens seamlessly and efficiently. It offers a streamlined interface and supports deep liquidity for fast, low-slippage trades.",
+        "status": "open",
+        "thumbnail" : "tower",
+        "link": "https://app.tower.fi/",
+        "social": {
+            "webSite": "https://www.tower.fi/",
+            "twitter": "https://x.com/tower",
+            "docs": "https://docs.tower.fi/"
+        }
+    },
+    {
+        "name": "Escher",
+        "type": "Liquid staking",
+        "description": "Escher Finance is a decentralized platform for liquid staking across multiple chains. It integrates with protocols like Babylon to enable secure, cross-chain staking. Users earn rewards through the ePoints system by participating in the ecosystem.",
+        "status": "open",
+        "thumbnail" : "escher",
+        "link": "https://app.escher.finance/",
+        "social": {
+            "docs": "https://docs.escher.finance/"
+        }
+    }
+]

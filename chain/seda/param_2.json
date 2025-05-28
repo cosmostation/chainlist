@@ -1,0 +1,81 @@
+{
+    "chain_id_cosmos": "seda-1",
+    "chain_name": "Seda",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/seda/resource/chain_seda.png",
+    "staking_asset_denom": "aseda",
+    "staking_asset_symbol": "SEDA",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/seda/asset/seda.png",
+    "bech_account_prefix": "seda",
+    "bech_validator_prefix": "sedavaloper",
+    "origin_genesis_time": "2024-04-24T16:00:00Z",
+    "api_name": "seda",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
+            "10000000000aseda"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "kjnodes",
+            "url": "seda.grpc.kjnodes.com:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "SEDA",
+            "url": "https://lcd.mainnet.seda.xyz/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://seda-api.polkachu.com/"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://seda.api.kjnodes.com/"
+        },
+        {
+            "provider": "Synergy Nodes",
+            "url": "https://seda-api.synergynodes.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://rest.lavenderfive.com:443/seda/"
+        }
+    ],
+    "explorer": {
+        "name": "sedaexplorer",
+        "url": "https://explorer.seda.xyz/",
+        "account": "https://explorer.seda.xyz/account/${address}",
+        "tx": "https://explorer.seda.xyz/txs/${hash}",
+        "proposal": ""
+    },
+    "about": {
+        "website": "https://www.seda.xyz/",
+        "docs": "https://docs.seda.xyz/home",
+        "github": "https://github.com/sedaprotocol/seda-chain",
+        "twitter": "https://x.com/sedaprotocol",
+        "coingecko" : "https://www.coingecko.com/en/coins/seda"
+    },
+    "description": {
+        "en": "SEDA is a decentralized oracle network that connects blockchains to external data, providing a programmable oracle infrastructure that allows permissionless distribution of application-specific oracle feeds across any network.",
+        "ko": "SEDA는 블록체인과 외부 데이터를 연결하는 탈중앙화 오라클 네트워크로, 모든 네트워크에서 애플리케이션별 오라클 피드를 무허가로 배포할 수 있는 프로그래머블 오라클 인프라를 제공합니다.",
+        "ja": "SEDAは、ブロックチェーンと外部データを結ぶ脱中央化されたOracleネットワークで、あらゆるネットワークでアプリケーション固有のOracleフィードを無許可で配布できるプログラマブルOracleインフラストラクチャを提供します。"
+    }
+}
+

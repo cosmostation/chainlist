@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Omies",
+        "type": "NFT",
+        "description": "8,888 OMies lookin' for new buddies",
+        "status": "open",
+        "thumbnail" : "onchainomies",
+        "link": "https://www.onchainomies.com/"
+    },
+    {
+        "name": "Mantra Zone",
+        "type": "Dashboard",
+        "description": "Bridge, Staking & Governance for Mantra",
+        "status": "open",
+        "thumbnail" : "mantra_zone",
+        "link": "https://mantra.zone/"
+    },    
+    {
+        "name": "AirDrop Checker",
+        "type": "AirDrop",
+        "description": "Check Your OM Airdrop",
+        "status": "open",
+        "thumbnail" : "airdrop",
+        "link": "https://checker.mantra.zone/"
+    },
+    {
+        "name": "Fluxtra",
+        "type": "LSD",
+        "description": "Liquid Staking on MANTRA chain with ftOM",
+        "status": "open",
+        "thumbnail" : "fluxtra",
+        "link": "https://fluxtra.xyz/"
+    }
+]

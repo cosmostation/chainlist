@@ -1,0 +1,173 @@
+[
+    {
+        "type": "native",
+        "denom": "uxion",
+        "name": "Xion",
+        "symbol": "XION",
+        "description": "Xion Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/asset/xion.png",
+        "coinGeckoId": "xion-2"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+        "name": "Noble USDC Token",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info": {
+            "path": "noble>xion",
+            "client": {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-113",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+        "name": "OSMO",
+        "symbol": "OSMO",
+        "description": "Osmosis from Osmosis Chain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info": {
+            "path": "osmosis>xion",
+            "client": {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-89321",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/056EA54C3D9B49B3C0418955A27980A91DD4F210914BFE240A1DB19E27895ECA",
+        "name": "KYVE",
+        "symbol": "KYVE",
+        "description": "The native utility token of the KYVE network.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kyve/asset/kyve.png",
+        "coinGeckoId": "kyve-network",
+        "ibc_info": {
+            "path": "kyve>xion",
+            "client": {
+                "channel": "channel-5",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-7",
+                "port": "transfer",
+                "chain": "kyve",
+                "denom": "ukyve"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+        "name": "Axelar Bridged USDC",
+        "symbol": "AXLUSDC",
+        "description": "IBC Axelar uusdc through axelar-dojo-1 transfer/channel-2",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info": {
+            "path": "axelar>xion",
+            "client": {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-161",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9463E39D230614B313B487836D13A392BD1731928713D4C8427A083627048DB3",
+        "name": "Axelar",
+        "symbol": "AXL",
+        "description": "Axelar Network Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
+        "coinGeckoId": "axelar",
+        "ibc_info": {
+            "path": "axelar>xion",
+            "client": {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-161",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uaxl"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/AAD7136DD626569C3DDE7C5F764968BB2E939875EFC568AE5712B62081850814",
+        "name": "Axelar Wrapped Ether",
+        "symbol": "axlWETH",
+        "description": "Arbitrum from Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arbitrum/asset/arb.png",
+        "coinGeckoId": "axlweth",
+        "ibc_info": {
+            "path": "axelar>xion",
+            "client": {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-161",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "weth-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DBE9697AC1044255A305A2034AD360B4152632BFBFB5785234731F60196B9645",
+        "name": "Elys Network",
+        "symbol": "ELYS",
+        "description": "The native token of Elys Network",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/elys/asset/elys.png",
+        "coinGeckoId": "elys-network",
+        "ibc_info": {
+            "path": "elys>xion",
+            "client": {
+                "channel": "channel-9",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "elys",
+                "denom": "uelys"
+            }
+        }
+    }
+]

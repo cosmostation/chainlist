@@ -1,0 +1,50 @@
+{
+    "chain_id" : "6364aad5",
+    "chain_name": "IOTA",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iota/resource/chain_iota.png",
+    "staking_asset_denom" : "0x2::iota::IOTA",
+    "staking_asset_symbol" : "IOTA",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iota/asset/iota.png",
+    "origin_genesis_time" : "2025-05-05T07:00:00Z",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "iota"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/4218'/0'/0'/X'",
+            "pubkey_style": "ed25519"
+        }
+    ],
+    "rpc_endpoint" : [
+        {
+            "provider": "Iota",
+            "url": "https://api.mainnet.iota.cafe"
+        }
+    ],
+    "explorer" : {
+        "name": "Iota",
+        "url": "https://explorer.iota.org/?network=mainnet",
+        "account": "https://explorer.iota.org/address/${address}?network=mainnet",
+        "tx": "https://explorer.iota.org/txblock/${hash}?network=mainnet",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://www.iota.org/",
+        "docs": "https://docs.iota.org/",
+        "github" : "https://github.com/iotaledger",
+        "blog" : "https://blog.iota.org/",
+        "medium": "https://medium.com/@iotafoundation",
+        "twitter" : "https://x.com/iota",
+        "discord" : "https://discord.iota.org/",
+        "linkedin": "https://www.linkedin.com/company/iotafoundation/",
+        "coingecko" : "https://www.coingecko.com/en/coins/iota"
+    },
+    "description" : {
+        "ko" : "IOTA는 L1에서는 Move, L2에서는 EVM 기반의 스마트 계약을 지원하는 분산 원장입니다. 디지털 자산 관리와 확장성 높은 dApp 개발에 최적화되어 있습니다. 합의는 DPoS 기반 Mysticeti 프로토콜을 통해 이루어집니다.",
+        "en" : "IOTA is a distributed ledger that supports both Move (Layer 1) and EVM (Layer 2) smart contracts. It is optimized for digital asset management and scalable, secure dApp development. Consensus is achieved through a delegated proof-of-stake (DPoS) system using the Mysticeti protocol.",
+        "ja" : "IOTAは、L1でMove、L2でEVMベースのスマートコントラクトをサポートする分散型台帳です。 デジタル資産管理とスケーラブルなdApp開発に最適化されています。 コンセンサスは、Mysticetiプロトコルを用いたDPoSメカニズムで達成されます。"
+    }
+}

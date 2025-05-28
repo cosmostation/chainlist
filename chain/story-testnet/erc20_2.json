@@ -1,0 +1,60 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x7F105A1EAF818f984d69dB3f4Cd6106ac187637f",
+        "name" : "Wand Leveraged IP (IPx)",
+        "symbol": "IPx",
+        "description": "Wand Leveraged IP (IPx)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5E6E0075B9600E74AA0214c6F3b98235922e750A",
+        "name" : "Wand USB (USB)",
+        "symbol": "USB",
+        "description": "Wand USB (USB)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x72fdB79a189C97D2b993A27dd4976Bb8847742B7",
+        "name" : "TestUsdt (TestUsdt)",
+        "symbol": "TestUsdt",
+        "description": "TestUsdt (TestUsdt)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x70Db6f70345221eE6FEBa2AA67b1c46afEB9abab",
+        "name" : "USDC (USDC)",
+        "symbol": "TestUSDC",
+        "description": "USDC (USDC)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd197549AC2d3BF84EEA8E14Fea938909C6274814",
+        "name" : "pTestUsdt (pTestUsdt)",
+        "symbol": "pTestUsdt",
+        "description": "pTestUsdt (pTestUsdt)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCADC3EA1c18c40159c8A4163E6892bF04B9D6f0a",
+        "name" : "VerioIP (vIP)",
+        "symbol": "vIP",
+        "description": "VerioIP (vIP)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    }
+]

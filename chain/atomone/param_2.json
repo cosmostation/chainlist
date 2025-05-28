@@ -1,0 +1,74 @@
+{
+    "chain_id_cosmos" : "atomone-1",
+    "chain_name": "ATOMONE",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/resource/chain_atomone.png",
+    "staking_asset_denom" : "uatone",
+    "staking_asset_symbol" : "ATONE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/asset/atone.png",
+    "bech_account_prefix" : "atone",
+    "bech_validator_prefix" : "atonevaloper",
+    "origin_genesis_time" : "2024-10-18T15:00:00Z",
+    "api_name" : "atomone",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "voting_threshold": 1000000,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.1uatone"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-atomone.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-atomone.cosmostation.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/atomone/",
+        "account": "https://www.mintscan.io/atomone/address/${address}",
+        "tx": "https://www.mintscan.io/atomone/tx/${hash}",
+        "proposal": "https://www.mintscan.io/atomone/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://atom.one/",
+        "github" : "https://github.com/atomone-hub",
+        "blog" : "",
+        "medium": "",
+        "twitter" : "https://x.com/_atomone",
+        "discord" : "https://discord.com/invite/atomone",
+        "reddit" : "https://www.reddit.com/r/AtomOneHub/",
+        "coingecko" : "https://www.coingecko.com/en/coins/atomone"
+    },
+    "forum": {
+        "main": "https://common.xyz/atomone/discussions?tab=all",
+        "governance": "https://gov.atom.one/"
+    },
+    "description" : {
+        "ko" : "AtomOne는 Gaia의 대안적인 최소 포크로, 다양한 하위 그룹의 대표성을 강화하고 Cosmos 생태계 내에서 정치적 기반 역할을 합니다. 협력과 경쟁을 통해 특화된 영역을 조성하며, 직접 민주주의에 영감을 받은 거버넌스 모델을 도입하고 있습니다.",
+        "en" : "AtomOne is a minimal alternative fork of Gaia, designed to enhance representation for diverse subgroups and act as a political base within the Cosmos ecosystem. It fosters cooperation and competition among specialized zones, promoting diverse perspectives and introducing a governance model inspired by direct democracy.",
+        "ja" : "AtomOneは、Gaiaの代替的なフォークであり、Cosmosエコシステム内で多様なサブグループの代表性を強化し、政治的基盤として機能します。協力と競争を促進し、直接民主主義に基づいたガバナンスモデルを導入しています。"
+    }
+}

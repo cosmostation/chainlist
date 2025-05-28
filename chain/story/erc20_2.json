@@ -1,0 +1,160 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+        "name" : "Stargate Bridged USDC Story",
+        "symbol": "USDCE",
+        "description": "Stargate Bridged USDC Story",
+        "decimals": 6,
+        "image": "https://assets.coingecko.com/coins/images/54377/small/usdc.png",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x02353a3BD5c9668159cF9Fd54AC61b03212FCf41",
+        "name" : "Sona (Sona)",
+        "symbol": "SONA",
+        "description": "Sona (Sona)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6E5847Ae61fA7D85E08f1c0B7678587dEfC63B70",
+        "name" : "PipeCoin (PIPE)",
+        "symbol": "PIPE",
+        "description": "PipeCoin (PIPE)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5a212776066b81e449fE74396cCe368Dc4b14043",
+        "name" : "WhatTheFreg (WTF)",
+        "symbol": "WTF",
+        "description": "WhatTheFreg (WTF)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5267F7eE069CEB3D8F1c760c215569b79d0685aD",
+        "name" : "VerioIP (vIP)",
+        "symbol": "vIP",
+        "description": "VerioIP (vIP)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xBAb93B7ad7fE8692A878B95a8e689423437cc500",
+        "name" : "WETH (WETH)",
+        "symbol": "WETH",
+        "description": "WETH (WETH)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6029271383FA08F3d416419284346C5948f87247",
+        "name" : "Ippy (IPPY)",
+        "symbol": "IPPY",
+        "description": "Ippy (IPPY)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1A925792D2dAbAdDc52FC929A2F1E3225Bcfa611",
+        "name" : "ZOO Token (ZOO)",
+        "symbol": "ZOO",
+        "description": "ZOO Token (ZOO)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc732227dfF21E35f01089961fb4f191c8ACd85bC",
+        "name" : "Lil Benji (LILBENJI)",
+        "symbol": "LILBENJI",
+        "description": "Lil Benji (LILBENJI)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1514000000000000000000000000000000000000",
+        "name" : "Wrapped IP (WIP)",
+        "symbol": "WIP",
+        "description": "Wrapped IP (WIP)",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/54378/small/image.png",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4f040Fb0847d595BC48C00173132a64881b418fe",
+        "name" : "Unleash Story WIP (uStoryWIP)",
+        "symbol": "uStoryWIP",
+        "description": "Unleash Story WIP (uStoryWIP)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xFb43F133FCf988E49C53008Befe9Ab4E4Ae9DC89",
+        "name" : "WIPE (WP)",
+        "symbol": "WP",
+        "description": "WIPE (WP)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+        "name" : "Bridged stgUSDT (USDT)",
+        "symbol": "USDT",
+        "description": "Bridged stgUSDT (USDT)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa9651875651Ff7F303605C23EF5c20C8f7BE8266",
+        "name" : "Unleash Story USDC (uStoryUSDC)",
+        "symbol": "uStoryUSDC",
+        "description": "Unleash Story USDC (uStoryUSDC)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd07Faed671decf3C5A6cc038dAD97c8EFDb507c0",
+        "name" : "StakedIP Token (stIP)",
+        "symbol": "stIP",
+        "description": "StakedIP Token (stIP)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc1667cabb1D4A1cABDE4cfE13BCEa543244489de",
+        "name" : "Unleash Story vIP (uStoryvIP)",
+        "symbol": "uStoryvIP",
+        "description": "Unleash Story vIP (uStoryvIP)",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/story-testnet/asset/unknown.png"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa4f5c615f72DDeB2220471694ffF1c0c3dE051e1",
+        "name" : "LYRA (LYRA)",
+        "symbol": "LYRA",
+        "description": "LYRA (LYRA)",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/53984/small/WhatsApp_Image_2025-01-22_at_23.29.41.jpeg"
+    }
+]

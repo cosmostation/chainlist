@@ -1,0 +1,110 @@
+{
+    "chain_id_cosmos" : "chihuahua-1",
+    "chain_name": "Chihuahua",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/resource/chain_chihuahua.png",
+    "staking_asset_denom" : "uhuahua",
+    "staking_asset_symbol" : "HUAHUA",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/huahua.png",
+    "bech_account_prefix" : "chihuahua",
+    "bech_validator_prefix" : "chihuahuavaloper",
+    "origin_genesis_time" : "2021-12-14T12:14:12Z",
+    "api_name" : "chihuahua",
+    "is_support_cw20" : true,
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "500uhuahua",
+            "1250uhuahua"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-chihuahua.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-chihuahua-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "chihuahua-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Validatus",
+            "url": "grpc.chihuahua.validatus.com:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "chihuahua-grpc.chainroot.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-chihuahua.cosmostation.io/"
+        },
+        {
+            "provider": "Chihuahua",
+            "url": "https://api.chihuahua.wtf/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-chihuahua.ecostake.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://chihua.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://chihuahua-api.polkachu.com/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://chihuahua-api.chainroot.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/chihuahua/",
+        "account": "https://www.mintscan.io/chihuahua/address/${address}",
+        "tx": "https://www.mintscan.io/chihuahua/tx/${hash}",
+        "proposal": "https://www.mintscan.io/chihuahua/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://chi.huahua.wtf/",
+        "docs": "https://github.com/ChihuahuaChain/mainnet",
+        "github" : "https://github.com/chihuahuachain",
+        "blog" : "https://chihuahuachain.medium.com/",
+        "medium": "https://chihuahuachain.medium.com",
+        "twitter" : "https://twitter.com/ChihuahuaChain",
+        "coingecko" : "https://www.coingecko.com/en/coins/chihuahua-chain"
+    },
+    "forum": {
+        "main": "https://commonwealth.im/chihuahua",
+        "governance": "https://commonwealth.im/chihuahua/discussions/4.%20Governance"
+    },
+    "description" : {
+        "ko" : "코스모스 생태계 최초의 밈 코인입니다.",
+        "en" : "The first meme coin on Cosmos ecosystem.",
+        "ja" : "Cosmosエコシステム上の最初のミームコイン。"
+    }
+}

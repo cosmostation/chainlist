@@ -1,0 +1,57 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
+        "name" : "USDC Token",
+        "symbol": "USDC",
+        "description": "USD Coin (USDC) on Monad Testnet",
+        "decimals": 6,
+        "image": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x88b8E2161DEDC77EF4ab7585569D2415a1C1055D",
+        "name" : "Tether USD",
+        "symbol": "USDT",
+        "description": "Tether USD (USDT) on Monad Testnet",
+        "decimals": 6,
+        "image": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "erc20",
+        "contract": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d",
+        "name" : "WBTC Token",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin (WBTC) on Monad Testnet",
+        "decimals": 8,
+        "image": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/wbtc.png/public",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37",
+        "name" : "WETH Token",
+        "symbol": "WETH",
+        "description": "Wrapped Ether (WETH) on Monad Testnet",
+        "decimals": 18,
+        "image": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5387C85A4965769f6B0Df430638a1388493486F1",
+        "name" : "Wrapped SOL",
+        "symbol": "WSOL",
+        "description": "Wrapped Solana (WSOL) on Monad Testnet",
+        "decimals": 9,
+        "image": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    }
+]

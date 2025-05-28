@@ -1,0 +1,28 @@
+[
+   {
+      "type":"cw20",
+      "contract":"mantra1vguuxez2h5ekltfj9gjd62fs5k4rl2zy5hfrncasykzw08rezpfsjx4gjx",
+      "name":"APCA",
+      "symbol":"APCA",
+      "description":"Libre SAF VCC - Access Private Credit Feeder A",
+      "decimals":18,
+      "image":"https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/Libre.png",
+      "coinGeckoId":"",
+      "rwaInfo": [
+          {
+              "type": "rwa.xyz",
+              "url" : "https://app.rwa.xyz/assets/APCA"
+          }
+      ]
+   },
+   {
+      "type":"cw20",
+      "contract":"mantra1jqy453tqmd8l7xtxz5cxfaw8rms7u8lsjtdd3u7hlm4gzjfy54usuunnmk",
+      "name":"Fluxtra Staked OM",
+      "symbol":"ftOM",
+      "description":"ftOM is a CW-20 value-accruing token wrapper for OM token that is staked in validators",
+      "decimals":6,
+      "image":"https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/ftOM.png",
+      "coinGeckoId":""
+   }
+]

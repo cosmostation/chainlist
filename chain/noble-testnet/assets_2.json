@@ -1,0 +1,62 @@
+[
+    {
+        "type": "native",
+        "denom": "ustake",
+        "name": "Stake Testnet",
+        "symbol": "NOBLE",
+        "description": "Noble Testnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/stake.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "uusdc",
+        "name" : "Circle USD Coin Testnet",
+        "symbol": "USDC",
+        "description": "Noble Testnet Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ausdy",
+        "name": "Ondo US Dollar Yield Testnet",
+        "symbol": "USDY",
+        "description": "Noble Testnet Native Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdy.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "uusyc",
+        "name": "Hashnote US Yield Coin Testnet",
+        "symbol": "USYC",
+        "description": "Noble Testnet Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usyc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ueure",
+        "name": "Monerium EUR emoney Testnet",
+        "symbol": "EURe",
+        "description": "Noble Testnet Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/eure.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "uusdn",
+        "name": "Noble Dollar Testnet",
+        "symbol": "USDN",
+        "description": "Noble Testnet Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdn.png",
+        "coinGeckoId": ""
+    }
+]

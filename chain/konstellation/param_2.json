@@ -1,0 +1,30 @@
+{
+    "chain_name": "Konstellation",
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.0001udarc",
+            "0.001udarc",
+            "0.01udarc"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        
+    ],
+    "about" : {
+        "website" : "",
+        "blog" : "",
+        "github" : "",
+        "twitter" : "",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

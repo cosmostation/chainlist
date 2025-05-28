@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Noble Express",
+		"type": "Bridge",
+		"description": "Send USDC Anywhere",
+		"status": "open",
+		"thumbnail" : "noble_express",
+		"link": "https://express.noble.xyz/"
+	},
+	{
+		"name": "Noble Dollar",
+		"type": "Swap",
+		"description": "The dollar that pays you",
+		"status": "open",
+		"thumbnail" : "noble_dollar",
+		"link": "https://dollar.noble.xyz/"
+	},
+	{
+		"name": "Noble Points",
+		"type": "",
+		"description": "",
+		"status": "open",
+		"thumbnail" : "noble_points",
+		"link": "https://points.noble.xyz/"
+	}
+]

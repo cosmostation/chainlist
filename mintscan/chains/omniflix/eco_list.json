@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Omniflix Market",
+    "type": "NFT",
+    "description": "OmniFlix NFT Market.",
+    "status": "open",
+    "thumbnail" : "market",
+    "link": "https://omniflix.market/",
+    "social": {
+      "webSite": "https://omniflix.market/",
+      "twitter": "https://twitter.com/OmniFlixNetwork",
+      "github": "https://github.com/OmniFlix"
+    }
+  },
+  {
+    "name": "Omniflix Flix",
+    "type": "System",
+    "description": "Omniflix Governance Platform",
+    "status": "open",
+    "thumbnail" : "flix",
+    "link": "https://flix.omniflix.co/",
+    "social": {
+      "webSite": "https://omniflix.market/home",
+      "twitter": "https://twitter.com/OmniFlixNetwork",
+      "github": "https://github.com/OmniFlix"
+    }
+  }
+]

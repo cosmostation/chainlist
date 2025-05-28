@@ -1,0 +1,86 @@
+{
+    "chain_id_cosmos" : "passage-2",
+    "chain_name": "Passage",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/passage/resource/chain_passage.png",
+    "staking_asset_denom" : "upasg",
+    "staking_asset_symbol" : "PASG",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/passage/asset/pasg.png",
+    "bech_account_prefix" : "pasg",
+    "bech_validator_prefix" : "pasgvaloper",
+    "origin_genesis_time" : "2022-08-17T15:00:00Z",
+    "api_name" : "passage",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "12.5upasg"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "StakerHouse",
+            "url": "passage-grpc.stakerhouse.com:443"
+        },
+        {
+            "provider": "silent",
+            "url": "grpc.passage.silentvalidator.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "passage-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Staketab",
+            "url": "https://passage-rest.staketab.org/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-passage.ecostake.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://passage-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-passage.cosmos-spaces.cloud/"
+        }
+    ],
+    "explorer" : {
+        "name": "Zenscan",
+        "url": "https://passage.zenscan.io/",
+        "account": "https://passage.zenscan.io/address.php?address=${address}",
+        "tx": "https://passage.zenscan.io/transaction.php?hash=${hash}",
+        "proposal": "https://passage.zenscan.io/proposal.php?id=${id}"
+    },
+    "about" : {
+        "website" : "https://www.passage.io/",
+        "blog" : "https://www.passage.io/blog",
+        "github" : "https://github.com/envadiv/Passage3D",
+        "twitter" : "https://twitter.com/passageio",
+        "discord" : "https://discord.com/invite/passage",
+        "coingecko" : "https://www.coingecko.com/en/coins/passage"
+    },
+    "description" : {
+        "ko" : "언리얼엔진5, Akash 그리고 IBC 기술을 활용하여 가상현실 및 메타버스를 구현하는 Cosmos SDK 기반 블록체인 프로토콜.",
+        "en" : "Passage is building a virtual 3D world/metaverse that is mainly powered by Unreal Engine 5, Akash and IBC.",
+        "ja" : "アンリアルエンジン5、Akashそして、IBC技術を活用して仮想現実及びメタバースを具現するCosmosSDKベースブロックチェーンプロトコル。"
+    }
+}

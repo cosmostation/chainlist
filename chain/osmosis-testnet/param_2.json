@@ -1,0 +1,66 @@
+{
+    "chain_id_cosmos" : "osmo-test-5",
+    "chain_name": "Osmosis Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis-testnet/resource/chain_osmosis-testnet.png",
+    "staking_asset_denom" : "uosmo",
+    "staking_asset_symbol" : "OSMO",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis-testnet/asset/osmo.png",
+    "bech_account_prefix" : "osmo",
+    "bech_validator_prefix" : "osmovaloper",
+    "api_name" : "osmosis-testnet",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.0025uosmo",
+            "0.025uosmo"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/osmosis-testnet/"
+        },
+        {
+            "provider": "Osmosis",
+            "url": "https://lcd.testnet.osmosis.zone/"
+        }
+    ],
+    "about" : {
+        "website" : "https://osmosis.zone/",
+        "docs": "https://docs.osmosis.zone",
+        "github" : "https://github.com/osmosis-labs",
+        "medium": "https://medium.com/@Osmosis",
+        "twitter" : "https://twitter.com/osmosiszone",
+        "coingecko" : ""
+    },
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/osmosis-testnet/",
+        "account": "https://www.mintscan.io/osmosis-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/osmosis-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/osmosis-testnet/proposals/${id}"
+    },
+    "forum": {
+        "main": "https://gov.osmosis.zone",
+        "governance": "https://gov.osmosis.zone/proposals"
+    },
+    "description" : {
+        "ko" : "Cosmos SDK와 코스모스 인터블록체인 커뮤니케이션(IBC) 프로토콜을 이용하여 다수의 다른 블록체인 네트워크 유저들에게 유동성을 제공해주는 인터체인 AMM.",
+        "en" : "The interchain AMM powered by the Cosmos Inter-Blockchain Communication protocol, enabling sovereign blockchain networks to access a vast pool of liquidity.",
+        "ja" : "CosmosSDKとコスモスインターブロックチェーンコミュニケーション(IBC)プロトコルを利用して、多数の違うブロックチェーンネットワークユーザーたちに流動性を提供するインターチェーンAMM。"
+    }
+}

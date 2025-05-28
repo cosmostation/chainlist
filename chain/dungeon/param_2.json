@@ -1,0 +1,59 @@
+{
+    "chain_id_cosmos": "dungeon-1",
+    "chain_name": "Dungeon Chain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dungeon/resource/chain_dungeon.png",
+    "staking_asset_denom": "udgn",
+    "staking_asset_symbol": "DGN",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dungeon/asset/dgn.png",
+    "bech_account_prefix": "dungeon",
+    "bech_validator_prefix": "dungeonvaloper",
+    "origin_genesis_time": "2024-10-01T00:00:00Z",
+    "api_name": "dungeon",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
+            "0.005udgn",
+            "0.025udgn"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000
+    },
+    "grpc_endpoint": [
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "Quasar",
+            "url": "https://dungeon-wallet.api.quasarstaking.ai"
+        },
+        {
+            "provider": "Seraphim",
+            "url": "https://api-dungeon-1.seraphim.zone"
+        }
+    ],
+    "explorer": {
+    },
+    "about": {
+        "website": "https://www.cryptodungeon.org/",
+        "github": "https://github.com/CryptoDungeon/",
+        "twitter": "https://x.com/cryptodungeonma"
+    },
+    "description": {
+        "en": "Dungeon Chain is a Cosmos-based blockchain focused on gamified digital assets and decentralized finance (DeFi).",
+        "ko": "Dungeon 체인은 게임 자산과 탈중앙화 금융에 중점을 둔 Cosmos 기반 블록체인입니다.",
+        "ja": "Dungeon Chainは、ゲーム化されたデジタル資産と分散型金融（DeFi）に焦点を当てた、Cosmosベースのブロックチェーンです。"
+    }
+}
+

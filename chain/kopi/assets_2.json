@@ -1,0 +1,201 @@
+[
+    {
+        "type": "native",
+        "denom": "ukopi",
+        "name" : "XKP",
+        "symbol": "XKP",
+        "description": "The native token of kopi.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kopi/asset/xkp.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ukusd",
+        "name" : "kUSD",
+        "symbol": "kUSD",
+        "description": "A Stablecoin native to the Kopi blockchain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kopi/asset/kusd.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ucusdc",
+        "name" : "cUSDC",
+        "symbol": "cUSDC",
+        "description": "A MM deposit receipt of the Stablecoin USDC from noble Chain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kopi/asset/ckusd.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "ucusdtinj",
+        "name" : "cUSDT.inj",
+        "symbol": "cUSDT.inj",
+        "description": "A MM deposit receipt of the Stablecoin USDT from Injective Chain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kopi/asset/cusdt.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "uasusdtinj",
+        "name" : "asUSDT.inj",
+        "symbol": "asUSDT.inj",
+        "description": "arbitrage receipt token of cUSDT.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kopi/asset/asusdt.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "uasusdc",
+        "name" : "asUSDC",
+        "symbol": "asUSDC",
+        "description": "arbitrage receipt token of cUSDC.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kopi/asset/asusdc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USDC from Noble Chain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>kopi",
+            "client" : {
+                "channel": "channel-9",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-122",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D8A36AE90F20FE4843A8D249B1BCF0CCDDE35C4B605C8DED57BED20C639162D0",
+        "name": "USDT.inj",
+        "symbol": "USDT.inj",
+        "description": "USDT from injective Chain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "ibc_info": {
+            "path": "injective>kopi",
+            "client": {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-376",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
+        "name": "Injective",
+        "symbol": "INJ",
+        "description": "Injective Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+        "coinGeckoId": "injective-protocol",
+        "ibc_info": {
+            "path": "injective>kopi",
+            "client": {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-376",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "inj"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986",
+        "name" : "Luna",
+        "symbol": "LUNA",
+        "description": "The native staking token of Terra Phoenix.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
+        "coinGeckoId": "terra-luna-2",
+        "color": "#1E75EE",
+        "ibc_info": {
+            "path": "terra>kopi",
+            "client": {
+                "channel": "channel-5",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-586",
+                "port": "transfer",
+                "chain": "terra",
+                "denom": "uluna"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/376222D6D9DAE23092E29740E56B758580935A6D77C24C2ABD57A6A78A1F3955",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>kopi",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-97998",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>kopi",
+            "client" : {
+                "channel": "channel-7",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1253",
+                "port": "transfer",
+                "chain": "kopi",
+                "denom": "uatom"
+            }
+        }
+    }
+]

@@ -1,0 +1,428 @@
+[
+    {
+        "type": "native",
+        "denom": "uumee",
+        "name" : "UX Chain",
+        "symbol": "UMEE",
+        "description": "Umee Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/umee/asset/umee.png",
+        "coinGeckoId": "umee",
+        "color": "#BB90F8"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>umee",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-184",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F7E92EE59B5428793F3EF5C1A4CB2494F61A9D0C9A69469D02390714A1372E16",
+        "name" : "Ion DAO",
+        "symbol": "ION",
+        "description": "ION is the second native token of Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ion.png",
+        "coinGeckoId": "ion",
+        "ibc_info" : {
+            "path": "osmosis>umee",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-184",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uion"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>umee",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-288",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/04CE51E6E02243E565AE676DD60336E48D455F8AAD0611FA0299A22FDAC448D6",
+        "name" : "Wrapped Ether (Ethereum via Axelar)",
+        "symbol": "WETH.eth.axl",
+        "description": "Wrapped Ether on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "axlweth",
+        "ibc_info" : {
+            "path": "ethereum>axelar>umee",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "weth-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/153B97FE395140EAAA2D7CAC537AF1804AEC5F0595CBC5F1603094018D158C0C",
+        "name" : "Wrapped Bitcoin (Ethereum via Axelar)",
+        "symbol": "WBTC.eth.axl",
+        "description": "Wrapped Bitcoin on Axelar",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "axlwbtc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>umee",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "wbtc-satoshi"
+            }
+        }
+    },
+    
+    {
+        "type": "ibc",
+        "denom": "ibc/49788C29CD84E08D25CA7BE960BC1F61E88FEFC6333F58557D236D693398466A",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>umee",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6B49A789937D4E50BF01F0F50DDEDF5C1103EDF01306B7021BDF23BDE65D99BA",
+        "name" : "Stride OSMO",
+        "symbol": "stOSMO",
+        "description": "Stride Liquid Staked OSMO",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stosmo.png",
+        "coinGeckoId": "stride-staked-osmo",
+        "ibc_info" : {
+            "path": "stride>umee",
+            "client" : {
+                "channel": "channel-34",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-29",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8184469200C5E667794375F5B0EC3B9ABB6FF79082941BF5D0F8FF59FEBA862E",
+        "name" : "Wrapped BNB (BSC via Axelar)",
+        "symbol": "WBNB.axl",
+        "description": "Wrapped BNB on Axelar.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/wbnb.png",
+        "coinGeckoId": "binancecoin",
+        "ibc_info" : {
+            "path": "bnb-smart-chain>axelar>umee",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "wbnb-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/AB2652E28C9961D13CFF2EC5F53C7E2965C8D0CF37A33CC97D8EEF6212F315C8",
+        "name" : "Wrapped Polkadot (Moonbeam via Axelar)",
+        "symbol": "DOT.axl",
+        "description": "Wrapped Polkadot on Axelar",
+        "decimals": 10,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/moonbeam/asset/xcdot.png",
+        "coinGeckoId": "xcdot",
+        "ibc_info" : {
+            "path": "moonbeam>axelar>umee",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "moonbeam",
+                "denom": "dot-planck"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BA460328D9ABA27E643A924071FDB3836E4CE8084C6D2380F25EFAB85CF8EB11",
+        "name" : "Inter Stable Token",
+        "symbol": "IST",
+        "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/agoric/asset/ist.png",
+        "coinGeckoId": "inter-stable-token",
+        "ibc_info" : {
+            "path": "agoric>umee",
+            "client" : {
+                "channel": "channel-42",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "agoric",
+                "denom": "uist"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C86651B4D30C1739BF8B061E36F4473A0C9D60380B52D01E56A6874037A5D060",
+        "name" : "Dai Stablecoin (Ethereum via Axelar)",
+        "symbol": "DAI.eth.axl",
+        "description": "Dai stablecoin on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
+        "coinGeckoId": "dai",
+        "ibc_info" : {
+            "path": "ethereum>axelar>umee",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "dai-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C8B3026C2844D204F3A49F91058DC947F01F2FC36AFF17850FFC8701504BDDEE",
+        "name" : "Stride ATOM",
+        "symbol": "stATOM",
+        "description": "Stride Liquid Staked ATOM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/statom.png",
+        "coinGeckoId": "stride-staked-atom",
+        "ibc_info" : {
+            "path": "stride>umee",
+            "client" : {
+                "channel": "channel-34",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-29",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D1CB2804AA5EB64D503F28E8DF3552F8A4D642802B66EFE50DE432B755F37AE1",
+        "name" : "Axelar",
+        "symbol": "AXL",
+        "description": "Axelar Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
+        "coinGeckoId": "axelar",
+        "ibc_info" : {
+            "path": "axelar>umee",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uaxl"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
+        "name" : "Juno",
+        "symbol": "JUNO",
+        "description": "Juno Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/juno.png",
+        "coinGeckoId": "juno-network",
+        "ibc_info" : {
+            "path": "juno>umee",
+            "client" : {
+                "channel": "channel-43",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-208",
+                "port": "transfer",
+                "chain": "juno",
+                "denom": "ujuno"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
+        "name" : "Akash Network",
+        "symbol": "AKT",
+        "description": "Akash Network Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
+        "coinGeckoId": "akash-network",
+        "ibc_info" : {
+            "path": "akash>umee",
+            "client" : {
+                "channel": "channel-48",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-60",
+                "port": "transfer",
+                "chain": "akash",
+                "denom": "uakt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FAEC929814E0D916C019EB4B8BE58360EC3B6AB6A2B3185CB1EA0B54832DEE68",
+        "name" : "Wrapped Matic (Polygon via Axelar)",
+        "symbol": "WMATIC.pol.axl",
+        "description": "Wrapped Matic on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/wmatic.png",
+        "coinGeckoId": "wmatic",
+        "ibc_info" : {
+            "path": "polygon>axelar>umee",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "wmatic-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/223420B0E8CF9CC47BCAB816AB3A20AE162EED27C1177F4B2BC270C83E11AD8D",
+        "name" : "Tether USD (Ethereum via Axelar)",
+        "symbol": "USDT.eth.axl",
+        "description": "Tether's USD stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "axelar-usdt",
+        "ibc_info" : {
+            "path": "ethereum>axelar>umee",
+            "client" : {
+                "channel": "channel-33",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-36",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/92BC8E5C50E6664B4DA748B62C1FFBE321967E1F8868EE03B005977F9AA7C0B8",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>umee",
+            "client" : {
+                "channel": "channel-120",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-51",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    }
+]

@@ -1,0 +1,490 @@
+[
+    {
+        "name": "Neutron",
+        "type": "Dex",
+        "description": "Duality is a DEX on the Neutron network for secure and efficient crypto trading. It uses smart contracts and offers a user-friendly interface.",
+        "status": "open",
+        "thumbnail" : "neutron",
+        "link": "https://app.neutron.org/",
+        "social": {
+            "telegram": "https://t.me/neutron_community",
+            "github": "https://github.com/neutron-org/",
+            "docs": "https://docs.neutron.org/"
+        }
+    },
+    {
+        "name": "Astroport",
+        "type": "Dex",
+        "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
+        "status": "open",
+        "thumbnail" : "astroport",
+        "link": "https://neutron.astroport.fi/swap",
+        "social": {
+            "webSite": "https://astroport.fi/en",
+            "twitter": "https://twitter.com/astroport_fi",
+            "medium": "https://astroport.medium.com/",
+            "github": "https://github.com/astroport-fi/",
+            "docs": "https://docs.astroport.fi/"
+        }
+    },
+    {
+        "name": "Neutron (governance)",
+        "type": "System",
+        "description": "Neutron Governance Platform. Cast your vote and contribute to shaping Neutron's future.",
+        "status": "open",
+        "thumbnail" : "neutron-governance",
+        "link": "https://governance.neutron.org/proposals"
+    },
+    {
+        "name": "Apollo dao",
+        "type": "Vaults",
+        "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
+        "status": "open",
+        "thumbnail" : "apollo",
+        "link": "https://app.apollo.farm/",
+        "social": {
+            "webSite": "https://apollo.farm/",
+            "twitter": "https://twitter.com/ApolloDAO",
+            "medium": "",
+            "github": "https://github.com/apollodao",
+            "docs": ""
+        }
+    },
+    {
+        "name": "Lido",
+        "type": "Liquid Staking",
+        "description": "With Lido`s liquid staking protocol, users can receive liquid stTokens on top of daily staking rewards.",
+        "status": "prepare",
+        "thumbnail" : "lido",
+        "link": "https://lido.fi/#networks",
+        "social": {
+            "webSite": "https://lido.fi/",
+            "twitter": "https://twitter.com/LidoFinance",
+            "medium": "https://blog.lido.fi/?pk_vid=4d4f0994aabb4b9a168309637525164f",
+            "github": "https://github.com/lidofinance",
+            "docs": "https://docs.lido.fi/?pk_vid=4d4f0994aabb4b9a168309639925164f"
+        }
+    },
+    {
+        "name": "Drop Money",
+        "type": "DeFi",
+        "description": "Drop is a DeFi platform focused on providing liquidity across multiple blockchain networks, enhancing interoperability and transaction efficiency.",
+        "status": "prepare",
+        "thumbnail" : "dropmoney",
+        "link": "https://app.drop.money/dashboard?referral_code=dropmaga",
+        "social": {
+            "webSite": "https://www.drop.money/",
+            "twitter": "https://x.com/Dropdotmoney",
+            "github": "https://github.com/hadronlabs-org/drop-contracts",
+            "docs": "https://docs.drop.money/",
+            "telegram": "https://t.me/drop_protocol"
+        }
+    },
+    {
+        "name": "Mars Protocol",
+        "type": "Lending",
+        "description": "Lend, borrow and earn on Red Bank lending platform designed by Mars Protocol team.",
+        "status": "open",
+        "thumbnail" : "red-bank",
+        "link": "https://neutron.marsprotocol.io/redbank",
+        "social": {
+            "webSite": "https://marsprotocol.io/",
+            "twitter": "https://twitter.com/mars_protocol",
+            "medium": "https://mars-protocol.medium.com/",
+            "github": "https://github.com/mars-protocol",
+            "docs": "https://docs.marsprotocol.io/"
+        }
+    },
+    {
+        "name": "Nolus Protocol",
+        "type": "DeFi",
+        "description": "Reshaping Money Markets with the first DeFi Lease",
+        "status": "open",
+        "thumbnail" : "nolusprotocol",
+        "link": "https://app.nolus.io/",
+        "social": {
+            "webSite": "https://nolus.io/",
+            "twitter": "https://twitter.com/NolusProtocol",
+            "medium": "https://medium.com/nolusprotocol",
+            "github": "https://github.com/nolus-protocol",
+            "docs": "https://hub.nolus.io/en_US/technical-documentation"
+        }
+    },
+    {
+        "name": "TFM",
+        "type": "Defi",
+        "description": "Pro-Trading Terminal of Neutron aggregating all DEX and NFT",
+        "status": "open",
+        "thumbnail" : "tfm",
+        "link": "https://neutron.tfm.com",
+        "social": {
+            "twitter": "https://twitter.com/tfm_com",
+            "medium": "https://medium.com/@tfm.com",
+            "github": "https://github.com/tfm-com",
+            "docs": "https://docs.tfm.com"
+        }
+    },
+    {
+        "name": "Eclipse Fi",
+        "type": "Defi",
+        "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
+        "status": "open",
+        "thumbnail" : "eclipse-fi",
+        "social": {
+            "webSite": "https://eclipsefi.io",
+            "twitter": "https://twitter.com/Eclipsefi",
+            "medium": "https://medium.com/@Eclipsefi",
+            "github": "https://docs.eclipsefi.io/",
+            "docs": "https://docs.eclipsefi.io/"
+        }
+    },
+    {
+        "name": "pSTAKE Finance",
+        "type": "Liquid Staking",
+        "description": "pSTAKE is a Cosmos-focused liquid staking (LST issuance) protocol built on Persistence One. pSTAKE empowers users to earn staking rewards and participate in DeFi while maintaining liquidity with stkTokens.",
+        "status": "open",
+        "thumbnail" : "pstake-finance",
+        "link": "https://app.pstake.finance/",
+        "social": {
+            "webSite": "https://app.pstake.finance/",
+            "twitter": "https://twitter.com/pStakeFinance",
+            "docs": "https://docs.pstake.finance/stkATOM_Introduction/",
+            "medium": "https://blog.pstake.finance/"
+        }
+    },
+    {
+        "name": "Pyth Network",
+        "type": "Oracle",
+        "description": "The Pyth Network is a first-party financial data oracle network that delivers low-latency price data for various assets to blockchains securely.",
+        "status": "open",
+        "thumbnail" : "pyth-network",
+        "link": "https://pyth.network/",
+        "social": {
+            "webSite": "https://pyth.network/",
+            "blog" : "https://pyth.network/blog",
+            "twitter": "https://x.com/PythNetwork",
+            "telegram": "https://t.me/Pyth_Network",
+            "discord": "https://discord.gg/invite/PythNetwork",
+            "github": "https://github.com/pyth-network/",
+            "docs": "https://docs.pyth.network/",
+            "medium": "https://medium.com/@pythnetwork"
+        }
+    },
+    {
+        "name": "Isaac",
+        "type": "Wallet",
+        "description": "The Telegram Trading Assistant for the Cosmos. Buy any Cosmos token via a super fast and simple chat interface.",
+        "status": "open",
+        "thumbnail" : "issac",
+        "link": "https://www.isaac.finance/",
+        "social": {
+            "webSite": "https://www.isaac.finance/",
+            "twitter": "https://x.com/trade_isaac",
+            "telegram": "https://t.me/IsaacNewtronBot"
+        }
+    },
+    {
+        "name": "NFA Zone",
+        "type": "Trading",
+        "description": "The premier Cosmos Meme Coin Factory. Easily buy or create your own token and compete for liquidity to secure a listing on Astroport.",
+        "status": "open",
+        "thumbnail" : "nfa-zone",
+        "link": "https://nfa.zone/",
+        "social": {
+            "webSite": "https://nfa.zone/",
+            "twitter": "https://x.com/nfadotzone",
+            "telegram": "https://t.me/nfazone"
+        }
+    },
+    {
+        "name": "Forge",
+        "type": "Earn",
+        "description": "The unified chain launch dashboard for Cosmos",
+        "status": "open",
+        "thumbnail" : "forge",
+        "link": "https://forge.cosmos.network/",
+        "social": {
+            "webSite": "https://forge.cosmos.network/",
+            "telegram": "https://t.me/cosmosproject",
+            "twitter": "https://x.com/cosmos",
+            "youtube": "https://www.youtube.com/c/CosmosProject",
+            "discord": "https://discord.com/invite/cosmosnetwork",
+            "github": "https://github.com/cosmos/interchain-security",
+            "docs": "https://cosmos.github.io/interchain-security/"
+        }
+    },
+    {
+        "name": "Hydro",
+        "type": "Earn",
+        "description": "Hydro gives ATOM stakers the opportunity to allocate the Hub’s liquidity by voting on bids submitted by projects, and receive tributes for their support.",
+        "status": "open",
+        "thumbnail" : "hydro",
+        "link": "https://hydro.cosmos.network/",
+        "social": {
+            "webSite": "https://hydro.cosmos.network/",
+            "telegram": "https://t.me/+xUzNOTZjUNw5Mzhk",
+            "docs": "https://hydro.cosmos.network/docs"
+        }
+    },
+    {
+        "name": "DaoDao",
+        "type": "Dao",
+        "description": "Simple, capable, and free DAO toolings for Cosmos",
+        "status": "open",
+        "thumbnail" : "daodao",
+        "link": "https://daodao.zone/dao/cosmos",
+        "social": {
+            "webSite": "https://daodao.zone/",
+            "twitter": "https://x.com/DA0_DA0",
+            "discord": "https://discord.com/invite/5uBMNMy4UR",
+            "github": "https://github.com/DA0-DA0",
+            "docs": "https://docs.daodao.zone/"
+        }
+    },
+    {
+        "name": "Astrovault",
+        "type": "Dex",
+        "description": "DeFi, Sustainably.",
+        "status": "open",
+        "thumbnail" : "astrovault",
+        "link": "https://astrovault.io/dashboard-msaw",
+        "social": {
+            "webSite": "https://astrovault.io/dashboard-msaw",
+            "docs": "https://astrovault.io/help-msaw",
+            "twitter": "https://astrovault.io/twitter-msaw",
+            "medium": "https://astrovault.io/medium-msaw/"
+        }
+    },
+    {
+        "name": "BullBear",
+        "type": "Dex",
+        "description": "Bull Vs Bear is a platform that allows you to leverage long and short assets against each other, backed by USDC collateral and powered by Mars Protocol Perps. It simplifies the process of creating leveraged positions by handling multiple steps (minting credit accounts, depositing assets, creating positions) in a single click.",
+        "status": "open",
+        "thumbnail" : "bullbear",
+        "link": "https://bullbear.zone/",
+        "social": {
+            "webSite": "https://bullbear.zone/"
+        }
+    },
+    {
+        "name": "Levana",
+        "type": "Dex",
+        "description": "Levana Trade is a decentralized platform for trading perpetual swaps with leverage on various crypto assets. It offers a user-friendly interface and tools for managing risk in a transparent, trustless environment.",
+        "status": "open",
+        "thumbnail" : "levana",
+        "link": "https://trade.levana.finance/neutron/trade/NTRN_USD",
+        "social": {
+            "webSite": "https://www.levana.finance/",
+            "docs": "https://docs.levana.finance/intro",
+            "twitter": "https://x.com/Levana_protocol",
+            "discord": "https://discord.com/invite/Xa7yzUtApz",
+            "medium": "https://medium.com/levana-protocol",
+            "github": "https://github.com/levana-Protocol"
+        }
+    },
+    {
+        "name": "Amulet",
+        "type": "Leverage",
+        "description": "Amulet is a decentralized protocol on Neutron that allows users to borrow against future staking rewards and other yields. Loans, called Advances, are issued as synthetic tokens pegged 1:1 to the native asset, with no risk of liquidation, as staking rewards automatically repay the loan over time.",
+        "status": "open",
+        "thumbnail" : "amulet",
+        "link": "https://app.amulet.finance/",
+        "social": {
+            "webSite": "https://app.amulet.finance/",
+            "docs": "https://docs.amulet.finance/",
+            "twitter": "https://x.com/AmuletFinance",
+            "medium": "https://medium.com/@amuletfinance",
+            "github": "https://github.com/Amulet-Finance",
+            "telegram": "https://t.me/AmuletFinance"
+        }
+    },
+    {
+        "name": "Margined",
+        "type": "Vault",
+        "description": "Margined Protocol is developing institutional grade vaults and asset allocation tooling for DeFi.",
+        "status": "open",
+        "thumbnail" : "margined",
+        "link": "https://trade.margined.io/neutron/vaults",
+        "social": {
+            "webSite": "https://www.margined.io/",
+            "docs": "https://docs.margined.io/",
+            "twitter": "https://x.com/margined_io",
+            "medium": "https://medium.com/@margined_io",
+            "github": "https://github.com/margined-protocol",
+            "discord": "https://discord.com/invite/VsMYS3SrxJ"
+        }
+    },
+    {
+        "name": "Jade Money",
+        "type": "Vault",
+        "description": "Jade is a decentralized platform that allows users to mint $JSD, a yield-bearing stablecoin backed 1:1 by $USDC. By depositing USDC into Jade, users can earn yield while maintaining the stable value of their assets.",
+        "status": "open",
+        "thumbnail" : "jademoney",
+        "link": "https://jade.money/app",
+        "social": {
+            "webSite": "https://jade.money/",
+            "twitter": "https://x.com/jadedotmoney"
+        }
+    },
+    {
+        "name": "MilkyWay",
+        "type": "Restaking",
+        "description": "Milkyway ReStake simplifies staking by automating reward compounding, maximizing yield effortlessly. Manage rewards across multiple blockchains with a seamless and user-friendly platform.",
+        "status": "open",
+        "thumbnail" : "milkyway",
+        "link": "https://app.milkyway.zone/restake",
+        "social": {
+            "webSite": "https://www.milkyway.zone/",
+            "docs": "https://docs.milkyway.zone/",
+            "twitter": "https://x.com/milky_way_zone",
+            "medium": "https://medium.com/milkyway-zone",
+            "discord": "https://discord.com/invite/4ywmNE3tqq"
+        }
+    },
+    {
+        "name": "Streamweave",
+        "type": "Payments",
+        "description": "Streamweave is a platform that enables continuous crypto payments for various use cases such as subscriptions, salaries, vesting schedules, and rewards.",
+        "status": "open",
+        "thumbnail" : "streamweave",
+        "link": "https://streamweave.org/",
+        "social": {
+            "webSite": "https://streamweave.org/",
+            "twitter": "https://x.com/Streamweave_org"
+        }
+    },
+    {
+        "name": "Skip",
+        "type": "Bridge",
+        "description": "Skip Protocol optimizes blockchain efficiency by enabling secure and transparent block space auctions for MEV. It helps validators and delegators maximize revenue while maintaining network performance.",
+        "thumbnail" : "skip",
+        "link": "https://go.skip.build/",
+        "social": {
+            "webSite": "https://www.skip.build/",
+            "docs": "https://docs.skip.build/go",
+            "twitter": "https://x.com/skipprotocol",
+            "github": "https://github.com/skiptools/skip-bridge",
+            "discord": "https://discord.com/invite/hFeHVAE26P"
+        }
+    },
+    {
+        "name": "Hyperlane",
+        "type": "Bridge",
+        "description": "Hyperlane is a permissionless interoperability protocol for cross-chain communication. It enables message passing and asset transfers across different chains without relying on centralized intermediaries or requiring any permissions.",
+        "thumbnail" : "hyperlane",
+        "link": "https://www.usenexus.org/",
+        "social": {
+            "webSite": "https://hyperlane.xyz/",
+            "docs": "https://docs.hyperlane.xyz/",
+            "twitter": "https://x.com/hyperlane",
+            "medium": "https://medium.com/hyperlane",
+            "github": "https://github.com/hyperlane-xyz",
+            "discord": "https://discord.com/invite/VK9ZUy3aTV"
+        }
+    },
+    {
+        "name": "Satellite",
+        "type": "Bridge",
+        "description": "Satellite is a web application built on top of the Axelar Network. It provides an easy to use interface which enables users to transfer their crypto assets from one chain to another.",
+        "thumbnail" : "satellite",
+        "link": "https://satellite.money/?source=cosmoshub&destination=neutron&asset_denom=uusdc&destination_address=",
+        "social": {
+            "webSite": "https://www.axelar.network/",
+            "docs": "https://docs.axelar.dev/resources/satellite/",
+            "twitter": "https://x.com/axl_satellite",
+            "medium": "https://medium.com/axelar/transfer-terra-assets-to-evm-chains-using-satellite-f6480c7ff20c",
+            "github": "https://github.com/axelarnetwork/axelar-satellite",
+            "discord": "https://discord.com/invite/aRZ3Ra6f7D"
+        }
+    },
+    {
+        "name": "Squid",
+        "type": "Bridge",
+        "description": "Squid Router enables seamless cross-chain swaps and asset transfers between different blockchain networks. It enhances DeFi accessibility by providing efficient token bridging and interoperability.",
+        "link": "https://app.squidrouter.com/?chains=cosmoshub-4%2Cneutron-1&tokens=uatom%2Cuntrn",
+        "thumbnail" : "squid",
+        "social": {
+            "webSite": "https://www.squidrouter.com/",
+            "docs": "https://docs.squidrouter.com/",
+            "twitter": "https://x.com/squidrouter",
+            "medium": "https://medium.com/@squidrouter",
+            "github": "https://github.com/0xsquid",
+            "discord": "https://discord.com/invite/squidrouter"
+        }
+    },
+    {
+        "name": "NGMI zone",
+        "type": "Game",
+        "description": "NGMI Zone offers on-chain analytics and insights for traders and crypto enthusiasts. It helps users track market trends and blockchain activities with real-time data.",
+        "link": "https://ngmi.zone/",
+        "thumbnail" : "ngmi",
+        "social": {
+            "webSite": "https://ngmi.zone/"
+        }
+    },
+    {
+        "name": "Squared zone",
+        "type": "Game",
+        "description": "Squared Zone is a DeFi platform offering automated asset management and yield optimization. It helps users maximize returns through staking and liquidity strategies.",
+        "link": "https://squared.zone/",
+        "thumbnail" : "squared",
+        "social": {
+            "webSite": "https://squared.zone/"
+        }
+    },
+    {
+        "name": "Vendetta",
+        "type": "Predictions",
+        "description": "Vendetta Markets is a decentralized prediction market platform for trading on real-world events. It offers on-chain transparency and a trustless environment for betting and risk hedging.",
+        "link": "https://vendetta.markets/markets",
+        "thumbnail" : "vendetta",
+        "social": {
+            "webSite": "https://vendetta.markets/",
+            "docs": "https://vendetta-docs.vercel.app/",
+            "twitter": "https://x.com/vendettamarkets",
+            "github": "https://github.com/vendetta-labs",
+            "discord": "https://discord.com/invite/WuqGneAuzG"
+        }
+    },
+    {
+        "name": "Velo Space",
+        "type": "Predictions",
+        "description": "Velo Space is a DeFi platform enabling seamless cross-chain asset transfers and liquidity management. Users can trade, stake, and manage digital assets efficiently across blockchain networks.",
+        "link": "https://app.velo.space/",
+        "thumbnail" : "velo",
+        "social": {
+            "webSite": "https://www.velo.space/",
+            "telegram": "https://t.me/veloapp",
+            "twitter": "https://x.com/velo_space",
+            "github": "https://github.com/velo-dao/velo-games-contracts"
+        }
+    },
+    {
+        "name": "Arena Dao",
+        "type": "Dao",
+        "description": "ArenaDAO is a decentralized organization governing the Arena protocol for prediction markets and trading. It empowers community-driven decision-making and incentivized participation in DeFi.",
+        "link": "https://arenadao.org/compete",
+        "thumbnail" : "arena",
+        "social": {
+            "webSite": "https://arenadao.org/",
+            "docs": "https://docs.arenadao.org/",
+            "twitter": "https://x.com/ArenaDAO",
+            "github": "https://github.com/Arena-DAO",
+            "discord": "https://discord.com/invite/wZVHWGHrRE"
+        }
+    },
+    {
+        "name": "Valence",
+        "type": "Dao",
+        "description": "Valence Rebalancer is a decentralized tool for optimizing asset allocation and portfolio management. It automates rebalancing strategies to enhance capital efficiency and risk management in DeFi.",
+        "link": "https://app.valence.zone/rebalancer",
+        "thumbnail" : "valence",
+        "social": {
+            "webSite": "https://www.valence.zone/",
+            "blog": "https://www.valence.zone/blog",
+            "docs": "https://docs.valence.zone/",
+            "twitter": "https://x.com/ValenceZone",
+            "github": "https://github.com/timewave-computer"
+        }
+    }
+]

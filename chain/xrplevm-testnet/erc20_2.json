@@ -1,0 +1,24 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x81be083099c2c65b062378e74fa8469644347bb7",
+        "name" : "Wrapped XRP",
+        "symbol": "WXRP",
+        "description": "Wrapped XRP",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm-testnet/asset/unknown.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0c28777deebe4589e83ef2dc7833354e6a0aff85",
+        "name" : "XRiSE33 Protocol",
+        "symbol": "RISE",
+        "description": "XRiSE33 Protocol",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm-testnet/asset/unknown.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    }
+]

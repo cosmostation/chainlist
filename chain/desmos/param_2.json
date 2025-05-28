@@ -1,0 +1,92 @@
+{
+    "chain_id_cosmos" : "desmos-mainnet",
+    "chain_name": "Desmos",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/desmos/resource/chain_desmos.png",
+    "staking_asset_denom" : "udsm",
+    "staking_asset_symbol" : "DSM",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/desmos/asset/dsm.png",
+    "bech_account_prefix" : "desmos",
+    "bech_validator_prefix" : "desmosvaloper",
+    "origin_genesis_time" : "2021-08-31T16:15:00Z",
+    "api_name" : "desmos",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/852'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.001udsm",
+            "0.01udsm",
+            "0.025udsm"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-desmos.cosmostation.io:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "desmos-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-desmos.cosmostation.io/"
+        },
+        {
+            "provider": "desmos",
+            "url": "https://api.mainnet.desmos.network/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://desmos-api.ibs.team/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://desmos-rest.staketab.org/"
+        },
+        {
+            "provider": "TC Network",
+            "url": "https://rest.desmos.tcnetwork.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Bigdipper",
+        "url": "https://bigdipper.live/desmos/",
+        "account": "https://bigdipper.live/desmos/accounts/${address}",
+        "tx": "https://bigdipper.live/desmos/transactions/${hash}",
+        "proposal": "https://bigdipper.live/desmos/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.desmos.network/",
+        "docs": "https://docs.desmos.network",
+        "github" : "https://github.com/desmos-labs",
+        "blog" : "https://medium.com/desmosnetwork",
+        "medium": "https://medium.com/desmosnetwork",
+        "twitter" : "https://twitter.com/DesmosNetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/desmos"
+    },
+    "forum": {
+        "main": "https://www.reddit.com/r/DesmosNetwork"
+    },
+    "description" : {
+        "ko" : "Desmos는 분산형 소셜 네트워크 솔루션입니다. Desmos는 개발자에게 소셜 지원 애플리케이션을 쉽게 만들 수 있는 다양한 모듈을 제공합니다.",
+        "en" : "Desmos is a decentralized social network solution. Desmos provides developers with a multitude of modules that make it easy to create any socially-enabled application.",
+        "ja" : "Desmosは分散型ソーシャルネットワークソリューションです。 Desmosは、開発者にソーシャルサポートアプリケーションを簡単に作成できるさまざまなモジュールを提供します。"
+    }
+}

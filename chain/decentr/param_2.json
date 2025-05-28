@@ -1,0 +1,28 @@
+{
+    "chain_name": "Decentr",
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.025udec"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "MMS",
+            "url": "grpc-decentr.mms.team:443"
+        }
+    ],
+    "about" : {
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "",
+        "en" : "",
+        "ja" : ""
+    }
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "type": "cw20",
+        "contract": "sei1pvz89hltquwe6qdhnqwmxxvasayzn4dctkwehes2zt888c7syffszt3j56",
+        "name" : "COOK",
+        "symbol": "COOK",
+        "description": "COOK",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/cook.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "sei1j536dz2apen5hfn3jxh394nnf3haphfuwu5c4suufxl2y2mmy5mse09tfr",
+        "name" : "SEIDOW",
+        "symbol": "SEIDOW",
+        "description": "SEIDOW",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/seidow.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "sei1yn37w6jka58cg6d62nr30gc0umgryq9plly0l4697ap4s5nvna2qzlcchn",
+        "name" : "SABER",
+        "symbol": "SABER",
+        "description": "SABER",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/saber.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "sei1wlf9j5uv50rcg0u5j6xk00px5tflptzprj39keck27eg8g7qd7hqq6kvda",
+        "name" : "Oozaru",
+        "symbol": "OOZARU",
+        "description": "OOZARU is a meme token on SEI Network inspired by the iconic transformation in the Dragon Ball series",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png",
+        "coinGeckoId": "",
+        "color": "#2b1619"
+    },
+    {
+        "type": "cw20",
+        "contract": "sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed",
+        "name" : "SEIYAN",
+        "symbol": "SEIYAN",
+        "description": "The Original Meme Coin of SEI Network",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png",
+        "coinGeckoId": "",
+        "color": "#db1f22"
+    }
+]

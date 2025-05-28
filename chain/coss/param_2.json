@@ -1,0 +1,33 @@
+{
+    "chain_name": "Coss",
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.025ucgas"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "CelestialPhoenix",
+            "url": "coss-grpc.cias.network:19090"
+        },
+        {
+            "provider": "StellarGuardian",
+            "url": "coss-grpc.coss.ink:19090"
+        }
+    ],
+    "about" : {
+        "website" : "https://coss.ink",
+        "github" : "https://github.com/coss-inscription",
+        "twitter" : "https://twitter.com/coss_market",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "자산을 주조하고 교환하기 위한 탈중앙화 플랫폼입니다.",
+        "en" : "A decentralized platform for deploying & exchanging of inscription assets.",
+        "ja" : "銘文資産の鋳造と交換のための分散型プラットフォーム。"
+    }
+}

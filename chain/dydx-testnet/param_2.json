@@ -1,0 +1,61 @@
+{
+    "chain_id_cosmos" : "dydx-testnet-4",
+    "chain_name": "dYdX Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx-testnet/resource/chain_dydx-testnet.png",
+    "staking_asset_denom" : "adydx",
+    "staking_asset_symbol" : "DYDX",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx-testnet/asset/dydx.png",
+    "bech_account_prefix" : "dydx",
+    "bech_validator_prefix" : "dydxvaloper",
+    "api_name" : "dydx-testnet",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "12500000000adydx"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/dydx-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/dydx-testnet/",
+        "account": "https://www.mintscan.io/dydx-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/dydx-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/dydx-testnet/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://dydx.exchange/",
+        "docs" : "https://docs.dydx.exchange/",
+        "github" : "https://github.com/dydxprotocol/",
+        "blog" : "https://dydx.exchange/blog",
+        "twitter" : "https://twitter.com/dydx",
+        "discord": "https://discord.com/invite/Tuze6tY",
+        "coingecko" : ""
+    },
+    "forum": {
+        "main": "https://dydx.forum/"
+    },
+    "description" : {
+        "ko" : "dYdX 체인은 분산형 무기한 교환을 강화할 수 있는 오픈 소스 애플리케이션 전용 블록체인 소프트웨어입니다.",
+        "en" : "dYdX chain is an open-source application specific blockchain software that can power a decentralized perpetuals exchange.",
+        "ja" : "dYdX チェーンは、分散型永久交換を強化できるオープンソースのアプリケーション固有のブロックチェーン ソフトウェアです。"
+    }
+}

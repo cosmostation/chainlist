@@ -1,0 +1,67 @@
+{
+    "chain_id_cosmos": "milkyway",
+    "chain_name": "Milkyway",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/milkyway/resource/chain_milkyway.png",
+    "staking_asset_denom": "umilk",
+    "staking_asset_symbol": "MILK",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/milkyway/asset/milk.png",
+    "bech_account_prefix": "milk",
+    "bech_validator_prefix": "milkvaloper",
+    "origin_genesis_time": "2024-12-03T09:00:00Z",
+    "api_name": "milkyway",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+            "0.01ugas,0.01umilk,0.0002ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F,0.002ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5,0.002ibc/8D4FC51F696E03711B9B37A5787FB89BD2DDBAF788813478B002D552A12F9157,0.002ibc/F1183DB3D428313A6FD329DF18219F9D6B83257D07D292EA9EC1D877E89EC2B0,0.002ibc/4795C86F72EC2CB54E885A4A5B401BED9C333E008311ED9C4DE01BF546B44A21,0.002factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-milkyway.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-milkyway.cosmostation.io/"
+        }
+    ],
+    "explorer": {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/milkyway/",
+        "account": "https://www.mintscan.io/milkyway/address/${address}",
+        "tx": "https://www.mintscan.io/milkyway/tx/${hash}",
+        "proposal": "https://www.mintscan.io/milkyway/proposals/${id}"
+    },
+    "about": {
+        "website" : "https://www.milkyway.zone/",
+        "docs": "https://docs.milkyway.zone/",
+        "github" : "https://github.com/milkyway-labs",
+        "medium": "https://medium.com/milkyway-zone",
+        "twitter" : "https://x.com/milky_way_zone",
+        "coingecko" : "https://www.coingecko.com/en/coins/milkyway"
+    },
+    "description" : {
+        "ko" : "MilkyWay는 최초의 모듈형 스테이킹 포털로, 리퀴드 스테이킹과 리스테이킹 솔루션을 통해 원하는 것을 자유롭게 구축할 수 있는 기반을 제공합니다.",
+        "en" : "MilkyWay is the first modular staking portal offering liquid staking and restaking solutions to unlock the freedom to build anything.",
+        "ja" : "MilkyWayは、リキッドステーキングとリステーキングソリューションを提供し、自由に構築するための基盤を提供する、初のモジュラー型ステーキングポータルです。"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "chain_id_cosmos" : "xion-testnet-2",
+    "chain_name": "Xion Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion-testnet/resource/chain_xion-testnet.png",
+    "staking_asset_denom" : "uxion",
+    "staking_asset_symbol" : "XION",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion-testnet/asset/xion.png",
+    "bech_account_prefix" : "xion",
+    "bech_validator_prefix" : "xionvaloper",
+    "origin_genesis_time" : "2025-01-28T16:00:00Z",
+    "api_name" : "xion-testnet",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.0uxion"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-office-xion.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/xion-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/xion-testnet/",
+        "account": "https://www.mintscan.io/xion-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/xion-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/xion-testnet/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://xion.burnt.com/",
+        "docs": "https://docs.burnt.com/xion",
+        "github" : "https://github.com/burnt-labs",
+        "blog" : "https://xion.burnt.com/blog",
+        "twitter" : "https://twitter.com/burnt_xion",
+        "telegram" : "https://t.me/xion_announcements",
+        "discord" : "https://discord.com/invite/burnt",
+        "coingecko" : "https://www.coingecko.com/en/coins/xion"
+    },
+    "description" : {
+        "ko" : "XION은 개발자가 체인 추상화를 통해 모든 사용자의 기술적 장벽을 제거하여 소비자용 제품을 처음부터 구축, 출시 및 확장할 수 있도록 지원합니다.",
+        "en" : "XION empowers developers to build, launch and scale consumer-ready products from the ground up, removing technical barriers for all users through its Chain Abstraction.",
+        "ja" : "XION は、チェーン抽象化を通じてすべてのユーザーの技術的な障壁を取り除き、開発者が消費者向け製品をゼロから構築、起動、拡張できるようにします。"
+    }
+}

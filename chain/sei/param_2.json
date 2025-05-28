@@ -1,0 +1,98 @@
+{
+    "chain_id_cosmos" : "pacific-1",
+    "chain_name": "Sei",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/resource/chain_sei.png",
+    "staking_asset_denom" : "usei",
+    "staking_asset_symbol" : "SEI",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/sei.png",
+    "bech_account_prefix" : "sei",
+    "bech_validator_prefix" : "seivaloper",
+    "origin_genesis_time" : "2023-05-22T15:00:00Z",
+    "api_name" : "sei",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "is_support_cw20" : true,
+    "tx_timeout_padding" : 100,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.02usei",
+            "0.04usei"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-sei.cosmostation.io:443"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "sei.grpc.kjnodes.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "sei-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "grpc-sei.whispernode.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-sei.cosmostation.io/"
+        },
+        {
+            "provider": "polkachu.com",
+            "url": "https://sei-api.polkachu.com/"
+        },
+        {
+            "provider": "StingRay",
+            "url": "https://api-sei.stingray.plus/"
+        },
+        {
+            "provider": "WhisperNode 🤐",
+            "url": "https://lcd-sei.whispernode.com/"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "https://sei.api.kjnodes.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/sei/",
+        "account": "https://www.mintscan.io/sei/address/${address}",
+        "tx": "https://www.mintscan.io/sei/tx/${hash}",
+        "proposal": "https://www.mintscan.io/sei/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.sei.io/",
+        "docs": "https://docs.sei.io/",
+        "github" : "https://github.com/sei-protocol/sei-chain",
+        "blog" : "https://blog.sei.io/",
+        "twitter" : "https://twitter.com/SeiNetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/sei-network"
+    },
+    "description" : {
+        "ko" : "Sei는 속도, 보안 및 확장성을 위해 설계된 Cosmos SDK 기반 레이어 1 블록체인 네트워크입니다.",
+        "en" : "Sei is a Cosmos SDK-based layer 1 blockchain network designed for speed, security and scalability.",
+        "ja" : "Seiは速度、セキュリティ、および拡張性のために設計されたCosmosSDKベースのレイヤー1ブロックチェーンネットワークです。"
+    }
+}

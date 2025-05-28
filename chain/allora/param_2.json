@@ -1,0 +1,74 @@
+{
+    "chain_id_cosmos" : "allora-mainnet-1",
+    "chain_name": "Allora",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/allora/resource/chain_allora.png",
+    "staking_asset_denom" : "uallo",
+    "staking_asset_symbol" : "ALLO",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/allora/asset/allo.png",
+    "bech_account_prefix" : "allo",
+    "bech_validator_prefix" : "allovaloper",
+    "origin_genesis_time" : "2024-12-23T14:08:14Z",
+    "api_name" : "allora",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "10uallo",
+            "12uallo"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-allora.cosmostation.io:443"
+        },
+        {
+            "provider": "Allora",
+            "url": "allora-grpc.mainnet.allora.network:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-allora.cosmostation.io/"
+        },
+        {
+            "provider": "Allora",
+            "url": "https://allora-api.mainnet.allora.network/"
+        }
+    ],
+    "explorer" : {
+        "name": "Allora",
+        "url": "https://explorer.mainnet.allora.network/allora-mainnet",
+        "account": "https://explorer.mainnet.allora.network/allora-mainnet/account/${address}",
+        "tx": "https://explorer.mainnet.allora.network/allora-mainnet/tx/${hash}",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://www.allora.network/",
+        "docs": "https://docs.allora.network/home/explore",
+        "github" : "https://github.com/allora-network",
+        "blog" : "https://www.allora.network/blog",
+        "twitter" : "https://x.com/AlloraNetwork"
+    },
+    "description" : {
+        "ko" : "Allora 네트워크는 탈중앙화된 AI와 머신 러닝(ML)을 사용하여 참가자들 간에 예측을 생성하고 배포하는 최첨단 프로토콜입니다.",
+        "en" : "The Allora Network is a state-of-the-art protocol that uses decentralized AI and machine learning (ML) to build and deploy predictions among its participants.",
+        "ja" : "Alloraネットワークは、分散型AIと機械学習（ML）を活用して、参加者間で予測を作成し、展開する最先端のプロトコルです。"
+    }
+}

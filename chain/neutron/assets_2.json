@@ -1,0 +1,1163 @@
+[
+    {
+        "type": "native",
+        "denom": "untrn",
+        "name" : "Neutron",
+        "symbol": "NTRN",
+        "description": "Neutron Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrn.png",
+        "coinGeckoId": "neutron-3",
+        "color": "#2DCB92"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>neutron",
+            "client" : {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-569",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C0E66D1C81D8AAF0E6896E05190FDFBC222367148F86AC3EA679C28327A763CD",
+        "name" : "Axelar",
+        "symbol": "AXL",
+        "description": "Axelar Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
+        "coinGeckoId": "axelar",
+        "ibc_info" : {
+            "path": "axelar>neutron",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-78",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uaxl"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+        "name" : "USDC (Ethereum via Axelar)",
+        "symbol": "USDC.eth.axl",
+        "description": "Circle's stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>neutron",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-78",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/57503D7852EF4E1899FE6D71C5E81D7C839F76580F86F21E39348FC2BC9D7CE2",
+        "name" : "Tether USD (Ethereum via Axelar)",
+        "symbol": "USDT.eth.axl",
+        "description": "Tether's USD stablecoin on Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "axelar-usdt",
+        "ibc_info" : {
+            "path": "ethereum>axelar>neutron",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-78",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A585C2D15DCD3B010849B453A2CFCB5E213208A5AB665691792684C26274304D",
+        "name" : "Wrapped Ether (Ethereum via Axelar)",
+        "symbol": "WETH.eth.axl",
+        "description": "Wrapped Ether on Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "axlweth",
+        "ibc_info" : {
+            "path": "ethereum>axelar>neutron",
+            "client" : {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-78",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "weth-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
+        "name" : "Astroport",
+        "symbol": "ASTRO.cw20",
+        "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/astro.png",
+        "coinGeckoId": "astroport-fi",
+        "ibc_info" : {
+            "path": "terra>neutron",
+            "client" : {
+                "channel": "channel-5",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-167",
+                "port": "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce",
+                "chain": "terra",
+                "denom": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9598CDEB7C6DB7FC21E746C8E0250B30CD5154F39CA111A9D4948A4362F638BD",
+        "name" : "Mars",
+        "symbol": "MARS.old",
+        "description": "Mars Protocol token (pre-migration)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mars-protocol/asset/mars-ibc.png",
+        "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
+        "ibc_info" : {
+            "path": "mars-protocol>neutron",
+            "client" : {
+                "channel": "channel-16",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-37",
+                "port": "transfer",
+                "chain": "mars-protocol",
+                "denom": "umars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7",
+        "name" : "Celestia",
+        "symbol": "TIA",
+        "description": "Celestia Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
+        "coinGeckoId": "celestia",
+        "ibc_info" : {
+            "path": "celestia>neutron",
+            "client" : {
+                "channel": "channel-35",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "celestia",
+                "denom": "utia"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/376222D6D9DAE23092E29740E56B758580935A6D77C24C2ABD57A6A78A1F3955",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>neutron",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-874",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9F8417FBA11E5E01F7F85DDD48C400EB746E95084C11706041663845B4A700A8",
+        "name" : "BADKID",
+        "symbol": "BADKID",
+        "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/badkid.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "osmosis>neutron",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-874",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7DA39F5140741177846FCF3CFAB14450EE7F57B7794E5A94BEF73825D3741958",
+        "name" : "WOSMO",
+        "symbol": "WOSMO",
+        "description": "The first native memecoin on Osmosis. Crafted by the deftest of hands in the lab of lunacy. It's scientifically anarchic, professionally foolish, and your ticket to the madhouse.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/wosmo.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "osmosis>neutron",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-874",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3552CECB7BCE1891DB6070D37EC6E954C972B1400141308FCD85FD148BD06DE5",
+        "name" : "Stride",
+        "symbol": "STRD",
+        "description": "Stride Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/strd.png",
+        "coinGeckoId": "stride",
+        "ibc_info" : {
+            "path": "stride>neutron",
+            "client" : {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-123",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "ustrd"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+        "name" : "Stride ATOM",
+        "symbol": "stATOM",
+        "description": "Stride Liquid Staked ATOM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/statom.png",
+        "coinGeckoId": "stride-staked-atom",
+        "ibc_info" : {
+            "path": "stride>neutron",
+            "client" : {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-123",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93",
+        "name" : "Stride OSMO",
+        "symbol": "stOSMO",
+        "description": "Stride Liquid Staked OSMO",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stosmo.png",
+        "coinGeckoId": "stride-staked-osmo",
+        "ibc_info" : {
+            "path": "stride>neutron",
+            "client" : {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-123",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stuosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6569E05DEE32B339D9286A52BE33DFCEFC97267F23EF9CFDE0C055140967A9A5",
+        "name" : "Stride Staked TIA",
+        "symbol": "stTIA",
+        "description": "Stride Staked TIA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stutia.png",
+        "coinGeckoId": "stride-staked-tia",
+        "ibc_info" : {
+            "path": "stride>neutron",
+            "client" : {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-123",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stutia"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8D0C1AC5A72FB7EC187632D01BACBB68EF743CA1AF16A15C00ACBB9CF49A0070",
+        "name" : "Stride Staked DYM",
+        "symbol": "stDYM",
+        "description": "Stride Staked DYM",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stdym.png",
+        "coinGeckoId": "stride-staked-dym",
+        "ibc_info" : {
+            "path": "stride>neutron",
+            "client" : {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-123",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stadym"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BAA1D21893B1D36865C6CA44D18F4ACF08BAD70CB6863C4722E0A61703808F77",
+        "name" : "Stride Staked DYDX",
+        "symbol": "stDYDX",
+        "description": "Stride Staked DYDX",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stadydx.png",
+        "coinGeckoId": "stride-staked-dydx",
+        "ibc_info" : {
+            "path": "stride>neutron",
+            "client" : {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-123",
+                "port": "transfer",
+                "chain": "stride",
+                "denom": "stadydx"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
+        "name" : "dYdX",
+        "symbol": "DYDX",
+        "description": "dYdX Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/asset/dydx.png",
+        "coinGeckoId": "dydx-chain",
+        "ibc_info" : {
+            "path": "dydx>neutron",
+            "client" : {
+                "channel": "channel-48",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "dydx",
+                "denom": "adydx"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3649CE0C8A2C79048D8C6F31FF18FA69C9BC7EB193512E0BD03B733011290445",
+        "name" : "PSTAKE staked ATOM",
+        "symbol": "stkATOM",
+        "description": "PSTAKE Liquid Staked ATOM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/asset/stkatom.png",
+        "coinGeckoId": "stkatom",
+        "ibc_info" : {
+            "path": "persistence>neutron",
+            "client" : {
+                "channel": "channel-49",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-136",
+                "port": "transfer",
+                "chain": "persistence",
+                "denom": "stk/uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/58923AAE6E879D7CB5FB0F2F05550FD4F696099AB0F5CDF0A05CC0309DD8BC78",
+        "name" : "Cerberus",
+        "symbol": "CRBRUS",
+        "description": "Cerberus Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cerberus/asset/crbrus.png",
+        "coinGeckoId": "cerberus-2",
+        "ibc_info" : {
+            "path": "cerberus>osmosis>neutron",
+            "client" : {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-874",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>neutron",
+            "client" : {
+                "channel": "channel-30",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-18",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6C9E6701AC217C0FC7D74B0F7A6265B9B4E3C3CDA6E80AADE5F950A8F52F9972",
+        "name" : "Nolus",
+        "symbol": "NLS",
+        "description": "Nolus Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nolus/asset/nolus.png",
+        "coinGeckoId": "nolus",
+        "ibc_info" : {
+            "path": "nolus>neutron",
+            "client" : {
+                "channel": "channel-44",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3839",
+                "port": "transfer",
+                "chain": "nolus",
+                "denom": "unls"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4A6A46D4263F2ED3DCE9CF866FE15E6903FB5E12D87EB8BDC1B6B1A1E2D397B4",
+        "name" : "Dymension Hub",
+        "symbol": "DYM",
+        "description": "The native governance and staking token of the Dymension Hub",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dymension/asset/dym.png",
+        "coinGeckoId": "dymension",
+        "ibc_info" : {
+            "path": "dymension>neutron",
+            "client" : {
+                "channel": "channel-675",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-9",
+                "port": "transfer",
+                "chain": "dymension",
+                "denom": "adym"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A139C0E0B5E87CBA8EAEEB12B9BEE13AC7C814CFBBFA87BBCADD67E31003466C",
+        "name" : "Stargaze",
+        "symbol": "STARS",
+        "description": "Stargaze Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
+        "coinGeckoId": "stargaze",
+        "ibc_info" : {
+            "path": "stargaze>neutron",
+            "client" : {
+                "channel": "channel-18",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-191",
+                "port": "transfer",
+                "chain": "stargaze",
+                "denom": "ustars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/74B554DD3FF10F5D60E30175ADFB47E59F77F7C57024A8104A4F78CDC2EAD125",
+        "name" : "Saga",
+        "symbol": "SAGA",
+        "description": "Saga Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saga/asset/saga.png",
+        "coinGeckoId": "saga-2",
+        "ibc_info" : {
+            "path": "saga>neutron",
+            "client" : {
+                "channel": "channel-2060",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "saga",
+                "denom": "usaga"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A0A081FFC6A13B8F502079F3A8420F5B4FC3007D9AA696E371B9A7B39B90EADF",
+        "name" : "Ondo US Dollar Yield",
+        "symbol": "USDY",
+        "description": "Ondo US Dollar Yield",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdy.png",
+        "coinGeckoId": "ondo-us-dollar-yield",
+        "ibc_info" : {
+            "path": "noble>neutron",
+            "client" : {
+                "channel": "channel-30",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-18",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "ausdy"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BEF5C9D724E1EBB04FEE237CB5F602B22B0FFE8065F540FD8BC6F9E1A4B8573D",
+        "name" : "Chihuahua Chain",
+        "symbol": "HUAHUA",
+        "description": "Chihuahua Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/huahua.png",
+        "coinGeckoId": "chihuahua-token",
+        "ibc_info" : {
+            "path": "chihuahua>neutron",
+            "client" : {
+                "channel": "channel-51",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-76",
+                "port": "transfer",
+                "chain": "chihuahua",
+                "denom": "uhuahua"
+            }
+        }
+    },
+    {   "type": "native",
+        "denom": "factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS",
+        "name" : "Mars Protocol token",
+        "symbol": "MARS",
+        "description": "Mars Protocol is a cross-collateralized Money Market Protocol on Neutron and Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mars-protocol/asset/mars.png",
+        "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
+        "color": "#ef4136"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
+        "name" : "Astroport token",
+        "symbol": "ASTRO",
+        "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/astro.png",
+        "coinGeckoId": "astroport-fi",
+        "color": "#4056e9"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+        "name" : "Newt",
+        "symbol": "NEWT",
+        "description": "The cutest NEWT token on Neutron chain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/newt.png",
+        "coinGeckoId": "newt",
+        "color": "#16233d"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron10sr06r3qkhn7xzpw3339wuj77hu06mzna6uht0/eclip",
+        "name" : "Eclipsefi",
+        "symbol": "ECLIP",
+        "description": "A revolutionary hub for interchain token launches, bringing the value back into the hands of early communities.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/eclipse.png",
+        "coinGeckoId": "eclipse-fi"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
+        "name" : "Goddard",
+        "symbol": "GODRD",
+        "description": "A Mechanical Canine.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/goddardntrn.png",
+        "coinGeckoId": "",
+        "color": "#516b80"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
+        "name" : "Goddard",
+        "symbol": "GODDARD",
+        "description": "THE FIRST NATIVE GODDARD MEMECOIN ON NEUTRON",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/goddard.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1guar6dc2scpxtmmq8reh0q5cv2l37vs0uyfdru/dinosaur",
+        "name" : "Dinosaur",
+        "symbol": "DINOSAUR",
+        "description": "Dinosaur",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dsrlol.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1ume2n42r5j0660gegrr28fzdze7aqf7r5cd9y6/newtroll",
+        "name" : "Newtroll",
+        "symbol": "NTRL",
+        "description": "NEWTROLL",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrl.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
+        "name" : "jimmy",
+        "symbol": "JIMMY",
+        "description": "Jimmy Neutron Finance",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/jimmy.png",
+        "coinGeckoId": "",
+        "color": "#7d3c20"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
+        "name" : "cartel",
+        "symbol": "CARTEL",
+        "description": "Reflections of cartel activity on Cosmos.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/cartel.png",
+        "coinGeckoId": "",
+        "color": "#8c9098"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron13lkh47msw28yynspc5rnmty3yktk43wc3dsv0l/ATOM1KLFG",
+        "name" : "ATOM1KLFG",
+        "symbol": "ATOM1KLFG",
+        "description": "$ATOM to $1,000 LFG!!",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ATOM1KLFGc.png",
+        "coinGeckoId": "",
+        "color": "#040404"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A79E35F2418EB26FA8D72B9AA5EDF28C0C2CF475E8CF4CAEBB25FA5C858D4D22",
+        "name" : "Ninja Blaze Token",
+        "symbol": "NBZ",
+        "description": "Ninja Blaze Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/nbz.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "injective>neutron",
+            "client" : {
+                "channel": "channel-60",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-177",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron154gg0wtm2v4h9ur8xg32ep64e8ef0g5twlsgvfeajqwghdryvyqsqhgk8e/APOLLO",
+        "name" : "Apollo DAO",
+        "symbol": "APOLLO",
+        "description": "The deflationary utility token of the Apollo DAO project",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/apollo.png",
+        "coinGeckoId": "apollo-2"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1d59rkwmkt6f46aeyra6zfk6ghehlsqc2qevw96c6x4xfmyk4qxhsjh8ajn/ANGRY-BABY",
+        "name" : "Angry Baby",
+        "symbol": "ANGRY-BABY.cft20",
+        "description": "Angry Baby",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/angry-babycft.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1d59rkwmkt6f46aeyra6zfk6ghehlsqc2qevw96c6x4xfmyk4qxhsjh8ajn/BABYROIDS",
+        "name" : "BABY ROIDS",
+        "symbol": "BABYROIDS.cft20",
+        "description": "BABY ROIDS",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/babyroidscft.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1k3zuqrwkad0kpeh6p9fl7a2nnnevkv95t3cpdz/DANZA",
+        "name" : "DANZA",
+        "symbol": "DANZA",
+        "description": "Whos the Boss?",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/danza.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1lg8nydf8nagrrp2f72y5mk9newv2gs6a3mm3cn/GAY",
+        "name" : "Gay Coin",
+        "symbol": "GAY",
+        "description": "Gay Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/gay.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1pwjn3tsumm3j7v7clzqhjsaukv4tdjlclhdytawhet68fwlz84fqcrdyf5/NELSON",
+        "name" : "NELSON",
+        "symbol": "NELSON",
+        "description": "Nelson on Neutron",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/nelson.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1pwjn3tsumm3j7v7clzqhjsaukv4tdjlclhdytawhet68fwlz84fqcrdyf5/WOOF",
+        "name" : "woof",
+        "symbol": "WOOF",
+        "description": "woof",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/woof.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1qm224945hrkwc5qze40tau499n46ydmulpeagscmsuyxfrds02usf7mnpu/scrap",
+        "name" : "SCRAP",
+        "symbol": "SCRAP",
+        "description": "SCRAP",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/scrap.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1qzf6t478xuutq0ahkm07pl2y2tctreccrlafkrl38k4cafk3rgdq3lfky5/VaultToken/pcl/capped/stTIA/TIA",
+        "name" : "Apollo DAO",
+        "symbol": "(stTIA/TIA)VT",
+        "description": "Apollo DAO",
+        "decimals": 12,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/(sttia-tia)vt.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi",
+        "name" : "Baby Corgi",
+        "symbol": "CORGI",
+        "description": "Baby Corgi is the real doggo of Neutron!",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/babycorgi.png",
+        "coinGeckoId": "",
+        "color": "#fab442"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad",
+        "name" : "Badcoin",
+        "symbol": "BAD",
+        "description": "Baddest coin on Cosmos",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/bad.png",
+        "coinGeckoId": "",
+        "color": "#211a0d"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe",
+        "name" : "AstroPepe",
+        "symbol": "ASTROPEPE",
+        "description": "Astropepe meme coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/astropepe.png",
+        "coinGeckoId": "",
+        "color": "#47391d"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
+        "name" : "dNTRN",
+        "symbol": "dNTRN",
+        "description": "Drop staked NTRN",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dntrn.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
+        "name" : "dATOM",
+        "symbol": "dATOM",
+        "description": "Drop staked ATOM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/datom.png",
+        "coinGeckoId": "drop-staked-atom"
+    },
+    {
+	"type": "native",
+        "denom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia",
+        "name" : "dTIA",
+        "symbol": "dTIA",
+        "description": "Drop staked TIA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dtia.png",
+        "coinGeckoId": "drop-staked-tia"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/sin",
+        "name" : "SIN",
+        "symbol": "SIN",
+        "description": "SinGarden token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/sin.png",
+        "coinGeckoId": "",
+        "color": "#ebf0f4"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/GOP",
+        "name" : "GOP",
+        "symbol": "GOP",
+        "description": "CryptoGopniks token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/gop.png",
+        "coinGeckoId": "",
+        "color": "#000000"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron129ukd5cwahcjkccujz87rjemjukff7jf6sau72qrhva677xgz9gs4m4jeq/uarena",
+        "name" : "Arena Token",
+        "symbol": "ARENA",
+        "description": "The governance token of the Arena DAO",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena_dao.png",
+        "coinGeckoId": "",
+        "color": "#FF8000"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron19tynwawkm2rgefqxy7weupu4hdamyhg890zep2/TAKUMI",
+        "name" : "Takumi Asano",
+        "symbol": "TAKUMI",
+        "description": "Takumi Asano",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/TAKUMI.png",
+        "coinGeckoId": "",
+        "color": "#556867"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD",
+        "name" : "WEIRD",
+        "symbol": "WEIRD",
+        "description": "WEIRD FRIENDS token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WEIRD.png",
+        "coinGeckoId": "",
+        "color": "#ebf0f4"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1t24nc7whl77relnu3taxyg3p66pjyuk82png2y/uretro",
+        "name" : "Retro",
+        "symbol": "RETRO",
+        "description": "Retro Game",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/retro.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron170v88vrtnedesyfytuku257cggxc79rd7lwt7q/ucircus",
+        "name" : "AtomEconomicZone69JaeKwonInu",
+        "symbol": "CIRCUS",
+        "description": "clownmaxxed store of value",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/circus.png",
+        "coinGeckoId": "",
+        "color": "#242033"
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1zlf3hutsa4qnmue53lz2tfxrutp8y2e3rj4nkghg3rupgl4mqy8s5jgxsn/xASTRO",
+        "name" : "Staked Astroport Token",
+        "symbol": "xASTRO",
+        "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/xAstro.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "bridge",
+        "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+        "name" : "wstETH",
+        "symbol": "wstETH",
+        "description": "wstETH on Neutron.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
+        "coinGeckoId": "wrapped-steth",
+        "bridge_info" : {
+            "path": "ethereum>neutron",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C084B31AB4906CD6CC65CB779B1527A66B6C98629259E3548B2F20D2753D5837",
+        "name": "Neptune Finance",
+        "symbol": "NEPT",
+        "description": "The native token of Neptune Finance",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/nept.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "injective>neutron",
+            "client" : {
+                "channel": "channel-60",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-177",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F16C7C5B6F7E96ACDA73E35BCA3A3DE49DDF7164066A359C843E9709041CE6B9",
+        "name": "Dogecoin (Int3)",
+        "symbol": "DOGE.int3",
+        "description": "Dogecoin on Int3face",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg",
+        "ibc_info": {
+            "path": "dogecoin>int3face>neutron",
+            "client": {
+                "channel": "channel-6455",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "int3face",
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D9E2128761E0A60C6C7C166BF30A23E9C2029576817F16CD4BD4F598A2077C04",
+        "name": "Bitcoin (Int3)",
+        "symbol": "BTC.int3",
+        "description": "Bitcoin on Int3face",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg",
+        "ibc_info": {
+            "path": "bitcoin>int3face>neutron",
+            "client": {
+                "channel": "channel-6455",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "int3face",
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1D45F4770FA033E69A3A3B751263FD774952C2452F65944A1CB914E58C74A35B",
+        "name": "Bitcoin Cash (Int3)",
+        "symbol": "BCH.int3",
+        "description": "Bitcoin-Cash on Int3face",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg",
+        "ibc_info": {
+            "path": "bitcoincash>int3face>neutron",
+            "client": {
+                "channel": "channel-6455",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "int3face",
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C4C791209A16419A4BB3C3177E5E8AE4477C9D7457842E7F531F91C513FA79A0",
+        "name": "Litecoin (Int3)",
+        "symbol": "LTC.int3",
+        "description": "Litecoin on Int3face",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg",
+        "ibc_info": {
+            "path": "litecoin>int3face>neutron",
+            "client": {
+                "channel": "channel-6455",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "int3face",
+                "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/647A544ED631A846AFB787A9550422E782E913C46513011A48220AB13DC24D55",
+        "name" : "Noble Dollar",
+        "symbol": "USDN",
+        "description": "USDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdn.png",
+        "coinGeckoId": "noble-dollar-usdn",
+        "ibc_info" : {
+            "path": "noble>neutron",
+            "client" : {
+                "channel": "channel-30",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-18",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdn"
+            }
+        }
+    }
+]

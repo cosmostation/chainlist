@@ -1,0 +1,143 @@
+[
+    {
+        "type": "native",
+        "denom": "uom",
+        "name": "Mantra",
+        "symbol": "OM",
+        "description": "MANTRA Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/om.png",
+        "coinGeckoId": "mantra-dao",
+        "color": "#FC86CD"
+    },
+    {
+        "type": "native",
+        "denom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE",
+        "name": "Ali-Rev-Gator",
+        "symbol": "BIKE",
+        "description": "The OG meme coin on MANTRA Chain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/BIKE.png",
+        "coinGeckoId": "",
+        "color": "#7DA868"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+        "name": "Cosmos Hub",
+        "symbol": "ATOM",
+        "description": "The native staking and governance token of the Cosmos Hub.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "color": "#272d45",
+        "coinGeckoId": "cosmos",
+        "ibc_info": {
+            "path": "cosmos>mantra",
+            "client": {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1252",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>mantra",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-85077",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
+        "name": "USDC",
+        "symbol": "USDC",
+        "decimals": 6,
+        "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "color": "#2775CA",
+        "coinGeckoId": "usd-coin",
+        "ibc_info": {
+            "path": "noble>mantra",
+            "client": {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-101",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6749D16BC09F419C090C330FC751FFF1C96143DB7A4D2FCAEC2F348A3E17618A",
+        "name": "Ondo US Dollar Yield",
+        "symbol": "USDY",
+        "decimals": 18,
+        "description": "Ondo US Dollar Yield",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg",
+        "color": "#142c5c",
+        "coinGeckoId": "ondo-us-dollar-yield",
+        "ibc_info": {
+            "path": "noble>mantra",
+            "client": {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-101",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "ausdy"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/16E817E682AD1A73FD748BC989574B2702E109C4105550498086531FA3D6B050",
+        "name": "Stargaze",
+        "symbol": "STARS",
+        "description": "The native token of Stargaze",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
+        "color": "#db2777",
+        "coinGeckoId": "stargaze",
+        "ibc_info": {
+            "path": "stargaze>mantra",
+            "client": {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-406",
+                "port": "transfer",
+                "chain": "stargaze",
+                "denom": "ustars"
+            }
+        }
+    }
+]

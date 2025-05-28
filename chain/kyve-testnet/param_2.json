@@ -1,0 +1,58 @@
+{
+    "chain_id_cosmos" : "kaon-1",
+    "chain_name": "Kyve Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kyve-testnet/resource/chain_kyve-testnet.png",
+    "staking_asset_denom" : "tkyve",
+    "staking_asset_symbol" : "KYVE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kyve-testnet/asset/kyve.png",
+    "bech_account_prefix" : "kyve",
+    "bech_validator_prefix" : "kyvevaloper",
+    "api_name" : "kyve-testnet",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.02tkyve"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/kyve-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/kyve-testnet/",
+        "account": "https://www.mintscan.io/kyve-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/kyve-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/kyve-testnet/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.kyve.network/",
+        "docs": "https://docs.kyve.network",
+        "github" : "https://github.com/KYVENetwork",
+        "blog" : "https://blog.kyve.network",
+        "medium": "https://blog.kyve.network",
+        "twitter" : "https://twitter.com/KYVENetwork",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "KYVE 네트워크는 탈중앙화된 데이터 레이크 솔루션을 제공하는 Cosmos SDK 기반 블록체인입니다.",
+        "en" : "KYVE is a Cosmos SDK-based network that provides a decentralized data lake solution.",
+        "ja" : "KYVEネットワークは、脱中央化されたデータレイクソリューションを提供するCosmos SDKベースのブロックチェーンです。"
+    }
+}

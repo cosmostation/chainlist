@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Faucet",
+        "description": "Monad Testnet Faucet",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/xrplevm-testnet/resource/faucet.png",
+        "link": "https://faucet.xrplevm.org/",
+        "type": "Faucet"
+    },
+    {
+        "name": "Strobe",
+        "description": "Unlock new yield opportunities for XRP holders by tapping into diverse reward sources.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/xrplevm-testnet/resource/strobe.png",
+        "link": "https://strobe.finance/",
+        "type": "DeFi"
+    },
+    {
+        "name": "Moai Finance",
+        "description": "Moai Finance is on a mission to pioneer decentralized real-fi by leveraging public blockchain protocols as its foundational infrastructure.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/xrplevm-testnet/resource/moai.png",
+        "link": "https://xrplevm.moai-finance.xyz/swap",
+        "type": "DeFi"
+    },
+    {
+        "name": "Hammy Swap",
+        "description": "Hammy Swap is the pioneer DEX on the XRPL EVM Sidechain. It offers seamless swap and yield-farming services, combining security, cost-effectiveness and a user-friendly experience.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/xrplevm-testnet/resource/hammy.png",
+        "link": "https://hammy.finance/",
+        "type": "DeFi"
+    },
+    {
+        "name": "Palmera",
+        "description": "Powered by Safe, Palmera streamlines your Safes operations and treasury management across multiple chains, all from a single dashboard",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/xrplevm-testnet/resource/palmera.png",
+        "link": "https://app.palmeradao.xyz/create",
+        "type": "Dashboard"
+    },
+    {
+        "name": "ZNS Connect",
+        "description": "#ZNSConnect decentralized ID platform powered by decentralized addresses",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/xrplevm-testnet/resource/zns.png",
+        "link": "https://zns.bio/search",
+        "type": "NameService"
+    }
+]

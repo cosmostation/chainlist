@@ -1,0 +1,58 @@
+{
+    "chain_id_cosmos" : "ssc-testnet-2",
+    "chain_name": "Saga Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saga-testnet/resource/chain_saga-testnet.png",
+    "staking_asset_denom": "utsaga",
+    "staking_asset_symbol" : "TSAGA",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saga-testnet/asset/saga.png",
+    "bech_account_prefix" : "saga",
+    "bech_validator_prefix" : "sagavaloper",
+    "api_name" : "saga-testnet",
+    "is_support_mintscan": true,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.01utsaga"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/saga-testnet/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/saga-testnet/",
+        "account": "https://www.mintscan.io/saga-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/saga-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/saga-testnet/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.saga.xyz/",
+        "docs": "https://docs.saga.xyz/introduction/pegasus-overview",
+        "github" : "https://github.com/sagaxyz",
+        "blog" : "",
+        "medium": "https://medium.com/sagaxyz",
+        "twitter" : "https://twitter.com/Sagaxyz__",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Saga는 개발자가 Web3 애플리케이션 요구 사항에 따라 탄력적으로 확장되는 병렬화되고 상호 운용 가능한 전용 체인을 자동으로 스핀업할 수 있는 레이어 1 프로토콜입니다.",
+        "en" : "Saga is a Layer 1 protocol that allows developers to automatically spin up parallelized and interoperable dedicated chains that elastically scale with their Web3 application needs.",
+        "ja" : "Saga は、開発者が Web3 アプリケーションのニーズに合わせて柔軟に拡張できる、並列化された相互運用可能な専用チェーンを自動的に起動できるようにするレイヤー 1 プロトコルです。"
+    }
+}

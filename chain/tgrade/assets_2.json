@@ -1,0 +1,36 @@
+[
+    {
+        "type": "native",
+        "denom": "utgd",
+        "name" : "T-Grade",
+        "symbol": "TGD",
+        "description": "T-Grade Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/tgrade/asset/tgd.png",
+        "coinGeckoId": "tgrade",
+        "color": "#C7177B"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4B322204B4F59D770680FE4D7A565DDC3F37BFF035474B717476C66A4F83DD72",
+        "name" : "Evmos",
+        "symbol": "EVMOS",
+        "description": "Evmos Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/evmos/asset/evmos.png",
+        "coinGeckoId": "evmos",
+        "ibc_info" : {
+            "path": "evmos>tgrade",
+            "client" : {
+                "channel": "channel-9",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-34",
+                "port": "transfer",
+                "chain": "evmos",
+                "denom": "aevmos"
+            }
+        }
+    }
+]

@@ -1,0 +1,72 @@
+{
+    "chain_id_cosmos": "ledger-testnet-1",
+    "chain_name": "Lombard Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard-testnet/resource/chain_lombard-testnet.png",
+    "staking_asset_denom" : "ustake",
+    "staking_asset_symbol" : "STAKE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard-testnet/asset/stake.png",
+    "main_asset_denom": "ulom",
+    "main_asset_symbol" : "LOM",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard-testnet/asset/lom.png",
+    "bech_account_prefix" : "lom",
+    "bech_validator_prefix" : "lomvaloper",
+    "origin_genesis_time" : "2024-12-14T23:50:00Z",
+    "api_name" : "lombard-testnet",
+    "is_stake_enabled" : false,
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "1ulom"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc.testnet.lombard.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd.testnet.lombard.cosmostation.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/lombard-testnet/",
+        "account": "https://www.mintscan.io/lombard-testnet/address/${address}",
+        "tx": "https://www.mintscan.io/lombard-testnet/tx/${hash}",
+        "proposal": "https://www.mintscan.io/lombard-testnet/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.lombard.finance/",
+        "docs": "https://docs.lombard.finance/",
+        "github" : "https://github.com/lombard-finance",
+        "blog" : "https://www.lombard.finance/blog/",
+        "medium": "",
+        "twitter" : "https://x.com/lombard_finance",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Lombard는 보안 우선의 유동적인 비트코인 원시 자산인 LBTC를 통해 비트코인의 용도를 단순한 가치 저장 수단에서 생산적인 금융 도구로 전환하고 있습니다. LBTC는 유동성이 뛰어나고 수익을 창출하며, 네이티브하게 체인 간 이동이 가능하며, 비트코인으로 1:1로 담보되어 있습니다.",
+        "en" : "Lombard is transforming Bitcoin's utility from a store of value into a productive financial tool through a security-first liquid Bitcoin primitive—LBTC. LBTC is a liquid, yield-bearing, natively cross-chain, and 1:1 backed by bitcoin.",
+        "ja" : "Lombardは、セキュリティを最優先した流動的なビットコイン原始資産「LBTC」を通じて、ビットコインの用途を価値の保存手段から生産的な金融ツールへと進化させています。 LBTCは高い流動性を持ち、利回りを生み出し、ネイティブにクロスチェーン対応しており、1:1でビットコインによって裏付けられています。"
+    }
+}

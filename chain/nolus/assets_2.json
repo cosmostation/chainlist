@@ -1,0 +1,81 @@
+[
+    {
+        "type": "native",
+        "denom": "unls",
+        "name": "Nolus",
+        "symbol": "NLS",
+        "description": "Nolus Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nolus/asset/nolus.png",
+        "coinGeckoId": "nolus"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>nolus",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-783",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3D6BC6E049CAEB905AC97031A42800588C58FB471EBDC7A3530FFCD0C3DC9E09",
+        "name": "Neutron",
+        "symbol": "NTRN",
+        "description": "The native token of Neutron chain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrn.png",
+        "coinGeckoId": "neutron-3",
+        "ibc_info": {
+            "path": "neutron>nolus",
+            "client": {
+                "channel": "channel-3839",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-44",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "untrn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EB08474FFC49B6BB2F03F7D9B08697138F4DA53347CA1AB718C8BCFBB58C1B2B",
+        "name" : "dATOM",
+        "symbol": "dATOM",
+        "description": "A liquid staking derivative of staked ATOM, powered by DROP on Neutron.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/datom.png",
+        "coinGeckoId": "drop-staked-atom",
+        "ibc_info" : {
+            "path": "neutron>nolus",
+            "client" : {
+                "channel": "channel-3839",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-44",
+                "port": "transfer",
+                "chain": "neutron",
+                "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
+            }
+        }
+    }
+]
