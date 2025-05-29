@@ -2489,5 +2489,17 @@
         ],
         "socials": {},
         "type": "DashBoard"
+    },
+    {
+        "id": 147,
+        "name": "0G Faucet",
+        "description": "Faucet for 0G Testnet",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/0gfaucet.png",
+        "link": "https://faucet.0g.ai//",
+        "chains": [
+            "zero-gravity-testnet"
+        ],
+        "socials": {},
+        "type": "Faucet"
     }
 ]
