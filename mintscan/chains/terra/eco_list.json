@@ -236,6 +236,19 @@
     }
   },
   {
+    "name": "Osmosis Pay",
+    "type": "Payments",
+    "description": "IBC USDC to Osmosis and pay in the real world with your virtual VISA card.",
+    "status": "open",
+    "thumbnail" : "osmosispay",
+    "link": "https://pay.osmosis.zone/",
+    "social": {
+      "webSite": "https://osmosiscard.notion.site/",
+      "twitter": "https://x.com/osmosiszone/status/1927761803607765140",
+      "docs": "https://www.stakecito.com/blog/osmosis-launches-osmosis-pay-bringing-crypto-to-everyday-payments"
+    }
+  },
+  {
     "name": "Pulsar Finance",
     "type": "Portfolio",
     "description": "All-In-One portfolio tracker for your Web3 assets,",
