@@ -35,7 +35,7 @@
     "description": "Hosts a native Terra DEX with a focus on interchain liquidity solutions.",
     "status": "open",
     "thumbnail" : "white-whale2",
-    "link": "https://app.whitewhale.money/terra/swap?from=USDt&to=LUNA",
+    "link": "https://app.whitewhale.money/terra/swap?from=USDC&to=LUNA",
     "social": {
       "webSite": "https://www.whitewhale.money/",
       "twitter": "https://twitter.com/WhiteWhaleDefi",
@@ -183,12 +183,12 @@
   {
     "name": "DAO DAO",
     "type": "DeFi",
-    "description": "The home for Decentralized Autonomous Organizations for Terra/Cosmos, including PD and Lion Dao.",
+    "description": "The home for Decentralized Autonomous Organizations on Terra/Cosmos, such as Lion Dao and Phoenix Directive.",
     "status": "open",
     "thumbnail" : "daodao",
-    "link": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
+    "link": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
     "social": {
-      "webSite": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
+      "webSite": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
       "twitter": "https://x.com/DA0_DA0",
       "github": "https://github.com/DA0-DA0",
       "docs": "https://docs.daodao.zone/"
@@ -221,6 +221,45 @@
       "medium": "https://medium.com/@tfm.com",
       "github": "https://github.com/tfm-com",
       "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
+    }
+  },
+  {
+    "name": "Coinhall",
+    "type": "DeFi",
+    "description": "Omnichain Trading Terminal for Cosmos chains and Solana.",
+    "status": "open",
+    "thumbnail" : "coinhall",
+    "link": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=uluna&toChain=phoenix-1&toAsset=ibc%2F9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+    "social": {
+      "webSite": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=uluna&toChain=phoenix-1&toAsset=ibc%2F8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+      "twitter": "https://x.com/coinhall_org?lang=kn",
+      "github": "https://github.com/coinhall",
+      "docs": "https://docs.coinhall.org/"
+    }
+  },
+  {
+    "name": "Streamweave",
+    "type": "Payments",
+    "description": "Continuous crypto payments for various use cases such as subscriptions, salaries, vesting schedules, and rewards.",
+    "status": "open",
+    "thumbnail" : "streamweave",
+    "link": "https://streamweave.org/",
+    "social": {
+      "webSite": "https://streamweave.org/",
+      "twitter": "https://x.com/Streamweave_org/"
+    }
+  },
+  {
+    "name": "Pulsar Finance",
+    "type": "Portfolio",
+    "description": "All-In-One portfolio tracker for your Web3 assets,",
+    "status": "open",
+    "thumbnail" : "pulsar",
+    "link": "https://app.pulsar.finance/",
+    "social": {
+      "webSite": "https://app.pulsar.finance/portfolio",
+      "twitter": "https://x.com/pulsarfinance",
+      "medium": "https://medium.com/@pulsarfinance"
     }
   },
   {
