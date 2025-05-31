@@ -195,20 +195,6 @@
     }
   },
   {
-    "name": "Noble Express",
-    "type": "Transport",
-    "description": "Alternative to Skip for native USDC transfers in and out of Terra/Cosmos.",
-    "status": "open",
-    "thumbnail" : "noble-express",
-    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
-    "social": {
-      "webSite": "https://express.noble.xyz/",
-      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
-      "github": "https://github.com/noble-assets",
-      "docs": "https://docs.noble.xyz/cctp"
-    }
-  },
-  {
     "name": "TFM",
     "type": "DeFi",
     "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's and much more ...",
@@ -263,9 +249,38 @@
     }
   },
   {
+    "name": "Noble Express",
+    "type": "Transport",
+    "description": "Alternative to Skip Go for native USDC transfers in and out of Terra/Cosmos.",
+    "status": "open",
+    "thumbnail" : "noble-express",
+    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
+    "social": {
+      "webSite": "https://express.noble.xyz/",
+      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
+      "github": "https://github.com/noble-assets",
+      "docs": "https://docs.noble.xyz/cctp"
+    }
+  },
+  {
+    "name": "Squid Router",
+    "type": "Transport",
+    "description": "An Axelar-built bridge that allows token transfers/swaps between Terra and non-Cosmos chains.",
+    "status": "open",
+    "thumbnail" : "squid",
+    "link": "https://app.squidrouter.com/?chains=1%2Cphoenix-1&tokens=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48%2Culuna",
+    "social": {
+      "webSite": "https://squidrouter.com/",
+      "twitter": "https://x.com/squidrouter",
+      "medium": "https://medium.com/@squidrouter",
+      "github": "https://github.com/0xsquid",
+      "docs": "https://docs.squidrouter.com/"
+    }
+  },
+  {
     "name": "Portal",
     "type": "Transport",
-    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains.",
+    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos chains.",
     "status": "open",
     "thumbnail" : "portal",
     "link": "https://portalbridge.com/advanced-tools/#/transfer",
