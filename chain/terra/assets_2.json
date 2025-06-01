@@ -682,6 +682,29 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/B2AA4C3CD19954859C3B537EC0705640AFC01075F52993D9AC5E73F07F0386CC",
+        "name": "Dragon Coin",
+        "symbol": "DGN",
+        "description": "Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem's governance and success.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+        "coinGeckoId": "dragon-coin-2",
+        "ibc_info": {
+            "path": "dungeon>terra",
+            "client": {
+                "channel": "channel-582",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-7",
+                "port": "transfer",
+                "chain": "dungeon",
+                "denom": "udgn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/79B60804664911EB0B074690182CCA7332406417B1050A583BAF0904F6B54635",
         "name" : "Luna Classic",
         "symbol": "LUNC",
