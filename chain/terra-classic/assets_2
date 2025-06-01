@@ -1,0 +1,59 @@
+[
+    {
+        "type": "native",
+        "denom": "uluna",
+        "name" : "LUNC",
+        "symbol": "LUNC",
+        "description": "The native staking coin of Terra Classic.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/lunc.png",
+        "coinGeckoId": "terra-luna",
+        "color": "#1E75EE"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E1E3674A0E4E1EF9C69646F9AF8D9497173821826074622D831BAB73CCB99A2D",
+        "name" : "USD Coin (Axelar)",
+        "symbol": "USDC.axl",
+        "description": "Wrapped USDC imported to Cosmos from Ethereum via Axelar.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "axlusdc",
+        "ibc_info" : {
+            "path": "ethereum>axelar>terra",
+            "client" : {
+                "channel": "channel-19",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/386A4031D68DE6370B85F9FF7E89CEF8DE7CDE01CC193CBD87BD3ED60F6662CE",
+        "name" : "Tether USD (Axelar)",
+        "symbol": "USDT.axl",
+        "description": "Wrapped USDT imported to Cosmos from Ethereum via Axelar.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg",
+        "coinGeckoId": "axelar-usdt",
+        "ibc_info" : {
+            "path": "ethereum>axelar>terra",
+            "client" : {
+                "channel": "channel-19",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uusdt"
+            }
+        }
+    }
+]
