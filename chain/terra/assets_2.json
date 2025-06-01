@@ -410,7 +410,7 @@
         "denom": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
         "name" : "Wrapped stETH",
         "symbol": "wstETH",
-        "description": "Wrapped Lido Staked Ether, imported to Terra via Neutron and is considered the canonical version of stETH in Cosmos.",
+        "description": "Wrapped Lido Staked Ether, imported to Terra via Neutron and is considered the canonical version of stETH in Cosmos. bridge.neutron.org",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
         "coinGeckoId": "wrapped-steth",
