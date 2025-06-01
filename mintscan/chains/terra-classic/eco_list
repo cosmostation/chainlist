@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Terraport",
+    "type": "DeFi",
+    "description": "A neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+    "status": "open",
+    "thumbnail" : "terra",
+    "link": "https://terraport.finance/",
+    "social": {
+      "webSite": "https://terraport.finance/",
+      "twitter": "https://twitter.com/_terraport_",
+      "medium": "https://medium.com/@terraport",
+      "docs": "https://terraport.gitbook.io/terraport-docs"
+    }
+  },
+  {
+    "name": "Juris Protocol",
+    "type": "DeFi",
+    "description": "Juris Protocol is a community-driven DeFi platform on Terra Classic offering high-efficiency lending and borrowing markets powered by CosmWasm smart contracts to revitalize the ecosystem.",
+    "status": "open",
+    "thumbnail" : "juris",
+    "link": "https://jurisprotocol.com/",
+    "social": {
+      "webSite": "https://jurisprotocol.com/",
+      "twitter": "https://twitter.com/JurisProtocol",
+      "medium": "https://solidproof-io.medium.com/juris-protocol-revitalizing-terra-classic-f874441b6086",
+      "github": "https://github.com/jurisprotocol",
+      "docs": "https://juris-protocol.gitbook.io/juris-protocol"
+    }
+  }
+]
