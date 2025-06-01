@@ -391,7 +391,7 @@
     {
         "type": "cw20",
         "contract": "terra15hhqg8gyz04zapynqtk7uvlsp7lzay7etrt9ann0276v94yae63sxygeat",
-        "name" : "Wrapped Ether (Portal)",
+        "name" : "Wrapped ETH (Portal)",
         "symbol": "WETH.wh",
         "description": "Wrapped Ethereum imported directly to Terra via Wormhole technology.",
         "decimals": 8,
