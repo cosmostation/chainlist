@@ -362,7 +362,7 @@
     {
         "type": "ibc",
         "denom": "ibc/CF57A83CED6CEC7D706631B5DC53ABC21B7EDA7DF7490732B4361E6D5DD19C73",
-        "name" : "Wrapped BTC",
+        "name" : "Wrapped Bitcoin",
         "symbol": "WBTC",
         "description": "Wrapped Bitcoin is a token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Osmosis community led.",
         "decimals": 8,
@@ -385,7 +385,7 @@
     {
         "type": "ibc",
         "denom": "ibc/05D299885B07905B6886F554B39346EA6761246076A1120B1950049B92B922DD",
-        "name" : "Wrapped BTC (Axelar)",
+        "name" : "Wrapped Bitcoin (Axelar)",
         "symbol": "WBTC.axl",
         "description": "Wrapped Bitcoin imported to Cosmos from Ethereum via Axelar.",
         "decimals": 8,
@@ -410,7 +410,7 @@
         "denom": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
         "name" : "Wrapped stETH",
         "symbol": "wstETH",
-        "description": "Wrapped Lido Staked Ether, imported to Terra via Neutron and is considered the canonical version of stETH in the whole Cosmos.",
+        "description": "Wrapped Lido Staked Ether, imported to Terra via Neutron and is considered the canonical version of stETH in Cosmos.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
         "coinGeckoId": "wrapped-steth",
@@ -432,7 +432,7 @@
         "type": "ibc",
         "denom": "ibc/BC8A77AFBD872FDC32A348D3FB10CC09277C266CFE52081DE341C7EC6752E674",
         "name" : "Wrapped ETH (Axelar)",
-        "symbol": "WETH.axl",
+        "symbol": "ETH.axl",
         "description": "Wrapped Ethereum imported to Cosmos via Axelar.",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/eth.axl.svg",
@@ -654,6 +654,29 @@
                 "port": "transfer",
                 "chain": "neutron",
                 "denom": "untrn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1319C6B38CA613C89D78C2D1461B305038B1085F6855E8CD276FE3F7C9600B4C",
+        "name" : "Binance Coin (Axelar)",
+        "symbol": "BNB.axl",
+        "description": "Wrapped BNB imported to Cosmos via Axelar.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bnb.axl.svg",
+        "coinGeckoId": "bnb",
+        "ibc_info" : {
+            "path": "bnb-smart-chain>axelar>terra",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "wbnb-wei"
             }
         }
     },
