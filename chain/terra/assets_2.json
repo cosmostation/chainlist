@@ -363,8 +363,8 @@
         "type": "ibc",
         "denom": "ibc/CF57A83CED6CEC7D706631B5DC53ABC21B7EDA7DF7490732B4361E6D5DD19C73",
         "name" : "Wrapped Bitcoin",
-        "symbol": "WBTC",
-        "description": "Wrapped Bitcoin is a token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Osmosis community led.",
+        "symbol": "WBTC.osmo",
+        "description": "Wrapped Bitcoin is a token backed 1:1 with Bitcoin, directly minted on the Osmosis chain by BitGo.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
         "coinGeckoId": "wrapped-bitcoin",
@@ -700,6 +700,29 @@
                 "port": "transfer",
                 "chain": "dungeon",
                 "denom": "udgn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+        "name" : "Wrapped Bitcoin (Eureka)",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin imported to Terra via Gaia's IBC connection to Ethereum.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/WBTCportal.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "ibc_info" : {
+            "path": "ethereum>cosmos>terra",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-339",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "transfer/08-wasm-1369/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
             }
         }
     },
