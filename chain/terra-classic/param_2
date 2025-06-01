@@ -1,0 +1,73 @@
+{
+    "chain_id_cosmos" : "columbus-5",
+    "chain_name": "Terra Classic",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic
+/resource/chain_terra-classic.png",
+    "staking_asset_denom" : "uluna",
+    "staking_asset_symbol" : "LUNC",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic
+/asset/lunc.png",
+    "bech_account_prefix" : "terra",
+    "bech_validator_prefix" : "terravaloper",
+    "origin_genesis_time" : "2022-05-28T06:00:00Z",
+    "api_name" : "terra",
+    "is_support_cw20" : true,
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/330'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.015uluna,0.018ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB,0.018ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
+            "0.04uluna,0.05ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB,0.05ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "All Nodes",
+            "url": "terra-classic-grpc.publicnode.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "All Nodes",
+            "url": "https://terra-classic-lcd.publicnode.com"
+        }
+    ],
+    "explorer" : {
+        "name": "Moon-Runners",
+        "url": "https://moon-runners.net/finder/",
+        "account": "https://finder.terraclassic.community/${address}",
+        "tx": "https://finder.terraclassic.community/${hash}",
+        "proposal": "https://moon-runners.net/gov/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://www.terra-classic.money/",
+        "docs": "https://classic-docs.terra.money/",
+        "github" : "https://github.com/classic-terra/core",  
+        "coingecko" : "https://www.coingecko.com/en/coins/terra-luna-classic"
+    },
+    "forum": {
+        "main": "https://common.xyz/terra-luna-classic-lunc/community-home"
+    },
+   "description": {
+    "ko": "테라 클래식(LUNC)은 2022년 UST 붕괴 이후 커뮤니티 주도로 운영되는 원조 Cosmos SDK 기반 블록체인으로, CosmWasm 스마트 컨트랙트를 지속 지원합니다.",
+    "en": "Terra Classic (LUNC) is the original Cosmos SDK blockchain resurrected by its community after the 2022 UST collapse, continuing to support CosmWasm smart contracts under decentralized governance.",
+    "ja": "テラ・クラシック（LUNC）は、2022年のUST崩壊後にコミュニティが運営を引き継いだオリジナルのCosmos SDKチェーンで、引き続きCosmWasmスマートコントラクトをサポートしています。"
+}
+}
