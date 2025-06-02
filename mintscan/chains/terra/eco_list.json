@@ -30,6 +30,20 @@
     }
   },
   {
+    "name": "Skip Go",
+    "type": "DeFi",
+    "description": "CCTP-enabled DEX aggregator for Cosmos/Terra. Now allows for IBC Eureka transfers!",
+    "status": "open",
+    "thumbnail" : "go-cosmos",
+    "link": "https://go.cosmos.network/",
+    "social": {
+      "webSite": "https://www.skip.build/",
+      "twitter": "https://x.com/SkipProtocol",
+      "github": "https://github.com/skip-mev",
+      "docs": "https://docs.skip.build/go"
+    }
+  },
+  {
     "name": "White Whale",
     "type": "DeFi",
     "description": "Hosts a native Terra DEX with a focus on interchain liquidity solutions.",
@@ -42,20 +56,6 @@
       "medium": "https://medium.com/@whitewhaleterra",
       "github": "https://github.com/White-Whale-Defi-Platform/",
       "docs": "https://docs.migaloo.zone/"
-    }
-  },
-  {
-    "name": "Skip Go",
-    "type": "DeFi",
-    "description": "CCTP-enabled DEX aggregator for Cosmos/Terra. Now allows for IBC Eureka transfers!",
-    "status": "open",
-    "thumbnail" : "go-cosmos",
-    "link": "https://go.cosmos.network/",
-    "social": {
-      "webSite": "https://www.skip.build/",
-      "twitter": "https://x.com/SkipProtocol",
-      "github": "https://github.com/skip-mev",
-      "docs": "https://docs.skip.build/go"
     }
   },
   {
@@ -88,7 +88,7 @@
   },
   {
     "name": "Monerium",
-    "type": "Transport",
+    "type": "DeFi",
     "description": "SEPA transfers to your Monerium IBAN will mint EURe on Noble, which you can then IBC to Terra.",
     "status": "open",
     "thumbnail" : "monerium",
@@ -111,6 +111,21 @@
       "webSite": "https://solid.online/",
       "twitter": "https://x.com/solid_capa",
       "docs": "https://solid.online/whitepaper-v2.pdf"
+    }
+  },
+  {
+    "name": "Squid Router",
+    "type": "Transport",
+    "description": "An Axelar-built bridge that allows token transfers/swaps between Terra and non-Cosmos chains.",
+    "status": "open",
+    "thumbnail" : "squid",
+    "link": "https://app.squidrouter.com/?chains=56%2Caxelar-dojo-1&tokens=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee%2Cwbnb-wei",
+    "social": {
+      "webSite": "https://squidrouter.com/",
+      "twitter": "https://x.com/squidrouter",
+      "medium": "https://medium.com/@squidrouter",
+      "github": "https://github.com/0xsquid",
+      "docs": "https://docs.squidrouter.com/"
     }
   },
   {
@@ -181,35 +196,6 @@
     }
   },
   {
-    "name": "DAO DAO",
-    "type": "DeFi",
-    "description": "The home for Decentralized Autonomous Organizations on Terra/Cosmos, such as Lion Dao and Phoenix Directive.",
-    "status": "open",
-    "thumbnail" : "daodao",
-    "link": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
-    "social": {
-      "webSite": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
-      "twitter": "https://x.com/DA0_DA0",
-      "github": "https://github.com/DA0-DA0",
-      "docs": "https://docs.daodao.zone/"
-    }
-  },
-  {
-    "name": "TFM",
-    "type": "DeFi",
-    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's and much more ...",
-    "status": "open",
-    "thumbnail" : "tfm",
-    "link": "https://app.tfm.com/bridge?chainFrom=cosmoshub-4&chainTo=phoenix-1&token0=uatom",
-    "social": {
-      "webSite": "https://tfm.com/",
-      "twitter": "https://twitter.com/tfm_com",
-      "medium": "https://medium.com/@tfm.com",
-      "github": "https://github.com/tfm-com",
-      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
-    }
-  },
-  {
     "name": "Coinhall",
     "type": "DeFi",
     "description": "Omnichain Trading Terminal for Cosmos chains and Solana.",
@@ -221,6 +207,20 @@
       "twitter": "https://x.com/coinhall_org?lang=kn",
       "github": "https://github.com/coinhall",
       "docs": "https://docs.coinhall.org/"
+    }
+  },
+  {
+    "name": "DAO DAO",
+    "type": "DeFi",
+    "description": "The home for Decentralized Autonomous Organizations on Terra/Cosmos, such as Lion Dao and Phoenix Directive.",
+    "status": "open",
+    "thumbnail" : "daodao",
+    "link": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
+    "social": {
+      "webSite": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
+      "twitter": "https://x.com/DA0_DA0",
+      "github": "https://github.com/DA0-DA0",
+      "docs": "https://docs.daodao.zone/"
     }
   },
   {
@@ -262,6 +262,21 @@
     }
   },
   {
+    "name": "TFM",
+    "type": "DeFi",
+    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's and much more ...",
+    "status": "open",
+    "thumbnail" : "tfm",
+    "link": "https://app.tfm.com/",
+    "social": {
+      "webSite": "https://tfm.com/",
+      "twitter": "https://twitter.com/tfm_com",
+      "medium": "https://medium.com/@tfm.com",
+      "github": "https://github.com/tfm-com",
+      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
+    }
+  },
+  {
     "name": "Noble Express",
     "type": "Transport",
     "description": "Alternative to Skip Go for native USDC transfers in and out of Terra/Cosmos.",
@@ -273,21 +288,6 @@
       "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
       "github": "https://github.com/noble-assets",
       "docs": "https://docs.noble.xyz/cctp"
-    }
-  },
-  {
-    "name": "Squid Router",
-    "type": "Transport",
-    "description": "An Axelar-built bridge that allows token transfers/swaps between Terra and non-Cosmos chains.",
-    "status": "open",
-    "thumbnail" : "squid",
-    "link": "https://app.squidrouter.com/?chains=1%2Cphoenix-1&tokens=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48%2Culuna",
-    "social": {
-      "webSite": "https://squidrouter.com/",
-      "twitter": "https://x.com/squidrouter",
-      "medium": "https://medium.com/@squidrouter",
-      "github": "https://github.com/0xsquid",
-      "docs": "https://docs.squidrouter.com/"
     }
   },
   {
