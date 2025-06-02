@@ -35,7 +35,7 @@
     "description": "Hosts a native Terra DEX with a focus on interchain liquidity solutions.",
     "status": "open",
     "thumbnail" : "white-whale2",
-    "link": "https://app.whitewhale.money/terra/swap?from=USDt&to=LUNA",
+    "link": "https://app.whitewhale.money/terra/swap?from=USDC&to=LUNA",
     "social": {
       "webSite": "https://www.whitewhale.money/",
       "twitter": "https://twitter.com/WhiteWhaleDefi",
@@ -183,29 +183,15 @@
   {
     "name": "DAO DAO",
     "type": "DeFi",
-    "description": "The home for Decentralized Autonomous Organizations for Terra/Cosmos, including PD and Lion Dao.",
+    "description": "The home for Decentralized Autonomous Organizations on Terra/Cosmos, such as Lion Dao and Phoenix Directive.",
     "status": "open",
     "thumbnail" : "daodao",
-    "link": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
+    "link": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
     "social": {
-      "webSite": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
+      "webSite": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
       "twitter": "https://x.com/DA0_DA0",
       "github": "https://github.com/DA0-DA0",
       "docs": "https://docs.daodao.zone/"
-    }
-  },
-  {
-    "name": "Noble Express",
-    "type": "Transport",
-    "description": "Alternative to Skip for native USDC transfers in and out of Terra/Cosmos.",
-    "status": "open",
-    "thumbnail" : "noble-express",
-    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
-    "social": {
-      "webSite": "https://express.noble.xyz/",
-      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
-      "github": "https://github.com/noble-assets",
-      "docs": "https://docs.noble.xyz/cctp"
     }
   },
   {
@@ -224,9 +210,90 @@
     }
   },
   {
+    "name": "Coinhall",
+    "type": "DeFi",
+    "description": "Omnichain Trading Terminal for Cosmos chains and Solana.",
+    "status": "open",
+    "thumbnail" : "coinhall",
+    "link": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=uluna&toChain=phoenix-1&toAsset=ibc%2F9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+    "social": {
+      "webSite": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=uluna&toChain=phoenix-1&toAsset=ibc%2F8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+      "twitter": "https://x.com/coinhall_org?lang=kn",
+      "github": "https://github.com/coinhall",
+      "docs": "https://docs.coinhall.org/"
+    }
+  },
+  {
+    "name": "Streamweave",
+    "type": "Payments",
+    "description": "Continuous crypto payments for various use cases such as subscriptions, salaries, vesting schedules, and rewards.",
+    "status": "open",
+    "thumbnail" : "streamweave",
+    "link": "https://streamweave.org/",
+    "social": {
+      "webSite": "https://streamweave.org/",
+      "twitter": "https://x.com/Streamweave_org/"
+    }
+  },
+  {
+    "name": "Osmosis Pay",
+    "type": "Payments",
+    "description": "IBC USDC to Osmosis and pay in the real world with your virtual VISA card.",
+    "status": "open",
+    "thumbnail" : "osmosispay",
+    "link": "https://pay.osmosis.zone/",
+    "social": {
+      "webSite": "https://osmosiscard.notion.site/",
+      "twitter": "https://x.com/osmosiszone/status/1927761803607765140",
+      "docs": "https://www.stakecito.com/blog/osmosis-launches-osmosis-pay-bringing-crypto-to-everyday-payments"
+    }
+  },
+  {
+    "name": "Pulsar Finance",
+    "type": "Portfolio",
+    "description": "All-In-One portfolio tracker for your Web3 assets,",
+    "status": "open",
+    "thumbnail" : "pulsar",
+    "link": "https://app.pulsar.finance/",
+    "social": {
+      "webSite": "https://app.pulsar.finance/portfolio",
+      "twitter": "https://x.com/pulsarfinance",
+      "medium": "https://medium.com/@pulsarfinance"
+    }
+  },
+  {
+    "name": "Noble Express",
+    "type": "Transport",
+    "description": "Alternative to Skip Go for native USDC transfers in and out of Terra/Cosmos.",
+    "status": "open",
+    "thumbnail" : "noble-express",
+    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
+    "social": {
+      "webSite": "https://express.noble.xyz/",
+      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
+      "github": "https://github.com/noble-assets",
+      "docs": "https://docs.noble.xyz/cctp"
+    }
+  },
+  {
+    "name": "Squid Router",
+    "type": "Transport",
+    "description": "An Axelar-built bridge that allows token transfers/swaps between Terra and non-Cosmos chains.",
+    "status": "open",
+    "thumbnail" : "squid",
+    "link": "https://app.squidrouter.com/?chains=1%2Cphoenix-1&tokens=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48%2Culuna",
+    "social": {
+      "webSite": "https://squidrouter.com/",
+      "twitter": "https://x.com/squidrouter",
+      "medium": "https://medium.com/@squidrouter",
+      "github": "https://github.com/0xsquid",
+      "docs": "https://docs.squidrouter.com/"
+    }
+  },
+  {
     "name": "Portal",
     "type": "Transport",
-    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains.",
+    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos chains.",
     "status": "open",
     "thumbnail" : "portal",
     "link": "https://portalbridge.com/advanced-tools/#/transfer",
