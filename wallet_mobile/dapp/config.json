@@ -10,6 +10,10 @@
       "chainId": "phoenix-1",
       "denom": "uluna",
       "prefix": "luna"
+    }, {
+      "chainId": "columbus-5",
+      "denom": "uluna",
+      "prefix": "lunc"
     }
   ]
 }
