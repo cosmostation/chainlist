@@ -710,7 +710,7 @@
         "symbol": "WBTC",
         "description": "Wrapped Bitcoin IBC'd to Terra through Gaia's Eureka connection to Ethereum.",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
         "coinGeckoId": "wrapped-bitcoin",
         "ibc_info" : {
             "path": "ethereum>cosmos>terra",
