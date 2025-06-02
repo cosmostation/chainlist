@@ -20,13 +20,13 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "axlusdc",
         "ibc_info" : {
-            "path": "ethereum>axelar>terra",
+            "path": "ethereum>axelar>terra-classic",
             "client" : {
                 "channel": "channel-19",
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-11",
+                "channel": "channel-0",
                 "port": "transfer",
                 "chain": "axelar",
                 "denom": "uusdc"
@@ -43,13 +43,13 @@
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg",
         "coinGeckoId": "axelar-usdt",
         "ibc_info" : {
-            "path": "ethereum>axelar>terra",
+            "path": "ethereum>axelar>terra-classic",
             "client" : {
                 "channel": "channel-19",
                 "port": "transfer"
             },
             "counterparty": {
-                "channel": "channel-11",
+                "channel": "channel-0",
                 "port": "transfer",
                 "chain": "axelar",
                 "denom": "uusdt"

@@ -1,16 +1,14 @@
 {
     "chain_id_cosmos" : "columbus-5",
     "chain_name": "Terra Classic",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic
-/resource/chain_terra-classic.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/resource/chain_terra-classic.png",
     "staking_asset_denom" : "uluna",
     "staking_asset_symbol" : "LUNC",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic
-/asset/lunc.png",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/lunc.png",
     "bech_account_prefix" : "terra",
     "bech_validator_prefix" : "terravaloper",
     "origin_genesis_time" : "2022-05-28T06:00:00Z",
-    "api_name" : "terra",
+    "api_name" : "terra-classic",
     "is_support_cw20" : true,
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
