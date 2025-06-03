@@ -89,7 +89,7 @@
   {
     "name": "Monerium",
     "type": "DeFi",
-    "description": "SEPA transfers to your Monerium IBAN will mint EURe on Noble, which you can then IBC to Terra.",
+    "description": "SEPA transfers to your Monerium IBAN will mint EURe on Noble. Then swap to LUNA with Skip Go.",
     "status": "open",
     "thumbnail" : "monerium",
     "link": "https://monerium.app/accounts",
