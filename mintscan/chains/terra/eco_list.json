@@ -61,12 +61,12 @@
   {
     "name": "Stargate Finance",
     "type": "Transport",
-    "description": "Transfer USDT from anywhere to Kava EVM. Then use the following app for IBC to Terra.",
+    "description": "Transfer USDT from anywhere to Kava EVM (Route: Stargate V1). Then use the following app to Terra.",
     "status": "open",
     "thumbnail" : "stargate",
     "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
     "social": {
-      "webSite": "https://stargate.finance/",
+      "webSite": "https://app.squidrouter.com/?chains=56%2C2222&tokens=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee%2C0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "twitter": "https://x.com/StargateFinance",
       "medium": "https://medium.com/stargate-official",
       "github": "https://github.com/stargate-protocol",
@@ -76,12 +76,12 @@
   {
     "name": "Kava to Terra",
     "type": "Transport",
-    "description": "Use this app to send native USDT straight from Kava EVM to Terra and back.",
+    "description": "Use this app to IBC native USDT straight from Kava EVM to Terra and back.",
     "status": "open",
     "thumbnail" : "appkava",
     "link": "https://app.kava.io/transfer",
     "social": {
-      "webSite": "https://app.kava.io/evm/wkava",
+      "webSite": "https://app.squidrouter.com/?chains=2222%2Cphoenix-1&tokens=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee%2Culuna",
       "twitter": "https://x.com/KAVA_CHAIN/status/1768320712660398268",
       "docs": "https://help.app.kava.io/article/44-how-to-transfer-usdt-to-cosmos-chains-with-a-single-click"
     }
@@ -114,32 +114,17 @@
     }
   },
   {
-    "name": "Squid Router",
-    "type": "Transport",
-    "description": "An Axelar-built bridge that allows token transfers/swaps between Terra and non-Cosmos chains.",
-    "status": "open",
-    "thumbnail" : "squid",
-    "link": "https://app.squidrouter.com/?chains=56%2Caxelar-dojo-1&tokens=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee%2Cwbnb-wei",
-    "social": {
-      "webSite": "https://app.squidrouter.com/?chains=56%2C2222&tokens=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee%2C0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "twitter": "https://x.com/squidrouter",
-      "medium": "https://medium.com/@squidrouter",
-      "github": "https://github.com/0xsquid",
-      "docs": "https://docs.squidrouter.com/"
-    }
-  },
-  {
-    "name": "Demex",
+    "name": "Coinhall",
     "type": "DeFi",
-    "description": "A cross-chain perpetual DEX and money market on Carbon.",
+    "description": "Omnichain Trading Terminal for Terra/Cosmos/Solana.",
     "status": "open",
-    "thumbnail" : "demex",
-    "link": "https://app.dem.exchange/trade/LUNA-PERP",
+    "thumbnail" : "coinhall",
+    "link": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=uluna&toChain=phoenix-1&toAsset=ibc%2F9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
     "social": {
-      "webSite": "https://dem.exchange/",
-      "twitter": "https://twitter.com/demexchange",
-      "github": "https://github.com/Switcheo/carbon-js-sdk",
-      "docs": "https://docs.dem.exchange/"
+      "webSite": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=uluna&toChain=phoenix-1&toAsset=ibc%2F8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+      "twitter": "https://x.com/coinhall_org?lang=kn",
+      "github": "https://github.com/coinhall",
+      "docs": "https://docs.coinhall.org/"
     }
   },
   {
@@ -196,17 +181,32 @@
     }
   },
   {
-    "name": "Coinhall",
+    "name": "TFM",
     "type": "DeFi",
-    "description": "Omnichain Trading Terminal for Cosmos chains and Solana.",
+    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's and much more ...",
     "status": "open",
-    "thumbnail" : "coinhall",
-    "link": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=uluna&toChain=phoenix-1&toAsset=ibc%2F9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+    "thumbnail" : "tfm",
+    "link": "https://app.tfm.com/bridge?chainFrom=cosmoshub-4&chainTo=phoenix-1&token0=uatom",
     "social": {
-      "webSite": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=uluna&toChain=phoenix-1&toAsset=ibc%2F8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
-      "twitter": "https://x.com/coinhall_org?lang=kn",
-      "github": "https://github.com/coinhall",
-      "docs": "https://docs.coinhall.org/"
+      "webSite": "https://tfm.com/",
+      "twitter": "https://twitter.com/tfm_com",
+      "medium": "https://medium.com/@tfm.com",
+      "github": "https://github.com/tfm-com",
+      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
+    }
+  },
+  {
+    "name": "Demex",
+    "type": "DeFi",
+    "description": "A cross-chain perpetual DEX and money market on Carbon.",
+    "status": "open",
+    "thumbnail" : "demex",
+    "link": "https://app.dem.exchange/trade/LUNA-PERP",
+    "social": {
+      "webSite": "https://dem.exchange/",
+      "twitter": "https://twitter.com/demexchange",
+      "github": "https://github.com/Switcheo/carbon-js-sdk",
+      "docs": "https://docs.dem.exchange/"
     }
   },
   {
@@ -262,21 +262,6 @@
     }
   },
   {
-    "name": "TFM",
-    "type": "DeFi",
-    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's and much more ...",
-    "status": "open",
-    "thumbnail" : "tfm",
-    "link": "https://app.tfm.com/",
-    "social": {
-      "webSite": "https://tfm.com/",
-      "twitter": "https://twitter.com/tfm_com",
-      "medium": "https://medium.com/@tfm.com",
-      "github": "https://github.com/tfm-com",
-      "docs": "https://docs.tfm.com/?_gl=1*jmm0es*_ga*NjUzMDIwNjIwLjE2OTExMzg1Nzk.*_ga_YS04P1CYQ9*MTY5MjYwNDIxMy4yLjEuMTY5MjYwNDIyMi4wLjAuMA.."
-    }
-  },
-  {
     "name": "Noble Express",
     "type": "Transport",
     "description": "Alternative to Skip Go for native USDC transfers in and out of Terra/Cosmos.",
@@ -288,6 +273,21 @@
       "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
       "github": "https://github.com/noble-assets",
       "docs": "https://docs.noble.xyz/cctp"
+    }
+  },
+  {
+    "name": "Squid Router",
+    "type": "Transport",
+    "description": "An Axelar-built bridge that allows token transfers/swaps between Terra and non-Cosmos chains.",
+    "status": "open",
+    "thumbnail" : "squid",
+    "link": "https://app.squidrouter.com/?chains=56%2Caxelar-dojo-1&tokens=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee%2Cwbnb-wei",
+    "social": {
+      "webSite": "https://www.squidrouter.com/",
+      "twitter": "https://x.com/squidrouter",
+      "medium": "https://medium.com/@squidrouter",
+      "github": "https://github.com/0xsquid",
+      "docs": "https://docs.squidrouter.com/"
     }
   },
   {
