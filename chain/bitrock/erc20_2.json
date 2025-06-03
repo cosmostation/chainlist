@@ -1,0 +1,13 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x826628622a8b55f4af6ac2a1dd1273bf837e651a",
+        "name": "Rockswap",
+        "symbol": "ROCK",
+        "description": "ROCKSWAP is a utility token within the Bitrock ecosystem, an innovative Ethereum side chain solution",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/rock.png",
+        "coinGeckoId": "rockswap",
+        "wallet_preload": true
+      }
+]
