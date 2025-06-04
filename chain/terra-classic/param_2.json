@@ -36,15 +36,23 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "All Nodes",
-            "url": "terra-classic-grpc.publicnode.com:443"
-        }
     ],
     "lcd_endpoint" : [
         {
             "provider": "All Nodes",
             "url": "https://terra-classic-lcd.publicnode.com"
+        },
+        {
+            "provider": "Stakely",
+            "url": "https://terraclassic-lcd-server-01.stakely.io/"
+        },
+        {
+            "provider": "BInodes",
+            "url": "https://api-lunc-lcd.binodes.com/"
+        },
+        {
+            "provider": "Keplr",
+            "url": "https://lcd-columbus.keplr.app/"
         }
     ],
     "explorer" : {
