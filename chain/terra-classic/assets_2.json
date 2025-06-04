@@ -11,6 +11,17 @@
         "color": "#1E75EE"
     },
     {
+        "type": "native",
+        "denom": "uusd",
+        "name" : "USTC",
+        "symbol": "USTC",
+        "description": "The native staking coin of Terra Classic.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/uusd.png",
+        "coinGeckoId": "terrausd",
+        "color": "#1E75EE"
+    },
+    {
         "type": "ibc",
         "denom": "ibc/E1E3674A0E4E1EF9C69646F9AF8D9497173821826074622D831BAB73CCB99A2D",
         "name" : "USD Coin (Axelar)",
