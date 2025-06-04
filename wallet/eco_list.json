@@ -2535,5 +2535,22 @@
             "discord": "https://discord.com/invite/KHfSNbzdSE"
         },
         "type": "Faucet"
+    },
+    
+        "id": 150,
+        "name": "ZigChain Faucet",
+        "description": "ZigChain Testnet faucet hub.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/zigchain.png",
+        "link": "https://faucet.zigchain.com/",
+        "chains": [
+            "zigchain-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/ZIGChain",
+            "telegram": "https://t.me/ZignalyHQ",
+            "twitter": "https://x.com/zigchain",
+            "discord": "https://discord.com/invite/zignaly-the-better-way-to-invest-in-crypto-486954374845956097"
+        },
+        "type": "Faucet"
     }
 ]
