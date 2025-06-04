@@ -2501,5 +2501,23 @@
         ],
         "socials": {},
         "type": "Faucet"
-    }
+    },
+    {
+        "id": 148,
+        "name": "Juris Protocol",
+        "description": "Juris Protocol is a DeFi platform on Terra Classic that offers secure lending and borrowing services.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/juris.png",
+        "link": "https://jurisprotocol.com/",
+        "chains": [
+            "terra-classic"
+        ],
+        "socials": {
+            "github": "https://github.com/JurisProtocol/",
+            "telegram": "https://t.me/JurisProtocol",
+            "twitter": "https://twitter.com/JurisProtocol",
+            "discord": "https://discord.com/invite/FzQwHYgjAd",
+            "instagram": "https://www.instagram.com/jurisprotocol/"
+        },
+        "type": "DeFi"
+    },
 ]
