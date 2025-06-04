@@ -757,7 +757,7 @@
         "description": "The native staking token of the Terra Classic blockchain.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/lunc.png",
-        "coinGeckoId": "terra-luna-classic",
+        "coinGeckoId": "terra-luna",
         "ibc_info" : {
             "path": "terra-classic>terra",
             "client" : {
