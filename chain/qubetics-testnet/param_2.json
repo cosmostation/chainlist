@@ -2,14 +2,14 @@
     "chain_id_cosmos" : "qubetics_9029-1",
     "chain_id_evm" : "0x2345",
     "chain_name": "Qubetics Testnet",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/qubetics-testnet/resource/qubetics.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/qubetics-testnet/resource/chain_qubetics-testnet.png",
     "staking_asset_denom": "tics",
     "staking_asset_symbol" : "TICS",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/qubetics-testnet/asset/qubetics.png",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/qubetics-testnet/asset/tics.png",
     "bech_account_prefix" : "qubetics",
     "bech_validator_prefix" : "qubeticsvaloper",
     "origin_genesis_time" : "2025-03-12T11:48:58Z",
-    "api_name" : "qubetics",
+    "api_name" : "qubetics-testnet",
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
     "is_support_moblie_dapp": true,
@@ -73,6 +73,8 @@
     "forum": {
     },
     "description" : {
-        "en" : "A Cosmos SDK based IBC, EVM-compatible blockchain."
+        "ko" : "Cosmos SDK 기반의 IBC 및 EVM 호환 블록체인.",
+        "en" : "A Cosmos SDK based IBC, EVM-compatible blockchain.",
+        "ja" : "Cosmos SDK ベースの IBC 対応・EVM 互換ブロックチェーン。"
     }
 }
