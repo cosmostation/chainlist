@@ -36,6 +36,10 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
+        {
+            "provider": "All Nodes",
+            "url": "terra-classic-grpc.publicnode.com:443"
+        }
     ],
     "lcd_endpoint" : [
         {
