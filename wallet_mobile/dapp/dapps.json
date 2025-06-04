@@ -115,7 +115,7 @@
     "description": "Realtime Charts, DEX Aggregator & Analytics.",
     "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/coinhall.png",
     "url": "https://coinhall.org",
-    "chain": ["juno", "osmosis"],
+    "chain": ["juno", "osmosis","terra-classic"],
     "category": "Defi",
     "tag": ["AGG"]
   },
