@@ -2518,5 +2518,22 @@
             "discord": "https://discord.com/invite/FzQwHYgjAd"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 149,
+        "name": "Qubetics Faucet",
+        "description": "Qubetics Testnet faucet hub.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/qubetics.png",
+        "link": "https://testnet.qubetics.work/faucet",
+        "chains": [
+            "qubetics-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/Qubetics",
+            "telegram": "https://t.me/qubetics",
+            "twitter": "https://x.com/qubetics?mx=2",
+            "discord": "https://discord.com/invite/KHfSNbzdSE"
+        },
+        "type": "Faucet"
     }
 ]
