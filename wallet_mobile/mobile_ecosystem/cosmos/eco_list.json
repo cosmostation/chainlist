@@ -1,0 +1,51 @@
+[
+    {
+        "name": "IBC Eureka (Skip)",
+        "description": "IBC Eureka, launched by Cosmos’ Interchain Labs, enables secure and transparent connections between blockchains—marking a key step toward building a decentralized internet.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/eureka.png",
+        "link": "https://go.cosmos.network/",
+        "type": "IBC, Swap"
+    },
+    {
+        "name": "Skip Go",
+        "description": "Provides MEV solutions for Cosmos and Evm blockchains, enabling revenue generation through block space auctions and transaction prioritization.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/skip.png",
+        "link": "https://go.skip.build/",
+        "type": "DeFi"
+    },
+    {
+        "name": "Squid Router",
+        "description": "Squid lets you swap tokens between blockchains, and unlocks access to apps across chains in 1 click ✨ EVM + Cosmos.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/squid.png",
+        "link": "https://app.squidrouter.com",
+        "type": "DeFi"
+    },
+    {
+        "name": "Drop Money",
+        "description": "Drop is a DeFi platform focused on providing liquidity across multiple blockchain networks, enhancing interoperability and transaction efficiency.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/dropmoney.png",
+        "link": "https://app.drop.money/dashboard?referral_code=dropmaga",
+        "type": "DeFi"
+    },
+    {
+        "name": "DaoDao",
+        "description": "Platform designed for decentralized autonomous organizations (DAOs) to manage their operations. ",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/daodao.jpg",
+        "link": "https://daodao.zone/",
+        "type": "DAO"
+    },
+    {
+        "name": "pSTAKE Finance",
+        "description": "A multi-chain liquid staking protocol that unlocks liquidity for your staked assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/pstake-finance.png",
+        "link": "https://app.pstake.finance/cosmos",
+        "type": "Defi"
+    },
+    {
+        "name": "Hydro Voting",
+        "description": "Hydro lets ATOM holders vote on project bids to direct liquidity and earn rewards. It’s in view-only mode, with pilot rounds ongoing.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/cosmos/resource/hydro.jpg",
+        "link": "https://hydro.cosmos.network/voting",
+        "type": "Vote"
+    }
+]
