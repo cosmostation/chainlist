@@ -24,9 +24,9 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "50ncheq",
-            "75ncheq",
-            "100ncheq"
+            "5000ncheq",
+            "7500ncheq",
+            "10000ncheq"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.5,
