@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Faucet",
+        "description": "Monad Testnet Faucet",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/monad-testnet/resource/faucet.png",
+        "link": "https://testnet.monad.xyz/",
+        "type": "Faucet"
+    },
+    {
+        "name": "GMonad",
+        "description": "Network Visualization",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/monad-testnet/resource/gmonad.png",
+        "link": "https://www.gmonads.com/",
+        "type": "Visualization"
+    },
+    {
+        "name": "Amertis",
+        "description": "Experience seamless trading with AmertisExchange, the ultimate aggregator connecting you to deep liquidity pools.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/monad-testnet/resource/amertis.png",
+        "link": "https://testnet.amertis.exchange/",
+        "type": "DeFi"
+    },
+    {
+        "name": "Apriori",
+        "description": "aPriori is an MEV infrastructure and liquid staking protocol, designed for the parallel execution era and natively built on Monad.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/monad-testnet/resource/apriori.png",
+        "link": "https://stake.apr.io/",
+        "type": "DeFi"
+    },
+    {
+        "name": "Azaar",
+        "description": "Azaar is a high-performance DEX aggregator and trading platform built for Monad.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/mobile_ecosystem/monad-testnet/resource/azaar.png",
+        "link": "https://app-monad-testnet.azaar.com/swap",
+        "type": "DeFi"
+    }
+]
