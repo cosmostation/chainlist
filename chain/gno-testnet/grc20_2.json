@@ -1,2 +1,13 @@
-
-[]
+[
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/g17290cwvmrapvp869xfnhhawa8sm9edpufzat7d/doge",
+        "name" : "Doge",
+        "symbol": "DOGE",
+        "description": "",
+        "decimals": 4,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/unknown.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    }
+]
