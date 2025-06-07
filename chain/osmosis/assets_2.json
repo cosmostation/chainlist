@@ -10834,6 +10834,15 @@
         }
     },
     {
+        "type": "native",
+        "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/mtc",
+        "name": "Matcha Club",
+        "symbol": "MTC",
+        "description": "Join Matcha Club - use our ecosystem for for free. NFT builder, utility apps. Cooking non-stop!",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/chain/osmosis/asset/mtc.png"
+    },
+    {
         "type": "ibc",
         "denom": "ibc/0C39BD03B5C57A1753A9B73164705871A9B549F1A5226CFD7E39BE7BF73CF8CF",
         "name": "Noble Dollar",
