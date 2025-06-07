@@ -8327,7 +8327,7 @@
         "symbol": "JURIS",
         "description": "Juris Protocol is a DeFi platform on Terra Classic that offers secure lending and borrowing services.",
         "decimals": 6,
-        "coinGeckoId": "juris-protocol"
+        "coinGeckoId": "juris-protocol",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/juris.png",
         "ibc_info": {
             "path": "terra-classic>osmosis",
