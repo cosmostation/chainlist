@@ -45,6 +45,11 @@
         }
     ],
     "explorer": {
+        "name": "PingPub",
+        "url": "https://ping.pub/Dungeonchain/",
+        "account": "https://ping.pub/Dungeonchain/account/${address}",
+        "tx": "https://ping.pub/Dungeonchain/tx/${hash}",
+        "proposal": "https://ping.pub/Dungeonchain/gov/${id}"
     },
     "about": {
         "website": "https://www.cryptodungeon.org/",
