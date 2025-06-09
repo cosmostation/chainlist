@@ -947,7 +947,7 @@
         "symbol": "PAXG",
         "description": "Pax Gold via Eureka",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/paxg.png",
         "coinGeckoId": "pax-gold",
         "ibc_info" : {
             "path": "ethereum>cosmos",
