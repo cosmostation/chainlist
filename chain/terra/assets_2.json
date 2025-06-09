@@ -252,7 +252,7 @@
         "name" : "Stride LUNA",
         "symbol": "stLUNA",
         "description": "Stride LUNA is a liquid staking derivative of LUNA, powered by Stride Protocol.",
-        "decimals": 8,
+        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stluna.png",
         "ibc_info" : {
             "path": "stride>terra",
