@@ -10865,5 +10865,29 @@
                 "denom": "uusdn"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+        "name": "Pax Gold (via Eureka)",
+        "symbol": "PAXG",
+        "description": "Pax Gold (PAXG) is a gold-backed cryptocurrency, launched by the creators of Paxos Standard (PAX) in September 2019 and native to Ethereum. Bridged from Ethereum to Cosmos via Eureka.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/paxg.png",
+        "color": "#D8A24A",
+        "coinGeckoId": "pax-gold",
+        "ibc_info": {
+            "path": "cosmos>osmosis",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-141",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62"
+            }
+        }
     }
 ]
