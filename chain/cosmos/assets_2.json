@@ -939,5 +939,25 @@
                 "denom": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/09E95F57939E344EE36109AC41780B8A51F1FE0548A5203C5957674FF64C0F26",
+        "name": "PAXG",
+        "symbol": "PAXG",
+        "description": "Pax Gold via Eureka",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/paxg.png",
+        "coinGeckoId": "pax-gold",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x45804880de22913dafe09f4980848ece6ecbaf78"
+            }
+        }
     }
 ]
