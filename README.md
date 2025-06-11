@@ -36,7 +36,7 @@
   <summary><h2 style='display: inline; font-size: 24px; text-decoration: line-through'>How to add your validator image</h2></summary>
 
  - From March 2025, Display moniker information based on the on-chain validator description (Keybase Identity). 
- - The existing monitor folder will be deleted soon.
+ - The existing moniker folder will be deleted soon.
 
  - ~~Add your image to `${targetchain}/moniker` folder~~
  - ~~Image with png format and validator address name~~
