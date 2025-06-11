@@ -9685,7 +9685,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg",
         "color": "#7b5aff",
-        "coinGeckoId": "yield-gata"
+        "coinGeckoId": "yield-gata",
         "ibc_info": {
             "path": "omniflix>osmosis",
             "client": {
