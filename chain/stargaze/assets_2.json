@@ -516,7 +516,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.png",
         "color": "#7b5aff",
-        "coinGeckoId": "yield-gata"
+        "coinGeckoId": "yield-gata",
         "ibc_info": {
             "path": "omniflix>stargaze",
             "client": {
