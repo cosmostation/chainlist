@@ -32,7 +32,7 @@
         ],
         "is_feemarket": true,
         "is_simulable": true,
-        "simulated_gas_multiply": 1.5,
+        "simulated_gas_multiply": 2.0,
         "init_gas_limit" : 300000,
         "fee_threshold": ""
     },
