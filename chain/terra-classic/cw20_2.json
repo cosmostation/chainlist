@@ -8,5 +8,15 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/juris.png",
         "coinGeckoId": "juris-protocol"
+    },
+    {
+        "type": "cw20",
+        "contract": "terra1x6e64es6yhauhvs3prvpdg2gkqdtfru840wgnhs935x8axr7zxkqzysuxz",
+        "name" : "ALPHA Lunc Universe",
+        "symbol": "ALPHA",
+        "description": "LUNC UNIVERSE is set to become a growing ecosystem within the Luna Classic blockchain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/alpha.png",
+        "coinGeckoId": ""
     }
 ]
