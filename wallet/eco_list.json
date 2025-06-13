@@ -2552,5 +2552,21 @@
             "discord": "https://discord.com/invite/zignaly-the-better-way-to-invest-in-crypto-486954374845956097"
         },
         "type": "Faucet"
+    },
+    {
+        "id": 151,
+        "name": "Dolomite",
+        "description": "It offers advanced DeFi functionalities including isolated margin, spot trading, and composable lending — all from a single, efficient interface.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dolomite.png",
+        "link": "https://app.dolomite.io/",
+        "chains": [
+            "arbitrum"
+            "berachain"
+        ],
+        "socials": {
+            "github": "https://github.com/dolomite-exchange",
+            "discord": "https://discord.com/invite/uDRzrB2YgP"
+        },
+        "type": "Defi"
     }
 ]
