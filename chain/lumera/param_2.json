@@ -4,10 +4,10 @@
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lumera/resource/chain_lumera.png",
     "staking_asset_denom" : "ulume",
     "staking_asset_symbol" : "LUME",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lumera/resource/lume.png",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lumera/asset/lume.png",
     "bech_account_prefix" : "lumera",
     "bech_validator_prefix" : "lumeravaloper",
-    "origin_genesis_time" : "2025-01-28T16:00:00Z",
+    "origin_genesis_time" : "2025-06-17T16:00:00Z",
     "api_name" : "lumera",
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
@@ -33,11 +33,19 @@
     },
     "grpc_endpoint" : [
         {
+            "provider": "Cosmostation",
+            "url": "grpc.lumera.mainnet.cosmostation.io:443"
+        },
+        {
             "provider": "Lumera Protocol",
             "url": "grpc.lumera.io"
         }
     ],
     "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd.lumera.mainnet.cosmostation.io"
+        },
         {
             "provider": "Lumera Protocol",
             "url": "https://lcd.lumera.io/"
