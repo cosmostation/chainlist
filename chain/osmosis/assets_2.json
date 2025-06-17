@@ -956,7 +956,7 @@
         "symbol": "VDL.vdl",
         "description": "The native token of Vidulum",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/beezee/asset/bze.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.svg",
         "color": "#3454bc",
         "coinGeckoId": "vidulum",
         "ibc_info": {
@@ -2965,7 +2965,7 @@
         "symbol": "BZE",
         "description": "BeeZee native blockchain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/beezee/asset/bze.png",
         "color": "#079fd7",
         "coinGeckoId": "bzedge",
         "ibc_info": {
