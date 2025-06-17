@@ -956,7 +956,7 @@
         "symbol": "VDL.vdl",
         "description": "The native token of Vidulum",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/beezee/asset/bze.png",
         "color": "#3454bc",
         "coinGeckoId": "vidulum",
         "ibc_info": {
@@ -9921,7 +9921,7 @@
         "symbol": "ELYS",
         "description": "The native token of Elys Network",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/elys/asset/elys.png",
         "coinGeckoId": "elys-network",
         "ibc_info": {
             "path": "elys>osmosis",
@@ -10888,29 +10888,6 @@
                 "port": "transfer",
                 "chain": "cosmos",
                 "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62"
-            }
-        }
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/C822645522FC3EECF817609AA38C24B64D04F5C267A23BCCF8F2E3BC5755FA88",
-        "name": "BeeZee",
-        "symbol": "BZE",
-        "description": "BeeZee Staking Coin",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/beezee/asset/bze.png",
-        "coinGeckoId": "bzedge",
-        "ibc_info": {
-            "path": "beezee>osmosis",
-            "client": {
-                "channel": "channel-340",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-0",
-                "port": "transfer",
-                "chain": "beezee",
-                "denom": "ubze"
             }
         }
     },
