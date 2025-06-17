@@ -10890,5 +10890,97 @@
                 "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C822645522FC3EECF817609AA38C24B64D04F5C267A23BCCF8F2E3BC5755FA88",
+        "name": "BeeZee",
+        "symbol": "BZE",
+        "description": "BeeZee Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/beezee/asset/bze.png",
+        "coinGeckoId": "bzedge",
+        "ibc_info": {
+            "path": "beezee>osmosis",
+            "client": {
+                "channel": "channel-340",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "beezee",
+                "denom": "ubze"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/AD969E97A63B64B30A6E4D9F598341A403B849F5ACFEAA9F18DBD9255305EC65",
+        "name": "Arkeo",
+        "symbol": "ARKEO",
+        "description": "Arkeo Staking Coin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arkeo/asset/arkeo.png",
+        "coinGeckoId": "arkeo",
+        "ibc_info": {
+            "path": "arkeo>osmosis",
+            "client": {
+                "channel": "channel-103074",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "arkeo",
+                "denom": "uarkeo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DD7EA9AF1E58E9FDD7F9810976817E203D5B87BAEF7AEA592FA34DF73310620B",
+        "name": "Initia",
+        "symbol": "INIT",
+        "description": "Initia Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/initia/asset/init.png",
+        "coinGeckoId": "initia",
+        "ibc_info": {
+            "path": "initia>osmosis",
+            "client": {
+                "channel": "channel-102122",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-68",
+                "port": "transfer",
+                "chain": "initia",
+                "denom": "uinit"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064",
+        "name": "Nillion",
+        "symbol": "NIL",
+        "description": "Nillion Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nillion/asset/nil.png",
+        "coinGeckoId": "nillion",
+        "ibc_info": {
+            "path": "nillion>osmosis",
+            "client": {
+                "channel": "channel-98416",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "nillion",
+                "denom": "unil"
+            }
+        }
     }
 ]
