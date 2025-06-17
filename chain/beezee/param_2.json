@@ -1,3 +1,84 @@
 {
-
+    "chain_id_cosmos": "beezee-1",
+    "chain_name": "BeeZee",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/beezee/resource/chain_beezee.png",
+    "staking_asset_denom": "ubze",
+    "staking_asset_symbol": "BZE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/beezee/asset/bze.png",
+    "bech_account_prefix": "bze",
+    "bech_validator_prefix": "bzevaloper",
+    "origin_genesis_time": "2022-03-21T22:39:04Z",
+    "api_name": "beezee",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "1",
+        "rate": [
+            "0.01ubze",
+            "0.025ubze",
+            "0.04ubze"
+        ],
+        "is_feemarket": false,
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "AlphaTeam",
+            "url": "grpc.getbze.com:9099"
+        },
+        {
+            "provider": "AlphaTeam",
+            "url": "grpc-1.getbze.com:9099"
+        },
+        {
+            "provider": "AlphaTeam",
+            "url": "grpc-2.getbze.com:9099"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "AlphaTeam",
+            "url": "https://rest.getbze.com/"
+        },
+        {
+            "provider": "AlphaTeam",
+            "url": "https://rest-1.getbze.com/"
+        },
+        {
+            "provider": "AlphaTeam",
+            "url": "https://rest-2.getbze.com/"
+        }
+    ],
+    "explorer": {
+        "name": "Mintscan",
+        "url": "https://explorer.getbze.com/",
+        "account": "https://explorer.getbze.com/account/${address}",
+        "tx": "https://explorer.getbze.com/beezee/tx/${hash}",
+        "proposal": "https://explorer.getbze.com/beezee/gov/${id}"
+    },
+    "about": {
+        "website": "https://getbze.com/",
+        "github": "https://github.com/bze-alphateam",
+        "medium": "https://medium.com/bzedge-community",
+        "twitter": "https://x.com/BZEdgeCoin",
+        "coingecko": "https://www.coingecko.com/en/coins/beezee"
+    },
+    "description": {
+        "ko": "BeeZee 체인은 Cosmos SDK 기반의 블록체인으로, 블록체인 기술을 다양한 산업에 접목하기 위한 범용 플랫폼을 지향합니다. 빠른 트랜잭션 처리와 낮은 수수료를 바탕으로 사용자 경험을 개선하고, 다양한 디앱과 생태계 확장을 목표로 합니다.",
+        "en": "BeeZee is a Cosmos SDK-based blockchain designed as a general-purpose platform to integrate blockchain technology across various industries. It focuses on fast transaction processing, low fees, and aims to expand its ecosystem through dApp development.",
+        "ja": "BeeZeeチェーンは、 Cosmos SDKを基盤としたブロックチェーンで、ブロックチェーン技術をさまざまな産業に応用することを目的とした汎用プラットフォームです。高速なトランザクション処理と低手数料により、ユーザー体験の向上とエコシステムの拡大を目指しています。"
+    }
 }
