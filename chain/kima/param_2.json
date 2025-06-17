@@ -1,0 +1,66 @@
+{
+    "chain_id_cosmos": "kima_network",
+    "chain_name": "Kima Network",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kima/resource/chain_kima.png",
+    "staking_asset_denom": "uKIMA",
+    "staking_asset_symbol": "KIMA",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kima/asset/kima.png",
+    "bech_account_prefix": "kima",
+    "bech_validator_prefix": "kimavaloper",
+    "origin_genesis_time": "2024-09-25T19:51:09Z",
+    "api_name": "kima",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+            "0.025uKIMA"
+        ],
+        "is_feemarket": false,
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "Kima Network",
+            "url": "grpc.kima.network:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "Kima Network",
+            "url": "https://api.kima.network/"
+        }
+    ],
+    "explorer": {
+        "name": "Kima Network Explore",
+        "url": "https://explorer.kima.network/",
+        "account": "https://explorer.kima.network/accounts/?address=${address}",
+        "tx": "https://explorer.kima.network/transactions/?tx=${hash}",
+        "proposal": "https://explorer.kima.network/proposals/?id=${id}"
+    },
+    "about": {
+        "website": "https://www.kima.network/",
+        "github": "https://github.com/kima-finance",
+        "medium": "https://medium.com/@kima_finance",
+        "twitter": "https://x.com/KimaNetwork",
+        "coingecko": "https://www.coingecko.com/en/coins/kima"
+    },
+    "description": {
+        "ko": "Kima는 자산에 구애받지 않는 상호운용성 인프라로, 블록체인 네트워크와 기존 금융 시스템을 연결하여 안전하고 확장 가능한 크로스체인 거래와 생태계 간의 원활한 통신을 가능하게 합니다.",
+        "en": "Kima is an asset-agnostic interoperability infrastructure that connects blockchain networks and legacy financial systems, enabling secure, scalable cross-chain transactions and seamless communication across ecosystems.",
+        "ja": "Kimaは資産に依存しない相互運用性インフラであり、ブロックチェーンネットワークと従来の金融システムを接続し、安全かつスケーラブルなクロスチェーントランザクションとエコシステム間のシームレスな通信を実現します。"
+    }
+}
