@@ -33,15 +33,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc.zigchain.testnet.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd.zigchain.testnet.cosmostation.io/"
+            "provider": "Zigchain",
+            "url": "https://testnet-api.zigchain.com/"
         }
     ],
     "explorer" : {
