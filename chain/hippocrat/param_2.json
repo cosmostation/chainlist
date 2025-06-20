@@ -11,6 +11,9 @@
     "api_name" : "hippocrat",
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/0'/0'/0/X",
