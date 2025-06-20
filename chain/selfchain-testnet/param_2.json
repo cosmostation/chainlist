@@ -11,7 +11,7 @@
     "api_name" : "selfchain-testnet",
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "chain_type": [
         "cosmos"
     ],

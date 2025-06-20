@@ -10,7 +10,7 @@
     "origin_genesis_time" : "2024-04-19T16:00:00Z",
     "api_name" : "paloma",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "chain_type": [
         "cosmos"
     ],
