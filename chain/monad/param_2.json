@@ -12,7 +12,7 @@
     "api_name" : "monad",
     "is_support_mobile_wallet" : true,
     "is_support_moblie_dapp" : true,
-    "is_support_extension_wallet" : true,
+    "is_support_extension_wallet" : false,
     "is_support_erc20" : true,
     "chain_type": [
         "evm"
