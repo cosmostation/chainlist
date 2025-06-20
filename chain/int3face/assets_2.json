@@ -16,7 +16,7 @@
         "symbol": "BTC",
         "description": "Bitcoin on Int3face.",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3btc.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png",
         "coinGeckoId": ""
     },
     {
@@ -26,7 +26,7 @@
         "symbol": "BCH",
         "description": "Bitcoin-Cash on Int3face.",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3bch.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png",
         "coinGeckoId": ""
     },
     {
@@ -36,7 +36,7 @@
         "symbol": "DOGE",
         "description": "Dogecoin on Int3face.",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3doge.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png",
         "coinGeckoId": ""
     },
     {
@@ -46,7 +46,7 @@
         "symbol": "LTC",
         "description": "Litecoin on Int3face.",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3ltc.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png",
         "coinGeckoId": ""
     },
     {
@@ -56,7 +56,7 @@
         "symbol": "TON",
         "description": "TON on Int3face.",
         "decimals": 9,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3ton.png",
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.png",
         "coinGeckoId": ""
     }
 ]
