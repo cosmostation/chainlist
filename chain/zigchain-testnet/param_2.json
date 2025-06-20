@@ -10,7 +10,7 @@
     "origin_genesis_time" : "2025-05-23T12:17:56Z",
     "api_name" : "zigchain-testnet",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "is_support_moblie_dapp": true,
     "chain_type": [
         "cosmos"

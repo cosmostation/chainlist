@@ -11,7 +11,7 @@
     "origin_genesis_time" : "2021-07-05T04:00:00Z",
     "api_name" : "fxcore",
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : false,
+    "is_support_extension_wallet" : true,
     "is_support_erc20" : true,
     "chain_type": [
         "cosmos",
