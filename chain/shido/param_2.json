@@ -58,16 +58,8 @@
             "url": "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/"
         },
         {
-            "provider": "Indonode",
-            "url": "https://api.shido.indonode.net/"
-        },
-        {
             "provider": "MavNode",
             "url": "https://rest.mavnode.io/"
-        },
-        {
-            "provider": "KENSEI",
-            "url": "https://api.kenseishido.com/"
         }
     ],
     "evm_rpc_endpoint" : [
