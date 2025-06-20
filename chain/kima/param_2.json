@@ -10,7 +10,7 @@
     "origin_genesis_time": "2024-09-25T19:51:09Z",
     "api_name": "kima",
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : false,
+    "is_support_extension_wallet" : true,
     "chain_type": [
         "cosmos"
     ],
