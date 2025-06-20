@@ -10,7 +10,7 @@
     "origin_genesis_time" : "2025-03-06T03:27:03Z",
     "api_name" : "union",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "chain_type": [
         "cosmos"
     ],
