@@ -68,7 +68,7 @@
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://rpc-office-evm.cosmostation.io/mantra-testnet/"
+            "url": "https://rpc.evm.mantra.testnet.cosmostation.io"
         },
         {
             "provider": "MANTRACHAIN",
