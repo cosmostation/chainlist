@@ -187,5 +187,13 @@
     "status": "open",
     "thumbnail" : "marginedprotocol",
     "link": "https://trade.margined.io"
+  },
+  {
+    "name": "Portal Bridge",
+    "type": "Bridge",
+    "description": "Portal Bridge is a cross-chain bridge powered by Wormhole that enables seamless transfer of assets across multiple blockchains.",
+    "status": "open",
+    "thumbnail" : "portal",
+    "link": "https://portalbridge.com/cosmos/"
   }
 ]
