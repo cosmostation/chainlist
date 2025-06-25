@@ -2585,5 +2585,22 @@
             "discord": "https://discord.gg/VBmTKugfcT"
         },
         "type": "Defi"
+    },
+    {
+        "id": 153,
+        "name": "BIGBANGX",
+        "description": "NFT permisionless marketplace in Terra Classic Blockchain",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/bigbangx.png",
+        "link": "https://bigbangx.io/",
+        "chains": [
+            "terra-classic"
+        ],
+        "socials": {
+            "github": "https://github.com/garudawork",
+            "telegram": "https://t.me/bigbangXio",
+            "twitter": "https://x.com/bigbangplatform",
+            "discord": "https://discord.gg/VBmTKugfcT"
+        },
+        "type": "NFT"
     }
 ]
