@@ -157,14 +157,6 @@
     "link": "https://www.icns.xyz/"
   },
   {
-    "name": "Yieldmos",
-    "type": "Defi",
-    "description": "Boost yields by auto compounding your staking and LP rewards with validators of your choice.",
-    "status": "open",
-    "thumbnail" : "yieldmos",
-    "link": "https://www.yieldmos.com/chain/osmosis"
-  },
-  {
     "name": "ION DAO",
     "type": "Defi",
     "description": "Decentralized autonomous organization for community governance",
@@ -194,6 +186,10 @@
     "description": "Portal Bridge is a cross-chain bridge powered by Wormhole that enables seamless transfer of assets across multiple blockchains.",
     "status": "open",
     "thumbnail" : "portal",
-    "link": "https://portalbridge.com/cosmos/"
+    "link": "https://portalbridge.com/cosmos/",
+    "social": {
+      "twitter": "https://x.com/portalbridge_",
+      "discord": "https://discord.com/invite/jRZaJvCZjv"
+    }
   }
 ]
