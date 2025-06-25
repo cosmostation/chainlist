@@ -668,7 +668,7 @@
         "symbol": "NGM",
         "description": "e-Money NGM staking token. In addition to earning staking rewards the token is bought back and burned based on e-Money stablecoin inflation.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/ngm.png",
         "color": "#caf2ea",
         "coinGeckoId": "e-money",
         "ibc_info": {
@@ -716,7 +716,7 @@
         "symbol": "LIKE",
         "description": "LIKE is the native staking and governance token of LikeCoin chain, a Decentralized Publishing Infrastructure to empower content ownership, authenticity, and provenance.",
         "decimals": 9,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/likecoin/asset/like.png",
         "color": "#2d656c",
         "coinGeckoId": "likecoin",
         "ibc_info": {
@@ -788,7 +788,7 @@
         "symbol": "BTSG",
         "description": "BitSong Native Token",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/asset/btsg.png",
         "color": "#c8307f",
         "coinGeckoId": "bitsong",
         "ibc_info": {
@@ -908,7 +908,7 @@
         "symbol": "CHEQ",
         "description": "Native token for the cheqd network",
         "decimals": 9,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cheqd/asset/cheq.png",
         "color": "#fc5f04",
         "coinGeckoId": "cheqd-network",
         "ibc_info": {
@@ -1027,7 +1027,7 @@
         "symbol": "SOMM",
         "description": "Somm Token (SOMM) is the native staking token of the Sommelier Chain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sommelier/asset/somm.png",
         "color": "#f36353",
         "coinGeckoId": "sommelier",
         "ibc_info": {
@@ -1194,7 +1194,7 @@
         "symbol": "SWTH",
         "description": "The native governance token of Carbon",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/carbon/asset/swth.png",
         "color": "#a5edf2",
         "coinGeckoId": "switcheo",
         "ibc_info": {
@@ -1637,6 +1637,7 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.svg",
         "color": "#4c7cdc",
+        "coinGeckoId": "hash-2",
         "ibc_info": {
             "path": "provenance>osmosis",
             "client": {
@@ -1797,7 +1798,7 @@
         "symbol": "LUNA",
         "description": "The native staking token of Terra.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
         "color": "#f4de6f",
         "coinGeckoId": "terra-luna-2",
         "ibc_info": {
@@ -2353,7 +2354,7 @@
         "symbol": "CUDOS",
         "description": "The native token of the Cudos blockchain",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/cudos.png",
         "color": "#5d95ec",
         "coinGeckoId": "cudos",
         "ibc_info": {
@@ -3431,7 +3432,7 @@
         "symbol": "MARS.mars",
         "description": "Mars Protocol token (pre-migration)",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token-ibc.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/mars.png",
         "color": "#000000",
         "coinGeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
         "ibc_info": {
@@ -5240,7 +5241,7 @@
         "symbol": "XPLA",
         "description": "The native staking token of XPLA.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xpla/asset/xpla.png",
         "color": "#04b4fc",
         "coinGeckoId": "xpla",
         "ibc_info": {
@@ -6824,7 +6825,7 @@
         "symbol": "AIOZ.aioz",
         "description": "The native staking and governance token of the AIOZ Network.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aioz/asset/aioz.png",
         "coinGeckoId": "aioz-network",
         "ibc_info": {
             "path": "aioz>osmosis",
@@ -7264,7 +7265,7 @@
         "symbol": "SHIDO",
         "description": "The native EVM and Wasm, governance and staking token of the Shido Chain",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shido.png",
         "color": "#046ffc",
         "coinGeckoId": "shido-2",
         "ibc_info": {

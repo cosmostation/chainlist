@@ -2602,5 +2602,44 @@
             "discord": "https://discord.gg/VBmTKugfcT"
         },
         "type": "NFT"
+        "name": "Portal",
+        "description": "Portal Bridge is a cross-chain bridge powered by Wormhole that enables seamless transfer of assets across multiple blockchains.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/portal.png",
+        "link": "https://portalbridge.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "cronos",
+            "optimism",
+            "polygon",
+            "sui"
+        ],
+        "socials": {
+            "twitter": "https://x.com/portalbridge_",
+            "discord": "https://discord.com/invite/jRZaJvCZjv"
+        },
+        "type": "Bridge"
+    },
+    {
+        "id": 153,
+        "name": "Portal Cosmos",
+        "description": "Portal Bridge is a cross-chain bridge powered by Wormhole that enables seamless transfer of assets across multiple blockchains.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/portal.png",
+        "link": "https://portalbridge.com/cosmos/",
+        "chains": [
+            "osmosis",
+            "evmos",
+            "injective",
+            "sei"
+        ],
+        "socials": {
+            "twitter": "https://x.com/portalbridge_",
+            "discord": "https://discord.com/invite/jRZaJvCZjv"
+        },
+        "type": "Bridge"
     }
 ]

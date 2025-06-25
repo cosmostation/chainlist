@@ -25,9 +25,9 @@
     "cosmos_fee_info" : {
         "base" : "1",
         "rate" : [
-            "0.001uxion",
-            "0.025uxion",
-            "0.04uxion"
+            "0.001uxion,0.005ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+            "0.025uxion,0.125ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+            "0.04uxion,0.2ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.3,
