@@ -52,11 +52,11 @@
         }
     ],
     "explorer" : {
-        "name": "Lumera Protocol",
-        "url": "https://portal.lumera.io/lumera-mainnet-1/",
-        "account": "https://portal.lumera.io/lumera-mainnet-1/account/${address}",
-        "tx": "https://portal.lumera.io/lumera-mainnet-1/tx/${hash}",
-        "proposal": "https://portal.lumera.io/lumera-mainnet-1/gov/${id}"
+        "name": "NodeStake",
+        "url": "https://explorer.nodestake.org/lumera",
+        "account": "https://explorer.nodestake.org/lumera/account/${address}",
+        "tx": "https://explorer.nodestake.org/lumera/tx/${hash}",
+        "proposal": "https://explorer.nodestake.org/lumera/gov/${id}"
     },
     "about" : {
         "github" : "https://github.com/LumeraProtocol",
