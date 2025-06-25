@@ -1,0 +1,64 @@
+{
+    "chain_id_cosmos": "zig-test-2",
+    "chain_name": "ZigChain Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain-testnet/resource/chain_zigchain-testnet.png",
+    "staking_asset_denom" : "uzig",
+    "staking_asset_symbol" : "ZIG",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain-testnet/asset/zig.pn",
+    "bech_account_prefix" : "zig",
+    "bech_validator_prefix" : "zigvaloper",
+    "origin_genesis_time" : "2025-05-23T12:17:56Z",
+    "api_name" : "zigchain-testnet",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "is_support_moblie_dapp": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.00025uzig"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Zigchain",
+            "url": "https://testnet-api.zigchain.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Zigscan",
+        "url": "https://zigscan.org/",
+        "account": "https://zigscan.org/address/${address}",
+        "tx": "https://zigscan.org/tx/${hash}",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://zigchain.com/",
+        "docs": "https://docs.zigchain.com/",
+        "github" : "https://github.com/ZIGChain",
+        "blog" : "",
+        "medium": "https://medium.com/zignaly",
+        "twitter" : "https://x.com/zigchain",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "ZIGChain은 Zignaly가 개발한 Cosmos SDK 기반의 레이어 1 블록체인으로, EVM 호환성과 IBC를 지원하여 누구나 접근 가능한 탈중앙화 투자 전략을 구축할 수 있는 부의 창출 인프라를 제공합니다 .",
+        "en" : "ZIGChain is a Cosmos SDK-based Layer 1 blockchain with EVM compatibility and IBC support, designed to provide an open and decentralized infrastructure for building accessible wealth-generation strategies.",
+        "ja" : "ZIGChainは、EVM互換性とIBC対応を備えたCosmos SDKベースのレイヤー1ブロックチェーンであり、誰でも利用可能な分散型の資産形成戦略を構築できるインフラを提供します。"
+    }
+}

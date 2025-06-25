@@ -2,11 +2,20 @@
     {
         "type": "native",
         "denom": "uatone",
-        "name" : "Atomone",
+        "name" : "AtomOne",
         "symbol": "ATONE",
         "description": "Atomone Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/asset/atone.png",
         "coinGeckoId": "atomone"
+    },
+    {
+        "type": "native",
+        "denom": "uphoton",
+        "name" : "Photon",
+        "symbol": "PHOTON",
+        "description": "Sole fee token used to pay all transaction fees on the AtomOne network and is minted by burning ATONE tokens.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/asset/photon.png"
     }
 ]

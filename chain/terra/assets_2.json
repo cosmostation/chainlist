@@ -4,7 +4,7 @@
         "denom": "uluna",
         "name" : "Luna",
         "symbol": "LUNA",
-        "description": "The native staking token of Terra Phoenix.",
+        "description": "The native staking coin of Terra Phoenix.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
         "coinGeckoId": "terra-luna-2",
@@ -182,7 +182,7 @@
         "denom": "ibc/830107B6700EF8D76F5DB4B586C436A3D2A672939F93BDFC6543E12DD281453A",
         "name" : "Kava",
         "symbol": "KAVA",
-        "description": "Kava is a IBC/EVM Co-Chain through which USDT can be send to a CEX (or Stargate).",
+        "description": "Kava is a IBC/EVM Co-Chain and is the USDT gateway for Cosmos.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
         "coinGeckoId": "kava",
@@ -205,7 +205,7 @@
         "denom": "ibc/792AAE6279F4709F66068E29A79E6F16BBC0A9B93561A91FC040606793E62D6B",
         "name" : "Carbon",
         "symbol": "SWTH",
-        "description": "The native governance token of Carbon, which hosts Demex: an omni-chain platform for trading perpetuals, spot, and lending/borrowing.",
+        "description": "The native token of Carbon, which hosts Demex (DMX): an omni-chain platform for trading perpetuals, spot, and lending/borrowing.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg",
         "coinGeckoId": "switcheo",
@@ -252,7 +252,7 @@
         "name" : "Stride LUNA",
         "symbol": "stLUNA",
         "description": "Stride LUNA is a liquid staking derivative of LUNA, powered by Stride Protocol.",
-        "decimals": 8,
+        "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stluna.png",
         "ibc_info" : {
             "path": "stride>terra",
@@ -362,9 +362,9 @@
     {
         "type": "ibc",
         "denom": "ibc/CF57A83CED6CEC7D706631B5DC53ABC21B7EDA7DF7490732B4361E6D5DD19C73",
-        "name" : "Wrapped BTC",
-        "symbol": "WBTC",
-        "description": "Wrapped Bitcoin is a token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Osmosis community led.",
+        "name" : "Wrapped Bitcoin",
+        "symbol": "WBTC.osmo",
+        "description": "Wrapped Bitcoin is a token backed 1:1 with Bitcoin, directly minted on the Osmosis chain by BitGo.",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
         "coinGeckoId": "wrapped-bitcoin",
@@ -385,7 +385,7 @@
     {
         "type": "ibc",
         "denom": "ibc/05D299885B07905B6886F554B39346EA6761246076A1120B1950049B92B922DD",
-        "name" : "Wrapped BTC (Axelar)",
+        "name" : "Wrapped Bitcoin (Axelar)",
         "symbol": "WBTC.axl",
         "description": "Wrapped Bitcoin imported to Cosmos from Ethereum via Axelar.",
         "decimals": 8,
@@ -410,7 +410,7 @@
         "denom": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
         "name" : "Wrapped stETH",
         "symbol": "wstETH",
-        "description": "Wrapped Lido Staked Ether, imported to Terra via Neutron and is considered the canonical version of stETH in the whole Cosmos.",
+        "description": "Wrapped Lido Staked Ether, imported to Terra via Neutron and is considered the canonical version of stETH in Cosmos. bridge.neutron.org",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wsteth.png",
         "coinGeckoId": "wrapped-steth",
@@ -431,7 +431,7 @@
     {
         "type": "ibc",
         "denom": "ibc/BC8A77AFBD872FDC32A348D3FB10CC09277C266CFE52081DE341C7EC6752E674",
-        "name" : "Wrapped ETH (Axelar)",
+        "name" : "Wrapped Ether (Axelar)",
         "symbol": "WETH.axl",
         "description": "Wrapped Ethereum imported to Cosmos via Axelar.",
         "decimals": 18,
@@ -548,7 +548,7 @@
         "denom": "ibc/5BDDCE0FEE672CB481C0FC7B82132B90CBCD5B5CF314934A8868D570F69756F8",
         "name" : "Sei",
         "symbol": "SEI",
-        "description": "Sei is a parallel IBC/EVM chain through which USDT/USDC can be transported in and out of Cosmos via Stargate Finance.",
+        "description": "Sei is a  parallelized IBC/EVM chain currently in the process of going full EVM.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/sei.png",
         "coinGeckoId": "sei-network",
@@ -659,13 +659,105 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/1319C6B38CA613C89D78C2D1461B305038B1085F6855E8CD276FE3F7C9600B4C",
+        "name" : "Binance Coin (Axelar)",
+        "symbol": "WBNB.axl",
+        "description": "Wrapped BNB imported to Cosmos via Axelar.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bnb.axl.svg",
+        "coinGeckoId": "bnb",
+        "ibc_info" : {
+            "path": "bnb-smart-chain>axelar>terra",
+            "client" : {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-11",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "wbnb-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B2AA4C3CD19954859C3B537EC0705640AFC01075F52993D9AC5E73F07F0386CC",
+        "name": "Dragon Coin",
+        "symbol": "DGN",
+        "description": "Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem's governance and success.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+        "coinGeckoId": "dragon-coin-2",
+        "ibc_info": {
+            "path": "dungeon>terra",
+            "client": {
+                "channel": "channel-582",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-7",
+                "port": "transfer",
+                "chain": "dungeon",
+                "denom": "udgn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+        "name" : "Wrapped Bitcoin (Eureka)",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin IBC'd to Terra through Gaia's Eureka connection to Ethereum.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "ibc_info" : {
+            "path": "ethereum>cosmos>terra",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-339",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "transfer/08-wasm-1369/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/20850C646CDDDC2270E9BBDB08558B5FEE57B647EC6827F41096AABFD8A0471B",
+        "name" : "Ethereum (Eureka)",
+        "symbol": "ETH",
+        "description": "Ethereum IBC'd to Terra through Gaia's Eureka connection.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg",
+        "coinGeckoId": "ethereum",
+        "ibc_info" : {
+            "path": "ethereum>cosmos>terra",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-339",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "transfer/08-wasm-1369/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/79B60804664911EB0B074690182CCA7332406417B1050A583BAF0904F6B54635",
         "name" : "Luna Classic",
         "symbol": "LUNC",
         "description": "The native staking token of the Terra Classic blockchain.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/lunc.png",
-        "coinGeckoId": "terra-luna-classic",
+        "coinGeckoId": "terra-luna",
         "ibc_info" : {
             "path": "terra-classic>terra",
             "client" : {

@@ -1,0 +1,74 @@
+{
+    "chain_id_cosmos" : "hippo-protocol-1",
+    "chain_name": "Hippo Protocol",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/hippocrat/resource/chain_hippocrat.png",
+    "staking_asset_denom" : "ahp",
+    "staking_asset_symbol" : "HP",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/hippocrat/asset/hp.png",
+    "bech_account_prefix" : "hippo",
+    "bech_validator_prefix" : "hippovaloper",
+    "origin_genesis_time" : "2025-04-28T01:32:01Z",
+    "api_name" : "hippocrat",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/0'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "500000000000ahp"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc.hippocrat.mainnet.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "HippoProtocol",
+            "url": "https://api.hippo-protocol.com/"
+        },
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd.hippocrat.mainnet.cosmostation.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Hippo River",
+        "url": "https://river.hippoprotocol.ai/",
+        "account": "https://river.hippoprotocol.ai/hippo-protocol/account/${address}",
+        "tx": "https://river.hippoprotocol.ai/hippo-protocol/tx/${hash}",
+        "proposal": "https://river.hippoprotocol.ai/hippo-protocol/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://hippocrat.io",
+        "docs": "https://whitepaper.hippocrat.io",
+        "github" : "https://github.com/hippocrat-dao",
+        "blog" : "https://hippocrat.io/blog",
+        "medium": "https://medium.com/hippocrat",
+        "twitter" : "https://x.com/hippocrat_io",
+        "coingecko" : "https://www.coingecko.com/en/coins/hippocrat"
+    },
+    "forum": {
+        "main": "https://community.hippocrat.io"
+    },
+    "description" : {
+        "ko" : "히포 프로토콜은 헬스케어 데이터를 수집하고 안전하게 관리하는데 최적화된 블록체인 네트워크입니다.",
+        "en" : "Hippo Protocol is a blockchain network optimized for collecting and securely managing healthcare data.",
+        "ja" : "Hippoプロトコルは、ヘルスケアデータを収集し、安全に管理するために最適化されたブロックチェーンネットワークです。"
+    }
+}

@@ -43,25 +43,18 @@
         {
             "provider": "Polkachu",
             "url": "https://canto-api.polkachu.com/"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://canto-mainnet-lcd.autostake.com/"
         }
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "Slingshot",
-            "url": "https://canto.slingshot.finance"
-        },
-        {
-            "provider": "plexnode",
-            "url": "https://mainnode.plexnode.org:8545"
-        },
-        {
             "provider": "Ansybl",
             "url": "https://canto-rpc.ansybl.io"
+        },
+        {
+            "provider": "gravitychain",
+            "url": "https://canto.gravitychain.io"
         }
+        
     ],
     "explorer" : {
         "name": "NodeStake",

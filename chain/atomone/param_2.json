@@ -1,6 +1,6 @@
 {
     "chain_id_cosmos" : "atomone-1",
-    "chain_name": "ATOMONE",
+    "chain_name": "AtomOne",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/resource/chain_atomone.png",
     "staking_asset_denom" : "uatone",
     "staking_asset_symbol" : "ATONE",
@@ -26,7 +26,7 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.1uatone"
+            "0.025uatone,0.225uphoton"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
@@ -60,7 +60,7 @@
         "twitter" : "https://x.com/_atomone",
         "discord" : "https://discord.com/invite/atomone",
         "reddit" : "https://www.reddit.com/r/AtomOneHub/",
-        "coingecko" : "atomone"
+        "coingecko" : "https://www.coingecko.com/en/coins/atomone"
     },
     "forum": {
         "main": "https://common.xyz/atomone/discussions?tab=all",

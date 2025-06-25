@@ -15,12 +15,27 @@
     }
   },
   {
+    "name": "Astroport",
+    "type": "DeFi",
+    "description": "A neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+    "status": "open",
+    "thumbnail" : "astroport",
+    "link": "https://app.astroport.fi/swap?from=ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5&to=uluna",
+    "social": {
+      "webSite": "https://astroport.fi/en",
+      "twitter": "https://twitter.com/astroport_fi",
+      "medium": "https://astroport.medium.com/",
+      "github": "https://github.com/astroport-fi/",
+      "docs": "https://docs.astroport.fi/"
+    }
+  },
+  {
     "name": "Skip Go",
     "type": "DeFi",
-    "description": "Powerful DEX aggregator for Terra/Cosmos. Also allows USDC transfers in and out of Cosmos.",
+    "description": "CCTP-enabled DEX aggregator for Cosmos/Terra. Now allows for IBC Eureka transfers!",
     "status": "open",
-    "thumbnail" : "skip-go2",
-    "link": "https://go.skip.build/",
+    "thumbnail" : "go-cosmos",
+    "link": "https://go.cosmos.network/",
     "social": {
       "webSite": "https://www.skip.build/",
       "twitter": "https://x.com/SkipProtocol",
@@ -29,37 +44,52 @@
     }
   },
   {
+    "name": "White Whale",
+    "type": "DeFi",
+    "description": "Hosts a native Terra DEX with a focus on interchain liquidity solutions.",
+    "status": "open",
+    "thumbnail" : "white-whale2",
+    "link": "https://app.whitewhale.money/terra/swap?from=USDC&to=LUNA",
+    "social": {
+      "webSite": "https://www.whitewhale.money/",
+      "twitter": "https://twitter.com/WhiteWhaleDefi",
+      "medium": "https://medium.com/@whitewhaleterra",
+      "github": "https://github.com/White-Whale-Defi-Platform/",
+      "docs": "https://docs.migaloo.zone/"
+    }
+  },
+  {
     "name": "Stargate Finance",
     "type": "Transport",
-    "description": "Transfer USDT/USDC from anywhere to Sei EVM. Then use Skip Go for IBC to Terra. (Alternate route: Kava)",
+    "description": "Transfer USDT to Kava EVM (Route: Stargate V1, Gas on destination: Max). Then use the following app to Terra.",
     "status": "open",
     "thumbnail" : "stargate",
-    "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=sei&dstToken=0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+    "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
     "social": {
-      "webSite": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
-      "twitter": "https://x.com/SeiNetwork/status/1822004855650840618",
+      "webSite": "https://stargate.finance",
+      "twitter": "https://x.com/StargateFinance",
       "medium": "https://medium.com/stargate-official",
       "github": "https://github.com/stargate-protocol",
       "docs": "https://www.kava.io/news/how-to-bridge-usdt-with-stargate"
     }
   },
   {
-    "name": "Kava EVM to Terra",
+    "name": "Kava to Terra",
     "type": "Transport",
-    "description": "Use this app for 1-click transfer native USDT from Kava EVM to Terra and back.",
+    "description": "Use this app to IBC native USDT straight from Kava EVM to Terra and back.",
     "status": "open",
     "thumbnail" : "appkava",
     "link": "https://app.kava.io/transfer",
     "social": {
-      "webSite": "https://app.kava.io/transfer",
+      "webSite": "https://app.squidrouter.com/?chains=2222%2Cphoenix-1&tokens=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee%2Culuna",
       "twitter": "https://x.com/KAVA_CHAIN/status/1768320712660398268",
       "docs": "https://help.app.kava.io/article/44-how-to-transfer-usdt-to-cosmos-chains-with-a-single-click"
     }
   },
   {
     "name": "Monerium",
-    "type": "Transport",
-    "description": "SEPA transfers to your monerium IBAN will mint EURe on your Noble address. Then IBC to Terra.",
+    "type": "DeFi",
+    "description": "SEPA transfers to your Monerium IBAN will mint EURe on Noble. Then swap to LUNA with Skip Go.",
     "status": "open",
     "thumbnail" : "monerium",
     "link": "https://monerium.app/accounts",
@@ -71,33 +101,43 @@
     }
   },
   {
-    "name": "Astroport",
+    "name": "Capapult",
     "type": "DeFi",
-    "description": "A neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+    "description": "Here you can mint $SOLID, a decentralized overcollateralized stablecoin, governed through $CAPA.",
     "status": "open",
-    "thumbnail" : "astroport",
-    "link": "https://app.astroport.fi/swap?chain=terra&from=ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB&to=uluna",
+    "thumbnail" : "capapult",
+    "link": "https://app.solid.online/dashboard",
     "social": {
-      "webSite": "https://astroport.fi/en",
-      "twitter": "https://twitter.com/astroport_fi",
-      "medium": "https://astroport.medium.com/",
-      "github": "https://github.com/astroport-fi/",
-      "docs": "https://docs.astroport.fi/"
+      "webSite": "https://solid.online/",
+      "twitter": "https://x.com/solid_capa",
+      "docs": "https://solid.online/whitepaper-v2.pdf"
     }
   },
   {
-    "name": "White Whale",
+    "name": "Coinhall",
     "type": "DeFi",
-    "description": "Hosts a native Terra DEX with a focus on interchain liquidity solutions.",
+    "description": "Omnichain Trading Terminal for Terra/Cosmos/Solana.",
     "status": "open",
-    "thumbnail" : "white-whale",
-    "link": "https://app.whitewhale.money/terra/swap?from=USDt&to=LUNA",
+    "thumbnail" : "coinhall",
+    "link": "https://coinhall.org/swap?fromChain=noble-1&fromAsset=ueure&toChain=phoenix-1&toAsset=uluna",
     "social": {
-      "webSite": "https://www.whitewhale.money/",
-      "twitter": "https://twitter.com/WhiteWhaleDefi",
-      "medium": "https://medium.com/@whitewhaleterra",
-      "github": "https://github.com/White-Whale-Defi-Platform/",
-      "docs": "https://docs.migaloo.zone/"
+      "webSite": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst&toChain=phoenix-1&toAsset=uluna",
+      "twitter": "https://x.com/coinhall_org?lang=kn",
+      "github": "https://github.com/coinhall",
+      "docs": "https://docs.coinhall.org/"
+    }
+  },
+  {
+    "name": "Boost DAO",
+    "type": "NFT",
+    "description": "Ignite is a permissionless OTC desk and launchpad for both tokens and NFTs",
+    "status": "open",
+    "thumbnail" : "ignite",
+    "link": "https://www.boostdao.io/ignite/permissionless-terra",
+    "social": {
+      "webSite": "https://www.boostdao.io/",
+      "twitter": "https://x.com/Boost_DAO",
+      "medium": "https://medium.com/@boost.dao/boost-dao-litepaper-82944a73bc80"
     }
   },
   {
@@ -141,22 +181,9 @@
     }
   },
   {
-    "name": "capapult",
-    "type": "DeFi",
-    "description": "Here you can mint $SOLID, a decentralized overcollateralized stablecoin, governed through $CAPA holders.",
-    "status": "open",
-    "thumbnail" : "capapult",
-    "link": "https://app.capapult.finance/dashboard",
-    "social": {
-      "webSite": "https://www.capapult.finance/",
-      "twitter": "https://x.com/solid_capa",
-      "docs": "https://www.capapult.finance/whitepaper-v2.pdf"
-    }
-  },
-  {
     "name": "TFM",
     "type": "DeFi",
-    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's, ...",
+    "description": "A modular liquidity layer for Cosmos. Advanced IBC transfers, NFT's and much more ...",
     "status": "open",
     "thumbnail" : "tfm",
     "link": "https://app.tfm.com/bridge?chainFrom=cosmoshub-4&chainTo=phoenix-1&token0=uatom",
@@ -171,7 +198,7 @@
   {
     "name": "Demex",
     "type": "DeFi",
-    "description": "A multi-chain Perpetual DEX on Carbon. Also borrow/lend LUNA here via Nitron.",
+    "description": "A cross-chain perpetual DEX and money market on Carbon.",
     "status": "open",
     "thumbnail" : "demex",
     "link": "https://app.dem.exchange/trade/LUNA-PERP",
@@ -183,9 +210,61 @@
     }
   },
   {
+    "name": "DAO DAO",
+    "type": "DeFi",
+    "description": "The home for Decentralized Autonomous Organizations on Terra/Cosmos, such as Lion Dao and Phoenix Directive.",
+    "status": "open",
+    "thumbnail" : "daodao",
+    "link": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
+    "social": {
+      "webSite": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
+      "twitter": "https://x.com/DA0_DA0",
+      "github": "https://github.com/DA0-DA0",
+      "docs": "https://docs.daodao.zone/"
+    }
+  },
+  {
+    "name": "Streamweave",
+    "type": "Payments",
+    "description": "Continuous crypto payments for various use cases such as subscriptions, salaries, vesting schedules, and rewards.",
+    "status": "open",
+    "thumbnail" : "streamweave",
+    "link": "https://streamweave.org/",
+    "social": {
+      "webSite": "https://streamweave.org/",
+      "twitter": "https://x.com/Streamweave_org/"
+    }
+  },
+  {
+    "name": "Osmosis Pay",
+    "type": "Payments",
+    "description": "IBC USDC to Osmosis and pay in the real world with your virtual VISA card.",
+    "status": "open",
+    "thumbnail" : "osmosispay",
+    "link": "https://pay.osmosis.zone/",
+    "social": {
+      "webSite": "https://osmosiscard.notion.site/",
+      "twitter": "https://x.com/osmosiszone/status/1927761803607765140",
+      "docs": "https://www.stakecito.com/blog/osmosis-launches-osmosis-pay-bringing-crypto-to-everyday-payments"
+    }
+  },
+  {
+    "name": "Pulsar Finance",
+    "type": "Portfolio",
+    "description": "All-In-One portfolio tracker for your Web3 assets,",
+    "status": "open",
+    "thumbnail" : "pulsar",
+    "link": "https://app.pulsar.finance/",
+    "social": {
+      "webSite": "https://app.pulsar.finance/portfolio",
+      "twitter": "https://x.com/pulsarfinance",
+      "medium": "https://medium.com/@pulsarfinance"
+    }
+  },
+  {
     "name": "Noble Express",
     "type": "Transport",
-    "description": "Alternative to Skip Go for native USDC transfers to Terra.",
+    "description": "Alternative to Skip Go for native USDC transfers in and out of Terra/Cosmos.",
     "status": "open",
     "thumbnail" : "noble-express",
     "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
@@ -197,9 +276,24 @@
     }
   },
   {
+    "name": "Squid Router",
+    "type": "Transport",
+    "description": "An Axelar-built bridge that allows token transfers/swaps between Terra and non-Cosmos chains.",
+    "status": "open",
+    "thumbnail" : "squid",
+    "link": "https://app.squidrouter.com/?chains=56%2Caxelar-dojo-1&tokens=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee%2Cwbnb-wei",
+    "social": {
+      "webSite": "https://www.squidrouter.com/",
+      "twitter": "https://x.com/squidrouter",
+      "medium": "https://medium.com/@squidrouter",
+      "github": "https://github.com/0xsquid",
+      "docs": "https://docs.squidrouter.com/"
+    }
+  },
+  {
     "name": "Portal",
     "type": "Transport",
-    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos blockchains.",
+    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos chains.",
     "status": "open",
     "thumbnail" : "portal",
     "link": "https://portalbridge.com/advanced-tools/#/transfer",
@@ -208,35 +302,6 @@
       "twitter": "https://twitter.com/portalbridge_?lang=en",
       "github": "https://github.com/wormhole-foundation/wormhole",
       "docs": "https://wormhole.com/docs/"
-    }
-  },
-  {
-    "name": "enterprise protocol",
-    "type": "DAO",
-    "description": "A no-code tool for organizing, creating, and maintaining DAOs.",
-    "status": "open",
-    "thumbnail" : "enterprise-protocol",
-    "link": "https://enterprise.money/dashboard",
-    "social": {
-      "webSite": "https://enterprise.money/",
-      "twitter": "https://twitter.com/enterprise_dao",
-      "medium": "https://medium.com/@enterprise_dao",
-      "github": "https://github.com/terra-money/enterprise-docs",
-      "docs": "https://docs.enterprise.money/"
-    }
-  },
-  {
-    "name": "Warp Protocol",
-    "type": "DeFi",
-    "description": "Smart contract-based transaction automator.",
-    "status": "open",
-    "thumbnail" : "warp-protocol",
-    "link": "https://app.warp.money/",
-    "social": {
-      "webSite": "https://warp.money/",
-      "twitter": "https://twitter.com/warp_protocol",
-      "github": "https://github.com/terra-money/warp-docs",
-      "docs": "https://docs.warp.money/"
     }
   },
   {

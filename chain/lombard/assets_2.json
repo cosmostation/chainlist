@@ -20,5 +20,16 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard/asset/lom.png",
         "coinGeckoId": "",
         "color": ""
+    },
+    {
+        "type": "native",
+        "denom": "uclbtc",
+        "name" : "Lombard Staked BTC",
+        "symbol": "LBTC",
+        "description": "Lombard Staked BTC.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard/asset/lbtc.png",
+        "coinGeckoId": "lombard-staked-btc",
+        "color": ""
     }
 ]

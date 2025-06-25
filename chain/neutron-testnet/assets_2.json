@@ -4,7 +4,7 @@
         "denom": "untrn",
         "name": "Neutron Testnet",
         "symbol": "NTRN",
-        "description": "The Native Main Dao Asset on Neutron Chain",
+        "description": "Neutron Testnet Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron-testnet/asset/ntrn.png",
         "coinGeckoId": ""
@@ -145,6 +145,54 @@
             "counterparty": {
                 "chain": "ethereum-testnet",
                 "contract": "0x6320cd32aa674d2898a68ec82e869385fc5f7e2f"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4C19E7EC06C1AB2EC2D70C6855FEB6D48E9CE174913991DA0A517D21978E7E42",
+        "name": "USDC",
+        "symbol": "USDC",
+        "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdc.png",
+        "coinGeckoId": "",
+        "color": "#2775CA",
+        "ibc_info": {
+            "path": "noble-testnet>neutron-testnet",
+            "client": {
+                "channel": "channel-496",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-43",
+                "port": "transfer",
+                "chain": "noble-testnet",
+                "denom": "uusdn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/ABC67A74D7884679271C212DFCD8B09896A0C9A98FD5B4DEEFF3410E75E4D779",
+        "name": "Noble Dollar",
+        "symbol": "USDN",
+        "description": "USDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdn.png",
+        "coinGeckoId": "",
+        "color": "#14C784",
+        "ibc_info": {
+            "path": "noble-testnet>neutron-testnet",
+            "client": {
+                "channel": "channel-496",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-43",
+                "port": "transfer",
+                "chain": "noble-testnet",
+                "denom": "uusdn"
             }
         }
     }

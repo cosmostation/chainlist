@@ -10,7 +10,7 @@
     "origin_genesis_time" : "2024-04-19T16:00:00Z",
     "api_name" : "paloma",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "chain_type": [
         "cosmos"
     ],
@@ -38,6 +38,10 @@
         }
     ],
     "lcd_endpoint" : [
+        {
+            "provider": "nodesguru",
+            "url": "https://api-1.paloma.nodes.guru/"
+        },
         {
             "provider": "Kjnodes",
             "url": "https://paloma.api.kjnodes.com/"

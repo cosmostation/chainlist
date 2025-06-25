@@ -13,7 +13,7 @@
     "origin_genesis_time" : "2025-03-18T19:17:48Z",
     "api_name" : "manifest",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "chain_type": [
         "cosmos"
     ],

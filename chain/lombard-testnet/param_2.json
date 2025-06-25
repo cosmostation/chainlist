@@ -15,7 +15,7 @@
     "is_stake_enabled" : false,
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "chain_type": [
         "cosmos"
     ],
@@ -65,8 +65,8 @@
         "coingecko" : ""
     },
     "description" : {
-        "ko" : "Lombard Finance는 비트코인과 미술품, 부동산 같은 실물 자산을 온체인 담보로 활용해, 탈중앙화 방식으로 대출을 제공하는 DeFi 플랫폼입니다.",
-        "en" : "Lombard Finance is a DeFi platform that offers decentralized loans by using on-chain collateral such as Bitcoin and real-world assets like art and real estate.",
-        "ja" : "Lombard Finance（ロンバード・ファイナンス）は、ビットコインや美術品、不動産などの実物資産をオンチェーン担保として活用し、分散型の形でローンを提供するDeFiプラットフォームです。"
+        "ko" : "Lombard는 보안 우선의 유동적인 비트코인 원시 자산인 LBTC를 통해 비트코인의 용도를 단순한 가치 저장 수단에서 생산적인 금융 도구로 전환하고 있습니다. LBTC는 유동성이 뛰어나고 수익을 창출하며, 네이티브하게 체인 간 이동이 가능하며, 비트코인으로 1:1로 담보되어 있습니다.",
+        "en" : "Lombard is transforming Bitcoin's utility from a store of value into a productive financial tool through a security-first liquid Bitcoin primitive—LBTC. LBTC is a liquid, yield-bearing, natively cross-chain, and 1:1 backed by bitcoin.",
+        "ja" : "Lombardは、セキュリティを最優先した流動的なビットコイン原始資産「LBTC」を通じて、ビットコインの用途を価値の保存手段から生産的な金融ツールへと進化させています。 LBTCは高い流動性を持ち、利回りを生み出し、ネイティブにクロスチェーン対応しており、1:1でビットコインによって裏付けられています。"
     }
 }

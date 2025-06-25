@@ -4,7 +4,7 @@
         "denom": "untrn",
         "name" : "Neutron",
         "symbol": "NTRN",
-        "description": "The Native Main Dao Asset on Neutron Chain",
+        "description": "Neutron Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/ntrn.png",
         "coinGeckoId": "neutron-3",
@@ -895,6 +895,16 @@
     },
     {
         "type": "native",
+        "denom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
+        "name" : "dNTRN",
+        "symbol": "dNTRN",
+        "description": "Drop staked NTRN",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dntrn.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
         "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
         "name" : "dATOM",
         "symbol": "dATOM",
@@ -1124,6 +1134,29 @@
                 "port": "transfer",
                 "chain": "int3face",
                 "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/647A544ED631A846AFB787A9550422E782E913C46513011A48220AB13DC24D55",
+        "name" : "Noble Dollar",
+        "symbol": "USDN",
+        "description": "USDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdn.png",
+        "coinGeckoId": "noble-dollar-usdn",
+        "ibc_info" : {
+            "path": "noble>neutron",
+            "client" : {
+                "channel": "channel-30",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-18",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdn"
             }
         }
     }

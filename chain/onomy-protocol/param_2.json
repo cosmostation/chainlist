@@ -9,9 +9,8 @@
     "bech_validator_prefix" : "onomyvaloper",
     "origin_genesis_time" : "2022-11-29T16:57:15Z",
     "api_name" : "onomy-protocol",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": true,
+    "is_support_extension_wallet": false,
     "chain_type": [
         "cosmos"
     ],
@@ -33,16 +32,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-onomy-protocol.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-onomy-protocol.cosmostation.io/"
-        },
         {
             "provider": "onomy",
             "url": "https://rest-mainnet.onomy.io/"
@@ -53,11 +44,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/onomy-protocol/",
-        "account": "https://www.mintscan.io/onomy-protocol/address/${address}",
-        "tx": "https://www.mintscan.io/onomy-protocol/tx/${hash}",
-        "proposal": "https://www.mintscan.io/onomy-protocol/proposals/${id}"
+        "name": "EZ Staking",
+        "url": "https://ezstaking.app/onomy/",
+        "account": "https://ezstaking.app/onomy/account/${address}",
+        "tx": "https://ezstaking.app/onomy/txs/${hash}",
+        "proposal": "https://ezstaking.app/onomy/proposals/${id}"
     },
     "about" : {
         "website" : "https://onomy.io/",

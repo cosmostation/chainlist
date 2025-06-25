@@ -29,7 +29,7 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.1ausdy,0.02ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0,0.09ueure,0.1uusdc,0.1uusdn"
+            "100000000000ausdy,0.02ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0,0.09ueure,0.1uusdc,0.1uusdn"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,

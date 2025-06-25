@@ -4,10 +4,10 @@
         "denom": "uosmo",
         "name": "Osmosis",
         "symbol": "OSMO",
-        "description": "The native token of Osmosis",
+        "description": "Osmosis Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
-        "color": "#760dbb",
+        "color": "#AF38FD",
         "coinGeckoId": "osmosis"
     },
     {
@@ -381,7 +381,7 @@
         "symbol": "KAVA",
         "description": "The native staking and governance token of Kava",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava.png",
         "color": "#e64942",
         "coinGeckoId": "kava",
         "ibc_info": {
@@ -593,8 +593,8 @@
         "type": "ibc",
         "denom": "ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84",
         "name": "Sentinel",
-        "symbol": "DVPN",
-        "description": "DVPN is the native token of the Sentinel Hub.",
+        "symbol": "P2P",
+        "description": "Native token of the Sentinel Hub.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/asset/dvpn.png",
         "color": "#10a7ef",
@@ -740,7 +740,7 @@
         "symbol": "IXO",
         "description": "The native token of IXO Chain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ixo/asset/ixo.png",
         "color": "#2c4484",
         "coinGeckoId": "ixo",
         "ibc_info": {
@@ -2965,7 +2965,7 @@
         "symbol": "BZE",
         "description": "BeeZee native blockchain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/beezee/asset/bze.png",
         "color": "#079fd7",
         "coinGeckoId": "bzedge",
         "ibc_info": {
@@ -4387,7 +4387,7 @@
         "symbol": "cbETH",
         "description": "Coinbase Wrapped Staked ETH (“cbETH”) is a utility token and liquid representation of ETH staked through Coinbase. cbETH gives customers the option to sell, transfer, or otherwise use their staked ETH in dapps while it remains locked by the Ethereum protocol.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/cbeth.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/cbeth.png",
         "color": "#c9dbfc",
         "coinGeckoId": "coinbase-wrapped-staked-eth",
         "ibc_info": {
@@ -4411,7 +4411,7 @@
         "symbol": "rETH",
         "description": "Rocket Pool is a decentralised Ethereum Proof of Stake pool.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/reth.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/reth.png",
         "color": "#fba487",
         "coinGeckoId": "rocket-pool-eth",
         "ibc_info": {
@@ -5192,7 +5192,7 @@
         "symbol": "USDC",
         "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/usdc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
         "color": "#2775CA",
         "coinGeckoId": "usd-coin",
         "ibc_info": {
@@ -8325,8 +8325,9 @@
         "denom": "ibc/46579C587A0B8CF8B0A1FF6B0EFA2082F11876578E47FC81A9CAAD31F424AF98",
         "name": "Juris Protocol",
         "symbol": "JURIS",
-        "description": "Rakoff Token is the Meme Token for Terra Classic",
+        "description": "Juris Protocol is a DeFi platform on Terra Classic that offers secure lending and borrowing services.",
         "decimals": 6,
+        "coinGeckoId": "juris-protocol",
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/juris.png",
         "ibc_info": {
             "path": "terra-classic>osmosis",
@@ -9684,6 +9685,7 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg",
         "color": "#7b5aff",
+        "coinGeckoId": "yield-gata",
         "ibc_info": {
             "path": "omniflix>osmosis",
             "client": {
@@ -9919,7 +9921,7 @@
         "symbol": "ELYS",
         "description": "The native token of Elys Network",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/elys/asset/elys.png",
         "coinGeckoId": "elys-network",
         "ibc_info": {
             "path": "elys>osmosis",
@@ -10784,5 +10786,178 @@
         "description": "T7S is the heartbeat of the Seven Shaders universe—powering NFTs, AI adventures, and gaming rewards. One token, endless possibilities.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EC3A4ACBA1CFBEE698472D3563B70985AEA5A7144C319B61B3EBDFB57B5E1535",
+        "name": "Babylon",
+        "symbol": "BABY",
+        "description": "Babylon Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/bbn.png",
+        "color": "#FF863C",
+        "coinGeckoId": "babylon",
+        "ibc_info": {
+            "path": "babylon>osmosis",
+            "client": {
+                "channel": "channel-101635",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "Babylon",
+                "denom": "ubbn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9D8D4CAE9D8F15B69E93969304AF3878D14BDED39FEAF0060566D6AC22288779",
+        "name": "Milk",
+        "symbol": "MILK",
+        "description": "Milkyway Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/milkyway/asset/milk.png",
+        "coinGeckoId": "milkyway-2",
+        "ibc_info": {
+            "path": "milkyway>osmosis",
+            "client": {
+                "channel": "channel-89298",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "milkyway",
+                "denom": "umilk"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/mtc",
+        "name": "Matcha Club",
+        "symbol": "MTC",
+        "description": "Join Matcha Club - use our ecosystem for for free. NFT builder, utility apps. Cooking non-stop!",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/refs/heads/main/chain/osmosis/asset/mtc.png"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0C39BD03B5C57A1753A9B73164705871A9B549F1A5226CFD7E39BE7BF73CF8CF",
+        "name": "Noble Dollar",
+        "symbol": "USDN",
+        "description": "USDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdn.png",
+        "color": "#14C784",
+        "coinGeckoId": "noble-dollar-usdn",
+        "ibc_info": {
+            "path": "noble>osmosis",
+            "client": {
+                "channel": "channel-750",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+        "name": "Pax Gold (via Eureka)",
+        "symbol": "PAXG",
+        "description": "Pax Gold bridged from Ethereum via Eureka on Cosmos Hub (IBC).",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/paxg.png",
+        "color": "#D8A24A",
+        "coinGeckoId": "pax-gold",
+        "ibc_info": {
+            "path": "cosmos>osmosis",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-141",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/AD969E97A63B64B30A6E4D9F598341A403B849F5ACFEAA9F18DBD9255305EC65",
+        "name": "Arkeo",
+        "symbol": "ARKEO",
+        "description": "Arkeo Staking Coin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arkeo/asset/arkeo.png",
+        "coinGeckoId": "arkeo",
+        "ibc_info": {
+            "path": "arkeo>osmosis",
+            "client": {
+                "channel": "channel-103074",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "arkeo",
+                "denom": "uarkeo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DD7EA9AF1E58E9FDD7F9810976817E203D5B87BAEF7AEA592FA34DF73310620B",
+        "name": "Initia",
+        "symbol": "INIT",
+        "description": "Initia Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/initia/asset/init.png",
+        "coinGeckoId": "initia",
+        "ibc_info": {
+            "path": "initia>osmosis",
+            "client": {
+                "channel": "channel-102122",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-68",
+                "port": "transfer",
+                "chain": "initia",
+                "denom": "uinit"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064",
+        "name": "Nillion",
+        "symbol": "NIL",
+        "description": "Nillion Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nillion/asset/nil.png",
+        "coinGeckoId": "nillion",
+        "ibc_info": {
+            "path": "nillion>osmosis",
+            "client": {
+                "channel": "channel-98416",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "nillion",
+                "denom": "unil"
+            }
+        }
     }
 ]

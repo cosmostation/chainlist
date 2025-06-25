@@ -10,13 +10,12 @@
     "origin_genesis_time" : "",
     "api_name" : "gno-testnet",
     "is_stake_enabled" : false,
-    "is_support_grc20" : true,
     "is_support_mintscan": false,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
     "is_support_moblie_dapp": true,
     "chain_type": [
-        "cosmos"
+        "gno"
     ],
     "account_type" : [
         {

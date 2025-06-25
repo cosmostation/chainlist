@@ -1,0 +1,2614 @@
+[
+    {
+        "id": 1,
+        "name": "Eigenlayer",
+        "description": "EigenLayer lets Ethereum users restake assets to support other protocols and earn extra rewards.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/eigenlayer.png",
+        "link": "https://app.eigenlayer.xyz",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "github": "https://github.com/eigenfoundation",
+            "telegram": "https://t.me/EigenLayerOfficial",
+            "twitter": "https://x.com/eigenlayer",
+            "discord": "https://discord.com/invite/eigenlayer"
+        },
+        "is_default": true,
+        "type": "Liquid staking"
+    },
+    {
+        "id": 2,
+        "name": "Etherfi",
+        "description": "EtherFi is a liquid restaking on Ethereum. Stake ETH to get eETH to reward you more across DeFi.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/etherfi.png",
+        "link": "https://app.eigenlayer.xyz",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "berachain"
+        ],
+        "socials": {
+            "github": "https://github.com/etherfi-protocol",
+            "telegram": "https://t.me/+C3fpSjmPqzA5NTVh",
+            "twitter": "https://x.com/ether_fi",
+            "discord": "https://discord.com/invite/etherfi"
+        },
+        "is_default": true,
+        "type": "DeFi"
+    },
+    {
+        "id": 3,
+        "name": "1inch",
+        "description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/1inch.png",
+        "link": "https://app.1inch.io",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "fantom",
+            "kaia",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/1inch",
+            "telegram": "https://t.me/OneInchNetworkNews",
+            "twitter": "https://x.com/intent/follow?screen_name=1inch",
+            "discord": "https://discord.com/invite/1inch",
+            "reddit": "https://www.reddit.com/r/1inch/"
+        },
+        "is_default": true,
+        "type": "DEX"
+    },
+    {
+        "id": 4,
+        "name": "Aave",
+        "description": "Aave is a decentralized finance money market protocol that allows you to lend, borrow, and earn interest on cryptocurrencies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/aave.png",
+        "link": "https://app.aave.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "fantom",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/aave",
+            "twitter": "https://x.com/aave",
+            "discord": "https://discord.com/invite/aave",
+            "reddit": "https://www.reddit.com/r/aave/"
+        },
+        "is_default": true,
+        "type": "DeFi"
+    },
+    {
+        "id": 5,
+        "name": "Uniswap",
+        "description": "Uniswap V3 is a noncustodial automated market maker implemented for the Ethereum Virtual Machine. It provides increased capital efficiency, fine-tuned control of liquidity provider, and improve accuracy and convenience of its price oracle.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/uniswap.png",
+        "link": "https://app.uniswap.org/swap",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/Uniswap",
+            "twitter": "https://x.com/Uniswap",
+            "discord": "https://discord.com/invite/uniswap"
+        },
+        "is_default": true,
+        "type": "DeFi"
+    },
+    {
+        "id": 6,
+        "name": "Ethena",
+        "description": "Ethena is a DeFi platform offering secure lending, borrowing, and staking on the blockchain. It empowers users with full control over their assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ethena.png",
+        "link": "https://app.uniswap.org/swap",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "bnb-smart-chain",
+            "optimism"
+        ],
+        "socials": {
+            "github": "https://github.com/ethena-labs",
+            "telegram": "https://t.me/ethena_labs",
+            "twitter": "https://x.com/ethena_labs",
+            "discord": "https://discord.com/invite/ethena",
+            "reddit": "https://www.reddit.com/r/Ethena/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 7,
+        "name": "Pendle",
+        "description": "Pendle is a DeFi protocol that unlocks the potential of yield trading by enabling users to tokenize and trade future yield on various assets. It provides innovative tools to maximize yield opportunities and enhance liquidity.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pendle.png",
+        "link": "https://app.pendle.finance/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "optimism"
+        ],
+        "socials": {
+            "github": "https://github.com/pendle-finance/pendle-core-v2-public",
+            "telegram": "https://t.me/pendlefinance",
+            "twitter": "https://x.com/pendle_fi",
+            "discord": "https://discord.com/invite/EAujvncY2R",
+            "reddit": "https://www.reddit.com/r/Pendlefinance/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 8,
+        "name": "Morpho",
+        "description": "Morpho is a DeFi protocol that optimizes lending and borrowing on top of existing lending pools, offering improved rates through peer-to-peer matching while maintaining compatibility with major protocols like Aave and Compound.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/morpho.png",
+        "link": "https://app.morpho.org/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/morpho-org",
+            "telegram": "https://t.me/MorphoNetwork",
+            "twitter": "https://x.com/MorphoLabs",
+            "discord": "https://discord.com/invite/BWXbJMHMdz/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 9,
+        "name": "Rango Exchange",
+        "description": "Rango Exchange a powerful multi-chain aggregator for DEX and bridges, based on reachability and support of top blockchains.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/rangoexchange.png",
+        "link": "https://app.rango.exchange/bridge?fromBlockchain=ETH&fromToken=ETH&toBlockchain=ETH&toToken=USDT--0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "chains": [
+            "ethereum",
+            "base",
+            "fantom",
+            "polygon",
+            "arbitrum",
+            "optimism",
+            "thorchain",
+            "bnb-smart-chain",
+            "avalanche"
+        ],
+        "socials": {
+            "github": "https://github.com/rango-exchange",
+            "telegram": "https://t.me/rangoexchange",
+            "twitter": "https://x.com/RangoExchange",
+            "discord": "https://discord.com/invite/q3EngGyTrZ",
+            "reddit": "https://www.reddit.com/r/RangoExchange/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 10,
+        "name": "ShapeShift",
+        "description": "ShapeShift is a pioneer in self-custody for digital asset trading. Our open source platform empowers users to safely buy, hold, trade, and invest in a range of digital assets and improves access to open, decentralized financial systems.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/shapeshift.png",
+        "link": "https://app.shapeshift.com/?utm_source=mainpage&utm_medium=launchdapp&utm_campaign=top#/trade",
+        "chains": [
+            "ethereum",
+            "base",
+            "bnb-smart-chain",
+            "avalanche",
+            "arbitrum",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/shapeshift",
+            "twitter": "https://x.com/ShapeShift",
+            "discord": "https://discord.com/invite/shapeshift",
+            "reddit": "https://www.reddit.com/r/shapeshift/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 11,
+        "name": "Jumper",
+        "description": "A truly multi-chain exchange. Aggregating the best in the business for bridging, swapping, onramping.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/jumper.png",
+        "link": "https://jumper.exchange",
+        "chains": [
+            "ethereum",
+            "fantom",
+            "polygon",
+            "base",
+            "arbitrum",
+            "optimism",
+            "avalanche"
+        ],
+        "socials": {
+            "twitter": "https://x.com/JumperExchange",
+            "discord": "https://discord.com/invite/jumperexchange",
+            "reddit": "https://www.reddit.com/r/shapeshift/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 12,
+        "name": "OpenOcean",
+        "description": "OpenOcean is a leading DEX Aggregator, a cross-chain swap aggregator, and Web3 middleware developer in the crypto space, offering a suite of tools across 30+ networks and maintains strong connections with 1000+ DeFi projects.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/openocean.png",
+        "link": "https://app.openocean.finance/eth",
+        "chains": [
+            "ethereum",
+            "base",
+            "fantom",
+            "optimism",
+            "polygon",
+            "arbitrum",
+            "avalanche",
+            "bnb-smart-chain"
+        ],
+        "socials": {
+            "github": "https://github.com/openocean-finance/",
+            "telegram": "https://t.me/OOFinance",
+            "twitter": "https://x.com/OpenOceanGlobal",
+            "discord": "https://discord.com/invite/C7PHQaKdNX",
+            "reddit": "https://www.reddit.com/r/OpenOceanFinance/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 13,
+        "name": "Symbiosis",
+        "description": "Symbiosis is a cross-chain AMM DEX that pools together liquidity from different networks: L1s and L2s, EVM and non-EVM. With Symbiosis, you can easily swap any token and move your assets across different networks.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/symbiosis.png",
+        "link": "https://app.symbiosis.finance",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "cronos",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/symbiosis-finance",
+            "telegram": "https://t.me/symbiosis_finance",
+            "twitter": "https://x.com/intent/follow?screen_name=symbiosis_fi",
+            "discord": "https://discord.com/invite/ymbRx6ADvR"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 14,
+        "name": "Rubic",
+        "description": "Rubic aggregates swaps of 15,000+ assets across dozens of blockchains with the best rates, highest liquidity, and transaction speeds - in one click, thanks to the integration of 220+ DEXs and bridges.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/rubic.png",
+        "link": "https://app.rubic.exchange",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "cronos",
+            "fantom",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/cryptorubic_chat",
+            "twitter": "https://x.com/CryptoRubic",
+            "discord": "https://discord.com/invite/7EYzPbWKFQ",
+            "reddit": "https://www.reddit.com/r/Rubic/new/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 15,
+        "name": "Plexus",
+        "description": "PLEXUS is a cross-chain liquidity aggregator that combines DEXs and Bridges on many chains, allowing users to trade all tokens in every chain with one click and one API at the fastest and most optimal price.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/plexus.png",
+        "link": "https://www.plexus.app/swap",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "fantom",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {},
+        "type": "DEX"
+    },
+    {
+        "id": 16,
+        "name": "RocketX",
+        "description": "RocketX is the most advanced hybrid aggregator that simplifies access to $100B+ liquidity across 300+ DEXs & 6 Top CEXs via a Single UI and API",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/rocketx.png",
+        "link": "https://app.rocketx.exchange/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "cronos",
+            "fantom",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/RocketXexchange",
+            "twitter": "https://x.com/RocketXexchange"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 17,
+        "name": "Unizen",
+        "description": "Unizen is a cutting-edge operating system for Web3 applications that enables users to seamlessly, cost-efficiently, and securely interact with all things Web3, including THORChain-powered cross-chain swaps.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/unizen.png",
+        "link": "https://zcx.com/trade/",
+        "chains": [
+            "ethereum",
+            "fantom",
+            "avalanche",
+            "polygon",
+            "bnb-smart-chain"
+        ],
+        "socials": {
+            "github": "https://github.com/unizen-io",
+            "telegram": "https://www.t.me/unizen_io",
+            "twitter": "https://x.com/unizen_io",
+            "discord": "https://discord.com/invite/TEj4pu4eRs"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 18,
+        "name": "Cacao Swap",
+        "description": "Cacao Swap is a supercharged user interface for cross-chain swaps, synthetics and yield opportunities. Powered by Thorchain, Maya Protocol and ChainFlip, it offers a user-first experience for all interactions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/cacao.png",
+        "link": "https://cacaoswap.app/",
+        "chains": [
+            "ethereum",
+            "avalanche"
+        ],
+        "socials": {
+            "telegram": "https://t.me/CacaoSwapOfficial",
+            "twitter": "https://x.com/cacaoswap"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 19,
+        "name": "Hyperliquid",
+        "description": "Hyperliquid is a fast and reliable crypto trading platform offering advanced tools and real-time market data. It’s designed to help users trade efficiently and manage their portfolios with ease.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hyperliquid.png",
+        "link": "https://app.hyperliquid.xyz/",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "github": "https://github.com/hyperliquid-dex",
+            "telegram": "https://t.me/hyperliquid_announcements",
+            "twitter": "https://x.com/hyperliquidX",
+            "discord": "https://discord.com/invite/hyperliquid",
+            "reddit": "https://www.reddit.com/r/hyperliquid1/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 20,
+        "name": "NFT Bridge",
+        "description": "Bridge your NFTs to Berachain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/nftBridge.png",
+        "link": "https://nftbridge.berachain.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum"
+        ],
+        "socials": {
+            "github": "https://github.com/berachain",
+            "telegram": "https://t.me/BerachainPortal",
+            "twitter": "https://x.com/berachain",
+            "discord": "https://discord.com/invite/berachain",
+            "reddit": "https://www.reddit.com/r/Berachain/"
+        },
+        "type": "Bridge"
+    },
+    {
+        "id": 21,
+        "name": "Sushi Swap",
+        "description": "A leading multi-chain DEX deployed across 25+ blockchains, cooking up a community-built, open-source ecosystem of all the DeFi tools you need.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/sushi.png",
+        "link": "https://www.sushi.com/swap",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "cronos",
+            "fantom",
+            "kava",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/sushiswap",
+            "twitter": "https://x.com/sushiswap",
+            "discord": "https://discord.com/invite/qGeREffeAH"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 22,
+        "name": "Beefy Finance",
+        "description": "The Multichain Yield Optimizer that autocompounds your crypto on BSC, Polygon, Fantom, HECO and Avalanche.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/beefy.png",
+        "link": "https://app.beefy.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "cronos",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/beefyfinance",
+            "telegram": "https://t.me/beefyfinance",
+            "twitter": "https://x.com/beefyfinance",
+            "discord": "https://discord.com/invite/beefyfinance",
+            "reddit": "https://www.reddit.com/r/Beefy/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 23,
+        "name": "Compound",
+        "description": "Compound's V3 app is a decentralized finance (DeFi) platform that allows users to lend and borrow cryptocurrencies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/compound.png",
+        "link": "https://v3-app.compound.finance/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/compound-finance/compound-protocol",
+            "twitter": "https://x.com/compoundfinance",
+            "discord": "https://discord.com/invite/rps4rfjeGz"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 24,
+        "name": "Opensea",
+        "description": "OpenSea is a decentralized marketplace for buying, selling, and discovering non-fungible tokens.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/opensea.png",
+        "link": "https://opensea.io/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "twitter": "https://x.com/opensea",
+            "discord": "https://discord.com/invite/opensea",
+            "reddit": "https://www.reddit.com/r/opensea/"
+        },
+        "is_default": true,
+        "type": "NFT"
+    },
+    {
+        "id": 25,
+        "name": "Moonwell",
+        "description": "Moonwell is a decentralized finance (DeFi) platform that offers simple and secure lending services.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/moonwell.png",
+        "link": "https://moonwell.fi/discover",
+        "chains": [
+            "ethereum",
+            "base",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/moonwell-fi/",
+            "telegram": "https://t.me/moonwellfichat",
+            "twitter": "https://x.com/MoonwellDeFi",
+            "discord": "https://discord.com/invite/moonwellfi",
+            "reddit": "https://www.reddit.com/r/Moonwellcrypto/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 26,
+        "name": "Zora",
+        "description": "Zora is a decentralized platform that allows users to create, buy, and sell NFTs.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/zora.png",
+        "link": "https://zora.co/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "optimism"
+        ],
+        "socials": {
+            "github": "https://github.com/ourzora",
+            "telegram": "https://t.me/+ERwYbo_nczAyNTMy",
+            "twitter": "https://x.com/zora",
+            "discord": "https://discord.com/invite/moonwellfi"
+        },
+        "type": "NFT"
+    },
+    {
+        "id": 27,
+        "name": "Berachain Bridge",
+        "description": "The canonical bridge to Berachain is the Berachain Bridge, powered by LayerZero. There are a number of source chains supporting bridging to Berachain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/berachain-bridge.png",
+        "link": "https://bridge.berachain.com/bridge/token",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/berachain",
+            "telegram": "https://t.me/BerachainPortal",
+            "twitter": "https://x.com/berachain",
+            "discord": "https://discord.com/invite/berachain",
+            "reddit": "https://www.reddit.com/r/Berachain/"
+        },
+        "type": "Bridge"
+    },
+    {
+        "id": 28,
+        "name": "BeraHub",
+        "description": "BeraHub is the place to manage all things $BGT and access Berachain liquidity through BeraSwap.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/berahub.png",
+        "link": "https://hub.berachain.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {
+            "github": "https://github.com/berachain",
+            "telegram": "https://t.me/BerachainPortal",
+            "twitter": "https://x.com/berachain",
+            "discord": "https://discord.com/invite/berachain",
+            "reddit": "https://www.reddit.com/r/Berachain/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 29,
+        "name": "Honey Mint",
+        "description": "Honey Swap enables users to trade approved stablecoins and other assets for $HONEY, Berachain's native stablecoin.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/honeymint.png",
+        "link": "https://honey.berachain.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {
+            "github": "https://github.com/berachain",
+            "telegram": "https://t.me/BerachainPortal",
+            "twitter": "https://x.com/berachain",
+            "discord": "https://discord.com/invite/berachain",
+            "reddit": "https://www.reddit.com/r/Berachain/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 30,
+        "name": "Bera Airdrop",
+        "description": "Berachain Airdrop",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/airdrop.png",
+        "link": "https://airdrop.berachain.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {
+            "github": "https://github.com/berachain",
+            "telegram": "https://t.me/BerachainPortal",
+            "twitter": "https://x.com/berachain",
+            "discord": "https://discord.com/invite/berachain",
+            "reddit": "https://www.reddit.com/r/Berachain/"
+        },
+        "type": "Airdrop"
+    },
+    {
+        "id": 31,
+        "name": "Exactly Protocol",
+        "description": "Exactly is a decentralized finance (DeFi) platform focused on providing fixed-rate lending and borrowing solutions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/exactly.png",
+        "link": "https://app.exact.ly/",
+        "chains": [
+            "optimism"
+        ],
+        "socials": {
+            "github": "https://github.com/exactly",
+            "twitter": "https://x.com/exactlyprotocol",
+            "discord": "https://discord.com/invite/exactly"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 32,
+        "name": "Stargate",
+        "description": "Stargate Finance is a decentralized finance (DeFi) platform focused on providing cross-chain liquidity transfer solutions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/stargate.png",
+        "link": "https://stargate.finance/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "fantom",
+            "kaia",
+            "kava",
+            "optimism",
+            "polygon",
+            "xpla"
+        ],
+        "socials": {
+            "github": "https://github.com/stargate-protocol",
+            "telegram": "https://t.me/joinchat/LEM0ELklmO1kODdh",
+            "twitter": "https://x.com/StargateFinance",
+            "discord": "https://discord.com/invite/E6xp6y4"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 33,
+        "name": "WooFi",
+        "description": "WOOFi is a decentralized finance (DeFi) platform within the WOO Network that offers a variety of financial services including swapping, staking, and yield farming. It aims to provide deep liquidity, low fees, and competitive yields for users",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/woofi.png",
+        "link": "https://fi.woo.org/swap/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/woonetwork",
+            "twitter": "https://x.com/_WOOFi",
+            "discord": "https://discord.com/invite/woonetwork"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 35,
+        "name": "Pooltime",
+        "description": "PoolTime is a decentralized finance (DeFi) platform that offers a gamified staking experience. Users can stake their digital assets to participate in lottery-style reward pools, combining the excitement of gaming with the benefits of DeFi.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pooltogether.png",
+        "link": "https://www.pooltime.app/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base"
+        ],
+        "socials": {
+            "twitter": "https://x.com/PoolTogether_",
+            "discord": "https://pooltogether.com/discord"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 36,
+        "name": "IBC Eureka (Skip)",
+        "description": "IBC Eureka, launched by Cosmos’ Interchain Labs, enables secure and transparent connections between blockchains—marking a key step toward building a decentralized internet.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/eureka.png",
+        "link": "https://go.cosmos.network/",
+        "chains": [
+            "ethereum",
+            "cosmos"
+        ],
+        "socials": {
+            "telegram": "https://t.me/cosmosproject",
+            "twitter": "https://x.com/cosmos",
+            "discord": "https://discord.com/invite/interchain",
+            "reddit": "https://www.reddit.com/r/cosmosnetwork/"
+        },
+        "is_default": true,
+        "type": "DEX"
+    },
+    {
+        "id": 37,
+        "name": "Skip Go",
+        "description": "Provides MEV solutions for Cosmos and Evm blockchains, enabling revenue generation through block space auctions and transaction prioritization.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/skip.png",
+        "link": "https://go.skip.build/",
+        "chains": [
+            "ethereum",
+            "cosmos"
+        ],
+        "socials": {
+            "telegram": "https://t.me/cosmosproject",
+            "twitter": "https://x.com/cosmos",
+            "discord": "https://discord.com/invite/interchain",
+            "reddit": "https://www.reddit.com/r/cosmosnetwork/"
+        },
+        "is_default": true,
+        "type": "DeFi"
+    },
+    {
+        "id": 38,
+        "name": "Squid Router",
+        "description": "Squid lets you swap tokens between blockchains, and unlocks access to apps across chains in 1 click ✨ EVM + Cosmos.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/squid.png",
+        "link": "https://app.squidrouter.com",
+        "chains": [
+            "ethereum",
+            "cosmos"
+        ],
+        "socials": {
+            "github": "https://github.com/0xsquid/",
+            "twitter": "https://x.com/squidrouter",
+            "discord": "https://discord.com/invite/squidrouter"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 39,
+        "name": "Drop Money",
+        "description": "Drop is a DeFi platform focused on providing liquidity across multiple blockchain networks, enhancing interoperability and transaction efficiency.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dropmoney.png",
+        "link": "https://app.drop.money/dashboard?referral_code=dropmaga",
+        "chains": [
+            "cosmos",
+            "celestia",
+            "neutron"
+        ],
+        "socials": {
+            "github": "https://github.com/hadronlabs-org/drop-contracts",
+            "telegram": "https://t.me/drop_protocol",
+            "twitter": "https://x.com/Dropdotmoney",
+            "discord": "https://discord.com/invite/dropdotmoney"
+        },
+        "is_default": true,
+        "type": "DeFi"
+    },
+    {
+        "id": 40,
+        "name": "DaoDao",
+        "description": "Platform designed for decentralized autonomous organizations (DAOs) to manage their operations.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/daodao.png",
+        "link": "https://daodao.zone/",
+        "chains": [
+            "cosmos",
+            "bitsong",
+            "juno",
+            "neutron",
+            "migaloo",
+            "omniflix",
+            "orai-chain",
+            "osmosis",
+            "stargaze"
+        ],
+        "socials": {
+            "github": "https://github.com/DA0-DA0",
+            "twitter": "https://x.com/DA0_DA0",
+            "discord": "https://discord.com/invite/5uBMNMy4UR"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 41,
+        "name": "pSTAKE Finance",
+        "description": "A multi-chain liquid staking protocol that unlocks liquidity for your staked assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pstake-finance.png",
+        "link": "https://app.pstake.finance/cosmos",
+        "chains": [
+            "persistence"
+        ],
+        "socials": {
+            "telegram": "https://t.me/pstakefinancechat",
+            "twitter": "https://x.com/pSTAKE_Cosmos",
+            "discord": "https://discord.com/invite/kKvSz6F8AJ",
+            "reddit": "https://www.reddit.com/r/pstake_official"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 42,
+        "name": "Hydro",
+        "description": "Hydro lets ATOM holders vote on project bids to direct liquidity and earn rewards. It’s in view-only mode, with pilot rounds ongoing.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hydro.png",
+        "link": "https://hydro.cosmos.network/",
+        "chains": [
+            "cosmos"
+        ],
+        "socials": {
+            "telegram": "https://t.me/hydro_community",
+            "twitter": "https://x.com/HydroTeam_"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 43,
+        "name": "Osmosis Zone",
+        "description": "Interchain Liquidity Lab - Swap, earn and build on the leading decentralized Cosmos exchange.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/osmosiszone.png",
+        "link": "https://app.osmosis.zone/",
+        "chains": [
+            "osmosis"
+        ],
+        "socials": {
+            "github": "https://github.com/osmosis-labs",
+            "telegram": "https://t.me/osmosis_chat",
+            "twitter": "https://x.com/osmosiszone",
+            "discord": "https://discord.com/invite/osmosis",
+            "reddit": "https://www.reddit.com/r/OsmosisLab"
+        },
+        "is_default": true,
+        "type": "DeFi"
+    },
+    {
+        "id": 44,
+        "name": "Neutron",
+        "description": "Duality is a DEX on the Neutron network for secure and efficient crypto trading. It uses smart contracts and offers a user-friendly interface.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/neutron.png",
+        "link": "https://app.neutron.org/",
+        "chains": [
+            "neutron"
+        ],
+        "socials": {
+            "github": "https://github.com/neutron-org",
+            "telegram": "https://t.me/neutron_community",
+            "twitter": "https://x.com/Neutron_org",
+            "discord": "https://discord.com/invite/bzPBzbDvWC",
+            "reddit": "https://www.reddit.com/r/Neutron_org/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 45,
+        "name": "Astroport",
+        "description": "Astroport is an AMM(Automated Market Maker)-style decentralized exchange built with CosmWasm smart contracts.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/astroport.png",
+        "link": "https://neutron.astroport.fi/swap",
+        "chains": [
+            "neutron",
+            "injective",
+            "osmosis",
+            "sei",
+            "terra"
+        ],
+        "socials": {
+            "github": "https://github.com/astroport-fi/",
+            "telegram": "https://t.me/astroport_fi",
+            "twitter": "https://x.com/astroport_fi",
+            "discord": "https://discord.com/invite/astroport",
+            "reddit": "https://www.reddit.com/r/Astroport/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 46,
+        "name": "Apollo dao",
+        "description": "Optimize your DeFi yields with smart contracts-automated Apollo Vaults strategies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/apollo.png",
+        "link": "https://app.apollo.farm/",
+        "chains": [
+            "neutron",
+            "osmosis"
+        ],
+        "socials": {
+            "github": "https://github.com/apollodao",
+            "telegram": "https://t.me/apollodao",
+            "twitter": "https://x.com/ApolloDAO",
+            "discord": "https://discord.com/invite/j3KxMR8ZjZ",
+            "reddit": "https://www.reddit.com/r/ApolloDAO/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 47,
+        "name": "Coinhall",
+        "description": "Providing real-time cryptocurrency market data, including prices, trading volumes, and market caps.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/coinhall.png",
+        "link": "https://coinhall.org",
+        "chains": [
+            "cosmos",
+            "celestia",
+            "injective",
+            "neutron",
+            "osmosis"
+        ],
+        "socials": {
+            "telegram": "https://t.me/coinhall_org",
+            "twitter": "https://x.com/coinhall_org",
+            "discord": "https://discord.com/invite/Ebz8yaveAk"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 48,
+        "name": "Levana",
+        "description": "Levana Trade is a decentralized platform for trading perpetual swaps with leverage on various crypto assets. It offers a user-friendly interface and tools for managing risk in a transparent, trustless environment.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/levana.png",
+        "link": "https://trade.levana.finance/neutron/trade/NTRN_USD",
+        "chains": [
+            "neutron"
+        ],
+        "socials": {
+            "discord": "https://discord.com/invite/Xa7yzUtApz",
+            "reddit": "https://www.reddit.com/r/levanadragons"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 49,
+        "name": "Stargaze Zone",
+        "description": "Community-owned app chain designed specifically for NFTs.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/stargaze.png",
+        "link": "https://www.stargaze.zone/",
+        "chains": [
+            "stargaze"
+        ],
+        "socials": {
+            "github": "https://github.com/public-awesome",
+            "telegram": "https://t.me/joinchat/ZQ95YmIn3AI0ODFh",
+            "twitter": "https://x.com/stargazezone",
+            "discord": "https://discord.com/invite/stargaze",
+            "reddit": "https://www.reddit.com/r/stargaze/"
+        },
+        "type": "NFT"
+    },
+    {
+        "id": 50,
+        "name": "Astrovault",
+        "description": "DeFi, Sustainably.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/astrovault.png",
+        "link": "https://astrovault.io",
+        "chains": [
+            "archway"
+        ],
+        "socials": {
+            "telegram": "https://t.me/axvdex",
+            "twitter": "https://x.com/axvdex",
+            "discord": "https://discord.com/invite/SfsuTgz27m"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 51,
+        "name": "Sudo Stake",
+        "description": "On-chain property rights for everyone.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/sudostake.png",
+        "link": "https://www.sudostake.com/",
+        "chains": [
+            "archway"
+        ],
+        "socials": {
+            "github": "https://github.com/sudostake",
+            "telegram": "https://t.me/sudostake",
+            "twitter": "https://x.com/sudostake"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 52,
+        "name": "7K Aggregator",
+        "description": "The Leading Liquidity Hub for Smart Traders on Sui Network.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/7k.png",
+        "link": "https://7k.ag/",
+        "chains": [
+            "sui"
+        ],
+        "socials": {
+            "twitter": "https://x.com/7k_ag_",
+            "discord": "https://discord.com/invite/vNhgKEawXn"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 53,
+        "name": "ABEx Finance",
+        "description": "ABEx is a revonluationary on-chain derivatives protocol within the Sui ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/abex.png",
+        "link": "https://abex.fi/app/trade",
+        "chains": [
+            "sui"
+        ],
+        "socials": {
+            "twitter": "https://x.com/ABExFinance",
+            "discord": "https://discord.com/invite/gTbkHAHU8B"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 54,
+        "name": "Aftermath Finance",
+        "description": "CEX but on-chain. Your one-stop DeFi hub on Sui.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/aftermath.png",
+        "link": "https://aftermath.finance/trade",
+        "chains": [
+            "sui"
+        ],
+        "socials": {
+            "github": "https://github.com/AftermathFinance/",
+            "twitter": "https://x.com/aftermathfi",
+            "discord": "https://discord.com/invite/KvVCAauXk5"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 55,
+        "name": "AlphaFi",
+        "description": "Smart Yield Aggregator. Best Safe Real Yields on Sui Network.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/alphafi.png",
+        "link": "https://alphafi.xyz/portfolio",
+        "chains": [
+            "sui"
+        ],
+        "socials": {
+            "telegram": "https://t.me/AlphaFiSUI",
+            "twitter": "https://x.com/AlphaFiSUI",
+            "discord": "https://discord.com/invite/Pn6cKUSqSs"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 58,
+        "name": "Scallop",
+        "description": "The Next Generation Money Market Based on Sui.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/scallop.png",
+        "link": "https://app.scallop.io/",
+        "chains": [
+            "sui"
+        ],
+        "socials": {
+            "github": "https://github.com/scallop-io",
+            "telegram": "https://t.me/scallop_io",
+            "twitter": "https://x.com/intent/follow?screen_name=Scallop_io",
+            "discord": "https://discord.com/invite/F7umecFArJ",
+            "reddit": "https://www.reddit.com/r/Scallop/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 59,
+        "name": "NAVI Protocol",
+        "description": "Navi is the first Native One-Stop Liquidity Protocol on Sui. It enables users to participate as liquidity providers or borrowers within the Sui Ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/navi.png",
+        "link": "https://app.naviprotocol.io/",
+        "chains": [
+            "sui"
+        ],
+        "socials": {
+            "telegram": "https://t.me/navi_protocol",
+            "twitter": "https://x.com/navi_protocol",
+            "discord": "https://discord.com/invite/R6Xkbee8Xq"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 60,
+        "name": "Splash Dash",
+        "description": "Splash Dash is an intuitive SUI dashboard that offers SUI users an one-for-all platform for staking, investments, and asset management.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/splashdash.png",
+        "link": "https://dash.splash.im/mainnet/dashboard",
+        "chains": [
+            "sui"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 62,
+        "name": "Babylon Labs",
+        "description": "Babylon’s BTC Staking platform allows Bitcoin holders to stake their BTC natively without bridges or wrapped tokens. It offers a secure and decentralized way to earn rewards while retaining full control of their Bitcoin.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/babylon.png",
+        "link": "https://btcstaking.babylonlabs.io/",
+        "chains": [
+            "bitcoin",
+            "babylon"
+        ],
+        "socials": {
+            "github": "https://github.com/babylonlabs-io",
+            "telegram": "https://t.me/babyloncommunity",
+            "twitter": "https://x.com/babylonlabs_io",
+            "discord": "https://discord.com/invite/babylonglobal",
+            "reddit": "https://www.reddit.com/r/babylonlabs/"
+        },
+        "is_default": true,
+        "type": "DashBoard"
+    },
+    {
+        "id": 63,
+        "name": "Initia",
+        "description": "Initia dApp Portal",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/appinitia.png",
+        "link": "https://app.initia.xyz/",
+        "chains": [
+            "initia"
+        ],
+        "socials": {
+            "github": "https://github.com/initia-labs",
+            "twitter": "https://x.com/initia",
+            "discord": "https://discord.com/invite/initia"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 64,
+        "name": "AirDrop Checker",
+        "description": "Initia air drop check & claim",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/initiairdrop.png",
+        "link": "https://airdrop.initia.xyz/check",
+        "chains": [
+            "initia"
+        ],
+        "socials": {
+            "github": "https://github.com/initia-labs",
+            "twitter": "https://x.com/initia",
+            "discord": "https://discord.com/invite/initia"
+        },
+        "type": "Airdrop"
+    },
+    {
+        "id": 65,
+        "name": "Pulsara",
+        "description": "Decentralized application exchange platform designed to provide seamless access to various DApps within the Pulsara ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pulsara.png",
+        "link": "https://dax.pulsara.io",
+        "chains": [
+            "coreum"
+        ],
+        "socials": {
+            "telegram": "https://t.me/pulsara_io",
+            "twitter": "https://x.com/pulsara_io",
+            "reddit": "https://www.reddit.com/r/pulsara/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 66,
+        "name": "Crodex",
+        "description": "Crodex is a decentralized exchange (DEX) on the Cronos blockchain, offering trading, liquidity provision, and yield farming. It aims to provide a seamless DeFi experience with low fees and fast transactions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/crodex.png",
+        "link": "https://swap.crodex.app/#/swap",
+        "chains": [
+            "cronos"
+        ],
+        "socials": {
+            "github": "https://github.com/CrodexApp",
+            "telegram": "https://t.me/crodexofficial",
+            "twitter": "https://x.com/crodexapp",
+            "discord": "https://discord.com/invite/xSCzBRYGy4",
+            "reddit": "https://www.reddit.com/r/crodex/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 67,
+        "name": "VVS Finance",
+        "description": "VVS Finance is a decentralized finance (DeFi) platform on the Cronos blockchain. It provides users with various financial services, including swapping, staking, and yield farming.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/vvs_finance.png",
+        "link": "https://vvs.finance/",
+        "chains": [
+            "ethereum",
+            "cronos"
+        ],
+        "socials": {
+            "telegram": "https://t.me/VVSFinance",
+            "twitter": "https://x.com/VVS_finance",
+            "discord": "https://discord.com/invite/V2957zMsmg",
+            "reddit": "https://www.reddit.com/r/VVS_Finance/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 68,
+        "name": "Ebisus Bay",
+        "description": "Ebisu's Bay is a decentralized marketplace for NFTs on the Cronos blockchain. It allows users to create, buy, sell, and trade a wide variety of non-fungible tokens (NFTs).",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ebisusbay.png",
+        "link": "https://www.ebisusbay.com/",
+        "chains": [
+            "cronos"
+        ],
+        "socials": {
+            "twitter": "https://x.com/EbisusBay",
+            "discord": "https://discord.com/invite/ebisusbay"
+        },
+        "type": "NFT"
+    },
+    {
+        "id": 69,
+        "name": "Fulcrom Finance",
+        "description": "Fulcrom Finance is a decentralized finance (DeFi) platform that provides a range of financial services including swapping, staking, and liquidity provision.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/fulcrom_finance.png",
+        "link": "https://fulcrom.finance/",
+        "chains": [
+            "cronos"
+        ],
+        "socials": {
+            "twitter": "https://x.com/FulcromFinance",
+            "discord": "https://discord.com/invite/7cTMWnpAfd"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 70,
+        "name": "Wolfswap",
+        "description": "WolfSwap is a decentralized finance (DeFi) platform designed for cryptocurrency trading and liquidity provision.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/wolfswap.png",
+        "link": "https://wolfswap.app/",
+        "chains": [
+            "cronos",
+            "base",
+            "polygon"
+        ],
+        "socials": {
+            "twitter": "https://x.com/wolfswapdotapp",
+            "discord": "https://discord.com/invite/moonflowlabs"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 71,
+        "name": "Shell Haqq",
+        "description": "HAQQ Shell is the official web interface of the HAQQ blockchain, enabling users to easily access various features such as staking, governance participation, and account management.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/haqq.png",
+        "link": "https://shell.haqq.network/staking",
+        "chains": [
+            "haqq"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 72,
+        "name": "Kaia Potal",
+        "description": "Comprehensive platform that simplifies your blockchain experience by offering features such as token swaps, cross-chain bridges, and staking opportunities. It also provides missions and rewards to enhance user engagement.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/potal_kaia.png",
+        "link": "https://portal.kaia.io/",
+        "chains": [
+            "kaia"
+        ],
+        "socials": {
+            "telegram": "https://t.me/kaiachain_en",
+            "twitter": "https://x.com/kaiachain",
+            "discord": "https://discord.com/invite/kaiachain",
+            "reddit": "https://www.reddit.com/r/kaiachain/"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 73,
+        "name": "Capybara",
+        "description": "Capybara DEX is a decentralized exchange on the Kaia chain, offering efficient token trading with features like single-token liquidity pools and a launchpad for new projects.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/capybara.png",
+        "link": "https://dex.capybara.exchange/",
+        "chains": [
+            "kaia"
+        ],
+        "socials": {
+            "telegram": "https://t.me/CapybaraDEX",
+            "twitter": "https://x.com/CapybaraDEX"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 74,
+        "name": "Lair Finance",
+        "description": "Lair Finance is a decentralized liquid staking platform on the Kaia blockchain, letting users stake KAIA tokens and earn rewards with added liquidity.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/lair.png",
+        "link": "https://app.lair.fi/",
+        "chains": [
+            "kaia",
+            "berachain"
+        ],
+        "socials": {
+            "github": "https://github.com/bug4city/lair-lsd",
+            "twitter": "https://x.com/LairFinance",
+            "discord": "https://discord.com/invite/lairfinance"
+        },
+        "type": "Liquid staking"
+    },
+    {
+        "id": 75,
+        "name": "Kaia Fun",
+        "description": "KaiaFun is a memecoin launchpad on the Kaia blockchain, enabling fair-launch memecoins and supporting the DeFi ecosystem with trading liquidity.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kaiafun.png",
+        "link": "https://kaiafun.io/",
+        "chains": [
+            "kaia"
+        ],
+        "socials": {
+            "telegram": "https://t.me/kaiafun",
+            "twitter": "https://x.com/kaiafunio"
+        },
+        "type": "NFT"
+    },
+    {
+        "id": 76,
+        "name": "Kaia Square",
+        "description": "Kaia Square is the governance hub for the Kaia blockchain, where users discuss proposals and influence ecosystem decisions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/square.png",
+        "link": "https://square.kaia.io/",
+        "chains": [
+            "kaia"
+        ],
+        "socials": {
+            "telegram": "https://t.me/KaiaChain_EN",
+            "twitter": "https://x.com/KaiaChain",
+            "discord": "https://discord.com/invite/2WKdP9a8HP",
+            "reddit": "https://www.reddit.com/r/kaiachain/?rdt=60122"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 77,
+        "name": "DEX Screener",
+        "description": "Real time DEX analytics.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dex_scanner.png",
+        "link": "https://dexscreener.com/kava",
+        "chains": [
+            "kava"
+        ],
+        "socials": {
+            "telegram": "https://telegram.me/dexscreenerchat",
+            "twitter": "https://x.com/dexscreener",
+            "discord": "https://discord.com/invite/XNgMb5tQN7",
+            "reddit": "https://www.reddit.com/r/dexscreener/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 78,
+        "name": "Hover",
+        "description": "Hover Market is a decentralized finance (DeFi) platform that provides an overview of various DeFi services and products.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/havor.png",
+        "link": "https://app.hover.market/overview",
+        "chains": [
+            "kava"
+        ],
+        "socials": {
+            "telegram": "https://t.me/hovermarket",
+            "twitter": "https://x.com/hover_market"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 79,
+        "name": "Kava",
+        "description": "The Kava app offers protocols decentralized lending and borrowing, liquidity mining, earning rewards with BUSD, and liquid staking of KAVA.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kava.png",
+        "link": "https://app.kava.io/evm/wkava",
+        "chains": [
+            "kava"
+        ],
+        "socials": {
+            "telegram": "https://t.me/kavalabs",
+            "twitter": "https://x.com/KAVA_CHAIN",
+            "discord": "https://discord.com/invite/q6QuanE4bx",
+            "reddit": "https://www.reddit.com/r/kava_platform/"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 80,
+        "name": "Mantra Zone",
+        "description": "Bridge, Staking & Governance for Mantra.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/mantra_zone.png",
+        "link": "https://mantra.zone/",
+        "chains": [
+            "mantra"
+        ],
+        "socials": {
+            "telegram": "https://t.me/MANTRA_Chain",
+            "twitter": "https://x.com/MANTRA_Chain",
+            "discord": "https://discord.com/invite/gfks4TwAJV"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 81,
+        "name": "Persistence DEX",
+        "description": "Persistence DEX is a decentralized exchange for token swapping, liquidity management, and digital asset handling.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dexter.png",
+        "link": "https://app.persistence.one/",
+        "chains": [
+            "persistence",
+            "babylon"
+        ],
+        "socials": {
+            "github": "https://github.com/dexter-zone",
+            "telegram": "https://t.me/persistenceone",
+            "twitter": "https://x.com/PersistenceOne?utm_source=persistence_dex&utm_medium=persistence&utm_campaign=persistence",
+            "discord": "https://discord.com/invite/vyvp3scWnH",
+            "reddit": "https://www.reddit.com/r/PersistenceOne/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 82,
+        "name": "Zeta Earn",
+        "description": "ZetaEarn is the liquid staking(ZetaStake) and launchpad solution(ZetaStarter) on ZetaChain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/zearn.png",
+        "link": "https://zearn.xyz/",
+        "chains": [
+            "zeta"
+        ],
+        "socials": {
+            "github": "https://github.com/ZearnLabs",
+            "telegram": "https://t.me/zearn_protocol",
+            "twitter": "https://x.com/Zearn_Protocol",
+            "discord": "https://discord.com/invite/A7gXdUKfUv"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 83,
+        "name": "Guild",
+        "description": "Ability to bridge assets to ZetaChain and enforce ZetaChain network requirements for Guild members.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/guild.png",
+        "link": "https://guild.xyz/",
+        "chains": [
+            "avalanche",
+            "arbitrum",
+            "base",
+            "polygon",
+            "zeta"
+        ],
+        "socials": {
+            "github": "https://github.com/guildxyz/guild.xyz",
+            "twitter": "https://x.com/guildxyz",
+            "discord": "https://discord.com/invite/KUkghUdk2G"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 84,
+        "name": "NFTs2Me",
+        "description": "NFTs2Me is a multichain user-friendly comprehensive platform to create, deploy and manage your NFT collection and community, 100% free with advanced functionalities.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/nfts2me.png",
+        "link": "https://nfts2me.com/app/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "berachain",
+            "bnb-smart-chain",
+            "fantom",
+            "kaia",
+            "optimism",
+            "polygon",
+            "zeta"
+        ],
+        "socials": {
+            "telegram": "https://t.me/nfts2me",
+            "twitter": "https://x.com/nfts2me",
+            "discord": "https://discord.com/invite/Usmgxj2Msk"
+        },
+        "type": "NFT"
+    },
+    {
+        "id": 85,
+        "name": "Micro3",
+        "description": "Micro3 is a decentralized SocialFi NFT platform empowering the community, integrating SocialFi and NFT, utilizing #LayerZero and #Chainlink technologies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/micro3.png",
+        "link": "https://micro3.io/",
+        "chains": [
+            "arbitrum",
+            "avalanche",
+            "berachain",
+            "bnb-smart-chain",
+            "cronos",
+            "fantom",
+            "kaia",
+            "optimism",
+            "polygon",
+            "zeta"
+        ],
+        "socials": {
+            "telegram": "https://t.me/micro3official",
+            "twitter": "https://x.com/Micro3io",
+            "discord": "https://discord.com/invite/micro3"
+        },
+        "type": "NFT"
+    },
+    {
+        "id": 86,
+        "name": "L2Marathon",
+        "description": "L2Marathon is an omnichain NFT project. It allows users to mint and bridge NFTs across multiple Layer 2 networks.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/l2marathon.png",
+        "link": "https://l2marathon.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "berachain",
+            "bnb-smart-chain",
+            "fantom",
+            "optimism",
+            "polygon",
+            "zeta"
+        ],
+        "socials": {
+            "telegram": "https://t.me/l2marathonupdates",
+            "twitter": "https://x.com/L2Marathon"
+        },
+        "type": "NFT"
+    },
+    {
+        "id": 87,
+        "name": "Shido Dex",
+        "description": "Your Gateway to Decentralized Finance. Shido DEX V3 is a decentralized Liquidity Protocol, DeFi Aggregator, Cross-Chain Swap and Perpetual Dex.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/shidodex.png",
+        "link": "https://app.shido.io/",
+        "chains": [
+            "shido",
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "bnb-smart-chain",
+            "polygon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/ShidoGlobal",
+            "twitter": "https://x.com/ShidoGlobal",
+            "discord": "https://discord.com/invite/9zvD93q5dW",
+            "reddit": "https://www.reddit.com/r/Shido/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 88,
+        "name": "Shido Pool",
+        "description": "Earn passive income by supplying liquidity to crypto projects. Secure, transparent, and user-friendly.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/shidopool.png",
+        "link": "https://pool.shido.io/",
+        "chains": [
+            "shido"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 89,
+        "name": "Shidoscan",
+        "description": "Shido Explorer is the main source for Shido Network to visualize blocks, transactions and blockchain metrics.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/shidoscan.png",
+        "link": "https://shidoscan.net/",
+        "chains": [
+            "shido"
+        ],
+        "socials": {
+            "github": "https://github.com/blockscout/blockscout",
+            "twitter": "https://x.com/blockscout",
+            "discord": "https://discord.com/invite/blockscout"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 90,
+        "name": "Shido Finance",
+        "description": "Earn passive income by supplying liquidity to crypto projects. Secure, transparent, and user-friendly.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/shidofinance.png",
+        "link": "https://stake.shido.finance/",
+        "chains": [
+            "shido"
+        ],
+        "socials": {
+            "telegram": "https://t.me/shido_tapgame_bot",
+            "twitter": "https://x.com/ShidoGlobal",
+            "discord": "https://discord.com/invite/9zvD93q5dW",
+            "reddit": "https://www.reddit.com/r/ShidoInuOfficial/"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 91,
+        "name": "WenMint",
+        "description": "WenMint is the leading ERC20 token deployer on Shido Network.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/wenmint.png",
+        "link": "https://wenmint.fun",
+        "chains": [
+            "shido"
+        ],
+        "socials": {
+            "github": "https://github.com/MavNode",
+            "telegram": "https://t.me/MavNodez",
+            "twitter": "https://x.com/MavNode",
+            "discord": "https://discord.com/"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 92,
+        "name": "Noble Express",
+        "description": "Send USDC Anywhere",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/nobleexpress.png",
+        "link": "https://express.noble.xyz",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "fantom",
+            "kava",
+            "optimism"
+        ],
+        "socials": {
+            "github": "https://github.com/noble-assets/noble",
+            "telegram": "https://t.me/+5mCog0PAWCRmOWYx",
+            "twitter": "https://x.com/noble_xyz",
+            "discord": "https://discord.com/invite/zuSU3GW8yp"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 93,
+        "name": "MavDeployer",
+        "description": "MavDeployer is a ERC20 token deployer on Shido Network.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/mavdeployer.png",
+        "link": "https://deployer.mavnode.io",
+        "chains": [
+            "shido"
+        ],
+        "socials": {},
+        "type": "Tools"
+    },
+    {
+        "id": 94,
+        "name": "DEXHub",
+        "description": "Discover and track your favorite tokens with live prices, charts and recent swaps on Shido Dex.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dexhub.png",
+        "link": "https://dexhub.mavnode.io",
+        "chains": [
+            "shido"
+        ],
+        "socials": {
+            "github": "https://github.com/MavNode/dexhub",
+            "telegram": "https://t.me/ShidoGlobal",
+            "twitter": "https://x.com/ShidoGlobal"
+        },
+        "type": "Tools"
+    },
+    {
+        "id": 95,
+        "name": "Gempad",
+        "description": "A launchpad, token creator and liquidity lock provider for Shido.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/gempad.png",
+        "link": "https://gempad.app",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "telegram": "https://t.me/TheGemPad",
+            "twitter": "https://x.com/thegempad"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 96,
+        "name": "Restake",
+        "description": "REStake allows validators to auto-compound your staking rewards for you.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/restake.png",
+        "link": "https://restake.app/",
+        "chains": [
+            "cosmos"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 97,
+        "name": "ShidoKid",
+        "description": "A set of tools for Shido Network provided by Shidokid.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/shidokid.png",
+        "link": "https://shidokid.com",
+        "chains": [
+            "shido"
+        ],
+        "socials": {
+            "telegram": "https://t.me/shido_kid",
+            "twitter": "https://x.com/shidokid"
+        },
+        "type": "Tools"
+    },
+    {
+        "id": 98,
+        "name": "KenseiDAO",
+        "description": "Decentralized governance for the Kensei ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kenseidao.png",
+        "link": "https://dao.kenseishido.com",
+        "chains": [
+            "shido"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 99,
+        "name": "Injective Hub",
+        "description": "Access Unlimited DeFi Markets",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hubinjective.png",
+        "link": "https://hub.injective.network",
+        "chains": [
+            "injective"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 100,
+        "name": "Helix",
+        "description": "A Decentralized Crypto Exchange on Injective.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/helix.png",
+        "link": "https://helixapp.com/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {
+            "telegram": "https://t.me/helixapp",
+            "twitter": "https://x.com/helixapp_",
+            "discord": "https://discord.com/invite/helixapp"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 101,
+        "name": "Talis",
+        "description": "Digital marketplace for NFTs, offering a wide range of categories including digital art, animation, music, video, and photography.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/tails.png",
+        "link": "https://injective.talis.art/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {
+            "telegram": "https://t.me/talisprotocol",
+            "twitter": "https://x.com/ProtocolTalis",
+            "discord": "https://discord.com/invite/pgxEttXaZa"
+        },
+        "type": "NFT"
+    },
+    {
+        "id": 103,
+        "name": "Mito",
+        "description": "Offers vaults for decentralized finance (DeFi) investments. These vaults allow users to deposit cryptocurrencies to earn yields through various DeFi strategies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/mito.png",
+        "link": "https://mito.fi/vaults/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {
+            "twitter": "https://x.com/MitoFinance",
+            "discord": "https://discord.com/invite/mitofi"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 104,
+        "name": "Blackpanther",
+        "description": "Vaults platform offers a secure way for users to deposit cryptocurrencies and earn returns through automated DeFi strategies. It simplifies yield generation, helping users optimize their investments effortlessly.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/blackpanther.png",
+        "link": "https://trade.blackpanther.fi/vault",
+        "chains": [
+            "injective"
+        ],
+        "socials": {
+            "telegram": "https://t.me/BlackPanther_fi",
+            "twitter": "https://x.com/BlackPanther_Fi",
+            "discord": "https://discord.com/invite/ftcDnpvWHx"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 105,
+        "name": "Ninja Blaze",
+        "description": "Gaming platform offering various online games, including Jackpot, Roshambo, Double, and Lootbox.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ninja-blaze.png",
+        "link": "https://app.blaze.ninja/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {
+            "telegram": "https://t.me/NinjaBlazeApp",
+            "twitter": "https://x.com/NinjaBlazeApp",
+            "discord": "https://discord.com/invite/X7h9nRMUBR"
+        },
+        "type": "GameFi"
+    },
+    {
+        "id": 106,
+        "name": "Beraborrow",
+        "description": "Bera Borrow is a decentralized borrowing platform on Berachain, enabling users to access liquidity without selling their assets. Users can deposit collateral and borrow stablecoins while maintaining exposure to their crypto holdings.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/beraborrow.png",
+        "link": "https://app.beraborrow.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {
+            "twitter": "https://x.com/beraborrow",
+            "discord": "https://discord.com/invite/beraborrowofficial"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 107,
+        "name": "Dojo",
+        "description": "DojoSwap is a decentralized exchange (DEX) that facilitates secure and efficient trading of digital assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dojo.png",
+        "link": "https://dojo.trading/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {
+            "telegram": "https://t.me/dojo_swap",
+            "twitter": "https://x.com/Dojo_Swap"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 108,
+        "name": "Hydro",
+        "description": "Decentralized finance platform providing various financial services, including staking and lending, powered by smart contracts.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/injhydro.png",
+        "link": "https://app.hydroprotocol.finance/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {
+            "telegram": "https://t.me/Hydro_LSDfi",
+            "twitter": "https://x.com/hydro_fi",
+            "discord": "https://discord.com/invite/mYjW7vynjs"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 109,
+        "name": "Kage Finance",
+        "description": "Kage Finance is a comprehensive trading platform and Telegram bot designed for the Injective blockchain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kagefinance.png",
+        "link": "https://app.kage.finance/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {
+            "telegram": "https://t.me/Hydro_LSDfi",
+            "twitter": "https://x.com/KageFinance"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 110,
+        "name": "Ninjakit",
+        "description": "Dashboard for managing and tracking various blockchain tools and assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ninjakit.png",
+        "link": "https://ninjakits.io/dashboard",
+        "chains": [
+            "injective"
+        ],
+        "socials": {
+            "twitter": "https://x.com/ninjakits_",
+            "discord": "https://discord.com/invite/SDJvYUKHWV"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 111,
+        "name": "Neptune Finance",
+        "description": "Neptune Finance is a decentralized finance platform offering lending, borrowing, and swapping services on the Injective blockchain.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/neptune.png",
+        "link": "https://app.nept.finance/",
+        "chains": [
+            "injective"
+        ],
+        "socials": {
+            "telegram": "https://t.me/neptunefinance",
+            "twitter": "https://x.com/neptune_finance",
+            "discord": "https://discord.com/invite/xj6tpkdk7k"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 112,
+        "name": "Mountain Protocol",
+        "description": "Mountain Protocol provides yield-earning stablecoins such as USDM, allowing users to earn DeFi-native returns with dollar stability.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/mountain.png",
+        "link": "https://defi.mountainprotocol.com/",
+        "chains": [
+            "ethereum",
+            "avalanche",
+            "arbitrum",
+            "base",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/mountainprotocol",
+            "twitter": "https://x.com/mountainusdm"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 113,
+        "name": "Gno Faucet",
+        "description": "Gno Testnet faucet hub.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/faucet.png",
+        "link": "https://faucet.gno.land/",
+        "chains": [
+            "gno-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/gnolang/gno",
+            "twitter": "https://x.com/_gnoland",
+            "discord": "https://discord.com/invite/S8nKUqwkPn"
+        },
+        "type": "Faucet"
+    },
+    {
+        "id": 114,
+        "name": "Gnoscan",
+        "description": "Gno Testnet Explorer.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/gnoscan.png",
+        "link": "https://gnoscan.io/",
+        "chains": [
+            "gno-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/gnoscan",
+            "discord": "https://discord.com/invite/Bhgkr7hMEz"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 115,
+        "name": "Gno Playground",
+        "description": "Gno Playground is a simple web interface that lets you write, test, and experiment with your Gno code to improve your understanding of the Gno language.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/playground.png",
+        "link": "https://play.gno.land/",
+        "chains": [
+            "gno-testnet"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 117,
+        "name": "Venus Protocol",
+        "description": "Venus is a decentralized finance (DeFi) platform on the Binance Smart Chain that allows users to lend, borrow, and earn interest on their crypto assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/venus.png",
+        "link": "https://app.venus.io/",
+        "chains": [
+            "bnb-smart-chain",
+            "arbitrum",
+            "base",
+            "ethereum",
+            "optimism"
+        ],
+        "socials": {
+            "github": "https://github.com/VenusProtocol/",
+            "telegram": "https://t.me/venusprotocol",
+            "twitter": "https://x.com/VenusProtocol",
+            "discord": "https://discord.com/invite/venus-protocol-912811548651708448",
+            "reddit": "https://www.reddit.com/r/venusprotocol/"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 118,
+        "name": "PancakeSwap",
+        "description": "PancakeSwap is a decentralized exchange (DEX) on the Binance Smart Chain (BSC) that allows users to swap BEP-20 tokens. It features yield farming, staking, and a lottery system, providing users with opportunities to earn rewards through liquidity provision and participation in various financial activities.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pancakeswap.png",
+        "link": "https://pancakeswap.finance/",
+        "chains": [
+            "bnb-smart-chain",
+            "arbitrum",
+            "base",
+            "ethereum",
+            "monad-testnet",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/pancakeswap/",
+            "telegram": "https://t.me/pancakeswap",
+            "twitter": "https://x.com/pancakeswap",
+            "discord": "https://discord.com/invite/pancakeswap",
+            "reddit": "https://www.reddit.com/r/pancakeswap/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 119,
+        "name": "Apeswap",
+        "description": "ApeSwap is a decentralized finance (DeFi) platform on the Binance Smart Chain that provides services such as token swapping, yield farming, and staking. It aims to offer a user-friendly experience with a focus on community-driven development and sustainability.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/apeswap.png",
+        "link": "https://apeswap.finance/",
+        "chains": [
+            "bnb-smart-chain",
+            "arbitrum",
+            "avalanche",
+            "ethereum",
+            "fantom",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/ape_bond",
+            "twitter": "https://x.com/ApeBond",
+            "discord": "https://discord.com/invite/g3A5T6VSFr",
+            "reddit": "https://www.reddit.com/r/Apeswap/new/"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 120,
+        "name": "Usdfi",
+        "description": "USDFI is a decentralized finance (DeFi) platform focused on providing stablecoin solutions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/usdfi.png",
+        "link": "https://usdfi.com/",
+        "chains": [
+            "bnb-smart-chain",
+            "arbitrum"
+        ],
+        "socials": {
+            "github": "https://github.com/USDFI",
+            "telegram": "https://t.me/USDFI",
+            "twitter": "https://x.com/stable_usdfi",
+            "discord": "https://discord.com/invite/MjvpF8UwB4"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 121,
+        "name": "Monad Faucet",
+        "description": "Monad Testnet Faucet",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/monadfaucet.png",
+        "link": "https://testnet.monad.xyz/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/monad_xyz",
+            "discord": "https://discord.com/invite/monad"
+        },
+        "type": "Faucet"
+    },
+    {
+        "id": 122,
+        "name": "GMonad",
+        "description": "Network Visualization",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/gmonad.png",
+        "link": "https://www.gmonads.com/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/zeroxrevick"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 123,
+        "name": "Amertis",
+        "description": "Experience seamless trading with AmertisExchange, the ultimate aggregator connecting you to deep liquidity pools.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/amertis.png",
+        "link": "https://testnet.amertis.exchange/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/AetherForge-Labs",
+            "twitter": "https://x.com/AmertisExchange",
+            "discord": "https://discord.com/invite/AEwRjGT3T8"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 124,
+        "name": "Apriori",
+        "description": "aPriori is an MEV infrastructure and liquid staking protocol, designed for the parallel execution era and natively built on Monad.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/apriori.png",
+        "link": "https://stake.apr.io/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 125,
+        "name": "Azaar",
+        "description": "Azaar is a high-performance DEX aggregator and trading platform built for Monad.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/azaar.png",
+        "link": "https://app-monad-testnet.azaar.com/swap",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "telegram": "https://t.me/azaarannouncements",
+            "twitter": "https://x.com/AzaarExchange",
+            "discord": "https://discord.com/invite/UagdwttWjJ"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 126,
+        "name": "XrplEvm Faucet",
+        "description": "XrplEvm Testnet Faucet",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/xrplevmfaucet.png",
+        "link": "https://faucet.xrplevm.org/",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/xrplevm",
+            "twitter": "https://x.com/RippleXDev",
+            "discord": "https://discord.com/invite/xrplevm"
+        },
+        "type": "Faucet"
+    },
+    {
+        "id": 127,
+        "name": "Strobe",
+        "description": "Unlock new yield opportunities for XRP holders by tapping into diverse reward sources.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/strobe.png",
+        "link": "https://strobe.finance/",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/strobe-protocol",
+            "twitter": "https://x.com/StrobeFinance",
+            "discord": "https://discord.com/invite/YKXH5n7n5u"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 128,
+        "name": "Moai Finance",
+        "description": "Moai Finance is on a mission to pioneer decentralized real-fi by leveraging public blockchain protocols as its foundational infrastructure.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/moai.png",
+        "link": "https://xrplevm.moai-finance.xyz/swap",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/MoaiFinance",
+            "discord": "https://discord.com/invite/PSrF5z34dV"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 129,
+        "name": "Hammy Swap",
+        "description": "Hammy Swap is the pioneer DEX on the XRPL EVM Sidechain. It offers seamless swap and yield-farming services, combining security, cost-effectiveness and a user-friendly experience.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hammy.png",
+        "link": "https://hammy.finance/",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/HammySwap"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 130,
+        "name": "Palmera",
+        "description": "Powered by Safe, Palmera streamlines your Safes operations and treasury management across multiple chains, all from a single dashboard",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/palmera.png",
+        "link": "https://app.palmeradao.xyz/create",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {
+            "telegram": "https://t.me/palmera_support"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 131,
+        "name": "ZNS Connect",
+        "description": "ZNSConnect decentralized ID platform powered by decentralized addresses",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/zns.png",
+        "link": "https://zns.bio/search",
+        "chains": [
+            "xrplevm-testnet"
+        ],
+        "socials": {
+            "telegram": "https://t.me/znsconnect",
+            "twitter": "https://x.com/ZNSConnect",
+            "discord": "https://discord.com/invite/skbA5Ucmmc"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 132,
+        "name": "Kodiak",
+        "description": "Kodiak Finance offers decentralized liquidity provisioning and trading on Berachain, helping users maximize their DeFi yields.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kodiak.png",
+        "link": "https://app.kodiak.finance/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {
+            "twitter": "https://x.com/KodiakFi",
+            "discord": "https://discord.com/invite/kodiak"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 133,
+        "name": "Berapaw",
+        "description": "BeraPaw is an NFT marketplace on Berachain, empowering users to trade, collect, and explore digital assets easily.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/berapaw.png",
+        "link": "https://www.berapaw.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {
+            "github": "https://github.com/BeraPaw",
+            "twitter": "https://x.com/0xBeraPaw",
+            "discord": "https://discord.com/invite/berapaw"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 134,
+        "name": "Beradrome",
+        "description": "Beradrome is a decentralized exchange (DEX) and liquidity hub built on Berachain. It allows users to trade assets, provide liquidity, and participate in DeFi opportunities within the Berachain ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/beradrome.png",
+        "link": "https://www.beradrome.com/",
+        "chains": [
+            "berachain"
+        ],
+        "socials": {
+            "github": "https://github.com/beralabs",
+            "twitter": "https://x.com/beradrome",
+            "discord": "https://discord.com/invite/qsjEDvz5yd"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 135,
+        "name": "Tower",
+        "description": "TowerSwap is a decentralized exchange (DEX) built on Berachain, enabling users to swap tokens seamlessly and efficiently. It offers a streamlined interface and supports deep liquidity for fast, low-slippage trades.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/tower.png",
+        "link": "https://app.tower.fi/",
+        "chains": [
+            "babylon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/tower",
+            "twitter": "https://x.com/tower",
+            "discord": "https://discord.com/invite/tower"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 136,
+        "name": "Escher",
+        "description": "Escher Finance is a decentralized platform for liquid staking across multiple chains. It integrates with protocols like Babylon to enable secure, cross-chain staking. Users earn rewards through the ePoints system by participating in the ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/escher.png",
+        "link": "https://app.escher.finance/",
+        "chains": [
+            "babylon"
+        ],
+        "socials": {},
+        "type": "Liquid staking"
+    },
+    {
+        "id": 137,
+        "name": "Bebop",
+        "description": "Bebop is a decentralized trading platform that enables efficient and slippage-free token swaps across multiple assets, powered by smart order routing.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/bebop.png",
+        "link": "https://bebop.xyz/trade",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "monad-testnet",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "twitter": "https://x.com/bebop_dex",
+            "discord": "https://discord.com/invite/bebop"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 138,
+        "name": "castora",
+        "description": "Castora is a DeFi platform that offers native yield-bearing stablecoin pools with automated strategies, enabling users to earn passive income with minimal risk.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/castora.png",
+        "link": "https://castora.xyz/pools",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/castora_xyz",
+            "discord": "https://discord.com/invite/wmHceHvNBD"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 139,
+        "name": "Crystal",
+        "description": "Crystal Exchange is a decentralized swapping platform that allows users to trade tokens across supported chains with low fees and fast execution.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/crystal.png",
+        "link": "https://app.crystal.exchange/swap",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/CrystalExch",
+            "discord": "https://discord.com/invite/CrystalExch"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 140,
+        "name": "Dusted",
+        "description": "Dusted is a portfolio cleanup tool that helps users convert small, illiquid token balances into a preferred asset, streamlining wallet management.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dusted.png",
+        "link": "https://www.dusted.app/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/dusted_app",
+            "discord": "https://discord.com/invite/dusted"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 141,
+        "name": "Shmonad",
+        "description": "Shmonad is an experimental on-chain game built on Berachain, combining strategy and community-driven gameplay through smart contracts.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/shmonad.png",
+        "link": "https://shmonad.xyz/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/FastLane-Labs",
+            "twitter": "https://x.com/0xFastlane",
+            "discord": "https://discord.com/invite/m8XsaY4jZh"
+        },
+        "type": "Liquid staking"
+    },
+    {
+        "id": 142,
+        "name": "Fukunad",
+        "description": "Fukunad is a gamified DeFi platform on the Monad testnet, offering users the opportunity to earn yield through fair and transparent raffle pools.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/fukunad.png",
+        "link": "https://testnet.fukunad.xyz/",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/Fuku_nad",
+            "discord": "https://discord.com/invite/sXWz9mswWs"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 143,
+        "name": "Kintsu",
+        "description": "Kintsu is a next-generation liquid staking protocol built on the Monad blockchain, enabling users to stake MON tokens and receive sMON, a liquid staking token that accrues yield over time. This approach allows users to maintain liquidity and participate in DeFi activities while earning staking rewards. Kintsu's design emphasizes composability and capital efficiency within the Monad ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kintsu.png",
+        "link": "https://kintsu.xyz/staking",
+        "chains": [
+            "monad-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/kintsu_xyz",
+            "discord": "https://discord.com/invite/kintsu"
+        },
+        "type": "Liquid staking"
+    },
+    {
+        "id": 144,
+        "name": "Neve",
+        "description": "Neve is a clean and simple lending and borrowing platform on Neutron. It is using the audited Smart Contracts of the Mars Protocol ensuring the highest security standard in Cosmos.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/neve.png",
+        "link": "https://neve-lend.com/",
+        "chains": [
+            "neutron"
+        ],
+        "socials": {},
+        "type": "DeFi"
+    },
+    {
+        "id": 145,
+        "name": "Swirl",
+        "description": "Swirl is IOTA’s first liquid staking platform, allowing users to stake IOTA and receive stIOTA tokens. These tokens provide instant liquidity, enabling participation in DeFi activities like trading and lending without locking assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/swirl.png",
+        "link": "https://swirlstake.com/app/",
+        "chains": [
+            "iota"
+        ],
+        "socials": {
+            "twitter": "https://x.com/swirlstake",
+            "discord": "https://discord.com/invite/x3fFAUmbud"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 146,
+        "name": "Spaceward",
+        "description": "SUnlock the Potential of Warden Protocol.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/spaceward.png",
+        "link": "https://spaceward.chiado.wardenprotocol.org/",
+        "chains": [
+            "warden-testnet"
+        ],
+        "socials": {},
+        "type": "DashBoard"
+    },
+    {
+        "id": 147,
+        "name": "0G Faucet",
+        "description": "Faucet for 0G Testnet",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/0gfaucet.png",
+        "link": "https://faucet.0g.ai//",
+        "chains": [
+            "zero-gravity-testnet"
+        ],
+        "socials": {},
+        "type": "Faucet"
+    },
+    {
+        "id": 148,
+        "name": "Juris Protocol",
+        "description": "Juris Protocol is a DeFi platform on Terra Classic that offers secure lending and borrowing services.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/juris-bank.png",
+        "link": "https://jurisprotocol.com/",
+        "chains": [
+            "terra-classic"
+        ],
+        "socials": {
+            "github": "https://github.com/JurisProtocol/",
+            "telegram": "https://t.me/JurisProtocol",
+            "twitter": "https://twitter.com/JurisProtocol",
+            "discord": "https://discord.com/invite/FzQwHYgjAd"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 149,
+        "name": "Qubetics Faucet",
+        "description": "Qubetics Testnet faucet hub.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/qubetics.png",
+        "link": "https://testnet.qubetics.work/faucet",
+        "chains": [
+            "qubetics-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/Qubetics",
+            "telegram": "https://t.me/qubetics",
+            "twitter": "https://x.com/qubetics?mx=2",
+            "discord": "https://discord.com/invite/KHfSNbzdSE"
+        },
+        "type": "Faucet"
+    },
+    {
+        "id": 150,
+        "name": "ZigChain Faucet",
+        "description": "ZigChain Testnet faucet hub.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/zigchain.png",
+        "link": "https://faucet.zigchain.com/",
+        "chains": [
+            "zigchain-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/ZIGChain",
+            "telegram": "https://t.me/ZignalyHQ",
+            "twitter": "https://x.com/zigchain",
+            "discord": "https://discord.com/invite/zignaly-the-better-way-to-invest-in-crypto-486954374845956097"
+        },
+        "type": "Faucet"
+    },
+    {
+        "id": 151,
+        "name": "Dolomite",
+        "description": "It offers advanced DeFi functionalities including isolated margin, spot trading, and composable lending — all from a single, efficient interface.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dolomite.png",
+        "link": "https://app.dolomite.io/",
+        "chains": [
+            "arbitrum",
+            "berachain"
+        ],
+        "socials": {
+            "github": "https://github.com/dolomite-exchange",
+            "discord": "https://discord.com/invite/uDRzrB2YgP"
+        },
+        "type": "Defi"
+    },
+    {
+        "id": 152,
+        "name": "Portal",
+        "description": "Portal Bridge is a cross-chain bridge powered by Wormhole that enables seamless transfer of assets across multiple blockchains.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/portal.png",
+        "link": "https://portalbridge.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "cronos",
+            "optimism",
+            "polygon",
+            "sui"
+        ],
+        "socials": {
+            "twitter": "https://x.com/portalbridge_",
+            "discord": "https://discord.com/invite/jRZaJvCZjv"
+        },
+        "type": "Bridge"
+    },
+    {
+        "id": 153,
+        "name": "Portal Cosmos",
+        "description": "Portal Bridge is a cross-chain bridge powered by Wormhole that enables seamless transfer of assets across multiple blockchains.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/portal.png",
+        "link": "https://portalbridge.com/cosmos/",
+        "chains": [
+            "osmosis",
+            "evmos",
+            "injective",
+            "sei"
+        ],
+        "socials": {
+            "twitter": "https://x.com/portalbridge_",
+            "discord": "https://discord.com/invite/jRZaJvCZjv"
+        },
+        "type": "Bridge"
+    }
+]

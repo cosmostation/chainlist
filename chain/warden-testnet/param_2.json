@@ -1,0 +1,82 @@
+{
+    "chain_id_cosmos" : "chiado_10010-1",
+    "chain_id_evm" : "0x271A",
+    "chain_name": "Warden Protocol Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/warden-testnet/resource/chain_warden-testnet.png",
+    "staking_asset_denom" : "award",
+    "staking_asset_symbol" : "WARD",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/warden-testnet/asset/ward.png",
+    "bech_account_prefix" : "warden",
+    "bech_validator_prefix" : "wardenvaloper",
+    "origin_genesis_time" : "2024-09-04T10:02:35Z",
+    "api_name": "warden-testnet",
+    "is_support_moblie_dapp": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "is_support_erc20" : false,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "25000000000award",
+            "40000000000award",
+            "80000000000award"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": false,
+        "simulated_gas_multiply" : 1.2
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Warden Protocol foundation",
+            "url": "grpc.chiado.wardenprotocol.org:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Warden Protocol foundation",
+            "url": "https://api.chiado.wardenprotocol.org/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Warden Protocol foundation",
+            "url": "https://evm.chiado.wardenprotocol.org"
+        }
+    ],
+    "explorer" : {
+        "name": "Guru",
+        "url": "https://testnet.warden.explorers.guru/",
+        "account": "https://testnet.warden.explorers.guru/account/${address}",
+        "tx": "https://testnet.warden.explorers.guru/transaction/${hash}",
+        "proposal": "https://testnet.warden.explorers.guru/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://wardenprotocol.org/",
+        "docs": "https://docs.wardenprotocol.org/",
+        "github" : "https://github.com/warden-protocol",
+        "blog" : "https://wardenprotocol.org/blog",
+        "twitter" : "hhttps://x.com/wardenprotocol",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Warden Protocol은 다양한 블록체인 간의 자산 전송과 자동화된 실행을 지원하는 모듈형 인터체인 액세스 제어 플랫폼입니다.",
+        "en" : "Warden Protocol is a modular interchain access control platform that enables asset transfers and automated execution across multiple blockchains.",
+        "ja" : "Warden Protocolは、複数のブロックチェーン間での資産移転と自動実行を可能にするモジュール型のインターチェーンアクセス制御プラットフォームです。"
+    }
+}

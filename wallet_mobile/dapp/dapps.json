@@ -9,6 +9,15 @@
     "tag": ["Dex"]
   },
   {
+    "title": "Juris Protocol",
+    "description": "Juris Protocol is a DeFi platform on Terra Classic that offers secure lending and borrowing services.",
+    "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/juris.png",
+    "url": "https://jurisprotocol.com/",
+    "chain": ["terra-classic"],
+    "category": "Defi",
+    "tag": ["Lending"]
+  },
+  {
     "title": "Astrovault",
     "description": "DeFi, Sustainably.",
     "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/astrovault.png",
@@ -106,7 +115,7 @@
     "description": "Realtime Charts, DEX Aggregator & Analytics.",
     "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/coinhall.png",
     "url": "https://coinhall.org",
-    "chain": ["juno", "osmosis"],
+    "chain": ["juno", "osmosis","terra-classic"],
     "category": "Defi",
     "tag": ["AGG"]
   },
@@ -199,5 +208,23 @@
     "chain": ["injective"],
     "category": "Gaming",
     "tag": ["GameFi"]
+  },
+  {
+      "title":"Garuda-DeFi",
+      "description":"An automated market maker (AMM) built on the Terra Classic blockchain which enables factory token, permissionless pool creation, staking token and farms for earning yield.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/refs/heads/main/wallet_mobile/dapp/image/G-DEX.png",
+      "url":"https://garuda-defi.org",
+      "chain":["terra-classic"],
+      "category":"Defi",
+      "tag":["Dex"]
+  },
+  {
+      "title":"BigBangX",
+      "description":"Join us on a revolutionary journey as we redefine the NFT landscape with limitless posibilities. Welcome to the future of NFT marketplaces.",
+      "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/refs/heads/main/wallet_mobile/dapp/image/Big_BangX.png",
+      "url":"https://bigbangx.io",
+      "chain":["terra-classic"],
+      "category":"NFT",
+      "tag":["Marketplace"]
   }
 ]

@@ -386,5 +386,17 @@
       "twitter": "https://twitter.com/diffusion_fi/",
       "docs": "https://docs.diffusion.fi"
     }
+  },
+  {
+    "name": "Portal Bridge",
+    "type": "Bridge",
+    "description": "Portal Bridge is a cross-chain bridge powered by Wormhole that enables seamless transfer of assets across multiple blockchains.",
+    "status": "open",
+    "thumbnail" : "portal",
+    "link": "https://portalbridge.com/cosmos/",
+    "social": {
+      "twitter": "https://x.com/portalbridge_",
+      "discord": "https://discord.com/invite/jRZaJvCZjv"
+    }
   }
 ]

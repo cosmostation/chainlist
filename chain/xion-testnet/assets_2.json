@@ -2,11 +2,57 @@
     {
         "type": "native",
         "denom": "uxion",
-        "name" : "Xion",
+        "name": "Xion",
         "symbol": "XION",
         "description": "Xion Testnet Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion-testnet/asset/xion.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+        "name": "Noble USDC Token",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdc.png",
+        "coinGeckoId": "",
+        "ibc_info": {
+            "path": "noble-testnet>xion-testnet",
+            "client": {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-333",
+                "port": "transfer",
+                "chain": "noble-testnet",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+        "name": "OSMO",
+        "symbol": "OSMO",
+        "description": "Osmosis from Osmosis Chain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis-testnet/asset/osmo.png",
+        "coinGeckoId": "",
+        "ibc_info": {
+            "path": "osmosis-testnet>xion-testnet",
+            "client": {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10231",
+                "port": "transfer",
+                "chain": "osmosis-testnet",
+                "denom": "uosmo"
+            }
+        }
     }
 ]

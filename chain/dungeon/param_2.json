@@ -24,8 +24,9 @@
     "cosmos_fee_info": {
         "base": "0",
         "rate": [
-            "0.005udgn",
-            "0.025udgn"
+            "0.05udgn",
+            "0.07udgn",
+            "0.09udgn"
         ],
         "is_simulable": true,
         "simulated_gas_multiply": 1.2,
@@ -44,6 +45,11 @@
         }
     ],
     "explorer": {
+        "name": "PingPub",
+        "url": "https://ping.pub/Dungeonchain/",
+        "account": "https://ping.pub/Dungeonchain/account/${address}",
+        "tx": "https://ping.pub/Dungeonchain/tx/${hash}",
+        "proposal": "https://ping.pub/Dungeonchain/gov/${id}"
     },
     "about": {
         "website": "https://www.cryptodungeon.org/",

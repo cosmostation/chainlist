@@ -59,16 +59,12 @@
             "url": "https://api-jackal.nodeist.net/"
         },
         {
-            "provider": "Silk Nodes",
-            "url": "https://jackal.api.silknodes.io/"
+            "provider": "Keplr",
+            "url": "https://lcd-jackal.keplr.app/"
         },
         {
             "provider": "Silent",
             "url": "https://api.jackal.silentvalidator.com/"
-        },
-        {
-            "provider": "MathNodes",
-            "url": "https://api.jackal.mathnodes.com/"
         }
     ],
     "explorer" : {

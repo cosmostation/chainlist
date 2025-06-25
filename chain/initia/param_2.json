@@ -1,10 +1,59 @@
 {
+    "chain_id_cosmos" : "interwoven-1",
+    "chain_name": "Initia",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/initia/resource/chain_initia.png",
+    "staking_asset_denom" : "uinit",
+    "staking_asset_symbol" : "INIT",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/initia/asset/init.png",
+    "bech_account_prefix" : "init",
+    "bech_validator_prefix" : "initvaloper",
+    "origin_genesis_time" : "2025-03-12T04:00:00Z",
+    "api_name" : "initia",
+    "is_support_mobile_wallet": true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/initia.crypto.v1beta1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0uinit"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.8,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc.initia.mainnet.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Initia Foundation",
+            "url": "https://rest.initia.xyz/"
+        },
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd.initia.mainnet.cosmostation.io/"
+        }
+    ],
     "explorer" : {
-        "name": "",
-        "url": "",
-        "account": "",
-        "tx": "",
-        "proposal": ""
+        "name": "Initia Scan",
+        "url": "https://scan.initia.xyz/",
+        "account": "https://scan.initia.xyz/accounts/${address}",
+        "tx": "https://scan.testnet.xyz/txs/${hash}",
+        "proposal": "https://scan.initia.xyz/proposals/${id}"
     },
     "about" : {
         "website" : "https://initia.xyz/",
@@ -13,7 +62,7 @@
         "medium" : "https://medium.com/@initiafdn",
         "twitter" : "https://twitter.com/initiaFDN",
         "discord" : "https://discord.com/invite/initia",
-        "coingecko" : ""
+        "coingecko" : "https://www.coingecko.com/en/coins/initia"
     },
     "forum": {
         "main": "https://spacehall.app/community/initia"

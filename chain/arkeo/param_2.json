@@ -1,0 +1,72 @@
+{
+    "chain_id_cosmos" : "arkeo-main-v1",
+    "chain_name": "Arkeo",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arkeo/resource/chain_arkeo.png",
+    "staking_asset_denom" : "uarkeo",
+    "staking_asset_symbol" : "ARKEO",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arkeo/asset/arkeo.png",
+    "bech_account_prefix" : "arkeo",
+    "bech_validator_prefix" : "arkeovaloper",
+    "origin_genesis_time" : "2025-04-03T15:00:00Z",
+    "api_name" : "arkeo",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.025uarkeo"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Roomit",
+            "url": "grpc.arkeo.roomit.xyz:8443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Arkeo",
+            "url": "https://rest-seed.arkeo.network/"
+        },
+        {
+            "provider": "Roomit",
+            "url": "https://api.arkeo.roomit.xyz/"
+        }
+    ],
+    "explorer" : {
+        "name": "Roomit",
+        "url": "https://explorer.tendermint.roomit.xyz/arkeo-mainnet/",
+        "account": "https://explorer.tendermint.roomit.xyz/arkeo-mainnet/account/${address}",
+        "tx": "https://explorer.tendermint.roomit.xyz/arkeo-mainnet/account/tx/${hash}",
+        "proposal": "https://explorer.tendermint.roomit.xyz/arkeo-mainnet/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://arkeo.network/",
+        "docs": "https://docs.arkeo.network/",
+        "github" : "https://github.com/arkeonetwork",
+        "blog" : "",
+        "medium": "",
+        "twitter" : "https://x.com/arkeonetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/arkeo"
+    },
+    "description" : {
+        "ko" : "Arkeo 네트워크는 탈중앙화된 블록체인 데이터 백엔드 마켓플레이스로, 누구나 노드 제공자가 되어 RPC 데이터를 자유시장 가격으로 제공하고, 검열저항성과 투명한 온체인 평판 시스템을 갖춘 플랫폼입니다.",
+        "en" : "Arkeo Network is a decentralized blockchain data marketplace where anyone can provide RPC services with on-chain pricing and reputation.",
+        "ja" : "Arkeoネットワークは、誰でもRPCサービスを提供できる、オンチェーンの価格設定と評価システムを備えた分散型ブロックチェーンデータマーケットプレイスです。"
+    }
+}
+

@@ -1,0 +1,52 @@
+{
+    "chain_id": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+    "chain_name": "Solana",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/resource/chain_solana.png",
+    "main_asset_denom" : "sol",
+    "main_asset_symbol" : "SOL",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/sol.png",
+    "gas_asset_denom" : "sol",
+    "gas_asset_symbol" : "SOL",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sol.png",
+    "origin_genesis_time" : "2015-07-30T03:26:13Z",
+    "api_name": "solana",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "solana"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/501'/0'/X",
+            "pubkey_style": "ed25519"
+        }
+    ],
+    "solana_fee_info" : {
+        "simulated_gas_multiply": 1.3
+    },
+    "solana_rpc_endpoint" : [
+        {
+            "provider": "Allnodes",
+            "url": "https://solana-rpc.publicnode.com"
+        }
+    ],
+    "explorer" : {
+        "name": "Solana Explorer",
+        "url": "https://solscan.io",
+        "account": "https://solscan.io/address/${address}",
+        "tx": "https://solscan.io/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://solana.com",
+        "docs": "https://solana.com/docs",
+        "github" : "https://github.com/solana-foundation/solana-com",
+        "blog" : "https://solana.com/ko/news",
+        "twitter" : "https://x.com/solana",
+        "coingecko" : "https://www.coingecko.com/en/coins/solana"
+    },
+    "description" : {
+        "ko" : "Solana는 빠른 처리 속도와 낮은 수수료를 특징으로 하는 고성능 블록체인입니다. Proof of History(PoH)라는 독자적인 합의 메커니즘을 사용해 초당 수천 건 이상의 트랜잭션을 처리할 수 있으며, DeFi, NFT, 게임 등 다양한 탈중앙화 애플리케이션 생태계를 지원합니다.",
+        "en" : "Solana is a high-performance blockchain known for its fast transaction speed and low fees. It uses a unique consensus mechanism called Proof of History (PoH), enabling thousands of transactions per second. Solana supports a growing ecosystem of DeFi, NFTs, gaming, and other decentralized applications.",
+        "ja" : "Solanaは高速な取引処理と低手数料で知られる高性能ブロックチェーンです。 独自のコンセンサスメカニズム「Proof of History（PoH）」を採用し、1秒あたり数千件のトランザクションを処理できます。DeFi、NFT、ゲームなど幅広い分野の分散型アプリケーションをサポートしています。"
+    }
+}

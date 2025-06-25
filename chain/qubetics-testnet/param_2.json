@@ -1,0 +1,80 @@
+{
+    "chain_id_cosmos" : "qubetics_9029-1",
+    "chain_id_evm" : "0x2345",
+    "chain_name": "Qubetics Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/qubetics-testnet/resource/chain_qubetics-testnet.png",
+    "staking_asset_denom": "tics",
+    "staking_asset_symbol" : "TICS",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/qubetics-testnet/asset/tics.png",
+    "bech_account_prefix" : "qubetics",
+    "bech_validator_prefix" : "qubeticsvaloper",
+    "origin_genesis_time" : "2025-03-12T11:48:58Z",
+    "api_name" : "qubetics-testnet",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "is_support_moblie_dapp": true,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "25000000000tics",
+            "40000000000tics",
+            "80000000000tics"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Qubetics",
+            "url": "grpc-testnet.qubetics.work:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Qubetics",
+            "url": "https://swagger-testnet.qubetics.work/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Qubetics",
+            "url": "https://rpc-testnet.qubetics.work/"
+        }
+    ],
+    "explorer" : {
+        "name": "Qubetics Testnet Explorer",
+        "url": "https://testnet.qubetics.work/dashboard",
+        "account": "https://testnet.qubetics.work/address/${address}",
+        "tx": "https://testnet.qubetics.work/tx/${hash}",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://www.qubetics.com/",
+        "docs": "https://qubetics.gitbook.io/qubetics-docs/",
+        "github" : "https://github.com/Qubetics/qubetics-chain",
+        "blog" : "https://www.qubetics.com/blog/",
+        "medium": "https://medium.com/tag/qubetics",
+        "twitter" : "https://x.com/qubetics"
+    },
+    "forum": {
+    },
+    "description" : {
+        "ko" : "Cosmos SDK 기반의 IBC 및 EVM 호환 블록체인.",
+        "en" : "A Cosmos SDK based IBC, EVM-compatible blockchain.",
+        "ja" : "Cosmos SDK ベースの IBC 対応・EVM 互換ブロックチェーン。"
+    }
+}

@@ -10,6 +10,11 @@
     "origin_genesis_time" : "2022-07-01T00:00:00Z",
     "api_name" : "agoric",
     "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/564'/0'/0/X",

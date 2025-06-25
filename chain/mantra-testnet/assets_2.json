@@ -9,5 +9,16 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra-testnet/asset/om.png",
         "coinGeckoId": "",
         "color": "#FC86CD"
+    },
+    {
+        "type": "native",
+        "denom": "aom",
+        "name": "Mantra Testnet",
+        "symbol": "OM",
+        "description": "Mantra Testnet EVM Fee Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra-testnet/asset/om.png",
+        "coinGeckoId": "",
+        "color": "#FC86CD"
     }
 ]
