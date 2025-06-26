@@ -239,7 +239,7 @@
         "symbol": "POL",
         "description": "Polygon (formerly Matic) Network brings massive scale to Ethereum using an adapted version of Plasma with PoS based side chains. Polygon is a well-structured, easy-to-use platform for Ethereum scaling and infrastructure development.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/matic.png",
         "color": "#8444e4",
         "coinGeckoId": "matic-network",
         "ibc_info": {
@@ -860,7 +860,7 @@
         "symbol": "BOOT",
         "description": "The staking token of Bostrom",
         "decimals": 0,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bostrom/asset/boot.png",
         "color": "#4cea4e",
         "coinGeckoId": "bostrom",
         "ibc_info": {
@@ -884,7 +884,7 @@
         "symbol": "CMDX",
         "description": "Native Token of Comdex Protocol",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/asset/cmdx.png",
         "color": "#fc4454",
         "coinGeckoId": "comdex",
         "ibc_info": {
@@ -1822,7 +1822,7 @@
         "symbol": "ATOLO",
         "description": "Native token of Rizon Chain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/atolo.png",
         "color": "#2b1c54",
         "coinGeckoId": "rizon",
         "ibc_info": {
@@ -2077,7 +2077,7 @@
         "symbol": "TGD",
         "description": "The native token of Tgrade",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/tgrade/asset/tgd.png",
         "color": "#a7248a",
         "ibc_info": {
             "path": "tgrade>osmosis",
@@ -3153,7 +3153,7 @@
         "symbol": "NOM",
         "description": "The native token of Onomy Protocol",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/onomy-protocol/asset/nom.png",
         "color": "#1c1c28",
         "coinGeckoId": "onomy-protocol",
         "ibc_info": {
@@ -3318,7 +3318,7 @@
         "symbol": "CANTO",
         "description": "Canto is a Layer-1 blockchain built to deliver on the promise of DeFi",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/canto/asset/canto.png",
         "color": "#1c1f1f",
         "coinGeckoId": "canto",
         "ibc_info": {
@@ -3500,7 +3500,7 @@
         "name": "Stride Staked EVMOS",
         "symbol": "stEVMOS",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/stevmos.png",
         "color": "#e40474",
         "ibc_info": {
             "path": "stride>osmosis",
@@ -3661,7 +3661,7 @@
         "symbol": "QCK",
         "description": "QCK - native token of Quicksilver",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quicksilver/asset/qck.png",
         "color": "#b2b2b2",
         "coinGeckoId": "quicksilver",
         "ibc_info": {
@@ -4745,7 +4745,7 @@
         "symbol": "QSR.legacy",
         "description": "The native token of Quasar",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/qsr.png",
         "color": "#a493e4",
         "ibc_info": {
             "path": "quasar>osmosis",
@@ -4966,7 +4966,7 @@
         "name": "Stride Staked SOMM",
         "symbol": "stSOMM",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stsomm.png",
         "color": "#e40474",
         "coinGeckoId": "stride-staked-sommelier",
         "ibc_info": {
@@ -5447,7 +5447,7 @@
         "symbol": "DORA",
         "description": "The native staking and governance token of the Theta testnet version of the Dora Vota.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/doravota/images/dora.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/doravota/asset/dora.png",
         "ibc_info": {
             "path": "doravota>osmosis",
             "client": {
@@ -5821,7 +5821,7 @@
         "symbol": "SOURCE",
         "description": "The native token of SOURCE Chain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/source/asset/source.png",
         "color": "#39a5fc",
         "coinGeckoId": "source",
         "ibc_info": {
@@ -6173,7 +6173,7 @@
         "symbol": "NYX",
         "description": "NYX Token (NYX) is the Nym Network's native token.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nyx.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/nyx.png",
         "color": "#f45135",
         "ibc_info": {
             "path": "nyx>osmosis",
@@ -6196,7 +6196,7 @@
         "symbol": "NYM",
         "description": "NYM Token (NYM) is the Nym Network's native utility token, used as the primary means to incentivize mixnet node operators.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/nym.png",
         "color": "#151525",
         "coinGeckoId": "nym",
         "ibc_info": {
@@ -6479,7 +6479,7 @@
         "symbol": "stSAGA",
         "description": "Stride's liquid staked SAGA",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsaga.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stsaga.png",
         "color": "#e40474",
         "ibc_info": {
             "path": "stride>osmosis",
@@ -7170,7 +7170,7 @@
         "symbol": "DHP",
         "description": "The native token of dHealth",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dhealth/asset/dhp.png",
         "color": "#140c7c",
         "coinGeckoId": "dhealth",
         "ibc_info": {
@@ -8586,7 +8586,7 @@
         "symbol": "LAVA",
         "description": "Lava Network is a modular data network designed to provide fast, reliable, and scalable access to blockchain data for developers and users.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lava/asset/lava.png",
         "color": "#6f043e",
         "coinGeckoId": "lava-network",
         "ibc_info": {
@@ -9731,7 +9731,7 @@
         "symbol": "SYNT",
         "description": "Synternet is a blockchain that powers modular, interoperable data infrastructure across all major chains.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/synternet/asset/synt.png",
         "color": "#272d45",
         "ibc_info": {
             "path": "synternet>osmosis",
@@ -10048,7 +10048,7 @@
         "symbol": "dTIA",
         "description": "Drop staked TIA",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dTIA.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/dtia.png",
         "ibc_info": {
             "path": "neutron>osmosis",
             "client": {
