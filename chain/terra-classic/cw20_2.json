@@ -28,5 +28,45 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/refs/heads/main/chain/terra-classic/asset/GARUDAX.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "terra1sl0cgtanapyy449h0hlmt77s8hak7caktvky8t4ct7a7kvjtyyvqzg8rv6",
+        "name" : "BULL LUNC",
+        "symbol": "BULL",
+        "description": "Bull Token is a deflationary meme token powered by the community and driven by the bullish spirit,",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/chain/terra-classic/asset/BULL.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "terra1gzs0926z2u6f2w9afk6ks4z9gkjpac00x60fy9yu903qjjz6nk9qmu5jx3",
+        "name" : "SAIYAN",
+        "symbol": "SAIYAN",
+        "description": "Levelling up LUNC with saiyan mode. Buyback and burn mechanism.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/refs/heads/main/chain/terra-classic/asset/SAIYAN.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "terra19eytmx0yd3m5udlv7rh6u429g6ddjm2cndwv5cxndcymrztx4krqz9p4t6",
+        "name" : "COFFEE",
+        "symbol": "COFFEE",
+        "description": "Bridges real-world coffee shops with blockchain utility.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/refs/heads/main/chain/terra-classic/asset/Coffee.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "terra16hzl7lge3jjnlazvut2ypt7upk68z5dycc9rwy608fah8q0y3fuslkenzc",
+        "name" : "GDEX",
+        "symbol": "GDEX",
+        "description": "GDEX is an Governance and Investment token on Garuda DeFi, designed to ensures the holders are directly involved in the Garuda Decentralized Exchange (DEX) platform’s development and future.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/refs/heads/main/chain/terra-classic/asset/GDEX.png",
+        "coinGeckoId": ""
     }
 ]
