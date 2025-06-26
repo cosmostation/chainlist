@@ -287,7 +287,7 @@
         "symbol": "LUNC",
         "description": "The native staking token of Terra Classic.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/lunc.png",
         "color": "#fcdb5b",
         "coinGeckoId": "terra-luna",
         "ibc_info": {
@@ -524,7 +524,7 @@
         "symbol": "PSTAKE",
         "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets. Stakers of PoS tokens can stake their assets while maintaining the liquidity of these assets. Users earn staking rewards + receive 1:1 pegged staked representative tokens which can be used to generate additional yield.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/persistence/asset/pstake.png",
         "color": "#050505",
         "coinGeckoId": "pstake-finance",
         "ibc_info": {
@@ -620,7 +620,7 @@
         "symbol": "IRIS",
         "description": "The IRIS token is the native governance token for the IrisNet chain.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/iris/asset/iris.png",
         "color": "#5664ad",
         "coinGeckoId": "iris-network",
         "ibc_info": {
@@ -644,7 +644,7 @@
         "symbol": "IOV",
         "description": "IOV coin is the token for the Starname (IOV) Asset Name Service",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/iov.png",
         "color": "#5c64b4",
         "coinGeckoId": "starname",
         "ibc_info": {
@@ -764,7 +764,7 @@
         "symbol": "BCNA",
         "description": "The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcanna/asset/bcna.png",
         "color": "#3cc494",
         "coinGeckoId": "bitcanna",
         "ibc_info": {
@@ -812,7 +812,7 @@
         "symbol": "XKI",
         "description": "The native token of Ki Chain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ki-chain/asset/xki.png",
         "color": "#1c04fc",
         "coinGeckoId": "ki",
         "ibc_info": {
@@ -932,7 +932,7 @@
         "symbol": "LUM",
         "description": "Native token of the Lum Network",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lum/asset/lum.png",
         "color": "#080808",
         "coinGeckoId": "lum-network",
         "ibc_info": {
@@ -980,7 +980,7 @@
         "symbol": "DSM",
         "description": "The native token of Desmos",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/desmos/asset/dsm.png",
         "color": "#fb804e",
         "coinGeckoId": "desmos",
         "ibc_info": {
@@ -1099,7 +1099,7 @@
         "symbol": "UMEE",
         "description": "The native token of Umee",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/umee/asset/umee.png",
         "color": "#22f2e9",
         "coinGeckoId": "umee",
         "ibc_info": {
@@ -1123,7 +1123,7 @@
         "symbol": "GRAV",
         "description": "The native token of Gravity Bridge",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/asset/grav.png",
         "color": "#042ca4",
         "coinGeckoId": "graviton",
         "ibc_info": {
@@ -1265,7 +1265,7 @@
         "symbol": "MNTL",
         "description": "The native token of Asset Mantle",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/asset-mantle/asset/mntl.png",
         "color": "#fbab30",
         "coinGeckoId": "assetmantle",
         "ibc_info": {
@@ -1407,7 +1407,7 @@
         "symbol": "CTK",
         "description": "The native token of Shentu",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shentu/asset/ctk.png",
         "color": "#e4ac4c",
         "coinGeckoId": "certik",
         "ibc_info": {
@@ -1635,7 +1635,7 @@
         "symbol": "HASH",
         "description": "Hash is the staking token of the Provenance Blockchain",
         "decimals": 9,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/provenance/asset/hash.png",
         "color": "#4c7cdc",
         "coinGeckoId": "hash-2",
         "ibc_info": {
@@ -2330,7 +2330,7 @@
         "symbol": "ORAI",
         "description": "The native token of Oraichain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/orai-chain/asset/orai.png",
         "color": "#000000",
         "coinGeckoId": "oraichain-token",
         "ibc_info": {
@@ -2542,7 +2542,7 @@
         "name": "Stride Staked STARS",
         "symbol": "stSTARS",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/ststars.png",
         "color": "#e40474",
         "coinGeckoId": "stride-staked-stars",
         "ibc_info": {
@@ -2660,7 +2660,7 @@
         "symbol": "TORI",
         "description": "The native token of Teritori",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/teritori/asset/tori.png",
         "color": "#040404",
         "coinGeckoId": "teritori",
         "ibc_info": {
@@ -2683,7 +2683,7 @@
         "name": "Stride Staked JUNO",
         "symbol": "stJUNO",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stjuno.png",
         "color": "#e40474",
         "coinGeckoId": "stride-staked-juno",
         "ibc_info": {
@@ -2753,7 +2753,7 @@
         "symbol": "LAMB",
         "description": "The native token of Lambda",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lambda/asset/lamb.png",
         "color": "#e41c54",
         "coinGeckoId": "lambda",
         "ibc_info": {
@@ -2801,7 +2801,7 @@
         "symbol": "FUND",
         "description": "Staking and governance coin for the Unification Blockchain",
         "decimals": 9,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/unification/asset/fund.png",
         "color": "#2279c0",
         "coinGeckoId": "unification",
         "ibc_info": {
@@ -3270,7 +3270,7 @@
         "symbol": "PLQ",
         "description": "The native EVM, governance and staking token of the Planq Network",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/planq/asset/planq.png",
         "color": "#d4f3fb",
         "coinGeckoId": "planq",
         "ibc_info": {
@@ -3754,7 +3754,7 @@
         "symbol": "WHALE",
         "description": "The native token of Migaloo Chain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/migaloo/asset/whitewhale.png",
         "color": "#1c1c1c",
         "coinGeckoId": "white-whale",
         "ibc_info": {
@@ -4527,7 +4527,7 @@
         "name": "Stride Staked UMEE",
         "symbol": "stUMEE",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/stumee.png",
         "color": "#fbd9e9",
         "coinGeckoId": "stride-staked-umee",
         "ibc_info": {
@@ -4560,7 +4560,7 @@
         "symbol": "NLS",
         "description": "The native token of Nolus chain",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nolus/asset/nolus.png",
         "color": "#fc542c",
         "coinGeckoId": "nolus",
         "ibc_info": {
@@ -4768,7 +4768,7 @@
         "symbol": "ARCH",
         "description": "The native token of Archway network",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/archway/asset/arch.png",
         "color": "#fc4c04",
         "coinGeckoId": "archway",
         "ibc_info": {
@@ -4838,7 +4838,7 @@
         "symbol": "KYVE",
         "description": "The native utility token of the KYVE network.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kyve/asset/kyve.png",
         "color": "#335350",
         "coinGeckoId": "kyve-network",
         "ibc_info": {
@@ -4943,7 +4943,7 @@
         "symbol": "PASG",
         "description": "The native staking and governance token of the Passage chain.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/passage/asset/pasg.png",
         "color": "#05050c",
         "coinGeckoId": "passage",
         "ibc_info": {
@@ -5311,7 +5311,7 @@
         "symbol": "RIO",
         "description": "The native currency of the Realio Network.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rio.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/realio/asset/rio.png",
         "color": "#000000",
         "coinGeckoId": "realio-network",
         "ibc_info": {
@@ -6637,7 +6637,7 @@
         "symbol": "HEART",
         "description": "The native staking and governance token of Humans.ai.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/humans/asset/humans.png",
         "color": "#f3f3f3",
         "coinGeckoId": "humans-ai",
         "ibc_info": {
@@ -6708,7 +6708,7 @@
         "symbol": "C4E",
         "description": "The native token of Chain4Energy",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chain4energy/asset/chain4energy.png",
         "color": "#24344c",
         "coinGeckoId": "chain4energy",
         "ibc_info": {
@@ -6974,7 +6974,7 @@
         "symbol": "NIBI",
         "description": "The native token of Nibiru network",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nibiru/asset/nibi.png",
         "color": "#14c0ce",
         "coinGeckoId": "nibiru",
         "ibc_info": {
@@ -8541,7 +8541,7 @@
         "symbol": "FCT",
         "description": "FIRMACHAIN adds a signing and verifying e-contract function to the blockchain. Unlocking new limits of electronic contracts with blockchain technology, FIRMACHAIN seeks to resolve all the social and legal issues (contracts, notarial, etc.) with written contracts through the use of electronic contracts based on FIRMACHAIN’s data blockchain.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/firmachain/asset/fct.png",
         "color": "#1c1c1c",
         "coinGeckoId": "firmachain",
         "ibc_info": {
@@ -8720,7 +8720,7 @@
         "symbol": "ROUTE",
         "description": "The native token of Router Chain",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/routerchain/asset/route.png",
         "color": "#cb0766",
         "coinGeckoId": "router-protocol-2",
         "ibc_info": {
@@ -9708,7 +9708,7 @@
         "symbol": "DGN",
         "description": "Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem's governance and success.",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dungeon/asset/dgn.png",
         "coinGeckoId": "dragon-coin-2",
         "ibc_info": {
             "path": "dungeon>osmosis",
