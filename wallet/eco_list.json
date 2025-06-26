@@ -2610,5 +2610,39 @@
             "discord": "https://discord.com/invite/jRZaJvCZjv"
         },
         "type": "Bridge"
+    },
+     {
+        "id": 154,
+        "name": "Garuda Defi",
+        "description": "An automated market maker (AMM) built on the Terra Classic blockchain which enables factory token, permissionless pool creation, staking token and farms for earning yield.",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/GDEX.png",
+        "link": "https://garuda-defi.org/",
+        "chains": [
+            "terra-classic"
+        ],
+        "socials": {
+            "github": "https://github.com/garudawork",
+            "telegram": "https://t.me/Garudaverse99",
+            "twitter": "https://x.com/garuda_defi",
+            "discord": "https://discord.gg/VBmTKugfcT"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 155,
+        "name": "BIGBANGX",
+        "description": "NFT permisionless marketplace in Terra Classic Blockchain",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/bigbangx.png",
+        "link": "https://bigbangx.io/",
+        "chains": [
+            "terra-classic"
+        ],
+        "socials": {
+            "github": "https://github.com/garudawork",
+            "telegram": "https://t.me/bigbangXio",
+            "twitter": "https://x.com/bigbangplatform",
+            "discord": "https://discord.gg/VBmTKugfcT"
+        },
+        "type": "NFT"
     }
 ]
