@@ -68,5 +68,15 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/refs/heads/main/chain/terra-classic/asset/GDEX.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "terra14rfnhc2aru7jp304lht3yf903necsnrt4cxd464cftsfcksw0rtsgundnt",
+        "name" : "FRG",
+        "symbol": "FRG",
+        "description": "FRG is a native token on FRG Ecosystem.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/chain/terra-classic/asset/FRG.jpg",
+        "coinGeckoId": ""
     }
 ]
