@@ -78,5 +78,15 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/chain/terra-classic/asset/frg.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt",
+        "name" : "Lunc Cookie",
+        "symbol": "Cookie",
+        "description": "cookie and utility will set us free ",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/chain/terra-classic/asset/cookie.png",
+        "coinGeckoId": ""
     }
 ]
