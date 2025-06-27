@@ -77,5 +77,28 @@
                 "denom": "uusdt"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0BB9D8513E8E8E9AE6A9D211D9136E6DA42288DDE6CFAA453A150A4566054DC5",
+        "name" : "USD Coin (Noble)",
+        "symbol": "USDC.nbl",
+        "description": "Wrapped USDC imported to Cosmos from Ethereum via Noble.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "ethereum>noble>terra-classic",
+            "client" : {
+                "channel": "channel-113",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
     }
 ]
