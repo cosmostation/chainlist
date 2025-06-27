@@ -1,5 +1,5 @@
 {
-    "chain_id_cosmos" : "",
+    "chain_id_cosmos" : "xrplevm_1440000-1",
     "chain_id_evm" : "",
     "chain_name": "XRPL EVM Sidechain",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm/resource/chain_xrplevm.png",
@@ -11,7 +11,7 @@
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm/asset/xrp.png",
     "bech_account_prefix" : "ethm",
     "bech_validator_prefix" : "ethmvaloper",
-    "origin_genesis_time" : "",
+    "origin_genesis_time" : "2025-04-24T12:00:00Z",
     "api_name": "xrplevm",
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : false,
