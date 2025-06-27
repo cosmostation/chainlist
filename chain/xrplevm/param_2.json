@@ -1,6 +1,6 @@
 {
     "chain_id_cosmos" : "xrplevm_1440000-1",
-    "chain_id_evm" : "",
+    "chain_id_evm" : "0x15f900",
     "chain_name": "XRPL EVM Sidechain",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm/resource/chain_xrplevm.png",
     "staking_asset_denom" : "poa",
