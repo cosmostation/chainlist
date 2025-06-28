@@ -20,7 +20,7 @@
     "description": "A neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
     "status": "open",
     "thumbnail" : "astroport",
-    "link": "https://app.astroport.fi/swap?from=ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5&to=uluna",
+    "link": "https://app.astroport.fi/swap?chain=terra&to=ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5&from=uluna",
     "social": {
       "webSite": "https://astroport.fi/en",
       "twitter": "https://twitter.com/astroport_fi",
@@ -49,7 +49,7 @@
     "description": "Hosts a native Terra DEX with a focus on interchain liquidity solutions.",
     "status": "open",
     "thumbnail" : "white-whale2",
-    "link": "https://app.whitewhale.money/terra/swap?from=USDC&to=LUNA",
+    "link": "https://app.whitewhale.money/terra/swap?from=LUNA&to=USDC",
     "social": {
       "webSite": "https://www.whitewhale.money/",
       "twitter": "https://twitter.com/WhiteWhaleDefi",
