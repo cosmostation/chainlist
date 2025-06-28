@@ -2644,5 +2644,37 @@
             "discord": "https://discord.gg/VBmTKugfcT"
         },
         "type": "NFT"
+    },
+    {
+        "id": 156,
+        "name": "FRG STAKING",
+        "description": "Dapps To Stake your FRG Token to get multiple Cw20 Rewards and List Your NFT Project To be stakeable",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/frg.png",
+        "link": "https://frg-staking.com/",
+        "chains": [
+            "terra-classic"
+        ],
+        "socials": {
+            "telegram": "https://t.me/LUNC_FRG_Token",
+            "twitter": "https://x.com/Thefrgcoin"
+        },
+        "type": "Tools"
+    },
+    {
+        "id": 157,
+        "name": "Luncverse",
+        "description": "The luna classic metaverse build for the community by the community.",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/luncverse.png"
+        "link": "https://luncverse.io/",
+        "chains": [
+            "terra-classic"
+        ],
+        "socials": {
+            "github": "",
+            "telegram": "https://t.me/luncmeta",
+            "twitter": "https://x.com/luncmetaverse?s=21&t=9wz8VkpbPeSoua-VoHB-cQ",
+            "discord": "https://discord.gg/WWQe4rN6"
+        },
+        "type": "GameFi"
     }
 ]
