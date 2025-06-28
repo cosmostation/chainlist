@@ -47,12 +47,12 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Staketab",
-            "url": "https://passage-rest.staketab.org/"
-        },
-        {
             "provider": "ecostake",
             "url": "https://rest-passage.ecostake.com/"
+        },
+        {
+            "provider": "keplr",
+            "url": "https://lcd-passage.keplr.app/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
