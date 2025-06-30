@@ -50,7 +50,7 @@
     "explorer" : {
         "name": "Gnoscan",
         "url": "https://gnoscan.io/",
-        "account": "https://gnoscan.io/accounts/${address}",
+        "account": "https://gnoscan.io/account/${address}",
         "tx": "https://gnoscan.io/transactions/details?txhash=${hash}",
         "proposal": ""
     },
