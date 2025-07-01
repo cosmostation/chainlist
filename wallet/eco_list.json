@@ -2195,7 +2195,7 @@
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/strobe.png",
         "link": "https://strobe.finance/",
         "chains": [
-            "xrplevm-testnet"
+            "xrplevm"
         ],
         "socials": {
             "github": "https://github.com/strobe-protocol",
@@ -2211,7 +2211,7 @@
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/moai.png",
         "link": "https://xrplevm.moai-finance.xyz/swap",
         "chains": [
-            "xrplevm-testnet"
+            "xrplevm"
         ],
         "socials": {
             "twitter": "https://x.com/MoaiFinance",
@@ -2226,26 +2226,12 @@
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hammy.png",
         "link": "https://hammy.finance/",
         "chains": [
-            "xrplevm-testnet"
+            "xrplevm"
         ],
         "socials": {
             "twitter": "https://x.com/HammySwap"
         },
         "type": "DeFi"
-    },
-    {
-        "id": 130,
-        "name": "Palmera",
-        "description": "Powered by Safe, Palmera streamlines your Safes operations and treasury management across multiple chains, all from a single dashboard",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/palmera.png",
-        "link": "https://app.palmeradao.xyz/create",
-        "chains": [
-            "xrplevm-testnet"
-        ],
-        "socials": {
-            "telegram": "https://t.me/palmera_support"
-        },
-        "type": "DashBoard"
     },
     {
         "id": 131,
@@ -2670,7 +2656,6 @@
             "terra-classic"
         ],
         "socials": {
-            "github": "",
             "telegram": "https://t.me/luncmeta",
             "twitter": "https://x.com/luncmetaverse?s=21&t=9wz8VkpbPeSoua-VoHB-cQ",
             "discord": "https://discord.gg/WWQe4rN6"
