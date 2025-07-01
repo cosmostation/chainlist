@@ -60,10 +60,10 @@
         }
     ],
     "explorer" : {
-        "name": "",
-        "url": "",
-        "account": "",
-        "tx": "",
+        "name": "XRPL EVM",
+        "url": "https://explorer.xrplevm.org/",
+        "account": "https://explorer.xrplevm.org/address/${address}",
+        "tx": "https://explorer.xrplevm.org/tx/${hash}",
         "proposal": ""
     },
     "about" : {
