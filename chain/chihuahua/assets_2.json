@@ -22,6 +22,16 @@
     },
     {
         "type": "native",
+        "denom": "factory/chihuahua1sj9verkuk8aa9jrngnpwup6zjht4vwngjlpemnt9w38ccp0qnlcswvsuzc/beer",
+        "name" : "BeerDog",
+        "symbol": "BEER",
+        "description": "Give this good boy a cold one",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/beer.png",
+        "coinGeckoId": ""
+    },    
+    {
+        "type": "native",
         "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
         "name" : "woof",
         "symbol": "WOOF",
