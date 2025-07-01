@@ -1,1 +1,23 @@
-[]
+[
+    {
+        "type": "erc20",
+        "contract": "0x7C21a90E3eCD3215d16c3BBe76a491f8f792d4Bf",
+        "name" : "Wrapped XRP",
+        "symbol": "WXRP",
+        "description": "Wrapped XRP",
+        "decimals": 18,
+        "image": "https://xrplevm.moai-finance.xyz/assets/svg/5d1d6a86.svg",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6a90E3aAB217b732Fa92f1678e41c4d18bcd6eD9",
+        "name" : "Pepe",
+        "symbol": "PEPE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/pepe.svg",
+        "coinGeckoId": "pepe"
+    }
+]
