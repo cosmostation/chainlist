@@ -12,6 +12,7 @@
     "api_name": "solana",
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": false,
+    "is_support_spl": true,
     "chain_type": [
         "solana"
     ],
