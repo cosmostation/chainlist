@@ -27,8 +27,8 @@
     },
     "solana_rpc_endpoint" : [
         {
-            "provider": "Allnodes",
-            "url": "https://solana-rpc.publicnode.com"
+            "provider": "Solana",
+            "url": "https://api.mainnet-beta.solana.com"
         }
     ],
     "explorer" : {
