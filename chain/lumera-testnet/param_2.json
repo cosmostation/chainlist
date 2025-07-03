@@ -41,6 +41,14 @@
         {
             "provider": "Lumera Protocol",
             "url": "https://lcd.testnet.lumera.io/"
+        },
+        {
+            "provider": "Nodestake",
+            "url": "https://api-t.lumera.nodestake.org/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://lumera-testnet-api.polkachu.com"
         }
     ],
     "explorer" : {
