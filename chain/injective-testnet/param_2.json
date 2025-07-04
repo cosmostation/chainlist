@@ -13,7 +13,7 @@
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_moblie_dapp" : true,
-    "is_support_extension_wallet": true,
+    "is_support_extension_wallet": false,
     "is_support_erc20" : true,
     "is_support_cw20" : true,
     "chain_type": [
@@ -51,9 +51,21 @@
         {
             "provider": "Injective",
             "url": "https://testnet.sentry.lcd.injective.network:443"
+        },
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-office.cosmostation.io/injective-testnet"
         }
     ],
-    "evm_rpc_endpoint" : [
+    "evm_rpc_endpoint" : [,
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc-office-evm.cosmostation.io/injective-testnet/"
+        },
+        {
+            "provider": "k8s",
+            "url": "https://k8s.testnet.json-rpc.injective.network "
+        },
         {
             "provider": "Injective",
             "url": "https://testnet.sentry.chain.json-rpc.injective.network"
