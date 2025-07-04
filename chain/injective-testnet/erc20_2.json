@@ -1,0 +1,64 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xe1c64DDE0A990ac2435B05DCdac869a17fE06Bd2",
+        "name" : "Wrapped INJ",
+        "symbol": "wINJ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective-testnet/asset/unknown.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x719fF496ddf37C56F2A958676f630f417a4084aa",
+        "name" : "Tether",
+        "symbol": "USDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective-testnet/asset/unknown.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xeD0094eE59492cB08A5602Eb8275acb00FFb627d",
+        "name" : "Pumex",
+        "symbol": "PMX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective-testnet/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x706d158efca30807575a40e5977558b0E0EB331b",
+        "name" : "Yei WINJ",
+        "symbol": "aYeiWINJ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective-testnet/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x706d158efca30807575a40e5977558b0E0EB331b",
+        "name" : "Yei WINJ",
+        "symbol": "aYeiWINJ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective-testnet/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x494401396FD1cf51cDD13e29eCFA769F49e1F5D3",
+        "name" : "Lair Staked Injective",
+        "symbol": "LsINJ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective-testnet/asset/unknown.png",
+        "coinGeckoId": ""
+    }
+]
