@@ -1285,5 +1285,15 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/lava.svg",
         "coinGeckoId": "lava-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf486ad071f3bee968384d2e39e2d8af0fcf6fd46",
+        "name": "Velo",
+        "symbol": "VELO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/velo.png",
+        "coinGeckoId": "velo"
     }
 ]
