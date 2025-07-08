@@ -1,5 +1,5 @@
 {
-    "chain_id_cosmos" : "portal-loop",
+    "chain_id_cosmos" : "staging",
     "chain_name": "GNO Testnet",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/resource/chain_gno-testnet.png",
     "staking_asset_denom" : "ugnot",
@@ -21,7 +21,7 @@
         {
             "hd_path": "m/44'/118'/0'/0/X",
             "pubkey_style": "secp256k1",
-            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+            "pubkey_type": "/tm.PubKeySecp256k1"
         }
     ],
     "cosmos_fee_info" : {
