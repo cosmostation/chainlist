@@ -10960,5 +10960,16 @@
                 "denom": "unil"
             }
         }
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo12r3yc76u9lxe33yemstatnw8602culdjzrtr8lmnpycmd3z7d4jsxx60kc/FwNhFaW3zLxoLUgXCdWjqBzcvGNPaB7B2XZqm2xgrB93",
+        "name": "eBABY",
+        "symbol": "eBABY",
+        "description": "ESCHER LST for Babylon",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/eBABY.svg",
+        "color": "#0008FF",
+        "coinGeckoId": ""
     }
 ]
