@@ -2958,16 +2958,6 @@
     },
     {
         "type": "erc20",
-        "contract": "0x18fA72e0EE4C580a129b0CE5bD0694d716C7443E",
-        "name": "Kyber Network Crystal",
-        "symbol": "KNC_e",
-        "description": "",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/knc.svg",
-        "coinGeckoId": "kyber-network-crystal"
-    },
-    {
-        "type": "erc20",
         "contract": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
         "name": "Melon",
         "symbol": "MLN",
