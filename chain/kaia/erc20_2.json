@@ -171,5 +171,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/gxa.png",
         "coinGeckoId": "galaxia"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd70c7d511560493c79df607076fb863f5c8a50b0",
+        "name" : "Lair",
+        "symbol": "LAIR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/lair.png",
+        "coinGeckoId": "lair"
     }
 ]
