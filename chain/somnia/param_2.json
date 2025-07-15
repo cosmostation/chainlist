@@ -1,0 +1,50 @@
+{
+    "chain_id_evm" : "0xc488",
+    "chain_name": "Somnia,
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/resource/chain_somnia.png",
+    "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "main_asset_symbol" : "STT",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/stt.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "STT",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/stt.png",
+    "origin_genesis_time" : "",
+    "api_name" : "stt",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Somnia",
+            "url": "https://dream-rpc.somnia.network/"
+        }
+    ],
+    "explorer" : {
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": ""
+    },
+    "about" : {
+        "website" : "https://somnia.network/",
+        "docs": "https://docs.somnia.network/",
+        "github" : "",
+        "blog" : "https://somnia.network/blog",
+        "medium": "",
+        "twitter" : "https://x.com/Somnia_Network",
+        "discord" : "https://discord.com/invite/somnia",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Somnia는 특히 게임, 메타버스, SocialFi 등 실시간 소비자 중심 애플리케이션에 최적화된 EVM 호환 Layer 1 블록체인 네트워크입니다.",
+        "en" : "Somnia is an EVM-compatible Layer 1 blockchain network optimized for real-time, consumer-focused applications such as gaming, the metaverse, and SocialFi.",
+        "ja" : "Somnia（ソムニア）は、ゲーム、メタバース、SocialFiなどのリアルタイムで消費者中心のアプリケーションに最適化された、EVM互換のレイヤー1ブロックチェーンネットワークです。"
+    }
+}
