@@ -52,11 +52,11 @@
         }
     ],
     "explorer" : {
-        "name": "Lumera Protocol",
-        "url": "https://portal.testnet.lumera.io/lumera-testnet-1/",
-        "account": "https://portal.testnet.lumera.io/lumera-testnet-1/account/${address}",
-        "tx": "https://portal.testnet.lumera.io/lumera-testnet-1/tx/${hash}",
-        "proposal": "https://portal.testnet.lumera.io/lumera-testnet-1/gov/${id}"
+        "name": "Mekonglabs",
+        "url": "https://explorer.mekonglabs.tech/lumera",
+        "account": "https://explorer.mekonglabs.tech/lumera/account/${address}",
+        "tx": "https://explorer.mekonglabs.tech/lumera/tx/${hash}",
+        "proposal": "https://explorer.mekonglabs.tech/lumera/gov/${id}"
     },
     "about" : {
         "github" : "https://github.com/LumeraProtocol",
