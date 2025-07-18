@@ -4,7 +4,7 @@
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/resource/bitbadgeslogo.png",
     "staking_asset_denom" : "ubadge",
     "staking_asset_symbol" : "BADGE",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/asset/bitbadgeslogo.png",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/asset/badge_logo.png",
     "bech_account_prefix" : "bb",
     "bech_validator_prefix" : "bbvaloper",
     "origin_genesis_time" : "2024-09-08T20:28:35.97966166Z",
@@ -24,7 +24,7 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0ubadge"
+            "0.000000000001ubadge"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
@@ -33,11 +33,11 @@
     },
     "grpc_endpoint" : [],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/bitbadges/",
-        "account": "https://www.mintscan.io/bitbadges/address/${address}",
-        "tx": "https://www.mintscan.io/bitbadges/tx/${hash}",
-        "proposal": "https://www.mintscan.io/bitbadges/proposals/${id}"
+        "name": "PingPub",
+        "url": "https://explorer.bitbadges.io/",
+        "account": "https://explorer.bitbadges.io/BitBadges%20Mainnet/address/${address}",
+        "tx": "https://explorer.bitbadges.io/BitBadges%20Mainnet/tx/${hash}",
+        "proposal": "https://explorer.bitbadges.io/BitBadges%20Mainnet/proposals/${id}"
     },
     "about" : {
         "website" : "https://bitbadges.io/",
@@ -53,6 +53,5 @@
         "ko" : "BitBadges는 디지털 NFT 배지를 만들고, 수집하고, 인증하기 위한 올인원 멀티체인 플랫폼입니다.",
         "en" : "BitBadges is the all-in-one, multi-chain platform for creating, collecting, and authenticating with digital NFT badges.",
         "ja" : "BitBadges は、デジタル NFT バッジを作成、収集、認証するためのオールインワンのマルチチェーン プラットフォームです。"
-        
     }
 }
