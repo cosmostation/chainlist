@@ -2665,7 +2665,7 @@
         "id": 158,
         "name": "CowSwap",
         "description": "CowSwap is a decentralized trading protocol built on top of CoW Protocol. It offers MEV-protected, gasless token swaps by matching peer-to-peer orders and aggregating DEX liquidity.",
-        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/cowswap.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/cowswap.png",
         "link": "https://swap.cow.fi/",
         "chains": [
             "ethereum",
@@ -2685,7 +2685,7 @@
         "id": 159,
         "name": "Matcha",
         "description": "Matcha is a decentralized exchange (DEX) aggregator that finds the best prices across multiple DEXs. It routes trades through platforms like Uniswap, SushiSwap, and Curve to ensure optimal execution.",
-        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/matcha.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/matcha.png",
         "link": "https://matcha.xyz/",
         "chains": [
             "ethereum",
@@ -2706,7 +2706,7 @@
         "id": 160,
         "name": "Rocketpool",
         "description": "Rocket Pool is a decentralized Ethereum staking platform where users stake ETH and receive liquid rETH. It supports both individual stakers and node operators through a shared minipool system.",
-        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/rocketpool.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/rocketpool.png",
         "link": "https://stake.rocketpool.net/",
         "chains": [
             "ethereum"
@@ -2722,7 +2722,7 @@
         "id": 161,
         "name": "Carbon",
         "description": "Carbon DeFi is a next-gen on-chain trading protocol by Bancor that supports automated limit, range, and recurring orders.",
-        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/carbondefi.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/carbondefi.png",
         "link": "https://app.carbondefi.xyz/",
         "chains": [
             "ethereum"
@@ -2738,7 +2738,7 @@
         "id": 162,
         "name": "Router Nitro",
         "description": "Router Nitro is a fast, low-cost cross-chain bridge enabling seamless transfers across 35+ blockchains. It features wallet-less payments, auto gas top-ups, and MEV-resistant routing for enhanced user convenience.",
-        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/routernitro.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/routernitro.png",
         "link": "https://routernitro.com/trade",
         "chains": [
             "ethereum",
@@ -2758,7 +2758,7 @@
         "id": 163,
         "name": "Silo",
         "description": "Silo Finance Earn offers isolated, non-custodial money markets where users can deposit tokens to earn interest and incentives with transparent risk controls.",
-        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/silo.png",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/silo.png",
         "link": "https://app.silo.finance/earn",
         "chains": [
             "ethereum",
