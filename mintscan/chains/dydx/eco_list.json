@@ -106,21 +106,5 @@
       "youtube": "https://www.youtube.com/channel/UCMgSOd_ZsVpDxbpuoIBYYSw",
       "github": "https://github.com/ChaosLabsInc"
     }
-  },
-  {
-    "name": "dydx-migration.mintscan.io",
-    "type": "migration",
-    "description": "This dApp facilitates the migration of DYDX tokens from Ethereum to the dYdX Chain, enabling token holders to secure the network and earn staking rewards derived from the exchange's trading fees.",
-    "status": "open",
-    "thumbnail" : "dydx-migration-mintscan",
-    "link": "https://dydx-migration.mintscan.io/",
-    "social": {
-      "webSite": "https://www.cosmostation.io/",
-      "twitter": "https://twitter.com/CosmostationVD",
-      "medium": "https://medium.com/cosmostation/dydx-migration-guide-2af37f95def5",
-      "youtube": "https://www.youtube.com/@cosmostationio",
-      "github": "https://github.com/cosmostation",
-      "docs": "https://docs.cosmostation.io/"
-    }
-  }
+  }  
 ]
