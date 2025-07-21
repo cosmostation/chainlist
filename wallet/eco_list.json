@@ -2046,7 +2046,6 @@
             "arbitrum",
             "base",
             "ethereum",
-            "monad-testnet",
             "polygon"
         ],
         "socials": {
@@ -2661,5 +2660,117 @@
             "discord": "https://discord.gg/WWQe4rN6"
         },
         "type": "GameFi"
+    },
+    {
+        "id": 158,
+        "name": "CowSwap",
+        "description": "CowSwap is a decentralized trading protocol built on top of CoW Protocol. It offers MEV-protected, gasless token swaps by matching peer-to-peer orders and aggregating DEX liquidity.",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/cowswap.png",
+        "link": "https://swap.cow.fi/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/cowprotocol",
+            "twitter": "https://x.com/CoWSwap",
+            "discord": "https://discord.com/invite/cowprotocol"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 159,
+        "name": "Matcha",
+        "description": "Matcha is a decentralized exchange (DEX) aggregator that finds the best prices across multiple DEXs. It routes trades through platforms like Uniswap, SushiSwap, and Curve to ensure optimal execution.",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/matcha.png",
+        "link": "https://matcha.xyz/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "twitter": "https://x.com/matchaxyz",
+            "discord": "https://discord.com/invite/matchaxyz"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 160,
+        "name": "Rocketpool",
+        "description": "Rocket Pool is a decentralized Ethereum staking platform where users stake ETH and receive liquid rETH. It supports both individual stakers and node operators through a shared minipool system.",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/rocketpool.png",
+        "link": "https://stake.rocketpool.net/",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "github": "https://github.com/rocket-pool",
+            "twitter": "https://x.com/matchaxyz",
+            "discord": "https://discord.com/invite/rocketpool"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 161,
+        "name": "Carbon",
+        "description": "Carbon DeFi is a next-gen on-chain trading protocol by Bancor that supports automated limit, range, and recurring orders.",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/carbondefi.png",
+        "link": "https://app.carbondefi.xyz/",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "telegram": "https://t.me/CarbonDeFixyz",
+            "twitter": "https://x.com/carbondefixyz",
+            "discord": "https://discord.com/invite/bancor"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 162,
+        "name": "Router Nitro",
+        "description": "Router Nitro is a fast, low-cost cross-chain bridge enabling seamless transfers across 35+ blockchains. It features wallet-less payments, auto gas top-ups, and MEV-resistant routing for enhanced user convenience.",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/routernitro.png",
+        "link": "https://routernitro.com/trade",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "bnb-smart-chain",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/router-protocol",
+            "telegram": "https://t.me/routerprotocol",
+            "twitter": "https://x.com/routerprotocol?t=Jab_H522Y2fB6uM60Pn6zA&s=09",
+            "discord": "https://discord.com/invite/rKf9UYMNWC"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 163,
+        "name": "Silo",
+        "description": "Silo Finance Earn offers isolated, non-custodial money markets where users can deposit tokens to earn interest and incentives with transparent risk controls.",
+        "thumbnail" : "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/wallet/resource/silo.png",
+        "link": "https://app.silo.finance/earn",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche"
+        ],
+        "socials": {
+            "github": "https://github.com/silo-finance/silo-contracts-v2",
+            "telegram": "https://t.me/silo_finance",
+            "twitter": "https://x.com/SiloFinance",
+            "discord": "https://discord.com/invite/silo-finance"
+        },
+        "type": "DeFi"
     }
 ]
