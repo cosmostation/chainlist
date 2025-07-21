@@ -11,7 +11,6 @@
         "color": "#040404"
     },
     {
-      "chain": "initia",
       "type": "ibc",
       "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
       "name": "USDC",
@@ -34,5 +33,53 @@
             "denom": "uusdc"
         }
       }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/297A4DE88667929480EBE6659B264C5683838CF313C61FE889F6B8D8DC6E071D",
+        "name": "milkTIA",
+        "symbol": "milkTIA",
+        "description": "MilkyWay's liquid staked TIA",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/milktia.png",
+        "color": "#d18dfc",
+        "coinGeckoId": "milkyway-staked-tia",
+        "ibc_info": {
+            "path": "osmosis>initia",
+            "client": {
+                "channel": "channel-71",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-102129",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DA9AC2708B4DAA46D24E73241373CDCC850BC6446E8E0906A4062152B649DDD3",
+        "name": "Celestia",
+        "symbol": "TIA",
+        "description": "The native token of the Celestia blockchain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
+        "color": "#7c2cfb",
+        "coinGeckoId": "celestia",
+        "ibc_info": {
+            "path": "celestia>initia",
+            "client": {
+                "channel": "channel-10",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-86",
+                "port": "transfer",
+                "chain": "celestia",
+                "denom": "utia"
+            }
+        }
     }
 ]
