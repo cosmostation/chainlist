@@ -2772,5 +2772,65 @@
             "discord": "https://discord.com/invite/silo-finance"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 163,
+        "name": "Kyber",
+        "description": "KyberSwap is a non‑custodial, multi‑chain DEX aggregator that sources liquidity from 70+ exchanges across 14 EVM chains to deliver optimized swap rates and low slippage",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kyber.png",
+        "link": "https://kyberswap.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/kybernetwork",
+            "twitter": "https://x.com/KyberNetwork",
+            "discord": "https://discord.com/invite/kyberswap"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 164,
+        "name": "Velora",
+        "description": "Velora is a cross-chain DeFi trading platform that aggregates liquidity across 160+ sources. It supports fast swaps, limit orders, and advanced strategies with MEV protection.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/velora.png",
+        "link": "https://app.velora.xyz/",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "github": "https://github.com/paraswap",
+            "telegram": "https://t.me/paraswap",
+            "twitter": "https://x.com/veloradex",
+            "discord": "https://discord.com/invite/bfnkPRPRXG"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 165,
+        "name": "Cream",
+        "description": "C.R.E.A.M. Finance is a decentralized lending protocol on Ethereum, BNB Chain, and Fantom. Users can supply assets to earn interest or borrow against collateral.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/cream.png",
+        "link": "https://app.cream.finance/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "bnb-smart-chain",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/CreamFi/",
+            "telegram": "https://t.me/CreamdotFinance",
+            "twitter": "https://x.com/CreamdotFinance"
+        },
+        "type": "DeFi"
     }
 ]
