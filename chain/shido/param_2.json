@@ -38,6 +38,10 @@
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : ""
+    },
     "grpc_endpoint" : [
         {
             "provider": "shido.io",
