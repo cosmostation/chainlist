@@ -181,5 +181,55 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/lair.png",
         "coinGeckoId": "lair"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xef82b1c6a550e730d8283e1edd4977cd01faf435",
+        "name" : "Six",
+        "symbol": "SIX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/six.png",
+        "coinGeckoId": "six-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xafde910130c335fa5bd5fe991053e3e0a49dce7b",
+        "name" : "Pibble Token",
+        "symbol": "PIB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/pib.png",
+        "coinGeckoId": "pibble"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5fff3a6c16c2208103f318f4713d4d90601a7313",
+        "name" : "Kleva Token",
+        "symbol": "KLEVA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/kleva.png",
+        "coinGeckoId": "kleva"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3b3b30a76d169f72a0a38ae01b0d6e0fbee3cc2e",
+        "name" : "TEMCO",
+        "symbol": "TEMCO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/temco.png",
+        "coinGeckoId": "temco"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6cef6dd9a3c4ad226b8b66effeea2c125df194f1",
+        "name" : "AziT",
+        "symbol": "AZIT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kaia/asset/azit.png",
+        "coinGeckoId": "azit"
     }
 ]
