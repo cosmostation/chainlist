@@ -2832,5 +2832,113 @@
             "twitter": "https://x.com/CreamdotFinance"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 166,
+        "name": "Yearn",
+        "description": "Yearn Vaults are automated yield-optimizing strategies for crypto assets. Users deposit tokens, and the vaults automatically deploy them across DeFi protocols to maximize returns.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/yearn.png",
+        "link": "https://yearn.fi/vaults",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "twitter": "https://x.com/yearnfi",
+            "discord": "https://discord.com/invite/yearn"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 167,
+        "name": "DoDo",
+        "description": "DODO Swap is a decentralized exchange using its proprietary Proactive Market Maker (PMM) algorithm to deliver efficient, low-slippage token swaps.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dodo.png",
+        "link": "https://app.dodoex.io/swap/network",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/DODOEX",
+            "twitter": "https://x.com/BreederDodo",
+            "telegram": "https://t.me/dodoex_official",
+            "discord": "https://discord.com/invite/tyKReUK"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 168,
+        "name": "Loopring",
+        "description": "Loopring is a zkRollup-based Layer 2 built on Ethereum, offering ultra-low fee swaps, transfers, and DEX features on L2 while retaining Ethereum-level security",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/loopring.png",
+        "link": "https://defi.loopring.io/#/l2assets",
+        "chains": [
+            "ethereum",
+            "base"
+        ],
+        "socials": {
+            "twitter": "https://x.com/loopringorg",
+            "discord": "https://discord.com/invite/KkYccYp"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 169,
+        "name": "Rhino Fi",
+        "description": "Rhino.fi is a fast, collateral-backed cross-chain stablecoin bridge supporting Ethereum, zkSync Era, Polygon, Arbitrum, and more with low fees and near-instant transfers",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/rhino.png",
+        "link": "https://app.rhino.fi/bridge",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon",
+            "story"
+        ],
+        "socials": {
+            "twitter": "https://x.com/rhinofi"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 170,
+        "name": "Synthetix",
+        "description": "The 420 Pool is Synthetix’s updated staking mechanism, allowing users to stake SNX and peg protocol-issued debt within a shared protocol-controlled pool.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/synthetix.png",
+        "link": "https://420.synthetix.io/",
+        "chains": [
+            "ethereum",
+            "optimism"
+        ],
+        "socials": {
+            "github": "https://github.com/synthetixio",
+            "twitter": "https://x.com/synthetix_io",
+            "discord": "https://discord.com/invite/synthetix"
+        },,
+        "type": "DeFi"
+    },
+    {
+        "id": 171,
+        "name": "Quickswap",
+        "description": "QuickSwap is a Polygon-based Layer‑2 AMM DEX that enables fast, low‑fee swaps of ERC‑20 tokens using liquidity pools—similar to Uniswap but on Polygon’s scalable network",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/quickswap.png",
+        "link": "https://dapp.quickswap.exchange/swap/",
+        "chains": [
+            "ethereum",
+            "polygon"
+        ],
+        "socials": {
+            "github": "https://github.com/QuickSwap"
+        },,
+        "type": "DeFi"
     }
 ]
