@@ -1,0 +1,89 @@
+{
+    "chain_id_cosmos" : "bluzelle-9",
+    "chain_name": "Bluzelle",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bluzelle/resource/chain_bluzelle.png",
+    "staking_asset_denom" : "ubnt",
+    "staking_asset_symbol" : "BLZ",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bluzelle/asset/blz.png",
+    "bech_account_prefix" : "bluzelle",
+    "bech_validator_prefix" : "bluzellevaloper",
+    "origin_genesis_time" : "2021-12-08T16:49:25Z",
+    "api_name" : "bluzelle",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/483'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.0012ubnt",
+            "0.0016ubnt",
+            "0.0024ubnt"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Bluzelle",
+            "url": "a.client.sentry.net.bluzelle.com:9090"
+        },
+        {
+            "provider": "genznodes",
+            "url": "bluzelle-grpc.genznodes.dev:34090"
+        },
+        {
+            "provider": "Nodine.ID",
+            "url": "grpc-curium.nodine.id:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmos Dirctory",
+            "url": "https://rest.cosmos.directory/bluzelle/"
+        },
+        {
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+            "url": "https://bluzelle_mainnet_api.chain.whenmoonwhenlambo.money/"
+        },
+        {
+            "provider": "Bluzelle",
+            "url": "https://b.client.sentry.net.bluzelle.com:1317/"
+        },
+        {
+            "provider": "Bluzelle",
+            "url": "https://a.client.sentry.net.bluzelle.com:1317/"
+        }
+    ],
+    "explorer" : {
+        "name": "Ping.pub",
+        "url": "https://explorer.tcnetwork.io/bluzelle/",
+        "account": "https://explorer.tcnetwork.io/bluzelle/account/${address}",
+        "tx": "https://explorer.tcnetwork.io/bluzelle/transaction/${hash}",
+        "proposal": "https://explorer.tcnetwork.io/bluzelle/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://bluzelle.com/",
+        "docs": "",
+        "github" : "https://github.com/bluzelle",
+        "blog" : "",
+        "medium": "",
+        "twitter" : "https://x.com/BluzelleHQ",
+        "coingecko" : "https://www.coingecko.com/en/coins/bluzelle"
+    },
+    "description" : {
+        "ko" : "Bluzelle은 분산형 데이터 저장 및 관리에 특화된 Cosmos 기반 블록체인으로, Web3 및 게임 애플리케이션을 위한 탈중앙화 데이터베이스 서비스를 제공합니다.",
+        "en" : "Bluzelle is a Cosmos-based blockchain focused on decentralized data storage and management, designed for Web3 and gaming applications.",
+        "ja" : "Bluzelleは、Web3やゲームアプリケーション向けに分散型データの保存と管理に特化したCosmosベースのブロックチェーンです。"
+    }
+}
