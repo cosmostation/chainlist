@@ -49,8 +49,12 @@
     ],
     "lcd_endpoint" : [
         {
+            "provider": "Cosmos Dirctory",
+            "url": "https://rest.cosmos.directory/gitopia/"
+        },
+        {
             "provider": "Polkachu",
-            "url": "https://gitopia-api.polkachu.com:443/"
+            "url": "https://gitopia-api.polkachu.com/"
         },
         {
             "provider": "Staketab",
@@ -61,8 +65,8 @@
             "url": "https://m-gitopia.api.utsa.tech/"
         },
         {
-            "provider": "Stavr",
-            "url": "https://a.client.sentry.net.bluzelle.com:1317/"
+            "provider": "LiveRaveN",
+            "url": "https://gitopia.api.liveraven.net/"
         }
     ],
     "explorer" : {
