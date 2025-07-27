@@ -1,0 +1,89 @@
+{
+    "chain_id_cosmos" : "gitopia",
+    "chain_name": "Gitopia",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gitopia/resource/chain_gitopia.png",
+    "staking_asset_denom" : "ulore",
+    "staking_asset_symbol" : "LORE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gitopia/asset/lore.png",
+    "bech_account_prefix" : "gitopia",
+    "bech_validator_prefix" : "gitopiavaloper",
+    "origin_genesis_time" : "2023-05-17T17:05:17Z",
+    "api_name" : "gitopia",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.0012ulore",
+            "0.0016ulore",
+            "0.0024ulore"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Lavenderfive",
+            "url": "gitopia.lavenderfive.com:443 "
+        },
+        {
+            "provider": "Liveraven",
+            "url": "gitopia.grpc.liveraven.net:443"
+        },
+        {
+            "provider": "Mzonder",
+            "url": "grpc-gitopia.mzonder.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Polkachu",
+            "url": "https://gitopia-api.polkachu.com:443/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://gitopia-rest.staketab.org/"
+        },
+        {
+            "provider": "Utsa",
+            "url": "https://m-gitopia.api.utsa.tech/"
+        },
+        {
+            "provider": "Stavr",
+            "url": "https://a.client.sentry.net.bluzelle.com:1317/"
+        }
+    ],
+    "explorer" : {
+        "name": "Decloud Nodes Lab",
+        "url": "https://explorer.declab.pro/Gitopia",
+        "account": "https://explorer.declab.pro/Gitopia/account/${address}",
+        "tx": "https://explorer.declab.pro/Gitopia/tx/${hash}",
+        "proposal": "https://explorer.declab.pro/Gitopia/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://gitopia.com/",
+        "docs": "https://docs.gitopia.com/",
+        "github" : "https://github.com/gitopia/",
+        "blog" : "",
+        "medium": "",
+        "twitter" : "https://x.com/gitopiaDAO",
+        "coingecko" : "https://www.coingecko.com/en/coins/gitopia"
+    },
+    "description" : {
+        "ko" : "Gitopia는 탈중앙화된 네트워크와 상호작용하는 토큰 이코노미를 기반으로 하는 차세대 코드 협업 플랫폼입니다. 협업, 투명성, 보상 체계를 통해 오픈소스 소프트웨어 개발 과정을 최적화하도록 설계되었습니다.",
+        "en" : "Gitopia is the next-generation Code Collaboration Platform fuelled by a decentralized network and interactive token economy. It is designed to optimize the open-source software development process through collaboration, transparency, and incentivization.",
+        "ja" : "Gitopiaは、分散型ネットワークとインタラクティブなトークンエコノミーによって支えられた次世代のコードコラボレーションプラットフォームです。コラボレーション、透明性、インセンティブを通じて、オープンソースソフトウェア開発のプロセスを最適化するよう設計されています。"
+    }
+}
