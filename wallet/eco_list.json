@@ -2940,5 +2940,160 @@
             "github": "https://github.com/QuickSwap"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 172,
+        "name": "Polymarket",
+        "description": "Polymarket is a decentralized prediction market platform where users can trade on the outcome of real-world events using USDC. It operates on Polygon, enabling fast and low-cost transactions for forecasting events in politics, sports, crypto, and more.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/polymarket.png",
+        "link": "https://polymarket.com/",
+        "chains": [
+            "polygon"
+        ],
+        "socials": {
+            "twitter": "https://x.com/Polymarket",
+            "discord": "https://discord.com/invite/Polymarket"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 173,
+        "name": "PWN",
+        "description": "PWN is a permissionless, peer‑to‑peer (P2P) DeFi lending protocol that allows users to borrow or lend with any on‑chain asset as collateral—including NFTs and ERC‑20 tokens—while offering fully customizable, fixed‑rate loans.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pwn.png",
+        "link": "https://app.pwn.xyz/featured-strategy/all",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/pwndao",
+            "twitter": "https://x.com/pwndao",
+            "discord": "https://discord.com/invite/aWghBQSdHv"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 174,
+        "name": "Enzyme",
+        "description": "Enzyme Finance is a decentralized asset management platform built on Ethereum and Polygon. Its Discover page showcases live vaults with customizable strategies where users can explore performance, invest via ETH or MATIC, and track metrics before committing",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/enzyme.png",
+        "link": "https://app.enzyme.finance/discover",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "polygon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/+nLYr_ITGTzVhOGFl",
+            "twitter": "https://x.com/enzymefinance",
+            "discord": "https://discord.com/invite/MTS6Vzhy67"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 175,
+        "name": "Bean",
+        "description": "Beans App (Bean.money) is a non‑custodial digital wallet built on the Stellar blockchain that enables instant, fee‑free international transfers and currency conversion at competitive rates",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/bean.png",
+        "link": "https://app.bean.money/",
+        "chains": [
+            "ethereum",
+            "arbitrum"
+        ],
+        "socials": {
+            "github": "https://github.com/BeanstalkFarms/Beanstalk",
+            "twitter": "https://x.com/beanstalkmoney",
+            "discord": "https://discord.com/invite/beanstalk"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 176,
+        "name": "Abracadabra",
+        "description": "Abracadabra.Money is a cross-chain DeFi lending platform where users can collateralize interest-bearing tokens (ibTKNs) to mint Magic Internet Money (MIM), a USD-pegged stablecoin.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/abracadabra.png",
+        "link": "https://app.abracadabra.money/#/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "kava",
+            "optimism",
+            "polygon",
+        ],
+        "socials": {
+            "github": "https://github.com/Abracadabra-money",
+            "twitter": "https://x.com/MIM_Spell",
+            "discord": "https://discord.com/invite/mim"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 177,
+        "name": "Angle",
+        "description": "Angle Protocol is a decentralized, over‑collateralized stablecoin system offering USDA and EURA, backed by assets like USDC, DAI, and more, designed for capital efficiency and high liquidity.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/angle.png",
+        "link": "https://app.angle.money/savings/usd",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon",
+        ],
+        "socials": {
+            "github": "https://github.com/AngleProtocol/",
+            "twitter": "https://x.com/AngleProtocol",
+            "discord": "https://discord.com/invite/5Af6xum9bc"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 178,
+        "name": "Gearbox",
+        "description": "Gearbox improves capital efficiency by providing users access to leverage on any protocol.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/gearbox.png",
+        "link": "https://app.gearbox.fi/dashboard",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "github": "https://github.com/Gearbox-protocol",
+            "twitter": "https://x.com/GearboxProtocol",
+            "telegram": "https://t.me/GearboxProtocol",
+            "discord": "https://discord.com/invite/gearbox"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 179,
+        "name": "Thetanuts Finance",
+        "description": "Thetanuts, a DeFi protocol, helps users gain sustainable yield through various options strategies.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/thetanuts.png",
+        "link": "https://app.thetanuts.finance/Vaults",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "bnb-smart-chain",
+            "fantom",
+            "polygon",
+        ],
+        "socials": {
+            "twitter": "https://x.com/ThetanutsFi",
+            "discord": "https://discord.com/invite/fzWKJSy9v9"
+        },
+        "type": "DeFi"
     }
 ]
