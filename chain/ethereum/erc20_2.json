@@ -4302,6 +4302,16 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xar.png",
         "coinGeckoId": "arcana-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc96de26018a54d51c097160568752c4e3bd6c364",
+        "name": "Fire BTC",
+        "symbol": "FBTC",
+        "description": "Fire BTC",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/firebtc.png",
+        "coinGeckoId": ""
     }
 ]
 

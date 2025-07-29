@@ -1019,5 +1019,25 @@
                 "denom": "0x5027Fc44a7Ba114B8f494B1e4970900C6652FEDF"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4BF663827C42B515CECB5A6CC8439DB10B1FE5C89C729893B883CFA7B9C5B279",
+        "name": "Fire BTC",
+        "symbol": "FBTC",
+        "description": "Fire BTC",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/firebtc.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0xc96de26018a54d51c097160568752c4e3bd6c364"
+            }
+        }
     }
 ]
