@@ -979,5 +979,25 @@
                 "denom": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2F93448AC268FC45F3ED7D63DF31D9A8BF125F00B42230B2752E22D7B1BB596A9D",
+        "name": "Chain Link",
+        "symbol": "LINK",
+        "description": "Link via Eureka",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
+        "coinGeckoId": "chainlink",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
+            }
+        }
     }
 ]
