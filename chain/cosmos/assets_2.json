@@ -999,5 +999,25 @@
                 "denom": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/1C26D4A0B00729D9E311503FAC7ED65E84C8B4CC74F01D8816F1F3D9811E8B62",
+        "name": "Arcana Network",
+        "symbol": "XAR",
+        "description": "Arcana Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xar.png",
+        "coinGeckoId": "arcana-token",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x5027Fc44a7Ba114B8f494B1e4970900C6652FEDF"
+            }
+        }
     }
 ]

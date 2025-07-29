@@ -4292,5 +4292,18 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ondo.png",
         "coinGeckoId": "ondo-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5027Fc44a7Ba114B8f494B1e4970900C6652FEDF",
+        "name": "Arcana Network",
+        "symbol": "XAR",
+        "description": "Arcana Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xar.png",
+        "coinGeckoId": "arcana-token"
     }
 ]
+
+
+ 
