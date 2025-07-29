@@ -10,7 +10,7 @@
     "origin_genesis_time" : "2021-12-08T16:49:25Z",
     "api_name" : "bluzelle",
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : false,
+    "is_support_extension_wallet" : true,
     "chain_type": [
         "cosmos"
     ],
