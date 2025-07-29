@@ -14,15 +14,25 @@
         "denom": "ueden",
         "name" : "Eden",
         "symbol": "EDEN",
-        "description": "",
+        "description": "Eden token definition",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden.png",
         "coinGeckoId": ""
     },
     {
+        "type": "native",
+        "denom": "uedenb",
+        "name" : "Eden BOOST",
+        "symbol": "EDEN BOOST",
+        "description": "Eden BOOST token definition",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png",
+        "coinGeckoId": ""
+    },
+    {
         "type": "ibc",
         "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
-        "name": "Cosmos Hub",
+        "name": "Atom",
         "symbol": "ATOM",
         "description": "The native staking and governance token of the Cosmos Hub.",
         "decimals": 6,
@@ -40,6 +50,170 @@
                 "port": "transfer",
                 "chain": "cosmos",
                 "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info": {
+            "path": "noble>elys",
+            "client": {
+                "channel": "channel-2",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-117",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9463E39D230614B313B487836D13A392BD1731928713D4C8427A083627048DB3",
+        "name": "Axelar",
+        "symbol": "AXL",
+        "description": "The native token of Axelar",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
+        "coinGeckoId": "axelar",
+        "ibc_info": {
+            "path": "axelar>elys",
+            "client": {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-163",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "uaxl"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/799FDD409719A1122586A629AE8FCA17380351A51C1F47A80A1B8E7F2A491098",
+        "name": "Akash",
+        "symbol": "AKT",
+        "description": "Akash Token (AKT) is the Akash Network's native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
+        "color": "#bc342c",
+        "coinGeckoId": "akash-network",
+        "ibc_info": {
+            "path": "akash>elys",
+            "client": {
+                "channel": "channel-5",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-129",
+                "port": "transfer",
+                "chain": "akash",
+                "denom": "uakt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/45D6B52CAD911A15BD9C2F5FFDA80E26AFCB05C7CD520070790ABC86D2B24229",
+        "name": "Celestia",
+        "symbol": "TIA",
+        "description": "The native token of the Celestia blockchain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
+        "color": "#7c2cfb",
+        "coinGeckoId": "celestia",
+        "ibc_info": {
+            "path": "celestia>elys",
+            "client": {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-50",
+                "port": "transfer",
+                "chain": "celestia",
+                "denom": "utia"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A",
+        "name": "xion",
+        "symbol": "XION",
+        "description": "XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/asset/xion.png",
+        "coinGeckoId": "xion-2",
+        "ibc_info": {
+            "path": "xion>elys",
+            "client": {
+                "channel": "channel-8",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-9",
+                "port": "transfer",
+                "chain": "xion",
+                "denom": "uxion"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B88C39AD6C8550716DFD64C3AD28F355633554821249AC9F8BCC21341641CD18",
+        "name": "Saga",
+        "symbol": "SAGA",
+        "description": "The native staking and governance token of Saga.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saga/asset/saga.png",
+        "color": "#FFFFFF",
+        "coinGeckoId": "saga-2",
+        "ibc_info": {
+            "path": "saga>elys",
+            "client": {
+                "channel": "channel-9",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-35",
+                "port": "transfer",
+                "chain": "saga",
+                "denom": "usaga"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421",
+        "name" : "XRP on EVM Sidechain",
+        "symbol": "XRP",
+        "description": "XRPL EVM Sidechain Native Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm/asset/xrp.png",
+        "coinGeckoId": "ripple",
+        "ibc_info": {
+            "path": "xrplevm>elys",
+            "client": {
+                "channel": "channel-27",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "xrplevm",
+                "denom": "axrp"
             }
         }
     }
