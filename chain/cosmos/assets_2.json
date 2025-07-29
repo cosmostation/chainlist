@@ -959,5 +959,25 @@
                 "denom": "0x45804880de22913dafe09f4980848ece6ecbaf78"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2FD0E789BB93334EB38AD6F710812A186CC209025E49FA68BEABBA5D00C4A8CBC4",
+        "name": "Ondo",
+        "symbol": "ONDO",
+        "description": "Ondo via Eureka",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ondo.png",
+        "coinGeckoId": "ondo-finance",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3"
+            }
+        }
     }
 ]
