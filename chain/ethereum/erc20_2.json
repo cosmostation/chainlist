@@ -4282,5 +4282,15 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pumpBTC.png",
         "coinGeckoId": "pumpbtc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+        "name": "Ondo",
+        "symbol": "ONDO",
+        "description": "Ondo finance token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ondo.png",
+        "coinGeckoId": "ondo-finance"
     }
 ]

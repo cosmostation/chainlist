@@ -797,5 +797,15 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/lava.svg",
         "coinGeckoId": "lava-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA2d52A05B8Bead5d824DF54Dd1AA63188B37A5E7",
+        "name": "Ondo",
+        "symbol": "ONDO",
+        "description": "Ondo finance token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ondo.png",
+        "coinGeckoId": "ondo-finance"
     }
 ]
