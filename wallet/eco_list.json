@@ -3035,7 +3035,7 @@
             "twitter": "https://x.com/MIM_Spell",
             "discord": "https://discord.com/invite/mim"
         },
-        "type": "DeFi"
+        "type": "DEX"
     },
     {
         "id": 177,
@@ -3093,6 +3093,101 @@
         "socials": {
             "twitter": "https://x.com/ThetanutsFi",
             "discord": "https://discord.com/invite/fzWKJSy9v9"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 180,
+        "name": "Alchemix",
+        "description": "Alchemix allows users to take out self-paying loans after depositing cryptocurrency as collateral.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/alchemix.png",
+        "link": "https://alchemix.fi/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "fantom",
+            "optimism"
+        ],
+        "socials": {
+            "github": "https://github.com/alchemix-finance",
+            "twitter": "https://x.com/AlchemixFi",
+            "discord": "https://discord.com/invite/alchemix"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 181,
+        "name": "Rage Trade",
+        "description": "Rage is a liquidity and treasury management protocol.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/rage.png",
+        "link": "https://www.app.rage.trade/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "optimism",
+            "polygon",
+            "story"
+        ],
+        "socials": {
+            "github": "https://github.com/RageTrade",
+            "twitter": "https://x.com/rage_trade",
+            "discord": "https://discord.com/invite/88xj8vPwGe"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 182,
+        "name": "Hegic",
+        "description": "Hegic is an on-chain peer-to-pool options trading protocol on Arbitrum.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/hegic.png",
+        "link": "https://www.hegic.co/app#/arbitrum/trade/new",
+        "chains": [
+            "ethereum",
+            "arbitrum"
+        ],
+        "socials": {
+            "github": "https://github.com/hegic",
+            "twitter": "https://x.com/HegicOptions",
+            "discord": "https://discord.com/invite/hegic"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 183,
+        "name": "Goldfinch",
+        "description": "Lend USDC for real yield, from real businesses. Really.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/goldfinch.png",
+        "link": "https://prime.goldfinch.finance/",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "github": "https://github.com/goldfinch-eng",
+            "twitter": "https://x.com/goldfinch_fi",
+            "discord": "https://discord.com/invite/HVeaca3fN8"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 184,
+        "name": "Flooz",
+        "description": "Flooz is a blockchain analytics platform that helps you invest with confidence.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/flooz.png",
+        "link": "https://flooz.xyz/discover",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "twitter": "https://x.com/flooz_xyz",
+            "telegram": "https://t.me/+SXOddOkIfZcyMWVk"
         },
         "type": "DeFi"
     }
