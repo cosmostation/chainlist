@@ -138,7 +138,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/SolvBTC.png",
         "coinGeckoId": "solv-btc",
         "ibc_info": {
-            "path": "cosmos>babylon",
+            "path": "ethereum>cosmos>babylon",
             "client": {
                 "channel": "channel-0",
                 "port": "transfer"
