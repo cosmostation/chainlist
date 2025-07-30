@@ -127,5 +127,28 @@
                 "denom": "uusdn"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2CC08A10459B40B0251B8CB9C036C98BED1ABBD5F03772E371DCD0FFDA3EC7F3",
+        "name": "SolvBTC",
+        "symbol": "SolvBTC",
+        "description": "SolvBTC is a universal Bitcoin reserve",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/SolvBTC.png",
+        "coinGeckoId": "solv-btc",
+        "ibc_info": {
+            "path": "cosmos>babylon",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1341",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/0C4417F123459B47B6933939BF6F128C362B0C1F9EDA6A6EBC08860E4672AF7E"
+            }
+        }
     }
 ]

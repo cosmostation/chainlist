@@ -1005,7 +1005,7 @@
         "denom": "ibc/1C26D4A0B00729D9E311503FAC7ED65E84C8B4CC74F01D8816F1F3D9811E8B62",
         "name": "Arcana Network",
         "symbol": "XAR",
-        "description": "Arcana Network",
+        "description": "Arcana Network via Eureka",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xar.png",
         "coinGeckoId": "arcana-token",
@@ -1025,7 +1025,7 @@
         "denom": "ibc/4BF663827C42B515CECB5A6CC8439DB10B1FE5C89C729893B883CFA7B9C5B279",
         "name": "Fire BTC",
         "symbol": "FBTC",
-        "description": "Fire BTC",
+        "description": "Fire BTC via Eureka",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/firebtc.png",
         "coinGeckoId": "",
@@ -1037,6 +1037,26 @@
                 "port": "transfer",
                 "chain": "ethereum",
                 "denom": "0xc96de26018a54d51c097160568752c4e3bd6c364"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0C4417F123459B47B6933939BF6F128C362B0C1F9EDA6A6EBC08860E4672AF7E",
+        "name": "SolvBTC",
+        "symbol": "SolvBTC",
+        "description": "SolvBTC is a universal Bitcoin reserve via Eureka",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/SolvBTC.png",
+        "coinGeckoId": "solv-btc",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x7a56e1c57c7475ccf742a1832b028f0456652f97"
             }
         }
     }

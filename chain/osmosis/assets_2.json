@@ -4265,7 +4265,7 @@
         "symbol": "BLZ",
         "description": "The native token of Bluzelle",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/bluzelle.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bluzelle/asset/blz.png",
         "color": "#708ffc",
         "coinGeckoId": "bluzelle",
         "ibc_info": {
@@ -4480,7 +4480,7 @@
         "symbol": "LORE",
         "description": "The native token of Gitopia",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gitopia/images/lore.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gitopia/asset/lore.png",
         "color": "#2c173c",
         "coinGeckoId": "gitopia",
         "ibc_info": {
@@ -10971,5 +10971,28 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/eBABY.svg",
         "color": "#0008FF",
         "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2CC08A10459B40B0251B8CB9C036C98BED1ABBD5F03772E371DCD0FFDA3EC7F3",
+        "name": "SolvBTC",
+        "symbol": "SolvBTC",
+        "description": "SolvBTC is a universal Bitcoin reserve",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/SolvBTC.png",
+        "coinGeckoId": "solv-btc",
+        "ibc_info": {
+            "path": "cosmos>osmosis",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-141",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/0C4417F123459B47B6933939BF6F128C362B0C1F9EDA6A6EBC08860E4672AF7E"
+            }
+        }
     }
 ]
