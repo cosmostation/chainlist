@@ -35,19 +35,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-lava.cosmostation.io:443"
-        },
-        {
             "provider": "🔥STAVR🔥",
             "url": "lava.grpc.m.stavr.tech:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-lava.cosmostation.io/"
-        },
         {
             "provider": "w3coins",
             "url": "https://lava-api.w3coins.io/"

@@ -34,19 +34,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-likecoin.cosmostation.io:443"
-        },
-        {
             "provider": "PikaSer",
             "url": "grpc-likecoin-mainnet.pikaser.net:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-likecoin.cosmostation.io/"
-        },
         {
             "provider": "like.co",
             "url": "https://mainnet-node.like.co/"

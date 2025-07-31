@@ -34,10 +34,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-ki-chain.cosmostation.io:443"
-        },
-        {
             "provider": "Notional",
             "url": "grpc-kichain-ia.cosmosia.notional.ventures:443"
         },
@@ -47,10 +43,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-ki-chain.cosmostation.io/"
-        },
         {
             "provider": "kifoundation",
             "url": "https://api-mainnet.blockchain.ki/"

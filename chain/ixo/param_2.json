@@ -33,10 +33,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-ixo.cosmostation.io:443"
-        },
-        {
             "provider": "Notional",
             "url": "grpc-ixo-ia.cosmosia.notional.ventures:443"
         },
@@ -46,10 +42,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-ixo.cosmostation.io/"
-        },
         {
             "provider": "ixoworld",
             "url": "https://impacthub.ixo.world/rest/"

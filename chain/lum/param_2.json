@@ -39,10 +39,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-lum.cosmostation.io:443"
-        },
-        {
             "provider": "StakerHouse",
             "url": "lum-grpc.stakerhouse.com:443"
         },
@@ -52,10 +48,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-lum.cosmostation.io/"
-        },
         {
             "provider": "Lum Foundation",
             "url": "https://rest.node0.mainnet.lum.network/"
