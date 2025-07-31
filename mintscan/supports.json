@@ -75,16 +75,6 @@
         "lcd": "https://lcd-dydx.cosmostation.io/"
     },
     {
-        "chain": "dymension",
-        "chain_id": "dymension_1100-1",
-        "lcd": "https://lcd-dymension.cosmostation.io/"
-    },
-    {
-        "chain": "evmos",
-        "chain_id": "evmos_9001-2",
-        "lcd": "https://lcd-evmos.cosmostation.io/"
-    },
-    {
         "chain": "finschia",
         "chain_id": "finschia-2",
         "lcd": "https://lcd-finschia.cosmostation.io/"
@@ -103,11 +93,6 @@
         "chain": "injective",
         "chain_id": "injective-1",
         "lcd": "https://lcd-injective.cosmostation.io/"
-    },
-    {
-        "chain": "iris",
-        "chain_id": "irishub-1",
-        "lcd": "https://lcd-iris.cosmostation.io/"
     },
     {
         "chain": "kava",
@@ -150,11 +135,6 @@
         "lcd": "https://lcd-noble.cosmostation.io/"
     },
     {
-        "chain": "omniflix",
-        "chain_id": "omniflixhub-1",
-        "lcd": "https://lcd-omniflix.cosmostation.io/"
-    },
-    {
         "chain": "osmosis",
         "chain_id": "osmosis-1",
         "lcd": "https://lcd-osmosis.cosmostation.io/"
@@ -188,11 +168,6 @@
         "chain": "selfchain",
         "chain_id": "self-1",
         "lcd": "https://lcd-selfchain.cosmostation.io/"
-    },
-    {
-        "chain": "sentinel",
-        "chain_id": "sentinelhub-2",
-        "lcd": "https://lcd-sentinel.cosmostation.io/"
     },
     {
         "chain": "shentu",
