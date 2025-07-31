@@ -2774,29 +2774,6 @@
         "type": "DeFi"
     },
     {
-        "id": 163,
-        "name": "Kyber",
-        "description": "KyberSwap is a non‑custodial, multi‑chain DEX aggregator that sources liquidity from 70+ exchanges across 14 EVM chains to deliver optimized swap rates and low slippage",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kyber.png",
-        "link": "https://kyberswap.com/",
-        "chains": [
-            "ethereum",
-            "arbitrum",
-            "avalanche",
-            "base",
-            "berachain",
-            "bnb-smart-chain",
-            "optimism",
-            "polygon"
-        ],
-        "socials": {
-            "telegram": "https://t.me/kybernetwork",
-            "twitter": "https://x.com/KyberNetwork",
-            "discord": "https://discord.com/invite/kyberswap"
-        },
-        "type": "DeFi"
-    },
-    {
         "id": 164,
         "name": "Velora",
         "description": "Velora is a cross-chain DeFi trading platform that aggregates liquidity across 160+ sources. It supports fast swaps, limit orders, and advanced strategies with MEV protection.",
@@ -3188,6 +3165,29 @@
         "socials": {
             "twitter": "https://x.com/flooz_xyz",
             "telegram": "https://t.me/+SXOddOkIfZcyMWVk"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 185,
+        "name": "Kyber",
+        "description": "KyberSwap is a non‑custodial, multi‑chain DEX aggregator that sources liquidity from 70+ exchanges across 14 EVM chains to deliver optimized swap rates and low slippage",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kyber.png",
+        "link": "https://kyberswap.com/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/kybernetwork",
+            "twitter": "https://x.com/KyberNetwork",
+            "discord": "https://discord.com/invite/kyberswap"
         },
         "type": "DeFi"
     }
