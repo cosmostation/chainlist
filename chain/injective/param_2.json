@@ -1,5 +1,6 @@
 {
     "chain_id_cosmos" : "injective-1",
+    "chain_id_evm" : "0x6F0",
     "chain_name": "Injective",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/resource/chain_injective.png",
     "staking_asset_denom" : "inj",
@@ -14,9 +15,11 @@
     "is_support_moblie_dapp" : true,
     "is_support_extension_wallet": true,
     "is_support_cw20" : true,
+    "is_support_erc20" : true,
     "tx_timeout_padding" : 100,
     "chain_type": [
-        "cosmos"
+        "cosmos",
+        "evm"
     ],
     "account_type" : [
         {
@@ -34,6 +37,14 @@
         "simulated_gas_multiply" : 1.2,
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": false,
+        "simulated_gas_multiply" : 1.2
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : ""
     },
     "grpc_endpoint" : [
         {
@@ -77,6 +88,12 @@
         {
             "provider": "Ecostake",
             "url": "https://rest-injective.ecostake.com/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc.evm.injective.mainnet.cosmostation.io"
         }
     ],
     "explorer" : {
