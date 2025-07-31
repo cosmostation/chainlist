@@ -73,11 +73,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/sentinel/",
-        "account": "https://www.mintscan.io/sentinel/address/${address}",
-        "tx": "https://www.mintscan.io/sentinel/tx/${hash}",
-        "proposal": "https://www.mintscan.io/sentinel/proposals/${id}"
+        "name": "AtomScan",
+        "url": "https://atomscan.com/sentinel",
+        "account": "https://atomscan.com/sentinel/accounts/${address}",
+        "tx": "https://atomscan.com/sentinel/transactions/${hash}",
+        "proposal": "https://atomscan.com/sentinel/votes/${id}"
     },
     "about" : {
         "website" : "https://sentinel.co/",

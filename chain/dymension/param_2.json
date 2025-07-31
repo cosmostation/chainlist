@@ -101,11 +101,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/dymension/",
-        "account": "https://www.mintscan.io/dymension/address/${address}",
-        "tx": "https://www.mintscan.io/dymension/tx/${hash}",
-        "proposal": "https://www.mintscan.io/dymension/proposals/${id}"
+        "name": "Dym.Fyi",
+        "url": "https://dym.fyi/",
+        "account": "https://dym.fyi/address/${address}",
+        "tx": "https://dym.fyi/tx/${hash}",
+        "proposal": "https://dym.fyi/proposal/${id}"
     },
     "about" : {
         "website" : "https://dymension.xyz/",

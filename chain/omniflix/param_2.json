@@ -76,11 +76,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/omniflix/",
-        "account": "https://www.mintscan.io/omniflix/address/${address}",
-        "tx": "https://www.mintscan.io/omniflix/tx/${hash}",
-        "proposal": "https://www.mintscan.io/omniflix/proposals/${id}"
+        "name": "Explorers Guru",
+        "url": "https://omniflix.explorers.guru/",
+        "account": "https://omniflix.explorers.guru/account/${address}",
+        "tx": "https://omniflix.explorers.guru/transaction/${hash}",
+        "proposal": "https://omniflix.explorers.guru/proposal/${id}"
     },
     "about" : {
         "website" : "https://www.omniflix.network/",

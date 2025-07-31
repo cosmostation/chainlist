@@ -63,11 +63,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/iris/",
-        "account": "https://www.mintscan.io/iris/address/${address}",
-        "tx": "https://www.mintscan.io/iris/tx/${hash}",
-        "proposal": "https://www.mintscan.io/iris/proposals/${id}"
+        "name": "IrisHub",
+        "url": "https://irishub.iobscan.io/#/home",
+        "account": "https://irishub.iobscan.io/#/address/${address}",
+        "tx": "https://irishub.iobscan.io/#/txs/${hash}",
+        "proposal": "https://irishub.iobscan.io/#/gov/proposals/${id}"
     },
     "about" : {
         "website" : "https://www.irisnet.org/en/",
