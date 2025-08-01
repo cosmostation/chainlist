@@ -82,7 +82,7 @@
         "type": "ibc",
         "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
         "name": "Axelar Bridged USDC",
-        "symbol": "AXLUSDC",
+        "symbol": "USDC.axl",
         "description": "IBC Axelar uusdc through axelar-dojo-1 transfer/channel-2",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
