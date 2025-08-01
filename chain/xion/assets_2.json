@@ -127,11 +127,11 @@
     {
         "type": "ibc",
         "denom": "ibc/AAD7136DD626569C3DDE7C5F764968BB2E939875EFC568AE5712B62081850814",
-        "name": "Axelar Wrapped Ether",
-        "symbol": "axlWETH",
+        "name": "Wrapped Ether",
+        "symbol": "WETH.axl",
         "description": "Arbitrum from Axelar",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arbitrum/asset/arb.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
         "coinGeckoId": "axlweth",
         "ibc_info": {
             "path": "axelar>xion",
@@ -144,6 +144,29 @@
                 "port": "transfer",
                 "chain": "axelar",
                 "denom": "weth-wei"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E706A0C6CACB374ADC2BCF6A74FE1B260840FC822E45DCB776DEA962A57FED30",
+        "name": "Arbitrum",
+        "symbol": "ARB.axl",
+        "description": "Arbitrum from Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/arbitrum/asset/arb.png",
+        "coinGeckoId": "arbitrum",
+        "ibc_info": {
+            "path": "axelar>xion",
+            "client": {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-161",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "arb-wei"
             }
         }
     },
