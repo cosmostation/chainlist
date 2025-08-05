@@ -1,2 +1,22 @@
 [
+    {
+        "type": "erc20",
+        "contract": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
+        "name": "WSEI",
+        "symbol": "WSEI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seu/images/sei.png",
+        "coinGeckoId": "wrapped-sei"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5Cf6826140C1C56Ff49C808A1A75407Cd1DF9423",
+        "name": "iSEI",
+        "symbol": "iSEI",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/isei.png",
+        "coinGeckoId": ""
+    }
 ]
