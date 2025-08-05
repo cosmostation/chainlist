@@ -1,5 +1,6 @@
 {
     "chain_id_cosmos" : "pacific-1",
+    "chain_id_evm" : "0x531,
     "chain_name": "Sei",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/resource/chain_sei.png",
     "staking_asset_denom" : "usei",
@@ -13,6 +14,7 @@
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "is_support_cw20" : true,
+    "is_support_erc20" : true,
     "tx_timeout_padding" : 100,
     "chain_type": [
         "cosmos"
@@ -34,6 +36,14 @@
         "simulated_gas_multiply" : 1.3,
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": false,
+        "simulated_gas_multiply" : 1.2
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : ""
     },
     "grpc_endpoint" : [
         {
@@ -73,6 +83,24 @@
         {
             "provider": "kjnodes",
             "url": "https://sei.api.kjnodes.com/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "RHINO",
+            "url": "https://evm-rpc.sei-apis.com"
+        },
+        {
+            "provider": "dRPC - All chains in one place",
+            "url": "https://sei.drpc.org"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://seievm-rpc.polkachu.com"
+        },
+        {
+            "provider": "Lavender.Five Nodes",
+            "url": "https://jsonrpc.lavenderfive.com:443/sei"
         }
     ],
     "explorer" : {
