@@ -18,8 +18,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
-        "coinGeckoId": "tether-avalanche-bridged-usdt-e",
-        "wallet_preload": true
+        "coinGeckoId": "tether-avalanche-bridged-usdt-e"
     },
     {
         "type": "erc20",
@@ -29,8 +28,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/savax.png",
-        "coinGeckoId": "benqi-liquid-staked-avax",
-        "wallet_preload": true
+        "coinGeckoId": "benqi-liquid-staked-avax"
     },
     {
         "type": "erc20",
@@ -40,8 +38,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/joe.png",
-        "coinGeckoId": "joe",
-        "wallet_preload": true
+        "coinGeckoId": "joe"
     },
     {
         "type": "erc20",
@@ -51,8 +48,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/wavax.png",
-        "coinGeckoId": "wrapped-avax",
-        "wallet_preload": true
+        "coinGeckoId": "wrapped-avax"
     },
     {
         "type": "erc20",
@@ -73,8 +69,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
-        "coinGeckoId": "usd-coin-avalanche-bridged-usdc-e",
-        "wallet_preload": true
+        "coinGeckoId": "usd-coin-avalanche-bridged-usdc-e"
     },
     {
         "type": "erc20",
@@ -84,8 +79,7 @@
         "description": "",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/btcb.png",
-        "coinGeckoId": "bitcoin-avalanche-bridged-btc-b",
-        "wallet_preload": true
+        "coinGeckoId": "bitcoin-avalanche-bridged-btc-b"
     },
     {
         "type": "erc20",
@@ -95,8 +89,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
-        "coinGeckoId": "weth",
-        "wallet_preload": true
+        "coinGeckoId": "weth"
     },
     {
         "type": "erc20",

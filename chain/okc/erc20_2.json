@@ -28,7 +28,8 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
-        "coinGeckoId": "tether"
+        "coinGeckoId": "tether",
+        "wallet_preload": true
     },
     {
         "type": "erc20",
@@ -38,7 +39,8 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
-        "coinGeckoId": "usd-coin"
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
     },
     {
         "type": "erc20",

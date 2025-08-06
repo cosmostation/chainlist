@@ -40,8 +40,7 @@
         "description": "Wrapped Ether (WETH)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/weth.png",
-        "coinGeckoId": "",
-        "wallet_preload": true
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -51,8 +50,7 @@
         "description": "Wrapped Bera (WBERA)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/wbera.png",
-        "coinGeckoId": "",
-        "wallet_preload": true
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -62,8 +60,7 @@
         "description": "Wrapped Bitcoin (WBTC)",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/wbtc.png",
-        "coinGeckoId": "",
-        "wallet_preload": true
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -73,8 +70,7 @@
         "description": "NECTAR (NECT)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/XXXXXXXXXXXXXXX.png",
-        "coinGeckoId": "",
-        "wallet_preload": true
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -84,8 +80,7 @@
         "description": "Liquid Staked Nectar (sNECT)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/snect.png",
-        "coinGeckoId": "",
-        "wallet_preload": true
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -95,8 +90,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/buds.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -106,8 +100,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/wehoney.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -117,8 +110,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/paw.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -128,8 +120,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/lbgt.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -139,8 +130,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/yeet.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -150,8 +140,7 @@
         "description": "Tether USD",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/usdt.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -161,8 +150,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/dai.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -172,8 +160,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/thpot.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -183,8 +170,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/jnky.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -194,8 +180,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/zeru.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -205,8 +190,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/burr.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -216,8 +200,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/nome.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -227,8 +210,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/usdbr.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   },
   {
         "type": "erc20",
@@ -238,7 +220,6 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain-testnet/asset/suusd.png",
-        "coinGeckoId": "",
-        "wallet_preload": false
+        "coinGeckoId": ""
   }
 ]

@@ -18,8 +18,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
-        "coinGeckoId": "weth",
-        "wallet_preload": true
+        "coinGeckoId": "weth"
     },
     {
         "type": "erc20",
@@ -40,8 +39,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/bnb.png",
-        "coinGeckoId": "binancecoin",
-        "wallet_preload": true
+        "coinGeckoId": "binancecoin"
     },
     {
         "type": "erc20",
@@ -51,8 +49,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/busd.png",
-        "coinGeckoId": "binance-usd",
-        "wallet_preload": true
+        "coinGeckoId": "binance-usd"
     },
     {
         "type": "erc20",
@@ -62,8 +59,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/avax.png",
-        "coinGeckoId": "avalanche-2",
-        "wallet_preload": true
+        "coinGeckoId": "avalanche-2"
     },
     {
         "type": "erc20",
@@ -84,8 +80,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
-        "coinGeckoId": "usd-coin",
-        "wallet_preload": true
+        "coinGeckoId": "usd-coin"
     },
     {
         "type": "erc20",
@@ -95,8 +90,7 @@
         "description": "",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
-        "coinGeckoId": "wrapped-bitcoin",
-        "wallet_preload": true
+        "coinGeckoId": "wrapped-bitcoin"
     },
     {
         "type": "erc20",
@@ -106,8 +100,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ldo.png",
-        "coinGeckoId": "lido-dao",
-        "wallet_preload": true
+        "coinGeckoId": "lido-dao"
     },
     {
         "type": "erc20",

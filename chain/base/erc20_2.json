@@ -7,8 +7,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
-        "coinGeckoId": "weth",
-        "wallet_preload": true
+        "coinGeckoId": "weth"
     },
     {
         "type": "erc20",
@@ -29,8 +28,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/usdbc.png",
-        "coinGeckoId": "bridged-usd-coin-base",
-        "wallet_preload": true
+        "coinGeckoId": "bridged-usd-coin-base"
     },
     {
         "type": "erc20",
@@ -40,8 +38,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
-        "coinGeckoId": "dai",
-        "wallet_preload": true
+        "coinGeckoId": "dai"
     },
     {
         "type": "erc20",
@@ -51,8 +48,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/reth.png",
-        "coinGeckoId": "rocket-pool-eth",
-        "wallet_preload": true
+        "coinGeckoId": "rocket-pool-eth"
     },
     {
         "type": "erc20",
@@ -62,8 +58,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pyth.png",
-        "coinGeckoId": "pyth-network",
-        "wallet_preload": true
+        "coinGeckoId": "pyth-network"
     },
     {
         "type": "erc20",
@@ -73,8 +68,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/cbeth.png",
-        "coinGeckoId": "coinbase-wrapped-staked-eth",
-        "wallet_preload": true
+        "coinGeckoId": "coinbase-wrapped-staked-eth"
     },
     {
         "type": "erc20",

@@ -29,8 +29,7 @@
         "description": "Wrapped Bitcoin (WBTC) on Monad Testnet",
         "decimals": 8,
         "image": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/wbtc.png/public",
-        "coinGeckoId": "",
-        "wallet_preload": true
+        "coinGeckoId": ""
     },
     {
         "type": "erc20",
@@ -40,8 +39,7 @@
         "description": "Wrapped Ether (WETH) on Monad Testnet",
         "decimals": 18,
         "image": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public",
-        "coinGeckoId": "",
-        "wallet_preload": true
+        "coinGeckoId": ""
     },
     {
         "type": "erc20",
@@ -51,7 +49,6 @@
         "description": "Wrapped Solana (WSOL) on Monad Testnet",
         "decimals": 9,
         "image": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public",
-        "coinGeckoId": "",
-        "wallet_preload": true
+        "coinGeckoId": ""
     }
 ]

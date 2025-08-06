@@ -40,8 +40,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
-        "coinGeckoId": "usd-coin",
-        "wallet_preload": true
+        "coinGeckoId": "usd-coin"
     },
     {
         "type": "erc20",
@@ -51,8 +50,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
-        "coinGeckoId": "chainlink",
-        "wallet_preload": true
+        "coinGeckoId": "chainlink"
     },
     {
         "type": "erc20",
@@ -62,8 +60,7 @@
         "description": "",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
-        "coinGeckoId": "wrapped-bitcoin",
-        "wallet_preload": true
+        "coinGeckoId": "wrapped-bitcoin"
     },
     {
         "type": "erc20",
@@ -73,8 +70,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
-        "coinGeckoId": "dai",
-        "wallet_preload": true
+        "coinGeckoId": "dai"
     },
     {
         "type": "erc20",
@@ -84,8 +80,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ldo.png",
-        "coinGeckoId": "lido-dao",
-        "wallet_preload": true
+        "coinGeckoId": "lido-dao"
     },
     {
         "type": "erc20",
@@ -95,8 +90,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pyth.png",
-        "coinGeckoId": "pyth-network",
-        "wallet_preload": true
+        "coinGeckoId": "pyth-network"
     },
     {
         "type": "erc20",
@@ -106,8 +100,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/worldcoin/asset/wld.png",
-        "coinGeckoId": "worldcoin-wld",
-        "wallet_preload": true
+        "coinGeckoId": "worldcoin-wld"
     },
     {
         "type": "erc20",

@@ -70,8 +70,7 @@
         "description": "ZetaChain Bridged PEPE.ETH (ZRC20)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/pepe-eth.png",
-        "coinGeckoId": "pepe",
-        "wallet_preload": true
+        "coinGeckoId": "pepe"
     },
     {
         "type": "erc20",
@@ -81,8 +80,7 @@
         "description": "ZetaChain Bridged SHIB.ETH (ZRC20)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/shib-eth.png",
-        "coinGeckoId": "shiba-inu",
-        "wallet_preload": true
+        "coinGeckoId": "shiba-inu"
     },
     {
         "type": "erc20",
@@ -92,8 +90,7 @@
         "description": "ZetaChain Bridged BNB.ETH (ZRC20)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/bnb-bsc.png",
-        "coinGeckoId": "zetachain-bridged-bnb-bsc-zetachain",
-        "wallet_preload": true
+        "coinGeckoId": "zetachain-bridged-bnb-bsc-zetachain"
     },
     {
         "type": "erc20",
@@ -103,8 +100,7 @@
         "description": "ZetaChain Bridged USDT.BSC (ZRC20)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/usdt-bsc.png",
-        "coinGeckoId": "zetachain-bridged-usdt-bsc-zetachain",
-        "wallet_preload": true
+        "coinGeckoId": "zetachain-bridged-usdt-bsc-zetachain"
     },
     {
         "type": "erc20",
@@ -114,8 +110,7 @@
         "description": "ZetaChain Bridged USDC.BSC (ZRC20)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zeta/asset/usdc-bsc.png",
-        "coinGeckoId": "zetachain-bridged-usdc-bsc-zetachain",
-        "wallet_preload": true
+        "coinGeckoId": "zetachain-bridged-usdc-bsc-zetachain"
     },
     {
         "type": "erc20",

@@ -69,8 +69,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/kensei.png",
-        "coinGeckoId": "kensei",
-        "wallet_preload": true
+        "coinGeckoId": "kensei"
     },
     {
         "type": "erc20",
@@ -90,8 +89,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shdx.png",
-        "coinGeckoId": "shido-dex",
-        "wallet_preload": true
+        "coinGeckoId": "shido-dex"
     },
     {
         "type": "erc20",

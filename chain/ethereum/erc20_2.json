@@ -29,8 +29,7 @@
         "description": "Ether.fi governance token",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ethfi.png",
-        "coinGeckoId": "ether-fi",
-        "wallet_preload": true
+        "coinGeckoId": "ether-fi"
     },
     {
         "type": "erc20",
@@ -40,8 +39,7 @@
         "description": "ether fi Staked ETH",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eeth.png",
-        "coinGeckoId": "ether-fi-staked-eth",
-        "wallet_preload": true
+        "coinGeckoId": "ether-fi-staked-eth"
     },
     {
         "type": "erc20",
@@ -51,8 +49,7 @@
         "description": "Wrapped eETH",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weeth.png",
-        "coinGeckoId": "wrapped-eeth",
-        "wallet_preload": true
+        "coinGeckoId": "wrapped-eeth"
     },
     {
         "type": "erc20",
@@ -73,8 +70,7 @@
         "description": "DYDX Token",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/asset/dydx.png",
-        "coinGeckoId": "dydx",
-        "wallet_preload": true
+        "coinGeckoId": "dydx"
     },
     {
         "type": "erc20",

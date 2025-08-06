@@ -7,8 +7,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/wbnb.png",
-        "coinGeckoId": "wbnb",
-        "wallet_preload": true
+        "coinGeckoId": "wbnb"
     },
     {
         "type": "erc20",
@@ -18,8 +17,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/busd.png",
-        "coinGeckoId": "binance-peg-busd",
-        "wallet_preload": true
+        "coinGeckoId": "binance-peg-busd"
     },
     {
         "type": "erc20",
@@ -51,8 +49,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
-        "coinGeckoId": "weth",
-        "wallet_preload": true
+        "coinGeckoId": "weth"
     },
     {
         "type": "erc20",
@@ -62,8 +59,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/cake.png",
-        "coinGeckoId": "pancakeswap-token",
-        "wallet_preload": true
+        "coinGeckoId": "pancakeswap-token"
     },
     {
         "type": "erc20",
@@ -73,8 +69,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/btcb.png",
-        "coinGeckoId": "binance-bitcoin",
-        "wallet_preload": true
+        "coinGeckoId": "binance-bitcoin"
     },
     {
         "type": "erc20",
