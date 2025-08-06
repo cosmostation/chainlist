@@ -18,5 +18,45 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/isei.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+        "name": "WETH",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/weth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x80Eede496655FB9047dd39d9f418d5483ED600df",
+        "name": "FRAX",
+        "symbol": "FRAX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/frax.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xDD7d5e4Ea2125d43C16eEd8f1FFeFffa2F4b4aF6",
+        "name": "Jelly Token",
+        "symbol": "JLY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/jly.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5f0e07dfee5832faa00c63f2d33a0d79150e8598",
+        "name": "SEIYAN",
+        "symbol": "SEIYAN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/seiyan.png",
+        "coinGeckoId": ""
     }
 ]
