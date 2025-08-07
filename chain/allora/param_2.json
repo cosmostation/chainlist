@@ -54,9 +54,9 @@
     ],
     "explorer" : {
         "name": "Allora",
-        "url": "https://explorer.mainnet.allora.network/allora-mainnet",
-        "account": "https://explorer.mainnet.allora.network/allora-mainnet/account/${address}",
-        "tx": "https://explorer.mainnet.allora.network/allora-mainnet/tx/${hash}",
+        "url": "https://explorer.allora.network/",
+        "account": "https://explorer.allora.network/profile//${address}",
+        "tx": "https://explorer.allora.network/explorer/transactions/${hash}",
         "proposal": ""
     },
     "about" : {
