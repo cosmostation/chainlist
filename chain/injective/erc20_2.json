@@ -1,2 +1,13 @@
 [
+    {
+        "type": "erc20",
+        "contract": "0x0000000088827d2d103ee2d9a6b781773ae03ffb",
+        "name" : "Wrapped INJ",
+        "symbol": "wINJ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/winj.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    }
 ]
