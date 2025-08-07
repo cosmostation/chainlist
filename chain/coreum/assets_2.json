@@ -40,7 +40,7 @@
         "description": "Liquid staking asset for COREUM, by Pulsara",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/licore.png",
-        "coinGeckoId": "",
+        "coinGeckoId": "licore",
         "color": "#FF03CB"
     },
     {
@@ -75,5 +75,25 @@
                 "denom": "uusdc"
             }
         }
+    },
+    {
+        "type": "native",
+        "denom": "uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv",
+        "name" : "Coreum Community DAO Token",
+        "symbol": "CCD",
+        "description": "Rewards token designed to incentivize participation in Coreum Community DAO",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "xrpl570c00a604-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+        "name" : "RLUSD",
+        "symbol": "RLUSD",
+        "description": "RLUSD bridged from XRPL",
+        "decimals": 15,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/rlusd.png",
+        "coinGeckoId": ""
     }
 ]
