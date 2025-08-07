@@ -1206,7 +1206,7 @@
             "twitter": "https://x.com/pulsara_io",
             "reddit": "https://www.reddit.com/r/pulsara/"
         },
-        "type": "DEX"
+        "type": "Native dApps"
     },
     {
         "id": 66,
@@ -3190,5 +3190,35 @@
             "discord": "https://discord.com/invite/kyberswap"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 186,
+        "name": "Cruise Control",
+        "description": "The Self-Custody Super App for Your Entire Blockchain Journey.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/cruisecontrol.png",
+        "link": "https://app.cruise-control.xyz/dashboard",
+        "chains": [
+            "coreum"
+        ],
+        "socials": {
+            "telegram": "https://t.me/coreum_labs",
+            "twitter": "https://x.com/JoinCruiseCtrl"
+        },
+        "type": "Native dApps"
+    },
+    {
+        "id": 187,
+        "name": "Coreum.fun",
+        "description": "The Premier Betting Platform on Coreum.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/coreumdotfun.png",
+        "link": "https://www.corecast.fun/",
+        "chains": [
+            "coreum"
+        ],
+        "socials": {
+            "twitter": "https://x.com/CorecastMarkets",
+            "telegram": "https://t.me/coreum_labs"
+        },
+        "type": "Native dApps"
     }
 ]
