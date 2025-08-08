@@ -196,6 +196,29 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/28FC965E05DB1A4C0A6DE6B720F67AFF8CAB571FE262824976DDDFF49A4BAAF7",
+        "name": "Elys Network",
+        "symbol": "ELYS",
+        "description": "The native token of Elys Network",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/elys/asset/elys.png",
+        "coinGeckoId": "elys-network",
+        "ibc_info": {
+            "path": "elys>neutron",
+            "client": {
+                "channel": "channel-6476",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-16",
+                "port": "transfer",
+                "chain": "elys",
+                "denom": "uelys"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/376222D6D9DAE23092E29740E56B758580935A6D77C24C2ABD57A6A78A1F3955",
         "name" : "Osmosis",
         "symbol": "OSMO",
@@ -1159,5 +1182,15 @@
                 "denom": "uusdn"
             }
         }
+    },
+    {
+        "type": "native",
+        "denom": "factory/neutron1r5qx58l3xx2y8gzjtkqjndjgx69mktmapl45vns0pa73z0zpn7fqgltnll/TAB",
+        "name" : "TabCoin",
+        "symbol": "TAB",
+        "description": "TabCoin.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/TAB.png",
+        "coinGeckoId": ""
     }
 ]
