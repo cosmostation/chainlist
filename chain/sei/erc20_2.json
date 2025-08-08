@@ -48,7 +48,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/jly.png",
-        "coinGeckoId": ""
+        "coinGeckoId": "jellyverse"
     },
     {
         "type": "erc20",
@@ -58,6 +58,86 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/seiyan.png",
+        "coinGeckoId": "seiyan"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x51121bcae92e302f19d06c193c95e1f7b81a444b",
+        "name": "YAKA",
+        "symbol": "YAKA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/yaka.png",
+        "coinGeckoId": "yaka"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050",
+        "name": "Frax Ether",
+        "symbol": "frxETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/frxeth.png",
+        "coinGeckoId": "frax-ether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x37a4dd9ced2b19cfe8fac251cd727b5787e45269",
+        "name": "fastUSD",
+        "symbol": "fastUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/fastusd.png",
+        "coinGeckoId": "sei-fastusd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0",
+        "name": "Staked Frax USD",
+        "symbol": "sfrxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/sfrxusd.png",
+        "coinGeckoId": "staked-frax-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3Ec3849C33291a9eF4c5dB86De593EB4A37fDe45",
+        "name": "Staked Frax Ether",
+        "symbol": "sfrxETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/sfrxeth.png",
+        "coinGeckoId": "staked-frax-ether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA8A3A5013104e093245164eA56588DBE10a3Eb48",
+        "name": "Sei Native Yield Super Seiyan ETH",
+        "symbol": "ssETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/sseth.png",
+        "coinGeckoId": "super-seyian-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x95597EB8D227a7c4B4f5E807a815C5178eE6dBE1",
+        "name": "MILLI",
+        "symbol": "MILLI",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/milli.png",
+        "coinGeckoId": "milli-coin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sei/asset/wbtc.png",
         "coinGeckoId": ""
     }
 ]
