@@ -95,5 +95,25 @@
         "decimals": 15,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/rlusd.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "upunks-core1zceldt0z76n3cje52fps53lh6ejlxqcnu4fgexl3vyj688nx3f0sgm7xaa",
+        "name" : "Coreum",
+        "symbol": "PUNKS",
+        "description": "Trade $PUNKS, the utility token of the official Coreum Punks NFT Collection.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "usbc-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x",
+        "name" : "Coreum",
+        "symbol": "SBC",
+        "description": "SBC is a regulated, fiat-backed stablecoin issued by Brale and redeemable 1:1 for U.S. Dollars",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/sbc.png",
+        "coinGeckoId": ""
     }
 ]
