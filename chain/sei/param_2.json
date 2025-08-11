@@ -17,10 +17,16 @@
     "is_support_erc20" : true,
     "tx_timeout_padding" : 100,
     "chain_type": [
-        "cosmos"
+        "cosmos",
+        "evm"
     ],
     "account_type" : [
         {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256"
+        },
+        {
+            "is_default" : false,
             "hd_path": "m/44'/118'/0'/0/X",
             "pubkey_style": "secp256k1",
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
