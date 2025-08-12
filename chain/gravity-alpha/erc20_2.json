@@ -1,0 +1,32 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD",
+        "name": "Wrapped G",
+        "symbol": "WG",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-alpha/asset/wg.png",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x816E810f9F787d669FB71932DeabF6c83781Cd48",
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+        "name": "Stargate Bridged USDC Story",
+        "symbol": "USDCE",
+        "description": "Stargate Bridged USDC Story",
+        "decimals": 6,
+        "image": "https://assets.coingecko.com/coins/images/54377/small/usdc.png"
+    }
+]
