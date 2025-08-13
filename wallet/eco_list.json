@@ -3220,5 +3220,32 @@
             "telegram": "https://t.me/coreum_labs"
         },
         "type": "Native dApps"
+    },
+    {
+        "id": 188,
+        "name": "Gravity",
+        "description": "",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/gravity.png",
+        "link": "https://bridge.gravity.xyz/?tab=swap",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "celo",
+            "cronos",
+            "fantom",
+            "gravity-alpha"
+            "optimism",
+            "polygon"
+        ],
+        "socials": {
+            "telegram": "https://t.me/GravityChain",
+            "twitter": "https://x.com/GravityChain",
+            "discord": "https://discord.com/invite/GravityChain"
+        },
+        "type": "DeFi"
     }
 ]
