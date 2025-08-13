@@ -12,7 +12,7 @@
     "api_name" : "sei",
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "is_support_cw20" : true,
     "is_support_erc20" : true,
     "tx_timeout_padding" : 100,
