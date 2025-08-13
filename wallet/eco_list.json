@@ -75,6 +75,7 @@
             "avalanche",
             "base",
             "bnb-smart-chain",
+            "celo",
             "fantom",
             "optimism",
             "polygon"
@@ -100,6 +101,7 @@
             "avalanche",
             "base",
             "bnb-smart-chain",
+            "celo",
             "optimism",
             "polygon"
         ],
@@ -116,7 +118,7 @@
         "name": "Ethena",
         "description": "Ethena is a DeFi platform offering secure lending, borrowing, and staking on the blockchain. It empowers users with full control over their assets.",
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/ethena.png",
-        "link": "https://app.uniswap.org/swap",
+        "link": "https://app.ethena.fi/",
         "chains": [
             "ethereum",
             "arbitrum",
@@ -187,6 +189,7 @@
         "chains": [
             "ethereum",
             "base",
+            "celo",
             "fantom",
             "polygon",
             "arbitrum",
@@ -235,12 +238,14 @@
         "link": "https://jumper.exchange",
         "chains": [
             "ethereum",
-            "fantom",
-            "polygon",
-            "base",
             "arbitrum",
+            "avalanche",
+            "base",
+            "celo",
+            "fantom",
+            "gravity-alpha",
             "optimism",
-            "avalanche"
+            "polygon"
         ],
         "socials": {
             "twitter": "https://x.com/JumperExchange",
@@ -258,6 +263,7 @@
         "chains": [
             "ethereum",
             "base",
+            "celo",
             "fantom",
             "optimism",
             "polygon",
@@ -287,6 +293,7 @@
             "base",
             "bnb-smart-chain",
             "cronos",
+            "gravity-alpha",
             "optimism",
             "polygon"
         ],
@@ -324,25 +331,6 @@
         "type": "DEX"
     },
     {
-        "id": 15,
-        "name": "Plexus",
-        "description": "PLEXUS is a cross-chain liquidity aggregator that combines DEXs and Bridges on many chains, allowing users to trade all tokens in every chain with one click and one API at the fastest and most optimal price.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/plexus.png",
-        "link": "https://www.plexus.app/swap",
-        "chains": [
-            "ethereum",
-            "arbitrum",
-            "avalanche",
-            "base",
-            "bnb-smart-chain",
-            "fantom",
-            "optimism",
-            "polygon"
-        ],
-        "socials": {},
-        "type": "DEX"
-    },
-    {
         "id": 16,
         "name": "RocketX",
         "description": "RocketX is the most advanced hybrid aggregator that simplifies access to $100B+ liquidity across 300+ DEXs & 6 Top CEXs via a Single UI and API",
@@ -354,8 +342,10 @@
             "avalanche",
             "base",
             "bnb-smart-chain",
+            "celo",
             "cronos",
             "fantom",
+            "gravity-alpha",
             "optimism",
             "polygon"
         ],
@@ -373,10 +363,10 @@
         "link": "https://zcx.com/trade/",
         "chains": [
             "ethereum",
-            "fantom",
             "avalanche",
-            "polygon",
-            "bnb-smart-chain"
+            "bnb-smart-chain",
+            "fantom",
+            "polygon"
         ],
         "socials": {
             "github": "https://github.com/unizen-io",
@@ -394,7 +384,9 @@
         "link": "https://cacaoswap.app/",
         "chains": [
             "ethereum",
-            "avalanche"
+            "arbitrum",
+            "avalanche",
+            "bnb-smart-chain"
         ],
         "socials": {
             "telegram": "https://t.me/CacaoSwapOfficial",
@@ -451,6 +443,7 @@
             "avalanche",
             "base",
             "bnb-smart-chain",
+            "celo",
             "cronos",
             "fantom",
             "kava",
@@ -477,6 +470,7 @@
             "base",
             "berachain",
             "bnb-smart-chain",
+            "celo",
             "cronos",
             "optimism",
             "polygon"
@@ -683,6 +677,7 @@
             "berachain",
             "bnb-smart-chain",
             "fantom",
+            "gravity-alpha",
             "kaia",
             "kava",
             "optimism",
@@ -1518,6 +1513,7 @@
             "berachain",
             "bnb-smart-chain",
             "fantom",
+            "gravity-alpha",
             "kaia",
             "optimism",
             "polygon",
@@ -1567,6 +1563,7 @@
             "avalanche",
             "berachain",
             "bnb-smart-chain",
+            "celo",
             "fantom",
             "optimism",
             "polygon",
@@ -1961,6 +1958,7 @@
             "avalanche",
             "arbitrum",
             "base",
+            "celo",
             "optimism",
             "polygon"
         ],
@@ -2567,6 +2565,7 @@
             "base",
             "berachain",
             "bnb-smart-chain",
+            "celo",
             "cronos",
             "optimism",
             "polygon",
@@ -2877,6 +2876,7 @@
             "base",
             "berachain",
             "bnb-smart-chain",
+            "celo",
             "optimism",
             "polygon",
             "story"
@@ -2944,6 +2944,7 @@
             "arbitrum",
             "base",
             "bnb-smart-chain",
+            "celo",
             "optimism",
             "polygon"
         ],
@@ -3026,6 +3027,7 @@
             "avalanche",
             "base",
             "bnb-smart-chain",
+            "celo",
             "optimism",
             "polygon"
         ],
@@ -3104,6 +3106,8 @@
             "avalanche",
             "base",
             "berachain",
+            "celo",
+            "gravity-alpha",
             "optimism",
             "polygon",
             "story"
