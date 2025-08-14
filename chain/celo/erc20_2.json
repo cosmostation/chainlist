@@ -12,6 +12,17 @@
     },
     {
         "type": "erc20",
+        "contract": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
         "contract": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
         "name": "Celo USD",
         "symbol": "cUSD",
@@ -20,5 +31,75 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celo/asset/cusd.png",
         "coinGeckoId": "celo-dollar",
         "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9995cc8F20Db5896943Afc8eE0ba463259c931ed",
+        "name": "Ethix (Wormhole)",
+        "symbol": "ETHIX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celo/asset/ethix.png",
+        "coinGeckoId": "ethichub"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+        "name": "Celo Euro",
+        "symbol": "cEUR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celo/asset/ceur.png",
+        "coinGeckoId": "celo-euro"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xFECB3F7c54E2CAAE9dC6Ac9060A822D47E053760",
+        "name": "BRLA Digital BRLA",
+        "symbol": "BRLA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celo/asset/brla.png",
+        "coinGeckoId": "brla-digital-brla"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x66803fb87abd4aac3cbb3fad7c3aa01f6f3fb207",
+        "name": "WETH",
+        "symbol": "WETH",
+        "description": "Wormhole Bridged WETH Celo",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+    },
+    {
+        "type": "erc20",
+        "contract": "0xD629eb00dEced2a080B7EC630eF6aC117e614f1b",
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "description": "Bridged WBTC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x17700282592D6917F6A73D0bF8AcCf4D578c131e",
+        "name": "Moola Market",
+        "symbol": "MOO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celo/asset/moo.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x27cd006548dF7C8c8e9fdc4A67fa05C2E3CA5CF9",
+        "name": "Plastiks",
+        "symbol": "PLASTIK",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celo/asset/plastik.png",
+        "coinGeckoId": "plastiks"
     }
 ]
