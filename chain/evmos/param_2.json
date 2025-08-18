@@ -60,10 +60,6 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://evmos-api.lavenderfive.com/"
-        },
-        {
             "provider": "Polkachu",
             "url": "https://evmos-api.polkachu.com/"
         },
