@@ -4388,6 +4388,16 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/unknown.png",
         "coinGeckoId": "lorenzo-wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0B010000b7624eb9B3DfBC279673C76E9D29D5F7",
+        "name": "Obol Network",
+        "symbol": "OBOL",
+        "description": "Obol Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/obol.png",
+        "coinGeckoId": "obol-2"
     }
 ]
 
