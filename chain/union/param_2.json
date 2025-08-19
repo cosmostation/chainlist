@@ -2,9 +2,9 @@
     "chain_id_cosmos" : "union-1",
     "chain_name": "Union",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/union/resource/chain_union.png",
-    "staking_asset_denom" : "upoa",
-    "staking_asset_symbol" : "POA",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/union/asset/poa.png",
+    "staking_asset_denom" : "au",
+    "staking_asset_symbol" : "U",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/union/asset/au.png",
     "bech_account_prefix" : "union",
     "bech_validator_prefix" : "unionvaloper",
     "origin_genesis_time" : "2025-03-06T03:27:03Z",
@@ -24,7 +24,7 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.01ugas"
+            "0au"
         ],
         "is_feemarket": true,
         "is_simulable" : true,
