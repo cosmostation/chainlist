@@ -1,0 +1,34 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+        "name": "Wrapped Sonic",
+        "symbol": "wS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/ws.png",
+        "coinGeckoId": "wrapped-sonic",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
+        "name": "Sonic USD",
+        "symbol": "scUSD",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/scusd.png",
+        "coinGeckoId": "rings-scusd"
+    }
+]
