@@ -51,7 +51,8 @@
             "fantom",
             "kaia",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "github": "https://github.com/1inch",
@@ -78,7 +79,8 @@
             "celo",
             "fantom",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "github": "https://github.com/aave",
@@ -147,7 +149,8 @@
             "avalanche",
             "base",
             "berachain",
-            "optimism"
+            "optimism",
+            "sonic"
         ],
         "socials": {
             "github": "https://github.com/pendle-finance/pendle-core-v2-public",
@@ -188,15 +191,16 @@
         "link": "https://app.rango.exchange/bridge?fromBlockchain=ETH&fromToken=ETH&toBlockchain=ETH&toToken=USDT--0xdac17f958d2ee523a2206206994597c13d831ec7",
         "chains": [
             "ethereum",
+            "arbitrum",
+            "avalanche",
             "base",
+            "bnb-smart-chain",
             "celo",
             "fantom",
-            "polygon",
-            "arbitrum",
             "optimism",
-            "thorchain",
-            "bnb-smart-chain",
-            "avalanche"
+            "polygon",
+            "sonic",
+            "thorchain"
         ],
         "socials": {
             "github": "https://github.com/rango-exchange",
@@ -245,7 +249,8 @@
             "fantom",
             "gravity-alpha",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "twitter": "https://x.com/JumperExchange",
@@ -262,14 +267,15 @@
         "link": "https://app.openocean.finance/eth",
         "chains": [
             "ethereum",
+            "arbitrum",
+            "avalanche",
             "base",
+            "bnb-smart-chain",
             "celo",
             "fantom",
             "optimism",
             "polygon",
-            "arbitrum",
-            "avalanche",
-            "bnb-smart-chain"
+            "sonic"
         ],
         "socials": {
             "github": "https://github.com/openocean-finance/",
@@ -295,7 +301,8 @@
             "cronos",
             "gravity-alpha",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "github": "https://github.com/symbiosis-finance",
@@ -347,7 +354,8 @@
             "fantom",
             "gravity-alpha",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "telegram": "https://t.me/RocketXexchange",
@@ -363,10 +371,13 @@
         "link": "https://zcx.com/trade/",
         "chains": [
             "ethereum",
+            "arbitrum",
             "avalanche",
+            "berachain",
             "bnb-smart-chain",
             "fantom",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "github": "https://github.com/unizen-io",
@@ -446,9 +457,12 @@
             "celo",
             "cronos",
             "fantom",
+            "haqq",
             "kava",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic",
+            "zeta"
         ],
         "socials": {
             "github": "https://github.com/sushiswap",
@@ -473,7 +487,8 @@
             "celo",
             "cronos",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "github": "https://github.com/beefyfinance",
@@ -682,6 +697,7 @@
             "kava",
             "optimism",
             "polygon",
+            "sonic",
             "xpla"
         ],
         "socials": {
@@ -706,7 +722,8 @@
             "berachain",
             "bnb-smart-chain",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "github": "https://github.com/woonetwork",
@@ -1517,6 +1534,7 @@
             "kaia",
             "optimism",
             "polygon",
+            "sonic",
             "zeta"
         ],
         "socials": {
@@ -1542,6 +1560,7 @@
             "kaia",
             "optimism",
             "polygon",
+            "sonic",
             "zeta"
         ],
         "socials": {
@@ -2879,6 +2898,7 @@
             "celo",
             "optimism",
             "polygon",
+            "sonic",
             "story"
         ],
         "socials": {
@@ -3067,7 +3087,8 @@
             "avalanche",
             "bnb-smart-chain",
             "fantom",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "twitter": "https://x.com/ThetanutsFi",
@@ -3110,6 +3131,7 @@
             "gravity-alpha",
             "optimism",
             "polygon",
+            "sonic",
             "story"
         ],
         "socials": {
@@ -3164,7 +3186,8 @@
             "avalanche",
             "base",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "twitter": "https://x.com/flooz_xyz",
@@ -3186,7 +3209,8 @@
             "berachain",
             "bnb-smart-chain",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "telegram": "https://t.me/kybernetwork",
@@ -3243,7 +3267,8 @@
             "fantom",
             "gravity-alpha",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic"
         ],
         "socials": {
             "telegram": "https://t.me/GravityChain",
