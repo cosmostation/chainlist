@@ -56,11 +56,11 @@
         }
     ],
     "explorer" : {
-        "name": "Guru",
-        "url": "https://quicksilver.explorers.guru/",
-        "account": "https://quicksilver.explorers.guru/account/${address}",
-        "tx": "https://quicksilver.explorers.guru/transaction/${hash}",
-        "proposal": "https://quicksilver.explorers.guru/proposal/${id}"
+        "name": "Quicksilver",
+        "url": "https://explorer.quicksilver.zone/",
+        "account": "https://explorer.quicksilver.zone/account/${address}",
+        "tx": "https://explorer.quicksilver.zone/transactions/${hash}",
+        "proposal": "https://explorer.quicksilver.zone/proposals/${id}"
     },
     "about" : {
         "website" : "https://quicksilver.zone/",
