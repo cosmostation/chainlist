@@ -3232,7 +3232,7 @@
             "telegram": "https://t.me/coreum_labs",
             "twitter": "https://x.com/JoinCruiseCtrl"
         },
-        "type": "Native dApps"
+        "type": "DashBoard"
     },
     {
         "id": 187,
@@ -3247,7 +3247,7 @@
             "twitter": "https://x.com/Coreum_dot_fun",
             "telegram": "https://t.me/coreum_labs"
         },
-        "type": "Native dApps"
+        "type": "DashBoard"
     },
     {
         "id": 188,
@@ -3276,5 +3276,23 @@
             "discord": "https://discord.com/invite/GravityChain"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 189,
+        "name": "Sonic Gateway",
+        "description": "Bridging from Ethereum requires the Sonic Gateway.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/gateway.png",
+        "link": "https://gateway.soniclabs.com/",
+        "chains": [
+            "ethereum",
+            "sonic"
+        ],
+        "socials": {
+            "github": "https://github.com/Fantom-Foundation",
+            "telegram": "https://t.me/SonicAnnouncements",
+            "twitter": "https://x.com/SonicLabs",
+            "discord": "https://discord.com/invite/3Ynr2QDSnB"
+        },
+        "type": "Bridge"
     }
 ]
