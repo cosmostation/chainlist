@@ -110,5 +110,115 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/fly.png",
         "coinGeckoId": "fly-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb098AFC30FCE67f1926e735Db6fDadFE433E61db",
+        "name": "Silo Token",
+        "symbol": "SILO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/silo.png",
+        "coinGeckoId": "silo-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+        "name": "Lombard Staked BTC",
+        "symbol": "LBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard/asset/lbtc.png",
+        "coinGeckoId": "lombard-staked-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70",
+        "name": "SwapX",
+        "symbol": "SWPx",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/swpx.png",
+        "coinGeckoId": "swapx-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0e0Ce4D450c705F8a0B6Dd9d5123e3df2787D16B",
+        "name": "Wagmi",
+        "symbol": "WAGMI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/wagmi.png",
+        "coinGeckoId": "wagmi-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE51EE9868C1f0d6cd968A8B8C8376Dc2991BFE44",
+        "name": "PaintSwap",
+        "symbol": "BRUSH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/brush.png",
+        "coinGeckoId": "paint-swap"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xddF26B42C1d903De8962d3F79a74a501420d5F19",
+        "name": "Equalizer on Sonic",
+        "symbol": "EQUAL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/equal.png",
+        "coinGeckoId": "equalizer-on-sonic"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE5Fb2Ed6832deF99ddE57C0b9d9A56537C89121D",
+        "name": "Main Street USD",
+        "symbol": "msUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/msusd.png",
+        "coinGeckoId": "main-street-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4451765739b2D7BCe5f8BC95Beaf966c45E1Dcc9",
+        "name": "xSILO",
+        "symbol": "xSILO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/xsilo.png",
+        "coinGeckoId": "xsilo"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4772D2e014F9fC3a820C444e3313968e9a5C8121",
+        "name": "YieldFi yUSD",
+        "symbol": "yUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/yusd.png",
+        "coinGeckoId": "yieldfi-ytoken"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb0695ce12c56AAe40894235e2d1888D0b62Dd110",
+        "name": "DeFive",
+        "symbol": "FIVE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/five.png",
+        "coinGeckoId": "defive"
     }
 ]
