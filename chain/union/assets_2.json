@@ -8,5 +8,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/union/asset/au.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "upoa",
+        "name": "Proof of Authority Token on Union",
+        "symbol": "POA",
+        "description": "Proof of Authority Token on Union",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/union/asset/poa.png",
+        "coinGeckoId": ""
     }
 ]
