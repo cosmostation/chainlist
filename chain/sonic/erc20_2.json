@@ -30,5 +30,85 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/scusd.png",
         "coinGeckoId": "rings-scusd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+        "name": "Beets Staked Sonic",
+        "symbol": "stS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/sts.png",
+        "coinGeckoId": "beets-staked-sonic"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+        "name": "Wrapped Ether on Sonic",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3333b97138D4b086720b5aE8A7844b1345a33333",
+        "name": "Shadow",
+        "symbol": "SHADOW",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/shadow.png",
+        "coinGeckoId": "shadow-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+        "name": "HeyAnon",
+        "symbol": "Anon",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/anon.png",
+        "coinGeckoId": "heyanon"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x71E99522EaD5E21CF57F1f542Dc4ad2E841F7321",
+        "name": "Metropolis Token",
+        "symbol": "METRO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/metro.png",
+        "coinGeckoId": "metropolis"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794",
+        "name": "Origin Sonic",
+        "symbol": "OS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/os.png",
+        "coinGeckoId": "origin-staked-s"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2D0E0814E62D80056181F5cd932274405966e4f0",
+        "name": "Beets",
+        "symbol": "BEETS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/beets.png",
+        "coinGeckoId": "beets"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6c9B3A74ae4779da5Ca999371eE8950e8DB3407f",
+        "name": "fly.trade",
+        "symbol": "FLY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/fly.png",
+        "coinGeckoId": "fly-2"
     }
 ]
