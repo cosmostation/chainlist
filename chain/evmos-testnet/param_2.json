@@ -9,7 +9,6 @@
     "bech_account_prefix" : "evmos",
     "bech_validator_prefix" : "evmosvaloper",
     "api_name": "evmos-testnet",
-    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",

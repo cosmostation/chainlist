@@ -8,7 +8,6 @@
     "bech_account_prefix" : "juno-testnet",
     "bech_validator_prefix" : "junovaloper",
     "api_name" : "juno",
-    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

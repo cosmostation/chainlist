@@ -8,7 +8,6 @@
     "bech_account_prefix" : "mint",
     "bech_validator_prefix" : "mintvaloper",
     "api_name" : "mintstation-testnet",
-    "is_support_mintscan": true,
     "chain_type": [
         "cosmos"
     ],
