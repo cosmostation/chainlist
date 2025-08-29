@@ -1,0 +1,72 @@
+{
+    "chain_id_cosmos" : "pocket",
+    "chain_name": "Pocket Network",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pocket/resource/chain_pocket.png",
+    "staking_asset_denom" : "upokt",
+    "staking_asset_symbol" : "POKT",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pocket/asset/pokt.png",
+    "bech_account_prefix" : "pokt",
+    "bech_validator_prefix" : "poktvaloper",
+    "origin_genesis_time" : "2025-03-28T17:35:52Z",
+    "api_name" : "pocket",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.001upokt",
+            "0.002upokt",
+            "0.0025upokt"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Grove",
+            "url": "https://shannon-grove-api.mainnet.poktroll.com/"
+        },
+        {
+            "provider": "Blockval",
+            "url": "https://api-pocket.blockval.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Poktscan",
+        "url": "https://poktscan.com/",
+        "account": "https://poktscan.com/account/${address}",
+        "tx": "https://poktscan.com/tx/${hash}",
+        "proposal": "https://poktscan.com/dashboards/governance/${id}"
+    },
+    "about" : {
+        "website" : "https://pocket.network/",
+        "docs": "https://docs.pokt.network/",
+        "github" : "https://github.com/pokt-network",
+        "blog" : "",
+        "medium": "",
+        "twitter" : "https://x.com/POKTnetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/pocket-network"
+    },
+    "forum": {
+        "main": "https://forum.pokt.network/"
+    },
+    "description" : {
+        "ko" : "Pocket Network는 블록체인과 오픈 데이터를 탈중앙화된 노드 네트워크(RPC)로 연결하는 인프라 프로토콜입니다.",
+        "en" : "Pocket Network is an infrastructure protocol that connects blockchains and open data through a decentralized RPC node network.",
+        "ja" : "Pocket Networkは、ブロックチェーンとオープンデータを分散型RPCノードネットワークでつなぐインフラプロトコルです。"
+    }
+}
