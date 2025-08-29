@@ -47,12 +47,32 @@
         {
             "provider": "Qubetics",
             "url": "https://swagger.qubetics.com/"
+        },
+        {
+            "provider": "Veritics",
+            "url": "https://swagger.node.veritics.ch"
+        },
+        {
+            "provider": "Qubenode",
+            "url": "https://rest.qubenode.space"
+        },  
+        { 
+            "provider": "TicsForge-Node",
+            "url": "https://rest.qubeticstralbo.eu"
         }
     ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Qubetics",
             "url": "https://rpc.qubetics.com/"
+        },
+        {
+            "provider": "Qubenode",
+            "url": "https://evm.qubenode.space"
+        },
+        {
+            "provider": "TicsForge-Node",
+            "url": "https://evm.qubeticstralbo.eu"
         }
     ],
     "explorer" : {
