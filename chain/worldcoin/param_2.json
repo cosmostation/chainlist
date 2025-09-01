@@ -1,0 +1,64 @@
+{
+    "chain_id_evm" : "0x1e0",
+    "chain_name": "World Chain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/worldcoin/resource/chain_worldcoin.png",
+    "main_asset_denom" : "0x2cfc85d8e48f8eab294be644d9e25c3030863003",
+    "main_asset_symbol" : "WLD",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/worldcoin/asset/wld.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "ETH",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/worldcoin/asset/eth_wld.png",
+    "origin_genesis_time" : "2024-06-25T05:13:59Z",
+    "api_name" : "worldcoin",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : false,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simul_gas_multiply" : 1.3
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": true,
+        "multicall_address" : "0xcA11bde05977b3631167028862bE2a173976CA11"
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Drpc",
+            "url": "https://worldchain.drpc.org"
+        },
+        {
+            "provider": "Alchemy",
+            "url": "https://worldchain-mainnet.g.alchemy.com/public"
+        },
+        {
+            "provider": "Thirdweb",
+            "url": "https://480.rpc.thirdweb.com"
+        }
+        
+    ],
+    "explorer" : {
+        "name": "Worldscan",
+        "url": "https://worldscan.org/",
+        "account": "https://worldscan.org/address/${address}",
+        "tx": "https://worldscan.org/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://world.org/world-chain",
+        "docs": "https://docs.world.org/",
+        "github" : "https://github.com/worldcoin",
+        "blog" : "https://world.org/blog",
+        "medium": "",
+        "twitter" : "https://x.com/worldcoin",
+        "discord" : "https://discord.com/invite/worldnetwork",
+        "coingecko" : "https://www.coingecko.com/en/coins/worldcoin"
+    },
+    "description" : {
+        "ko" : "World Chain은 추상적 개념이 아닌, 실제 ‘인간 사용자’ 중심의 속도, 효율, 무료 거래 기능을 제공하는 차세대 블록체인이라는 점이 핵심입니다.",
+        "en" : "World Chain is a next-generation blockchain designed for real human users, offering speed, efficiency, and free transactions.",
+        "ja" : "World Chainは、実際の人間ユーザーのために設計された次世代ブロックチェーンであり、高速性・効率性・無料取引を提供します。"
+    }
+}
