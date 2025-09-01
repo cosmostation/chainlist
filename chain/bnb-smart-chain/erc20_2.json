@@ -1178,7 +1178,7 @@
         "symbol": "frxETH",
         "description": "",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/frxeth.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frxeth.png",
         "coinGeckoId": "frax-ether"
     },
     {
@@ -1290,5 +1290,35 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bnb-smart-chain/asset/velo.png",
         "coinGeckoId": "velo"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "name": "Renzo Restaked ETH ",
+        "symbol": "ezETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/34753/standard/Ezeth_logo_circle.png",
+        "coinGeckoId": "renzo-restaked-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+        "name": "Frax USD",
+        "symbol": "frxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frxusd.png",
+        "coinGeckoId": "frax-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd1738eb733a636d1b8665f48bc8a24da889c2562",
+        "name": "Frax Price Index",
+        "symbol": "FPI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fpis.png",
+        "coinGeckoId": "frax-price-index-share"
     }
 ]

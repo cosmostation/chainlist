@@ -220,5 +220,25 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/five.png",
         "coinGeckoId": "defive"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+        "name": "Frax USD",
+        "symbol": "frxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frxusd.png",
+        "coinGeckoId": "frax-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+        "name": "Staked Frax USD",
+        "symbol": "sfrxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sfrxusd.png",
+        "coinGeckoId": "staked-frax-usd"
     }
 ]

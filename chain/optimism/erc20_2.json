@@ -691,5 +691,15 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/saga.svg",
         "coinGeckoId": "saga"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2218a117083f5b482b0bb821d27056ba9c04b1d3",
+        "name": "Savings Dai",
+        "symbol": "sDAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/32254/standard/sdai.png",
+        "coinGeckoId": "savings-dai"
     }
 ]

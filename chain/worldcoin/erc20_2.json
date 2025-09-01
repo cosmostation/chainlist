@@ -1,0 +1,114 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x2cfc85d8e48f8eab294be644d9e25c3030863003",
+        "name": "Worldcoin",
+        "symbol": "WLD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/worldcoin/asset/wld.png",
+        "coinGeckoId": "worldcoin-wld",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x79a02482a880bce3f13e09da970dc34db4cd24d1",
+        "name": "Worldcoin USDC",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4200000000000000000000000000000000000006",
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x03c7054bcb39f7b2e5b2c7acb37583e32d70cfa3",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wbtc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x859dbe24b90c9f2f7742083d3cf59ca41f55be5d",
+        "name": "Savings Dai",
+        "symbol": "sDAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/32254/standard/sdai.png",
+        "coinGeckoId": "savings-dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "name": "Renzo Restaked ETH ",
+        "symbol": "ezETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/34753/standard/Ezeth_logo_circle.png",
+        "coinGeckoId": "renzo-restaked-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x43edd7f3831b08fe70b7555ddd373c8bf65a9050",
+        "name": "Frax Ether",
+        "symbol": "frxETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frxeth.png",
+        "coinGeckoId": "frax-ether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3ec3849c33291a9ef4c5db86de593eb4a37fde45",
+        "name": "Staked Frax Ether",
+        "symbol": "sfrxETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sfrxeth.png",
+        "coinGeckoId": "staked-frax-ether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+        "name": "Frax USD",
+        "symbol": "frxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frxusd.png",
+        "coinGeckoId": "frax-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+        "name": "Staked Frax USD",
+        "symbol": "sfrxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sfrxusd.png",
+        "coinGeckoId": "staked-frax-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+        "name": "Frax Price Index",
+        "symbol": "FPI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fpis.png",
+        "coinGeckoId": "frax-price-index-share"
+    }
+]

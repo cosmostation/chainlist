@@ -801,5 +801,35 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ondo.png",
         "coinGeckoId": "ondo-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "name": "Renzo Restaked ETH ",
+        "symbol": "ezETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/34753/standard/Ezeth_logo_circle.png",
+        "coinGeckoId": "renzo-restaked-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+        "name": "Staked Frax USD",
+        "symbol": "sfrxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sfrxusd.png",
+        "coinGeckoId": "staked-frax-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3405e88af759992937b84e58f2fe691ef0eea320",
+        "name": "Frax Price Index",
+        "symbol": "FPI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fpis.png",
+        "coinGeckoId": "frax-price-index-share"
     }
 ]

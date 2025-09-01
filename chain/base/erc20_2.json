@@ -799,5 +799,35 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/lava.svg",
         "coinGeckoId": "lava-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x99ac4484e8a1dbd6a185380b3a811913ac884d87",
+        "name": "Savings Dai",
+        "symbol": "sDAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/32254/standard/sdai.png",
+        "coinGeckoId": "savings-dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "name": "Renzo Restaked ETH ",
+        "symbol": "ezETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/34753/standard/Ezeth_logo_circle.png",
+        "coinGeckoId": "renzo-restaked-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xe5020a6d073a794b6e7f05678707de47986fb0b6",
+        "name": "Frax USD",
+        "symbol": "frxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frxusd.png",
+        "coinGeckoId": "frax-usd"
     }
 ]
