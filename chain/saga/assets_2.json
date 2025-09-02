@@ -9,5 +9,53 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/saga/asset/saga.png",
         "coinGeckoId": "saga-2",
         "color": "#FF724F"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B90825FF57A70109217065F9BB1F61D4C7B2520708304DF356FB7E41E4944EAD",
+        "name": "USDC",
+        "symbol": "USDC",
+        "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "color": "#2775CA",
+        "ibc_info" : {
+            "path": "noble>saga",
+            "client" : {
+                "channel": "channel-37",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-169",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4E8ABDA1A069EDCEBFCEE713F04DB3549BEC5DA5EA8AC70136C15155F7133F91",
+        "name": "Noble Dollar",
+        "symbol": "USDN",
+        "description": "USDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdn.png",
+        "coinGeckoId": "noble-dollar-usdn",
+        "color": "#14C784",
+        "ibc_info" : {
+            "path": "noble>saga",
+            "client" : {
+                "channel": "channel-37",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-169",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdn"
+            }
+        }
     }
 ]
