@@ -1,13 +1,13 @@
 {
-    "chain_id_evm" : "0xc488",
+    "chain_id_evm" : "0x13a7",
     "chain_name": "Somnia",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/resource/chain_somnia.png",
     "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "main_asset_symbol" : "STT",
-    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/stt.png",
+    "main_asset_symbol" : "SOMI",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/somi.png",
     "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "gas_asset_symbol" : "STT",
-    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/stt.png",
+    "gas_asset_symbol" : "SOMI",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/somi.png",
     "origin_genesis_time" : "",
     "api_name" : "somnia",
     "is_support_mobile_wallet" : true,
@@ -22,8 +22,8 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Somnia",
-            "url": "https://dream-rpc.somnia.network/"
+            "provider": "Infra",
+            "url": "https://api.infra.mainnet.somnia.network/"
         }
     ],
     "explorer" : {
@@ -40,7 +40,7 @@
         "medium": "",
         "twitter" : "https://x.com/Somnia_Network",
         "discord" : "https://discord.com/invite/somnia",
-        "coingecko" : ""
+        "coingecko" : "https://www.coingecko.com/coins/somnia"
     },
     "description" : {
         "ko" : "Somnia는 특히 게임, 메타버스, SocialFi 등 실시간 소비자 중심 애플리케이션에 최적화된 EVM 호환 Layer 1 블록체인 네트워크입니다.",
