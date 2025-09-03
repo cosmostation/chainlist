@@ -105,7 +105,8 @@
             "bnb-smart-chain",
             "celo",
             "optimism",
-            "polygon"
+            "polygon",
+            "worldcoin"
         ],
         "socials": {
             "github": "https://github.com/Uniswap",
@@ -126,6 +127,7 @@
             "arbitrum",
             "base",
             "bnb-smart-chain",
+            "mantle",
             "optimism"
         ],
         "socials": {
@@ -149,6 +151,7 @@
             "avalanche",
             "base",
             "berachain",
+            "mantle",
             "optimism",
             "sonic"
         ],
@@ -197,6 +200,7 @@
             "bnb-smart-chain",
             "celo",
             "fantom",
+            "mantle",
             "optimism",
             "polygon",
             "sonic",
@@ -248,9 +252,11 @@
             "celo",
             "fantom",
             "gravity-alpha",
+            "mantle",
             "optimism",
             "polygon",
-            "sonic"
+            "sonic",
+            "worldcoin"
         ],
         "socials": {
             "twitter": "https://x.com/JumperExchange",
@@ -273,6 +279,7 @@
             "bnb-smart-chain",
             "celo",
             "fantom",
+            "mantle",
             "optimism",
             "polygon",
             "sonic"
@@ -300,6 +307,7 @@
             "bnb-smart-chain",
             "cronos",
             "gravity-alpha",
+            "mantle",
             "optimism",
             "polygon",
             "sonic"
@@ -326,6 +334,7 @@
             "bnb-smart-chain",
             "cronos",
             "fantom",
+            "mantle",
             "optimism",
             "polygon"
         ],
@@ -353,9 +362,11 @@
             "cronos",
             "fantom",
             "gravity-alpha",
+            "mantle",
             "optimism",
             "polygon",
-            "sonic"
+            "sonic",
+            "worldcoin"
         ],
         "socials": {
             "telegram": "https://t.me/RocketXexchange",
@@ -459,6 +470,7 @@
             "fantom",
             "haqq",
             "kava",
+            "mantle",
             "optimism",
             "polygon",
             "sonic",
@@ -509,6 +521,7 @@
             "ethereum",
             "arbitrum",
             "base",
+            "mantle",
             "optimism",
             "polygon"
         ],
@@ -596,6 +609,7 @@
             "base",
             "berachain",
             "bnb-smart-chain",
+            "mantle",
             "optimism",
             "polygon"
         ],
@@ -695,9 +709,11 @@
             "gravity-alpha",
             "kaia",
             "kava",
+            "mantle",
             "optimism",
             "polygon",
             "sonic",
+            "worldcoin",
             "xpla"
         ],
         "socials": {
@@ -721,6 +737,7 @@
             "base",
             "berachain",
             "bnb-smart-chain",
+            "mantle",
             "optimism",
             "polygon",
             "sonic"
@@ -742,7 +759,8 @@
             "ethereum",
             "arbitrum",
             "avalanche",
-            "base"
+            "base",
+            "worldcoin"
         ],
         "socials": {
             "twitter": "https://x.com/PoolTogether_",
@@ -2586,9 +2604,11 @@
             "bnb-smart-chain",
             "celo",
             "cronos",
+            "mantle",
             "optimism",
             "polygon",
-            "sui"
+            "sui",
+            "worldcoin"
         ],
         "socials": {
             "twitter": "https://x.com/portalbridge_",
@@ -2711,6 +2731,7 @@
             "avalanche",
             "base",
             "bnb-smart-chain",
+            "mantle",
             "optimism",
             "polygon"
         ],
@@ -2761,8 +2782,16 @@
         "chains": [
             "ethereum",
             "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
             "bnb-smart-chain",
-            "polygon"
+            "mantle",
+            "optimism",
+            "polygon",
+            "sonic",
+            "sui",
+            "worldcoin"
         ],
         "socials": {
             "github": "https://github.com/router-protocol",
@@ -2855,6 +2884,7 @@
             "avalanche",
             "base",
             "bnb-smart-chain",
+            "mantle",
             "optimism",
             "polygon"
         ],
@@ -2897,6 +2927,7 @@
             "bnb-smart-chain",
             "celo",
             "optimism",
+            "mantle",
             "polygon",
             "sonic",
             "story"
@@ -2966,7 +2997,8 @@
             "bnb-smart-chain",
             "celo",
             "optimism",
-            "polygon"
+            "polygon",
+            "worldcoin"
         ],
         "socials": {
             "telegram": "https://t.me/pwndao",
@@ -3048,6 +3080,7 @@
             "base",
             "bnb-smart-chain",
             "celo",
+            "mantle",
             "optimism",
             "polygon"
         ],
@@ -3087,6 +3120,7 @@
             "avalanche",
             "bnb-smart-chain",
             "fantom",
+            "mantle",
             "polygon",
             "sonic"
         ],
@@ -3129,10 +3163,12 @@
             "berachain",
             "celo",
             "gravity-alpha",
+            "mantle",
             "optimism",
             "polygon",
             "sonic",
-            "story"
+            "story",
+            "worldcoin"
         ],
         "socials": {
             "github": "https://github.com/RageTrade",
@@ -3185,6 +3221,7 @@
             "arbitrum",
             "avalanche",
             "base",
+            "mantle",
             "optimism",
             "polygon",
             "sonic"
@@ -3208,6 +3245,7 @@
             "base",
             "berachain",
             "bnb-smart-chain",
+            "mantle",
             "optimism",
             "polygon",
             "sonic"
@@ -3266,9 +3304,11 @@
             "cronos",
             "fantom",
             "gravity-alpha",
+            "matle",
             "optimism",
             "polygon",
-            "sonic"
+            "sonic",
+            "worldcoin"
         ],
         "socials": {
             "telegram": "https://t.me/GravityChain",
@@ -3294,5 +3334,117 @@
             "discord": "https://discord.com/invite/3Ynr2QDSnB"
         },
         "type": "Bridge"
+    },
+    {
+        "id": 190,
+        "name": "Merchant Moe",
+        "description": "Merchant Moe is the cornerstone DEX for Mantle Network. A trader's oasis, Moe offers seamless trading, discretized liquidity",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/merchantmoe.png",
+        "link": "https://merchantmoe.com/",
+        "chains": [
+            "mantle"
+        ],
+        "socials": {
+            "github": "https://github.com/merchant-moe",
+            "twitter": "https://x.com/merchantmoe_xyz",
+            "discord": "https://discord.com/invite/merchantmoe"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 191,
+        "name": "Vertex",
+        "description": "Vertex is a cross-margined decentralized exchange (DEX) protocol offering spot, perpetuals, and an integrated money market",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/vertex.png",
+        "link": "https://app.vertexprotocol.com/markets",
+        "chains": [
+            "arbitrum",
+            "avalanche",
+            "base",
+            "mantle",
+            "sonic"
+        ],
+        "socials": {
+            "twitter": "https://x.com/vertex_protocol",
+            "discord": "https://discord.com/invite/vertexprotocol"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 192,
+        "name": "Lagrange",
+        "description": "Generalizable, non-interactive cross-chain state proofs.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/lagrange.png",
+        "link": "https://stake.lagrange.dev/",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "github": "https://github.com/Lagrange-Labs",
+            "twitter": "https://x.com/lagrangedev",
+            "discord": "https://discord.com/invite/lagrangefoundation"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 193,
+        "name": "Layer3",
+        "description": "The consumer attention layer, powered by $L3. Every chain, every app, 24/7.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/layer.png",
+        "link": "https://app.layer3.xyz/discover",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "fantom",
+            "kaia",
+            "mantle",
+            "optimism",
+            "polygon",
+            "sonic",
+            "worldcoin"
+        ],
+        "socials": {
+            "twitter": "https://x.com/layer3xyz",
+            "discord": "https://discord.com/invite/bzktXw3gEY"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 194,
+        "name": "FusionX",
+        "description": "FusionX creates composable DeFi built to support and nurture the Mantle ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/fusion.png",
+        "link": "https://fusionx.finance/swap",
+        "chains": [
+            "mantle"
+        ],
+        "socials": {
+            "github": "https://github.com/fusionx-finance",
+            "twitter": "https://x.com/fusionx_finance",
+            "telegram": "https://t.me/fusionx_finance",
+            "discord": "https://discord.com/invite/fusionxfinance"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 195,
+        "name": "AGNI",
+        "description": "Agni is a high-capital efficiency, AMM-based decentralized exchange (DEX) and launchpad built to support the Mantle Network ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/agni.png",
+        "link": "https://agni.finance/",
+        "chains": [
+            "mantle"
+        ],
+        "socials": {
+            "github": "https://github.com/agni-protocol",
+            "twitter": "https://x.com/Agnidex",
+            "telegram": "https://t.me/AgniDEXCommunity",
+            "discord": "https://discord.com/invite/H3YrfAkrGc"
+        },
+        "type": "DEX"
     }
 ]
