@@ -30,5 +30,136 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
         "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
+        "name": "WETH",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA",
+        "name": "cmETH",
+        "symbol": "cmETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/cmeth.png",
+        "coinGeckoId": "mantle-restaked-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+        "name": "mETH",
+        "symbol": "mETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/meth.png",
+        "coinGeckoId": "mantle-staked-ether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "name": "USDe",
+        "symbol": "USDe",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/usde.png",
+        "coinGeckoId": "mantle-bridged-usde-mantle"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9F0C013016E8656bC256f948CD4B79ab25c7b94D",
+        "name": "COOK",
+        "symbol": "COOK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/cook.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4515A45337F461A11Ff0FE8aBF3c606AE5dC00c9",
+        "name": "Moe Token",
+        "symbol": "MOE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/moe.png",
+        "coinGeckoId": "moe-3"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5bE26527e817998A7206475496fDE1E68957c5A6",
+        "name": "Ondo U.S. Dollar Yield",
+        "symbol": "USDY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/usdy.png",
+        "coinGeckoId": "ondo-us-dollar-yield"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "name": "Wrapped Mantle",
+        "symbol": "WMNT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/wmnt.png",
+        "coinGeckoId": "wrapped-mantle",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+        "name": "Staked USDe",
+        "symbol": "sUSDe",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/susde.png",
+        "coinGeckoId": "mantle-bridged-susde-mantle"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+        "name": "AUSD",
+        "symbol": "AUSD",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/ausd.png",
+        "coinGeckoId": "agora-dollar"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4b7F28397B4294277E7825f224172944f4f5A877",
+        "name": "IntentX Token",
+        "symbol": "INTX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/intx.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+        "name": "ENA",
+        "symbol": "ENA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/ena.png",
+        "coinGeckoId": "ethena"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xC1E0C8C30F251A07a894609616580ad2CEb547F2",
+        "name": "Cleopatra",
+        "symbol": "CLEO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantle/asset/cleo.png",
+        "coinGeckoId": ""
     }
 ]
