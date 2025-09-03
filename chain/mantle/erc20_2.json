@@ -33,16 +33,6 @@
     },
     {
         "type": "erc20",
-        "contract": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
-        "name": "WETH",
-        "symbol": "WETH",
-        "description": "",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
-        "coinGeckoId": "weth"
-    },
-    {
-        "type": "erc20",
         "contract": "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA",
         "name": "cmETH",
         "symbol": "cmETH",

@@ -28,5 +28,85 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R/logo.png",
         "coinGeckoId": "raydium"
+    },
+    {
+        "type": "spl",
+        "contract": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
+        "name": "Orca",
+        "symbol": "ORCA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE/logo.png",
+        "coinGeckoId": "orca"
+    },
+    {
+        "type": "spl",
+        "contract": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+        "name": "Pump",
+        "symbol": "PUMP",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn/logo.png",
+        "coinGeckoId": "pump-fun"
+    },
+    {
+        "type": "spl",
+        "contract": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "name": "OFFICIAL TRUMP",
+        "symbol": "TRUMP",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN/logo.png",
+        "coinGeckoId": "official-trump"
+    },
+    {
+        "type": "spl",
+        "contract": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "name": "Jupiter",
+        "symbol": "JUP",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN/logo.png",
+        "coinGeckoId": "jupiter-exchange-solana"
+    },
+    {
+        "type": "spl",
+        "contract": "So11111111111111111111111111111111111111112",
+        "name": "Wrapped SOL",
+        "symbol": "WSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+        "coinGeckoId": "wrapped-solana"
+    },
+    {
+        "type": "spl",
+        "contract": "BNso1VUJnh4zcfpZa6986Ea66P6TCp59hvtNJ8b1X85",
+        "name": "Binance Staked SOL",
+        "symbol": "BNSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BNso1VUJnh4zcfpZa6986Ea66P6TCp59hvtNJ8b1X85/logo.png",
+        "coinGeckoId": "binance-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+        "name": "Pudgy Penguins",
+        "symbol": "PENGU",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv/logo.png",
+        "coinGeckoId": "pudgy-penguins"
+    },
+    {
+        "type": "spl",
+        "contract": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+        "name": "Jupiter Perps LP",
+        "symbol": "JLP",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4/logo.png",
+        "coinGeckoId": "jupiter-perpetuals-liquidity-provider-token"
     }
 ]
