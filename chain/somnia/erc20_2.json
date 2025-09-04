@@ -1,2 +1,44 @@
 [
+    {
+        "type": "erc20",
+        "contract": "0x046EDe9564A72571df6F5e44d0405360c0f4dCab",
+        "name": "Wrapped SOMI",
+        "symbol": "WSOMI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x28BEc7E30E6faee657a03e19Bf1128AaD7632A00",
+        "name": "Bridged USDC (Stargate)",
+        "symbol": "USDC.e",
+        "description": "USD Coin (USDC)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x67B302E35Aef5EEE8c32D934F5856869EF428330",
+        "name": "Bridged stgUSDT",
+        "symbol": "USDT",
+        "description": "Bridged stgUSDT (USDT)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x936Ab8C674bcb567CD5dEB85D8A216494704E9D8",
+        "name": "WETH",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/weth.png",
+        "coinGeckoId": "weth"
+    }
 ]
