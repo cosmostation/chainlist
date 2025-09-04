@@ -3447,5 +3447,20 @@
             "discord": "https://discord.com/invite/H3YrfAkrGc"
         },
         "type": "DEX"
+    },
+    {
+        "id": 196,
+        "name": "Somnia DashBoard",
+        "description": "Somnia’s official staking portal to delegate SOMI to validators, view network stats, and manage your delegations.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/somnia.png",
+        "link": "https://staking.somnia.network/",
+        "chains": [
+            "somnia"
+        ],
+        "socials": {
+            "twitter": "https://x.com/Somnia_Network",
+            "discord": "https://discord.com/invite/somnia"
+        },
+        "type": "DashBoard"
     }
 ]
