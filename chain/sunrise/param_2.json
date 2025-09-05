@@ -1,0 +1,112 @@
+{
+    "chain_id_cosmos" : "sunrise-1",
+    "chain_name": "Sunrise",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sunrise/resource/chain_sunrise.png",
+    "staking_asset_denom" : "uvrise",
+    "staking_asset_symbol" : "vRISE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sunrise/asset/vrise.png",
+    "bech_account_prefix" : "sunrise",
+    "bech_validator_prefix" : "sunrisevaloper",
+    "origin_genesis_time" : "2025-08-04T00:00:00Z",
+    "api_name" : "sunrise",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.025uusdrise",
+            "0.04uusdrise"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Nodeist",
+            "url": "grpc-sunrise.nodeist.net:443"
+        },
+        {
+            "provider": "Noders",
+            "url": "sunrise-grpc.noders.services:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.sunrise.nodestake.org:443"
+        },
+        {
+            "provider": "deNodes",
+            "url": "sunrise-mainnet-grpc.denodes.xyz:443"
+        },
+        {
+            "provider": "Decentrio",
+            "url": "https://sunrise.grpc.decentrio.ventures:443"
+        },
+        {
+            "provider": "Synergy Nodes",
+            "url": "sunrise-grpc.synergynodes.com:443"
+        },
+        {
+            "provider": "Anode.team",
+            "url": "sunrise.grpc.m.anode.team:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Nodeist",
+            "url": "https://api-sunrise.nodeist.net"
+        },
+        {
+            "provider": "MekongLabs",
+            "url": "https://sunrise-mainnet-api.mekonglabs.tech"
+        },
+        {
+            "provider": "TC Network",
+            "url": "https://rest.sunrise.tcnetwork.io"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.sunrise.nodestake.org"
+        },
+        {
+            "provider": "Krews",
+            "url": "https://sunrise-api.krews.xyz"
+        }
+    ],
+    "explorer" : {
+        "name": "Risescan",
+        "url": "https://risescan.sunriselayer.io",
+        "account": "https://risescan.sunriselayer.io/accounts/${address}",
+        "tx": "https://risescan.sunriselayer.io/txs/${hash}",
+        "proposal": "https://risescan.sunriselayer.io/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://sunriselayer.io/",
+        "docs": "https://docs.sunriselayer.io",
+        "github" : "https://github.com/sunriselayer",
+        "medium": "https://medium.com/@sunriselayer",
+        "twitter" : "https://twitter.com/sunriselayer",
+        "coingecko" : "https://www.coingecko.com/en/coins/sunrise-layer"
+    },
+    "forum": {
+        "main": "https://discord.gg/sunrise",
+        "governance": "https://risescan.sunriselayer.io/proposals"
+    },
+    "description" : {
+        "en" : "The base layer for Interliquid Networks",
+        "ja" : "Interliquid Networksのベースレイヤー"
+    }
+}
