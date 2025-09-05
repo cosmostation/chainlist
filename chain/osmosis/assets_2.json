@@ -11040,5 +11040,51 @@
                 "denom": "ibc/0C4417F123459B47B6933939BF6F128C362B0C1F9EDA6A6EBC08860E4672AF7E"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5DD535CC5244A556F78ACAFD1067D93C0FB335E69600343840D66E76CE46B30B",
+        "name" : "Sunrise RISE",
+        "symbol": "RISE",
+        "description": "Sunrise Native Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sunrise/asset/rise.png",
+        "coinGeckoId": "sunrise-layer",
+        "ibc_info" : {
+            "path": "sunrise>osmosis",
+            "client" : {
+                "channel": "channel-106275",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "sunrise",
+                "denom": "urise"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2B46DD47EBAA57FB76436A1E5758BDE6356A8CE04D9FE879F95F838FAAD231B6",
+        "name" : "Sunrise USDrise",
+        "symbol": "USDrise",
+        "description": "Sunrise USD Stable Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/usdrise.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "sunrise>osmosis",
+            "client" : {
+                "channel": "channel-106275",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "sunrise",
+                "denom": "uusdrise"
+            }
+        }
     }
 ]
