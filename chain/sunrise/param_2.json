@@ -11,8 +11,8 @@
     "api_name" : "sunrise",
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
-    "is_support_moblie_dapp" : true,
-    "is_support_extension_wallet": true,
+    "is_support_moblie_dapp" : false,
+    "is_support_extension_wallet": false,
     "chain_type": [
         "cosmos"
     ],
