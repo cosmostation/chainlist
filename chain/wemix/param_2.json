@@ -17,7 +17,7 @@
         "evm"
     ],
     "evm_fee_info" : {
-        "is_eip1559": true,
+        "is_eip1559": false,
         "simulated_gas_multiply" : 1.3
     },
     "evm_multicall_info" : {
