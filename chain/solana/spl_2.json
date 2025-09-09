@@ -108,5 +108,95 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4/logo.png",
         "coinGeckoId": "jupiter-perpetuals-liquidity-provider-token"
+    },
+    {
+        "type": "spl",
+        "contract": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+        "name": "JITO",
+        "symbol": "JTO",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL/logo.png",
+        "coinGeckoId": "jito-governance-token"
+    },
+    {
+        "type": "spl",
+        "contract": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+        "name": "JITO",
+        "symbol": "JTO",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL/logo.png",
+        "coinGeckoId": "jito-governance-token"
+    },
+    {
+        "type": "spl",
+        "contract": "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof",
+        "name": "Render Token",
+        "symbol": "RENDER",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof/logo.png",
+        "coinGeckoId": "render-token"
+    },
+    {
+        "type": "spl",
+        "contract": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+        "name": "Pyth Network",
+        "symbol": "PYTH",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3/logo.png",
+        "coinGeckoId": "pyth-network"
+    },
+    {
+        "type": "spl",
+        "contract": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+        "name": "Jupiter Staked SOL",
+        "symbol": "JupSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v/logo.png",
+        "coinGeckoId": "jupiter-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF",
+        "name": "Ai Xovia",
+        "symbol": "AIX",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF/logo.png",
+        "coinGeckoId": "ai-xovia"
+    },
+    {
+        "type": "spl",
+        "contract": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+        "name": "dogwifhat",
+        "symbol": "$WIF",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm/logo.png",
+        "coinGeckoId": "dogwifcoin"
+    },
+    {
+        "type": "spl",
+        "contract": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+        "name": "Wormhole Token",
+        "symbol": "W",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ/logo.png",
+        "coinGeckoId": "wormhole"
+    },
+    {
+        "type": "spl",
+        "contract": "Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs",
+        "name": "Grass",
+        "symbol": "GRASS",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs/logo.png",
+        "coinGeckoId": "grass"
     }
 ]
