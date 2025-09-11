@@ -188,5 +188,105 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs/logo.png",
         "coinGeckoId": "grass"
+    },
+    {
+        "type": "spl",
+        "contract": "SarosY6Vscao718M4A778z4CGtvcwcGef5M9MEH1LGL",
+        "name": "Saros",
+        "symbol": "SAROS",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SarosY6Vscao718M4A778z4CGtvcwcGef5M9MEH1LGL/logo.png",
+        "coinGeckoId": "saros-finance"
+    },
+    {
+        "type": "spl",
+        "contract": "MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u",
+        "name": "Magic Eden",
+        "symbol": "ME",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u/logo.png",
+        "coinGeckoId": "magic-eden"
+    },
+    {
+        "type": "spl",
+        "contract": "DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7",
+        "name": "Drift",
+        "symbol": "DRIFT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7/logo.png",
+        "coinGeckoId": "drift-protocol"
+    },
+    {
+        "type": "spl",
+        "contract": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+        "name": "Kamino",
+        "symbol": "KMNO",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS/logo.png",
+        "coinGeckoId": "kamino"
+    },
+    {
+        "type": "spl",
+        "contract": "LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc",
+        "name": "Solayer",
+        "symbol": "LAYER",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc/logo.png",
+        "coinGeckoId": "solayer"
+    },
+    {
+        "type": "spl",
+        "contract": "SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES",
+        "name": "Sonic SVM",
+        "symbol": "SONIC",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES/logo.png",
+        "coinGeckoId": "sonic-svm"
+    },
+    {
+        "type": "spl",
+        "contract": "BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+        "name": "IO",
+        "symbol": "IO",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K/logo.png",
+        "coinGeckoId": "io"
+    },
+    {
+        "type": "spl",
+        "contract": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+        "name": "BybitSOL",
+        "symbol": "bbSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B/logo.png",
+        "coinGeckoId": "bybit-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+        "name": "Collector Crypt",
+        "symbol": "CARDS",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp/logo.png",
+        "coinGeckoId": "collector-crypt"
+    },
+    {
+        "type": "spl",
+        "contract": "HrkKngiUavecwte1ZMrdt4H5Qet3cecNUzMoEAgjTAX8",
+        "name": "PARABOLIC AI",
+        "symbol": "PAI",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HrkKngiUavecwte1ZMrdt4H5Qet3cecNUzMoEAgjTAX8/logo.png",
+        "coinGeckoId": "parabolic-ai"
     }
 ]
