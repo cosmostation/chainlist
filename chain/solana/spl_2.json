@@ -288,5 +288,205 @@
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HrkKngiUavecwte1ZMrdt4H5Qet3cecNUzMoEAgjTAX8/logo.png",
         "coinGeckoId": "parabolic-ai"
+    },
+    {
+        "type": "spl",
+        "contract": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
+        "name": "Wrapped Ethereum (Sollet)",
+        "symbol": "SOETH",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk/logo.png",
+        "coinGeckoId": "wrapped-ethereum-sollet"
+    },
+    {
+        "type": "spl",
+        "contract": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+        "name": "Zebec Network",
+        "symbol": "ZBCN",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU/logo.png",
+        "coinGeckoId": "zebec-network"
+    },
+    {
+        "type": "spl",
+        "contract": "Dso1bDeDjCQxTrWHqUUi63oBvV7Mdm6WaobLbQ7gnPQ",
+        "name": "Drift Staked SOL",
+        "symbol": "dSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dso1bDeDjCQxTrWHqUUi63oBvV7Mdm6WaobLbQ7gnPQ/logo.png",
+        "coinGeckoId": "drift-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+        "name": "Coinbase Wrapped BTC",
+        "symbol": "cbBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij/logo.png",
+        "coinGeckoId": "coinbase-wrapped-btc"
+    },
+    {
+        "type": "spl",
+        "contract": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+        "name": "Wrapped BTC (Wormhole)",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh/logo.png",
+        "coinGeckoId": "wrapped-btc-wormhole"
+    },
+    {
+        "type": "spl",
+        "contract": "vSoLxydx6akxyMD9XEcPvGYNGq6Nn66oqVb3UkGkei7",
+        "name": "vSOL",
+        "symbol": "vSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/vSoLxydx6akxyMD9XEcPvGYNGq6Nn66oqVb3UkGkei7/logo.png",
+        "coinGeckoId": "the-vault-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "4Z8wM5BEVD5RHZ79AJ5XUN23tsEWSGZne2qqNm647Q9o",
+        "name": "Bitradex Token",
+        "symbol": "BTX",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4Z8wM5BEVD5RHZ79AJ5XUN23tsEWSGZne2qqNm647Q9o/logo.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "spl",
+        "contract": "METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m",
+        "name": "Metaplex",
+        "symbol": "MPLX",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m/logo.png",
+        "coinGeckoId": "metaplex"
+    },
+    {
+        "type": "spl",
+        "contract": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+        "name": "cat in a dogs world",
+        "symbol": "MEW",
+        "description": "",
+        "decimals": 5,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5/logo.png",
+        "coinGeckoId": "cat-in-a-dogs-world"
+    },
+    {
+        "type": "spl",
+        "contract": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+        "name": "Wrapped Ether (Wormhole)",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs/logo.png",
+        "coinGeckoId": "ethereum-wormhole"
+    },
+    {
+        "type": "spl",
+        "contract": "8BMzMi2XxZn9afRaMx5Z6fauk9foHXqV5cLTCYWRcVje",
+        "name": "Staika",
+        "symbol": "STIK",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8BMzMi2XxZn9afRaMx5Z6fauk9foHXqV5cLTCYWRcVje/logo.png",
+        "coinGeckoId": "staika"
+    },
+    {
+        "type": "spl",
+        "contract": "HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
+        "name": "Huma Finance",
+        "symbol": "HUMA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw/logo.png",
+        "coinGeckoId": "huma-finance"
+    },
+    {
+        "type": "spl",
+        "contract": "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump",
+        "name": "Peanut the Squirrel",
+        "symbol": "Pnut",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump/logo.png",
+        "coinGeckoId": "peanut-the-squirrel"
+    },
+    {
+        "type": "spl",
+        "contract": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
+        "name": "Serum",
+        "symbol": "SRM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt/logo.png",
+        "coinGeckoId": "serum"
+    },
+    {
+        "type": "spl",
+        "contract": "AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj",
+        "name": "Syrup USDC",
+        "symbol": "syrupUSDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj/logo.png",
+        "coinGeckoId": "syrupusdc"
+    },
+    {
+        "type": "spl",
+        "contract": "z3dn17yLaGMKffVogeFHQ9zWVcXgqgf3PQnDsNs2g6M",
+        "name": "Oxygen Protocol",
+        "symbol": "OXY",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/z3dn17yLaGMKffVogeFHQ9zWVcXgqgf3PQnDsNs2g6M/logo.png",
+        "coinGeckoId": "oxygen"
+    },
+    {
+        "type": "spl",
+        "contract": "ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY",
+        "name": "Moo Deng",
+        "symbol": "MOODENG",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY/logo.png",
+        "coinGeckoId": "moo-deng"
+    },
+    {
+        "type": "spl",
+        "contract": "vRseBFqTy9QLmmo5qGiwo74AVpdqqMTnxPqWoWMpump",
+        "name": "Verse World",
+        "symbol": "Verse",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/vRseBFqTy9QLmmo5qGiwo74AVpdqqMTnxPqWoWMpump/logo.png",
+        "coinGeckoId": "verse-world"
+    },
+    {
+        "type": "spl",
+        "contract": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB/logo.png",
+        "coinGeckoId": "usd1-wlfi"
+    },
+    {
+        "type": "spl",
+        "contract": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
+        "name": "Ondo US Dollar Yield",
+        "symbol": "USDY",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6/logo.png",
+        "coinGeckoId": "ondo-us-dollar-yield"
     }
 ]
