@@ -40,10 +40,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Nodeist",
-            "url": "grpc-sunrise.nodeist.net:443"
-        },
-        {
             "provider": "Noders",
             "url": "sunrise-grpc.noders.services:443"
         },
@@ -69,10 +65,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Nodeist",
-            "url": "https://api-sunrise.nodeist.net"
-        },
         {
             "provider": "MekongLabs",
             "url": "https://sunrise-mainnet-api.mekonglabs.tech"
