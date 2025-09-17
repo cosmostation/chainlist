@@ -2530,7 +2530,8 @@
         "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/juris-bank.png",
         "link": "https://jurisprotocol.com/",
         "chains": [
-            "terra-classic"
+            "terra-classic",
+            "osmosis",
         ],
         "socials": {
             "github": "https://github.com/JurisProtocol/",
