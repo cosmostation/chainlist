@@ -1,7 +1,8 @@
 {
     "chain_id_cosmos" : "mantra-1",
-    "chain_name": "MANTRA",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/resource/chain_mantra.png",
+    "chain_id_evm" : "0x1700",
+    "chain_name": "Mantra",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/resource/chain_mantra_evm.png",
     "staking_asset_denom" : "uom",
     "staking_asset_symbol" : "OM",
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/om.png",
@@ -10,10 +11,11 @@
     "origin_genesis_time" : "2024-10-10T11:30:00Z",
     "api_name" : "mantra",
     "is_support_cw20" : true,
+    "is_support_erc20" : true,
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_moblie_dapp" : true,
-    "is_support_extension_wallet": true,
+    "is_support_extension_wallet": false,
     "chain_type": [
         "cosmos",
         "evm"
@@ -25,6 +27,7 @@
             "pubkey_type": "/cosmos.evm.crypto.v1.ethsecp256k1.PubKey"
         },
         {
+            "is_default" : false,
             "hd_path": "m/44'/118'/0'/0/X",
             "pubkey_style": "secp256k1",
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
@@ -44,7 +47,7 @@
         "fee_threshold" : ""
     },
     "evm_fee_info" : {
-        "is_eip1559": false,
+        "is_eip1559": true,
         "simulated_gas_multiply" : 1.2
     },
     "grpc_endpoint" : [
@@ -68,6 +71,10 @@
         }
     ],
     "evm_rpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://rpc.evm.mantra.mainnet.cosmostation.io"
+        },
         {
             "provider": "MANTRACHAIN",
             "url": "https://evm.mantrachain.io"
