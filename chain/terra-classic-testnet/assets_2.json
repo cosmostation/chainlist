@@ -1,5 +1,5 @@
 [
-        {
+    {
         "type": "native",
         "denom": "uluna",
         "name" : "LUNC",
@@ -9,8 +9,8 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/uluna.png",
         "coinGeckoId": "",
         "color": "#3f95d4"
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "uusd",
         "name": "USTC",
@@ -19,8 +19,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/UST.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "uaud",
         "name": "AUT",
@@ -29,8 +29,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/AUT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "ucad",
         "name": "CAT",
@@ -39,8 +39,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/CAT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "uchf",
         "name": "CHT",
@@ -49,8 +49,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/CHT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "ucny",
         "name": "CNT",
@@ -59,8 +59,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/CNT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "udkk",
         "name": "DKT",
@@ -69,8 +69,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/DKT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "ugbp",
         "name": "GBT",
@@ -79,8 +79,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/GBT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "ueur",
         "name": "EUT",
@@ -89,8 +89,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/EUT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "uhkd",
         "name": "HKT",
@@ -99,8 +99,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/HKT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "uinr",
         "name": "INT",
@@ -109,8 +109,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/INT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "uidr",
         "name": "IDT",
@@ -119,8 +119,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/IDT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "ujpy",
         "name": "JPT",
@@ -129,8 +129,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/JPT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "ukrw",
         "name": "KRT",
@@ -139,8 +139,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/KRT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "umnt",
         "name": "MNT",
@@ -149,8 +149,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/MNT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "umyr",
         "name": "MYT",
@@ -159,8 +159,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/MYT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "unok",
         "name": "NOT",
@@ -169,8 +169,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/NOT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "uphp",
         "name": "PHT",
@@ -179,8 +179,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/PHT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "usdr",
         "name": "SDT",
@@ -189,8 +189,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/SDT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "usek",
         "name": "SET",
@@ -199,8 +199,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/SET.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "usgd",
         "name": "SGT",
@@ -209,8 +209,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/SGT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "uthb",
         "name": "THT",
@@ -219,8 +219,8 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/THT.png",
         "coinGeckoId": ""
-  },
-  {
+    },
+    {
         "type": "native",
         "denom": "utwd",
         "name": "TWT",
