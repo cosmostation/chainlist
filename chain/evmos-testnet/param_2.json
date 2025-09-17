@@ -28,6 +28,10 @@
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
+    },
     "grpc_endpoint": [
     ],
     "lcd_endpoint" : [
