@@ -190,6 +190,16 @@
         "lcd": "https://lcd-terra.cosmostation.io/"
     },
     {
+        "chain": "terra-classic",
+        "chain_id": "columbus-5",
+        "lcd": "https://lcd.terra-classic.hexxagon.io/"
+    },
+    {
+        "chain": "terra-classic-testnet",
+        "chain_id": "rebel-2",
+        "lcd": "https://rebel-lcd.luncgoblins.com"
+    },
+    {
         "chain": "xion",
         "chain_id": "xion-mainnet-1",
         "lcd": "https://lcd-xion.cosmostation.io/"
