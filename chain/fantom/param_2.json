@@ -35,10 +35,10 @@
         }
     ],
     "explorer" : {
-        "name": "Ftmscan",
-        "url": "https://ftmscan.com/",
-        "account": "https://ftmscan.com/address/${address}",
-        "tx": "https://ftmscan.com/tx/${hash}"
+        "name": "OK Explorer",
+        "url": "https://www.oklink.com/ko/fantom/",
+        "account": "https://www.oklink.com/ko/fantom/address/${address}",
+        "tx": "https://www.oklink.com/ko/fantom/tx/${hash}"
     },
     "about" : {
         "website" : "https://fantom.foundation/",
