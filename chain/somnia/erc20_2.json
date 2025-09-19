@@ -40,5 +40,75 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/weth.png",
         "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd5447aF13A1DF69Add89E185155b20fB72d5e9a7",
+        "name": "jellu",
+        "symbol": "JELLU",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7A132fa1805f3280edDB07D14e87850602CC8dfc",
+        "name": "Ivy Dog",
+        "symbol": "IVY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCE93Cfd14228AC08265E3D2a7307EFE2E46a7798",
+        "name": "Aleksa",
+        "symbol": "ALEKSA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x07e4FF8B9BBA0f9F9AEbeD2Fc5E8A773fb1e03EA",
+        "name": "Bobr Kurwa",
+        "symbol": "BOBR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF94eA570DF9A6970f64aDc3217c72a6A3574CBb1",
+        "name": "Paul Thomas Doge",
+        "symbol": "IVY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7981036Cce68d543cF840ED2b83B27E514Bf119A",
+        "name": "PAUL THOMAS",
+        "symbol": "PAUL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x41827DD1c793D39D67F0d3F080e375645b849f8b",
+        "name": "Feed Token",
+        "symbol": "FEED",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
     }
 ]
