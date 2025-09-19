@@ -3463,5 +3463,34 @@
             "discord": "https://discord.com/invite/somnia"
         },
         "type": "DashBoard"
+    },
+    {
+        "id": 196,
+        "name": "Somnia DashBoard",
+        "description": "Somnia’s official staking portal to delegate SOMI to validators, view network stats, and manage your delegations.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/somnia.png",
+        "link": "https://staking.somnia.network/",
+        "chains": [
+            "somnia"
+        ],
+        "socials": {
+            "twitter": "https://x.com/Somnia_Network",
+            "discord": "https://discord.com/invite/somnia"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 197,
+        "name": "Somnia Stake",
+        "description": "You can stake SOMI tokens on the Somnia network and monitor validator performance and network uptime in real time, operated by B-Harvest.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/somniastake.png",
+        "link": "https://somniastake.xyz/stake/?validator=0xa063e77C64667C9654ef8A3eE38c8cF0613e82b2",
+        "chains": [
+            "somnia"
+        ],
+        "type": "DashBoard"
     }
 ]
+
+
+ 
