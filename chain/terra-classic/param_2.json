@@ -37,11 +37,19 @@
     },
     "grpc_endpoint" : [
         {
+            "provider": "Hexxagon",
+            "url": "grpc.terra-classic.hexxagon.io:443"
+        },
+        {
             "provider": "All Nodes",
             "url": "terra-classic-grpc.publicnode.com:443"
         }
     ],
     "lcd_endpoint" : [
+        {
+            "provider": "Hexxagon",
+            "url": "https://lcd.terra-classic.hexxagon.io/"
+        },
         {
             "provider": "All Nodes",
             "url": "https://terra-classic-lcd.publicnode.com"
