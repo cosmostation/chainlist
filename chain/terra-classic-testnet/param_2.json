@@ -1,14 +1,20 @@
 {
     "chain_id_cosmos" : "rebel-2",
     "chain_name": "Terra Classic Testnet",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnett/resource/chain_terra-classic-testnet.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/resource/chain_terra-classic-testnet.png",
     "staking_asset_denom" : "uluna",
     "staking_asset_symbol" : "LUNC",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/uluna.png",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/luna.png",
     "bech_account_prefix" : "uluna",
     "bech_validator_prefix" : "terravaloper",
+    "origin_genesis_time" : "",
     "api_name" : "terra-classic-testnet",
     "is_support_mintscan": false,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
     "account_type" : [
         {
             "hd_path": "m/44'/330'/0'/0/X",
@@ -43,9 +49,14 @@
         "website" : "https://www.terra-classic.money/",
         "docs": "https://classic-docs.terra.money/",
         "github" : "https://github.com/classic-terra/core",  
-        "coingecko" : "https://www.coingecko.com/en/coins/terra-luna-classic"
+        "coingecko" : ""
     },
     "explorer" : {
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
     },
     "forum": {
         "main": "https://common.xyz/terra-luna-classic-lunc/community-home",
