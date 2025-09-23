@@ -5,7 +5,7 @@
     "staking_asset_denom" : "uluna",
     "staking_asset_symbol" : "LUNC",
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/luna.png",
-    "bech_account_prefix" : "uluna",
+    "bech_account_prefix" : "terra",
     "bech_validator_prefix" : "terravaloper",
     "origin_genesis_time" : "",
     "api_name" : "terra-classic-testnet",
