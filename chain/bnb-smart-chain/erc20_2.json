@@ -1320,5 +1320,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fpis.png",
         "coinGeckoId": "frax-price-index-share"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x000ae314e2a2172a039b26378814c252734f556a",
+        "name": "Aster",
+        "symbol": "ASTER",
+        "description": "",
+        "decimals": 18,
+        "image": "https://bscscan.com/token/images/astertoken_64.png",
+        "coinGeckoId": "aster-2"
     }
 ]
