@@ -1330,5 +1330,15 @@
         "decimals": 18,
         "image": "https://bscscan.com/token/images/astertoken_64.png",
         "coinGeckoId": "aster-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa2e3356610840701bdf5611a53974510ae27e2e1",
+        "name": "Wrapped Binance Beacon ETH",
+        "symbol": "wBETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://etherscan.io/token/images/binancewbeth_32.png",
+        "coinGeckoId": "wrapped-beacon-eth"
     }
 ]
