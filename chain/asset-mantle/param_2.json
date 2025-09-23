@@ -49,14 +49,6 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "WhisperNode 🤐",
-            "url": "https://lcd-assetmantle.whispernode.com/"
-        },
-        {
-            "provider": "paranorm",
-            "url": "https://api.mantle.paranorm.pro/"
-        },
-        {
             "provider": "StakerHouse",
             "url": "https://assetmantle-rest.stakerhouse.com/"
         },

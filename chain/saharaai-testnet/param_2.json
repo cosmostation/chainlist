@@ -45,10 +45,6 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Crouton Digital",
-            "url": "https://sahara-testnet-api.crouton.digital/"
-        },
-        {
             "provider": "Moonlet",
             "url": "https://sahara-api.testnet.moonlet.cloud/public/"
         }
