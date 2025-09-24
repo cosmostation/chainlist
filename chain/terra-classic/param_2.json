@@ -37,8 +37,8 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "All Nodes",
-            "url": "terra-classic-grpc.publicnode.com:443"
+            "provider": "hexxagon",
+            "url": "grpc.terra-classic.hexxagon.io:443"
         }
     ],
     "lcd_endpoint" : [
@@ -57,6 +57,10 @@
         {
             "provider": "Keplr",
             "url": "https://lcd-columbus.keplr.app/"
+        },
+        {
+            "provider": "hexxagon",
+            "url": "https://lcd.terra-classic.hexxagon.io/"
         }
     ],
     "explorer" : {
