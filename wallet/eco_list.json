@@ -3474,6 +3474,17 @@
             "somnia"
         ],
         "type": "DashBoard"
+    },
+    {
+        "id": 198,
+        "name": "Polygon Staking",
+        "description": "olygon Staking is a platform where users can stake MATIC to help secure the Polygon network and earn rewards. It enables delegators to contribute to network consensus while earning staking yields.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/polygonstaking.png",
+        "link": "https://staking.polygon.technology/",
+        "chains": [
+            "ethereum"
+        ],
+        "type": "DashBoard"
     }
 ]
 
