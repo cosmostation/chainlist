@@ -1,0 +1,65 @@
+{
+    "chain_id_evm" : "0xe708",
+    "chain_name": "Linea",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/resource/chain_linea.png",
+    "main_asset_denom" : "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+    "main_asset_symbol" : "LINEA",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/linea.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "ETH",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/eth_linea.png",
+    "origin_genesis_time" : "2023-07-06T01:15:06Z",
+    "api_name" : "linea",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : "0xcA11bde05977b3631167028862bE2a173976CA11"
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Linea",
+            "url": "https://rpc.linea.build"
+        },
+        {
+            "provider": "Public Node",
+            "url": "https://linea-rpc.publicnode.com"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://linea.drpc.org"
+        },
+        {
+            "provider": "1Rpc",
+            "url": "https://1rpc.io/linea"
+        }
+    ],
+    "explorer" : {
+        "name": "Lineascan",
+        "url": "https://lineascan.build/",
+        "account": "https://lineascan.build/address/${address}",
+        "tx": "https://lineascan.build/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://linea.build/",
+        "docs": "https://docs.linea.build/",
+        "github" : "https://github.com/Consensys/doc.linea",
+        "blog" : "https://linea.build/blog",
+        "twitter" : "https://x.com/LineaBuild",
+        "coingecko" : "https://www.coingecko.com/en/coins/linea"
+    },
+    "description" : {
+        "ko" : "Linea 체인은 ConsenSys가 개발한 zkEVM 기반 이더리움 L2 네트워크로, 이더리움과 완전한 호환성을 유지하면서 거래 수수료를 낮추고 처리 속도를 높입니다.",
+        "en" : "Linea is a zkEVM-based Ethereum Layer 2 network developed by ConsenSys, designed to maintain full compatibility with Ethereum while lowering transaction fees and increasing throughput.",
+        "ja" : "LineaはConsenSysが開発したzkEVMベースのEthereumレイヤー2ネットワークで、Ethereumとの完全な互換性を維持しつつ、取引手数料を下げ、処理速度を高めることを目的としています。"
+    }
+}

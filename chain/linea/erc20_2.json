@@ -1,0 +1,175 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+        "name": "Linea",
+        "symbol": "LINEA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/linea.png",
+        "coinGeckoId": "linea",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA219439258ca9da29E9Cc4cE5596924745e12B93",
+        "name": "Tether",
+        "symbol": "USDT",
+        "description": "Tether",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xB5beDd42000b71FddE22D3eE8a79Bd49A568fC8F",
+        "name": "Wrapped liquid staked Ether 2.0 ",
+        "symbol": "wstETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/wsteth.png",
+        "coinGeckoId": "linea-bridged-wsteth-linea"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5B16228B94b68C7cE33AF2ACc5663eBdE4dCFA2d",
+        "name": "ChainLink Token",
+        "symbol": "LINK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/link.png",
+        "coinGeckoId": "linea-bridged-link-linea"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "name": "USDe",
+        "symbol": "USDe",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/usde.png",
+        "coinGeckoId": "ethena-usde"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/wbtc.png",
+        "coinGeckoId": "linea-bridged-wbtc-linea"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x99AD925C1Dc14Ac7cc6ca1244eeF8043C74E99d5",
+        "name": "SHIBA INU",
+        "symbol": "SHIB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/shib.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+        "name": "Staked USDe",
+        "symbol": "sUSDe",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/susde.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5",
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/dai.png",
+        "coinGeckoId": "bridged-dai-stablecoin-linea"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x636B22bC471c955A8DB60f28D4795066a8201fa3",
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/uni.png",
+        "coinGeckoId": "linea-bridged-uni-linea"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+        "name": "ENA",
+        "symbol": "ENA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/ena.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7da14988E4f390C2E34ed41DF1814467D3aDe0c3",
+        "name": "Pepe",
+        "symbol": "PEPE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/pepe.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+        "name": "KelpDao Restaked ETH",
+        "symbol": "rsETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/rseth.png",
+        "coinGeckoId": "layerzero-bridged-rseth-linea"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xea3910f1C6E687B59835885904A2FD1944B51Ec6",
+        "name": "OFFICIAL TRUMP",
+        "symbol": "TRUMP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/trump.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf5C6825015280CdfD0b56903F9F8B5A2233476F5",
+        "name": "Binance Coin",
+        "symbol": "BNB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/bnb.png",
+        "coinGeckoId": "celer-bridged-wbnb-linea"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+        "name": "Renzo Restaked ETH",
+        "symbol": "ezETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/ezeth.png",
+        "coinGeckoId": "renzo-restaked-eth"
+    }
+]
