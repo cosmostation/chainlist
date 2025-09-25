@@ -4418,6 +4418,16 @@
         "decimals": 18,
         "image": "https://etherscan.io/token/images/zro_32.png",
         "coinGeckoId": "layerzero"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+        "name": "Polygon Ecosystem Token",
+        "symbol": "POL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/polecho.png",
+        "coinGeckoId": "polygon-ecosystem-token"
     }
 ]
 
