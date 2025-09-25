@@ -140,5 +140,45 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/orbit.png",
         "coinGeckoId": "orbit-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd582879453337BD149Ae53EC2092B0af5281d1D7",
+        "name": "GLORY",
+        "symbol": "GLORY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/glory.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA4C7aA67189EC5623121c6C94Ec757DfeD932D4B",
+        "name": "Mia",
+        "symbol": "MIA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/mia.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9bD75c164dAf830733AC2EA71A0258f95aac7C57",
+        "name": "BlastCat",
+        "symbol": "BCat",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/bcat.png",
+        "coinGeckoId": "blastcat"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9e20461bc2c4c980f62f1B279D71734207a6A356",
+        "name": "OmniCat",
+        "symbol": "OMNI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/omni.png",
+        "coinGeckoId": "omnicat"
     }
 ]
