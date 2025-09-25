@@ -1,0 +1,69 @@
+{
+    "chain_id_evm" : "0x13e31",
+    "chain_name": "Blast",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/resource/chain_blast.png",
+    "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "main_asset_symbol" : "ETH",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/eth_blast.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "ETH",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/eth_blast.png",
+    "origin_genesis_time" : "2024-02-24T21:23:37Z",
+    "api_name" : "blast",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : "0xcA11bde05977b3631167028862bE2a173976CA11"
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Blast",
+            "url": "https://rpc.blast.io"
+        },
+        {
+            "provider": "Blast",
+            "url": "https://blast.din.dev/rpc"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/blast"
+        },
+        {
+            "provider": "Blastapi",
+            "url": "https://blastl2-mainnet.public.blastapi.io"
+        },
+        {
+            "provider": "TheRpc",
+            "url": "https://blast.therpc.io"
+        }
+    ],
+    "explorer" : {
+        "name": "Blastscan",
+        "url": "https://blastscan.io/",
+        "account": "https://blastscan.io/address/${address}",
+        "tx": "https://blastscan.io/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://blast.io/en",
+        "docs": "https://docs.blast.io/about-blast",
+        "github" : "https://github.com/blast-io",
+        "blog" : "https://blog.blast.io/",
+        "twitter" : "https://x.com/Blast",
+        "coingecko" : "https://www.coingecko.com/en/coins/blast"
+    },
+    "description" : {
+        "ko" : "Blast는 이더리움의 EVM-호환 Optimistic 롤업 L2로, 트랜잭션을 묶어 메인넷에 정산해 수수료를 낮추고 처리량을 높입니다",
+        "en" : "Blast is an EVM-compatible optimistic rollup L2 for Ethereum that batches transactions and settles them on the mainnet, reducing fees and increasing throughput.",
+        "ja" : "BlastはイーサリアムのEVM互換のオプティミスティック・ロールアップ型L2で、トランザクションをバッチ化してメインネットに確定することで手数料を抑え、スループットを向上させます。"
+    }
+}
