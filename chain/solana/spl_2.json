@@ -488,5 +488,125 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6/logo.png",
         "coinGeckoId": "ondo-us-dollar-yield"
+    },
+    {
+        "type": "spl",
+        "contract": "GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr",
+        "name": "BlackRock USD Institutional Digital Liquidity Fund",
+        "symbol": "BUIDL",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr/logo.png",
+        "coinGeckoId": "blackrock-usd-institutional-digital-liquidity-fund"
+    },
+    {
+        "type": "spl",
+        "contract": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB/logo.png",
+        "coinGeckoId": "usd1-wlfi"
+    },
+    {
+        "type": "spl",
+        "contract": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "name": "SPX6900 (Wormhole)",
+        "symbol": "SPX",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr/logo.png",
+        "coinGeckoId": "spx6900"
+    },
+    {
+        "type": "spl",
+        "contract": "shixxut6zHRKnbCVqzBDB6tDBFWKqds92gu9n1HXj5i",
+        "name": "Shisha Coin",
+        "symbol": "SHISHA",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/shixxut6zHRKnbCVqzBDB6tDBFWKqds92gu9n1HXj5i/logo.png",
+        "coinGeckoId": "shisha-coin-2"
+    },
+    {
+        "type": "spl",
+        "contract": "TUNAfXDZEdQizTMTh3uEvNvYqJmqFHZbEJt8joP4cyx",
+        "name": "DefiTuna",
+        "symbol": "TUNA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TUNAfXDZEdQizTMTh3uEvNvYqJmqFHZbEJt8joP4cyx/logo.png",
+        "coinGeckoId": "defituna"
+    },
+    {
+        "type": "spl",
+        "contract": "ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82",
+        "name": "BOOK OF MEME",
+        "symbol": "BOME",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82/logo.png",
+        "coinGeckoId": "book-of-meme"
+    },
+    {
+        "type": "spl",
+        "contract": "ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq",
+        "name": "ZEUS",
+        "symbol": "ZEUS",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq/logo.png",
+        "coinGeckoId": "zeus-network"
+    },
+    {
+        "type": "spl",
+        "contract": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC",
+        "name": "ai16z",
+        "symbol": "ai16z",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC/logo.png",
+        "coinGeckoId": "ai16z"
+    },
+    {
+        "type": "spl",
+        "contract": "NeonTjSjsuo3rexg9o6vHuMXw62f9V7zvmu8M8Zut44",
+        "name": "Neon EVM Token",
+        "symbol": "NEON",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/NeonTjSjsuo3rexg9o6vHuMXw62f9V7zvmu8M8Zut44/logo.png",
+        "coinGeckoId": "neon"
+    },
+    {
+        "type": "spl",
+        "contract": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
+        "name": "Cloud",
+        "symbol": "CLOUD",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu/logo.png",
+        "coinGeckoId": "sanctum-2"
+    },
+    {
+        "type": "spl",
+        "contract": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
+        "name": "Serum",
+        "symbol": "SRM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt/logo.png",
+        "coinGeckoId": "serum"
+    },
+    {
+        "type": "spl",
+        "contract": "goodX4LG92UAcRdFRUykfP2fAfzQAVttrToEPxtxSkp",
+        "name": "goodcryptoX",
+        "symbol": "GOOD",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/goodX4LG92UAcRdFRUykfP2fAfzQAVttrToEPxtxSkp/logo.png",
+        "coinGeckoId": "goodcryptox"
     }
 ]
