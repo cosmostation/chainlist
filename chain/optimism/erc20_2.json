@@ -701,5 +701,15 @@
         "decimals": 18,
         "image": "https://assets.coingecko.com/coins/images/32254/standard/sdai.png",
         "coinGeckoId": "savings-dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+        "name": "LayerZero",
+        "symbol": "ZRO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://etherscan.io/token/images/zro_32.png",
+        "coinGeckoId": "layerzero"
     }
 ]

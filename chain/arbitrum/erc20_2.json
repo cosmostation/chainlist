@@ -831,5 +831,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fpis.png",
         "coinGeckoId": "frax-price-index-share"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+        "name": "LayerZero",
+        "symbol": "ZRO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://etherscan.io/token/images/zro_32.png",
+        "coinGeckoId": "layerzero"
     }
 ]
