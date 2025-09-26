@@ -171,5 +171,35 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/ezeth.png",
         "coinGeckoId": "renzo-restaked-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+        "name": "Solv BTC",
+        "symbol": "SolvBTC",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/solvbtc.png",
+        "coinGeckoId": "solv-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0e076AAFd86a71dCEAC65508DAF975425c9D0cB6",
+        "name": "Lido DAO Token",
+        "symbol": "LDO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/ldo.png",
+        "coinGeckoId": "linea-bridged-ldo-linea"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5471ea8f739dd37E9B81Be9c5c77754D8AA953E4",
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/linea/asset/avax.png",
+        "coinGeckoId": "avalanche-2"
     }
 ]
