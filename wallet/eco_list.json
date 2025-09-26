@@ -50,6 +50,7 @@
             "avalanche",
             "fantom",
             "kaia",
+            "linea",
             "optimism",
             "polygon",
             "sonic"
@@ -102,6 +103,7 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
             "bnb-smart-chain",
             "celo",
             "optimism",
@@ -126,7 +128,9 @@
             "ethereum",
             "arbitrum",
             "base",
+            "blast",
             "bnb-smart-chain",
+            "linea",
             "mantle",
             "optimism"
         ],
@@ -197,9 +201,11 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
             "bnb-smart-chain",
             "celo",
             "fantom",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -249,9 +255,11 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
             "celo",
             "fantom",
             "gravity-alpha",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -280,6 +288,7 @@
             "celo",
             "fantom",
             "mantle",
+            "linea",
             "optimism",
             "polygon",
             "sonic"
@@ -304,9 +313,11 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
             "bnb-smart-chain",
             "cronos",
             "gravity-alpha",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -331,9 +342,11 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
             "bnb-smart-chain",
             "cronos",
             "fantom",
+            "linea",
             "mantle",
             "optimism",
             "polygon"
@@ -357,11 +370,13 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
             "bnb-smart-chain",
             "celo",
             "cronos",
             "fantom",
             "gravity-alpha",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -464,12 +479,14 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
             "bnb-smart-chain",
             "celo",
             "cronos",
             "fantom",
             "haqq",
             "kava",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -498,6 +515,8 @@
             "bnb-smart-chain",
             "celo",
             "cronos",
+            "linea",
+            "mantle",
             "optimism",
             "polygon",
             "sonic"
@@ -521,6 +540,7 @@
             "ethereum",
             "arbitrum",
             "base",
+            "linea",
             "mantle",
             "optimism",
             "polygon"
@@ -543,6 +563,7 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
             "berachain",
             "optimism",
             "polygon"
@@ -609,6 +630,7 @@
             "base",
             "berachain",
             "bnb-smart-chain",
+            "linea",
             "mantle",
             "optimism",
             "polygon"
@@ -704,11 +726,13 @@
             "avalanche",
             "base",
             "berachain",
+            "blast",
             "bnb-smart-chain",
             "fantom",
             "gravity-alpha",
             "kaia",
             "kava",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -1548,9 +1572,12 @@
             "avalanche",
             "berachain",
             "bnb-smart-chain",
+            "blast",
             "fantom",
             "gravity-alpha",
             "kaia",
+            "linea",
+            "mantle",
             "optimism",
             "polygon",
             "sonic",
@@ -1572,14 +1599,19 @@
         "chains": [
             "arbitrum",
             "avalanche",
+            "base",
             "berachain",
+            "blast",
             "bnb-smart-chain",
             "cronos",
             "fantom",
             "kaia",
+            "linea",
+            "mantle",
             "optimism",
             "polygon",
             "sonic",
+            "worldcoin",
             "zeta"
         ],
         "socials": {
@@ -1600,9 +1632,12 @@
             "arbitrum",
             "avalanche",
             "berachain",
+            "blast",
             "bnb-smart-chain",
             "celo",
             "fantom",
+            "linea",
+            "mantle",
             "optimism",
             "polygon",
             "zeta"
@@ -2606,6 +2641,7 @@
             "bnb-smart-chain",
             "celo",
             "cronos",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -2732,7 +2768,9 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
             "bnb-smart-chain",
+            "linea",
             "mantle",
             "optimism",
             "polygon"
@@ -2788,6 +2826,7 @@
             "base",
             "berachain",
             "bnb-smart-chain",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -2849,6 +2888,7 @@
             "ethereum",
             "arbitrum",
             "base",
+            "blast",
             "bnb-smart-chain",
             "polygon"
         ],
@@ -2886,6 +2926,7 @@
             "avalanche",
             "base",
             "bnb-smart-chain",
+            "linea",
             "mantle",
             "optimism",
             "polygon"
@@ -2928,8 +2969,9 @@
             "berachain",
             "bnb-smart-chain",
             "celo",
-            "optimism",
+            "linea",
             "mantle",
+            "optimism",
             "polygon",
             "sonic",
             "story"
@@ -2998,6 +3040,7 @@
             "base",
             "bnb-smart-chain",
             "celo",
+            "linea",
             "optimism",
             "polygon",
             "worldcoin"
@@ -3057,8 +3100,10 @@
             "avalanche",
             "base",
             "berachain",
+            "blast",
             "bnb-smart-chain",
             "kava",
+            "linea",
             "optimism",
             "polygon"
         ],
@@ -3080,8 +3125,10 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
             "bnb-smart-chain",
             "celo",
+            "linea",
             "mantle",
             "optimism",
             "polygon"
@@ -3163,8 +3210,10 @@
             "avalanche",
             "base",
             "berachain",
+            "blast",
             "celo",
             "gravity-alpha",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -3223,6 +3272,8 @@
             "arbitrum",
             "avalanche",
             "base",
+            "blast",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -3247,6 +3298,7 @@
             "base",
             "berachain",
             "bnb-smart-chain",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -3301,11 +3353,13 @@
             "avalanche",
             "base",
             "berachain",
+            "blast",
             "bnb-smart-chain",
             "celo",
             "cronos",
             "fantom",
             "gravity-alpha",
+            "linea",
             "matle",
             "optimism",
             "polygon",
@@ -3354,25 +3408,6 @@
         "type": "DEX"
     },
     {
-        "id": 191,
-        "name": "Vertex",
-        "description": "Vertex is a cross-margined decentralized exchange (DEX) protocol offering spot, perpetuals, and an integrated money market",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/vertex.png",
-        "link": "https://app.vertexprotocol.com/markets",
-        "chains": [
-            "arbitrum",
-            "avalanche",
-            "base",
-            "mantle",
-            "sonic"
-        ],
-        "socials": {
-            "twitter": "https://x.com/vertex_protocol",
-            "discord": "https://discord.com/invite/vertexprotocol"
-        },
-        "type": "DEX"
-    },
-    {
         "id": 192,
         "name": "Lagrange",
         "description": "Generalizable, non-interactive cross-chain state proofs.",
@@ -3400,9 +3435,11 @@
             "avalanche",
             "base",
             "berachain",
+            "blast",
             "bnb-smart-chain",
             "fantom",
             "kaia",
+            "linea",
             "mantle",
             "optimism",
             "polygon",
@@ -3485,6 +3522,126 @@
             "ethereum"
         ],
         "type": "DashBoard"
+    },
+    {
+        "id": 199,
+        "name": "Linea Hub",
+        "description": "The Linea Bridge Aggregator allows users to bridge assets from any blockchain by automatically finding and routing through the fastest path. It simplifies cross-chain transfers by aggregating different bridge protocols and optimizing for speed and efficiency.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/lineahub.png",
+        "link": "https://linea.build/hub/bridge/bridge-aggregator",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "blast",
+            "bnb-smart-chain",
+            "fantom",
+            "linea",
+            "mantle",
+            "optimism",
+            "polygon",
+            "sonic"
+        ],
+        "socials": {
+            "twitter": "https://x.com/LineaBuild",
+            "discord": "https://discord.com/invite/linea"
+        },
+        "type": "Bridge"
+    },
+    {
+        "id": 200,
+        "name": "Myriad",
+        "description": "Trade opinions on anything from crypto, politics and sports to gaming, culture and technology. Break the news. Stake the news. Make the news.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/myriad.png",
+        "link": "https://linea.myriadprotocol.com/markets?utm_source=linea_hub",
+        "chains": [
+            "linea"
+        ],
+        "socials": {
+            "twitter": "https://x.com/MyriadProtocol"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 201,
+        "name": "Myriad",
+        "description": "Trade opinions on anything from crypto, politics and sports to gaming, culture and technology. Break the news. Stake the news. Make the news.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/myriad.png",
+        "link": "https://linea.myriadprotocol.com/markets?utm_source=linea_hub",
+        "chains": [
+            "linea"
+        ],
+        "socials": {
+            "twitter": "https://x.com/MyriadProtocol"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 202,
+        "name": "Agentify",
+        "description": "Agentify is an Ai infrastructure designed to make decentralized finance (DeFi) as easy as chatting with a friend using MCP.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/agentify.png",
+        "link": "https://app.agentifyai.org/",
+        "chains": [
+            "ethereum"
+        ],
+        "socials": {
+            "github": "https://github.com/Agentify-Foundation",
+            "twitter": "https://x.com/agentifyxyz?s=21",
+            "telegram": "https://t.me/agentifyportal"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 203,
+        "name": "Astera Fi",
+        "description": "Astera is a DeFi protocol designed to provide instant access to liquidity and yield for stablecoins, powered by asUSD.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/astera.png",
+        "link": "https://astera.fi/",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "blast",
+            "bnb-smart-chain",
+            "celo",
+            "fantom",
+            "gravity-alpha",
+            "kaia",
+            "linea",
+            "mantle",
+            "optimism",
+            "polygon",
+            "sonic",
+            "worldcoin"
+        ],
+        "socials": {
+            "github": "https://github.com/Astera-Finance/",
+            "twitter": "https://x.com/Asterafinance"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 204,
+        "name": "Bounce",
+        "description": "Bounce Finance is a decentralized auction protocol that empowers users to create and join various types of on-chain auctions on multiple blockchain networks.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/bounce.png",
+        "link": "https://linea.build/hub/apps/bounce",
+        "chains": [
+            "ethereum",
+            "arbitrum",
+            "base",
+            "bnb-smart-chain"
+        ],
+        "socials": {
+            "twitter": "https://x.com/bounce_finance",
+            "telegram": "https://t.me/bouncefinance",
+            "discord": "https://discord.com/invite/EFQC6jYd8e"
+        },
+        "type": "DeFi"
     }
 ]
 
