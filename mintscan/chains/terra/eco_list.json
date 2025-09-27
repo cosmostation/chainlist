@@ -210,18 +210,18 @@
     }
   },
   {
-    "name": "Stargate Finance",
+    "name": "WAN Bridge",
     "type": "Transport",
-    "description": "Transfer USDT from anywhere to Kava EVM (Route: Stargate V1). Then use the "Kava to Terra" app.",
+    "description": "Wanchain's cross-chain bridge perfect for USDT (via Kava IBC) and USDC (via Noble) transfers in and out of Cosmos."
     "status": "open",
-    "thumbnail" : "stargate",
-    "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
+    "thumbnail" : "wanchain",
+    "link": "https://bridge.wanchain.org/AssetBridge",
     "social": {
-      "webSite": "https://stargate.finance",
-      "twitter": "https://x.com/StargateFinance",
-      "medium": "https://medium.com/stargate-official",
-      "github": "https://github.com/stargate-protocol",
-      "docs": "https://www.kava.io/news/how-to-bridge-usdt-with-stargate"
+      "webSite": "https://www.wanchain.org/",
+      "twitter": "https://x.com/wanchain_org",
+      "medium": "https://medium.com/@wanchain_org",
+      "github": "https://github.com/wanchain",
+      "docs": "https://docs.wanchain.org/products/wanbridge"
     }
   },
   {
