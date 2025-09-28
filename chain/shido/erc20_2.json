@@ -12,8 +12,8 @@
     },
     {
         "type": "erc20",
-        "contract": "0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd",
-        "name" : "Shido usdc",
+        "contract": "0xeE1Fc22381e6B6bb5ee3bf6B5ec58DF6F5480dF8",
+        "name" : "USDC",
         "symbol": "USDC",
         "description": "",
         "decimals": 6,
@@ -49,16 +49,6 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/kiddo.png",
-        "coinGeckoId": ""
-    },
-    {
-        "type": "erc20",
-        "contract": "0xd9650144Cd028fc70270a26C1D878E5dbeF8CE9A",
-        "name" : "Magic",
-        "symbol": "MAGIC",
-        "description": "",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/magic.png",
         "coinGeckoId": ""
     },
     {
@@ -109,6 +99,36 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/shidoshi.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4b0cBcad61c5584EdE3ca9fd45eF1feBB2215311",
+        "name" : "Nerd",
+        "symbol": "NERD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/nerd.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1f5b6F4126575835c23D1b6c38535FA215df03c5",
+        "name" : "MSMoon",
+        "symbol": "MSMoon",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/msmoon.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1B22b06eF38140064004cA050b3A67348B94A220",
+        "name" : "Ippon",
+        "symbol": "IPN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/shido/asset/ippon.png",
         "coinGeckoId": ""
     }
 ]
