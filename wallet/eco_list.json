@@ -3642,6 +3642,69 @@
             "discord": "https://discord.com/invite/EFQC6jYd8e"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 205,
+        "name": "Raydium",
+        "description": "The Raydium Swap interface enables users to instantly trade (swap) tokens on the Solana blockchain, tapping into liquidity pools.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/raydium.png",
+        "link": "https://raydium.io/swap/",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "twitter": "https://x.com/RaydiumProtocol",
+            "telegram": "https://t.me/raydiumprotocol",
+            "discord": "https://discord.com/invite/raydium"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 206,
+        "name": "Solanex",
+        "description": "Solanex.ai is a platform leveraging AI to provide analytics, predictions, and insights for the Solana ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/solanex.png",
+        "link": "https://solanex.ai/app/swap",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "github": "https://github.com/solanex-official",
+            "twitter": "https://x.com/solanex_ai",
+            "telegram": "https://t.me/solanex_ai"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 207,
+        "name": "Solayer",
+        "description": "Solayer is a hardware-accelerated blockchain platform aiming to enhance transaction throughput and efficiency.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/solayer.png",
+        "link": "https://app.solayer.org/",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "github": "https://github.com/solayer-labs",
+            "twitter": "https://x.com/solayer_labs",
+            "discord": "https://discord.com/invite/solayerlabs"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 208,
+        "name": "Dexlab",
+        "description": "Dexlab makes launching on Solana easy, with a token minting lab, a launchpad, and a dedicated DEX for all listings.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dexlab.png",
+        "link": "https://app.dexlab.space/",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "twitter": "https://x.com/Dexlab_official",
+            "telegram": "https://t.me/dexlab_official"
+        },
+        "type": "DEX"
     }
 ]
 
