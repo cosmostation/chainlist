@@ -11111,6 +11111,43 @@
         }
     },
     {
+        "type": "native",
+        "denom": "factory/osmo1t82ql2w69m9g3un7c6sk5wss578ewst2uscr7zdkn6k8rmzc3e8qz9n4q2/alloyed/allUSD",
+        "name": "Osmosis Alloyed USD",
+        "symbol": "allUSD",
+        "description": "An alloy of USD asset variants on Osmosis.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usd.svg",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1gzcz4anh88fz3vanx0842gsa3y8jcvck3qw90e/uallin",
+        "name": "ALLIN",
+        "symbol": "ALLIN",
+        "description": "ALLiN Gaming is a GameFi platform on Dymension and Osmosis, featuring casino games, PvP games, and prediction markets. It offers a fun, transparent, and rewarding experience with a unique points system.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allin.png"
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1are7fpe5l6jzm9sjn7u4qkq6q77wwrrsxzlyw8lcegmmaxdukvuq4h46dx/LABS",
+        "name": "Labrador",
+        "symbol": "LABS",
+        "description": "Community-secured Meme token on Osmosis",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/LABS.png"
+    },
+    {
+        "type": "native",
+        "denom": "factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark",
+        "name": "Quark",
+        "symbol": "QUARK",
+        "description": "Quark ($QUARK) is an Osmosis token launched on the Cosmos Hub.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png"
+    },
+    {
         "type": "ibc",
         "denom": "ibc/32C4AEE2B3C4F767A351FA821AB0140B10CB690CDED27D9FCC857859B44432B9",
         "name": "Lumera",
