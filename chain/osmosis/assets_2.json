@@ -11109,5 +11109,28 @@
                 "denom": "uusdrise"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/32C4AEE2B3C4F767A351FA821AB0140B10CB690CDED27D9FCC857859B44432B9",
+        "name": "Lumera",
+        "symbol": "LUME",
+        "description": "Lumera Mainnet Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lumera/asset/lume.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "lumera>osmosis",
+            "client" : {
+                "channel": "channel-106313",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "lumera",
+                "denom": "ulume"
+            }
+        }
     }
 ]
