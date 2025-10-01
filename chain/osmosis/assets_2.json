@@ -9691,6 +9691,29 @@
         }
     },
     {
+        "type": "ibc",
+        "denom": "ibc/D6E02C5AE8A37FC2E3AB1FC8AC168878ADB870549383DFFEA9FD020C234520A7",
+        "name" : "Photon",
+        "symbol": "PHOTON",
+        "description": "Sole fee token used to pay all transaction fees on the AtomOne network and is minted by burning ATONE tokens.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/asset/photon.png",
+        "coinGeckoId": "atomone",
+        "ibc_info": {
+            "path": "atomone>osmosis",
+            "client": {
+                "channel": "channel-94814",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "atomone",
+                "denom": "uatone"
+            }
+        }
+    },
+    {
         "type": "native",
         "denom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice",
         "name": "Spice",
