@@ -1,0 +1,62 @@
+{
+    "chain_id_cosmos" : "intento-1",
+    "chain_name": "Intento",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/intento/resource/chain_intento.png",
+    "staking_asset_denom" : "uinto",
+    "staking_asset_symbol" : "INTO",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/intento/asset/into.png",
+    "bech_account_prefix" : "into",
+    "bech_validator_prefix" : "intovaloper",
+    "origin_genesis_time" : "2025-08-27T11:00:00Z",
+    "api_name" : "intento",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.01uinto",
+            "0.02uinto",
+            "0.03uinto"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Intento",
+            "url": "https://lcd-mainnet.intento.zone/"
+        }
+    ],
+    "explorer" : {
+        "name": "Ping.pub",
+        "url": "https://ping.pub/intento",
+        "account": "https://ping.pub/intento/account/${address}",
+        "tx": "https://ping.pub/intento/tx/${hash}",
+        "proposal": "https://ping.pub/intento/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://intento.zone/",
+        "blog" : "https://intento.zone/blog/",
+        "github" : "https://github.com/trstlabs",
+        "twitter" : "https://x.com/intentozone",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Intento 체인은 사용자의 “의도(intent)”를 조건 기반으로 지정하면, 그것을 자동으로 실행해 주는 Cosmos/IBC 기반의 자동화·오케스트레이션 블록체인입니다.",
+        "en" : "ntento Chain is a Cosmos/IBC-based automation and orchestration blockchain that allows users to define their “intents” with conditional logic and have them executed automatically.",
+        "ja" : "Intentoチェーンは、ユーザーが「インテント（意図）」を条件に基づいて指定すると、それを自動的に実行してくれる、Cosmos/IBCベースの自動化・オーケストレーション・ブロックチェーンです。"
+    }
+}
