@@ -11170,5 +11170,28 @@
                 "denom": "ulume"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836",
+        "name" : "Intento",
+        "symbol": "INTO",
+        "description": "Intento native token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/intento/asset/into.png",
+        "color": "#BDE3F4",
+        "ibc_info" : {
+            "path": "intento>osmosis",
+            "client" : {
+                "channel": "channel-106076",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "intento",
+                "denom": "uinto"
+            }
+        }
     }
 ]
