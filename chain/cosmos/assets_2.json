@@ -1116,7 +1116,7 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/intento/asset/into.png",
         "color": "#BDE3F4",
         "ibc_info" : {
-            "path": "intento>osmosis",
+            "path": "intento>cosmos",
             "client" : {
                 "channel": "channel-1492",
                 "port": "transfer"
