@@ -3642,6 +3642,21 @@
             "discord": "https://discord.com/invite/EFQC6jYd8e"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 205,
+        "name": "Suilend",
+        "description": "Suilend is a decentralized lending and borrowing protocol built on the Sui blockchain, offering users the ability to deposit assets to earn interest or use them as collateral to borrow other tokens.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/suilend.png",
+        "link": "https://suilend.fi/",
+        "chains": [
+            "sui"
+        ],
+        "socials": {
+            "twitter": "https://x.com/suilendprotocol",
+            "discord": "https://discord.com/invite/suilend"
+        },
+        "type": "DeFi"
     }
 ]
 
