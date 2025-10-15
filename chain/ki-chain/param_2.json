@@ -33,39 +33,19 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Notional",
-            "url": "grpc-kichain-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "kichain-grpc.lavenderfive.com:443"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "kifoundation",
-            "url": "https://api-mainnet.blockchain.ki/"
-        },
-        {
             "provider": "🔥STAVR🔥",
             "url": "https://kichain.api.m.stavr.tech/"
-        },
-        {
-            "provider": "ChainTools",
-            "url": "https://api.kichain.chaintools.tech/"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://kichain-mainnet-lcd.autostake.com/"
         }
     ],
     "explorer" : {
-        "name": "Big Dipper",
-        "url": "https://explorer.blockchain.ki/",
-        "account": "https://explorer.blockchain.ki/account/${address}",
-        "tx": "https://explorer.blockchain.ki/transactions/${hash}",
-        "proposal": "https://explorer.blockchain.ki/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/ki-chain",
+        "account": "https://atomscan.com/ki-chain/accounts/${address}",
+        "tx": "https://atomscan.com/ki-chain/transactions/${hash}",
+        "proposal": "https://atomscan.com/ki-chain/votes/${id}"
     },
     "about" : {
         "website" : "https://www.foundation.ki/",
