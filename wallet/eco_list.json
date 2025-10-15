@@ -3657,6 +3657,23 @@
             "discord": "https://discord.com/invite/suilend"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 206,
+        "name": "Intento Portal",
+        "description": "Intento Portal is a platform that allows users to create and manage complex on-chain flows without writing code. It provides an interface to automate actions like token transfers, swaps, and conditional executions across multiple blockchains.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/intento.png",
+        "link": "https://portal.intento.zone/",
+        "chains": [
+            "intento"
+        ],
+        "socials": {
+            "github": "https://github.com/trstlabs/intento-portal",
+            "twitter": "https://x.com/intentozone",
+            "telegram": "https://t.me/intentoannouncements",
+            "discord": "https://discord.com/invite/hsVf9sYyZW"
+        },
+        "type": "DashBoard"
     }
 ]
 
