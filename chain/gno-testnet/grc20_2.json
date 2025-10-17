@@ -1,9 +1,9 @@
 [
     {
         "type": "grc20",
-        "contract": "gno.land/r/g17290cwvmrapvp869xfnhhawa8sm9edpufzat7d/doge",
-        "name" : "Doge",
-        "symbol": "DOGE",
+        "contract": "gno.land/r/demo/defi/foo20",
+        "name" : "Foo",
+        "symbol": "FOO",
         "description": "",
         "decimals": 4,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/unknown.png",
