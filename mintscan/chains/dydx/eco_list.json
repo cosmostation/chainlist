@@ -106,5 +106,18 @@
       "youtube": "https://www.youtube.com/channel/UCMgSOd_ZsVpDxbpuoIBYYSw",
       "github": "https://github.com/ChaosLabsInc"
     }
-  }  
+  },
+  {
+    "name": "dYdX Trading Arena",
+    "type": "Trading Competition",
+    "description": "A competitive trading competition where traders can showcase their skills and compete for prizes.",
+    "status": "open",
+    "thumbnail" : "dydx-trading-arena",
+    "link": "https://dydxarena.com/",
+    "social": {
+      "webSite": "https://dydxarena.com/",
+      "twitter": "https://x.com/dydxarena",
+      "github": "https://github.com/openreachtech/dydx-trading-competition-frontend"
+    }
+  }
 ]
