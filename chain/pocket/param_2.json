@@ -10,7 +10,7 @@
     "origin_genesis_time" : "2025-03-28T17:35:52Z",
     "api_name" : "pocket",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "chain_type": [
         "cosmos"
     ],

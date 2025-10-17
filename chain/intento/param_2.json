@@ -10,7 +10,7 @@
     "origin_genesis_time" : "2025-08-27T11:00:00Z",
     "api_name" : "intento",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "is_support_moblie_dapp" : true,
     "chain_type": [
         "cosmos"
