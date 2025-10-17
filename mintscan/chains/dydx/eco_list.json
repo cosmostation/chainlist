@@ -119,5 +119,17 @@
       "twitter": "https://x.com/dydxarena",
       "github": "https://github.com/openreachtech/dydx-trading-competition-frontend"
     }
+  },
+  {
+    "name": "dYdX Token Sender",
+    "type": "Tools",
+    "description": "Distribute tokens to multiple recipients in a single transaction.",
+    "status": "open",
+    "thumbnail" : "dydx-token-sender",
+    "link": "https://tokensender.dydxarena.com/",
+    "social": {
+      "webSite": "https://tokensender.dydxarena.com/",
+      "github": "https://github.com/openreachtech/cosmos-based-token-sender"
+    }
   }
 ]
