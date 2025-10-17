@@ -3674,6 +3674,21 @@
             "discord": "https://discord.com/invite/hsVf9sYyZW"
         },
         "type": "DashBoard"
+    },
+    {
+        "id": 207,
+        "name": "dYdX Trading Arena",
+        "description": "A competitive trading competition where traders can showcase their skills and compete for prizes.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dydx-trading-arena.png",
+        "link": "https://dydxarena.com/",
+        "chains": [
+            "dydx"
+        ],
+        "socials": {
+            "github": "https://github.com/openreachtech/dydx-trading-competition-frontend",
+            "twitter": "https://x.com/dydxarena"
+        },
+        "type": "DEX"
     }
 ]
 
