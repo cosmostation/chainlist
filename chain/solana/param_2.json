@@ -11,14 +11,14 @@
     "origin_genesis_time" : "2015-07-30T03:26:13Z",
     "api_name": "solana",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "is_support_spl": true,
     "chain_type": [
         "solana"
     ],
     "account_type" : [
         {
-            "hd_path": "m/44'/501'/X/0'",
+            "hd_path": "m/44'/501'/X'/0'",
             "pubkey_style": "ed25519"
         }
     ],
