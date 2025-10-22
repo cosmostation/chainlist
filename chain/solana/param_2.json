@@ -27,10 +27,6 @@
     },
     "solana_rpc_endpoint" : [
         {
-            "provider": "Solana Foundation",
-            "url": "https://api.mainnet-beta.solana.com"
-        },
-        {
             "provider": "Allnodes",
             "url": "https://solana-rpc.publicnode.com"
         },
@@ -45,7 +41,11 @@
         {
             "provider": "Solana Vibe Station",
             "url": "https://public.rpc.solanavibestation.com"
-        }
+        },
+        {
+            "provider": "Solana Foundation",
+            "url": "https://api.mainnet-beta.solana.com"
+        },
     ],
     "explorer" : {
         "name": "Solana Explorer",
