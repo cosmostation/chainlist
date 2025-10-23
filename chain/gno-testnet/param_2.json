@@ -10,6 +10,7 @@
     "origin_genesis_time" : "2025-10-14T08:00:00Z",
     "api_name" : "gno-testnet",
     "is_stake_enabled" : false,
+    "is_send_enabled" : false,
     "is_support_mintscan": false,
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
