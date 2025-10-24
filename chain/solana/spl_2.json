@@ -476,7 +476,7 @@
         "symbol": "USD1",
         "description": "",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB/logo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/usd1.png",
         "coinGeckoId": "usd1-wlfi"
     },
     {
@@ -486,7 +486,7 @@
         "symbol": "USDY",
         "description": "",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6/logo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/usdy.png",
         "coinGeckoId": "ondo-us-dollar-yield"
     },
     {
@@ -501,22 +501,12 @@
     },
     {
         "type": "spl",
-        "contract": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-        "name": "World Liberty Financial USD",
-        "symbol": "USD1",
-        "description": "",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB/logo.png",
-        "coinGeckoId": "usd1-wlfi"
-    },
-    {
-        "type": "spl",
         "contract": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
         "name": "SPX6900 (Wormhole)",
         "symbol": "SPX",
         "description": "",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr/logo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/spx.png",
         "coinGeckoId": "spx6900"
     },
     {
@@ -526,7 +516,7 @@
         "symbol": "SHISHA",
         "description": "",
         "decimals": 9,
-        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/shixxut6zHRKnbCVqzBDB6tDBFWKqds92gu9n1HXj5i/logo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/shisha.png",
         "coinGeckoId": "shisha-coin-2"
     },
     {
@@ -536,7 +526,7 @@
         "symbol": "TUNA",
         "description": "",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TUNAfXDZEdQizTMTh3uEvNvYqJmqFHZbEJt8joP4cyx/logo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/tuna.png",
         "coinGeckoId": "defituna"
     },
     {
@@ -546,7 +536,7 @@
         "symbol": "BOME",
         "description": "",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82/logo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/bome.png",
         "coinGeckoId": "book-of-meme"
     },
     {
@@ -556,7 +546,7 @@
         "symbol": "ZEUS",
         "description": "",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq/logo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/zeus.png",
         "coinGeckoId": "zeus-network"
     },
     {
@@ -566,7 +556,7 @@
         "symbol": "ai16z",
         "description": "",
         "decimals": 9,
-        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC/logo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/ai16z.png",
         "coinGeckoId": "ai16z"
     },
     {
@@ -576,7 +566,7 @@
         "symbol": "NEON",
         "description": "",
         "decimals": 9,
-        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/NeonTjSjsuo3rexg9o6vHuMXw62f9V7zvmu8M8Zut44/logo.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/neon.png",
         "coinGeckoId": "neon"
     },
     {
