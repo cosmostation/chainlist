@@ -3682,7 +3682,7 @@
         "id": 208,
         "name": "Raydium",
         "description": "Raydium is an automated market maker (AMM) built on the Solana blockchain which leverages the central order book of the Serum decentralized exchange (DEX) to enable lightning-fast trades, shared liquidity and new features for earning yield",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/raydium",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/raydium.png",
         "link": "https://raydium.io/swap/",
         "chains": [
             "solana"
@@ -3698,7 +3698,7 @@
         "id": 209,
         "name": "Solanex",
         "description": "Solanex AI is a next-generation decentralized exchange (DEX) that leverages advanced artificial intelligence (AI) to optimize trade execution, liquidity management, and user experience. Built on the foundation of cutting-edge blockchain technology, Solanex AI aims to provide a more efficient, secure, and user-friendly trading environment compared to traditional DEX platforms",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/solanex",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/solanex.png",
         "link": "https://solanex.ai/",
         "chains": [
             "solana"
@@ -3713,7 +3713,7 @@
         "id": 210,
         "name": "Dexlab",
         "description": "Dexlab makes launching on Solana easy, with a token minting lab, a launchpad, and a dedicated DEX for all listings",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/soldexlab",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/soldexlab.png",
         "link": "https://app.dexlab.space/token/create",
         "chains": [
             "solana"
@@ -3728,7 +3728,7 @@
         "id": 211,
         "name": "Jupiter",
         "description": "Building the best exchange in crypto. Wannabe DeFi behemoth",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/jupiter",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/jupiter.png",
         "link": "https://jup.ag/",
         "chains": [
             "solana"
@@ -3744,7 +3744,7 @@
         "id": 212,
         "name": "Orca V3",
         "description": "Orca is the easiest way to exchange cryptocurrency on the Solana blockchain. Here, you can exchange tokens with minimal transaction fees and lower latency than any DEX on Ethereum, all while knowing that you’re getting a fair price. Additionally, you may provide liquidity to a trading pool to earn a share of trading fees",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/orca",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/orca.png",
         "link": "https://www.orca.so/",
         "chains": [
             "solana"
@@ -3758,25 +3758,9 @@
     },
     {
         "id": 213,
-        "name": "Orca V3",
-        "description": "Orca is the easiest way to exchange cryptocurrency on the Solana blockchain. Here, you can exchange tokens with minimal transaction fees and lower latency than any DEX on Ethereum, all while knowing that you’re getting a fair price. Additionally, you may provide liquidity to a trading pool to earn a share of trading fees",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/orca",
-        "link": "https://www.orca.so/",
-        "chains": [
-            "solana"
-        ],
-        "socials": {
-            "github": "https://github.com/orca-so",
-            "twitter": "https://x.com/orca_so",
-            "discord": "https://discord.com/invite/nSwGWn5KSG"
-        },
-        "type": "DEX"
-    },
-    {
-        "id": 214,
         "name": "1DEX.AI",
         "description": "1DEX.AI is the multichain liquidity aggregator focused on on-chain asset efficiency. Swap & bridge, dust conversion, gas top-up, token analytics",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/1dex",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/1dex.png",
         "link": "https://www.1dex.ai/swap",
         "chains": [
             "ethereum",
@@ -3802,10 +3786,10 @@
         "type": "DEX"
     },
     {
-        "id": 215,
+        "id": 214,
         "name": "YUPFUN Token",
         "description": "YUPFUN simplifies DeFi with seamless cross-chain swaps, low fees & secure transactions. Trade smarter across multiple blockchains—effortless & transparent",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/yup",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/yup.png",
         "link": "https://yup.fun/",
         "chains": [
             "solana"
@@ -3817,10 +3801,10 @@
         "type": "DEX"
     },
     {
-        "id": 216,
+        "id": 215,
         "name": "MyStonks",
         "description": "MyStonks is a decentralized digital asset trading platform that mainly provides spot and derivative trading services for digital assets such as Bitcoin and Ethereum to global users, and also provides trading services for RWA asset tokens and block/forex financial products such as financial products",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/msx",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/msx.png",
         "link": "https://msx.com/",
         "chains": [
             "solana",
