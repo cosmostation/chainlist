@@ -12,5 +12,13 @@
       "github": "https://github.com/Stride-Labs/stride",
       "docs": "https://docs.stride.zone/"
     }
+  },
+  {
+    "name": "Validatorinfo",
+    "type": "Explorer",
+    "description": "Multichain explorer",
+    "status": "open",
+    "thumbnail" : "validatorinfo",
+    "link": "https://validatorinfo.com/networks/stride/overview"
   }
 ]

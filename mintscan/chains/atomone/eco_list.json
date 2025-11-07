@@ -20,5 +20,13 @@
         "social": {
             "webSite": "https://staking.atom.one/"
         }
+    },
+    {
+        "name": "Validatorinfo",
+        "type": "Explorer",
+        "description": "Multichain explorer",
+        "status": "open",
+        "thumbnail" : "validatorinfo",
+        "link": "https://validatorinfo.com/networks/atomone/overview"
     }
 ]

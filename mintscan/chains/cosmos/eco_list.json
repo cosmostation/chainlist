@@ -38,5 +38,13 @@
             "webSite": "https://app.squidrouter.com",
             "twitter": "https://twitter.com/squidrouter"
         }
-    }
+    },
+    {
+	    "name": "Validatorinfo",
+	    "type": "Explorer",
+	    "description": "Multichain explorer",
+	    "status": "open",
+	    "thumbnail" : "validatorinfo",
+	    "link": "https://validatorinfo.com/networks/cosmoshub/overview"
+	  }
 ]
