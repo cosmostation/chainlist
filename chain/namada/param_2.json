@@ -35,6 +35,10 @@
         {
             "provider": "EmberStake",
             "url": "https://namada-idx.emberstake.xyz/"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://indexer.namada.citizenweb3.com/"
         }
     ],
     "rpc_endpoint" : [
@@ -45,6 +49,14 @@
         {
             "provider": "Decentrio",
             "url": "https://namada.rpc.decentrio.ventures"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://rpc.namada.citizenweb3.com"
+        },
+        {
+            "provider": "Citizen Web3 Archive",
+            "url": "https://rpc.namada-archive.citizenweb3.com"
         }
     ],
     "explorer" : {

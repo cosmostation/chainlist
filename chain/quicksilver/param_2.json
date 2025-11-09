@@ -39,6 +39,10 @@
         {
             "provider": "TdrSys",
             "url": "quicksilver.tdrsys.com:2083"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "grpc.quicksilver.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
@@ -53,6 +57,10 @@
         {
             "provider": "StakeTown",
             "url": "https://quicksilver-api.stake-town.com/"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.quicksilver.citizenweb3.com/"
         }
     ],
     "explorer" : {

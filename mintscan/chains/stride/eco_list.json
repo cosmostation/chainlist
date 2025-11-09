@@ -14,6 +14,19 @@
     }
   },
   {
+    "name": "Citizen Web3",
+    "type": "Services",
+    "description": "Privacy-focused, self-hosted bare-metal validator with off-grid capabilities. Provides public RPC, REST API, GRPC endpoints.",
+    "status": "open",
+    "thumbnail": "citizenweb3",
+    "link": "https://staking.citizenweb3.com/chains/stride",
+    "social": {
+      "webSite": "https://citizenweb3.com/",
+      "twitter": "https://x.com/citizen_web3",
+      "github": "https://github.com/citizenweb3"
+    }
+  },
+  {
     "name": "Validatorinfo",
     "type": "Explorer",
     "description": "Multichain explorer",

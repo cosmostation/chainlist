@@ -58,6 +58,14 @@
         {
             "provider": "MMS",
             "url": "grpc-cosmoshub.mms.team:443"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "grpc.cosmoshub-4.citizenweb3.com:443"
+        },
+        {
+            "provider": "Citizen Web3 Archive",
+            "url": "grpc.cosmoshub-4-archive.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint": [
@@ -84,6 +92,14 @@
         {
             "provider": "Cosmos Spaces",
             "url": "https://api-cosmoshub.cosmos-spaces.cloud/"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.cosmoshub-4.citizenweb3.com/"
+        },
+        {
+            "provider": "Citizen Web3 Archive",
+            "url": "https://api.cosmoshub-4-archive.citizenweb3.com/"
         }
     ],
     "explorer": {

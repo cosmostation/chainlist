@@ -50,6 +50,10 @@
         {
             "provider": "Chainroot",
             "url": "osmosis-grpc.chainroot.io:443"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "grpc.osmosis.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
@@ -68,6 +72,10 @@
         {
             "provider": "Chainlayer",
             "url": "https://osmosis-lcd.quickapi.com/"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.osmosis.citizenweb3.com/"
         },
         {
             "provider": "Chainroot",
