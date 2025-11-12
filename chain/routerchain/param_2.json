@@ -11,7 +11,7 @@
     "origin_genesis_time" : "2023-11-30T11:40:25Z",
     "api_name" : "routerchain",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": true,
+    "is_support_extension_wallet": false,
     "chain_type": [
         "cosmos",
         "evm"
