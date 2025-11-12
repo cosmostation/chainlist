@@ -45,6 +45,10 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-althea.cosmostation.io:443"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "grpc.althea.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
@@ -63,6 +67,10 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "https://althea-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.althea.citizenweb3.com/"
         }
     ],
     "evm_rpc_endpoint" : [

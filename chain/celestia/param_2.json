@@ -52,6 +52,10 @@
         {
             "provider": "Stakin",
             "url": "celestia.grpc.stakin-nodes.com:443"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "grpc.celestia.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
@@ -74,6 +78,10 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "https://celestia-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.celestia.citizenweb3.com/"
         }
     ],
     "explorer" : {
