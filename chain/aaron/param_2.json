@@ -10,7 +10,7 @@
     "origin_genesis_time" : "2024-11-24T12:21:31Z",
     "api_name" : "aaron",
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : true,
+    "is_support_extension_wallet" : false,
     "chain_type": [
         "cosmos"
     ],
