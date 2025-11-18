@@ -3819,6 +3819,20 @@
             "discord": "https://discord.com/invite/uGW5h9tdJE"
         },
         "type": "DEX"
+    },
+    {
+        "id": 216,
+        "name": "Pump",
+        "description": "Launch a coin that is instantly tradeable for under $2 in one click.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/pump.png",
+        "link": "https://pump.fun/",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "twitter": "https://x.com/pumpfun"
+        },
+        "type": "DeFi"
     }
 ]
 
