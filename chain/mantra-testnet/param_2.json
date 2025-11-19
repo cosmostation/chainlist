@@ -3,8 +3,8 @@
     "chain_id_evm" : "0x16ff",
     "chain_name": "Dukong",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra-testnet/resource/chain_mantra-testnet.png",
-    "staking_asset_denom" : "uom",
-    "staking_asset_symbol" : "OM",
+    "staking_asset_denom" : "amantra",
+    "staking_asset_symbol" : "MANTRA",
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra-testnet/asset/om.png",
     "bech_account_prefix" : "mantra",
     "bech_validator_prefix" : "mantravaloper",
@@ -33,8 +33,9 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.2uom",
-            "0.3uom"
+            "40000000000amantra",
+            "80000000000amantra",
+            "120000000000amantra",
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
