@@ -1,6 +1,94 @@
 [
     {
         "type": "grc20",
+        "contract": "gno.land/r/gnoswap/gns",
+        "name" : "Gnoswap",
+        "symbol": "GNS",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/gns.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/gnoswap/test_token/usdc",
+        "name" : "Usd Coin",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/usdc.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/gnoland/wugnot",
+        "name" : "wrapped GNOT",
+        "symbol": "wugnot",
+        "description": "",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/wgnot.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/gnoswap/test_token/qux",
+        "name" : "Qux",
+        "symbol": "QUX",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/qux.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/gnoswap/test_token/obl",
+        "name" : "Obl",
+        "symbol": "OBL",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/obl.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/gnoswap/test_token/foo",
+        "name" : "Foo",
+        "symbol": "FOO",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/foo.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/gnoswap/test_token/baz",
+        "name" : "Baz",
+        "symbol": "BAZ",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/baz.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "grc20",
+        "contract": "gno.land/r/gnoswap/test_token/bar",
+        "name" : "Bar",
+        "symbol": "BAR",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gno-testnet/asset/bar.png",
+        "coinGeckoId": "",
+        "wallet_preload": false
+    },
+    {
+        "type": "grc20",
         "contract": "gno.land/r/demo/defi/foo20",
         "name" : "Foo",
         "symbol": "FOO",
