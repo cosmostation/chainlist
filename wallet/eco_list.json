@@ -3901,6 +3901,90 @@
             "discord": "https://discord.com/invite/3JXdTavv6x"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 222,
+        "name": "Solana Token Vesting",
+        "description": "Easily Lock and vest any Solana SPL or LP Token without Coding.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/smithii.png",
+        "link": "https://tools.smithii.io/token-vesting/",
+        "chains": [
+            "solana",
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "blast",
+            "bnb-smart-chain",
+            "polygon",
+            "sui"
+        ],
+        "socials": {
+            "twitter": "https://x.com/SmithiiTools",
+            "telegram": "https://t.me/+CCjz8YzYSAIwY2I0",
+            "discord": "https://discord.com/invite/3AFfGDfmk7"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 223,
+        "name": "Save SOL",
+        "description": "Save Staked SOL (saveSOL) is an LST built by the Save team. Earn staking yields by converting your SOL into saveSOL and deposit it into Save Finance as collateral.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/savesol.png",
+        "link": "https://save.finance/saveSOL",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "twitter": "https://x.com/save_finance",
+            "discord": "https://discord.com/invite/J7m48UUPkJ"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 224,
+        "name": "Solomon USDv",
+        "description": "USDv is a Solana-native synthetic dollar backed by delta-hedged crypto assets, keeping a $1 peg while earning yield, which is shared with users who stake for sUSDv",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/solomon.png",
+        "link": "https://app.solomonlabs.org/",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "twitter": "https://x.com/solomon_labs",
+            "telegram": "https://t.me/solomonlabs",
+            "discord": "https://discord.com/invite/solomonlabs"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 225,
+        "name": "Glow Finance",
+        "description": "Glow is a decentralized margin trading protocol designed for mature investors and large-scale users, launching a suite of financial instruments designed to maximize capital efficiency and increase earnings opportunities. Glow's cross-margin account feature allows dynamic interaction between assets, allowing users to manage, borrow and utilize positions within a unified framework.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/glow.png",
+        "link": "https://app.glowfinance.xyz/",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "twitter": "https://x.com/glowfinancexyz",
+            "discord": "https://discord.com/invite/glowfinance"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 226,
+        "name": "burnchecker",
+        "description": "The best Solana token burn tracker, empowering users to burn their favorite tokens. Let’s ignite the deflationary revolution.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/burnchecker.png",
+        "link": "https://burnchecker.io/",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "twitter": "https://x.com/justentropylol"
+        },
+        "type": "DeFi"
     }
 ]
 
