@@ -3813,7 +3813,95 @@
             "twitter": "https://x.com/pumpfun"
         },
         "type": "DeFi"
-    }
+    },
+    {
+        "id": 217,
+        "name": "YUPFUN",
+        "description": "YUPFUN simplifies DeFi with seamless cross-chain swaps, low fees & secure transactions. Trade smarter across multiple blockchains—effortless & transparent!",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/yupfun.png",
+        "link": "https://yup.fun/",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "github": "https://github.com/yupfun",
+            "twitter": "https://x.com/YUPFUN_Token",
+            "telegram": "https://t.me/Yupfun_Token"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 218,
+        "name": "Renzo",
+        "description": "Restake ETH & Never worry about EigenLayer caps",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/renzo.png",
+        "link": "https://app.renzoprotocol.com/ezeth",
+        "chains": [
+            "solana",
+            "ethereum"
+        ],
+        "socials": {
+            "twitter": "https://x.com/RenzoProtocol",
+            "discord": "https://discord.com/invite/renzoprotocol"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 219,
+        "name": "btcSOL",
+        "description": "btcSOL is a restaking SOL protocol that rewards in Bitcoin built on top of the Zeus Ecosystem. btcSOL unlocks effortless, permissionless Bitcoin yield, built for every Solana user ready to put their assets to work.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/btcsol.png",
+        "link": "https://app.btcsol.co/",
+        "chains": [
+            "solana",
+            "ethereum"
+        ],
+        "socials": {
+            "twitter": "https://x.com/btcsol_co",
+            "discord": "https://discord.com/invite/zeusnetwork"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 220,
+        "name": "what",
+        "description": "What.exchange is a decentralized perpetual exchange designed to revolutionize the transaction, pricing, collateral and transparency of financial instruments.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/what.png",
+        "link": "https://trade.what.exchange/",
+        "chains": [
+            "solana",
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "bnb-smart-chain",
+            "mantle",
+            "optimism",
+            "sonic",
+            "story"
+        ],
+        "socials": {
+            "twitter": "https://x.com/whatexchange",
+            "discord": "https://discord.com/invite/whatexchange"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 221,
+        "name": "LOTUS",
+        "description": "Lotus Staker is a platform for staking SOL tokens on Solana. Users lock tokens to support network operations, earning rewards via native or liquid staking.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/lotus.png",
+        "link": "https://stakewiz.com/",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "twitter": "https://x.com/laine_sa_",
+            "discord": "https://discord.com/invite/3JXdTavv6x"
+        },
+        "type": "DeFi"
+    },
 ]
 
 
