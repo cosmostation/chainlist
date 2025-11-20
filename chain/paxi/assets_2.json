@@ -1,0 +1,82 @@
+[
+  {
+    "type": "native",
+    "denom": "upaxi",
+    "name": "Paxi Network",
+    "symbol": "PAXI",
+    "description": "The native token of Paxi Network, a fast, secure, and scalable Layer 1 blockchain built with the Cosmos SDK.",
+    "decimals": 6,
+    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/paxi/asset/paxi.png",
+    "coinGeckoId": "paxi-network"
+  },
+  {
+    "type": "ibc",
+    "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "description": "Circle’s USD-pegged stablecoin bridged from Noble to Paxi Network via IBC.",
+    "decimals": 6,
+    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/ethereum/asset/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "ibc_info": {
+      "path": "noble>paxi",
+      "client": {
+        "channel": "channel-2",
+        "port": "transfer"
+      },
+      "counterparty": {
+        "channel": "channel-205",
+        "port": "transfer",
+        "chain": "noble",
+        "denom": "uusdc"
+      }
+    }
+  },
+  {
+    "type": "ibc",
+    "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+    "name": "Cosmos Hub",
+    "symbol": "ATOM",
+    "description": "The native staking and governance token of the Cosmos Hub, transferred to Paxi Network via IBC.",
+    "decimals": 6,
+    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/cosmos/asset/atom.png",
+    "coinGeckoId": "cosmos",
+    "ibc_info": {
+      "path": "cosmoshub>paxi",
+      "client": {
+        "channel": "channel-1",
+        "port": "transfer"
+      },
+      "counterparty": {
+        "channel": "channel-1566",
+        "port": "transfer",
+        "chain": "cosmoshub",
+        "denom": "uatom"
+      }
+    }
+  },
+  {
+    "type": "ibc",
+    "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+    "name": "Osmosis",
+    "symbol": "OSMO",
+    "description": "The native token of Osmosis, transferred to Paxi Network via IBC.",
+    "decimals": 6,
+    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/osmosis/asset/osmo.png",
+    "coinGeckoId": "osmosis",
+    "ibc_info": {
+      "path": "osmosis>paxi",
+      "client": {
+        "channel": "channel-0",
+        "port": "transfer"
+      },
+      "counterparty": {
+        "channel": "channel-107354",
+        "port": "transfer",
+        "chain": "osmosis",
+        "denom": "uosmo"
+      }
+    }
+  }
+]
+
