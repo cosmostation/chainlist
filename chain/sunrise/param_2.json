@@ -15,7 +15,7 @@
     "bech_validator_prefix" : "sunrisevaloper",
     "origin_genesis_time" : "2025-08-04T00:00:00Z",
     "api_name" : "sunrise",
-    "is_support_mintscan": true,
+    "is_support_mintscan": false,
     "is_support_mobile_wallet": true,
     "is_support_moblie_dapp" : false,
     "is_support_extension_wallet": true,
