@@ -75,11 +75,6 @@
         "lcd": "https://lcd-dydx.cosmostation.io/"
     },
     {
-        "chain": "finschia",
-        "chain_id": "finschia-2",
-        "lcd": "https://lcd-finschia.cosmostation.io/"
-    },
-    {
         "chain": "gravity-bridge",
         "chain_id": "gravity-bridge-3",
         "lcd": "https://lcd-gravity-bridge.cosmostation.io/"
@@ -143,6 +138,11 @@
         "chain": "persistence",
         "chain_id": "core-1",
         "lcd": "https://lcd-persistence.cosmostation.io/"
+    },
+    {
+        "chain": "provenance",
+        "chain_id": "pio-mainnet-1",
+        "lcd": "https://lcd-provenance.cosmostation.io/"
     },
     {
         "chain": "regen",
@@ -238,12 +238,6 @@
         "chain": "dydx-testnet",
         "chain_id": "dydx-testnet-4",
         "lcd": "https://lcd-office.cosmostation.io/dydx-testnet/",
-        "is_testnet": true
-    },
-    {
-        "chain": "finschia-testnet",
-        "chain_id": "ebony-2",
-        "lcd": "https://lcd-office.cosmostation.io/finschia-testnet/",
         "is_testnet": true
     },
     {
