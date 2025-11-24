@@ -368,5 +368,15 @@
         "bridge_info" : {
             "path": "ethereum>sui"
         }
+    },
+    {
+        "type": "native",
+        "denom": "0x356a26eb9e012a68958082340d4c4116e7f55615cf27affcff209cf0ae544f59::wal::WAL",
+        "name" : "WAL",
+        "symbol": "WAL",
+        "description": "The native token for the Walrus Protocol.",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sui/asset/wal.png",
+        "coinGeckoId": "walus-2"
     }
 ]

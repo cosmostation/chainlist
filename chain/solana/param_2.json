@@ -1,7 +1,7 @@
 {
     "chain_id": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
     "chain_name": "Solana",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/resource/chain_solana.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/resource/chain_solana.png",
     "main_asset_denom" : "sol",
     "main_asset_symbol" : "SOL",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/sol.png",
@@ -11,13 +11,15 @@
     "origin_genesis_time" : "2015-07-30T03:26:13Z",
     "api_name": "solana",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
+    "is_support_moblie_dapp" : true,
+    "is_support_spl": true,
     "chain_type": [
         "solana"
     ],
     "account_type" : [
         {
-            "hd_path": "m/44'/501'/0'/X",
+            "hd_path": "m/44'/501'/X'/0'",
             "pubkey_style": "ed25519"
         }
     ],
@@ -28,6 +30,22 @@
         {
             "provider": "Allnodes",
             "url": "https://solana-rpc.publicnode.com"
+        },
+        {
+            "provider": "dRPC",
+            "url": "https://solana.drpc.org"
+        },
+        {
+            "provider": "TheRPC",
+            "url": "https://solana.therpc.io"
+        },
+        {
+            "provider": "Solana Vibe Station",
+            "url": "https://public.rpc.solanavibestation.com"
+        },
+        {
+            "provider": "Solana Foundation",
+            "url": "https://api.mainnet-beta.solana.com"
         }
     ],
     "explorer" : {

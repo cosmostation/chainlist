@@ -24,10 +24,10 @@
         }
     ],
     "cosmos_fee_info" : {
-        "base" : "1",
+        "base" : "0",
         "rate" : [
-            "0.025uosmo",
-            "0.04uosmo"
+            "0.04uosmo",
+            "0.06uosmo"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.5,
@@ -50,6 +50,10 @@
         {
             "provider": "Chainroot",
             "url": "osmosis-grpc.chainroot.io:443"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "grpc.osmosis.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
@@ -70,6 +74,10 @@
             "url": "https://osmosis-lcd.quickapi.com/"
         },
         {
+            "provider": "Citizen Web3",
+            "url": "https://api.osmosis.citizenweb3.com/"
+        },
+        {
             "provider": "Chainroot",
             "url": "https://osmosis-api.chainroot.io/"
         }
@@ -86,7 +94,7 @@
         "docs": "https://docs.osmosis.zone",
         "github" : "https://github.com/osmosis-labs",
         "medium": "https://medium.com/@Osmosis",
-        "twitter" : "https://twitter.com/osmosiszone",
+        "twitter" : "https://x.com/osmosis",
         "coingecko" : "https://www.coingecko.com/en/coins/osmosis"
     },
     "forum": {

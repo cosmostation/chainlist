@@ -5,9 +5,9 @@
     "staking_asset_denom": "ustake",
     "staking_asset_symbol" : "NOBLE",
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/stake.png",
-    "main_asset_denom": "uusdc",
-    "main_asset_symbol" : "USDC",
-    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+    "main_asset_denom": "uusdn",
+    "main_asset_symbol" : "USDN",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdn.png",
     "bech_account_prefix" : "noble",
     "bech_validator_prefix" : "noblevaloper",
     "origin_genesis_time" : "2023-03-27T16:00:00Z",
@@ -70,7 +70,7 @@
     "about" : {
         "website" : "https://nobleassets.xyz/",
         "docs": "https://docs.nobleassets.xyz/",
-        "github" : "https://github.com/strangelove-ventures/noble",
+        "github" : "https://github.com/noble-assets",
         "blog" : "https://mirror.xyz/nobleassets.eth",
         "twitter" : "https://twitter.com/noble_xyz",
         "coingecko" : ""

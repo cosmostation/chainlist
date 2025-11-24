@@ -8,7 +8,6 @@
     "bech_account_prefix" : "kyve",
     "bech_validator_prefix" : "kyvevaloper",
     "api_name" : "kyve-testnet",
-    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",

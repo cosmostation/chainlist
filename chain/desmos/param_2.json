@@ -35,19 +35,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-desmos.cosmostation.io:443"
-        },
-        {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "desmos-grpc.lavenderfive.com:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-desmos.cosmostation.io/"
-        },
         {
             "provider": "desmos",
             "url": "https://api.mainnet.desmos.network/"

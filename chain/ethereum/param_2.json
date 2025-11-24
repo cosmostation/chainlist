@@ -14,12 +14,20 @@
     "is_support_moblie_dapp" : true,
     "is_support_extension_wallet" : true,
     "is_support_erc20" : true,
+    "eth_staking": {
+      "is_support_staking": true,
+      "url": "https://app.eigenlayer.xyz/operator/0x3303fda11d6bafe0833d6a6c44c2b8edbab92e4d"
+    },
     "chain_type": [
         "evm"
     ],
     "evm_fee_info" : {
         "is_eip1559": true,
         "simulated_gas_multiply" : 1.3
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": true,
+        "multicall_address" : "0xcA11bde05977b3631167028862bE2a173976CA11"
     },
     "evm_rpc_endpoint" : [
         {

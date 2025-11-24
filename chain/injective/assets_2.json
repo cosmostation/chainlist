@@ -8,7 +8,7 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
         "coinGeckoId": "injective-protocol",
-        "color": "#00BBDD"
+        "color": "#7E72F7"
     },
     {
         "type": "ibc",
@@ -2025,6 +2025,16 @@
         "description": "Instant Noodles coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI",
+        "name": "OYCI",
+        "symbol": "OYCI",
+        "description": "Oyster Cage Initiative",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/oyci.png",
         "coinGeckoId": ""
     }
 ]

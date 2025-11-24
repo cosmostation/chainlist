@@ -1,6 +1,6 @@
 {
-    "chain_id_cosmos" : "chiado_10010-1",
-    "chain_id_evm" : "0x271A",
+    "chain_id_cosmos" : "barra_9191-1",
+    "chain_id_evm" : "0x23e7",
     "chain_name": "Warden Protocol Testnet",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/warden-testnet/resource/chain_warden-testnet.png",
     "staking_asset_denom" : "award",
@@ -38,25 +38,25 @@
         "fee_threshold" : ""
     },
     "evm_fee_info" : {
-        "is_eip1559": false,
+        "is_eip1559": true,
         "simulated_gas_multiply" : 1.2
     },
     "grpc_endpoint" : [
         {
             "provider": "Warden Protocol foundation",
-            "url": "grpc.chiado.wardenprotocol.org:443"
+            "url": "grpc.barra.wardenprotocol.org:443"
         }
     ],
     "lcd_endpoint" : [
         {
             "provider": "Warden Protocol foundation",
-            "url": "https://api.chiado.wardenprotocol.org/"
+            "url": "https://api.barra.wardenprotocol.org/"
         }
     ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Warden Protocol foundation",
-            "url": "https://evm.chiado.wardenprotocol.org"
+            "url": "https://evm.barra.wardenprotocol.org"
         }
     ],
     "explorer" : {

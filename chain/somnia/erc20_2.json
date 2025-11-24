@@ -1,0 +1,114 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x046EDe9564A72571df6F5e44d0405360c0f4dCab",
+        "name": "Wrapped SOMI",
+        "symbol": "WSOMI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x28BEc7E30E6faee657a03e19Bf1128AaD7632A00",
+        "name": "Bridged USDC (Stargate)",
+        "symbol": "USDC.e",
+        "description": "USD Coin (USDC)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x67B302E35Aef5EEE8c32D934F5856869EF428330",
+        "name": "Bridged stgUSDT",
+        "symbol": "USDT",
+        "description": "Bridged stgUSDT (USDT)",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x936Ab8C674bcb567CD5dEB85D8A216494704E9D8",
+        "name": "WETH",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/weth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd5447aF13A1DF69Add89E185155b20fB72d5e9a7",
+        "name": "jellu",
+        "symbol": "JELLU",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7A132fa1805f3280edDB07D14e87850602CC8dfc",
+        "name": "Ivy Dog",
+        "symbol": "IVY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCE93Cfd14228AC08265E3D2a7307EFE2E46a7798",
+        "name": "Aleksa",
+        "symbol": "ALEKSA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x07e4FF8B9BBA0f9F9AEbeD2Fc5E8A773fb1e03EA",
+        "name": "Bobr Kurwa",
+        "symbol": "BOBR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF94eA570DF9A6970f64aDc3217c72a6A3574CBb1",
+        "name": "Paul Thomas Doge",
+        "symbol": "IVY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7981036Cce68d543cF840ED2b83B27E514Bf119A",
+        "name": "PAUL THOMAS",
+        "symbol": "PAUL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x41827DD1c793D39D67F0d3F080e375645b849f8b",
+        "name": "Feed Token",
+        "symbol": "FEED",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/somnia/asset/unknown.png",
+        "coinGeckoId": ""
+    }
+]

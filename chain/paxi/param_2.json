@@ -1,0 +1,69 @@
+{
+    "chain_id_cosmos": "paxi-mainnet",
+    "chain_name": "Paxi",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/paxi/resource/chain_paxi.png",
+    "staking_asset_denom": "upaxi",
+    "staking_asset_symbol": "PAXI",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/paxi/asset/paxi.png",
+    "main_asset_denom": "upaxi",
+    "main_asset_symbol": "PAXI",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/paxi/asset/paxi.png",
+    "bech_account_prefix": "paxi",
+    "bech_validator_prefix": "paxivaloper",
+    "origin_genesis_time": "2025-08-01T11:50:55Z",
+    "api_name": "paxi",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
+            "0.05upaxi"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "Paxi Foundation",
+            "url": "mainnet-rpc.paxinet.io:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "Paxi Foundation",
+            "url": "https://mainnet-lcd.paxinet.io/"
+        }
+    ],
+    "explorer": {
+        "name": "Ping.pub",
+        "url": "https://ping.pub/paxi",
+        "account": "https://ping.pub/paxi/account/${address}",
+        "tx": "https://ping.pub/paxi/tx/${hash}",
+        "proposal": "https://ping.pub/paxi/gov/${id}"
+    },
+    "about": {
+        "website": "https://paxinet.io/",
+        "docs": "https://paxinet.io/paxi_docs/validators",
+        "github": "https://github.com/paxi-web3/paxi",
+        "twitter": "https://x.com/paxiweb3",
+        "coingecko": "https://www.coingecko.com/en/coins/paxi-network"
+    },
+    "description": {
+        "ko": "Paxi Network는 빠르고 안전하며 완전한 탈중앙화를 목표로 설계된 Cosmos SDK 기반 레이어1 블록체인입니다. 누구나 검증인이 될 수 있으며, DeFi, DAO, 크로스체인, 다양한 dApp을 구동하는 네트워크입니다.",
+        "en": "Paxi Network is a Layer 1, general-purpose blockchain — fast, secure, and fully decentralized. It powers DeFi, DAOs, cross-chain interoperability, and dApps with true validator freedom.",
+        "ja": "Paxi Networkは、高速・安全・完全分散型を目指して設計されたCosmos SDKベースのレイヤー1ブロックチェーンです。誰でもバリデータとして参加でき、DeFi、DAO、クロスチェーン、dAppを支えるネットワークです。"
+    }
+}
+

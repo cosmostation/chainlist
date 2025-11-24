@@ -1,0 +1,68 @@
+[
+    {
+        "type": "cw20",
+        "contract": "terra1w7d0jqehn0ja3hkzsm0psk6z2hjz06lsq0nxnwkzkkq4fqwgq6tqa5te8e",
+        "name" : "Juris Protocol",
+        "symbol": "JURIS",
+        "description": "Juris Protocol is a DeFi platform on Terra Classic that offers secure lending and borrowing services.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/juris.png",
+        "coinGeckoId": "",
+        "color": "#3f95d4"
+    },
+    {
+        "type": "cw20",
+        "contract": "terra12yh4swzkm2acjsk57u77ems8v6q5nrc0aeekn37jxgpxdfrstnnsd7lqqq",
+        "name": "Tether USD Testnet",
+        "symbol": "USDT",
+        "description": "Tether USD (USDT) stablecoin available on the Terra Classic testnet.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/usdt.png",
+        "coinGeckoId": "",
+        "color": "#26a17b"
+    },
+    {
+        "type": "cw20",
+        "contract": "terra12x7n2cpnpctghhhvn9xh7tl6yh0u9jyvr4kjhphw69jpp85x24nsphmqt0",
+        "name": "Bitcoin Testnet",
+        "symbol": "BTC",
+        "description": "Wrapped Bitcoin (BTC) token available on the Terra Classic testnet.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/btc.png",
+        "coinGeckoId": "",
+        "color": "#f7931a"
+    },
+    {
+        "type": "cw20",
+        "contract": "terra154hadnff5fu6lj2nlf0zpqlfmaquy0qelhvd8qrpgtlsyvvtywkqsd05p3",
+        "name": "USD Coin Testnet",
+        "symbol": "USDC",
+        "description": "USD Coin (USDC) stablecoin available on the Terra Classic testnet.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/usdc.png",
+        "coinGeckoId": "",
+        "color": "#2775ca"
+    },
+    {
+        "type": "cw20",
+        "contract": "terra1jha0esm2dygyyvmupdxqt2vy59mq6kh5f2c3a8z8d6tjyq3ahtvqet3m82",
+        "name": "Ethereum Testnet",
+        "symbol": "ETH",
+        "description": "Wrapped Ethereum (ETH) token available on the Terra Classic testnet.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/eth.png",
+        "coinGeckoId": "",
+        "color": "#3c3c3d"
+    },
+    {
+        "type": "cw20",
+        "contract": "terra10jv9jll42c765xwt5aw65htp3lc433qy2nefvkh4ushlente6fqqk6xsul",
+        "name": "PAX Gold Testnet",
+        "symbol": "PAXG",
+        "description": "PAX Gold (PAXG) is a gold-backed token available on the Terra Classic testnet.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic-testnet/asset/paxg.png",
+        "coinGeckoId": "",
+        "color": "#d4af37"
+    }
+]

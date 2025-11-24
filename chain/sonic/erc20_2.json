@@ -1,0 +1,244 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+        "name": "Wrapped Sonic",
+        "symbol": "wS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/ws.png",
+        "coinGeckoId": "wrapped-sonic",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
+        "name": "Sonic USD",
+        "symbol": "scUSD",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/scusd.png",
+        "coinGeckoId": "rings-scusd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+        "name": "Beets Staked Sonic",
+        "symbol": "stS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/sts.png",
+        "coinGeckoId": "beets-staked-sonic"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+        "name": "Wrapped Ether on Sonic",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3333b97138D4b086720b5aE8A7844b1345a33333",
+        "name": "Shadow",
+        "symbol": "SHADOW",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/shadow.png",
+        "coinGeckoId": "shadow-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+        "name": "HeyAnon",
+        "symbol": "Anon",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/anon.png",
+        "coinGeckoId": "heyanon"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x71E99522EaD5E21CF57F1f542Dc4ad2E841F7321",
+        "name": "Metropolis Token",
+        "symbol": "METRO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/metro.png",
+        "coinGeckoId": "metropolis"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794",
+        "name": "Origin Sonic",
+        "symbol": "OS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/os.png",
+        "coinGeckoId": "origin-staked-s"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2D0E0814E62D80056181F5cd932274405966e4f0",
+        "name": "Beets",
+        "symbol": "BEETS",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/beets.png",
+        "coinGeckoId": "beets"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6c9B3A74ae4779da5Ca999371eE8950e8DB3407f",
+        "name": "fly.trade",
+        "symbol": "FLY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/fly.png",
+        "coinGeckoId": "fly-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb098AFC30FCE67f1926e735Db6fDadFE433E61db",
+        "name": "Silo Token",
+        "symbol": "SILO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/silo.png",
+        "coinGeckoId": "silo-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+        "name": "Lombard Staked BTC",
+        "symbol": "LBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lombard/asset/lbtc.png",
+        "coinGeckoId": "lombard-staked-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA04BC7140c26fc9BB1F36B1A604C7A5a88fb0E70",
+        "name": "SwapX",
+        "symbol": "SWPx",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/swpx.png",
+        "coinGeckoId": "swapx-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0e0Ce4D450c705F8a0B6Dd9d5123e3df2787D16B",
+        "name": "Wagmi",
+        "symbol": "WAGMI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/wagmi.png",
+        "coinGeckoId": "wagmi-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE51EE9868C1f0d6cd968A8B8C8376Dc2991BFE44",
+        "name": "PaintSwap",
+        "symbol": "BRUSH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/brush.png",
+        "coinGeckoId": "paint-swap"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xddF26B42C1d903De8962d3F79a74a501420d5F19",
+        "name": "Equalizer on Sonic",
+        "symbol": "EQUAL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/equal.png",
+        "coinGeckoId": "equalizer-on-sonic"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE5Fb2Ed6832deF99ddE57C0b9d9A56537C89121D",
+        "name": "Main Street USD",
+        "symbol": "msUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/msusd.png",
+        "coinGeckoId": "main-street-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4451765739b2D7BCe5f8BC95Beaf966c45E1Dcc9",
+        "name": "xSILO",
+        "symbol": "xSILO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/xsilo.png",
+        "coinGeckoId": "xsilo"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4772D2e014F9fC3a820C444e3313968e9a5C8121",
+        "name": "YieldFi yUSD",
+        "symbol": "yUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/yusd.png",
+        "coinGeckoId": "yieldfi-ytoken"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb0695ce12c56AAe40894235e2d1888D0b62Dd110",
+        "name": "DeFive",
+        "symbol": "FIVE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sonic/asset/five.png",
+        "coinGeckoId": "defive"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+        "name": "Frax USD",
+        "symbol": "frxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frxusd.png",
+        "coinGeckoId": "frax-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+        "name": "Staked Frax USD",
+        "symbol": "sfrxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sfrxusd.png",
+        "coinGeckoId": "staked-frax-usd"
+    }
+]

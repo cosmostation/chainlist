@@ -9,7 +9,6 @@
     "bech_validator_prefix" : "omniflixvaloper",
     "origin_genesis_time" : "2022-02-22T07:00:00Z",
     "api_name" : "omniflix",
-    "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
@@ -28,7 +27,7 @@
             "0.01uflix"
         ],
         "is_simulable" : true,
-        "simulated_gas_multiply" : 1.2,
+        "simulated_gas_multiply" : 1.5,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
@@ -76,11 +75,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/omniflix/",
-        "account": "https://www.mintscan.io/omniflix/address/${address}",
-        "tx": "https://www.mintscan.io/omniflix/tx/${hash}",
-        "proposal": "https://www.mintscan.io/omniflix/proposals/${id}"
+        "name": "Explorers Guru",
+        "url": "https://omniflix.explorers.guru/",
+        "account": "https://omniflix.explorers.guru/account/${address}",
+        "tx": "https://omniflix.explorers.guru/transaction/${hash}",
+        "proposal": "https://omniflix.explorers.guru/proposal/${id}"
     },
     "about" : {
         "website" : "https://www.omniflix.network/",

@@ -13,7 +13,7 @@
     "description": "Juris Protocol is a DeFi platform on Terra Classic that offers secure lending and borrowing services.",
     "logo": "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet_mobile/dapp/image/juris.png",
     "url": "https://jurisprotocol.com/",
-    "chain": ["terra-classic"],
+    "chain": ["terra-classic","osmosis"],
     "category": "Defi",
     "tag": ["Lending"]
   },
@@ -220,7 +220,7 @@
   },
   {
       "title":"BigBangX",
-      "description":"Join us on a revolutionary journey as we redefine the NFT landscape with limitless posibilities. Welcome to the future of NFT marketplaces.",
+      "description":"Join us on a revolutionary journey as we redefine the NFT landscape with limitless possibilities. Welcome to the future of NFT marketplaces.",
       "logo":"https://raw.githubusercontent.com/cosmostation/chainlist/refs/heads/main/wallet_mobile/dapp/image/Big_BangX.png",
       "url":"https://bigbangx.io",
       "chain":["terra-classic"],

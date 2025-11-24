@@ -1,6 +1,6 @@
 {
     "chain_id_cosmos" : "gravity-bridge-3",
-    "chain_name": "GravityBridge",
+    "chain_name": "Gravity Bridge",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/resource/chain_gravity-bridge.png",
     "staking_asset_denom": "ugraviton",
     "staking_asset_symbol": "GRAV",
@@ -44,6 +44,10 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "gravitybridge-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "grpc.gravity.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
@@ -58,6 +62,10 @@
         {
             "provider": "Polkachu",
             "url": "https://gravity-api.polkachu.com/"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.gravity.citizenweb3.com/"
         },
         {
             "provider": "Lavender.Five Nodes 🐝",

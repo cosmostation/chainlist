@@ -10,7 +10,7 @@
     "bech_validator_prefix" : "altheavaloper",
     "origin_genesis_time" : "2024-03-25T00:00:00Z",
     "api_name" : "althea",
-    "is_send_enabled" : false,
+    "is_send_enabled" : true,
     "is_support_mintscan": true,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
@@ -45,6 +45,10 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-althea.cosmostation.io:443"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "grpc.althea.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
@@ -63,6 +67,10 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "https://althea-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.althea.citizenweb3.com/"
         }
     ],
     "evm_rpc_endpoint" : [

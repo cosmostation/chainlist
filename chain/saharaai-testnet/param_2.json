@@ -12,7 +12,7 @@
     "api_name": "saharaai-testnet",
     "is_support_moblie_dapp": false,
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : true,
+    "is_support_extension_wallet" : false,
     "is_support_erc20" : false,
     "chain_type": [
         "cosmos",
@@ -38,16 +38,12 @@
         "fee_threshold" : ""
     },
     "evm_fee_info" : {
-        "is_eip1559": false,
+        "is_eip1559": true,
         "simulated_gas_multiply" : 1.2
     },
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Crouton Digital",
-            "url": "https://sahara-testnet-api.crouton.digital/"
-        },
         {
             "provider": "Moonlet",
             "url": "https://sahara-api.testnet.moonlet.cloud/public/"

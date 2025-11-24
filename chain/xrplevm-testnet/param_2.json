@@ -3,12 +3,12 @@
     "chain_id_evm" : "0x161c28",
     "chain_name": "XRPL EVM Sidechain Testnet",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm-testnet/resource/chain_xrplevm-testnet.png",
-    "staking_asset_denom" : "poa",
-    "staking_asset_symbol" : "POA",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm-testnet/asset/poa.png",
     "main_asset_denom" : "axrp",
     "main_asset_symbol" : "XRP",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm-testnet/asset/xrp.png",
+    "gas_asset_denom" : "axrp",
+    "gas_asset_symbol" : "XRP",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm-testnet/asset/xrp.png",
     "bech_account_prefix" : "ethm",
     "bech_validator_prefix" : "ethmvaloper",
     "origin_genesis_time" : "2025-02-01T00:00:00Z",
@@ -40,8 +40,12 @@
         "fee_threshold" : ""
     },
     "evm_fee_info" : {
-        "is_eip1559": false,
+        "is_eip1559": true,
         "simulated_gas_multiply" : 1.2
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : ""
     },
     "grpc_endpoint" : [
         {

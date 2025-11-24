@@ -29,8 +29,7 @@
     "description": "",
     "decimals": 18,
     "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
-    "coinGeckoId": "weth",
-    "wallet_preload": true
+    "coinGeckoId": "weth"
   },
   {
     "type": "erc20",
@@ -40,8 +39,7 @@
     "description": "",
     "decimals": 18,
     "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
-    "coinGeckoId": "dai",
-    "wallet_preload": true
+    "coinGeckoId": "dai"
   },
   {
     "type": "erc20",

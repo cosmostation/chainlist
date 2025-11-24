@@ -13,7 +13,6 @@
     "is_support_mobile_wallet" : true,
     "is_support_extension_wallet" : true,
     "is_support_moblie_dapp": true,
-    "is_support_erc20" : true,
     "chain_type": [
         "cosmos",
         "evm"
@@ -25,6 +24,10 @@
             "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
         }
     ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
     "cosmos_fee_info" : {
         "base" : "1",
         "rate" : [

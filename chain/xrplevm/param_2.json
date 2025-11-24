@@ -1,20 +1,22 @@
 {
-    "chain_id_cosmos" : "",
-    "chain_id_evm" : "",
+    "chain_id_cosmos" : "xrplevm_1440000-1",
+    "chain_id_evm" : "0x15f900",
     "chain_name": "XRPL EVM Sidechain",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm/resource/chain_xrplevm.png",
-    "staking_asset_denom" : "poa",
-    "staking_asset_symbol" : "POA",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm/asset/poa.png",
     "main_asset_denom" : "axrp",
     "main_asset_symbol" : "XRP",
     "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm/asset/xrp.png",
+    "gas_asset_denom" : "axrp",
+    "gas_asset_symbol" : "XRP",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xrplevm/asset/xrp.png",
     "bech_account_prefix" : "ethm",
     "bech_validator_prefix" : "ethmvaloper",
-    "origin_genesis_time" : "",
+    "origin_genesis_time" : "2025-04-24T12:00:00Z",
     "api_name": "xrplevm",
+    "is_support_moblie_dapp": true,
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : false,
+    "is_support_extension_wallet" : true,
+    "is_support_erc20" : true,
     "chain_type": [
         "evm"
     ],
@@ -38,8 +40,12 @@
         "fee_threshold" : ""
     },
     "evm_fee_info" : {
-        "is_eip1559": false,
+        "is_eip1559": true,
         "simulated_gas_multiply" : 1.2
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : ""
     },
     "grpc_endpoint" : [
         {
@@ -60,10 +66,10 @@
         }
     ],
     "explorer" : {
-        "name": "",
-        "url": "",
-        "account": "",
-        "tx": "",
+        "name": "XRPL EVM",
+        "url": "https://explorer.xrplevm.org/",
+        "account": "https://explorer.xrplevm.org/address/${address}",
+        "tx": "https://explorer.xrplevm.org/tx/${hash}",
         "proposal": ""
     },
     "about" : {

@@ -40,6 +40,10 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "stride-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "grpc.stride.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
@@ -62,6 +66,10 @@
         {
             "provider": "kjnodes",
             "url": "https://stride.api.kjnodes.com/"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.stride.citizenweb3.com/"
         }
     ],
     "explorer" : {

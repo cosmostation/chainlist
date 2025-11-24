@@ -1,0 +1,722 @@
+[
+    {
+        "type": "spl",
+        "contract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "name": "Tether",
+        "symbol": "USDT",
+        "description": "Tether",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/usdt.png",
+        "coinGeckoId": "tether"
+    },
+    {
+        "type": "spl",
+        "contract": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/usdc.png",
+        "coinGeckoId": "usd-coin"
+    },
+    {
+        "type": "spl",
+        "contract": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+        "name": "Raydium",
+        "symbol": "Ray",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R/logo.png",
+        "coinGeckoId": "raydium"
+    },
+    {
+        "type": "spl",
+        "contract": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
+        "name": "Orca",
+        "symbol": "ORCA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE/logo.png",
+        "coinGeckoId": "orca"
+    },
+    {
+        "type": "spl",
+        "contract": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+        "name": "Pump",
+        "symbol": "PUMP",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pump.png",
+        "coinGeckoId": "pump-fun"
+    },
+    {
+        "type": "spl",
+        "contract": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "name": "OFFICIAL TRUMP",
+        "symbol": "TRUMP",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/trump.png",
+        "coinGeckoId": "official-trump"
+    },
+    {
+        "type": "spl",
+        "contract": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "name": "Jupiter",
+        "symbol": "JUP",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/jupiter.png",
+        "coinGeckoId": "jupiter-exchange-solana"
+    },
+    {
+        "type": "spl",
+        "contract": "So11111111111111111111111111111111111111112",
+        "name": "Wrapped SOL",
+        "symbol": "WSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
+        "coinGeckoId": "wrapped-solana"
+    },
+    {
+        "type": "spl",
+        "contract": "BNso1VUJnh4zcfpZa6986Ea66P6TCp59hvtNJ8b1X85",
+        "name": "Binance Staked SOL",
+        "symbol": "BNSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/bnsol.png",
+        "coinGeckoId": "binance-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+        "name": "Pudgy Penguins",
+        "symbol": "PENGU",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pengu.png",
+        "coinGeckoId": "pudgy-penguins"
+    },
+    {
+        "type": "spl",
+        "contract": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+        "name": "Jupiter Perps LP",
+        "symbol": "JLP",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/jlp.png",
+        "coinGeckoId": "jupiter-perpetuals-liquidity-provider-token"
+    },
+    {
+        "type": "spl",
+        "contract": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+        "name": "JITO",
+        "symbol": "JTO",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/jito.png",
+        "coinGeckoId": "jito-governance-token"
+    },
+    {
+        "type": "spl",
+        "contract": "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof",
+        "name": "Render Token",
+        "symbol": "RENDER",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/render.png",
+        "coinGeckoId": "render-token"
+    },
+    {
+        "type": "spl",
+        "contract": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+        "name": "Pyth Network",
+        "symbol": "PYTH",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pyth.png",
+        "coinGeckoId": "pyth-network"
+    },
+    {
+        "type": "spl",
+        "contract": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+        "name": "Jupiter Staked SOL",
+        "symbol": "JupSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/jupsol.png",
+        "coinGeckoId": "jupiter-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "AiXxRGmRc5oDiFXbEeRX9obPpr3Zir7rks1ef2NjddiF",
+        "name": "Ai Xovia",
+        "symbol": "AIX",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/aix.png",
+        "coinGeckoId": "ai-xovia"
+    },
+    {
+        "type": "spl",
+        "contract": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+        "name": "dogwifhat",
+        "symbol": "$WIF",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/wif.png",
+        "coinGeckoId": "dogwifcoin"
+    },
+    {
+        "type": "spl",
+        "contract": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+        "name": "Wormhole Token",
+        "symbol": "W",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/w.png",
+        "coinGeckoId": "wormhole"
+    },
+    {
+        "type": "spl",
+        "contract": "Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs",
+        "name": "Grass",
+        "symbol": "GRASS",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/grass.png",
+        "coinGeckoId": "grass"
+    },
+    {
+        "type": "spl",
+        "contract": "SarosY6Vscao718M4A778z4CGtvcwcGef5M9MEH1LGL",
+        "name": "Saros",
+        "symbol": "SAROS",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/saros.png",
+        "coinGeckoId": "saros-finance"
+    },
+    {
+        "type": "spl",
+        "contract": "MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u",
+        "name": "Magic Eden",
+        "symbol": "ME",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/me.png",
+        "coinGeckoId": "magic-eden"
+    },
+    {
+        "type": "spl",
+        "contract": "DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7",
+        "name": "Drift",
+        "symbol": "DRIFT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/drift.png",
+        "coinGeckoId": "drift-protocol"
+    },
+    {
+        "type": "spl",
+        "contract": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+        "name": "Kamino",
+        "symbol": "KMNO",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/kmno.png",
+        "coinGeckoId": "kamino"
+    },
+    {
+        "type": "spl",
+        "contract": "LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc",
+        "name": "Solayer",
+        "symbol": "LAYER",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/layer.png",
+        "coinGeckoId": "solayer"
+    },
+    {
+        "type": "spl",
+        "contract": "SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES",
+        "name": "Sonic SVM",
+        "symbol": "SONIC",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/sonic.png",
+        "coinGeckoId": "sonic-svm"
+    },
+    {
+        "type": "spl",
+        "contract": "BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+        "name": "IO",
+        "symbol": "IO",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/io.png",
+        "coinGeckoId": "io"
+    },
+    {
+        "type": "spl",
+        "contract": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+        "name": "BybitSOL",
+        "symbol": "bbSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/bbsol.png",
+        "coinGeckoId": "bybit-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+        "name": "Collector Crypt",
+        "symbol": "CARDS",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/cards.png",
+        "coinGeckoId": "collector-crypt"
+    },
+    {
+        "type": "spl",
+        "contract": "HrkKngiUavecwte1ZMrdt4H5Qet3cecNUzMoEAgjTAX8",
+        "name": "PARABOLIC AI",
+        "symbol": "PAI",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pai.png",
+        "coinGeckoId": "parabolic-ai"
+    },
+    {
+        "type": "spl",
+        "contract": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
+        "name": "Wrapped Ethereum (Sollet)",
+        "symbol": "SOETH",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk/logo.png",
+        "coinGeckoId": "wrapped-ethereum-sollet"
+    },
+    {
+        "type": "spl",
+        "contract": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+        "name": "Zebec Network",
+        "symbol": "ZBCN",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/zbcn.png",
+        "coinGeckoId": "zebec-network"
+    },
+    {
+        "type": "spl",
+        "contract": "Dso1bDeDjCQxTrWHqUUi63oBvV7Mdm6WaobLbQ7gnPQ",
+        "name": "Drift Staked SOL",
+        "symbol": "dSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/dsol.png",
+        "coinGeckoId": "drift-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+        "name": "Coinbase Wrapped BTC",
+        "symbol": "cbBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/cbbtc.png",
+        "coinGeckoId": "coinbase-wrapped-btc"
+    },
+    {
+        "type": "spl",
+        "contract": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+        "name": "Wrapped BTC (Wormhole)",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh/logo.png",
+        "coinGeckoId": "wrapped-btc-wormhole"
+    },
+    {
+        "type": "spl",
+        "contract": "vSoLxydx6akxyMD9XEcPvGYNGq6Nn66oqVb3UkGkei7",
+        "name": "vSOL",
+        "symbol": "vSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/vsol.png",
+        "coinGeckoId": "the-vault-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "4Z8wM5BEVD5RHZ79AJ5XUN23tsEWSGZne2qqNm647Q9o",
+        "name": "Bitradex Token",
+        "symbol": "BTX",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/btx.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "spl",
+        "contract": "METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m",
+        "name": "Metaplex",
+        "symbol": "MPLX",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m/logo.png",
+        "coinGeckoId": "metaplex"
+    },
+    {
+        "type": "spl",
+        "contract": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+        "name": "cat in a dogs world",
+        "symbol": "MEW",
+        "description": "",
+        "decimals": 5,
+        "image": "https://img-v1.raydium.io/icon/MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5.png",
+        "coinGeckoId": "cat-in-a-dogs-world"
+    },
+    {
+        "type": "spl",
+        "contract": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+        "name": "Wrapped Ether (Wormhole)",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs/logo.png",
+        "coinGeckoId": "ethereum-wormhole"
+    },
+    {
+        "type": "spl",
+        "contract": "8BMzMi2XxZn9afRaMx5Z6fauk9foHXqV5cLTCYWRcVje",
+        "name": "Staika",
+        "symbol": "STIK",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/staika.png",
+        "coinGeckoId": "staika"
+    },
+    {
+        "type": "spl",
+        "contract": "HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
+        "name": "Huma Finance",
+        "symbol": "HUMA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/huma.png",
+        "coinGeckoId": "huma-finance"
+    },
+    {
+        "type": "spl",
+        "contract": "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump",
+        "name": "Peanut the Squirrel",
+        "symbol": "Pnut",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/peanut.png",
+        "coinGeckoId": "peanut-the-squirrel"
+    },
+    {
+        "type": "spl",
+        "contract": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
+        "name": "Serum",
+        "symbol": "SRM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt/logo.png",
+        "coinGeckoId": "serum"
+    },
+    {
+        "type": "spl",
+        "contract": "AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj",
+        "name": "Syrup USDC",
+        "symbol": "syrupUSDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/syrup.png",
+        "coinGeckoId": "syrupusdc"
+    },
+    {
+        "type": "spl",
+        "contract": "z3dn17yLaGMKffVogeFHQ9zWVcXgqgf3PQnDsNs2g6M",
+        "name": "Oxygen Protocol",
+        "symbol": "OXY",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/oxy.png",
+        "coinGeckoId": "oxygen"
+    },
+    {
+        "type": "spl",
+        "contract": "ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY",
+        "name": "Moo Deng",
+        "symbol": "MOODENG",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/moodeng.png",
+        "coinGeckoId": "moo-deng"
+    },
+    {
+        "type": "spl",
+        "contract": "vRseBFqTy9QLmmo5qGiwo74AVpdqqMTnxPqWoWMpump",
+        "name": "Verse World",
+        "symbol": "Verse",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/verse.png",
+        "coinGeckoId": "verse-world"
+    },
+    {
+        "type": "spl",
+        "contract": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/usd1.png",
+        "coinGeckoId": "usd1-wlfi"
+    },
+    {
+        "type": "spl",
+        "contract": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
+        "name": "Ondo US Dollar Yield",
+        "symbol": "USDY",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/usdy.png",
+        "coinGeckoId": "ondo-us-dollar-yield"
+    },
+    {
+        "type": "spl",
+        "contract": "GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr",
+        "name": "BlackRock USD Institutional Digital Liquidity Fund",
+        "symbol": "BUIDL",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr/logo.png",
+        "coinGeckoId": "blackrock-usd-institutional-digital-liquidity-fund"
+    },
+    {
+        "type": "spl",
+        "contract": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+        "name": "SPX6900 (Wormhole)",
+        "symbol": "SPX",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/spx.png",
+        "coinGeckoId": "spx6900"
+    },
+    {
+        "type": "spl",
+        "contract": "shixxut6zHRKnbCVqzBDB6tDBFWKqds92gu9n1HXj5i",
+        "name": "Shisha Coin",
+        "symbol": "SHISHA",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/shisha.png",
+        "coinGeckoId": "shisha-coin-2"
+    },
+    {
+        "type": "spl",
+        "contract": "TUNAfXDZEdQizTMTh3uEvNvYqJmqFHZbEJt8joP4cyx",
+        "name": "DefiTuna",
+        "symbol": "TUNA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/tuna.png",
+        "coinGeckoId": "defituna"
+    },
+    {
+        "type": "spl",
+        "contract": "ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82",
+        "name": "BOOK OF MEME",
+        "symbol": "BOME",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/bome.png",
+        "coinGeckoId": "book-of-meme"
+    },
+    {
+        "type": "spl",
+        "contract": "ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq",
+        "name": "ZEUS",
+        "symbol": "ZEUS",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/zeus.png",
+        "coinGeckoId": "zeus-network"
+    },
+    {
+        "type": "spl",
+        "contract": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC",
+        "name": "ai16z",
+        "symbol": "ai16z",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/ai16z.png",
+        "coinGeckoId": "ai16z"
+    },
+    {
+        "type": "spl",
+        "contract": "NeonTjSjsuo3rexg9o6vHuMXw62f9V7zvmu8M8Zut44",
+        "name": "Neon EVM Token",
+        "symbol": "NEON",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/neon.png",
+        "coinGeckoId": "neon"
+    },
+    {
+        "type": "spl",
+        "contract": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
+        "name": "Cloud",
+        "symbol": "CLOUD",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/cloud.png",
+        "coinGeckoId": "sanctum-2"
+    },
+    {
+        "type": "spl",
+        "contract": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
+        "name": "Serum",
+        "symbol": "SRM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt/logo.png",
+        "coinGeckoId": "serum"
+    },
+    {
+        "type": "spl",
+        "contract": "goodX4LG92UAcRdFRUykfP2fAfzQAVttrToEPxtxSkp",
+        "name": "goodcryptoX",
+        "symbol": "GOOD",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/good.png",
+        "coinGeckoId": "goodcryptox"
+    },
+    {
+        "type": "spl",
+        "contract": "TNSRxcUxoT9xBG3de7PiJyTDYu7kskLqcpddxnEJAS6",
+        "name": "Tensor",
+        "symbol": "TNSR",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/tensor.png",
+        "coinGeckoId": "tensor"
+    },
+    {
+        "type": "spl",
+        "contract": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
+        "name": "Helius Staked SOL",
+        "symbol": "hSOL",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/hsol.png",
+        "coinGeckoId": "helius-staked-sol"
+    },
+    {
+        "type": "spl",
+        "contract": "GAehkgN1ZDNvavX81FmzCcwRnzekKMkSyUNq8WkMsjX1",
+        "name": "Swop",
+        "symbol": "SWOP",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/swop.png",
+        "coinGeckoId": "swop-2"
+    },
+    {
+        "type": "spl",
+        "contract": "RoamA1USA8xjvpTJZ6RvvxyDRzNh6GCA1zVGKSiMVkn",
+        "name": "Roam Token",
+        "symbol": "ROAM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/roam.png",
+        "coinGeckoId": "roam-token"
+    },
+    {
+        "type": "spl",
+        "contract": "J3umBWqhSjd13sag1E1aUojViWvPYA5dFNyqpKuX3WXj",
+        "name": "Home",
+        "symbol": "HOME",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/home.png",
+        "coinGeckoId": "home"
+    },
+    {
+        "type": "spl",
+        "contract": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+        "name": "Marinade",
+        "symbol": "MNDE",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey/logo.png",
+        "coinGeckoId": "marinade"
+    },
+    {
+        "type": "spl",
+        "contract": "7atgF8KQo4wJrD5ATGX7t1V2zVvykPJbFfNeVf1icFv1",
+        "name": "catwifhat",
+        "symbol": "$CWIF",
+        "description": "",
+        "decimals": 2,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/cimf.png",
+        "coinGeckoId": "catwifhat-2"
+    },
+    {
+        "type": "spl",
+        "contract": "LFNTYraetVioAPnGJht4yNg2aUZFXR776cMeN9VMjXp",
+        "name": "Lifinity",
+        "symbol": "LFNTY",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/lfnty.png",
+        "coinGeckoId": "lifinity"
+    },
+    {
+        "type": "spl",
+        "contract": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+        "name": "EURC",
+        "symbol": "EURC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/eurc.png",
+        "coinGeckoId": "euro-coin"
+    },
+    {
+        "type": "spl",
+        "contract": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp",
+        "name": "Bonfida",
+        "symbol": "FIDA",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/fida.png",
+        "coinGeckoId": "bonfida"
+    },
+    {
+        "type": "spl",
+        "contract": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump",
+        "name": "Goatseus Maximus",
+        "symbol": "GOAT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/goat.png",
+        "coinGeckoId": "goatseus-maximus"
+    },
+    {
+        "type": "spl",
+        "contract": "HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump",
+        "name": "Bertram The Pomeranian",
+        "symbol": "Bert",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/bert.png",
+        "coinGeckoId": "bertram-the-pomeranian"
+    }
+]

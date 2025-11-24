@@ -1,0 +1,184 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0xb1a5700fA2358173Fe465e6eA4Ff52E36e88E2ad",
+        "name": "Blast",
+        "symbol": "BLAST",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/blast.png",
+        "coinGeckoId": "blast",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4300000000000000000000000000000000000003",
+        "name": "USDB",
+        "symbol": "USDB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/usdb.png",
+        "coinGeckoId": "usdb",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4300000000000000000000000000000000000004",
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/weth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x963eec23618BbC8e1766661d5f263f18094Ae4d5",
+        "name": "Cybro Token",
+        "symbol": "CYBRO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/cybro.png",
+        "coinGeckoId": "cybro"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "name": "USDe",
+        "symbol": "USDe",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/usde.png",
+        "coinGeckoId": "ethena-usde"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x76DA31D7C9CbEAE102aff34D3398bC450c8374c1",
+        "name": "Magic Internet Money",
+        "symbol": "MIM",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/mim.png",
+        "coinGeckoId": "magic-internet-money"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf77dd21c5ce38ac08786BE35Ef1d1DeC1a6a15F3",
+        "name": "YOLO",
+        "symbol": "YOLO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/yolo.png",
+        "coinGeckoId": "yolo-games"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x73c369F61c90f03eb0Dd172e95c90208A28dC5bc",
+        "name": "OLE token powering both DistrictOne and OpenLeverage",
+        "symbol": "OLE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/ole.png",
+        "coinGeckoId": "openleverage"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x837fE561e9C5DFa73F607fDa679295DBC2Be5E40",
+        "name": "Monoswap USD",
+        "symbol": "MUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/musd.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x59c159e5a4F4d1C86F7aBDC94B7907B7473477F6",
+        "name": "BlastUP Token",
+        "symbol": "BLASTUP",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/blastup.png",
+        "coinGeckoId": "blastup"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x818a92bc81Aad0053d72ba753fb5Bc3d0C5C0923",
+        "name": "Juice",
+        "symbol": "JUICE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/juice.png",
+        "coinGeckoId": "juice-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb9dfCd4CF589bB8090569cb52FaC1b88Dbe4981F",
+        "name": "Bag",
+        "symbol": "BAG",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/bag.png",
+        "coinGeckoId": "bag"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x42E12D42b3d6C4A74a88A61063856756Ea2DB357",
+        "name": "Orbit Protocol",
+        "symbol": "ORBIT",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/orbit.png",
+        "coinGeckoId": "orbit-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd582879453337BD149Ae53EC2092B0af5281d1D7",
+        "name": "GLORY",
+        "symbol": "GLORY",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/glory.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA4C7aA67189EC5623121c6C94Ec757DfeD932D4B",
+        "name": "Mia",
+        "symbol": "MIA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/mia.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9bD75c164dAf830733AC2EA71A0258f95aac7C57",
+        "name": "BlastCat",
+        "symbol": "BCat",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/bcat.png",
+        "coinGeckoId": "blastcat"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9e20461bc2c4c980f62f1B279D71734207a6A356",
+        "name": "OmniCat",
+        "symbol": "OMNI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blast/asset/omni.png",
+        "coinGeckoId": "omnicat"
+    }
+]

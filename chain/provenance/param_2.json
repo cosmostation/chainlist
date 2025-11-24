@@ -11,6 +11,7 @@
     "api_name" : "provenance",
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
+    "is_support_mintscan": true,
     "chain_type": [
         "cosmos"
     ],

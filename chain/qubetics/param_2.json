@@ -25,6 +25,10 @@
             "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
         }
     ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
     "cosmos_fee_info" : {
         "base" : "1",
         "rate" : [
@@ -47,12 +51,32 @@
         {
             "provider": "Qubetics",
             "url": "https://swagger.qubetics.com/"
+        },
+        {
+            "provider": "Veritics",
+            "url": "https://swagger.node.veritics.ch"
+        },
+        {
+            "provider": "Qubenode",
+            "url": "https://rest.qubenode.space"
+        },
+        {
+            "provider": "TicsForge-Node",
+            "url": "https://rest.qubeticstralbo.eu"
         }
     ],
     "evm_rpc_endpoint" : [
         {
             "provider": "Qubetics",
             "url": "https://rpc.qubetics.com/"
+        },
+        {
+            "provider": "Qubenode",
+            "url": "https://evm.qubenode.space"
+        },
+        {
+            "provider": "TicsForge-Node",
+            "url": "https://evm.qubeticstralbo.eu"
         }
     ],
     "explorer" : {
@@ -68,7 +92,8 @@
         "github" : "https://github.com/Qubetics/qubetics-chain",
         "blog" : "https://www.qubetics.com/blog/",
         "medium": "https://medium.com/tag/qubetics",
-        "twitter" : "https://x.com/qubetics"
+        "twitter" : "https://x.com/qubetics",
+        "coingecko" : "https://www.coingecko.com/en/coins/qubetics"
     },
     "forum": {
     },

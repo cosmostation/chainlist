@@ -35,10 +35,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-nibiru.cosmostation.io:443"
-        },
-        {
             "provider": "Nibiru Foundation",
             "url": "grpc.nibiru.fi:443"
         },
@@ -56,10 +52,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-nibiru.cosmostation.io/"
-        },
         {
             "provider": "silent",
             "url": "https://api.nibiru.silentvalidator.com/"

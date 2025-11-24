@@ -43,22 +43,12 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "genznodes",
-            "url": "https://realio-api.genznodes.dev/"
-        },
-        {
             "provider": "Nodeist",
             "url": "https://api-realio-network.nodeist.net/"
-            
         },
         {
             "provider": "Stavr",
             "url": "https://realio.api.m.stavr.tech/"
-            
-        },
-        {
-            "provider": "Indonode",
-            "url": "https://api.realio.indonode.net/"
         },
         {
             "provider": "vinjan",
@@ -67,8 +57,12 @@
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "genznodes",
-            "url": "https://realio-rpc-evm.genznodes.dev"
+            "provider": "Realio",
+            "url": "https://json-rpc.realio.network"
+        },
+        {
+            "provider": "Decentrio",
+            "url": "https://realio.json-rpc.decentrio.ventures"
         }
     ],
     "explorer" : {

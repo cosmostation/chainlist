@@ -38,5 +38,26 @@
             "webSite": "https://app.squidrouter.com",
             "twitter": "https://twitter.com/squidrouter"
         }
-    }
+    },
+    {
+        "name": "Citizen Web3",
+        "type": "Staking",
+        "description": "Privacy-focused, self-hosted bare-metal validator with off-grid capabilities. Provides public RPC, REST API, GRPC endpoints and archive nodes.",
+        "status": "open",
+        "thumbnail": "citizenweb3",
+        "link": "https://staking.citizenweb3.com/chains/cosmoshub",
+        "social": {
+            "webSite": "https://citizenweb3.com/",
+            "twitter": "https://x.com/citizen_web3",
+            "github": "https://github.com/citizenweb3"
+        }
+    },
+    {
+	    "name": "Validatorinfo",
+	    "type": "Explorer",
+	    "description": "Multichain explorer",
+	    "status": "open",
+	    "thumbnail" : "validatorinfo",
+	    "link": "https://validatorinfo.com/networks/cosmoshub/overview"
+	  }
 ]

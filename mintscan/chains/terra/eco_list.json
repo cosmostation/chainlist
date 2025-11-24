@@ -20,7 +20,7 @@
     "description": "A neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
     "status": "open",
     "thumbnail" : "astroport",
-    "link": "https://app.astroport.fi/swap?from=ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5&to=uluna",
+    "link": "https://app.astroport.fi/swap?chain=terra&to=ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5&from=uluna",
     "social": {
       "webSite": "https://astroport.fi/en",
       "twitter": "https://twitter.com/astroport_fi",
@@ -49,41 +49,27 @@
     "description": "Hosts a native Terra DEX with a focus on interchain liquidity solutions.",
     "status": "open",
     "thumbnail" : "white-whale2",
-    "link": "https://app.whitewhale.money/terra/swap?from=USDC&to=LUNA",
+    "link": "https://app.whitewhale.money/terra/swap?from=LUNA&to=USDC",
     "social": {
       "webSite": "https://www.whitewhale.money/",
-      "twitter": "https://twitter.com/WhiteWhaleDefi",
+      "twitter": "https://x.com/BackBoneLabsHub",
       "medium": "https://medium.com/@whitewhaleterra",
       "github": "https://github.com/White-Whale-Defi-Platform/",
       "docs": "https://docs.migaloo.zone/"
     }
   },
   {
-    "name": "Stargate Finance",
-    "type": "Transport",
-    "description": "Transfer USDT to Kava EVM (Route: Stargate V1, Gas on destination: Max). Then use the following app to Terra.",
+    "name": "Coinhall",
+    "type": "DeFi",
+    "description": "Omnichain Trading Terminal for Terra/Cosmos/Solana.",
     "status": "open",
-    "thumbnail" : "stargate",
-    "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
+    "thumbnail" : "coinhall",
+    "link": "https://coinhall.org/swap?fromChain=noble-1&fromAsset=ueure&toChain=phoenix-1&toAsset=uluna",
     "social": {
-      "webSite": "https://stargate.finance",
-      "twitter": "https://x.com/StargateFinance",
-      "medium": "https://medium.com/stargate-official",
-      "github": "https://github.com/stargate-protocol",
-      "docs": "https://www.kava.io/news/how-to-bridge-usdt-with-stargate"
-    }
-  },
-  {
-    "name": "Kava to Terra",
-    "type": "Transport",
-    "description": "Use this app to IBC native USDT straight from Kava EVM to Terra and back.",
-    "status": "open",
-    "thumbnail" : "appkava",
-    "link": "https://app.kava.io/transfer",
-    "social": {
-      "webSite": "https://app.squidrouter.com/?chains=2222%2Cphoenix-1&tokens=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee%2Culuna",
-      "twitter": "https://x.com/KAVA_CHAIN/status/1768320712660398268",
-      "docs": "https://help.app.kava.io/article/44-how-to-transfer-usdt-to-cosmos-chains-with-a-single-click"
+      "webSite": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst&toChain=phoenix-1&toAsset=uluna",
+      "twitter": "https://x.com/coinhall_org?lang=kn",
+      "github": "https://github.com/coinhall",
+      "docs": "https://docs.coinhall.org/"
     }
   },
   {
@@ -114,23 +100,9 @@
     }
   },
   {
-    "name": "Coinhall",
-    "type": "DeFi",
-    "description": "Omnichain Trading Terminal for Terra/Cosmos/Solana.",
-    "status": "open",
-    "thumbnail" : "coinhall",
-    "link": "https://coinhall.org/swap?fromChain=noble-1&fromAsset=ueure&toChain=phoenix-1&toAsset=uluna",
-    "social": {
-      "webSite": "https://coinhall.org/swap?fromChain=phoenix-1&fromAsset=terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst&toChain=phoenix-1&toAsset=uluna",
-      "twitter": "https://x.com/coinhall_org?lang=kn",
-      "github": "https://github.com/coinhall",
-      "docs": "https://docs.coinhall.org/"
-    }
-  },
-  {
     "name": "Boost DAO",
     "type": "NFT",
-    "description": "Ignite is a permissionless OTC desk and launchpad for both tokens and NFTs",
+    "description": "Ignite is a permissionless OTC desk and launchpad for both tokens and NFTs.",
     "status": "open",
     "thumbnail" : "ignite",
     "link": "https://www.boostdao.io/ignite/permissionless-terra",
@@ -141,14 +113,14 @@
     }
   },
   {
-    "name": "Necropolis",
+    "name": "BackBone Labs Marketplace",
     "type": "NFT",
-    "description": "A multi-chain NFT Marketplace and Launchpad, powered by BackBone Labs",
+    "description": "A multi-chain NFT Marketplace and Launchpad.",
     "status": "open",
     "thumbnail" : "necropolis",
-    "link": "https://app.backbonelabs.io/nfts/necropolis/collections",
+    "link": "https://app.backbonelabs.io/nfts/marketplace/collections",
     "social": {
-      "webSite": "https://www.backbonelabs.io/necropolis.html",
+      "webSite": "https://app.backbonelabs.io/",
       "twitter": "https://twitter.com/BackBone_Labs",
       "medium": "https://backbonelabs.medium.com/"
     }
@@ -161,7 +133,7 @@
     "thumbnail" : "gravedigger",
     "link": "https://app.backbonelabs.io/liquid-staking/gravedigger/phoenix-1",
     "social": {
-      "webSite": "https://www.backbonelabs.io/gravedigger.html",
+      "webSite": "https://app.backbonelabs.io/",
       "twitter": "https://twitter.com/BackBone_Labs",
       "medium": "https://backbonelabs.medium.com/"
     }
@@ -196,6 +168,77 @@
     }
   },
   {
+    "name": "Noble Express",
+    "type": "Transport",
+    "description": "Alternative to Skip Go for native USDC transfers in and out of Terra/Cosmos.",
+    "status": "open",
+    "thumbnail" : "noble-express",
+    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
+    "social": {
+      "webSite": "https://express.noble.xyz/",
+      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
+      "github": "https://github.com/noble-assets",
+      "docs": "https://docs.noble.xyz/cctp"
+    }
+  },
+  {
+    "name": "Kava to Terra",
+    "type": "Transport",
+    "description": "Use this app to IBC native USDT straight from Kava EVM to Terra and back.",
+    "status": "open",
+    "thumbnail" : "appkava",
+    "link": "https://app.kava.io/transfer",
+    "social": {
+      "webSite": "https://app.kava.io/evm/wkava",
+      "twitter": "https://x.com/KAVA_CHAIN/status/1768320712660398268",
+      "docs": "https://help.app.kava.io/article/44-how-to-transfer-usdt-to-cosmos-chains-with-a-single-click"
+    }
+  },
+  {
+    "name": "Stargate Finance",
+    "type": "Transport",
+    "description": "Transfer USDT from anywhere to Kava EVM (Route: Stargate V1). Then use the \"Kava to Terra\" app.",
+    "status": "open",
+    "thumbnail" : "stargate",
+    "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
+    "social": {
+      "webSite": "https://stargate.finance",
+      "twitter": "https://x.com/StargateFinance",
+      "medium": "https://medium.com/stargate-official",
+      "github": "https://github.com/stargate-protocol",
+      "docs": "https://www.kava.io/news/how-to-bridge-usdt-with-stargate"
+    }
+  },
+  {
+    "name": "WAN Bridge",
+    "type": "Transport",
+    "description": "Wanchain's cross-chain bridge ideal for USDC (via Noble) and USDT (via Kava) transfers in and out of Cosmos.",
+    "status": "open",
+    "thumbnail" : "wanchain",
+    "link": "https://bridge.wanchain.org/AssetBridge",
+    "social": {
+      "webSite": "https://www.wanchain.org/",
+      "twitter": "https://x.com/wanchain_org",
+      "medium": "https://medium.com/@wanchain_org",
+      "github": "https://github.com/wanchain",
+      "docs": "https://docs.wanchain.org/products/wanbridge"
+    }
+  },
+  {
+    "name": "DAO DAO",
+    "type": "DeFi",
+    "description": "The home for Decentralized Autonomous Organizations on Terra, such as Lion Dao and Phoenix Directive.",
+    "status": "open",
+    "thumbnail" : "daodao",
+    "link": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
+    "social": {
+      "webSite": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
+      "twitter": "https://x.com/DA0_DA0",
+      "github": "https://github.com/DA0-DA0",
+      "docs": "https://docs.daodao.zone/"
+    }
+  },
+  {
     "name": "Demex",
     "type": "DeFi",
     "description": "A cross-chain perpetual DEX and money market on Carbon.",
@@ -207,20 +250,6 @@
       "twitter": "https://twitter.com/demexchange",
       "github": "https://github.com/Switcheo/carbon-js-sdk",
       "docs": "https://docs.dem.exchange/"
-    }
-  },
-  {
-    "name": "DAO DAO",
-    "type": "DeFi",
-    "description": "The home for Decentralized Autonomous Organizations on Terra/Cosmos, such as Lion Dao and Phoenix Directive.",
-    "status": "open",
-    "thumbnail" : "daodao",
-    "link": "https://daodao.zone/dao/terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec/home",
-    "social": {
-      "webSite": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/home",
-      "twitter": "https://x.com/DA0_DA0",
-      "github": "https://github.com/DA0-DA0",
-      "docs": "https://docs.daodao.zone/"
     }
   },
   {
@@ -262,20 +291,6 @@
     }
   },
   {
-    "name": "Noble Express",
-    "type": "Transport",
-    "description": "Alternative to Skip Go for native USDC transfers in and out of Terra/Cosmos.",
-    "status": "open",
-    "thumbnail" : "noble-express",
-    "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
-    "social": {
-      "webSite": "https://express.noble.xyz/",
-      "twitter": "https://x.com/noble_xyz/status/1820445549780148247",
-      "github": "https://github.com/noble-assets",
-      "docs": "https://docs.noble.xyz/cctp"
-    }
-  },
-  {
     "name": "Squid Router",
     "type": "Transport",
     "description": "An Axelar-built bridge that allows token transfers/swaps between Terra and non-Cosmos chains.",
@@ -288,20 +303,6 @@
       "medium": "https://medium.com/@squidrouter",
       "github": "https://github.com/0xsquid",
       "docs": "https://docs.squidrouter.com/"
-    }
-  },
-  {
-    "name": "Portal",
-    "type": "Transport",
-    "description": "A Wormhole-built bridge that allows token transfers between Terra and non-Cosmos chains.",
-    "status": "open",
-    "thumbnail" : "portal",
-    "link": "https://portalbridge.com/advanced-tools/#/transfer",
-    "social": {
-      "webSite": "https://wormhole.com/",
-      "twitter": "https://twitter.com/portalbridge_?lang=en",
-      "github": "https://github.com/wormhole-foundation/wormhole",
-      "docs": "https://wormhole.com/docs/"
     }
   },
   {

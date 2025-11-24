@@ -29,8 +29,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kava/asset/kava_evm_atom.png",
-        "coinGeckoId": "cosmos",
-        "wallet_preload": true
+        "coinGeckoId": "cosmos"
     },
     {
         "type": "erc20",

@@ -29,8 +29,7 @@
         "description": "Wrapped Bera (WBERA)",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/wbera.png",
-        "coinGeckoId": "wrapped-bera",
-        "wallet_preload": true
+        "coinGeckoId": "wrapped-bera"
     },
     {
         "type": "erc20",
@@ -40,8 +39,7 @@
         "description": "Stride Liquid Staked BGT",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/stbgt.png",
-        "coinGeckoId": "",
-        "wallet_preload": true
+        "coinGeckoId": ""
     },
     {
         "type": "erc20",
@@ -262,5 +260,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/rseth.png",
         "coinGeckoId": "kelp-dao-restaked-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf3530788DEB3d21E8fA2c3CBBF93317FB38a0D3C",
+        "name" : "Lair",
+        "symbol": "LAIR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/lair.png",
+        "coinGeckoId": "lair"
     }
 ]

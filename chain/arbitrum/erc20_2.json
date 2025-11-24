@@ -7,8 +7,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
-        "coinGeckoId": "weth",
-        "wallet_preload": true
+        "coinGeckoId": "weth"
     },
     {
         "type": "erc20",
@@ -51,8 +50,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
-        "coinGeckoId": "usd-coin-ethereum-bridged",
-        "wallet_preload": true
+        "coinGeckoId": "usd-coin-ethereum-bridged"
     },
     {
         "type": "erc20",
@@ -62,8 +60,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
-        "coinGeckoId": "chainlink",
-        "wallet_preload": true
+        "coinGeckoId": "chainlink"
     },
     {
         "type": "erc20",
@@ -73,8 +70,7 @@
         "description": "",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
-        "coinGeckoId": "wbtc",
-        "wallet_preload": true
+        "coinGeckoId": "wbtc"
     },
     {
         "type": "erc20",
@@ -84,8 +80,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uni.png",
-        "coinGeckoId": "uni",
-        "wallet_preload": true
+        "coinGeckoId": "uni"
     },
     {
         "type": "erc20",
@@ -95,8 +90,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
-        "coinGeckoId": "dai",
-        "wallet_preload": true
+        "coinGeckoId": "dai"
     },
     {
         "type": "erc20",
@@ -797,5 +791,55 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/lava.svg",
         "coinGeckoId": "lava-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA2d52A05B8Bead5d824DF54Dd1AA63188B37A5E7",
+        "name": "Ondo",
+        "symbol": "ONDO",
+        "description": "Ondo finance token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ondo.png",
+        "coinGeckoId": "ondo-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "name": "Renzo Restaked ETH ",
+        "symbol": "ezETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/34753/standard/Ezeth_logo_circle.png",
+        "coinGeckoId": "renzo-restaked-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+        "name": "Staked Frax USD",
+        "symbol": "sfrxUSD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sfrxusd.png",
+        "coinGeckoId": "staked-frax-usd"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x3405e88af759992937b84e58f2fe691ef0eea320",
+        "name": "Frax Price Index",
+        "symbol": "FPI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/fpis.png",
+        "coinGeckoId": "frax-price-index-share"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+        "name": "LayerZero",
+        "symbol": "ZRO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://etherscan.io/token/images/zro_32.png",
+        "coinGeckoId": "layerzero"
     }
 ]

@@ -108,19 +108,28 @@
     }
   },
   {
-    "name": "dydx-migration.mintscan.io",
-    "type": "migration",
-    "description": "This dApp facilitates the migration of DYDX tokens from Ethereum to the dYdX Chain, enabling token holders to secure the network and earn staking rewards derived from the exchange's trading fees.",
+    "name": "dYdX Trading Arena",
+    "type": "Trading Competition",
+    "description": "A competitive trading competition where traders can showcase their skills and compete for prizes.",
     "status": "open",
-    "thumbnail" : "dydx-migration-mintscan",
-    "link": "https://dydx-migration.mintscan.io/",
+    "thumbnail" : "dydx-trading-arena",
+    "link": "https://dydxarena.com/",
     "social": {
-      "webSite": "https://www.cosmostation.io/",
-      "twitter": "https://twitter.com/CosmostationVD",
-      "medium": "https://medium.com/cosmostation/dydx-migration-guide-2af37f95def5",
-      "youtube": "https://www.youtube.com/@cosmostationio",
-      "github": "https://github.com/cosmostation",
-      "docs": "https://docs.cosmostation.io/"
+      "webSite": "https://dydxarena.com/",
+      "twitter": "https://x.com/dydxarena",
+      "github": "https://github.com/openreachtech/dydx-trading-competition-frontend"
+    }
+  },
+  {
+    "name": "dYdX Token Sender",
+    "type": "Tools",
+    "description": "Distribute tokens to multiple recipients in a single transaction.",
+    "status": "open",
+    "thumbnail" : "dydx-token-sender",
+    "link": "https://tokensender.dydxarena.com/",
+    "social": {
+      "webSite": "https://tokensender.dydxarena.com/",
+      "github": "https://github.com/openreachtech/cosmos-based-token-sender"
     }
   }
 ]

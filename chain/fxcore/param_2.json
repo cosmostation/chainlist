@@ -39,6 +39,10 @@
         "is_eip1559": true,
         "simulated_gas_multiply" : 1.2
     },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : ""
+    },
     "grpc_endpoint" : [],
     "lcd_endpoint" : [
         {

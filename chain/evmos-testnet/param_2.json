@@ -9,7 +9,6 @@
     "bech_account_prefix" : "evmos",
     "bech_validator_prefix" : "evmosvaloper",
     "api_name": "evmos-testnet",
-    "is_support_mintscan": true,
     "account_type" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -28,6 +27,10 @@
         "simulated_gas_multiply" : 1.2,
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
     },
     "grpc_endpoint": [
     ],

@@ -1,5 +1,5 @@
 {
-    "chain_id_cosmos" : "lumera-testnet-1",
+    "chain_id_cosmos" : "lumera-testnet-2",
     "chain_name": "Lumera Testnet",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lumera-testnet/resource/chain_lumera-testnet.png",
     "staking_asset_denom" : "ulume",
@@ -41,14 +41,22 @@
         {
             "provider": "Lumera Protocol",
             "url": "https://lcd.testnet.lumera.io/"
+        },
+        {
+            "provider": "Nodestake",
+            "url": "https://api-t.lumera.nodestake.org/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://lumera-testnet-api.polkachu.com"
         }
     ],
     "explorer" : {
-        "name": "Lumera Protocol",
-        "url": "https://portal.testnet.lumera.io/lumera-testnet-1/",
-        "account": "https://portal.testnet.lumera.io/lumera-testnet-1/account/${address}",
-        "tx": "https://portal.testnet.lumera.io/lumera-testnet-1/tx/${hash}",
-        "proposal": "https://portal.testnet.lumera.io/lumera-testnet-1/gov/${id}"
+        "name": "Mekonglabs",
+        "url": "https://explorer.mekonglabs.tech/lumera",
+        "account": "https://explorer.mekonglabs.tech/lumera/account/${address}",
+        "tx": "https://explorer.mekonglabs.tech/lumera/tx/${hash}",
+        "proposal": "https://explorer.mekonglabs.tech/lumera/gov/${id}"
     },
     "about" : {
         "github" : "https://github.com/LumeraProtocol",

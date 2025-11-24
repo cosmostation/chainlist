@@ -12,6 +12,17 @@
     },
     {
         "type": "native",
+        "denom": "aom",
+        "name": "Mantra",
+        "symbol": "OM",
+        "description": "Mantra EVM Fee Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/om.png",
+        "coinGeckoId": "mantra-dao",
+        "color": "#FC86CD"
+    },
+    {
+        "type": "native",
         "denom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE",
         "name": "Ali-Rev-Gator",
         "symbol": "BIKE",

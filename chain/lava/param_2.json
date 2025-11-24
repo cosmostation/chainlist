@@ -22,9 +22,11 @@
         }
     ],
     "cosmos_fee_info" : {
-        "base" : "0",
+        "base" : "1",
         "rate" : [
-            "0.00005ulava"
+            "0.00002ulava",
+            "0.025ulava",
+            "0.05ulava"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
@@ -33,19 +35,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-lava.cosmostation.io:443"
-        },
-        {
             "provider": "🔥STAVR🔥",
             "url": "lava.grpc.m.stavr.tech:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-lava.cosmostation.io/"
-        },
         {
             "provider": "w3coins",
             "url": "https://lava-api.w3coins.io/"

@@ -40,8 +40,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
-        "coinGeckoId": "usd-coin",
-        "wallet_preload": true
+        "coinGeckoId": "usd-coin"
     },
     {
         "type": "erc20",
@@ -51,8 +50,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
-        "coinGeckoId": "chainlink",
-        "wallet_preload": true
+        "coinGeckoId": "chainlink"
     },
     {
         "type": "erc20",
@@ -62,8 +60,7 @@
         "description": "",
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
-        "coinGeckoId": "wrapped-bitcoin",
-        "wallet_preload": true
+        "coinGeckoId": "wrapped-bitcoin"
     },
     {
         "type": "erc20",
@@ -73,8 +70,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dai.png",
-        "coinGeckoId": "dai",
-        "wallet_preload": true
+        "coinGeckoId": "dai"
     },
     {
         "type": "erc20",
@@ -84,8 +80,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ldo.png",
-        "coinGeckoId": "lido-dao",
-        "wallet_preload": true
+        "coinGeckoId": "lido-dao"
     },
     {
         "type": "erc20",
@@ -95,8 +90,7 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/pyth.png",
-        "coinGeckoId": "pyth-network",
-        "wallet_preload": true
+        "coinGeckoId": "pyth-network"
     },
     {
         "type": "erc20",
@@ -106,8 +100,7 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/worldcoin/asset/wld.png",
-        "coinGeckoId": "worldcoin-wld",
-        "wallet_preload": true
+        "coinGeckoId": "worldcoin-wld"
     },
     {
         "type": "erc20",
@@ -698,5 +691,25 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/saga.svg",
         "coinGeckoId": "saga"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2218a117083f5b482b0bb821d27056ba9c04b1d3",
+        "name": "Savings Dai",
+        "symbol": "sDAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/32254/standard/sdai.png",
+        "coinGeckoId": "savings-dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+        "name": "LayerZero",
+        "symbol": "ZRO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://etherscan.io/token/images/zro_32.png",
+        "coinGeckoId": "layerzero"
     }
 ]

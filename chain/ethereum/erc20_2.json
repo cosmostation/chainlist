@@ -29,8 +29,7 @@
         "description": "Ether.fi governance token",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ethfi.png",
-        "coinGeckoId": "ether-fi",
-        "wallet_preload": true
+        "coinGeckoId": "ether-fi"
     },
     {
         "type": "erc20",
@@ -40,8 +39,7 @@
         "description": "ether fi Staked ETH",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eeth.png",
-        "coinGeckoId": "ether-fi-staked-eth",
-        "wallet_preload": true
+        "coinGeckoId": "ether-fi-staked-eth"
     },
     {
         "type": "erc20",
@@ -51,8 +49,7 @@
         "description": "Wrapped eETH",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weeth.png",
-        "coinGeckoId": "wrapped-eeth",
-        "wallet_preload": true
+        "coinGeckoId": "wrapped-eeth"
     },
     {
         "type": "erc20",
@@ -73,8 +70,7 @@
         "description": "DYDX Token",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/asset/dydx.png",
-        "coinGeckoId": "dydx",
-        "wallet_preload": true
+        "coinGeckoId": "dydx"
     },
     {
         "type": "erc20",
@@ -2958,16 +2954,6 @@
     },
     {
         "type": "erc20",
-        "contract": "0x18fA72e0EE4C580a129b0CE5bD0694d716C7443E",
-        "name": "Kyber Network Crystal",
-        "symbol": "KNC_e",
-        "description": "",
-        "decimals": 18,
-        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/knc.svg",
-        "coinGeckoId": "kyber-network-crystal"
-    },
-    {
-        "type": "erc20",
         "contract": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
         "name": "Melon",
         "symbol": "MLN",
@@ -4003,7 +3989,7 @@
         "symbol": "sfrxETH",
         "description": "",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/sfrxeth.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/sfrxeth.png",
         "coinGeckoId": "staked-frax-ether"
     },
     {
@@ -4123,7 +4109,7 @@
         "symbol": "frxETH",
         "description": "",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/0xsquid/assets/main/images/master/tokens/frxeth.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/frxeth.png",
         "coinGeckoId": "frax-ether"
     },
     {
@@ -4292,5 +4278,158 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/pumpBTC.png",
         "coinGeckoId": "pumpbtc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+        "name": "Ondo",
+        "symbol": "ONDO",
+        "description": "Ondo finance token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ondo.png",
+        "coinGeckoId": "ondo-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5027Fc44a7Ba114B8f494B1e4970900C6652FEDF",
+        "name": "Arcana Network",
+        "symbol": "XAR",
+        "description": "Arcana Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xar.png",
+        "coinGeckoId": "arcana-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc96de26018a54d51c097160568752c4e3bd6c364",
+        "name": "Fire BTC",
+        "symbol": "FBTC",
+        "description": "Fire BTC",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/firebtc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3",
+        "name": "Lorenzo stBTC",
+        "symbol": "stBTC",
+        "description": "Lorenzo stBTC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg",
+        "coinGeckoId": "lorenzo-stbtc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
+        "name": "ether.fi BTC",
+        "symbol": "eBTC",
+        "description": "ether.fi BTC",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png",
+        "coinGeckoId": "ether-fi-staked-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x9356f6d95b8e109f4b7ce3e49d672967d3b48383",
+        "name": "Kinza Babylon Staked BTC",
+        "symbol": "kBTC",
+        "description": "Kinza Babylon Staked BTC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg",
+        "coinGeckoId": "kintsugi-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
+        "name": "uniBTC",
+        "symbol": "uniBTC",
+        "description": "uniBTC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC_200px.png",
+        "coinGeckoId": "universal-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xbdf245957992bfbc62b07e344128a1eec7b7ee3f",
+        "name": "Liquid Staked BTC",
+        "symbol": "mBTC",
+        "description": "Liquid Staked BTC",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png",
+        "coinGeckoId": "babypie-wrapped-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7a56e1c57c7475ccf742a1832b028f0456652f97",
+        "name": "Solv BTC",
+        "symbol": "SolvBTC",
+        "description": "SolvBTC is a universal Bitcoin reserve",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/SolvBTC.png",
+        "coinGeckoId": "solv-btc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd9d920aa40f578ab794426f5c90f6c731d159def",
+        "name": "xSolvBTC",
+        "symbol": "xSolvBTC",
+        "description": "xSolvBTC",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a",
+        "name": "Lorenzo Wrapped Bitcoin",
+        "symbol": "enzoBTC",
+        "description": "Lorenzo Wrapped Bitcoin",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/unknown.png",
+        "coinGeckoId": "lorenzo-wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0B010000b7624eb9B3DfBC279673C76E9D29D5F7",
+        "name": "Obol Network",
+        "symbol": "OBOL",
+        "description": "Obol Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/obol.png",
+        "coinGeckoId": "obol-2"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa2e3356610840701bdf5611a53974510ae27e2e1",
+        "name": "Wrapped Binance Beacon ETH",
+        "symbol": "wBETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://etherscan.io/token/images/binancewbeth_32.png",
+        "coinGeckoId": "wrapped-beacon-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+        "name": "LayerZero",
+        "symbol": "ZRO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://etherscan.io/token/images/zro_32.png",
+        "coinGeckoId": "layerzero"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+        "name": "Polygon Ecosystem Token",
+        "symbol": "POL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/polecho.png",
+        "coinGeckoId": "polygon-ecosystem-token"
     }
 ]
+
+
+ 
