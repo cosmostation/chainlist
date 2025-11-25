@@ -850,6 +850,25 @@
         "type": "DeFi"
     },
     {
+        "id": 39,
+        "name": "Drop Money",
+        "description": "Drop is a DeFi platform focused on providing liquidity across multiple blockchain networks, enhancing interoperability and transaction efficiency.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dropmoney.png",
+        "link": "https://app.drop.money/dashboard?referral_code=dropmaga",
+        "chains": [
+            "cosmos",
+            "celestia",
+            "neutron"
+        ],
+        "socials": {
+            "github": "https://github.com/hadronlabs-org/drop-contracts",
+            "telegram": "https://t.me/drop_protocol",
+            "twitter": "https://x.com/Dropdotmoney",
+            "discord": "https://discord.com/invite/dropdotmoney"
+        },
+        "type": "DeFi"
+    },
+    {
         "id": 40,
         "name": "DaoDao",
         "description": "Platform designed for decentralized autonomous organizations (DAOs) to manage their operations.",
@@ -2653,7 +2672,7 @@
         },
         "type": "Bridge"
     },
-     {
+    {
         "id": 154,
         "name": "Garuda Defi",
         "description": "An automated market maker (AMM) built on the Terra Classic blockchain which enables factory token, permissionless pool creation, staking token and farms for earning yield.",
@@ -3987,6 +4006,6 @@
         "type": "DeFi"
     }
 ]
-
-
+ 
+ 
  
