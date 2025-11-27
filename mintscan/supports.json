@@ -165,11 +165,6 @@
         "lcd": "https://lcd-sei.cosmostation.io/"
     },
     {
-        "chain": "selfchain",
-        "chain_id": "self-1",
-        "lcd": "https://lcd-selfchain.cosmostation.io/"
-    },
-    {
         "chain": "shentu",
         "chain_id": "shentu-2.2",
         "lcd": "https://lcd-shentu.cosmostation.io/"
@@ -298,12 +293,6 @@
         "chain": "saga-testnet",
         "chain_id": "ssc-testnet-3",
         "lcd": "https://lcd-office.cosmostation.io/saga-testnet/",
-        "is_testnet": true
-    },
-    {
-        "chain": "selfchain-testnet",
-        "chain_id": "selfchain-testnet",
-        "lcd": "https://lcd.testnet.selfchain.cosmostation.io/",
         "is_testnet": true
     },
     {

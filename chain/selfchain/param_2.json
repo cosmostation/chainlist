@@ -9,7 +9,7 @@
     "bech_validator_prefix" : "selfvaloper",
     "origin_genesis_time" : "2024-06-06T06:06:06Z",
     "api_name" : "selfchain",
-    "is_support_mintscan": true,
+    "is_support_mintscan": false,
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
     "chain_type": [
