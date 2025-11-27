@@ -1,0 +1,215 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E",
+        "name": "ZKsync",
+        "symbol": "ZK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/zk.png",
+        "coinGeckoId": "zksync",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x493257fD37EDB34451f62EDf8D2a0C418852bA4C",
+        "name": "Tether",
+        "symbol": "USDT",
+        "description": "Tether",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCafB42a2654C20cb3739F04243E925aa47302bec",
+        "name": "Wrapped liquid staked Ether 2.0 ",
+        "symbol": "wstETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/wsteth.png",
+        "coinGeckoId": "wrapped-steth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x96e4069B746bD88Db76eE126acfDA537DdcEe6FF",
+        "name": "Binance Coin",
+        "symbol": "BNB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/bnb.png",
+        "coinGeckoId": "binancecoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
+        "name": "ChainLink Token",
+        "symbol": "LINK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/link.png",
+        "coinGeckoId": "chainlink"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf00DAD97284D0c6F06dc4Db3c32454D4292c6813",
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/weth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xCa85055dc7f28a89EEB388eB50A65c1fe21B97d3",
+        "name": "USDe",
+        "symbol": "USDe",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/usde.png",
+        "coinGeckoId": "ethena-usde"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xe862bF1176a99E5aC9b693C1F966f266143BD8f5",
+        "name": "Wrapped eETH",
+        "symbol": "weETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/weeth.png",
+        "coinGeckoId": "wrapped-eeth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5B09802d62d213c4503B4b1Ef5F727ef62c9F4eF",
+        "name": "SHIBA INU",
+        "symbol": "SHIB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/shib.png",
+        "coinGeckoId": "shiba-inu"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xBBeB516fb02a01611cBBE0453Fe3c580D7281011",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/wbtc.png",
+        "coinGeckoId": "zksync-bridged-wbtc-zksync"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0bcCa089F12AE9e78f5060E1d6fbbe1C827c5990",
+        "name": "CRO",
+        "symbol": "CRO",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/cro.png",
+        "coinGeckoId": "crypto-com-chain"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1C6f53185061D7cC387E481c350aD00C2C876f3E",
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/uni.png",
+        "coinGeckoId": "uniswap"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0e6d09D44F3A929d3030B84bFbCc9AE43F42ac8F",
+        "name": "Aave Token",
+        "symbol": "AAVE",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/aave.png",
+        "coinGeckoId": "aave"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x32Fd44bB869620C0EF993754c8a00Be67C464806",
+        "name": "Rocket Pool ETH",
+        "symbol": "rETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/reth.png",
+        "coinGeckoId": "rocket-pool-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4B9eb6c0b6ea15176BBF62841C6B2A8a398cb656",
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/dai.png",
+        "coinGeckoId": "dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdB707491E4A4620a19730f6ADd13F4a00554d92C",
+        "name": "ether.fi governance token",
+        "symbol": "ETHFI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/ethfi.png",
+        "coinGeckoId": "ether-fi"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xACc3Fa3dbD28910C1CCb3B830b3ED0Da686bA6a8",
+        "name": "PancakeSwap Token",
+        "symbol": "Cake",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/cake.png",
+        "coinGeckoId": "pancakeswap-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5945932099f124194452a4c62d34bB37f16183B2",
+        "name": "Curve DAO Token",
+        "symbol": "CRV",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/crv.png",
+        "coinGeckoId": "curve-dao-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x4E14EC08875c88f9B0Cf2A075F481EDa0143d1f0",
+        "name": "Wrapped TON Coin",
+        "symbol": "TONCOIN",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/ton.png",
+        "coinGeckoId": "the-open-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x680ACB73D85508636A5B20ab76780cBd7f7023A3",
+        "name": "NEAR",
+        "symbol": "NEAR",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/near.png",
+        "coinGeckoId": "near"
+    }
+]

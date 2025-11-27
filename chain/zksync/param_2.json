@@ -1,0 +1,69 @@
+{
+    "chain_id_evm" : "0x144",
+    "chain_name": "ZKsync",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/resource/chain_zksync.png",
+    "main_asset_denom" : "0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E",
+    "main_asset_symbol" : "ZK",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/zk.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "ETH",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/eth_zksync.png",
+    "origin_genesis_time" : "2023-03-24T00:00:00Z",
+    "api_name" : "zksync",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : ""
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "ZKsync",
+            "url": "https://mainnet.era.zksync.io"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/zksync_era"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://zksync.drpc.org"
+        },
+        {
+            "provider": "1Rpc",
+            "url": "https://1rpc.io/zksync2-era"
+        },
+        {
+            "provider": "Pocket",
+            "url": "https://zksync-era.api.pocket.network"
+        }
+    ],
+    "explorer" : {
+        "name": "ZKsync Block Explorer",
+        "url": "https://explorer.zksync.io/",
+        "account": "https://explorer.zksync.io/address/${address}",
+        "tx": "https://explorer.zksync.io/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://www.zksync.io/",
+        "docs": "https://docs.zksync.io/zksync-network",
+        "github" : "https://github.com/matter-labs",
+        "blog" : "https://www.zksync.io/blog",
+        "twitter" : "https://x.com/zksync",
+        "coingecko" : "https://www.coingecko.com/en/coins/zksync"
+    },
+    "description" : {
+        "ko" : "zkSync는 영지식증명을 기반으로 이더리움 위에서 빠르고 저렴한 트랜잭션을 제공하는 Layer 2 블록체인입니다. 보안은 이더리움 메인체인에 의해 유지되며, 높은 처리량과 낮은 수수료를 목표로 설계되었습니다.",
+        "en" : "zkSync is a Layer-2 blockchain that uses zero-knowledge proofs to enable fast and low-cost transactions on top of Ethereum. Its security is inherited from Ethereum mainnet while offering higher throughput and cheaper fees.",
+        "ja" : "zkSync はゼロ知識証明を用いて、Ethereum 上で高速かつ低コストの取引を可能にする Layer-2 ブロックチェーンです。 セキュリティは Ethereum メインネットに依存しつつ、より高い処理能力と低手数料を実現します。"
+    }
+}
