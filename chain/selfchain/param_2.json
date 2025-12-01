@@ -50,11 +50,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/selfchain/",
-        "account": "https://www.mintscan.io/selfchain/address/${address}",
-        "tx": "https://www.mintscan.io/selfchain/tx/${hash}",
-        "proposal": "https://www.mintscan.io/selfchain/proposals/${id}"
+        "name": "Selfchain Explorer",
+        "url": "https://explorer.selfchain.xyz/",
+        "account": "https://explorer.selfchain.xyz//address/${address}",
+        "tx": "https://explorer.selfchain.xyz//tx/${hash}",
+        "proposal": "https://explorer.selfchain.xyz//proposals/${id}"
     },
     "about" : {
         "website" : "https://selfchain.xyz/",
