@@ -53,7 +53,9 @@
             "linea",
             "optimism",
             "polygon",
-            "sonic"
+            "solana",
+            "sonic",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/1inch",
@@ -106,9 +108,12 @@
             "blast",
             "bnb-smart-chain",
             "celo",
+            "monad",
             "optimism",
             "polygon",
-            "worldcoin"
+            "solana",
+            "worldcoin",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/Uniswap",
@@ -132,7 +137,9 @@
             "bnb-smart-chain",
             "linea",
             "mantle",
-            "optimism"
+            "monad",
+            "optimism",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/ethena-labs",
@@ -179,6 +186,7 @@
             "arbitrum",
             "avalanche",
             "base",
+            "monad",
             "optimism",
             "polygon"
         ],
@@ -207,10 +215,13 @@
             "fantom",
             "linea",
             "mantle",
+            "monad",
             "optimism",
             "polygon",
+            "scroll",
             "sonic",
-            "thorchain"
+            "thorchain",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/rango-exchange",
@@ -261,11 +272,14 @@
             "gravity-alpha",
             "linea",
             "mantle",
+            "monad",
             "optimism",
             "polygon",
+            "scroll",
             "solana",
             "sonic",
-            "worldcoin"
+            "worldcoin",
+            "zksync"
         ],
         "socials": {
             "twitter": "https://x.com/JumperExchange",
@@ -285,14 +299,21 @@
             "arbitrum",
             "avalanche",
             "base",
+            "berachain",
+            "blast",
             "bnb-smart-chain",
             "celo",
             "fantom",
             "mantle",
+            "monad",
             "linea",
             "optimism",
             "polygon",
-            "sonic"
+            "scroll",
+            "solana",
+            "sonic",
+            "sui",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/openocean-finance/",
@@ -314,6 +335,7 @@
             "arbitrum",
             "avalanche",
             "base",
+            "berachain",
             "blast",
             "bnb-smart-chain",
             "cronos",
@@ -322,7 +344,10 @@
             "mantle",
             "optimism",
             "polygon",
-            "sonic"
+            "scroll",
+            "solana",
+            "sonic",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/symbiosis-finance",
@@ -343,6 +368,7 @@
             "arbitrum",
             "avalanche",
             "base",
+            "berachain",
             "blast",
             "bnb-smart-chain",
             "cronos",
@@ -350,7 +376,10 @@
             "linea",
             "mantle",
             "optimism",
-            "polygon"
+            "polygon",
+            "scroll",
+            "solana",
+            "zksync"
         ],
         "socials": {
             "telegram": "https://t.me/cryptorubic_chat",
@@ -381,8 +410,11 @@
             "mantle",
             "optimism",
             "polygon",
+            "solana",
             "sonic",
-            "worldcoin"
+            "sui",
+            "worldcoin",
+            "zksync"
         ],
         "socials": {
             "telegram": "https://t.me/RocketXexchange",
@@ -404,6 +436,7 @@
             "bnb-smart-chain",
             "fantom",
             "polygon",
+            "solana",
             "sonic"
         ],
         "socials": {
@@ -480,6 +513,7 @@
             "arbitrum",
             "avalanche",
             "base",
+            "berachain",
             "blast",
             "bnb-smart-chain",
             "celo",
@@ -491,8 +525,10 @@
             "mantle",
             "optimism",
             "polygon",
+            "scroll",
             "sonic",
-            "zeta"
+            "zeta",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/sushiswap",
@@ -518,9 +554,11 @@
             "cronos",
             "linea",
             "mantle",
+            "monad",
             "optimism",
             "polygon",
-            "sonic"
+            "sonic",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/beefyfinance",
@@ -564,10 +602,11 @@
             "arbitrum",
             "avalanche",
             "base",
-            "blast",
             "berachain",
+            "mantle",
             "optimism",
-            "polygon"
+            "polygon",
+            "scroll"
         ],
         "socials": {
             "twitter": "https://x.com/opensea",
@@ -634,7 +673,8 @@
             "linea",
             "mantle",
             "optimism",
-            "polygon"
+            "polygon",
+            "scroll"
         ],
         "socials": {
             "github": "https://github.com/berachain",
@@ -729,6 +769,7 @@
             "berachain",
             "blast",
             "bnb-smart-chain",
+            "celo",
             "fantom",
             "gravity-alpha",
             "kaia",
@@ -737,10 +778,13 @@
             "mantle",
             "optimism",
             "polygon",
+            "scroll",
+            "solana",
             "somnia",
             "sonic",
             "worldcoin",
-            "xpla"
+            "xpla",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/stargate-protocol",
@@ -766,7 +810,9 @@
             "mantle",
             "optimism",
             "polygon",
-            "sonic"
+            "solana",
+            "sonic",
+            "story"
         ],
         "socials": {
             "github": "https://github.com/woonetwork",
@@ -2095,7 +2141,8 @@
             "arbitrum",
             "base",
             "ethereum",
-            "optimism"
+            "optimism",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/VenusProtocol/",
@@ -2117,7 +2164,11 @@
             "arbitrum",
             "base",
             "ethereum",
-            "polygon"
+            "linea",
+            "monad",
+            "polygon",
+            "solana",
+            "zksync"
         ],
         "socials": {
             "github": "https://github.com/pancakeswap/",
@@ -2138,10 +2189,15 @@
             "bnb-smart-chain",
             "arbitrum",
             "avalanche",
+            "base",
+            "berachain",
             "ethereum",
             "fantom",
+            "iota",
+            "linea",
             "optimism",
-            "polygon"
+            "polygon",
+            "sonic",
         ],
         "socials": {
             "telegram": "https://t.me/ape_bond",
@@ -2643,10 +2699,14 @@
             "cronos",
             "linea",
             "mantle",
+            "monad",
             "optimism",
             "polygon",
+            "scroll",
+            "sonic",
             "sui",
-            "worldcoin"
+            "worldcoin",
+            "xrplevm"
         ],
         "socials": {
             "twitter": "https://x.com/portalbridge_",
@@ -2772,8 +2832,11 @@
             "bnb-smart-chain",
             "linea",
             "mantle",
+            "monad",
             "optimism",
-            "polygon"
+            "polygon",
+            "scroll",
+            "solana"
         ],
         "socials": {
             "twitter": "https://x.com/matchaxyz",
@@ -2810,35 +2873,6 @@
             "telegram": "https://t.me/CarbonDeFixyz",
             "twitter": "https://x.com/carbondefixyz",
             "discord": "https://discord.com/invite/bancor"
-        },
-        "type": "DeFi"
-    },
-    {
-        "id": 162,
-        "name": "Router Nitro",
-        "description": "Router Nitro is a fast, low-cost cross-chain bridge enabling seamless transfers across 35+ blockchains. It features wallet-less payments, auto gas top-ups, and MEV-resistant routing for enhanced user convenience.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/routernitro.png",
-        "link": "https://routernitro.com/trade",
-        "chains": [
-            "ethereum",
-            "arbitrum",
-            "avalanche",
-            "base",
-            "berachain",
-            "bnb-smart-chain",
-            "linea",
-            "mantle",
-            "optimism",
-            "polygon",
-            "sonic",
-            "sui",
-            "worldcoin"
-        ],
-        "socials": {
-            "github": "https://github.com/router-protocol",
-            "telegram": "https://t.me/routerprotocol",
-            "twitter": "https://x.com/routerprotocol?t=Jab_H522Y2fB6uM60Pn6zA&s=09",
-            "discord": "https://discord.com/invite/rKf9UYMNWC"
         },
         "type": "DeFi"
     },
@@ -2929,7 +2963,8 @@
             "linea",
             "mantle",
             "optimism",
-            "polygon"
+            "polygon",
+            "scroll"
         ],
         "socials": {
             "github": "https://github.com/DODOEX",
@@ -2969,12 +3004,16 @@
             "berachain",
             "bnb-smart-chain",
             "celo",
+            "kaia",
             "linea",
             "mantle",
             "optimism",
             "polygon",
+            "scroll",
+            "solana",
             "sonic",
-            "story"
+            "story",
+            "zksync"
         ],
         "socials": {
             "twitter": "https://x.com/rhinofi"
@@ -3199,36 +3238,6 @@
         "type": "DEX"
     },
     {
-        "id": 181,
-        "name": "Rage Trade",
-        "description": "Rage is a liquidity and treasury management protocol.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/rage.png",
-        "link": "https://www.app.rage.trade/",
-        "chains": [
-            "ethereum",
-            "arbitrum",
-            "avalanche",
-            "base",
-            "berachain",
-            "blast",
-            "celo",
-            "gravity-alpha",
-            "linea",
-            "mantle",
-            "optimism",
-            "polygon",
-            "sonic",
-            "story",
-            "worldcoin"
-        ],
-        "socials": {
-            "github": "https://github.com/RageTrade",
-            "twitter": "https://x.com/rage_trade",
-            "discord": "https://discord.com/invite/88xj8vPwGe"
-        },
-        "type": "DeFi"
-    },
-    {
         "id": 182,
         "name": "Hegic",
         "description": "Hegic is an on-chain peer-to-pool options trading protocol on Arbitrum.",
@@ -3273,11 +3282,15 @@
             "avalanche",
             "base",
             "blast",
+            "bnb-smart-chain",
+            "fantom",
             "linea",
             "mantle",
             "optimism",
             "polygon",
-            "sonic"
+            "solana",
+            "sonic",
+            "zksync"
         ],
         "socials": {
             "twitter": "https://x.com/flooz_xyz",
@@ -3300,6 +3313,7 @@
             "bnb-smart-chain",
             "linea",
             "mantle",
+            "monad",
             "optimism",
             "polygon",
             "sonic"
@@ -3363,8 +3377,10 @@
             "matle",
             "optimism",
             "polygon",
+            "scroll",
             "sonic",
-            "worldcoin"
+            "worldcoin",
+            "zksync"
         ],
         "socials": {
             "telegram": "https://t.me/GravityChain",
@@ -3443,6 +3459,8 @@
             "mantle",
             "optimism",
             "polygon",
+            "scroll",
+            "solana",
             "sonic",
             "worldcoin"
         ],
@@ -3539,9 +3557,12 @@
             "fantom",
             "linea",
             "mantle",
+            "monad",
             "optimism",
             "polygon",
-            "sonic"
+            "scroll",
+            "sonic",
+            "zksync"
         ],
         "socials": {
             "twitter": "https://x.com/LineaBuild",
@@ -3768,15 +3789,19 @@
             "base",
             "berachain",
             "blast",
+            "bnb-smart-chain",
             "celo",
             "gravity-alpha",
             "linea",
             "mantle",
+            "monad",
             "optimism",
             "polygon",
+            "scroll",
             "solana",
             "sonic",
-            "worldcoin"
+            "worldcoin",
+            "zksync"
         ],
         "socials": {
             "twitter": "https://x.com/1DEXAI",
@@ -3896,6 +3921,7 @@
             "berachain",
             "bnb-smart-chain",
             "mantle",
+            "monad",
             "optimism",
             "sonic",
             "story"
@@ -4002,6 +4028,54 @@
         ],
         "socials": {
             "twitter": "https://x.com/justentropylol"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 227,
+        "name": "Monorail",
+        "description": "Monorail is a DEX-aggregator that unifies liquidity from AMMs and on-chain orderbooks into a single, coherent framework — delivering deep liquidity, lower slippage, and efficient trade execution.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/monorail.png",
+        "link": "https://monorail.xyz/",
+        "chains": [
+            "monad",
+            "ethereum",
+            "arbitrum",
+            "avalanche",
+            "base",
+            "berachain",
+            "blast",
+            "bnb-smart-chain",
+            "celo",
+            "cronos",
+            "gravity-alpha",
+            "kaia",
+            "linea",
+            "mantle",
+            "optimism",
+            "polygon",
+            "scroll",
+            "sonic",
+            "worldcoin",
+            "zksync"
+        ],
+        "socials": {
+            "twitter": "https://x.com/monad",
+            "discord": "https://discord.com/invite/monad"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 228,
+        "name": "Kuru",
+        "description": "Kuru is a fully on-chain order-book DEX built on the Monad blockchain, offering a hybrid CLOB-AMM model to deliver low slippage, self-custody, and composability.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kuru.png",
+        "link": "https://www.kuru.io/",
+        "chains": [
+            "monad"
+        ],
+        "socials": {
+            "twitter": "https://x.com/KuruExchange"
         },
         "type": "DeFi"
     }
