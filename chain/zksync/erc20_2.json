@@ -54,7 +54,7 @@
     },
     {
         "type": "erc20",
-        "contract": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
+        "contract": "0x082faDe8b84B18C441d506e1D3a43a387Cc59D20",
         "name": "ChainLink Token",
         "symbol": "LINK",
         "description": "",
@@ -211,5 +211,105 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/near.png",
         "coinGeckoId": "near"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x31C2c031fDc9d33e974f327Ab0d9883Eae06cA4A",
+        "name": "zkSwap Finance",
+        "symbol": "ZF",
+        "description": "",
+        "decimals": 18,
+        "image": "https://coin-images.coingecko.com/coins/images/31633/large/200x200_Black.png",
+        "coinGeckoId": "zkswap-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xcE7ECac36f1847f1F06B0AE46bD0a0A237EF9d93",
+        "name": "Ondo",
+        "symbol": "ONDO",
+        "description": "Ondo finance token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/ondo.png",
+        "coinGeckoId": "ondo-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x73fF88BfB03d060fb63b374d5185A50D8E1423C3",
+        "name": "Quant",
+        "symbol": "QNT",
+        "description": "Quant",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/qnt.png",
+        "coinGeckoId": "quant-network"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x31C693F80A0dD1021D6cb097d256585f37168174",
+        "name": "Worldcoin",
+        "symbol": "WLD",
+        "description": "",
+        "decimals": 18,
+        "image": "https://assets.coingecko.com/coins/images/31069/small/worldcoin.jpeg?1690182386",
+        "coinGeckoId": "worldcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x102aC5ff8C58B8Ae41fF34d85F0541a2fDbead65",
+        "name": "Polygon Ecosystem Token",
+        "symbol": "POL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/polecho.png",
+        "coinGeckoId": "polygon-ecosystem-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x32Fd44bB869620C0EF993754c8a00Be67C464806",
+        "name": "Rocket Pool ETH",
+        "symbol": "rETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/reth.png",
+        "coinGeckoId": "rocket-pool-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd5428B08b604727c43ba5a37EeD25a289978d081",
+        "name": "Arbitrum",
+        "symbol": "ARB",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/axelarnetwork/axelar-docs/main/public/images/chains/arbitrum.svg",
+        "coinGeckoId": "arbitrum"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xBc3DE055bdDc9466766B0EC79E0bA1Da112a832A",
+        "name" : "KelpDao Restaked ETH",
+        "symbol": "rsETH",
+        "description": "KelpDao Restaked ETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/rseth.png",
+        "coinGeckoId": "kelp-dao-restaked-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x122528C80166a74f608B2fC13c2c02C51F2e3423",
+        "name": "Render Token",
+        "symbol": "RENDER",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/render.png",
+        "coinGeckoId": "render-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc17F02Bd7f44A840A39AB41cf89AA831fE3f8a18",
+        "name": "Injective",
+        "symbol": "INJ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/inj.png",
+        "coinGeckoId": "injective-protocol"
     }
 ]

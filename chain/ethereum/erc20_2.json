@@ -4428,6 +4428,36 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/polecho.png",
         "coinGeckoId": "polygon-ecosystem-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+        "name" : "KelpDao Restaked ETH",
+        "symbol": "rsETH",
+        "description": "KelpDao Restaked ETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/berachain/asset/rseth.png",
+        "coinGeckoId": "kelp-dao-restaked-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24",
+        "name": "Render Token",
+        "symbol": "RENDER",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/render.png",
+        "coinGeckoId": "render-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x152649ea73beab28c5b49b26eb48f7ead6d4c898",
+        "name": "PancakeSwap Token",
+        "symbol": "Cake",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/cake.png",
+        "coinGeckoId": "pancakeswap-token"
     }
 ]
 
