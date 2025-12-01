@@ -46,11 +46,11 @@
         }
     ],
     "explorer" : {
-        "name": "Selfchain Explorer",
-        "url": "https://explorer.selfchain.xyz/",
-        "account": "https://explorer.selfchain.xyz/holders/${address}",
-        "tx": "https://explorer.selfchain.xyz/tx/${hash}",
-        "proposal": "https://explorer.selfchain.xyz/gov/${id}"
+        "name": "BonyNode",
+        "url": "https://explorer.bonynode.online/selfchain-testnet",
+        "account": "https://explorer.bonynode.online/selfchain-testnet/account/${address}",
+        "tx": "https://explorer.bonynode.online/selfchain-testnet/tx/${hash}",
+        "proposal": "https://explorer.bonynode.online/selfchain-testnet/gov${id}"
     },
     "about" : {
         "website" : "https://selfchain.xyz/",

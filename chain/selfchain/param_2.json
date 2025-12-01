@@ -52,9 +52,9 @@
     "explorer" : {
         "name": "Selfchain Explorer",
         "url": "https://explorer.selfchain.xyz/",
-        "account": "https://explorer.selfchain.xyz/holders/${address}",
-        "tx": "https://explorer.selfchain.xyz/tx/${hash}",
-        "proposal": "https://explorer.selfchain.xyz/gov/${id}"
+        "account": "https://explorer.selfchain.xyz/selfchain/account/${address}",
+        "tx": "https://explorer.selfchain.xyz/selfchain/tx/${hash}",
+        "proposal": "https://explorer.selfchain.xyz/selfchain/gov/${id}"
     },
     "about" : {
         "website" : "https://selfchain.xyz/",
