@@ -35,30 +35,14 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-selfchain.cosmostation.io:443"
-        },
-        {
-            "provider": "Roomit",
-            "url": "grpc.selfchain.roomit.xyz:8443"
-        },
-        {
             "provider": "Stake Village",
             "url": "selfchain-mainnet.grpc.stakevillage.net:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-selfchain.cosmostation.io/"
-        },
-        {
             "provider": "Self Chain",
             "url": "https://api.selfchain.io/"
-        },
-        {
-            "provider": "Roomit",
-            "url": "https://api.selfchain.roomit.xyz/"
         },
         {
             "provider": "Stake Village",
