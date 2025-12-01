@@ -46,11 +46,11 @@
         }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/selfchain-testnet/",
-        "account": "https://www.mintscan.io/selfchain-testnet/address/${address}",
-        "tx": "https://www.mintscan.io/selfchain-testnet/tx/${hash}",
-        "proposal": "https://www.mintscan.io/selfchain-testnet/proposals/${id}"
+        "name": "selfchain explorer",
+        "url": "https://explorer.selfchain.xyz/",
+        "account": "https://explorer.selfchain.xyz/address/${address}",
+        "tx": "https://explorer.selfchain.xyz/tx/${hash}",
+        "proposal": "https://explorer.selfchain.xyz/proposals/${id}"
     },
     "about" : {
         "website" : "https://selfchain.xyz/",
