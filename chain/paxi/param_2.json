@@ -10,7 +10,7 @@
     "origin_genesis_time": "2025-08-01T11:50:55Z",
     "api_name": "paxi",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "chain_type": [
         "cosmos"
     ],
