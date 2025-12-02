@@ -11193,5 +11193,27 @@
                 "denom": "uinto"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/3AF2E322D4B54BB97EEE24760ED25B725842A9B62C759402AB8AADD75915FD14",
+        "name": "OPHIR",
+        "symbol": "OPHIR",
+        "description": "OPHIR is a Cosmos Treasury DAO established on Migaloo.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png",
+        "ibc_info": {
+            "path": "migaloo>osmosis",
+            "client": {
+                "channel": "channel-642",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-5",
+                "port": "transfer",
+                "chain": "migaloo",
+                "denom": "factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir"
+            }
+        }
     }
 ]

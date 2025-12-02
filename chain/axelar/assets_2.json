@@ -842,5 +842,22 @@
                 "contract": "0xcE682c89C63d2850Cb2ca898E44D6c7c30d897a6"
             }
         }
+    },
+    {
+        "type": "bridge",
+        "denom": "unit-zig",
+        "name" : "Axelar Wrapped YUM",
+        "symbol": "YUM.axl",
+        "description": "ZIG bridged via Axelar",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zig.png",
+        "coinGeckoId": "zignaly",
+        "bridge_info" : {
+            "path": "ethereum>axelar",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+            }
+        }
     }
 ]

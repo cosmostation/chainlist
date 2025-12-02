@@ -4352,11 +4352,11 @@
     {
         "type": "erc20",
         "contract": "0xbdf245957992bfbc62b07e344128a1eec7b7ee3f",
-        "name": "Liquid Staked BTC",
-        "symbol": "mBTC",
-        "description": "Liquid Staked BTC",
+        "name": "Babypie Wrapped BTC",
+        "symbol": "Babypie Wrapped BTC",
+        "description": "Babypie Liquid Staked BTC",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/babypie_mbtc.png",
         "coinGeckoId": "babypie-wrapped-btc"
     },
     {
@@ -4377,7 +4377,7 @@
         "description": "xSolvBTC",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png",
-        "coinGeckoId": ""
+        "coinGeckoId": "solv-protocol-solvbtc-bbn"
     },
     {
         "type": "erc20",
@@ -4386,7 +4386,7 @@
         "symbol": "enzoBTC",
         "description": "Lorenzo Wrapped Bitcoin",
         "decimals": 8,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/unknown.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/enzo_btc.png",
         "coinGeckoId": "lorenzo-wrapped-bitcoin"
     },
     {
@@ -4458,6 +4458,46 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zksync/asset/cake.png",
         "coinGeckoId": "pancakeswap-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee",
+        "name": "Neiro",
+        "symbol": "Neiro",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/neiro.png",
+        "coinGeckoId": "neiro-3"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+        "name": "Tether Gold",
+        "symbol": "XAUt",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xaut.png",
+        "coinGeckoId": "tether-gold"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x007115416ab6c266329a03b09a8aa39ac2ef7d9d",
+        "name": "Midas BTC Yield Token",
+        "symbol": "mBTC",
+        "description": "Midas BTC Yield Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/midas_mbtc.png",
+        "coinGeckoId": "midas-btc-yield-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+        "name": "Savings USDS",
+        "symbol": "sUSDS",
+        "description": "Savings USDS",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/susds.png",
+        "coinGeckoId": "susds"
     }
 ]
 

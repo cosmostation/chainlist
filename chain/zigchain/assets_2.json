@@ -8,5 +8,198 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/zig.png",
         "coinGeckoId": "zignaly"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+        "name": "USDC",
+        "symbol": "USDC",
+        "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info": {
+            "path": "noble>zigchain",
+            "client": {
+                "channel": "channel-3",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-175",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+        "name": "Cosmos Hub",
+        "symbol": "ATOM",
+        "description": "The native staking and governance token of the Cosmos Hub.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info": {
+            "path": "cosmos>zigchain",
+            "client": {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1555",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+        "name": "ZIG (Axelar)",
+        "symbol": "ZIG.axl",
+        "description": "ZIG bridged via Axelar on ZIGChain.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/zig.png",
+        "ibc_info": {
+            "path": "ethereum>axelar>zigchain",
+            "client": {
+                "channel": "channel-1",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-182",
+                "port": "transfer",
+                "chain": "axelar",
+                "denom": "unit-zig"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/694A6B26A43A2FBECCFFEAC022DEACB39578E54207FDD32005CD976B57B98004",
+        "name": "WETH",
+        "symbol": "WETH",
+        "description": "WETH via Eureka",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "ibc_info" : {
+            "path": "ethereum>cosmos>zigchain",
+            "client": {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1555",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/C0B53D3D23827AE38058BED0BDCD554229278AF530A8D265FCF6DFF7C4B2ADFF"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/694A6B26A43A2FBECCFFEAC022DEACB39578E54207FDD32005CD976B57B98004",
+        "name": "Neiro",
+        "symbol": "Neiro",
+        "description": "Neiro via Eureka",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/neiro.png",
+        "coinGeckoId": "neiro-3",
+        "ibc_info" : {
+            "path": "ethereum>cosmos>zigchain",
+            "client": {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1555",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/F7C4726BF9F1B1872C48BA39688A1AC741E9D77B3182662CF6D42A149C86B758"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/694A6B26A43A2FBECCFFEAC022DEACB39578E54207FDD32005CD976B57B98004",
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin via Eureka",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin",
+        "ibc_info" : {
+            "path": "ethereum>cosmos>zigchain",
+            "client": {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1555",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/D742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/630F28419AFD118B9EA8B96AE9D280CFDA4EB9FAB3108F1CA9E7DC00F396B4F9",
+        "name": "Tether",
+        "symbol": "USDT",
+        "description": "Tether via Eureka",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "ibc_info" : {
+            "path": "ethereum>cosmos>zigchain",
+            "client": {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1555",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/E7E51FFF94A8B55BE84CEB0345E5CAF0A5DAEB374C6806CE908098B8996C7782"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930",
+        "name" : "Stride ATOM",
+        "symbol": "stATOM",
+        "description": "Stride Liquid Staked ATOM",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stride/asset/statom.png",
+        "coinGeckoId": "stride-staked-atom",
+        "ibc_info" : {
+            "path": "stride>cosmos>zigchain",
+            "client": {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1555",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231"
+            }
+        }
+    },
+    {
+        "type": "native",
+        "denom": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig",
+        "name": "Staked Zig",
+        "symbol": "STZIG",
+        "description": "Staked Zig Token by Valdora Finance - Decentralized staking with stZIG",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png",
+        "coinGeckoId": ""
     }
 ]

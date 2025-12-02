@@ -357,6 +357,30 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/F04D72CF9B5D9C849BB278B691CDFA2241813327430EC9CDC83F8F4CA4CDC2B0",
+        "name": "Tether USD (Kava)",
+        "symbol": "USDT.kava",
+        "description": "Tether gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.kava.svg",
+        "color": "#049494",
+        "coinGeckoId": "tether",
+        "ibc_info" : {
+            "path": "kava>cosmos",
+            "client" : {
+                "channel": "channel-277",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "kava",
+                "denom": "erc20/tether/usdt"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3",
         "name" : "UX Chain",
         "symbol": "UMEE",
@@ -1126,6 +1150,336 @@
                 "port": "transfer",
                 "chain": "intento",
                 "denom": "uinto"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/F7C4726BF9F1B1872C48BA39688A1AC741E9D77B3182662CF6D42A149C86B758",
+        "name": "Neiro",
+        "symbol": "Neiro",
+        "description": "Neiro via Eureka",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/neiro.png",
+        "coinGeckoId": "neiro-3",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/A96C4DBCB7E36F8D265E92240510DB0F29F39CE4AAF52DBDE686E448BA447886",
+        "name": "Eureka Bridged Tether Gold (ATOM)",
+        "symbol": "XAUt",
+        "description": "Tether Gold bridged via Eureka on Cosmos Hub.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/xaut.png",
+        "coinGeckoId": "tether-gold",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x68749665ff8d2d112fa859aa293f07a622782f38"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DC1EF3EA03CD7F2226981D610335C3E62E3DD868A1B83EB017CE294E29C8D473",
+        "name" : "Intento",
+        "symbol": "INTO",
+        "description": "The native token of Intento",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/intento/asset/into.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "intento>cosmos",
+            "client" : {
+                "channel": "channel-1492",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "intento",
+                "denom": "uinto"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/7B6EBFC446E50DFF981C994E207BFB398889706C2B0DF8A14D8B87F6C0E33A1A",
+        "name": "Quark",
+        "symbol": "QUARK",
+        "description": "Quark ($QUARK) is an Osmosis token launched on the Cosmos Hub.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png",
+        "ibc_info" : {
+            "path": "osmosis>cosmos",
+            "client" : {
+                "channel": "channel-141",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/62F1A800DCE1AA0FD47B3592DEBB7A8956A383A14A4F756E4881AEA927B21671",
+        "name": "Midas BTC Yield Token",
+        "symbol": "mBTC.midas",
+        "description": "Midas mBTC on the Cosmos Hub.",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/midas_mbtc.png",
+        "coinGeckoId": "midas-btc-yield-token",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x007115416ab6c266329a03b09a8aa39ac2ef7d9d"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B26F762ED6D20D0D5305FE1870A476EBCB95127C10199F3CB16E69D893E9F775",
+        "name": "OPHIR",
+        "symbol": "OPHIR",
+        "description": "OPHIR is a Cosmos Treasury DAO established on Migaloo.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png",
+        "ibc_info" : {
+            "path": "migaloo>osmosis>cosmos",
+            "client" : {
+                "channel": "channel-141",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "ibc/3AF2E322D4B54BB97EEE24760ED25B725842A9B62C759402AB8AADD75915FD14"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/B9B561EB378C9EB8C13CAA11FCBC78E6B865A3C65707972F17B1052CFC39F473",
+        "name": "Savings USDS",
+        "symbol": "sUSDS",
+        "description": "sUSDS on the Cosmos Hub",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/susds.png",
+        "coinGeckoId": "susds",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9CB24EF57DF00EFFCE3B52FC1225EDEDF98B31DB8C792B43C7E3D4AD9B3982CF",
+        "name": "enzoBTC",
+        "symbol": "enzoBTC",
+        "description": "enzoBTC on the Cosmos Hub",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/enzo_btc.png",
+        "coinGeckoId": "lorenzo-wrapped-bitcoin",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6F8F0E9D472BF053261F2DEBE521801B703372777F3923B48DAE55D4F1212B5F",
+        "name": "ether.fi BTC",
+        "symbol": "eBTC",
+        "description": "eBTC on the Cosmos Hub",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png",
+        "coinGeckoId": "ether-fi-staked-btc",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x657e8c867d8b37dcc18fa4caead9c45eb088c642"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6F8F0E9D472BF053261F2DEBE521801B703372777F3923B48DAE55D4F1212B5F",
+        "name": "Kinza Babylon Staked BTC",
+        "symbol": "kBTC",
+        "description": "kBTC on the Cosmos Hub",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg",
+        "coinGeckoId": "kintsugi-btc",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x9356f6d95b8e109f4b7ce3e49d672967d3b48383"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/6583B66D1450B5A0E997C85A4048749ADCBD745562D62F3CC1CEE5D41B5814D1",
+        "name": "Babypie Wrapped BTC",
+        "symbol": "Babypie Wrapped BTC",
+        "description": "mBTC on the Cosmos Hub",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/babypie_mbtc.png",
+        "coinGeckoId": "babypie-wrapped-btc",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0xbdf245957992bfbc62b07e344128a1eec7b7ee3f"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/286A30F7F093357CE113A2E3B9A2E497F7A691CAFC624ABC615DE147DCE9FD17",
+        "name": "Lorenzo stBTC",
+        "symbol": "stBTC",
+        "description": "stBTC on the Cosmos Hub",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg",
+        "coinGeckoId": "lorenzo-stbtc",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/9EE1F80BA2AE01138A40D656BBB42D11B1720000D6F64FC5988E412B6EDB4F71",
+        "name": "uniBTC",
+        "symbol": "uniBTC",
+        "description": "UniBTC on the Cosmos Hub",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC_200px.png",
+        "coinGeckoId": "universal-btc",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/486D45458E018B59D1F23ADD116D21A881D8DA3BC348B9E0E22354CA031C977E",
+        "name": "xSolvBTC",
+        "symbol": "xSolvBTC",
+        "description": "SolvBTC.BBN on the Cosmos Hub",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png",
+        "coinGeckoId": "solv-protocol-solvbtc-bbn",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0xd9d920aa40f578ab794426f5c90f6c731d159def"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/0C4417F123459B47B6933939BF6F128C362B0C1F9EDA6A6EBC08860E4672AF7E",
+        "name": "Solv BTC",
+        "symbol": "SolvBTC",
+        "description": "SolvBTC on the Cosmos Hub",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/babylon/asset/SolvBTC.png",
+        "coinGeckoId": "solv-btc",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x7a56e1c57c7475ccf742a1832b028f0456652f97"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4925E6ABA571A44D2BE0286D2D29AF42A294D0FF2BB16490149A1B26EAD33729",
+        "name": "Function X",
+        "symbol": "FX",
+        "description": "The native staking token of the Function X",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fxcore/asset/fx.png",
+        "coinGeckoId": "fx-coin",
+        "ibc_info": {
+            "path": "fxcore>cosmos",
+            "client": {
+                "channel": "channel-585",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-10",
+                "port": "transfer",
+                "chain": "fxcore",
+                "denom": "FX"
             }
         }
     }
