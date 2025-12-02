@@ -1244,7 +1244,7 @@
         "name": "Midas BTC Yield Token",
         "symbol": "mBTC.midas",
         "description": "Midas mBTC on the Cosmos Hub.",
-        "decimals": 8,
+        "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/midas_mbtc.png",
         "coinGeckoId": "midas-btc-yield-token",
         "ibc_info" : {
