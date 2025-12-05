@@ -27,7 +27,7 @@
         "rate" : [
             "1nhash"
         ],
-        "is_simulable" : false,
+        "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
         "init_gas_limit" : 5000000000,
         "fee_threshold" : ""
@@ -61,11 +61,11 @@
         }
     ],
     "explorer" : {
-        "name": "Provenance",
-        "url": "https://explorer.provenance.io/",
-        "account": "https://explorer.provenance.io/accounts/${address}",
-        "tx": "https://explorer.provenance.io/tx/${hash}",
-        "proposal": "https://explorer.provenance.io/proposals/${id}"
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/provenance/",
+        "account": "https://www.mintscan.io/provenance/address/${address}",
+        "tx": "https://www.mintscan.io/provenance/tx/${hash}",
+        "proposal": "https://www.mintscan.io/provenance/proposals/${id}"
     },
     "about" : {
         "website" : "https://www.provenance.io/",
