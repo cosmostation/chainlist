@@ -25,11 +25,11 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "2000nhash"
+            "1nhash"
         ],
         "is_simulable" : false,
-        "simulated_gas_multiply" : 1.5,
-        "init_gas_limit" : 300000,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 5000000000,
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
