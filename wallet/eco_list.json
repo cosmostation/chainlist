@@ -4078,6 +4078,22 @@
             "twitter": "https://x.com/KuruExchange"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 229,
+        "name": "OROSWAP",
+        "description": "OroSwap is a decentralized exchange built for the Oro Network, enabling fast and seamless token swaps with low fees. Designed for simplicity and efficiency, it provides users with a smooth trading experience across the ecosystem.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/oro.png",
+        "link": "https://app.oroswap.org/",
+        "chains": [
+            "zigchain"
+        ],
+        "socials": {
+            "twitter": "https://x.com/oroswap",
+            "telegram": "https://t.me/Oroswap",
+            "discord": "https://discord.com/invite/FSx6sCg7"
+        },
+        "type": "DeFi"
     }
 ]
  
