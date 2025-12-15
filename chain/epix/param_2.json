@@ -1,0 +1,85 @@
+{
+    "chain_id_cosmos" : "epix_1916-1",
+    "chain_id_evm" : "0x77c",
+    "chain_name": "Epix",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/epix/resource/chain_epix.png",
+    "staking_asset_denom" : "aepix",
+    "staking_asset_symbol" : "EPIX",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/epix/asset/epix.png",
+    "bech_account_prefix" : "epix",
+    "bech_validator_prefix" : "epixvaloper",
+    "origin_genesis_time" : "2024-01-01T00:00:00Z",
+    "api_name": "epix",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "cosmos",
+        "evm"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "1000000000000aepix",
+            "2000000000000aepix",
+            "3000000000000aepix"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": true,
+        "multicall_address" : "0xcA11bde05977b3631167028862bE2a173976CA11"
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Epix",
+            "url": "grpc.epix.zone:15067"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Epix",
+            "url": "https://api.epix.zone/"
+        }
+    ],
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Epix",
+            "url": "https://evmrpc.epix.zone/"
+        }
+    ],
+    "explorer" : {
+        "name": "Epix Explorer",
+        "url": "https://explorer.epix.zone/",
+        "account": "https://explorer.epix.zone/epix/account/${address}",
+        "tx": "https://explorer.epix.zone/epix/tx/${hash}",
+        "proposal": "https://explorer.epix.zone/epix/gov/${id}"
+    },
+    "about" : {
+        "website" : "https://epix.zone/",
+        "docs": "https://docs.epix.zone/",
+        "github" : "https://github.com/EpixZone/Epix",
+        "twitter" : "https://x.com/zone_epix",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Epix는 모든 사람이 웹사이트를 호스팅하고 누구도 통제할 수 없는 완전히 분산된 인터넷을 구동하도록 설계되어 웹을 멈출 수 없게 만듭니다.",
+        "en" : "Epix is designed to power a completely decentralized internet, where websites are hosted by everyone and controlled by no one, making the web unstoppable.",
+        "ja" : "Epixは、誰もがウェブサイトをホストし、誰も制御できない完全に分散化されたインターネットを動かすように設計されており、ウェブを止められないものにします。"
+    }
+}
+

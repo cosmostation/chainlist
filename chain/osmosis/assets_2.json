@@ -11215,5 +11215,28 @@
                 "denom": "factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF",
+        "name": "Epix",
+        "symbol": "EPIX",
+        "description": "Epix is designed to power a completely decentralized internet, where websites are hosted by everyone and controlled by no one, making the web unstoppable.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/epix/asset/epix.png",
+        "coinGeckoId": "",
+        "ibc_info": {
+            "path": "epix>osmosis",
+            "client": {
+                "channel": "channel-108456",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "epix",
+                "denom": "aepix"
+            }
+        }
     }
 ]
