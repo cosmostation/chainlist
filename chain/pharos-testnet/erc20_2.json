@@ -28,8 +28,8 @@
         "symbol": "USDT",
         "description": "Tether USD (USDT) on Pharos Testnet",
         "decimals": 6,
-        "image": "",
-        "coinGeckoId": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pharos-testnet/asset/usdt.png",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pharos-testnet/asset/usdt.png",
+        "coinGeckoId": "",
         "wallet_preload": true
     },
     {
