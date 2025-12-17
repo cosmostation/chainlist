@@ -1,0 +1,95 @@
+{
+    "chain_id_cosmos": "gonka-mainnet",
+    "chain_name": "Gonka",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gonka/resource/gonka.png",
+    "staking_asset_denom": "ngonka",
+    "staking_asset_symbol": "GNK",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gonka/asset/gonka.png",
+    "bech_account_prefix": "gonka",
+    "bech_validator_prefix": "gonkavaloper",
+    "origin_genesis_time": "2025-08-22T08:42:00.713839000Z",
+    "api_name": "gonka",
+    "is_support_cw20": true,
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet": true,
+    "is_support_moblie_dapp": false,
+    "is_support_extension_wallet": true,
+    "voting_threshold": 1000000,
+    "skip_affiliate": "50",
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/1200'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
+            "0.0ngonka"
+        ],
+        "is_feemarket": false,
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.8,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "6block",
+            "url": "gonka04.6block.com:8443"
+        },
+        {
+            "provider": "6block",
+            "url": "gonka03.6block.com:8443"
+        },
+        {
+            "provider": "PS on Nebius",
+            "url": "node1.gonka.ai:8443"
+        },
+        {
+            "provider": "PS on Nebius",
+            "url": "node2.gonka.ai:8443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "6block",
+            "url": "https://gonka04.6block.com:8443/chain-api/"
+        },
+        {
+            "provider": "6block",
+            "url": "https://gonka03.6block.com:8443/chain-api/"
+        },
+        {
+            "provider": "PS on Nebius",
+            "url": "https://node1.gonka.ai:8443/chain-api/"
+        },
+        {
+            "provider": "PS on Nebius",
+            "url": "https://node2.gonka.ai:8443/chain-api/"
+        }
+    ],
+    "explorer": {
+        "name": "ping.pub",
+        "url": "https://gonka04.6block.com:8443/dashboard",
+        "account": "https://gonka04.6block.com:8443/dashboard/gonka/account/${address}",
+        "tx": "https://gonka04.6block.com:8443/dashboard/gonka/txs/${hash}",
+        "proposal": ""
+    },
+    "about": {
+        "website": "https://gonka.ai/",
+        "docs": "https://gonka.ai/whitepaper.pdf",
+        "github": "https://github.com/gonka-ai/gonka",
+        "blog": "https://what-is-gonka.hashnode.dev/",
+        "twitter": "https://x.com/gonka_ai",
+        "coingecko": ""
+    },
+    "description": {
+        "en": "Gonka is a decentralized AI infrastructure designed to optimize computational power for AI model training and inference, offering an alternative to monopolistic, high-cost, centralized cloud providers."
+    }
+}
+
