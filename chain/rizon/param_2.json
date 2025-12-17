@@ -34,6 +34,10 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
+        {
+            "provider": "publicnode",
+            "url": "rizon-grpc.publicnode.com:443"
+        }
     ],
     "lcd_endpoint" : [
         {
