@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos": "gonka-mainnet",
     "chain_name": "Gonka",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gonka/resource/gonka.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gonka/resource/chain_gonka.png",
     "staking_asset_denom": "ngonka",
     "staking_asset_symbol": "GNK",
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gonka/asset/gonka.png",
@@ -15,7 +15,6 @@
     "is_support_moblie_dapp": false,
     "is_support_extension_wallet": true,
     "voting_threshold": 1000000,
-    "skip_affiliate": "50",
     "chain_type": [
         "cosmos"
     ],
@@ -89,7 +88,9 @@
         "coingecko": ""
     },
     "description": {
-        "en": "Gonka is a decentralized AI infrastructure designed to optimize computational power for AI model training and inference, offering an alternative to monopolistic, high-cost, centralized cloud providers."
+        "ko" : "Gonka는 AI 모델의 학습과 추론을 위한 연산 자원을 최적화하도록 설계된 탈중앙화 AI 인프라로, 독점적이고 고비용인 중앙화 클라우드 제공자에 대한 대안을 제공합니다.",
+        "en" : "Gonka is a decentralized AI infrastructure designed to optimize computational power for AI model training and inference, offering an alternative to monopolistic, high-cost, centralized cloud providers.",
+        "ja" : "Gonkaは、AIモデルの学習および推論のための計算資源を最適化することを目的とした分散型AIインフラであり、独占的で高コストな中央集権型クラウドプロバイダーに代わる選択肢を提供します。"
     }
 }
 
