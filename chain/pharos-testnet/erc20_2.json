@@ -1,0 +1,54 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x838800b758277CC111B2d48Ab01e5E164f8E9471",
+        "name" : "Wrapped PHRS",
+        "symbol": "WPHRS",
+        "description": "Wrapped PHRS",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pharos-testnet/asset/wphrs.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE0BE08c77f415F577A1B3A9aD7a1Df1479564ec8",
+        "name" : "USDC Token",
+        "symbol": "USDC",
+        "description": "USD Coin (USDC) on Pharos Testnet",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pharos-testnet/asset/usdc.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE7E84B8B4f39C507499c40B4ac199B050e2882d5",
+        "name" : "Tether USD",
+        "symbol": "USDT",
+        "description": "Tether USD (USDT) on Pharos Testnet",
+        "decimals": 6,
+        "image": "",
+        "coinGeckoId": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pharos-testnet/asset/usdt.png",
+        "wallet_preload": false
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0c64F03EEa5c30946D5c55B4b532D08ad74638a4",
+        "name" : "WBTC Token",
+        "symbol": "WBTC",
+        "description": "Wrapped Bitcoin (WBTC) on Pharos Testnet",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pharos-testnet/asset/wbtc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7d211F77525ea39A0592794f793cC1036eEaccD5",
+        "name" : "WETH Token",
+        "symbol": "WETH",
+        "description": "Wrapped Ether (WETH) on Pharos Testnet",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pharos-testnet/asset/weth.png",
+        "coinGeckoId": ""
+    }
+]

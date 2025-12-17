@@ -1,0 +1,55 @@
+{
+    "chain_id_evm" : "0xa8231",
+    "chain_name": "Pharos Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pharos-testnet/resource/chain_pharos-testnet.png",
+    "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "main_asset_symbol" : "PHRS",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pharos-testnet/asset/phrs.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "PHRS",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pharos-testnet/asset/phrs.png",
+    "origin_genesis_time" : "2023-10-05T12:07:12Z",
+    "api_name" : "pharos-testnet",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simul_gas_multiply" : 1.3
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": false,
+        "multicall_address" : ""
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "dpLabs",
+            "url": "https://atlantic.dplabs-internal.com"
+        }
+    ],
+    "explorer" : {
+        "name": "PharosScan",
+        "url": "https://atlantic.pharosscan.xyz/",
+        "account": "https://atlantic.pharosscan.xyz/address/${address}",
+        "tx": "https://atlantic.pharosscan.xyz/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://testnet.pharosnetwork.xyz/",
+        "docs": "https://docs.pharosnetwork.xyz/",
+        "github" : "https://github.com/dp-labs",
+        "blog" : "https://www.pharos.xyz/resources",
+        "medium": "",
+        "twitter" : "https://x.com/pharos_network",
+        "discord": "https://discord.com/invite/pharos",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Pharos 체인은 AI 모델과 데이터 자산을 온체인에서 투명하게 관리하고 활용할 수 있도록 설계된 블록체인 네트워크입니다. 모델 학습, 데이터 검증, 계산 작업을 탈중앙화된 방식으로 처리하며, AI 신뢰성과 출처 증명(Proof of Provenance) 을 제공하는 것이 핵심 목표입니다.",
+        "en" : "Pharos is a blockchain network designed to enable transparent on-chain management and utilization of AI models and data assets. It processes model training, data verification, and computational tasks in a decentralized manner, providing AI reliability and Proof of Provenance as its core objectives.",
+        "ja" : "Pharos は、AI モデルとデータ資産をオンチェーンで透明性をもって管理・活用できるよう設計されたブロックチェーンネットワークです。 モデル学習、データ検証、計算処理を分散型で実行し、AI の信頼性と出所証明（Proof of Provenance）を提供することを主要な目的としています."
+    }
+}
