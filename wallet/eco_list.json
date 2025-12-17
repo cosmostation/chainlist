@@ -4094,6 +4094,39 @@
             "discord": "https://discord.com/invite/FSx6sCg7"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 230,
+        "name": "Faroswap",
+        "description": "Pharos-native DEX fueling RWA-Fi with precision & depth.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/faroswap.png",
+        "link": "https://faroswap.xyz/swap",
+        "chains": [
+            "pharos-testnet"
+        ],
+        "socials": {
+            "twitter": "https://x.com/FaroSwap",
+            "telegram": "https://t.me/faroswapofficial",
+            "discord": "https://discord.com/invite/V3C2UYdKZd"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 231,
+        "name": "Zentra",
+        "description": "Zentrafi is a decentralized finance (DeFi) platform that offers seamless cross-chain trading, lending, and asset management. It integrates liquidity from multiple blockchain ecosystems to enable efficient and low-cost financial interactions.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/zentra.png",
+        "link": "https://app.zentrafi.xyz/",
+        "chains": [
+            "pharos-testnet"
+        ],
+        "socials": {
+            "github": "https://github.com/Zentra-Finance",
+            "twitter": "https://x.com/zentrafi",
+            "telegram": "https://t.me/zentrafi",
+            "discord": "https://discord.com/invite/rW7VJ8JjbC"
+        },
+        "type": "DeFi"
     }
 ]
  
