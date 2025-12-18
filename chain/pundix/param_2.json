@@ -7,6 +7,7 @@
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/pundix/asset/pundix.png",
     "bech_account_prefix" : "px",
     "bech_validator_prefix" : "pxvaloper",
+    "origin_genesis_time" : "2021-10-13T10:00:00Z",
     "api_name" : "pundix",
     "is_support_mobile_wallet": true,
     "is_support_extension_wallet": true,
