@@ -718,5 +718,35 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/bert.png",
         "coinGeckoId": "bertram-the-pomeranian"
+    },
+    {
+        "type": "spl",
+        "contract": "8X86Hh2cYksZvL3CDTnMhww2yZuNrWPka9HJFgBru78N",
+        "name": "Catinboots",
+        "symbol": "CIB",
+        "description": "",
+        "decimals": 4,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/cib.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "spl",
+        "contract": "AEpFc33BCwsm7GoqKGEcLNwQfrVC96pi3c1dBDbuLx7V",
+        "name": "topcatonsol",
+        "symbol": "TC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/tc.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "spl",
+        "contract": "AEpFc33BCwsm7GoqKGEcLNwQfrVC96pi3c1dBDbuLx7V",
+        "name": "SolSpinNet SOL Winner Ticket",
+        "symbol": "SOLSPINET",
+        "description": "",
+        "decimals": 9,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/solana/asset/solspinet.png",
+        "coinGeckoId": ""
     }
 ]
