@@ -13,7 +13,7 @@
         "type": "bridge",
         "denom": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
         "name" : "USD Coin (Wormhole)",
-        "symbol": "USDC",
+        "symbol": "whUSDC",
         "description": "USD Coin (Wormhole)",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
@@ -39,13 +39,78 @@
         "type": "bridge",
         "denom": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
         "name" : "USD Coin (LayerZero)",
-        "symbol": "zUSDC",
+        "symbol": "lzUSDC",
         "description": "USD Coin (LayerZero)",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "usd-coin",
         "bridge_info" : {
             "path": "layerzero>sui"
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
+        "name" : "Thala Token",
+        "symbol": "THL",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/asset/thl.png",
+        "coinGeckoId": "thala",
+        "bridge_info" : {
+            "path": ""
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::ThalaAPT",
+        "name" : "Thala APT",
+        "symbol": "thAPT",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/asset/thapt.png",
+        "coinGeckoId": "thala-apt",
+        "bridge_info" : {
+            "path": ""
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b",
+        "name" : "Tether USD",
+        "symbol": "USDt",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "bridge_info" : {
+            "path": ""
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01::mod_coin::MOD",
+        "name" : "Move Dollar",
+        "symbol": "MOD",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/asset/mod.png",
+        "coinGeckoId": "move-dollar",
+        "bridge_info" : {
+            "path": ""
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
+        "name" : "PancakeSwap Token",
+        "symbol": "CAKE",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aptos/asset/cake.png",
+        "coinGeckoId": "pancakeswap-token",
+        "bridge_info" : {
+            "path": ""
         }
     }
 ]
