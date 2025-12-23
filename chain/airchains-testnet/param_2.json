@@ -1,0 +1,76 @@
+{
+    "chain_id_cosmos" : "varanasi-1",
+    "chain_name": "Airchains Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/airchains-testnet/resource/chain_airchains-testnet.png",
+    "staking_asset_denom" : "uamf",
+    "staking_asset_symbol" : "AMF",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/airchains-testnet/asset/amf.png",
+    "bech_account_prefix" : "air",
+    "bech_validator_prefix" : "airvaloper",
+    "api_name" : "airchains-testnet",
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": false,
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+            "0uamf"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmonaut-Stakes",
+            "url": "airchains-testnet-grpc.cosmonautstakes.com:14190"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Stavr",
+            "url": "https://airchains.api.t.stavr.tech/"
+        },
+        {
+            "provider": "Cosmonaut-Stakes",
+            "url": "https://airchains-testnet-rest.cosmonautstakes.com/"
+        },
+        {
+            "provider": "Cosmostaking",
+            "url": "https://rest1.airchains.t.cosmostaking.com/"
+        },
+        {
+            "provider": "Nodesphere",
+            "url": "https://airchains-testnet-api.nodesphere.net/"
+        }
+    ],
+    "explorer" : {
+        "name": "Junction",
+        "url": "https://testnet.junction.explorers.guru/",
+        "account": "https://testnet.junction.explorers.guru/account/${address}",
+        "tx": "https://testnet.junction.explorers.guru/transaction/${hash}",
+        "proposal": "https://testnet.junction.explorers.guru/proposal/${id}"
+    },
+    "about" : {
+        "website" : "https://www.airchains.io/",
+        "docs": "https://docs.airchains.io/",
+        "github" : "https://github.com/airchains-network",
+        "blog" : "https://blog.airchains.io/",
+        "medium": "",
+        "twitter" : "https://x.com/airchains_io",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Airchains는 Cosmos SDK 기반의 체인으로, 모듈형 롤업과 데이터 가용성(DA) 연동을 테스트하기 위한 인프라 레이어입니다. 개발자가 다양한 실행 환경(EVM/CosmWasm 등)과 롤업을 구축·검증할 수 있도록 설계된 실험용 네트워크입니다.",
+        "en" : "Airchains is a Cosmos SDK–based chain designed as an infrastructure layer for modular rollups and data-availability integration. It serves as a development and testing network where builders can deploy and validate various rollup environments (EVM, CosmWasm, etc.).",
+        "ja" : "Airchains は Cosmos SDK を基盤としたチェーンで、モジュラー・ロールアップおよび DA（データ可用性）連携を検証するためのインフラレイヤーです。 EVM や CosmWasm など、さまざまな実行環境のロールアップを開発・テストできる実験用ネットワークとして機能します。"
+    }
+}
