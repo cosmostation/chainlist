@@ -763,6 +763,7 @@
         "link": "https://stargate.finance/",
         "chains": [
             "ethereum",
+            "aptos",
             "arbitrum",
             "avalanche",
             "base",
@@ -4125,6 +4126,150 @@
             "twitter": "https://x.com/zentrafi",
             "telegram": "https://t.me/zentrafi",
             "discord": "https://discord.com/invite/rW7VJ8JjbC"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 232,
+        "name": "ThalaSwap",
+        "description": "Thala Labs is a DeFi protocol powering Move Dollar, an over-collateralized stablecoin, and offering capital-efficient liquidity through a rebalancing AMM.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/thala.png",
+        "link": "https://app.thala.fi/swap",
+        "chains": [
+            "aptos"
+        ],
+        "socials": {
+            "twitter": "https://x.com/ThalaLabs",
+            "discord": "https://discord.com/invite/thala"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 233,
+        "name": "Cellana Finance",
+        "description": "Cellana is a community-owned decentralized exchange on the Aptos network that fosters DeFi growth through a sustainable liquidity incentives model. This innovative DEX is the first ever which use the Ve(3,3) Model in Move Language.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/cellana.png",
+        "link": "https://app.cellana.finance/",
+        "chains": [
+            "aptos"
+        ],
+        "socials": {
+            "twitter": "https://x.com/CellanaFinance",
+            "telegram": "https://t.me/CellanaFinance",
+            "discord": "https://cellana.finance/discord"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 234,
+        "name": "Earnium",
+        "description": "Earnium is a decentralized trading platform built on the Aptos blockchain that supports automated market making (AMM) and centralized liquidity mechanism (CLMM). The platform allows users to provide liquidity, trade tokens, and obtain platform-incentive NFTs by destroying LP tokens.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/earnium.png",
+        "link": "https://app.earnium.io/swap",
+        "chains": [
+            "aptos"
+        ],
+        "socials": {
+            "twitter": "https://x.com/earnium_io",
+            "telegram": "https://t.me/earniumcommunity",
+            "discord": "https://discord.com/invite/Zh3TnZagM9"
+        },
+        "type": "DEX"
+    },
+    {
+        "id": 235,
+        "name": "Amnis Finance",
+        "description": "A Pioneering Liquidity Staking on Aptos. As a foundational component of the Aptos ecosystem, Amnis Finance introduces a secure, user-friendly and innovative liquid staking protocol. Amnis Finance empowers you to effortlessly maximize returns on your APT tokens while unlocking liquidity.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/amnis.png",
+        "link": "https://stake.amnis.finance/",
+        "chains": [
+            "aptos"
+        ],
+        "socials": {
+            "twitter": "https://x.com/AmnisFinance",
+            "telegram": "https://t.me/AmnisChannel",
+            "discord": "https://discord.com/invite/Pm93adMebe"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 236,
+        "name": "Kofi Finance",
+        "description": "Kofi Finance is transforming staking on Aptos by introducing MEV revenue sharing, ensuring that stakers earn enhanced rewards while maintaining full liquidity. Unlike traditional staking, where assets are locked, Kofi issues a liquid staking token (LST) that can be freely traded, used in DeFi, or redeemed for the underlying staked assets—allowing users to earn staking rewards without sacrificing liquidity.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/kofi.png",
+        "link": "https://app.kofi.finance/,
+        "chains": [
+            "aptos"
+        ],
+        "socials": {
+            "twitter": "https://x.com/kofi_finance",
+            "discord": "https://discord.com/invite/pK5QGDTNxf"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 237,
+        "name": "Goblin",
+        "description": "Goblin is the native yield layer for Aptos Defi",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/goblin.png",
+        "link": "https://goblin.fi/vault,
+        "chains": [
+            "aptos"
+        ],
+        "socials": {
+            "twitter": "https://x.com/the_goblin_fi",
+            "telegram": "https://t.me/Goblinfinance_Official",
+            "discord": "https://discord.com/invite/BcUN2MuDCk"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 238,
+        "name": "Auro Finance",
+        "description": "Auro Finance is an advanced DeFi protocol on Aptos that enables users to earn better yields and liquidity from their staked APT without any lockups. Through Auro Finance, users can borrow USDA, the decentralized stablecoin, against multiple collateral options, allowing them to utilize their holdings without selling them",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/auro.png",
+        "link": "https://app.auro.finance/,
+        "chains": [
+            "aptos"
+        ],
+        "socials": {
+            "twitter": "https://x.com/AuroFinance_",
+            "telegram": "https://t.me/Auro_Finance",
+            "discord": "https://discord.com/invite/FPkMkjvt7K"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 239,
+        "name": "MoveFlow",
+        "description": "MoveFlow is a token management platform for token vesting, airdrop, payroll and subscription.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/moveflow.png",
+        "link": "https://app.moveflow.xyz/,
+        "chains": [
+            "aptos",
+            "ethereum",
+            "bnb-smart-chain",
+            "solana"
+        ],
+        "socials": {
+            "github": "https://github.com/moveflow-token-distribution-protocol",
+            "twitter": "https://x.com/moveflowlabs_",
+            "telegram": "https://t.me/moveflowofficial/1"
+        },
+        "type": "DeFi"
+    },
+    {
+        "id": 240,
+        "name": "Revive Finance",
+        "description": "Revive is a is a leveraged revenue mining platform on the Aptos blockchain. It integrates with the various DeFi protocols in the Aptos ecosystem to provide a seamless experience for leveraged income farming. With Revive, users can efficiently access and navigate the Aptos DeFi ecosystem on a unified platform.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/revive.png",
+        "link": "https://app.revivefi.io/,
+        "chains": [
+            "aptos"
+        ],
+        "socials": {
+            "twitter": "https://x.com/Revive_Finance",
+            "telegram": "https://t.me/revivefi"
         },
         "type": "DeFi"
     }
