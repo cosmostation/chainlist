@@ -11,6 +11,19 @@
     },
     {
         "type": "bridge",
+        "denom": "0xbae207659db88bea0cbead6da0ed00aac12edcdda169e591cd41c94180b46f3b",
+        "name" : "USDC",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "bridge_info" : {
+            "path": ""
+        }
+    },
+    {
+        "type": "bridge",
         "denom": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
         "name" : "USD Coin (Wormhole)",
         "symbol": "whUSDC",
