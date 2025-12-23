@@ -1,0 +1,98 @@
+{
+    "chain_id_cosmos" : "axone-1",
+    "chain_name": "Axone",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axone/resource/chain_axone.png",
+    "staking_asset_denom" : "uaxone",
+    "staking_asset_symbol" : "AXONE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axone/asset/axone.png",
+    "bech_account_prefix" : "axone",
+    "bech_validator_prefix" : "axonevaloper",
+    "origin_genesis_time" : "2025-07-08T18:20:00Z",
+    "api_name" : "axone",
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "1",
+        "rate" : [
+            "0.001uaxone",
+            "0.005uaxone",
+            "0.01uaxone"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.3,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "cumulo",
+            "url": "grpc.axone.cumulo.com.es:443"
+        },
+        {
+            "provider": "BccNodes",
+            "url": "axone.grpc.bccnodes.com:443"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "grpc.axone.nodestake.org:443"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "grpc.axone.citizenweb3.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.axone.citizenweb3.com/"
+        },
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.axone-archive.citizenweb3.com"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.axone.nodestake.org/"
+        },
+        {
+            "provider": "High Stakes 🇨🇭",
+            "url": "https://axone-api.highstakes.ch/"
+        },
+        {
+            "provider": "cumulo",
+            "url": "https://api.axone.cumulo.com.es/"
+        }
+    ],
+    "explorer" : {
+        "name": "Valopers",
+        "url": "https://axone.valopers.com/",
+        "account": "https://axone.valopers.com/account/${address}",
+        "tx": "https://axone.valopers.com/transactions/${hash}",
+        "proposal": "https://axone.valopers.com/proposals/${id}"
+    },
+    "about" : {
+        "website" : "http://axone.xyz/",
+        "docs": "https://docs.axone.xyz/",
+        "github" : "https://github.com/axone-protocol",
+        "blog" : "https://blog.axone.xyz/",
+        "medium": "https://medium.com/@axoneteam",
+        "twitter" : "https://x.com/axonexyz",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "Axone은 Cosmos SDK 기반의 테스트 체인으로, 새로운 모듈 및 체인 기능을 검증하기 위해 운영됩니다. 메인넷과 동일한 구조를 사용해 안정성과 호환성을 점검할 수 있으며, 개발·실험 목적의 네트워크입니다.",
+        "en" : "Axone is a Cosmos SDK–based test chain used to validate new modules and chain functionality. It mirrors mainnet architecture to ensure stability and compatibility, serving as a development and experimentation network.",
+        "ja" : "Axone は Cosmos SDK を基盤としたテストチェーンで、新しいモジュールや機能の検証を目的として運用されています。 メインネットと同じ構造を採用しており、安定性と互換性を確認できる開発・実験用ネットワークです。"
+    }
+}
