@@ -8,5 +8,31 @@
         "decimals": 8,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/movemonet/asset/move.png",
         "coinGeckoId": "movement"
+    },
+    {
+        "type": "bridge",
+        "denom": "0x83121c9f9b0527d1f056e21a950d6bf3b9e9e2e8353d0e95ccea726713cbea39",
+        "name" : "USDC.e",
+        "symbol": "USDC.e",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "movement-bridged-usdc-movement",
+        "bridge_info" : {
+            "path": ""
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "0x447721a30109c662dde9c73a0c2c9c9c459fb5e5a9c92f03c50fa69737f5d08d",
+        "name" : "USDT.e",
+        "symbol": "USDT.e",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "movement-bridged-usdt-movement",
+        "bridge_info" : {
+            "path": ""
+        }
     }
 ]
