@@ -1,0 +1,60 @@
+{
+    "chain_id" : "0x7e",
+    "chain_name": "Movement",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/movement/resource/chain_movement.png",
+    "staking_asset_denom" : "0x1::aptos_coin::AptosCoin",
+    "staking_asset_symbol" : "MOVE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/movement/asset/move.png",
+    "origin_genesis_time" : "2024-12-06T08:49:42Z",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "is_support_moblie_dapp": false,
+    "chain_type": [
+        "aptos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/637'/0'/0'/X'",
+            "pubkey_style": "ed25519"
+        }
+    ],
+    "simulated_max_gas_multiply": 1.2,
+    "graphql_endpoint" : [
+        {
+            "provider": "Movement Labs",
+            "url": "https://indexer.mainnet.movementnetwork.xyz/v1/graphql"
+        }
+    ],
+    "rest_endpoint" : [
+        {
+            "provider": "Movement Labs",
+            "url": "https://mainnet.movementnetwork.xyz/v1/"
+        }
+    ],
+    "rpc_endpoint" : [
+        {
+            "provider": "Movement Labs",
+            "url": "https://mainnet.movementnetwork.xyz/v1/"
+        }
+    ],
+    "explorer" : {
+        "name": "Movement Explorer",
+        "url": "https://explorer.movementnetwork.xyz/?network=mainnet",
+        "account": "https://explorer.movementnetwork.xyz/account/${address}",
+        "tx": "https://explorer.movementnetwork.xyz/txn/${hash}",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://movementlabs.xyz/",
+        "docs": "https://docs.movementnetwork.xyz/general",
+        "github" : "https://github.com/movementlabsxyz/",
+        "blog": "https://blog.movementlabs.xyz/",
+        "twitter" : "https://x.com/MoveIndFDN",
+        "coingecko" : "https://www.coingecko.com/coins/movement"
+    },
+    "description" : {
+        "ko" : "Movement 체인은 Move VM 기반의 고성능 스마트 컨트랙트 플랫폼으로, 보안성과 병렬 처리 성능을 강화한 차세대 L1입니다.",
+        "en" : "Movement is a high-performance Layer 1 blockchain powered by the Move VM, offering enhanced security and parallel execution.",
+        "ja" : "Movement は Move VM を採用した高性能 L1 ブロックチェーンで、強化されたセキュリティと並列処理を特徴としています。"
+    }
+}
