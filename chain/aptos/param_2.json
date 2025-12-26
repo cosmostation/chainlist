@@ -18,7 +18,7 @@
             "pubkey_style": "ed25519"
         }
     ],
-    "simulated_max_gas_multiply": 1.2,
+    "simulated_gas_multiply": 1.2,
     "graphql_endpoint" : [
         {
             "provider": "Aptos Labs",
