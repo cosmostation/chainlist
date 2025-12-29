@@ -4272,6 +4272,25 @@
             "telegram": "https://t.me/revivefi"
         },
         "type": "DeFi"
+    },
+    {
+        "id": 241,
+        "name": "Aster",
+        "description": "AsterDex Pro Futures is a decentralized perpetual futures platform offering on-chain leveraged trading. It provides fast execution, low fees, and secure access to a wide range of tradable assets.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/aster.png",
+        "link": "https://www.asterdex.com/en/trade/pro/futures/BTCUSDT",
+        "chains": [
+            "bnb-smart-chain",
+            "ethereum",
+            "arbitrum",
+            "solana"
+        ],
+        "socials": {
+            "twitter": "https://x.com/Aster_DEX",
+            "telegram": "https://t.me/AsterDEX",
+            "discord": "https://discord.com/invite/asterdefi"
+        },
+        "type": "DEX"
     }
 ]
  
