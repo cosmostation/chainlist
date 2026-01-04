@@ -1,0 +1,67 @@
+{
+    "chain_id_cosmos": "mono-sprint-1",
+    "chain_id_evm": "0x40002",
+    "chain_name": "Monolythium Sprintnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/monolythium-sprintnet/resource/chain_monolythium-sprintnet.png",
+    "staking_asset_denom": "alyth",
+    "staking_asset_symbol": "LYTH",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/monolythium-sprintnet/asset/lyth.png",
+    "bech_account_prefix": "mono",
+    "bech_validator_prefix": "monovaloper",
+    "api_name": "monolythium-sprintnet",
+    "account_type": [
+        {
+            "hd_path": "m/44'/60'/0'/0/X",
+            "pubkey_style": "keccak256",
+            "pubkey_type": "/ethermint.crypto.v1.ethsecp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
+            "0alyth",
+            "1000000000alyth",
+            "5000000000alyth"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "evm_fee_info": {
+        "is_eip1559": false,
+        "simulated_gas_multiply": 1.2
+    },
+    "grpc_endpoint": [],
+    "lcd_endpoint": [
+        {
+            "provider": "Monolythium",
+            "url": "https://api.sprintnet.mononodes.xyz/"
+        }
+    ],
+    "explorer": {
+        "name": "Monoscan",
+        "url": "https://monoscan.xyz/sprintnet/",
+        "account": "https://monoscan.xyz/sprintnet/address/${address}",
+        "tx": "https://monoscan.xyz/sprintnet/tx/${hash}",
+        "proposal": "https://monoscan.xyz/sprintnet/proposals/${id}"
+    },
+    "about": {
+        "website": "https://monolythium.com",
+        "docs": "https://docs.monolythium.com",
+        "github": "https://github.com/monolythium",
+        "blog": "",
+        "medium": "",
+        "twitter": "https://twitter.com/monolythium",
+        "coingecko": ""
+    },
+    "forum": {
+        "main": "",
+        "governance": ""
+    },
+    "description": {
+        "ko": "Cosmos SDK와 CometBFT 기반의 고성능 레이어-1 블록체인으로, EVM 호환성을 지원합니다. Sprintnet은 빠른 테스트를 위한 개발 테스트넷입니다.",
+        "en": "A high-performance Layer-1 blockchain built with Cosmos SDK and CometBFT, featuring native EVM compatibility. Sprintnet is an accelerated testnet for rapid development and testing.",
+        "ja": "Cosmos SDKとCometBFTで構築された高性能レイヤー1ブロックチェーンで、EVMネイティブ互換性を備えています。Sprintnetは迅速な開発とテストのための高速テストネットです。"
+    }
+}
