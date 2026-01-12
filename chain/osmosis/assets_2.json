@@ -11238,5 +11238,49 @@
                 "denom": "aepix"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/317A1A41A8DC17172AA0FE1473036667F4573833C22D7264494F7EA990C7D3C7",
+        "name": "Bitcoin Silver",
+        "symbol": "BTS",
+        "description": "Bitcoin Silver",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/bts.png",
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client": {
+                "channel": "channel-122",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/BTS"
+            }
+        }
+    },
+	{
+        "type": "ibc",
+        "denom": "ibc/FDC54D867AF75D211493A365275531FE5C8E4ECD5BC0BBC8A15C8E578ABA029D",
+        "name": "Bitcoin Gold",
+        "symbol": "BTG",
+        "description": "Bitcoin Gold",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/btg.png",
+        "ibc_info": {
+            "path": "injective>osmosis",
+            "client": {
+                "channel": "channel-122",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-8",
+                "port": "transfer",
+                "chain": "injective",
+                "denom": "factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/BTG"
+            }
+        }
     }
 ]

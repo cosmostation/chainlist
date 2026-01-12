@@ -2036,5 +2036,25 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/oyci.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/BTS",
+        "name": "BTS",
+        "symbol": "BTS",
+        "description": "Bitcoin Silver",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/bts.png",
+        "coinGeckoId": ""
+    },
+	{
+        "type": "native",
+        "denom": "factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/BTG",
+        "name": "BTG",
+        "symbol": "BTG",
+        "description": "Bitcoin Gold",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/btg.png",
+        "coinGeckoId": ""
     }
 ]
