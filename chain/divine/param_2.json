@@ -1,0 +1,74 @@
+{
+    "chain_id_cosmos": "divine-1",
+    "chain_name": "Divine",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/divine/resource/chain_divine.png",
+    "staking_asset_denom": "uDRC",
+    "staking_asset_symbol": "DRC",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/divine/asset/drc.png",
+    "bech_account_prefix": "divine",
+    "bech_validator_prefix": "divinevaloper",
+    "origin_genesis_time": "2025-12-10T07:19:48Z",
+    "api_name": "divine",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+            "0.0025uDRC",
+            "0.005uDRC",
+            "0.05uDRC"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.5,
+        "init_gas_limit": 300000
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "DivineRay",
+            "url": "grpc-mainnet.divineray.ca:443"
+        },
+        {
+            "provider": "DivineRay Org2",
+            "url": "grpc-mainnet-node2.divineray.ca:443"
+        },
+        {
+            "provider": "DivineRay Org3",
+            "url": "grpc-mainnet-node3.divineray.ca:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "DivineRay",
+            "url": "https://rest-mainnet.divineray.ca/"
+        },
+        {
+            "provider": "DivineRay Org2",
+            "url": "https://rest-mainnet-node2.divineray.ca/"
+        },
+        {
+            "provider": "DivineRay Org 3",
+            "url": "https://rest-mainnet-node3.divineray.ca/"
+        }
+    ],
+    "about": {
+        "website": "https://divineray.ca/",
+        "github": "https://github.com/Divine-Ray-Coin/divinechain",
+        "twitter": "https://t.me/+WF9GmuVpuOFmOTEx"
+    },
+    "description": {
+        "ko": "Divine Ray Chain(DRC)은 의식 있는 창작자와 커뮤니티 네트워크를 위해 설계된 공개 허가형 블록체인을 구동합니다. DRC는 체인을 보호하고, 거래를 가능하게 하며, 참여에 대한 보상을 제공하고, 새롭게 부상하는 신성한 디지털 경제를 지원하는 데 사용되는 기본 자산입니다.",
+        "en": "Divine Ray Chain (DRC) powers a public-permissioned blockchain designed for conscious creators and community networks. DRC is the native asset used to secure the chain, enable transactions, reward participation, and support the emerging divine digital economy.",
+        "ja": "Divine Ray Chain (DRC) は、意識の高いクリエイターやコミュニティネットワークのために設計された、パブリックパーミッション型のブロックチェーンを動かしています。 DRCは、チェーンのセキュリティを確保し、トランザクションを可能にし、参加者に報酬を与え、台頭する神聖なデジタル経済を支えるために使用されるネイティブアセットです。"
+    }
+}
