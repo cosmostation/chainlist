@@ -9,5 +9,144 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/althea/asset/althea.png",
         "coinGeckoId": "althea",
         "color": "#3f95d4"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/17CD484EE7D9723B847D95015FA3EBD1572FD13BC84FB838F55B18A57450F25B",
+        "name" : "USD Coin via Gravity-Bridge",
+        "symbol": "USDC.grv",
+        "description": "USDC on Ethereum bridged to Althea via Gravity Bridge",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "color": "#2775CA",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>althea",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-168",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/4F6A2DEFEA52CD8D90966ADCB2BD0593D3993AB0DF7F6AEB3EFD6167D79237B0",
+        "name" : "Tether USD via Gravity-Bridge",
+        "symbol": "USDT.grv",
+        "description": "USDT on Ethereum bridged to Althea via Gravity Bridge",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>althea",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-168",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/AE1B617F7F329ED83C20AC584B03579EEFE3322EF601CE88936A0271BE1157DD",
+        "name" : "USDS via Gravity-Bridge",
+        "symbol": "USDS.grv",
+        "description": "USDS on Ethereum bridged to Althea via Gravity Bridge",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usds.png",
+        "coinGeckoId": "usds",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>althea",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-168",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0xdC035D45d973E3EC169d2276DDab16f1e407384F"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/576150049104D47DFD447482EEED2FC8B44AB0D9A772D673717062B49D9820C5",
+        "name" : "sUSDS via Gravity-Bridge",
+        "symbol": "sUSDS.grv",
+        "description": "sUSDS on Ethereum bridged to Althea via Gravity Bridge",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/susds.png",
+        "coinGeckoId": "susds",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>althea",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-168",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FC9D92EC12BC974E8B6179D411351524CD5C2EBC3CE29D5BA856414FEFA47093",
+        "name" : "Graviton",
+        "symbol": "GRAV",
+        "description": "Gravity Bridge Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/asset/grav.png",
+        "coinGeckoId": "graviton",
+        "ibc_info" : {
+            "path": "gravity-bridge>althea",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-168",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "ugraviton"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/DC186CA7A8C009B43774EBDC825C935CABA9743504CE6037507E6E5CCE12858A",
+        "name" : "Wrapped Ethereum via Gravity-Bridge",
+        "symbol": "WETH.grv",
+        "description": "Wrapped Ethereum on Ethereum bridged to Althea via Gravity Bridge",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth",
+        "ibc_info" : {
+            "path": "ethereum>gravity-bridge>althea",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-168",
+                "port": "transfer",
+                "chain": "gravity-bridge",
+                "denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+            }
+        }
     }
 ]

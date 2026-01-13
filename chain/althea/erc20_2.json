@@ -1,0 +1,63 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd",
+        "name" : "USD Coin via Gravity-Bridge",
+        "symbol": "USDC.grv",
+        "description": "USDC on Ethereum bridged to Althea via Gravity Bridge",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
+        "name" : "Tether USD via Gravity-Bridge",
+        "symbol": "USDT.grv",
+        "description": "USDT on Ethereum bridged to Althea via Gravity Bridge",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
+        "name" : "USDS via Gravity-Bridge",
+        "symbol": "USDS.grv",
+        "description": "USDS on Ethereum bridged to Althea via Gravity Bridge",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usds.png",
+        "coinGeckoId": "usds"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
+        "name" : "sUSDS via Gravity-Bridge",
+        "symbol": "sUSDS.grv",
+        "description": "sUSDS on Ethereum bridged to Althea via Gravity Bridge",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/susds.png",
+        "coinGeckoId": "susds"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1D54EcB8583Ca25895c512A8308389fFD581F9c9",
+        "name" : "Graviton",
+        "symbol": "GRAV",
+        "description": "Gravity Bridge Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/asset/grav.png",
+        "coinGeckoId": "graviton"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E",
+        "name" : "Wrapped Ethereum via Gravity-Bridge",
+        "symbol": "WETH.grv",
+        "description": "Wrapped Ethereum on Ethereum bridged to Althea via Gravity Bridge",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth"
+    }
+
+]

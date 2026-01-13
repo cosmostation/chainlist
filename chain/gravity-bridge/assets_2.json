@@ -433,5 +433,39 @@
                 "contract": "0x853d955aCEf822Db058eb8505911ED77F175b99e"
             }
         }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+        "name" : "USDS",
+        "symbol": "USDS.grv",
+        "description": "Gravity Bridge USDS",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usds.png",
+        "coinGeckoId": "usds",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xdC035D45d973E3EC169d2276DDab16f1e407384F"
+            }
+        }
+    },
+    {
+        "type": "bridge",
+        "denom": "gravity0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+        "name" : "Savings USDS",
+        "symbol": "sUSDS.grv",
+        "description": "Gravity Bridge sUSDS",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/susds.png",
+        "coinGeckoId": "susds",
+        "bridge_info" : {
+            "path": "ethereum>gravity-bridge",
+            "counterparty": {
+                "chain": "ethereum",
+                "contract": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD"
+            }
+        }
     }
 ]
