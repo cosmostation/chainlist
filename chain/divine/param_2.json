@@ -9,9 +9,9 @@
     "bech_validator_prefix": "divinevaloper",
     "origin_genesis_time": "2025-12-10T07:19:48Z",
     "api_name": "divine",
-    "is_support_mintscan": true,
+    "is_support_mintscan": false,
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : true,
+    "is_support_extension_wallet" : false,
     "chain_type": [
         "cosmos"
     ],
