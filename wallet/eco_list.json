@@ -1016,9 +1016,6 @@
         "link": "https://neutron.astroport.fi/swap",
         "chains": [
             "neutron",
-            "injective",
-            "osmosis",
-            "sei",
             "terra"
         ],
         "socials": {
@@ -1991,21 +1988,6 @@
         "type": "DeFi"
     },
     {
-        "id": 107,
-        "name": "Dojo",
-        "description": "DojoSwap is a decentralized exchange (DEX) that facilitates secure and efficient trading of digital assets.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dojo.png",
-        "link": "https://dojo.trading/",
-        "chains": [
-            "injective"
-        ],
-        "socials": {
-            "telegram": "https://t.me/dojo_swap",
-            "twitter": "https://x.com/Dojo_Swap"
-        },
-        "type": "DeFi"
-    },
-    {
         "id": 108,
         "name": "Hydro",
         "description": "Decentralized finance platform providing various financial services, including staking and lending, powered by smart contracts.",
@@ -2691,6 +2673,7 @@
         "link": "https://portalbridge.com/",
         "chains": [
             "ethereum",
+            "aptos",
             "arbitrum",
             "avalanche",
             "base",
@@ -2708,24 +2691,6 @@
             "sui",
             "worldcoin",
             "xrplevm"
-        ],
-        "socials": {
-            "twitter": "https://x.com/portalbridge_",
-            "discord": "https://discord.com/invite/jRZaJvCZjv"
-        },
-        "type": "Bridge"
-    },
-    {
-        "id": 153,
-        "name": "Portal Cosmos",
-        "description": "Portal Bridge is a cross-chain bridge powered by Wormhole that enables seamless transfer of assets across multiple blockchains.",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/portal.png",
-        "link": "https://portalbridge.com/cosmos/",
-        "chains": [
-            "osmosis",
-            "evmos",
-            "injective",
-            "sei"
         ],
         "socials": {
             "twitter": "https://x.com/portalbridge_",
