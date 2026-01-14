@@ -11282,5 +11282,28 @@
                 "denom": "factory/inj1hywezj8796044zdrsl9ugcn78zlvhc3jzafesm/BTG"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/E132A35DC380C8D68E99F46BC7A5083602F171D00E3BE9471541FB1AA62D8BE2",
+        "name": "Mirage",
+        "symbol": "MIRAGE",
+        "description": "Mirage is a decentralized social platform built on Cosmos SDK. Free speech lives on-chain.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mirage/asset/mirage.png",
+        "coinGeckoId": "",
+        "ibc_info": {
+            "path": "mirage>osmosis",
+            "client": {
+                "channel": "channel-108698",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1",
+                "port": "transfer",
+                "chain": "mirage",
+                "denom": "umirage"
+            }
+        }
     }
 ]

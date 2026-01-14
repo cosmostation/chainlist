@@ -1,0 +1,64 @@
+{
+    "chain_id_cosmos": "mirage-1",
+    "chain_name": "Mirage",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mirage/resource/chain_mirage.png",
+    "staking_asset_denom": "umirage",
+    "staking_asset_symbol": "MIRAGE",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mirage/asset/mirage.png",
+    "bech_account_prefix": "mirage",
+    "bech_validator_prefix": "miragevaloper",
+    "origin_genesis_time": "2024-11-18T00:00:00Z",
+    "api_name": "mirage",
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": false,
+    "is_support_extension_wallet": false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
+            "5000umirage",
+            "7500umirage",
+            "10000umirage"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.5,
+        "init_gas_limit": 200000,
+        "fee_threshold": ""
+    },
+    "lcd_endpoint": [
+        {
+            "provider": "Mirage Foundation",
+            "url": "https://mirage.talk/chain/rest/"
+        },
+        {
+            "provider": "Mirage Foundation",
+            "url": "https://mirage.vote/chain/rest/"
+        }
+    ],
+    "explorer": {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/mirage/",
+        "account": "https://www.mintscan.io/mirage/address/${address}",
+        "tx": "https://www.mintscan.io/mirage/tx/${hash}",
+        "proposal": "https://www.mintscan.io/mirage/proposals/${id}"
+    },
+    "about": {
+        "website": "https://mirage.foundation",
+        "docs": "https://github.com/MirageFoundation/mirage-node",
+        "github": "https://github.com/MirageFoundation",
+        "twitter": "https://x.com/getmirage"
+    },
+    "forum": {},
+    "description": {
+        "en": "Mirage is a decentralized social platform built on Cosmos SDK. Free speech lives on-chain. True discourse. Decentralized. Unstoppable."
+    }
+}
