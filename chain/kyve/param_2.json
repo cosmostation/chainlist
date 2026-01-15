@@ -62,11 +62,11 @@
         }
     ],
     "explorer" : {
-        "name": "Guru",
-        "url": "https://kyve.explorers.guru/",
-        "account": "https://kyve.explorers.guru/account/${address}",
-        "tx": "https://kyve.explorers.guru/transaction/${hash}",
-        "proposal": "https://kyve.explorers.guru/proposal/${id}"
+        "name": "ViewBlock",
+        "url": "https://viewblock.io/kyve",
+        "account": "https://viewblock.io/kyve/address/${address}",
+        "tx": "https://viewblock.io/kyve/tx/${hash}",
+        "proposal": "https://viewblock.io/kyve/governance/${id}"
     },
     "about" : {
         "website" : "https://www.kyve.network/",
