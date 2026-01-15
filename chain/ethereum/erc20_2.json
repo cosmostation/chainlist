@@ -4498,6 +4498,16 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/susds.png",
         "coinGeckoId": "susds"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+        "name": "USDS",
+        "symbol": "USDS",
+        "description": "USDS Stablecoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usds.png",
+        "coinGeckoId": "usds"
     }
 ]
 
