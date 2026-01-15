@@ -9,8 +9,8 @@
     "bech_validator_prefix": "miragevaloper",
     "origin_genesis_time": "2024-11-18T00:00:00Z",
     "api_name": "mirage",
-    "is_support_mintscan": true,
-    "is_support_mobile_wallet": false,
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet": true,
     "is_support_extension_wallet": false,
     "chain_type": [
         "cosmos"
@@ -45,20 +45,22 @@
         }
     ],
     "explorer": {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/mirage/",
-        "account": "https://www.mintscan.io/mirage/address/${address}",
-        "tx": "https://www.mintscan.io/mirage/tx/${hash}",
-        "proposal": "https://www.mintscan.io/mirage/proposals/${id}"
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
     },
     "about": {
-        "website": "https://mirage.foundation",
+        "website": "",
         "docs": "https://github.com/MirageFoundation/mirage-node",
         "github": "https://github.com/MirageFoundation",
         "twitter": "https://x.com/getmirage"
     },
     "forum": {},
     "description": {
-        "en": "Mirage is a decentralized social platform built on Cosmos SDK. Free speech lives on-chain. True discourse. Decentralized. Unstoppable."
+        "ko": "Mirage는 Cosmos SDK 위에 구축된 탈중앙화 소셜 플랫폼입니다. 자유로운 발언은 온체인에서 살아 숨 쉽니다. 진정한 담론. 탈중앙화. 멈출 수 없습니다.",
+        "en": "Mirage is a decentralized social platform built on Cosmos SDK. Free speech lives on-chain. True discourse. Decentralized. Unstoppable.",
+        "ja": "Mirageは Cosmos SDK 上に構築された 分散型ソーシャルプラットフォームです。 言論の自由はオンチェーンに存在します。 真のディスカッション。 分散型。 止めることはできません。"
     }
 }
