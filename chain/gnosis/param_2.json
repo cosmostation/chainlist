@@ -1,0 +1,71 @@
+{
+    "chain_id_evm" : "0x64",
+    "chain_name": "Gnosis",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gnosis/resource/chain_gnosis.png",
+    "main_asset_denom" : "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb",
+    "main_asset_symbol" : "GNO",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gnosis/asset/gno.png",
+    "gas_asset_denom" : "0x0000000000000000000000000000000000000000",
+    "gas_asset_symbol" : "xDAI",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gnosis/asset/dai.png",
+    "origin_genesis_time" : "2021-12-08T19:55:40Z",
+    "api_name" : "gnosis",
+    "is_support_mobile_wallet" : true,
+    "is_support_moblie_dapp" : true,
+    "is_support_extension_wallet" : false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simul_gas_multiply" : 1.3
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": true,
+        "multicall_address" : "0xcA11bde05977b3631167028862bE2a173976CA11"
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Gnosis",
+            "url": "https://rpc.gnosischain.com"
+        },
+        {
+            "provider": "Publicnode",
+            "url": "https://gnosis-rpc.publicnode.com"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://gnosis.drpc.org"
+        },
+        {
+            "provider": "1Rpc",
+            "url": "https://1rpc.io/gnosis"
+        },
+        {
+            "provider": "Fastnode",
+            "url": "https://public-gno-mainnet.fastnode.io"
+        }
+    ],
+    "explorer" : {
+        "name": "Gnosisscan",
+        "url": "https://gnosisscan.io/",
+        "account": "https://gnosisscan.io/address/${address}",
+        "tx": "https://gnosisscan.io/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://www.gnosis.io/",
+        "docs": "https://docs.gnosischain.com/",
+        "github" : "https://github.com/gnosis",
+        "blog" : "https://www.gnosis.io/blog",
+        "medium": "https://medium.com/@gnosisPM",
+        "twitter" : "https://x.com/gnosischain",
+        "discord" : "https://discord.com/invite/gnosis",
+        "coingecko" : "https://www.coingecko.com/en/coins/gnosis"
+    },
+    "description" : {
+        "ko" : "Gnosis는 이더리움 기반의 탈중앙 인프라 플랫폼으로, 자산 관리와 협업을 위한 보안 중심 도구를 제공합니다. 대표적으로 DAO와 기관에서 널리 사용되는 멀티시그 지갑 Gnosis Safe(Safe) 로 알려져 있습니다.",
+        "en" : "Gnosis is a decentralized infrastructure platform on Ethereum focused on secure asset management and coordination tools. It is best known for Gnosis Safe (Safe), a leading multi-sig wallet used by DAOs and institutions.",
+        "ja" : "Gnosisは、イーサリアム上で資産管理と協調を支える 分散型インフラプラットフォームです。 DAOや機関で広く使われている マルチシグウォレット「Gnosis Safe（Safe）」 で知られています。"
+    }
+}

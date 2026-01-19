@@ -1,0 +1,135 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb",
+        "name": "Gnosis Token on xDai",
+        "symbol": "GNO",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gnosis/asset/gno.png",
+        "coinGeckoId": "gnosis",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "kyve1ze2ye5u5k3qdlexvt2e0nn0508p040949ppddr",
+        "name": "Tether USD on xDai",
+        "symbol": "USDT",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83",
+        "name": "USDC on xDai",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0",
+        "name": "Bridged USDC (Gnosis)",
+        "symbol": "USDC.e",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin-ethereum-bridged"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6C76971f98945AE98dD7d4DFcA8711ebea946eA6",
+        "name": "Wrapped liquid staked Ether 2.0 from Mainnet",
+        "symbol": "wstETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gnosis/asset/wsteth.png",
+        "coinGeckoId": "wrapped-steth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8e5bBbb09Ed1ebdE8674Cda39A0c169401db4252",
+        "name": "Wrapped BTC on xDai",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/wbtc.png",
+        "coinGeckoId": "wbtc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2",
+        "name": "ChainLink Token on xDai",
+        "symbol": "LINK",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/link.png",
+        "coinGeckoId": "chainlink"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1",
+        "name": "Wrapped Ether on xDai",
+        "symbol": "WETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/weth.png",
+        "coinGeckoId": "weth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1",
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/uni.png",
+        "coinGeckoId": "uni"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7f7440C5098462f833E123B44B8A03E1d9785BAb",
+        "name": "1INCH Token on xDai",
+        "symbol": "1INCH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gnosis/asset/1inch.png",
+        "coinGeckoId": "1inch"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xaf204776c7245bF4147c2612BF6e5972Ee483701",
+        "name": "Savings xDAI",
+        "symbol": "sDAI",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gnosis/asset/sdai.png",
+        "coinGeckoId": "savings-xdai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x177127622c4A00F3d409B75571e12cB3c8973d3c",
+        "name": "CoW Protocol Token from Mainnet",
+        "symbol": "COW",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gnosis/asset/cow.png",
+        "coinGeckoId": "cow-protocol"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
+        "name": "BZZ on xDai",
+        "symbol": "BZZ",
+        "description": "",
+        "decimals": 16,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gnosis/asset/bzz.png",
+        "coinGeckoId": "swarm-bzz"
+    }
+]
