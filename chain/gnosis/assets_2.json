@@ -2,9 +2,9 @@
     {
         "type": "native",
         "denom": "0x0000000000000000000000000000000000000000",
-        "name" : "Gnosis xDai",
-        "symbol": "xDai",
-        "description": "Gnosis Native xDai",
+        "name" : "Gnosis xDAI",
+        "symbol": "xDAI",
+        "description": "Gnosis Native xDAI",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gnosis/asset/xdai.png",
         "coinGeckoId": "dai"
