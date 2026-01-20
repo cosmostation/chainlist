@@ -1,0 +1,22 @@
+[
+    {
+        "version": 1,
+        "ads": [
+            {
+                "id": "2026-01-20-001",
+                "priority": 1,
+                "startAt": "2026-01-20T00:00:00Z",
+                "endAt": "2026-03-02T00:00:00Z",
+                "images": {
+                    "extension":
+                        "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/ad-resource/extension-2026-01-20-001.png",
+                    "mobile":
+                        "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/ad-resource/mobile-2026-01-20-001.png"
+                },
+                "linkUrl":
+                    "https://mantrachain.io/resources/announcements/mantra-chain-coin-upgrade-timeline-and-key-details",
+                "title": "$OM -> $MANTRA Upgrade"
+            }
+        ]
+    }
+]
