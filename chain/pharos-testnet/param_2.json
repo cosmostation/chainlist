@@ -27,6 +27,10 @@
     },
     "evm_rpc_endpoint" : [
         {
+            "provider": "Cosmostation",
+            "url": "https://rpc.evm.pharos.testnet.cosmostation.io"
+        },
+        {
             "provider": "dpLabs",
             "url": "https://atlantic.dplabs-internal.com"
         }
