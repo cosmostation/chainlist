@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "cvn_2032-1",
+    "chain_name": "ConsciousDAO",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/consciousdao/resource/chain_consciousdao.png",
+    "staking_asset_denom": "acvnt",
+    "staking_asset_symbol": "CVN",
+    "lcd_endpoint": [
+        {
+            "provider": "cvn.io",
+            "url": "https://api.cvn.io/"
+        }
+    ]
+}

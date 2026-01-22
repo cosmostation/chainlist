@@ -71,20 +71,16 @@
             "url": "https://rest-coreum.ecostake.com/"
         },
         {
-            "provider": "Silk Nodes",
-            "url": "https://coreum.api.silknodes.io/"
+            "provider": "#SoloNation",
+            "url": "https://api.m.core.solonation.io/"
         },
         {
             "provider": "Inter Blockchain Services",
-            "url": "https://coreum-api.ibs.team/"
+            "url": "https://coreum.ibs.team:443/api/"
         },
         {
             "provider": "Stakewolle",
             "url": "https://public.stakewolle.com/cosmos/coreum/rest"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "https://coreum-api.chainroot.io/"
         }
     ],
     "explorer" : {

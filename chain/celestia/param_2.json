@@ -64,12 +64,12 @@
             "url": "https://lcd-celestia.cosmostation.io/"
         },
         {
-            "provider": "Numia",
-            "url": "https://public-celestia-lcd.numia.xyz/"
+            "provider": "NodeStake",
+            "url": "https://api.celestia.nodestake.org/"
         },
         {
-            "provider": "Newmetric",
-            "url": "https://celestia-rest.mesa.newmetric.xyz/"
+            "provider": "itrocket",
+            "url": "https://celestia-mainnet-api.itrocket.net/"
         },
         {
             "provider": "Lunar Oasis",
@@ -77,11 +77,15 @@
         },
         {
             "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://celestia-api.lavenderfive.com/"
+            "url": "https://rest.lavenderfive.com:443/celestia/"
         },
         {
-            "provider": "Citizen Web3",
-            "url": "https://api.celestia.citizenweb3.com/"
+            "provider": "Pro-Nodes75",
+            "url": "https://api.celestia.node75.org/"
+        },
+        {
+            "provider": "[NODERS]TEAM",
+            "url": "https://celestia-api.noders.services/"
         }
     ],
     "explorer" : {

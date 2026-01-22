@@ -1,46 +1,60 @@
 {
-    "chain_id_cosmos" : "cifer-2",
+    "chain_id_cosmos": "cifer-2",
     "chain_name": "Cifer",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cifer/resource/chain_cif.png",
-    "staking_asset_denom" : "ucif",
-    "staking_asset_symbol" : "CIF",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cifer/asset/cif.png",
-    "bech_account_prefix" : "cife",
-    "bech_validator_prefix" : "cifevaloper",
-    "origin_genesis_time" : "2024-04-10T03:05:25.355240367Z",
-    "api_name" : "cifer",
-    "account_type" : [
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cifer/resource/chain_cif.png",
+    "staking_asset_denom": "ucif",
+    "staking_asset_symbol": "CIF",
+    "staking_asset_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cifer/asset/cif.png",
+    "bech_account_prefix": "cife",
+    "bech_validator_prefix": "cifevaloper",
+    "origin_genesis_time": "2024-04-10T03:05:25.355240367Z",
+    "api_name": "cifer",
+    "account_type": [
         {
             "hd_path": "m/44'/118'/0'/0/X",
             "pubkey_style": "secp256k1",
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
     ],
-    "cosmos_fee_info" : {
-        "base" : "0",
-        "rate" : [
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
             "0.0025ucif",
             "0.025ucif",
             "0.04ucif"
         ],
-        "is_simulable" : true,
-        "simulated_gas_multiply" : 1.5,
-        "fee_threshold" : ""
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.5,
+        "fee_threshold": ""
     },
-    "grpc_endpoint" : [
+    "grpc_endpoint": [
         {
             "provider": "Cifer",
             "url": "34.128.114.243:9090"
         }
     ],
-    "about" : {
-        "website" : "https://cifer.ai/",
-        "github" : "https://github.com/CiferAI",
-        "twitter" : "https://twitter.com/cifer_ai",
-        "coingecko" : ""
+    "lcd_endpoint": [
+        {
+            "provider": "Cifer",
+            "url": "https://lcd.cifer.ai/"
+        },
+        {
+            "provider": "Cifer",
+            "url": "https://api.cifer.ai/"
+        }
+    ],
+    "about": {
+        "website": "https://cifer.ai/",
+        "github": "https://github.com/CiferAI",
+        "twitter": "https://twitter.com/cifer_ai",
+        "coingecko": ""
     },
-    "description" : {
-        "en" : "The Next Generation of AI Infrastructure Built for Privacy, Performance, & Governance — By Design, At Scale",
-        "ja" : "プライバシー・パフォーマンス・ガバナンスのために設計された 次世代AIインフラストラクチャ — 設計段階から、大規模に"
+    "description": {
+        "en":
+            "The Next Generation of AI Infrastructure Built for Privacy, Performance, & Governance — By Design, At Scale",
+        "ja":
+            "プライバシー・パフォーマンス・ガバナンスのために設計された 次世代AIインフラストラクチャ — 設計段階から、大規模に"
     }
 }

@@ -1,0 +1,30 @@
+{
+    "chain_id_cosmos": "aura_6322-2",
+    "chain_name": "Aura Network",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aura/resource/chain_aura.png",
+    "staking_asset_denom": "uaura",
+    "staking_asset_symbol": "AURA",
+    "lcd_endpoint": [
+        {
+            "provider": "KonsorTech",
+            "url": "https://mainnet-aura-api.konsortech.xyz/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://aura.api.m.stavr.tech/"
+        },
+        {
+            "provider": "silent",
+            "url": "https://api.aura.silentvalidator.com/"
+        },
+        {
+            "provider": "[NODERS]TEAM",
+            "url": "https://aura-api.noders.services/"
+        },
+        {
+            "provider": "STAKR.space",
+            "url": "https://aura.api.srv.stakr.space/"
+        }
+    ]
+}

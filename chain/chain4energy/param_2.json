@@ -54,12 +54,12 @@
             "url": "https://api-c4e.mzonder.com/"
         },
         {
-            "provider": "Crosnest",
-            "url": "https://rest.cros-nest.com/chain4energy/"
+            "provider": "StakeUp",
+            "url": "http://api.c4e.stakeup.tech/"
         },
         {
-            "provider": "Indonode",
-            "url": "https://api.c4e.indonode.net/"
+            "provider": "POLCRYPTO.PL",
+            "url": "https://rest.polcrypto.pl:443/"
         }
     ],
     "explorer" : {

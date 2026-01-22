@@ -1,6 +1,6 @@
 {
     "chain_id_cosmos" : "aaronetwork",
-    "chain_name": "Aaron",
+    "chain_name": "Aaron Network",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/aaron/resource/chain_aaron.png",
     "staking_asset_denom" : "uaaron",
     "staking_asset_symbol" : "AARON",
@@ -34,10 +34,6 @@
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Aaron Network",
-            "url": "https://mainnet-api.aaronetwork.xyz/"
-        }
     ],
     "explorer" : {
         "name": "Aaron Explorer",

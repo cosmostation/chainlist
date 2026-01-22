@@ -1,0 +1,34 @@
+{
+    "chain_id_cosmos": "bitway-1",
+    "chain_name": "Bityway",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitway/resource/chain_bitway.png",
+    "staking_asset_denom": "ubtw",
+    "staking_asset_symbol": "BTW",
+    "lcd_endpoint": [
+        {
+            "provider": "NodeStake",
+            "url": "https://api.bitway.nodestake.org/"
+        },
+        {
+            "provider": "Bitway Labs",
+            "url": "https://rest.bitway.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://bitway.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Mandragora",
+            "url": "https://bitway.api.mandragora.io/"
+        },
+        {
+            "provider": "ITRocket",
+            "url": "https://bitway-mainnet-api.itrocket.net/"
+        },
+        {
+            "provider": "Synergy Nodes",
+            "url": "https://bitway-api.synergynodes.com/"
+        }
+    ]
+}

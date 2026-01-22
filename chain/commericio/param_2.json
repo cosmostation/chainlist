@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "commercio-3",
+    "chain_name": "Commercio.network",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/commercio/resource/chain_commercio.png",
+    "staking_asset_denom": "ucommercio",
+    "staking_asset_symbol": "COM",
+    "lcd_endpoint": [
+        {
+            "provider": "Commercio.network",
+            "url": "https://lcd-mainnet.commercio.network/"
+        }
+    ]
+}

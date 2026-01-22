@@ -66,20 +66,16 @@
             "url": "https://api.chihuahua.wtf/"
         },
         {
-            "provider": "ecostake",
-            "url": "https://rest-chihuahua.ecostake.com/"
-        },
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://chihua.api.m.stavr.tech/"
-        },
-        {
             "provider": "Polkachu",
             "url": "https://chihuahua-api.polkachu.com/"
         },
         {
-            "provider": "Chainroot",
-            "url": "https://chihuahua-api.chainroot.io/"
+            "provider": "Pocket Network",
+            "url": "https://chihuahua.api.pocket.network/"
+        },
+        {
+            "provider": "Kleomedes",
+            "url": "https://chihuahua-api.kleomedes.network/"
         }
     ],
     "explorer" : {

@@ -1,5 +1,10 @@
 {
-    "chain_name": "Coss",
+    "chain_id_cosmos": "coss-1",
+    "chain_name": "COSS",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coss/resource/chain_coss.png",
+    "staking_asset_denom": "ucgas",
+    "staking_asset_symbol": "CGAS",
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
@@ -10,14 +15,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "CelestialPhoenix",
-            "url": "coss-grpc.cias.network:19090"
-        },
-        {
-            "provider": "StellarGuardian",
-            "url": "coss-grpc.coss.ink:19090"
-        }
+    ],
+    "lcd_endpoint": [
     ],
     "about" : {
         "website" : "https://coss.ink",

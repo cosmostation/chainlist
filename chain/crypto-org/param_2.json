@@ -52,6 +52,10 @@
         {
             "provider": "Polkachu",
             "url": "https://cryptocom-api.polkachu.com/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rpc-cryptoorgchain.ecostake.com/"
         }
     ],
     "explorer" : {

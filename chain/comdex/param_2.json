@@ -48,10 +48,6 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "comdex",
-            "url": "https://rest.comdex.one/"
-        },
-        {
             "provider": "Polkachu",
             "url": "https://comdex-api.polkachu.com/"
         },
@@ -60,12 +56,12 @@
             "url": "https://comdex.api.m.stavr.tech/"
         },
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://comdex-api.lavenderfive.com/"
+            "provider": "StakerHouse",
+            "url": "https://comdex-rest.stakerhouse.com/"
         },
         {
-            "provider": "Chainroot",
-            "url": "https://comdex-api.chainroot.io/"
+            "provider": "BlueStake 🚀",
+            "url": "https://comdex-api.bluestake.net/"
         }
     ],
     "explorer" : {
