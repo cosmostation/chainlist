@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "loop-1",
+    "chain_name": "Loop",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/loop/resource/chain_loop.png",
+    "staking_asset_denom": "token",
+    "staking_asset_symbol": "TOKEN",
+    "lcd_endpoint": [
+        {
+            "provider": "PFC",
+            "url": "https://api.loop.pfc.zone/"
+        }
+    ]
+}

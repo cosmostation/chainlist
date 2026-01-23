@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "loyal-main-02",
+    "chain_name": "Loyal",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/loyal/resource/chain_loyal.png",
+    "staking_asset_denom": "ulyl",
+    "staking_asset_symbol": "LYL",
+    "lcd_endpoint": [
+        {
+            "provider": "Loyal",
+            "url": "https://lcd-main.joinloyal.io/"
+        }
+    ]
+}

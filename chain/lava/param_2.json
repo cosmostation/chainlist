@@ -45,16 +45,24 @@
             "url": "https://lava-api.w3coins.io/"
         },
         {
-            "provider": "Inter Blockchain Services",
-            "url": "https://lava-api.ibs.team/"
+            "provider": "Vinjan.Inc",
+            "url": "https://api-lava.vinjan-inc.com/"
         },
         {
-            "provider": "AVIAONE",
-            "url": "https://api.lava-mainnet-1.lava.aviaone.com/"
+            "provider": "LiveRaveN",
+            "url": "https://lava.api.liveraven.net/"
         },
         {
             "provider": "🔥STAVR🔥",
             "url": "https://lava.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lava Over Lava",
+            "url": "https://lava.rest.lava.build/"
+        },
+        {
+            "provider": "AstroStake",
+            "url": "https://lava-api.linknode.org/"
         }
     ],
     "explorer" : {
