@@ -34,14 +34,6 @@
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "onomy",
-            "url": "https://rest-mainnet.onomy.io/"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://onomy-mainnet-lcd.autostake.com/"
-        }
     ],
     "explorer" : {
         "name": "EZ Staking",

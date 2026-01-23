@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "optio",
+    "chain_name": "Optio",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/optio/resource/chain_optio.png",
+    "staking_asset_denom": "uOPT",
+    "staking_asset_symbol": "OPT",
+    "lcd_endpoint": [
+        {
+            "provider": "Optio Team",
+            "url": "https://api.optio.zone:443/"
+        }
+    ]
+}
