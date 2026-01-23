@@ -1,0 +1,18 @@
+{
+    "chain_id_cosmos": "Neutaro-1",
+    "chain_name": "Neutaro",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutaro/resource/chain_neutaro.png",
+    "staking_asset_denom": "uneutaro",
+    "staking_asset_symbol": "NTMPI",
+    "lcd_endpoint": [
+        {
+            "provider": "Neutaro",
+            "url": "https://api3.neutaro.io:443/"
+        },
+        {
+            "provider": "Neutaro",
+            "url": "https://api2.neutaro.io:443/"
+        }
+    ]
+}
