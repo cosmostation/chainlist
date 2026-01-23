@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "fandomChain",
+    "chain_name": "fandomChain",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/fandom/resource/chain_fandom.png",
+    "staking_asset_denom": "ufandomChain",
+    "staking_asset_symbol": "FANDOMCHAIN",
+    "lcd_endpoint": [
+        {
+            "provider": "FandomChain",
+            "url": "https://api.fandomchain.com/"
+        }
+    ]
+}

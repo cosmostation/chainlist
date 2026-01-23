@@ -39,10 +39,6 @@
         {
             "provider": "P2P",
             "url": "https://tncnt-eu-wormchain-main-01.rpc.p2p.world/lcd/"
-        },
-        {
-            "provider": "ChainLayer",
-            "url": "https://wormchain-lcd.quickapi.com/"
         }
     ],
     "explorer" : {
