@@ -5,5 +5,10 @@
         "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/blockx/resource/chain_blockx.png",
     "staking_asset_denom": "abcx",
     "staking_asset_symbol": "BCX",
-    "lcd_endpoint": []
+    "lcd_endpoint": [
+        {
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+            "url": "https://blockx_mainnet_api.chain.whenmoonwhenlambo.money/"
+        }
+    ]
 }

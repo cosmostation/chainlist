@@ -1,33 +1,18 @@
 {
+    "chain_id_cosmos": "dyson-mainnet-01",
     "chain_name": "Dyson Protocol",
-    "cosmos_fee_info" : {
-        "base" : "0",
-        "rate" : [
-            "0.0002dys"
-        ],
-        "is_simulable" : true,
-        "simulated_gas_multiply" : 1.2,
-        "init_gas_limit" : 300000,
-        "fee_threshold" : ""
-    },
-    "grpc_endpoint" : [
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dyson-protocol/resource/chain_dyson-protocol.png",
+    "staking_asset_denom": "dys",
+    "staking_asset_symbol": "DYS",
+    "lcd_endpoint": [
         {
-            "provider": "lol",
-            "url": "dys-grpc.dyson.lol:443"
+            "provider": "dysonprotocol",
+            "url": "https://dys-api.dysonprotocol.com:443/"
         },
         {
             "provider": "cogwheel",
-            "url": "dyson-grpc.cogwheel.zone:443"
+            "url": "https://dyson-api.cogwheel.zone:443/"
         }
-    ],
-    "about" : {
-        "website" : "https://dysonprotocol.com/"
-    },
-    "forum": {
-    },
-    "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
-    }
+    ]
 }

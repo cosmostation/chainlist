@@ -41,15 +41,14 @@
             "url": "159.138.232.248:9090"
         }
     ],
-    "lcd_endpoint": [],
-    "about": {
-        "website": "https://cnho.io/",
-        "github": "https://github.com/alashooinc/ChainCNHO",
-        "coingecko": ""
-    },
-    "description": {
-
-        "en": "CNHO Stables"
-
-    }
+    "lcd_endpoint": [
+        {
+            "provider": "CNHO Stables",
+            "url": "https://api.cnho.io/"
+        },
+        {
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+            "url": "https://cnhostables_mainnet_api.chain.whenmoonwhenlambo.money/"
+        }
+    ]
 }
