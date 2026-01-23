@@ -48,18 +48,7 @@
         }
     ],
     "lcd_endpoint": [
-        {
-            "provider": "DivineRay",
-            "url": "https://rest-mainnet.divineray.ca/"
-        },
-        {
-            "provider": "DivineRay Org2",
-            "url": "https://rest-mainnet-node2.divineray.ca/"
-        },
-        {
-            "provider": "DivineRay Org 3",
-            "url": "https://rest-mainnet-node3.divineray.ca/"
-        }
+        
     ],
     "about": {
         "website": "https://divineray.ca/",

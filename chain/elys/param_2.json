@@ -42,12 +42,16 @@
             "url": "https://elys-api.polkachu.com/"
         },
         {
-            "provider": "Allnodes Nodes & Staking",
-            "url": "https://elys-rest.publicnode.com/"
+            "provider": "Inter Blockchain Services",
+            "url": "https://elys.ibs.team:443/api/"
         },
         {
-            "provider": "itrocket",
-            "url": "https://elys-mainnet-api.itrocket.net/"
+            "provider": "Pro-Nodes75",
+            "url": "https://api.elys.node75.org:443/"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.elys.nodestake.org/"
         }
     ],
     "explorer" : {

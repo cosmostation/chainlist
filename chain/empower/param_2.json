@@ -1,0 +1,26 @@
+{
+    "chain_id_cosmos": "empowerchain-1",
+    "chain_name": "EmpowerChain",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/empower/resource/chain_empower.png",
+    "staking_asset_denom": "umpwr",
+    "staking_asset_symbol": "MPWR",
+    "lcd_endpoint": [
+        {
+            "provider": "KonsorTech",
+            "url": "https://mainnet-empower-api.konsortech.xyz/"
+        },
+        {
+            "provider": "BlueStake 🚀",
+            "url": "https://empower-api.bluestake.net/"
+        },
+        {
+            "provider": "Stake Village",
+            "url": "https://empower.api.stakevillage.net/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://empw.api.m.stavr.tech/"
+        }
+    ]
+}

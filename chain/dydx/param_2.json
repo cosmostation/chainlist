@@ -57,20 +57,16 @@
             "url": "https://lcd-dydx.cosmostation.io/"
         },
         {
-            "provider": "PRO Delegators",
-            "url": "https://community.nuxian-node.ch:6797/dydx/crpc/"
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://dydx-mainnet-lcd.autostake.com:443/"
         },
         {
             "provider": "Polkachu",
             "url": "https://dydx-dao-api.polkachu.com/"
         },
         {
-            "provider": "Bware Labs",
-            "url": "https://dydx-mainnet-full-lcd.public.blastapi.io/"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://dydx-api.lavenderfive.com/"
+            "provider": "Kingnodes 👑",
+            "url": "https://dydx-rest.kingnodes.com:443/"
         }
     ],
     "explorer" : {

@@ -32,14 +32,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-emoney.cosmostation.io:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-emoney-ia.cosmosia.notional.ventures:443"
-        }
+    ],
+    "lcd_endpoint" : [
     ],
     "explorer" : {
         "name": "Atomscan",

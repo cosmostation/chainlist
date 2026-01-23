@@ -1,28 +1,18 @@
 {
+    "chain_id_cosmos": "mainnet-3",
     "chain_name": "Decentr",
-    "cosmos_fee_info" : {
-        "base" : "1",
-        "rate" : [
-            "0.025udec"
-        ],
-        "is_simulable" : true,
-        "simulated_gas_multiply" : 1.2,
-        "init_gas_limit" : 300000,
-        "fee_threshold" : ""
-    },
-    "grpc_endpoint" : [
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/decentr/resource/chain_decentr.png",
+    "staking_asset_denom": "udec",
+    "staking_asset_symbol": "DEC",
+    "lcd_endpoint": [
         {
-            "provider": "MMS",
-            "url": "grpc-decentr.mms.team:443"
+            "provider": "ChainTools",
+            "url": "https://api.decentr.chaintools.tech/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://decentr.api.m.stavr.tech/"
         }
-    ],
-    "about" : {
-    },
-    "forum": {
-    },
-    "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
-    }
+    ]
 }
