@@ -1,7 +1,7 @@
 {
     "chain_id_cosmos" : "bitbadges-1",
     "chain_name": "BitBadges",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/resource/bitbadgeslogo.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/resource/chain_bitbadges.png",
     "staking_asset_denom" : "ubadge",
     "staking_asset_symbol" : "BADGE",
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/asset/badge_logo.png",
@@ -32,6 +32,12 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [],
+    "lcd_endpoint" : [
+        {
+            "provider": "bitbadges",
+            "url": "https://lcd.bitbadges.io/"
+        }
+    ],
     "explorer" : {
         "name": "PingPub",
         "url": "https://explorer.bitbadges.io/",
