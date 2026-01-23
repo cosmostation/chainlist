@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "kudora_12000-1",
+    "chain_name": "Kudora",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kudora/resource/chain_kudora.png",
+    "staking_asset_denom": "kud",
+    "staking_asset_symbol": "KUD",
+    "lcd_endpoint": [
+        {
+            "provider": "Kudora Org",
+            "url": "https://api.kudora.org/"
+        }
+    ]
+}

@@ -47,16 +47,16 @@
             "url": "https://rest.kopi.money/"
         },
         {
-            "provider": "Cosmoscan",
-            "url": "https://kopi-rest.cosmoscan.com/"
-        },
-        {
             "provider": "Stakerhouse",
             "url": "https://kopi-rest.stakerhouse.com/"
         },
         {
-            "provider": "Moonbridge",
-            "url": "https://kopi-api.moonbridge.org/"
+            "provider": "Sychonix",
+            "url": "https://api-kopi.sychonix.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://kopi-api.polkachu.com/"
         },
         {
             "provider": "Bony",

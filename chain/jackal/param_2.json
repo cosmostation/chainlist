@@ -47,24 +47,28 @@
             "url": "https://api.jackalprotocol.com/"
         },
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://rest.lavenderfive.com:443/jackal/"
+            "provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
+            "url": "https://m-jackal.api.utsa.tech/"
         },
         {
             "provider": "🔥STAVR🔥",
             "url": "https://jkl.api.m.stavr.tech/"
         },
         {
-            "provider": "Nodeist",
-            "url": "https://api-jackal.nodeist.net/"
-        },
-        {
-            "provider": "Keplr",
-            "url": "https://lcd-jackal.keplr.app/"
-        },
-        {
             "provider": "Silent",
             "url": "https://api.jackal.silentvalidator.com/"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.jackal.nodestake.org/"
+        },
+        {
+            "provider": "Stakewolle",
+            "url": "https://public.stakewolle.com/cosmos/jackal/rest/"
+        },
+        {
+            "provider": "Kleomedes",
+            "url": "https://jackal-api.kleomedes.network/"
         }
     ],
     "explorer" : {

@@ -36,6 +36,10 @@
     ],
     "lcd_endpoint" : [
         {
+            "provider": "Polkachu",
+            "url": "https://kichain-api.polkachu.com/"
+        },
+        {
             "provider": "🔥STAVR🔥",
             "url": "https://kichain.api.m.stavr.tech/"
         }

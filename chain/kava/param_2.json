@@ -81,12 +81,8 @@
             "url": "https://kava-api.ibs.team/"
         },
         {
-            "provider": "Stakeflow",
-            "url": "https://api-kava-01.stakeflow.io/"
-        },
-        {
-            "provider": "Allnodes & Staking",
-            "url": "https://kava-rest.publicnode.com/"
+            "provider": "kava",
+            "url": "https://api.data.kava.io/"
         }
     ],
     "evm_rpc_endpoint" : [

@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "kiichain_1783-1",
+    "chain_name": "KiiChain",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/kii/resource/chain_kii.png",
+    "staking_asset_denom": "akii",
+    "staking_asset_symbol": "KII",
+    "lcd_endpoint": [
+        {
+            "provider": "Kiichain",
+            "url": "https://lcd.kiivalidator.com/"
+        }
+    ]
+}

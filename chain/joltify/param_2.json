@@ -33,6 +33,9 @@
             "url": "grpc.joltify.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        
+    ],
     "evm_rpc_endpoint" : [
         {
             "provider": "joltify",

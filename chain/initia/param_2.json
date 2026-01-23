@@ -34,19 +34,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc.initia.mainnet.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {
             "provider": "Initia Foundation",
             "url": "https://rest.initia.xyz/"
-        },
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd.initia.mainnet.cosmostation.io/"
         }
     ],
     "explorer" : {

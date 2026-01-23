@@ -49,8 +49,8 @@
             "url": "https://api-eu-1.kyve.network/"
         },
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://kyve-api.lavenderfive.com/"
+            "provider": "LiveRaveN",
+            "url": "https://kyve.api.liveraven.net/"
         },
         {
             "provider": "ecostake",
@@ -59,6 +59,10 @@
         {
             "provider": "Imperator.co",
             "url": "https://lcd-kyve.imperator.co/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://kyve.ibs.team:443/api/"
         }
     ],
     "explorer" : {
