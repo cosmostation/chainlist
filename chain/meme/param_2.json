@@ -1,25 +1,23 @@
 {
+    "chain_id_cosmos": "meme-1",
     "chain_name": "MEME",
-    "cosmos_fee_info" : {
-        "base" : "0",
-        "rate" : [
-            "0.025umeme"
-        ],
-        "is_simulable" : true,
-        "simulated_gas_multiply" : 1.2,
-        "init_gas_limit" : 300000,
-        "fee_threshold" : ""
-    },
-    "grpc_endpoint" : [
-    ],
-    "about" : {
-        
-    },
-    "forum": {
-    },
-    "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
-    }
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/meme/resource/chain_meme.png",
+    "staking_asset_denom": "umeme",
+    "staking_asset_symbol": "MEME",
+    "lcd_endpoint": [
+        {
+            "provider": "Polkachu",
+            "url": "https://meme-api.polkachu.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://meme.api.m.stavr.tech/"
+        },
+        {
+            "provider": "MEME Foundation",
+            "url": "https://api-meme-1.meme.sx/"
+        }
+    ]
 }
+

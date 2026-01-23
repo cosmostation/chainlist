@@ -34,32 +34,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "migaloo-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "cosmosrescue",
-            "url": "migaloo-grpc.cosmosrescue.com:9090"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Allnodes ⚡️ Nodes & Staking",
-            "url": "https://migaloo-rest.publicnode.com/"
-        },
-        {
-            "provider": "High Stakes 🇨🇭",
-            "url": "https://migaloo-api.highstakes.ch/"
-        },
-        {
-            "provider": "Kleomedes",
-            "url": "https://migaloo-api.kleomedes.network:443/"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "https://migaloo-api.polkachu.com:443/"
-        }
     ],
     "explorer" : {
         "name": "Migaloo Explorers Guru",

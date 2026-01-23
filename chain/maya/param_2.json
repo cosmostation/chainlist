@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "mayachain-mainnet-v1",
+    "chain_name": "Maya Protocol",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/maya/resource/chain_maya.png",
+    "staking_asset_denom": "cacao",
+    "staking_asset_symbol": "CACAO",
+    "lcd_endpoint": [
+        {
+            "provider": "mayanode",
+            "url": "https://mayanode.mayachain.info/"
+        }
+    ]
+}

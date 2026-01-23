@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "mtgbp-1",
+    "chain_name": "mtgbp",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mtgbp/resource/chain_mtgbp.png",
+    "staking_asset_denom": "umtgbp",
+    "staking_asset_symbol": "MTGBP",
+    "lcd_endpoint": [
+        {
+            "provider": "mtgbp",
+            "url": "https://lcd.mtgbp.com/"
+        }
+    ]
+}
