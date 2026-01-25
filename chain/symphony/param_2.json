@@ -1,0 +1,18 @@
+{
+    "chain_id_cosmos": "symphony-1",
+    "chain_name": "Symphony",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/symphony/resource/chain_symphony.png",
+    "staking_asset_denom": "note",
+    "staking_asset_symbol": "MLD",
+    "lcd_endpoint": [
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.symphony.citizenweb3.com/"
+        },
+        {
+            "provider": "Vinjan.Inc",
+            "url": "https://api-m.symphony.vinjan-inc.com/"
+        }
+    ]
+}

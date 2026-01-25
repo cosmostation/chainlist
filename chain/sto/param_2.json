@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "stoc",
+    "chain_name": "STO Chain",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sto/resource/chain_sto.png",
+    "staking_asset_denom": "ustoc",
+    "staking_asset_symbol": "STOC",
+    "lcd_endpoint": [
+        {
+            "provider": "STO Chain",
+            "url": "https://api-stoc-mainnet.stochainscan.io/"
+        }
+    ]
+}
