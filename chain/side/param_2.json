@@ -1,0 +1,9 @@
+{
+    "chain_id_cosmos": "sidechain-1",
+    "chain_name": "Side Chain",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/side/resource/chain_side.png",
+    "staking_asset_denom": "uside",
+    "staking_asset_symbol": "SIDE",
+    "lcd_endpoint": []
+}

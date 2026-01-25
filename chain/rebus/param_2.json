@@ -1,0 +1,18 @@
+{
+    "chain_id_cosmos": "reb_1111-1",
+    "chain_name": "Rebus",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/rebus/resource/chain_rebus.png",
+    "staking_asset_denom": "arebus",
+    "staking_asset_symbol": "REBUS",
+    "lcd_endpoint": [
+        {
+            "provider": "LiveRaveN",
+            "url": "https://rebus.api.liveraven.net/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://rebus.api.m.stavr.tech/"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "sixnet",
+    "chain_name": "SIX Protocol",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/six/resource/chain_six.png",
+    "staking_asset_denom": "usix",
+    "staking_asset_symbol": "SIX",
+    "lcd_endpoint": [
+        {
+            "provider": "Sixnet",
+            "url": "https://sixnet-api.sixprotocol.net"
+        }
+    ]
+}
