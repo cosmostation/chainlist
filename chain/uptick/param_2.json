@@ -1,0 +1,23 @@
+{
+    "chain_id_cosmos": "uptick_117-1",
+    "chain_name": "Uptick",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/uptick/resource/chain_uptick.png",
+    "staking_asset_denom": "auptick",
+    "staking_asset_symbol": "UPTICK",
+    "lcd_endpoint": [
+        {
+            "provider": "Citizen Web3",
+            "url": "https://api.uptick.citizenweb3.com/"
+        },
+        {
+            "provider": "LiveRaveN",
+            "url": "https://uptick.api.liveraven.net/"
+        },
+        {
+            "provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
+            "url": "https://m-uptick.api.utsa.tech/"
+        }
+    ]
+}
+
