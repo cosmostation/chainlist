@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "taketitan-1",
+    "chain_name": "TakeTitan",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/taketitan/resource/chain_taketitan.png",
+    "staking_asset_denom": "utitan",
+    "staking_asset_symbol": "TITAN",
+    "lcd_endpoint": [
+        {
+            "provider": "taketitan",
+            "url": "https://lcd.taketitan.com/"
+        }
+    ]
+}

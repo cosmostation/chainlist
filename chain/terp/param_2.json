@@ -1,0 +1,18 @@
+{
+    "chain_id_cosmos": "morocco-1",
+    "chain_name": "Terp-Network",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terp/resource/chain_terp.png",
+    "staking_asset_denom": "uterp",
+    "staking_asset_symbol": "TERP",
+    "lcd_endpoint": [
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://terp.api.m.stavr.tech/"
+        },
+        {
+            "provider": "itrocket.net",
+            "url": "https://terp-mainnet-api.itrocket.net:443/"
+        }
+    ]
+}
