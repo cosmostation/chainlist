@@ -1,0 +1,15 @@
+{
+    "chain_id_cosmos": "xarchain",
+    "chain_name": "XarChain Coral",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xarchain/resource/chain_xarchain.png",
+    "staking_asset_denom": "stxar",
+    "staking_asset_symbol": "STXAR",
+    "lcd_endpoint": [
+        {
+            "provider": "arcana",
+            "url": "https://cosmos01-testnet.arcana.network"
+        }
+    ]
+}
+
