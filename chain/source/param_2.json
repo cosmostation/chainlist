@@ -60,28 +60,16 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "NodeStake",
-            "url": "https://api.source.nodestake.top/"
-        },
-        {
-            "provider": "BccNodes",
-            "url": "https://source.lcd.bccnodes.com/"
-        },
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://source.api.m.stavr.tech/"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://source-mainnet-lcd.autostake.com:443/"
+            "provider": "TC Network",
+            "url": "https://rest.source.tcnetwork.io/"
         },
         {
             "provider": "BlueStake 🚀",
             "url": "https://source-api.bluestake.net/"
         },
         {
-            "provider": "StakeUp",
-            "url": "https://api-cosmoshub.cosmos-spaces.cloud/"
+            "provider": "🔥STAVR🔥",
+            "url": "https://source.api.m.stavr.tech/"
         }
     ],
     "explorer" : {
