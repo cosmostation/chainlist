@@ -32,19 +32,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Kjnodes",
-            "url": "paloma.grpc.kjnodes.com:443"
-        }
     ],
     "lcd_endpoint" : [
         {
             "provider": "nodesguru",
             "url": "https://api-1.paloma.nodes.guru/"
-        },
-        {
-            "provider": "Kjnodes",
-            "url": "https://paloma.api.kjnodes.com/"
         }
     ],
     "explorer" : {

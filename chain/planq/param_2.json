@@ -70,31 +70,19 @@
             "url": "https://planq.api.m.stavr.tech/"
         },
         {
-            "provider": "Indonode",
-            "url": "https://api.planq.indonode.net/"
+            "provider": "KonsorTech",
+            "url": "https://mainnet-planq-api.konsortech.xyz/"
         },
         {
             "provider": "Roomit",
             "url": "https://api.planq.roomit.xyz/"
         },
         {
-            "provider": "Safe Block",
-            "url": "https://api.planq.safeblock.space/"
+            "provider": "NodeStake",
+            "url": "https://api.planq.nodestake.org/"
         },
         {
-            "provider": "skynodejs",
-            "url": "https://planq.api.skynodejs.net/"
-        },
-        {
-            "provider": "StakeTown",
-            "url": "https://planq-api.stake-town.com/"
-        },
-        {
-            "provider": "Blockval",
-            "url": "https://api-planq.blockval.io/"
-        },
-        {
-            "provider": "Planq Network",
+            "provider": "planq.network",
             "url": "https://rest.planq.network/"
         }
     ],

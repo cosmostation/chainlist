@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "qfs-1",
+    "chain_name": "Quantum Financial Systems",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/quantum/resource/chain_quantum.png",
+    "staking_asset_denom": "uqfs",
+    "staking_asset_symbol": "QFS",
+    "lcd_endpoint": [
+        {
+            "provider": "qfs",
+            "url": "https://lcd.qfsone.com/"
+        }
+    ]
+}

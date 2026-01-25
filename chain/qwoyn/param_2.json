@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "qwoyn-1",
+    "chain_name": "Qwoyn",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/qwoyn/resource/chain_qwoyn.png",
+    "staking_asset_denom": "uqwoyn",
+    "staking_asset_symbol": "QWOYN",
+    "lcd_endpoint": [
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://qwoyn.api.m.stavr.tech/"
+        }
+    ]
+}

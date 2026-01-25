@@ -1,0 +1,14 @@
+{
+    "chain_id_cosmos": "centauri-1",
+    "chain_name": "Picasso",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/picasso/resource/chain_picasso.png",
+    "staking_asset_denom": "ppica",
+    "staking_asset_symbol": "PICA",
+    "lcd_endpoint": [
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://composable.api.m.stavr.tech/"
+        }
+    ]
+}
