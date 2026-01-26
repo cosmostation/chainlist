@@ -4274,6 +4274,22 @@
             "discord": "https://discord.com/invite/asterdefi"
         },
         "type": "DEX"
+    },
+    {
+        "id": 242,
+        "name": "IotaNames",
+        "description": "IOTA Names is an on-chain naming service on the IOTA mainnet that allows users to register human-readable names and link them to wallet addresses.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/iotanames.png",
+        "link": "https://mainnet.iotanames.com/",
+        "chains": [
+            "iota"
+        ],
+        "socials": {
+            "github": "https://github.com/iotaledger/iota-names",
+            "twitter": "https://x.com/iotanames",
+            "discord": "https://discord.iota.org/"
+        },
+        "type": "DashBoard"
     }
 ]
  
