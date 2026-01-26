@@ -34,40 +34,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-stafi.cosmostation.io:443"
-        },
-        {
-            "provider": "StaFiHub",
-            "url": "public-grpc-rpc1.stafihub.io:443"
-        },
-        {
-            "provider": "StaFiHub",
-            "url": "public-grpc-rpc2.stafihub.io:443"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "grpc.stafihub.nodestake.top:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-stafi.cosmostation.io/"
-        },
-        {
-            "provider": "StaFiHub",
-            "url": "https://public-rest-rpc1.stafihub.io/"
-        },
-        {
-            "provider": "StaFiHub",
-            "url": "https://public-rest-rpc2.stafihub.io/"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "https://api.stafihub.nodestake.top/"
-        }
     ],
     "explorer" : {
         "name": "Mintscan",

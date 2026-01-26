@@ -34,20 +34,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Stake Village",
-            "url": "selfchain-mainnet.grpc.stakevillage.net:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Self Chain",
-            "url": "https://api.selfchain.io/"
-        },
-        {
-            "provider": "Stake Village",
-            "url": "https://selfchain-mainnet.api.stakevillage.net/"
-        }
     ],
     "explorer" : {
         "name": "Selfchain Explorer",
