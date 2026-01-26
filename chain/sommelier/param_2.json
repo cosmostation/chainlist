@@ -32,16 +32,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "sommelier-grpc.lavenderfive.com:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "PUPMØS",
-            "url": "https://api-sommelier.pupmos.network/"
-        },
         {
             "provider": "Polkachu",
             "url": "https://sommelier-api.polkachu.com/"
@@ -49,10 +41,6 @@
         {
             "provider": "🔥STAVR🔥",
             "url": "https://som.api.m.stavr.tech/"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://sommelier-api.lavenderfive.com/"
         }
     ],
     "explorer" : {
