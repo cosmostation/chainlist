@@ -38,7 +38,7 @@
     "lcd_endpoint" : [
         {
             "provider": "P2P",
-            "url": "https://tncnt-eu-wormchain-main-01.rpc.p2p.world/lcd/"
+            "url": "http://wormchain-mainnet-1-full-rest.tm.p2p.org/"
         }
     ],
     "explorer" : {

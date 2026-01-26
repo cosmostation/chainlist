@@ -1,26 +1,18 @@
 {
-    "chain_name": "sifchain",
-    "cosmos_fee_info" : {
-        "base" : "0",
-        "rate" : [
-            "0.0rowan"
-        ],
-        "is_simulable" : true,
-        "simulated_gas_multiply" : 1.5,
-        "fee_threshold" : ""
-    },
-    "grpc_endpoint" : [
-    ],
-    "about" : {
-        "website" : "",
-        "blog" : "",
-        "github" : "",
-        "twitter" : "",
-        "coingecko" : ""
-    },
-    "description" : {
-        "ko" : "",
-        "en" : "",
-        "ja" : ""
-    }
+    "chain_id_cosmos": "sifchain-1",
+    "chain_name": "Sifchain",
+    "chain_image":
+        "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sifchain/resource/chain_sif.png",
+    "staking_asset_denom": "rowan",
+    "staking_asset_symbol": "ROWAN",
+    "lcd_endpoint": [
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://sifchain.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://sifchain-api.polkachu.com/"
+        },
+    ]
 }
