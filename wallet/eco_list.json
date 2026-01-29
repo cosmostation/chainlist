@@ -4290,6 +4290,22 @@
             "discord": "https://discord.iota.org/"
         },
         "type": "DashBoard"
+    },
+    {
+        "id": 243,
+        "name": "SuiNames",
+        "description": "Sui Names is an on-chain naming service on the Sui mainnet that allows users to register human-readable names and link them to wallet addresses.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/suinames.png",
+        "link": "https://suins.io/",
+        "chains": [
+            "sui"
+        ],
+        "socials": {
+            "github": "https://github.com/SuiNSdapp",
+            "twitter": "https://x.com/suinsdapp",
+            "discord": "https://discord.com/invite/69te6EwCxN"
+        },
+        "type": "DashBoard"
     }
 ]
  
