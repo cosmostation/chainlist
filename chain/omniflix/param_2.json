@@ -9,7 +9,7 @@
     "bech_validator_prefix" : "omniflixvaloper",
     "origin_genesis_time" : "2022-02-22T07:00:00Z",
     "api_name" : "omniflix",
-    "is_support_mobile_wallet": true,
+    "is_support_mobile_wallet": false,
     "is_support_extension_wallet": false,
     "chain_type": [
         "cosmos"
@@ -31,40 +31,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-omniflix.cosmostation.io:443"
-        },
-        {
-            "provider": "kingnodes",
-            "url": "grpc-omniflix.kingnodes.com:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-omniflixhub-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "omniflixhub-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "MZONDER",
-            "url": "grpc-omniflix.mzonder.com:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-omniflix.cosmostation.io/"
-        },
-        {
-            "provider": "Daksha Validator",
-            "url": "https://omniflix-api.dakshavalidator.in/"
-        },
-        {
-            "provider": "silent",
-            "url": "https://api.omniflix.silentvalidator.com/"
-        }
     ],
     "explorer" : {
         "name": "Explorers Guru",
