@@ -22,6 +22,14 @@
         {
             "provider": "Iota",
             "url": "https://api.mainnet.iota.cafe"
+        },
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/iota_mainnet"
+        },
+        {
+            "provider": "Monochain",
+            "url": "https://rpc.mainnet.iota.monochain.p2p.org"
         }
     ],
     "explorer" : {
