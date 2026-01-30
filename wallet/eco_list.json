@@ -4306,6 +4306,39 @@
             "discord": "https://discord.com/invite/69te6EwCxN"
         },
         "type": "DashBoard"
+    },
+    {
+        "id": 244,
+        "name": "AptosNames",
+        "description": "Aptos Names is a naming service for the Aptos ecosystem that lets users replace long wallet addresses with easy-to-read .apt domain names.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/aptosnames.png",
+        "link": "https://www.aptosnames.com/",
+        "chains": [
+            "aptos"
+        ],
+        "socials": {
+            "github": "https://github.com/aptos-labs",
+            "twitter": "https://x.com/aptoslabs/",
+            "discord": "https://discord.com/invite/aptosnames"
+        },
+        "type": "DashBoard"
+    },
+    {
+        "id": 245,
+        "name": "sns(Solana Name Service)",
+        "description": "SNS.ID is a decentralized naming service built on Solana that lets users register human-readable .sol and .sns domain names as crypto addresses.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/sns.png",
+        "link": "https://www.sns.id/",
+        "chains": [
+            "solana"
+        ],
+        "socials": {
+            "github": "https://github.com/SolanaNameService",
+            "twitter": "https://x.com/sns",
+            "telegram": "https://t.me/snsdotsol",
+            "discord": "https://discord.com/invite/sns-778660171265474572"
+        },
+        "type": "DashBoard"
     }
 ]
  
