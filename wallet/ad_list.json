@@ -17,6 +17,21 @@
             "title": "$OM -> $MANTRA Upgrade",
             "view_detail": "Learn More",
             "color": "#F835FF"
+        },
+        {
+            "id": "2026-01-20-003",
+            "priority": 1,
+            "startAt": "2026-01-20T00:00:00Z",
+            "endAt": "2026-03-02T00:00:00Z",
+            "images": {
+                "extension":"",
+                "mobile":
+                    "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/ad-resource/mobile-2026-01-20-001.png"
+            },
+            "linkUrl":"",
+            "title": "Drop",
+            "view_detail": "",
+            "color": ""
         }
     ]
 }
