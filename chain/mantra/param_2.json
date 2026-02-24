@@ -1,10 +1,10 @@
 {
     "chain_id_cosmos" : "mantra-1",
     "chain_id_evm" : "0x1700",
-    "chain_name": "Mantra",
+    "chain_name": "MANTRA",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/resource/chain_mantra.png",
-    "staking_asset_denom" : "uom",
-    "staking_asset_symbol" : "OM",
+    "staking_asset_denom" : "amantra",
+    "staking_asset_symbol" : "MANTRA",
     "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/mantra/asset/om.png",
     "bech_account_prefix" : "mantra",
     "bech_validator_prefix" : "mantravaloper",
@@ -36,9 +36,9 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "0.01uom",
-            "0.02uom",
-            "0.03uom"
+            "40000000000amantra",
+            "80000000000amantra",
+            "120000000000amantra"
         ],
         "is_feemarket": true,
         "is_simulable" : true,
