@@ -34,6 +34,23 @@
       "title": "Notice for $NIL Holder",
       "view_detail": "Learn More",
       "color": "#1D78FF"
+    },
+    {
+      "id": "2026-03-04-001",
+      "priority": 1,
+      "startAt": "2026-03-04T00:00:00Z",
+      "endAt": "2026-03-05T22:00:00Z",
+      "images": {
+                "extension":
+                    "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/ad-resource/extension-2026-03-04-001.png",
+                "mobile":
+                    "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/ad-resource/mobile-2026-03-04-001.webp"
+      },
+            "linkUrl":
+                "https://tx.org/",
+      "title": "Coreum is now $TX",
+      "view_detail": "Learn More",
+      "color": "#B1FC03"
     }
   ]
 }
