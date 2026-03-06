@@ -1,10 +1,10 @@
 {
     "chain_id_cosmos" : "coreum-mainnet-1",
-    "chain_name": "Coreum",
+    "chain_name": "TX",
     "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/resource/chain_coreum.png",
     "staking_asset_denom" : "ucore",
-    "staking_asset_symbol" : "COREUM",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/core.png",
+    "staking_asset_symbol" : "TX",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/tx.png",
     "bech_account_prefix" : "core",
     "bech_validator_prefix" : "corevaloper",
     "origin_genesis_time" : "2023-03-12T00:00:00Z",
@@ -96,11 +96,11 @@
         "github" : "https://github.com/CoreumFoundation",
         "blog" : "https://www.coreum.com/community#press-&-media",
         "twitter" : "https://twitter.com/CoreumOfficial",
-        "coingecko" : "https://www.coingecko.com/en/coins/coreum"
+        "coingecko" : "https://www.coingecko.com/en/coins/tx"
     },
     "description" : {
-        "ko" : "Coreum은 ISO20022 기준에 부합하는 기관급 레이어-1 블록체인으로, 미래의 탈중앙화 어플리케이션들을 위한 핵심 인프라를 제공합니다.",
-        "en" : "Coreum is an enterprise-grade L1 blockchain to serve as a core infrastructure of future decentralized applications.",
-        "ja" : "Coreumは、将来の分散アプリケーションのコアインフラストラクチャとして機能するエンタープライズクラスのL1ブロックチェーンです。"
+        "ko" : "TX는 TX 블록체인의 네이티브 유틸리티 토큰으로, 네트워크 내에서 거래 수수료 지불, 스테이킹, 거버넌스에 사용됩니다. 이 토큰은 모든 온체인 활동을 구동하며, Bonded Proof of Stake 메커니즘을 통해 생태계의 보안을 유지합니다.",
+        "en" : "TX is the native utility token of the TX blockchain, used for transaction fees, staking, and governance within the network. It powers all on-chain activities and secures the ecosystem through its Bonded Proof of Stake mechanism.",
+        "ja" : "TXはTXブロックチェーンのネイティブユーティリティトークンであり、ネットワーク内での取引手数料の支払い、ステーキング、ガバナンスに使用されます。 TXはすべてのオンチェーン活動を支え、Bonded Proof of Stake メカニズムによってエコシステムのセキュリティを維持します。"
     }
 }

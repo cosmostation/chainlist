@@ -2,13 +2,13 @@
     {
         "type": "native",
         "denom": "ucore",
-        "name" : "Coreum",
-        "symbol": "COREUM",
-        "description": "Coreum Staking Coin",
+        "name" : "TX",
+        "symbol": "TX",
+        "description": "TX Staking Coin",
         "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/core.png",
-        "coinGeckoId": "coreum",
-        "color": "#16B87B"
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/coreum/asset/tx.png",
+        "coinGeckoId": "tx",
+        "color": "#89C400"
     },
     {
         "type": "native",
