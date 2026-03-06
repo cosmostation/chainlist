@@ -42,6 +42,10 @@
     ],
     "lcd_endpoint" : [
         {
+            "provider": "Foundation",
+            "url": "https://api.zigchain.com/"
+        },
+        {
             "provider": "Numia",
             "url": "https://public-zigchain-lcd.numia.xyz/"
         }
