@@ -10,6 +10,7 @@
     "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/avax.png",
     "origin_genesis_time" : "2022-10-04T15:04:31Z",
     "api_name" : "avalanche",
+    "go_fast_enabled" : true,
     "is_support_mobile_wallet" : true,
     "is_support_moblie_dapp" : true,
     "is_support_extension_wallet" : true,

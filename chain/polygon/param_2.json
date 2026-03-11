@@ -9,6 +9,7 @@
     "gas_asset_symbol" : "POL",
     "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/matic.png",
     "origin_genesis_time" : "2020-05-30T04:30:00Z",
+    "go_fast_enabled" : true,
     "is_support_mobile_wallet": true,
     "is_support_moblie_dapp" : true,
     "is_support_extension_wallet": true,
