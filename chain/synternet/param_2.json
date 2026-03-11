@@ -10,7 +10,7 @@
     "origin_genesis_time" : "2023-12-04T14:24:58Z",
     "api_name": "synternet",
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": true,
+    "is_support_extension_wallet": false,
     "chain_type": [
         "cosmos"
     ],
