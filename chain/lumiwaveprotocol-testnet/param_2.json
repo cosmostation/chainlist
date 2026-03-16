@@ -1,0 +1,17 @@
+{
+  "chainId": "lumiwaveprotocol-testnet",
+  "chainName": "lumiwaveprotocol-testnet",
+  "rpc_endpoint": [
+    {
+      "provider": "pdx-validator",
+      "url": "https://lwp-testnet.lumiwavelab.com/tendermint"
+    }
+  ],
+  "rest_endpoint": [
+    {
+      "provider": "pdx-validator",
+      "url": "https://lwp-testnet.lumiwavelab.com"
+    }
+  ],
+  "grpc_endpoint": []
+}
