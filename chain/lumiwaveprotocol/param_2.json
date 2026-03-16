@@ -1,17 +1,62 @@
 {
-  "chainId": "lumiwaveprotocol",
-  "chainName": "lumiwaveprotocol",
-  "rpc_endpoint": [
-    {
-      "provider": "lwp-mainnet",
-      "url": "https://lwp-mainnet-rpc.lumiwavelab.com"
-    }
+  "chain_id_cosmos": "lumiwaveprotocol",
+  "chainName": "LumiWave Protocol",
+  "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lumiwaveprotocol/resource/chain_lumiwaveprotocol.png",
+  "staking_asset_denom" : "ulwp",
+  "staking_asset_symbol" : "LWP",
+  "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lumiwaveprotocol/asset/lwp.png",
+  "bech_account_prefix" : "lumi",
+  "bech_validator_prefix" : "lumivaloper",
+  "origin_genesis_time" : "2026-03-06T09:37:44Z",
+  "api_name" : "lumiwaveprotocol",
+  "is_support_mobile_wallet": true,
+  "is_support_extension_wallet": false,
+  "chain_type": [
+      "cosmos"
   ],
-  "rest_endpoint": [
+  "account_type" : [
+      {
+          "hd_path": "m/44'/118'/0'/0/X",
+          "pubkey_style": "secp256k1",
+          "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+      }
+  ],
+  "cosmos_fee_info" : {
+      "base" : "0",
+      "rate" : [
+          "0ulwp"
+      ],
+      "is_simulable" : true,
+      "simulated_gas_multiply" : 1.2,
+      "init_gas_limit" : 300000,
+      "fee_threshold" : ""
+  },
+  "lcd_endpoint": [
     {
       "provider": "lwp-mainnet",
       "url": "https://lwp-mainnet-api.lumiwavelab.com"
     }
   ],
-  "grpc_endpoint": []
+  "grpc_endpoint": [],
+  "explorer" : {
+      "name": "Ping.pub",
+      "url": "https://ping.pub/LumiWave%20Protocol",
+      "account": "https://ping.pub/LumiWave%20Protocol/account/${address}",
+      "tx": "https://ping.pub/LumiWave%20Protocol/tx/${hash}",
+      "proposal": "https://ping.pub/LumiWave%20Protocol/gov/${id}"
+  },
+  "about" : {
+      "website" : "https://lumiwavelab.com/",
+      "docs": "https://lumiwave-inno.gitbook.io/inno-platform-tip-and-guide",
+      "github" : "https://github.com/LumiWave",
+      "blog" : "",
+      "medium": "https://medium.com/lumiwave",
+      "twitter" : "twitter.com/LumiWave_Lab",
+      "coingecko" : ""
+  },
+  "description" : {
+      "ko" : "LumiWave Protocol은 분산형 인프라와 디지털 자산 생태계를 지원하기 위해 설계된 블록체인 네트워크입니다. 확장성과 상호운용성을 중심으로 다양한 온체인 애플리케이션과 서비스 구축을 가능하게 하는 것을 목표로 합니다.",
+      "en" : "LumiWave Protocol is a blockchain network designed to support decentralized infrastructure and digital asset ecosystems. It aims to enable the development of diverse on-chain applications and services with a focus on scalability",
+      "ja" : "LumiWave Protocolは、分散型インフラとデジタル資産エコシステムを支えるために設計されたブロックチェーンネットワークです。 スケーラビリティと相互運用性を重視し、さまざまなオンチェーンアプリケーションやサービスの構築を可能にすることを目的としています。"
+  }
 }

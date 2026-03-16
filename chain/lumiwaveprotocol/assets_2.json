@@ -1,13 +1,12 @@
 [
   {
-    "type": "staking",
+    "type": "native",
     "denom": "ulwp",
     "name": "LumiWave Protocol",
     "symbol": "LWP",
     "description": "The native staking token of LumiWave Protocol",
     "decimals": 6,
-    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lumiwaveprotocol/asset/lumiwave.png",
-    "coinGeckoId": "",
-    "default": true
+    "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/lumiwaveprotocol/asset/lwp.png",
+    "coinGeckoId": ""
   }
 ]
