@@ -1,0 +1,17 @@
+{
+  "chainId": "lumiwaveprotocol",
+  "chainName": "lumiwaveprotocol",
+  "rpc_endpoint": [
+    {
+      "provider": "lwp-mainnet",
+      "url": "https://lwp-mainnet-rpc.lumiwavelab.com"
+    }
+  ],
+  "rest_endpoint": [
+    {
+      "provider": "lwp-mainnet",
+      "url": "https://lwp-mainnet-api.lumiwavelab.com"
+    }
+  ],
+  "grpc_endpoint": []
+}
