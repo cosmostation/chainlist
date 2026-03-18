@@ -1690,16 +1690,16 @@
                 "chain": "orai-chain",
                 "denom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton"
             }
-        },
-        {
-    "type": "native",
-    "denom": "factory/cosmos1fec7fxmxrz00m6vu80vcjf48ppjq35l0ktx4et/fomog",
-    "name": "FOMOG",
-    "symbol": "FOMOG",
-    "description": "The Netting Utility for the Interchain. Rewards for commercial settlement and UCC Article 12 compliance.",
-    "decimals": 8,
-    "image": "https://assets.cdn.filesafe.space/5ya1nbDzQTewNPkBCOeE/media/69b80683c62585d077c1d368.png",
-    "coinGeckoId": ""
         }
+    },
+    {
+        "type": "native",
+        "denom": "factory/cosmos1fec7fxmxrz00m6vu80vcjf48ppjq35l0ktx4et/fomog",
+        "name": "FOMOG",
+        "symbol": "FOMOG",
+        "description": "The Netting Utility for the Interchain. Rewards for commercial settlement and UCC Article 12 compliance.",
+        "decimals": 8,
+        "image": "https://assets.cdn.filesafe.space/5ya1nbDzQTewNPkBCOeE/media/69b80683c62585d077c1d368.png",
+        "coinGeckoId": ""
     }
 ]
