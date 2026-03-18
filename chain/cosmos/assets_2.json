@@ -1533,13 +1533,16 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nillion/asset/nil.png",
         "coinGeckoId": "nillion",
         "ibc_info" : {
-            "path": "ethereum>cosmos",
+            "path": "nillion>cosmos",
+            "client": {
+                "channel": "channel-1559",
+                "port": "transfer"
+            },
             "counterparty": {
-                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
-                "channel": "cosmoshub-0",
+                "channel": "channel-4",
                 "port": "transfer",
-                "chain": "ethereum",
-                "denom": "0x7cf9a80db3b29ee8efe3710aadb7b95270572d47"
+                "chain": "nillion",
+                "denom": "unil"
             }
         }
     },
