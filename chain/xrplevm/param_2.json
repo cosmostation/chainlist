@@ -61,8 +61,12 @@
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc.evm.xrplevm.mainnet.cosmostation.io"
+            "provider": "XrplEvm",
+            "url": "https://rpc.xrplevm.org"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://xrpl.drpc.org"
         }
     ],
     "explorer" : {
