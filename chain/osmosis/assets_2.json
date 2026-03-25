@@ -11358,4 +11358,15 @@
             }
         }
     }
+,
+    {
+      "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/ninedollers",
+      "type": "sdk.coin",
+      "decimal": 6,
+      "symbol": "NINEDOLLERS",
+      "display": "NINEDOLLERS",
+      "description": "The Ninedollers Token on Osmosis",
+      "coinGeckoId": "",
+      "image": "https://beige-wonderful-locust-140.mypinata.cloud/ipfs/bafkreigm7hempeh62h7pnazhrbum5slis4axql3kssubybhjejbrwb2bfq"
+    }
 ]
