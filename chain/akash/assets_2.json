@@ -11,6 +11,17 @@
         "color": "#C71E10"
     },
     {
+        "type": "native",
+        "denom": "uact",
+        "name" : "Akash Compute Token",
+        "symbol": "ACT",
+        "description": "Akash Compute Token",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
+        "coinGeckoId": "usd-coin",
+        "color": "#C71E10"
+    },
+    {
         "type": "ibc",
         "denom": "ibc/2E5D0AC026AC1AFA65A23023BA4F24BB8DDF94F118EDC0BAD6F625BFC557CDED",
         "name" : "Atom",
