@@ -41,35 +41,19 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-agoric.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-agoric.cosmostation.io/"
+            "provider": "Polkachu",
+            "url": "https://agoric-api.polkachu.com/"
         },
         {
             "provider": "Agoric",
             "url": "https://main.api.agoric.net/"
         },
         {
-            "provider": "Polkachu",
-            "url": "https://agoric-api.polkachu.com/"
-        },
-        {
             "provider": "Kjnodes",
             "url": "https://agoric.api.kjnodes.com/"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://agoric-mainnet-lcd.autostake.com/"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "https://api-agoric-01.stakeflow.io/"
         }
     ],
     "explorer" : {

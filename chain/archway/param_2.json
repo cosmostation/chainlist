@@ -37,58 +37,22 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-archway.cosmostation.io:443"
-        },
-        {
             "provider": "Archway Foundation",
             "url": "grpc.mainnet.archway.io:443"
-        },
-        {
-            "provider": "StakeUp",
-            "url": "grpc.archway.stakeup.tech:443"
-        },
-        {
-            "provider": "openbitlab",
-            "url": "archway-grpc.openbitlab.com:443"
-        },
-        {
-            "provider": "Luganodes",
-            "url": "grpc.archway.lgns.net:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "archway-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-archway.cosmostation.io/"
+            "provider": "Archway Foundation",
+            "url": "https://api.mainnet.archway.io/"
         },
         {
-            "provider": "Silk Nodes",
-            "url": "https://archway.api.silknodes.io/"
+            "provider": "Nodes.Guru",
+            "url": "https://api-1.archway.nodes.guru/"
         },
         {
-            "provider": "w3coins",
-            "url": "https://archway-api.w3coins.io/"
-        },
-        {
-            "provider": "kjnodes",
-            "url": "https://archway.api.kjnodes.com/"
-        },
-        {
-            "provider": "cryptech",
-            "url": "https://api-archway.cryptech.com.ua/"
-        },
-        {
-            "provider": "WhisperNode 🤐",
-            "url": "https://lcd-archway.whispernode.com/"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "https://archway-api.chainroot.io/"
+            "provider": "MZONDER",
+            "url": "https://api-archway.mzonder.com/"
         }
     ],
     "explorer" : {

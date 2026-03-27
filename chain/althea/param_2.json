@@ -43,19 +43,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-althea.cosmostation.io:443"
-        },
-        {
             "provider": "Citizen Web3",
             "url": "grpc.althea.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-althea.cosmostation.io/"
-        },
         {
             "provider": "Chandra Station",
             "url": "https://nodes.chandrastation.com/api/althea/"
@@ -65,10 +57,6 @@
             "url": "https://althea.api.m.stavr.tech/"
         },
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://althea-api.lavenderfive.com/"
-        },
-        {
             "provider": "Citizen Web3",
             "url": "https://api.althea.citizenweb3.com/"
         }
@@ -76,7 +64,7 @@
     "evm_rpc_endpoint" : [
         {
             "provider": "Cosmostation",
-            "url": "https://rpc-althea-evm.cosmostation.io"
+            "url": "https://rpc.althea.zone"
         }
     ],
     "explorer" : {
