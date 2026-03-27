@@ -10,7 +10,7 @@
     "origin_genesis_time" : "2025-02-12T17:00:00Z",
     "api_name" : "nillion",
     "is_support_mintscan": false,
-    "is_support_mobile_wallet": true,
+    "is_support_mobile_wallet": false,
     "is_support_extension_wallet": false,
     "is_support_moblie_dapp": true,
     "chain_type": [
@@ -34,23 +34,15 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-nillion.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-nillion.cosmostation.io/"
-        }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/nillion/",
-        "account": "https://www.mintscan.io/nillion/address/${address}",
-        "tx": "https://www.mintscan.io/nillion/tx/${hash}",
-        "proposal": "https://www.mintscan.io/nillion/proposals/${id}"
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
     },
     "about" : {
         "website" : "https://nillion.com/",

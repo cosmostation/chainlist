@@ -4341,24 +4341,6 @@
         "type": "DashBoard"
     },
     {
-        "id": 246,
-        "name": "Nillion Bridge",
-        "description": "Bridge assets from Nilchain to Ethereum",
-        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/nillionbridge.png",
-        "link": "https://migrate.nillion.com/",
-        "chains": [
-            "nillion",
-            "ethereum"
-        ],
-        "socials": {
-            "github": "https://github.com/NillionNetwork",
-            "twitter": "https://x.com/nillion",
-            "telegram": "https://t.me/nillionnetwork",
-            "discord": "https://discord.com/invite/nillionnetwork"
-        },
-        "type": "Bridge"
-    },
-    {
         "id": 247,
         "name": "Nad.fun",
         "description": "Nad.fun is a memecoin launch platform built on the Monad blockchain that allows users to easily create and trade tokens.",
