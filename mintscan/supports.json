@@ -110,19 +110,9 @@
         "lcd": "https://lcd-medibloc.cosmostation.io/"
     },
     {
-        "chain": "milkyway",
-        "chain_id": "milkyway",
-        "lcd": "https://lcd-milkyway.cosmostation.io/"
-    },
-    {
         "chain": "neutron",
         "chain_id": "neutron-1",
         "lcd": "https://lcd-neutron.cosmostation.io/"
-    },
-    {
-        "chain": "nillion",
-        "chain_id": "nillion-1",
-        "lcd": "https://lcd-nillion.cosmostation.io/"
     },
     {
         "chain": "noble",

@@ -9,9 +9,9 @@
     "bech_validator_prefix" : "nillionvaloper",
     "origin_genesis_time" : "2025-02-12T17:00:00Z",
     "api_name" : "nillion",
-    "is_support_mintscan": true,
+    "is_support_mintscan": false,
     "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": true,
+    "is_support_extension_wallet": false,
     "is_support_moblie_dapp": true,
     "chain_type": [
         "cosmos"
