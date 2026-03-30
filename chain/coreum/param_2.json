@@ -36,43 +36,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-coreum.cosmostation.io:443"
-        },
-        {
-            "provider": "Coreum Foundation",
-            "url": "full-node.mainnet-1.coreum.dev:9090"
-        },
-        {
-            "provider": "Coreum Foundation",
-            "url": "full-node-californium.mainnet-1.coreum.dev:9090"
-        },
-        {
-            "provider": "Coreum Foundation",
-            "url": "full-node-curium.mainnet-1.coreum.dev:9090"
-        },
-        {
-            "provider": "Coreum Foundation",
-            "url": "full-node-uranium.mainnet-1.coreum.dev:9090"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "coreum-grpc.chainroot.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-coreum.cosmostation.io/"
-        },
-        {
             "provider": "ecostake",
             "url": "https://rest-coreum.ecostake.com/"
-        },
-        {
-            "provider": "#SoloNation",
-            "url": "https://api.m.core.solonation.io/"
         },
         {
             "provider": "Inter Blockchain Services",

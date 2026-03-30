@@ -33,27 +33,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "comdex-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "StakerHouse",
-            "url": "comdex-grpc.stakerhouse.com:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "comdex-grpc.chainroot.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {
             "provider": "Polkachu",
             "url": "https://comdex-api.polkachu.com/"
-        },
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://comdex.api.m.stavr.tech/"
         },
         {
             "provider": "StakerHouse",

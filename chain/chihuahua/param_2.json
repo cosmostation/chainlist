@@ -36,35 +36,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-chihuahua.cosmostation.io:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-chihuahua-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "chihuahua-grpc.lavenderfive.com:443"
-        },
-        {
             "provider": "Validatus",
             "url": "grpc.chihuahua.validatus.com:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "chihuahua-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-chihuahua.cosmostation.io/"
-        },
-        {
-            "provider": "Chihuahua",
-            "url": "https://api.chihuahua.wtf/"
-        },
         {
             "provider": "Polkachu",
             "url": "https://chihuahua-api.polkachu.com/"

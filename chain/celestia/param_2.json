@@ -33,36 +33,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-celestia.cosmostation.io:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "celestia-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "grpc-celestia.cosmos-spaces.cloud:443"
-        },
-        {
-            "provider": "ValiDAO",
-            "url": "celestia.grpc.interchain.validao.xyz:443"
-        },
-        {
-            "provider": "Stakin",
-            "url": "celestia.grpc.stakin-nodes.com:443"
-        },
-        {
-            "provider": "Citizen Web3",
-            "url": "grpc.celestia.citizenweb3.com:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-celestia.cosmostation.io/"
-        },
         {
             "provider": "NodeStake",
             "url": "https://api.celestia.nodestake.org/"

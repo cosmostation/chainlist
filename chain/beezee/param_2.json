@@ -35,6 +35,18 @@
         "fee_threshold": ""
     },
     "grpc_endpoint": [
+        {
+            "provider": "AlphaTeam",
+            "url": "grpc.getbze.com:9099"
+        },
+        {
+            "provider": "AlphaTeam",
+            "url": "grpc-1.getbze.com:9099"
+        },
+        {
+            "provider": "AlphaTeam",
+            "url": "grpc-2.getbze.com:9099"
+        }
     ],
     "lcd_endpoint": [
         {

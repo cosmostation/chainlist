@@ -31,18 +31,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "NodeStake",
-            "url": "grpc.c4e.nodestake.top:443"
-        },
-        {
-            "provider": "Cryptech",
-            "url": "grpc-c4e.cryptech.com.ua:443"
-        },
-        {
-            "provider": "StakeTown",
-            "url": "c4e-grpc.stake-town.com:443"
-        }
     ],
     "lcd_endpoint": [
         {

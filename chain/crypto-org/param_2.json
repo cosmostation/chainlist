@@ -36,26 +36,14 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-crypto-org.cosmostation.io:443"
-        },
-        {
             "provider": "crypto.org",
             "url": "grpc.mainnet.crypto.org:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-crypto-org.cosmostation.io/"
-        },
-        {
             "provider": "Polkachu",
             "url": "https://cryptocom-api.polkachu.com/"
-        },
-        {
-            "provider": "ecostake",
-            "url": "https://rpc-cryptoorgchain.ecostake.com/"
         }
     ],
     "explorer" : {
