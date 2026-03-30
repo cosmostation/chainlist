@@ -32,23 +32,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Notional",
-            "url": "grpc-cyber-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Bro_n_Bro",
-            "url": "grpc.cyber.bronbro.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {
             "provider": "cybercongress",
             "url": "https://lcd.bostrom.cybernode.ai/"
-        },
-        {
-            "provider": "Notional",
-            "url": "https://api-cyber-ia.cosmosia.notional.ventures/"
         }
     ],
     "explorer" : {

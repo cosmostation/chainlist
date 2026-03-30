@@ -34,35 +34,27 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-band.cosmostation.io:443"
-        },
-        {
-            "provider": "StakeTown",
-            "url": "band-grpc.stake-town.com:443"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-band.cosmostation.io/"
+            "provider": "bandprotocol",
+            "url": "https://laozi1.bandchain.org/api/"
         },
         {
             "provider": "Inter Blockchain Services",
-            "url": "https://band-api.ibs.team/"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "https://api-band.cosmos-spaces.cloud/"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://bandchain-mainnet-lcd.autostake.com/"
+            "url": "https://band.ibs.team:443/api/"
         },
         {
             "provider": "w3coins",
             "url": "https://band-api.w3coins.io/"
+        },
+        {
+            "provider": "Stakewolle",
+            "url": "https://public.stakewolle.com/cosmos/bandchain/rest/"
+        },
+        {
+            "provider": "High Stakes 🇨🇭",
+            "url": "https://bandprotocol-api.highstakes.ch/"
         }
     ],
     "explorer" : {

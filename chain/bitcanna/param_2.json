@@ -35,36 +35,12 @@
         {
             "provider": "bitcanna",
             "url": "grpc.bitcanna.io:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "bitcanna-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "MMS",
-            "url": "grpc-bitcanna.mms.team:443"
-        },
-        {
-            "provider": "AlxVoy ⚡ ANODE.TEAM",
-            "url": "bitcanna.grpc.m.anode.team:443"
         }
     ],
     "lcd_endpoint" : [
         {
             "provider": "bitcanna",
             "url": "https://lcd.bitcanna.io/"
-        },
-        {
-            "provider": "Panthea EU",
-            "url": "https://bitcanna-api.panthea.eu/"
-        },
-        {
-            "provider": "SGTstake",
-            "url": "https://api.bitcanna.sgtstake.com/"
-        },
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://bitcanna.api.m.stavr.tech/"
         }
     ],
     "explorer" : {

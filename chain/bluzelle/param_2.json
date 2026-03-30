@@ -33,36 +33,17 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Bluzelle",
-            "url": "a.client.sentry.net.bluzelle.com:9090"
-        },
-        {
-            "provider": "genznodes",
-            "url": "bluzelle-grpc.genznodes.dev:34090"
-        },
-        {
-            "provider": "Nodine.ID",
-            "url": "grpc-curium.nodine.id:443"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmos Dirctory",
-            "url": "https://rest.cosmos.directory/bluzelle/"
-        },
-        {
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
-            "url": "https://bluzelle_mainnet_api.chain.whenmoonwhenlambo.money/"
-        },
-        {
-            "provider": "Bluzelle",
-            "url": "https://b.client.sentry.net.bluzelle.com:1317/"
-        },
-        {
             "provider": "Bluzelle",
             "url": "https://a.client.sentry.net.bluzelle.com:1317/"
+        },
+        {
+            "provider": "Cosmos Dirctory",
+            "url": "https://rest.cosmos.directory/bluzelle/"
         }
+        
     ],
     "explorer" : {
         "name": "Ping.pub",

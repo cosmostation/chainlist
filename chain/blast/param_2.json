@@ -33,18 +33,6 @@
         {
             "provider": "Blast",
             "url": "https://blast.din.dev/rpc"
-        },
-        {
-            "provider": "Ankr",
-            "url": "https://rpc.ankr.com/blast"
-        },
-        {
-            "provider": "Blastapi",
-            "url": "https://blastl2-mainnet.public.blastapi.io"
-        },
-        {
-            "provider": "TheRpc",
-            "url": "https://blast.therpc.io"
         }
     ],
     "explorer" : {

@@ -33,14 +33,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Notional",
-            "url": "grpc-bitsong-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "bitsong-grpc.lavenderfive.com:443"
-        }
     ],
     "lcd_endpoint" : [
         {
@@ -48,16 +40,24 @@
             "url": "https://lcd.explorebitsong.com/"
         },
         {
-            "provider": "Validatrium",
-            "url": "https://bitsong-api.validatrium.club/"
-        },
-        {
             "provider": "🐹 Quokka Stake",
             "url": "https://api.bitsong.quokkastake.io/"
         },
         {
-            "provider": "Starsquid",
-            "url": "https://api-bitsong.starsquid.io/"
+            "provider": "TdrSys",
+            "url": "https://bitsong.tdrsys.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://bitsong-api.polkachu.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://bitsong.api.m.stavr.tech/"
+        },
+        {
+            "provider": "BlueStake 🚀",
+            "url": "https://bitsong-api.bluestake.net/"
         }
     ],
     "explorer" : {

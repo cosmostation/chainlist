@@ -35,18 +35,6 @@
         "fee_threshold": ""
     },
     "grpc_endpoint": [
-        {
-            "provider": "AlphaTeam",
-            "url": "grpc.getbze.com:9099"
-        },
-        {
-            "provider": "AlphaTeam",
-            "url": "grpc-1.getbze.com:9099"
-        },
-        {
-            "provider": "AlphaTeam",
-            "url": "grpc-2.getbze.com:9099"
-        }
     ],
     "lcd_endpoint": [
         {
@@ -63,7 +51,7 @@
         }
     ],
     "explorer": {
-        "name": "Mintscan",
+        "name": "Getbze",
         "url": "https://explorer.getbze.com/",
         "account": "https://explorer.getbze.com/account/${address}",
         "tx": "https://explorer.getbze.com/beezee/tx/${hash}",
