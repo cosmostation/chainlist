@@ -40,10 +40,6 @@
             "url": "grpc.axone.cumulo.com.es:443"
         },
         {
-            "provider": "BccNodes",
-            "url": "axone.grpc.bccnodes.com:443"
-        },
-        {
             "provider": "NodeStake",
             "url": "grpc.axone.nodestake.org:443"
         },
@@ -56,10 +52,6 @@
         {
             "provider": "Citizen Web3",
             "url": "https://api.axone.citizenweb3.com/"
-        },
-        {
-            "provider": "Citizen Web3",
-            "url": "https://api.axone-archive.citizenweb3.com"
         },
         {
             "provider": "NodeStake",

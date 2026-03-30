@@ -35,14 +35,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "NodeStake",
-            "url": "grpc.assetmantle.nodestake.top:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-assetmantle-ia.cosmosia.notional.ventures:443"
-        },
-        {
             "provider": "StakerHouse",
             "url": "assetmantle-grpc.stakerhouse.com:443"
         }
@@ -55,10 +47,6 @@
         {
             "provider": "Polkachu",
             "url": "https://assetmantle-api.polkachu.com/"
-        },
-        {
-            "provider": "ecostake",
-            "url": "https://rest-assetmantle.ecostake.com/"
         }
     ],
     "explorer" : {

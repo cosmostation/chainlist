@@ -35,10 +35,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-atomone.cosmostation.io:443"
-        },
-        {
             "provider": "Citizen Web3",
             "url": "grpc.atomone.citizenweb3.com:443"
         },
@@ -48,10 +44,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-atomone.cosmostation.io/"
-        },
         {
             "provider": "Citizen Web3",
             "url": "https://api.atomone.citizenweb3.com/"

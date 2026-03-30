@@ -33,8 +33,8 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Roomit",
-            "url": "grpc.arkeo.roomit.xyz:8443"
+            "provider": "NodeStake",
+            "url": "grpc.arkeo.nodestake.org:443"
         }
     ],
     "lcd_endpoint" : [

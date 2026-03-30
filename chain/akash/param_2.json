@@ -33,6 +33,10 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "akash.lavenderfive.com:443"
+        }
     ],
     "lcd_endpoint" : [
         {
