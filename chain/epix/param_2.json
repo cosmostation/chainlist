@@ -45,10 +45,6 @@
         "multicall_address" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Epix",
-            "url": "grpc.epix.zone:15067"
-        }
     ],
     "lcd_endpoint" : [
         {

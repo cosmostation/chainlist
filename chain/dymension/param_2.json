@@ -39,20 +39,8 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-dymension.cosmostation.io:443"
-        },
-        {
             "provider": "NodeStake",
             "url": "grpc.dymension.nodestake.org:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "dymension-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "kjnodes.com 🦄",
-            "url": "dymension.grpc.kjnodes.com:443"
         },
         {
             "provider": "silent",
@@ -61,38 +49,22 @@
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc-dymension-evm.cosmostation.io"
+            "provider": "NodeStake",
+            "url": "https://jsonrpc.dymension.nodestake.org"
         },
         {
-            "provider": "Posthuman",
-            "url": "https://evm-rpc.dymension.posthuman.digital"
+            "provider": "PublicNode",
+            "url": "https://dymension-evm-rpc.publicnode.com"
         },
         {
-            "provider": "AgoraNodes",
-            "url": "https://dym-m-json.agoranodes.com"
-        },
-        {
-            "provider": "Inter Blockchain Services",
-            "url": "https://dymension-jsonrpc.ibs.team"
-        },
-        {
-            "provider": "Wave",
-            "url": "https://dymension.0xwave.com:2087"
+            "provider": "Drpc",
+            "url": "https://dymension.drpc.org"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-dymension.cosmostation.io/"
-        },
-        {
             "provider": "NodeStake",
             "url": "https://api.dymension.nodestake.org/"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://dymension-api.lavenderfive.com/"
         },
         {
             "provider": "lesnik | UTSA",

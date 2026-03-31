@@ -35,34 +35,18 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-dydx.cosmostation.io:443"
-        },
-        {
-            "provider": "Bware Labs",
-            "url": "dydx-mainnet-full-grpc.public.blastapi.io:443"
-        },
-        {
             "provider": "Kingnodes",
             "url": "dydx-grpc.kingnodes.com:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "dydx-grpc.lavenderfive.com:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-dydx.cosmostation.io/"
+            "provider": "Polkachu",
+            "url": "https://dydx-dao-api.polkachu.com/"
         },
         {
             "provider": "AutoStake 🛡️ Slash Protected",
             "url": "https://dydx-mainnet-lcd.autostake.com:443/"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "https://dydx-dao-api.polkachu.com/"
         },
         {
             "provider": "Kingnodes 👑",

@@ -50,10 +50,6 @@
         {
             "provider": "Polkachu",
             "url": "https://evmos-api.polkachu.com/"
-        },
-        {
-            "provider": "Stakeflow",
-            "url": "https://api-evmos-01.stakeflow.io/"
         }
     ],
     "evm_rpc_endpoint" : [

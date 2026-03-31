@@ -38,20 +38,12 @@
         {
             "provider": "dHealth",
             "url": "grpc.dhealth.com:443"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "grpc.dhealth.nodestake.org:443"
         }
     ],
     "lcd_endpoint" : [
         {
             "provider": "dhealth",
             "url": "https://lcd.dhealth.com/"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "https://api.dhealth.nodestake.org"
         }
     ],
     "explorer" : {

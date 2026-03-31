@@ -30,8 +30,16 @@
             "url": "https://fantom.drpc.org"
         },
         {
-            "provider": "Publicnode",
-            "url": "https://fantom-rpc.publicnode.com"
+            "provider": "1Rpc",
+            "url": "https://1rpc.io/ftm"
+        },
+        {
+            "provider": "Stakely",
+            "url": "https://fantom-json-rpc.stakely.io"
+        },
+        {
+            "provider": "Fantom",
+            "url": "https://rpc.fantom.network"
         }
     ],
     "explorer" : {

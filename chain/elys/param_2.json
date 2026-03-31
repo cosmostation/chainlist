@@ -40,18 +40,6 @@
         {
             "provider": "Polkachu",
             "url": "https://elys-api.polkachu.com/"
-        },
-        {
-            "provider": "Inter Blockchain Services",
-            "url": "https://elys.ibs.team:443/api/"
-        },
-        {
-            "provider": "Pro-Nodes75",
-            "url": "https://api.elys.node75.org:443/"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "https://api.elys.nodestake.org/"
         }
     ],
     "explorer" : {
