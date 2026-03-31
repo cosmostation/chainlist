@@ -39,24 +39,16 @@
         {
             "provider": "silent",
             "url": "grpc.passage.silentvalidator.com:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "passage-grpc.lavenderfive.com:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "ecostake",
-            "url": "https://rest-passage.ecostake.com/"
+            "provider": "Polkachu",
+            "url": "https://passage-api.polkachu.com/"
         },
         {
             "provider": "keplr",
             "url": "https://lcd-passage.keplr.app/"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "https://passage-api.polkachu.com/"
         },
         {
             "provider": "silent",

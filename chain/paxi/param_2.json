@@ -32,10 +32,6 @@
         "fee_threshold": ""
     },
     "grpc_endpoint": [
-        {
-            "provider": "Paxi Foundation",
-            "url": "mainnet-rpc.paxinet.io:443"
-        }
     ],
     "lcd_endpoint": [
         {

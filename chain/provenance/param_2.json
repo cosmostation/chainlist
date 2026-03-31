@@ -33,27 +33,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-provenance.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-provenance.cosmostation.io/"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://provenance-mainnet-lcd.autostake.com/"
-        },
-        {
             "provider": "🔥STAVR🔥",
             "url": "https://provenance.api.m.stavr.tech/"
-        },
-        {
-            "provider": "Inter Blockchain Services",
-            "url": "https://provenance-api.ibs.team/"
         },
         {
             "provider": "High Stakes 🇨🇭",

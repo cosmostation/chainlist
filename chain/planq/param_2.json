@@ -39,30 +39,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Planq Network",
-            "url": "grpc.planq.network:443"
-        },
-        {
-            "provider": "BccNodes",
-            "url": "planq.grpc.bccnodes.com:443"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "grpc.planq.nodestake.top:443"
-        },
-        {
-            "provider": "NodineId",
-            "url": "https://grpc-planq.nodine.id"
-        },
-        {
-            "provider": "SafeBlock",
-            "url": "grpc.planq.safeblock.space:9090"
-        },
-        {
-            "provider": "Nodex Validator",
-            "url": "https://grpc.planq.nodexcapital.com:443"
-        }
     ],
     "lcd_endpoint" : [
         {
@@ -76,40 +52,16 @@
         {
             "provider": "Roomit",
             "url": "https://api.planq.roomit.xyz/"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "https://api.planq.nodestake.org/"
-        },
-        {
-            "provider": "planq.network",
-            "url": "https://rest.planq.network/"
         }
     ],
     "evm_rpc_endpoint" : [
-        {
-            "provider": "Nodies",
-            "url": "https://planq-rpc.nodies.app"
-        },
-        {
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
-            "url": "https://planq_mainnet_evm.chain.whenmoonwhenlambo.money"
-        },
         {
             "provider": "KonsorTech",
             "url": "https://mainnet-planq-evmrpc.konsortech.xyz"
         },
         {
-            "provider": "StakeTown",
-            "url": "https://planq-jsonrpc.stake-town.com"
-        },
-        {
             "provider": "Safe Block",
             "url": "https://evm.planq.safeblock.space"
-        },
-        {
-            "provider": "Planq Network",
-            "url": "https://evm-rpc.planq.network"
         }
     ],
     "explorer" : {

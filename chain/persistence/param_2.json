@@ -41,20 +41,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-persistence.cosmostation.io:443"
-        },
-        {
-            "provider": "Persistence",
-            "url": "grpc.core.persistence.one:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-persistence.cosmostation.io/"
-        },
         {
             "provider": "Persistence",
             "url": "https://rest.core.persistence.one/"
@@ -66,10 +54,6 @@
         {
             "provider": "Polkachu",
             "url": "https://persistence-api.polkachu.com/"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "https://api-persistence.cosmos-spaces.cloud/"
         }
     ],
     "explorer" : {
