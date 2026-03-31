@@ -37,22 +37,6 @@
         "fee_threshold": ""
     },
     "grpc_endpoint": [
-        {
-            "provider": "6block",
-            "url": "gonka04.6block.com:8443"
-        },
-        {
-            "provider": "6block",
-            "url": "gonka03.6block.com:8443"
-        },
-        {
-            "provider": "PS on Nebius",
-            "url": "node1.gonka.ai:8443"
-        },
-        {
-            "provider": "PS on Nebius",
-            "url": "node2.gonka.ai:8443"
-        }
     ],
     "lcd_endpoint": [
         {
@@ -67,10 +51,6 @@
             "provider": "PS on Nebius",
             "url": "https://node1.gonka.ai:8443/chain-api/"
         },
-        {
-            "provider": "PS on Nebius",
-            "url": "https://node2.gonka.ai:8443/chain-api/"
-        }
     ],
     "explorer": {
         "name": "ping.pub",

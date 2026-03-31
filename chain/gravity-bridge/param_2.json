@@ -34,27 +34,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-gravity-bridge.cosmostation.io:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-gravitybridge-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "gravitybridge-grpc.lavenderfive.com:443"
-        },
-        {
             "provider": "Citizen Web3",
             "url": "grpc.gravity.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-gravity-bridge.cosmostation.io/"
-        },
         {
             "provider": "althea",
             "url": "https://gravitychain.io:1317/"

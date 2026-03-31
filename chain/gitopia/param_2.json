@@ -35,16 +35,8 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Lavenderfive",
-            "url": "gitopia.lavenderfive.com:443"
-        },
-        {
             "provider": "Liveraven",
             "url": "gitopia.grpc.liveraven.net:443"
-        },
-        {
-            "provider": "Mzonder",
-            "url": "grpc-gitopia.mzonder.com:443"
         }
     ],
     "lcd_endpoint" : [
@@ -55,14 +47,6 @@
         {
             "provider": "Polkachu",
             "url": "https://gitopia-api.polkachu.com/"
-        },
-        {
-            "provider": "Staketab",
-            "url": "https://gitopia-rest.staketab.org/"
-        },
-        {
-            "provider": "Utsa",
-            "url": "https://m-gitopia.api.utsa.tech/"
         },
         {
             "provider": "LiveRaveN",

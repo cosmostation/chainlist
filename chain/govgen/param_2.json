@@ -34,19 +34,15 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "posthuman",
-            "url": "grpc.govgen.posthuman.digital:443"
-        }
     ],
     "lcd_endpoint" : [
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/govgen/",
-        "account": "https://www.mintscan.io/govgen/address/${address}",
-        "tx": "https://www.mintscan.io/govgen/tx/${hash}",
-        "proposal": "https://www.mintscan.io/govgen/proposals/${id}"
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
     },
     "about" : {
         "website" : "https://govgen.io/",

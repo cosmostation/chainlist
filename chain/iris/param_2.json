@@ -34,20 +34,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-iris.cosmostation.io:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-irisnet-ia.cosmosia.notional.ventures:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-iris.cosmostation.io/"
-        },
         {
             "provider": "High Stakes 🇨🇭",
             "url": "https://iris-api.highstakes.ch/"

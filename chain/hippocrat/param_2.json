@@ -32,19 +32,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc.hippocrat.mainnet.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {
             "provider": "HippoProtocol",
             "url": "https://api.hippo-protocol.com/"
-        },
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd.hippocrat.mainnet.cosmostation.io/"
         }
     ],
     "explorer" : {

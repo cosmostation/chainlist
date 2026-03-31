@@ -32,14 +32,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Notional",
-            "url": "grpc-ixo-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "impacthub-grpc.lavenderfive.com:443"
-        }
     ],
     "lcd_endpoint" : [
         {
@@ -49,14 +41,6 @@
         {
             "provider": "🔥STAVR🔥",
             "url": "https://ixo.api.m.stavr.tech/"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://impacthub-api.lavenderfive.com/"
-        },
-        {
-            "provider": "Inter Blockchain Services",
-            "url": "https://ixo-api.ibs.team/"
         }
     ],
     "explorer" : {

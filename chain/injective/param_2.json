@@ -48,53 +48,21 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-injective.cosmostation.io:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-injective-ia.cosmosia.notional.ventures:443"
-        },
-        {
             "provider": "Injective Foundation",
             "url": "sentry.chain.grpc.injective.network:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "injective-grpc.lavenderfive.com:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-injective.cosmostation.io/"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://injective-api.lavenderfive.com/"
-        },
         {
             "provider": "High Stakes 🇨🇭",
             "url": "https://injective-api.highstakes.ch/"
         },
         {
-            "provider": "WhisperNode 🤐",
-            "url": "https://lcd-injective.whispernode.com/"
-        },
-        {
             "provider": "Allnodes ⚡️ Nodes & Staking",
             "url": "https://injective-rest.publicnode.com/"
-        },
-        {
-            "provider": "Ecostake",
-            "url": "https://rest-injective.ecostake.com/"
         }
     ],
     "evm_rpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://rpc.evm.injective.mainnet.cosmostation.io"
-        },
         {
             "provider": "Injective Foundation",
             "url": "https://sentry.evm-rpc.injective.network"
