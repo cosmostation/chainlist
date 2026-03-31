@@ -37,20 +37,8 @@
         "fee_threshold": ""
     },
     "grpc_endpoint": [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-neutron.cosmostation.io:443"
-        },
-        {
-            "provider": "WhisperNode🤐",
-            "url": "grpc-neutron.whispernode.com:443"
-        }
     ],
     "lcd_endpoint": [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-neutron.cosmostation.io/"
-        },
         {
             "provider": "Neutron",
             "url": "https://rest-lb.neutron.org/"

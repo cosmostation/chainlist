@@ -27,10 +27,6 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc.evm.monad.mainnet.cosmostation.io"
-        },
-        {
             "provider": "Monad infra",
             "url": "https://rpc-mainnet.monadinfra.com"
         },

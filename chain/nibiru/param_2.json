@@ -45,28 +45,16 @@
         {
             "provider": "NodeStake",
             "url": "grpc.nibiru.nodestake.org:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "nibiru-grpc.lavenderfive.com:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "silent",
-            "url": "https://api.nibiru.silentvalidator.com/"
-        },
+            "provider": "Cogwheel ⚙️",
+            "url": "https://nibiru-api.cogwheel.zone/"
+        }
         {
             "provider": "LiveRaveN",
             "url": "https://nibiru.api.liveraven.net/"
-        },
-        {
-            "provider": "Cogwheel ⚙️",
-            "url": "https://nibiru-api.cogwheel.zone/"
-        },
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://nibiru.api.m.stavr.tech/"
         }
     ],
     "explorer" : {

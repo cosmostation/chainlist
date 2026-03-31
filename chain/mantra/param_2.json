@@ -52,29 +52,17 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-mantra.cosmostation.io:443"
-        },
-        {
             "provider": "MANTRACHAIN",
             "url": "grpc.mantrachain.io:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-mantra.cosmostation.io/"
-        },
-        {
             "provider": "MANTRACHAIN",
             "url": "https://api.mantrachain.io/"
         }
     ],
     "evm_rpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://rpc.evm.mantra.mainnet.cosmostation.io"
-        },
         {
             "provider": "MANTRACHAIN",
             "url": "https://evm.mantrachain.io"
