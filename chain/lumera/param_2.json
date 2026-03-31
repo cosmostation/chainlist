@@ -33,19 +33,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc.lumera.mainnet.cosmostation.io:443"
-        },
-        {
             "provider": "Lumera Protocol",
             "url": "grpc.lumera.io"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd.lumera.mainnet.cosmostation.io"
-        },
         {
             "provider": "Lumera Protocol",
             "url": "https://lcd.lumera.io/"

@@ -33,23 +33,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "PikaSer",
-            "url": "grpc-likecoin-mainnet.pikaser.net:443"
-        }
     ],
     "lcd_endpoint" : [
         {
             "provider": "like.co",
             "url": "https://mainnet-node.like.co/"
-        },
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://like.api.m.stavr.tech/"
-        },
-        {
-            "provider": "PikaSer",
-            "url": "https://rest-likecoin-mainnet.pikaser.net/"
         }
     ],
     "explorer" : {

@@ -34,14 +34,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "kyve-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "MMS",
-            "url": "grpc-kyve.mms.team:443"
-        }
     ],
     "lcd_endpoint" : [
         {
@@ -51,14 +43,6 @@
         {
             "provider": "LiveRaveN",
             "url": "https://kyve.api.liveraven.net/"
-        },
-        {
-            "provider": "ecostake",
-            "url": "https://rest-kyve.ecostake.com/"
-        },
-        {
-            "provider": "Imperator.co",
-            "url": "https://lcd-kyve.imperator.co/"
         },
         {
             "provider": "Inter Blockchain Services",

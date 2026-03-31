@@ -41,17 +41,9 @@
         {
             "provider": "StakerHouse",
             "url": "lum-grpc.stakerhouse.com:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "lumnetwork-grpc.lavenderfive.com:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://lum.api.m.stavr.tech/"
-        },
         {
             "provider": "StakerHouse",
             "url": "https://lum-rest.stakerhouse.com/"

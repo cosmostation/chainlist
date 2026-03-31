@@ -36,10 +36,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "StakeTown",
-            "url": "juno-grpc.stake-town.com:443"
-        },
-        {
             "provider": "Cogwheel",
             "url": "juno-grpc.cogwheel.zone:443"
         }
