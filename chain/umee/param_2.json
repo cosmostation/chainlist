@@ -34,46 +34,18 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "MMS",
-            "url": "grpc-umee.mms.team:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-umee-ia.cosmosia.notional.ventures:443"
-        },
-        {
             "provider": "MZONDER",
             "url": "grpc-umee.mzonder.com:443"
-        },
-        {
-            "provider": "StakeTown",
-            "url": "umee-grpc.stake-town.com:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "ux-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://umee.api.m.stavr.tech/"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://umee-mainnet-lcd.autostake.com/"
-        },
         {
             "provider": "Polkachu",
             "url": "https://umee-api.polkachu.com/"
         },
         {
-            "provider": "QuantNode",
-            "url": "https://umee-lcd.quantnode.tech/"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "https://ux-api.chainroot.io/"
+            "provider": "🔥STAVR🔥",
+            "url": "https://umee.api.m.stavr.tech/"
         }
     ],
     "explorer" : {

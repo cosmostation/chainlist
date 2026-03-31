@@ -35,10 +35,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "ZIGCHAIN",
-            "url": "grpc.zigchain.com:9090"
-        }
     ],
     "lcd_endpoint" : [
         {

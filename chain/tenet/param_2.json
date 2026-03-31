@@ -38,16 +38,8 @@
         "simulated_gas_multiply" : 1.2
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Allnodes ⚡️ Nodes & Staking",
-            "url": "tenet-grpc.publicnode.com:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Tenet",
-            "url": "https://app.rpc.tenet.org/"
-        },
         {
             "provider": "Allnodes ⚡️ Nodes & Staking",
             "url": "https://tenet-rest.publicnode.com/"
@@ -55,12 +47,12 @@
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "Tenet",
-            "url": "https://rpc.tenet.org"
-        },
-        {
             "provider": "Publicnode",
             "url": "https://tenet-evm.publicnode.com"
+        },
+        {
+            "provider": "Tenet",
+            "url": "https://rpc.tenet.org"
         }
     ],
     "explorer" : {

@@ -37,35 +37,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-terra.cosmostation.io:443"
-        },
-        {
             "provider": "TdrSys",
             "url": "terra2.tdrsys.com:2083"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "terra2-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "terra-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-terra.cosmostation.io/"
-        },
-        {
-            "provider": "🧙 WildSage Labs",
-            "url": "https://lcd-terra.wildsage.io/"
-        },
-        {
-            "provider": "Terraform Labs",
-            "url": "https://phoenix-lcd.terra.dev/"
-        },
         {
             "provider": "TdrSys",
             "url": "https://terra2.tdrsys.com/"
@@ -73,10 +49,6 @@
         {
             "provider": "cosmosrescue",
             "url": "https://terra-api.cosmosrescue.dev/"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "https://terra-api.chainroot.io/"
         }
     ],
     "explorer" : {

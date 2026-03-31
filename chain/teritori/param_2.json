@@ -32,10 +32,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "NodeStake",
-            "url": "grpc.teritori.nodestake.top:443"
-        }
     ],
     "lcd_endpoint" : [
         {
@@ -43,20 +39,8 @@
             "url": "https://teritori-api.polkachu.com/"
         },
         {
-            "provider": "🔥STAVR🔥",
-            "url": "https://teritori.api.m.stavr.tech/"
-        },
-        {
             "provider": "silent",
             "url": "https://api.teritori.silentvalidator.com/"
-        },
-        {
-            "provider": "Inter Blockchain Services",
-            "url": "https://teritori-api.ibs.team/"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "https://teritori-api.chainroot.io/"
         }
     ],
     "explorer" : {

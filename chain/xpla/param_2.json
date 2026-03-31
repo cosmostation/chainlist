@@ -42,16 +42,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-xpla.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-xpla.cosmostation.io/"
-        },
         {
             "provider": "ZenaAD",
             "url": "https://dimension-lcd.xpla.io/"
@@ -59,21 +51,9 @@
         {
             "provider": "Holdings",
             "url": "https://dimension-lcd.xpla.dev/"
-        },
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://xpla.api.m.stavr.tech/"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://xpla-api.lavenderfive.com/"
         }
     ],
     "evm_rpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://rpc-xpla-evm.cosmostation.io"
-        },
         {
             "provider": "Holdings",
             "url": "https://dimension-evm-rpc.xpla.dev"

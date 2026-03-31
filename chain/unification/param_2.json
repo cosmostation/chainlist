@@ -37,20 +37,12 @@
         {
             "provider": "Unification",
             "url": "grpc.unification.io:443"
-        },
-        {
-            "provider": "Chainmasters",
-            "url": "grpc.unification.chainmasters.info:443"
         }
     ],
     "lcd_endpoint" : [
         {
             "provider": "Unification",
             "url": "https://rest.unification.io/"
-        },
-        {
-            "provider": "Chainmasters",
-            "url": "https://rest.unification.chainmasters.ninja/"
         }
     ],
     "explorer" : {

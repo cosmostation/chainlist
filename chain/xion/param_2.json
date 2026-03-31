@@ -35,15 +35,19 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-xion.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-xion.cosmostation.io/"
+            "provider": "Polkachu",
+            "url": "https://xion-api.polkachu.com/"
+        },
+        {
+            "provider": "🔥BurntLabs🔥",
+            "url": "https://api.xion-mainnet-1.burnt.com/"
+        },
+        {
+            "provider": "Imperator.co",
+            "url": "https://lcd-burnt.imperator.co/"
         }
     ],
     "explorer" : {

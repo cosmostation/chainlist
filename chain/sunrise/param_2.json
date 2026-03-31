@@ -48,29 +48,9 @@
         {
             "provider": "NodeStake",
             "url": "grpc.sunrise.nodestake.org:443"
-        },
-        {
-            "provider": "deNodes",
-            "url": "sunrise-mainnet-grpc.denodes.xyz:443"
-        },
-        {
-            "provider": "Decentrio",
-            "url": "https://sunrise.grpc.decentrio.ventures:443"
-        },
-        {
-            "provider": "Synergy Nodes",
-            "url": "sunrise-grpc.synergynodes.com:443"
-        },
-        {
-            "provider": "Anode.team",
-            "url": "sunrise.grpc.m.anode.team:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "MekongLabs",
-            "url": "https://sunrise-mainnet-api.mekonglabs.tech"
-        },
         {
             "provider": "TC Network",
             "url": "https://rest.sunrise.tcnetwork.io"
