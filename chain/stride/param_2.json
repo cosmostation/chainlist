@@ -34,38 +34,14 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-stride.cosmostation.io:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "stride-grpc.lavenderfive.com:443"
-        },
-        {
             "provider": "Citizen Web3",
             "url": "grpc.stride.citizenweb3.com:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-stride.cosmostation.io/"
-        },
-        {
             "provider": "Polkachu",
             "url": "https://stride-api.polkachu.com/"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "https://api-stride.cosmos-spaces.cloud/"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://stride-api.lavenderfive.com/"
-        },
-        {
-            "provider": "kjnodes",
-            "url": "https://stride.api.kjnodes.com/"
         },
         {
             "provider": "Citizen Web3",

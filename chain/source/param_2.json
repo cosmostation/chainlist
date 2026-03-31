@@ -33,30 +33,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Polkachu",
-            "url": "source-grpc.polkachu.com:15890"
-        },
-        {
-            "provider": "NodeStake",
-            "url": "grpc.source.nodestake.top:443"
-        },
-        {
-            "provider": "Nodeist",
-            "url": "grpc-source.nodeist.net:443"
-        },
-        {
-            "provider": "NodesHub",
-            "url": "source.grpc.nodeshub.online:443"
-        },
-        {
-            "provider": "KjNodes",
-            "url": "source.grpc.kjnodes.com:443"
-        },
-        {
-            "provider": "STAVR",
-            "url": "source.grpc.m.stavr.tech:9590"
-        }
     ],
     "lcd_endpoint" : [
         {

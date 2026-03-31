@@ -48,10 +48,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "shido.io",
-            "url": "grpc.shidoscan.com:443"
-        },
-        {
             "provider": "MavNode",
             "url": "grpc.mavnode.io:443"
         }

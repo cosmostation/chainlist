@@ -27,10 +27,6 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc.evm.somnia.mainnet.cosmostation.io"
-        },
-        {
             "provider": "Infra",
             "url": "https://api.infra.mainnet.somnia.network/"
         }

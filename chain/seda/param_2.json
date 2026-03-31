@@ -31,10 +31,6 @@
         "init_gas_limit": 300000
     },
     "grpc_endpoint": [
-        {
-            "provider": "kjnodes",
-            "url": "seda.grpc.kjnodes.com:443"
-        }
     ],
     "lcd_endpoint": [
         {
@@ -44,10 +40,6 @@
         {
             "provider": "Polkachu",
             "url": "https://seda-api.polkachu.com/"
-        },
-        {
-            "provider": "kjnodes",
-            "url": "https://seda.api.kjnodes.com/"
         },
         {
             "provider": "Synergy Nodes",

@@ -32,31 +32,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-sentinel.cosmostation.io:443"
-        },
-        {
-            "provider": "RoomIT",
-            "url": "grpc.dvpn.roomit.xyz:8443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-sentinel-ia.cosmosia.notional.ventures:443"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-sentinel.cosmostation.io/"
-        },
-        {
             "provider": "Busurnode",
             "url": "https://api-sentinel.busurnode.com/"
-        },
-        {
-            "provider": "WhisperNode 🤐",
-            "url": "https://lcd-sentinel.whispernode.com/"
         },
         {
             "provider": "🐹 Quokka Stake",
@@ -65,10 +45,6 @@
         {
             "provider": "MathNodes Romania",
             "url": "https://api.ro.mathnodes.com/"
-        },
-        {
-            "provider": "MathNodes China",
-            "url": "https://api.dvpn.me/"
         }
     ],
     "explorer" : {

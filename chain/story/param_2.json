@@ -37,14 +37,6 @@
         {
             "provider": "Silentvalidator",
             "url": "https://evm-rpc.story.silentvalidator.com"
-        },
-        {
-            "provider": "Blockhub",
-            "url": "https://story-mainnet-jsonrpc.blockhub.id"
-        },
-        {
-            "provider": "Spidernode",
-            "url": "https://story-evm-rpc.spidernode.net"
         }
     ],
     "explorer" : {

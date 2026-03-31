@@ -33,24 +33,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-shentu.cosmostation.io:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "shentu-grpc.chainroot.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-shentu.cosmostation.io/"
-        },
-        {
-            "provider": "Shentu",
-            "url": "https://rest.noopsbycertik.com/"
-        },
         {
             "provider": "Polkachu",
             "url": "https://shentu-api.polkachu.com/"
@@ -58,14 +42,6 @@
         {
             "provider": "🔥STAVR🔥",
             "url": "https://shentu.api.m.stavr.tech/"
-        },
-        {
-            "provider": "ramuchi.tech",
-            "url": "https://shentu-api.ramuchi.tech/"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "https://shentu-api.chainroot.io/"
         }
     ],
     "explorer" : {

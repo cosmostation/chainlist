@@ -35,32 +35,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-regen.cosmostation.io:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-regen-ia.cosmosia.notional.ventures:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-regen.cosmostation.io/"
-        },
-        {
-            "provider": "vitwit",
-            "url": "http://public-rpc.regen.vitwit.com/"
-        },
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://regen.api.m.stavr.tech/"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://regen-mainnet-lcd.autostake.com/"
-        },
         {
             "provider": "ecostake",
             "url": "https://rest-regen.ecostake.com/"

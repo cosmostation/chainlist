@@ -37,27 +37,11 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-stargaze.cosmostation.io:443"
-        },
-        {
             "provider": "StakerHouse",
             "url": "stargaze-grpc.stakerhouse.com:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-stargaze-ia.cosmosia.notional.ventures:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "stargaze-grpc.chainroot.io:443"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-stargaze.cosmostation.io/"
-        },
         {
             "provider": "Stargaze Foundation",
             "url": "https://rest.stargaze-apis.com/"

@@ -43,16 +43,8 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Nodeist",
-            "url": "https://api-realio-network.nodeist.net/"
-        },
-        {
             "provider": "Stavr",
             "url": "https://realio.api.m.stavr.tech/"
-        },
-        {
-            "provider": "vinjan",
-            "url": "https://api-realio.vinjan.xyz/"
         }
     ],
     "evm_rpc_endpoint" : [
