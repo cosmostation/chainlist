@@ -81,21 +81,6 @@
         }
     },
     {
-        "name": "Mars Protocol",
-        "type": "Lending",
-        "description": "Lend, borrow and earn on Red Bank lending platform designed by Mars Protocol team.",
-        "status": "open",
-        "thumbnail" : "red-bank",
-        "link": "https://neutron.marsprotocol.io/redbank",
-        "social": {
-            "webSite": "https://marsprotocol.io/",
-            "twitter": "https://twitter.com/mars_protocol",
-            "medium": "https://mars-protocol.medium.com/",
-            "github": "https://github.com/mars-protocol",
-            "docs": "https://docs.marsprotocol.io/"
-        }
-    },
-    {
         "name": "Nolus Protocol",
         "type": "DeFi",
         "description": "Reshaping Money Markets with the first DeFi Lease",
@@ -253,17 +238,6 @@
             "docs": "https://astrovault.io/help-msaw",
             "twitter": "https://astrovault.io/twitter-msaw",
             "medium": "https://astrovault.io/medium-msaw/"
-        }
-    },
-    {
-        "name": "BullBear",
-        "type": "Dex",
-        "description": "Bull Vs Bear is a platform that allows you to leverage long and short assets against each other, backed by USDC collateral and powered by Mars Protocol Perps. It simplifies the process of creating leveraged positions by handling multiple steps (minting credit accounts, depositing assets, creating positions) in a single click.",
-        "status": "open",
-        "thumbnail" : "bullbear",
-        "link": "https://bullbear.zone/",
-        "social": {
-            "webSite": "https://bullbear.zone/"
         }
     },
     {
