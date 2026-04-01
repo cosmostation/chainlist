@@ -50,6 +50,14 @@
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
+        {
+            "provider": "Cumulo",
+            "url": "https://api.xrpl.cumulo.org.es/"
+        },
+        {
+            "provider": "Peersyst",
+            "url": "https://cosmos-api.xrplevm.org/"
+        }
     ],
     "evm_rpc_endpoint" : [
         {
