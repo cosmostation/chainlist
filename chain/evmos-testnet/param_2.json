@@ -35,17 +35,13 @@
     "grpc_endpoint": [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/evmos-testnet/"
-        }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/evmos-testnet/",
-        "account": "https://www.mintscan.io/evmos-testnet/address/${address}",
-        "tx": "https://www.mintscan.io/evmos-testnet/tx/${hash}",
-        "proposal": "https://www.mintscan.io/evmos-testnet/proposals/${id}"
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
     },
     "about" : {
         "website" : "https://evmos.org/",

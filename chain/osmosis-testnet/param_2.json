@@ -31,12 +31,12 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/osmosis-testnet/"
-        },
-        {
             "provider": "Osmosis",
             "url": "https://lcd.testnet.osmosis.zone/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://osmosis-testnet-api.polkachu.com/"
         }
     ],
     "about" : {

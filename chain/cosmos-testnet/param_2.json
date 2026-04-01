@@ -31,10 +31,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-office.cosmostation.io:443"
-        },
-        {
             "provider": "Hypha sentry-01",
             "url": "grpc.sentry-01.theta-testnet.polypore.xyz:443"
         },

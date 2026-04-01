@@ -48,16 +48,8 @@
         "multicall_address" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc.xrplevm.mainnet.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd.xrplevm.mainnet.cosmostation.io/"
-        }
     ],
     "evm_rpc_endpoint" : [
         {

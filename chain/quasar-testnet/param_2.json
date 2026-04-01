@@ -27,27 +27,15 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "KJNodes.com",
-            "url": "quasar-testnet.grpc.kjnodes.com:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/quasar-testnet/"
-        },
-        {
-            "provider": "KJNodes.com",
-            "url": "https://quasar-testnet.api.kjnodes.com/"
-        }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/quasar-testnet/",
-        "account": "https://www.mintscan.io/quasar-testnet/address/${address}",
-        "tx": "https://www.mintscan.io/quasar-testnet/tx/${hash}",
-        "proposal": "https://www.mintscan.io/quasar-testnet/proposals/${id}"
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
     },
     "about" : {
         "website" : "https://www.quasar.fi/",

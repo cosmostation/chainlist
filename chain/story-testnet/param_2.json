@@ -22,10 +22,6 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc-office-evm.cosmostation.io/story-testnet/"
-        },
-        {
             "provider": "StoryRPC",
             "url": "https://testnet.storyrpc.io"
         },

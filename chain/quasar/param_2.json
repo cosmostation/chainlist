@@ -33,55 +33,15 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-quasar.cosmostation.io:443"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "quasar-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "StakeTown",
-            "url": "quasar-grpc.stake-town.com:443"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "quasar-grpc.chainroot.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-quasar.cosmostation.io/"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://quasar-api.lavenderfive.com/"
-        },
-        {
-            "provider": "polkachu",
-            "url": "https://quasar-api.polkachu.com/"
-        },
-        {
-            "provider": "WhisperNode 🤐",
-            "url": "https://lcd-quasar.whispernode.com/"
-        },
-        {
-            "provider": "Cosmos Spaces",
-            "url": "https://api-quasar.cosmos-spaces.cloud/"
-        },
-        {
-            "provider": "Chainroot",
-            "url": "https://quasar-api.chainroot.io/"
-        }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/quasar/",
-        "account": "https://www.mintscan.io/quasar/address/${address}",
-        "tx": "https://www.mintscan.io/quasar/tx/${hash}",
-        "proposal": "https://www.mintscan.io/quasar/proposals/${id}"
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
     },
     "about" : {
         "website" : "https://www.quasar.fi/",

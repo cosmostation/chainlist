@@ -39,8 +39,8 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/noble-testnet/"
+            "provider": "Polkachu",
+            "url": "https://noble-testnet-api.polkachu.com/"
         }
     ],
     "explorer" : {

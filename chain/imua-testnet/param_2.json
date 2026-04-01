@@ -39,22 +39,10 @@
         "simulated_gas_multiply" : 1.2
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc.testnet.imua.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd.testnet.imua.cosmostation.io/"
-        }
     ],
     "evm_rpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://rpc-office-evm.cosmostation.io/imua-testnet/"
-        }
     ],
     "explorer" : {
         "name": "",

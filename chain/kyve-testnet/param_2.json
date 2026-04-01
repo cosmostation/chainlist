@@ -28,17 +28,13 @@
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/kyve-testnet/"
-        }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/kyve-testnet/",
-        "account": "https://www.mintscan.io/kyve-testnet/address/${address}",
-        "tx": "https://www.mintscan.io/kyve-testnet/tx/${hash}",
-        "proposal": "https://www.mintscan.io/kyve-testnet/proposals/${id}"
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
     },
     "about" : {
         "website" : "https://www.kyve.network/",

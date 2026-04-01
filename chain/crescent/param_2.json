@@ -32,20 +32,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-crescent.cosmostation.io:443"
-        },
-        {
-            "provider": "Stakin",
-            "url": "crescent.grpc.stakin-nodes.com:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Polkachu",
-            "url": "https://crescent-api.polkachu.com"
-        }
     ],
     "explorer" : {
         "name": "Atomscan",

@@ -37,16 +37,8 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/persistence-testnet/"
-        },
-        {
             "provider": "Persistence",
             "url": "https://rest.testnet2.persistence.one/"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "https://persistence-testnet-api.polkachu.com//"
         }
     ],
     "explorer" : {

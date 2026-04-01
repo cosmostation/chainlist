@@ -30,26 +30,18 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "cosmostation",
-            "url": "grpc-office-mintstation.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/mintstation-testnet/"
-        }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/mintstation-testnet/",
-        "account": "https://www.mintscan.io/mintstation-testnet/address/${address}",
-        "tx": "https://www.mintscan.io/mintstation-testnet/tx/${hash}",
-        "proposal": "https://www.mintscan.io/mintstation-testnet/proposals/${id}"
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
     },
     "about" : {
-        "website" : "https://www.stamper.network/",
+        "website" : "",
         "blog" : "",
         "github" : "",
         "twitter" : "",

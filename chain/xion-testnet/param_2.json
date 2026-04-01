@@ -38,6 +38,10 @@
         {
             "provider": "Xion",
             "url": "https://api.xion-testnet-2.burnt.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://xion-testnet-api.polkachu.com/"
         }
     ],
     "explorer" : {

@@ -30,8 +30,8 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/dydx-testnet/"
+            "provider": "Polkachu",
+            "url": "https://dydx-testnet-api.polkachu.com/"
         }
     ],
     "explorer" : {

@@ -30,17 +30,13 @@
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/juno-testnet/"
-        }
     ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/juno-testnet/",
-        "account": "https://www.mintscan.io/juno-testnet/address/${address}",
-        "tx": "https://www.mintscan.io/juno-testnet/tx/${hash}",
-        "proposal": "https://www.mintscan.io/juno-testnet/proposals/${id}"
+        "name": "",
+        "url": "",
+        "account": "",
+        "tx": "",
+        "proposal": ""
     },
     "about" : {
         "website" : "https://junonetwork.io/",

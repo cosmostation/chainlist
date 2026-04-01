@@ -34,16 +34,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc.testnet.selfchain.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd.testnet.selfchain.cosmostation.io/"
-        }
     ],
     "explorer" : {
         "name": "BonyNode",

@@ -31,8 +31,8 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/axelar-testnet/"
+            "provider": "Polkachu",
+            "url": "https://axelar-testnet-api.polkachu.com/"
         }
     ],
     "explorer" : {

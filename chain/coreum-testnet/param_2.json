@@ -32,8 +32,8 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/coreum-testnet/"
+            "provider": "Tx",
+            "url": "https://rest.testnet-1.tx.org:443"
         }
     ],
     "explorer" : {

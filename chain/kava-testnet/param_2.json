@@ -48,14 +48,14 @@
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc-office-evm.cosmostation.io/kava-testnet"
+            "provider": "Kava Labs",
+            "url": "https://evm.testnet.kava.io"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/kava-testnet/"
+            "provider": "Kava Labs",
+            "url": "https://api.testnet.kava.io/"
         }
     ],
     "explorer" : {
