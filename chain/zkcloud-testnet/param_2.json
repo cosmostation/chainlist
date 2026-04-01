@@ -33,16 +33,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "ZkCloud",
-            "url": "grpc.testnet.zkcloud.com:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "ZkCloud",
-            "url": "https://api.testnet.zkcloud.com/"
-        }
     ],
     "explorer" : {
         "name": "Ping.pub",

@@ -34,10 +34,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "LuncGoblins",
-            "url": "rebel-rpc.luncgoblins.com:443"
-        }
     ],
     "lcd_endpoint" : [
         {

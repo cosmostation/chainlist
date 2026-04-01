@@ -32,10 +32,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-office-nillion.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {

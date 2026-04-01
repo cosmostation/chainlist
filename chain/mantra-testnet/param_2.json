@@ -48,29 +48,17 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-office-mantra.cosmostation.io:443"
-        },
-        {
             "provider": "MANTRACHAIN",
             "url": "grpc.dukong.mantrachain.io:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/mantra-testnet/"
-        },
-        {
             "provider": "MANTRACHAIN",
             "url": "https://api.dukong.mantrachain.io/"
         }
     ],
     "evm_rpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://rpc.evm.mantra.testnet.cosmostation.io"
-        },
         {
             "provider": "MANTRACHAIN",
             "url": "https://evm.dukong.mantrachain.io"

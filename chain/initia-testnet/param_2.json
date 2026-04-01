@@ -34,15 +34,11 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-office-initia-2.cosmostation.io:443"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/initia-2-testnet/"
+            "provider": "Initia",
+            "url": "https://rest.testnet.initia.xyz/"
         }
     ],
     "explorer" : {

@@ -31,14 +31,6 @@
         "init_gas_limit": 500000
     },
     "grpc_endpoint": [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-office-neutron.cosmostation.io:443"
-        },
-        {
-            "provider": "WhisperNode🤐",
-            "url": "grpc-neutron.whispernode.com:443"
-        }
     ],
     "lcd_endpoint" : [
         {

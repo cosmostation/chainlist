@@ -29,10 +29,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmonaut-Stakes",
-            "url": "airchains-testnet-grpc.cosmonautstakes.com:14190"
-        }
     ],
     "lcd_endpoint" : [
         {
@@ -42,10 +38,6 @@
         {
             "provider": "Cosmonaut-Stakes",
             "url": "https://airchains-testnet-rest.cosmonautstakes.com/"
-        },
-        {
-            "provider": "Cosmostaking",
-            "url": "https://rest1.airchains.t.cosmostaking.com/"
         },
         {
             "provider": "Nodesphere",

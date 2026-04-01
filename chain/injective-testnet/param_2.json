@@ -55,24 +55,16 @@
         {
             "provider": "Injective",
             "url": "https://testnet.sentry.lcd.injective.network:443"
-        },
-        {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/injective-testnet"
         }
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc-office-evm.cosmostation.io/injective-testnet/"
+            "provider": "Injective",
+            "url": "https://testnet.sentry.chain.json-rpc.injective.network"
         },
         {
             "provider": "k8s",
             "url": "https://k8s.testnet.json-rpc.injective.network"
-        },
-        {
-            "provider": "Injective",
-            "url": "https://testnet.sentry.chain.json-rpc.injective.network"
         }
     ],
     "explorer" : {

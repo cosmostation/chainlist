@@ -38,19 +38,15 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "grpc-office-babylon.cosmostation.io"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://lcd-office.cosmostation.io/babylon-testnet/"
+            "provider": "Nodes Guru",
+            "url": "https://babylon-testnet-api.nodes.guru"
         },
         {
-            "provider": "Babylon Labs",
-            "url": "https://lcd.devnet.babylonlabs.io/"
+            "provider": "Polkachu",
+            "url": "https://babylon-testnet-api.polkachu.com"
         }
     ],
     "explorer" : {

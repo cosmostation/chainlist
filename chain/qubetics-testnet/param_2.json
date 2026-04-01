@@ -41,10 +41,6 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Qubetics",
-            "url": "grpc-testnet.qubetics.work:443"
-        }
     ],
     "lcd_endpoint" : [
         {
