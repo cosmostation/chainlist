@@ -36,10 +36,6 @@
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Intento",
-            "url": "https://lcd-mainnet.intento.zone/"
-        }
     ],
     "explorer" : {
         "name": "Ping.pub",

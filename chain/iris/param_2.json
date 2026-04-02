@@ -37,10 +37,6 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "High Stakes 🇨🇭",
-            "url": "https://iris-api.highstakes.ch/"
-        },
-        {
             "provider": "KonsorTech",
             "url": "https://mainnet-iris-api.konsortech.xyz/"
         }

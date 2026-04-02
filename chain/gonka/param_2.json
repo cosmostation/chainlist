@@ -40,14 +40,6 @@
     ],
     "lcd_endpoint": [
         {
-            "provider": "6block",
-            "url": "https://gonka04.6block.com:8443/chain-api/"
-        },
-        {
-            "provider": "6block",
-            "url": "https://gonka03.6block.com:8443/chain-api/"
-        },
-        {
             "provider": "PS on Nebius",
             "url": "https://node1.gonka.ai:8443/chain-api/"
         }

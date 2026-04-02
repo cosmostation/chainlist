@@ -54,12 +54,12 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "High Stakes 🇨🇭",
-            "url": "https://injective-api.highstakes.ch/"
-        },
-        {
             "provider": "Allnodes ⚡️ Nodes & Staking",
             "url": "https://injective-rest.publicnode.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://injective-api.polkachu.com/"
         }
     ],
     "evm_rpc_endpoint" : [

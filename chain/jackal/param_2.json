@@ -51,20 +51,8 @@
             "url": "https://jkl.api.m.stavr.tech/"
         },
         {
-            "provider": "Silent",
-            "url": "https://api.jackal.silentvalidator.com/"
-        },
-        {
             "provider": "NodeStake",
             "url": "https://api.jackal.nodestake.org/"
-        },
-        {
-            "provider": "Stakewolle",
-            "url": "https://public.stakewolle.com/cosmos/jackal/rest/"
-        },
-        {
-            "provider": "Kleomedes",
-            "url": "https://jackal-api.kleomedes.network/"
         }
     ],
     "explorer" : {
