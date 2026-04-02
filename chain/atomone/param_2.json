@@ -45,12 +45,16 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Citizen Web3",
-            "url": "https://api.atomone.citizenweb3.com/"
+            "provider": "UTSA",
+            "url": "https://m-atomone.api.utsa.tech/"
         },
         {
-            "provider": "Citizen Web3 Archive",
-            "url": "https://api.atomone-archive.citizenweb3.com/"
+            "provider": "Indonode",
+            "url": "https://api.atomone.indonode.net/"
+        },
+        {
+            "provider": "AVIAONE.com 🟢",
+            "url": "https://api.atomone-1.atomone.aviaone.com/"
         }
     ],
     "explorer" : {

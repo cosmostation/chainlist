@@ -48,22 +48,6 @@
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Hypha sentry-01",
-            "url": "https://rest.sentry-01.theta-testnet.polypore.xyz/"
-        },
-        {
-            "provider": "Hypha sentry-02",
-            "url": "https://rest.sentry-02.theta-testnet.polypore.xyz/"
-        },
-        {
-            "provider": "Hypha sync-01",
-            "url": "https://rest.state-sync-01.theta-testnet.polypore.xyz/"
-        },
-        {
-            "provider": "Hypha sync-02",
-            "url": "https://rest.state-sync-02.theta-testnet.polypore.xyz/"
-        }
     ],
     "explorer" : {
         "name": "Mintscan",

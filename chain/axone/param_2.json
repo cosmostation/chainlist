@@ -50,20 +50,12 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Citizen Web3",
-            "url": "https://api.axone.citizenweb3.com/"
-        },
-        {
             "provider": "NodeStake",
             "url": "https://api.axone.nodestake.org/"
         },
         {
             "provider": "High Stakes 🇨🇭",
             "url": "https://axone-api.highstakes.ch/"
-        },
-        {
-            "provider": "cumulo",
-            "url": "https://api.axone.cumulo.com.es/"
         }
     ],
     "explorer" : {

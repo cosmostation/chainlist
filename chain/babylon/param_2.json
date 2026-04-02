@@ -49,20 +49,8 @@
             "url": "https://babylon.nodes.guru/api/"
         },
         {
-            "provider": "Nodes.Guru",
-            "url": "https://babylon-archive.nodes.guru/api/"
-        },
-        {
-            "provider": "Polkachu",
-            "url": "https://babylon-archive-api.polkachu.com/"
-        },
-        {
             "provider": "Polkachu",
             "url": "https://babylon-api.polkachu.com/"
-        },
-        {
-            "provider": "Validatus",
-            "url": "https://api.babylon.validatus.com/"
         }
     ],
     "explorer" : {
