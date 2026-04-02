@@ -36,12 +36,8 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "medibloc",
-            "url": "https://api.gopanacea.org/"
-        },
-        {
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
-            "url": "https://panacea_mainnet_api.chain.whenmoonwhenlambo.money"
+            "provider": "Imperator",
+            "url": "https://lcd-medibloc.imperator.co/"
         }
     ],
     "explorer" : {

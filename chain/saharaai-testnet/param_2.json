@@ -44,10 +44,6 @@
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Moonlet",
-            "url": "https://sahara-api.testnet.moonlet.cloud/public/"
-        }
     ],
     "evm_rpc_endpoint" : [
         {

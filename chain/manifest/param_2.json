@@ -37,20 +37,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "The Lifted Initiative",
-            "url": "manifest-grpc.liftedinit.app:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "The Lifted Initiative",
-            "url": "https://nodes.liftedinit.app/manifest/api/"
-        },
-        {
-            "provider": "The Lifted Initiative",
-            "url": "https://manifest-rest.liftedinit.app/"
-        }
     ],
     "explorer" : {
         "name": "Guru",

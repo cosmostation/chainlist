@@ -33,32 +33,8 @@
         "init_gas_limit": 300000
     },
     "grpc_endpoint": [
-        {
-            "provider": "StakerHouse",
-            "url": "sge-grpc.stakerhouse.com:443"
-        }
     ],
     "lcd_endpoint": [
-        {
-            "provider": "Polkachu",
-            "url": "https://sge-api.polkachu.com/"
-        },
-        {
-            "provider": "Nostake",
-            "url": "https://api.sge.nodestake.top/"
-        },
-        {
-            "provider": "Nodeist",
-            "url": "https://api-sge.nodeist.net/"
-        },
-        {
-            "provider": "🔥STAVR🔥",
-            "url": "https://sge.api.m.stavr.tech/"
-        },
-        {
-            "provider": "Lavenderfive",
-            "url": "https://rest.lavenderfive.com:443/sge/"
-        }
     ],
     "explorer": {
         "name": "Ping.pub",

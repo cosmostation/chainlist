@@ -32,33 +32,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "mars-grpc.lavenderfive.com:443"
-        },
-        {
-            "provider": "Delphi Labs",
-            "url": "grpc.marsprotocol.io:443"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Polkachu",
-            "url": "https://mars-api.polkachu.com/"
-        },
-        {
-            "provider": "Delphi Labs",
-            "url": "https://rest.marsprotocol.io/"
-        },
-        {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "https://mars-api.lavenderfive.com/"
-        },
-        {
-            "provider": "AutoStake 🛡️ Slash Protected",
-            "url": "https://mars-mainnet-lcd.autostake.com/"
-        }
-        
     ],
     "explorer" : {
         "name": "Pingpub",
