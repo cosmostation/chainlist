@@ -43,10 +43,6 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "TdrSys",
-            "url": "https://terra2.tdrsys.com/"
-        },
-        {
             "provider": "cosmosrescue",
             "url": "https://terra-api.cosmosrescue.dev/"
         }

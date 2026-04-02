@@ -40,10 +40,6 @@
     "grpc_endpoint": [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Tabi-Testnet",
-            "url": "https://api.testnetv2.tabichain.com/"
-        }
     ],
     "evm_rpc_endpoint" : [
         {
