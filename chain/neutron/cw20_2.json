@@ -34,5 +34,17 @@
         "coinGeckoId": "",
         "color": "#1b0847",
         "wallet_preload": true
+    },
+    {
+        "type": "cw20",
+        "contract": "neutron135msvxlca7kh5g8lfhzfmxdc782q44kwvdknqtf68lrnlmny7mqs5kqe02",
+        "name": "Fox People Token",
+        "symbol": "FOX",
+        "description": "Fox People Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/neutron/asset/fox-people.png",
+        "coinGeckoId": "",
+        "color": "#FF0000",
+        "wallet_preload": true
     }
 ]
