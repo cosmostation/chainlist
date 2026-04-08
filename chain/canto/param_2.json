@@ -51,14 +51,9 @@
     ],
     "evm_rpc_endpoint" : [
         {
-            "provider": "Ansybl",
-            "url": "https://canto-rpc.ansybl.io"
-        },
-        {
             "provider": "gravitychain",
             "url": "https://canto.gravitychain.io"
         }
-        
     ],
     "explorer" : {
         "name": "NodeStake",

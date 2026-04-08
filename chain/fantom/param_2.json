@@ -26,8 +26,8 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Drpc",
-            "url": "https://fantom.drpc.org"
+            "provider": "Fantom",
+            "url": "https://rpc.fantom.network"
         },
         {
             "provider": "1Rpc",
@@ -38,8 +38,8 @@
             "url": "https://fantom-json-rpc.stakely.io"
         },
         {
-            "provider": "Fantom",
-            "url": "https://rpc.fantom.network"
+            "provider": "Drpc",
+            "url": "https://fantom.drpc.org"
         }
     ],
     "explorer" : {
