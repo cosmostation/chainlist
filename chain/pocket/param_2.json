@@ -39,10 +39,6 @@
         {
             "provider": "Grove",
             "url": "https://shannon-grove-api.mainnet.poktroll.com/"
-        },
-        {
-            "provider": "Blockval",
-            "url": "https://api-pocket.blockval.io/"
         }
     ],
     "explorer" : {

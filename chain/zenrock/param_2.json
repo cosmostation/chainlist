@@ -44,10 +44,6 @@
         {
             "provider": "NodeStake",
             "url": "https://api.zenrock.nodestake.org/"
-        },
-        {
-            "provider": "Zenrock",
-            "url": "https://api.diamond.zenrocklabs.io/"
         }
     ],
     "explorer" : {

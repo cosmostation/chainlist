@@ -33,16 +33,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "Neptun Validator",
-            "url": "grpc.medas-digital.io:9090"
-        }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Neptun Validator",
-            "url": "https://lcd.medas-digital.io:1317/"
-        }
     ],
     "explorer" : {
         "name": "BigDipper",

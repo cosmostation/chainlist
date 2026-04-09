@@ -35,10 +35,6 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "TdrSys",
-            "url": "https://quicksilver.tdrsys.com/"
-        },
-        {
             "provider": "KonsorTech",
             "url": "https://mainnet-quicksilver-api.konsortech.xyz/"
         },

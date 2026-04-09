@@ -43,10 +43,6 @@
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Warden Labs",
-            "url": "https://api.wardenprotocol.org"
-        }
     ],
     "evm_rpc_endpoint" : [
     ],

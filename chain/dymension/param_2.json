@@ -39,10 +39,6 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "NodeStake",
-            "url": "grpc.dymension.nodestake.org:443"
-        },
-        {
             "provider": "silent",
             "url": "grpc.dymension.silentvalidator.com:443"
         }

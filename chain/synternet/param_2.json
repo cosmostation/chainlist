@@ -35,18 +35,6 @@
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Synternet",
-            "url": "https://api.synternet.com/"
-        },
-        {
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
-            "url": "https://synternet_mainnet_api.chain.whenmoonwhenlambo.money/"
-        },
-        {
-            "provider": "AutoStake Slash Protected",
-            "url": "https://synternet-mainnet-lcd.autostake.com/"
-        }
     ],
     "explorer" : {
         "name": "Big Dipper",
