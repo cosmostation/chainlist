@@ -36,15 +36,23 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "TdrSys",
-            "url": "terra2.tdrsys.com:2083"
-        }
     ],
     "lcd_endpoint" : [
         {
             "provider": "cosmosrescue",
             "url": "https://terra-api.cosmosrescue.dev/"
+        },
+        {
+            "provider": "TdrSys",
+            "url": "https://terra2.tdrsys.com/"
+        },
+        {
+            "provider": "High Stakes 🇨🇭",
+            "url": "https://terra-phoenix-api.highstakes.ch/"
+        },
+        {
+            "provider": "OnNode",
+            "url": "https://terra-m-api.onnode.org/"
         }
     ],
     "explorer" : {

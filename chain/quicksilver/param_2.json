@@ -32,19 +32,19 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "TdrSys",
-            "url": "quicksilver.tdrsys.com:2083"
-        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Quicksilver",
-            "url": "https://lcd.quicksilver.zone/"
+            "provider": "TdrSys",
+            "url": "https://quicksilver.tdrsys.com/"
         },
         {
-            "provider": "Allnodes ⚡️ Nodes & Staking",
-            "url": "https://quicksilver-rest.publicnode.com/"
+            "provider": "KonsorTech",
+            "url": "https://mainnet-quicksilver-api.konsortech.xyz/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://quick.api.m.stavr.tech/"
         }
     ],
     "explorer" : {
