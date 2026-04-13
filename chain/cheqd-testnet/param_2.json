@@ -10,7 +10,7 @@
     "origin_genesis_time": "2021-09-24T14:47:05Z",
     "api_name": "cheqd-testnet",
     "is_support_mobile_wallet" : true,
-    "is_support_extension_wallet" : false,
+    "is_support_extension_wallet" : true,
     "chain_type": [
         "cosmos"
     ],
