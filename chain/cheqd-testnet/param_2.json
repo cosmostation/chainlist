@@ -1,0 +1,68 @@
+{
+    "chain_id_cosmos": "cheqd-testnet-6",
+    "chain_name": "Cheqd Testnet",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cheqd-testnet/resource/chain_cheqd-testnet.png",
+    "staking_asset_denom": "ncheq",
+    "staking_asset_symbol": "CHEQ",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cheqd-testnet/asset/cheq.png",
+    "bech_account_prefix": "cheqd",
+    "bech_validator_prefix": "cheqdvaloper",
+    "origin_genesis_time": "2021-09-24T14:47:05Z",
+    "api_name": "cheqd-testnet",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "5000ncheq",
+            "7500ncheq",
+            "10000ncheq"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "cheqd",
+            "url": "grpc.cheqd.network:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "cheqd",
+            "url": "https://api.cheqd.network/"
+        }
+    ],
+    "explorer" : {
+        "name": "Big Dipper",
+        "url": "https://testnet-explorer.cheqd.io/",
+        "account": "https://testnet-explorer.cheqd.io/accounts/${address}",
+        "tx": "https://testnet-explorer.cheqd.io/transactions/${hash}",
+        "proposal": "https://testnet-explorer.cheqd.io/proposals/${id}"
+    },
+    "about" : {
+        "webSite": "https://cheqd.io",
+        "docs": "https://docs.cheqd.io/identity",
+        "github": "https://github.com/cheqd",
+        "blog" : "https://cheqd.io/blog/",
+        "medium": "https://blog.cheqd.io/",
+        "twitter": "https://twitter.com/cheqd_io",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "cheqd는 SSI(Self-Sovereign Identity) 및 블록체인 기술로 구축된 퍼블릭 무허가형 네트워크입니다.",
+        "en" : "cheqd is a public permissionless network built with Self-Sovereign Identity (SSI) and blockchain technologies.",
+        "ja" : "cheqd は、Self-Sovereign Identity (SSI) とブロックチェーン テクノロジーを使用して構築されたパブリック パーミッションレス ネットワークです。"
+    }
+}
