@@ -55,11 +55,11 @@
     "lcd_endpoint" : [
         {
             "provider": "Allnodes ⚡️ Nodes & Staking",
-            "url": "https://injective-rest.publicnode.com"
+            "url": "https://injective-rest.publicnode.com/"
         },
         {
             "provider": "Polkachu",
-            "url": "https://injective-api.polkachu.com"
+            "url": "https://injective-api.polkachu.com/"
         }
     ],
     "evm_rpc_endpoint" : [

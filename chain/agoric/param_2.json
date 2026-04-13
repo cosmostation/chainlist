@@ -45,15 +45,15 @@
     "lcd_endpoint" : [
         {
             "provider": "Polkachu",
-            "url": "https://agoric-api.polkachu.com"
+            "url": "https://agoric-api.polkachu.com/"
         },
         {
             "provider": "Agoric",
-            "url": "https://main.api.agoric.net"
+            "url": "https://main.api.agoric.net/"
         },
         {
             "provider": "Kjnodes",
-            "url": "https://agoric.api.kjnodes.com"
+            "url": "https://agoric.api.kjnodes.com/"
         }
     ],
     "explorer" : {
