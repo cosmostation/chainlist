@@ -41,11 +41,11 @@
     "lcd_endpoint" : [
         {
             "provider": "ecostake",
-            "url": "https://rest-akash.ecostake.com/"
+            "url": "https://rest-akash.ecostake.com"
         },
         {
             "provider": "Polkachu",
-            "url": "https://akash-api.polkachu.com/"
+            "url": "https://akash-api.polkachu.com"
         }
     ],
     "explorer" : {

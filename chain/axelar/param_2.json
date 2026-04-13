@@ -41,12 +41,16 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Staketab",
-            "url": "https://axelar-rest.staketab.org/"
+            "provider": "Imperator.co",
+            "url": "https://lcd-axelar.imperator.co"
         },
         {
-            "provider": "Imperator.co",
-            "url": "https://lcd-axelar.imperator.co/"
+            "provider": "Polkachu",
+            "url": "https://axelar-api.polkachu.com"
+        },
+        {
+            "provider": "QuantNode",
+            "url": "https://axelar.lcd.quantnode.xyz/"
         }
     ],
     "explorer" : {
