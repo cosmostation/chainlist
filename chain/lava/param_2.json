@@ -37,8 +37,8 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "w3coins",
-            "url": "https://lava-api.w3coins.io/"
+            "provider": "Lava Over Lava",
+            "url": "https://lava.rest.lava.build/"
         },
         {
             "provider": "Vinjan.Inc",
@@ -51,10 +51,6 @@
         {
             "provider": "🔥STAVR🔥",
             "url": "https://lava.api.m.stavr.tech/"
-        },
-        {
-            "provider": "Lava Over Lava",
-            "url": "https://lava.rest.lava.build/"
         },
         {
             "provider": "AstroStake",
