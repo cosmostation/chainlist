@@ -7,8 +7,8 @@
     "staking_asset_symbol": "STXAR",
     "lcd_endpoint": [
         {
-            "provider": "arcana",
-            "url": "https://cosmos01-testnet.arcana.network"
+            "provider": "Balancer",
+            "url": "https://balancer.cosmoscan.com/xarchain-rest"
         }
     ]
 }
