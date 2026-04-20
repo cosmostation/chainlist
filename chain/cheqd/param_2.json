@@ -28,6 +28,7 @@
             "7500ncheq",
             "10000ncheq"
         ],
+        "is_feemarket": true,
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.8,
         "fee_threshold" : ""
