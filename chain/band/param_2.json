@@ -47,10 +47,6 @@
         {
             "provider": "w3coins",
             "url": "https://band-api.w3coins.io/"
-        },
-        {
-            "provider": "Stakewolle",
-            "url": "https://public.stakewolle.com/cosmos/bandchain/rest/"
         }
     ],
     "explorer" : {
