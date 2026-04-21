@@ -1,0 +1,32 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x60E1773636CF5E4A227d9AC24F20fEca034ee25A",
+        "name": "Wrapped FIL",
+        "symbol": "WFIL",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/wfil.png",
+        "coinGeckoId": "wrapped-fil"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+        "name": "Axelar Wrapped USDC",
+        "symbol": "USDC.axl",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/usdc.png",
+        "coinGeckoId": "axlusdc"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
+        "name": "Axelar Wrapped USDT",
+        "symbol": "USDT.axl",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/usdt.png",
+        "coinGeckoId": "axelar-usdt"
+    }
+]

@@ -1,0 +1,66 @@
+{
+    "chain_id_evm" : "0x13a",
+    "chain_name": "Filecoin",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/resource/chain_filecoin.png",
+    "main_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "main_asset_symbol" : "FIL",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/fil.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "FIL",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/fil.png",
+    "origin_genesis_time" : "2019-12-95T00:00:00Z",
+    "is_support_mobile_wallet": false,
+    "is_support_moblie_dapp" : false,
+    "is_support_extension_wallet": false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": true,
+        "multicall_address" : "0xcA11bde05977b3631167028862bE2a173976CA11"
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Ankr",
+            "url": "https://rpc.ankr.com/filecoin"
+        },
+        {
+            "provider": "Chain Up",
+            "url": "https://filecoin.chainup.net/rpc/v1"
+        },
+        {
+            "provider": "Chain Love",
+            "url": "https://api.chain.love/rpc/v1"
+        },
+        {
+            "provider": "Glif",
+            "url": "https://api.node.glif.io"
+        }
+    ],
+    "explorer" : {
+        "name": "Filscan",
+        "url": "https://filscan.io/en/",
+        "account": "https://filscan.io/en/address/${address}",
+        "tx": "https://filscan.io/en/message/${hash}"
+    },
+    "about" : {
+        "website" : "https://filecoin.io/",
+        "docs": "https://docs.filecoin.io/",
+        "github" : "https://github.com/filecoin-project/",
+        "blog" : "https://filecoin.io/blog/",
+        "medium": "",
+        "twitter" : "https://x.com/Filecoin",
+        "discord" : "https://discord.com/invite/yeQ2hcd2TD",
+        "coingecko" : "https://www.coingecko.com/en/coins/filecoin"
+    },
+    "description" : {
+        "ko" : "Filecoin은 분산형 스토리지 네트워크로, 사용자가 데이터를 중앙 서버가 아닌 전 세계 여러 스토리지 제공자에게 저장할 수 있도록 하는 프로토콜입니다.",
+        "en" : "Filecoin is a decentralized storage network protocol that allows users to store data with storage providers around the world instead of relying on centralized servers.",
+        "ja" : "Filecoinは分散型ストレージネットワークであり、ユーザーが中央集権型サーバーではなく、世界中の複数のストレージプロバイダーにデータを保存できるようにするプロトコルです。"
+    }
+}
