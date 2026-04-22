@@ -1,0 +1,135 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x95cef13441be50d20ca4558cc0a27b601ac544e5",
+        "name": "Manta",
+        "symbol": "MANTA",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/manta.png",
+        "coinGeckoId": "manta-network",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xf417f5a458ec102b90352f697d6e2ac3a3d2851f",
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "description": "Tether",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/usdt.png",
+        "coinGeckoId": "tether",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0xb73603c5d87fa094b7314c74ace2e64d165016fb",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6fae4d9935e2fcb11fc79a64e917fb2bf14dafaa",
+        "name": "TIA",
+        "symbol": "TIA.n",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/tia.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x305e88d809c9dc03179554bfbf85ac05ce8f18d6",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "description": "",
+        "decimals": 8,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/wbtc.png",
+        "coinGeckoId": "wrapped-bitcoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x77b6f99970f488cfa8bd41892900b6ce881c2300",
+        "name": "Wrapped eETH",
+        "symbol": "weETH",
+        "description": "Wrapped eETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/weeth.png",
+        "coinGeckoId": "wrapped-eeth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x2fe3ad97a60eb7c79a976fc18bb5ffd07dd94ba5",
+        "name": "Lido wstETH",
+        "symbol": "wstETH",
+        "description": "Wrapped liquid staked Ether 2.0",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/wsteth.png",
+        "coinGeckoId": "wrapped-steth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x91647632245cabf3d66121f86c387ae0ad295f9a",
+        "name": "iZUMi Token",
+        "symbol": "iZi",
+        "description": "iZUMi Token",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/izi.png",
+        "coinGeckoId": "izumi-finance"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xe22e3d44ea9fb0a87ea3f7a8f41d869c677f0020",
+        "name": "QuickSwap",
+        "symbol": "QUICK",
+        "description": "QuickSwap",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/quick.png",
+        "coinGeckoId": "quickswap"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+        "name": "USDe",
+        "symbol": "USDe",
+        "description": "USDe",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/usde.png",
+        "coinGeckoId": "ethena-usde"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1c466b9371f8aba0d7c458be10a62192fcb8aa71",
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "description": "Dai Stablecoin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/dai.png",
+        "coinGeckoId": "dai"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x6e9655611b42c10b9af25b6ca08be349df45c370",
+        "name": "Rocket Pool ETH",
+        "symbol": "rETH",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/reth.png",
+        "coinGeckoId": "rocket-pool-eth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x0dc808adce2099a9f62aa87d9670745aba741746",
+        "name": "WETH",
+        "symbol": "WETH",
+        "description": "WETH",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/weth.png",
+        "coinGeckoId": "weth"
+    }
+]

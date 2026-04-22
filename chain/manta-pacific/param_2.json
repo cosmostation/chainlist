@@ -1,0 +1,62 @@
+{
+    "chain_id_evm" : "0xa9",
+    "chain_name": "Manta Pacific",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/resource/chain_manta-pacific.png",
+    "main_asset_denom" : "0x95cef13441be50d20ca4558cc0a27b601ac544e5",
+    "main_asset_symbol" : "MANTA",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/manta.png",
+    "gas_asset_denom" : "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "gas_asset_symbol" : "ETH",
+    "gas_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/manta-pacific/asset/eth_manta.png",
+    "origin_genesis_time" : "2023-09-09T01:46:09Z",
+    "is_support_mobile_wallet": false,
+    "is_support_moblie_dapp" : false,
+    "is_support_extension_wallet": false,
+    "is_support_erc20" : true,
+    "chain_type": [
+        "evm"
+    ],
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.3
+    },
+    "evm_multicall_info" : {
+        "is_support_multicall": true,
+        "multicall_address" : "0xcA11bde05977b3631167028862bE2a173976CA11"
+    },
+    "evm_rpc_endpoint" : [
+        {
+            "provider": "Manta Pacific",
+            "url": "https://pacific-rpc.manta.network/http"
+        },
+        {
+            "provider": "Drpc",
+            "url": "https://manta-pacific.drpc.org"
+        },
+        {
+            "provider": "1rpc",
+            "url": "https://1rpc.io/manta"
+        }
+    ],
+    "explorer" : {
+        "name": "Manta SocialScan",
+        "url": "https://manta.socialscan.io/",
+        "account": "https://manta.socialscan.io/address/${address}",
+        "tx": "https://manta.socialscan.io/tx/${hash}"
+    },
+    "about" : {
+        "website" : "https://manta.network/",
+        "docs": "https://docs.manta.network/docs/Introduction",
+        "github" : "https://github.com/manta-network",
+        "blog" : "",
+        "medium": "https://mantanetwork.medium.com/",
+        "twitter" : "https://x.com/mantanetwork",
+        "discord" : "",
+        "coingecko" : "https://www.coingecko.com/en/coins/manta-network"
+    },
+    "description" : {
+        "ko" : "Manta Pacific는 이더리움 기반의 모듈형 Layer 2 네트워크로, 더 빠르고 저렴한 트랜잭션 환경을 제공하는 데 초점을 맞춘 체인입니다. ZK 및 애플리케이션 확장성에 친화적인 구조를 바탕으로, 다양한 dApp과 온체인 서비스를 효율적으로 운영할 수 있도록 설계되었습니다.",
+        "en" : "Manta Pacific is an Ethereum-based modular Layer 2 network designed to provide a faster and more cost-efficient transaction environment. Built with a structure optimized for ZK and application scalability, it is designed to support a wide range of dApps and on-chain services efficiently.",
+        "ja" : "Manta Pacificは、より高速で低コストなトランザクション環境の提供を目的とした、Ethereumベースのモジュラー型Layer 2ネットワークです。ZKおよびアプリケーションのスケーラビリティに適した構造を基盤としており、さまざまなdAppやオンチェーンサービスを効率的に運用できるよう設計されています。"
+    }
+}
