@@ -7,7 +7,8 @@
         "description": "",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/wfil.png",
-        "coinGeckoId": "wrapped-fil"
+        "coinGeckoId": "wrapped-fil",
+        "wallet_preload": true
     },
     {
         "type": "erc20",
@@ -17,7 +18,8 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/usdc.png",
-        "coinGeckoId": "axlusdc"
+        "coinGeckoId": "axlusdc",
+        "wallet_preload": true
     },
     {
         "type": "erc20",
@@ -27,7 +29,8 @@
         "description": "",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/filecoin/asset/usdt.png",
-        "coinGeckoId": "axelar-usdt"
+        "coinGeckoId": "axelar-usdt",
+        "wallet_preload": true
     },
     {
         "type": "erc20",
