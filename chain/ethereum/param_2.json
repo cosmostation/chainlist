@@ -32,16 +32,24 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "https://rpc-ethereum-evm.cosmostation.io/rpc"
-        },
-        {
             "provider": "Drpc",
             "url": "https://eth.drpc.org"
         },
         {
             "provider": "Publicnode",
             "url": "https://ethereum-rpc.publicnode.com"
+        },
+        {
+            "provider": "Blast",
+            "url": "https://eth-mainnet.public.blastapi.io"
+        },
+        {
+            "provider": "Blockrazor",
+            "url": "https://eth.blockrazor.xyz"
+        },
+        {
+            "provider": "Nownodes",
+            "url": "https://public-eth.nownodes.io"
         }
     ],
     "explorer" : {

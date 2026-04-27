@@ -26,10 +26,6 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Ankr",
-            "url": "https://rpc.ankr.com/filecoin"
-        },
-        {
             "provider": "Chain Up",
             "url": "https://filecoin.chainup.net/rpc/v1"
         },
