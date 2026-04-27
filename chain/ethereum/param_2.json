@@ -32,8 +32,8 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Ankr",
-            "url": "https://rpc.ankr.com/eth"
+            "provider": "Cosmostation",
+            "url": "https://rpc-ethereum-evm.cosmostation.io/rpc"
         },
         {
             "provider": "Drpc",
