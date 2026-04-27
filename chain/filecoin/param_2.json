@@ -11,7 +11,7 @@
     "origin_genesis_time" : "2019-12-95T00:00:00Z",
     "is_support_mobile_wallet": false,
     "is_support_moblie_dapp" : false,
-    "is_support_extension_wallet": false,
+    "is_support_extension_wallet": true,
     "is_support_erc20" : true,
     "chain_type": [
         "evm"
