@@ -2,9 +2,9 @@
     {
         "type": "native",
         "denom": "ubadge",
-        "name" : "BitBadges",
+        "name" : "Badge",
         "symbol": "BADGE",
-        "description": "$BADGE is the native token for BitBadges blockchain.",
+        "description": "Native token for BitBadges blockchain",
         "decimals": 9,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitbadges/asset/badge_logo.png",
         "coinGeckoId": ""
