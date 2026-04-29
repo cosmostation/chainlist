@@ -131,5 +131,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celo/asset/celo.png",
         "coinGeckoId": "celo"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+        "name": "Axelar Wrapped USDC",
+        "symbol": "USDC.axl",
+        "description": "Axelar Wrapped USDC",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "usd-coin"
     }
 ]
