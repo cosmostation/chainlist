@@ -1,0 +1,30 @@
+{
+  "chainId": "hazinachain-1",
+  "chainName": "HazinaChain",
+  "symbol": "HZN",
+  "decimals": 6,
+  "denom": "uhzn",
+  "bech32Prefix": "hazina",
+  "explorerLink": "https://explorer.hazinachain.com/transactions/",
+  "chainImage": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/hazinachain/asset/hzn.png",
+  "gasRate": {
+    "tiny": "0.001",
+    "low": "0.001",
+    "average": "0.0025"
+  },
+  "sendGas": "100000",
+  "cosmosEndpoint": {
+    "rpc_endpoint": [
+      {
+        "provider": "HazinaChain",
+        "url": "https://rpc.hazinachain.com"
+      }
+    ],
+    "rest_endpoint": [
+      {
+        "provider": "HazinaChain",
+        "url": "https://api.hazinachain.com"
+      }
+    ]
+  }
+}
