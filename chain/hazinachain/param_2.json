@@ -1,0 +1,65 @@
+{
+    "chainId": "hazinachain-1",
+    "chainName": "HazinaChain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/hazinachain/resource/chain_hazinachain.png",
+    "staking_asset_denom": "uhzn",
+    "staking_asset_symbol": "HZN",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/hazinachain/asset/hzn.png",
+    "bech_account_prefix": "hazina",
+    "bech_validator_prefix": "hazinavaloper",
+    "origin_genesis_time": "2026-04-19T04:24:51Z",
+    "api_name": "hazinachain",
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet" : false,
+    "is_support_extension_wallet" : false,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.001uhzn",
+            "0.0025uhzn"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint": [
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "HazinaChain",
+            "url": "https://api.hazinachain.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "HazinaChain",
+        "url": "https://explorer.hazinachain.com/",
+        "account": "",
+        "tx": "",
+        "proposal": ""
+    },
+    "about" : {
+        "website" : "https://hazinachain.com/",
+        "docs": "",
+        "github" : "https://github.com/hazinachain/hazinachain",
+        "blog" : "",
+        "medium": "",
+        "twitter" : "",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "HazinaChain은 Cosmos 생태계에 속한 목적 특화 Layer 1 블록체인으로, Hazina DeFi 게이밍 플랫폼과 성장 중인 애플리케이션 생태계를 지원하기 위해 설계되었습니다.",
+        "en" : "HazinaChain is a purpose-built Layer 1 blockchain in the Cosmos ecosystem, designed specifically to power the Hazina DeFi gaming platform and its growing ecosystem of applications.",
+        "ja" : "HazinaChainは、Cosmosエコシステムに属する目的特化型のLayer 1ブロックチェーンであり、Hazina DeFiゲーミングプラットフォームと成長中のアプリケーションエコシステムを支えるために設計されています。"
+    }
+}
