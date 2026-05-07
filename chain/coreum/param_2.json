@@ -39,16 +39,16 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "ecostake",
-            "url": "https://rest-coreum.ecostake.com/"
-        },
-        {
             "provider": "Inter Blockchain Services",
             "url": "https://coreum.ibs.team:443/api/"
         },
         {
             "provider": "Stakewolle",
             "url": "https://public.stakewolle.com/cosmos/coreum/rest/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-coreum.ecostake.com/"
         }
     ],
     "explorer" : {
