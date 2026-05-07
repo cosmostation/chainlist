@@ -1060,5 +1060,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/avalanche/asset/metis.png",
         "coinGeckoId": "metis-token"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xc891eb4cbdeff6e073e859e987815ed1505c2acd",
+        "name": "EURC",
+        "symbol": "EURC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "euro-coin"
     }
 ]

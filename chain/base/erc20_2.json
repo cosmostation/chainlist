@@ -1089,5 +1089,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/base/asset/onyx.png",
         "coinGeckoId": "kamigotchi-onyx"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
+        "name": "EURC",
+        "symbol": "EURC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "euro-coin"
     }
 ]

@@ -1161,5 +1161,15 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/polygon/asset/wsteth.png",
         "coinGeckoId": "wrapped-steth"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x8a037dbcA8134FFc72C362e394e35E0Cad618F85",
+        "name": "EURC",
+        "symbol": "EURC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "euro-coin"
     }
 ]

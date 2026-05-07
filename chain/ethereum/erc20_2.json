@@ -4848,6 +4848,16 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/jpyc.png",
         "coinGeckoId": "jpycoin"
+    },
+    {
+        "type": "erc20",
+        "contract": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+        "name": "EURC",
+        "symbol": "EURC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "euro-coin"
     }
 ]
 
