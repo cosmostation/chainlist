@@ -1704,5 +1704,25 @@
         "decimals": 8,
         "image": "https://assets.cdn.filesafe.space/5ya1nbDzQTewNPkBCOeE/media/69b80683c62585d077c1d368.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5512EB544A275E5375CE4D82233BDAA2D03002E352A9C6B0049175BD368DF10E",
+        "name": "EURC",
+        "symbol": "EURC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
+        "coinGeckoId": "euro-coin",
+        "ibc_info" : {
+            "path": "ethereum>cosmos",
+            "counterparty": {
+                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
+                "channel": "cosmoshub-0",
+                "port": "transfer",
+                "chain": "ethereum",
+                "denom": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c"
+            }
+        }
     }
 ]
