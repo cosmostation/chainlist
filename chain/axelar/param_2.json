@@ -41,12 +41,12 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Polkachu",
-            "url": "https://axelar-api.polkachu.com/"
-        },
-        {
             "provider": "QuantNode",
             "url": "https://axelar.lcd.quantnode.xyz/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://axelar.ibs.team/api"
         }
     ],
     "explorer" : {
