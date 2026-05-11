@@ -247,5 +247,85 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "coin.zig1yg2cl37ey7snegl0ltzsmxt5aa4gnp53tqymzhx0lh9prl8zll0q5hwkce.missedit",
+        "name": "missedit",
+        "symbol": "MISSED",
+        "description": "",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/missed.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "coin.zig15nes6ctvl8f7tdwdgv5ekgfuv2k54qcq58s7zx5p86rdv2y4vn6qmjlqug.karakchai",
+        "name": "karakchai",
+        "symbol": "KARAK",
+        "description": "",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/karak.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "coin.zig1e9eh2tax2j2uargkhu2gup5ppm03mmkdfyzv5nlfs322394hy3msldmynx.zmzm",
+        "name": "zmzm",
+        "symbol": "ZMZM",
+        "description": "",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/zmzm.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "coin.zig1gx06ljlldwj3r80k7av3jnlygqkse68jxe34t93p3stx9aq60yls0fslla.mommy",
+        "name": "mommy",
+        "symbol": "MOMMY",
+        "description": "",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/mommy.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "coin.zig12g0j0dvyzd34x7xruwj686rftzkngx0ne43rh4gh5xyt0el3qdqsfqzxsd.strong",
+        "name": "strong",
+        "symbol": "STRONG",
+        "description": "",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/strong.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "coin.zig1cjszvv3lf35c0wvqek3548raup3zz6apk2cgc0z3mamjwn8rt9qqwjt0pu.throb",
+        "name": "throb",
+        "symbol": "THROB",
+        "description": "",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/throb.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "coin.zig1nkw387jr258d3w7zj40t3cu6f6smw40fupf3t90xpg6fjuxxfhqqg99xhj.goodtogo",
+        "name": "goodtogo",
+        "symbol": "GTG",
+        "description": "",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/gtg.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
+        "denom": "coin.zig1lp5zex6685kd22agzskhqsylpnssxnweyuvsz4edr4p4ta92qf3q0jdnz9.bunny",
+        "name": "bunny",
+        "symbol": "HARE",
+        "description": "",
+        "decimals": 0,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/hare.png",
+        "coinGeckoId": ""
     }
 ]
