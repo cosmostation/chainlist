@@ -216,6 +216,29 @@
         }
     },
     {
+        "type": "ibc",
+        "denom": "ibc/CC5268F89C752A4BDCBDAA574AF0A381786FCC839104E077DA9A9145176BF8ED",
+        "name": "EURC",
+        "symbol": "EURC",
+        "description": "EURC via Eureka",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eurc.png",
+        "coinGeckoId": "euro-coin",
+        "ibc_info" : {
+            "path": "ethereum>cosmos>zigchain",
+            "client": {
+                "channel": "channel-4",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1555",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "ibc/5512EB544A275E5375CE4D82233BDAA2D03002E352A9C6B0049175BD368DF10E"
+            }
+        }
+    },
+    {
         "type": "native",
         "denom": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig",
         "name": "Staked Zig",
