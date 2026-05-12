@@ -12,6 +12,17 @@
     },
     {
         "type": "erc20",
+        "contract": "0x0C382e685bbeeFE5d3d9C29e29E341fEE8E84C5d",
+        "name" : "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on Injective-Testnet by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective-testnet/asset/usdc.png",
+        "coinGeckoId": "",
+        "wallet_preload": true
+    },
+    {
+        "type": "erc20",
         "contract": "0x719fF496ddf37C56F2A958676f630f417a4084aa",
         "name" : "Tether",
         "symbol": "USDT",
