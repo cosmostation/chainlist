@@ -68,6 +68,23 @@
       "title": "Stargaze Shutdown",
       "view_detail": "Official Announcement",
       "color": "#BE4ECA"
+    },
+    {
+      "id": "2026-05-02-002",
+      "priority": 1,
+      "startAt": "2026-05-12T00:00:00Z",
+      "endAt": "2026-05-16T00:00:00Z",
+      "images": {
+                "extension":
+                    "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/ad-resource/extension-2026-05-12-002.png",
+                "mobile":
+                    "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/ad-resource/mobile-2026-05-12-002.webp"
+      },
+            "linkUrl":
+                "https://x.com/ux_xyz/status/2039031451111330264",
+      "title": "UX Shutdown",
+      "view_detail": "Official Announcement",
+      "color": "#7B58B7"
     }
   ]
 }
