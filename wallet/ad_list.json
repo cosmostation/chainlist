@@ -51,6 +51,23 @@
       "title": "Coreum is now $TX",
       "view_detail": "Learn More",
       "color": "#89C400"
+    },
+    {
+      "id": "2026-05-02-001",
+      "priority": 1,
+      "startAt": "2026-05-12T00:00:00Z",
+      "endAt": "2026-06-15T19:00:00Z",
+      "images": {
+                "extension":
+                    "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/ad-resource/extension-2026-05-12-001.png",
+                "mobile":
+                    "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/ad-resource/mobile-2026-05-12-001.webp"
+      },
+            "linkUrl":
+                "https://x.com/StargazeZone/status/2052311988362220026",
+      "title": "Stargaze Shutdown",
+      "view_detail": "Official Announcement",
+      "color": "#BE4ECA"
     }
   ]
 }
