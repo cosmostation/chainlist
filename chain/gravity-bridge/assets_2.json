@@ -467,5 +467,28 @@
                 "contract": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5B7B34C07642FAEAC81C04C488D5D622D7900600A9B37426EB0FA0B4D30AA9CE",
+        "name" : "Althea",
+        "symbol": "ALTHEA",
+        "description": "Althea Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/althea/asset/althea.png",
+        "coinGeckoId": "althea",
+        "ibc_info" : {
+            "path": "althea>gravity-bridge",
+            "client" : {
+                "channel": "channel-168",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-0",
+                "port": "transfer",
+                "chain": "althea",
+                "denom": "aalthea"
+            }
+        }
     }
 ]
