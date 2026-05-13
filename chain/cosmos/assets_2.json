@@ -906,26 +906,6 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/72607FA54BC78D6948403155FB5D99EA4405C905060ECAA55E6F0CF5E5204D77",
-        "name": "USD Coin",
-        "symbol": "USDC",
-        "description": "USD Coin via Eureka",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
-        "coinGeckoId": "usd-coin",
-        "ibc_info" : {
-            "path": "ethereum>cosmos",
-            "counterparty": {
-                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
-                "channel": "cosmoshub-0",
-                "port": "transfer",
-                "chain": "ethereum",
-                "denom": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
-            }
-        }
-    },
-    {
-        "type": "ibc",
         "denom": "ibc/D742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462",
         "name": "Wrapped Bitcoin",
         "symbol": "WBTC",
