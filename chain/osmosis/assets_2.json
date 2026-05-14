@@ -189,29 +189,6 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/105737ABD063B251A254845B002EB6ADD69F17EBF12F1E93FA1CA071BCBB2980",
-        "name": "Injective",
-        "symbol": "USDC",
-        "description": "USD Coin - Directly minted on Injective by the Circle Foundation",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/usdc.png",
-        "coinGeckoId": "usd-coin",
-        "ibc_info": {
-            "path": "injective>cosmos>osmosis",
-            "client": {
-                "channel": "channel-0",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-141",
-                "port": "transfer",
-                "chain": "cosmos",
-                "denom": "ibc/E107DB3E8AABB49C87CB737A1ABBFDBA9803ECAE05E295D8D7A0B1A7FE83706C"
-            }
-        }
-    },
-    {
-        "type": "ibc",
         "denom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
         "name": "Cronos POS Chain",
         "symbol": "CRO",
