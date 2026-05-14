@@ -11,6 +11,16 @@
         "color": "#7E72F7"
     },
     {
+        "type": "native",
+        "denom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on Injective by the Circle Foundation",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+    },
+    {
         "type": "ibc",
         "denom": "ibc/AC87717EA002B0123B10A05063E69BCA274BA2C44D842AEEB41558D2856DCE93",
         "name": "Stride Staked INJ",
