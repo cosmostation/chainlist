@@ -1727,5 +1727,28 @@
                 "denom": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5CF697413DE79A9340E8B77A278FEBF6ACD17CB22DAAF758841959A8D69A2859",
+        "name" : "Islamic Coin",
+        "symbol": "ISLM",
+        "description": "The native EVM, governance and staking token of the Haqq Network",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/haqq/asset/islm.png",
+        "coinGeckoId": "islamic-coin",
+        "ibc_info" : {
+            "path": "haqq>cosmos",
+            "client" : {
+                "channel": "channel-632",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "haqq",
+                "denom": "aISLM"
+            }
+        }
     }
 ]
