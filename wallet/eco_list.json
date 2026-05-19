@@ -4327,6 +4327,18 @@
             "discord": "https://discord.com/invite/naddotfun"
         },
         "type": "DashBoard"
+    },
+    {
+        "id": 248,
+        "name": "TXDex",
+        "description": "Decentralized exchange on TX.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/txdex.png",
+        "link": "https://txdex.live",
+        "chains": [
+            "coreum"
+        ],
+        "socials": {},
+        "type": "DEX"
     }
 ]
  
