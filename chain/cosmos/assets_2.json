@@ -1709,6 +1709,16 @@
         "coinGeckoId": ""
     },
     {
+        "type": "native",
+        "denom": "factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether",
+        "name": "Nether",
+        "symbol": "NTHR",
+        "description": "Utility token of the Underworld NFT ecosystem on Cosmos Hub. Soft-staking rewards via NecroVault. Fixed supply: 21,000.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/nthr.png",
+        "coinGeckoId": ""
+    },
+    {
         "type": "ibc",
         "denom": "ibc/5512EB544A275E5375CE4D82233BDAA2D03002E352A9C6B0049175BD368DF10E",
         "name": "EURC",
