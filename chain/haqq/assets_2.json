@@ -12,6 +12,16 @@
     },
     {
         "type": "native",
+        "denom": "aHAQQ",
+        "name" : "HAQQ Coin",
+        "symbol": "HAQQ",
+        "description": "HAQQ is the ecosystem token of the Haqq ecosystem",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/haqq/asset/haqq.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "native",
         "denom": "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
         "name" : "Deenar",
         "symbol": "DEEN",
