@@ -127,9 +127,32 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/0FAD9288E24D86A0F919A2EF537C689DF574F393E5AF0660F08115573AB0F692",
+        "name": "Sentinel",
+        "symbol": "P2P",
+        "description": "P2P on the Cosmos Hub",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/asset/dvpn.png",
+        "coinGeckoId": "sentinel",
+        "ibc_info" : {
+            "path": "sentinel>cosmos",
+            "client" : {
+                "channel": "channel-1549",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-97",
+                "port": "transfer",
+                "chain": "sentinel",
+                "denom": "udvpn"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/42E47A5BA708EBE6E0C227006254F2784E209F4DBD3C6BB77EDC4B29EF875E8E",
         "name" : "Sentinel",
-        "symbol": "P2P",
+        "symbol": "P2P(Legacy)",
         "description": "Sentinel Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sentinel/asset/dvpn.png",
@@ -1606,26 +1629,6 @@
                 "port": "transfer",
                 "chain": "ethereum",
                 "denom": "0x6b7de496080e26ee8567a60b7b823b7e28ebe224"
-            }
-        }
-    },
-    {
-        "type": "ibc",
-        "denom": "ibc/0FAD9288E24D86A0F919A2EF537C689DF574F393E5AF0660F08115573AB0F692",
-        "name": "Sentinel",
-        "symbol": "P2P",
-        "description": "P2P on the Cosmos Hub",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/dvpn.png",
-        "coinGeckoId": "sentinel",
-        "ibc_info" : {
-            "path": "ethereum>cosmos",
-            "counterparty": {
-                "ICS20ContractAddress": "0xa348cfe719b63151f228e3c30eb424ba5a983012",
-                "channel": "cosmoshub-0",
-                "port": "transfer",
-                "chain": "ethereum",
-                "denom": "0x7DCc0A436D819BB5c6BDe4f286e82d79e492EA98"
             }
         }
     },
