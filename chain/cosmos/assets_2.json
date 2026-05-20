@@ -1750,5 +1750,28 @@
                 "denom": "aISLM"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C9FAE8B64B5A023AFAF1E041513139394BD51190BC03E61668C2A2D6CD5D3767",
+        "name" : "HAQQ Coin",
+        "symbol": "HAQQ",
+        "description": "HAQQ is the ecosystem token of the Haqq ecosystem",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/haqq/asset/haqq.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "haqq>cosmos",
+            "client" : {
+                "channel": "channel-632",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "haqq",
+                "denom": "aHAQQ"
+            }
+        }
     }
 ]
