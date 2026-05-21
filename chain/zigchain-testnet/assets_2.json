@@ -9,5 +9,74 @@
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain-testnet/asset/zig.png",
         "coinGeckoId": "",
         "color": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/5260516290F7883EC893AADA09A6B8CEC790F2EEF3196F440037908749785BE8",
+        "name": "USDC",
+        "symbol": "USDC",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "",
+        "ibc_info": {
+            "path": "noble-testnet>zigchain-testnet",
+            "client": {
+                "channel": "channel-44",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-704",
+                "port": "transfer",
+                "chain": "noble-testnet",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/2CC0B1B7A981ACC74854717F221008484603BB8360E81B262411B0D830EDE9B0",
+        "name": "Axelar Testnet",
+        "symbol": "AXL",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
+        "coinGeckoId": "",
+        "ibc_info": {
+            "path": "axelar-testnet>zigchain-testnet",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-612",
+                "port": "transfer",
+                "chain": "axelar-testnet",
+                "denom": "uaxl"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/EA01FA33D74B1DEC1E7A554581A6D2B0814D871EAA1ABEFD185FDCC50EA633FD",
+        "name": "Cosmos Hub Provider",
+        "symbol": "ATOM",
+        "description": "",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "",
+        "ibc_info": {
+            "path": "cosmos-testnet>zigchain-testnet",
+            "client": {
+                "channel": "channel-433",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-566",
+                "port": "transfer",
+                "chain": "cosmos-testnet",
+                "denom": "uatom"
+            }
+        }
     }
 ]
