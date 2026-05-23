@@ -59,5 +59,18 @@
 	    "status": "open",
 	    "thumbnail" : "validatorinfo",
 	    "link": "https://validatorinfo.com/networks/cosmoshub/overview"
-	  }
+	},
+	{
+        "name": "ATOM Circuit",
+        "type": "IBC, Swap, Staking",
+        "description": "Swap fees buy ATOM. Staked forever. Creates continuous buy pressure.",
+        "status": "open",
+        "thumbnail": "atomcircuit",
+        "link": "https://atomcircuit.net",
+        "social": {
+            "webSite": "https://cosmosrescue.com",
+            "twitter": "https://x.com/cosmosrescue",
+            "docs": "https://docs.atomcircuit.net"
+        }
+    }
 ]
