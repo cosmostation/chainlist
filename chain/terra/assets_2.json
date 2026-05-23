@@ -756,7 +756,7 @@
         "symbol": "ETH",
         "description": "Ethereum IBC'd to Terra through Gaia's Eureka connection.",
         "decimals": 18,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-blue.svg",
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/eth.png",
         "coinGeckoId": "ethereum",
         "ibc_info" : {
             "path": "ethereum>cosmos>terra",
