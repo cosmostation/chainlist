@@ -728,6 +728,29 @@
     },
     {
         "type": "ibc",
+        "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+        "name" : "PAXG (Eureka)",
+        "symbol": "WBTC",
+        "description": "Digital gold IBC'd to Terra through Gaia's Eureka connection to Ethereum.",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/paxg.png",
+        "coinGeckoId": "pax-gold",
+        "ibc_info" : {
+            "path": "ethereum>cosmos>terra",
+            "client" : {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-339",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "transfer/08-wasm-1369/0x45804880de22913dafe09f4980848ece6ecbaf78"
+            }
+        }
+    },
+    {
+        "type": "ibc",
         "denom": "ibc/20850C646CDDDC2270E9BBDB08558B5FEE57B647EC6827F41096AABFD8A0471B",
         "name" : "Ethereum (Eureka)",
         "symbol": "ETH",
