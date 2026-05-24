@@ -168,7 +168,7 @@
   {
     "name": "Stargate Finance",
     "type": "Transport",
-    "description": "LayerZero liquidity bridge for native USDT transfers in and out of Cosmos via Kava.",
+    "description": "LayerZero liquidity bridge for USDT transfers in and out of Cosmos via Kava.",
     "status": "open",
     "thumbnail" : "stargate",
     "link": "https://stargate.finance/bridge?srcChain=bsc&srcToken=0x55d398326f99059fF775485246999027B3197955&dstChain=kava&dstToken=0x919C1c267BC06a7039e03fcc2eF738525769109c",
@@ -183,7 +183,7 @@
   {
     "name": "Noble Express",
     "type": "Transport",
-    "description": "Alternative to Skip Go for CCTP transfers.",
+    "description": "Alternative to Skip Go for Noble USDC transfers.",
     "status": "open",
     "thumbnail" : "noble-express",
     "link": "https://express.noble.xyz/transfer?origin=solana&destination=terra2",
@@ -197,7 +197,7 @@
   {
     "name": "WAN Bridge",
     "type": "Transport",
-    "description": "Another alternative for USDC/USDT transfers in and out of Cosmos, developped by Wanchain."
+    "description": "Another alternative for stablecoin transfers in and out of Cosmos, developped by Wanchain."
     "status": "open",
     "thumbnail" : "wanchain",
     "link": "https://bridge.wanchain.org/AssetBridge",
