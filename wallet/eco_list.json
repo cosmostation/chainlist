@@ -4339,6 +4339,22 @@
         ],
         "socials": {},
         "type": "DEX"
+    },
+    {
+        "id": 249,
+        "name": "Dezswap",
+        "description": "Dezswap is a decentralized trading protocol for Web3, enabling users to swap tokens directly on-chain. It provides a simple DeFi interface for token swaps and liquidity access.",
+        "thumbnail" : "https://raw.githubusercontent.com/cosmostation/chainlist/master/wallet/resource/dezswap.png",
+        "link": "https://app.dezswap.io/?chainname=xpla",
+        "chains": [
+            "xpla"
+        ],
+        "socials": {
+            "github": "https://github.com/dezswap",
+            "twitter": "https://x.com/dezswap_io",
+            "discord": "https://discord.com/invite/ZQ2ps5H64t"
+        },
+        "type": "DEX"
     }
 ]
  
