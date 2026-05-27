@@ -1,0 +1,22 @@
+[
+    {
+        "type": "erc20",
+        "contract": "0x26D086423f64d339481f379F8988004B4fcaB093",
+        "name": "Idle Ninja Online Token",
+        "symbol": "NINKY",
+        "description": "Idle Ninja Online Token",
+        "decimals": 18,
+        "image": "https://assets.xpla.io/icon/evm/xNINKY.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "erc20",
+        "contract": "0x14f5f510B42D371352c605c0c1B972409b82c0F6",
+        "name": "Token USDC",
+        "symbol": "mUSDC",
+        "description": "Token USDC",
+        "decimals": 18,
+        "image": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+        "coinGeckoId": ""
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "type": "cw20",
+        "contract": "xpla1hz3svgdhmv67lsqlduu0tcnd3f75c0xr0mu48l6ywuwlz43zssjqc0z2h4",
+        "name": "ELX",
+        "symbol": "ELX",
+        "description": "ELX",
+        "decimals": 6,
+        "image": "https://assets.xpla.io/icon/ELX.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1r57m20afwdhkwy67520p8vzdchzecesmlmc8k8w2z7t3h9aevjvs35x4r5",
+        "name": "CTX Token",
+        "symbol": "CTXT",
+        "description": "CTX Token",
+        "decimals": 6,
+        "image": "https://assets.xpla.io/icon/CTXT.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1ddstvl38skwpm284gfaqukn3e8c4mlf26mssy5hppeq6ar2nnw0sr8vh6m",
+        "name": "C2X LCT Token",
+        "symbol": "LCT",
+        "description": "C2X LCT Token",
+        "decimals": 6,
+        "image": "https://assets.xpla.io/icon/LCT.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1hdnu502uecmddk9w48kxvekgp43mjdpr3mza9kj2tfvjpgef5grszl8rur",
+        "name": "C2X CST Token",
+        "symbol": "CST",
+        "description": "C2X CST Token",
+        "decimals": 6,
+        "image": "https://assets.xpla.io/icon/CST.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1qnynuzvl2a5nzxtrhjhw20h0mf7u6tarcuqveqd0qzp7322n5rqsl2jdcu",
+        "name": "C2X BST Token",
+        "symbol": "BST",
+        "description": "C2X BST Token",
+        "decimals": 6,
+        "image": "https://assets.xpla.io/icon/BST.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla19377ce3k2893s98xp58vg0jtgtvj5qv405y36l4wf4z2xhnjwh6sd8pvxr",
+        "name": "C2X KRX Token",
+        "symbol": "KRX",
+        "description": "C2X KRX Token",
+        "decimals": 6,
+        "image": "https://assets.xpla.io/icon/KRX.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1r8td9cjggx9f5ek2gzfh34kguxuz5j9rfjemamvjw2he2y84t3xqf3lte4",
+        "name": "C2X ILT Token",
+        "symbol": "ILT",
+        "description": "C2X ILT Token",
+        "decimals": 6,
+        "image": "https://assets.xpla.io/icon/ILT.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1dhmd8lredr9psu4afk8j3lstdg896pme49mje6maxucuuugmmptsf64vgw",
+        "name": "C2X LCT Fancard",
+        "symbol": "LCTfancard",
+        "description": "C2X LCT Fancard",
+        "decimals": 0,
+        "image": "https://assets.xpla.io/icon/LCTfancard.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1rkwdu9kskn97dn6ahmm5gsra2jluzd53muqfth9ly0upu0wa2exq65yxqe",
+        "name": "C2X CST Fancard",
+        "symbol": "CSTfancard",
+        "description": "C2X CST Fancard",
+        "decimals": 0,
+        "image": "https://assets.xpla.io/icon/CSTfancard.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1379zqdvfjcv3sd0w2zhkvtlc0au5yy4htad6fec92c09rpptd6lsrjy026",
+        "name": "C2X BST Fancard",
+        "symbol": "BSTfancard",
+        "description": "C2X BST Fancard",
+        "decimals": 0,
+        "image": "https://assets.xpla.io/icon/BSTfancard.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla17sxcqvz6vh7nqsj5kantv5x86pj0wc4slh50j9ek60pyjg5tym2qh7zc4z",
+        "name": "C2X KRX Fancard",
+        "symbol": "KRXfancard",
+        "description": "C2X KRX Fancard",
+        "decimals": 0,
+        "image": "https://assets.xpla.io/icon/KRXfancard.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1lgprt38gkp4nvggjl0dm0e7k5lgd80e525f8rjg60tc6fk2xexcq4efyht",
+        "name": "C2X ILT Fancard",
+        "symbol": "ILTfancard",
+        "description": "C2X ILT Fancard",
+        "decimals": 0,
+        "image": "https://assets.xpla.io/icon/ILTfancard.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1he85n9h0mcnzhpegj76wwcyjv626tced0zkp58wakjc7d3fm50xq8sywg6",
+        "name": "AFC",
+        "symbol": "AFC",
+        "description": "AFC",
+        "decimals": 6,
+        "image": "https://assets.xpla.io/icon/AFC.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1u8rwa88r03ss5z66s7hc63z0enzvl2c0pr6js7e3k6kvqkyu3exsuxqppx",
+        "name": "WalkMining Governance",
+        "symbol": "WKG",
+        "description": "WalkMining Governance",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/walkmining/assets/main/symbol/symbol_wkg.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla15efamttpxctuvjwwvqvyndd0twdxenjexv3mhdas90ejk23w9ucstnhtnl",
+        "name": "JAM",
+        "symbol": "JAMC",
+        "description": "JAM",
+        "decimals": 6,
+        "image": "https://gateway.irys.xyz/Sc-x7jQ_DTwWPuLYeu8COEciQ96dcYB192PaWj3paxU",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1r9x3twf2yymczynm0zs39frqxqr60nk9e22f54gq3n394mf2r2rqsuaug5",
+        "name": "Diamond",
+        "symbol": "XPDIA",
+        "description": "Diamond",
+        "decimals": 6,
+        "image": "https://gateway.irys.xyz/uQxKwqE-srILH3ZydRdYPG2o055LX-6dex1RYppU5q8",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1j9t7adu5gjfc7y4langvc8acnwp50rfashlnefsuhq6xfysn2upsgqjf43",
+        "name": "Xpla Doge",
+        "symbol": "XDOGE",
+        "description": "Xpla Doge",
+        "decimals": 6,
+        "image": "https://gateway.irys.xyz/T2C7ViiqFzdG1b1qabvHCd2Hz6uLeC32Ir1CxVFdxyI",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla15jugk3w42q4a06df4p4tfqx5jnlrk2rg0c3sqj3ch0nhwyhj28ysyn8ckk",
+        "name": "Window XP",
+        "symbol": "WXP",
+        "description": "Window XP",
+        "decimals": 6,
+        "image": "https://gateway.irys.xyz/UL4OB4-zCC9HxNpftquORQ33jzjM-Z-4FxLOY8-XghM",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla17zszj94qllctx2ne80uuvv80drxa626rg2dtakvzakevql85g9jslcwxpl",
+        "name": "Jammin",
+        "symbol": "JAMM",
+        "description": "Jammin",
+        "decimals": 6,
+        "image": "https://gateway.irys.xyz/FF4H18aVIokj4xbrOpoSPJvWiYq80SH9h92zEeX4X-0",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1ntcqdnhzhjwn79da5cykqudxddkc4z75rfxtgs0ccs7eqfw2feyqj448pq",
+        "name": "HAVAH Token",
+        "symbol": "HVH",
+        "description": "HAVAH Token",
+        "decimals": 18,
+        "image": "https://assets.xpla.io/icon/HVH.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla1dkxavzhwgk0q3qv38aszy53mj3w9xhurgwvdgh7f57yf7crp9s3qhu5qrx",
+        "name": "iUPPITER Point Token",
+        "symbol": "pIUP",
+        "description": "iUPPITER Point Token",
+        "decimals": 6,
+        "image": "https://assets.iuppiter.io/assets/images/iup_token_logo.svg",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla10804823gxas3d9g8knrutvzkkz92m2ctvsafnan8zw6cqa6sd47qfdg9k8",
+        "name": "iUP",
+        "symbol": "iUP",
+        "description": "iUP",
+        "decimals": 6,
+        "image": "https://assets.iuppiter.io/assets/images/iup_token_image_500X500.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla153sv2qq5ytw2c9hhavf33gu069u8cp42t32vu8qtvgfjndra72msqc6hne",
+        "name": "Stardust",
+        "symbol": "STARDUST",
+        "description": "Stardust",
+        "decimals": 18,
+        "image": "https://assets.xpla.io/icon/STARDUST.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "xpla13l8yr0j5cj72q0y3nty7qzfmezsrjgw64gkaqzt8ahaknz3f06wsekwc3p",
+        "name": "BATCH Token",
+        "symbol": "BATCH",
+        "description": "BATCH Token",
+        "decimals": 18,
+        "image": "https://assets.xpla.io/icon/BATCH.png",
+        "coinGeckoId": ""
+    }
+]
