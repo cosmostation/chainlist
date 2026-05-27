@@ -7,7 +7,7 @@
         "description": "XPLA Staking Coin",
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xpla/asset/xpla.png",
-        "coinGeckoId": "conx",
+        "coinGeckoId": "xpla",
         "color": "#00B1FF"
     },
     {
@@ -18,7 +18,7 @@
         "description": "Circle's stablecoin on Axelar",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
-        "coinGeckoId": "axelar-bridged-usdc",
+        "coinGeckoId": "axlusdc",
         "ibc_info": {
             "path": "ethereum>axelar>xpla",
             "client": {
@@ -41,7 +41,7 @@
         "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
-        "coinGeckoId": "noble-usdc",
+        "coinGeckoId": "ibc-bridged-usdc",
         "ibc_info": {
             "path": "noble>xpla",
             "client": {
@@ -64,7 +64,7 @@
         "description": "Cosmoshub Staking Coin",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
-        "coinGeckoId": "cosmos-hub",
+        "coinGeckoId": "cosmos",
         "ibc_info": {
             "path": "cosmos>xpla",
             "client": {
