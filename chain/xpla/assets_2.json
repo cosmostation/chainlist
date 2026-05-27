@@ -2,7 +2,7 @@
     {
         "type": "native",
         "denom": "axpla",
-        "name" : "Xpla",
+        "name": "Xpla",
         "symbol": "XPLA",
         "description": "XPLA Staking Coin",
         "decimals": 18,
@@ -19,9 +19,9 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ethereum/asset/usdc.png",
         "coinGeckoId": "axlusdc",
-        "ibc_info" : {
+        "ibc_info": {
             "path": "ethereum>axelar>xpla",
-            "client" : {
+            "client": {
                 "channel": "channel-0",
                 "port": "transfer"
             },
@@ -30,6 +30,52 @@
                 "port": "transfer",
                 "chain": "axelar",
                 "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/FC6C34533ECF1AAD296E41A70D8F16089E90D436904B56EDE19342D6DE172B82",
+        "name": "Noble USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "ibc-bridged-usdc",
+        "ibc_info": {
+            "path": "noble>xpla",
+            "client": {
+                "channel": "channel-16",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-255",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C09A0FFBA11313A32D42A58D820190E71E9D0D5AB3E841C0391EB9A623E07F4B",
+        "name": "Cosmoshub ATOM Coin",
+        "symbol": "ATOM",
+        "description": "Cosmoshub Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info": {
+            "path": "cosmos>xpla",
+            "client": {
+                "channel": "channel-6",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-533",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
             }
         }
     }

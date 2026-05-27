@@ -33,15 +33,22 @@
     "cosmos_fee_info" : {
         "base" : "0",
         "rate" : [
-            "850000000000axpla",
-            "1147500000000axpla"
+            "280000000000axpla"
         ],
         "is_simulable" : true,
         "simulated_gas_multiply" : 1.2,
         "init_gas_limit" : 300000,
         "fee_threshold" : ""
     },
+    "evm_fee_info" : {
+        "is_eip1559": true,
+        "simulated_gas_multiply" : 1.2
+    },
     "grpc_endpoint" : [
+        {
+            "provider": "Holdings",
+            "url": "dimension-grpc.xpla.dev:443"
+        }
     ],
     "lcd_endpoint" : [
         {
@@ -67,12 +74,12 @@
         "proposal": "https://www.mintscan.io/xpla/proposals/${id}"
     },
     "about" : {
-        "website" : "https://xpla.io/",
+        "website" : "https://conx.xyz/",
         "docs": "https://docs.xpla.io/",
         "github" : "https://github.com/xpladev",
-        "medium": "https://medium.com/@XPLA_Official",
-        "twitter" : "https://twitter.com/XPLA_Official",
-        "coingecko" : "https://www.coingecko.com/en/coins/xpla"
+        "medium": "https://medium.com/@Official_CONX",
+        "twitter" : "https://x.com/Official_CONX",
+        "coingecko" : "https://www.coingecko.com/en/coins/conx"
     },
     "description" : {
         "ko" : "XPLA는 코스모스 SDK를 통해 구축되고 EVM 호환가능한 게임 미디어 콘텐츠 중심의 L1입니다.",
