@@ -9,8 +9,8 @@
     "bech_validator_prefix" : "comdexvaloper",
     "origin_genesis_time" : "2021-11-20T14:00:00Z",
     "api_name" : "comdex",
-    "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": true,
+    "is_support_mobile_wallet": false,
+    "is_support_extension_wallet": false,
     "chain_type": [
         "cosmos"
     ],
@@ -35,10 +35,6 @@
     "grpc_endpoint" : [
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Polkachu",
-            "url": "https://comdex-api.polkachu.com/"
-        }
     ],
     "explorer" : {
         "name": "Ping.pub",
