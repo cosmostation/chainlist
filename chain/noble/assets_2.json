@@ -161,5 +161,28 @@
                 "denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz"
             }
         }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/24B0A7A4CD1605DB7E741FCAA2D9476374B072012457C85E5B973691F491287E",
+        "name" : "Zig",
+        "symbol": "ZIG",
+        "description": "The native token of ZigChain",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/zig.png",
+        "coinGeckoId": "zignaly",
+        "ibc_info" : {
+            "path": "zigchain>noble",
+            "client" : {
+                "channel": "channel-175",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-3",
+                "port": "transfer",
+                "chain": "zigchain",
+                "denom": "uzig"
+            }
+        }
     }
 ]

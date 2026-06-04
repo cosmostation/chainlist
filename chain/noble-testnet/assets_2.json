@@ -58,5 +58,28 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble-testnet/asset/usdn.png",
         "coinGeckoId": ""
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/00D8C59ACB5ACA18B842991E964100FA9A5B30B48F44483963F6614DF2463D8E",
+        "name" : "Zig",
+        "symbol": "ZIG",
+        "description": "The native token of ZigChain-Testnet",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/zigchain/asset/zig.png",
+        "coinGeckoId": "",
+        "ibc_info" : {
+            "path": "zigchain-testnet>noble-testnet",
+            "client" : {
+                "channel": "channel-704",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-44",
+                "port": "transfer",
+                "chain": "zigchain-testnet",
+                "denom": "uzig"
+            }
+        }
     }
 ]
