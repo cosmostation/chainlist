@@ -1,0 +1,76 @@
+{
+ "chain_id_cosmos": "thejaynetwork",
+ "chain_name": "The Jay Network",
+ "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/thejaynetwork/resource/chain_thejaynetwork.png",
+ "staking_asset_denom": "ujay",
+ "staking_asset_symbol": "JAY",
+ "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/thejaynetwork/asset/jay.png",
+ "bech_account_prefix": "yjay",
+ "bech_validator_prefix": "yjayvaloper",
+ "origin_genesis_time": "2025-03-15T00:00:00Z",
+ "api_name": "thejaynetwork",
+ "is_support_cw20": true,
+ "is_support_mintscan": false,
+ "is_support_mobile_wallet": false,
+ "is_support_moblie_dapp": false,
+ "is_support_extension_wallet": false,
+ "voting_threshold": 1000000,
+ "chain_type": [
+  "cosmos"
+ ],
+ "account_type": [
+  {
+   "hd_path": "m/44'/118'/0'/0/X",
+   "pubkey_style": "secp256k1",
+   "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+  }
+ ],
+ "cosmos_fee_info": {
+  "base": "0",
+  "rate": [
+   "0.01ujay",
+   "0.025ujay"
+  ],
+  "is_feemarket": false,
+  "is_simulable": true,
+  "simulated_gas_multiply": 1.5,
+  "init_gas_limit": 200000,
+  "fee_threshold": ""
+ },
+ "grpc_endpoint": [
+  {
+   "provider": "The Jay Network",
+   "url": "152.53.195.74:9090"
+  }
+ ],
+ "lcd_endpoint": [
+  {
+   "provider": "The Jay Network",
+   "url": "https://thejaynetwork.com/rest/"
+  },
+  {
+   "provider": "OneNov",
+   "url": "https://api-jay.onenov.xyz/"
+  },
+  {
+   "provider": "Vinjan.Inc",
+   "url": "https://api-jaynetwork.vinjan-inc.com/"
+  }
+ ],
+ "explorer": {
+  "name": "JayScan",
+  "url": "https://jayscan.thejaynetwork.com",
+  "account": "https://jayscan.thejaynetwork.com/account/${address}",
+  "tx": "https://jayscan.thejaynetwork.com/tx/${hash}",
+  "proposal": "https://jayscan.thejaynetwork.com/proposals/${id}"
+ },
+ "about": {
+  "website": "https://thejaynetwork.com",
+  "github": "https://github.com/bbtccore/thejaynetwork",
+  "twitter": "https://x.com/thejaynwk"
+ },
+ "description": {
+  "en": "The Jay Network is a Cosmos SDK-based blockchain with IBC interoperability, CosmWasm smart contracts, and cross-chain connectivity to Cosmos Hub, Celestia, and Injective.",
+  "ko": "The Jay Network는 IBC 상호운용성, CosmWasm 스마트 컨트랙트, Cosmos Hub·Celestia·Injective 크로스체인 연결을 지원하는 Cosmos SDK 기반 블록체인입니다."
+ }
+}

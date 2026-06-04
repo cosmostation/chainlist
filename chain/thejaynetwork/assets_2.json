@@ -1,0 +1,81 @@
+[
+ {
+  "type": "native",
+  "denom": "ujay",
+  "name": "Jay",
+  "symbol": "JAY",
+  "description": "The Jay Network Staking Coin",
+  "decimals": 6,
+  "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/thejaynetwork/asset/jay.png",
+  "coinGeckoId": ""
+ },
+ {
+  "type": "ibc",
+  "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+  "name": "Cosmos Hub",
+  "symbol": "ATOM",
+  "description": "Cosmos Hub Staking Coin",
+  "decimals": 6,
+  "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+  "coinGeckoId": "cosmos",
+  "ibc_info": {
+   "path": "cosmos>thejaynetwork",
+   "client": {
+    "channel": "channel-1",
+    "port": "transfer"
+   },
+   "counterparty": {
+    "channel": "channel-1871",
+    "port": "transfer",
+    "chain": "cosmos",
+    "denom": "uatom"
+   }
+  }
+ },
+ {
+  "type": "ibc",
+  "denom": "ibc/101B0938079BD4E8E89BD547635F86CCE4406C634E1427FE5226358F4BAD41F4",
+  "name": "Celestia",
+  "symbol": "TIA",
+  "description": "Celestia Staking Coin",
+  "decimals": 6,
+  "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
+  "coinGeckoId": "celestia",
+  "ibc_info": {
+   "path": "celestia>thejaynetwork",
+   "client": {
+    "channel": "channel-2",
+    "port": "transfer"
+   },
+   "counterparty": {
+    "channel": "channel-277",
+    "port": "transfer",
+    "chain": "celestia",
+    "denom": "utia"
+   }
+  }
+ },
+ {
+  "type": "ibc",
+  "denom": "ibc/1C2D8505A29823310B4484E4C63CFDCB08C0D3B57537A615A45F4E5D42CDC789",
+  "name": "Injective",
+  "symbol": "INJ",
+  "description": "Injective Staking Coin",
+  "decimals": 18,
+  "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/injective/asset/inj.png",
+  "coinGeckoId": "injective-protocol",
+  "ibc_info": {
+   "path": "injective>thejaynetwork",
+   "client": {
+    "channel": "channel-3",
+    "port": "transfer"
+   },
+   "counterparty": {
+    "channel": "channel-450",
+    "port": "transfer",
+    "chain": "injective",
+    "denom": "inj"
+   }
+  }
+ }
+]
