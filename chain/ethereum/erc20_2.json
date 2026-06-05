@@ -4868,6 +4868,16 @@
         "decimals": 18,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/althea/asset/althea.png",
         "coinGeckoId": "althea"
+    },
+    {
+        "type": "erc20",
+        "contract": "0xAFb74983668ff5cBE7340cb0DA014D7221c7947e",
+        "name": "HAQQ Coin",
+        "symbol": "HAQQ",
+        "description": "",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/haqq/asset/haqq.png",
+        "coinGeckoId": ""
     }
 ]
 
