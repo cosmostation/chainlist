@@ -2,7 +2,7 @@
     {
         "type": "cw20",
         "contract": "terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2",
-        "name" : "Juris Protocol",
+        "name": "Juris Protocol",
         "symbol": "JURIS",
         "description": "Juris Protocol is a DeFi platform on Terra Classic that offers secure lending and borrowing services.",
         "decimals": 6,
@@ -12,7 +12,7 @@
     {
         "type": "cw20",
         "contract": "terra1x6e64es6yhauhvs3prvpdg2gkqdtfru840wgnhs935x8axr7zxkqzysuxz",
-        "name" : "ALPHA Lunc Universe",
+        "name": "ALPHA Lunc Universe",
         "symbol": "ALPHA",
         "description": "LUNC UNIVERSE is set to become a growing ecosystem within the Luna Classic blockchain.",
         "decimals": 6,
@@ -22,7 +22,7 @@
     {
         "type": "cw20",
         "contract": "terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw",
-        "name" : "GARUDAX",
+        "name": "GARUDAX",
         "symbol": "GRDX",
         "description": "GRDX is a decentralized CW-20 token on Luna Classic blockchain build by Garuda Universe, the native token of Garuda DeFi Protocols and is present on many blockchain. With GRDX Token, users can take part in staking protocol at Garuda DeFi for create staking contract, providing pool rewards and staking on various tokens or NFTs pool by permissionless.",
         "decimals": 6,
@@ -32,7 +32,7 @@
     {
         "type": "cw20",
         "contract": "terra1sl0cgtanapyy449h0hlmt77s8hak7caktvky8t4ct7a7kvjtyyvqzg8rv6",
-        "name" : "BULL LUNC",
+        "name": "BULL LUNC",
         "symbol": "BULL",
         "description": "Bull Token is a deflationary meme token powered by the community and driven by the bullish spirit,",
         "decimals": 6,
@@ -42,7 +42,7 @@
     {
         "type": "cw20",
         "contract": "terra1gzs0926z2u6f2w9afk6ks4z9gkjpac00x60fy9yu903qjjz6nk9qmu5jx3",
-        "name" : "SAIYAN",
+        "name": "SAIYAN",
         "symbol": "SAIYAN",
         "description": "Levelling up LUNC with saiyan mode. Buyback and burn mechanism.",
         "decimals": 6,
@@ -52,7 +52,7 @@
     {
         "type": "cw20",
         "contract": "terra19eytmx0yd3m5udlv7rh6u429g6ddjm2cndwv5cxndcymrztx4krqz9p4t6",
-        "name" : "COFFEE",
+        "name": "COFFEE",
         "symbol": "COFFEE",
         "description": "Bridges real-world coffee shops with blockchain utility.",
         "decimals": 6,
@@ -62,7 +62,7 @@
     {
         "type": "cw20",
         "contract": "terra16hzl7lge3jjnlazvut2ypt7upk68z5dycc9rwy608fah8q0y3fuslkenzc",
-        "name" : "GDEX",
+        "name": "GDEX",
         "symbol": "GDEX",
         "description": "GDEX is an Governance and Investment token on Garuda DeFi, designed to ensures the holders are directly involved in the Garuda Decentralized Exchange (DEX) platform’s development and future.",
         "decimals": 6,
@@ -72,7 +72,7 @@
     {
         "type": "cw20",
         "contract": "terra14rfnhc2aru7jp304lht3yf903necsnrt4cxd464cftsfcksw0rtsgundnt",
-        "name" : "FRG",
+        "name": "FRG",
         "symbol": "FRG",
         "description": "FRG is a native token for FRG ECOSYSTEM",
         "decimals": 6,
@@ -82,11 +82,21 @@
     {
         "type": "cw20",
         "contract": "terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt",
-        "name" : "Lunc Cookie",
+        "name": "Lunc Cookie",
         "symbol": "Cookie",
         "description": "cookie and utility will set us free ",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/garudawork/chainlist/refs/heads/main/chain/terra-classic/asset/cookie.png",
+        "coinGeckoId": ""
+    },
+    {
+        "type": "cw20",
+        "contract": "terra1h9dg99v9nt22zsvd959cjtttmfp8x0paqtuegwecsjd3py2f9mqq5vrss3",
+        "name": "Isotropy Burned LUNC",
+        "symbol": "isLUNC",
+        "description": "Isotropy Burned LUNC (isLUNC) is the BurnToEarn allocation token of Isotropy Protocol on Terra Classic. It is minted as LUNC is burned and allocated to the burning addresses.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra-classic/asset/islunc.png",
         "coinGeckoId": ""
     }
 ]
