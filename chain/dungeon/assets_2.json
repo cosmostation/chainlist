@@ -8,6 +8,121 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dungeon/asset/dgn.png",
         "coinGeckoId": "dragon-coin-2"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/AC72F1D0BF72A358CD9D7E3AC8F868F96EDA9042DE00A72DB4AEA859065B7EB5",
+        "name" : "Osmosis",
+        "symbol": "OSMO",
+        "description": "Osmosis Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
+        "coinGeckoId": "osmosis",
+        "ibc_info" : {
+            "path": "osmosis>dungeon",
+            "client" : {
+                "channel": "channel-5305",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-101249",
+                "port": "transfer",
+                "chain": "osmosis",
+                "denom": "uosmo"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/C3988DBA4BA195F3514EA2E02497B9F66019CE53EFB96D4982CE95CA6A51BBCE",
+        "name" : "Atom",
+        "symbol": "ATOM",
+        "description": "Cosmos Staking Coin",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/atom.png",
+        "coinGeckoId": "cosmos",
+        "ibc_info" : {
+            "path": "cosmos>dungeon",
+            "client" : {
+                "channel": "channel-5308",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-1560",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "uatom"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/489C406A3029B50486F991E468CB8A7D5F039757327A40B0684C530BFF96C543",
+        "name" : "USD Coin",
+        "symbol": "USDC",
+        "description": "USD Coin - Directly minted on the Noble chain by the Circle Foundation.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/noble/asset/usdc.png",
+        "coinGeckoId": "usd-coin",
+        "ibc_info" : {
+            "path": "noble>dungeon",
+            "client" : {
+                "channel": "channel-5307",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-150",
+                "port": "transfer",
+                "chain": "noble",
+                "denom": "uusdc"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/295196BD505E32B9679BA0CFDB70B4FF2AADE80A3B73A2F234284D7A709844DA",
+        "name": "AtomOne",
+        "symbol": "ATONE",
+        "description": "The native staking and governance token of AtomOne",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/asset/atone.png",
+        "coinGeckoId": "atomone",
+        "ibc_info": {
+            "path": "atomone>dungeon",
+            "client": {
+                "channel": "channel-5310",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-9",
+                "port": "transfer",
+                "chain": "atomone",
+                "denom": "uatone"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/BD2C670DB4465BCB862F988EF4FD7595C56AE2ECB9CC9EF14AF7A776091E88AE",
+        "name" : "Photon",
+        "symbol": "PHOTON",
+        "description": "Sole fee token used to pay all transaction fees on the AtomOne network and is minted by burning ATONE tokens.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/atomone/asset/photon.png",
+        "coinGeckoId": "photon-2",
+        "ibc_info": {
+            "path": "atomone>dungeon",
+            "client": {
+                "channel": "channel-5310",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-9",
+                "port": "transfer",
+                "chain": "atomone",
+                "denom": "uphoton"
+            }
+        }
     }
 ]
  
