@@ -33,19 +33,15 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "Silent",
-            "url": "grpc.jackal.silentvalidator.com:443"
+            "provider": "NodeStake",
+            "url": "grpc.jackal.nodestake.org:443"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "jackal-grpc.polkachu.com:17590"
         }
     ],
     "lcd_endpoint" : [
-        {
-            "provider": "Jackal Labs",
-            "url": "https://api.jackalprotocol.com/"
-        },
-        {
-            "provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
-            "url": "https://m-jackal.api.utsa.tech/"
-        },
         {
             "provider": "🔥STAVR🔥",
             "url": "https://jkl.api.m.stavr.tech/"

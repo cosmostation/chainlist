@@ -33,14 +33,22 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "bitcanna",
-            "url": "grpc.bitcanna.io:443"
+            "provider": "Polkachu",
+            "url": "bitcanna-grpc.polkachu.com:13090"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "bitcanna",
-            "url": "https://lcd.bitcanna.io/"
+            "provider": "Arcturian Tech",
+            "url": "https://bcna.api.arcturian.tech/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://bitcanna-api.polkachu.com/"
+        },
+        {
+            "provider": "AlxVoy ⚡ ANODE.TEAM",
+            "url": "https://bitcanna.api.m.anode.team/"
         }
     ],
     "explorer" : {

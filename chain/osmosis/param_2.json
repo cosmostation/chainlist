@@ -38,12 +38,32 @@
         {
             "provider": "Stakin",
             "url": "osmosis.grpc.stakin-nodes.com:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "osmosis.lavenderfive.com:443"
         }
     ],
     "lcd_endpoint" : [
         {
             "provider": "Osmosis Foundation",
             "url": "https://lcd.osmosis.zone/"
+        },
+        {
+            "provider": "Pocket Network",
+            "url": "https://osmosis.api.pocket.network/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-osmosis.ecostake.com/"
+        },
+        {
+            "provider": "Stakewolle",
+            "url": "https://public.stakewolle.com/cosmos/osmosis/rest/"
+        },
+        {
+            "provider": "[NODERS]TEAM",
+            "url": "https://osmosis-api.noders.services/"
         }
     ],
     "explorer" : {

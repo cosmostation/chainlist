@@ -27,10 +27,6 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Nodestake",
-            "url": "https://evmrpc.story.nodestake.org"
-        },
-        {
             "provider": "StoryRPC",
             "url": "https://mainnet.storyrpc.io"
         },

@@ -32,18 +32,14 @@
     },
     "grpc_endpoint" : [
         {
-            "provider": "NodeStake",
-            "url": "grpc.zenrock.nodestake.org:443"
-        },
-        {
             "provider": "Zenrock",
             "url": "grpc.diamond.zenrocklabs.io:443"
         }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "NodeStake",
-            "url": "https://api.zenrock.nodestake.org/"
+            "provider": "🔥STAVR🔥",
+            "url": "https://zenrock.api.m.stavr.tech/"
         }
     ],
     "explorer" : {

@@ -34,11 +34,27 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
+        {
+            "provider": "Rorcual",
+            "url": "grpc-thorchain.rorcual.xyz:443"
+        },
+        {
+            "provider": "IBS",
+            "url": "thorchain.ibs.team:443"
+        }
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Thor Node",
-            "url": "https://thornode.ninerealms.com/"
+            "provider": "Liquify",
+            "url": "https://gateway.liquify.com/chain/thorchain_api/"
+        },
+        {
+            "provider": "IBS",
+            "url": "https://thorchain.ibs.team/api/"
+        },
+        {
+            "provider": "Rorcual",
+            "url": "https://api-thorchain.rorcual.xyz/"
         }
     ],
     "explorer" : {
