@@ -37,8 +37,20 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "Grove",
-            "url": "https://shannon-grove-api.mainnet.poktroll.com/"
+            "provider": "Polkachu",
+            "url": "https://pocket-api.polkachu.com:443/"
+        },
+        {
+            "provider": "Pocket Network",
+            "url": "https://pocket.api.pocket.network:443/"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "https://api.pocket.chaintools.tech:443/"
+        },
+        {
+            "provider": "Pocket Network",
+            "url": "https://sauron-api.infra.pocket.network:443/"
         }
     ],
     "explorer" : {

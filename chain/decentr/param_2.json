@@ -5,6 +5,37 @@
         "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/decentr/resource/chain_decentr.png",
     "staking_asset_denom": "udec",
     "staking_asset_symbol": "DEC",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/decentr/asset/dec.png",
+    "bech_account_prefix": "decentr",
+    "bech_validator_prefix": "decentrvaloper",
+    "origin_genesis_time": "2021-01-14T15:00:00Z",
+    "api_name": "decentr",
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+            "0.025udec"
+        ],
+        "is_feemarket": true,
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+    ],
     "lcd_endpoint": [
         {
             "provider": "ChainTools",
@@ -14,5 +45,26 @@
             "provider": "🔥STAVR🔥",
             "url": "https://decentr.api.m.stavr.tech/"
         }
-    ]
+    ],
+    "explorer": {
+        "name": "STAVR",
+        "url": "https://explorer.stavr.tech/Decentr-Mainnet",
+        "account": "https://explorer.stavr.tech/Decentr-Mainnet/account${address}",
+        "tx": "https://explorer.stavr.tech/Decentr-Mainnet/tx${hash}",
+        "proposal": "https://explorer.stavr.tech/Decentr-Mainnet/gov/${id}"
+    },
+    "about": {
+        "website": "https://decentr.net",
+        "docs": "https://docs.cosmos.network",
+        "github": "https://github.com/Decentr-net/decentr",
+        "blog": "",
+        "medium": "https://decentrnet.medium.com",
+        "twitter": "https://x.com/DecentrNet",
+        "coingecko": ""
+    },
+    "description": {
+        "ko": "Decentr는 사용자의 데이터 주권과 프라이버시 보호를 목표로 하는 Cosmos 기반 블록체인 프로젝트입니다. 자체 브라우저/소프트웨어를 통해 보안 브라우징, 데이터 관리, DeFi 기능을 제공하며 네이티브 토큰은 DEC입니다.",
+        "en": "Decentr is a Cosmos-based blockchain project focused on user data sovereignty and privacy protection. Through its own browser/software, it provides secure browsing, data management, and DeFi features, with DEC as its native token.",
+        "ja": "Decentrは、ユーザーのデータ主権とプライバシー保護を目的としたCosmosベースのブロックチェーンプロジェクトです。 独自のブラウザ/ソフトウェアを通じて、安全なブラウジング、データ管理、DeFi機能を提供しており、ネイティブトークンはDECです。"
+    }
 }
