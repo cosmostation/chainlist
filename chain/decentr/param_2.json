@@ -49,8 +49,8 @@
     "explorer": {
         "name": "STAVR",
         "url": "https://explorer.stavr.tech/Decentr-Mainnet",
-        "account": "https://explorer.stavr.tech/Decentr-Mainnet/account${address}",
-        "tx": "https://explorer.stavr.tech/Decentr-Mainnet/tx${hash}",
+        "account": "https://explorer.stavr.tech/Decentr-Mainnet/account/${address}",
+        "tx": "https://explorer.stavr.tech/Decentr-Mainnet/tx/${hash}",
         "proposal": "https://explorer.stavr.tech/Decentr-Mainnet/gov/${id}"
     },
     "about": {

@@ -5,14 +5,80 @@
         "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/symphony/resource/chain_symphony.png",
     "staking_asset_denom": "note",
     "staking_asset_symbol": "MLD",
-    "lcd_endpoint": [
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/symphony/asset/mld.png",
+    "bech_account_prefix": "symphony",
+    "bech_validator_prefix": "symphonyvaloper",
+    "origin_genesis_time": "2025-06-24T18:18:47Z",
+    "api_name": "symphony",
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
         {
-            "provider": "Citizen Web3",
-            "url": "https://api.symphony.citizenweb3.com/"
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+            "0.00025note",
+            "0.0025note",
+            "0.004note"
+        ],
+        "is_feemarket": true,
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "Cogwheel ⚙️",
+            "url": "symphony-grpc.cogwheel.zone:443"
         },
         {
             "provider": "Vinjan.Inc",
-            "url": "https://api-m.symphony.vinjan-inc.com/"
+            "url": "grpc-m.symphony.vinjan-inc.com:21090"
         }
-    ]
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "Vinjan.Inc",
+            "url": "https://api-m.symphony.vinjan-inc.com/"
+        },
+        {
+            "provider": "Sr20de",
+            "url": "https://api-symphony.sr20de.xyz/"
+        },
+        {
+            "provider": "Cogwheel ⚙️",
+            "url": "https://symphony-api.cogwheel.zone/"
+        }
+    ],
+    "explorer": {
+        "name": "Vinjan.Inc",
+        "url": "https://explorer.vinjan-inc.com/symphony",
+        "account": "https://explorer.vinjan-inc.com/symphony/account/${address}",
+        "tx": "https://explorer.vinjan-inc.com/symphony/tx/${hash}",
+        "proposal": "https://explorer.vinjan-inc.com/symphony/gov/${id}"
+    },
+    "about": {
+        "website": "https://orchestralabs.org/",
+        "docs": "",
+        "github": "https://github.com/Orchestra-Labs/symphony",
+        "blog": "",
+        "medium": "https://medium.com/@orchestra_labs",
+        "twitter": "https://x.com/orchestra_labs",
+        "coingecko": ""
+    },
+    "description": {
+        "ko": "Symphony는 다양한 법정화폐 기반 스테이블코인을 지원하는 Cosmos 기반 블록체인입니다.",
+        "en": "Symphony is a Cosmos-based blockchain that supports stablecoins backed by various fiat currencies.",
+        "ja": "Symphonyは、さまざまな法定通貨に裏付けられたステーブルコインをサポートするCosmosベースのブロックチェーンです。"
+    }
 }
