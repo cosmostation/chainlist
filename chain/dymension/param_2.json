@@ -38,20 +38,8 @@
         "fee_threshold" : ""
     },
     "grpc_endpoint" : [
-        {
-            "provider": "silent",
-            "url": "grpc.dymension.silentvalidator.com:443"
-        }
     ],
     "evm_rpc_endpoint" : [
-        {
-            "provider": "NodeStake",
-            "url": "https://jsonrpc.dymension.nodestake.org"
-        },
-        {
-            "provider": "PublicNode",
-            "url": "https://dymension-evm-rpc.publicnode.com"
-        },
         {
             "provider": "Drpc",
             "url": "https://dymension.drpc.org"
@@ -59,12 +47,16 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "NodeStake",
-            "url": "https://api.dymension.nodestake.org/"
-        },
-        {
             "provider": "lesnik | UTSA",
             "url": "https://m-dymension.api.utsa.tech/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://dymension.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Bro_n_Bro",
+            "url": "https://lcd.dymension.bronbro.io:443/"
         }
     ],
     "explorer" : {

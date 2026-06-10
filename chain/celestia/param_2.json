@@ -36,16 +36,8 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "NodeStake",
-            "url": "https://api.celestia.nodestake.org/"
-        },
-        {
             "provider": "itrocket",
             "url": "https://celestia-mainnet-api.itrocket.net/"
-        },
-        {
-            "provider": "Lunar Oasis",
-            "url": "https://api.lunaroasis.net/"
         },
         {
             "provider": "[NODERS]TEAM",
