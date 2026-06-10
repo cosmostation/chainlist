@@ -41,12 +41,12 @@
     ],
     "lcd_endpoint" : [
         {
-            "provider": "StakerHouse",
-            "url": "https://assetmantle-rest.stakerhouse.com/"
+            "provider": "Polkachu",
+            "url": "https://assetmantle-api.polkachu.com/"
         },
         {
             "provider": "Polkachu",
-            "url": "https://assetmantle-api.polkachu.com/"
+            "url": "https://mantle-lcd.dungeon.games/"
         }
     ],
     "explorer" : {
