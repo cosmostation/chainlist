@@ -42,19 +42,11 @@
             "url": "grpc.bitway.com:443"
         },
         {
-            "provider": "Allnodes",
-            "url": "bitway-grpc.publicnode.com:443"
-        },
-        {
             "provider": "kjnodes",
             "url": "bitway.grpc.kjnodes.com:443"
         }
     ],
     "lcd_endpoint": [
-        {
-            "provider": "NodeStake",
-            "url": "https://api.bitway.nodestake.org/"
-        },
         {
             "provider": "Bitway Labs",
             "url": "https://rest.bitway.com/"
