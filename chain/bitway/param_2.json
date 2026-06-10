@@ -5,6 +5,51 @@
         "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitway/resource/chain_bitway.png",
     "staking_asset_denom": "ubtw",
     "staking_asset_symbol": "BTW",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitway/asset/btw.png",
+    "bech_account_prefix": "bc",
+    "bech_validator_prefix": "bcvaloper",
+    "origin_genesis_time": "2025-09-08T15:00:00Z",
+    "api_name": "bitway",
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+            "0.0006ubtw",
+            "0.0008ubtw",
+            "0.001ubtw",
+        ],
+        "is_feemarket": true,
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "Bitway Labs",
+            "url": "grpc.bitway.com:443"
+        },
+        {
+            "provider": "Allnodes",
+            "url": "bitway-grpc.publicnode.com:443"
+        },
+        {
+            "provider": "kjnodes",
+            "url": "bitway.grpc.kjnodes.com:443"
+        }
+    ],
     "lcd_endpoint": [
         {
             "provider": "NodeStake",
@@ -26,5 +71,26 @@
             "provider": "Synergy Nodes",
             "url": "https://bitway-api.synergynodes.com/"
         }
-    ]
+    ],
+    "explorer": {
+        "name": "CsosmosRun",
+        "url": "https://cosmosrun.info/bitway",
+        "account": "https://cosmosrun.info/bitway/account/${address}",
+        "tx": "https://cosmosrun.info/bitway/tx/${hash}",
+        "proposal": "https://cosmosrun.info/bitway/gov/${id}"
+    },
+    "about": {
+        "website": "https://bitway.com/",
+        "docs": "https://docs.bitway.com/",
+        "github": "https://github.com/bitwaylabs/bitway",
+        "blog": "",
+        "medium": "",
+        "twitter": "https://x.com/bitwayofficial",
+        "coingecko": "https://www.coingecko.com/en/coins/bitway"
+    },
+    "description": {
+        "ko": "Bitway는 Bitcoin 기반 자산의 활용성을 확장하기 위한 Bitcoin-compatible PoS Layer 1 블록체인입니다. 네이티브 토큰은 BTW이며, staking, governance, payment, yield, financing 등 Bitway 생태계의 핵심 유틸리티 토큰으로 사용됩니다.",
+        "en": "Bitway is a Bitcoin-compatible PoS Layer 1 blockchain designed to expand the utility of Bitcoin-based assets. Its native token is BTW, which serves as a core utility token within the Bitway ecosystem for staking, governance, payments, yield, financing, and more.",
+        "ja": "Bitwayは、Bitcoinベース資産の活用性を拡張するために設計されたBitcoin互換のPoS Layer 1ブロックチェーンです。 ネイティブトークンはBTWで、staking、governance、payment、yield、financingなど、Bitwayエコシステムにおける主要なユーティリティトークンとして使用されます。"
+    }
 }
