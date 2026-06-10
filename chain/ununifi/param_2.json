@@ -5,11 +5,65 @@
         "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ununifi/resource/chain_ununifi.png",
     "staking_asset_denom": "uguu",
     "staking_asset_symbol": "GUU",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ununifi/asset/guu.png",
+    "bech_account_prefix": "ununifi",
+    "bech_validator_prefix": "ununifivaloper",
+    "origin_genesis_time": "2022-05-25T03:00:00Z",
+    "api_name": "ununifi",
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+            "0.0025uguu",
+            "0.025uguu",
+            "0.04uguu"
+        ],
+        "is_feemarket": true,
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+    ],
     "lcd_endpoint": [
         {
             "provider": "CauchyE",
             "url": "https://a.lcd.ununifi.cauchye.net:1318/"
         }
-    ]
+    ],
+    "explorer": {
+        "name": "CsosmosRun",
+        "url": "https://cosmosrun.info/bitway",
+        "account": "https://cosmosrun.info/bitway/account/${address}",
+        "tx": "https://cosmosrun.info/bitway/tx/${hash}",
+        "proposal": "https://cosmosrun.info/bitway/gov/${id}"
+    },
+    "about": {
+        "website": "https://ununifi.io/",
+        "docs": "",
+        "github": "https://github.com/UnUniFi",
+        "blog": "",
+        "medium": "https://medium.com/@ununifi",
+        "twitter": "https://x.com/ununifi",
+        "coingecko": ""
+    },
+    "description": {
+        "ko": "UnUniFi는 Cosmos SDK 기반의 Layer 1 블록체인으로, cross-chain NFT-Fi 인프라 구축을 목표로 합니다. NFT 담보 대출 및 DeFi 기능을 중심으로, 체인 간 자산 활용성을 확장하는 생태계를 제공합니다.",
+        "en": "UnUniFi is a Cosmos SDK-based Layer 1 blockchain that aims to build cross-chain NFT-Fi infrastructure. It provides an ecosystem that expands cross-chain asset utility, centered around NFT collateralized lending and DeFi features.",
+        "ja": "UnUniFiは、Cosmos SDKベースのLayer 1ブロックチェーンで、クロスチェーンNFT-Fiインフラの構築を目的としています。 NFT担保ローンやDeFi機能を中心に、チェーン間での資産活用性を拡張するエコシステムを提供します。"
+    }
 }
 
