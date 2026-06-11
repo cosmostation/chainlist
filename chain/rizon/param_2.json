@@ -9,8 +9,8 @@
     "bech_validator_prefix" : "rizonvaloper",
     "origin_genesis_time" : "2021-09-28T08:00:00Z",
     "api_name" : "rizon",
-    "is_support_mobile_wallet": true,
-    "is_support_extension_wallet": true,
+    "is_support_mobile_wallet": false,
+    "is_support_extension_wallet": false,
     "chain_type": [
         "cosmos"
     ],
