@@ -9,11 +9,11 @@
     "bech_validator_prefix": "starsvaloper",
     "origin_genesis_time": "2021-10-29T17:00:00Z",
     "api_name": "stargaze",
-    "is_support_cw721" : true,
-    "is_support_mintscan": true,
-    "is_support_mobile_wallet": true,
-    "is_support_moblie_dapp" : true,
-    "is_support_extension_wallet": true,
+    "is_support_cw721" : false,
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet": false,
+    "is_support_moblie_dapp" : false,
+    "is_support_extension_wallet": false,
     "chain_type": [
         "cosmos"
     ],
