@@ -5,6 +5,38 @@
         "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/empower/resource/chain_empower.png",
     "staking_asset_denom": "umpwr",
     "staking_asset_symbol": "MPWR",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/empower/asset/mpwr.png",
+    "bech_account_prefix": "empower",
+    "bech_validator_prefix": "empowervaloper",
+    "origin_genesis_time": "",
+    "api_name": "empower",
+    "is_support_mintscan": false,
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base": "0",
+        "rate": [
+            "0.025umpwr",
+            "0.03umpwr"
+        ],
+        "is_feemarket": true,
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+    ],
     "lcd_endpoint": [
         {
             "provider": "KonsorTech",
@@ -22,5 +54,26 @@
             "provider": "🔥STAVR🔥",
             "url": "https://empw.api.m.stavr.tech/"
         }
-    ]
+    ],
+    "explorer": {
+        "name": "STAVR",
+        "url": "https://explorer.stavr.tech/Empower-Mainnet",
+        "account": "https://explorer.stavr.tech/Empower-Mainnet/account/${address}",
+        "tx": "https://explorer.stavr.tech/Empower-Mainnet/tx/${hash}",
+        "proposal": "https://explorer.stavr.tech/Empower-Mainnet/gov/${id}"
+    },
+    "about": {
+        "website": "",
+        "docs": "",
+        "github": "https://github.com/EmpowerPlastic",
+        "blog": "https://jord.tech/foundation",
+        "medium": "https://medium.com/clubrare-universe",
+        "twitter": "https://x.com/clubrare_nft",
+        "coingecko": "https://www.coingecko.com/en/coins/clubrare-empower"
+    },
+    "description": {
+        "ko": "EmpowerChain은 순환경제와 플라스틱 폐기물 회수를 위한 디지털 인프라를 구축하는 블록체인 프로젝트입니다.",
+        "en": "EmpowerChain is a blockchain project focused on creating digital infrastructure for the circular economy and plastic waste recovery.",
+        "ja": "EmpowerChainは、循環型経済とプラスチック廃棄物回収のためのデジタルインフラ構築に焦点を当てたブロックチェーンプロジェクトです。"
+    }
 }
