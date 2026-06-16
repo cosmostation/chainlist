@@ -40,21 +40,9 @@
         {
             "provider": "Cogwheel ⚙️",
             "url": "symphony-grpc.cogwheel.zone:443"
-        },
-        {
-            "provider": "Vinjan.Inc",
-            "url": "grpc-m.symphony.vinjan-inc.com:21090"
         }
     ],
     "lcd_endpoint": [
-        {
-            "provider": "Vinjan.Inc",
-            "url": "https://api-m.symphony.vinjan-inc.com/"
-        },
-        {
-            "provider": "Sr20de",
-            "url": "https://api-symphony.sr20de.xyz/"
-        },
         {
             "provider": "Cogwheel ⚙️",
             "url": "https://symphony-api.cogwheel.zone/"
