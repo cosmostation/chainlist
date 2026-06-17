@@ -1,10 +1,10 @@
 {
     "chain_id_cosmos" : "xion-mainnet-1",
-    "chain_name": "Xion",
-    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/resource/chain_xion.png",
+    "chain_name": "Verona",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/resource/chain_verona.png",
     "staking_asset_denom" : "uxion",
-    "staking_asset_symbol" : "XION",
-    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/asset/xion.png",
+    "staking_asset_symbol" : "VERONA",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xion/asset/verona.png",
     "bech_account_prefix" : "xion",
     "bech_validator_prefix" : "xionvaloper",
     "origin_genesis_time" : "2024-03-18T00:00:00Z",
@@ -48,10 +48,10 @@
     ],
     "explorer" : {
         "name": "Mintscan",
-        "url": "https://www.mintscan.io/xion/",
-        "account": "https://www.mintscan.io/xion/address/${address}",
-        "tx": "https://www.mintscan.io/xion/tx/${hash}",
-        "proposal": "https://www.mintscan.io/xion/proposals/${id}"
+        "url": "https://www.mintscan.io/verona/",
+        "account": "https://www.mintscan.io/verona/address/${address}",
+        "tx": "https://www.mintscan.io/verona/tx/${hash}",
+        "proposal": "https://www.mintscan.io/verona/proposals/${id}"
     },
     "about" : {
         "website" : "https://xion.burnt.com/",
@@ -64,8 +64,8 @@
         "coingecko" : "https://www.coingecko.com/en/coins/xion"
     },
     "description" : {
-        "ko" : "XION은 개발자가 체인 추상화를 통해 모든 사용자의 기술적 장벽을 제거하여 소비자용 제품을 처음부터 구축, 출시 및 확장할 수 있도록 지원합니다.",
-        "en" : "XION empowers developers to build, launch and scale consumer-ready products from the ground up, removing technical barriers for all users through its Chain Abstraction.",
-        "ja" : "XION は、チェーン抽象化を通じてすべてのユーザーの技術的な障壁を取り除き、開発者が消費者向け製品をゼロから構築、起動、拡張できるようにします。"
+        "ko" : "Verona는 AI를 위한 인텔리전스 레이어입니다. 사용자가 검증한 데이터를 이동 가능하고 비공개이며 프로그래밍 가능하게 만들어, 에이전트가 사용자가 실제로 소유한 정보를 바탕으로 거래할 수 있도록 합니다.",
+        "en" : "Verona is the intelligence layer for AI. It makes user-verified data portable, private, and programmable, so agents can transact on information the user actually owns.",
+        "ja" : "Veronaは、AIのためのインテリジェンスレイヤーです。ユーザーが検証したデータをポータブル・プライベート・プログラム可能にすることで、エージェントがユーザー自身が所有する情報を基に取引できるようにします。"
     }
 }
