@@ -26,10 +26,6 @@
     },
     "evm_rpc_endpoint" : [
         {
-            "provider": "Chain Up",
-            "url": "https://filecoin.chainup.net/rpc/v1"
-        },
-        {
             "provider": "Chain Love",
             "url": "https://api.chain.love/rpc/v1"
         },
