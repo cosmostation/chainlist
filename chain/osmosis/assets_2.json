@@ -472,7 +472,7 @@
         "type": "ibc",
         "denom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
         "name": "Stargaze",
-        "symbol": "STARS",
+        "symbol": "STARS.og",
         "description": "The native token of Stargaze",
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/stargaze/asset/stars.png",
@@ -489,6 +489,30 @@
                 "port": "transfer",
                 "chain": "stargaze",
                 "denom": "ustars"
+            }
+        }
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/68BAF19F76BAC04C4CEA06325EF91D43E8637AE43EAC7887CE6211B4B99E1EC0",
+        "name": "Stargaze",
+        "symbol": "STARS",
+        "description": "The native STARS token, migrated from Stargaze to the Cosmos Hub.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/stars.png",
+        "color": "#db2777",
+        "coinGeckoId": "stargaze",
+        "ibc_info": {
+            "path": "cosmos>osmosis",
+            "client": {
+                "channel": "channel-0",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-141",
+                "port": "transfer",
+                "chain": "cosmos",
+                "denom": "factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars"
             }
         }
     },

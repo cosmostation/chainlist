@@ -1786,5 +1786,15 @@
                 "denom": "aHAQQ"
             }
         }
+    },
+    {
+        "type": "native",
+        "denom": "factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars",
+        "name": "Stargaze",
+        "symbol": "STARS",
+        "description": "The native STARS token, migrated from Stargaze to the Cosmos Hub.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/stars.png",
+        "coinGeckoId": "stargaze"
     }
 ]
