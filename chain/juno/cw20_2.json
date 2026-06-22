@@ -247,18 +247,6 @@
     },
     {
         "type": "cw20",
-        "contract": "juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
-        "name" : "POSTHUMAN",
-        "symbol": "PHMN",
-        "description": "The native token cw20 for PHMN on Juno Chain",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/juno/asset/phmn.png",
-        "coinGeckoId": "posthuman",
-        "color": "#bbc2c6",
-        "wallet_preload": true
-    },
-    {
-        "type": "cw20",
         "contract": "juno13926947pmrjly5p9hf5juey65c6rget0gqrnx3us3r6pvnpf4hwqm8mchy",
         "name" : "PUNK JUNO TOKEN",
         "symbol": "PUNK",

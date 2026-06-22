@@ -3148,30 +3148,6 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
-        "name": "POSTHUMAN",
-        "symbol": "PHMN",
-        "description": "The native token cw20 for PHMN on Juno Chain",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg",
-        "color": "#bbc2c6",
-        "coinGeckoId": "posthuman",
-        "ibc_info": {
-            "path": "juno>osmosis",
-            "client": {
-                "channel": "channel-169",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-47",
-                "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
-                "chain": "juno",
-                "denom": "juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
-            }
-        }
-    },
-    {
-        "type": "ibc",
         "denom": "ibc/18A1B70E3205A48DE8590C0D11030E7146CDBF1048789261D53FFFD7527F8B55",
         "name": "Amber",
         "symbol": "AMBER",

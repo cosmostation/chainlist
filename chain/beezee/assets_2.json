@@ -81,30 +81,6 @@
     },
     {
         "type": "ibc",
-        "denom": "ibc/12C0B8B561AFCFDA3C73DEE0F7F84AA2B860D48493C27E8E81A5D14724FAB08B",
-        "name": "POSTHUMAN",
-        "symbol": "PHMN",
-        "description": "The native token cw20 for PHMN on Juno Chain",
-        "decimals": 6,
-        "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg",
-        "color": "#bbc2c6",
-        "coinGeckoId": "posthuman",
-        "ibc_info": {
-            "path": "juno>osmosis>beezee",
-            "client": {
-                "channel": "channel-0",
-                "port": "transfer"
-            },
-            "counterparty": {
-                "channel": "channel-340",
-                "port": "transfer",
-                "chain": "osmosis",
-                "denom": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B"
-            }
-        }
-    },
-    {
-        "type": "ibc",
         "denom": "ibc/C00D101A3572A5374E23F11944463D1325319E255D7C824B33AF2F927F532348",
         "name": "Archway",
         "symbol": "ARCH",

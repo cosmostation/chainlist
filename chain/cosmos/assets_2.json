@@ -1722,6 +1722,17 @@
         "coinGeckoId": ""
     },
     {
+        "type": "native",
+        "denom": "factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN",
+        "name": "POSTHUMAN",
+        "symbol": "PHMN",
+        "description": "POSTHUMAN (PHMN) is the governance token of the POSTHUMAN DAO, issued on Cosmos Hub through TokenFactory.",
+        "decimals": 6,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/phmn.svg",
+        "color": "#bbc2c6",
+        "coinGeckoId": ""
+    },
+    {
         "type": "ibc",
         "denom": "ibc/5512EB544A275E5375CE4D82233BDAA2D03002E352A9C6B0049175BD368DF10E",
         "name": "EURC",
