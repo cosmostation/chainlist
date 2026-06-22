@@ -1796,5 +1796,28 @@
         "decimals": 6,
         "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/cosmos/asset/stars.png",
         "coinGeckoId": "stargaze"
+    },
+    {
+        "type": "ibc",
+        "denom": "ibc/D9E40E9047E09AAC6CDF9D133AC54C778B44A03690A91B9F5EDFF9F53C2A0977",
+        "name" : "Allora",
+        "symbol": "ALLO",
+        "description": "Allora Staking Coin",
+        "decimals": 18,
+        "image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/allora/asset/allo.png",
+        "coinGeckoId": "allora",
+        "ibc_info" : {
+            "path": "allora>cosmos",
+            "client" : {
+                "channel": "channel-1353",
+                "port": "transfer"
+            },
+            "counterparty": {
+                "channel": "channel-2",
+                "port": "transfer",
+                "chain": "allora",
+                "denom": "uallo"
+            }
+        }
     }
 ]
