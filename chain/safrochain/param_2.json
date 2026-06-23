@@ -1,0 +1,74 @@
+{
+    "chain_id_cosmos": "safrochain-1",
+    "chain_name": "Safrochain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/safrochain/resource/chain_safrochain.png",
+    "staking_asset_denom": "usaf",
+    "staking_asset_symbol": "SAF",
+    "staking_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/safrochain/asset/saf.png",
+    "bech_account_prefix": "addr_safro",
+    "bech_validator_prefix": "addr_safrovaloper",
+    "origin_genesis_time": "2026-06-24T00:00:00Z",
+    "api_name": "safrochain",
+    "is_support_cw20": true,
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "0",
+        "rate": [
+            "0.05usaf",
+            "0.075usaf",
+            "0.1usaf"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000,
+        "fee_threshold": ""
+    },
+    "grpc_endpoint": [
+        {
+            "provider": "Safrochain Foundation",
+            "url": "grpc1.safrochain.network:443"
+        },
+        {
+            "provider": "Safrochain Foundation",
+            "url": "grpc2.safrochain.network:443"
+        }
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "Safrochain Foundation",
+            "url": "https://api1.safrochain.network/"
+        },
+        {
+            "provider": "Safrochain Foundation",
+            "url": "https://api2.safrochain.network/"
+        }
+    ],
+    "explorer": {
+        "name": "Safrochain Explorer",
+        "url": "https://explorer.safrochain.network/",
+        "account": "https://explorer.safrochain.network/accounts/${address}",
+        "tx": "https://explorer.safrochain.network/transactions/${hash}",
+        "proposal": ""
+    },
+    "about": {
+        "website": "https://safrochain.com/",
+        "github": "https://github.com/Safrochain-Org/safrochain-node",
+        "twitter": "https://x.com/safrochain"
+    },
+    "description": {
+        "en": "Safrochain is an Africa-first Cosmos SDK Layer-1 secured by CometBFT, built for mobile-first users, everyday payments, remittances, and real utility. It features CosmWasm smart contracts, IBC interoperability, and predictable fees for cross-chain applications.",
+        "ko": "Safrochain은 CometBFT로 보호되는 아프리카 우선 Cosmos SDK Layer-1으로, 모바일 중심 사용자, 일상 결제, 송금, 실사용 유틸리티를 위해 구축되었습니다. CosmWasm 스마트 컨트랙트, IBC 상호운용성, 예측 가능한 수수료를 제공합니다."
+    }
+}
