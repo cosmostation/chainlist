@@ -1,5 +1,20 @@
 
 
+# Deprecated
+
+[!IMPORTANT]
+This repository has been deprecated and is no longer maintained.
+
+Do not submit new issues or pull requests to this repository.
+
+Please use the new repository for all future updates, issues, and pull requests:
+
+👉 https://github.com/CosmosLabsKR/chainlist
+
+
+
+
+
 ## Chain Information By Cosmostation
 
 - Migrated from [Token Resource](https://github.com/cosmostation/cosmostation_token_resource)
