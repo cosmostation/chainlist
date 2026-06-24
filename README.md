@@ -1,9 +1,7 @@
 
 
-# Deprecated
-
-[!IMPORTANT]
-This repository has been deprecated and is no longer maintained.
+# ⚠️ Deprecated
+This repository is no longer maintained.
 
 Do not submit new issues or pull requests to this repository.
 
